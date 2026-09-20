@@ -1,0 +1,4604 @@
+{
+  "workId": "wrk_lievre_tortue",
+  "sourceDigest": "sha256:ff9e3179fb4d4c0ed4715238724f8ec06090096e0706c05566ea1a8be5fa12d9",
+  "tokenCount": 261,
+  "distinctFormCount": 163,
+  "possibleReuseCount": 35,
+  "newFormCount": 128,
+  "candidates": [
+    {
+      "normalized": "rien",
+      "displayForms": [
+        "Rien"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9e03aa93b602fa0aa8f360c4"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9e03aa93b602fa0aa8f360c4",
+          "action": "new_identity",
+          "lemmaId": "lem_rien",
+          "senseId": "sns_rien_primary",
+          "surfaceFormId": "srf_rien",
+          "rationale": "Rien is the indefinite pronoun nothing in this text."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ne",
+      "displayForms": [
+        "ne"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_bde20a7c6e82c8b2a3c4de2a"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_ne",
+          "lemmaId": "lem_ne",
+          "senseIds": [
+            "sns_ne_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_bde20a7c6e82c8b2a3c4de2a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_ne",
+          "senseId": "sns_ne_primary",
+          "surfaceFormId": "srf_ne",
+          "rationale": "Ne is the negative adverb used in the ne ... pas/point constructions."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "sert",
+      "displayForms": [
+        "sert"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0e4454801153fe5f6d8a7adb",
+        "tok_6d25bc243761d870ee1b14c6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0e4454801153fe5f6d8a7adb",
+          "action": "new_identity",
+          "lemmaId": "lem_servir",
+          "senseId": "sns_servir_primary",
+          "surfaceFormId": "srf_sert",
+          "rationale": "Sert is the third-person singular present of servir, to serve."
+        },
+        {
+          "occurrenceCandidateId": "tok_6d25bc243761d870ee1b14c6",
+          "action": "new_identity",
+          "lemmaId": "lem_servir",
+          "senseId": "sns_servir_primary",
+          "surfaceFormId": "srf_sert",
+          "rationale": "Sert is the third-person singular present of servir, to serve."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "de",
+      "displayForms": [
+        "de",
+        "De"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_107d993a92c4fa17c9469baf",
+        "tok_034c44de9e182c796d26b977",
+        "tok_b4a7b4a8e8587a139ec94c7b",
+        "tok_d1dbf93b507c89f0e5d4abb9",
+        "tok_2962722aa579f380c631187c",
+        "tok_d8ed7eb480c2d3048879ee31",
+        "tok_bf4048dabd2fd70dffed9bfb",
+        "tok_6cd3a897fdb47e3504fbcb9f",
+        "tok_eb356710e21035450eb6c9f0",
+        "tok_73d7929077f1142f0835807e",
+        "tok_a297f6256c3f89c2e38bcfdf"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_de",
+          "lemmaId": "lem_de",
+          "senseIds": [
+            "sns_de_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_107d993a92c4fa17c9469baf",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_034c44de9e182c796d26b977",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_b4a7b4a8e8587a139ec94c7b",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_d1dbf93b507c89f0e5d4abb9",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_2962722aa579f380c631187c",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_d8ed7eb480c2d3048879ee31",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_bf4048dabd2fd70dffed9bfb",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_6cd3a897fdb47e3504fbcb9f",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_eb356710e21035450eb6c9f0",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_73d7929077f1142f0835807e",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_a297f6256c3f89c2e38bcfdf",
+          "action": "reuse_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_de",
+          "rationale": "De is the preposition of/from or the infinitive marker in these occurrences."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "courir",
+      "displayForms": [
+        "courir"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_f70f3e035b9f715294e62cae"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_f70f3e035b9f715294e62cae",
+          "action": "new_identity",
+          "lemmaId": "lem_courir",
+          "senseId": "sns_courir_primary",
+          "surfaceFormId": "srf_courir",
+          "rationale": "Courir is the infinitive to run."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "il",
+      "displayForms": [
+        "il",
+        "Il"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_95e7926f93b28523bdcdbc93",
+        "tok_05c189fb861f8bff3ce1889c",
+        "tok_869b49d0a05880a76778a30d",
+        "tok_1e246dd0139e4809a8031371",
+        "tok_21bd0022c9221bde9ec4430a",
+        "tok_6ea4c9b9cb0c346e28289885",
+        "tok_6bdda2cf7cbcca027cedb2fd",
+        "tok_a3a1dd7e7b0d9238fe682b01",
+        "tok_47493e6cf71ecfb0c908eec2",
+        "tok_06f064306bcd7a160488d0c6",
+        "tok_2b300267ea12a282348f64e7",
+        "tok_86c1e4b32f24b26842dd5cec"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_il",
+          "lemmaId": "lem_il",
+          "senseIds": [
+            "sns_il_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_95e7926f93b28523bdcdbc93",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_05c189fb861f8bff3ce1889c",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_869b49d0a05880a76778a30d",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_1e246dd0139e4809a8031371",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_21bd0022c9221bde9ec4430a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_6ea4c9b9cb0c346e28289885",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_6bdda2cf7cbcca027cedb2fd",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_a3a1dd7e7b0d9238fe682b01",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_47493e6cf71ecfb0c908eec2",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_06f064306bcd7a160488d0c6",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_2b300267ea12a282348f64e7",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        },
+        {
+          "occurrenceCandidateId": "tok_86c1e4b32f24b26842dd5cec",
+          "action": "reuse_identity",
+          "lemmaId": "lem_il",
+          "senseId": "sns_il_primary",
+          "surfaceFormId": "srf_il",
+          "rationale": "Il is the third-person masculine subject pronoun he/it."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "faut",
+      "displayForms": [
+        "faut"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_01d194f84441a07d6921ea8c",
+        "tok_8f1c1392226f10d89f2deeb9"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_01d194f84441a07d6921ea8c",
+          "action": "new_identity",
+          "lemmaId": "lem_falloir",
+          "senseId": "sns_falloir_primary",
+          "surfaceFormId": "srf_faut",
+          "rationale": "Faut is the impersonal present form of falloir, must/be necessary."
+        },
+        {
+          "occurrenceCandidateId": "tok_8f1c1392226f10d89f2deeb9",
+          "action": "new_identity",
+          "lemmaId": "lem_falloir",
+          "senseId": "sns_falloir_primary",
+          "surfaceFormId": "srf_faut",
+          "rationale": "Faut is the impersonal present form of falloir, must/be necessary."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "partir",
+      "displayForms": [
+        "partir"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ed4d2a2a448de1ddc2f93c67",
+        "tok_2c76ac1396e7a37bc48f0b97"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ed4d2a2a448de1ddc2f93c67",
+          "action": "new_identity",
+          "lemmaId": "lem_partir",
+          "senseId": "sns_partir_primary",
+          "surfaceFormId": "srf_partir",
+          "rationale": "Partir is the infinitive to leave/depart."
+        },
+        {
+          "occurrenceCandidateId": "tok_2c76ac1396e7a37bc48f0b97",
+          "action": "new_identity",
+          "lemmaId": "lem_partir",
+          "senseId": "sns_partir_primary",
+          "surfaceFormId": "srf_partir",
+          "rationale": "Partir is the infinitive to leave/depart."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "à",
+      "displayForms": [
+        "à",
+        "À"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8ff86f039bf2305054ce8f06",
+        "tok_a8d62b42cf539fb1da39c779",
+        "tok_62a3e9cf557d8a098977d30d",
+        "tok_c5a4c4eae0e5fbf8b1a16109",
+        "tok_ef9b0d28c05c7e074f64fae2",
+        "tok_3de7cf9e228aafe0f30e1f78"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_a",
+          "lemmaId": "lem_a",
+          "senseIds": [
+            "sns_a_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8ff86f039bf2305054ce8f06",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_a8d62b42cf539fb1da39c779",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_62a3e9cf557d8a098977d30d",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_c5a4c4eae0e5fbf8b1a16109",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_ef9b0d28c05c7e074f64fae2",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_3de7cf9e228aafe0f30e1f78",
+          "action": "reuse_identity",
+          "lemmaId": "lem_a",
+          "senseId": "sns_a_primary",
+          "surfaceFormId": "srf_a",
+          "rationale": "À is the preposition used for at/to/in these occurrences."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "point",
+      "displayForms": [
+        "point"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9df443d478de98d5baaa9ea3",
+        "tok_87f54dfc230f106562124b22"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9df443d478de98d5baaa9ea3",
+          "action": "new_identity",
+          "lemmaId": "lem_point_noun",
+          "senseId": "sns_point_opportune",
+          "surfaceFormId": "srf_point_noun",
+          "rationale": "In à point, point means the appropriate or timely moment."
+        },
+        {
+          "occurrenceCandidateId": "tok_87f54dfc230f106562124b22",
+          "action": "new_identity",
+          "lemmaId": "lem_point_adverb",
+          "senseId": "sns_point_negation",
+          "surfaceFormId": "srf_point_adverb",
+          "rationale": "With ne, point is the literary negative adverb not at all."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "le",
+      "displayForms": [
+        "Le",
+        "le"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_5c0b95d3765e8dd9447ef17e",
+        "tok_8a335661e5f9a3cee8141c15"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_le",
+          "lemmaId": "lem_le",
+          "senseIds": [
+            "sns_le_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_5c0b95d3765e8dd9447ef17e",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_le",
+          "rationale": "Le is the masculine singular definite article."
+        },
+        {
+          "occurrenceCandidateId": "tok_8a335661e5f9a3cee8141c15",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_le",
+          "rationale": "Le is the masculine singular definite article."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "lièvre",
+      "displayForms": [
+        "Lièvre"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8a2d713418f9367333dd0ed1",
+        "tok_6ac8ebde4e8c68269398d7c3"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8a2d713418f9367333dd0ed1",
+          "action": "new_identity",
+          "lemmaId": "lem_lievre",
+          "senseId": "sns_lievre_primary",
+          "surfaceFormId": "srf_lievre",
+          "rationale": "Lièvre is the noun hare."
+        },
+        {
+          "occurrenceCandidateId": "tok_6ac8ebde4e8c68269398d7c3",
+          "action": "new_identity",
+          "lemmaId": "lem_lievre",
+          "senseId": "sns_lievre_primary",
+          "surfaceFormId": "srf_lievre",
+          "rationale": "Lièvre is the noun hare."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "et",
+      "displayForms": [
+        "et"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_fec187287703f4db0ac08b66",
+        "tok_9c6785185ac00bee553dceb9",
+        "tok_a5a8c27b1978aba549b349b5",
+        "tok_ddc77cef33e674bbbcc771a2",
+        "tok_ba5acb8b91c0fe9759f27fc8"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_et",
+          "lemmaId": "lem_et",
+          "senseIds": [
+            "sns_et_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_fec187287703f4db0ac08b66",
+          "action": "reuse_identity",
+          "lemmaId": "lem_et",
+          "senseId": "sns_et_primary",
+          "surfaceFormId": "srf_et",
+          "rationale": "Et is the conjunction and in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_9c6785185ac00bee553dceb9",
+          "action": "reuse_identity",
+          "lemmaId": "lem_et",
+          "senseId": "sns_et_primary",
+          "surfaceFormId": "srf_et",
+          "rationale": "Et is the conjunction and in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_a5a8c27b1978aba549b349b5",
+          "action": "reuse_identity",
+          "lemmaId": "lem_et",
+          "senseId": "sns_et_primary",
+          "surfaceFormId": "srf_et",
+          "rationale": "Et is the conjunction and in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_ddc77cef33e674bbbcc771a2",
+          "action": "reuse_identity",
+          "lemmaId": "lem_et",
+          "senseId": "sns_et_primary",
+          "surfaceFormId": "srf_et",
+          "rationale": "Et is the conjunction and in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_ba5acb8b91c0fe9759f27fc8",
+          "action": "reuse_identity",
+          "lemmaId": "lem_et",
+          "senseId": "sns_et_primary",
+          "surfaceFormId": "srf_et",
+          "rationale": "Et is the conjunction and in every occurrence here."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "la",
+      "displayForms": [
+        "la"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_dba158d3f883614a48fd56a7",
+        "tok_759b4c7225d26d53de95e6fe",
+        "tok_56c4b65726d1e34cbad61df9",
+        "tok_608a2f42d3cf483d7d684f01",
+        "tok_e9da8d82adb84690aae0370c",
+        "tok_88aae9e14973a722cd3981cf",
+        "tok_75c42504e35ed4518e406b77",
+        "tok_f12d7e8b29a6594739a17738"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_dba158d3f883614a48fd56a7",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_759b4c7225d26d53de95e6fe",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_56c4b65726d1e34cbad61df9",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_608a2f42d3cf483d7d684f01",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_e9da8d82adb84690aae0370c",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_88aae9e14973a722cd3981cf",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_75c42504e35ed4518e406b77",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_f12d7e8b29a6594739a17738",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_la",
+          "rationale": "La is the feminine singular definite article, sharing the le lemma and sense."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "tortue",
+      "displayForms": [
+        "Tortue"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_68dbed29c0b43532451eb258",
+        "tok_7ed5e3e67f4c488e792d7f5b",
+        "tok_e961ec9fe2b1df6d4d9703fa"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_68dbed29c0b43532451eb258",
+          "action": "new_identity",
+          "lemmaId": "lem_tortue",
+          "senseId": "sns_tortue_primary",
+          "surfaceFormId": "srf_tortue",
+          "rationale": "Tortue is the noun tortoise/turtle."
+        },
+        {
+          "occurrenceCandidateId": "tok_7ed5e3e67f4c488e792d7f5b",
+          "action": "new_identity",
+          "lemmaId": "lem_tortue",
+          "senseId": "sns_tortue_primary",
+          "surfaceFormId": "srf_tortue",
+          "rationale": "Tortue is the noun tortoise/turtle."
+        },
+        {
+          "occurrenceCandidateId": "tok_e961ec9fe2b1df6d4d9703fa",
+          "action": "new_identity",
+          "lemmaId": "lem_tortue",
+          "senseId": "sns_tortue_primary",
+          "surfaceFormId": "srf_tortue",
+          "rationale": "Tortue is the noun tortoise/turtle."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "en",
+      "displayForms": [
+        "en"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ddde19fcce365ffbfd2ce6f3"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_en",
+          "lemmaId": "lem_en",
+          "senseIds": [
+            "sns_en_in",
+            "sns_en_it"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ddde19fcce365ffbfd2ce6f3",
+          "action": "reuse_identity",
+          "lemmaId": "lem_en",
+          "senseId": "sns_en_it",
+          "surfaceFormId": "srf_en",
+          "rationale": "In en sont un témoignage, en refers back to the preceding situation."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "sont",
+      "displayForms": [
+        "sont"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b156c3db9670e1d132b07781"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b156c3db9670e1d132b07781",
+          "action": "new_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_sont",
+          "rationale": "Sont is the third-person plural present of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "un",
+      "displayForms": [
+        "un"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_e2aa4b4c2b107fda0e1ed06a",
+        "tok_e3e0db479379f07c8dcb1f8a"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_un",
+          "lemmaId": "lem_un",
+          "senseIds": [
+            "sns_un_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_e2aa4b4c2b107fda0e1ed06a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_un",
+          "senseId": "sns_un_primary",
+          "surfaceFormId": "srf_un",
+          "rationale": "Un is the indefinite masculine article."
+        },
+        {
+          "occurrenceCandidateId": "tok_e3e0db479379f07c8dcb1f8a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_un",
+          "senseId": "sns_un_primary",
+          "surfaceFormId": "srf_un",
+          "rationale": "Un is the indefinite masculine article."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "témoignage",
+      "displayForms": [
+        "témoignage"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3ce4ab3702f6219f522bf9fe"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3ce4ab3702f6219f522bf9fe",
+          "action": "new_identity",
+          "lemmaId": "lem_temoignage",
+          "senseId": "sns_temoignage_primary",
+          "surfaceFormId": "srf_temoignage",
+          "rationale": "Témoignage is the noun testimony/evidence."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "gageons",
+      "displayForms": [
+        "Gageons"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_14169a25c0842e7de0bb8cc0"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_14169a25c0842e7de0bb8cc0",
+          "action": "new_identity",
+          "lemmaId": "lem_gager",
+          "senseId": "sns_gager_primary",
+          "surfaceFormId": "srf_gageons",
+          "rationale": "Gageons is the first-person plural imperative of gager, let us wager."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "dit",
+      "displayForms": [
+        "dit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_d26365e2d3348edeac3a5206"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_dit",
+          "lemmaId": "lem_dire",
+          "senseIds": [
+            "sns_dire_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_d26365e2d3348edeac3a5206",
+          "action": "reuse_identity",
+          "lemmaId": "lem_dire",
+          "senseId": "sns_dire_primary",
+          "surfaceFormId": "srf_dit",
+          "rationale": "Dit is the past-tense form of dire, says/said."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "celle-ci",
+      "displayForms": [
+        "celle-ci"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_1c4bcd9ba14304a96ba05e32"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_1c4bcd9ba14304a96ba05e32",
+          "action": "new_identity",
+          "lemmaId": "lem_celui",
+          "senseId": "sns_celui_primary",
+          "surfaceFormId": "srf_celle_ci",
+          "rationale": "Celle-ci is the feminine demonstrative pronoun this one."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "que",
+      "displayForms": [
+        "que"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_f8223c90f3dcc20f9997e7c1",
+        "tok_cb827c971d3c1dd2e3180465",
+        "tok_39b72d6b7bdf4a263487c59f",
+        "tok_83cc8238751bccc2f0e00cf7",
+        "tok_8c547b7b06853867bbd12d21"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_que",
+          "lemmaId": "lem_que",
+          "senseIds": [
+            "sns_que_conjunction",
+            "sns_que_exclamative"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_f8223c90f3dcc20f9997e7c1",
+          "action": "reuse_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_conjunction",
+          "surfaceFormId": "srf_que",
+          "rationale": "Que introduces the clause containing the proposed wager."
+        },
+        {
+          "occurrenceCandidateId": "tok_cb827c971d3c1dd2e3180465",
+          "action": "reuse_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_conjunction",
+          "surfaceFormId": "srf_que",
+          "rationale": "Que completes the temporal comparison sitôt que."
+        },
+        {
+          "occurrenceCandidateId": "tok_39b72d6b7bdf4a263487c59f",
+          "action": "new_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_restrictive",
+          "surfaceFormId": "srf_que",
+          "rationale": "In ne ... que, que is the restrictive marker only."
+        },
+        {
+          "occurrenceCandidateId": "tok_83cc8238751bccc2f0e00cf7",
+          "action": "reuse_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_conjunction",
+          "surfaceFormId": "srf_que",
+          "rationale": "Que introduces the subordinate clause after vit."
+        },
+        {
+          "occurrenceCandidateId": "tok_8c547b7b06853867bbd12d21",
+          "action": "new_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_interrogative",
+          "surfaceFormId": "srf_que",
+          "rationale": "Que introduces the rhetorical question what would it be."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vous",
+      "displayForms": [
+        "vous"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_144bd439a63920f96fb3bbf3",
+        "tok_19fef8410b448cbd5224dce9",
+        "tok_9f34ebe5acdb7ee7d00a6fe1",
+        "tok_8497fcc5649249a91697658a",
+        "tok_a50f65c92f9f4ebc9b5ec09d"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_vous",
+          "lemmaId": "lem_vous",
+          "senseIds": [
+            "sns_vous_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_144bd439a63920f96fb3bbf3",
+          "action": "reuse_identity",
+          "lemmaId": "lem_vous",
+          "senseId": "sns_vous_primary",
+          "surfaceFormId": "srf_vous",
+          "rationale": "Vous is the second-person pronoun in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_19fef8410b448cbd5224dce9",
+          "action": "reuse_identity",
+          "lemmaId": "lem_vous",
+          "senseId": "sns_vous_primary",
+          "surfaceFormId": "srf_vous",
+          "rationale": "Vous is the second-person pronoun in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_9f34ebe5acdb7ee7d00a6fe1",
+          "action": "reuse_identity",
+          "lemmaId": "lem_vous",
+          "senseId": "sns_vous_primary",
+          "surfaceFormId": "srf_vous",
+          "rationale": "Vous is the second-person pronoun in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_8497fcc5649249a91697658a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_vous",
+          "senseId": "sns_vous_primary",
+          "surfaceFormId": "srf_vous",
+          "rationale": "Vous is the second-person pronoun in every occurrence here."
+        },
+        {
+          "occurrenceCandidateId": "tok_a50f65c92f9f4ebc9b5ec09d",
+          "action": "reuse_identity",
+          "lemmaId": "lem_vous",
+          "senseId": "sns_vous_primary",
+          "surfaceFormId": "srf_vous",
+          "rationale": "Vous is the second-person pronoun in every occurrence here."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "n’",
+      "displayForms": [
+        "n’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_e75254cb31a8cdee83c66ff1",
+        "tok_7ef5d0125a6d2e4727f3ec9e",
+        "tok_68f407d6a864b78af4b1aa0a"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_e75254cb31a8cdee83c66ff1",
+          "action": "new_identity",
+          "lemmaId": "lem_ne",
+          "senseId": "sns_ne_primary",
+          "surfaceFormId": "srf_n_elided",
+          "rationale": "N’ is the elided surface form of the negative adverb ne."
+        },
+        {
+          "occurrenceCandidateId": "tok_7ef5d0125a6d2e4727f3ec9e",
+          "action": "new_identity",
+          "lemmaId": "lem_ne",
+          "senseId": "sns_ne_primary",
+          "surfaceFormId": "srf_n_elided",
+          "rationale": "N’ is the elided surface form of the negative adverb ne."
+        },
+        {
+          "occurrenceCandidateId": "tok_68f407d6a864b78af4b1aa0a",
+          "action": "new_identity",
+          "lemmaId": "lem_ne",
+          "senseId": "sns_ne_primary",
+          "surfaceFormId": "srf_n_elided",
+          "rationale": "N’ is the elided surface form of the negative adverb ne."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "atteindrez",
+      "displayForms": [
+        "atteindrez"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_96a66eb6faec48718d43ef56"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_96a66eb6faec48718d43ef56",
+          "action": "new_identity",
+          "lemmaId": "lem_atteindre",
+          "senseId": "sns_atteindre_primary",
+          "surfaceFormId": "srf_atteindrez",
+          "rationale": "Atteindrez is the second-person plural future of atteindre."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "sitôt",
+      "displayForms": [
+        "sitôt",
+        "Sitôt"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3e9e84f418f3164cb6079c63",
+        "tok_cdbaf2376151985c9ae56673"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3e9e84f418f3164cb6079c63",
+          "action": "new_identity",
+          "lemmaId": "lem_sitot",
+          "senseId": "sns_sitot_primary",
+          "surfaceFormId": "srf_sitot",
+          "rationale": "Sitôt is the adverb so soon."
+        },
+        {
+          "occurrenceCandidateId": "tok_cdbaf2376151985c9ae56673",
+          "action": "new_identity",
+          "lemmaId": "lem_sitot",
+          "senseId": "sns_sitot_primary",
+          "surfaceFormId": "srf_sitot",
+          "rationale": "Sitôt is the adverb so soon."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "moi",
+      "displayForms": [
+        "moi",
+        "Moi"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_2f0a4d3e562903f0c9fa2985",
+        "tok_1f88895d341d0cc10b7ba44f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_2f0a4d3e562903f0c9fa2985",
+          "action": "new_identity",
+          "lemmaId": "lem_moi",
+          "senseId": "sns_moi_primary",
+          "surfaceFormId": "srf_moi",
+          "rationale": "Moi is the stressed first-person pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_1f88895d341d0cc10b7ba44f",
+          "action": "new_identity",
+          "lemmaId": "lem_moi",
+          "senseId": "sns_moi_primary",
+          "surfaceFormId": "srf_moi",
+          "rationale": "Moi is the stressed first-person pronoun."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ce",
+      "displayForms": [
+        "ce"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3a2056bc239a3b5cfffee2b4",
+        "tok_5b5afb261d32a7b9de691702",
+        "tok_0a0f189cdf5d07356ab08cc2"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_ce",
+          "lemmaId": "lem_ce",
+          "senseIds": [
+            "sns_ce_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3a2056bc239a3b5cfffee2b4",
+          "action": "reuse_identity",
+          "lemmaId": "lem_ce",
+          "senseId": "sns_ce_primary",
+          "surfaceFormId": "srf_ce",
+          "rationale": "Ce is the demonstrative determiner in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_5b5afb261d32a7b9de691702",
+          "action": "reuse_identity",
+          "lemmaId": "lem_ce",
+          "senseId": "sns_ce_primary",
+          "surfaceFormId": "srf_ce",
+          "rationale": "Ce is the demonstrative determiner in these occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_0a0f189cdf5d07356ab08cc2",
+          "action": "reuse_identity",
+          "lemmaId": "lem_ce",
+          "senseId": "sns_ce_primary",
+          "surfaceFormId": "srf_ce",
+          "rationale": "Ce is the demonstrative determiner in these occurrences."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "but",
+      "displayForms": [
+        "but"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9c3b205f87cfe17d3ad20329",
+        "tok_133b8b81527ff45b47085d2f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9c3b205f87cfe17d3ad20329",
+          "action": "new_identity",
+          "lemmaId": "lem_but",
+          "senseId": "sns_but_primary",
+          "surfaceFormId": "srf_but",
+          "rationale": "But is the noun goal."
+        },
+        {
+          "occurrenceCandidateId": "tok_133b8b81527ff45b47085d2f",
+          "action": "new_identity",
+          "lemmaId": "lem_but",
+          "senseId": "sns_but_primary",
+          "surfaceFormId": "srf_but",
+          "rationale": "But is the noun goal."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "êtes",
+      "displayForms": [
+        "Êtes"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_46ee72532e559339d42ae2f4"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_etes",
+          "lemmaId": "lem_etre",
+          "senseIds": [
+            "sns_etre_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_46ee72532e559339d42ae2f4",
+          "action": "reuse_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_etes",
+          "rationale": "Êtes is the second-person plural present of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "sage",
+      "displayForms": [
+        "sage",
+        "Sage"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b99ce9b7e395d56cb0be1ae8",
+        "tok_cd3cbe1f9c1908fe33e26e96"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b99ce9b7e395d56cb0be1ae8",
+          "action": "new_identity",
+          "lemmaId": "lem_sage",
+          "senseId": "sns_sage_primary",
+          "surfaceFormId": "srf_sage",
+          "rationale": "Sage is the adjective wise/sensible."
+        },
+        {
+          "occurrenceCandidateId": "tok_cd3cbe1f9c1908fe33e26e96",
+          "action": "new_identity",
+          "lemmaId": "lem_sage",
+          "senseId": "sns_sage_primary",
+          "surfaceFormId": "srf_sage",
+          "rationale": "Sage is the adjective wise/sensible."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "repartit",
+      "displayForms": [
+        "repartit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0bedbc99be9eda9f621cfec7"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0bedbc99be9eda9f621cfec7",
+          "action": "new_identity",
+          "lemmaId": "lem_repartir",
+          "senseId": "sns_repartir_primary",
+          "surfaceFormId": "srf_repartit",
+          "rationale": "Repartit is the past historic of repartir, replied."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "l’",
+      "displayForms": [
+        "l’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_2ad603b6b825cfa5d4872785",
+        "tok_301d6e235babde34d0f9b13f",
+        "tok_6bde49898eea0420cafeaa82",
+        "tok_0c2768bd1d3cd17f76275dff",
+        "tok_ecea233d337455c64a7f17e4"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_l_elided",
+          "lemmaId": "lem_le",
+          "senseIds": [
+            "sns_le_object",
+            "sns_le_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_2ad603b6b825cfa5d4872785",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_l_elided",
+          "rationale": "L’ is the elided definite article before animal."
+        },
+        {
+          "occurrenceCandidateId": "tok_301d6e235babde34d0f9b13f",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_l_elided",
+          "rationale": "L’ is the elided definite article before affaire."
+        },
+        {
+          "occurrenceCandidateId": "tok_6bde49898eea0420cafeaa82",
+          "action": "exclude_editorial",
+          "rationale": "L’ in literary l’on is an optional euphonic particle, not learner vocabulary."
+        },
+        {
+          "occurrenceCandidateId": "tok_0c2768bd1d3cd17f76275dff",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_l_elided",
+          "rationale": "L’ is the elided definite article before autre."
+        },
+        {
+          "occurrenceCandidateId": "tok_ecea233d337455c64a7f17e4",
+          "action": "reuse_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_object",
+          "surfaceFormId": "srf_l_elided",
+          "rationale": "L’ is the direct-object pronoun it in l’emporter."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "animal",
+      "displayForms": [
+        "animal"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9abce1769b78ba2c11366889"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9abce1769b78ba2c11366889",
+          "action": "new_identity",
+          "lemmaId": "lem_animal",
+          "senseId": "sns_animal_primary",
+          "surfaceFormId": "srf_animal",
+          "rationale": "Animal is the noun animal."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "léger",
+      "displayForms": [
+        "léger"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_14429665da464500e5f98aa7"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_14429665da464500e5f98aa7",
+          "action": "new_identity",
+          "lemmaId": "lem_leger",
+          "senseId": "sns_leger_primary",
+          "surfaceFormId": "srf_leger",
+          "rationale": "Léger is the adjective light."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ma",
+      "displayForms": [
+        "Ma"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_e43ffda253abd4657c737b87"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_e43ffda253abd4657c737b87",
+          "action": "new_identity",
+          "lemmaId": "lem_mon",
+          "senseId": "sns_mon_primary",
+          "surfaceFormId": "srf_ma",
+          "rationale": "Ma is the feminine surface form of the first-person possessive determiner."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "commère",
+      "displayForms": [
+        "commère"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_53135dee4027cb779f650ab6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_53135dee4027cb779f650ab6",
+          "action": "new_identity",
+          "lemmaId": "lem_commere",
+          "senseId": "sns_commere_primary",
+          "surfaceFormId": "srf_commere",
+          "rationale": "Commère is an old-fashioned familiar form of address for a woman, sometimes implying a gossip."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "purger",
+      "displayForms": [
+        "purger"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_95c4f00e868dc4dca69bf78a"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_95c4f00e868dc4dca69bf78a",
+          "action": "new_identity",
+          "lemmaId": "lem_purger",
+          "senseId": "sns_purger_primary",
+          "surfaceFormId": "srf_purger",
+          "rationale": "Purger is the infinitive to purge."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "avec",
+      "displayForms": [
+        "avec"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_58e6c24ad6b2f026a275a796",
+        "tok_c501bda2a96e94e161680ecc"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_58e6c24ad6b2f026a275a796",
+          "action": "new_identity",
+          "lemmaId": "lem_avec",
+          "senseId": "sns_avec_primary",
+          "surfaceFormId": "srf_avec",
+          "rationale": "Avec is the preposition with."
+        },
+        {
+          "occurrenceCandidateId": "tok_c501bda2a96e94e161680ecc",
+          "action": "new_identity",
+          "lemmaId": "lem_avec",
+          "senseId": "sns_avec_primary",
+          "surfaceFormId": "srf_avec",
+          "rationale": "Avec is the preposition with."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "quatre",
+      "displayForms": [
+        "quatre"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7eb7a2052f5a2b43540ab57f",
+        "tok_779cb0c04c26ea5a0cc891cc"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7eb7a2052f5a2b43540ab57f",
+          "action": "new_identity",
+          "lemmaId": "lem_quatre",
+          "senseId": "sns_quatre_primary",
+          "surfaceFormId": "srf_quatre",
+          "rationale": "Quatre is the cardinal number four."
+        },
+        {
+          "occurrenceCandidateId": "tok_779cb0c04c26ea5a0cc891cc",
+          "action": "new_identity",
+          "lemmaId": "lem_quatre",
+          "senseId": "sns_quatre_primary",
+          "surfaceFormId": "srf_quatre",
+          "rationale": "Quatre is the cardinal number four."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "grains",
+      "displayForms": [
+        "grains"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0b69efe6c52947e6baf9818f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0b69efe6c52947e6baf9818f",
+          "action": "new_identity",
+          "lemmaId": "lem_grain",
+          "senseId": "sns_grain_primary",
+          "surfaceFormId": "srf_grains",
+          "rationale": "Grains is the plural noun grains."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "d’",
+      "displayForms": [
+        "d’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ce25e09f5934dc39be347678",
+        "tok_09d6f471f044a0f5c8d8843c",
+        "tok_dcd1c06b68c484572d40a4c9"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ce25e09f5934dc39be347678",
+          "action": "new_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_d_elided",
+          "rationale": "D’ is the elided surface form of de."
+        },
+        {
+          "occurrenceCandidateId": "tok_09d6f471f044a0f5c8d8843c",
+          "action": "new_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_d_elided",
+          "rationale": "D’ is the elided surface form of de."
+        },
+        {
+          "occurrenceCandidateId": "tok_dcd1c06b68c484572d40a4c9",
+          "action": "new_identity",
+          "lemmaId": "lem_de",
+          "senseId": "sns_de_primary",
+          "surfaceFormId": "srf_d_elided",
+          "rationale": "D’ is the elided surface form of de."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ellébore",
+      "displayForms": [
+        "ellébore"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_4d323f25345958a58ad26410"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_4d323f25345958a58ad26410",
+          "action": "new_identity",
+          "lemmaId": "lem_ellebore",
+          "senseId": "sns_ellebore_primary",
+          "surfaceFormId": "srf_ellebore",
+          "rationale": "Ellébore is the medicinal plant hellebore."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ou",
+      "displayForms": [
+        "ou"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_603a1d3332298418ac85ce51"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_603a1d3332298418ac85ce51",
+          "action": "new_identity",
+          "lemmaId": "lem_ou",
+          "senseId": "sns_ou_primary",
+          "surfaceFormId": "srf_ou",
+          "rationale": "Ou is the conjunction or."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "non",
+      "displayForms": [
+        "non"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_71c147a3237fa7f07fbb43bd"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_71c147a3237fa7f07fbb43bd",
+          "action": "new_identity",
+          "lemmaId": "lem_non",
+          "senseId": "sns_non_primary",
+          "surfaceFormId": "srf_non",
+          "rationale": "Non is the negating word no."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "je",
+      "displayForms": [
+        "je"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_bc609269643c1b6ffac3982c",
+        "tok_427e61d3e4d90851ba54d48b",
+        "tok_69148fa08a78799b5ec99bfd"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_bc609269643c1b6ffac3982c",
+          "action": "new_identity",
+          "lemmaId": "lem_je",
+          "senseId": "sns_je_primary",
+          "surfaceFormId": "srf_je",
+          "rationale": "Je is the first-person singular subject pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_427e61d3e4d90851ba54d48b",
+          "action": "new_identity",
+          "lemmaId": "lem_je",
+          "senseId": "sns_je_primary",
+          "surfaceFormId": "srf_je",
+          "rationale": "Je is the first-person singular subject pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_69148fa08a78799b5ec99bfd",
+          "action": "new_identity",
+          "lemmaId": "lem_je",
+          "senseId": "sns_je_primary",
+          "surfaceFormId": "srf_je",
+          "rationale": "Je is the first-person singular subject pronoun."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "parie",
+      "displayForms": [
+        "parie"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_4c19c3855f0afd931c061d2b"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_4c19c3855f0afd931c061d2b",
+          "action": "new_identity",
+          "lemmaId": "lem_parier",
+          "senseId": "sns_parier_primary",
+          "surfaceFormId": "srf_parie",
+          "rationale": "Parie is the first-person present of parier, bet."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "encore",
+      "displayForms": [
+        "encore"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7f89743b0260f7712dd044c0"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7f89743b0260f7712dd044c0",
+          "action": "new_identity",
+          "lemmaId": "lem_encore",
+          "senseId": "sns_encore_primary",
+          "surfaceFormId": "srf_encore",
+          "rationale": "Encore is the adverb still/again here."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ainsi",
+      "displayForms": [
+        "Ainsi"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3512280e5e7cad297c79f565"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3512280e5e7cad297c79f565",
+          "action": "new_identity",
+          "lemmaId": "lem_ainsi",
+          "senseId": "sns_ainsi_primary",
+          "surfaceFormId": "srf_ainsi",
+          "rationale": "Ainsi is the adverb thus/so."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "fut",
+      "displayForms": [
+        "fut"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b3793224cb9a1845764d99dc"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b3793224cb9a1845764d99dc",
+          "action": "new_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_fut",
+          "rationale": "Fut is the past historic of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "fait",
+      "displayForms": [
+        "fait"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_6c69aa3f935980bc1006c6ac",
+        "tok_e6838ed5dc29f626671f5b25",
+        "tok_8bee4eabada6c477bd9305c3"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_6c69aa3f935980bc1006c6ac",
+          "action": "new_identity",
+          "lemmaId": "lem_faire",
+          "senseId": "sns_faire_done",
+          "surfaceFormId": "srf_fait",
+          "rationale": "Fait is the past participle done in ainsi fut fait."
+        },
+        {
+          "occurrenceCandidateId": "tok_e6838ed5dc29f626671f5b25",
+          "action": "new_identity",
+          "lemmaId": "lem_faire",
+          "senseId": "sns_faire_primary",
+          "surfaceFormId": "srf_fait",
+          "rationale": "Fait means makes/takes in the expression faire des pas."
+        },
+        {
+          "occurrenceCandidateId": "tok_8bee4eabada6c477bd9305c3",
+          "action": "new_identity",
+          "lemmaId": "lem_faire",
+          "senseId": "sns_faire_causative",
+          "surfaceFormId": "srf_fait",
+          "rationale": "Fait is causative in fait arpenter, makes them traverse."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "tous",
+      "displayForms": [
+        "tous"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_bd024792e6c62534479cbd70"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_bd024792e6c62534479cbd70",
+          "action": "new_identity",
+          "lemmaId": "lem_tout",
+          "senseId": "sns_tout_primary",
+          "surfaceFormId": "srf_tous",
+          "rationale": "Tous is the masculine plural form of tout, all."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "deux",
+      "displayForms": [
+        "deux"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_855c15c18f6fb1afac4f73a0"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_855c15c18f6fb1afac4f73a0",
+          "action": "new_identity",
+          "lemmaId": "lem_deux",
+          "senseId": "sns_deux_primary",
+          "surfaceFormId": "srf_deux",
+          "rationale": "Deux is the cardinal number two."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "on",
+      "displayForms": [
+        "on"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9e9be2facc25e3c76bb5b00f",
+        "tok_9cad4aada0cf0fe9d0a7f383"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_on",
+          "lemmaId": "lem_on",
+          "senseIds": [
+            "sns_on_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9e9be2facc25e3c76bb5b00f",
+          "action": "reuse_identity",
+          "lemmaId": "lem_on",
+          "senseId": "sns_on_primary",
+          "surfaceFormId": "srf_on",
+          "rationale": "On is the indefinite subject pronoun one/we."
+        },
+        {
+          "occurrenceCandidateId": "tok_9cad4aada0cf0fe9d0a7f383",
+          "action": "reuse_identity",
+          "lemmaId": "lem_on",
+          "senseId": "sns_on_primary",
+          "surfaceFormId": "srf_on",
+          "rationale": "On is the indefinite subject pronoun one/we."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "mit",
+      "displayForms": [
+        "mit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_1d5b6d762c76846b51d70055"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_1d5b6d762c76846b51d70055",
+          "action": "new_identity",
+          "lemmaId": "lem_mettre",
+          "senseId": "sns_mettre_primary",
+          "surfaceFormId": "srf_mit",
+          "rationale": "Mit is the past historic of mettre, put."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "près",
+      "displayForms": [
+        "près"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_51fd086de27d6212730479b7"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_pres",
+          "lemmaId": "lem_pres",
+          "senseIds": [
+            "sns_pres_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_51fd086de27d6212730479b7",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pres",
+          "senseId": "sns_pres_primary",
+          "surfaceFormId": "srf_pres",
+          "rationale": "Près is the adverb near."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "du",
+      "displayForms": [
+        "du"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_02f33014195fbccee13e3e37",
+        "tok_b32d54208c359033a827e91b"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_du",
+          "lemmaId": "lem_du",
+          "senseIds": [
+            "sns_du_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_02f33014195fbccee13e3e37",
+          "action": "reuse_identity",
+          "lemmaId": "lem_du",
+          "senseId": "sns_du_primary",
+          "surfaceFormId": "srf_du",
+          "rationale": "Du is the contraction de + le."
+        },
+        {
+          "occurrenceCandidateId": "tok_b32d54208c359033a827e91b",
+          "action": "reuse_identity",
+          "lemmaId": "lem_du",
+          "senseId": "sns_du_primary",
+          "surfaceFormId": "srf_du",
+          "rationale": "Du is the contraction de + le."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "les",
+      "displayForms": [
+        "les"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_5a50e0ffa90b650c92a0b174",
+        "tok_4ecb14a30be9ada5622ef8bd",
+        "tok_7fbc9ea33afb9393d7d65156",
+        "tok_1af7505f6386db911149fa07"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_5a50e0ffa90b650c92a0b174",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_les",
+          "rationale": "Les is the plural definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_4ecb14a30be9ada5622ef8bd",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_les",
+          "rationale": "Les is the plural definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_7fbc9ea33afb9393d7d65156",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_les",
+          "rationale": "Les is the plural definite article, sharing the le lemma and sense."
+        },
+        {
+          "occurrenceCandidateId": "tok_1af7505f6386db911149fa07",
+          "action": "new_identity",
+          "lemmaId": "lem_le",
+          "senseId": "sns_le_primary",
+          "surfaceFormId": "srf_les",
+          "rationale": "Les is the plural definite article, sharing the le lemma and sense."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "enjeux",
+      "displayForms": [
+        "enjeux"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ac398555e2a76b57f157df0d"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ac398555e2a76b57f157df0d",
+          "action": "new_identity",
+          "lemmaId": "lem_enjeu",
+          "senseId": "sns_enjeu_primary",
+          "surfaceFormId": "srf_enjeux",
+          "rationale": "Enjeux is the plural noun stakes."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "savoir",
+      "displayForms": [
+        "savoir"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_4a97a881b617ecde2a451ac2"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_4a97a881b617ecde2a451ac2",
+          "action": "new_identity",
+          "lemmaId": "lem_savoir",
+          "senseId": "sns_savoir_primary",
+          "surfaceFormId": "srf_savoir",
+          "rationale": "Savoir is the infinitive to know."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "quoi",
+      "displayForms": [
+        "quoi"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_47af17b0266656627c8812d2",
+        "tok_ba833928ae5431c8e930fcf5"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_47af17b0266656627c8812d2",
+          "action": "new_identity",
+          "lemmaId": "lem_quoi",
+          "senseId": "sns_quoi_primary",
+          "surfaceFormId": "srf_quoi",
+          "rationale": "Quoi is the interrogative pronoun what in both occurrences."
+        },
+        {
+          "occurrenceCandidateId": "tok_ba833928ae5431c8e930fcf5",
+          "action": "new_identity",
+          "lemmaId": "lem_quoi",
+          "senseId": "sns_quoi_primary",
+          "surfaceFormId": "srf_quoi",
+          "rationale": "Quoi is the interrogative pronoun what in both occurrences."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "est",
+      "displayForms": [
+        "est"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_330253252a9068fa23959fce"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_330253252a9068fa23959fce",
+          "action": "new_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_est",
+          "rationale": "Est is the third-person singular present of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "pas",
+      "displayForms": [
+        "pas"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8e524ac14c82ef12be2f3817",
+        "tok_f3a3086fb355deabe5e6c98c",
+        "tok_18b1e79667ca9adc6ef18d24"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_pas",
+          "lemmaId": "lem_pas",
+          "senseIds": [
+            "sns_pas_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8e524ac14c82ef12be2f3817",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pas",
+          "senseId": "sns_pas_primary",
+          "surfaceFormId": "srf_pas",
+          "rationale": "In ne ... pas, pas retains the existing negative-adverb identity."
+        },
+        {
+          "occurrenceCandidateId": "tok_f3a3086fb355deabe5e6c98c",
+          "action": "new_identity",
+          "lemmaId": "lem_pas_noun",
+          "senseId": "sns_pas_step",
+          "surfaceFormId": "srf_pas_noun",
+          "rationale": "After quatre, pas is the noun step, distinct from the negative adverb."
+        },
+        {
+          "occurrenceCandidateId": "tok_18b1e79667ca9adc6ef18d24",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pas",
+          "senseId": "sns_pas_primary",
+          "surfaceFormId": "srf_pas",
+          "rationale": "In ne ... pas, pas retains the existing negative-adverb identity."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "affaire",
+      "displayForms": [
+        "affaire"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_888d0b1d65b0eca29b2d98cf"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_888d0b1d65b0eca29b2d98cf",
+          "action": "new_identity",
+          "lemmaId": "lem_affaire",
+          "senseId": "sns_affaire_primary",
+          "surfaceFormId": "srf_affaire",
+          "rationale": "Affaire is the noun matter/business in c’est l’affaire."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ni",
+      "displayForms": [
+        "ni"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_fc2ebbc54ba088424751680e"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_fc2ebbc54ba088424751680e",
+          "action": "new_identity",
+          "lemmaId": "lem_ni",
+          "senseId": "sns_ni_primary",
+          "surfaceFormId": "srf_ni",
+          "rationale": "Ni is the conjunction nor."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "quel",
+      "displayForms": [
+        "quel"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_6eebc173363dac201f9527a2"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_6eebc173363dac201f9527a2",
+          "action": "new_identity",
+          "lemmaId": "lem_quel",
+          "senseId": "sns_quel_primary",
+          "surfaceFormId": "srf_quel",
+          "rationale": "Quel is the interrogative determiner which/what."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "juge",
+      "displayForms": [
+        "juge"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b8624d131c38c4ec77dd2664"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b8624d131c38c4ec77dd2664",
+          "action": "new_identity",
+          "lemmaId": "lem_juge",
+          "senseId": "sns_juge_primary",
+          "surfaceFormId": "srf_juge",
+          "rationale": "Juge is the noun judge."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "convint",
+      "displayForms": [
+        "convint"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7eb902e31baa1c4e83e5215a"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7eb902e31baa1c4e83e5215a",
+          "action": "new_identity",
+          "lemmaId": "lem_convenir",
+          "senseId": "sns_convenir_primary",
+          "surfaceFormId": "srf_convint",
+          "rationale": "Convint is the past historic of convenir, agreed."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "notre",
+      "displayForms": [
+        "Notre"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b0fdfb194b252bb432cb99d5"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b0fdfb194b252bb432cb99d5",
+          "action": "new_identity",
+          "lemmaId": "lem_notre",
+          "senseId": "sns_notre_primary",
+          "surfaceFormId": "srf_notre",
+          "rationale": "Notre is the first-person plural possessive determiner our."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "avait",
+      "displayForms": [
+        "avait"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_61a2d91415d1dd5189564d36"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_61a2d91415d1dd5189564d36",
+          "action": "new_identity",
+          "lemmaId": "lem_avoir",
+          "senseId": "sns_avoir_primary",
+          "surfaceFormId": "srf_avait",
+          "rationale": "Avait is the imperfect third-person singular form of avoir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "faire",
+      "displayForms": [
+        "faire"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_d9725f34c42299de2098b572"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_d9725f34c42299de2098b572",
+          "action": "new_identity",
+          "lemmaId": "lem_faire",
+          "senseId": "sns_faire_primary",
+          "surfaceFormId": "srf_faire",
+          "rationale": "Faire is the infinitive to do/make."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "j’",
+      "displayForms": [
+        "j’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7e65944fa71edaa685b45b32"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7e65944fa71edaa685b45b32",
+          "action": "new_identity",
+          "lemmaId": "lem_je",
+          "senseId": "sns_je_primary",
+          "surfaceFormId": "srf_j_elided",
+          "rationale": "J’ is the elided surface form of je."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "entends",
+      "displayForms": [
+        "entends"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_c95aed3572821f6b86dd4176"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_c95aed3572821f6b86dd4176",
+          "action": "new_identity",
+          "lemmaId": "lem_entendre",
+          "senseId": "sns_entendre_mean",
+          "surfaceFormId": "srf_entends",
+          "rationale": "Entends is the first-person present of entendre in the sense mean or intend."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ceux",
+      "displayForms": [
+        "ceux"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9d5f64ff47844301013a78d2"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9d5f64ff47844301013a78d2",
+          "action": "new_identity",
+          "lemmaId": "lem_celui",
+          "senseId": "sns_celui_primary",
+          "surfaceFormId": "srf_ceux",
+          "rationale": "Ceux is the masculine plural demonstrative pronoun those."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "qu’",
+      "displayForms": [
+        "qu’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_55d8f4e3cbf723f4f227bc83",
+        "tok_c7109a2c6f5b463ba24bc757",
+        "tok_6beaaa3e4e4e0145face9381",
+        "tok_9fa33f6fca6f9935b78c4930"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_qu_elided",
+          "lemmaId": "lem_que",
+          "senseIds": [
+            "sns_que_conjunction"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_55d8f4e3cbf723f4f227bc83",
+          "action": "new_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_relative",
+          "surfaceFormId": "srf_qu_elided",
+          "rationale": "Qu’ is the relative pronoun object in ceux qu’il fait."
+        },
+        {
+          "occurrenceCandidateId": "tok_c7109a2c6f5b463ba24bc757",
+          "action": "reuse_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_conjunction",
+          "surfaceFormId": "srf_qu_elided",
+          "rationale": "Qu’ introduces the clause governed by croit."
+        },
+        {
+          "occurrenceCandidateId": "tok_6beaaa3e4e4e0145face9381",
+          "action": "new_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_comparative",
+          "surfaceFormId": "srf_qu_elided",
+          "rationale": "Qu’ means than in autre chose qu’à la gageure."
+        },
+        {
+          "occurrenceCandidateId": "tok_9fa33f6fca6f9935b78c4930",
+          "action": "new_identity",
+          "lemmaId": "lem_que",
+          "senseId": "sns_que_relative",
+          "surfaceFormId": "srf_qu_elided",
+          "rationale": "Qu’ is the relative pronoun object in les élans qu’il fit."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "lorsque",
+      "displayForms": [
+        "lorsque"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b192f0dec1dff000bc421205"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b192f0dec1dff000bc421205",
+          "action": "new_identity",
+          "lemmaId": "lem_lorsque",
+          "senseId": "sns_lorsque_primary",
+          "surfaceFormId": "srf_lorsque",
+          "rationale": "Lorsque is the subordinating conjunction when."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "prêt",
+      "displayForms": [
+        "prêt"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7b3f60bf50e2bcd24ac8dfe6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7b3f60bf50e2bcd24ac8dfe6",
+          "action": "new_identity",
+          "lemmaId": "lem_pret",
+          "senseId": "sns_pret_primary",
+          "surfaceFormId": "srf_pret",
+          "rationale": "Prêt is the adjective ready."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "être",
+      "displayForms": [
+        "être"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9d5a305560f892d986e04df4"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9d5a305560f892d986e04df4",
+          "action": "reuse_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_etre",
+          "rationale": "Être is the infinitive to be."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "atteint",
+      "displayForms": [
+        "atteint"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_47a495b869fb3a0f85639e63"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_47a495b869fb3a0f85639e63",
+          "action": "new_identity",
+          "lemmaId": "lem_atteindre",
+          "senseId": "sns_atteindre_primary",
+          "surfaceFormId": "srf_atteint",
+          "rationale": "Atteint is the past participle of atteindre, reach/catch."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "s’",
+      "displayForms": [
+        "s’"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_00a8a15a42b565065a66d385",
+        "tok_5d130d7371a35ba4d51bad5e",
+        "tok_242ad197979fe05f5be585b6"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_s_elided",
+          "lemmaId": "lem_se",
+          "senseIds": [
+            "sns_se_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_00a8a15a42b565065a66d385",
+          "action": "reuse_identity",
+          "lemmaId": "lem_se",
+          "senseId": "sns_se_primary",
+          "surfaceFormId": "srf_s_elided",
+          "rationale": "S’ is the elided reflexive pronoun se."
+        },
+        {
+          "occurrenceCandidateId": "tok_5d130d7371a35ba4d51bad5e",
+          "action": "reuse_identity",
+          "lemmaId": "lem_se",
+          "senseId": "sns_se_primary",
+          "surfaceFormId": "srf_s_elided",
+          "rationale": "S’ is the elided reflexive pronoun se."
+        },
+        {
+          "occurrenceCandidateId": "tok_242ad197979fe05f5be585b6",
+          "action": "reuse_identity",
+          "lemmaId": "lem_se",
+          "senseId": "sns_se_primary",
+          "surfaceFormId": "srf_s_elided",
+          "rationale": "S’ is the elided reflexive pronoun se."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "éloigne",
+      "displayForms": [
+        "éloigne"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_dc9737bbfdc7029854c08129"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_dc9737bbfdc7029854c08129",
+          "action": "new_identity",
+          "lemmaId": "lem_eloigner",
+          "senseId": "sns_eloigner_primary",
+          "surfaceFormId": "srf_eloigne",
+          "rationale": "Éloigne is the present form of éloigner, moves away."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "des",
+      "displayForms": [
+        "des"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_eb722e4740abe546bb13ba93"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_des",
+          "lemmaId": "lem_des",
+          "senseIds": [
+            "sns_des_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_eb722e4740abe546bb13ba93",
+          "action": "reuse_identity",
+          "lemmaId": "lem_des",
+          "senseId": "sns_des_primary",
+          "surfaceFormId": "srf_des",
+          "rationale": "Des is the contraction de + les."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "chiens",
+      "displayForms": [
+        "chiens"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0a12ecda388a86dcd83203d3"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0a12ecda388a86dcd83203d3",
+          "action": "new_identity",
+          "lemmaId": "lem_chien",
+          "senseId": "sns_chien_primary",
+          "surfaceFormId": "srf_chiens",
+          "rationale": "Chiens is the plural noun dogs."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "renvoie",
+      "displayForms": [
+        "renvoie"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_c057166ead18325a779cb524"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_c057166ead18325a779cb524",
+          "action": "new_identity",
+          "lemmaId": "lem_renvoyer",
+          "senseId": "sns_renvoyer_primary",
+          "surfaceFormId": "srf_renvoie",
+          "rationale": "Renvoie is the present form of renvoyer, sends back."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "aux",
+      "displayForms": [
+        "aux"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_6482729674eaa1263cffe956"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_aux",
+          "lemmaId": "lem_aux",
+          "senseIds": [
+            "sns_aux_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_6482729674eaa1263cffe956",
+          "action": "reuse_identity",
+          "lemmaId": "lem_aux",
+          "senseId": "sns_aux_primary",
+          "surfaceFormId": "srf_aux",
+          "rationale": "Aux is the contraction à + les."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "calendes",
+      "displayForms": [
+        "calendes"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ca99bb50bc54e865a3ea7b52"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ca99bb50bc54e865a3ea7b52",
+          "action": "new_identity",
+          "lemmaId": "lem_calende",
+          "senseId": "sns_calende_primary",
+          "surfaceFormId": "srf_calendes",
+          "rationale": "Calendes is the plural noun calends, a proverbial distant date."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "leur",
+      "displayForms": [
+        "leur"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_51d8c16aafeb41398f260ebf"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_51d8c16aafeb41398f260ebf",
+          "action": "new_identity",
+          "lemmaId": "lem_leur",
+          "senseId": "sns_leur_primary",
+          "surfaceFormId": "srf_leur",
+          "rationale": "Leur is the third-person plural indirect-object/possessive pronoun in this occurrence."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "arpenter",
+      "displayForms": [
+        "arpenter"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_625050f50349a8078ad5a1d6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_625050f50349a8078ad5a1d6",
+          "action": "new_identity",
+          "lemmaId": "lem_arpenter",
+          "senseId": "sns_arpenter_primary",
+          "surfaceFormId": "srf_arpenter",
+          "rationale": "Arpenter is the infinitive to traverse."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "landes",
+      "displayForms": [
+        "landes"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_93a20633663994b26b113986"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_93a20633663994b26b113986",
+          "action": "new_identity",
+          "lemmaId": "lem_lande",
+          "senseId": "sns_lande_primary",
+          "surfaceFormId": "srf_landes",
+          "rationale": "Landes is the plural noun moorlands/heaths."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "ayant",
+      "displayForms": [
+        "Ayant"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_aea763b931e0bd86fa2461a8"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_aea763b931e0bd86fa2461a8",
+          "action": "new_identity",
+          "lemmaId": "lem_avoir",
+          "senseId": "sns_avoir_primary",
+          "surfaceFormId": "srf_ayant",
+          "rationale": "Ayant is the present participle of avoir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "dis",
+      "displayForms": [
+        "dis"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3b0f5af7ef0fb8b559c23e4b"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3b0f5af7ef0fb8b559c23e4b",
+          "action": "new_identity",
+          "lemmaId": "lem_dire",
+          "senseId": "sns_dire_primary",
+          "surfaceFormId": "srf_dis",
+          "rationale": "Dis is the first-person singular present of dire."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "temps",
+      "displayForms": [
+        "temps"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_e8c8f6905a934f9df2a20969"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_e8c8f6905a934f9df2a20969",
+          "action": "new_identity",
+          "lemmaId": "lem_temps",
+          "senseId": "sns_temps_primary",
+          "surfaceFormId": "srf_temps",
+          "rationale": "Temps is the noun time."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "reste",
+      "displayForms": [
+        "reste"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_dc05c8ad387a5bbb859e301e"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_dc05c8ad387a5bbb859e301e",
+          "action": "new_identity",
+          "lemmaId": "lem_reste",
+          "senseId": "sns_reste_primary",
+          "surfaceFormId": "srf_reste",
+          "rationale": "Reste is the noun remainder/time left."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "pour",
+      "displayForms": [
+        "pour"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_4385d66f40030559f713a6f1",
+        "tok_1380cbb38fd84b92c81c1f28",
+        "tok_65ca77dc9d5697207c9a17d5"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_pour",
+          "lemmaId": "lem_pour",
+          "senseIds": [
+            "sns_pour_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_4385d66f40030559f713a6f1",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pour",
+          "senseId": "sns_pour_primary",
+          "surfaceFormId": "srf_pour",
+          "rationale": "Pour is the preposition for/in order to."
+        },
+        {
+          "occurrenceCandidateId": "tok_1380cbb38fd84b92c81c1f28",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pour",
+          "senseId": "sns_pour_primary",
+          "surfaceFormId": "srf_pour",
+          "rationale": "Pour is the preposition for/in order to."
+        },
+        {
+          "occurrenceCandidateId": "tok_65ca77dc9d5697207c9a17d5",
+          "action": "reuse_identity",
+          "lemmaId": "lem_pour",
+          "senseId": "sns_pour_primary",
+          "surfaceFormId": "srf_pour",
+          "rationale": "Pour is the preposition for/in order to."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "brouter",
+      "displayForms": [
+        "brouter"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_913f02f1db8c2d65cdb09e41"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_913f02f1db8c2d65cdb09e41",
+          "action": "new_identity",
+          "lemmaId": "lem_brouter",
+          "senseId": "sns_brouter_primary",
+          "surfaceFormId": "srf_brouter",
+          "rationale": "Brouter is the infinitive to graze."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "dormir",
+      "displayForms": [
+        "dormir"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_12d2aab8fa1455c17eec7a43"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_12d2aab8fa1455c17eec7a43",
+          "action": "new_identity",
+          "lemmaId": "lem_dormir",
+          "senseId": "sns_dormir_primary",
+          "surfaceFormId": "srf_dormir",
+          "rationale": "Dormir is the infinitive to sleep."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "écouter",
+      "displayForms": [
+        "écouter"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_90737716fc1c415d7443d37a"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_90737716fc1c415d7443d37a",
+          "action": "new_identity",
+          "lemmaId": "lem_ecouter",
+          "senseId": "sns_ecouter_primary",
+          "surfaceFormId": "srf_ecouter",
+          "rationale": "Écouter is the infinitive to listen."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "où",
+      "displayForms": [
+        "où"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_271d2be9bba183a9074ed026"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_271d2be9bba183a9074ed026",
+          "action": "new_identity",
+          "lemmaId": "lem_ou_interrogative",
+          "senseId": "sns_ou_interrogative",
+          "surfaceFormId": "srf_ou_accent",
+          "rationale": "Où is the accented interrogative/relative adverb where."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vient",
+      "displayForms": [
+        "vient"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_51f9c3f7ffaceebe0ce0b487"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_51f9c3f7ffaceebe0ce0b487",
+          "action": "new_identity",
+          "lemmaId": "lem_venir",
+          "senseId": "sns_venir_primary",
+          "surfaceFormId": "srf_vient",
+          "rationale": "Vient is the third-person singular present of venir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vent",
+      "displayForms": [
+        "vent"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_6e843c4c73987a7f834fd35f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_6e843c4c73987a7f834fd35f",
+          "action": "new_identity",
+          "lemmaId": "lem_vent",
+          "senseId": "sns_vent_primary",
+          "surfaceFormId": "srf_vent",
+          "rationale": "Vent is the noun wind."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "laisse",
+      "displayForms": [
+        "laisse"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_16bdc639c48b62810465980f"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_laisse",
+          "lemmaId": "lem_laisser",
+          "senseIds": [
+            "sns_laisser_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_16bdc639c48b62810465980f",
+          "action": "reuse_identity",
+          "lemmaId": "lem_laisser",
+          "senseId": "sns_laisser_primary",
+          "surfaceFormId": "srf_laisse",
+          "rationale": "Laisse is the third-person singular present of laisser."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "aller",
+      "displayForms": [
+        "aller"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_1f01d5624c557d22c4c6d816"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_1f01d5624c557d22c4c6d816",
+          "action": "new_identity",
+          "lemmaId": "lem_aller",
+          "senseId": "sns_aller_primary",
+          "surfaceFormId": "srf_aller",
+          "rationale": "Aller is the infinitive to go."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "son",
+      "displayForms": [
+        "son"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8ee430a1d2290fe5b6df2d5e",
+        "tok_6d11ba003bc3c4dc3121a5f9"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_son",
+          "lemmaId": "lem_son",
+          "senseIds": [
+            "sns_son_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8ee430a1d2290fe5b6df2d5e",
+          "action": "reuse_identity",
+          "lemmaId": "lem_son",
+          "senseId": "sns_son_primary",
+          "surfaceFormId": "srf_son",
+          "rationale": "Son is the possessive determiner his/its."
+        },
+        {
+          "occurrenceCandidateId": "tok_6d11ba003bc3c4dc3121a5f9",
+          "action": "reuse_identity",
+          "lemmaId": "lem_son",
+          "senseId": "sns_son_primary",
+          "surfaceFormId": "srf_son",
+          "rationale": "Son is the possessive determiner his/its."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "train",
+      "displayForms": [
+        "train"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_f9f56d0a1cf5c136e5c3408e"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_f9f56d0a1cf5c136e5c3408e",
+          "action": "new_identity",
+          "lemmaId": "lem_train",
+          "senseId": "sns_train_primary",
+          "surfaceFormId": "srf_train",
+          "rationale": "Train is the noun pace or manner of proceeding."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "sénateur",
+      "displayForms": [
+        "sénateur"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0d960e5b669bc457b8c5956c"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0d960e5b669bc457b8c5956c",
+          "action": "new_identity",
+          "lemmaId": "lem_senateur",
+          "senseId": "sns_senateur_primary",
+          "surfaceFormId": "srf_senateur",
+          "rationale": "Sénateur is the noun senator."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "elle",
+      "displayForms": [
+        "Elle",
+        "elle"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_f5c16ef4f086053741d88ca0",
+        "tok_65d3302e83ecd0256e52d6a0",
+        "tok_2ab6bdb245b67f1d12e04379",
+        "tok_d541c2437886279128cb7212"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_f5c16ef4f086053741d88ca0",
+          "action": "new_identity",
+          "lemmaId": "lem_elle",
+          "senseId": "sns_elle_primary",
+          "surfaceFormId": "srf_elle",
+          "rationale": "Elle is the third-person feminine subject pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_65d3302e83ecd0256e52d6a0",
+          "action": "new_identity",
+          "lemmaId": "lem_elle",
+          "senseId": "sns_elle_primary",
+          "surfaceFormId": "srf_elle",
+          "rationale": "Elle is the third-person feminine subject pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_2ab6bdb245b67f1d12e04379",
+          "action": "new_identity",
+          "lemmaId": "lem_elle",
+          "senseId": "sns_elle_primary",
+          "surfaceFormId": "srf_elle",
+          "rationale": "Elle is the third-person feminine subject pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_d541c2437886279128cb7212",
+          "action": "new_identity",
+          "lemmaId": "lem_elle",
+          "senseId": "sns_elle_primary",
+          "surfaceFormId": "srf_elle",
+          "rationale": "Elle is the third-person feminine subject pronoun."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "part",
+      "displayForms": [
+        "part"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_85280e8c4e93dc076b52a577"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_85280e8c4e93dc076b52a577",
+          "action": "new_identity",
+          "lemmaId": "lem_partir",
+          "senseId": "sns_partir_primary",
+          "surfaceFormId": "srf_part",
+          "rationale": "Part is the third-person singular present of partir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "évertue",
+      "displayForms": [
+        "évertue"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_35695e1b74976aaa641c6d29"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_35695e1b74976aaa641c6d29",
+          "action": "new_identity",
+          "lemmaId": "lem_evertuer",
+          "senseId": "sns_evertuer_primary",
+          "surfaceFormId": "srf_evertue",
+          "rationale": "Évertue is the present form in s’évertuer, makes an effort."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "se",
+      "displayForms": [
+        "se"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_4c9d8e218599c765b437994a",
+        "tok_e9860db9512675dad46ee5b4"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_se",
+          "lemmaId": "lem_se",
+          "senseIds": [
+            "sns_se_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_4c9d8e218599c765b437994a",
+          "action": "reuse_identity",
+          "lemmaId": "lem_se",
+          "senseId": "sns_se_primary",
+          "surfaceFormId": "srf_se",
+          "rationale": "Se is the reflexive pronoun."
+        },
+        {
+          "occurrenceCandidateId": "tok_e9860db9512675dad46ee5b4",
+          "action": "reuse_identity",
+          "lemmaId": "lem_se",
+          "senseId": "sns_se_primary",
+          "surfaceFormId": "srf_se",
+          "rationale": "Se is the reflexive pronoun."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "hâte",
+      "displayForms": [
+        "hâte"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_02af883a03101b2fb18d2179"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_02af883a03101b2fb18d2179",
+          "action": "new_identity",
+          "lemmaId": "lem_hater",
+          "senseId": "sns_hater_primary",
+          "surfaceFormId": "srf_hate",
+          "rationale": "Hâte is the present form in se hâter, to hurry."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "lenteur",
+      "displayForms": [
+        "lenteur"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_bcf6000ca06e534bf800d026"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_bcf6000ca06e534bf800d026",
+          "action": "new_identity",
+          "lemmaId": "lem_lenteur",
+          "senseId": "sns_lenteur_primary",
+          "surfaceFormId": "srf_lenteur",
+          "rationale": "Lenteur is the noun slowness."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "lui",
+      "displayForms": [
+        "Lui",
+        "lui"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_5d2445c0530350951a32ff72",
+        "tok_006a7eb3909866dafe4ed252"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_lui",
+          "lemmaId": "lem_lui",
+          "senseIds": [
+            "sns_lui_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_5d2445c0530350951a32ff72",
+          "action": "new_identity",
+          "lemmaId": "lem_lui",
+          "senseId": "sns_lui_subject",
+          "surfaceFormId": "srf_lui",
+          "rationale": "Initial Lui is a stressed subject pronoun meaning he."
+        },
+        {
+          "occurrenceCandidateId": "tok_006a7eb3909866dafe4ed252",
+          "action": "reuse_identity",
+          "lemmaId": "lem_lui",
+          "senseId": "sns_lui_primary",
+          "surfaceFormId": "srf_lui",
+          "rationale": "In lui cria-t-elle, lui is the indirect-object pronoun to him."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "cependant",
+      "displayForms": [
+        "cependant"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_27cab659f50a0741b0a04e93"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_27cab659f50a0741b0a04e93",
+          "action": "new_identity",
+          "lemmaId": "lem_cependant",
+          "senseId": "sns_cependant_primary",
+          "surfaceFormId": "srf_cependant",
+          "rationale": "Cependant is the adverb however."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "méprise",
+      "displayForms": [
+        "méprise"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_5781d8a7164e9398ef0888b1"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_5781d8a7164e9398ef0888b1",
+          "action": "new_identity",
+          "lemmaId": "lem_mepriser",
+          "senseId": "sns_mepriser_primary",
+          "surfaceFormId": "srf_meprise",
+          "rationale": "Méprise is the third-person singular present of mépriser."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "une",
+      "displayForms": [
+        "une"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_358b98db02de6f82c8192f1f",
+        "tok_c779105898b460a89899b6b2"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_358b98db02de6f82c8192f1f",
+          "action": "new_identity",
+          "lemmaId": "lem_un",
+          "senseId": "sns_un_primary",
+          "surfaceFormId": "srf_une",
+          "rationale": "Une is the feminine surface form of the indefinite article."
+        },
+        {
+          "occurrenceCandidateId": "tok_c779105898b460a89899b6b2",
+          "action": "new_identity",
+          "lemmaId": "lem_un",
+          "senseId": "sns_un_primary",
+          "surfaceFormId": "srf_une",
+          "rationale": "Une is the feminine surface form of the indefinite article."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "telle",
+      "displayForms": [
+        "telle"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_c106cac20036894f8344d073"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_c106cac20036894f8344d073",
+          "action": "new_identity",
+          "lemmaId": "lem_tel",
+          "senseId": "sns_tel_primary",
+          "surfaceFormId": "srf_telle",
+          "rationale": "Telle is the feminine form of the adjective such."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "victoire",
+      "displayForms": [
+        "victoire"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_030a38e19510dc3c52d5d3bc"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_030a38e19510dc3c52d5d3bc",
+          "action": "new_identity",
+          "lemmaId": "lem_victoire",
+          "senseId": "sns_victoire_primary",
+          "surfaceFormId": "srf_victoire",
+          "rationale": "Victoire is the noun victory."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "tient",
+      "displayForms": [
+        "tient"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_18e045899565134d5d5735d6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_18e045899565134d5d5735d6",
+          "action": "new_identity",
+          "lemmaId": "lem_tenir",
+          "senseId": "sns_tenir_consider",
+          "surfaceFormId": "srf_tient",
+          "rationale": "Tient is the present form of tenir in the distinct sense considers/regards."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "gageure",
+      "displayForms": [
+        "gageure"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_d0c7952e2a03a3284f423f9a",
+        "tok_3559d8abad2dade2b6deb0cb"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_d0c7952e2a03a3284f423f9a",
+          "action": "new_identity",
+          "lemmaId": "lem_gageure",
+          "senseId": "sns_gageure_primary",
+          "surfaceFormId": "srf_gageure",
+          "rationale": "Gageure is the noun wager/challenge."
+        },
+        {
+          "occurrenceCandidateId": "tok_3559d8abad2dade2b6deb0cb",
+          "action": "new_identity",
+          "lemmaId": "lem_gageure",
+          "senseId": "sns_gageure_primary",
+          "surfaceFormId": "srf_gageure",
+          "rationale": "Gageure is the noun wager/challenge."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "peu",
+      "displayForms": [
+        "peu"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b5f052bd2af418974a82338c"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_peu",
+          "lemmaId": "lem_peu",
+          "senseIds": [
+            "sns_peu_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b5f052bd2af418974a82338c",
+          "action": "reuse_identity",
+          "lemmaId": "lem_peu",
+          "senseId": "sns_peu_primary",
+          "surfaceFormId": "srf_peu",
+          "rationale": "Peu is the adverb little."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "gloire",
+      "displayForms": [
+        "gloire"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_95db379ece809fd3792c7f79"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_95db379ece809fd3792c7f79",
+          "action": "new_identity",
+          "lemmaId": "lem_gloire",
+          "senseId": "sns_gloire_primary",
+          "surfaceFormId": "srf_gloire",
+          "rationale": "Gloire is the noun glory."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "croit",
+      "displayForms": [
+        "croit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3209c755d44ba1ffe30bd812"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3209c755d44ba1ffe30bd812",
+          "action": "new_identity",
+          "lemmaId": "lem_croire",
+          "senseId": "sns_croire_primary",
+          "surfaceFormId": "srf_croit",
+          "rationale": "Croit is the third-person singular present of croire."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "y",
+      "displayForms": [
+        "y"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_078a9e7840cbd3a31fcac5e1"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_y",
+          "lemmaId": "lem_y",
+          "senseIds": [
+            "sns_y_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_078a9e7840cbd3a31fcac5e1",
+          "action": "new_identity",
+          "lemmaId": "lem_y",
+          "senseId": "sns_y_enjeu",
+          "surfaceFormId": "srf_y",
+          "rationale": "In il y va de son honneur, y participates in the idiomatic matter-at-stake construction."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "va",
+      "displayForms": [
+        "va"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_22bad4f227343596d817d47f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_22bad4f227343596d817d47f",
+          "action": "new_identity",
+          "lemmaId": "lem_aller",
+          "senseId": "sns_aller_primary",
+          "surfaceFormId": "srf_va",
+          "rationale": "Va is the third-person singular present of aller."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "honneur",
+      "displayForms": [
+        "honneur"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_dedc110057e0a76040a1d3f4"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_dedc110057e0a76040a1d3f4",
+          "action": "new_identity",
+          "lemmaId": "lem_honneur",
+          "senseId": "sns_honneur_primary",
+          "surfaceFormId": "srf_honneur",
+          "rationale": "Honneur is the noun honor."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "tard",
+      "displayForms": [
+        "tard"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_670738bf51f205036e8c00d8"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_tard",
+          "lemmaId": "lem_tard",
+          "senseIds": [
+            "sns_tard_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_670738bf51f205036e8c00d8",
+          "action": "reuse_identity",
+          "lemmaId": "lem_tard",
+          "senseId": "sns_tard_primary",
+          "surfaceFormId": "srf_tard",
+          "rationale": "Tard is the adverb late."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "broute",
+      "displayForms": [
+        "broute"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_2d387b7dc3146a6966af34b1"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_2d387b7dc3146a6966af34b1",
+          "action": "new_identity",
+          "lemmaId": "lem_brouter",
+          "senseId": "sns_brouter_primary",
+          "surfaceFormId": "srf_broute",
+          "rationale": "Broute is the third-person singular present of brouter."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "repose",
+      "displayForms": [
+        "repose"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8966dd9045e9b918ffb94017"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8966dd9045e9b918ffb94017",
+          "action": "new_identity",
+          "lemmaId": "lem_reposer",
+          "senseId": "sns_reposer_primary",
+          "surfaceFormId": "srf_repose",
+          "rationale": "Repose is the third-person singular present of reposer."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "amuse",
+      "displayForms": [
+        "amuse"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_337b3a842a166d4407074e27"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_337b3a842a166d4407074e27",
+          "action": "new_identity",
+          "lemmaId": "lem_amuser",
+          "senseId": "sns_amuser_primary",
+          "surfaceFormId": "srf_amuse",
+          "rationale": "Amuse is the third-person singular present of amuser."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "toute",
+      "displayForms": [
+        "toute"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_147037d6a2caec6210d32b60"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_147037d6a2caec6210d32b60",
+          "action": "new_identity",
+          "lemmaId": "lem_tout",
+          "senseId": "sns_tout_primary",
+          "surfaceFormId": "srf_toute",
+          "rationale": "Toute is the feminine form of tout, every/all."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "autre",
+      "displayForms": [
+        "autre"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_0be71192790e864e468461f3",
+        "tok_60b4bcaa59a90f1b80b3116e"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_0be71192790e864e468461f3",
+          "action": "new_identity",
+          "lemmaId": "lem_autre",
+          "senseId": "sns_autre_adjective",
+          "surfaceFormId": "srf_autre",
+          "rationale": "Autre is an adjective modifying chose."
+        },
+        {
+          "occurrenceCandidateId": "tok_60b4bcaa59a90f1b80b3116e",
+          "action": "new_identity",
+          "lemmaId": "lem_autre",
+          "senseId": "sns_autre_pronoun",
+          "surfaceFormId": "srf_autre",
+          "rationale": "Autre is a pronoun referring to the other competitor."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "chose",
+      "displayForms": [
+        "chose"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_68fb54407ed047efe010f527"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_68fb54407ed047efe010f527",
+          "action": "new_identity",
+          "lemmaId": "lem_chose",
+          "senseId": "sns_chose_primary",
+          "surfaceFormId": "srf_chose",
+          "rationale": "Chose is the noun thing."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "fin",
+      "displayForms": [
+        "fin"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_3110f5482534ff027e0c252f"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_3110f5482534ff027e0c252f",
+          "action": "new_identity",
+          "lemmaId": "lem_fin",
+          "senseId": "sns_fin_primary",
+          "surfaceFormId": "srf_fin",
+          "rationale": "Fin is the noun end."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "quand",
+      "displayForms": [
+        "quand"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_55210f75ddf424578879ca0a"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_55210f75ddf424578879ca0a",
+          "action": "new_identity",
+          "lemmaId": "lem_quand",
+          "senseId": "sns_quand_primary",
+          "surfaceFormId": "srf_quand",
+          "rationale": "Quand is the conjunction when."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vit",
+      "displayForms": [
+        "vit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_d29da1894f360800448c77c4"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_vit",
+          "lemmaId": "lem_vivre",
+          "senseIds": [
+            "sns_vivre_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_d29da1894f360800448c77c4",
+          "action": "new_identity",
+          "lemmaId": "lem_voir",
+          "senseId": "sns_voir_past",
+          "surfaceFormId": "srf_vit_voir",
+          "rationale": "Here vit is the past historic of voir (saw), not the existing vivre identity."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "touchait",
+      "displayForms": [
+        "touchait"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_6fde2808ea7d50e578d0255e"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_6fde2808ea7d50e578d0255e",
+          "action": "new_identity",
+          "lemmaId": "lem_toucher",
+          "senseId": "sns_toucher_primary",
+          "surfaceFormId": "srf_touchait",
+          "rationale": "Touchait is the imperfect third-person singular of toucher."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "presque",
+      "displayForms": [
+        "presque"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_309a774ee644381f6b8f3632"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_309a774ee644381f6b8f3632",
+          "action": "new_identity",
+          "lemmaId": "lem_presque",
+          "senseId": "sns_presque_primary",
+          "surfaceFormId": "srf_presque",
+          "rationale": "Presque is the adverb almost."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "au",
+      "displayForms": [
+        "au"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_22ba599089715098aa04f44c"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_22ba599089715098aa04f44c",
+          "action": "new_identity",
+          "lemmaId": "lem_au",
+          "senseId": "sns_au_primary",
+          "surfaceFormId": "srf_au",
+          "rationale": "Au is the masculine singular contraction à + le."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "bout",
+      "displayForms": [
+        "bout"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b091507bde100d354760924c"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b091507bde100d354760924c",
+          "action": "new_identity",
+          "lemmaId": "lem_bout",
+          "senseId": "sns_bout_primary",
+          "surfaceFormId": "srf_bout",
+          "rationale": "Bout is the noun end/tip."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "carrière",
+      "displayForms": [
+        "carrière"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8987cf4fbeda1bf3f4283f94"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8987cf4fbeda1bf3f4283f94",
+          "action": "new_identity",
+          "lemmaId": "lem_carriere",
+          "senseId": "sns_carriere_primary",
+          "surfaceFormId": "srf_carriere",
+          "rationale": "Carrière is the noun course/racetrack."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "partit",
+      "displayForms": [
+        "partit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_526bd43c68954cc33de504df"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_526bd43c68954cc33de504df",
+          "action": "new_identity",
+          "lemmaId": "lem_partir",
+          "senseId": "sns_partir_primary",
+          "surfaceFormId": "srf_partit",
+          "rationale": "Partit is the past historic of partir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "comme",
+      "displayForms": [
+        "comme"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ea62aeb6f56a2cf45e18f5b7"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ea62aeb6f56a2cf45e18f5b7",
+          "action": "new_identity",
+          "lemmaId": "lem_comme",
+          "senseId": "sns_comme_primary",
+          "surfaceFormId": "srf_comme",
+          "rationale": "Comme is the conjunction/adverb like/as."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "trait",
+      "displayForms": [
+        "trait"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_a11b8e76afb4d0ca4620d624"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_a11b8e76afb4d0ca4620d624",
+          "action": "new_identity",
+          "lemmaId": "lem_trait",
+          "senseId": "sns_trait_primary",
+          "surfaceFormId": "srf_trait",
+          "rationale": "Trait is the noun dart/bolt in comme un trait."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "mais",
+      "displayForms": [
+        "mais"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9d7f315aded7875a31a57c17"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_mais",
+          "lemmaId": "lem_mais",
+          "senseIds": [
+            "sns_mais_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9d7f315aded7875a31a57c17",
+          "action": "reuse_identity",
+          "lemmaId": "lem_mais",
+          "senseId": "sns_mais_primary",
+          "surfaceFormId": "srf_mais",
+          "rationale": "Mais is the conjunction but."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "élans",
+      "displayForms": [
+        "élans"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ba4aeaf4fb6b744833824d62"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ba4aeaf4fb6b744833824d62",
+          "action": "new_identity",
+          "lemmaId": "lem_elan",
+          "senseId": "sns_elan_primary",
+          "surfaceFormId": "srf_elans",
+          "rationale": "Élans is the plural noun bounds/leaps."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "fit",
+      "displayForms": [
+        "fit"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_1126fc09632e1116e8f0cf30"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_1126fc09632e1116e8f0cf30",
+          "action": "new_identity",
+          "lemmaId": "lem_faire",
+          "senseId": "sns_faire_primary",
+          "surfaceFormId": "srf_fit",
+          "rationale": "Fit is the past historic of faire."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "furent",
+      "displayForms": [
+        "furent"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_58cc6988616b76f2821ca6f3"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_58cc6988616b76f2821ca6f3",
+          "action": "new_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_furent",
+          "rationale": "Furent is the past historic plural of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vains",
+      "displayForms": [
+        "vains"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_c0ebe48622ec23cee24135e4"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_c0ebe48622ec23cee24135e4",
+          "action": "new_identity",
+          "lemmaId": "lem_vain",
+          "senseId": "sns_vain_primary",
+          "surfaceFormId": "srf_vains",
+          "rationale": "Vains is the adjective futile/ineffective."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "arriva",
+      "displayForms": [
+        "arriva"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_d66bbce6090d3cc544c033c3"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_d66bbce6090d3cc544c033c3",
+          "action": "new_identity",
+          "lemmaId": "lem_arriver",
+          "senseId": "sns_arriver_primary",
+          "surfaceFormId": "srf_arriva",
+          "rationale": "Arriva is the past historic of arriver."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "première",
+      "displayForms": [
+        "première"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_270a1eebb650f774e782d1b6"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_270a1eebb650f774e782d1b6",
+          "action": "new_identity",
+          "lemmaId": "lem_premier",
+          "senseId": "sns_premier_primary",
+          "surfaceFormId": "srf_premiere",
+          "rationale": "Première is the feminine ordinal/adjective first."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "eh",
+      "displayForms": [
+        "Eh"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_381b37b00da33422a102d4a1"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_381b37b00da33422a102d4a1",
+          "action": "new_identity",
+          "lemmaId": "lem_eh",
+          "senseId": "sns_eh_primary",
+          "surfaceFormId": "srf_eh",
+          "rationale": "Eh is the interjection eh/hey."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "bien",
+      "displayForms": [
+        "bien"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_8c1880aca071a566e75a75a7"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_bien",
+          "lemmaId": "lem_bien",
+          "senseIds": [
+            "sns_bien_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_8c1880aca071a566e75a75a7",
+          "action": "new_identity",
+          "lemmaId": "lem_bien",
+          "senseId": "sns_bien_discourse",
+          "surfaceFormId": "srf_bien",
+          "rationale": "In Eh bien, bien is a discourse marker, not the emphatic adverbial sense."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "cria",
+      "displayForms": [
+        "cria"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_9bf2319dc66394522251bc36"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_9bf2319dc66394522251bc36",
+          "action": "new_identity",
+          "lemmaId": "lem_crier",
+          "senseId": "sns_crier_primary",
+          "surfaceFormId": "srf_cria",
+          "rationale": "Cria is the past historic of crier."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "avais",
+      "displayForms": [
+        "avais"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_bc1524ebd7b3173f67688718"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_bc1524ebd7b3173f67688718",
+          "action": "new_identity",
+          "lemmaId": "lem_avoir",
+          "senseId": "sns_avoir_primary",
+          "surfaceFormId": "srf_avais",
+          "rationale": "Avais is the imperfect first-person singular of avoir."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "raison",
+      "displayForms": [
+        "raison"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_7f94f4d319d630c815b8dffe"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_7f94f4d319d630c815b8dffe",
+          "action": "new_identity",
+          "lemmaId": "lem_raison",
+          "senseId": "sns_raison_primary",
+          "surfaceFormId": "srf_raison",
+          "rationale": "Raison is the noun reason."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "votre",
+      "displayForms": [
+        "votre"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_b8131a8d24974c71e792ef98"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_votre",
+          "lemmaId": "lem_votre",
+          "senseIds": [
+            "sns_votre_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_b8131a8d24974c71e792ef98",
+          "action": "reuse_identity",
+          "lemmaId": "lem_votre",
+          "senseId": "sns_votre_primary",
+          "surfaceFormId": "srf_votre",
+          "rationale": "Votre is the second-person plural possessive determiner."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "vitesse",
+      "displayForms": [
+        "vitesse"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_5866e73d5f22ba7328744ace"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_5866e73d5f22ba7328744ace",
+          "action": "new_identity",
+          "lemmaId": "lem_vitesse",
+          "senseId": "sns_vitesse_primary",
+          "surfaceFormId": "srf_vitesse",
+          "rationale": "Vitesse is the noun speed."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "emporter",
+      "displayForms": [
+        "emporter"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_a7061cdab31fe06d2a8d376d"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_a7061cdab31fe06d2a8d376d",
+          "action": "new_identity",
+          "lemmaId": "lem_emporter",
+          "senseId": "sns_emporter_primary",
+          "surfaceFormId": "srf_emporter",
+          "rationale": "Emporter is the infinitive to carry away/win."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "serait",
+      "displayForms": [
+        "serait"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_c28dc3c0b6a08bdbb5d94f76"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_c28dc3c0b6a08bdbb5d94f76",
+          "action": "new_identity",
+          "lemmaId": "lem_etre",
+          "senseId": "sns_etre_primary",
+          "surfaceFormId": "srf_serait",
+          "rationale": "Serait is the conditional third-person singular of être."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "si",
+      "displayForms": [
+        "si"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_f8643679eb8778b53a1f7021"
+      ],
+      "possibleExistingIdentities": [
+        {
+          "surfaceFormId": "srf_si",
+          "lemmaId": "lem_si",
+          "senseIds": [
+            "sns_si_primary"
+          ]
+        }
+      ],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_f8643679eb8778b53a1f7021",
+          "action": "reuse_identity",
+          "lemmaId": "lem_si",
+          "senseId": "sns_si_primary",
+          "surfaceFormId": "srf_si",
+          "rationale": "Si is the conjunction if."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "portiez",
+      "displayForms": [
+        "portiez"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_ab88210330372b32070fa761"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_ab88210330372b32070fa761",
+          "action": "new_identity",
+          "lemmaId": "lem_porter",
+          "senseId": "sns_porter_primary",
+          "surfaceFormId": "srf_portiez",
+          "rationale": "Portiez is the imperfect second-person plural of porter."
+        }
+      ],
+      "reviewStatus": "resolved"
+    },
+    {
+      "normalized": "maison",
+      "displayForms": [
+        "maison"
+      ],
+      "occurrenceCandidateIds": [
+        "tok_42baf6a6858d2068dc39b1ec"
+      ],
+      "possibleExistingIdentities": [],
+      "occurrenceResolutions": [
+        {
+          "occurrenceCandidateId": "tok_42baf6a6858d2068dc39b1ec",
+          "action": "new_identity",
+          "lemmaId": "lem_maison",
+          "senseId": "sns_maison_primary",
+          "surfaceFormId": "srf_maison",
+          "rationale": "Maison is the noun house."
+        }
+      ],
+      "reviewStatus": "resolved"
+    }
+  ]
+}

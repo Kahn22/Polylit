@@ -1,0 +1,47 @@
+import{readFileSync}from'node:fs';import{loadPublication}from'../../../dist/publication/repository.js';
+const p=loadPublication(),input=JSON.parse(readFileSync(new URL('fr-semantic-07-input.json',import.meta.url))).entries;
+const slug=s=>s.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,'_');
+const E=(context,choices)=>({context,choices});const M=E;const A=(context,prompt,choices)=>({context,prompt,choices});const entries=[];
+function target(i,head,pos,key,gloss,definition){const x=input[i];const preferred={avoir:'lem_avoir','être':'lem_etre'};const existingSense=p.bundle.senses.find(s=>s.id===key);const lemma=(existingSense?p.bundle.lemmas.find(l=>l.id===existingSense.lemmaId):preferred[head]?p.bundle.lemmas.find(l=>l.id===preferred[head]):p.bundle.lemmas.find(l=>l.headword===head&&l.partOfSpeech===pos))??{id:`lem_fr_${slug(head)}_${pos}`,headword:head,partOfSpeech:pos};const surface=p.bundle.surfaceForms.find(s=>s.lemmaId===lemma.id&&s.form===x.surface.form)??{id:`srf_fr_${slug(x.surface.form)}_${slug(head)}_${pos}`,lemmaId:lemma.id,form:x.surface.form,normalized:x.surface.form.toLocaleLowerCase('fr')};const sense=p.bundle.senses.find(s=>s.id===key)??{id:key,lemmaId:lemma.id,gloss,definition};return{lemma,surface,sense};}
+function add(i,t,qs,reason,occurrenceIds='all'){entries.push({from:input[i].identity,target:t,occurrenceIds,reason:`All source occurrences read. ${reason} Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed.`,questions:qs});}
+
+const same=i=>({surface:input[i].surface,sense:input[i].sense,lemma:input[i].lemma});
+const ids=(i,part)=>input[i].occurrences.filter(o=>o.workId.includes(part)).map(o=>o.id);
+
+function clarify(i,gloss,definition){const t=same(i);return{...t,sense:{...t.sense,gloss,definition}};}
+function reviewedMetadata(){entries.at(-1).metadataCorrection=true;}
+
+const occ=(i,indices)=>indices.map(n=>input[i].occurrences[n].id);
+const rest=(i,indices)=>input[i].occurrences.filter((_,n)=>!indices.includes(n)).map(o=>o.id);
+const estPerfect=[17,54,70,74,108],estPassive=[23,34,46,53,66,78,94],estPlace=[12,25,29,38,85],estExist=[19],estQuestion=[26,106];
+add(4,same(4),[
+E('Cette pièce est lumineuse grâce à ses grandes fenêtres.','is|was|will be|would be'),M('Aujourd’hui, le ciel _____ bleu et sans nuages.','est|sont|sommes|êtes'),A('Ce livre est un cadeau de ma sœur et reste mon préféré.','Quel verbe relie ce livre à son identification comme cadeau ?','est|livre|sœur|reste')],'114 occurrences examined; retain copula and cleft/presentative uses, including adjectival perdu/recherché and impersonal predicates est temps/est question.',rest(4,[...estPerfect,...estPassive,...estPlace,...estExist,...estQuestion]));
+add(4,target(4,'être','verb','sns_fr_etre_compound_auxiliary'),[
+E('Elle est arrivée hier soir après un long voyage.','has|must|will|can'),M('Le voyageur _____ parti ce matin à six heures.','est|sont|sommes|êtes'),A('Le chat est revenu avant la nuit et dort près du feu.','Quel auxiliaire forme le passé composé avec revenu ?','est|chat|nuit|dort')],'Compound auxiliary with devenu, née, pronominal agité/demandé and venu.',occ(4,estPerfect));
+add(4,target(4,'être','verb','sns_fr_etre_passive_auxiliary'),[
+E('Le courrier est distribué par le facteur chaque matin.','is|was|will be|would be'),M('Cette route _____ entretenue par la commune.','est|sont|sommes|êtes'),A('Le pain est préparé par le boulanger avant l’ouverture du magasin.','Quel auxiliaire marque la voix passive ?','est|pain|boulanger|magasin')],'Passive predicates, including impersonal est parlé and figurative emotional effects.',occ(4,estPassive));
+add(4,target(4,'être','verb','sns_fr_etre_presence'),[
+E('Mon frère est dans le jardin, près du pommier.','is present|sleeps|works|plays'),M('Le dossier _____ sur le bureau, juste à côté de la lampe.','est|sont|sommes|êtes'),A('La clé est dans le tiroir où tu ranges tes papiers.','Quel verbe situe la clé dans un lieu ?','est|clé|tiroir|ranges')],'Literal and figurative location/presence.',occ(4,estPlace));
+add(4,target(4,'être','verb','sns_fr_etre_existential','to exist; there is/are','Dans certaines constructions impersonnelles littéraires, exprime l’existence, comme il est des choses.'),[
+E('Il est des souvenirs que l’on garde toute sa vie.','there are|there used to be|there will be|there cannot be'),M('Dans cette tournure littéraire : « Il _____ des jours où tout semble possible. »','est|sont|sommes|êtes'),A('Il est parfois des rencontres qui changent une vie entière.','Quel verbe exprime l’existence dans cette construction littéraire ?','est|rencontres|changent|vie')],'Literary existential il est des secrets.',occ(4,estExist));
+add(4,target(4,'être','verb','sns_fr_etre_question_formula','question marker (in est-ce que)','Forme de être dans la locution interrogative est-ce que, qui introduit une question.'),[
+E('Est-ce que vous venez demain ?','question marker|negative marker|cause marker|time marker'),M('_____-ce que le magasin ouvre à neuf heures ?','Est|Sont|Sommes|Êtes'),A('Est-ce que le train s’arrête dans notre village ?','Quel mot commence la formule interrogative utilisée ici ?','Est|train|arrête|village')],'Fixed question formula; distinguish from the following passive est payé.',occ(4,estQuestion));
+const etaitPerfect=[6,8,13,20,29,31,32,34,37],etaitPassive=[9,11,30],etaitPlace=[21,33];
+add(25,same(25),[
+E('La maison était calme avant l’arrivée des invités.','was|is|will be|would be'),M('À cette époque, le village _____ encore très petit.','était|étaient|étions|étiez'),A('La robe était prête et sa propriétaire semblait satisfaite.','Quel verbe relie la robe à son état passé ?','était|robe|propriétaire|semblait')],'Copular past states, including adjectival convinced/compromised.',rest(25,[...etaitPerfect,...etaitPassive,...etaitPlace]));
+add(25,target(25,'être','verb','sns_fr_etre_compound_auxiliary'),[
+E('Elle était partie avant que nous arrivions.','had|would|must|could'),M('Quand le jour se leva, il _____ déjà descendu dans la cour.','était|étaient|étions|étiez'),A('Le voyageur était revenu la veille et avait retrouvé sa famille.','Quel auxiliaire forme le plus-que-parfait avec revenu ?','était|voyageur|veille|famille')],'Compound past, including mort preceding successor’s appointment and pronominal verbs.',occ(25,etaitPerfect));
+add(25,target(25,'être','verb','sns_fr_etre_passive_auxiliary'),[
+E('Le bâtiment était surveillé par deux gardiens chaque nuit.','was|is|will be|would be'),M('Le courrier _____ apporté par le facteur tous les matins.','était|étaient|étions|étiez'),A('Le fugitif était recherché par la police dans toute la région.','Quel auxiliaire forme une construction passive au passé ?','était|fugitif|police|région')],'Passive committed crime, search and conditional recovery.',occ(25,etaitPassive));
+add(25,target(25,'être','verb','sns_fr_etre_presence'),[
+E('Son père était au bureau pendant toute la matinée.','was present|slept|ate|sang'),M('Hier, la valise _____ près de la porte ; elle se trouvait là depuis le matin.','était|étaient|étions|étiez'),A('Le carnet était dans sa poche lorsqu’il entra dans la salle.','Quel verbe situe le carnet dans le passé ?','était|carnet|poche|entra')],'Location in Sandherr’s hands and at the office.',occ(25,etaitPlace));
+const etrePerfect=[1,5,6,7,9],etrePassive=[0,3,8,14,15,17,20,21,24],etrePlace=[22,23];
+add(32,same(32),[
+E('Elle souhaite être heureuse dans sa nouvelle vie.','be|seem|become|remain'),M('Il espère _____ capable de finir ce travail seul.','être|avoir|faire|aller'),A('Il veut être un voisin attentif et aider les personnes âgées.','Quel infinitif relie le sujet à la qualité de voisin attentif ?','être|voisin|aider|personnes')],'Copula, including dressed/delighted adjectival states and coordinated attractive/popular.',rest(32,[...etrePerfect,...etrePassive,...etrePlace]));
+add(32,target(32,'être','verb','sns_fr_etre_compound_auxiliary'),[
+E('Après être arrivée, elle a posé ses bagages dans la chambre.','having|wanting|needing|trying'),M('Après _____ partis du village, ils ont suivi la rivière.','être|avoir|faire|vouloir'),A('Il regrette de s’être trompé en lisant les instructions.','Quel auxiliaire entre dans l’infinitif passé du verbe pronominal ?','être|regrette|trompé|instructions')],'Compound infinitive for pronominal s’appuyer, se laisser and se rendre.',occ(32,etrePerfect));
+add(32,target(32,'être','verb','sns_fr_etre_passive_auxiliary'),[
+E('Le pont doit être réparé par une équipe spécialisée.','be|have|want|go'),M('La lettre va _____ envoyée par courrier demain.','être|avoir|faire|aller'),A('Ce texte peut être lu par tous les élèves de la classe.','Quel auxiliaire permet de former la voix passive avec lu ?','être|texte|élèves|classe')],'Passive infinitives, including the series known/understood/loved/married.',occ(32,etrePassive));
+add(32,target(32,'être','verb','sns_fr_etre_presence'),[
+E('Tu dois être à la gare avant huit heures.','be present|sleep|eat|sing'),M('Il faut _____ sur place avant le départ du groupe.','être|avoir|faire|tenir'),A('Elle souhaite être près de sa famille pendant les vacances.','Quel infinitif indique la présence dans un lieu ou auprès de personnes ?','être|famille|vacances|souhaite')],'Locative ministry and cab.',occ(32,etrePlace));
+export default {version:1,id:'fr-2026-09-19-50',snapshot:'fr-semantic-07-input.json',entries};

@@ -1,0 +1,41 @@
+{
+  "name": "polylit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A multilingual reading and vocabulary-learning studio for public-domain literature.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:domain && npm run build:delivery && npm run build:app && npm run check:performance",
+    "build:domain": "tsc -p tsconfig.build.json",
+    "build:delivery": "node dist/cli/build-delivery.js",
+    "build:local-review": "npm run build:domain && node dist/cli/build-delivery.js --local-review && vite build --outDir review-build && node scripts/create-route-pages.mjs --directory review-build && node scripts/check-performance.mjs --directory review-build",
+    "build:app": "vite build && node scripts/create-route-pages.mjs",
+    "check": "npm run typecheck && npm test",
+    "check:performance": "node scripts/check-performance.mjs",
+    "content:prepare": "npm run build:domain && node dist/cli/prepare-fixtures.js",
+    "content:build": "npm run build:domain && npm run build:delivery",
+    "content:check": "npm run build:domain && node dist/cli/validate-publication.js",
+    "publication:import": "npm run build:domain && node dist/cli/import-work.js",
+    "publication:release-check": "npm run build:domain && node dist/cli/check-editorial-release.js",
+    "editorial:audit": "npm run build:domain && node dist/cli/audit-editorial.js",
+    "editorial:report": "npm run build:domain && node dist/cli/audit-editorial.js --write-report",
+    "pipeline:zola": "npm run build:domain && node dist/cli/plan-zola.js && node dist/cli/review-zola.js && node dist/cli/report-zola-coverage.js && node dist/cli/report-zola-editorial-batches.js && node dist/cli/process-zola.js",
+    "audit:zola": "npm run build:domain && node dist/cli/audit-zola.js",
+    "content:review:parure:01": "npm run build:domain && node scripts/prepare-maupassant-batch-01.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --dir tests"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
+}

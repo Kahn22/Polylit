@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "pipelineVersion": "content-pipeline-v1",
+  "workId": "wrk_zola_jaccuse",
+  "outcome": "published",
+  "resultingPublicationState": "published",
+  "completedStages": [
+    "registration",
+    "rights_verification",
+    "source_acquisition",
+    "source_structuring",
+    "lexical_manifest",
+    "linguistic_preparation",
+    "independent_verification",
+    "learner_packaging",
+    "publication"
+  ],
+  "diagnostics": [],
+  "checksums": {
+    "source": "sha256:f9c77975ede9a67867c12b954762a1d9807ca584e8a1aaef5a1a07922ffac863",
+    "structure": "sha256:939c4edcd9d79a7ca4060296f83b4b224b24e59fb8b8f504d2b4b95093024868",
+    "lexicalManifest": "sha256:c73b1983ca08040d65b754c206bb9852c72534052c9ed1fa6499128665f88c72",
+    "publishedBundle": "sha256:742aae8273dcb4e38f0eb348df912a957287527537c9ccb26ee775f8768a0095"
+  },
+  "counts": {
+    "thoughtUnits": 199,
+    "tokenCandidates": 4889,
+    "vocabularyIdentities": 1411,
+    "quizItems": 4593
+  }
+}

@@ -1,0 +1,161 @@
+import type { EditorialQuizSet } from "./zola-editorial-quizzes.js";
+
+/** The first individually authored questions in frozen editorial batch 1. */
+export const zolaEditorialBatch13: Record<string, EditorialQuizSet> = {
+  "correspondance:correspondance_letters": {
+    early: "La correspondance entre les deux amies compte vingt lettres envoyées en un an.", englishChoices: ["correspondence", "meeting", "purchase", "silence"],
+    intermediate: "Depuis leur séparation, ils entretiennent une _____ régulière par lettres.", frenchChoices: ["correspondance", "rencontre", "dispute", "promenade"],
+    advanced: "La correspondance de Nina avec sa sœur comprend des lettres écrites chaque semaine. Paul classe les enveloppes, Luc photographie les timbres et Marie lit un journal.",
+    prompt: "Quel mot désigne l’échange suivi de lettres entre Nina et sa sœur ?", advancedChoices: ["correspondance", "enveloppes", "timbres", "journal"],
+  },
+  "côté:cote_side": {
+    early: "La fenêtre se trouve du côté gauche de la maison.", englishChoices: ["side", "roof", "floor", "center"],
+    intermediate: "La pharmacie se trouve de l’autre _____ de la rue, en face de nous.", frenchChoices: ["côté", "toit", "milieu", "étage"],
+    advanced: "Le côté droit du bateau touche le quai, tandis que sa proue pointe vers la mer. Nina tient la corde, Paul vérifie la coque et Léa regarde les vagues.",
+    prompt: "Quel mot désigne la partie droite du bateau ?", advancedChoices: ["côté", "quai", "corde", "coque"],
+  },
+  "cour:cour_tribunal": {
+    early: "La cour examine l’appel avant de rendre son jugement.", englishChoices: ["court", "yard", "hallway", "school"],
+    intermediate: "Les juges de la _____ d’appel entendront l’affaire mardi.", frenchChoices: ["cour", "ferme", "maison", "classe"],
+    advanced: "La cour entend les témoins avant de juger l’affaire. Le greffier note les déclarations, les avocats préparent leurs dossiers et le public attend dehors.",
+    prompt: "Quel mot désigne la juridiction qui juge l’affaire ?", advancedChoices: ["cour", "greffier", "avocats", "public"],
+  },
+  "couronnera:couronner_culminate": {
+    early: "Un concert public couronnera les efforts des élèves à la fin de l’année.", englishChoices: ["will crown", "will interrupt", "will erase", "will delay"],
+    intermediate: "Une exposition _____ le travail des artistes et marquera l’aboutissement du projet.", frenchChoices: ["couronnera", "effacera", "interrompra", "retardera"],
+    advanced: "La remise du prix couronnera des années de recherche pour cette équipe. Les collègues applaudiront, Nina présentera les résultats et Paul remerciera les bénévoles.",
+    prompt: "Quel mot annonce l’aboutissement glorieux de leurs efforts ?", advancedChoices: ["couronnera", "applaudiront", "présentera", "remerciera"],
+  },
+  "court:courir_run": {
+    early: "Le chien court après une balle dans le jardin.", englishChoices: ["runs", "sleeps", "waits", "hides"],
+    intermediate: "Le garçon _____ très vite pour attraper le bus avant son départ.", frenchChoices: ["court", "dort", "attend", "s’arrête"],
+    advanced: "Paul court vers la gare parce que son train part dans deux minutes. Nina marche derrière lui, Léa porte les billets et Marc attend sur le quai.",
+    prompt: "Quel mot indique que Paul se déplace rapidement à pied ?", advancedChoices: ["court", "marche", "porte", "attend"],
+  },
+  "couvert:couvrir_conceal": {
+    early: "Le directeur a couvert la fraude de son ami en cachant les preuves.", englishChoices: ["covered up", "exposed", "prevented", "denounced"],
+    intermediate: "En dissimulant les preuves contre son collègue, le directeur l’a _____ pendant des mois.", frenchChoices: ["couvert", "dénoncé", "accusé", "trahi"],
+    advanced: "Le responsable a couvert son adjoint en cachant les factures qui révélaient le vol. Nina a retrouvé les documents, le juge a interrogé les témoins et Paul a ouvert le dossier.",
+    prompt: "Quel mot indique que le responsable a protégé l’adjoint en dissimulant sa faute ?", advancedChoices: ["couvert", "retrouvé", "interrogé", "ouvert"],
+  },
+  "couvrir:couvrir_conceal": {
+    early: "L’avocat refuse de couvrir la fraude de son client en détruisant des documents.", englishChoices: ["to cover up", "to reveal", "to prevent", "to investigate"],
+    intermediate: "Il ne veut pas _____ son ami en cachant les preuves de son vol.", frenchChoices: ["couvrir", "dénoncer", "accuser", "punir"],
+    advanced: "Le comptable hésite à couvrir son supérieur en dissimulant les faux reçus. Léa examine les dossiers, Nina consulte les comptes et Paul contacte le juge.",
+    prompt: "Quel verbe signifie protéger le supérieur en cachant sa fraude ?", advancedChoices: ["couvrir", "examine", "consulte", "contacte"],
+  },
+  "couvrir:couvrir_coat": {
+    early: "Pour protéger la table, Léa veut la couvrir d’une couche de vernis.", englishChoices: ["to coat", "to uncover", "to break", "to move"],
+    intermediate: "Avant de peindre, il faut _____ tout le sol avec une bâche protectrice.", frenchChoices: ["couvrir", "découvrir", "déplacer", "casser"],
+    advanced: "Marie va couvrir le gâteau de chocolat pour en napper toute la surface. Nina mélange la crème, Paul ferme le four et Luc pose des assiettes sur la table.",
+    prompt: "Quel verbe signifie appliquer le chocolat sur toute la surface du gâteau ?", advancedChoices: ["couvrir", "mélange", "ferme", "pose"],
+  },
+  "crainte:crainte_fear": {
+    early: "La crainte de l’orage empêche les enfants de sortir.", englishChoices: ["fear", "hope", "joy", "curiosity"],
+    intermediate: "Elle entend le tonnerre et ressent de la _____ à l’idée de traverser la forêt.", frenchChoices: ["crainte", "joie", "confiance", "sérénité"],
+    advanced: "La crainte de perdre son emploi empêche Paul de dormir. Son amie lui propose de l’aide, Nina prépare le repas et Léa lit une lettre.",
+    prompt: "Quel mot désigne l’inquiétude de Paul devant un risque possible ?", advancedChoices: ["crainte", "emploi", "repas", "lettre"],
+  },
+  "cri:cri_cry": {
+    early: "Un cri de surprise retentit quand la lumière s’éteint brusquement.", englishChoices: ["cry", "whisper", "silence", "gesture"],
+    intermediate: "En voyant le chien surgir, Nina pousse un _____ de surprise.", frenchChoices: ["cri", "silence", "geste", "sourire"],
+    advanced: "Le cri de Léa réveille tout l’immeuble quand elle aperçoit de la fumée. Paul ouvre la fenêtre, Nina appelle les pompiers et Marc descend l’escalier.",
+    prompt: "Quel mot désigne le son puissant lancé par Léa ?", advancedChoices: ["cri", "fenêtre", "pompiers", "escalier"],
+  },
+  "crie:crier_proclaim": {
+    early: "Sur la place, la militante crie son refus de la décision du maire.", englishChoices: ["proclaims", "hides", "forgets", "whispers"],
+    intermediate: "Devant la foule, Paul _____ haut et fort que la décision est injuste.", frenchChoices: ["crie", "murmure", "dissimule", "oublie"],
+    advanced: "Léa crie son indignation devant les élus pour que tous l’entendent. Nina tient une affiche, Paul distribue des tracts et Marc prend des notes.",
+    prompt: "Quel mot indique que Léa exprime son indignation avec force ?", advancedChoices: ["crie", "tient", "distribue", "prend"],
+  },
+  "crierai:crier_proclaim": {
+    early: "Demain, je crierai mon opposition devant le conseil, sans baisser la voix.", englishChoices: ["will proclaim", "will hide", "will forget", "will whisper"],
+    intermediate: "Lors de la réunion, je _____ haut et fort que cette décision est injuste.", frenchChoices: ["crierai", "murmurerai", "oublierai", "dissimulerai"],
+    advanced: "Demain, je crierai ma colère devant les représentants afin qu’ils m’entendent. Nina brandira une affiche, Paul distribuera des tracts et Léa lira une lettre.",
+    prompt: "Quel mot annonce que j’exprimerai ma colère avec force ?", advancedChoices: ["crierai", "brandira", "distribuera", "lira"],
+  },
+  "crime:crime_offense": {
+    early: "Le tribunal juge ce meurtre comme un crime grave.", englishChoices: ["crime", "compliment", "accident", "reward"],
+    intermediate: "Le juge explique que ce meurtre volontaire est un _____ puni par la loi.", frenchChoices: ["crime", "bienfait", "compliment", "cadeau"],
+    advanced: "La police enquête sur un crime : un homme a été tué volontairement. Le témoin décrit une voiture, l’avocat consulte un dossier et le juge écoute la déposition.",
+    prompt: "Quel mot désigne l’acte très grave contraire à la loi ?", advancedChoices: ["crime", "voiture", "dossier", "déposition"],
+  },
+  "crimes:crime_offense": {
+    early: "Les deux meurtres sont des crimes sur lesquels la police enquête encore.", englishChoices: ["crimes", "rewards", "mistakes", "compliments"],
+    intermediate: "Ces meurtres volontaires sont des _____ punis par la loi.", frenchChoices: ["crimes", "bienfaits", "cadeaux", "éloges"],
+    advanced: "La police enquête sur deux crimes commis dans le quartier : deux personnes ont été tuées. Nina interroge les voisins, Paul lit les rapports et Léa cherche des témoins.",
+    prompt: "Quel mot désigne les deux actes très graves punis par la loi ?", advancedChoices: ["crimes", "quartier", "rapports", "témoins"],
+  },
+  "criminel:criminel_criminal": {
+    early: "Ce projet criminel vise à enlever le maire par la force.", englishChoices: ["criminal", "innocent", "legal", "harmless"],
+    intermediate: "Organiser un meurtre est un acte _____ et puni par la loi.", frenchChoices: ["criminel", "innocent", "légal", "inoffensif"],
+    advanced: "Le projet criminel d’enlever le maire a été découvert à temps. Les policiers gardent le bâtiment, les journalistes attendent dehors et les avocats consultent le dossier.",
+    prompt: "Quel mot indique que le projet constitue une grave infraction ?", advancedChoices: ["criminel", "policiers", "journalistes", "avocats"],
+  },
+  "croira:croire_believe": {
+    early: "Après avoir vu les photos, Léa croira enfin le récit de Paul.", englishChoices: ["will believe", "will forget", "will conceal", "will reject"],
+    intermediate: "Quand il verra les preuves demain, Marc _____ enfin que Nina dit vrai.", frenchChoices: ["croira", "niera", "oubliera", "doutera"],
+    advanced: "Si elle lit le témoignage confirmé, Nina croira l’histoire racontée par Paul. Marc vérifiera les dates, Luc ouvrira le dossier et Léa préparera une lettre.",
+    prompt: "Quel mot indique que Nina tiendra l’histoire pour vraie ?", advancedChoices: ["croira", "vérifiera", "ouvrira", "préparera"],
+  },
+  "croire:croire_believe": {
+    early: "Même sans photo, Paul choisit de croire le récit de son ami.", englishChoices: ["to believe", "to deny", "to hide", "to forget"],
+    intermediate: "Les témoins concordent ; il est raisonnable de _____ leur récit.", frenchChoices: ["croire", "nier", "dissimuler", "oublier"],
+    advanced: "Nina veut croire Léa lorsqu’elle raconte ce qu’elle a vu au marché. Paul vérifie les horaires, Marc lit un message et Luc cherche une photographie.",
+    prompt: "Quel verbe signifie tenir le récit de Léa pour vrai ?", advancedChoices: ["croire", "vérifie", "lit", "cherche"],
+  },
+  "crois:croire_believe": {
+    early: "Je crois ton explication parce que les faits la confirment.", englishChoices: ["believe", "deny", "forget", "conceal"],
+    intermediate: "Les preuves sont claires : je _____ que tu dis la vérité.", frenchChoices: ["crois", "nie", "cache", "doute"],
+    advanced: "Je crois que le train part à neuf heures, car j’ai lu l’horaire. Nina vérifie son billet, Paul ferme sa valise et Marc attend sur le quai.",
+    prompt: "Quel mot indique que je tiens l’heure du départ pour vraie ?", advancedChoices: ["crois", "vérifie", "ferme", "attend"],
+  },
+  "croulent:crouler_collapse": {
+    early: "Sous le poids de la neige, les vieux toits croulent.", englishChoices: ["collapse", "shine", "float", "grow"],
+    intermediate: "Les étagères trop chargées _____ sous le poids des livres.", frenchChoices: ["croulent", "résistent", "flottent", "grandissent"],
+    advanced: "Les hangars croulent sous la neige accumulée depuis trois jours. Les ouvriers dégagent la route, Nina prévient le maire et Paul ferme le portail.",
+    prompt: "Quel mot indique que les hangars s’effondrent sous le poids de la neige ?", advancedChoices: ["croulent", "dégagent", "prévient", "ferme"],
+  },
+  "croyait:croire_believe": {
+    early: "Avant de vérifier l’adresse, Paul croyait que la maison était au bout de la rue.", englishChoices: ["believed", "forgot", "proved", "concealed"],
+    intermediate: "Hier, elle _____ encore que le train partait à midi, avant de consulter l’horaire.", frenchChoices: ["croyait", "niait", "oubliait", "cachait"],
+    advanced: "Nina croyait que son ami arriverait samedi, mais elle vient de lire qu’il arrive vendredi. Paul range le calendrier, Luc ferme la porte et Léa appelle un taxi.",
+    prompt: "Quel mot indique ce que Nina tenait auparavant pour vrai ?", advancedChoices: ["croyait", "range", "ferme", "appelle"],
+  },
+  "cru:croire_believe": {
+    early: "J’ai cru Paul quand il m’a montré sa lettre signée.", englishChoices: ["believed", "ignored", "contradicted", "forgot"],
+    intermediate: "Après avoir examiné la preuve, j’ai _____ son explication.", frenchChoices: ["cru", "nié", "caché", "oublié"],
+    advanced: "Léa a cru son voisin après avoir vérifié son récit. Nina a étudié la photo, Marc a nettoyé la table et Paul a ouvert la fenêtre.",
+    prompt: "Quel mot indique que Léa a tenu le récit de son voisin pour vrai ?", advancedChoices: ["cru", "étudié", "nettoyé", "ouvert"],
+  },
+  "cruellement:cruellement_cruelly": {
+    early: "Le gardien traite cruellement le chien en le privant d’eau.", englishChoices: ["cruelly", "kindly", "gently", "fairly"],
+    intermediate: "Il refuse de nourrir les animaux et les traite _____, sans aucune pitié.", frenchChoices: ["cruellement", "gentiment", "doucement", "équitablement"],
+    advanced: "Un homme agit cruellement envers les animaux en les laissant sans nourriture. Léa leur apporte de l’eau, Nina appelle le refuge et Paul ouvre la grille.",
+    prompt: "Quel mot qualifie une manière d’agir sans pitié ?", advancedChoices: ["cruellement", "apporte", "appelle", "ouvre"],
+  },
+  "culpabilité:culpabilite_guilt": {
+    early: "Les empreintes prouvent la culpabilité de Marc dans ce vol.", englishChoices: ["guilt", "innocence", "curiosity", "permission"],
+    intermediate: "Les preuves montrent qu’il a commis le vol : le tribunal établit sa _____.", frenchChoices: ["culpabilité", "innocence", "disponibilité", "curiosité"],
+    advanced: "La culpabilité de Luc est établie par une vidéo montrant le vol. Son avocat consulte le dossier, le témoin retourne au travail et le juge prononce sa décision.",
+    prompt: "Quel mot désigne ici le fait que Luc a commis le vol ?", advancedChoices: ["culpabilité", "vidéo", "dossier", "décision"],
+  },
+  "cynique:cynique_shameless": {
+    early: "Le vendeur cynique rit des clients qu’il a volontairement trompés.", englishChoices: ["shameless", "remorseful", "sincere", "considerate"],
+    intermediate: "Il se vante d’avoir menti aux victimes : son sourire _____ choque tout le monde.", frenchChoices: ["cynique", "repentant", "sincère", "compatissant"],
+    advanced: "Le dirigeant cynique plaisante au sujet des personnes qu’il a ruinées sans montrer de remords. Son adjoint inquiet regarde ailleurs, une cliente proteste et le comptable baisse les yeux.",
+    prompt: "Quel mot qualifie son mépris provocant des règles morales ?", advancedChoices: ["cynique", "inquiet", "cliente", "comptable"],
+  },
+  "dame:dame_woman": {
+    early: "Une dame âgée remercie le conducteur qui lui cède sa place.", englishChoices: ["lady", "child", "gentleman", "soldier"],
+    intermediate: "Le serveur s’adresse poliment à la _____ qui attend près de la porte.", frenchChoices: ["dame", "fillette", "monsieur", "soldat"],
+    advanced: "La dame assise près de la fenêtre demande son chemin avec politesse. Le jeune homme consulte une carte, l’enfant joue sur un banc et le conducteur ouvre la porte.",
+    prompt: "Quel mot désigne avec respect la femme adulte assise près de la fenêtre ?", advancedChoices: ["dame", "homme", "enfant", "conducteur"],
+  },
+  "dangereuses:dangereux_dangerous": {
+    early: "Ces routes dangereuses sont verglacées et provoquent des accidents.", englishChoices: ["dangerous", "safe", "quiet", "wide"],
+    intermediate: "Sans éclairage ni garde-corps, ces passerelles sont _____ la nuit.", frenchChoices: ["dangereuses", "sûres", "paisibles", "larges"],
+    advanced: "Les passerelles dangereuses risquent de céder sous le poids des marcheurs. Les rues voisines sont larges, les lampes sont neuves et les barrières sont peintes.",
+    prompt: "Quel mot indique que les passerelles présentent un péril ?", advancedChoices: ["dangereuses", "larges", "neuves", "peintes"],
+  },
+};

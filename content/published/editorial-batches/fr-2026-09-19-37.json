@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "id": "fr-2026-09-19-37",
+  "masteryIdsChanged": false,
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+      "before": {
+        "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "contextFrench": "Le juge mène l’_____ du dossier en examinant les preuves et en entendant les témoins.",
+        "correctAnswer": "instruction",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "inauguration",
+          "instruction",
+          "acquittement",
+          "élection"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "contextFrench": "Le juge mène l’_____ du dossier en examinant les preuves et en entendant les témoins.",
+        "correctAnswer": "instruction",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "instruction",
+          "imagination",
+          "élection",
+          "inauguration"
+        ]
+      },
+      "reason": "All four noun distractors must be feminine singular and admit elision. Replace masculine acquittement; retained instruction is the sole judicial inquiry meaning."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_1_3",
+      "before": {
+        "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_1_3",
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item",
+        "contextFrench": "Voici un gant ; sa pareille se trouve dans l’autre poche.",
+        "correctAnswer": "matching counterpart",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "pareille",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "owner",
+          "repair",
+          "price",
+          "matching counterpart"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_1_3",
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item",
+        "contextFrench": "Voici une chaussure ; sa pareille se trouve sous le lit.",
+        "correctAnswer": "matching counterpart",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "pareille",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "owner",
+          "repair",
+          "price",
+          "matching counterpart"
+        ]
+      },
+      "reason": "Use a feminine referent for feminine nominal pareille rather than masculine gant."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_fusil_firearm_parure_fusil_lem_parure_fusil_noun_f55ea6430a_f120daf553_levels_4_5",
+      "before": {
+        "id": "qiz_fr_fusil_firearm_parure_fusil_lem_parure_fusil_noun_f55ea6430a_f120daf553_levels_4_5",
+        "surfaceFormId": "srf_parure_fusil_lem_parure_fusil_noun_f55ea6430a_f120daf553",
+        "senseId": "sns_fr_fusil_firearm",
+        "contextFrench": "Cette arme à feu longue que l’on appuie contre l’épaule est un _____.",
+        "correctAnswer": "fusil",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "couteau",
+          "fusil",
+          "sabre",
+          "arc"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_fusil_firearm_parure_fusil_lem_parure_fusil_noun_f55ea6430a_f120daf553_levels_4_5",
+        "surfaceFormId": "srf_parure_fusil_lem_parure_fusil_noun_f55ea6430a_f120daf553",
+        "senseId": "sns_fr_fusil_firearm",
+        "contextFrench": "Le garde décharge son _____ avant de ranger cette arme à feu dans son étui.",
+        "correctAnswer": "fusil",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "couteau",
+          "fusil",
+          "sabre",
+          "arc"
+        ]
+      },
+      "reason": "Replace a definitional frame with a concrete handling situation; all choices remain masculine singular nouns and only fusil is a firearm."
+    }
+  ]
+}

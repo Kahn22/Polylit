@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "fr-2026-09-19-04",
+  "masteryIdsChanged": false,
+  "forms": [
+    "passé"
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_passe_elapsed_fr_passe_adjective_levels_6_8",
+      "before": {
+        "id": "qiz_fr_passe_elapsed_fr_passe_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_passe_adjective",
+        "senseId": "sns_fr_passe_elapsed",
+        "contextFrench": "Le temps passé loin de sa famille lui semble long ; il pense aux semaines déjà écoulées.",
+        "correctAnswer": "passé",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif indique que le temps est déjà écoulé ?",
+        "choicesFrench": [
+          "semaines",
+          "passé",
+          "famille",
+          "long"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_passe_elapsed_fr_passe_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_passe_adjective",
+        "senseId": "sns_fr_passe_elapsed",
+        "contextFrench": "Le siècle passé a laissé de vieux bâtiments dans cette ville ; les habitants restaurent ces témoins d’une époque terminée.",
+        "correctAnswer": "passé",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif indique que le siècle est déjà écoulé ?",
+        "choicesFrench": [
+          "ville",
+          "passé",
+          "habitants",
+          "bâtiments"
+        ]
+      },
+      "reason": "Refine the adjective passage: temps passé loin could mean time spent away, whereas siècle passé unambiguously means a past/elapsed century. Keep the same adjective identity and other two distinct questions."
+    }
+  ]
+}

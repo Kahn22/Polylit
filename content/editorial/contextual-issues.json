@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "status": "resolved_locally",
+  "description": "Four initial contextual findings resolved by the explicitly approved fresh-on-view policy. This does not certify the rest of the Spanish corpus or authorize publication.",
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "decisionDate": "2026-09-19",
+  "batchLedger": "content/published/editorial-batches/es-2026-09-19-02.json",
+  "issues": [
+    {
+      "surfaceFormId": "srf_es_0643_plumas",
+      "senseId": "sns_es_0643_plumas",
+      "units": ["unt_quiroga_almohadon_031"],
+      "currentGloss": "pens",
+      "finding": "The two occurrences describe feathers inside the pillow, not writing instruments.",
+      "proposedAction": "Review an explicit correction to the feather sense and all three questions; decide how prior practice of the incorrect gloss should affect existing mastery. Do not silently transfer mastery to another sense.",
+      "resolution": "Both occurrences now reference sns_es_pluma_feather. Retain old pens sense, questions, and progress as history; no progress transfer.",
+      "status": "resolved_locally"
+    },
+    {
+      "surfaceFormId": "srf_es_0501_medico",
+      "senseId": "sns_es_0501_medico",
+      "units": ["unt_palma_camisa_012", "unt_quiroga_almohadon_007", "unt_quiroga_almohadon_018"],
+      "currentGloss": "doctor",
+      "finding": "The Palma occurrence ultimátum médico is adjectival; the Quiroga occurrences denote a doctor. The current single sense conflates the two uses.",
+      "proposedAction": "Prepare separate noun/adjective analyses and quiz sets. Decide the mapping of the old ambiguous mastery identity explicitly; do not copy its mastery to both new senses.",
+      "resolution": "Palma adjective uses sns_es_medico_medical and a separate adjective surface/lemma. Both Quiroga doctor occurrences retain the original mastery key. New adjective mastery begins on view only.",
+      "status": "resolved_locally"
+    },
+    {
+      "surfaceFormId": "srf_es_0541_mujer",
+      "senseId": "sns_es_0541_mujer",
+      "units": ["unt_quiroga_almohadon_010"],
+      "currentGloss": "woman",
+      "finding": "In mirando a su mujer the contextual meaning is his wife, not merely an unspecified woman.",
+      "proposedAction": "Review the spouse sense and implications for the existing generic quiz/mastery identity before adoption.",
+      "resolution": "The spouse occurrence now uses sns_es_mujer_spouse. Retain the old general-woman sense, questions, and progress; do not transfer it.",
+      "status": "resolved_locally"
+    },
+    {
+      "surfaceFormId": "srf_es_0943_paso",
+      "senseId": "sns_es_0943_paso",
+      "units": ["unt_palma_camisa_015"],
+      "currentGloss": "step",
+      "finding": "In paso por esa funda the form functions as a verb in a construction expressing acceptance; it should not be combined with the noun pasos meaning footsteps.",
+      "proposedAction": "Review pasar and the construction in context, prepare its proper questions, and decide the old mastery mapping explicitly.",
+      "resolution": "The occurrence uses sns_es_pasar_accept under a new pasar verb lemma and first-person present surface. Old step history and separate plural pasos noun remain untouched.",
+      "status": "resolved_locally"
+    }
+  ]
+}

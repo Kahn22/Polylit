@@ -1,0 +1,686 @@
+{
+  "id": "fr-2026-09-19-81",
+  "language": "fr",
+  "snapshot": "fr-exact-audit-01.json",
+  "entries": [
+    {
+      "id": "exq_cendrillon_sans_doute_9d5b8f1836_early",
+      "patch": {
+        "contextFrench": "Dans ce conte ancien, c’est sans doute un grand avantage, affirme le narrateur avec certitude.",
+        "correctAnswer": "undoubtedly",
+        "choicesEnglish": [
+          "undoubtedly",
+          "rarely",
+          "never",
+          "reluctantly"
+        ],
+        "targetText": "sans doute"
+      },
+      "reason": "Historical certainty meaning explicitly contextualized; do not substitute modern probability meaning or use it as a wrong answer."
+    },
+    {
+      "id": "exq_cendrillon_sans_doute_9d5b8f1836_intermediate",
+      "patch": {
+        "contextFrench": "Le narrateur ancien l’affirme avec certitude : c’est _____ un grand avantage, sans aucune hésitation.",
+        "correctAnswer": "sans doute",
+        "choicesFrench": [
+          "peut-être",
+          "éventuellement",
+          "possiblement",
+          "sans doute"
+        ]
+      },
+      "reason": "Historical certainty meaning explicitly contextualized; do not substitute modern probability meaning or use it as a wrong answer."
+    },
+    {
+      "id": "exq_cendrillon_sans_doute_9d5b8f1836_advanced",
+      "patch": {
+        "contextFrench": "C’est sans doute un précieux secours, affirme le narrateur du conte sans exprimer d’incertitude.",
+        "correctAnswer": "sans doute",
+        "choicesFrench": [
+          "du conte",
+          "affirme",
+          "sans doute",
+          "précieux"
+        ],
+        "promptFrench": "Quelle expression a ici le sens ancien de certainement ?"
+      },
+      "reason": "Historical certainty meaning explicitly contextualized; do not substitute modern probability meaning or use it as a wrong answer."
+    },
+    {
+      "id": "exq_parure_a_cause_de_3ae5baee14_early",
+      "patch": {
+        "contextFrench": "Elle reste chez elle à cause de la fièvre qui l’empêche de sortir.",
+        "correctAnswer": "because of",
+        "choicesEnglish": [
+          "despite",
+          "before",
+          "after",
+          "because of"
+        ],
+        "targetText": "à cause de"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_a_cause_de_3ae5baee14_intermediate",
+      "patch": {
+        "contextFrench": "La fièvre l’empêche de venir : son absence est donc _____ cette maladie.",
+        "correctAnswer": "à cause de",
+        "choicesFrench": [
+          "avant",
+          "après",
+          "à cause de",
+          "malgré"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_a_cause_de_3ae5baee14_advanced",
+      "patch": {
+        "contextFrench": "Il a perdu sa récolte à cause de la grêle ; il demande de l’aide auprès de ses voisins.",
+        "correctAnswer": "à cause de",
+        "choicesFrench": [
+          "auprès de ses voisins",
+          "à cause de",
+          "sa récolte",
+          "de l’aide"
+        ],
+        "promptFrench": "Quelle expression indique la cause de la perte ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_early",
+      "patch": {
+        "contextFrench": "Les secours travaillent nuit et jour, sans interrompre leurs recherches.",
+        "correctAnswer": "night and day",
+        "choicesEnglish": [
+          "only at noon",
+          "every other evening",
+          "night and day",
+          "once a week"
+        ],
+        "targetText": "nuit et jour"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_intermediate",
+      "patch": {
+        "contextFrench": "Le phare fonctionne _____, pendant toutes les heures de la journée et de la nuit.",
+        "correctAnswer": "nuit et jour",
+        "choicesFrench": [
+          "un matin par mois",
+          "nuit et jour",
+          "seulement à midi",
+          "une heure par semaine"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_advanced",
+      "patch": {
+        "contextFrench": "Les gardes veillent nuit et jour sur le palais ; chacun prend son tour avant de se reposer.",
+        "correctAnswer": "nuit et jour",
+        "choicesFrench": [
+          "nuit et jour",
+          "sur le palais",
+          "son tour",
+          "avant de"
+        ],
+        "promptFrench": "Quelle expression indique une surveillance continue ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_tout_au_long_early",
+      "patch": {},
+      "reason": "Early and advanced duration contexts read and retained. Middle now tests continuous activity; replace ungrammatical bien avant du distractor with au milieu du."
+    },
+    {
+      "id": "exq_tout_au_long_intermediate",
+      "patch": {
+        "contextFrench": "Chaque jour du voyage, sans exception, elle a écrit dans son carnet : elle l’a fait _____ du séjour.",
+        "correctAnswer": "tout au long",
+        "choicesFrench": [
+          "tout au long",
+          "au début",
+          "à la fin",
+          "au milieu"
+        ]
+      },
+      "reason": "Early and advanced duration contexts read and retained. Middle now tests continuous activity; replace ungrammatical bien avant du distractor with au milieu du."
+    },
+    {
+      "id": "exq_tout_au_long_advanced",
+      "patch": {},
+      "reason": "Early and advanced duration contexts read and retained. Middle now tests continuous activity; replace ungrammatical bien avant du distractor with au milieu du."
+    },
+    {
+      "id": "exq_lion_rat_au_sortir_des_forets_971cce2bcd_early",
+      "patch": {
+        "contextFrench": "Le voyageur aperçut les champs au sortir des forêts, juste en quittant les bois.",
+        "correctAnswer": "upon leaving the forests",
+        "choicesEnglish": [
+          "upon leaving the forests",
+          "deep inside the forests",
+          "before entering the forests",
+          "far above the forests"
+        ],
+        "targetText": "au sortir des forêts"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_au_sortir_des_forets_971cce2bcd_intermediate",
+      "patch": {
+        "contextFrench": "Il quitta les bois et vit les champs _____, au moment précis où il en sortait.",
+        "correctAnswer": "au sortir des forêts",
+        "choicesFrench": [
+          "au cœur des forêts",
+          "avant d’entrer dans les forêts",
+          "au-dessus des forêts",
+          "au sortir des forêts"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_au_sortir_des_forets_971cce2bcd_advanced",
+      "patch": {
+        "contextFrench": "Au sortir des forêts, le lion atteignit la plaine et s’arrêta près du ruisseau.",
+        "correctAnswer": "Au sortir des forêts",
+        "choicesFrench": [
+          "près du ruisseau",
+          "le lion",
+          "Au sortir des forêts",
+          "la plaine"
+        ],
+        "promptFrench": "Quelle expression situe l’action au moment de quitter les bois ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_se_faire_fort_de_early",
+      "patch": {},
+      "reason": "Early and advanced confident undertaking contexts retained; middle gains assurance clue to remove four-valid-answer problem."
+    },
+    {
+      "id": "exq_se_faire_fort_de_intermediate",
+      "patch": {
+        "contextFrench": "Le guide promet avec assurance de réussir : il _____ ramener tout le groupe avant la nuit.",
+        "correctAnswer": "se fait fort de",
+        "choicesFrench": [
+          "oublie de",
+          "a peur de",
+          "se fait fort de",
+          "refuse de"
+        ]
+      },
+      "reason": "Early and advanced confident undertaking contexts retained; middle gains assurance clue to remove four-valid-answer problem."
+    },
+    {
+      "id": "exq_se_faire_fort_de_advanced",
+      "patch": {},
+      "reason": "Early and advanced confident undertaking contexts retained; middle gains assurance clue to remove four-valid-answer problem."
+    },
+    {
+      "id": "exq_loup_agneau_en_aucune_facon_4ae166529f_early",
+      "patch": {
+        "contextFrench": "Cette clé ne peut en aucune façon ouvrir la porte : c’est impossible.",
+        "correctAnswer": "in no way",
+        "choicesEnglish": [
+          "usually",
+          "sometimes",
+          "in no way",
+          "easily"
+        ],
+        "targetText": "en aucune façon"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_en_aucune_facon_4ae166529f_intermediate",
+      "patch": {
+        "contextFrench": "Ce petit enfant ne peut _____ porter seul cette charge : aucune manière de s’y prendre ne le permet.",
+        "correctAnswer": "en aucune façon",
+        "choicesFrench": [
+          "que prudemment",
+          "en aucune façon",
+          "que difficilement",
+          "que lentement"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_en_aucune_facon_4ae166529f_advanced",
+      "patch": {
+        "contextFrench": "Il ne veut en aucune façon trahir son ami, même sous la menace ou devant le juge.",
+        "correctAnswer": "en aucune façon",
+        "choicesFrench": [
+          "en aucune façon",
+          "son ami",
+          "sous la menace",
+          "devant le juge"
+        ],
+        "promptFrench": "Quelle expression renforce le refus en excluant toute possibilité ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_tout_d_un_coup_early",
+      "patch": {},
+      "reason": "Three sudden-onset contexts individually read; alternatives represent manner incompatible with an inanimate door."
+    },
+    {
+      "id": "exq_tout_d_un_coup_intermediate",
+      "patch": {},
+      "reason": "Three sudden-onset contexts individually read; alternatives represent manner incompatible with an inanimate door."
+    },
+    {
+      "id": "exq_tout_d_un_coup_advanced",
+      "patch": {},
+      "reason": "Three sudden-onset contexts individually read; alternatives represent manner incompatible with an inanimate door."
+    },
+    {
+      "id": "exq_tout_au_moins_early",
+      "patch": {},
+      "reason": "Minimum guaranteed with possible additions; early, middle and advanced contexts all correct."
+    },
+    {
+      "id": "exq_tout_au_moins_intermediate",
+      "patch": {},
+      "reason": "Minimum guaranteed with possible additions; early, middle and advanced contexts all correct."
+    },
+    {
+      "id": "exq_tout_au_moins_advanced",
+      "patch": {},
+      "reason": "Minimum guaranteed with possible additions; early, middle and advanced contexts all correct."
+    },
+    {
+      "id": "exq_parure_sans_cesse_early",
+      "patch": {},
+      "reason": "Keep valid early question; middle now excludes intermittence. Advanced no longer contradicts itself by saying Paul stops the constantly running machine."
+    },
+    {
+      "id": "exq_parure_sans_cesse_intermediate",
+      "patch": {
+        "contextFrench": "La machine tourne _____ depuis l’aube : elle ne s’est pas arrêtée une seule seconde.",
+        "correctAnswer": "sans cesse",
+        "choicesFrench": [
+          "par moments",
+          "de temps en temps",
+          "sans cesse",
+          "par intermittence"
+        ]
+      },
+      "reason": "Keep valid early question; middle now excludes intermittence. Advanced no longer contradicts itself by saying Paul stops the constantly running machine."
+    },
+    {
+      "id": "exq_parure_sans_cesse_advanced",
+      "patch": {
+        "contextFrench": "La machine tourne sans cesse. Paul vérifie le cadran de temps en temps, Léa l’entend à peine et le technicien reviendra demain.",
+        "correctAnswer": "sans cesse",
+        "choicesFrench": [
+          "demain",
+          "sans cesse",
+          "de temps en temps",
+          "à peine"
+        ],
+        "promptFrench": "Quelle expression indique un fonctionnement sans interruption ?"
+      },
+      "reason": "Keep valid early question; middle now excludes intermittence. Advanced no longer contradicts itself by saying Paul stops the constantly running machine."
+    },
+    {
+      "id": "exq_cendrillon_a_force_de_5417d6c27a_early",
+      "patch": {
+        "contextFrench": "Il a réussi à force de travailler chaque soir pendant des mois.",
+        "correctAnswer": "through repeated effort in",
+        "choicesEnglish": [
+          "before",
+          "without",
+          "through repeated effort in",
+          "instead of"
+        ],
+        "targetText": "à force de"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_a_force_de_5417d6c27a_intermediate",
+      "patch": {
+        "contextFrench": "Ses essais répétés ont produit le résultat : c’est _____ recommencer qu’il a enfin réussi.",
+        "correctAnswer": "à force de",
+        "choicesFrench": [
+          "sans",
+          "à force de",
+          "au lieu de",
+          "avant de"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_a_force_de_5417d6c27a_advanced",
+      "patch": {
+        "contextFrench": "Elle a appris le morceau à force de le répéter, jour après jour, dans sa petite chambre.",
+        "correctAnswer": "à force de",
+        "choicesFrench": [
+          "à force de",
+          "jour après jour",
+          "dans sa petite chambre",
+          "le morceau"
+        ],
+        "promptFrench": "Quelle expression présente l’effort répété comme la cause du résultat ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_en_face_de_early",
+      "patch": {},
+      "reason": "Early and advanced facing-location contexts valid; middle now provides spatial clue so all four choices cannot fit."
+    },
+    {
+      "id": "exq_parure_en_face_de_intermediate",
+      "patch": {
+        "contextFrench": "La maison de Paul et l’école se font face, de part et d’autre de la rue : Paul habite _____ l’école.",
+        "correctAnswer": "en face de",
+        "choicesFrench": [
+          "en face de",
+          "derrière",
+          "dans",
+          "loin de"
+        ]
+      },
+      "reason": "Early and advanced facing-location contexts valid; middle now provides spatial clue so all four choices cannot fit."
+    },
+    {
+      "id": "exq_parure_en_face_de_advanced",
+      "patch": {},
+      "reason": "Early and advanced facing-location contexts valid; middle now provides spatial clue so all four choices cannot fit."
+    },
+    {
+      "id": "exq_cendrillon_en_venir_a_bout_a778c48125_early",
+      "patch": {
+        "contextFrench": "Ce problème est difficile, mais elle espère en venir à bout et le résoudre.",
+        "correctAnswer": "manage to overcome it",
+        "choicesEnglish": [
+          "manage to overcome it",
+          "forget about it",
+          "make it worse",
+          "avoid it"
+        ],
+        "targetText": "en venir à bout"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_en_venir_a_bout_a778c48125_intermediate",
+      "patch": {
+        "contextFrench": "Ce travail difficile lui résiste encore, mais elle espère _____, c’est-à-dire le mener à une réussite complète.",
+        "correctAnswer": "en venir à bout",
+        "choicesFrench": [
+          "y renoncer",
+          "l’abandonner",
+          "le laisser inachevé",
+          "en venir à bout"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_en_venir_a_bout_a778c48125_advanced",
+      "patch": {
+        "contextFrench": "Pour ce problème, il faudra de la patience afin d’en venir à bout ; les premiers essais ont échoué.",
+        "correctAnswer": "en venir à bout",
+        "choicesFrench": [
+          "les premiers essais",
+          "ont échoué",
+          "en venir à bout",
+          "de la patience"
+        ],
+        "promptFrench": "Quelle expression signifie réussir à surmonter la difficulté ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_eh_bien_1962dd98b7_early",
+      "patch": {
+        "contextFrench": "Tu es prêt ? Eh bien, partons sans attendre !",
+        "correctAnswer": "well then",
+        "choicesEnglish": [
+          "goodbye",
+          "thank you",
+          "alas",
+          "well then"
+        ],
+        "targetText": "eh bien"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_eh_bien_1962dd98b7_intermediate",
+      "patch": {
+        "contextFrench": "Tu as terminé ? _____, nous pouvons donc partir ! dit-elle pour tirer une conclusion de la réponse.",
+        "correctAnswer": "eh bien",
+        "choicesFrench": [
+          "bonjour",
+          "merci",
+          "eh bien",
+          "hélas"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_eh_bien_1962dd98b7_advanced",
+      "patch": {
+        "contextFrench": "Tu souhaites apprendre ? Eh bien, commençons par cet exercice, puis nous lirons le livre ensemble.",
+        "correctAnswer": "Eh bien",
+        "choicesFrench": [
+          "ensemble",
+          "Eh bien",
+          "cet exercice",
+          "le livre"
+        ],
+        "promptFrench": "Quelle expression introduit la réaction qui suit la question ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_lieu_d_ca7ea8ca24_early",
+      "patch": {
+        "contextFrench": "Elle a pris le train au lieu d’utiliser sa voiture.",
+        "correctAnswer": "instead of",
+        "choicesEnglish": [
+          "in order to",
+          "for fear of",
+          "instead of",
+          "before"
+        ],
+        "targetText": "au lieu d’"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_lieu_d_ca7ea8ca24_intermediate",
+      "patch": {
+        "contextFrench": "Elle a choisi de se taire _____avouer la vérité : elle a remplacé une action par l’autre.",
+        "correctAnswer": "au lieu d’",
+        "choicesFrench": [
+          "de peur d’",
+          "au lieu d’",
+          "avant d’",
+          "afin d’"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_lieu_d_ca7ea8ca24_advanced",
+      "patch": {
+        "contextFrench": "Il reste silencieux au lieu d’expliquer son erreur, tandis que son amie attend une réponse.",
+        "correctAnswer": "au lieu d’",
+        "choicesFrench": [
+          "au lieu d’",
+          "son erreur",
+          "son amie",
+          "une réponse"
+        ],
+        "promptFrench": "Quelle expression marque le remplacement de l’explication par le silence ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_a_priori_early",
+      "patch": {
+        "contextFrench": "Son a priori sur le candidat l’empêchait de juger les faits sans préjugé.",
+        "correctAnswer": "preconception",
+        "choicesEnglish": [
+          "confirmed result",
+          "preconception",
+          "verified conclusion",
+          "proof"
+        ],
+        "targetText": "a priori"
+      },
+      "reason": "Replace absurd unrelated distractors with plausible epistemic alternatives; middle all masculine singular noun phrases."
+    },
+    {
+      "id": "exq_a_priori_intermediate",
+      "patch": {
+        "contextFrench": "Avant même d’examiner les preuves, il s’était forgé un _____ sur le suspect, un jugement sans fondement vérifié.",
+        "correctAnswer": "a priori",
+        "choicesFrench": [
+          "a priori",
+          "constat vérifié",
+          "résultat démontré",
+          "fait établi"
+        ]
+      },
+      "reason": "Replace absurd unrelated distractors with plausible epistemic alternatives; middle all masculine singular noun phrases."
+    },
+    {
+      "id": "exq_a_priori_advanced",
+      "patch": {
+        "contextFrench": "Il avait un a priori sur le suspect ; l’enquête apporta ensuite une preuve, un témoignage et un résultat qui contredisaient son idée initiale.",
+        "correctAnswer": "a priori",
+        "choicesFrench": [
+          "une preuve",
+          "un témoignage",
+          "un résultat",
+          "a priori"
+        ],
+        "promptFrench": "Quelle expression désigne le jugement formé avant l’examen des faits ?"
+      },
+      "reason": "Replace absurd unrelated distractors with plausible epistemic alternatives; middle all masculine singular noun phrases."
+    },
+    {
+      "id": "exq_quant_a_early",
+      "patch": {},
+      "reason": "Contracted quant aux introduces a topic; all three questions read, context and discourse function correct."
+    },
+    {
+      "id": "exq_quant_a_intermediate",
+      "patch": {},
+      "reason": "Contracted quant aux introduces a topic; all three questions read, context and discourse function correct."
+    },
+    {
+      "id": "exq_quant_a_advanced",
+      "patch": {},
+      "reason": "Contracted quant aux introduces a topic; all three questions read, context and discourse function correct."
+    },
+    {
+      "id": "exq_lion_rat_en_cette_occasion_1677dff97d_early",
+      "patch": {
+        "contextFrench": "On célébrait son retour ; il prit la parole en cette occasion pour remercier ses amis.",
+        "correctAnswer": "on this occasion",
+        "choicesEnglish": [
+          "every day",
+          "long before",
+          "at another time",
+          "on this occasion"
+        ],
+        "targetText": "en cette occasion"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_en_cette_occasion_1677dff97d_intermediate",
+      "patch": {
+        "contextFrench": "Lors de cette cérémonie précise, il prononça un discours _____, ce jour-là et pour cet événement.",
+        "correctAnswer": "en cette occasion",
+        "choicesFrench": [
+          "tous les jours",
+          "chaque matin",
+          "en cette occasion",
+          "à une autre occasion"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_en_cette_occasion_1677dff97d_advanced",
+      "patch": {
+        "contextFrench": "Le maire remit une médaille en cette occasion ; la cérémonie se tenait devant la mairie, au milieu des habitants.",
+        "correctAnswer": "en cette occasion",
+        "choicesFrench": [
+          "une médaille",
+          "en cette occasion",
+          "devant la mairie",
+          "au milieu des habitants"
+        ],
+        "promptFrench": "Quelle expression renvoie à la circonstance particulière de la cérémonie ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_bout_d_14acdedfeb_early",
+      "patch": {
+        "contextFrench": "Il comprit la règle au bout d’une heure d’explications.",
+        "correctAnswer": "after",
+        "choicesEnglish": [
+          "instead of",
+          "despite",
+          "after",
+          "before"
+        ],
+        "targetText": "au bout d’"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_bout_d_14acdedfeb_intermediate",
+      "patch": {
+        "contextFrench": "Une heure entière passa ; il réussit seulement _____une heure d’efforts, lorsque cette durée fut écoulée.",
+        "correctAnswer": "au bout d’",
+        "choicesFrench": [
+          "au début d’",
+          "au bout d’",
+          "en moins d’",
+          "bien avant la fin d’"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_bout_d_14acdedfeb_advanced",
+      "patch": {
+        "contextFrench": "Au bout d’une semaine, elle reçut enfin la lettre attendue depuis longtemps.",
+        "correctAnswer": "Au bout d’",
+        "choicesFrench": [
+          "Au bout d’",
+          "enfin",
+          "la lettre",
+          "depuis longtemps"
+        ],
+        "promptFrench": "Quelle expression introduit la durée écoulée avant la réception ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    }
+  ]
+}

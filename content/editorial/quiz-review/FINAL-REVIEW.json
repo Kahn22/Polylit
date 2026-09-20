@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "status": "all_active_quizzes_reviewed",
+  "completedAt": "2026-09-19T18:36:23.816Z",
+  "sourceRevision": "rev_fa585248bfb17d019b738ef3478fdaabc16da00d408c13af4eb7c3b02b7f556f",
+  "activeQuestions": 12036,
+  "quizCounts": {
+    "fr": {
+      "active": 9087,
+      "approved": 9087,
+      "remaining": 0,
+      "expressionQuestions": 117
+    },
+    "es": {
+      "active": 2949,
+      "approved": 2949,
+      "remaining": 0,
+      "expressionQuestions": 0
+    }
+  },
+  "activeVocabularyIdentities": {
+    "fr": 2990,
+    "es": 983
+  },
+  "pendingVocabularyQuizReviews": 0,
+  "quizValidationErrors": [],
+  "userApprovedSpanishQuestionsPreserved": 15,
+  "validation": {
+    "typecheck": "passed",
+    "tests": {
+      "passed": 224,
+      "total": 224,
+      "files": 33
+    },
+    "localReviewBuild": "passed",
+    "performanceBudgets": "passed",
+    "editorialHistoryReplay": "passed",
+    "canonicalTextAndOccurrenceSpans": "unchanged"
+  },
+  "remainingNonQuizEditorialIssues": {
+    "fr:vocabulary": 2157,
+    "fr:expression": 39,
+    "fr:annotations": 8,
+    "es:annotations": 2
+  },
+  "releaseStatus": "not_deployed_not_pushed",
+  "backupPolicy": "recoverable checkpoints after at most 100 reviewed vocabulary identities",
+  "notes": [
+    "A vocabulary identity is a surface form plus its contextual sense; one spelling may have multiple identities.",
+    "Historical superseded records are retained for learner history and excluded from active quizzes.",
+    "Quiz approval does not approve separate vocabulary, expression or annotation release gates."
+  ]
+}

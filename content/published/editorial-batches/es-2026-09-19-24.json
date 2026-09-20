@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "es-2026-09-19-24",
+  "masteryIdsChanged": false,
+  "reviewed": [
+    {
+      "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_1_3",
+      "reason": "Read both contexts and options. Replace feminine nominal antecedent decisión with the proposition iba a mudarse so neutral lo is unambiguous and darla is not a legitimate alternate.",
+      "beforeRevision": "rev_6687474e68ee57cc7e9268f36f5949e7623ffc364fa723f427ae6a4b37b90948"
+    },
+    {
+      "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_4_5",
+      "reason": "Read both contexts and options. Replace feminine nominal antecedent decisión with the proposition iba a mudarse so neutral lo is unambiguous and darla is not a legitimate alternate.",
+      "beforeRevision": "rev_c7b8f886dcbea116f8f72bae097f052e10046ab6f54ab0c208c1e72acbb3438d"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_1_3",
+      "before": {
+        "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_1_3",
+        "surfaceFormId": "srf_es_darlo_dar_489c6a2d",
+        "senseId": "sns_es_dar_conocer_clitic",
+        "contextFrench": "Había tomado una decisión, pero no quería darlo a conocer todavía.",
+        "correctAnswer": "to make it known",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "darlo",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to hide it forever",
+          "to deny it",
+          "to make it known",
+          "to forget it"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_1_3",
+        "surfaceFormId": "srf_es_darlo_dar_489c6a2d",
+        "senseId": "sns_es_dar_conocer_clitic",
+        "contextFrench": "Iba a mudarse, pero no quería darlo a conocer todavía.",
+        "correctAnswer": "to make it known",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "darlo",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to hide it forever",
+          "to deny it",
+          "to make it known",
+          "to forget it"
+        ]
+      },
+      "reason": "Read both contexts and options. Replace feminine nominal antecedent decisión with the proposition iba a mudarse so neutral lo is unambiguous and darla is not a legitimate alternate."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_4_5",
+      "before": {
+        "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_4_5",
+        "surfaceFormId": "srf_es_darlo_dar_489c6a2d",
+        "senseId": "sns_es_dar_conocer_clitic",
+        "contextFrench": "Había tomado una decisión, pero no quería _____ a conocer todavía.",
+        "correctAnswer": "darlo",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "darlas",
+          "darlo",
+          "darla",
+          "darlos"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_dar_conocer_clitic_es_darlo_dar_489c6a2d_levels_4_5",
+        "surfaceFormId": "srf_es_darlo_dar_489c6a2d",
+        "senseId": "sns_es_dar_conocer_clitic",
+        "contextFrench": "Iba a mudarse, pero no quería _____ a conocer todavía.",
+        "correctAnswer": "darlo",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "darlas",
+          "darlo",
+          "darla",
+          "darlos"
+        ]
+      },
+      "reason": "Read both contexts and options. Replace feminine nominal antecedent decisión with the proposition iba a mudarse so neutral lo is unambiguous and darla is not a legitimate alternate."
+    }
+  ]
+}

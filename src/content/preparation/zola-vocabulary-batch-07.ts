@@ -1,0 +1,36 @@
+import type { ZolaVocabularySpec } from "./zola-authoring.js";
+
+const nE:[string,string,string]=["a trumpet","a wardrobe","a peach"];
+const nF:[string,string,string]=["trompette","armoire","pêche"];
+const vE:[string,string,string]=["to whistle","to paddle","to doze"];
+const vF:[string,string,string]=["siffler","pagayer","somnoler"];
+const aE:[string,string,string]=["orange","square","sugary"];
+
+export const zolaVocabularyBatch07: ZolaVocabularySpec[] = [
+ {normalized:"besogne",lemmaKey:"besogne",headword:"besogne",partOfSpeech:"noun",senseKey:"besogne_work",gloss:"work; task",definition:"travail à accomplir",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"besoin",lemmaKey:"besoin",headword:"besoin",partOfSpeech:"noun",senseKey:"besoin_need",gloss:"need",definition:"nécessité ressentie",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"bientôt",lemmaKey:"bientot",headword:"bientôt",partOfSpeech:"adverb",senseKey:"bientot_soon",gloss:"soon; nearly",definition:"dans peu de temps ou presque",englishDistractors:["softly","outside","clockwise"],frenchDistractors:["doucement","dehors","dans le sens horaire"]},
+ {normalized:"bienveillant",lemmaKey:"bienveillant",headword:"bienveillant",partOfSpeech:"adjective",senseKey:"bienveillant_kind",gloss:"kind; favorable",definition:"animé de bonnes dispositions",englishDistractors:aE,frenchDistractors:["orange","carré","sucré"]},
+ {normalized:"bondisse",lemmaKey:"bondir",headword:"bondir",partOfSpeech:"verb",senseKey:"bondir_leap",gloss:"to leap; surge",quizMeaning:"leaps; surges",definition:"s’élever brusquement sous l’effet d’une émotion",englishDistractors:["whistles","paddles","dozes"],frenchDistractors:["siffle","pagaie","somnole"]},
+ {normalized:"bonheur",lemmaKey:"bonheur",headword:"bonheur",partOfSpeech:"noun",senseKey:"bonheur_happiness",gloss:"happiness",definition:"état de pleine satisfaction",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"bordereau",lemmaKey:"bordereau",headword:"bordereau",partOfSpeech:"noun",senseKey:"bordereau_document",gloss:"memorandum; document",definition:"document écrit au centre de l’affaire Dreyfus",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"bottes",lemmaKey:"botte",headword:"botte",partOfSpeech:"noun",senseKey:"botte_boot",gloss:"boots",definition:"chaussures montant au-dessus de la cheville",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"bouches",lemmaKey:"bouche",headword:"bouche",partOfSpeech:"noun",senseKey:"bouche_mouth",gloss:"mouths",definition:"organes de la parole, employés ici figurément",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"boue",lemmaKey:"boue",headword:"boue",partOfSpeech:"noun",senseKey:"boue_mud",gloss:"mud",definition:"terre détrempée, image de souillure",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"bouleverser",lemmaKey:"bouleverser",headword:"bouleverser",partOfSpeech:"verb",senseKey:"bouleverser_upend",gloss:"to overturn; disrupt",definition:"changer entièrement en causant un grand trouble",englishDistractors:vE,frenchDistractors:vF},
+ {normalized:"bousculé",lemmaKey:"bousculer",headword:"bousculer",partOfSpeech:"verb",senseKey:"bousculer_pressure",gloss:"pushed around; pressured",definition:"traité brutalement ou soumis à une pression",englishDistractors:["whistled","paddled","dozed"],frenchDistractors:["sifflé","pagayé","somnolé"]},
+ {normalized:"braves",lemmaKey:"brave",headword:"brave",partOfSpeech:"adjective",senseKey:"brave_good",gloss:"good; honorable",definition:"digne d’estime par son honnêteté",englishDistractors:aE,frenchDistractors:["oranges","carrés","sucrés"]},
+ {normalized:"bravoure",lemmaKey:"bravoure",headword:"bravoure",partOfSpeech:"noun",senseKey:"bravoure_courage",gloss:"bravery",definition:"courage devant le danger",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"brûlantes",lemmaKey:"brulant",headword:"brûlant",partOfSpeech:"adjective",senseKey:"brulant_intense",gloss:"burning; impassioned",definition:"d’une intensité ardente",englishDistractors:aE,frenchDistractors:["oranges","carrées","sucrées"]},
+ {normalized:"brusque",lemmaKey:"brusque",headword:"brusque",partOfSpeech:"adjective",senseKey:"brusque_sudden",gloss:"sudden",definition:"qui survient vivement et sans transition",englishDistractors:aE,frenchDistractors:["orange","carré","sucré"]},
+ {normalized:"bureau",lemmaKey:"bureau",headword:"bureau",partOfSpeech:"noun",senseKey:"bureau_office",gloss:"office; department",definition:"service administratif organisé",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"bureaux",lemmaKey:"bureau",headword:"bureau",partOfSpeech:"noun",senseKey:"bureau_office",gloss:"office; department",quizMeaning:"offices; departments",definition:"service administratif organisé",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"cachent",lemmaKey:"cacher",headword:"cacher",partOfSpeech:"verb",senseKey:"cacher_hide",gloss:"to hide",quizMeaning:"hide",definition:"soustraire à la vue ou à la connaissance",englishDistractors:["whistle","paddle","doze"],frenchDistractors:["sifflent","pagaient","somnolent"]},
+ {normalized:"cacher",lemmaKey:"cacher",headword:"cacher",partOfSpeech:"verb",senseKey:"cacher_hide",gloss:"to hide",definition:"soustraire à la vue ou à la connaissance",englishDistractors:vE,frenchDistractors:vF},
+ {normalized:"calomnies",lemmaKey:"calomnie",headword:"calomnie",partOfSpeech:"noun",senseKey:"calomnie_slander",gloss:"slanders; false accusations",definition:"accusations mensongères portant atteinte à l’honneur",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"camarades",lemmaKey:"camarade",headword:"camarade",partOfSpeech:"noun",senseKey:"camarade_colleague",gloss:"comrades; colleagues",definition:"personnes appartenant au même corps",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"campagne",lemmaKey:"campagne",headword:"campagne",partOfSpeech:"noun",senseKey:"campagne_campaign",gloss:"campaign",definition:"suite organisée d’actions poursuivant un but",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"campagnes",lemmaKey:"campagne",headword:"campagne",partOfSpeech:"noun",senseKey:"campagne_campaign",gloss:"campaign",quizMeaning:"campaigns",definition:"suite organisée d’actions poursuivant un but",englishDistractors:["trumpets","wardrobes","peaches"],frenchDistractors:["trompettes","armoires","pêches"]},
+ {normalized:"capables",lemmaKey:"capable",headword:"capable",partOfSpeech:"adjective",senseKey:"capable_able",gloss:"capable; able",definition:"ayant le pouvoir de produire un effet",englishDistractors:aE,frenchDistractors:["oranges","carrées","sucrées"]},
+ {normalized:"car",lemmaKey:"car",headword:"car",partOfSpeech:"conjunction",senseKey:"car_because",gloss:"because; for",definition:"introduit une explication ou une cause",englishDistractors:["although","unless","while"],frenchDistractors:["quoique","à moins que","tandis que"]},
+];

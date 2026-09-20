@@ -1,0 +1,28 @@
+import{readFileSync}from'node:fs';import{loadPublication}from'../../../dist/publication/repository.js';
+const p=loadPublication(),input=JSON.parse(readFileSync(new URL('fr-semantic-09-input.json',import.meta.url))).entries;
+const slug=s=>s.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,'_');
+const E=(context,choices)=>({context,choices});const M=E;const A=(context,prompt,choices)=>({context,prompt,choices});const entries=[];
+function target(i,head,pos,key,gloss,definition){const x=input[i];const preferred={avoir:'lem_avoir','être':'lem_etre'};const existingSense=p.bundle.senses.find(s=>s.id===key);const lemma=(existingSense?p.bundle.lemmas.find(l=>l.id===existingSense.lemmaId):preferred[head]?p.bundle.lemmas.find(l=>l.id===preferred[head]):p.bundle.lemmas.find(l=>l.headword===head&&l.partOfSpeech===pos))??{id:`lem_fr_${slug(head)}_${pos}`,headword:head,partOfSpeech:pos};const surface=p.bundle.surfaceForms.find(s=>s.lemmaId===lemma.id&&s.form===x.surface.form)??{id:`srf_fr_${slug(x.surface.form)}_${slug(head)}_${pos}`,lemmaId:lemma.id,form:x.surface.form,normalized:x.surface.form.toLocaleLowerCase('fr')};const sense=p.bundle.senses.find(s=>s.id===key)??{id:key,lemmaId:lemma.id,gloss,definition};return{lemma,surface,sense};}
+function add(i,t,qs,reason,occurrenceIds='all'){entries.push({from:input[i].identity,target:t,occurrenceIds,reason:`All source occurrences read. ${reason} Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed.`,questions:qs});}
+
+const same=i=>({surface:input[i].surface,sense:input[i].sense,lemma:input[i].lemma});
+const ids=(i,part)=>input[i].occurrences.filter(o=>o.workId.includes(part)).map(o=>o.id);
+
+function clarify(i,gloss,definition){const t=same(i);return{...t,sense:{...t.sense,gloss,definition}};}
+function reviewedMetadata(){entries.at(-1).metadataCorrection=true;}
+
+const occ=(i,indices)=>indices.map(n=>input[i].occurrences[n].id);
+const rest=(i,ns)=>input[i].occurrences.filter((_,n)=>!ns.includes(n)).map(o=>o.id);
+add(1,same(1),[
+E('C’est bien lui que j’ai vu : je le reconnais sans hésiter.','indeed|perhaps|never|hardly'),M('C’est _____ la même personne, je le confirme après vérification.','bien|peut-être|rarement|autrefois'),A('Tu te souviens bien de cette rencontre, j’en suis certain.','Quel adverbe renforce ici l’affirmation du souvenir ?','bien|rencontre|certain|souviens')],'Emphatic affirmation.',occ(1,[1,6,9,25]));
+add(1,target(1,'bien','adverb','sns_fr_bien_discourse','well (discourse marker)','Dans eh bien ou hé bien, introduit une réaction, une reprise ou une conclusion dans le discours.'),[
+E('Eh bien, puisque tout est prêt, nous pouvons partir.','well|yesterday|never|nearby'),M('Eh _____, reprenons notre discussion après cette pause.','bien|loin|hier|jamais'),A('Eh bien ! je ne m’attendais pas à cette nouvelle, répond-elle, surprise.','Quel mot complète eh pour introduire sa réaction ?','bien|nouvelle|répond|surprise')],'Eh/hé bien discourse formula.',occ(1,[0,7,8,19,20]));
+add(1,target(1,'bien','adverb','sns_fr_bien_well','well; satisfactorily','D’une manière satisfaisante, convenable ou réussie.'),[
+E('Elle chante bien et reçoit les félicitations du professeur.','well|badly|rarely|yesterday'),M('Le travail est _____ fait, avec soin et sans erreur.','bien|mal|négligemment|incorrectement'),A('Cette robe lui va bien ; elle est adaptée à sa taille et à son style.','Quel adverbe exprime une appréciation favorable ?','bien|robe|taille|style')],'Favourable quality or manner including groomed, good fit and enjoyment.',occ(1,[2,15,29,30,33]));
+add(1,target(1,'bien','adverb','sns_fr_bien_willing','willingly; gladly (vouloir bien)','Avec vouloir, exprime le consentement ou un souhait volontiers formulé.'),[
+E('Il veut bien nous aider et accepte avec plaisir.','willingly|reluctantly|never|secretly'),M('Elle veut _____ attendre, car elle accepte volontiers ce délai.','bien|mal|jamais|guère'),A('Je voudrais bien visiter ce jardin, dit-il en exprimant son souhait.','Quel mot renforce ici le souhait exprimé avec voudrais ?','bien|visiter|jardin|souhait')],'Vouloir bien consent/desire.',occ(1,[12,16,17,18,27]));
+add(1,target(1,'bien','adverb','sns_fr_bien_intensifier','very; much; many','Renforce le degré, l’intensité ou la quantité, notamment devant un adjectif ou avec des.'),[
+E('Cette valise est bien lourde : je peine à la soulever.','very|hardly|never|formerly'),M('Il est _____ fatigué, au point de tenir à peine debout.','bien|peu|à peine|faiblement'),A('Elle a connu bien des difficultés avant de réussir enfin.','Quel adverbe indique ici une quantité importante ?','bien|difficultés|réussir|enfin')],'Intensity/quantity, including historical tant et si bien.',rest(1,[0,1,2,6,7,8,9,12,15,16,17,18,19,20,25,27,29,30,33]));
+add(10,target(10,'y','pronoun','sns_fr_y_pronominal_reference','there; to it; about it','Pronom adverbial reprenant un lieu ou un complément inanimé introduit notamment par à ; entre aussi dans la construction existentielle il y a.'),[
+E('Elle connaît ce jardin et y revient chaque printemps.','there|away|yesterday|never'),M('Tu penses à ce projet ? Oui, j’_____ pense souvent.','y|en|le|la'),A('Il y a trois chaises libres près de la fenêtre.','Quel pronom appartient à la construction qui signale une existence ?','y|chaises|libres|fenêtre')],'One explicit pronominal family covering location, à-complement and existential construction; prior that way too narrow.');
+export default{version:1,id:'fr-2026-09-19-65',snapshot:'fr-semantic-09-input.json',entries};

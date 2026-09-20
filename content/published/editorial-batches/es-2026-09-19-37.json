@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "id": "es-2026-09-19-37",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T18:32:06.725Z",
+  "masteryIdsChanged": false,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [],
+  "resolutions": [
+    {
+      "from": "srf_es_0082_aun:sns_es_0082_aun",
+      "to": "srf_es_0082_aun:sns_es_0082_aun",
+      "form": "aún",
+      "reason": "Reviewed source occurrence and all three existing questions: aún expresses temporal continuation (still); aun expresses even. Restore the accented temporal lemma under its own ID after the accent-stripping helper collided. Preserve the unchanged surface+sense mastery identity and all three correct quiz wordings."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "lemmas",
+      "id": "lem_es_aun_temporal_adverb",
+      "before": null,
+      "after": {
+        "id": "lem_es_aun_temporal_adverb",
+        "headword": "aún",
+        "partOfSpeech": "adverb"
+      },
+      "reason": "Reviewed source occurrence and all three existing questions: aún expresses temporal continuation (still); aun expresses even. Restore the accented temporal lemma under its own ID after the accent-stripping helper collided. Preserve the unchanged surface+sense mastery identity and all three correct quiz wordings."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0082_aun",
+      "before": {
+        "id": "srf_es_0082_aun",
+        "lemmaId": "lem_es_aun_adverb",
+        "form": "aún",
+        "normalized": "aún"
+      },
+      "after": {
+        "id": "srf_es_0082_aun",
+        "lemmaId": "lem_es_aun_temporal_adverb",
+        "form": "aún",
+        "normalized": "aún"
+      },
+      "reason": "Reviewed source occurrence and all three existing questions: aún expresses temporal continuation (still); aun expresses even. Restore the accented temporal lemma under its own ID after the accent-stripping helper collided. Preserve the unchanged surface+sense mastery identity and all three correct quiz wordings."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0082_aun",
+      "before": {
+        "id": "sns_es_0082_aun",
+        "lemmaId": "lem_es_aun_adverb",
+        "gloss": "still",
+        "definition": "Indica que una situación continúa en el momento considerado."
+      },
+      "after": {
+        "id": "sns_es_0082_aun",
+        "lemmaId": "lem_es_aun_temporal_adverb",
+        "gloss": "still",
+        "definition": "Indica que una situación continúa en el momento considerado."
+      },
+      "reason": "Reviewed source occurrence and all three existing questions: aún expresses temporal continuation (still); aun expresses even. Restore the accented temporal lemma under its own ID after the accent-stripping helper collided. Preserve the unchanged surface+sense mastery identity and all three correct quiz wordings."
+    }
+  ]
+}

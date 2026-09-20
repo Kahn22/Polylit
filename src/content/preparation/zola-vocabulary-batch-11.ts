@@ -1,0 +1,36 @@
+import type { ZolaVocabularySpec } from "./zola-authoring.js";
+
+const nE:[string,string,string]=["a lantern","a meadow","a ribbon"];
+const nF:[string,string,string]=["lanterne","prairie","ruban"];
+const aE:[string,string,string]=["wooden","sleepy","violet"];
+const aF:[string,string,string]=["boisé","somnolent","violet"];
+const vE:[string,string,string]=["to polish","to whisper","to harvest"];
+const vF:[string,string,string]=["polir","murmurer","récolter"];
+
+export const zolaVocabularyBatch11: ZolaVocabularySpec[] = [
+ {normalized:"affaire",lemmaKey:"affaire",headword:"affaire",partOfSpeech:"noun",senseKey:"affaire_matter",gloss:"matter; affair",definition:"question ou événement dont on s’occupe",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"autres",lemmaKey:"autre",headword:"autre",partOfSpeech:"adjective",senseKey:"autre_adjective",gloss:"other",quizMeaning:"others",definition:"qui n’est pas le même",englishDistractors:["lanterns","meadows","ribbons"],frenchDistractors:["lanternes","prairies","rubans"]},
+ {normalized:"beau",lemmaKey:"beau",headword:"beau",partOfSpeech:"adjective",senseKey:"beau_beautiful",gloss:"beautiful; fine",definition:"qui plaît par ses qualités",englishDistractors:aE,frenchDistractors:aF},
+ {normalized:"belle",lemmaKey:"beau",headword:"beau",partOfSpeech:"adjective",senseKey:"beau_beautiful",gloss:"beautiful; fine",definition:"qui plaît par ses qualités",englishDistractors:aE,frenchDistractors:["boisée","somnolente","violette"]},
+ {normalized:"bien",lemmaKey:"bien",headword:"bien",partOfSpeech:"adverb",senseKey:"bien_well",gloss:"indeed; well",definition:"d’une manière bonne ou certaine",englishDistractors:["quietly","upstairs","tomorrow"],frenchDistractors:["calmement","à l’étage","demain"]},
+ {normalized:"bon",lemmaKey:"bon",headword:"bon",partOfSpeech:"adjective",senseKey:"bon_good",gloss:"good",definition:"qui possède une qualité favorable",englishDistractors:aE,frenchDistractors:aF},
+ {normalized:"civique",lemmaKey:"civique",headword:"civique",partOfSpeech:"adjective",senseKey:"civique_civic",gloss:"civic",definition:"qui concerne le citoyen et la cité",englishDistractors:aE,frenchDistractors:aF},
+ {normalized:"commandant",lemmaKey:"commandant",headword:"commandant",partOfSpeech:"noun",senseKey:"commandant_officer",gloss:"commanding officer",definition:"officier qui commande",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"communications",lemmaKey:"communication",headword:"communication",partOfSpeech:"noun",senseKey:"communication_exchange",gloss:"communications",quizMeaning:"communications",definition:"échanges ou moyens de transmettre des informations",englishDistractors:["lanterns","meadows","ribbons"],frenchDistractors:["lanternes","prairies","rubans"]},
+ {normalized:"complaisant",lemmaKey:"complaisant",headword:"complaisant",partOfSpeech:"adjective",senseKey:"complaisant_indulgent",gloss:"indulgent; accommodating",definition:"qui cherche à plaire avec indulgence",englishDistractors:aE,frenchDistractors:aF},
+ {normalized:"complets",lemmaKey:"complet",headword:"complet",partOfSpeech:"adjective",senseKey:"complet_complete",gloss:"complete",quizMeaning:"complete",definition:"qui ne laisse rien manquer",englishDistractors:aE,frenchDistractors:["boisés","somnolents","violets"]},
+ {normalized:"complication",lemmaKey:"complication",headword:"complication",partOfSpeech:"noun",senseKey:"complication_difficulty",gloss:"complication",definition:"difficulté ajoutée à une situation",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"complice",lemmaKey:"complice",headword:"complice",partOfSpeech:"noun",senseKey:"complice_accomplice",gloss:"accomplice",definition:"personne qui participe à une faute avec une autre",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"complices",lemmaKey:"complice",headword:"complice",partOfSpeech:"noun",senseKey:"complice_accomplice",gloss:"accomplice",quizMeaning:"accomplices",definition:"personne qui participe à une faute avec une autre",englishDistractors:["lanterns","meadows","ribbons"],frenchDistractors:["lanternes","prairies","rubans"]},
+ {normalized:"compliqué",lemmaKey:"compliqué",headword:"compliqué",partOfSpeech:"adjective",senseKey:"complique_complex",gloss:"complicated",definition:"qui présente de nombreuses difficultés ou détours",englishDistractors:aE,frenchDistractors:aF},
+ {normalized:"complot",lemmaKey:"complot",headword:"complot",partOfSpeech:"noun",senseKey:"complot_conspiracy",gloss:"plot; conspiracy",definition:"projet secret préparé contre quelqu’un ou quelque chose",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"comprend",lemmaKey:"comprendre",headword:"comprendre",partOfSpeech:"verb",senseKey:"comprendre_understand",gloss:"to understand",quizMeaning:"understands",definition:"saisir le sens ou la portée de quelque chose",englishDistractors:["polishes","whispers","harvests"],frenchDistractors:["polit","murmure","récolte"]},
+ {normalized:"comprenez",lemmaKey:"comprendre",headword:"comprendre",partOfSpeech:"verb",senseKey:"comprendre_understand",gloss:"to understand",quizMeaning:"understand",definition:"saisir le sens ou la portée de quelque chose",englishDistractors:["polish","whisper","harvest"],frenchDistractors:vF},
+ {normalized:"compromettant",lemmaKey:"compromettre",headword:"compromettre",partOfSpeech:"verb",senseKey:"compromettre_incriminate",gloss:"compromising",definition:"qui risque de nuire à la réputation ou à la défense",englishDistractors:["polishing","whispering","harvesting"],frenchDistractors:["polissant","murmurant","récoltant"]},
+ {normalized:"compromis",lemmaKey:"compromettre",headword:"compromettre",partOfSpeech:"verb",senseKey:"compromettre_incriminate",gloss:"compromising",quizMeaning:"compromised",definition:"qui risque de nuire à la réputation ou à la défense",englishDistractors:["polished","whispered","harvested"],frenchDistractors:["poli","murmuré","récolté"]},
+ {normalized:"compte",lemmaKey:"compte",headword:"compte",partOfSpeech:"noun",senseKey:"compte_account",gloss:"account; count",definition:"calcul ou résultat d’un dénombrement",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"compter",lemmaKey:"compter",headword:"compter",partOfSpeech:"verb",senseKey:"compter_count",gloss:"to count; not counting",definition:"énumérer ou considérer comme compris",englishDistractors:vE,frenchDistractors:vF},
+ {normalized:"conclure",lemmaKey:"conclure",headword:"conclure",partOfSpeech:"verb",senseKey:"conclure_conclude",gloss:"to conclude",definition:"tirer une conclusion ou terminer un raisonnement",englishDistractors:vE,frenchDistractors:vF},
+ {normalized:"condamnation",lemmaKey:"condamnation",headword:"condamnation",partOfSpeech:"noun",senseKey:"condamnation_sentence",gloss:"conviction; sentence",definition:"décision qui déclare quelqu’un coupable et le punit",englishDistractors:nE,frenchDistractors:nF},
+ {normalized:"condamné",lemmaKey:"condamner",headword:"condamner",partOfSpeech:"verb",senseKey:"condamner_sentence",gloss:"to condemn; sentence",quizMeaning:"condemned",definition:"déclarer quelqu’un coupable et le punir par un jugement",englishDistractors:["polished","whispered","harvested"],frenchDistractors:["poli","murmuré","récolté"]},
+];

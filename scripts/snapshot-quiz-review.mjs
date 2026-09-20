@@ -1,0 +1,22 @@
+import {readFileSync,writeFileSync,existsSync} from'node:fs';
+import{loadPublication}from'../dist/publication/repository.js';
+import{reviewRevision}from'../dist/publication/editorial.js';
+const language=process.argv[2]??'fr';if(!['fr','es'].includes(language))throw Error('Unknown language');
+const root=new URL('../content/editorial/quiz-review/',import.meta.url);
+const queue=JSON.parse(readFileSync(new URL('queue.json',root)));
+if(language==='es'&&queue.entries.some(e=>e.language==='fr'&&e.status==='pending'))throw Error('French first');
+const all=queue.entries.filter(e=>e.language===language);
+const selected=all.map((e,i)=>({...e,index:i+1})).filter(e=>e.status==='pending').slice(0,100);
+if(!selected.length)throw Error('No pending entries');
+const p=loadPublication(),bands=['levels_1_3','levels_4_5','levels_6_8'];
+const entries=selected.map(row=>{
+ const[sf,se]=row.identity.split(':');const surface=p.bundle.surfaceForms.find(x=>x.id===sf),sense=p.bundle.senses.find(x=>x.id===se),lemma=p.bundle.lemmas.find(x=>x.id===surface.lemmaId);
+ const quizzes=[...p.preparedQuizzes.values()].filter(q=>q.subject.kind==='vocabulary'&&q.subject.surfaceFormId===sf&&q.subject.senseId===se).sort((a,b)=>bands.indexOf(a.band)-bands.indexOf(b.band));
+ const occurrences=p.bundle.occurrences.filter(o=>o.surfaceFormId===sf&&o.senseId===se);
+ const contexts=[...new Set(occurrences.map(o=>o.unitId))].map(id=>p.bundle.units.find(u=>u.id===id));
+ const subject={surface,sense,lemma,quizzes,occurrences,contexts};
+ return {index:row.index,identity:row.identity,baseRevision:reviewRevision(subject),...subject};
+});
+const name=`${language}-${String(entries[0].index).padStart(4,'0')}-${String(entries.at(-1).index).padStart(4,'0')}-input.json`;
+const file=new URL(name,root);if(existsSync(file))throw Error('Snapshot already exists; resume without overwriting');
+writeFileSync(file,JSON.stringify({version:1,language,entries},null,2)+'\n');console.log(name);

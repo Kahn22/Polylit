@@ -1,0 +1,2089 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-35",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T14:12:58.987Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_bureau_bureau:sns_zola_bureau_office",
+      "to": "srf_zola_bureau_bureau:sns_fr_bureau_workplace",
+      "occurrenceIds": [
+        "occ_parure_f50ff425b97dedf8c123c651"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_cour_cour:sns_zola_cour_tribunal",
+      "to": "srf_zola_cour_cour:sns_fr_cour_royal_entourage",
+      "occurrenceIds": [
+        "occ_cendrillon_1fae27507117821e4bd092ef",
+        "occ_cendrillon_b9a91cd02d7eea649884208d"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_chasse_chasse:sns_zola_chasse_persecution",
+      "to": "srf_zola_chasse_chasse:sns_fr_chasse_hunting",
+      "occurrenceIds": [
+        "occ_parure_a3594bb2376fe83cfb7dffc7"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_peuple_peuple:sns_zola_peuple_population",
+      "to": "srf_zola_peuple_peuple:sns_fr_peuple_common_people",
+      "occurrenceIds": [
+        "occ_parure_b5d414fb7894859722c0ed38",
+        "occ_parure_d6220fe3c00937f8c27e9ccf"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_chambre_chambre:sns_zola_chambre_room",
+      "to": "srf_zola_chambre_chambre:sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477",
+      "occurrenceIds": [
+        "occ_cendrillon_7b346bcfe0bb95877d8c98ef",
+        "occ_cendrillon_466711c3d79435a17381e5cc"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_existence_existence:sns_zola_existence_fact",
+      "to": "srf_zola_existence_existence:sns_fr_existence_lifetime",
+      "occurrenceIds": [
+        "occ_parure_eb6498b77872364279dc4732"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_main_main:sns_zola_main_control",
+      "to": "srf_zola_main_main:sns_parure_main_body_part_bdc9fe7397",
+      "occurrenceIds": [
+        "occ_cendrillon_b953ae5a5a5669309d71631a"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "to": "srf_zola_vue_vue:sns_fr_vue_sight_of",
+      "occurrenceIds": [
+        "occ_parure_898e0f5775dd8aacdeb5d3b8"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "to": "srf_fr_vue_voir_verb:sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+      "occurrenceIds": [
+        "occ_parure_a175b8bcd06b8f7a6976429f"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_bureau_bureau:sns_zola_bureau_office",
+      "to": "srf_zola_bureau_bureau:sns_zola_bureau_office",
+      "form": "bureau",
+      "reason": "All source occurrences read. Retain the two administrative service occurrences on their existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_bureau_bureau:sns_zola_bureau_office",
+      "to": "srf_zola_bureau_bureau:sns_fr_bureau_workplace",
+      "form": "bureau",
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_cour_cour:sns_zola_cour_tribunal",
+      "to": "srf_zola_cour_cour:sns_zola_cour_tribunal",
+      "form": "cour",
+      "reason": "All source occurrences read. Retain the Zola judicial use; remove the two royal-entourage occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_cour_cour:sns_zola_cour_tribunal",
+      "to": "srf_zola_cour_cour:sns_fr_cour_royal_entourage",
+      "form": "cour",
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_chasse_chasse:sns_zola_chasse_persecution",
+      "to": "srf_zola_chasse_chasse:sns_zola_chasse_persecution",
+      "form": "chasse",
+      "reason": "All source occurrences read. Retain the persecution source under its existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_chasse_chasse:sns_zola_chasse_persecution",
+      "to": "srf_zola_chasse_chasse:sns_fr_chasse_hunting",
+      "form": "chasse",
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_peuple_peuple:sns_zola_peuple_population",
+      "to": "srf_zola_peuple_peuple:sns_zola_peuple_population",
+      "form": "peuple",
+      "reason": "All source occurrences read. Retain Zola entire-nation population sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_peuple_peuple:sns_zola_peuple_population",
+      "to": "srf_zola_peuple_peuple:sns_fr_peuple_common_people",
+      "form": "peuple",
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_chambre_chambre:sns_zola_chambre_room",
+      "to": "srf_zola_chambre_chambre:sns_zola_chambre_room",
+      "form": "chambre",
+      "reason": "All source occurrences read. Retain the council deliberation-room occurrence. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_chambre_chambre:sns_zola_chambre_room",
+      "to": "srf_zola_chambre_chambre:sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477",
+      "form": "chambre",
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_existence_existence:sns_zola_existence_fact",
+      "to": "srf_zola_existence_existence:sns_zola_existence_fact",
+      "form": "existence",
+      "reason": "All source occurrences read. Retain actual existence of the alleged document. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_existence_existence:sns_zola_existence_fact",
+      "to": "srf_zola_existence_existence:sns_fr_existence_lifetime",
+      "form": "existence",
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_main_main:sns_zola_main_control",
+      "to": "srf_zola_main_main:sns_zola_main_control",
+      "form": "main",
+      "reason": "All source occurrences read. Retain managerial control in prendre en main. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_main_main:sns_zola_main_control",
+      "to": "srf_zola_main_main:sns_parure_main_body_part_bdc9fe7397",
+      "form": "main",
+      "reason": "All source occurrences read. Reuse physical hand sense for assistance at carriage descent. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "to": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "form": "vue",
+      "reason": "All source occurrences read. Retain the Zola faculty-of-sight noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "to": "srf_zola_vue_vue:sns_fr_vue_sight_of",
+      "form": "vue",
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_vue_vue:sns_zola_vue_eyesight",
+      "to": "srf_fr_vue_voir_verb:sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+      "form": "vue",
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bureau_bureau_office_early",
+      "before": {
+        "id": "qiz_zola_bureau_bureau_office_early",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "contextFrench": "Le dossier est arrivé au bureau chargé des inscriptions.",
+        "correctAnswer": "department",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "bureau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "department",
+          "garden",
+          "staircase",
+          "restaurant"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_bureau_bureau_office_early",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "band": "levels_1_3",
+        "contextFrench": "Le bureau des permis examine les demandes des habitants.",
+        "correctAnswer": "administrative department",
+        "format": "meaning_choice",
+        "targetText": "bureau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "administrative department",
+          "classroom",
+          "workshop",
+          "shop"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the two administrative service occurrences on their existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bureau_bureau_office_intermediate",
+      "before": {
+        "id": "qiz_zola_bureau_bureau_office_intermediate",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "contextFrench": "Pour renouveler sa carte, Nina s’adresse au _____ administratif compétent.",
+        "correctAnswer": "bureau",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "bureau",
+          "jardin",
+          "restaurant",
+          "couloir"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_bureau_bureau_office_intermediate",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "band": "levels_4_5",
+        "contextFrench": "Le _____ des admissions traite les dossiers des futurs étudiants.",
+        "correctAnswer": "bureau",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "jardin",
+          "grenier",
+          "garage",
+          "bureau"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the two administrative service occurrences on their existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bureau_bureau_office_advanced",
+      "before": {
+        "id": "qiz_zola_bureau_bureau_office_advanced",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "contextFrench": "Le bureau des inscriptions vérifie les demandes chaque matin. À l’accueil, une agente oriente les visiteurs ; les archives conservent les anciens dossiers.",
+        "correctAnswer": "bureau",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le service chargé de vérifier les demandes ?",
+        "choicesFrench": [
+          "bureau",
+          "accueil",
+          "archives",
+          "visiteurs"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_bureau_bureau_office_advanced",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office",
+        "band": "levels_6_8",
+        "contextFrench": "Le bureau des archives emploie plusieurs agents chargés de classer et de conserver les documents.",
+        "correctAnswer": "bureau",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne un service administratif ?",
+        "choicesFrench": [
+          "agents",
+          "documents",
+          "bureau",
+          "archives"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the two administrative service occurrences on their existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_bureau_workplace",
+      "before": null,
+      "after": {
+        "id": "sns_fr_bureau_workplace",
+        "lemmaId": "lem_zola_bureau",
+        "gloss": "office",
+        "definition": "Lieu ou pièce où une personne effectue un travail administratif ou intellectuel."
+      },
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_f50ff425b97dedf8c123c651",
+      "before": {
+        "id": "occ_parure_f50ff425b97dedf8c123c651",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_110",
+        "start": 269,
+        "end": 275,
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_zola_bureau_office"
+      },
+      "after": {
+        "id": "occ_parure_f50ff425b97dedf8c123c651",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_110",
+        "start": 269,
+        "end": 275,
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_fr_bureau_workplace"
+      },
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_1_3",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_fr_bureau_workplace",
+        "band": "levels_1_3",
+        "contextFrench": "Il quitte son bureau à dix-huit heures pour rentrer chez lui.",
+        "correctAnswer": "office",
+        "format": "meaning_choice",
+        "targetText": "bureau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "bedroom",
+          "kitchen",
+          "garden",
+          "office"
+        ]
+      },
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_4_5",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_fr_bureau_workplace",
+        "band": "levels_4_5",
+        "contextFrench": "Elle travaille dans un _____ équipé d’un ordinateur et d’une table de travail.",
+        "correctAnswer": "bureau",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "grenier",
+          "hangar",
+          "bureau",
+          "jardin"
+        ]
+      },
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_6_8",
+        "surfaceFormId": "srf_zola_bureau_bureau",
+        "senseId": "sns_fr_bureau_workplace",
+        "band": "levels_6_8",
+        "contextFrench": "Son bureau se trouve au troisième étage ; elle y reçoit ses collègues et rédige ses rapports.",
+        "correctAnswer": "bureau",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne son lieu de travail administratif ?",
+        "choicesFrench": [
+          "rapports",
+          "bureau",
+          "étage",
+          "collègues"
+        ]
+      },
+      "reason": "All source occurrences read. The husband at his office denotes a workplace rather than an administrative department. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_cour_cour_tribunal_early",
+      "before": {
+        "id": "qiz_zola_cour_cour_tribunal_early",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "contextFrench": "La cour examine l’appel avant de rendre son jugement.",
+        "correctAnswer": "court",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "cour",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "court",
+          "yard",
+          "hallway",
+          "school"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_cour_cour_tribunal_early",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "band": "levels_1_3",
+        "contextFrench": "La cour examine les preuves avant de rendre son jugement.",
+        "correctAnswer": "court of law",
+        "format": "meaning_choice",
+        "targetText": "cour",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "school",
+          "company",
+          "court of law",
+          "audience"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola judicial use; remove the two royal-entourage occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_cour_cour_tribunal_intermediate",
+      "before": {
+        "id": "qiz_zola_cour_cour_tribunal_intermediate",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "contextFrench": "Les juges de la _____ d’appel entendront l’affaire mardi.",
+        "correctAnswer": "cour",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cour",
+          "ferme",
+          "maison",
+          "classe"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_cour_cour_tribunal_intermediate",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "band": "levels_4_5",
+        "contextFrench": "La _____ d’appel réexamine le jugement rendu en première instance.",
+        "correctAnswer": "cour",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "caserne",
+          "cour",
+          "mairie",
+          "bibliothèque"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola judicial use; remove the two royal-entourage occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_cour_cour_tribunal_advanced",
+      "before": {
+        "id": "qiz_zola_cour_cour_tribunal_advanced",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "contextFrench": "La cour entend les témoins avant de juger l’affaire. Le greffier note les déclarations, les avocats préparent leurs dossiers et le public attend dehors.",
+        "correctAnswer": "cour",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la juridiction qui juge l’affaire ?",
+        "choicesFrench": [
+          "cour",
+          "greffier",
+          "avocats",
+          "public"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_cour_cour_tribunal_advanced",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal",
+        "band": "levels_6_8",
+        "contextFrench": "La cour écoute les avocats et les témoins avant de prononcer sa décision.",
+        "correctAnswer": "cour",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une juridiction ?",
+        "choicesFrench": [
+          "cour",
+          "avocats",
+          "témoins",
+          "décision"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola judicial use; remove the two royal-entourage occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_cour_royal_entourage",
+      "before": null,
+      "after": {
+        "id": "sns_fr_cour_royal_entourage",
+        "lemmaId": "lem_zola_cour",
+        "gloss": "royal court",
+        "definition": "Ensemble des personnes qui entourent un souverain et vivent dans son entourage."
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_1fae27507117821e4bd092ef",
+      "before": {
+        "id": "occ_cendrillon_1fae27507117821e4bd092ef",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_028",
+        "start": 440,
+        "end": 444,
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal"
+      },
+      "after": {
+        "id": "occ_cendrillon_1fae27507117821e4bd092ef",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_028",
+        "start": 440,
+        "end": 444,
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_fr_cour_royal_entourage"
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b9a91cd02d7eea649884208d",
+      "before": {
+        "id": "occ_cendrillon_b9a91cd02d7eea649884208d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 220,
+        "end": 224,
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_zola_cour_tribunal"
+      },
+      "after": {
+        "id": "occ_cendrillon_b9a91cd02d7eea649884208d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 220,
+        "end": 224,
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_fr_cour_royal_entourage"
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_1_3",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_fr_cour_royal_entourage",
+        "band": "levels_1_3",
+        "contextFrench": "Toute la cour accompagne le roi lors de la cérémonie.",
+        "correctAnswer": "royal entourage",
+        "format": "meaning_choice",
+        "targetText": "cour",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "team of workers",
+          "royal entourage",
+          "crowd of shoppers",
+          "group of students"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_4_5",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_fr_cour_royal_entourage",
+        "band": "levels_4_5",
+        "contextFrench": "Les seigneurs qui vivent auprès du souverain forment sa _____.",
+        "correctAnswer": "cour",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cour",
+          "classe",
+          "clientèle",
+          "garnison"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_cour_royal_entourage_zola_cour_cour_levels_6_8",
+        "surfaceFormId": "srf_zola_cour_cour",
+        "senseId": "sns_fr_cour_royal_entourage",
+        "band": "levels_6_8",
+        "contextFrench": "La cour se rassemble autour de la reine dans le palais pour accueillir les ambassadeurs.",
+        "correctAnswer": "cour",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’entourage du souverain ?",
+        "choicesFrench": [
+          "reine",
+          "palais",
+          "ambassadeurs",
+          "cour"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon references denote the royal entourage, not a court of law. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chasse_chasse_persecution_early",
+      "before": {
+        "id": "qiz_zola_chasse_chasse_persecution_early",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "contextFrench": "La chasse aux opposants pousse plusieurs familles à quitter la ville.",
+        "correctAnswer": "persecution",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "chasse",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "persecution",
+          "celebration",
+          "negotiation",
+          "protection"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chasse_chasse_persecution_early",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "band": "levels_1_3",
+        "contextFrench": "La chasse aux opposants force de nombreuses familles à se cacher.",
+        "correctAnswer": "organized persecution",
+        "format": "meaning_choice",
+        "targetText": "chasse",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "organized persecution",
+          "welcome",
+          "public debate",
+          "election"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the persecution source under its existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chasse_chasse_persecution_intermediate",
+      "before": {
+        "id": "qiz_zola_chasse_chasse_persecution_intermediate",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "contextFrench": "Les militants sont poursuivis systématiquement ; cette _____ contre eux dure depuis des mois.",
+        "correctAnswer": "chasse",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "chasse",
+          "protection",
+          "fête",
+          "alliance"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chasse_chasse_persecution_intermediate",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "band": "levels_4_5",
+        "contextFrench": "Le régime mène une _____ aux dissidents, les traquant pour les arrêter.",
+        "correctAnswer": "chasse",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "fête",
+          "réception",
+          "cérémonie",
+          "chasse"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the persecution source under its existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chasse_chasse_persecution_advanced",
+      "before": {
+        "id": "qiz_zola_chasse_chasse_persecution_advanced",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "contextFrench": "Une chasse aux syndicalistes commence dans l’entreprise : on les surveille et on les renvoie un par un. Des collègues protestent, et l’avocat recueille leurs témoignages.",
+        "correctAnswer": "chasse",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la poursuite organisée contre ce groupe ?",
+        "choicesFrench": [
+          "chasse",
+          "collègues",
+          "avocat",
+          "témoignages"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chasse_chasse_persecution_advanced",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution",
+        "band": "levels_6_8",
+        "contextFrench": "La chasse aux minorités suscite la peur ; des groupes organisés les poursuivent jusque chez elles.",
+        "correctAnswer": "chasse",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une persécution organisée ?",
+        "choicesFrench": [
+          "peur",
+          "groupes",
+          "chasse",
+          "minorités"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the persecution source under its existing sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_chasse_hunting",
+      "before": null,
+      "after": {
+        "id": "sns_fr_chasse_hunting",
+        "lemmaId": "lem_zola_chasse",
+        "gloss": "hunting",
+        "definition": "Activité qui consiste à poursuivre des animaux sauvages pour les capturer ou les tuer."
+      },
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_a3594bb2376fe83cfb7dffc7",
+      "before": {
+        "id": "occ_parure_a3594bb2376fe83cfb7dffc7",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 106,
+        "end": 112,
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_zola_chasse_persecution"
+      },
+      "after": {
+        "id": "occ_parure_a3594bb2376fe83cfb7dffc7",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 106,
+        "end": 112,
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_fr_chasse_hunting"
+      },
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_1_3",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_fr_chasse_hunting",
+        "band": "levels_1_3",
+        "contextFrench": "La chasse au sanglier est interdite dans cette réserve naturelle.",
+        "correctAnswer": "hunting",
+        "format": "meaning_choice",
+        "targetText": "chasse",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "fishing",
+          "farming",
+          "hiking",
+          "hunting"
+        ]
+      },
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_4_5",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_fr_chasse_hunting",
+        "band": "levels_4_5",
+        "contextFrench": "Les gardes surveillent la forêt pour empêcher la _____ du gibier protégé.",
+        "correctAnswer": "chasse",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cueillette",
+          "baignade",
+          "chasse",
+          "pêche"
+        ]
+      },
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_chasse_hunting_zola_chasse_chasse_levels_6_8",
+        "surfaceFormId": "srf_zola_chasse_chasse",
+        "senseId": "sns_fr_chasse_hunting",
+        "band": "levels_6_8",
+        "contextFrench": "La chasse au lièvre attire des participants accompagnés de chiens, tandis que les promeneurs empruntent un autre chemin.",
+        "correctAnswer": "chasse",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la poursuite d’animaux sauvages comme gibier ?",
+        "choicesFrench": [
+          "chemin",
+          "chasse",
+          "participants",
+          "promeneurs"
+        ]
+      },
+      "reason": "All source occurrences read. The husband recreational hunting needs its own sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_peuple_peuple_population_early",
+      "before": {
+        "id": "qiz_zola_peuple_peuple_population_early",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "contextFrench": "Le professeur emploie « peuple » pour exprimer cette idée : ensemble des habitants d’un pays ou d’une communauté.",
+        "correctAnswer": "people; population",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "peuple",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "people; population",
+          "a telescope",
+          "a turnip",
+          "a cushion"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_peuple_peuple_population_early",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "band": "levels_1_3",
+        "contextFrench": "Le peuple de ce pays élit ses représentants.",
+        "correctAnswer": "people of a country",
+        "format": "meaning_choice",
+        "targetText": "peuple",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "army",
+          "royal family",
+          "people of a country",
+          "government"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola entire-nation population sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_peuple_peuple_population_intermediate",
+      "before": {
+        "id": "qiz_zola_peuple_peuple_population_intermediate",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "contextFrench": "Pour exprimer l’idée « ensemble des habitants d’un pays ou d’une communauté », le mot attendu est _____.",
+        "correctAnswer": "peuple",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "peuple",
+          "télescope",
+          "navet",
+          "coussin"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_peuple_peuple_population_intermediate",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "band": "levels_4_5",
+        "contextFrench": "Le référendum permet au _____ tout entier de se prononcer.",
+        "correctAnswer": "peuple",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "palais",
+          "peuple",
+          "gouvernement",
+          "ministère"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola entire-nation population sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_peuple_peuple_population_advanced",
+      "before": {
+        "id": "qiz_zola_peuple_peuple_population_advanced",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "contextFrench": "Dans cette situation, le mot « peuple » exprime précisément ceci : ensemble des habitants d’un pays ou d’une communauté. Marc ouvre la fenêtre, tandis que Nina vérifie le registre, tandis que Paul lit la lettre.",
+        "correctAnswer": "peuple",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « ensemble des habitants d’un pays ou d’une communauté » ?",
+        "choicesFrench": [
+          "peuple",
+          "fenêtre",
+          "registre",
+          "lettre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_peuple_peuple_population_advanced",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "band": "levels_6_8",
+        "contextFrench": "Le peuple comprend tous les habitants de la nation, quelles que soient leurs professions.",
+        "correctAnswer": "peuple",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’ensemble de la population ?",
+        "choicesFrench": [
+          "peuple",
+          "habitants",
+          "nation",
+          "professions"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola entire-nation population sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_peuple_common_people",
+      "before": null,
+      "after": {
+        "id": "sns_fr_peuple_common_people",
+        "lemmaId": "lem_zola_peuple",
+        "gloss": "common people",
+        "definition": "Partie de la population de condition modeste, par opposition aux classes privilégiées."
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_b5d414fb7894859722c0ed38",
+      "before": {
+        "id": "occ_parure_b5d414fb7894859722c0ed38",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 328,
+        "end": 334,
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population"
+      },
+      "after": {
+        "id": "occ_parure_b5d414fb7894859722c0ed38",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 328,
+        "end": 334,
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_fr_peuple_common_people"
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_d6220fe3c00937f8c27e9ccf",
+      "before": {
+        "id": "occ_parure_d6220fe3c00937f8c27e9ccf",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_105",
+        "start": 138,
+        "end": 144,
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population"
+      },
+      "after": {
+        "id": "occ_parure_d6220fe3c00937f8c27e9ccf",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_105",
+        "start": 138,
+        "end": 144,
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_fr_peuple_common_people"
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_1_3",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_fr_peuple_common_people",
+        "band": "levels_1_3",
+        "contextFrench": "Dans ce récit ancien, les nobles méprisent les gens du peuple.",
+        "correctAnswer": "common people",
+        "format": "meaning_choice",
+        "targetText": "peuple",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "royal family",
+          "common people",
+          "aristocracy",
+          "clergy"
+        ]
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_4_5",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_fr_peuple_common_people",
+        "band": "levels_4_5",
+        "contextFrench": "Issue du _____, cette ouvrière appartient aux classes modestes plutôt qu’à la noblesse.",
+        "correctAnswer": "peuple",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "peuple",
+          "clergé",
+          "patriciat",
+          "gouvernement"
+        ]
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peuple_common_people_zola_peuple_peuple_levels_6_8",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_fr_peuple_common_people",
+        "band": "levels_6_8",
+        "contextFrench": "Le peuple travaille aux champs et dans les ateliers, tandis que les privilégiés vivent de leurs domaines.",
+        "correctAnswer": "peuple",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne ici les classes modestes ?",
+        "choicesFrench": [
+          "champs",
+          "ateliers",
+          "domaines",
+          "peuple"
+        ]
+      },
+      "reason": "All source occurrences read. Both filles/femme du peuple denote social class rather than all inhabitants. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chambre_chambre_room_early",
+      "before": {
+        "id": "qiz_zola_chambre_chambre_room_early",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "contextFrench": "Les députés se réunissent dans une chambre pour débattre du projet de loi.",
+        "correctAnswer": "chamber",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "chambre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "chamber",
+          "corridor",
+          "courtyard",
+          "staircase"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chambre_chambre_room_early",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "band": "levels_1_3",
+        "contextFrench": "Les juges se réunissent dans la chambre du conseil pour délibérer.",
+        "correctAnswer": "meeting chamber",
+        "format": "meaning_choice",
+        "targetText": "chambre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "meeting chamber",
+          "courtyard",
+          "corridor",
+          "entrance hall"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the council deliberation-room occurrence. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chambre_chambre_room_intermediate",
+      "before": {
+        "id": "qiz_zola_chambre_chambre_room_intermediate",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "contextFrench": "Les membres de l’assemblée entrent dans la _____ où se tient la séance.",
+        "correctAnswer": "chambre",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "chambre",
+          "cour",
+          "terrasse",
+          "rue"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chambre_chambre_room_intermediate",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "band": "levels_4_5",
+        "contextFrench": "Les magistrats gagnent la _____ du conseil, la pièce réservée à leurs délibérations.",
+        "correctAnswer": "chambre",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "terrasse",
+          "cuisine",
+          "cave",
+          "chambre"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the council deliberation-room occurrence. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_chambre_chambre_room_advanced",
+      "before": {
+        "id": "qiz_zola_chambre_chambre_room_advanced",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "contextFrench": "Dans la chambre où siège l’assemblée, les représentants discutent du budget. Le greffier attend à la porte, et les visiteurs suivent la séance depuis la galerie.",
+        "correctAnswer": "chambre",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la pièce où se réunissent les représentants ?",
+        "choicesFrench": [
+          "chambre",
+          "porte",
+          "galerie",
+          "budget"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_chambre_chambre_room_advanced",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room",
+        "band": "levels_6_8",
+        "contextFrench": "La chambre où se tient la réunion est fermée pendant que les membres discutent du dossier.",
+        "correctAnswer": "chambre",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la pièce où les personnes se réunissent ?",
+        "choicesFrench": [
+          "membres",
+          "dossier",
+          "chambre",
+          "réunion"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the council deliberation-room occurrence. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_7b346bcfe0bb95877d8c98ef",
+      "before": {
+        "id": "occ_cendrillon_7b346bcfe0bb95877d8c98ef",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_002",
+        "start": 244,
+        "end": 251,
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room"
+      },
+      "after": {
+        "id": "occ_cendrillon_7b346bcfe0bb95877d8c98ef",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_002",
+        "start": 244,
+        "end": 251,
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477"
+      },
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_466711c3d79435a17381e5cc",
+      "before": {
+        "id": "occ_cendrillon_466711c3d79435a17381e5cc",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_012",
+        "start": 42,
+        "end": 49,
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_zola_chambre_room"
+      },
+      "after": {
+        "id": "occ_cendrillon_466711c3d79435a17381e5cc",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_012",
+        "start": 42,
+        "end": 49,
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477"
+      },
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_1_3",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477",
+        "band": "levels_1_3",
+        "contextFrench": "L’enfant dort dans sa chambre au premier étage.",
+        "correctAnswer": "bedroom",
+        "format": "meaning_choice",
+        "targetText": "chambre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "kitchen",
+          "cellar",
+          "bathroom",
+          "bedroom"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_4_5",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477",
+        "band": "levels_4_5",
+        "contextFrench": "Elle range son lit et son armoire dans sa _____.",
+        "correctAnswer": "chambre",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cave",
+          "buanderie",
+          "chambre",
+          "cuisine"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477_zola_chambre_chambre_levels_6_8",
+        "surfaceFormId": "srf_zola_chambre_chambre",
+        "senseId": "sns_cendrillon_chambre_toute_piece_habitable_d_une_maison_et_principalement_une_chambre_a_coucher_5bbd509477",
+        "band": "levels_6_8",
+        "contextFrench": "La chambre est silencieuse ; le voyageur y pose sa valise avant de s’allonger sur le lit.",
+        "correctAnswer": "chambre",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la pièce destinée notamment au sommeil ?",
+        "choicesFrench": [
+          "lit",
+          "chambre",
+          "voyageur",
+          "valise"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing domestic room sense for both Cendrillon occurrences. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_existence_existence_fact_early",
+      "before": {
+        "id": "qiz_zola_existence_existence_fact_early",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "contextFrench": "La découverte de ces lettres confirme l’existence du complot.",
+        "correctAnswer": "existence",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "existence",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "existence",
+          "failure",
+          "origin",
+          "ending"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_existence_existence_fact_early",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "band": "levels_1_3",
+        "contextFrench": "Cette lettre prouve l’existence d’un accord entre les deux hommes.",
+        "correctAnswer": "existence",
+        "format": "meaning_choice",
+        "targetText": "existence",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "failure",
+          "secrecy",
+          "existence",
+          "cancellation"
+        ]
+      },
+      "reason": "All source occurrences read. Retain actual existence of the alleged document. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_existence_existence_fact_intermediate",
+      "before": {
+        "id": "qiz_zola_existence_existence_fact_intermediate",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "contextFrench": "Personne ne contestait l’_____ de ce vieux chemin.",
+        "correctAnswer": "existence",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "existence",
+          "échec",
+          "origine",
+          "fin"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_existence_existence_fact_intermediate",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "band": "levels_4_5",
+        "contextFrench": "Les traces découvertes confirment l’_____ d’un ancien village à cet endroit.",
+        "correctAnswer": "existence",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "inexistence",
+          "existence",
+          "absence",
+          "impossibilité"
+        ]
+      },
+      "reason": "All source occurrences read. Retain actual existence of the alleged document. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_existence_existence_fact_advanced",
+      "before": {
+        "id": "qiz_zola_existence_existence_fact_advanced",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "contextFrench": "L’existence du document est certaine puisqu’il figure dans les archives. Nina photographie la page, Paul vérifie la date et Léa ferme la boîte.",
+        "correctAnswer": "existence",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le fait que le document est réellement présent ?",
+        "choicesFrench": [
+          "existence",
+          "archives",
+          "page",
+          "date"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_existence_existence_fact_advanced",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact",
+        "band": "levels_6_8",
+        "contextFrench": "Le chercheur démontre l’existence de cette espèce grâce à des observations précises.",
+        "correctAnswer": "existence",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le fait d’être réellement présent ?",
+        "choicesFrench": [
+          "existence",
+          "chercheur",
+          "espèce",
+          "observations"
+        ]
+      },
+      "reason": "All source occurrences read. Retain actual existence of the alleged document. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_existence_lifetime",
+      "before": null,
+      "after": {
+        "id": "sns_fr_existence_lifetime",
+        "lemmaId": "lem_zola_existence",
+        "gloss": "life; lifetime",
+        "definition": "Vie d’une personne, envisagée dans sa durée et ses conditions."
+      },
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_eb6498b77872364279dc4732",
+      "before": {
+        "id": "occ_parure_eb6498b77872364279dc4732",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_098",
+        "start": 246,
+        "end": 255,
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_zola_existence_fact"
+      },
+      "after": {
+        "id": "occ_parure_eb6498b77872364279dc4732",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_098",
+        "start": 246,
+        "end": 255,
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_fr_existence_lifetime"
+      },
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_1_3",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_fr_existence_lifetime",
+        "band": "levels_1_3",
+        "contextFrench": "Il a consacré toute son existence à la musique.",
+        "correctAnswer": "life",
+        "format": "meaning_choice",
+        "targetText": "existence",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "attention",
+          "life",
+          "fortune",
+          "vacation"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_4_5",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_fr_existence_lifetime",
+        "band": "levels_4_5",
+        "contextFrench": "Elle a mené une longue _____, de son enfance jusqu’à ses cent ans.",
+        "correctAnswer": "existence",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "existence",
+          "excursion",
+          "réunion",
+          "promenade"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_existence_lifetime_zola_existence_existence_levels_6_8",
+        "surfaceFormId": "srf_zola_existence_existence",
+        "senseId": "sns_fr_existence_lifetime",
+        "band": "levels_6_8",
+        "contextFrench": "Son existence fut paisible : il vécut entouré de sa famille jusqu’à un âge avancé.",
+        "correctAnswer": "existence",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne sa vie dans sa durée ?",
+        "choicesFrench": [
+          "paisible",
+          "famille",
+          "âge",
+          "existence"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure refers to the rest of his lifetime. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_main_main_control_early",
+      "before": {
+        "id": "qiz_zola_main_main_control_early",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "contextFrench": "Le professeur emploie « main » pour exprimer cette idée : pouvoir de diriger ou de prendre personnellement en charge.",
+        "correctAnswer": "control; charge",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "main",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "control; charge",
+          "a windmill",
+          "a turnip",
+          "a cushion"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_main_main_control_early",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "band": "levels_1_3",
+        "contextFrench": "La directrice prend en main le projet et répartit les tâches.",
+        "correctAnswer": "control",
+        "format": "meaning_choice",
+        "targetText": "main",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "control",
+          "delay",
+          "doubt",
+          "distance"
+        ]
+      },
+      "reason": "All source occurrences read. Retain managerial control in prendre en main. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_main_main_control_intermediate",
+      "before": {
+        "id": "qiz_zola_main_main_control_intermediate",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "contextFrench": "Pour exprimer l’idée « pouvoir de diriger ou de prendre personnellement en charge », le mot attendu est _____.",
+        "correctAnswer": "main",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "main",
+          "moulin",
+          "navet",
+          "coussin"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_main_main_control_intermediate",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "band": "levels_4_5",
+        "contextFrench": "Il prend en _____ l’organisation et dirige lui-même les préparatifs.",
+        "correctAnswer": "main",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "fuite",
+          "peur",
+          "panne",
+          "main"
+        ]
+      },
+      "reason": "All source occurrences read. Retain managerial control in prendre en main. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_main_main_control_advanced",
+      "before": {
+        "id": "qiz_zola_main_main_control_advanced",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "contextFrench": "Dans cette situation, le mot « main » exprime précisément ceci : pouvoir de diriger ou de prendre personnellement en charge. Léa entre dans le bureau, tandis que Marc ouvre la fenêtre, tandis que Nina vérifie le registre.",
+        "correctAnswer": "main",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « pouvoir de diriger ou de prendre personnellement en charge » ?",
+        "choicesFrench": [
+          "main",
+          "bureau",
+          "fenêtre",
+          "registre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_main_main_control_advanced",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control",
+        "band": "levels_6_8",
+        "contextFrench": "La nouvelle responsable reprend en main le service, fixe les priorités et coordonne les équipes.",
+        "correctAnswer": "main",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, avec reprend en, exprime la prise en charge ?",
+        "choicesFrench": [
+          "priorités",
+          "équipes",
+          "main",
+          "responsable"
+        ]
+      },
+      "reason": "All source occurrences read. Retain managerial control in prendre en main. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b953ae5a5a5669309d71631a",
+      "before": {
+        "id": "occ_cendrillon_b953ae5a5a5669309d71631a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_018",
+        "start": 182,
+        "end": 186,
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_zola_main_control"
+      },
+      "after": {
+        "id": "occ_cendrillon_b953ae5a5a5669309d71631a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_018",
+        "start": 182,
+        "end": 186,
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397"
+      },
+      "reason": "All source occurrences read. Reuse physical hand sense for assistance at carriage descent. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_main_main_body_part_36f392076d_early",
+      "before": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_early",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "contextFrench": "Elle tient la poignée du sac dans sa main.",
+        "correctAnswer": "hand",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "main",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "foot",
+          "knee",
+          "elbow",
+          "hand"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_early",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "band": "levels_1_3",
+        "contextFrench": "Elle tient une clé dans sa main droite.",
+        "correctAnswer": "hand",
+        "format": "meaning_choice",
+        "targetText": "main",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "pocket",
+          "sleeve",
+          "mouth",
+          "hand"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical hand sense for assistance at carriage descent. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_main_main_body_part_36f392076d_intermediate",
+      "before": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_intermediate",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "contextFrench": "Elle ouvre sa _____ et montre les cinq doigts au petit enfant.",
+        "correctAnswer": "main",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "épaule",
+          "main",
+          "bouche",
+          "jambe"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_intermediate",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "band": "levels_4_5",
+        "contextFrench": "Il ouvre la _____ et écarte ses cinq doigts.",
+        "correctAnswer": "main",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "poche",
+          "manche",
+          "main",
+          "bouche"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical hand sense for assistance at carriage descent. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_main_main_body_part_36f392076d_advanced",
+      "before": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_advanced",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "contextFrench": "Sa main est froide ; elle la glisse dans un gant avant de sortir et serre la poignée de la porte.",
+        "correctAnswer": "main",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne la partie du corps à l’extrémité du bras ?",
+        "choicesFrench": [
+          "main",
+          "gant",
+          "poignée",
+          "porte"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_main_main_body_part_36f392076d_advanced",
+        "surfaceFormId": "srf_zola_main_main",
+        "senseId": "sns_parure_main_body_part_bdc9fe7397",
+        "band": "levels_6_8",
+        "contextFrench": "Sa main se referme sur la poignée tandis qu’il pousse la porte avec l’épaule.",
+        "correctAnswer": "main",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la partie du corps à l’extrémité du bras ?",
+        "choicesFrench": [
+          "épaule",
+          "main",
+          "poignée",
+          "porte"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical hand sense for assistance at carriage descent. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_vue_vue_eyesight_early",
+      "before": {
+        "id": "qiz_zola_vue_vue_eyesight_early",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "contextFrench": "Ici, « vue » sert à désigner ou exprimer ceci : faculté de percevoir avec les yeux.",
+        "correctAnswer": "sight; eyesight",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "vue",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "sight; eyesight",
+          "hearing",
+          "memory",
+          "speech"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_vue_vue_eyesight_early",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "band": "levels_1_3",
+        "contextFrench": "Sa vue baisse ; il a besoin de lunettes pour lire.",
+        "correctAnswer": "eyesight",
+        "format": "meaning_choice",
+        "targetText": "vue",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "memory",
+          "strength",
+          "eyesight",
+          "hearing"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola faculty-of-sight noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_vue_vue_eyesight_intermediate",
+      "before": {
+        "id": "qiz_zola_vue_vue_eyesight_intermediate",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "contextFrench": "Le terme précis pour exprimer « faculté de percevoir avec les yeux » est _____.",
+        "correctAnswer": "vue",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "vue",
+          "ouïe",
+          "mémoire",
+          "parole"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_vue_vue_eyesight_intermediate",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "band": "levels_4_5",
+        "contextFrench": "Ces lunettes améliorent sa _____ et lui permettent de distinguer les lettres.",
+        "correctAnswer": "vue",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "force",
+          "vue",
+          "mémoire",
+          "voix"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola faculty-of-sight noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_vue_vue_eyesight_advanced",
+      "before": {
+        "id": "qiz_zola_vue_vue_eyesight_advanced",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "contextFrench": "Dans cette situation, le mot « vue » exprime précisément ceci : faculté de percevoir avec les yeux. Nina vérifie le registre, tandis que Paul lit la lettre, tandis que Léa regarde la table.",
+        "correctAnswer": "vue",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « faculté de percevoir avec les yeux » ?",
+        "choicesFrench": [
+          "vue",
+          "registre",
+          "lettre",
+          "table"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_vue_vue_eyesight_advanced",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight",
+        "band": "levels_6_8",
+        "contextFrench": "Le médecin contrôle la vue du patient en lui faisant lire des lettres de tailles différentes.",
+        "correctAnswer": "vue",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la faculté de percevoir avec les yeux ?",
+        "choicesFrench": [
+          "vue",
+          "médecin",
+          "patient",
+          "tailles"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the Zola faculty-of-sight noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_vue_sight_of",
+      "before": null,
+      "after": {
+        "id": "sns_fr_vue_sight_of",
+        "lemmaId": "lem_zola_vue",
+        "gloss": "sight of something",
+        "definition": "Fait de voir une personne, un objet ou une scène."
+      },
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_898e0f5775dd8aacdeb5d3b8",
+      "before": {
+        "id": "occ_parure_898e0f5775dd8aacdeb5d3b8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_003",
+        "start": 329,
+        "end": 332,
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight"
+      },
+      "after": {
+        "id": "occ_parure_898e0f5775dd8aacdeb5d3b8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_003",
+        "start": 329,
+        "end": 332,
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_fr_vue_sight_of"
+      },
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_1_3",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_fr_vue_sight_of",
+        "band": "levels_1_3",
+        "contextFrench": "La vue de son ami la remplit de joie.",
+        "correctAnswer": "sight",
+        "format": "meaning_choice",
+        "targetText": "vue",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "letter",
+          "sight",
+          "voice",
+          "memory"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_4_5",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_fr_vue_sight_of",
+        "band": "levels_4_5",
+        "contextFrench": "À la _____ du gâteau, en l’apercevant, les enfants ouvrent de grands yeux.",
+        "correctAnswer": "vue",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "vue",
+          "saveur",
+          "cuisson",
+          "recette"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_vue_sight_of_zola_vue_vue_levels_6_8",
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_fr_vue_sight_of",
+        "band": "levels_6_8",
+        "contextFrench": "La vue des montagnes au loin réjouit les voyageurs qui les découvrent pour la première fois.",
+        "correctAnswer": "vue",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le fait de voir quelque chose ?",
+        "choicesFrench": [
+          "montagnes",
+          "voyageurs",
+          "fois",
+          "vue"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure sight of the servant is an act of seeing, not eyesight ability. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_vue_voir_verb",
+      "before": null,
+      "after": {
+        "id": "srf_fr_vue_voir_verb",
+        "lemmaId": "lem_voir",
+        "form": "vue",
+        "normalized": "vue"
+      },
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_a175b8bcd06b8f7a6976429f",
+      "before": {
+        "id": "occ_parure_a175b8bcd06b8f7a6976429f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_122",
+        "start": 58,
+        "end": 61,
+        "surfaceFormId": "srf_zola_vue_vue",
+        "senseId": "sns_zola_vue_eyesight"
+      },
+      "after": {
+        "id": "occ_parure_a175b8bcd06b8f7a6976429f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_122",
+        "start": 58,
+        "end": 61,
+        "surfaceFormId": "srf_fr_vue_voir_verb",
+        "senseId": "sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60"
+      },
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_1_3",
+        "surfaceFormId": "srf_fr_vue_voir_verb",
+        "senseId": "sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+        "band": "levels_1_3",
+        "contextFrench": "La comète a été vue dans le ciel hier soir.",
+        "correctAnswer": "seen",
+        "format": "meaning_choice",
+        "targetText": "vue",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "seen",
+          "heard",
+          "drawn",
+          "named"
+        ]
+      },
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_4_5",
+        "surfaceFormId": "srf_fr_vue_voir_verb",
+        "senseId": "sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+        "band": "levels_4_5",
+        "contextFrench": "Cette étoile, je l’ai _____ près de la lune.",
+        "correctAnswer": "vue",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "vu",
+          "voir",
+          "voyant",
+          "vue"
+        ]
+      },
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60_fr_vue_voir_verb_levels_6_8",
+        "surfaceFormId": "srf_fr_vue_voir_verb",
+        "senseId": "sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+        "band": "levels_6_8",
+        "contextFrench": "La silhouette vue depuis la fenêtre disparaît bientôt derrière les arbres.",
+        "correctAnswer": "vue",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique que la silhouette a été perçue par les yeux ?",
+        "choicesFrench": [
+          "fenêtre",
+          "arbres",
+          "vue",
+          "silhouette"
+        ]
+      },
+      "reason": "All source occurrences read. Je ne t’ai vue is a feminine participle of voir; migrate to verb. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}

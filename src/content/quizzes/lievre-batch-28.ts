@@ -1,0 +1,36 @@
+import { authoredSet, type AuthoredQuizSpec } from "./authoring.js";
+
+const specs: AuthoredQuizSpec[] = [
+  { key:"raison_reason",surfaceFormId:"srf_raison",senseId:"sns_raison_primary",target:"raison",meaning:"reason; right",
+    early:[["Paul explique la raison de son retard.",["result","price","distance"]],["Vous avez raison de rester prudent.",["permission","time","fear"]],["La raison l’emporte sur la colère.",["noise","strength","luck"]]],
+    blank:["Marie refuse de partir sans connaître la ___.",["raison","réponse","route","vérité"]],
+    comprehension:["Luc reste au village pour une raison simple : son cheval est malade.","Pourquoi Luc reste-t-il ?",["his horse is ill","the road is closed","he lost his money","Paul asked him to wait"],"his horse is ill"],
+    advanced:[["La raison de son départ demeure secrète, mais tout le village s’interroge.","Quel mot désigne le motif ?",["raison","départ","village","secrète"]],["Paul a raison : le pont est effectivement fermé.","Quel mot appartient à l’expression signifiant être correct ?",["Paul","raison","pont","fermé"]],["Le juge écoute la raison plutôt que la colère de la foule.","Quel nom désigne ici la faculté de juger logiquement ?",["juge","raison","colère","foule"]]] },
+  { key:"vitesse_speed",surfaceFormId:"srf_vitesse",senseId:"sns_vitesse_primary",target:"vitesse",meaning:"speed",
+    early:[["Le train augmente sa vitesse après la gare.",["weight","length","noise"]],["Paul court à grande vitesse.",["distance","height","strength"]],["La vitesse du vent inquiète les marins.",["direction","temperature","silence"]]],
+    blank:["Le conducteur réduit sa ___ dans le village.",["vitesse","route","voiture","distance"]],
+    comprehension:["À cause de sa grande vitesse, le cheval atteint rapidement le bout de la carrière.","Pourquoi le cheval arrive-t-il rapidement ?",["because of its high speed","because the course is shorter","because another horse helps it","because it started early"],"because of its high speed"],
+    advanced:[["La vitesse du bateau diminue lorsque le vent tombe.","Quel mot désigne la rapidité du déplacement ?",["vitesse","bateau","vent","tombe"]],["Paul préfère la précision à la vitesse lorsqu’il travaille.","Quel nom est l’opposé de lenteur ?",["Paul","précision","vitesse","travaille"]],["Cette vitesse excessive met les voyageurs en danger.","Quel mot indique ici le rythme trop rapide ?",["vitesse","excessive","voyageurs","danger"]]] },
+  { key:"emporter_carry_away",surfaceFormId:"srf_emporter",senseId:"sns_emporter_primary",target:"emporter",meaning:"to carry away; take along; win",
+    early:[["Paul veut emporter une lampe pour le voyage.",["to leave","to borrow","to repair"]],["Le courant peut emporter la barque.",["to anchor","to build","to turn"]],["Marie espère emporter la victoire.",["to abandon","to describe","to share"]]],
+    blank:["N’oubliez pas d’___ votre manteau.",["emporter","apporter","porter","laisser"]],
+    comprehension:["Le vent risque d’emporter les feuilles posées sur la table.","Que peut faire le vent ?",["blow the leaves away","make the leaves wet","place the leaves in a book","tear the table apart"],"blow the leaves away"],
+    advanced:[["Nous devons emporter assez d’eau pour traverser les landes.","Quel infinitif signifie prendre avec soi ?",["emporter","eau","traverser","landes"]],["La rivière pourrait emporter le pont si la pluie continue.","Quel mot signifie entraîner au loin ?",["rivière","emporter","pont","pluie"]],["Paul compte emporter la course malgré son départ tardif.","Quel verbe signifie gagner dans ce contexte ?",["Paul","emporter","course","départ"]]] },
+  { key:"serait_would_be",surfaceFormId:"srf_serait",senseId:"sns_etre_primary",target:"serait",meaning:"would be",
+    early:[["Cette route serait plus courte.",["was","is","will be"]],["Paul serait prêt à partir demain.",["has","goes","seems"]],["Ce travail serait impossible sans votre aide.",["became","remained","ended"]]],
+    blank:["Une telle victoire ___ surprenante.",["serait","sera","était","soit"]],
+    comprehension:["Avec un guide, le voyage serait moins dangereux.","Quel effet aurait la présence d’un guide ?",["the journey would be less dangerous","the journey would be longer","the travelers would turn back","the road would be closed"],"the journey would be less dangerous"],
+    advanced:[["Paul serait heureux de revoir son village après tant d’années.","Quel mot est le conditionnel de être ?",["Paul","serait","village","années"]],["Cette décision serait juste si tous les témoins étaient entendus.","Quel verbe présente un état hypothétique ?",["décision","serait","témoins","entendus"]],["Le train serait déjà parti selon le chef de gare.","Quel mot signifie would be ?",["train","serait","parti","gare"]]] },
+  { key:"portiez_carried",surfaceFormId:"srf_portiez",senseId:"sns_porter_primary",target:"portiez",meaning:"were carrying; wore (you, plural/formal)",
+    early:[["Vous portiez une veste bleue hier.",["will wear","remove","buy"]],["Vous portiez les lettres au juge chaque matin.",["wrote","hid","burned"]],["Lorsque je vous ai vu, vous portiez un lourd panier.",["opened","dropped","filled"]]],
+    blank:["Pendant le voyage, vous ___ toujours ce petit sac.",["portiez","portez","porterez","portais"]],
+    comprehension:["Vous portiez une lampe parce que la forêt était sombre.","Pourquoi aviez-vous une lampe ?",["the forest was dark","the lamp was for sale","Paul had lost his lamp","the journey began at noon"],"the forest was dark"],
+    advanced:[["Vous portiez le blessé tandis que Paul cherchait le médecin.","Quel verbe à l’imparfait décrit votre action ?",["portiez","blessé","Paul","médecin"]],["Madame, vous portiez ce collier lors de la cérémonie.","Quel mot signifie you were wearing ?",["Madame","portiez","collier","cérémonie"]],["Vous portiez deux seaux d’eau jusqu’à la maison.","Quel mot est une forme passée de porter ?",["portiez","seaux","eau","maison"]]] },
+  { key:"maison_house",surfaceFormId:"srf_maison",senseId:"sns_maison_primary",target:"maison",meaning:"house; home",
+    early:[["La maison se trouve près de la rivière.",["road","boat","garden"]],["Paul rentre à la maison avant la nuit.",["station","market","forest"]],["Cette vieille maison possède quatre fenêtres.",["bridge","church","barn"]]],
+    blank:["Marie ouvre la porte de la ___.",["maison","jardin","voiture","grange"]],
+    comprehension:["La maison de Luc a un toit rouge et un petit jardin derrière.","De quelle couleur est le toit ?",["red","blue","green","white"],"red"],
+    advanced:[["La maison reste vide depuis le départ de ses habitants.","Quel mot désigne le bâtiment où ils vivaient ?",["maison","départ","habitants","vide"]],["Paul construit une maison au bord du village.","Quel nom signifie house ?",["Paul","maison","bord","village"]],["Nous voyons enfin la maison derrière les grands arbres.","Quel mot désigne le logement aperçu ?",["voyons","maison","arbres","grands"]]] },
+];
+
+export const lievreQuizBatch28 = specs.flatMap(authoredSet);

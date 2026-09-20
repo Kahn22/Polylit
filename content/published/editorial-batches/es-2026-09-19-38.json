@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "id": "es-2026-09-19-38",
+  "masteryIdsChanged": false,
+  "reviewed": [
+    {
+      "id": "qiz_es_0757_sino_early",
+      "reason": "Replace potentially misleading English anything but with but; except. The complete negative construction no hacía sino leer means did nothing but read.",
+      "beforeRevision": "rev_04f5af7ecdfe66f77769cc212a66dd804d9e6976b800103aa47b7879ed36c876"
+    },
+    {
+      "id": "qiz_es_0264_efectivamente_early",
+      "reason": "Use natural adverb distractors that express uncertainty rather than confirmation.",
+      "beforeRevision": "rev_8b5dddf87ce231a5cdcd5e80dddebde14abb230210056142e959f629507ac832"
+    },
+    {
+      "id": "qiz_es_0488_manchitas_intermediate",
+      "reason": "Use four feminine plural diminutive nouns; context explicitly identifies small ink stains.",
+      "beforeRevision": "rev_f23ddd0741b31c8d5fc7f6c206fecef96d3ad3055ec253e5a12ccde2efeceb7f"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0757_sino_early",
+      "before": {
+        "id": "qiz_es_0757_sino_early",
+        "surfaceFormId": "srf_es_0757_sino",
+        "senseId": "sns_es_0757_sino",
+        "contextFrench": "No hacía sino leer: no hacía otra cosa.",
+        "correctAnswer": "anything but",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "sino",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "anything but",
+          "anything before",
+          "anything without",
+          "anything after"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0757_sino_early",
+        "surfaceFormId": "srf_es_0757_sino",
+        "senseId": "sns_es_0757_sino",
+        "contextFrench": "No hacía sino leer: no hacía otra cosa.",
+        "correctAnswer": "but; except",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "sino",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "but; except",
+          "before",
+          "without",
+          "after"
+        ]
+      },
+      "reason": "Replace potentially misleading English anything but with but; except. The complete negative construction no hacía sino leer means did nothing but read."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0264_efectivamente_early",
+      "before": {
+        "id": "qiz_es_0264_efectivamente_early",
+        "surfaceFormId": "srf_es_0264_efectivamente",
+        "senseId": "sns_es_0264_efectivamente",
+        "contextFrench": "Creía que estaba abierto y, efectivamente, la puerta no tenía llave.",
+        "correctAnswer": "indeed",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "efectivamente",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "perhaps",
+          "unfortunately never",
+          "supposedly not",
+          "indeed"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0264_efectivamente_early",
+        "surfaceFormId": "srf_es_0264_efectivamente",
+        "senseId": "sns_es_0264_efectivamente",
+        "contextFrench": "Creía que estaba abierto y, efectivamente, la puerta no tenía llave.",
+        "correctAnswer": "indeed",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "efectivamente",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "perhaps",
+          "supposedly",
+          "presumably",
+          "indeed"
+        ]
+      },
+      "reason": "Use natural adverb distractors that express uncertainty rather than confirmation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0488_manchitas_intermediate",
+      "before": {
+        "id": "qiz_es_0488_manchitas_intermediate",
+        "surfaceFormId": "srf_es_0488_manchitas",
+        "senseId": "sns_es_0488_manchitas",
+        "contextFrench": "Había _____ de tinta, pequeñas marcas de color en el papel.",
+        "correctAnswer": "manchitas",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "manchitas",
+          "arruguitas",
+          "etiquetitas",
+          "dobleces pequeños"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0488_manchitas_intermediate",
+        "surfaceFormId": "srf_es_0488_manchitas",
+        "senseId": "sns_es_0488_manchitas",
+        "contextFrench": "Había _____ de tinta, pequeñas marcas de color en el papel.",
+        "correctAnswer": "manchitas",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "manchitas",
+          "arruguitas",
+          "etiquetitas",
+          "cintitas"
+        ]
+      },
+      "reason": "Use four feminine plural diminutive nouns; context explicitly identifies small ink stains."
+    }
+  ]
+}

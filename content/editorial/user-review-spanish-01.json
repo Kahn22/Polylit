@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "id": "spanish-five-word-user-review-01",
+  "status": "user_approved",
+  "applicationStatus": "applied_to_publication_source_not_deployed",
+  "workflow": "Present all three quiz bands for one word, wait for user approval, then continue to the next word. Do not publish or push.",
+  "level4To5NounRule": "All noun choices must match the target's grammatical number and fit the sentence grammatically; do not use singular options to make a plural-noun question trivial. Keep the intended meaning as the deciding factor.",
+  "words": [
+    {
+      "form": "plumas",
+      "gloss": "feathers",
+      "surfaceFormId": "srf_es_0643_plumas",
+      "senseId": "sns_es_pluma_feather",
+      "status": "user_approved",
+      "approvalEvidence": {
+        "question": "With this revision, do you approve the three questions for plumas?",
+        "response": "That’s better",
+        "scope": "Three-question set presented in the conversation, with the final plural-noun-only Level 4–5 revision below."
+      },
+      "questions": [
+        {
+          "band": "levels_1_3",
+          "context": "El pájaro tiene plumas azules en las alas.",
+          "targetText": "plumas",
+          "prompt": "Meaning",
+          "choices": [
+            "feathers",
+            "scales",
+            "shells",
+            "hairs"
+          ],
+          "correctAnswer": "feathers"
+        },
+        {
+          "band": "levels_4_5",
+          "context": "Para el disfraz, pegó tres ___ de gallina en un sombrero.",
+          "choices": [
+            "hojas",
+            "cintas",
+            "plumas",
+            "flores"
+          ],
+          "correctAnswer": "plumas"
+        },
+        {
+          "band": "levels_6_8",
+          "context": "En el nido encontramos plumas, hojas y ramitas; junto al árbol había una piedra.",
+          "prompt": "¿Qué palabra nombra lo que recubre el cuerpo de las aves?",
+          "choices": [
+            "hojas",
+            "ramitas",
+            "piedra",
+            "plumas"
+          ],
+          "correctAnswer": "plumas"
+        }
+      ]
+    },
+    {
+      "form": "casa",
+      "gloss": "house",
+      "surfaceFormId": "srf_es_0120_casa",
+      "senseId": "sns_es_0120_casa",
+      "status": "user_approved",
+      "approvalEvidence": {
+        "question": "Do you approve these three questions for casa?",
+        "response": "Yes",
+        "scope": "The complete three-question set below, including singular feminine noun choices in Levels 4–5."
+      },
+      "reuse": "Reuse the existing introductory and advanced contexts; propose a clearer intermediate context with singular feminine noun choices throughout.",
+      "questions": [
+        {
+          "band": "levels_1_3",
+          "context": "La casa tiene dos dormitorios y un pequeño jardín.",
+          "targetText": "casa",
+          "prompt": "Meaning",
+          "choices": [
+            "room",
+            "house",
+            "street",
+            "roof"
+          ],
+          "correctAnswer": "house"
+        },
+        {
+          "band": "levels_4_5",
+          "context": "Compraron una ___ con tres dormitorios para vivir con sus hijos.",
+          "choices": [
+            "puerta",
+            "calle",
+            "casa",
+            "cocina"
+          ],
+          "correctAnswer": "casa"
+        },
+        {
+          "band": "levels_6_8",
+          "context": "La casa está al final de la calle, junto a un jardín rodeado por un muro.",
+          "prompt": "¿Qué palabra nombra el edificio donde vive una familia?",
+          "choices": [
+            "calle",
+            "jardín",
+            "muro",
+            "casa"
+          ],
+          "correctAnswer": "casa"
+        }
+      ]
+    },
+    {
+      "form": "puerta",
+      "gloss": "door",
+      "surfaceFormId": "srf_es_0668_puerta",
+      "senseId": "sns_es_0668_puerta",
+      "status": "user_approved",
+      "approvalEvidence": {
+        "question": "Do you approve these three questions for puerta?",
+        "response": "Yes",
+        "scope": "The complete three-question set below, with singular feminine noun choices in Levels 4–5."
+      },
+      "reuse": "Reuse all three existing authored contexts and their answer choices; rearrange choices for this editorial presentation. The intermediate choices are already singular feminine nouns.",
+      "questions": [
+        {
+          "band": "levels_1_3",
+          "context": "Cerró la puerta con llave antes de salir.",
+          "targetText": "puerta",
+          "prompt": "Meaning",
+          "choices": [
+            "key",
+            "door",
+            "staircase",
+            "roof"
+          ],
+          "correctAnswer": "door"
+        },
+        {
+          "band": "levels_4_5",
+          "context": "Giró el picaporte, abrió la ___ y pasó del pasillo a la habitación.",
+          "choices": [
+            "puerta",
+            "pared",
+            "escalera",
+            "llave"
+          ],
+          "correctAnswer": "puerta"
+        },
+        {
+          "band": "levels_6_8",
+          "context": "Junto a la puerta había una ventana; una escalera conducía al piso de arriba y una lámpara iluminaba la entrada.",
+          "prompt": "¿Qué elemento de la entrada se abre para pasar normalmente de fuera a dentro?",
+          "choices": [
+            "ventana",
+            "escalera",
+            "lámpara",
+            "puerta"
+          ],
+          "correctAnswer": "puerta"
+        }
+      ]
+    },
+    {
+      "form": "noche",
+      "gloss": "night",
+      "surfaceFormId": "srf_es_0561_noche",
+      "senseId": "sns_es_0561_noche",
+      "status": "user_approved",
+      "approvalEvidence": {
+        "question": "Do you approve these three questions for noche?",
+        "response": "Yes",
+        "scope": "The complete three-question set below, including the 23:00 restaurant context and singular feminine noun choices in Levels 4–5."
+      },
+      "reuse": "Reuse the existing introductory and advanced contexts. Replace the definition-style intermediate sentence with a natural restaurant context at 23:00; all four choices are singular feminine time-period nouns, and madrugada cannot name a time before midnight.",
+      "questions": [
+        {
+          "band": "levels_1_3",
+          "context": "Durante la noche, las estrellas brillaban sobre el pueblo.",
+          "targetText": "noche",
+          "prompt": "Meaning",
+          "choices": [
+            "dawn",
+            "noon",
+            "night",
+            "morning"
+          ],
+          "correctAnswer": "night"
+        },
+        {
+          "band": "levels_4_5",
+          "context": "A las 23:00, ya entrada la ___, salimos del restaurante y volvimos a casa.",
+          "choices": [
+            "noche",
+            "madrugada",
+            "mañana",
+            "tarde"
+          ],
+          "correctAnswer": "noche"
+        },
+        {
+          "band": "levels_6_8",
+          "context": "La noche fue fría, pero al amanecer salió el sol y la mañana resultó agradable.",
+          "prompt": "¿Qué palabra designa el período entre la puesta y la salida del sol?",
+          "choices": [
+            "amanecer",
+            "mañana",
+            "sol",
+            "noche"
+          ],
+          "correctAnswer": "noche"
+        }
+      ]
+    },
+    {
+      "form": "pasos",
+      "gloss": "footsteps",
+      "surfaceFormId": "srf_es_0615_pasos",
+      "senseId": "sns_es_0615_pasos",
+      "status": "user_approved",
+      "approvalEvidence": {
+        "question": "Do you approve these three questions for pasos?",
+        "response": "Yes",
+        "scope": "The complete three-question set below, including plural masculine noun choices in Levels 4–5. This completes approval of all five words in this review batch."
+      },
+      "reuse": "Reuse all three authored contexts and the introductory/advanced choices. Replace intermediate distractors with plural masculine sound nouns that fit grammatically but cannot make the gravel crunch through walking. Footsteps is the existing quiz answer for the walking-steps sense; no lexical identity change is proposed.",
+      "questions": [
+        {
+          "band": "levels_1_3",
+          "context": "Oí sus pasos en el pasillo antes de que llamara a la puerta.",
+          "targetText": "pasos",
+          "prompt": "Meaning",
+          "choices": [
+            "knocks",
+            "footsteps",
+            "breaths",
+            "whispers"
+          ],
+          "correctAnswer": "footsteps"
+        },
+        {
+          "band": "levels_4_5",
+          "context": "Al caminar por la grava, sus ___ hacían crujir las piedras.",
+          "choices": [
+            "gritos",
+            "suspiros",
+            "pasos",
+            "silbidos"
+          ],
+          "correctAnswer": "pasos"
+        },
+        {
+          "band": "levels_6_8",
+          "context": "Sus pasos resonaban en la escalera, mientras sus llaves tintineaban y su voz llegaba hasta el patio.",
+          "prompt": "¿Qué palabra se refiere a los movimientos de los pies al caminar, cuyo sonido se oye aquí?",
+          "choices": [
+            "llaves",
+            "voz",
+            "patio",
+            "pasos"
+          ],
+          "correctAnswer": "pasos"
+        }
+      ]
+    }
+  ],
+  "applicationLedger": "es-2026-09-19-03"
+}

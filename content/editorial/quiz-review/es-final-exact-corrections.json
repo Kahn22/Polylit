@@ -1,0 +1,44 @@
+{
+  "id": "es-2026-09-19-38",
+  "language": "es",
+  "snapshot": "es-final-exact-input.json",
+  "entries": [
+    {
+      "id": "qiz_es_0757_sino_early",
+      "patch": {
+        "correctAnswer": "but; except",
+        "choicesEnglish": [
+          "but; except",
+          "before",
+          "without",
+          "after"
+        ]
+      },
+      "reason": "Replace potentially misleading English anything but with but; except. The complete negative construction no hacía sino leer means did nothing but read."
+    },
+    {
+      "id": "qiz_es_0264_efectivamente_early",
+      "patch": {
+        "choicesEnglish": [
+          "perhaps",
+          "supposedly",
+          "presumably",
+          "indeed"
+        ]
+      },
+      "reason": "Use natural adverb distractors that express uncertainty rather than confirmation."
+    },
+    {
+      "id": "qiz_es_0488_manchitas_intermediate",
+      "patch": {
+        "choicesFrench": [
+          "manchitas",
+          "arruguitas",
+          "etiquetitas",
+          "cintitas"
+        ]
+      },
+      "reason": "Use four feminine plural diminutive nouns; context explicitly identifies small ink stains."
+    }
+  ]
+}

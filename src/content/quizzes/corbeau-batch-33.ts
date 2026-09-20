@@ -1,0 +1,7 @@
+import type { ContentBundle } from "../../domain/model.js";
+import { authoredSet } from "./authoring.js";
+
+export const corbeauQuizBatch33: ContentBundle["quizItems"] = [
+  ...authoredSet({key:"plus_no_longer",surfaceFormId:"srf_plus",senseId:"sns_plus_primary",target:"plus",meaning:"anymore; no longer",
+    early:[["Paul ne travaille plus dans cette entreprise.",["still","already","sometimes"]],["Nina n’habite plus près de la gare.",["often","always","soon"]],["Ce train ne circule plus le dimanche.",["again","early","everywhere"]]],blank:["Il venait autrefois, mais maintenant il ne vient ___ dans ce quartier.",["plus","encore","toujours","souvent"]],comprehension:["La vieille machine ne fonctionne plus, alors le technicien commande une pièce neuve.","Qu’est-ce qui a changé concernant la machine ?",["It used to work but no longer does.","It now works faster.","It was moved to another room.","It needs to be cleaned daily."],"It used to work but no longer does."],advanced:[["Paul ne prend plus le bus, marche chaque matin et économise le prix du billet.","Quel mot indique que l’habitude de prendre le bus a cessé ?",["Paul","plus","matin","billet"]],["La boutique ne vend plus de journaux, mais propose encore des livres et des cartes.","Quel mot marque la fin de la vente des journaux ?",["boutique","plus","livres","cartes"]],["Nina ne craint plus ce chien, s’approche calmement et parle avec son propriétaire.","Quel mot indique que sa peur a disparu ?",["Nina","plus","chien","propriétaire"]]]}),
+];

@@ -1,0 +1,16 @@
+import{existsSync}from'node:fs';import{resolve}from'node:path';
+import{loadPublication,publicationRoot,validatePublication}from'../dist/publication/repository.js';
+import{adoptSourceFiles,sharedSourceFiles,reconcileQuizzes}from'../dist/publication/source-store.js';
+import{fromNeutral,toNeutral}from'../dist/publication/format.js';
+import{legacyQuiz}from'../dist/publication/quiz-authoring.js';
+import{approveReview}from'../dist/publication/editorial.js';
+const id='fr-2026-09-19-04',path=`editorial-batches/${id}.json`;if(existsSync(resolve(publicationRoot,path)))throw Error('Already applied');
+const p=loadPublication(),s=p.sharedSources.fr;
+const old=s.quizzes.find(q=>q.subject.senseId==='sns_fr_passe_elapsed'&&q.band==='levels_6_8');
+const before=legacyQuiz(old),after={...before,contextFrench:'Le siècle passé a laissé de vieux bâtiments dans cette ville ; les habitants restaurent ces témoins d’une époque terminée.',promptFrench:'Quel adjectif indique que le siècle est déjà écoulé ?',choicesFrench:['ville','passé','habitants','bâtiments'],correctAnswer:'passé'};
+const reason='Refine the adjective passage: temps passé loin could mean time spent away, whereas siècle passé unambiguously means a past/elapsed century. Keep the same adjective identity and other two distinct questions.';
+const c=fromNeutral(s.legacy.content);c.quizItems=c.quizItems.map(q=>q.id===old.id?after:q);const next={...s,legacy:{...s.legacy,content:toNeutral(c)}};next.quizzes=reconcileQuizzes(s,next.legacy);
+const quiz=next.quizzes.find(q=>q.id===old.id),surface=p.bundle.surfaceForms.find(x=>x.id===quiz.subject.surfaceFormId),sense=p.bundle.senses.find(x=>x.id===quiz.subject.senseId),lemma=p.bundle.lemmas.find(x=>x.id===surface.lemmaId);
+next.reviews=next.reviews.filter(r=>r.id!==`quiz:${quiz.id}`);next.reviews.push(approveReview('fr','quiz',quiz.id,{quiz,target:{surface,sense,lemma}},'Codex offline contextual review',new Date().toISOString(),reason));
+const files=sharedSourceFiles(next);files.set(path,{version:1,id,masteryIdsChanged:false,forms:['passé'],changes:[{kind:'quizItems',id:old.id,before,after,reason}]});
+adoptSourceFiles(publicationRoot,files,root=>{const x=loadPublication(root);validatePublication(x.bundle,x.expressionCatalog,x.registry);});console.log('Refined adjective passé; identity unchanged.');

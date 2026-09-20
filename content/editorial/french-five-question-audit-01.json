@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "id": "french-five-question-audit-01",
+  "language": "fr",
+  "scope": "Five existing Level 4–5 noun questions, selected to examine the all-languages grammatical-compatibility rule and semantic uniqueness. This is not a random sample or a judgment of the whole French corpus.",
+  "status": "audit_complete_revisions_required",
+  "applicationStatus": "audit_record_only_no_question_or_publication_changes",
+  "rule": "All options must be nouns matching the target number and fitting the unchanged sentence's agreement; exactly one answer must fit the intended meaning.",
+  "questions": [
+    {
+      "id": "qiz_renard_intermediate",
+      "target": "renard",
+      "context": "Le ___ roux rejoint son terrier avant l’aube.",
+      "choices": ["Renard", "Renards", "Corbeau", "renardeau"],
+      "storedCorrectAnswer": "Renard",
+      "verdict": "revise",
+      "findings": [
+        "Renards is plural and fails agreement with Le and roux, creating a grammatical elimination shortcut.",
+        "Renardeau is a singular masculine noun meaning a fox cub; a reddish fox cub can return to its den before dawn. The context does not distinguish it from an adult fox, so another answer is defensible.",
+        "Ordinary animal nouns should be lowercase in this new sentence; source-story capitalization does not require separate mastery identities."
+      ]
+    },
+    {
+      "id": "qiz_corbeau_intermediate",
+      "target": "corbeau",
+      "context": "Un grand ___ noir se pose près du chemin.",
+      "choices": ["Corbeau", "Corbeaux", "Renard", "corbeille"],
+      "storedCorrectAnswer": "Corbeau",
+      "verdict": "revise",
+      "findings": [
+        "Corbeaux is plural but the sentence requires a singular noun.",
+        "Corbeille is feminine and does not agree with Un grand and noir.",
+        "The options therefore fail the new rule even before evaluating meaning. Replace the grammatical mismatches and reassess the revised set for a unique contextual answer.",
+        "Use lowercase for the ordinary animal nouns in this sentence."
+      ]
+    },
+    {
+      "id": "qiz_fromage_intermediate",
+      "target": "fromage",
+      "context": "Il pose le ___ sur la table.",
+      "choices": ["fromage", "fromages", "fromager", "formage"],
+      "storedCorrectAnswer": "fromage",
+      "verdict": "revise",
+      "findings": [
+        "Fromages is plural and does not agree with le.",
+        "The sentence provides no food- or cheese-specific situation; many ordinary masculine singular objects could be put on a table.",
+        "The distractors primarily exploit similar spellings and forms rather than plausible competing meanings. Rewrite the context and use familiar, grammatically compatible noun alternatives. This audit does not claim formage is an invented word."
+      ]
+    },
+    {
+      "id": "qiz_arbre_intermediate",
+      "target": "arbre",
+      "context": "Le pommier est un ___ qui produit des fruits.",
+      "choices": ["arbre", "arbres", "arbuste", "prairie"],
+      "storedCorrectAnswer": "arbre",
+      "verdict": "revise",
+      "findings": [
+        "Arbres is plural and does not agree with un or produit.",
+        "Prairie is feminine and does not agree with un.",
+        "Replace both grammatical mismatches with singular masculine nouns, then reassess every option in the full context."
+      ]
+    },
+    {
+      "id": "qiz_maison_house_intermediate",
+      "target": "maison",
+      "context": "Marie ouvre la porte de la ___.",
+      "choices": ["maison", "jardin", "voiture", "grange"],
+      "storedCorrectAnswer": "maison",
+      "verdict": "revise",
+      "findings": [
+        "Jardin is masculine and cannot follow de la in this sentence.",
+        "Voiture and grange are singular feminine nouns with doors. Both are natural completions alongside maison; there are three defensible answers.",
+        "The context must distinguish a house from the other choices, and all options must satisfy the same grammatical constraints."
+      ]
+    }
+  ]
+}

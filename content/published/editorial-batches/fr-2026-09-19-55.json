@@ -1,0 +1,2221 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-55",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T15:22:42.953Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_le:sns_le_object",
+      "to": "srf_le:sns_le_primary",
+      "occurrenceIds": [
+        "occ_zola_c850b2bfc22c75ac88148853"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_que:sns_que_interrogative",
+      "to": "srf_que:sns_fr_que_optative",
+      "occurrenceIds": [
+        "occ_loup_agneau_1227b044b3257512719c45cc"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_reva_9584c8e0b31c_rever:sns_zola_rever_dream",
+      "to": "srf_zola_reva_9584c8e0b31c_rever:sns_fr_rever_imagine_project",
+      "occurrenceIds": [
+        "occ_zola_fb0144ef57c6e83e01563003"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_servant_servir_verb_e0f89c8fa3:sns_servir_primary",
+      "to": "srf_parure_servant_servir_verb_e0f89c8fa3:sns_fr_servir_function_as",
+      "occurrenceIds": [
+        "occ_parure_415ae3828b2d5a15427407a8"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_egales_egal_adjective_43ba7eca98:sns_parure_egal_equal_9b86198cf5",
+      "to": "srf_fr_egales_egal_noun:sns_fr_egal_peer",
+      "occurrenceIds": [
+        "occ_parure_b15042421ba88c6d6eaea373"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_hautes_haut_adjective_01150db63b:sns_zola_haut_elevated",
+      "to": "srf_parure_hautes_haut_adjective_01150db63b:sns_fr_haut_vertical",
+      "occurrenceIds": [
+        "occ_parure_48313947dee2bc9fbf52fb00"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_servis_servir_verb_2c55074b80:sns_servir_primary",
+      "to": "srf_parure_servis_servir_verb_2c55074b80:sns_fr_servir_food",
+      "occurrenceIds": [
+        "occ_parure_3f6002a99c1245f49e611541"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_sentait_sentir_verb_b269537bca:sns_sentir_primary",
+      "to": "srf_parure_sentait_sentir_verb_b269537bca:sns_fr_sentir_self_state",
+      "occurrenceIds": [
+        "occ_parure_5d8e2ee696f6a8fed3144089"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_lui:sns_lui_primary",
+      "to": "srf_lui:sns_lui_primary",
+      "form": "lui",
+      "reason": "All source occurrences read. Single pronoun family, explicitly covering indirect feminine and masculine plus stressed masculine. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_me:sns_me_primary",
+      "to": "srf_me:sns_me_primary",
+      "form": "me",
+      "reason": "All source occurrences read. First-person object/pronominal family, not exclusively indirect. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_quel:sns_quel_primary",
+      "to": "srf_quel:sns_quel_primary",
+      "form": "quel",
+      "reason": "All source occurrences read. Interrogative and exclamative determiner, agreement constrained in middle band. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_les:sns_le_object",
+      "to": "srf_les:sns_le_object",
+      "form": "les",
+      "reason": "All source occurrences read. All source uses direct plural object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_le:sns_le_object",
+      "to": "srf_le:sns_le_object",
+      "form": "le",
+      "reason": "All source occurrences read. Retain object or proposition anaphor except article in le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_le:sns_le_object",
+      "to": "srf_le:sns_le_primary",
+      "form": "le",
+      "reason": "All source occurrences read. Article within superlative expression le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_que:sns_que_interrogative",
+      "to": "srf_que:sns_que_interrogative",
+      "form": "Que",
+      "reason": "All source occurrences read. Retain interrogative, including rhetorical question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_que:sns_que_interrogative",
+      "to": "srf_que:sns_fr_que_optative",
+      "form": "Que",
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_reva_9584c8e0b31c_rever:sns_zola_rever_dream",
+      "to": "srf_zola_reva_9584c8e0b31c_rever:sns_fr_rever_imagine_project",
+      "form": "rêva",
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_aupres_fe3241ff3ae8_aupres:sns_zola_aupres_near",
+      "to": "srf_zola_aupres_fe3241ff3ae8_aupres:sns_zola_aupres_near",
+      "form": "auprès",
+      "reason": "All source occurrences read. Explicit existing broad near/addressing use fits both contexts. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_servant_servir_verb_e0f89c8fa3:sns_servir_primary",
+      "to": "srf_parure_servant_servir_verb_e0f89c8fa3:sns_fr_servir_function_as",
+      "form": "servant",
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_egales_egal_adjective_43ba7eca98:sns_parure_egal_equal_9b86198cf5",
+      "to": "srf_fr_egales_egal_noun:sns_fr_egal_peer",
+      "form": "égales",
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_hautes_haut_adjective_01150db63b:sns_zola_haut_elevated",
+      "to": "srf_parure_hautes_haut_adjective_01150db63b:sns_fr_haut_vertical",
+      "form": "hautes",
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_grands_grand_adjective_077dd1638c:sns_zola_grand_great",
+      "to": "srf_parure_grands_grand_adjective_077dd1638c:sns_zola_grand_great",
+      "form": "grands",
+      "reason": "All source occurrences read. Existing definition covers physical size and social importance. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_servis_servir_verb_2c55074b80:sns_servir_primary",
+      "to": "srf_parure_servis_servir_verb_2c55074b80:sns_fr_servir_food",
+      "form": "servis",
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e:sns_ecouter_primary",
+      "to": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e:sns_ecouter_primary",
+      "form": "écoutées",
+      "reason": "All source occurrences read. Passive feminine plural participle of listening. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_tout:sns_parure_tout_en_while_010cfee7ae",
+      "to": "srf_tout:sns_parure_tout_en_while_010cfee7ae",
+      "form": "tout",
+      "reason": "All source occurrences read. Bound tout en simultaneous construction. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_sentait_sentir_verb_b269537bca:sns_sentir_primary",
+      "to": "srf_parure_sentait_sentir_verb_b269537bca:sns_fr_sentir_self_state",
+      "form": "sentait",
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_lui_primary",
+      "before": {
+        "id": "sns_lui_primary",
+        "lemmaId": "lem_lui",
+        "gloss": "to him",
+        "definition": "to him"
+      },
+      "after": {
+        "id": "sns_lui_primary",
+        "lemmaId": "lem_lui",
+        "gloss": "him; to him; to her",
+        "definition": "Pronom personnel de troisième personne : complément indirect singulier sans distinction de genre ; forme tonique masculine singulière après une préposition ou pour insister."
+      },
+      "reason": "All source occurrences read. Single pronoun family, explicitly covering indirect feminine and masculine plus stressed masculine. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_lui_early",
+      "before": {
+        "id": "qiz_lui_early",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "contextFrench": "Paul téléphone à Léa et lui raconte la nouvelle.",
+        "correctAnswer": "to him; to her",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "lui",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to him; to her",
+          "to us",
+          "to them",
+          "there"
+        ]
+      },
+      "after": {
+        "id": "qiz_lui_early",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Marie attend une réponse ; je lui écris ce soir.",
+        "correctAnswer": "to her",
+        "format": "meaning_choice",
+        "targetText": "lui",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to her",
+          "to them",
+          "to us",
+          "to you"
+        ]
+      },
+      "reason": "All source occurrences read. Single pronoun family, explicitly covering indirect feminine and masculine plus stressed masculine. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_lui_intermediate",
+      "before": {
+        "id": "qiz_lui_intermediate",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "contextFrench": "Marc écoute sa sœur et ___ répond avec patience.",
+        "correctAnswer": "lui",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "lui",
+          "le",
+          "y",
+          "en"
+        ]
+      },
+      "after": {
+        "id": "qiz_lui_intermediate",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Paul attend ma réponse ; je _____ téléphone, à cet homme seul.",
+        "correctAnswer": "lui",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "leur",
+          "nous",
+          "vous",
+          "lui"
+        ]
+      },
+      "reason": "All source occurrences read. Single pronoun family, explicitly covering indirect feminine and masculine plus stressed masculine. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_lui_advanced",
+      "before": {
+        "id": "qiz_lui_advanced",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "contextFrench": "Léa voit Marc, lui montre la carte et range son téléphone.",
+        "correctAnswer": "lui",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot remplace « à Marc » ?",
+        "choicesFrench": [
+          "Léa",
+          "Marc",
+          "lui",
+          "carte"
+        ]
+      },
+      "after": {
+        "id": "qiz_lui_advanced",
+        "surfaceFormId": "srf_lui",
+        "senseId": "sns_lui_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Marc reste dehors ; son frère vient vers lui pour le saluer.",
+        "correctAnswer": "lui",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom tonique reprend Marc après une préposition ?",
+        "choicesFrench": [
+          "dehors",
+          "saluer",
+          "lui",
+          "frère"
+        ]
+      },
+      "reason": "All source occurrences read. Single pronoun family, explicitly covering indirect feminine and masculine plus stressed masculine. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_me_primary",
+      "before": {
+        "id": "sns_me_primary",
+        "lemmaId": "lem_me",
+        "gloss": "to me",
+        "definition": "to me"
+      },
+      "after": {
+        "id": "sns_me_primary",
+        "lemmaId": "lem_me",
+        "gloss": "me; to me; myself",
+        "definition": "Pronom personnel conjoint de la première personne du singulier, complément direct, indirect ou marqueur pronominal."
+      },
+      "reason": "All source occurrences read. First-person object/pronominal family, not exclusively indirect. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_me_early",
+      "before": {
+        "id": "qiz_me_early",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "contextFrench": "Paul me donne son adresse.",
+        "correctAnswer": "to me; me",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "me",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to me; me",
+          "to him",
+          "to us",
+          "to them"
+        ]
+      },
+      "after": {
+        "id": "qiz_me_early",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Cette lettre est pour moi : peux-tu me la donner ?",
+        "correctAnswer": "to me",
+        "format": "meaning_choice",
+        "targetText": "me",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to him",
+          "to them",
+          "to us",
+          "to me"
+        ]
+      },
+      "reason": "All source occurrences read. First-person object/pronominal family, not exclusively indirect. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_me_intermediate",
+      "before": {
+        "id": "qiz_me_intermediate",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "contextFrench": "Elle ___ montre le chemin vers la gare.",
+        "correctAnswer": "me",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "me",
+          "lui",
+          "nous",
+          "les"
+        ]
+      },
+      "after": {
+        "id": "qiz_me_intermediate",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Je suis seule sur la photo : on _____ voit devant la maison.",
+        "correctAnswer": "me",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "nous",
+          "vous",
+          "me",
+          "te"
+        ]
+      },
+      "reason": "All source occurrences read. First-person object/pronominal family, not exclusively indirect. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_me_advanced",
+      "before": {
+        "id": "qiz_me_advanced",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "contextFrench": "Paul me remet la clé, garde le reçu et montre la porte à Luc.",
+        "correctAnswer": "me",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la personne qui reçoit la clé et qui parle ?",
+        "choicesFrench": [
+          "Paul",
+          "me",
+          "reçu",
+          "Luc"
+        ]
+      },
+      "after": {
+        "id": "qiz_me_advanced",
+        "surfaceFormId": "srf_me",
+        "senseId": "sns_me_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Je me prépare à sortir et prends mon manteau.",
+        "correctAnswer": "me",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom renvoie au sujet je dans une construction pronominale ?",
+        "choicesFrench": [
+          "manteau",
+          "me",
+          "sortir",
+          "prends"
+        ]
+      },
+      "reason": "All source occurrences read. First-person object/pronominal family, not exclusively indirect. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_quel_which_early",
+      "before": {
+        "id": "qiz_quel_which_early",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "contextFrench": "Quel chemin devons-nous prendre ?",
+        "correctAnswer": "which; what",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "quel",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "which; what",
+          "this",
+          "every",
+          "no"
+        ]
+      },
+      "after": {
+        "id": "qiz_quel_which_early",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "band": "levels_1_3",
+        "contextFrench": "De quel village viens-tu ? demanda la voyageuse.",
+        "correctAnswer": "which",
+        "format": "meaning_choice",
+        "targetText": "quel",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "no",
+          "several",
+          "which",
+          "every"
+        ]
+      },
+      "reason": "All source occurrences read. Interrogative and exclamative determiner, agreement constrained in middle band. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_quel_which_intermediate",
+      "before": {
+        "id": "qiz_quel_which_intermediate",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "contextFrench": "___ témoin parlera le premier ?",
+        "correctAnswer": "quel",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "quel",
+          "quelle",
+          "quels",
+          "quelles"
+        ]
+      },
+      "after": {
+        "id": "qiz_quel_which_intermediate",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "band": "levels_4_5",
+        "contextFrench": "_____ chemin faut-il prendre, celui de droite ou celui de gauche ?",
+        "correctAnswer": "Quel",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "Quelles",
+          "Quel",
+          "Quelle",
+          "Quels"
+        ]
+      },
+      "reason": "All source occurrences read. Interrogative and exclamative determiner, agreement constrained in middle band. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_quel_which_advanced",
+      "before": {
+        "id": "qiz_quel_which_advanced",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "contextFrench": "Quel train dessert Lyon, le rapide ou l’omnibus ?",
+        "correctAnswer": "Quel",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot demande de choisir parmi plusieurs trains ?",
+        "choicesFrench": [
+          "Quel",
+          "train",
+          "rapide",
+          "omnibus"
+        ]
+      },
+      "after": {
+        "id": "qiz_quel_which_advanced",
+        "surfaceFormId": "srf_quel",
+        "senseId": "sns_quel_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Quel magnifique spectacle ! Les enfants applaudissent sans s’arrêter.",
+        "correctAnswer": "Quel",
+        "format": "target_identification",
+        "promptFrench": "Quel déterminant introduit ici une exclamation admirative ?",
+        "choicesFrench": [
+          "Quel",
+          "magnifique",
+          "spectacle",
+          "enfants"
+        ]
+      },
+      "reason": "All source occurrences read. Interrogative and exclamative determiner, agreement constrained in middle band. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_early",
+      "before": {
+        "id": "qiz_les_object_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Marie les accueille avant l’ouverture : ses invités attendent dehors.",
+        "correctAnswer": "them (plural direct object)",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "them (plural direct object)",
+          "him",
+          "her",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_1_3",
+        "contextFrench": "Ces lettres sont urgentes ; je les envoie ce matin.",
+        "correctAnswer": "them",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "us",
+          "them",
+          "him",
+          "her"
+        ]
+      },
+      "reason": "All source occurrences read. All source uses direct plural object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_intermediate",
+      "before": {
+        "id": "qiz_les_object_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Les visiteurs patientent ; Marie ___ accueille à l’entrée.",
+        "correctAnswer": "les",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_4_5",
+        "contextFrench": "Ces dossiers sont prêts ; je _____ apporte tous au directeur.",
+        "correctAnswer": "les",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "lui"
+        ]
+      },
+      "reason": "All source occurrences read. All source uses direct plural object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_advanced",
+      "before": {
+        "id": "qiz_les_object_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Les visiteurs arrivent ; Marie les accueille. Paul entre ; Luc le salue. Alice arrive ; Paul la salue. À la fin, Marie me parle.",
+        "correctAnswer": "les",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend les visiteurs ?",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_6_8",
+        "contextFrench": "Les invités arrivent ; nous les accueillons dans le jardin.",
+        "correctAnswer": "les",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, placé après nous, reprend les invités comme objet direct ?",
+        "choicesFrench": [
+          "invités",
+          "accueillons",
+          "jardin",
+          "les"
+        ]
+      },
+      "reason": "All source occurrences read. All source uses direct plural object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_early",
+      "before": {
+        "id": "qiz_le_object_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Paul est en retard ; Marie le prévient.",
+        "correctAnswer": "him (masculine direct object)",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "him (masculine direct object)",
+          "her",
+          "them",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_1_3",
+        "contextFrench": "Paul attend dehors ; sa sœur le rejoint près du portail.",
+        "correctAnswer": "him",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "him",
+          "her",
+          "them",
+          "us"
+        ]
+      },
+      "reason": "All source occurrences read. Retain object or proposition anaphor except article in le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_intermediate",
+      "before": {
+        "id": "qiz_le_object_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Paul attend dehors ; Marie ___ prévient du changement.",
+        "correctAnswer": "le",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "le",
+          "la",
+          "les",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_4_5",
+        "contextFrench": "Ce dossier est prêt ; je _____ transmets au directeur.",
+        "correctAnswer": "le",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "la",
+          "les",
+          "lui",
+          "le"
+        ]
+      },
+      "reason": "All source occurrences read. Retain object or proposition anaphor except article in le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_advanced",
+      "before": {
+        "id": "qiz_le_object_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Paul perd son billet ; Marie le rassure. Alice cherche son siège ; Luc la guide. Les voyageurs sont pressés ; une agente les informe. Paul me demande l’heure.",
+        "correctAnswer": "le",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend Paul comme objet de rassure ?",
+        "choicesFrench": [
+          "le",
+          "la",
+          "les",
+          "me"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_6_8",
+        "contextFrench": "Il est malade, et chacun le sait depuis hier.",
+        "correctAnswer": "le",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend ici le fait qu’il est malade ?",
+        "choicesFrench": [
+          "sait",
+          "hier",
+          "le",
+          "chacun"
+        ]
+      },
+      "reason": "All source occurrences read. Retain object or proposition anaphor except article in le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_c850b2bfc22c75ac88148853",
+      "before": {
+        "id": "occ_zola_c850b2bfc22c75ac88148853",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_175",
+        "start": 43,
+        "end": 45,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "after": {
+        "id": "occ_zola_c850b2bfc22c75ac88148853",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_175",
+        "start": 43,
+        "end": 45,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "reason": "All source occurrences read. Article within superlative expression le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_early",
+      "before": {
+        "id": "qiz_le_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Le train arrive à huit heures.",
+        "correctAnswer": "the",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "the",
+          "a",
+          "this",
+          "one"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Le bateau quitte ce port au lever du jour.",
+        "correctAnswer": "the",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "a",
+          "some",
+          "each",
+          "the"
+        ]
+      },
+      "reason": "All source occurrences read. Article within superlative expression le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_intermediate",
+      "before": {
+        "id": "qiz_le_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Paul ouvre ___ livre déjà posé sur la table.",
+        "correctAnswer": "le",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "le",
+          "un",
+          "ce",
+          "son"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Elle choisit _____ plus court des trois chemins.",
+        "correctAnswer": "le",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "un",
+          "le",
+          "la"
+        ]
+      },
+      "reason": "All source occurrences read. Article within superlative expression le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_advanced",
+      "before": {
+        "id": "qiz_le_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Dans le jardin, le chien poursuit un ballon et ce chat dort sous son arbre.",
+        "correctAnswer": "le",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot est l’article défini devant « chien » ?",
+        "choicesFrench": [
+          "le",
+          "un",
+          "ce",
+          "son"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Il prend le dernier train disponible pour rentrer chez ses parents.",
+        "correctAnswer": "le",
+        "format": "target_identification",
+        "promptFrench": "Quel article défini détermine train ?",
+        "choicesFrench": [
+          "parents",
+          "le",
+          "dernier",
+          "train"
+        ]
+      },
+      "reason": "All source occurrences read. Article within superlative expression le moins du monde. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_que_interrogative",
+      "before": {
+        "id": "sns_que_interrogative",
+        "lemmaId": "lem_que",
+        "gloss": "Que introduces the rhetorical question what would it be.",
+        "definition": "Que introduces the rhetorical question what would it be."
+      },
+      "after": {
+        "id": "sns_que_interrogative",
+        "lemmaId": "lem_que",
+        "gloss": "what",
+        "definition": "Pronom interrogatif portant sur une chose, une action ou un contenu, dans une question directe ou indirecte."
+      },
+      "reason": "All source occurrences read. Retain interrogative, including rhetorical question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_que_interrogative_early",
+      "before": {
+        "id": "qiz_que_interrogative_early",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "contextFrench": "Que voulez-vous maintenant ?",
+        "correctAnswer": "what",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "que",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "what",
+          "where",
+          "when",
+          "who"
+        ]
+      },
+      "after": {
+        "id": "qiz_que_interrogative_early",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "band": "levels_1_3",
+        "contextFrench": "Que cherches-tu dans ce tiroir vide ?",
+        "correctAnswer": "what",
+        "format": "meaning_choice",
+        "targetText": "Que",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "where",
+          "when",
+          "what",
+          "who"
+        ]
+      },
+      "reason": "All source occurrences read. Retain interrogative, including rhetorical question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_que_interrogative_intermediate",
+      "before": {
+        "id": "qiz_que_interrogative_intermediate",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "contextFrench": "___ cherchez-vous dans ce dossier ?",
+        "correctAnswer": "que",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "que",
+          "qui",
+          "où",
+          "quand"
+        ]
+      },
+      "after": {
+        "id": "qiz_que_interrogative_intermediate",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "band": "levels_4_5",
+        "contextFrench": "_____ voulez-vous acheter : du pain ou du lait ?",
+        "correctAnswer": "Que",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "Quand",
+          "Que",
+          "Qui",
+          "Où"
+        ]
+      },
+      "reason": "All source occurrences read. Retain interrogative, including rhetorical question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_que_interrogative_advanced",
+      "before": {
+        "id": "qiz_que_interrogative_advanced",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "contextFrench": "Que choisira Paul : le train, le bateau ou la voiture ?",
+        "correctAnswer": "Que",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot interroge sur la chose choisie ?",
+        "choicesFrench": [
+          "Que",
+          "Paul",
+          "bateau",
+          "voiture"
+        ]
+      },
+      "after": {
+        "id": "qiz_que_interrogative_advanced",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative",
+        "band": "levels_6_8",
+        "contextFrench": "Que contient cette boîte fermée ? Personne ne connaît son contenu.",
+        "correctAnswer": "Que",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom interroge sur le contenu de la boîte ?",
+        "choicesFrench": [
+          "Que",
+          "contient",
+          "boîte",
+          "Personne"
+        ]
+      },
+      "reason": "All source occurrences read. Retain interrogative, including rhetorical question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_que_optative",
+      "before": null,
+      "after": {
+        "id": "sns_fr_que_optative",
+        "lemmaId": "lem_que",
+        "gloss": "may; let (introducing a wish or command)",
+        "definition": "Introduit une proposition indépendante au subjonctif exprimant un souhait, un ordre ou une invitation."
+      },
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_loup_agneau_1227b044b3257512719c45cc",
+      "before": {
+        "id": "occ_loup_agneau_1227b044b3257512719c45cc",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_07",
+        "start": 25,
+        "end": 28,
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_que_interrogative"
+      },
+      "after": {
+        "id": "occ_loup_agneau_1227b044b3257512719c45cc",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_07",
+        "start": 25,
+        "end": 28,
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_fr_que_optative"
+      },
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_que_optative_que_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_que_optative_que_levels_1_3",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_fr_que_optative",
+        "band": "levels_1_3",
+        "contextFrench": "Que chacun garde son calme pendant cette discussion !",
+        "correctAnswer": "let",
+        "format": "meaning_choice",
+        "targetText": "Que",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "when",
+          "let",
+          "because",
+          "although"
+        ]
+      },
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_que_optative_que_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_que_optative_que_levels_4_5",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_fr_que_optative",
+        "band": "levels_4_5",
+        "contextFrench": "_____ personne ne bouge ! ordonne le capitaine.",
+        "correctAnswer": "Que",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "Que",
+          "Quand",
+          "Puisque",
+          "Lorsque"
+        ]
+      },
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_que_optative_que_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_que_optative_que_levels_6_8",
+        "surfaceFormId": "srf_que",
+        "senseId": "sns_fr_que_optative",
+        "band": "levels_6_8",
+        "contextFrench": "Que votre voyage soit heureux ! dit-elle aux voyageurs sur le départ.",
+        "correctAnswer": "Que",
+        "format": "target_identification",
+        "promptFrench": "Quel mot introduit le souhait au subjonctif ?",
+        "choicesFrench": [
+          "voyage",
+          "heureux",
+          "voyageurs",
+          "Que"
+        ]
+      },
+      "reason": "All source occurrences read. Polite request that Majesty not become angry, not a question. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_rever_imagine_project",
+      "before": null,
+      "after": {
+        "id": "sns_fr_rever_imagine_project",
+        "lemmaId": "lem_zola_rever",
+        "gloss": "to imagine; to dream of",
+        "definition": "Imaginer ou envisager vivement un projet, sans nécessairement dormir."
+      },
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_fb0144ef57c6e83e01563003",
+      "before": {
+        "id": "occ_zola_fb0144ef57c6e83e01563003",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_019",
+        "start": 71,
+        "end": 75,
+        "surfaceFormId": "srf_zola_reva_9584c8e0b31c_rever",
+        "senseId": "sns_zola_rever_dream"
+      },
+      "after": {
+        "id": "occ_zola_fb0144ef57c6e83e01563003",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_019",
+        "start": 71,
+        "end": 75,
+        "surfaceFormId": "srf_zola_reva_9584c8e0b31c_rever",
+        "senseId": "sns_fr_rever_imagine_project"
+      },
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_1_3",
+        "surfaceFormId": "srf_zola_reva_9584c8e0b31c_rever",
+        "senseId": "sns_fr_rever_imagine_project",
+        "band": "levels_1_3",
+        "contextFrench": "Il rêva de construire un bateau pour parcourir les mers.",
+        "correctAnswer": "dreamed of",
+        "format": "meaning_choice",
+        "targetText": "rêva",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "dreamed of",
+          "abandoned",
+          "forbade",
+          "forgot"
+        ]
+      },
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_4_5",
+        "surfaceFormId": "srf_zola_reva_9584c8e0b31c_rever",
+        "senseId": "sns_fr_rever_imagine_project",
+        "band": "levels_4_5",
+        "contextFrench": "Toute sa jeunesse, il _____ de voyages et imagina des pays lointains.",
+        "correctAnswer": "rêva",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "rêvèrent",
+          "rêver",
+          "rêvant",
+          "rêva"
+        ]
+      },
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_rever_imagine_project_zola_reva_9584c8e0b31c_rever_levels_6_8",
+        "surfaceFormId": "srf_zola_reva_9584c8e0b31c_rever",
+        "senseId": "sns_fr_rever_imagine_project",
+        "band": "levels_6_8",
+        "contextFrench": "Elle rêva de créer une école où chaque enfant serait accueilli.",
+        "correctAnswer": "rêva",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe exprime le projet qu’elle imaginait avec désir ?",
+        "choicesFrench": [
+          "école",
+          "enfant",
+          "rêva",
+          "créer"
+        ]
+      },
+      "reason": "All source occurrences read. Waking imagined project, not sleep. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_early",
+      "before": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_early",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "contextFrench": "Nina reste auprès de son amie malade.",
+        "correctAnswer": "near",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "auprès",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "near",
+          "beneath",
+          "far beyond",
+          "against"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_early",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "band": "levels_1_3",
+        "contextFrench": "Elle s’assoit auprès de la fenêtre pour profiter de la lumière.",
+        "correctAnswer": "near",
+        "format": "meaning_choice",
+        "targetText": "auprès",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "far from",
+          "above",
+          "under",
+          "near"
+        ]
+      },
+      "reason": "All source occurrences read. Explicit existing broad near/addressing use fits both contexts. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_intermediate",
+      "before": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_intermediate",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "contextFrench": "Pour la soutenir, Nina reste _____ de son amie à l’hôpital.",
+        "correctAnswer": "auprès",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "auprès",
+          "loin",
+          "dessus",
+          "malgré"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_intermediate",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "band": "levels_4_5",
+        "contextFrench": "Il reste _____ de sa mère, juste à côté de son fauteuil.",
+        "correctAnswer": "auprès",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "au-dessus",
+          "au-dessous",
+          "auprès",
+          "loin"
+        ]
+      },
+      "reason": "All source occurrences read. Explicit existing broad near/addressing use fits both contexts. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_advanced",
+      "before": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_advanced",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "contextFrench": "Nina reste auprès de son amie malade. Luc attend dans le couloir, Paul est loin de l’hôpital et Marie soigne sa sœur.",
+        "correctAnswer": "auprès",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique que Nina se tient près de son amie ?",
+        "choicesFrench": [
+          "auprès",
+          "attend",
+          "loin",
+          "soigne"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_aupres_fe3241ff3ae8_aupres_near_advanced",
+        "surfaceFormId": "srf_zola_aupres_fe3241ff3ae8_aupres",
+        "senseId": "sns_zola_aupres_near",
+        "band": "levels_6_8",
+        "contextFrench": "Il intervient auprès du directeur pour obtenir une réponse à sa demande.",
+        "correctAnswer": "auprès",
+        "format": "target_identification",
+        "promptFrench": "Quel mot introduit, avec de, la personne à qui s’adresse la démarche ?",
+        "choicesFrench": [
+          "demande",
+          "auprès",
+          "directeur",
+          "réponse"
+        ]
+      },
+      "reason": "All source occurrences read. Explicit existing broad near/addressing use fits both contexts. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_servir_function_as",
+      "before": null,
+      "after": {
+        "id": "sns_fr_servir_function_as",
+        "lemmaId": "lem_servir",
+        "gloss": "to serve as; to act as",
+        "definition": "Tenir lieu de quelque chose ou remplir une fonction, souvent dans servir de."
+      },
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_415ae3828b2d5a15427407a8",
+      "before": {
+        "id": "occ_parure_415ae3828b2d5a15427407a8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 170,
+        "end": 177,
+        "surfaceFormId": "srf_parure_servant_servir_verb_e0f89c8fa3",
+        "senseId": "sns_servir_primary"
+      },
+      "after": {
+        "id": "occ_parure_415ae3828b2d5a15427407a8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 170,
+        "end": 177,
+        "surfaceFormId": "srf_parure_servant_servir_verb_e0f89c8fa3",
+        "senseId": "sns_fr_servir_function_as"
+      },
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_1_3",
+        "surfaceFormId": "srf_parure_servant_servir_verb_e0f89c8fa3",
+        "senseId": "sns_fr_servir_function_as",
+        "band": "levels_1_3",
+        "contextFrench": "Une caisse servant de table occupe le centre de la pièce.",
+        "correctAnswer": "serving as",
+        "format": "meaning_choice",
+        "targetText": "servant",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "hiding",
+          "abandoning",
+          "serving as",
+          "destroying"
+        ]
+      },
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_4_5",
+        "surfaceFormId": "srf_parure_servant_servir_verb_e0f89c8fa3",
+        "senseId": "sns_fr_servir_function_as",
+        "band": "levels_4_5",
+        "contextFrench": "La planche _____ de banc supporte deux personnes assises.",
+        "correctAnswer": "servant",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "servez",
+          "servant",
+          "servir",
+          "servent"
+        ]
+      },
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_function_as_parure_servant_servir_verb_e0f89c8fa3_levels_6_8",
+        "surfaceFormId": "srf_parure_servant_servir_verb_e0f89c8fa3",
+        "senseId": "sns_fr_servir_function_as",
+        "band": "levels_6_8",
+        "contextFrench": "Il entre dans une pièce servant de bureau pendant les travaux.",
+        "correctAnswer": "servant",
+        "format": "target_identification",
+        "promptFrench": "Quel participe indique la fonction remplie par la pièce ?",
+        "choicesFrench": [
+          "servant",
+          "pièce",
+          "bureau",
+          "travaux"
+        ]
+      },
+      "reason": "All source occurrences read. Their qualities stand in for birth and family. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_egal_noun",
+      "before": null,
+      "after": {
+        "id": "lem_fr_egal_noun",
+        "headword": "égal",
+        "partOfSpeech": "noun"
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_egales_egal_noun",
+      "before": null,
+      "after": {
+        "id": "srf_fr_egales_egal_noun",
+        "lemmaId": "lem_fr_egal_noun",
+        "form": "égales",
+        "normalized": "égales"
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_egal_peer",
+      "before": null,
+      "after": {
+        "id": "sns_fr_egal_peer",
+        "lemmaId": "lem_fr_egal_noun",
+        "gloss": "equal; peer",
+        "definition": "Personne de même rang, de même valeur ou de mêmes droits qu’une autre."
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_b15042421ba88c6d6eaea373",
+      "before": {
+        "id": "occ_parure_b15042421ba88c6d6eaea373",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 339,
+        "end": 345,
+        "surfaceFormId": "srf_parure_egales_egal_adjective_43ba7eca98",
+        "senseId": "sns_parure_egal_equal_9b86198cf5"
+      },
+      "after": {
+        "id": "occ_parure_b15042421ba88c6d6eaea373",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_002",
+        "start": 339,
+        "end": 345,
+        "surfaceFormId": "srf_fr_egales_egal_noun",
+        "senseId": "sns_fr_egal_peer"
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_1_3",
+        "surfaceFormId": "srf_fr_egales_egal_noun",
+        "senseId": "sns_fr_egal_peer",
+        "band": "levels_1_3",
+        "contextFrench": "Ces femmes veulent être traitées comme les égales de leurs collègues.",
+        "correctAnswer": "equals",
+        "format": "meaning_choice",
+        "targetText": "égales",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "strangers",
+          "equals",
+          "servants",
+          "enemies"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_4_5",
+        "surfaceFormId": "srf_fr_egales_egal_noun",
+        "senseId": "sns_fr_egal_peer",
+        "band": "levels_4_5",
+        "contextFrench": "Elles ont les mêmes droits et le même rang : ce sont nos _____.",
+        "correctAnswer": "égales",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "égales",
+          "supérieures",
+          "subordonnées",
+          "ennemies"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_egal_peer_fr_egales_egal_noun_levels_6_8",
+        "surfaceFormId": "srf_fr_egales_egal_noun",
+        "senseId": "sns_fr_egal_peer",
+        "band": "levels_6_8",
+        "contextFrench": "Les deux rivales se reconnaissent comme des égales, sans supériorité de l’une sur l’autre.",
+        "correctAnswer": "égales",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne des personnes placées au même niveau ?",
+        "choicesFrench": [
+          "rivales",
+          "supériorité",
+          "autre",
+          "égales"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal feminine plural, not attributive adjective; all middle choices feminine plural nouns. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_haut_vertical",
+      "before": null,
+      "after": {
+        "id": "sns_fr_haut_vertical",
+        "lemmaId": "lem_zola_haut_adjective",
+        "gloss": "high; tall",
+        "definition": "Qui présente une grande dimension verticale ou se trouve à une grande hauteur."
+      },
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_48313947dee2bc9fbf52fb00",
+      "before": {
+        "id": "occ_parure_48313947dee2bc9fbf52fb00",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_004",
+        "start": 59,
+        "end": 65,
+        "surfaceFormId": "srf_parure_hautes_haut_adjective_01150db63b",
+        "senseId": "sns_zola_haut_elevated"
+      },
+      "after": {
+        "id": "occ_parure_48313947dee2bc9fbf52fb00",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_004",
+        "start": 59,
+        "end": 65,
+        "surfaceFormId": "srf_parure_hautes_haut_adjective_01150db63b",
+        "senseId": "sns_fr_haut_vertical"
+      },
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_1_3",
+        "surfaceFormId": "srf_parure_hautes_haut_adjective_01150db63b",
+        "senseId": "sns_fr_haut_vertical",
+        "band": "levels_1_3",
+        "contextFrench": "De hautes tours dominent les maisons basses du village.",
+        "correctAnswer": "tall",
+        "format": "meaning_choice",
+        "targetText": "hautes",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "tall",
+          "low",
+          "wide",
+          "narrow"
+        ]
+      },
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_4_5",
+        "surfaceFormId": "srf_parure_hautes_haut_adjective_01150db63b",
+        "senseId": "sns_fr_haut_vertical",
+        "band": "levels_4_5",
+        "contextFrench": "Ces étagères sont si _____ que leur sommet touche presque le plafond.",
+        "correctAnswer": "hautes",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "basses",
+          "courtes",
+          "minuscules",
+          "hautes"
+        ]
+      },
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_vertical_parure_hautes_haut_adjective_01150db63b_levels_6_8",
+        "surfaceFormId": "srf_parure_hautes_haut_adjective_01150db63b",
+        "senseId": "sns_fr_haut_vertical",
+        "band": "levels_6_8",
+        "contextFrench": "Les hautes fenêtres montent presque jusqu’au plafond et éclairent toute la salle.",
+        "correctAnswer": "hautes",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif indique une grande dimension verticale ?",
+        "choicesFrench": [
+          "plafond",
+          "salle",
+          "hautes",
+          "fenêtres"
+        ]
+      },
+      "reason": "All source occurrences read. Physical height of torch stands. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_grands_grand_large_1c83643cff_early",
+      "before": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_early",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "contextFrench": "Le professeur emploie « grands » pour exprimer cette idée : de grande dimension ou importance.",
+        "correctAnswer": "large; grand",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "grands",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "large; grand",
+          "quiet",
+          "narrow",
+          "rapid"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_early",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "band": "levels_1_3",
+        "contextFrench": "Deux grands garçons dépassent tous les autres d’une tête.",
+        "correctAnswer": "tall",
+        "format": "meaning_choice",
+        "targetText": "grands",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "short",
+          "young",
+          "tired",
+          "tall"
+        ]
+      },
+      "reason": "All source occurrences read. Existing definition covers physical size and social importance. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_grands_grand_large_1c83643cff_intermediate",
+      "before": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_intermediate",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "contextFrench": "Le terme précis pour exprimer « de grande dimension ou importance » est _____.",
+        "correctAnswer": "grands",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "grands",
+          "calme",
+          "étroit",
+          "rapide"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_intermediate",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "band": "levels_4_5",
+        "contextFrench": "Ces salons sont _____ : cent invités peuvent y tenir sans se serrer.",
+        "correctAnswer": "grands",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "étroits",
+          "minuscules",
+          "grands",
+          "petits"
+        ]
+      },
+      "reason": "All source occurrences read. Existing definition covers physical size and social importance. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_grands_grand_large_1c83643cff_advanced",
+      "before": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_advanced",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "contextFrench": "Dans cette situation, le mot « grands » exprime précisément ceci : de grande dimension ou importance. Paul compare calme, Léa note étroit et Marc choisit rapide.",
+        "correctAnswer": "grands",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « de grande dimension ou importance » ?",
+        "choicesFrench": [
+          "grands",
+          "calme",
+          "étroit",
+          "rapide"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_grands_grand_large_1c83643cff_advanced",
+        "surfaceFormId": "srf_parure_grands_grand_adjective_077dd1638c",
+        "senseId": "sns_zola_grand_great",
+        "band": "levels_6_8",
+        "contextFrench": "Les grands seigneurs du royaume disposent d’une influence considérable à la cour.",
+        "correctAnswer": "grands",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif souligne ici l’importance sociale ?",
+        "choicesFrench": [
+          "cour",
+          "grands",
+          "seigneurs",
+          "royaume"
+        ]
+      },
+      "reason": "All source occurrences read. Existing definition covers physical size and social importance. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_servir_food",
+      "before": null,
+      "after": {
+        "id": "sns_fr_servir_food",
+        "lemmaId": "lem_servir",
+        "gloss": "to serve (food or drink)",
+        "definition": "Présenter ou apporter des aliments ou des boissons à ceux qui vont les consommer."
+      },
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_3f6002a99c1245f49e611541",
+      "before": {
+        "id": "occ_parure_3f6002a99c1245f49e611541",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_007",
+        "start": 31,
+        "end": 37,
+        "surfaceFormId": "srf_parure_servis_servir_verb_2c55074b80",
+        "senseId": "sns_servir_primary"
+      },
+      "after": {
+        "id": "occ_parure_3f6002a99c1245f49e611541",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_007",
+        "start": 31,
+        "end": 37,
+        "surfaceFormId": "srf_parure_servis_servir_verb_2c55074b80",
+        "senseId": "sns_fr_servir_food"
+      },
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_1_3",
+        "surfaceFormId": "srf_parure_servis_servir_verb_2c55074b80",
+        "senseId": "sns_fr_servir_food",
+        "band": "levels_1_3",
+        "contextFrench": "Les desserts sont servis après le plat principal.",
+        "correctAnswer": "served",
+        "format": "meaning_choice",
+        "targetText": "servis",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "discarded",
+          "burned",
+          "served",
+          "hidden"
+        ]
+      },
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_4_5",
+        "surfaceFormId": "srf_parure_servis_servir_verb_2c55074b80",
+        "senseId": "sns_fr_servir_food",
+        "band": "levels_4_5",
+        "contextFrench": "Les repas sont _____ à table par les deux serveurs.",
+        "correctAnswer": "servis",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "servie",
+          "servis",
+          "servies",
+          "servi"
+        ]
+      },
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_servir_food_parure_servis_servir_verb_2c55074b80_levels_6_8",
+        "surfaceFormId": "srf_parure_servis_servir_verb_2c55074b80",
+        "senseId": "sns_fr_servir_food",
+        "band": "levels_6_8",
+        "contextFrench": "Les plats chauds, servis dès leur sortie du four, arrivent devant les convives.",
+        "correctAnswer": "servis",
+        "format": "target_identification",
+        "promptFrench": "Quel participe indique que les plats ont été apportés aux convives ?",
+        "choicesFrench": [
+          "servis",
+          "plats",
+          "sortie",
+          "four"
+        ]
+      },
+      "reason": "All source occurrences read. Food service meaning; preserve masculine plural participle agreement. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_early",
+      "before": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_early",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "contextFrench": "Le professeur emploie « écoutées » pour exprimer cette idée : entendues avec une attention volontaire.",
+        "correctAnswer": "listened to",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "écoutées",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "listened to",
+          "to walk",
+          "to close",
+          "to wait"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_early",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Ses paroles sont écoutées avec attention par toute la classe.",
+        "correctAnswer": "listened to",
+        "format": "meaning_choice",
+        "targetText": "écoutées",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "forgotten",
+          "listened to",
+          "ignored",
+          "written"
+        ]
+      },
+      "reason": "All source occurrences read. Passive feminine plural participle of listening. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_intermediate",
+      "before": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_intermediate",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "contextFrench": "Le terme précis pour exprimer « entendues avec une attention volontaire » est _____.",
+        "correctAnswer": "écoutées",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "écoutées",
+          "marcher",
+          "fermer",
+          "attendre"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_intermediate",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Les consignes, attentivement _____ par les élèves, sont enfin comprises.",
+        "correctAnswer": "écoutées",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "écoutées",
+          "écoutés",
+          "écouté",
+          "écoutée"
+        ]
+      },
+      "reason": "All source occurrences read. Passive feminine plural participle of listening. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_advanced",
+      "before": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_advanced",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "contextFrench": "Dans cette situation, le mot « écoutées » exprime précisément ceci : entendues avec une attention volontaire. Paul compare marcher, Léa note fermer et Marc choisit attendre.",
+        "correctAnswer": "écoutées",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « entendues avec une attention volontaire » ?",
+        "choicesFrench": [
+          "écoutées",
+          "marcher",
+          "fermer",
+          "attendre"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_ecoutees_ecouter_listen_af6d8dd2ac_advanced",
+        "surfaceFormId": "srf_parure_ecoutees_ecouter_verb_31d3d0c10e",
+        "senseId": "sns_ecouter_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Les confidences sont écoutées en silence, sans que personne interrompe la narratrice.",
+        "correctAnswer": "écoutées",
+        "format": "target_identification",
+        "promptFrench": "Quel participe exprime l’attention prêtée aux paroles entendues ?",
+        "choicesFrench": [
+          "confidences",
+          "silence",
+          "narratrice",
+          "écoutées"
+        ]
+      },
+      "reason": "All source occurrences read. Passive feminine plural participle of listening. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_tout_tout_en_while_d6ddc04452_early",
+      "before": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_early",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "contextFrench": "Le professeur emploie « tout » pour exprimer cette idée : renforce la simultanéité dans la construction tout en suivie d’un gérondif.",
+        "correctAnswer": "all the while; while",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "tout",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "all the while; while",
+          "outside",
+          "tomorrow",
+          "rarely"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_early",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "band": "levels_1_3",
+        "contextFrench": "Elle raconte sa journée tout en préparant le dîner.",
+        "correctAnswer": "all the while",
+        "format": "meaning_choice",
+        "targetText": "tout",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "all the while",
+          "before",
+          "instead of",
+          "after"
+        ]
+      },
+      "reason": "All source occurrences read. Bound tout en simultaneous construction. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_tout_tout_en_while_d6ddc04452_intermediate",
+      "before": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_intermediate",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "contextFrench": "Le terme précis pour exprimer « renforce la simultanéité dans la construction tout en suivie d’un gérondif » est _____.",
+        "correctAnswer": "tout",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "tout",
+          "dehors",
+          "demain",
+          "rarement"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_intermediate",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "band": "levels_4_5",
+        "contextFrench": "Il fredonne _____ en rangeant ses outils : les deux actions sont simultanées.",
+        "correctAnswer": "tout",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "tous",
+          "toute",
+          "toutes",
+          "tout"
+        ]
+      },
+      "reason": "All source occurrences read. Bound tout en simultaneous construction. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_tout_tout_en_while_d6ddc04452_advanced",
+      "before": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_advanced",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "contextFrench": "Dans cette situation, le mot « tout » exprime précisément ceci : renforce la simultanéité dans la construction tout en suivie d’un gérondif. Paul compare dehors, Léa note demain et Marc choisit rarement.",
+        "correctAnswer": "tout",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « renforce la simultanéité dans la construction tout en suivie d’un gérondif » ?",
+        "choicesFrench": [
+          "tout",
+          "dehors",
+          "demain",
+          "rarement"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_tout_tout_en_while_d6ddc04452_advanced",
+        "surfaceFormId": "srf_tout",
+        "senseId": "sns_parure_tout_en_while_010cfee7ae",
+        "band": "levels_6_8",
+        "contextFrench": "Elle surveille les enfants tout en répondant au téléphone.",
+        "correctAnswer": "tout",
+        "format": "target_identification",
+        "promptFrench": "Quel mot renforce la simultanéité dans l’expression suivie de en ?",
+        "choicesFrench": [
+          "répondant",
+          "téléphone",
+          "tout",
+          "enfants"
+        ]
+      },
+      "reason": "All source occurrences read. Bound tout en simultaneous construction. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_sentir_self_state",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sentir_self_state",
+        "lemmaId": "lem_sentir",
+        "gloss": "to feel oneself; to feel",
+        "definition": "Avoir conscience de son propre état ou de sa disposition, dans se sentir."
+      },
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_5d8e2ee696f6a8fed3144089",
+      "before": {
+        "id": "occ_parure_5d8e2ee696f6a8fed3144089",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_008",
+        "start": 88,
+        "end": 95,
+        "surfaceFormId": "srf_parure_sentait_sentir_verb_b269537bca",
+        "senseId": "sns_sentir_primary"
+      },
+      "after": {
+        "id": "occ_parure_5d8e2ee696f6a8fed3144089",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_008",
+        "start": 88,
+        "end": 95,
+        "surfaceFormId": "srf_parure_sentait_sentir_verb_b269537bca",
+        "senseId": "sns_fr_sentir_self_state"
+      },
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_1_3",
+        "surfaceFormId": "srf_parure_sentait_sentir_verb_b269537bca",
+        "senseId": "sns_fr_sentir_self_state",
+        "band": "levels_1_3",
+        "contextFrench": "Elle se sentait capable de réussir cette épreuve difficile.",
+        "correctAnswer": "felt",
+        "format": "meaning_choice",
+        "targetText": "sentait",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "pretended",
+          "forgot",
+          "refused",
+          "felt"
+        ]
+      },
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_4_5",
+        "surfaceFormId": "srf_parure_sentait_sentir_verb_b269537bca",
+        "senseId": "sns_fr_sentir_self_state",
+        "band": "levels_4_5",
+        "contextFrench": "Après une nuit de repos, elle se _____ pleine d’énergie.",
+        "correctAnswer": "sentait",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "sentais",
+          "sentir",
+          "sentait",
+          "sentaient"
+        ]
+      },
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sentir_self_state_parure_sentait_sentir_verb_b269537bca_levels_6_8",
+        "surfaceFormId": "srf_parure_sentait_sentir_verb_b269537bca",
+        "senseId": "sns_fr_sentir_self_state",
+        "band": "levels_6_8",
+        "contextFrench": "Il se sentait prêt à partir et vérifia une dernière fois ses bagages.",
+        "correctAnswer": "sentait",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe exprime la conscience de son propre état ?",
+        "choicesFrench": [
+          "bagages",
+          "sentait",
+          "partir",
+          "vérifia"
+        ]
+      },
+      "reason": "All source occurrences read. Self-assessed disposition, not generic unspecified feels. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}

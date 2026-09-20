@@ -1,0 +1,1433 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-66",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T15:52:22.071Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_le:sns_le_primary",
+      "to": "srf_le:sns_le_object",
+      "occurrenceIds": [
+        "occ_loup_agneau_30f9f1b8103b5330ceb5b976",
+        "occ_zola_8c46bea02f2ab771c8430386",
+        "occ_parure_b38719e0b56f8887bd73853f",
+        "occ_parure_7cbee17097f684896d45aabf",
+        "occ_parure_e6b4e59e11d92837b45e0a9a",
+        "occ_parure_bb18c7670cfc067fe981fada",
+        "occ_parure_535ce1ef4b88260843186b8c",
+        "occ_parure_6eecaa3d4ad0721eb2f5eb17",
+        "occ_cendrillon_94ba81515674c0d09da34f6d"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_les:sns_le_primary",
+      "to": "srf_les:sns_le_object",
+      "occurrenceIds": [
+        "occ_4ecb14a30be9ada5622ef8bd",
+        "occ_parure_80a8668c2038d508c61b888b",
+        "occ_parure_f2dae7d34c9474e9dc9659cb",
+        "occ_parure_ccea24932df2f3e826bc8a0d",
+        "occ_cendrillon_f4006bb748878edc01bbf87c",
+        "occ_cendrillon_00ab77f21aa612f6a0e37fbd",
+        "occ_cendrillon_68eb37334fd950558a1ada2d",
+        "occ_cendrillon_6ae4873ee03c6acab4eb0865",
+        "occ_cendrillon_c9c7cff96243fc2922a3d08d",
+        "occ_cendrillon_1d5059e44a026b04492e37ff",
+        "occ_cendrillon_68ae0b2d4fd9b3d306c5f671",
+        "occ_cendrillon_09d4698c1f0d4d1f30b1cba5",
+        "occ_cendrillon_46904f9b747e0bc4be48017f",
+        "occ_cendrillon_78383aba0a5814ecd29b2c71",
+        "occ_cendrillon_2382e82f69e6059778007a31",
+        "occ_cendrillon_1d1bc692a2804f19d63f97ab",
+        "occ_cendrillon_c65da5f59d627c37987dd7d9",
+        "occ_cendrillon_359697f3e6d9174a13de865f",
+        "occ_cendrillon_5cbbc24c89fb9f469d05b259",
+        "occ_cendrillon_f6096b9a875fd3442dde072a",
+        "occ_cendrillon_9b9d8e14882fc50df621d705",
+        "occ_cendrillon_056b497eae4fc9471e5aaf60",
+        "occ_cendrillon_34f50b507673a7710769cd74",
+        "occ_cendrillon_4d148f7373d393be86582fff",
+        "occ_cendrillon_0a11e504237101121f9da2a0"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_le:sns_le_primary",
+      "to": "srf_le:sns_le_primary",
+      "form": "le",
+      "reason": "All source occurrences read. All 244 current occurrences read; retain definite articles and superlative constructions. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_le:sns_le_primary",
+      "to": "srf_le:sns_le_object",
+      "form": "le",
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_les:sns_le_primary",
+      "to": "srf_les:sns_le_primary",
+      "form": "les",
+      "reason": "All source occurrences read. Definite plural articles, including nominalized numerals and superlatives. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_les:sns_le_primary",
+      "to": "srf_les:sns_le_object",
+      "form": "les",
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_la:sns_le_object",
+      "to": "srf_la:sns_le_object",
+      "form": "la",
+      "reason": "All source occurrences read. Reopened target coverage: all 52 original and newly mapped occurrences read; each is feminine singular direct object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_early",
+      "before": {
+        "id": "qiz_le_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Le bateau quitte ce port au lever du jour.",
+        "correctAnswer": "the",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "a",
+          "some",
+          "each",
+          "the"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Le chien de notre voisin dort sous cet arbre.",
+        "correctAnswer": "the",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "the",
+          "a",
+          "some",
+          "each"
+        ]
+      },
+      "reason": "All source occurrences read. All 244 current occurrences read; retain definite articles and superlative constructions. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_intermediate",
+      "before": {
+        "id": "qiz_le_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Elle choisit _____ plus court des trois chemins.",
+        "correctAnswer": "le",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "un",
+          "le",
+          "la"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Elle choisit _____ dernier billet disponible, le seul qui reste.",
+        "correctAnswer": "le",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "la",
+          "les",
+          "l’",
+          "le"
+        ]
+      },
+      "reason": "All source occurrences read. All 244 current occurrences read; retain definite articles and superlative constructions. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_advanced",
+      "before": {
+        "id": "qiz_le_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Il prend le dernier train disponible pour rentrer chez ses parents.",
+        "correctAnswer": "le",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel article défini détermine train ?",
+        "choicesFrench": [
+          "parents",
+          "le",
+          "dernier",
+          "train"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Le matin, il ouvre sa boutique et prépare ses outils.",
+        "correctAnswer": "Le",
+        "format": "target_identification",
+        "promptFrench": "Quel article défini détermine matin ?",
+        "choicesFrench": [
+          "boutique",
+          "outils",
+          "Le",
+          "matin"
+        ]
+      },
+      "reason": "All source occurrences read. All 244 current occurrences read; retain definite articles and superlative constructions. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_loup_agneau_30f9f1b8103b5330ceb5b976",
+      "before": {
+        "id": "occ_loup_agneau_30f9f1b8103b5330ceb5b976",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_19",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_loup_agneau_30f9f1b8103b5330ceb5b976",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_19",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_8c46bea02f2ab771c8430386",
+      "before": {
+        "id": "occ_zola_8c46bea02f2ab771c8430386",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_176",
+        "start": 3,
+        "end": 5,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_zola_8c46bea02f2ab771c8430386",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_176",
+        "start": 3,
+        "end": 5,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_b38719e0b56f8887bd73853f",
+      "before": {
+        "id": "occ_parure_b38719e0b56f8887bd73853f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_017",
+        "start": 5,
+        "end": 7,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_b38719e0b56f8887bd73853f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_017",
+        "start": 5,
+        "end": 7,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_7cbee17097f684896d45aabf",
+      "before": {
+        "id": "occ_parure_7cbee17097f684896d45aabf",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_059",
+        "start": 187,
+        "end": 189,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_7cbee17097f684896d45aabf",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_059",
+        "start": 187,
+        "end": 189,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_e6b4e59e11d92837b45e0a9a",
+      "before": {
+        "id": "occ_parure_e6b4e59e11d92837b45e0a9a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_084",
+        "start": 164,
+        "end": 166,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_e6b4e59e11d92837b45e0a9a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_084",
+        "start": 164,
+        "end": 166,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_bb18c7670cfc067fe981fada",
+      "before": {
+        "id": "occ_parure_bb18c7670cfc067fe981fada",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_095",
+        "start": 176,
+        "end": 178,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_bb18c7670cfc067fe981fada",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_095",
+        "start": 176,
+        "end": 178,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_535ce1ef4b88260843186b8c",
+      "before": {
+        "id": "occ_parure_535ce1ef4b88260843186b8c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_096",
+        "start": 41,
+        "end": 43,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_535ce1ef4b88260843186b8c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_096",
+        "start": 41,
+        "end": 43,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_6eecaa3d4ad0721eb2f5eb17",
+      "before": {
+        "id": "occ_parure_6eecaa3d4ad0721eb2f5eb17",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_096",
+        "start": 100,
+        "end": 102,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_6eecaa3d4ad0721eb2f5eb17",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_096",
+        "start": 100,
+        "end": 102,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_94ba81515674c0d09da34f6d",
+      "before": {
+        "id": "occ_cendrillon_94ba81515674c0d09da34f6d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_004",
+        "start": 122,
+        "end": 124,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_94ba81515674c0d09da34f6d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_004",
+        "start": 122,
+        "end": 124,
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_early",
+      "before": {
+        "id": "qiz_le_object_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Paul attend dehors ; sa sœur le rejoint près du portail.",
+        "correctAnswer": "him",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "him",
+          "her",
+          "them",
+          "us"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_early",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_1_3",
+        "contextFrench": "Ce paquet est lourd ; je le pose sur la table.",
+        "correctAnswer": "it",
+        "format": "meaning_choice",
+        "targetText": "le",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "her",
+          "them",
+          "us",
+          "it"
+        ]
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_intermediate",
+      "before": {
+        "id": "qiz_le_object_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Ce dossier est prêt ; je _____ transmets au directeur.",
+        "correctAnswer": "le",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "la",
+          "les",
+          "lui",
+          "le"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_intermediate",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_4_5",
+        "contextFrench": "Paul est arrivé ; je _____ vois devant nous, lui seul.",
+        "correctAnswer": "le",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "lui",
+          "le",
+          "la"
+        ]
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_le_object_advanced",
+      "before": {
+        "id": "qiz_le_object_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "contextFrench": "Il est malade, et chacun le sait depuis hier.",
+        "correctAnswer": "le",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend ici le fait qu’il est malade ?",
+        "choicesFrench": [
+          "sait",
+          "hier",
+          "le",
+          "chacun"
+        ]
+      },
+      "after": {
+        "id": "qiz_le_object_advanced",
+        "surfaceFormId": "srf_le",
+        "senseId": "sns_le_object",
+        "band": "levels_6_8",
+        "contextFrench": "Il affirme que tout est prêt, mais je ne le crois pas.",
+        "correctAnswer": "le",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom peut reprendre ici ce qui vient d’être affirmé ?",
+        "choicesFrench": [
+          "crois",
+          "le",
+          "affirme",
+          "prêt"
+        ]
+      },
+      "reason": "All source occurrences read. Object masculine singular or proposition. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_article_early",
+      "before": {
+        "id": "qiz_les_article_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Les fenêtres donnent sur la rivière.",
+        "correctAnswer": "the (plural article)",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "the (plural article)",
+          "some",
+          "these",
+          "our"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_article_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Les fenêtres de cette maison donnent sur notre jardin.",
+        "correctAnswer": "the",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "each",
+          "no",
+          "the",
+          "some"
+        ]
+      },
+      "reason": "All source occurrences read. Definite plural articles, including nominalized numerals and superlatives. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_article_intermediate",
+      "before": {
+        "id": "qiz_les_article_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Marie range ___ livres sur l’étagère.",
+        "correctAnswer": "les",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "un"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_article_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "band": "levels_4_5",
+        "contextFrench": "_____ deux fenêtres de cette pièce sont ouvertes.",
+        "correctAnswer": "Les",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "L’",
+          "Les",
+          "Le",
+          "La"
+        ]
+      },
+      "reason": "All source occurrences read. Definite plural articles, including nominalized numerals and superlatives. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_article_advanced",
+      "before": {
+        "id": "qiz_les_article_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "contextFrench": "Les nuages cachent le soleil, mais la pluie ne tombe pas encore.",
+        "correctAnswer": "Les",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel article défini pluriel précède nuages ?",
+        "choicesFrench": [
+          "Les",
+          "nuages",
+          "soleil",
+          "pluie"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_article_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Les plus jeunes attendent leur tour devant la porte.",
+        "correctAnswer": "Les",
+        "format": "target_identification",
+        "promptFrench": "Quel article défini introduit le groupe nominal au pluriel ?",
+        "choicesFrench": [
+          "Les",
+          "jeunes",
+          "tour",
+          "porte"
+        ]
+      },
+      "reason": "All source occurrences read. Definite plural articles, including nominalized numerals and superlatives. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_4ecb14a30be9ada5622ef8bd",
+      "before": {
+        "id": "occ_4ecb14a30be9ada5622ef8bd",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_08",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary",
+        "start": 128,
+        "end": 131
+      },
+      "after": {
+        "id": "occ_4ecb14a30be9ada5622ef8bd",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_08",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "start": 128,
+        "end": 131
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_80a8668c2038d508c61b888b",
+      "before": {
+        "id": "occ_parure_80a8668c2038d508c61b888b",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_048",
+        "start": 205,
+        "end": 208,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_80a8668c2038d508c61b888b",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_048",
+        "start": 205,
+        "end": 208,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_f2dae7d34c9474e9dc9659cb",
+      "before": {
+        "id": "occ_parure_f2dae7d34c9474e9dc9659cb",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_048",
+        "start": 220,
+        "end": 223,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_f2dae7d34c9474e9dc9659cb",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_048",
+        "start": 220,
+        "end": 223,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_ccea24932df2f3e826bc8a0d",
+      "before": {
+        "id": "occ_parure_ccea24932df2f3e826bc8a0d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_064",
+        "start": 3,
+        "end": 6,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_parure_ccea24932df2f3e826bc8a0d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_064",
+        "start": 3,
+        "end": 6,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_f4006bb748878edc01bbf87c",
+      "before": {
+        "id": "occ_cendrillon_f4006bb748878edc01bbf87c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_006",
+        "start": 186,
+        "end": 189,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_f4006bb748878edc01bbf87c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_006",
+        "start": 186,
+        "end": 189,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_00ab77f21aa612f6a0e37fbd",
+      "before": {
+        "id": "occ_cendrillon_00ab77f21aa612f6a0e37fbd",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 352,
+        "end": 355,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_00ab77f21aa612f6a0e37fbd",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 352,
+        "end": 355,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_68eb37334fd950558a1ada2d",
+      "before": {
+        "id": "occ_cendrillon_68eb37334fd950558a1ada2d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 405,
+        "end": 408,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_68eb37334fd950558a1ada2d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 405,
+        "end": 408,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_6ae4873ee03c6acab4eb0865",
+      "before": {
+        "id": "occ_cendrillon_6ae4873ee03c6acab4eb0865",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 31,
+        "end": 34,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_6ae4873ee03c6acab4eb0865",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 31,
+        "end": 34,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_c9c7cff96243fc2922a3d08d",
+      "before": {
+        "id": "occ_cendrillon_c9c7cff96243fc2922a3d08d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 294,
+        "end": 297,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_c9c7cff96243fc2922a3d08d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 294,
+        "end": 297,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_1d5059e44a026b04492e37ff",
+      "before": {
+        "id": "occ_cendrillon_1d5059e44a026b04492e37ff",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 32,
+        "end": 35,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_1d5059e44a026b04492e37ff",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 32,
+        "end": 35,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_68ae0b2d4fd9b3d306c5f671",
+      "before": {
+        "id": "occ_cendrillon_68ae0b2d4fd9b3d306c5f671",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 192,
+        "end": 195,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_68ae0b2d4fd9b3d306c5f671",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 192,
+        "end": 195,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_09d4698c1f0d4d1f30b1cba5",
+      "before": {
+        "id": "occ_cendrillon_09d4698c1f0d4d1f30b1cba5",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 344,
+        "end": 347,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_09d4698c1f0d4d1f30b1cba5",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 344,
+        "end": 347,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_46904f9b747e0bc4be48017f",
+      "before": {
+        "id": "occ_cendrillon_46904f9b747e0bc4be48017f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_011",
+        "start": 15,
+        "end": 18,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_46904f9b747e0bc4be48017f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_011",
+        "start": 15,
+        "end": 18,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_78383aba0a5814ecd29b2c71",
+      "before": {
+        "id": "occ_cendrillon_78383aba0a5814ecd29b2c71",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 347,
+        "end": 350,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_78383aba0a5814ecd29b2c71",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 347,
+        "end": 350,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_2382e82f69e6059778007a31",
+      "before": {
+        "id": "occ_cendrillon_2382e82f69e6059778007a31",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 364,
+        "end": 367,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_2382e82f69e6059778007a31",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 364,
+        "end": 367,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_1d1bc692a2804f19d63f97ab",
+      "before": {
+        "id": "occ_cendrillon_1d1bc692a2804f19d63f97ab",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 409,
+        "end": 412,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_1d1bc692a2804f19d63f97ab",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_015",
+        "start": 409,
+        "end": 412,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_c65da5f59d627c37987dd7d9",
+      "before": {
+        "id": "occ_cendrillon_c65da5f59d627c37987dd7d9",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_021",
+        "start": 7,
+        "end": 10,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_c65da5f59d627c37987dd7d9",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_021",
+        "start": 7,
+        "end": 10,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_359697f3e6d9174a13de865f",
+      "before": {
+        "id": "occ_cendrillon_359697f3e6d9174a13de865f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_029",
+        "start": 164,
+        "end": 167,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_359697f3e6d9174a13de865f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_029",
+        "start": 164,
+        "end": 167,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_5cbbc24c89fb9f469d05b259",
+      "before": {
+        "id": "occ_cendrillon_5cbbc24c89fb9f469d05b259",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 395,
+        "end": 398,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_5cbbc24c89fb9f469d05b259",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 395,
+        "end": 398,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_f6096b9a875fd3442dde072a",
+      "before": {
+        "id": "occ_cendrillon_f6096b9a875fd3442dde072a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 225,
+        "end": 228,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_f6096b9a875fd3442dde072a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 225,
+        "end": 228,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_9b9d8e14882fc50df621d705",
+      "before": {
+        "id": "occ_cendrillon_9b9d8e14882fc50df621d705",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 252,
+        "end": 255,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_9b9d8e14882fc50df621d705",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 252,
+        "end": 255,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_056b497eae4fc9471e5aaf60",
+      "before": {
+        "id": "occ_cendrillon_056b497eae4fc9471e5aaf60",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 316,
+        "end": 319,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_056b497eae4fc9471e5aaf60",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_031",
+        "start": 316,
+        "end": 319,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_34f50b507673a7710769cd74",
+      "before": {
+        "id": "occ_cendrillon_34f50b507673a7710769cd74",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 163,
+        "end": 166,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_34f50b507673a7710769cd74",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 163,
+        "end": 166,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_4d148f7373d393be86582fff",
+      "before": {
+        "id": "occ_cendrillon_4d148f7373d393be86582fff",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_052",
+        "start": 21,
+        "end": 24,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_4d148f7373d393be86582fff",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_052",
+        "start": 21,
+        "end": 24,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_0a11e504237101121f9da2a0",
+      "before": {
+        "id": "occ_cendrillon_0a11e504237101121f9da2a0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_054",
+        "start": 21,
+        "end": 24,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_0a11e504237101121f9da2a0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_054",
+        "start": 21,
+        "end": 24,
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object"
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_early",
+      "before": {
+        "id": "qiz_les_object_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Ces lettres sont urgentes ; je les envoie ce matin.",
+        "correctAnswer": "them",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "us",
+          "them",
+          "him",
+          "her"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_early",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_1_3",
+        "contextFrench": "Ces valises sont prêtes ; nous les chargeons dans la voiture.",
+        "correctAnswer": "them",
+        "format": "meaning_choice",
+        "targetText": "les",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "us",
+          "them",
+          "him",
+          "her"
+        ]
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_intermediate",
+      "before": {
+        "id": "qiz_les_object_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Ces dossiers sont prêts ; je _____ apporte tous au directeur.",
+        "correctAnswer": "les",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "lui"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_intermediate",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_4_5",
+        "contextFrench": "Les deux colis sont arrivés ; je _____ ouvre tous les deux.",
+        "correctAnswer": "les",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "les",
+          "le",
+          "la",
+          "lui"
+        ]
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_les_object_advanced",
+      "before": {
+        "id": "qiz_les_object_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "contextFrench": "Les invités arrivent ; nous les accueillons dans le jardin.",
+        "correctAnswer": "les",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, placé après nous, reprend les invités comme objet direct ?",
+        "choicesFrench": [
+          "invités",
+          "accueillons",
+          "jardin",
+          "les"
+        ]
+      },
+      "after": {
+        "id": "qiz_les_object_advanced",
+        "surfaceFormId": "srf_les",
+        "senseId": "sns_le_object",
+        "band": "levels_6_8",
+        "contextFrench": "Ces enfants, les voilà enfin devant nous après le voyage.",
+        "correctAnswer": "les",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend ces enfants devant voilà ?",
+        "choicesFrench": [
+          "enfants",
+          "voilà",
+          "voyage",
+          "les"
+        ]
+      },
+      "reason": "All source occurrences read. Object plural includes historical apporte les moy and presentative les voilà. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_la_object_early",
+      "before": {
+        "id": "qiz_la_object_early",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "contextFrench": "Je cherche ma sœur ; je la vois près d’un arbre.",
+        "correctAnswer": "her",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "la",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "me",
+          "you",
+          "us",
+          "her"
+        ]
+      },
+      "after": {
+        "id": "qiz_la_object_early",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "band": "levels_1_3",
+        "contextFrench": "Marie nous attend ; nous la rejoignons au café.",
+        "correctAnswer": "her",
+        "format": "meaning_choice",
+        "targetText": "la",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "her",
+          "him",
+          "them",
+          "us"
+        ]
+      },
+      "reason": "All source occurrences read. Reopened target coverage: all 52 original and newly mapped occurrences read; each is feminine singular direct object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_la_object_intermediate",
+      "before": {
+        "id": "qiz_la_object_intermediate",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "contextFrench": "Cette femme attend ; je _____ reconnais et je vais lui parler.",
+        "correctAnswer": "la",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "le",
+          "nous",
+          "la",
+          "les"
+        ]
+      },
+      "after": {
+        "id": "qiz_la_object_intermediate",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "band": "levels_4_5",
+        "contextFrench": "Cette lettre est prête ; je _____ glisse dans une enveloppe.",
+        "correctAnswer": "la",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "le",
+          "les",
+          "lui",
+          "la"
+        ]
+      },
+      "reason": "All source occurrences read. Reopened target coverage: all 52 original and newly mapped occurrences read; each is feminine singular direct object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_la_object_advanced",
+      "before": {
+        "id": "qiz_la_object_advanced",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "contextFrench": "Ma cousine arrive ; nous la saluons depuis le balcon.",
+        "correctAnswer": "la",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend ma cousine comme objet du verbe saluons ?",
+        "choicesFrench": [
+          "balcon",
+          "la",
+          "cousine",
+          "nous"
+        ]
+      },
+      "after": {
+        "id": "qiz_la_object_advanced",
+        "surfaceFormId": "srf_la",
+        "senseId": "sns_le_object",
+        "band": "levels_6_8",
+        "contextFrench": "Cette histoire, elle la raconte souvent à ses enfants.",
+        "correctAnswer": "la",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom reprend histoire comme objet direct ?",
+        "choicesFrench": [
+          "raconte",
+          "enfants",
+          "la",
+          "histoire"
+        ]
+      },
+      "reason": "All source occurrences read. Reopened target coverage: all 52 original and newly mapped occurrences read; each is feminine singular direct object. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}

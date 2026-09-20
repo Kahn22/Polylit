@@ -1,0 +1,142 @@
+import type { EditorialQuizSet } from "./zola-editorial-quizzes.js";
+
+export const zolaEditorialBatch09: Record<string, EditorialQuizSet> = {
+  "cela:cela_that": {
+    early: "Le train a été annulé ; cela oblige les voyageurs à changer de plan.", englishChoices: ["that", "someone", "nowhere", "several"],
+    intermediate: "La route est fermée ; _____ explique pourquoi le bus fait un détour.", frenchChoices: ["cela", "celui", "ceux", "celles"],
+    advanced: "Le pont est fermé. Cela explique le détour, tandis que les ouvriers réparent la chaussée et que les voyageurs attendent.",
+    prompt: "Quel mot reprend ici le fait que le pont est fermé ?", advancedChoices: ["cela", "détour", "ouvriers", "voyageurs"],
+  },
+  "celle:celui_primary": {
+    early: "Parmi ces deux robes, celle en soie appartient à Nina.", englishChoices: ["the one", "both", "neither", "someone"],
+    intermediate: "J’ai deux valises : _____ qui est bleue est à moi.", frenchChoices: ["celle", "celui", "ceux", "celles"],
+    advanced: "Deux fenêtres donnent sur la cour : celle de gauche est ouverte, l’autre est fermée. Léa regarde le jardin depuis la cuisine.",
+    prompt: "Quel mot remplace la fenêtre de gauche ?", advancedChoices: ["celle", "autre", "jardin", "cuisine"],
+  },
+  "celui-là:celui_primary": {
+    early: "Je garde le livre près de moi ; celui-là, sur l’étagère, est à Paul.", englishChoices: ["that one", "everyone", "nothing", "somewhere"],
+    intermediate: "Ce livre-ci est à moi ; _____, tout au fond de la pièce, appartient à Marie.", frenchChoices: ["celui-là", "celle-là", "ceux-là", "celles-là"],
+    advanced: "Paul montre deux vélos : celui-là, contre le mur du fond, appartient à Nina ; celui près de la porte est à lui. Léa range les casques.",
+    prompt: "Quel mot désigne le vélo plus éloigné ?", advancedChoices: ["celui-là", "celui", "porte", "casques"],
+  },
+  "cet:ce_primary": {
+    early: "Cet arbre devant la maison perd ses feuilles en automne.", englishChoices: ["this", "each", "my", "several"],
+    intermediate: "Regarde _____ ancien moulin au bord de la rivière.", frenchChoices: ["cet", "ce", "cette", "ces"],
+    advanced: "Cet immeuble abrite la bibliothèque municipale. Le jardin voisin accueille les lecteurs, tandis que la cour est fermée le soir.",
+    prompt: "Quel mot désigne l’immeuble dont on parle ?", advancedChoices: ["cet", "voisin", "municipale", "fermée"],
+  },
+  "charge:charge_evidence": {
+    early: "La déposition constitue une charge contre le suspect : elle l’implique dans le vol.", englishChoices: ["incriminating evidence", "reward", "alibi", "compliment"],
+    intermediate: "Le juge retient cette déposition mensongère comme une _____ contre l’accusé.", frenchChoices: ["charge", "récompense", "excuse", "félicitation"],
+    advanced: "La charge retenue contre Marc est une lettre qui semble l’impliquer dans le vol. Son avocat présente un alibi, et le juge examine aussi une photographie.",
+    prompt: "Quel mot désigne l’élément retenu contre Marc ?", advancedChoices: ["charge", "alibi", "avocat", "photographie"],
+  },
+  "charge:charge_burden": {
+    early: "Après le départ de sa collègue, la gestion du magasin reste à la charge de Léa.", englishChoices: ["responsibility", "accusation", "discount", "vacation"],
+    intermediate: "Paul organise seul la livraison : cette tâche est désormais à sa _____.", frenchChoices: ["charge", "vacance", "récompense", "permission"],
+    advanced: "La charge de préparer les repas revient à Nina cette semaine. Paul s’occupe du ménage, Léa choisit les recettes et Marc fait les courses.",
+    prompt: "Quel mot désigne la responsabilité confiée à Nina ?", advancedChoices: ["charge", "ménage", "recettes", "courses"],
+  },
+  "chargé:charger_assign": {
+    early: "Le directeur a chargé Paul de rédiger le compte rendu de la réunion.", englishChoices: ["tasked", "prevented", "excused", "ignored"],
+    intermediate: "Le responsable a _____ Léa de contacter tous les participants avant vendredi.", frenchChoices: ["chargé", "dispensé", "empêché", "découragé"],
+    advanced: "La maire a chargé son adjoint d’organiser la fête du quartier. Nina prépare les affiches, Paul réserve la salle et Luc invite les musiciens.",
+    prompt: "Quel mot indique que la maire a confié une mission à son adjoint ?", advancedChoices: ["chargé", "prépare", "réserve", "invite"],
+  },
+  "chargé:charger_accuse": {
+    early: "Dans sa déposition, le témoin a chargé l’accusé en affirmant l’avoir vu voler la caisse.", englishChoices: ["incriminated", "defended", "cleared", "congratulated"],
+    intermediate: "En disant qu’il avait vu le suspect voler, le témoin l’a _____ devant le juge.", frenchChoices: ["chargé", "innocenté", "défendu", "disculpé"],
+    advanced: "Le témoin a chargé Marc dans son récit : il affirme l’avoir vu emporter la caisse. Son avocat conteste ce témoignage, et le juge demande des preuves.",
+    prompt: "Quel mot signifie que le témoin a gravement mis Marc en cause ?", advancedChoices: ["chargé", "conteste", "demande", "preuves"],
+  },
+  "chargeant:charger_assign": {
+    early: "En chargeant son adjoint de répondre aux courriels, la directrice lui confie cette tâche.", englishChoices: ["tasking", "excusing", "preventing", "ignoring"],
+    intermediate: "En _____ son équipe de préparer la salle, la directrice répartit le travail.", frenchChoices: ["chargeant", "dispensant", "empêchant", "libérant"],
+    advanced: "En chargeant Nina de préparer le dossier, Luc lui confie une mission précise. Paul apporte les documents, Marie ouvre le bureau et Léa fixe la date.",
+    prompt: "Quel mot indique que Luc attribue une tâche à Nina ?", advancedChoices: ["chargeant", "apporte", "ouvre", "fixe"],
+  },
+  "charger:charger_accuse": {
+    early: "Des témoins veulent charger le suspect en prétendant l’avoir vu sur les lieux.", englishChoices: ["to incriminate", "to defend", "to clear", "to thank"],
+    intermediate: "Ils inventent un récit de vol pour _____ leur adversaire devant le juge.", frenchChoices: ["charger", "défendre", "innocenter", "féliciter"],
+    advanced: "Deux voisins essaient de charger Luc en l’accusant sans preuve de vol. Nina vérifie son alibi, l’avocat écoute les témoins et le juge ajourne l’audience.",
+    prompt: "Quel verbe signifie ici mettre gravement Luc en cause ?", advancedChoices: ["charger", "vérifie", "écoute", "ajourne"],
+  },
+  "chef:chef_leader": {
+    early: "Le chef de l’équipe répartit les tâches entre les ouvriers.", englishChoices: ["leader", "visitor", "trainee", "rival"],
+    intermediate: "Tous les ouvriers attendent les instructions de leur _____ d’équipe.", frenchChoices: ["chef", "client", "stagiaire", "voisin"],
+    advanced: "Le chef de l’atelier décide de l’ordre des travaux. Les ouvriers préparent les outils, un client attend son vélo et la secrétaire répond au téléphone.",
+    prompt: "Quel mot désigne la personne qui dirige l’atelier ?", advancedChoices: ["chef", "ouvriers", "client", "secrétaire"],
+  },
+  "chefs:chef_count": {
+    early: "L’acte d’accusation énumère trois chefs distincts, dont le vol et la fraude.", englishChoices: ["counts", "leaders", "witnesses", "verdicts"],
+    intermediate: "Le procureur présente deux _____ d’accusation : le faux et le vol.", frenchChoices: ["chefs", "chefs-lieux", "chevaux", "chemins"],
+    advanced: "Les chefs d’accusation retenus contre Paul sont le vol et la fraude. Le juge lit chaque point du dossier ; le témoin attend dans le couloir.",
+    prompt: "Quel mot désigne les points distincts de l’accusation ?", advancedChoices: ["chefs", "dossier", "témoin", "couloir"],
+  },
+  "chefs:chef_leader": {
+    early: "Les chefs des deux équipes décident ensemble de l’horaire des travaux.", englishChoices: ["leaders", "witnesses", "clients", "trainees"],
+    intermediate: "Chaque groupe a un responsable ; les deux _____ se réunissent pour répartir les tâches.", frenchChoices: ["chefs", "clients", "élèves", "invités"],
+    advanced: "Les chefs des équipes décident de la marche à suivre. Les ouvriers vérifient les machines, les clients arrivent et les stagiaires prennent des notes.",
+    prompt: "Quel mot désigne les personnes qui dirigent les équipes ?", advancedChoices: ["chefs", "ouvriers", "clients", "stagiaires"],
+  },
+  "cher:cher_expensive": {
+    early: "Ce billet coûte cher ; nous attendrons une réduction.", englishChoices: ["expensive", "free", "cheap", "broken"],
+    intermediate: "Le billet coûte cent euros pour dix minutes de trajet : c’est trop _____ pour nous.", frenchChoices: ["cher", "gratuit", "abordable", "bon marché"],
+    advanced: "Le nouveau vélo revient cher à Paul : son prix dépasse son budget. Le casque est léger, la sonnette est rouge et le cadenas est solide.",
+    prompt: "Quel mot indique que le vélo coûte beaucoup d’argent ?", advancedChoices: ["cher", "léger", "rouge", "solide"],
+  },
+  "cherchait:chercher_seek": {
+    early: "Hier, Léa cherchait ses clés sous les coussins du canapé.", englishChoices: ["was looking for", "was hiding", "was selling", "was breaking"],
+    intermediate: "Elle avait perdu son chien et le _____ dans toutes les rues du quartier.", frenchChoices: ["cherchait", "cachait", "vendait", "blessait"],
+    advanced: "Paul cherchait son carnet dans la bibliothèque, car il ne le trouvait plus. Nina rangeait les journaux, Marc nettoyait la table et Léa lisait une revue.",
+    prompt: "Quel mot indique que Paul tentait de retrouver son carnet ?", advancedChoices: ["cherchait", "rangeait", "nettoyait", "lisait"],
+  },
+  "cherche:chercher_seek": {
+    early: "Luc cherche son écharpe partout avant de sortir.", englishChoices: ["looks for", "hides", "throws away", "sells"],
+    intermediate: "Nina a perdu son billet ; elle le _____ dans son sac.", frenchChoices: ["cherche", "cache", "déchire", "jette"],
+    advanced: "Nina cherche son cahier perdu dans la classe. Paul nettoie le tableau, Léa ouvre la fenêtre et Marc range les chaises.",
+    prompt: "Quel mot indique que Nina essaie de retrouver son cahier ?", advancedChoices: ["cherche", "nettoie", "ouvre", "range"],
+  },
+  "cherchent:chercher_seek": {
+    early: "Les enfants cherchent leur ballon perdu derrière l’école.", englishChoices: ["look for", "hide", "sell", "throw away"],
+    intermediate: "Ils ont perdu leur chat et le _____ depuis ce matin dans le jardin.", frenchChoices: ["cherchent", "cachent", "vendent", "oublient"],
+    advanced: "Les voisins cherchent leur chat disparu dans tout l’immeuble. Les enfants dessinent une affiche, le gardien ouvre la cave et Nina téléphone au vétérinaire.",
+    prompt: "Quel mot indique que les voisins tentent de retrouver leur chat ?", advancedChoices: ["cherchent", "dessinent", "ouvre", "téléphone"],
+  },
+  "chez:chez_at_home": {
+    early: "Ce soir, nous dînerons chez notre tante dans son appartement.", englishChoices: ["at the home of", "beneath", "despite", "across"],
+    intermediate: "Luc rend visite à Marie et passe l’après-midi _____ elle.", frenchChoices: ["chez", "sous", "malgré", "entre"],
+    advanced: "Nina passe la soirée chez sa grand-mère, dans sa maison près du parc. Paul reste au bureau, tandis que Léa se promène dans la rue.",
+    prompt: "Quel mot indique que Nina se trouve au domicile de sa grand-mère ?", advancedChoices: ["chez", "près", "dans", "tandis"],
+  },
+  "choix:choix_choice": {
+    early: "Entre le train et le bus, leur choix se porte sur le train.", englishChoices: ["choice", "delay", "mistake", "argument"],
+    intermediate: "Il hésite entre deux cours avant de faire son _____ pour la rentrée.", frenchChoices: ["choix", "retard", "erreur", "conflit"],
+    advanced: "Nina a le choix entre partir aujourd’hui et attendre demain ; elle décide de partir. Luc prépare son sac, Paul achète les billets et Marie réserve un taxi.",
+    prompt: "Quel mot désigne la possibilité de sélectionner entre deux options ?", advancedChoices: ["choix", "sac", "billets", "taxi"],
+  },
+  "choses:chose_thing": {
+    early: "Léa a oublié plusieurs choses dans la voiture : son livre, ses gants et son sac.", englishChoices: ["things", "people", "places", "dates"],
+    intermediate: "Range toutes tes _____ avant de fermer la valise : tes livres et tes vêtements aussi.", frenchChoices: ["choses", "personnes", "heures", "lieux"],
+    advanced: "Paul pose ses choses sur la table : un cahier, des clés et une bouteille. Sa sœur choisit le cahier, tandis que son père prend la bouteille.",
+    prompt: "Quel mot regroupe les objets que Paul a posés sur la table ?", advancedChoices: ["choses", "cahier", "clés", "bouteille"],
+  },
+  "chronique:chronique_account": {
+    early: "Dans sa chronique, l’historienne raconte les événements du village année après année.", englishChoices: ["chronicle", "forecast", "map", "contract"],
+    intermediate: "L’auteur raconte les événements de chaque année dans l’ordre : il rédige une _____.", frenchChoices: ["chronique", "carte", "promesse", "prévision"],
+    advanced: "La chronique du village raconte les inondations de 1890, puis la construction du pont en 1895. Une carte montre les rues, et un contrat précise le coût des travaux.",
+    prompt: "Quel mot désigne le récit ordonné des événements du village ?", advancedChoices: ["chronique", "carte", "contrat", "pont"],
+  },
+  "chuchote:chuchoter_whisper": {
+    early: "Dans la bibliothèque, Marie chuchote pour ne pas déranger les lecteurs.", englishChoices: ["whispers", "shouts", "sings", "laughs"],
+    intermediate: "Pour ne réveiller personne, Luc _____ quelques mots à l’oreille de Nina.", frenchChoices: ["chuchote", "crie", "chante", "siffle"],
+    advanced: "Léa chuchote son secret à Paul pour que personne d’autre ne l’entende. Nina lit un livre, Marc ferme la porte et Luc regarde l’horloge.",
+    prompt: "Quel mot indique que Léa parle à voix très basse ?", advancedChoices: ["chuchote", "lit", "ferme", "regarde"],
+  },
+  "civile:civil_nonmilitary": {
+    early: "L’administration civile traite les demandes des habitants, et non celles de l’armée.", englishChoices: ["civilian", "military", "foreign", "secret"],
+    intermediate: "La gestion _____ relève des citoyens et non des forces armées.", frenchChoices: ["civile", "militaire", "navale", "martiale"],
+    advanced: "Une autorité civile organise les services de la ville, alors que l’armée dirige les opérations militaires. Les habitants déposent leurs demandes à la mairie.",
+    prompt: "Quel mot qualifie l’autorité qui ne relève pas de l’armée ?", advancedChoices: ["civile", "militaires", "habitants", "mairie"],
+  },
+};

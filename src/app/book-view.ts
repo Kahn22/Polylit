@@ -1,0 +1,7 @@
+import type { BookPage } from "../delivery/types.js";
+import type { ViewMetadata } from "./view-types.js";
+import { escapeHtml } from "./html.js";
+export function bookMarkup({ navigation, origin, metadata, bookPageIndex, pageCount, page }: { navigation: string; origin: string; metadata: ViewMetadata; bookPageIndex: number; pageCount: number; page: BookPage }): string {
+  const units = page.units, workId = metadata.work.id;
+  return `${navigation}<div class="book-page"><div class="book-toolbar"><button class="back" type="button" data-route="#/library">← Your library</button><button class="secondary" type="button" data-action="enter-learning" data-work-id="${escapeHtml(workId)}">Switch to Learning View</button></div><header class="book-header"><p class="eyebrow">Book View · ${escapeHtml(metadata.author.name)} · ${escapeHtml(origin)}</p><h1>${escapeHtml(metadata.work.title)}</h1><p>No underlining, quizzes, or vocabulary tracking in Book View.</p></header><main class="book-text" lang="${metadata.collection.language}">${units.map((unit) => `<p>${escapeHtml(unit.text)}</p>`).join("")}</main><footer class="book-pagination"><button class="secondary" type="button" data-action="previous-book-page" ${bookPageIndex === 0 ? "disabled" : ""}>← Previous pages</button><span>Part ${bookPageIndex + 1} of ${pageCount}</span><button class="primary" type="button" data-action="next-book-page" ${bookPageIndex + 1 >= pageCount ? "disabled" : ""}>Continue reading →</button></footer></div>`;
+}

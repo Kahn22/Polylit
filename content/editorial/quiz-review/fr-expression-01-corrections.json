@@ -1,0 +1,760 @@
+{
+  "id": "fr-2026-09-19-80",
+  "language": "fr",
+  "snapshot": "fr-exact-audit-01.json",
+  "entries": [
+    {
+      "id": "exq_cigale_fourmi_tout_l_ete_ba43040897_early",
+      "patch": {
+        "contextFrench": "Elle travaille dans ce café tout l’été, de juin à la fin des vacances.",
+        "correctAnswer": "all summer",
+        "choicesEnglish": [
+          "all summer",
+          "one evening",
+          "every winter",
+          "only at dawn"
+        ],
+        "targetText": "tout l’été"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_tout_l_ete_ba43040897_intermediate",
+      "patch": {
+        "contextFrench": "De juin jusqu’à la fin des vacances, sans interruption, il reste au bord de la mer _____.",
+        "correctAnswer": "tout l’été",
+        "choicesFrench": [
+          "une seule nuit",
+          "un bref instant",
+          "un seul matin",
+          "tout l’été"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_tout_l_ete_ba43040897_advanced",
+      "patch": {
+        "contextFrench": "Elle passe tout l’été au village ; en septembre, elle retourne à la ville pour ses études.",
+        "correctAnswer": "tout l’été",
+        "choicesFrench": [
+          "au village",
+          "à la ville",
+          "tout l’été",
+          "en septembre"
+        ],
+        "promptFrench": "Quelle expression indique la durée complète de la saison ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_a_tout_venant_50dd93c807_early",
+      "patch": {
+        "contextFrench": "Il raconte son histoire à tout venant, même aux passants qu’il ne connaît pas.",
+        "correctAnswer": "to anyone who comes along",
+        "choicesEnglish": [
+          "only to his family",
+          "to nobody",
+          "only to close friends",
+          "to anyone who comes along"
+        ],
+        "targetText": "à tout venant"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_a_tout_venant_50dd93c807_intermediate",
+      "patch": {
+        "contextFrench": "Il offre de l’eau _____, sans réserver son accueil à une personne particulière.",
+        "correctAnswer": "à tout venant",
+        "choicesFrench": [
+          "à son frère seul",
+          "à son père seul",
+          "à tout venant",
+          "à sa sœur seule"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_a_tout_venant_50dd93c807_advanced",
+      "patch": {
+        "contextFrench": "Elle parle à tout venant sur la place, sans demander le nom des passants ni leur origine.",
+        "correctAnswer": "à tout venant",
+        "choicesFrench": [
+          "leur origine",
+          "à tout venant",
+          "sur la place",
+          "le nom"
+        ],
+        "promptFrench": "Quelle expression indique qu’elle s’adresse à toute personne qui se présente ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_early",
+      "patch": {
+        "contextFrench": "Il le renvoya sans autre forme de procès, sans même écouter ses explications.",
+        "correctAnswer": "without further ado",
+        "choicesEnglish": [
+          "with great care",
+          "after an investigation",
+          "without further ado",
+          "after a long discussion"
+        ],
+        "targetText": "sans autre forme de procès"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_intermediate",
+      "patch": {
+        "contextFrench": "Sans discussion ni procédure supplémentaire, le maître le congédia _____.",
+        "correctAnswer": "sans autre forme de procès",
+        "choicesFrench": [
+          "après plusieurs audiences",
+          "sans autre forme de procès",
+          "après un long débat",
+          "au terme d’une enquête"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_advanced",
+      "patch": {
+        "contextFrench": "Sans autre forme de procès, il chassa l’intrus de la maison ; le voisin protesta à voix haute.",
+        "correctAnswer": "Sans autre forme de procès",
+        "choicesFrench": [
+          "Sans autre forme de procès",
+          "de la maison",
+          "le voisin",
+          "à voix haute"
+        ],
+        "promptFrench": "Quelle expression souligne l’absence de discussion ou de formalités ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_juste_5d7dcba51c_early",
+      "patch": {
+        "contextFrench": "Combien coûte cette réparation au juste ? J’ai besoin du montant exact.",
+        "correctAnswer": "exactly",
+        "choicesEnglish": [
+          "occasionally",
+          "exactly",
+          "roughly",
+          "usually"
+        ],
+        "targetText": "au juste"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_juste_5d7dcba51c_intermediate",
+      "patch": {
+        "contextFrench": "Quel est le prix _____ ? Je voudrais la somme exacte, pas une estimation.",
+        "correctAnswer": "au juste",
+        "choicesFrench": [
+          "au juste",
+          "en gros",
+          "approximativement",
+          "à peu près"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_au_juste_5d7dcba51c_advanced",
+      "patch": {
+        "contextFrench": "Que s’est-il passé au juste pendant mon absence ? demanda la directrice à son retour.",
+        "correctAnswer": "au juste",
+        "choicesFrench": [
+          "pendant mon absence",
+          "la directrice",
+          "à son retour",
+          "au juste"
+        ],
+        "promptFrench": "Quelle expression demande une information précise ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_ainsi_que_early",
+      "patch": {},
+      "reason": "Existing early and advanced questions read and retained; middle explicitly requests conformity with reported statement."
+    },
+    {
+      "id": "exq_ainsi_que_intermediate",
+      "patch": {
+        "contextFrench": "Le pont est fermé, exactement comme annoncé : _____ le précise la radio, il faut passer ailleurs.",
+        "correctAnswer": "ainsi que",
+        "choicesFrench": [
+          "parce que",
+          "bien que",
+          "jusqu’à ce que",
+          "ainsi que"
+        ]
+      },
+      "reason": "Existing early and advanced questions read and retained; middle explicitly requests conformity with reported statement."
+    },
+    {
+      "id": "exq_ainsi_que_advanced",
+      "patch": {},
+      "reason": "Existing early and advanced questions read and retained; middle explicitly requests conformity with reported statement."
+    },
+    {
+      "id": "exq_au_point_de_early",
+      "patch": {},
+      "reason": "All three existing contexts correctly distinguish degree causing a consequence from hope, fear and intention."
+    },
+    {
+      "id": "exq_au_point_de_intermediate",
+      "patch": {},
+      "reason": "All three existing contexts correctly distinguish degree causing a consequence from hope, fear and intention."
+    },
+    {
+      "id": "exq_au_point_de_advanced",
+      "patch": {},
+      "reason": "All three existing contexts correctly distinguish degree causing a consequence from hope, fear and intention."
+    },
+    {
+      "id": "exq_loup_agneau_tout_a_l_heure_56956d49b5_early",
+      "patch": {
+        "contextFrench": "Je reviendrai tout à l’heure, dans quelques minutes seulement.",
+        "correctAnswer": "shortly",
+        "choicesEnglish": [
+          "every morning",
+          "once a month",
+          "shortly",
+          "next year"
+        ],
+        "targetText": "tout à l’heure"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_tout_a_l_heure_56956d49b5_intermediate",
+      "patch": {
+        "contextFrench": "Je te retrouverai _____, dans quelques minutes, sans attendre demain.",
+        "correctAnswer": "tout à l’heure",
+        "choicesFrench": [
+          "dans un mois",
+          "tout à l’heure",
+          "la semaine prochaine",
+          "l’an prochain"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_tout_a_l_heure_56956d49b5_advanced",
+      "patch": {
+        "contextFrench": "Il part maintenant mais reviendra tout à l’heure ; demain, il prendra la route pour plusieurs jours.",
+        "correctAnswer": "tout à l’heure",
+        "choicesFrench": [
+          "tout à l’heure",
+          "maintenant",
+          "demain",
+          "pour plusieurs jours"
+        ],
+        "promptFrench": "Quelle expression situe son retour dans un avenir très proche ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_de_sorte_qu_487e71ecc1_early",
+      "patch": {
+        "contextFrench": "La route était barrée, de sorte qu’il dut faire un détour.",
+        "correctAnswer": "with the result that",
+        "choicesEnglish": [
+          "because",
+          "with the result that",
+          "although",
+          "while"
+        ],
+        "targetText": "de sorte qu’"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_de_sorte_qu_487e71ecc1_intermediate",
+      "patch": {
+        "contextFrench": "La clé s’est cassée dans la serrure, _____il est impossible d’ouvrir la porte : c’en est la conséquence.",
+        "correctAnswer": "de sorte qu’",
+        "choicesFrench": [
+          "de sorte qu’",
+          "bien qu’",
+          "tandis qu’",
+          "parce qu’"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_de_sorte_qu_487e71ecc1_advanced",
+      "patch": {
+        "contextFrench": "Le pont a fermé, de sorte qu’il faut passer par le village pour rejoindre la gare.",
+        "correctAnswer": "de sorte qu’",
+        "choicesFrench": [
+          "par le village",
+          "la gare",
+          "le pont",
+          "de sorte qu’"
+        ],
+        "promptFrench": "Quelle expression introduit la conséquence de la fermeture ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_tout_au_plus_early",
+      "patch": {},
+      "reason": "Maximum versus minimum, exact quantity and greater quantity; all three bands individually read and valid."
+    },
+    {
+      "id": "exq_tout_au_plus_intermediate",
+      "patch": {},
+      "reason": "Maximum versus minimum, exact quantity and greater quantity; all three bands individually read and valid."
+    },
+    {
+      "id": "exq_tout_au_plus_advanced",
+      "patch": {},
+      "reason": "Maximum versus minimum, exact quantity and greater quantity; all three bands individually read and valid."
+    },
+    {
+      "id": "exq_loup_agneau_la_dessus_65898e9f44_early",
+      "patch": {
+        "contextFrench": "Il annonça que la réunion était terminée et, là-dessus, quitta la salle.",
+        "correctAnswer": "thereupon",
+        "choicesEnglish": [
+          "beforehand",
+          "occasionally",
+          "reluctantly",
+          "thereupon"
+        ],
+        "targetText": "là-dessus"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_la_dessus_65898e9f44_intermediate",
+      "patch": {
+        "contextFrench": "Il déclara que la discussion était close ; _____, il se leva et partit immédiatement.",
+        "correctAnswer": "là-dessus",
+        "choicesFrench": [
+          "le mois précédent",
+          "l’année dernière",
+          "là-dessus",
+          "la veille"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_la_dessus_65898e9f44_advanced",
+      "patch": {
+        "contextFrench": "Elle lui souhaita bonne chance ; là-dessus, il prit son sac et s’en alla sans attendre.",
+        "correctAnswer": "là-dessus",
+        "choicesFrench": [
+          "sans attendre",
+          "là-dessus",
+          "bonne chance",
+          "son sac"
+        ],
+        "promptFrench": "Quelle expression relie le départ à ce qui vient immédiatement d’être dit ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_tout_en_early",
+      "patch": {},
+      "reason": "Simultaneous action marked by tout en plus participle; all three existing contexts accurate."
+    },
+    {
+      "id": "exq_parure_tout_en_intermediate",
+      "patch": {},
+      "reason": "Simultaneous action marked by tout en plus participle; all three existing contexts accurate."
+    },
+    {
+      "id": "exq_parure_tout_en_advanced",
+      "patch": {},
+      "reason": "Simultaneous action marked by tout en plus participle; all three existing contexts accurate."
+    },
+    {
+      "id": "exq_parure_par_consequent_40a447f3d5_early",
+      "patch": {
+        "contextFrench": "Le train est annulé ; par conséquent, nous devons prendre le bus.",
+        "correctAnswer": "therefore",
+        "choicesEnglish": [
+          "previously",
+          "therefore",
+          "nevertheless",
+          "meanwhile"
+        ],
+        "targetText": "par conséquent"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_par_consequent_40a447f3d5_intermediate",
+      "patch": {
+        "contextFrench": "Il a perdu la clé ; _____, il ne peut plus ouvrir la porte : c’est le résultat de cette perte.",
+        "correctAnswer": "par conséquent",
+        "choicesFrench": [
+          "par conséquent",
+          "au contraire",
+          "pourtant",
+          "néanmoins"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_par_consequent_40a447f3d5_advanced",
+      "patch": {
+        "contextFrench": "Il pleut beaucoup ; par conséquent, la rivière déborde et les habitants quittent les maisons près de l’eau.",
+        "correctAnswer": "par conséquent",
+        "choicesFrench": [
+          "beaucoup",
+          "les habitants",
+          "près de l’eau",
+          "par conséquent"
+        ],
+        "promptFrench": "Quelle expression annonce la conséquence de la pluie ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_a_l_etourdie_e856010e0a_early",
+      "patch": {
+        "contextFrench": "Il traversa la route à l’étourdie, sans regarder si une voiture arrivait.",
+        "correctAnswer": "heedlessly",
+        "choicesEnglish": [
+          "heedlessly",
+          "carefully",
+          "deliberately",
+          "cautiously"
+        ],
+        "targetText": "à l’étourdie"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_a_l_etourdie_e856010e0a_intermediate",
+      "patch": {
+        "contextFrench": "Sans réfléchir ni regarder le danger, il s’engagea _____ sur le chemin.",
+        "correctAnswer": "à l’étourdie",
+        "choicesFrench": [
+          "avec prudence",
+          "après mûre réflexion",
+          "avec précaution",
+          "à l’étourdie"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_a_l_etourdie_e856010e0a_advanced",
+      "patch": {
+        "contextFrench": "À l’étourdie, le jeune rat entra dans le piège ; son ami, plus prudent, resta à distance.",
+        "correctAnswer": "À l’étourdie",
+        "choicesFrench": [
+          "plus prudent",
+          "à distance",
+          "À l’étourdie",
+          "dans le piège"
+        ],
+        "promptFrench": "Quelle expression indique une conduite irréfléchie ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_a_jeun_3ba446c799_early",
+      "patch": {
+        "contextFrench": "Il est encore à jeun : il n’a rien mangé depuis son réveil.",
+        "correctAnswer": "on an empty stomach",
+        "choicesEnglish": [
+          "fully satisfied",
+          "asleep",
+          "out of breath",
+          "on an empty stomach"
+        ],
+        "targetText": "à jeun"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_a_jeun_3ba446c799_intermediate",
+      "patch": {
+        "contextFrench": "Elle n’a rien mangé aujourd’hui et n’a pas encore pris son petit déjeuner : elle est _____.",
+        "correctAnswer": "à jeun",
+        "choicesFrench": [
+          "repue",
+          "gavée",
+          "à jeun",
+          "bien rassasiée"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_loup_agneau_a_jeun_3ba446c799_advanced",
+      "patch": {
+        "contextFrench": "Parti à jeun, il chercha bientôt du pain dans son sac, mais ne trouva que des livres.",
+        "correctAnswer": "à jeun",
+        "choicesFrench": [
+          "des livres",
+          "à jeun",
+          "du pain",
+          "dans son sac"
+        ],
+        "promptFrench": "Quelle expression indique qu’il n’avait pas mangé ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_a_cause_de_3ae5baee14_early",
+      "patch": {
+        "contextFrench": "La fête fut annulée à cause de la pluie qui inondait le jardin.",
+        "correctAnswer": "because of",
+        "choicesEnglish": [
+          "before",
+          "after",
+          "because of",
+          "despite"
+        ],
+        "targetText": "à cause de"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_a_cause_de_3ae5baee14_intermediate",
+      "patch": {
+        "contextFrench": "La pluie a provoqué l’annulation : la fête a été supprimée _____ cet orage.",
+        "correctAnswer": "à cause de",
+        "choicesFrench": [
+          "après",
+          "à cause de",
+          "malgré",
+          "avant"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_a_cause_de_3ae5baee14_advanced",
+      "patch": {
+        "contextFrench": "Les routes sont fermées à cause de la neige ; les voyageurs attendent près de la gare depuis ce matin.",
+        "correctAnswer": "à cause de",
+        "choicesFrench": [
+          "à cause de",
+          "près de la gare",
+          "depuis ce matin",
+          "les voyageurs"
+        ],
+        "promptFrench": "Quelle expression introduit la cause de la fermeture ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_en_meme_tems_bf19c49139_early",
+      "patch": {
+        "contextFrench": "Les deux horloges sonnèrent en même tems, sans le moindre décalage.",
+        "correctAnswer": "at the same time",
+        "choicesEnglish": [
+          "hours apart",
+          "at the same time",
+          "one after another",
+          "on different days"
+        ],
+        "targetText": "en même tems"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_en_meme_tems_bf19c49139_intermediate",
+      "patch": {
+        "contextFrench": "Les deux portes s’ouvrirent _____, exactement au même instant, dit le vieux récit.",
+        "correctAnswer": "en même tems",
+        "choicesFrench": [
+          "en même tems",
+          "l’une après l’autre",
+          "à deux jours d’intervalle",
+          "à une heure d’écart"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cendrillon_en_meme_tems_bf19c49139_advanced",
+      "patch": {
+        "contextFrench": "Elle frappa de sa baguette et, en même tems, les habits changèrent sous les yeux de la jeune fille.",
+        "correctAnswer": "en même tems",
+        "choicesFrench": [
+          "de sa baguette",
+          "les habits",
+          "sous les yeux",
+          "en même tems"
+        ],
+        "promptFrench": "Quelle expression ancienne indique la simultanéité ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_ne_vous_deplaise_2bd398b2c8_early",
+      "patch": {
+        "contextFrench": "Je maintiens mon avis, ne vous déplaise, répondit-il avec politesse.",
+        "correctAnswer": "if you please",
+        "choicesEnglish": [
+          "if you please",
+          "for that reason",
+          "once again",
+          "in a hurry"
+        ],
+        "targetText": "ne vous déplaise"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_ne_vous_deplaise_2bd398b2c8_intermediate",
+      "patch": {
+        "contextFrench": "Je vous prie de ne pas vous en offenser : je garde mon opinion, _____.",
+        "correctAnswer": "ne vous déplaise",
+        "choicesFrench": [
+          "quoi qu’il arrive",
+          "coûte que coûte",
+          "bon gré mal gré",
+          "ne vous déplaise"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_cigale_fourmi_ne_vous_deplaise_2bd398b2c8_advanced",
+      "patch": {
+        "contextFrench": "J’ai travaillé toute la journée, ne vous déplaise, répondit-elle pour adoucir son affirmation.",
+        "correctAnswer": "ne vous déplaise",
+        "choicesFrench": [
+          "son affirmation",
+          "pour adoucir",
+          "ne vous déplaise",
+          "toute la journée"
+        ],
+        "promptFrench": "Quelle formule ancienne marque ici une politesse envers son interlocuteur ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_tout_a_coup_cf94b2f6b5_early",
+      "patch": {
+        "contextFrench": "Tout à coup, un bruit violent rompit le silence.",
+        "correctAnswer": "suddenly",
+        "choicesEnglish": [
+          "gradually",
+          "usually",
+          "slowly",
+          "suddenly"
+        ],
+        "targetText": "tout à coup"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_tout_a_coup_cf94b2f6b5_intermediate",
+      "patch": {
+        "contextFrench": "Sans aucun signe annonciateur, la lumière s’éteignit _____, en une fraction de seconde.",
+        "correctAnswer": "tout à coup",
+        "choicesFrench": [
+          "progressivement",
+          "lentement",
+          "tout à coup",
+          "peu à peu"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_parure_tout_a_coup_cf94b2f6b5_advanced",
+      "patch": {
+        "contextFrench": "Tout à coup, le vent se leva ; les feuilles volèrent dans la cour et les voisins fermèrent leurs fenêtres.",
+        "correctAnswer": "Tout à coup",
+        "choicesFrench": [
+          "leurs fenêtres",
+          "Tout à coup",
+          "le vent",
+          "dans la cour"
+        ],
+        "promptFrench": "Quelle expression marque un changement brusque et inattendu ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_de_sorte_que_early",
+      "patch": {},
+      "reason": "Early and advanced causal-consequence examples accurate; middle consequence explicitly disambiguated."
+    },
+    {
+      "id": "exq_de_sorte_que_intermediate",
+      "patch": {
+        "contextFrench": "Il a oublié sa clé ; _____ il est resté dehors : cette attente est la conséquence de son oubli.",
+        "correctAnswer": "de sorte que",
+        "choicesFrench": [
+          "tandis que",
+          "de sorte que",
+          "bien que",
+          "parce que"
+        ]
+      },
+      "reason": "Early and advanced causal-consequence examples accurate; middle consequence explicitly disambiguated."
+    },
+    {
+      "id": "exq_de_sorte_que_advanced",
+      "patch": {},
+      "reason": "Early and advanced causal-consequence examples accurate; middle consequence explicitly disambiguated."
+    },
+    {
+      "id": "exq_lion_rat_tout_le_monde_35b35f38b6_early",
+      "patch": {
+        "contextFrench": "Tout le monde est invité : aucun habitant du village n’est exclu.",
+        "correctAnswer": "everyone",
+        "choicesEnglish": [
+          "only one person",
+          "everyone",
+          "nobody",
+          "someone"
+        ],
+        "targetText": "tout le monde"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_tout_le_monde_35b35f38b6_intermediate",
+      "patch": {
+        "contextFrench": "Dans ce village, _____ est invité : pas un seul habitant n’est exclu.",
+        "correctAnswer": "tout le monde",
+        "choicesFrench": [
+          "tout le monde",
+          "un seul voisin",
+          "le maire seul",
+          "le facteur seul"
+        ]
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    },
+    {
+      "id": "exq_lion_rat_tout_le_monde_35b35f38b6_advanced",
+      "patch": {
+        "contextFrench": "Tout le monde entra dans la salle ; personne ne resta dehors, et la fête put commencer.",
+        "correctAnswer": "Tout le monde",
+        "choicesFrench": [
+          "dans la salle",
+          "personne",
+          "la fête",
+          "Tout le monde"
+        ],
+        "promptFrench": "Quelle expression désigne toutes les personnes présentes sans exception ?"
+      },
+      "reason": "Natural contextual use replaces metalinguistic placeholder. Each band read; middle has one intended answer and grammatical alternatives; advanced choices occur in passage."
+    }
+  ]
+}

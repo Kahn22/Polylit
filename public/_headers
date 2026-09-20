@@ -1,0 +1,16 @@
+# Applied by static hosts that support _headers; no public/shared caching of
+# account-specific responses. Versioned payloads are safe in private caches.
+/assets/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/reading/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/books/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/quizzes/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/quiz-index/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/works/*
+  Cache-Control: private, max-age=31536000, immutable
+/content/library/*
+  Cache-Control: private, no-cache

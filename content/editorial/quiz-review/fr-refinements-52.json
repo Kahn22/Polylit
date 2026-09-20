@@ -1,0 +1,144 @@
+{
+  "id": "fr-2026-09-19-52",
+  "entries": [
+    {
+      "band": "levels_4_5",
+      "expectedContext": "Il est parfois difficile de rester fidèle à _____-même.",
+      "patch": {
+        "contextFrench": "On doit pouvoir compter sur _____-même, sans dépendre des autres.",
+        "choicesFrench": [
+          "soi",
+          "moi",
+          "toi",
+          "vous"
+        ],
+        "correctAnswer": "soi"
+      },
+      "reason": "Remove lui-même, which can be grammatical with the previous context; indefinite on and self-reliance identify soi."
+    },
+    {
+      "band": "levels_6_8",
+      "expectedContext": "Nina attend une réponse qui fasse que son cœur bondisse de bonheur en la lisant.",
+      "patch": {
+        "contextFrench": "Il suffit que Nina ouvre cette lettre pour que son cœur bondisse de bonheur.",
+        "choicesFrench": [
+          "bondisse",
+          "Nina",
+          "lettre",
+          "ouvre"
+        ],
+        "correctAnswer": "bondisse"
+      },
+      "reason": "Replace awkward qui fasse que with a natural emotional context; every choice occurs in passage."
+    },
+    {
+      "band": "levels_1_3",
+      "expectedContext": "Nous en sommes encore au début du projet.",
+      "patch": {
+        "choicesEnglish": [
+          "regarding the project’s progress",
+          "with him",
+          "without her",
+          "beside them"
+        ],
+        "correctAnswer": "regarding the project’s progress"
+      },
+      "reason": "Explain en reference naturally without misleading literal English in it."
+    },
+    {
+      "band": "levels_4_5",
+      "expectedContext": "Elle a échoué aujourd’hui ; elle n’en reste pas _____ décidée à réussir.",
+      "patch": {
+        "contextFrench": "Malgré cet échec, elle est toujours fermement résolue : elle n’en reste pas _____ décidée à réussir.",
+        "choicesFrench": [
+          "moins",
+          "assez",
+          "souvent",
+          "longtemps"
+        ],
+        "correctAnswer": "moins"
+      },
+      "reason": "Preserved determination supports concessive n’en reste pas moins; remove competing pas plus reading."
+    },
+    {
+      "band": "levels_1_3",
+      "expectedContext": "La cour a été saisie de cette affaire par les plaignants.",
+      "patch": {
+        "choicesEnglish": [
+          "formally asked to consider the case",
+          "closed",
+          "abolished",
+          "ignored"
+        ],
+        "correctAnswer": "formally asked to consider the case"
+      },
+      "reason": "Use grammatical English passive gloss for a court seised of a case."
+    },
+    {
+      "band": "levels_1_3",
+      "expectedContext": "Au dernier coup de l’horloge, les invités se lèvent.",
+      "patch": {
+        "choicesEnglish": [
+          "clock stroke",
+          "whisper",
+          "melody",
+          "silence"
+        ],
+        "correctAnswer": "clock stroke"
+      },
+      "reason": "Avoid wind gust, which can translate the expression coup de vent."
+    },
+    {
+      "band": "levels_4_5",
+      "expectedContext": "Dans cette métaphore, cette première intuition est l’_____ du projet, son germe encore fragile.",
+      "patch": {
+        "contextFrench": "Il protège ce premier croquis comme l’_____ de son invention : tout le mécanisme y est encore en germe."
+      },
+      "reason": "Replace explanatory metaphor template with a concrete figurative situation; retain agreement-safe singular noun choices."
+    },
+    {
+      "band": "levels_6_8",
+      "expectedContext": "Le peuple comprend tous les habitants de la nation, quelles que soient leurs professions.",
+      "patch": {
+        "contextFrench": "Le peuple se prononce lors du vote national ; chaque citoyen peut participer à cette décision commune.",
+        "choicesFrench": [
+          "peuple",
+          "vote",
+          "citoyen",
+          "décision"
+        ],
+        "correctAnswer": "peuple"
+      },
+      "reason": "Replace dictionary-definition context with collective participation in a natural civic situation."
+    },
+    {
+      "band": "levels_6_8",
+      "expectedContext": "Je ne saurais souffrir de telles insultes ; je refuse de les accepter en silence.",
+      "patch": {
+        "choicesFrench": [
+          "souffrir",
+          "insultes",
+          "refuse",
+          "silence"
+        ],
+        "correctAnswer": "souffrir"
+      },
+      "reason": "Remove accepter as a potentially synonymous answer to tolerate; remaining choices are in passage."
+    },
+    {
+      "band": "levels_4_5",
+      "expectedContext": "Le jardinier étiquette l’_____ comme une plante à fleurs traditionnellement appelée rose de Noël.",
+      "patch": {
+        "contextFrench": "Le botaniste cultive l’_____, une plante de la famille des Renonculacées.",
+        "choicesFrench": [
+          "ellébore",
+          "érable",
+          "if",
+          "ail"
+        ],
+        "correctAnswer": "ellébore"
+      },
+      "reason": "Use botanical family verified in Académie 8 ellébore rather than species-specific common name; all choices masculine singular with elision."
+    }
+  ]
+}

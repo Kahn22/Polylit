@@ -1,0 +1,11 @@
+import{readFileSync,existsSync}from'node:fs';import{resolve}from'node:path';
+import{loadPublication,publicationRoot,validatePublication}from'../dist/publication/repository.js';
+import{adoptSourceFiles,sharedSourceFiles,reconcileQuizzes}from'../dist/publication/source-store.js';
+import{fromNeutral,toNeutral}from'../dist/publication/format.js';import{legacyQuiz,quizEditorialIssues}from'../dist/publication/quiz-authoring.js';
+import{approveReview}from'../dist/publication/editorial.js';
+const plan=JSON.parse(readFileSync(process.argv[2],'utf8')),id=plan.id,path=`editorial-batches/${id}.json`;if(existsSync(resolve(publicationRoot,path)))throw Error('Already applied');if(plan.entries.length>100)throw Error('Checkpoint limit');
+const p=loadPublication(),s=p.sharedSources.fr,c=fromNeutral(s.legacy.content),changes=[];
+for(const row of plan.entries){const matches=s.quizzes.filter(q=>q.context===row.expectedContext&&q.band===row.band);if(matches.length!==1)throw Error('Ambiguous or stale question');const old=matches[0],before=legacyQuiz(old),after={...before,...row.patch};c.quizItems=c.quizItems.map(q=>q.id===old.id?after:q);changes.push({kind:'quizItems',id:old.id,before,after,reason:row.reason});}
+const next={...s,legacy:{...s.legacy,content:toNeutral(c)}};next.quizzes=reconcileQuizzes(s,next.legacy);next.reviews=[...s.reviews];
+for(const change of changes){const quiz=next.quizzes.find(q=>q.id===change.id);if(quizEditorialIssues(quiz).length)throw Error('Invalid quiz');const surface=p.bundle.surfaceForms.find(x=>x.id===quiz.subject.surfaceFormId),sense=p.bundle.senses.find(x=>x.id===quiz.subject.senseId),lemma=p.bundle.lemmas.find(x=>x.id===surface.lemmaId);next.reviews=next.reviews.filter(r=>r.id!==`quiz:${quiz.id}`);next.reviews.push(approveReview('fr','quiz',quiz.id,{quiz,target:{surface,sense,lemma}},'Codex offline contextual review',new Date().toISOString(),change.reason));}
+const files=sharedSourceFiles(next);files.set(path,{version:1,id,masteryIdsChanged:false,changes});adoptSourceFiles(publicationRoot,files,root=>{const x=loadPublication(root);validatePublication(x.bundle,x.expressionCatalog,x.registry);});console.log(JSON.stringify({batch:id,refinedQuestions:changes.length}));

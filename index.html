@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7f2e8" />
+    <meta name="description" content="Polylit helps learners read authentic French and Spanish literature with prepared vocabulary and quizzes." />
+    <title>Polylit</title>
+  </head>
+  <body>
+    <div id="app">
+      <main class="home">
+        <section class="home-intro">
+          <img class="home-logo" src="/src/assets/polylit-logo-display.png" alt="Polylit">
+          <p class="eyebrow">French library</p>
+          <h1>Read the language<br>in its literature.</h1>
+          <p class="lede">Authentic public-domain literature with prepared vocabulary practice and spaced review.</p>
+        </section>
+        <section class="auth-card" aria-labelledby="sign-in-title">
+          <p class="eyebrow">Learner account</p>
+          <h2 id="sign-in-title">Sign in</h2>
+          <form>
+            <label for="email">Email</label><input id="email" type="email" autocomplete="username" disabled>
+            <label for="password">Password</label><input id="password" type="password" autocomplete="current-password" minlength="15" disabled>
+            <button class="primary wide" type="submit" disabled>Sign in</button>
+          </form>
+          <p class="auth-note">Secure accounts will be connected after the hosting and authentication decision. No credentials are collected by this preview.</p>
+          <a class="secondary wide button-link" href="./languages/" data-action="start-demo">Preview learner account</a>
+          <div class="auth-links"><button type="button" disabled>Create account</button><button type="button" disabled>Forgot password?</button></div>
+        </section>
+      </main>
+    </div>
+    <script src="/landing-bootstrap.js"></script>
+    <script type="module" src="/src/app/entry.ts"></script>
+  </body>
+</html>

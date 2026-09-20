@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "id": "fr-2026-09-19-52",
+  "masteryIdsChanged": false,
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_soi_soi_self_intermediate",
+      "before": {
+        "id": "qiz_zola_soi_soi_self_intermediate",
+        "surfaceFormId": "srf_zola_soi_soi",
+        "senseId": "sns_zola_soi_self",
+        "contextFrench": "Il est parfois difficile de rester fidèle à _____-même.",
+        "correctAnswer": "soi",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "nous",
+          "soi",
+          "lui",
+          "eux"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_soi_soi_self_intermediate",
+        "surfaceFormId": "srf_zola_soi_soi",
+        "senseId": "sns_zola_soi_self",
+        "contextFrench": "On doit pouvoir compter sur _____-même, sans dépendre des autres.",
+        "correctAnswer": "soi",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "soi",
+          "moi",
+          "toi",
+          "vous"
+        ]
+      },
+      "reason": "Remove lui-même, which can be grammatical with the previous context; indefinite on and self-reliance identify soi."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bondisse_bondir_leap_advanced",
+      "before": {
+        "id": "qiz_zola_bondisse_bondir_leap_advanced",
+        "surfaceFormId": "srf_zola_bondisse_bondir",
+        "senseId": "sns_zola_bondir_leap",
+        "contextFrench": "Nina attend une réponse qui fasse que son cœur bondisse de bonheur en la lisant.",
+        "correctAnswer": "bondisse",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe exprime une réaction vive du cœur sous l’effet de l’émotion ?",
+        "choicesFrench": [
+          "bondisse",
+          "Nina",
+          "réponse",
+          "lisant"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_bondisse_bondir_leap_advanced",
+        "surfaceFormId": "srf_zola_bondisse_bondir",
+        "senseId": "sns_zola_bondir_leap",
+        "contextFrench": "Il suffit que Nina ouvre cette lettre pour que son cœur bondisse de bonheur.",
+        "correctAnswer": "bondisse",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe exprime une réaction vive du cœur sous l’effet de l’émotion ?",
+        "choicesFrench": [
+          "bondisse",
+          "Nina",
+          "lettre",
+          "ouvre"
+        ]
+      },
+      "reason": "Replace awkward qui fasse que with a natural emotional context; every choice occurs in passage."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_en_en_situation_early",
+      "before": {
+        "id": "qiz_zola_en_en_situation_early",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_zola_en_situation",
+        "contextFrench": "Nous en sommes encore au début du projet.",
+        "correctAnswer": "in it, referring to the project’s progress",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "en",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "in it, referring to the project’s progress",
+          "with him",
+          "without her",
+          "beside them"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_en_en_situation_early",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_zola_en_situation",
+        "contextFrench": "Nous en sommes encore au début du projet.",
+        "correctAnswer": "regarding the project’s progress",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "en",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "regarding the project’s progress",
+          "with him",
+          "without her",
+          "beside them"
+        ]
+      },
+      "reason": "Explain en reference naturally without misleading literal English in it."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_moins_moins_nevertheless_intermediate",
+      "before": {
+        "id": "qiz_zola_moins_moins_nevertheless_intermediate",
+        "surfaceFormId": "srf_zola_moins_moins_adverb",
+        "senseId": "sns_zola_moins_nevertheless",
+        "contextFrench": "Elle a échoué aujourd’hui ; elle n’en reste pas _____ décidée à réussir.",
+        "correctAnswer": "moins",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "plus",
+          "mieux",
+          "pire",
+          "moins"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_moins_moins_nevertheless_intermediate",
+        "surfaceFormId": "srf_zola_moins_moins_adverb",
+        "senseId": "sns_zola_moins_nevertheless",
+        "contextFrench": "Malgré cet échec, elle est toujours fermement résolue : elle n’en reste pas _____ décidée à réussir.",
+        "correctAnswer": "moins",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "moins",
+          "assez",
+          "souvent",
+          "longtemps"
+        ]
+      },
+      "reason": "Preserved determination supports concessive n’en reste pas moins; remove competing pas plus reading."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_saisie_saisir_referred_early",
+      "before": {
+        "id": "qiz_zola_saisie_saisir_referred_early",
+        "surfaceFormId": "srf_zola_saisie_saisir",
+        "senseId": "sns_zola_saisir_referred",
+        "contextFrench": "La cour a été saisie de cette affaire par les plaignants.",
+        "correctAnswer": "formally referred the case",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "saisie",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "abolished",
+          "ignored",
+          "formally referred the case",
+          "closed"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_saisie_saisir_referred_early",
+        "surfaceFormId": "srf_zola_saisie_saisir",
+        "senseId": "sns_zola_saisir_referred",
+        "contextFrench": "La cour a été saisie de cette affaire par les plaignants.",
+        "correctAnswer": "formally asked to consider the case",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "saisie",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "formally asked to consider the case",
+          "closed",
+          "abolished",
+          "ignored"
+        ]
+      },
+      "reason": "Use grammatical English passive gloss for a court seised of a case."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_1_3",
+      "before": {
+        "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_1_3",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke",
+        "contextFrench": "Au dernier coup de l’horloge, les invités se lèvent.",
+        "correctAnswer": "clock stroke",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "clock stroke",
+          "footstep",
+          "whisper",
+          "gust of wind"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_1_3",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke",
+        "contextFrench": "Au dernier coup de l’horloge, les invités se lèvent.",
+        "correctAnswer": "clock stroke",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "clock stroke",
+          "whisper",
+          "melody",
+          "silence"
+        ]
+      },
+      "reason": "Avoid wind gust, which can translate the expression coup de vent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_uf_2419fac0eceb_oeuf_origin_intermediate",
+      "before": {
+        "id": "qiz_zola_uf_2419fac0eceb_oeuf_origin_intermediate",
+        "surfaceFormId": "srf_zola_uf_2419fac0eceb_oeuf",
+        "senseId": "sns_zola_oeuf_origin",
+        "contextFrench": "Dans cette métaphore, cette première intuition est l’_____ du projet, son germe encore fragile.",
+        "correctAnswer": "œuf",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "obstacle",
+          "échec",
+          "œuf",
+          "aboutissement"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_uf_2419fac0eceb_oeuf_origin_intermediate",
+        "surfaceFormId": "srf_zola_uf_2419fac0eceb_oeuf",
+        "senseId": "sns_zola_oeuf_origin",
+        "contextFrench": "Il protège ce premier croquis comme l’_____ de son invention : tout le mécanisme y est encore en germe.",
+        "correctAnswer": "œuf",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "obstacle",
+          "échec",
+          "œuf",
+          "aboutissement"
+        ]
+      },
+      "reason": "Replace explanatory metaphor template with a concrete figurative situation; retain agreement-safe singular noun choices."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_peuple_peuple_population_advanced",
+      "before": {
+        "id": "qiz_zola_peuple_peuple_population_advanced",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "contextFrench": "Le peuple comprend tous les habitants de la nation, quelles que soient leurs professions.",
+        "correctAnswer": "peuple",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’ensemble de la population ?",
+        "choicesFrench": [
+          "peuple",
+          "habitants",
+          "nation",
+          "professions"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_peuple_peuple_population_advanced",
+        "surfaceFormId": "srf_zola_peuple_peuple",
+        "senseId": "sns_zola_peuple_population",
+        "contextFrench": "Le peuple se prononce lors du vote national ; chaque citoyen peut participer à cette décision commune.",
+        "correctAnswer": "peuple",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’ensemble de la population ?",
+        "choicesFrench": [
+          "peuple",
+          "vote",
+          "citoyen",
+          "décision"
+        ]
+      },
+      "reason": "Replace dictionary-definition context with collective participation in a natural civic situation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_souffrir_tolerate_fr_souffrir_souffrir_verb_levels_6_8",
+      "before": {
+        "id": "qiz_fr_souffrir_tolerate_fr_souffrir_souffrir_verb_levels_6_8",
+        "surfaceFormId": "srf_fr_souffrir_souffrir_verb",
+        "senseId": "sns_fr_souffrir_tolerate",
+        "contextFrench": "Je ne saurais souffrir de telles insultes ; je refuse de les accepter en silence.",
+        "correctAnswer": "souffrir",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel infinitif exprime le fait de tolérer ?",
+        "choicesFrench": [
+          "accepter",
+          "silence",
+          "souffrir",
+          "insultes"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_souffrir_tolerate_fr_souffrir_souffrir_verb_levels_6_8",
+        "surfaceFormId": "srf_fr_souffrir_souffrir_verb",
+        "senseId": "sns_fr_souffrir_tolerate",
+        "contextFrench": "Je ne saurais souffrir de telles insultes ; je refuse de les accepter en silence.",
+        "correctAnswer": "souffrir",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel infinitif exprime le fait de tolérer ?",
+        "choicesFrench": [
+          "souffrir",
+          "insultes",
+          "refuse",
+          "silence"
+        ]
+      },
+      "reason": "Remove accepter as a potentially synonymous answer to tolerate; remaining choices are in passage."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_ellebore_plant_intermediate",
+      "before": {
+        "id": "qiz_ellebore_plant_intermediate",
+        "surfaceFormId": "srf_ellebore",
+        "senseId": "sns_ellebore_primary",
+        "contextFrench": "Le jardinier étiquette l’_____ comme une plante à fleurs traditionnellement appelée rose de Noël.",
+        "correctAnswer": "ellébore",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "if",
+          "ellébore",
+          "érable",
+          "orge"
+        ]
+      },
+      "after": {
+        "id": "qiz_ellebore_plant_intermediate",
+        "surfaceFormId": "srf_ellebore",
+        "senseId": "sns_ellebore_primary",
+        "contextFrench": "Le botaniste cultive l’_____, une plante de la famille des Renonculacées.",
+        "correctAnswer": "ellébore",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "ellébore",
+          "érable",
+          "if",
+          "ail"
+        ]
+      },
+      "reason": "Use botanical family verified in Académie 8 ellébore rather than species-specific common name; all choices masculine singular with elision."
+    }
+  ]
+}

@@ -1,0 +1,2773 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-36",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T14:15:31.848Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_feu_feu:sns_zola_feu_battle",
+      "to": "srf_zola_feu_feu:sns_fr_feu_heating_fire",
+      "occurrenceIds": [
+        "occ_parure_a410e5699783a81945db8a5d"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_instruction_instruction_noun:sns_zola_instruction_investigation",
+      "to": "srf_zola_instruction_instruction_noun:sns_parure_instruction_education_5a99ae2c26",
+      "occurrenceIds": [
+        "occ_parure_7498c5e142478745507607fb"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_parure_usure_usure_noun_b79b92786e:sns_parure_usure_wear_91a2b7b197",
+      "to": "srf_parure_usure_usure_noun_b79b92786e:sns_fr_usure_excessive_interest",
+      "occurrenceIds": [
+        "occ_parure_2d6d4c55d560c19878859777"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_parure_sieges_siege_noun_108ac11803:sns_zola_siege_seat",
+      "to": "srf_parure_sieges_siege_noun_108ac11803:sns_fr_siege_furniture",
+      "occurrenceIds": [
+        "occ_parure_506cb1f77c00b41c9320b4ae"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_amis_ami_noun_4746fce08d:sns_parure_ami_friend_53b9cc66f8",
+      "to": "srf_parure_amis_ami_noun_4746fce08d:sns_fr_ami_friend",
+      "occurrenceIds": [
+        "occ_parure_31843fc7ace1a1d64cd85b89",
+        "occ_parure_e799da90cf1b06a336e854cc"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+      "to": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_fr_soiree_event",
+      "occurrenceIds": [
+        "occ_parure_46386964fa787d3efc077ed8",
+        "occ_parure_530e16292564263a32d7e886",
+        "occ_parure_9ac2788d0e8b206360f9ddff"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5:sns_parure_invitation_action_d_inviter_779faff4cf",
+      "to": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5:sns_fr_invitation_message",
+      "occurrenceIds": [
+        "occ_parure_3764dec87e8fe2bb46cadb1d"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_effort",
+      "occurrenceIds": [
+        "occ_parure_124e41a046ceae9472f4c2e6",
+        "occ_cendrillon_4d3cadc9447fdc8905979fcb"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_sorrow",
+      "occurrenceIds": [
+        "occ_parure_7088e4423c0cf483b8be02fc"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_worry",
+      "occurrenceIds": [
+        "occ_cendrillon_ecedfcc2a7339a4b39331c1b",
+        "occ_cendrillon_971d08e80e23bdfc42110945"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f:sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9",
+      "to": "srf_fr_folle_fou_adjective:sns_fr_fou_emotion_intense",
+      "occurrenceIds": [
+        "occ_parure_7b518fa215059e7af55a0d1d"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f:sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9",
+      "to": "srf_fr_folle_fou_adjective:sns_zola_fou_mad",
+      "occurrenceIds": [
+        "occ_cendrillon_21553530b7decffa70c20fa4"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_parure_sorte_espece_genre_02ec1aaeda",
+      "to": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_fr_sorte_manner_result",
+      "occurrenceIds": [
+        "occ_cendrillon_76164f192a27460dae4e593c"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec",
+      "to": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_face",
+      "occurrenceIds": [
+        "occ_parure_c9614a24677ae3ad180a1f01"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec",
+      "to": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_social_standing",
+      "occurrenceIds": [
+        "occ_cendrillon_b90e2aecad198926fb51a5f0"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f:sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715",
+      "to": "srf_fr_pareille_pareil_adjective:sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f",
+      "occurrenceIds": [
+        "occ_parure_5f4b83266733b890c508d286",
+        "occ_parure_255f7f9d6a2e68e4f83a0be2"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f:sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715",
+      "to": "srf_fr_pareille_pareil_noun:sns_fr_pareil_matching_item",
+      "occurrenceIds": [
+        "occ_cendrillon_a846528e13c5d44b125f9e92"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_feu_feu:sns_zola_feu_battle",
+      "to": "srf_zola_feu_feu:sns_zola_feu_battle",
+      "form": "feu",
+      "reason": "All source occurrences read. Retain Zola armed-combat meaning. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_feu_feu:sns_zola_feu_battle",
+      "to": "srf_zola_feu_feu:sns_fr_feu_heating_fire",
+      "form": "feu",
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_instruction_instruction_noun:sns_zola_instruction_investigation",
+      "to": "srf_zola_instruction_instruction_noun:sns_zola_instruction_investigation",
+      "form": "instruction",
+      "reason": "All source occurrences read. Retain source judicial investigation. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_instruction_instruction_noun:sns_zola_instruction_investigation",
+      "to": "srf_zola_instruction_instruction_noun:sns_parure_instruction_education_5a99ae2c26",
+      "form": "instruction",
+      "reason": "All source occurrences read. Reuse existing education sense for ministère de l’instruction publique. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_usure_usure_noun_b79b92786e:sns_parure_usure_wear_91a2b7b197",
+      "to": "srf_parure_usure_usure_noun_b79b92786e:sns_parure_usure_wear_91a2b7b197",
+      "form": "usure",
+      "reason": "All source occurrences read. Retain wear of furniture. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_usure_usure_noun_b79b92786e:sns_parure_usure_wear_91a2b7b197",
+      "to": "srf_parure_usure_usure_noun_b79b92786e:sns_fr_usure_excessive_interest",
+      "form": "usure",
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_sieges_siege_noun_108ac11803:sns_zola_siege_seat",
+      "to": "srf_parure_sieges_siege_noun_108ac11803:sns_fr_siege_furniture",
+      "form": "sièges",
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_amis_ami_noun_4746fce08d:sns_parure_ami_friend_53b9cc66f8",
+      "to": "srf_parure_amis_ami_noun_4746fce08d:sns_fr_ami_friend",
+      "form": "amis",
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+      "to": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+      "form": "soirée",
+      "reason": "All source occurrences read. Passer la soirée specifies an interval of time. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+      "to": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486:sns_fr_soiree_event",
+      "form": "soirée",
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5:sns_parure_invitation_action_d_inviter_779faff4cf",
+      "to": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5:sns_fr_invitation_message",
+      "form": "invitation",
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_effort",
+      "form": "peine",
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_sorrow",
+      "form": "peine",
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8",
+      "to": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7:sns_fr_peine_worry",
+      "form": "peine",
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f:sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9",
+      "to": "srf_fr_folle_fou_adjective:sns_fr_fou_emotion_intense",
+      "form": "folle",
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f:sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9",
+      "to": "srf_fr_folle_fou_adjective:sns_zola_fou_mad",
+      "form": "folle",
+      "reason": "All source occurrences read. Reuse irrational adjective sense for je fusse bien folle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_parure_sorte_espece_genre_02ec1aaeda",
+      "to": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_parure_sorte_espece_genre_02ec1aaeda",
+      "form": "sorte",
+      "reason": "All source occurrences read. Retain kind/type in une sorte de. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_parure_sorte_espece_genre_02ec1aaeda",
+      "to": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39:sns_fr_sorte_manner_result",
+      "form": "sorte",
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec",
+      "to": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_face",
+      "form": "figure",
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec",
+      "to": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_social_standing",
+      "form": "figure",
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f:sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715",
+      "to": "srf_fr_pareille_pareil_adjective:sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f",
+      "form": "pareille",
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f:sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715",
+      "to": "srf_fr_pareille_pareil_noun:sns_fr_pareil_matching_item",
+      "form": "pareille",
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_feu_feu_battle_early",
+      "before": {
+        "id": "qiz_zola_feu_feu_battle_early",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "contextFrench": "Les soldats avancent sous le feu de l’ennemi.",
+        "correctAnswer": "fire",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "feu",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "fire",
+          "shelter",
+          "command",
+          "silence"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_feu_feu_battle_early",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "band": "levels_1_3",
+        "contextFrench": "Les soldats montent au feu malgré leur peur du combat.",
+        "correctAnswer": "battle",
+        "format": "meaning_choice",
+        "targetText": "feu",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "battle",
+          "ceremony",
+          "training",
+          "shelter"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola armed-combat meaning. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_feu_feu_battle_intermediate",
+      "before": {
+        "id": "qiz_zola_feu_feu_battle_intermediate",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "contextFrench": "La compagnie recule devant le _____ nourri des défenseurs.",
+        "correctAnswer": "feu",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "feu",
+          "abri",
+          "commandement",
+          "silence"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_feu_feu_battle_intermediate",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "band": "levels_4_5",
+        "contextFrench": "Ces troupes vont au _____ pour affronter l’ennemi sur le champ de bataille.",
+        "correctAnswer": "feu",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "repos",
+          "bal",
+          "marché",
+          "feu"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola armed-combat meaning. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_feu_feu_battle_advanced",
+      "before": {
+        "id": "qiz_zola_feu_feu_battle_advanced",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "contextFrench": "Le feu de l’artillerie oblige les troupes à quitter leurs positions. Nina consulte la carte, Paul transmet l’ordre et Léa soigne un blessé.",
+        "correctAnswer": "feu",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne ici les tirs du combat ?",
+        "choicesFrench": [
+          "feu",
+          "artillerie",
+          "carte",
+          "ordre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_feu_feu_battle_advanced",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle",
+        "band": "levels_6_8",
+        "contextFrench": "Les recrues connaissent le feu pour la première fois lorsque les tirs éclatent autour d’elles.",
+        "correctAnswer": "feu",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne ici le combat armé ?",
+        "choicesFrench": [
+          "fois",
+          "éclatent",
+          "feu",
+          "recrues"
+        ]
+      },
+      "reason": "All source occurrences read. Retain Zola armed-combat meaning. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_feu_heating_fire",
+      "before": null,
+      "after": {
+        "id": "sns_fr_feu_heating_fire",
+        "lemmaId": "lem_zola_feu",
+        "gloss": "fire",
+        "definition": "Combustion entretenue pour produire notamment de la chaleur et de la lumière."
+      },
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_a410e5699783a81945db8a5d",
+      "before": {
+        "id": "occ_parure_a410e5699783a81945db8a5d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_082",
+        "start": 107,
+        "end": 110,
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_zola_feu_battle"
+      },
+      "after": {
+        "id": "occ_parure_a410e5699783a81945db8a5d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_082",
+        "start": 107,
+        "end": 110,
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_fr_feu_heating_fire"
+      },
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_1_3",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_fr_feu_heating_fire",
+        "band": "levels_1_3",
+        "contextFrench": "Le feu dans la cheminée réchauffe la pièce.",
+        "correctAnswer": "fire",
+        "format": "meaning_choice",
+        "targetText": "feu",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "wind",
+          "water",
+          "shadow",
+          "fire"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_4_5",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_fr_feu_heating_fire",
+        "band": "levels_4_5",
+        "contextFrench": "Il ajoute des bûches au _____ pour entretenir les flammes.",
+        "correctAnswer": "feu",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "mur",
+          "bain",
+          "feu",
+          "puits"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_feu_heating_fire_zola_feu_feu_levels_6_8",
+        "surfaceFormId": "srf_zola_feu_feu",
+        "senseId": "sns_fr_feu_heating_fire",
+        "band": "levels_6_8",
+        "contextFrench": "Le feu crépite dans l’âtre et éclaire le visage des voyageurs assis près des flammes.",
+        "correctAnswer": "feu",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la combustion qui les réchauffe ?",
+        "choicesFrench": [
+          "voyageurs",
+          "feu",
+          "âtre",
+          "visage"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure without heating fire is physical combustion, not battle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_instruction_instruction_investigation_early",
+      "before": {
+        "id": "qiz_zola_instruction_instruction_investigation_early",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "contextFrench": "Le professeur emploie « instruction » pour exprimer cette idée : phase d’une procédure judiciaire consacrée à l’examen des faits.",
+        "correctAnswer": "judicial investigation; inquiry",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "instruction",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "judicial investigation; inquiry",
+          "a kettle",
+          "a ladder",
+          "a pear"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_instruction_instruction_investigation_early",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "band": "levels_1_3",
+        "contextFrench": "L’instruction réunit les éléments nécessaires pour éclaircir cette affaire judiciaire.",
+        "correctAnswer": "judicial investigation",
+        "format": "meaning_choice",
+        "targetText": "instruction",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "public celebration",
+          "election campaign",
+          "judicial investigation",
+          "trial verdict"
+        ]
+      },
+      "reason": "All source occurrences read. Retain source judicial investigation. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+      "before": {
+        "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "contextFrench": "Pour exprimer l’idée « phase d’une procédure judiciaire consacrée à l’examen des faits », le mot attendu est _____.",
+        "correctAnswer": "instruction",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "instruction",
+          "une bouilloire",
+          "une échelle",
+          "une poire"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_instruction_instruction_investigation_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "band": "levels_4_5",
+        "contextFrench": "Le juge mène l’_____ du dossier en examinant les preuves et en entendant les témoins.",
+        "correctAnswer": "instruction",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "inauguration",
+          "instruction",
+          "acquittement",
+          "élection"
+        ]
+      },
+      "reason": "All source occurrences read. Retain source judicial investigation. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_instruction_instruction_investigation_advanced",
+      "before": {
+        "id": "qiz_zola_instruction_instruction_investigation_advanced",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "contextFrench": "Dans cette situation, le mot « instruction » exprime précisément ceci : phase d’une procédure judiciaire consacrée à l’examen des faits. Marc ouvre la fenêtre, tandis que Nina vérifie le registre, tandis que Paul lit la lettre.",
+        "correctAnswer": "instruction",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « phase d’une procédure judiciaire consacrée à l’examen des faits » ?",
+        "choicesFrench": [
+          "instruction",
+          "fenêtre",
+          "registre",
+          "lettre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_instruction_instruction_investigation_advanced",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation",
+        "band": "levels_6_8",
+        "contextFrench": "Pendant l’instruction, les faits sont étudiés afin de déterminer ce qui s’est réellement passé.",
+        "correctAnswer": "instruction",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la phase judiciaire d’examen des faits ?",
+        "choicesFrench": [
+          "instruction",
+          "faits",
+          "déterminer",
+          "passé"
+        ]
+      },
+      "reason": "All source occurrences read. Retain source judicial investigation. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_7498c5e142478745507607fb",
+      "before": {
+        "id": "occ_parure_7498c5e142478745507607fb",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_013",
+        "start": 19,
+        "end": 30,
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_zola_instruction_investigation"
+      },
+      "after": {
+        "id": "occ_parure_7498c5e142478745507607fb",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_013",
+        "start": 19,
+        "end": 30,
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26"
+      },
+      "reason": "All source occurrences read. Reuse existing education sense for ministère de l’instruction publique. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_early",
+      "before": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_early",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "contextFrench": "L’école assure l’instruction des enfants en leur apprenant à lire et à compter.",
+        "correctAnswer": "education",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "instruction",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "employment",
+          "education",
+          "trial",
+          "entertainment"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_early",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "band": "levels_1_3",
+        "contextFrench": "L’école donne aux enfants une instruction qui leur permet de lire et de compter.",
+        "correctAnswer": "education",
+        "format": "meaning_choice",
+        "targetText": "instruction",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "employment",
+          "education",
+          "punishment",
+          "entertainment"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing education sense for ministère de l’instruction publique. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_intermediate",
+      "before": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "contextFrench": "Grâce à l’école, il reçoit une _____ solide en lecture, en calcul et en histoire.",
+        "correctAnswer": "instruction",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "instruction",
+          "punition",
+          "récompense",
+          "invitation"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_intermediate",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "band": "levels_4_5",
+        "contextFrench": "L’accès à l’_____ permet à tous d’acquérir des connaissances.",
+        "correctAnswer": "instruction",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "instruction",
+          "ignorance",
+          "inactivité",
+          "oisiveté"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing education sense for ministère de l’instruction publique. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_advanced",
+      "before": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_advanced",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "contextFrench": "Son instruction lui permet de comprendre les livres et de poursuivre ses études ; elle a beaucoup appris auprès de ses maîtres.",
+        "correctAnswer": "instruction",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne la formation intellectuelle reçue ?",
+        "choicesFrench": [
+          "instruction",
+          "livres",
+          "études",
+          "maîtres"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_instruction_instruction_education_ec59aa6bec_advanced",
+        "surfaceFormId": "srf_zola_instruction_instruction_noun",
+        "senseId": "sns_parure_instruction_education_5a99ae2c26",
+        "band": "levels_6_8",
+        "contextFrench": "Son instruction a commencé dans une petite école où elle a appris à lire, écrire et calculer.",
+        "correctAnswer": "instruction",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne sa formation intellectuelle ?",
+        "choicesFrench": [
+          "école",
+          "lire",
+          "calculer",
+          "instruction"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse existing education sense for ministère de l’instruction publique. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_usure_usure_wear_8c88335ba1_early",
+      "before": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_early",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "contextFrench": "Le professeur emploie « usure » pour exprimer cette idée : dégradation progressive causée par l’usage.",
+        "correctAnswer": "wear; deterioration",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "usure",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "wear; deterioration",
+          "a window",
+          "a notebook",
+          "a garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_early",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "band": "levels_1_3",
+        "contextFrench": "L’usure des chaussures montre qu’elles ont beaucoup servi.",
+        "correctAnswer": "wear",
+        "format": "meaning_choice",
+        "targetText": "usure",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "wear",
+          "repair",
+          "cleanliness",
+          "newness"
+        ]
+      },
+      "reason": "All source occurrences read. Retain wear of furniture. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_usure_usure_wear_8c88335ba1_intermediate",
+      "before": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_intermediate",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "contextFrench": "Le terme précis pour exprimer « dégradation progressive causée par l’usage » est _____.",
+        "correctAnswer": "usure",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "usure",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_intermediate",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "band": "levels_4_5",
+        "contextFrench": "À force de frottements, le tissu s’amincit : c’est l’_____ due à l’usage.",
+        "correctAnswer": "usure",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "épaisseur",
+          "élasticité",
+          "imperméabilité",
+          "usure"
+        ]
+      },
+      "reason": "All source occurrences read. Retain wear of furniture. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_usure_usure_wear_8c88335ba1_advanced",
+      "before": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_advanced",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "contextFrench": "Dans cette situation, le mot « usure » exprime précisément ceci : dégradation progressive causée par l’usage. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "correctAnswer": "usure",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « dégradation progressive causée par l’usage » ?",
+        "choicesFrench": [
+          "usure",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_usure_usure_wear_8c88335ba1_advanced",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197",
+        "band": "levels_6_8",
+        "contextFrench": "L’usure du tapis est visible aux endroits où passent le plus souvent les habitants.",
+        "correctAnswer": "usure",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une dégradation progressive par l’usage ?",
+        "choicesFrench": [
+          "endroits",
+          "habitants",
+          "usure",
+          "tapis"
+        ]
+      },
+      "reason": "All source occurrences read. Retain wear of furniture. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_usure_excessive_interest",
+      "before": null,
+      "after": {
+        "id": "sns_fr_usure_excessive_interest",
+        "lemmaId": "lem_parure_usure_noun_0e672ca3b9",
+        "gloss": "usury",
+        "definition": "Pratique du prêt d’argent à un taux d’intérêt excessif."
+      },
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_2d6d4c55d560c19878859777",
+      "before": {
+        "id": "occ_parure_2d6d4c55d560c19878859777",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_109",
+        "start": 71,
+        "end": 76,
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_parure_usure_wear_91a2b7b197"
+      },
+      "after": {
+        "id": "occ_parure_2d6d4c55d560c19878859777",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_109",
+        "start": 71,
+        "end": 76,
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_fr_usure_excessive_interest"
+      },
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_1_3",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_fr_usure_excessive_interest",
+        "band": "levels_1_3",
+        "contextFrench": "L’usure ruine les emprunteurs qui doivent payer des intérêts exorbitants.",
+        "correctAnswer": "usury",
+        "format": "meaning_choice",
+        "targetText": "usure",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "charity",
+          "savings",
+          "inheritance",
+          "usury"
+        ]
+      },
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_4_5",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_fr_usure_excessive_interest",
+        "band": "levels_4_5",
+        "contextFrench": "Le prêteur exige des intérêts excessifs ; les habitants dénoncent cette pratique de l’_____.",
+        "correctAnswer": "usure",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "entraide",
+          "industrie",
+          "usure",
+          "épargne"
+        ]
+      },
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_usure_excessive_interest_parure_usure_usure_noun_b79b92786e_levels_6_8",
+        "surfaceFormId": "srf_parure_usure_usure_noun_b79b92786e",
+        "senseId": "sns_fr_usure_excessive_interest",
+        "band": "levels_6_8",
+        "contextFrench": "L’usure enrichit le prêteur en imposant au débiteur des intérêts démesurés sur la somme reçue.",
+        "correctAnswer": "usure",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le prêt à intérêt excessif ?",
+        "choicesFrench": [
+          "somme",
+          "usure",
+          "prêteur",
+          "débiteur"
+        ]
+      },
+      "reason": "All source occurrences read. Taux de l’usure financial excessive-interest sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_siege_furniture",
+      "before": null,
+      "after": {
+        "id": "sns_fr_siege_furniture",
+        "lemmaId": "lem_zola_siege",
+        "gloss": "seats",
+        "definition": "Meubles ou objets aménagés pour qu’une personne puisse s’y asseoir."
+      },
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_506cb1f77c00b41c9320b4ae",
+      "before": {
+        "id": "occ_parure_506cb1f77c00b41c9320b4ae",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_003",
+        "start": 175,
+        "end": 181,
+        "surfaceFormId": "srf_parure_sieges_siege_noun_108ac11803",
+        "senseId": "sns_zola_siege_seat"
+      },
+      "after": {
+        "id": "occ_parure_506cb1f77c00b41c9320b4ae",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_003",
+        "start": 175,
+        "end": 181,
+        "surfaceFormId": "srf_parure_sieges_siege_noun_108ac11803",
+        "senseId": "sns_fr_siege_furniture"
+      },
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_1_3",
+        "surfaceFormId": "srf_parure_sieges_siege_noun_108ac11803",
+        "senseId": "sns_fr_siege_furniture",
+        "band": "levels_1_3",
+        "contextFrench": "Les sièges du salon sont assez confortables pour les invités.",
+        "correctAnswer": "seats",
+        "format": "meaning_choice",
+        "targetText": "sièges",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "curtains",
+          "cupboards",
+          "seats",
+          "tables"
+        ]
+      },
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_4_5",
+        "surfaceFormId": "srf_parure_sieges_siege_noun_108ac11803",
+        "senseId": "sns_fr_siege_furniture",
+        "band": "levels_4_5",
+        "contextFrench": "On ajoute des _____ pour que tous les invités puissent s’asseoir.",
+        "correctAnswer": "sièges",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "rideaux",
+          "sièges",
+          "tapis",
+          "buffets"
+        ]
+      },
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_siege_furniture_parure_sieges_siege_noun_108ac11803_levels_6_8",
+        "surfaceFormId": "srf_parure_sieges_siege_noun_108ac11803",
+        "senseId": "sns_fr_siege_furniture",
+        "band": "levels_6_8",
+        "contextFrench": "Les sièges disposés autour de la table accueillent les convives pendant le repas.",
+        "correctAnswer": "sièges",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le mobilier sur lequel on s’assoit ?",
+        "choicesFrench": [
+          "sièges",
+          "table",
+          "convives",
+          "repas"
+        ]
+      },
+      "reason": "All source occurrences read. Furniture seats, not exclusively judges’ benches. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_ami_friend",
+      "before": null,
+      "after": {
+        "id": "sns_fr_ami_friend",
+        "lemmaId": "lem_parure_ami_noun_7c9b217a9f",
+        "gloss": "friends",
+        "definition": "Personnes liées par une affection réciproque qui n’est pas nécessairement familiale."
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_31843fc7ace1a1d64cd85b89",
+      "before": {
+        "id": "occ_parure_31843fc7ace1a1d64cd85b89",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_004",
+        "start": 411,
+        "end": 415,
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_parure_ami_friend_53b9cc66f8"
+      },
+      "after": {
+        "id": "occ_parure_31843fc7ace1a1d64cd85b89",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_004",
+        "start": 411,
+        "end": 415,
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_fr_ami_friend"
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_e799da90cf1b06a336e854cc",
+      "before": {
+        "id": "occ_parure_e799da90cf1b06a336e854cc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 171,
+        "end": 175,
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_parure_ami_friend_53b9cc66f8"
+      },
+      "after": {
+        "id": "occ_parure_e799da90cf1b06a336e854cc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 171,
+        "end": 175,
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_fr_ami_friend"
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_1_3",
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_fr_ami_friend",
+        "band": "levels_1_3",
+        "contextFrench": "Ses amis viennent le soutenir dans cette épreuve.",
+        "correctAnswer": "friends",
+        "format": "meaning_choice",
+        "targetText": "amis",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "customers",
+          "friends",
+          "enemies",
+          "strangers"
+        ]
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_4_5",
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_fr_ami_friend",
+        "band": "levels_4_5",
+        "contextFrench": "Ils se connaissent et s’apprécient depuis l’enfance : ce sont de vieux _____.",
+        "correctAnswer": "amis",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "amis",
+          "ennemis",
+          "inconnus",
+          "adversaires"
+        ]
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ami_friend_parure_amis_ami_noun_4746fce08d_levels_6_8",
+        "surfaceFormId": "srf_parure_amis_ami_noun_4746fce08d",
+        "senseId": "sns_fr_ami_friend",
+        "band": "levels_6_8",
+        "contextFrench": "Les amis se retrouvent chaque semaine pour partager leurs nouvelles et passer du temps ensemble.",
+        "correctAnswer": "amis",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne des personnes liées par l’amitié ?",
+        "choicesFrench": [
+          "semaine",
+          "nouvelles",
+          "temps",
+          "amis"
+        ]
+      },
+      "reason": "All source occurrences read. Masculine plural friends cannot use female-only sense; create gender-inclusive friendship sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_early",
+      "before": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_early",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "contextFrench": "Le professeur emploie « soirée » pour exprimer cette idée : Espace de temps depuis le déclin du jour jusqu’au moment où l’on se couche (par exemple entre 18 et 24 heures)..",
+        "correctAnswer": "evening",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "soirée",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "evening",
+          "a window",
+          "a notebook",
+          "a garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_early",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "band": "levels_1_3",
+        "contextFrench": "Nous passerons la soirée à lire après le dîner.",
+        "correctAnswer": "evening",
+        "format": "meaning_choice",
+        "targetText": "soirée",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "evening",
+          "morning",
+          "afternoon",
+          "week"
+        ]
+      },
+      "reason": "All source occurrences read. Passer la soirée specifies an interval of time. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_intermediate",
+      "before": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_intermediate",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "contextFrench": "Le terme précis pour exprimer « Espace de temps depuis le déclin du jour jusqu’au moment où l’on se couche (par exemple entre 18 et 24 heures). » est _____.",
+        "correctAnswer": "soirée",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "soirée",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_intermediate",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "band": "levels_4_5",
+        "contextFrench": "Après le coucher du soleil, la _____ commence et se prolonge jusqu’à l’heure du repos.",
+        "correctAnswer": "soirée",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "matinée",
+          "journée",
+          "semaine",
+          "soirée"
+        ]
+      },
+      "reason": "All source occurrences read. Passer la soirée specifies an interval of time. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_advanced",
+      "before": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_advanced",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "contextFrench": "Dans cette situation, le mot « soirée » exprime précisément ceci : Espace de temps depuis le déclin du jour jusqu’au moment où l’on se couche (par exemple entre 18 et 24 heures).. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "correctAnswer": "soirée",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « Espace de temps depuis le déclin du jour jusqu’au moment où l’on se couche (par exemple entre 18 et 24 heures). » ?",
+        "choicesFrench": [
+          "soirée",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_soiree_sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea_2cd83f73fa_advanced",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea",
+        "band": "levels_6_8",
+        "contextFrench": "La soirée s’achève quand les enfants vont au lit après le repas et les jeux.",
+        "correctAnswer": "soirée",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la période entre la fin du jour et le coucher ?",
+        "choicesFrench": [
+          "repas",
+          "jeux",
+          "soirée",
+          "enfants"
+        ]
+      },
+      "reason": "All source occurrences read. Passer la soirée specifies an interval of time. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_soiree_event",
+      "before": null,
+      "after": {
+        "id": "sns_fr_soiree_event",
+        "lemmaId": "lem_parure_soiree_noun_b161a57d43",
+        "gloss": "evening party",
+        "definition": "Réunion ou fête organisée le soir."
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_46386964fa787d3efc077ed8",
+      "before": {
+        "id": "occ_parure_46386964fa787d3efc077ed8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_036",
+        "start": 159,
+        "end": 165,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea"
+      },
+      "after": {
+        "id": "occ_parure_46386964fa787d3efc077ed8",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_036",
+        "start": 159,
+        "end": 165,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event"
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_530e16292564263a32d7e886",
+      "before": {
+        "id": "occ_parure_530e16292564263a32d7e886",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_082",
+        "start": 42,
+        "end": 48,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea"
+      },
+      "after": {
+        "id": "occ_parure_530e16292564263a32d7e886",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_082",
+        "start": 42,
+        "end": 48,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event"
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_9ac2788d0e8b206360f9ddff",
+      "before": {
+        "id": "occ_parure_9ac2788d0e8b206360f9ddff",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_110",
+        "start": 340,
+        "end": 346,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_parure_soiree_espace_de_temps_depuis_le_declin_du_jour_jusqu_au_moment_ou_l_on_se_couche_par_exemple_entre_18_et_24_heures_14e2e971ea"
+      },
+      "after": {
+        "id": "occ_parure_9ac2788d0e8b206360f9ddff",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_110",
+        "start": 340,
+        "end": 346,
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event"
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_1_3",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event",
+        "band": "levels_1_3",
+        "contextFrench": "Elle organise une soirée chez elle et invite tous ses amis.",
+        "correctAnswer": "evening party",
+        "format": "meaning_choice",
+        "targetText": "soirée",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "morning lesson",
+          "afternoon walk",
+          "work meeting",
+          "evening party"
+        ]
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_4_5",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event",
+        "band": "levels_4_5",
+        "contextFrench": "Les invités arrivent pour la _____ dansante organisée après le dîner.",
+        "correctAnswer": "soirée",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "randonnée",
+          "baignade",
+          "soirée",
+          "matinée"
+        ]
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_soiree_event_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486_levels_6_8",
+        "surfaceFormId": "srf_parure_soiree_lem_parure_soiree_noun_b161a57d43_69c7a80486",
+        "senseId": "sns_fr_soiree_event",
+        "band": "levels_6_8",
+        "contextFrench": "La soirée réunit cinquante convives autour d’un buffet et d’un petit orchestre.",
+        "correctAnswer": "soirée",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une fête du soir ?",
+        "choicesFrench": [
+          "orchestre",
+          "soirée",
+          "convives",
+          "buffet"
+        ]
+      },
+      "reason": "All source occurrences read. Other spans denote the social evening event, including its formal outfit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_invitation_message",
+      "before": null,
+      "after": {
+        "id": "sns_fr_invitation_message",
+        "lemmaId": "lem_parure_invitation_noun_9df3a6f2bd",
+        "gloss": "invitation card",
+        "definition": "Message écrit proposant à quelqu’un de venir à une réunion ou à une fête."
+      },
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_3764dec87e8fe2bb46cadb1d",
+      "before": {
+        "id": "occ_parure_3764dec87e8fe2bb46cadb1d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_014",
+        "start": 72,
+        "end": 82,
+        "surfaceFormId": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5",
+        "senseId": "sns_parure_invitation_action_d_inviter_779faff4cf"
+      },
+      "after": {
+        "id": "occ_parure_3764dec87e8fe2bb46cadb1d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_014",
+        "start": 72,
+        "end": 82,
+        "surfaceFormId": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5",
+        "senseId": "sns_fr_invitation_message"
+      },
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_1_3",
+        "surfaceFormId": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5",
+        "senseId": "sns_fr_invitation_message",
+        "band": "levels_1_3",
+        "contextFrench": "Elle ouvre l’enveloppe et lit l’invitation au mariage.",
+        "correctAnswer": "invitation card",
+        "format": "meaning_choice",
+        "targetText": "invitation",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "invoice",
+          "warning",
+          "invitation card",
+          "receipt"
+        ]
+      },
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_4_5",
+        "surfaceFormId": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5",
+        "senseId": "sns_fr_invitation_message",
+        "band": "levels_4_5",
+        "contextFrench": "La carte propose de venir à la fête : c’est une _____.",
+        "correctAnswer": "invitation",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "ordonnance",
+          "invitation",
+          "facture",
+          "quittance"
+        ]
+      },
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_invitation_message_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5_levels_6_8",
+        "surfaceFormId": "srf_parure_invitation_lem_parure_invitation_noun_9df3a6f2bd_33179f3cc5",
+        "senseId": "sns_fr_invitation_message",
+        "band": "levels_6_8",
+        "contextFrench": "L’invitation précise l’heure du dîner et demande une réponse avant vendredi.",
+        "correctAnswer": "invitation",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le message qui convie à la réception ?",
+        "choicesFrench": [
+          "invitation",
+          "heure",
+          "dîner",
+          "vendredi"
+        ]
+      },
+      "reason": "All source occurrences read. Physical written invitation thrown onto the table, not only action of inviting. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_peine_effort",
+      "before": null,
+      "after": {
+        "id": "sns_fr_peine_effort",
+        "lemmaId": "lem_parure_peine_noun_526c115751",
+        "gloss": "effort; difficulty",
+        "definition": "Effort pénible ou difficulté rencontrée dans l’accomplissement d’une tâche."
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_124e41a046ceae9472f4c2e6",
+      "before": {
+        "id": "occ_parure_124e41a046ceae9472f4c2e6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_016",
+        "start": 126,
+        "end": 131,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8"
+      },
+      "after": {
+        "id": "occ_parure_124e41a046ceae9472f4c2e6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_016",
+        "start": 126,
+        "end": 131,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_effort"
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_4d3cadc9447fdc8905979fcb",
+      "before": {
+        "id": "occ_cendrillon_4d3cadc9447fdc8905979fcb",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 9,
+        "end": 14,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_4d3cadc9447fdc8905979fcb",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 9,
+        "end": 14,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_effort"
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_effort",
+        "band": "levels_1_3",
+        "contextFrench": "Il a beaucoup de peine à soulever cette lourde caisse.",
+        "correctAnswer": "difficulty",
+        "format": "meaning_choice",
+        "targetText": "peine",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "interest",
+          "difficulty",
+          "pleasure",
+          "confidence"
+        ]
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_effort",
+        "band": "levels_4_5",
+        "contextFrench": "La marche est difficile ; elle avance avec _____ sur le chemin escarpé.",
+        "correctAnswer": "peine",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "peine",
+          "aisance",
+          "facilité",
+          "insouciance"
+        ]
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_effort_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_effort",
+        "band": "levels_6_8",
+        "contextFrench": "Ce travail lui donne de la peine, car chaque pièce exige un effort considérable.",
+        "correctAnswer": "peine",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la difficulté ou l’effort pénible ?",
+        "choicesFrench": [
+          "travail",
+          "pièce",
+          "considérable",
+          "peine"
+        ]
+      },
+      "reason": "All source occurrences read. Difficulty obtaining invitation and additional labor for Cinderella. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_peine_sorrow",
+      "before": null,
+      "after": {
+        "id": "sns_fr_peine_sorrow",
+        "lemmaId": "lem_parure_peine_noun_526c115751",
+        "gloss": "sorrow",
+        "definition": "Souffrance morale causée par un malheur, une perte ou une déception."
+      },
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_7088e4423c0cf483b8be02fc",
+      "before": {
+        "id": "occ_parure_7088e4423c0cf483b8be02fc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_023",
+        "start": 50,
+        "end": 55,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8"
+      },
+      "after": {
+        "id": "occ_parure_7088e4423c0cf483b8be02fc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_023",
+        "start": 50,
+        "end": 55,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_sorrow"
+      },
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_sorrow",
+        "band": "levels_1_3",
+        "contextFrench": "La mort de son ami lui cause une grande peine.",
+        "correctAnswer": "sorrow",
+        "format": "meaning_choice",
+        "targetText": "peine",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "sorrow",
+          "joy",
+          "relief",
+          "pride"
+        ]
+      },
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_sorrow",
+        "band": "levels_4_5",
+        "contextFrench": "Elle pleure de _____ après cette triste nouvelle.",
+        "correctAnswer": "peine",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "joie",
+          "gratitude",
+          "fierté",
+          "peine"
+        ]
+      },
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_sorrow_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_sorrow",
+        "band": "levels_6_8",
+        "contextFrench": "Sa peine diminue peu à peu grâce au soutien de ses proches, mais le souvenir reste douloureux.",
+        "correctAnswer": "peine",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une souffrance morale ?",
+        "choicesFrench": [
+          "proches",
+          "souvenir",
+          "peine",
+          "soutien"
+        ]
+      },
+      "reason": "All source occurrences read. Suppressed sorrow in La Parure, distinct from punishment and effort. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_peine_worry",
+      "before": null,
+      "after": {
+        "id": "sns_fr_peine_worry",
+        "lemmaId": "lem_parure_peine_noun_526c115751",
+        "gloss": "worry; perplexity",
+        "definition": "Souci ou embarras devant une incertitude, notamment dans être en peine."
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_ecedfcc2a7339a4b39331c1b",
+      "before": {
+        "id": "occ_cendrillon_ecedfcc2a7339a4b39331c1b",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 98,
+        "end": 103,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_ecedfcc2a7339a4b39331c1b",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 98,
+        "end": 103,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_worry"
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_971d08e80e23bdfc42110945",
+      "before": {
+        "id": "occ_cendrillon_971d08e80e23bdfc42110945",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_023",
+        "start": 339,
+        "end": 344,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_parure_peine_punition_sanction_ou_chatiment_inflige_e_pour_une_faute_commise_pour_un_acte_juge_reprehensible_ou_coupable_et_en_particulier_punition_pour_une_infraction_a_la_loi_et_prononcee_par_un_jugement_0027f4d2e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_971d08e80e23bdfc42110945",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_023",
+        "start": 339,
+        "end": 344,
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_worry"
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_1_3",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_worry",
+        "band": "levels_1_3",
+        "contextFrench": "Elle est en peine de savoir comment retrouver son frère.",
+        "correctAnswer": "worry",
+        "format": "meaning_choice",
+        "targetText": "peine",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "celebration",
+          "rest",
+          "confidence",
+          "worry"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_4_5",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_worry",
+        "band": "levels_4_5",
+        "contextFrench": "Ne sachant que décider, il reste en _____ devant ce choix difficile.",
+        "correctAnswer": "peine",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "joie",
+          "confiance",
+          "peine",
+          "fête"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_peine_worry_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7_levels_6_8",
+        "surfaceFormId": "srf_parure_peine_lem_parure_peine_noun_526c115751_397c1d86a7",
+        "senseId": "sns_fr_peine_worry",
+        "band": "levels_6_8",
+        "contextFrench": "La mère est en peine pour son fils absent et cherche à obtenir de ses nouvelles.",
+        "correctAnswer": "peine",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, avec en, exprime son inquiétude ?",
+        "choicesFrench": [
+          "nouvelles",
+          "peine",
+          "mère",
+          "fils"
+        ]
+      },
+      "reason": "All source occurrences read. Both Cendrillon être en peine uses express worry/perplexity. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_folle_fou_adjective",
+      "before": null,
+      "after": {
+        "id": "srf_fr_folle_fou_adjective",
+        "lemmaId": "lem_zola_fou",
+        "form": "folle",
+        "normalized": "folle"
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_fou_emotion_intense",
+      "before": null,
+      "after": {
+        "id": "sns_fr_fou_emotion_intense",
+        "lemmaId": "lem_zola_fou",
+        "gloss": "wild with emotion",
+        "definition": "Emporté par une émotion si forte qu’elle semble faire perdre toute mesure."
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_7b518fa215059e7af55a0d1d",
+      "before": {
+        "id": "occ_parure_7b518fa215059e7af55a0d1d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_056",
+        "start": 121,
+        "end": 126,
+        "surfaceFormId": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f",
+        "senseId": "sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9"
+      },
+      "after": {
+        "id": "occ_parure_7b518fa215059e7af55a0d1d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_056",
+        "start": 121,
+        "end": 126,
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_fr_fou_emotion_intense"
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_1_3",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_fr_fou_emotion_intense",
+        "band": "levels_1_3",
+        "contextFrench": "Folle de joie, elle court annoncer sa victoire à ses amis.",
+        "correctAnswer": "wild with joy",
+        "format": "meaning_choice",
+        "targetText": "folle",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "deeply disappointed",
+          "completely indifferent",
+          "wild with joy",
+          "barely pleased"
+        ]
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_4_5",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_fr_fou_emotion_intense",
+        "band": "levels_4_5",
+        "contextFrench": "Transportée par une joie sans limites, elle en est _____.",
+        "correctAnswer": "folle",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "dépourvue",
+          "folle",
+          "lasse",
+          "privée"
+        ]
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_fr_fou_emotion_intense",
+        "band": "levels_6_8",
+        "contextFrench": "Elle est folle de bonheur et ne peut s’empêcher de rire et de chanter.",
+        "correctAnswer": "folle",
+        "format": "target_identification",
+        "promptFrench": "Quel mot souligne l’intensité débordante de son émotion ?",
+        "choicesFrench": [
+          "folle",
+          "bonheur",
+          "rire",
+          "chanter"
+        ]
+      },
+      "reason": "All source occurrences read. Folle de joie intensifies emotion, not mental illness or net noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_21553530b7decffa70c20fa4",
+      "before": {
+        "id": "occ_cendrillon_21553530b7decffa70c20fa4",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_024",
+        "start": 266,
+        "end": 271,
+        "surfaceFormId": "srf_parure_folle_lem_parure_folle_noun_55aef030d2_d95586848f",
+        "senseId": "sns_parure_folle_filet_a_larges_mailles_tendu_lache_fc44f4bfa9"
+      },
+      "after": {
+        "id": "occ_cendrillon_21553530b7decffa70c20fa4",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_024",
+        "start": 266,
+        "end": 271,
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_zola_fou_mad"
+      },
+      "reason": "All source occurrences read. Reuse irrational adjective sense for je fusse bien folle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_1_3",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_zola_fou_mad",
+        "band": "levels_1_3",
+        "contextFrench": "Elle serait folle de risquer sa vie pour un objet sans valeur.",
+        "correctAnswer": "foolish",
+        "format": "meaning_choice",
+        "targetText": "folle",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "prudent",
+          "foolish",
+          "careful",
+          "wise"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse irrational adjective sense for je fusse bien folle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_4_5",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_zola_fou_mad",
+        "band": "levels_4_5",
+        "contextFrench": "Prendre un tel risque sans raison serait une décision _____.",
+        "correctAnswer": "folle",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "folle",
+          "sage",
+          "prudente",
+          "raisonnable"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse irrational adjective sense for je fusse bien folle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_fou_mad_fr_folle_fou_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_folle_fou_adjective",
+        "senseId": "sns_zola_fou_mad",
+        "band": "levels_6_8",
+        "contextFrench": "Cette idée folle ignore tout bon sens et mettrait inutilement l’équipe en danger.",
+        "correctAnswer": "folle",
+        "format": "target_identification",
+        "promptFrench": "Quel mot signifie dénuée de raison ?",
+        "choicesFrench": [
+          "idée",
+          "équipe",
+          "danger",
+          "folle"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse irrational adjective sense for je fusse bien folle. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_early",
+      "before": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_early",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "contextFrench": "Le professeur emploie « sorte » pour exprimer cette idée : Espèce ; genre..",
+        "correctAnswer": "sort, kind, type",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "sorte",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "sort, kind, type",
+          "a window",
+          "a notebook",
+          "a garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_early",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "band": "levels_1_3",
+        "contextFrench": "C’est une sorte de pain préparée avec des graines.",
+        "correctAnswer": "kind",
+        "format": "meaning_choice",
+        "targetText": "sorte",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "kind",
+          "piece",
+          "price",
+          "weight"
+        ]
+      },
+      "reason": "All source occurrences read. Retain kind/type in une sorte de. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_intermediate",
+      "before": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_intermediate",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "contextFrench": "Le terme précis pour exprimer « Espèce ; genre. » est _____.",
+        "correctAnswer": "sorte",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "sorte",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_intermediate",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "band": "levels_4_5",
+        "contextFrench": "Cette _____ de fromage appartient à une catégorie très douce.",
+        "correctAnswer": "sorte",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "tranche",
+          "miette",
+          "croûte",
+          "sorte"
+        ]
+      },
+      "reason": "All source occurrences read. Retain kind/type in une sorte de. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_advanced",
+      "before": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_advanced",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "contextFrench": "Dans cette situation, le mot « sorte » exprime précisément ceci : Espèce ; genre.. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "correctAnswer": "sorte",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « Espèce ; genre. » ?",
+        "choicesFrench": [
+          "sorte",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_sorte_sns_parure_sorte_espece_genre_02ec1aaeda_81ed8f2df1_advanced",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda",
+        "band": "levels_6_8",
+        "contextFrench": "Chaque sorte de pomme possède une saveur particulière ; certaines sont acides, d’autres sucrées.",
+        "correctAnswer": "sorte",
+        "format": "target_identification",
+        "promptFrench": "Quel mot signifie catégorie ou genre ?",
+        "choicesFrench": [
+          "saveur",
+          "acides",
+          "sorte",
+          "pomme"
+        ]
+      },
+      "reason": "All source occurrences read. Retain kind/type in une sorte de. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_sorte_manner_result",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sorte_manner_result",
+        "lemmaId": "lem_parure_sorte_noun_b67ff93e54",
+        "gloss": "way; manner",
+        "definition": "Manière dont se produit une chose ; dans de sorte que, introduit notamment une conséquence."
+      },
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_76164f192a27460dae4e593c",
+      "before": {
+        "id": "occ_cendrillon_76164f192a27460dae4e593c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_025",
+        "start": 223,
+        "end": 228,
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_parure_sorte_espece_genre_02ec1aaeda"
+      },
+      "after": {
+        "id": "occ_cendrillon_76164f192a27460dae4e593c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_025",
+        "start": 223,
+        "end": 228,
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_fr_sorte_manner_result"
+      },
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_1_3",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_fr_sorte_manner_result",
+        "band": "levels_1_3",
+        "contextFrench": "Il a parlé très bas, de sorte que personne ne l’a entendu.",
+        "correctAnswer": "way that leads to a result",
+        "format": "meaning_choice",
+        "targetText": "sorte",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "fear",
+          "shame",
+          "chance",
+          "way that leads to a result"
+        ]
+      },
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_4_5",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_fr_sorte_manner_result",
+        "band": "levels_4_5",
+        "contextFrench": "Le pont était fermé, de _____ que nous avons dû faire un détour.",
+        "correctAnswer": "sorte",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "honte",
+          "joie",
+          "sorte",
+          "peur"
+        ]
+      },
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sorte_manner_result_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39_levels_6_8",
+        "surfaceFormId": "srf_parure_sorte_lem_parure_sorte_noun_b67ff93e54_41d2eeed39",
+        "senseId": "sns_fr_sorte_manner_result",
+        "band": "levels_6_8",
+        "contextFrench": "La pluie a duré toute la nuit, de sorte que le chemin est maintenant impraticable.",
+        "correctAnswer": "sorte",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient à la locution qui introduit ici la conséquence ?",
+        "choicesFrench": [
+          "chemin",
+          "sorte",
+          "pluie",
+          "nuit"
+        ]
+      },
+      "reason": "All source occurrences read. Source connective de sorte que; retain word span, explicitly teach its construction-sensitive manner/result sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_figure_face",
+      "before": null,
+      "after": {
+        "id": "sns_fr_figure_face",
+        "lemmaId": "lem_parure_figure_noun_6897d057c3",
+        "gloss": "face",
+        "definition": "Partie antérieure de la tête où se trouvent les yeux, le nez et la bouche."
+      },
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_c9614a24677ae3ad180a1f01",
+      "before": {
+        "id": "occ_parure_c9614a24677ae3ad180a1f01",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_086",
+        "start": 31,
+        "end": 37,
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec"
+      },
+      "after": {
+        "id": "occ_parure_c9614a24677ae3ad180a1f01",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_086",
+        "start": 31,
+        "end": 37,
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_face"
+      },
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_face",
+        "band": "levels_1_3",
+        "contextFrench": "Sa figure est pâle, avec des cernes sous les yeux.",
+        "correctAnswer": "face",
+        "format": "meaning_choice",
+        "targetText": "figure",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "back",
+          "shoulder",
+          "face",
+          "hand"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_face",
+        "band": "levels_4_5",
+        "contextFrench": "Il se lave la _____, en passant de l’eau sur ses joues et son front.",
+        "correctAnswer": "figure",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cheville",
+          "figure",
+          "main",
+          "jambe"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_face",
+        "band": "levels_6_8",
+        "contextFrench": "La figure du garçon s’éclaire d’un sourire qui fait briller ses yeux.",
+        "correctAnswer": "figure",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne son visage ?",
+        "choicesFrench": [
+          "figure",
+          "garçon",
+          "sourire",
+          "yeux"
+        ]
+      },
+      "reason": "All source occurrences read. La Parure face rather than unspecified exterior shape. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_figure_social_standing",
+      "before": null,
+      "after": {
+        "id": "sns_fr_figure_social_standing",
+        "lemmaId": "lem_parure_figure_noun_6897d057c3",
+        "gloss": "social standing",
+        "definition": "Place ou apparence que l’on présente dans la société, notamment dans faire figure."
+      },
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b90e2aecad198926fb51a5f0",
+      "before": {
+        "id": "occ_cendrillon_b90e2aecad198926fb51a5f0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_006",
+        "start": 165,
+        "end": 171,
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_parure_figure_forme_exterieure_d_un_corps_d_un_etre_5c61844fec"
+      },
+      "after": {
+        "id": "occ_cendrillon_b90e2aecad198926fb51a5f0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_006",
+        "start": 165,
+        "end": 171,
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_social_standing"
+      },
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_social_standing",
+        "band": "levels_1_3",
+        "contextFrench": "Ce notable fait grande figure dans la ville grâce à sa richesse et à ses relations.",
+        "correctAnswer": "social standing",
+        "format": "meaning_choice",
+        "targetText": "figure",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "travel experience",
+          "social standing",
+          "physical strength",
+          "drawing skill"
+        ]
+      },
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_social_standing",
+        "band": "levels_4_5",
+        "contextFrench": "Sa famille fait grande _____ dans le pays et occupe un rang social élevé.",
+        "correctAnswer": "figure",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "figure",
+          "distance",
+          "blessure",
+          "promenade"
+        ]
+      },
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+        "surfaceFormId": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061",
+        "senseId": "sns_fr_figure_social_standing",
+        "band": "levels_6_8",
+        "contextFrench": "L’ambassadeur fait bonne figure parmi les invités et tient dignement son rang.",
+        "correctAnswer": "figure",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, avec fait bonne, renvoie à la place et à l’apparence sociales ?",
+        "choicesFrench": [
+          "ambassadeur",
+          "invités",
+          "rang",
+          "figure"
+        ]
+      },
+      "reason": "All source occurrences read. Cendrillon social prominence in faire grande figure. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_pareille_pareil_adjective",
+      "before": null,
+      "after": {
+        "id": "srf_fr_pareille_pareil_adjective",
+        "lemmaId": "lem_parure_pareil_adjective_556ba48a87",
+        "form": "pareille",
+        "normalized": "pareille"
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_5f4b83266733b890c508d286",
+      "before": {
+        "id": "occ_parure_5f4b83266733b890c508d286",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_094",
+        "start": 67,
+        "end": 75,
+        "surfaceFormId": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f",
+        "senseId": "sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715"
+      },
+      "after": {
+        "id": "occ_parure_5f4b83266733b890c508d286",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_094",
+        "start": 67,
+        "end": 75,
+        "surfaceFormId": "srf_fr_pareille_pareil_adjective",
+        "senseId": "sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f"
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_255f7f9d6a2e68e4f83a0be2",
+      "before": {
+        "id": "occ_parure_255f7f9d6a2e68e4f83a0be2",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_128",
+        "start": 38,
+        "end": 46,
+        "surfaceFormId": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f",
+        "senseId": "sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715"
+      },
+      "after": {
+        "id": "occ_parure_255f7f9d6a2e68e4f83a0be2",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_128",
+        "start": 38,
+        "end": 46,
+        "surfaceFormId": "srf_fr_pareille_pareil_adjective",
+        "senseId": "sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f"
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_1_3",
+        "surfaceFormId": "srf_fr_pareille_pareil_adjective",
+        "senseId": "sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f",
+        "band": "levels_1_3",
+        "contextFrench": "Cette tasse est pareille à la mienne : même forme et même couleur.",
+        "correctAnswer": "alike",
+        "format": "meaning_choice",
+        "targetText": "pareille",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "alike",
+          "different",
+          "larger",
+          "broken"
+        ]
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_4_5",
+        "surfaceFormId": "srf_fr_pareille_pareil_adjective",
+        "senseId": "sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f",
+        "band": "levels_4_5",
+        "contextFrench": "Elle cherche une robe _____ à celle du portrait, identique jusque dans les détails.",
+        "correctAnswer": "pareille",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "différente",
+          "opposée",
+          "étrangère",
+          "pareille"
+        ]
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f_fr_pareille_pareil_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_pareille_pareil_adjective",
+        "senseId": "sns_parure_pareil_qui_presente_une_forte_ressemblance_ou_similitude_qui_est_egal_ou_semblable_en_parlant_de_deux_personnes_ou_de_deux_choses_e1bff81c1f",
+        "band": "levels_6_8",
+        "contextFrench": "La copie est pareille à l’original, si bien qu’on ne distingue aucune différence.",
+        "correctAnswer": "pareille",
+        "format": "target_identification",
+        "promptFrench": "Quel mot signifie semblable ?",
+        "choicesFrench": [
+          "original",
+          "différence",
+          "pareille",
+          "copie"
+        ]
+      },
+      "reason": "All source occurrences read. Both La Parure uses are feminine adjectives; reuse existing pareil similarity sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_pareil_noun",
+      "before": null,
+      "after": {
+        "id": "lem_fr_pareil_noun",
+        "headword": "pareil",
+        "partOfSpeech": "noun"
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_pareille_pareil_noun",
+      "before": null,
+      "after": {
+        "id": "srf_fr_pareille_pareil_noun",
+        "lemmaId": "lem_fr_pareil_noun",
+        "form": "pareille",
+        "normalized": "pareille"
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_pareil_matching_item",
+      "before": null,
+      "after": {
+        "id": "sns_fr_pareil_matching_item",
+        "lemmaId": "lem_fr_pareil_noun",
+        "gloss": "matching counterpart",
+        "definition": "Chose semblable à une autre et formant avec elle une paire ou un ensemble."
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_a846528e13c5d44b125f9e92",
+      "before": {
+        "id": "occ_cendrillon_a846528e13c5d44b125f9e92",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_026",
+        "start": 281,
+        "end": 289,
+        "surfaceFormId": "srf_parure_pareille_lem_parure_pareille_noun_6092af3c67_1da63f024f",
+        "senseId": "sns_parure_pareille_gens_de_l_etat_de_la_naissance_du_caractere_de_la_personne_dont_il_s_agit_ses_pairs_ef0ded5715"
+      },
+      "after": {
+        "id": "occ_cendrillon_a846528e13c5d44b125f9e92",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_026",
+        "start": 281,
+        "end": 289,
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item"
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_1_3",
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item",
+        "band": "levels_1_3",
+        "contextFrench": "Voici un gant ; sa pareille se trouve dans l’autre poche.",
+        "correctAnswer": "matching counterpart",
+        "format": "meaning_choice",
+        "targetText": "pareille",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "owner",
+          "repair",
+          "price",
+          "matching counterpart"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_4_5",
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item",
+        "band": "levels_4_5",
+        "contextFrench": "Cette chaussure est seule ; je cherche sa _____ pour compléter la paire.",
+        "correctAnswer": "pareille",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "doublure",
+          "boucle",
+          "pareille",
+          "semelle"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_6_8",
+        "surfaceFormId": "srf_fr_pareille_pareil_noun",
+        "senseId": "sns_fr_pareil_matching_item",
+        "band": "levels_6_8",
+        "contextFrench": "Elle garde une boucle d’oreille et cherche la pareille qui complétait son bijou.",
+        "correctAnswer": "pareille",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’objet correspondant qui forme la paire ?",
+        "choicesFrench": [
+          "bijou",
+          "pareille",
+          "boucle",
+          "oreille"
+        ]
+      },
+      "reason": "All source occurrences read. Nominal matching slipper in Cendrillon is distinct from adjectival similar. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}

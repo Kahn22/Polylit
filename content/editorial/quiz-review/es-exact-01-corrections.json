@@ -1,0 +1,32 @@
+{
+  "id": "es-2026-09-19-12",
+  "language": "es",
+  "snapshot": "es-exact-01-input.json",
+  "entries": [
+    {
+      "id": "qiz_es_villa_town_es_villa_villa_8c1841a5_levels_1_3",
+      "patch": {
+        "choicesEnglish": [
+          "town",
+          "mountain",
+          "bedroom",
+          "garden"
+        ]
+      },
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read."
+    },
+    {
+      "id": "qiz_es_flor_compliment_es_flores_flor_2c42be96_levels_6_8",
+      "patch": {
+        "contextFrench": "Las flores que le echaba aquella tarde alababan su inteligencia.",
+        "choicesFrench": [
+          "flores",
+          "echaba",
+          "tarde",
+          "inteligencia"
+        ]
+      },
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import{readFileSync,writeFileSync,existsSync}from'node:fs';
+import{loadPublication}from'../dist/publication/repository.js';
+import{editorialSubjects}from'../dist/publication/quality-audit.js';
+import{reviewRevision}from'../dist/publication/editorial.js';
+const language=process.argv[3]??'fr';if(!['fr','es'].includes(language))throw Error('Unknown language');
+const status=process.argv[4]??'blocked_lexical_review';if(!['pending','blocked_lexical_review'].includes(status))throw Error('Invalid queue status');
+const label=process.argv[2];if(!label||!/^[a-z0-9-]+$/.test(label))throw Error('Unique label required');
+const root=new URL('../content/editorial/quiz-review/',import.meta.url),file=new URL(`${language}-semantic-${label}-input.json`,root);if(existsSync(file))throw Error('Resume existing snapshot');
+const q=JSON.parse(readFileSync(new URL('queue.json',root))),p=loadPublication();const subjects=new Map(editorialSubjects(p).filter(s=>s.kind==='vocabulary').map(s=>[s.id,s]));
+const entries=q.entries.filter(e=>e.language===language&&e.status===status).slice(0,100).map(e=>{const[sf,se]=e.identity.split(':');const surface=p.bundle.surfaceForms.find(s=>s.id===sf),sense=p.bundle.senses.find(s=>s.id===se),lemma=p.bundle.lemmas.find(l=>l.id===surface.lemmaId),occurrences=p.bundle.occurrences.filter(o=>o.surfaceFormId===sf&&o.senseId===se),contexts=p.bundle.units.filter(u=>occurrences.some(o=>o.unitId===u.id));return{identity:e.identity,baseRevision:reviewRevision(subjects.get(e.identity).value),reason:e.reason,surface,sense,lemma,occurrences,contexts};});
+writeFileSync(file,JSON.stringify({version:1,language,entries},null,2)+'\n');console.log(file.pathname);
