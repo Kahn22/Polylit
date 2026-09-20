@@ -26,6 +26,7 @@ const main = Object.values(manifest).find(item => item.name === "main");
 assert(main, "Library code is missing");
 assert(gzip(main.file) < 15_000, "Library JS exceeds 15 KB gzip budget");
 assert(!read(main.file).toString().includes("Zod"), "Editorial validation leaked into browser code");
+assert(!read(main.file).toString().includes("video/mp2t;base64,"), "A TypeScript source asset was inlined into navigation");
 
 for (const route of ["index.html", "languages/index.html", "fr/library/index.html", "es/library/index.html"]) {
   const html = read(route).toString();

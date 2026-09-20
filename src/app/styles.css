@@ -17,7 +17,7 @@ button { font: inherit; }
 .language-arrow { color: #963e28; font-size: 1.6rem; }
 .topbar { align-items: center; border-bottom: 1px solid #ddd4c2; display: flex; justify-content: space-between; margin: 0 auto; min-height: 82px; padding: max(12px, env(safe-area-inset-top)) max(24px, calc((100vw - 980px) / 2)); }
 .brand, .text-button { background: none; border: 0; cursor: pointer; padding: 4px 0; }
-.brand { color: #24241f; font-family: Georgia, serif; font-size: 1.15rem; }
+.brand { color: #24241f; font-family: Georgia, serif; font-size: 1.15rem; cursor: default; }
 .text-button { color: #786f62; font-size: .9rem; }
 .brand-logo { display: block; height: 48px; object-fit: contain; object-position: left center; width: 150px; }
 .topbar-actions { align-items: center; display: flex; gap: 18px; }

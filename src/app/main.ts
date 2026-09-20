@@ -250,7 +250,7 @@ function logo(className: string, alt = "Polylit") {
 }
 
 function navigation() {
-  return `<nav class="topbar" aria-label="Main navigation"><a class="brand" href="${sitePath(`${activeLanguage}/library/`)}">${logo("brand-logo")}</a><div class="topbar-actions"><a class="language-switch" href="${sitePath("languages/")}" target="_self">Choose language</a><a class="text-button" href="${sitePath()}" data-action="sign-out">Sign out</a></div></nav>`;
+  return `<nav class="topbar" aria-label="Main navigation"><span class="brand">${logo("brand-logo")}</span><div class="topbar-actions"><a class="language-switch" href="${sitePath("languages/")}" target="_self">Choose language</a><a class="text-button" href="${sitePath()}" data-action="sign-out">Sign out</a></div></nav>`;
 }
 
 function renderHome() {
@@ -261,7 +261,7 @@ function renderHome() {
 }
 
 function renderLanguageChoice() {
-  app.innerHTML = `<nav class="topbar" aria-label="Account navigation"><a class="brand" href="${sitePath("")}">${logo("brand-logo")}</a><a class="text-button" href="${sitePath("")}" data-action="sign-out">Sign out</a></nav>
+  app.innerHTML = `<nav class="topbar" aria-label="Account navigation"><span class="brand">${logo("brand-logo")}</span><a class="text-button" href="${sitePath("")}" data-action="sign-out">Sign out</a></nav>
     <main class="language-choice"><header><p class="eyebrow">Learner account</p><h1>What would you like to study?</h1><p class="lede">Choose a language to open its reading library.</p></header>
     <div class="language-options">
       <a class="language-card" href="${sitePath("fr/library/")}" target="_self" data-action="choose-language" data-language="fr"><span class="language-flag" aria-hidden="true">🇫🇷</span><span><strong>French</strong><small>Open the French library</small></span><span class="language-arrow" aria-hidden="true">→</span></a>
@@ -474,7 +474,12 @@ async function handleClick(event: MouseEvent) {
   }
   const action = target.dataset.action;
   if (action === "start-demo") { setDemoSession(true); return; }
-  if (action === "sign-out") { setDemoSession(false); return; }
+  if (action === "sign-out") {
+    event.preventDefault();
+    setDemoSession(false);
+    location.assign(sitePath());
+    return;
+  }
   if (action === "choose-language") {
     const language = target.dataset.language;
     if (language !== "fr" && language !== "es") return;

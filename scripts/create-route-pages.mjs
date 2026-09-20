@@ -33,7 +33,7 @@ const logoFile = logoMatch[1].slice("./assets/".length);
 const languageLogo = `../assets/${logoFile}`;
 const libraryLogo = `../../assets/${logoFile}`;
 
-await writeRoute("languages", "../", `      <nav class="topbar" aria-label="Account navigation"><a class="brand" href="../"><img class="brand-logo" src="${languageLogo}" alt="Polylit"></a><a class="text-button" href="../" data-action="sign-out">Sign out</a></nav>
+await writeRoute("languages", "../", `      <nav class="topbar" aria-label="Account navigation"><span class="brand"><img class="brand-logo" src="${languageLogo}" alt="Polylit"></span><a class="text-button" href="../" data-action="sign-out">Sign out</a></nav>
       <main class="language-choice"><header><p class="eyebrow">Learner account</p><h1>What would you like to study?</h1><p class="lede">Choose a language to open its reading library.</p></header>
         <div class="language-options">
           <a class="language-card" href="../fr/library/" target="_self" data-action="choose-language" data-language="fr"><span class="language-flag" aria-hidden="true">🇫🇷</span><span><strong>French</strong><small>Open the French library</small></span><span class="language-arrow" aria-hidden="true">→</span></a>
@@ -46,7 +46,7 @@ for (const language of ["fr", "es"]) {
     .trim()
     .replaceAll("<", "\\u003c");
   const index = JSON.parse(embeddedLibrary);
-  const navigation = `<nav class="topbar" aria-label="Main navigation"><a class="brand" href="./"><img class="brand-logo" src="${libraryLogo}" alt="Polylit"></a><div class="topbar-actions"><a class="language-switch" href="../../languages/" target="_self">Choose language</a><a class="text-button" href="../../" data-action="sign-out">Sign out</a></div></nav>`;
+  const navigation = `<nav class="topbar" aria-label="Main navigation"><span class="brand"><img class="brand-logo" src="${libraryLogo}" alt="Polylit"></span><div class="topbar-actions"><a class="language-switch" href="../../languages/" target="_self">Choose language</a><a class="text-button" href="../../" data-action="sign-out">Sign out</a></div></nav>`;
   const markup = libraryMarkup(index, {}, new Map(), new Map(), navigation);
   await writeRoute(`${language}/library`, "../../", markup,
     `<script id="polylit-library-data" type="application/json" data-language="${language}">${embeddedLibrary}</script>`);
