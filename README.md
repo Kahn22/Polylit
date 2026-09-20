@@ -27,7 +27,7 @@ Start the browser interface with `npm run dev`. The public homepage contains the
 
 The account contract and Learner/Admin/Owner authorization boundaries are vendor-neutral. Real registration, verification, sign-in, recovery, secure server sessions, and multi-device persistence deliberately remain unconnected until a hosting and authentication architecture is approved. The preview session is labeled clearly and uses session storage only as a disposable navigation convenience; it never stores credentials or pretends to provide security.
 
-The current Vite browser build is written into `build/`. Publication requires passing the exact-version editorial gate; the local review output must not be uploaded as an approved release. No quiz content is generated or rewritten at learner runtime.
+The approved Vite production build is written into `build/` and still requires passing the exact-version editorial gate. By explicit project-owner decision, GitHub Pages temporarily deploys `review-build/` as a public review candidate while the remaining editorial records are reviewed; this preview is not an approved production release. No quiz content is generated or rewritten at learner runtime.
 
 The detailed product and editorial rules are recorded in [`docs/PRODUCT_SPEC.md`](docs/PRODUCT_SPEC.md), and the ordered production queue is recorded in [`docs/CONTENT_ROADMAP.md`](docs/CONTENT_ROADMAP.md). English sentence/thought-unit translations are intentionally excluded. English vocabulary meanings and answer choices remain only where Levels 1–5 require them.
 
