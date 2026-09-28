@@ -4,6 +4,42 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_en_ayunas_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_en_ayunas"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Salió en ayunas y desayunó al llegar a la estación.",
+      "targetText": "en ayunas",
+      "targetRange": {
+        "start": 6,
+        "end": 15
+      },
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "on an empty stomach"
+        },
+        {
+          "id": "choice_2",
+          "text": "in a hurry"
+        },
+        {
+          "id": "choice_3",
+          "text": "in secret"
+        },
+        {
+          "id": "choice_4",
+          "text": "with friends"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0005_abiertos_advanced",
       "language": "es",
       "glossLanguage": "en",
@@ -1609,6 +1645,71 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_medio_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_medio",
+        "senseId": "sns_es_samaniego_medio"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Compró medio kilo de arroz y un saco entero de harina.",
+      "prompt": "¿Qué palabra indica la mitad de una unidad?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "medio"
+        },
+        {
+          "id": "choice_2",
+          "text": "kilo"
+        },
+        {
+          "id": "choice_3",
+          "text": "entero"
+        },
+        {
+          "id": "choice_4",
+          "text": "saco"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_parra_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_parra_parra_68257624",
+        "senseId": "sns_es_samaniego_parra"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La ___ del patio da racimos de uvas cada verano.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "parra"
+        },
+        {
+          "id": "choice_2",
+          "text": "palmera"
+        },
+        {
+          "id": "choice_3",
+          "text": "higuera"
+        },
+        {
+          "id": "choice_4",
+          "text": "encina"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

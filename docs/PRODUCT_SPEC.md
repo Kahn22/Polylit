@@ -159,3 +159,7 @@ Do NOT implement every feature in one pass. First milestone is a trustworthy con
 Do not choose paid backend, hosting provider, auth vendor, database service, or significant infrastructure commitment without asking me.
 At completion report files/components changed, implementation decisions, tests/results, genuinely unresolved issues, and recommended next milestone.
 The repository specification must remain authoritative for subsequent Work sessions.
+
+## Source provenance
+
+All texts follow the mandatory [text source standard](TEXT_SOURCE_STANDARD.md), adopted 2026-09-21. Source dossiers and scan evidence are editorial assets, excluded from learner delivery. Canonical text changes require versioned evidence and review of affected learning records. Source verification is independent of quiz approval; unresolved legacy evidence is explicitly tracked.

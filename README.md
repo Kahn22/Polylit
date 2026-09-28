@@ -1,6 +1,8 @@
 # Polylit
 
-Polylit is a multilingual reading and spaced-repetition learning application built around canonical public-domain literature. It has eight French works and two Spanish works, with separate libraries, vocabulary progress, and quiz state. This repository contains a framework-neutral TypeScript content model, deterministic validation, reference fixtures, and a lightweight browser learner interface. It intentionally does not yet choose production authentication or a database.
+Polylit is a multilingual reading and spaced-repetition learning application built around canonical public-domain literature. It has eight French works and three Spanish works, with separate libraries, vocabulary progress, and quiz state. This repository contains a framework-neutral TypeScript content model, deterministic validation, reference fixtures, and a lightweight browser learner interface. It intentionally does not yet choose production authentication or a database.
+
+The latest Spanish addition is Samaniego’s complete *La zorra y las uvas* (🇪🇸 Spain), based on the 1902 edition with documented typography and one printing-error correction. Its 80 vocabulary identities and two expressions have 246 applicable prepared questions. See the [source and editorial record](content/intake/samaniego-zorra-uvas/README.md).
 
 The authoritative publication source is now `content/published/registry.json`, per-work packages under `content/published/works`, and shared language collections under `content/published/shared`. The old aggregate learning files remain historical migration fixtures, not the current catalog. See [Publication and performance](docs/PERFORMANCE_AND_PUBLICATION.md) for the approved architecture, safe update workflow, caching policy, and release checks.
 

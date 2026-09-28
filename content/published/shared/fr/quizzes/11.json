@@ -577,6 +577,38 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_tout_heure_fr_a_tout_heure_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_tout_heure_a",
+        "senseId": "sns_fr_a_tout_heure"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Nous parlerons _____ tout l’heure de ce sujet.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "par"
+        },
+        {
+          "id": "choice_3",
+          "text": "sans"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_autant_equal_extent_zola_autant_autant_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1253,6 +1285,76 @@
         {
           "id": "choice_4",
           "text": "douceur"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_en_flammes"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ces révélations risquaient de _____ l’Europe en flammes.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mettre"
+        },
+        {
+          "id": "choice_2",
+          "text": "tenir"
+        },
+        {
+          "id": "choice_3",
+          "text": "rendre"
+        },
+        {
+          "id": "choice_4",
+          "text": "porter"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_ne_que_only_n_elided_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il n’y a ici qu’une seule explication.",
+      "targetText": "n’",
+      "targetRange": {
+        "start": 3,
+        "end": 5
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "everywhere"
+        },
+        {
+          "id": "choice_2",
+          "text": "only, in n’ ... que"
+        },
+        {
+          "id": "choice_3",
+          "text": "not at all"
+        },
+        {
+          "id": "choice_4",
+          "text": "already"
         }
       ],
       "correctChoiceId": "choice_2"

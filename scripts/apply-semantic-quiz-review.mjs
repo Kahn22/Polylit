@@ -79,7 +79,7 @@ for(const workId of touched){const work=readWorkSource(resolve(publicationRoot,`
 files.set(ledgerPath,{version:2,id:plan.id,policy:'polylit-editorial-v2',reviewedBy:'Codex offline contextual review',reviewedAt:date,masteryIdsChanged:mappings.length>0,progressPolicy:'preserve-history-fresh-on-view-v1',progressTransfers:[],mappings,resolutions,changes});
 const recovery=adoptSourceFiles(publicationRoot,files,root=>{
  const saved=loadPublication(root);validatePublication(saved.bundle,saved.expressionCatalog,saved.registry);
- if(auditEditorialQuality(saved).some(issue=>reviewed.has(`${issue.kind}:${issue.id}`)))throw Error('Newly reviewed records fail quality gate');
+ const reviewedIssues=auditEditorialQuality(saved).filter(issue=>reviewed.has(`${issue.kind}:${issue.id}`));if(reviewedIssues.length)throw Error(`Newly reviewed records fail quality gate: ${JSON.stringify(reviewedIssues)}`);
  for(const mapping of mappings)for(const id of mapping.occurrenceIds){const o=byId(saved.bundle.occurrences,id);if(`${o.surfaceFormId}:${o.senseId}`!==mapping.to)throw Error('Occurrence mapping mismatch');}
  for(const [id,b]of saved.textBindings){const before=p.textBindings.get(id);if(before.textRevision!==b.textRevision||before.structureRevision!==b.structureRevision)throw Error('Canonical text changed');}
  const changedOccIds=new Set(mappings.flatMap(m=>m.occurrenceIds));

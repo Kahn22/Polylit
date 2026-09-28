@@ -1836,6 +1836,109 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_quedase_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_quedase",
+        "senseId": "sns_es_samaniego_quedase"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El viajero quédase junto al fuego mientras los demás salen.",
+      "targetText": "quédase",
+      "targetRange": {
+        "start": 11,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "stays; remains"
+        },
+        {
+          "id": "choice_2",
+          "text": "leaves"
+        },
+        {
+          "id": "choice_3",
+          "text": "runs"
+        },
+        {
+          "id": "choice_4",
+          "text": "falls"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_vid_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_vid",
+        "senseId": "sns_es_samaniego_vid"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La uva es el fruto de la ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vid"
+        },
+        {
+          "id": "choice_2",
+          "text": "higuera"
+        },
+        {
+          "id": "choice_3",
+          "text": "encina"
+        },
+        {
+          "id": "choice_4",
+          "text": "palmera"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_morlacos_advanced",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_morlacos_currency_sourcefix",
+        "senseId": "sns_es_morlaco_coin"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Guardó los morlacos en una bolsa junto con las monedas y el recibo.",
+      "prompt": "¿Qué palabra histórica designa aquí el dinero?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "morlacos"
+        },
+        {
+          "id": "choice_2",
+          "text": "bolsa"
+        },
+        {
+          "id": "choice_3",
+          "text": "monedas"
+        },
+        {
+          "id": "choice_4",
+          "text": "recibo"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

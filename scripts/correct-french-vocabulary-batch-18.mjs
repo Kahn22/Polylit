@@ -1,0 +1,43 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { quizEditorialIssues } from '../dist/publication/quiz-authoring.js';
+import { fromNeutral, toNeutral } from '../dist/publication/format.js';
+import { adoptSourceFiles, reconcileQuizzes, sharedSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-lexical-correction-2026-09-25-18';
+const reviewPath = `editorial-review-batches/${batchId}.json`;
+const correctionPath = `editorial-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, reviewPath)) || existsSync(resolve(publicationRoot, correctionPath))) throw new Error('Batch already exists');
+const subjectId = 'srf_aux:sns_aux_primary', senseId = 'sns_aux_primary';
+const publication = loadPublication();
+if (!auditEditorialQuality(publication).some(issue => issue.id === subjectId && issue.kind === 'vocabulary')) throw new Error('Identity no longer pending');
+const subject = editorialSubjects(publication).find(item => item.id === subjectId && item.kind === 'vocabulary');
+if (subject.value.occurrences.length !== 29) throw new Error('Indexed uses changed; re-review all contexts');
+const source = publication.sharedSources.fr;
+const content = fromNeutral(source.legacy.content);
+const beforeSense = content.senses.find(sense => sense.id === senseId);
+const afterSense = { ...beforeSense, gloss: 'to the; at the; about the (à + les)', definition: 'Contraction de « à » et « les » devant un nom pluriel ; selon la construction, marque notamment la destination, le lieu, le rapport ou le thème.' };
+content.senses = content.senses.map(sense => sense.id === senseId ? afterSense : sense);
+const legacy = { ...source.legacy, content: toNeutral(content) };
+const quizzes = reconcileQuizzes(source, legacy);
+const reviews = new Map(source.reviews.map(review => [review.id, review]));
+const rationale = 'All 29 indexed uses contract à + les. The old “at the” gloss obscured destination, relation, and topic uses, including songeait aux and supérieure aux. The clarified gloss preserves the same grammatical identity; all three questions still test this contraction in their own contexts.';
+const reviewId = `vocabulary:${subjectId}`, before = reviews.get(reviewId);
+const after = approveReview('fr', 'vocabulary', subjectId, { ...subject.value, sense: afterSense }, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+reviews.set(reviewId, after);
+let reboundQuizApprovals = 0;
+for (const quiz of quizzes) {
+  if (quiz.subject.kind !== 'vocabulary' || quiz.subject.senseId !== senseId) continue;
+  if (quizEditorialIssues(quiz).length) throw new Error(`Quiz needs correction: ${quiz.id}`);
+  reviews.set(`quiz:${quiz.id}`, approveReview('fr', 'quiz', quiz.id, { quiz, target: { surface: subject.value.surface, sense: afterSense, lemma: subject.value.lemma } }, 'Codex', '2026-09-25T00:00:00.000Z', rationale));
+  reboundQuizApprovals++;
+}
+if (reboundQuizApprovals !== 3) throw new Error(`Expected three quizzes, got ${reboundQuizApprovals}`);
+const files = new Map(sharedSourceFiles({ ...source, legacy, quizzes, reviews: [...reviews.values()] }));
+files.set(reviewPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'vocabulary', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'reviewed all indexed constructions and three dependent questions', changes: [{ subjectId, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: 29 }] });
+files.set(correctionPath, { version: 1, id: batchId, language: 'fr', masteryIdsChanged: false, progressTransfers: [], reboundQuizApprovals, changes: [{ kind: 'senses', id: senseId, before: beforeSense, after: afterSense, reason: rationale }] });
+adoptSourceFiles(publicationRoot, files, stage => { const candidate = loadPublication(stage); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.id === subjectId && issue.kind === 'vocabulary')) throw new Error('Identity still blocked'); });
+console.log(JSON.stringify({ batchId, reviewedIdentities: 1, remainingFrenchVocabulary: 49, reboundQuizApprovals }));

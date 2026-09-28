@@ -1915,6 +1915,76 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_bien_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_bien",
+        "senseId": "sns_es_samaniego_bien"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Lee bien las instrucciones antes de montar la estantería.",
+      "targetText": "bien",
+      "targetRange": {
+        "start": 4,
+        "end": 8
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "well; correctly"
+        },
+        {
+          "id": "choice_2",
+          "text": "badly"
+        },
+        {
+          "id": "choice_3",
+          "text": "never"
+        },
+        {
+          "id": "choice_4",
+          "text": "outside"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_zorra_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_zorra",
+        "senseId": "sns_es_samaniego_zorra"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La hembra del zorro es una ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "zorra"
+        },
+        {
+          "id": "choice_2",
+          "text": "cabra"
+        },
+        {
+          "id": "choice_3",
+          "text": "yegua"
+        },
+        {
+          "id": "choice_4",
+          "text": "cierva"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

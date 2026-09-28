@@ -27,21 +27,31 @@ describe("learner application content", () => {
       ["wrk_maupassant_la_parure", "La Parure"],
       ["wrk_perrault_cendrillon", "Cendrillon ou la Petite Pantoufle de verre"],
       ["wrk_palma_camisa_margarita", "La camisa de Margarita"],
-      ["wrk_quiroga_almohadon_plumas", "El almohadón de plumas"],
+      ["wrk_quiroga_almohadon_plumas", "El almohadón de pluma"],
+      ["wrk_samaniego_zorra_uvas", "La zorra y las uvas"],
     ]);
   });
 
   it("exposes every prepared identity and shares identities across texts", () => {
     expect(learnerVocabularyForWork(appBundle, "wrk_cigale_fourmi")).toHaveLength(86);
-    expect(learnerVocabularyForWork(appBundle, "wrk_corbeau_renard")).toHaveLength(98);
-    expect(learnerVocabularyForWork(appBundle, "wrk_loup_agneau")).toHaveLength(146);
+    expect(learnerVocabularyForWork(appBundle, "wrk_corbeau_renard")).toHaveLength(99);
+    expect(learnerVocabularyForWork(appBundle, "wrk_loup_agneau")).toHaveLength(147);
     expect(learnerVocabularyForWork(appBundle, "wrk_lion_rat")).toHaveLength(103);
-    expect(learnerVocabularyForWork(appBundle, "wrk_lievre_tortue")).toHaveLength(179);
-    expect(learnerVocabularyForWork(appBundle, "wrk_zola_jaccuse")).toHaveLength(1450);
-    expect(learnerVocabularyForWork(appBundle, "wrk_maupassant_la_parure")).toHaveLength(1084);
-    expect(learnerVocabularyForWork(appBundle, "wrk_perrault_cendrillon")).toHaveLength(794);
-    expect(learnerVocabularyForWork(appBundle, "wrk_palma_camisa_margarita")).toHaveLength(502);
-    expect(learnerVocabularyForWork(appBundle, "wrk_quiroga_almohadon_plumas")).toHaveLength(568);
+    expect(learnerVocabularyForWork(appBundle, "wrk_lievre_tortue")).toHaveLength(182);
+    expect(learnerVocabularyForWork(appBundle, "wrk_zola_jaccuse")).toHaveLength(1474);
+    expect(identitySet("wrk_lievre_tortue")).toContain("srf_n_elided:sns_fr_ne_que_only");
+    expect(identitySet("wrk_zola_jaccuse")).toContain("srf_ne:sns_fr_ne_que_only");
+    expect(identitySet("wrk_zola_jaccuse")).toContain("srf_zola_doute_doute_noun:sns_fr_sans_doute_probably");
+    expect(identitySet("wrk_zola_jaccuse")).toContain("srf_zola_doute_doute_noun:sns_zola_doute_uncertainty");
+    expect(identitySet("wrk_zola_jaccuse")).toContain("srf_fr_triomphe_triompher_verb:sns_fr_triompher_prevail");
+    expect(identitySet("wrk_zola_jaccuse")).toContain("srf_zola_triomphe_triomphe:sns_zola_triomphe_primary");
+    expect(learnerVocabularyForWork(appBundle, "wrk_maupassant_la_parure")).toHaveLength(1101);
+    expect(learnerVocabularyForWork(appBundle, "wrk_perrault_cendrillon")).toHaveLength(805);
+    expect(identitySet("wrk_perrault_cendrillon")).toContain("srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression");
+    expect(identitySet("wrk_perrault_cendrillon")).toContain("srf_parure_trouver_lem_zola_trouver_75d0160413:sns_fr_aller_trouver_see_person");
+    expect(identitySet("wrk_perrault_cendrillon")).toContain("srf_parure_trouver_lem_zola_trouver_75d0160413:sns_parure_trouver_rencontrer_la_personne_ou_la_chose_que_l_on_cherche_26ab9fa323");
+    expect(learnerVocabularyForWork(appBundle, "wrk_palma_camisa_margarita")).toHaveLength(507);
+    expect(learnerVocabularyForWork(appBundle, "wrk_quiroga_almohadon_plumas")).toHaveLength(569);
 
     const corbeau = identitySet("wrk_corbeau_renard");
     const lievre = identitySet("wrk_lievre_tortue");
@@ -53,8 +63,8 @@ describe("learner application content", () => {
   it("delivers every prepared expression to the learner app", () => {
     expect(validateExpressionCatalog(appBundle, appExpressionCatalog)).toEqual([]);
     expect(learnerExpressionsForWork(appBundle, appExpressionCatalog, "wrk_zola_jaccuse")).toHaveLength(10);
-    expect(appExpressionCatalog.identities).toHaveLength(39);
-    expect(appExpressionCatalog.preparedQuizzes).toHaveLength(117);
+    expect(appExpressionCatalog.identities).toHaveLength(41);
+    expect(appExpressionCatalog.preparedQuizzes).toHaveLength(123);
   });
 
   it("does not reuse any selected fable source passage verbatim as a quiz context", () => {

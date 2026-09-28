@@ -1850,6 +1850,77 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_racimos_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_racimos",
+        "senseId": "sns_es_samaniego_racimos"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Cortaron los racimos de uvas durante la vendimia.",
+      "targetText": "racimos",
+      "targetRange": {
+        "start": 13,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "bunches; clusters"
+        },
+        {
+          "id": "choice_2",
+          "text": "roots"
+        },
+        {
+          "id": "choice_3",
+          "text": "trunks"
+        },
+        {
+          "id": "choice_4",
+          "text": "seeds"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_uvas_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_uvas",
+        "senseId": "sns_es_samaniego_uvas"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "En la cesta había uvas recién cortadas de la vid, junto a peras y naranjas.",
+      "prompt": "¿Qué palabra nombra los frutos de la vid?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "uvas"
+        },
+        {
+          "id": "choice_2",
+          "text": "cesta"
+        },
+        {
+          "id": "choice_3",
+          "text": "peras"
+        },
+        {
+          "id": "choice_4",
+          "text": "naranjas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

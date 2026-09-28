@@ -1885,6 +1885,114 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_anduvo_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_anduvo",
+        "senseId": "sns_es_samaniego_anduvo"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El vecino anduvo en reparaciones durante todo el verano.",
+      "targetText": "anduvo",
+      "targetRange": {
+        "start": 10,
+        "end": 16
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was engaged in; went about"
+        },
+        {
+          "id": "choice_2",
+          "text": "refused to engage"
+        },
+        {
+          "id": "choice_3",
+          "text": "finished forever"
+        },
+        {
+          "id": "choice_4",
+          "text": "forgot to engage"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_intento_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_intento",
+        "senseId": "sns_es_samaniego_intento"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Aunque no logró encender el fuego, aquel fue su primer ___ por conseguirlo.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "intento"
+        },
+        {
+          "id": "choice_2",
+          "text": "premio"
+        },
+        {
+          "id": "choice_3",
+          "text": "descanso"
+        },
+        {
+          "id": "choice_4",
+          "text": "accidente"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_item_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_item_sourcefix",
+        "senseId": "sns_es_item_furthermore"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El notario escribió: «Item, deberán entregarse también las llaves».",
+      "targetText": "Item",
+      "targetRange": {
+        "start": 22,
+        "end": 26
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "furthermore; another item"
+        },
+        {
+          "id": "choice_2",
+          "text": "perhaps"
+        },
+        {
+          "id": "choice_3",
+          "text": "never"
+        },
+        {
+          "id": "choice_4",
+          "text": "yesterday"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

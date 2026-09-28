@@ -2202,6 +2202,108 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_bien_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_bien",
+        "senseId": "sns_es_samaniego_bien"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "No cometió ningún error: resolvió ___ todos los ejercicios.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "bien"
+        },
+        {
+          "id": "choice_2",
+          "text": "mal"
+        },
+        {
+          "id": "choice_3",
+          "text": "nunca"
+        },
+        {
+          "id": "choice_4",
+          "text": "fuera"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_impaciente_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_impaciente",
+        "senseId": "sns_es_samaniego_impaciente"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "No soportaba esperar ni un minuto; estaba cada vez más ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "impaciente"
+        },
+        {
+          "id": "choice_2",
+          "text": "tranquilo"
+        },
+        {
+          "id": "choice_3",
+          "text": "agradecido"
+        },
+        {
+          "id": "choice_4",
+          "text": "somnoliento"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_dato_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_dato_sourcefix",
+        "senseId": "sns_es_dato_information"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El registro confirma un dato importante sobre la fecha del viaje.",
+      "targetText": "dato",
+      "targetRange": {
+        "start": 24,
+        "end": 28
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "piece of information"
+        },
+        {
+          "id": "choice_2",
+          "text": "opinion"
+        },
+        {
+          "id": "choice_3",
+          "text": "person"
+        },
+        {
+          "id": "choice_4",
+          "text": "place"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

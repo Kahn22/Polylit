@@ -1,0 +1,43 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { quizEditorialIssues } from '../dist/publication/quiz-authoring.js';
+import { fromNeutral, toNeutral } from '../dist/publication/format.js';
+import { adoptSourceFiles, reconcileQuizzes, sharedSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-lexical-correction-2026-09-25-19';
+const reviewPath = `editorial-review-batches/${batchId}.json`;
+const correctionPath = `editorial-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, reviewPath)) || existsSync(resolve(publicationRoot, correctionPath))) throw new Error('Batch already exists');
+const subjectId = 'srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware';
+const publication = loadPublication();
+if (!auditEditorialQuality(publication).some(issue => issue.kind === 'vocabulary' && issue.id === subjectId)) throw new Error('Identity no longer pending');
+const subject = editorialSubjects(publication).find(item => item.kind === 'vocabulary' && item.id === subjectId);
+if (subject.value.occurrences.length !== 1 || !subject.value.contexts[0].french.includes('en inconscient')) throw new Error('Indexed context changed');
+const source = publication.sharedSources.fr;
+const content = fromNeutral(source.legacy.content);
+const oldQuestion = content.quizItems.find(item => item.id === 'qiz_zola_inconscient_inconscient_unaware_early');
+if (!oldQuestion) throw new Error('Early question missing');
+const newQuestion = { ...oldQuestion, contextFrench: 'Il a agi en inconscient, sans connaître les conséquences de son geste.', correctAnswer: 'unwitting; unaware', choicesEnglish: ['unwitting; unaware', 'fully aware', 'deliberate', 'informed'] };
+content.quizItems = content.quizItems.map(item => item.id === oldQuestion.id ? newQuestion : item);
+const legacy = { ...source.legacy, content: toNeutral(content) };
+const quizzes = reconcileQuizzes(source, legacy);
+const reviews = new Map(source.reviews.map(review => [review.id, review]));
+const rationale = 'Zola says “en inconscient, je veux le croire”: he depicts an unwitting participant, not necessarily someone reckless. The early choice now tests lack of awareness; the completion and identification questions also test not grasping consequences. The historical nominal use and adjectival uses retain the same learner meaning.';
+const reviewId = `vocabulary:${subjectId}`, before = reviews.get(reviewId);
+const after = approveReview('fr', 'vocabulary', subjectId, subject.value, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+reviews.set(reviewId, after);
+let reboundQuizApprovals = 0;
+for (const quiz of quizzes.filter(item => item.subject.kind === 'vocabulary' && item.subject.surfaceFormId === subject.value.surface.id && item.subject.senseId === subject.value.sense.id)) {
+  if (quizEditorialIssues(quiz).length) throw new Error(`Quiz needs correction: ${quiz.id}`);
+  reviews.set(`quiz:${quiz.id}`, approveReview('fr', 'quiz', quiz.id, { quiz, target: { surface: subject.value.surface, sense: subject.value.sense, lemma: subject.value.lemma } }, 'Codex', '2026-09-25T00:00:00.000Z', rationale));
+  reboundQuizApprovals++;
+}
+if (reboundQuizApprovals !== 3) throw new Error('Expected three dependent quizzes');
+const files = new Map(sharedSourceFiles({ ...source, legacy, quizzes, reviews: [...reviews.values()] }));
+files.set(reviewPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'vocabulary', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'one indexed literary use and three rechecked question bands', changes: [{ subjectId, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: 1 }] });
+files.set(correctionPath, { version: 1, id: batchId, language: 'fr', masteryIdsChanged: false, progressTransfers: [], reboundQuizApprovals, changes: [{ kind: 'quizItems', id: oldQuestion.id, before: oldQuestion, after: newQuestion, reason: rationale }] });
+adoptSourceFiles(publicationRoot, files, stage => { const candidate = loadPublication(stage); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.kind === 'vocabulary' && issue.id === subjectId)) throw new Error('Identity still blocked'); });
+console.log(JSON.stringify({ batchId, reviewedIdentities: 1, reboundQuizApprovals }));

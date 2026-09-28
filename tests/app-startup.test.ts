@@ -81,7 +81,7 @@ describe("application entry startup", () => {
       await import("../src/app/main.js");
       await vi.waitFor(() => expect(destination.app.innerHTML).toContain(`Your ${language === "fr" ? "french" : "spanish"} library`));
       expect(destination.location.pathname).toBe(href);
-      expect(destination.app.innerHTML.match(/<article class="text-card/g)).toHaveLength(language === "fr" ? 8 : 2);
+      expect(destination.app.innerHTML.match(/<article class="text-card/g)).toHaveLength(indexes[language].catalog.works.length);
     });
 
     for (const embedded of [false, true]) {
@@ -95,7 +95,7 @@ describe("application entry startup", () => {
         expect(app.innerHTML).not.toContain("Preparing your books, vocabulary, and quizzes");
         expect(app.innerHTML).toContain('<a class="language-switch" href="/languages/" target="_self">Choose language</a>');
         expect(app.innerHTML).not.toContain(`href="/${language === "fr" ? "es" : "fr"}/library/"`);
-        expect(app.innerHTML.match(/<article class="text-card/g)).toHaveLength(language === "fr" ? 8 : 2);
+        expect(app.innerHTML.match(/<article class="text-card/g)).toHaveLength(indexes[language].catalog.works.length);
         for (const work of indexes[language === "fr" ? "es" : "fr"].catalog.works) {
           expect(app.innerHTML).not.toContain(`data-work-id="${work.id}"`);
         }

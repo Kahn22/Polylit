@@ -1,0 +1,835 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-69",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 69,
+  "reviewedIdentities": 25,
+  "approvals": 18,
+  "holds": 7,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of lemma, part of speech, surface form, indexed contexts, sense and reuse candidates",
+  "changes": [
+    {
+      "subjectId": "srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+      "reviewId": "vocabulary:srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+      "outcome": "approve",
+      "rationale": "Mensonge means lie/falsehood; noun sense fits the context.",
+      "before": {
+        "id": "vocabulary:srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+        "subjectRevision": "rev_d3c094c0aedeef84eb3b166abd79248c0aa0942c673c042cb62f27a267172391",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mensonge_mensonge:sns_zola_mensonge_lie",
+        "subjectRevision": "rev_d3c094c0aedeef84eb3b166abd79248c0aa0942c673c042cb62f27a267172391",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mensonge means lie/falsehood; noun sense fits the context.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+      "reviewId": "vocabulary:srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+      "outcome": "approve",
+      "rationale": "Mensonger describes deceptive or false reports; plural adjective form fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+        "subjectRevision": "rev_f809445d3bfcda36e4895c3af96f194f282f75231fdfe469d8209d2c017b7d70",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mensongers_mensonger:sns_zola_mensonger_false",
+        "subjectRevision": "rev_f809445d3bfcda36e4895c3af96f194f282f75231fdfe469d8209d2c017b7d70",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mensonger describes deceptive or false reports; plural adjective form fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+      "reviewId": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+      "outcome": "hold",
+      "rationale": "Mentent means they lie/tell falsehoods; present plural verb sense fits. Unresolved same-lemma candidate remains (dup_9983c1993337ab6b6000312ee5b3cc9eb2244a4188f388215fd56b0499592602).",
+      "before": {
+        "id": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "subjectRevision": "rev_8190296ebc230f0e1dba4b959d45d0111bbdcecb5351abf624b3c033237f3bb4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "subjectRevision": "rev_8190296ebc230f0e1dba4b959d45d0111bbdcecb5351abf624b3c033237f3bb4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Mentent means they lie/tell falsehoods; present plural verb sense fits. Unresolved same-lemma candidate remains (dup_9983c1993337ab6b6000312ee5b3cc9eb2244a4188f388215fd56b0499592602)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+      "reviewId": "vocabulary:srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+      "outcome": "approve",
+      "rationale": "Menteur describes a lying/deceitful pretext; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+        "subjectRevision": "rev_c9aa2545886d4e9c04bc7e7d4f3cbfd57c7ca3aa56611d5204e7bc49b262ce66",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menteur_menteur:sns_zola_menteur_deceptive",
+        "subjectRevision": "rev_c9aa2545886d4e9c04bc7e7d4f3cbfd57c7ca3aa56611d5204e7bc49b262ce66",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Menteur describes a lying/deceitful pretext; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+      "reviewId": "vocabulary:srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+      "outcome": "approve",
+      "rationale": "Mépris means contempt/scorn; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+        "subjectRevision": "rev_45c3c4dbe998abaeadadf15f7c427db885a90334b1ffec538f826164c19991b9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mepris_24f03d4a740c_mepris:sns_zola_mepris_contempt",
+        "subjectRevision": "rev_45c3c4dbe998abaeadadf15f7c427db885a90334b1ffec538f826164c19991b9",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mépris means contempt/scorn; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mes_mon:sns_zola_mon_my",
+      "reviewId": "vocabulary:srf_zola_mes_mon:sns_zola_mon_my",
+      "outcome": "hold",
+      "rationale": "Mes nuits and mes vilains habits both mean my nights/my shabby clothes; possessive determiner sense fits. Unresolved same-lemma candidate remains (dup_0923da1c9822a0b2b05780ea74609bfba9432cac72cda028c04835bdf8a29ea0).",
+      "before": {
+        "id": "vocabulary:srf_zola_mes_mon:sns_zola_mon_my",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mes_mon:sns_zola_mon_my",
+        "subjectRevision": "rev_705393de9dedadeaf5daa2698827c52933dac3324c36e4b3e62b4506a16911ff",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mes_mon:sns_zola_mon_my",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mes_mon:sns_zola_mon_my",
+        "subjectRevision": "rev_705393de9dedadeaf5daa2698827c52933dac3324c36e4b3e62b4506a16911ff",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Mes nuits and mes vilains habits both mean my nights/my shabby clothes; possessive determiner sense fits. Unresolved same-lemma candidate remains (dup_0923da1c9822a0b2b05780ea74609bfba9432cac72cda028c04835bdf8a29ea0)."
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_mesures_mesure:sns_zola_mesure_action",
+      "reviewId": "vocabulary:srf_zola_mesures_mesure:sns_zola_mesure_action",
+      "outcome": "approve",
+      "rationale": "Mesures means measures/actions taken; plural noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mesures_mesure:sns_zola_mesure_action",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mesures_mesure:sns_zola_mesure_action",
+        "subjectRevision": "rev_416a44e257fe845c6090cab3ca4f2a075ecaf4fde94b3d0ef91254983d65f336",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mesures_mesure:sns_zola_mesure_action",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mesures_mesure:sns_zola_mesure_action",
+        "subjectRevision": "rev_416a44e257fe845c6090cab3ca4f2a075ecaf4fde94b3d0ef91254983d65f336",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mesures means measures/actions taken; plural noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_met_mettre:sns_zola_mettre_place",
+      "reviewId": "vocabulary:srf_zola_met_mettre:sns_zola_mettre_place",
+      "outcome": "hold",
+      "rationale": "Mettre means put/place, including putting on jewelry and putting a matter into an extreme state; verb sense fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1).",
+      "before": {
+        "id": "vocabulary:srf_zola_met_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_met_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_c4f1e502b0566efee0d6ad1532ca2fa0484381925cd5b4d4d39537e99bea6aa0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_met_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_met_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_c4f1e502b0566efee0d6ad1532ca2fa0484381925cd5b4d4d39537e99bea6aa0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Mettre means put/place, including putting on jewelry and putting a matter into an extreme state; verb sense fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mets_mettre:sns_zola_mettre_place",
+      "reviewId": "vocabulary:srf_zola_mets_mettre:sns_zola_mettre_place",
+      "outcome": "hold",
+      "rationale": "The context uses mettre in its present form meaning put/place; conjugated form fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1).",
+      "before": {
+        "id": "vocabulary:srf_zola_mets_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mets_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_ceb12897c2a8138d53ca0636522e92c86bd01c432275d3201e75efd591793629",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mets_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mets_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_ceb12897c2a8138d53ca0636522e92c86bd01c432275d3201e75efd591793629",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context uses mettre in its present form meaning put/place; conjugated form fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+      "reviewId": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+      "outcome": "hold",
+      "rationale": "In ne mettaient pas en doute, mettre en doute means doubt/call into question; imperfect plural form and phrase sense fit. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1).",
+      "before": {
+        "id": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "subjectRevision": "rev_7948523cad13b590672823ab84270a9fe75978102a17fafcba2faf52b41b5483",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "subjectRevision": "rev_7948523cad13b590672823ab84270a9fe75978102a17fafcba2faf52b41b5483",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In ne mettaient pas en doute, mettre en doute means doubt/call into question; imperfect plural form and phrase sense fit. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mettant_mettre:sns_zola_mettre_place",
+      "reviewId": "vocabulary:srf_zola_mettant_mettre:sns_zola_mettre_place",
+      "outcome": "hold",
+      "rationale": "Mettant leurs bottes sur la nation means figuratively putting boots on the nation; participle and sense fit. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1).",
+      "before": {
+        "id": "vocabulary:srf_zola_mettant_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettant_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_7f271d108838378f6cc917eb94062f9435b560fc4ec45fec011720367d09172b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mettant_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettant_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_7f271d108838378f6cc917eb94062f9435b560fc4ec45fec011720367d09172b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Mettant leurs bottes sur la nation means figuratively putting boots on the nation; participle and sense fit. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "reviewId": "vocabulary:srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "outcome": "hold",
+      "rationale": "Across contexts mettre means put/place, including placing an object, getting ready, and putting Europe in flames; infinitive sense fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1).",
+      "before": {
+        "id": "vocabulary:srf_zola_mettre_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_25032c174a575b4093b884b1d896243cd071c25315bf8d947080f37cbd8488a0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mettre_mettre:sns_zola_mettre_place",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+        "subjectRevision": "rev_25032c174a575b4093b884b1d896243cd071c25315bf8d947080f37cbd8488a0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Across contexts mettre means put/place, including placing an object, getting ready, and putting Europe in flames; infinitive sense fits. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_environment",
+      "reviewId": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_environment",
+      "outcome": "approve",
+      "rationale": "Milieu clérical/religieux refers to a social environment/circle; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_environment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_environment",
+        "subjectRevision": "rev_d8abad8225446d66564d148a7623a70c699f9e60e4690c632c253e505e6ee551",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_environment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_environment",
+        "subjectRevision": "rev_d8abad8225446d66564d148a7623a70c699f9e60e4690c632c253e505e6ee551",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Milieu clérical/religieux refers to a social environment/circle; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_middle",
+      "reviewId": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_middle",
+      "outcome": "approve",
+      "rationale": "Au milieu means in the middle or midst of dinner, mystery, or a group; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_middle",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_middle",
+        "subjectRevision": "rev_70745203efb74a8487dd93c1bbd9b2a9bb3afe4df479236565ab4ca652038133",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_milieu_milieu:sns_zola_milieu_middle",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_milieu_milieu:sns_zola_milieu_middle",
+        "subjectRevision": "rev_70745203efb74a8487dd93c1bbd9b2a9bb3afe4df479236565ab4ca652038133",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Au milieu means in the middle or midst of dinner, mystery, or a group; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+      "reviewId": "vocabulary:srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+      "outcome": "approve",
+      "rationale": "Militaire describes the military interest/affairs; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+        "subjectRevision": "rev_c5c0f105fbe3091c4d73b01de9b06c82c645ce08ebe300c44db7b52ed97ebe85",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militaire_militaire_adjective:sns_zola_militaire_armed_forces",
+        "subjectRevision": "rev_c5c0f105fbe3091c4d73b01de9b06c82c645ce08ebe300c44db7b52ed97ebe85",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Militaire describes the military interest/affairs; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+      "reviewId": "vocabulary:srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+      "outcome": "approve",
+      "rationale": "Bousculé militairement means pressured by military authority/power; adverb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+        "subjectRevision": "rev_bb6ebfafa0e15715989d73b6f13c60fa96acb9b162a4b94fb8d6eaddd77e55c6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militairement_militairement:sns_zola_militairement_by_military_power",
+        "subjectRevision": "rev_bb6ebfafa0e15715989d73b6f13c60fa96acb9b162a4b94fb8d6eaddd77e55c6",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Bousculé militairement means pressured by military authority/power; adverb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+      "reviewId": "vocabulary:srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+      "outcome": "approve",
+      "rationale": "Militaires refers to military people/forces; plural adjective used substantivally fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+        "subjectRevision": "rev_bc18cd0bf320b5746a7b0bdbf9905e67bab66ccf1565b79fe4835e10eb2a86f1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_militaires_militaire_adjective:sns_zola_militaire_armed_forces",
+        "subjectRevision": "rev_bc18cd0bf320b5746a7b0bdbf9905e67bab66ccf1565b79fe4835e10eb2a86f1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Militaires refers to military people/forces; plural adjective used substantivally fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+      "reviewId": "vocabulary:srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+      "outcome": "approve",
+      "rationale": "Across contexts ministère means a government department or its offices/building; noun gloss fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+        "subjectRevision": "rev_3207c9972710223105ce07dca48dd500fcd501745efcc882a78f3667379952ce",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ministere_faaaa86f7d22_ministere:sns_zola_ministere_department",
+        "subjectRevision": "rev_3207c9972710223105ce07dca48dd500fcd501745efcc882a78f3667379952ce",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts ministère means a government department or its offices/building; noun gloss fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 7
+    },
+    {
+      "subjectId": "srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+      "reviewId": "vocabulary:srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+      "outcome": "approve",
+      "rationale": "Across contexts ministre refers to a government minister/cabinet official; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+        "subjectRevision": "rev_94c2a5f621fbc2dcd0381699dc06ccfaa9130faec55b93a5bee7d3e17474473e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ministre_ministre:sns_zola_ministre_government_official",
+        "subjectRevision": "rev_94c2a5f621fbc2dcd0381699dc06ccfaa9130faec55b93a5bee7d3e17474473e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts ministre refers to a government minister/cabinet official; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_zola_minute_minute:sns_zola_minute_moment",
+      "reviewId": "vocabulary:srf_zola_minute_minute:sns_zola_minute_moment",
+      "outcome": "approve",
+      "rationale": "Across contexts minute means a brief moment, including an instant of anguish or combat; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_minute_minute:sns_zola_minute_moment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_minute_minute:sns_zola_minute_moment",
+        "subjectRevision": "rev_40a7cf1f6d64b1fcd3ab13220c47bc7418da1c0d4d85fbbb51dd7922d9addee0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_minute_minute:sns_zola_minute_moment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_minute_minute:sns_zola_minute_moment",
+        "subjectRevision": "rev_40a7cf1f6d64b1fcd3ab13220c47bc7418da1c0d4d85fbbb51dd7922d9addee0",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts minute means a brief moment, including an instant of anguish or combat; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_mission_mission:sns_zola_mission_assignment",
+      "reviewId": "vocabulary:srf_zola_mission_mission:sns_zola_mission_assignment",
+      "outcome": "approve",
+      "rationale": "Mission means an assignment/task; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mission_mission:sns_zola_mission_assignment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mission_mission:sns_zola_mission_assignment",
+        "subjectRevision": "rev_6461e9ed403d25401ec7fd1f73960fb0f44fc4b0805aade557c36141e759df4d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mission_mission:sns_zola_mission_assignment",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mission_mission:sns_zola_mission_assignment",
+        "subjectRevision": "rev_6461e9ed403d25401ec7fd1f73960fb0f44fc4b0805aade557c36141e759df4d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mission means an assignment/task; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+      "reviewId": "vocabulary:srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+      "outcome": "approve",
+      "rationale": "Moderne means modern/current-age; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+        "subjectRevision": "rev_380974963b3f4e00dca368401061452e95a99f96210d6097604356c09ed1cdb3",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moderne_moderne:sns_zola_moderne_present_age",
+        "subjectRevision": "rev_380974963b3f4e00dca368401061452e95a99f96210d6097604356c09ed1cdb3",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Moderne means modern/current-age; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+      "reviewId": "vocabulary:srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+      "outcome": "approve",
+      "rationale": "À moins que means unless; fixed conjunction sense fits the conditional clause.",
+      "before": {
+        "id": "vocabulary:srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+        "subjectRevision": "rev_d43e85f73a1f804ba63dfa42c9e6abd9134c2efe7a8c233bc2817500c13f5d4e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_a_moins_que:sns_zola_a_moins_que_unless",
+        "subjectRevision": "rev_d43e85f73a1f804ba63dfa42c9e6abd9134c2efe7a8c233bc2817500c13f5d4e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "À moins que means unless; fixed conjunction sense fits the conditional clause.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+      "reviewId": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+      "outcome": "approve",
+      "rationale": "Ne...le moins du monde means not at all/in the least; adverb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+        "subjectRevision": "rev_c30c70572b4e2afd9e19f80f8d527262701250b001c7836f9dc0805c91b0b280",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_all",
+        "subjectRevision": "rev_c30c70572b4e2afd9e19f80f8d527262701250b001c7836f9dc0805c91b0b280",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Ne...le moins du monde means not at all/in the least; adverb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+      "reviewId": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+      "outcome": "approve",
+      "rationale": "Tout au moins means at least; adverb phrase sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+        "subjectRevision": "rev_049e1dddb0b793a529874978417b2cf8f4f0bbddc6638e26e560d3c648dc60c1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_moins_moins_adverb:sns_zola_moins_at_least",
+        "subjectRevision": "rev_049e1dddb0b793a529874978417b2cf8f4f0bbddc6638e26e560d3c648dc60c1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Tout au moins means at least; adverb phrase sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

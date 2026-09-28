@@ -2036,6 +2036,147 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_causabale_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_causabale",
+        "senseId": "sns_es_samaniego_causabale"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "La noticia causábale tristeza, aunque intentaba sonreír.",
+      "targetText": "causábale",
+      "targetRange": {
+        "start": 11,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was causing him or her"
+        },
+        {
+          "id": "choice_2",
+          "text": "was hiding from her"
+        },
+        {
+          "id": "choice_3",
+          "text": "was taking from her"
+        },
+        {
+          "id": "choice_4",
+          "text": "was asking her for"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_frescamente_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_frescamente",
+        "senseId": "sns_es_samaniego_frescamente"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Contestó frescamente y siguió leyendo, mientras su hermana lloraba y su padre protestaba.",
+      "prompt": "¿Qué palabra indica una actitud despreocupada y sin vergüenza?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "frescamente"
+        },
+        {
+          "id": "choice_2",
+          "text": "leyendo"
+        },
+        {
+          "id": "choice_3",
+          "text": "lloraba"
+        },
+        {
+          "id": "choice_4",
+          "text": "protestaba"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_voz_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0869_voz",
+        "senseId": "sns_es_samaniego_voz"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Circuló por el pueblo la ___ de que el puente estaba cerrado, aunque nadie lo había comprobado.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "voz"
+        },
+        {
+          "id": "choice_2",
+          "text": "canción"
+        },
+        {
+          "id": "choice_3",
+          "text": "orden"
+        },
+        {
+          "id": "choice_4",
+          "text": "pregunta"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_prendidas_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_prendidas_sourcefix",
+        "senseId": "sns_es_prendidas_lit"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Las lámparas permanecieron prendidas toda la noche.",
+      "targetText": "prendidas",
+      "targetRange": {
+        "start": 27,
+        "end": 36
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "lit or switched on"
+        },
+        {
+          "id": "choice_2",
+          "text": "broken"
+        },
+        {
+          "id": "choice_3",
+          "text": "covered"
+        },
+        {
+          "id": "choice_4",
+          "text": "empty"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

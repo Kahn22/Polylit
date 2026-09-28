@@ -693,6 +693,77 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_moitie_fr_a_moitie_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moitie_a",
+        "senseId": "sns_fr_a_moitie"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, son mari est à moitié habillé ce soir.",
+      "prompt": "Quelle préposition figure dans la locution « à moitié » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "habillé"
+        },
+        {
+          "id": "choice_2",
+          "text": "soir"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "mari"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_a_tout_heure_fr_a_tout_heure_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_tout_heure_a",
+        "senseId": "sns_fr_a_tout_heure"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Je te montrerai à tout l’heure la preuve.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 16,
+        "end": 17
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "in a moment; soon"
+        },
+        {
+          "id": "choice_2",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_4",
+          "text": "beneath an object"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_affole_panicked_parure_affolee_lem_parure_affole_adjective_c168d7530d_660293bd39_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1190,6 +1261,38 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il passait ses soirées à _____ au net les comptes.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "voir"
+        },
+        {
+          "id": "choice_2",
+          "text": "tenir"
+        },
+        {
+          "id": "choice_3",
+          "text": "prendre"
+        },
+        {
+          "id": "choice_4",
+          "text": "mettre"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_mettre_wear_parure_mettras_lem_mettre_9c41cf70cc_levels_4_5",

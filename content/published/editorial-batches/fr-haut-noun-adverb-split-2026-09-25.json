@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "id": "fr-haut-noun-adverb-split-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T15:40:06.571Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
+      "to": "srf_fr_haut_noun:sns_fr_haut_top",
+      "occurrenceIds": [
+        "occ_cendrillon_59d84ad801dcf2315455ba0e"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
+      "to": "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
+      "form": "haut",
+      "reason": "« parlait haut » and « affirmer bien haut » use the adverb describing loud or public speech."
+    },
+    {
+      "from": "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
+      "to": "srf_fr_haut_noun:sns_fr_haut_top",
+      "form": "haut",
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_haut_noun",
+      "before": null,
+      "after": {
+        "id": "lem_fr_haut_noun",
+        "headword": "haut",
+        "partOfSpeech": "noun"
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_haut_noun",
+      "before": null,
+      "after": {
+        "id": "srf_fr_haut_noun",
+        "lemmaId": "lem_fr_haut_noun",
+        "form": "haut",
+        "normalized": "haut"
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_haut_top",
+      "before": null,
+      "after": {
+        "id": "sns_fr_haut_top",
+        "lemmaId": "lem_fr_haut_noun",
+        "gloss": "top; upper part",
+        "definition": "Partie supérieure d’un lieu ou d’un objet, notamment « au haut de la maison »."
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_59d84ad801dcf2315455ba0e",
+      "before": {
+        "id": "occ_cendrillon_59d84ad801dcf2315455ba0e",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_003",
+        "start": 22,
+        "end": 26,
+        "surfaceFormId": "srf_zola_haut_haut_adverb",
+        "senseId": "sns_zola_haut_aloud"
+      },
+      "after": {
+        "id": "occ_cendrillon_59d84ad801dcf2315455ba0e",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_003",
+        "start": 22,
+        "end": 26,
+        "surfaceFormId": "srf_fr_haut_noun",
+        "senseId": "sns_fr_haut_top"
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_top_fr_haut_noun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_top_fr_haut_noun_levels_1_3",
+        "surfaceFormId": "srf_fr_haut_noun",
+        "senseId": "sns_fr_haut_top",
+        "band": "levels_1_3",
+        "contextFrench": "Elle couchoit tout au haut de la maison, dans un grenier.",
+        "correctAnswer": "top; upper part",
+        "format": "meaning_choice",
+        "targetText": "haut",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "basement",
+          "entrance",
+          "courtyard",
+          "top; upper part"
+        ]
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_top_fr_haut_noun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_top_fr_haut_noun_levels_4_5",
+        "surfaceFormId": "srf_fr_haut_noun",
+        "senseId": "sns_fr_haut_top",
+        "band": "levels_4_5",
+        "contextFrench": "Elle couchoit tout au _____ de la maison, dans un grenier.",
+        "correctAnswer": "haut",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "seuil",
+          "pied",
+          "haut",
+          "centre"
+        ]
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_haut_top_fr_haut_noun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_haut_top_fr_haut_noun_levels_6_8",
+        "surfaceFormId": "srf_fr_haut_noun",
+        "senseId": "sns_fr_haut_top",
+        "band": "levels_6_8",
+        "contextFrench": "Elle couchoit tout au haut de la maison, dans un grenier, sur une méchante paillasse.",
+        "correctAnswer": "haut",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne la partie supérieure de la maison ?",
+        "choicesFrench": [
+          "paillasse",
+          "haut",
+          "maison",
+          "grenier"
+        ]
+      },
+      "reason": "« au haut de la maison » names the top of the house, so this occurrence is a noun and cannot share the adverb study meaning."
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 1,
+  "status": "offline_editorial_draft_unpublished",
+  "expectedIdentityCount": 10,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "note": "Final chapter I contextual meaning increment; phrase components are held in a separate source-bound expression decision. All questions and identities require final signoff; no learner import.",
+  "items": [
+    {
+      "key": "fit_caused_trouble",
+      "form": "fit",
+      "lemma": "faire",
+      "partOfSpeech": "past historic third singular",
+      "meaning": "caused; brought about",
+      "editorialNote": "Le livre lui fit quelques affaires: publication caused him trouble. Other fit contexts, including composing a song, need different senses.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 11,
+          "start": 240,
+          "end": 243,
+          "text": "fit"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Son livre lui fit quelques ennuis.",
+          "question": "Meaning",
+          "answer": "caused",
+          "choices": [
+            "caused",
+            "hid",
+            "forgot",
+            "ended"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce livre lui a causé des difficultés : il lui ___ des ennuis.",
+          "question": "Complétez la phrase.",
+          "answer": "fit",
+          "choices": [
+            "fit",
+            "cacha",
+            "épargna",
+            "oublia"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Son livre lui fit des ennuis, c’est-à-dire en causa. Il lui cacha quelque chose s’il le dissimula, lui épargna un ennui s’il l’évita, ou l’oublia s’il l’effaça de sa mémoire.",
+          "question": "Quel verbe exprime la cause de ses ennuis ?",
+          "answer": "fit",
+          "choices": [
+            "fit",
+            "cacha",
+            "épargna",
+            "oublia"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "eut_received_order",
+      "form": "eut",
+      "lemma": "avoir",
+      "partOfSpeech": "past historic third singular in avoir ordre",
+      "meaning": "received; was given (an order)",
+      "editorialNote": "L’auteur eut ordre de ne paraître: a prohibition was issued to him. Existing possession/auxiliary avoir may be reusable only after contextual signoff; do not silently assign from spelling.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 14,
+          "start": 99,
+          "end": 102,
+          "text": "eut"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "L’auteur eut ordre de quitter la cour.",
+          "question": "Meaning",
+          "answer": "was given an order",
+          "choices": [
+            "was given an order",
+            "gave an order",
+            "ignored an order",
+            "wrote an order"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "On lui donna cet ordre : il ___ ordre de partir.",
+          "question": "Complétez la phrase.",
+          "answer": "eut",
+          "choices": [
+            "eut",
+            "donna",
+            "oublia",
+            "refusa"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Il eut ordre de partir signifie qu’on lui donna cet ordre. Il donna un ordre s’il commandait, l’oublia s’il ne s’en souvenait plus et le refusa s’il n’obéissait pas.",
+          "question": "Quel verbe indique qu’il reçut l’ordre ?",
+          "answer": "eut",
+          "choices": [
+            "eut",
+            "donna",
+            "oublia",
+            "refusa"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fit_composed_song",
+      "form": "fit",
+      "lemma": "faire",
+      "partOfSpeech": "past historic third singular",
+      "meaning": "composed; made",
+      "editorialNote": "Il fit une chanson means he composed a song. It is distinct from the trouble-causing fit and the travel he undertook; published perform-activity identity needs shared-sense review.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 16,
+          "start": 3,
+          "end": 6,
+          "text": "fit"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il fit une chanson contre le censeur.",
+          "question": "Meaning",
+          "answer": "composed",
+          "choices": [
+            "composed",
+            "destroyed",
+            "heard",
+            "forgot"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il composa une chanson : il en ___ une.",
+          "question": "Complétez la phrase.",
+          "answer": "fit",
+          "choices": [
+            "fit",
+            "détruisit",
+            "écouta",
+            "oublia"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Il fit une chanson, autrement dit il la composa. Il la détruisit s’il l’anéantit, l’écouta s’il l’entendit et l’oublia si elle sortit de sa mémoire.",
+          "question": "Quel verbe dit qu’il la composa ?",
+          "answer": "fit",
+          "choices": [
+            "fit",
+            "détruisit",
+            "écouta",
+            "oublia"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "poste_relay_service",
+      "form": "poste",
+      "lemma": "poste",
+      "partOfSpeech": "noun feminine singular in chaise de poste",
+      "meaning": "post-horse relay service",
+      "editorialNote": "A chaise de poste used horses exchanged at posting stations, an eighteenth-century travel conveyance, not the modern mail office. Historical Académie: https://www.dictionnaire-academie.fr/article/A5P1691",
+      "formCoverage": "complete_exact_form",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 17,
+          "start": 37,
+          "end": 42,
+          "text": "poste"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils voyagent en chaise de poste.",
+          "question": "Meaning",
+          "answer": "post-horse relay travel",
+          "choices": [
+            "post-horse relay travel",
+            "sea travel",
+            "walking",
+            "rail travel"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette chaise est liée aux relais de chevaux de la ___.",
+          "question": "Complétez la phrase.",
+          "answer": "poste",
+          "choices": [
+            "poste",
+            "marine",
+            "forêt",
+            "montagne"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La poste, dans chaise de poste, évoque les relais de chevaux du voyage. La marine relève de la mer, la forêt des arbres et la montagne des hauteurs de terre.",
+          "question": "Quel nom indique le service de relais ?",
+          "answer": "poste",
+          "choices": [
+            "poste",
+            "marine",
+            "forêt",
+            "montagne"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "allait_moved",
+      "form": "allait",
+      "lemma": "aller",
+      "partOfSpeech": "imperfect indicative third singular",
+      "meaning": "went; traveled",
+      "editorialNote": "Il allait de globe en globe describes movement, not the published imminent futur proche sense of allait.",
+      "formCoverage": "complete_exact_form",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 19,
+          "start": 112,
+          "end": 118,
+          "text": "allait"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il allait de globe en globe.",
+          "question": "Meaning",
+          "answer": "went",
+          "choices": [
+            "went",
+            "stayed",
+            "slept",
+            "forgot"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il se déplaçait entre plusieurs globes : il ___ de l’un à l’autre.",
+          "question": "Complétez la phrase.",
+          "answer": "allait",
+          "choices": [
+            "allait",
+            "restait",
+            "dormait",
+            "attendait"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Il allait de globe en globe signifie qu’il se déplaçait. Il restait s’il ne bougeait pas, dormait s’il se reposait et attendait s’il demeurait sur place avant un événement.",
+          "question": "Quel verbe exprime son déplacement ?",
+          "answer": "allait",
+          "choices": [
+            "allait",
+            "restait",
+            "dormait",
+            "attendait"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "travers_through",
+      "form": "travers",
+      "lemma": "travers",
+      "partOfSpeech": "noun masculine singular in à travers",
+      "meaning": "through; across",
+      "editorialNote": "À travers les étoiles and à travers un microscope indicate passage between or through, unlike the published de travers askew sense. Both workwide uses share this locution.",
+      "formCoverage": "complete_exact_form",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 20,
+          "start": 94,
+          "end": 101,
+          "text": "travers"
+        },
+        {
+          "chapter": 6,
+          "unit": 158,
+          "start": 229,
+          "end": 236,
+          "text": "travers"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il regarde à travers les étoiles.",
+          "question": "Meaning",
+          "answer": "through",
+          "choices": [
+            "through",
+            "beside",
+            "before",
+            "below"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il distingue les étoiles en regardant au ___ d’une vitre transparente.",
+          "question": "Complétez la phrase.",
+          "answer": "travers",
+          "choices": [
+            "travers",
+            "bord",
+            "fond",
+            "milieu"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "À travers les étoiles signifie en passant dans leur étendue. À côté serait auprès d’elles, à distance en étant éloigné et en opposition contre elles.",
+          "question": "Quel mot marque le passage dans cette étendue ?",
+          "answer": "travers",
+          "choices": [
+            "travers",
+            "côté",
+            "distance",
+            "opposition"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ciel_visible_sky",
+      "form": "ciel",
+      "lemma": "ciel",
+      "partOfSpeech": "noun masculine singular",
+      "meaning": "sky; visible heavens",
+      "editorialNote": "Le ciel empyrée and un animal vu dans le ciel refer to the heavens, not the published providence sense; juste Ciel is an exclamation and remains separate.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 20,
+          "start": 142,
+          "end": 146,
+          "text": "ciel"
+        },
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 320,
+          "end": 324,
+          "text": "ciel"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Derham affirme voir le ciel avec sa lunette.",
+          "question": "Meaning",
+          "answer": "sky",
+          "choices": [
+            "sky",
+            "earth",
+            "sea",
+            "forest"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Les étoiles paraissent dans cet espace au-dessus de nous : le ___.",
+          "question": "Complétez la phrase.",
+          "answer": "ciel",
+          "choices": [
+            "ciel",
+            "sol",
+            "lac",
+            "champ"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le ciel est l’espace visible au-dessus de nous où apparaissent les astres. Le sol est sous nos pieds, le lac contient de l’eau et le champ est une surface de terre.",
+          "question": "Quel nom désigne cet espace supérieur ?",
+          "answer": "ciel",
+          "choices": [
+            "ciel",
+            "sol",
+            "lac",
+            "champ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "quelque_concessive",
+      "form": "quelque",
+      "lemma": "quelque",
+      "partOfSpeech": "concessive adverb before adjective or noun",
+      "meaning": "however; no matter how",
+      "editorialNote": "Quelque accoutumé qu’il fût and later quelque système qu’ils fissent concede a condition without changing the result. Other workwide quelque uses mean some or an unspecified amount. Historical Académie: https://www.dictionnaire-academie.fr/article/A4Q0079",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 23,
+          "start": 0,
+          "end": 7,
+          "text": "Quelque"
+        },
+        {
+          "chapter": 6,
+          "unit": 154,
+          "start": 139,
+          "end": 146,
+          "text": "quelque"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Quelque accoutumé qu’il fût, il s’étonna.",
+          "question": "Meaning",
+          "answer": "however accustomed",
+          "choices": [
+            "however accustomed",
+            "some accustomed people",
+            "because accustomed",
+            "once accustomed"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Même s’il y était habitué, il s’étonna : ___ accoutumé qu’il fût.",
+          "question": "Complétez la phrase.",
+          "answer": "quelque",
+          "choices": [
+            "quelque",
+            "puisque",
+            "lorsque",
+            "parce que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La tournure quelque accoutumé qu’il fût exprime une concession : malgré son habitude, il s’étonna. Le mot puisque donne une cause, lorsque situe dans le temps et parce que donne une raison.",
+          "question": "Quel mot introduit la concession ?",
+          "answer": "quelque",
+          "choices": [
+            "quelque",
+            "puisque",
+            "lorsque",
+            "parce que"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "defendre_resist_reflexive",
+      "form": "défendre",
+      "lemma": "défendre",
+      "partOfSpeech": "infinitive in se défendre de",
+      "meaning": "resist; keep oneself from",
+      "editorialNote": "Il ne put se défendre de sourire means he could not prevent himself from smiling. Published protect sense does not cover this reflexive construction.",
+      "formCoverage": "complete_exact_form",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 23,
+          "start": 132,
+          "end": 140,
+          "text": "défendre"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il ne put se défendre de sourire.",
+          "question": "Meaning",
+          "answer": "keep himself from",
+          "choices": [
+            "keep himself from",
+            "protect someone",
+            "teach someone",
+            "remember someone"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il ne réussit pas à empêcher son sourire : il ne put s’en ___.",
+          "question": "Complétez la phrase.",
+          "answer": "défendre",
+          "choices": [
+            "défendre",
+            "réjouir",
+            "souvenir",
+            "plaindre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Il ne put se défendre de sourire signifie qu’il ne pouvait se retenir. Il pouvait s’en réjouir s’il en était heureux, s’en souvenir s’il le gardait en mémoire et s’en plaindre s’il protestait.",
+          "question": "Quel verbe dit qu’il ne pouvait le retenir ?",
+          "answer": "défendre",
+          "choices": [
+            "défendre",
+            "réjouir",
+            "souvenir",
+            "plaindre"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enfin_after_all",
+      "form": "enfin",
+      "lemma": "enfin",
+      "partOfSpeech": "discourse adverb",
+      "meaning": "after all; when all is said",
+      "editorialNote": "Car enfin Saturne… introduces justification, not a chronological ending. Historical examples of Car enfin in Académie: https://www.dictionnaire-academie.fr/article/A3E0600",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 24,
+          "start": 4,
+          "end": 9,
+          "text": "enfin"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Car enfin Saturne est bien plus grand que la Terre.",
+          "question": "Meaning",
+          "answer": "after all",
+          "choices": [
+            "after all",
+            "at the end of time",
+            "immediately",
+            "never"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il introduit une justification : car ___ Saturne est beaucoup plus grand.",
+          "question": "Complétez la phrase.",
+          "answer": "enfin",
+          "choices": [
+            "enfin",
+            "d’abord",
+            "aussitôt",
+            "jamais"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La formule car enfin introduit ici une raison que l’on finit par faire valoir. La formule car d’abord annoncerait un premier point, aussitôt une action immédiate et jamais une négation dans le temps.",
+          "question": "Quel adverbe appuie cette justification ?",
+          "answer": "enfin",
+          "choices": [
+            "enfin",
+            "d’abord",
+            "aussitôt",
+            "jamais"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-26T12:16:48.748Z",
+  "sense": {
+    "id": "sns_fr_mettre_reflexive_begin",
+    "lemmaId": "lem_mettre",
+    "gloss": "to begin (in se mettre à)",
+    "definition": "Avec se et à suivi d’un infinitif, commencer une action."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_mettre_reflexive_begin_mit_levels_4_5",
+      "qiz_fr_mettre_reflexive_begin_mit_levels_1_3",
+      "qiz_fr_mettre_reflexive_begin_mit_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_mit:sns_fr_mettre_reflexive_begin",
+      "surface": "mit",
+      "lemma": "mettre",
+      "currentRevision": "rev_375f93b65f5a76f5bc4667f6cd394ce6965c6483b19620ab886a8c7b2b2718a6",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_633561b1c0dec8d2b691a8a6",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_011",
+          "passage": "lorsqu’elle ne les vit plus, elle se mit à pleurer. Sa Maraine, qui la vit toute en pleurs, luy demanda ce qu’elle avoit : Je voudrois bien… Je voudrois bien… elle pleuroit si fort qu’elle ne put achever : sa Maraine, qui estoit Fée, luy dit, tu voudrois bien aller au Bal, n’est-ce pas : Helas ! ouy, dit Cendrillon en soûpirant : Hé bien ! seras-tu bonne fille ? dit sa Maraine ;",
+          "span": [
+            37,
+            40
+          ]
+        },
+        {
+          "id": "occ_parure_03ba6b9a77670fc5eb5cb06f",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_051",
+          "passage": "Tout à coup elle découvrit, dans une boîte de satin noir, une superbe rivière de diamants ; et son cœur se mit à battre d’un désir immodéré. Ses mains tremblaient en la prenant. Elle l’attacha autour de sa gorge, sur sa robe montante, et demeura en extase devant elle-même.",
+          "span": [
+            107,
+            110
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_mettre_reflexive_begin_mit_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Au premier accord, il se _____ soudain à chanter, puis continua sa chanson jusqu’au bout.",
+          "choices": [
+            {
+              "text": "refusa",
+              "correct": false
+            },
+            {
+              "text": "prépara",
+              "correct": false
+            },
+            {
+              "text": "apprêta",
+              "correct": false
+            },
+            {
+              "text": "mit",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_mettre_reflexive_begin_mit_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "À l’annonce de la nouvelle, elle se mit à rire.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "began",
+              "correct": true
+            },
+            {
+              "text": "stopped",
+              "correct": false
+            },
+            {
+              "text": "refused",
+              "correct": false
+            },
+            {
+              "text": "continued",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_mettre_reflexive_begin_mit_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le ciel s’assombrit et la pluie se mit à tomber sur les champs.",
+          "prompt": "Quel verbe, avec se et à, marque le début de la pluie ?",
+          "choices": [
+            {
+              "text": "pluie",
+              "correct": false
+            },
+            {
+              "text": "champs",
+              "correct": false
+            },
+            {
+              "text": "mit",
+              "correct": true
+            },
+            {
+              "text": "ciel",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "standardVersion": 1,
+  "workId": "wrk_cigale_fourmi",
+  "identity": {
+    "title": "La Cigale et la Fourmi",
+    "author": "Jean de La Fontaine",
+    "language": "fr",
+    "originCountry": {
+      "code": "FR",
+      "name": "France"
+    },
+    "collection": "Fables",
+    "book": "Livre I",
+    "ordinal": 1,
+    "originalPublication": {
+      "claim": "Jean de La Fontaine, Fables, Livre I, fable I (1668)",
+      "status": "supported_by_author_bibliography",
+      "note": "First collection publication is distinct from the selected 1874 edition.",
+      "legacyClaim": "Jean de La Fontaine, Fables, Livre I, fable I (1668)",
+      "year": 1668,
+      "evidence": "author-evidence.html"
+    }
+  },
+  "edition": {
+    "legacyCitation": "Jean de La Fontaine, Fables, Livre I, fable I (1668)",
+    "witnessMetadata": {
+      "publisher": "Bernardin-Béchet, Libraire-Éditeur",
+      "datePublished": "1874",
+      "pagination": "29–30",
+      "locationCreated": "Paris"
+    },
+    "pageReferences": [
+      {
+        "printedPage": "29",
+        "url": "https://fr.wikisource.org/wiki/Page%3ALa%20Fontaine%20-%20Fables%2C%20Bernardin-Bechet%2C%201874.djvu/37"
+      },
+      {
+        "printedPage": "30",
+        "url": "https://fr.wikisource.org/wiki/Page%3ALa%20Fontaine%20-%20Fables%2C%20Bernardin-Bechet%2C%201874.djvu/38"
+      }
+    ],
+    "status": "historical_witness_identified_and_visually_checked",
+    "adoptedOn": "2026-09-21",
+    "adoptionNote": "Selected as the documented comparison/base witness for this review. This does not invent or replace evidence of the legacy import’s original acquisition."
+  },
+  "acquisition": {
+    "requestedUrl": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Cigale_et_la_Fourmi",
+    "resolvedUrl": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Cigale_et_la_Fourmi",
+    "retrievedOn": "2026-09-21",
+    "role": "recorded_source",
+    "bytes": 64688,
+    "permanentUrl": "https://fr.wikisource.org/w/index.php?oldid=13176453",
+    "institution": "Wikisource / Wikimedia"
+  },
+  "canonical": {
+    "file": "canonical.txt",
+    "sha256": "c1fd99e92d63f8c00a41a8d69a338bd700549af9ce766f41be37b8791e60887a",
+    "characters": 613,
+    "scope": "complete_literary_body",
+    "scopeVerification": "verified",
+    "typographyPolicy": "modern_conventional_typography_preserving_wording",
+    "unitCount": 11,
+    "unitsReconstructIgnoringWhitespace": true,
+    "version": 1,
+    "scopeNote": "Entire narrative/poem body; title and author attribution are catalog metadata. Page headers, page numbers, illustrations, catchwords and publisher material excluded."
+  },
+  "rights": {
+    "status": "verified",
+    "territories": [
+      "US",
+      "FR"
+    ],
+    "material": "Historical original-language literary text only; no translation, modern adaptation, illustrations, annotations or website boilerplate in learner text.",
+    "authorDeathYear": 1695,
+    "basis": "Historical 1874 original-language edition; author died 1695. US published-work term and French author economic term have expired by 2026; documentary assessment and scope in rights-assessment.json.",
+    "references": [
+      "https://www.copyright.gov/circs/circ15a.pdf",
+      "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937"
+    ],
+    "otherTerritories": "Not assessed; author origin does not establish worldwide reuse rights.",
+    "referencesCheckedOn": "2026-09-21",
+    "referenceCheckNotes": "US Copyright Office Circular 15A and official French L123-1/L121-1 consulted. Author death evidenced by saved biographical page.",
+    "assessmentFile": "rights-assessment.json",
+    "authorEvidence": "author-evidence.html"
+  },
+  "transformations": {
+    "status": "verified",
+    "log": "reviewed-transformations.json",
+    "routinePolicy": "modern_conventional_typography_preserving_wording",
+    "canonicalChangedInThisMigration": false
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "Codex",
+    "reviewedOn": "2026-09-21",
+    "checks": [
+      "Preserved current canonical text with SHA-256.",
+      "Saved source HTML and plain-text evidence.",
+      "Recorded edition metadata and page links where exposed by the witness.",
+      "Compared unit reconstruction and attempted automatic word-token comparison.",
+      "Visually read the entire declared story/poem/letter in preserved historical page images.",
+      "Checked author death evidence and territory-specific economic-rights basis.",
+      "Classified online-transcription errors separately from printed-edition/current-text variants.",
+      "Recorded scope, layout policy, and exact non-routine variants; no canonical text changed."
+    ],
+    "scanPagesVisuallyChecked": [
+      "29",
+      "30"
+    ],
+    "priorReviewEvidence": null,
+    "openIssues": [],
+    "scansPreserved": 2
+  },
+  "history": [
+    {
+      "version": 1,
+      "date": "2026-09-21",
+      "reason": "Adopt source-dossier standard for every existing work.",
+      "textChanged": false,
+      "learnerImpact": "None: canonical text, occurrence spans, mastery identities and quizzes unchanged."
+    },
+    {
+      "version": 2,
+      "date": "2026-09-21",
+      "reason": "Complete documentary and visual source research; correct edition records; identify exact remaining text variants.",
+      "previousRecord": "history-v1.json",
+      "textChanged": false,
+      "learnerImpact": "None: current canonical text, occurrence spans, semantic identities, quizzes and learner progress remain unchanged."
+    }
+  ],
+  "evidence": [
+    {
+      "file": "author-evidence.html",
+      "sha256": "72cf5e57da7c61d6db1a67d38f11c6eccc6f86c0af17f9036d06530ba402c2d4",
+      "bytes": 89273
+    },
+    {
+      "file": "author-evidence.txt",
+      "sha256": "f91e23058089c74800f0e186b51e00c8c441cd1c80bef120b82ba87130281714",
+      "bytes": 1432
+    },
+    {
+      "file": "canonical.txt",
+      "sha256": "c1fd99e92d63f8c00a41a8d69a338bd700549af9ce766f41be37b8791e60887a",
+      "bytes": 650
+    },
+    {
+      "file": "comparison.json",
+      "sha256": "5d6647f7365947afca97cc1122fb37a8e6939e11a08e6f0732963fc86cf89ff3",
+      "bytes": 716
+    },
+    {
+      "file": "copyright-circular-15a.pdf",
+      "sha256": "6ff3c5612e1cd56469b3eb7d35eba7fd3374843d82744c63ab909225f53b7aef",
+      "bytes": 273867
+    },
+    {
+      "file": "history-v1.json",
+      "sha256": "5d5529c15da1a8ab517c8e661819175d6c0f4b8d4b32545a1c404e6fa2c66953",
+      "bytes": 7062
+    },
+    {
+      "file": "retrieval.json",
+      "sha256": "3bf39454ce692f48731157473631de2f2d673dde5580ccca07fd9240106127da",
+      "bytes": 380
+    },
+    {
+      "file": "reviewed-transformations.json",
+      "sha256": "6ff41ac6ab4258ac0eb4fe00e71d48c163e8adc7037330c304810ae38eedf595",
+      "bytes": 1633
+    },
+    {
+      "file": "rights-assessment.json",
+      "sha256": "54615eef21d9ea9c108288c2c8eaa69823ea308a24068c5d3a2ea50ea1019e2a",
+      "bytes": 2122
+    },
+    {
+      "file": "scan-001.jpg",
+      "sha256": "5e65c412cd2364de810cfe89907e4ea306600bc0ff7b05851869426e66af0f64",
+      "bytes": 344193
+    },
+    {
+      "file": "scan-002.jpg",
+      "sha256": "60f8f116664c230e2f7afb9867a2c1057ef2cf88c89537db5d6a1eca2d9f9307",
+      "bytes": 209834
+    },
+    {
+      "file": "scan-acquisition.json",
+      "sha256": "68371224303434c5571e9e7f2b9cb4b8e6a11694e2a5f8872e64aa4a22ffd2c0",
+      "bytes": 1107
+    },
+    {
+      "file": "witness-clean.txt",
+      "sha256": "54ba793e4eb0dd30f9791054621e6e9373abf2b28d164ad8326e3abc79dc4146",
+      "bytes": 684
+    },
+    {
+      "file": "witness-page.txt",
+      "sha256": "8da39e5bca64caa7601dff8ea541d2d3a675f9198a9ff3e075c24edb468add66",
+      "bytes": 1214
+    },
+    {
+      "file": "witness.html",
+      "sha256": "160dd57efc3266ccc52085aee1bc1e1d243a5e91859dae19cc8695d8f1d9ea89",
+      "bytes": 64688
+    }
+  ]
+}

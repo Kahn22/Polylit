@@ -76,11 +76,11 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Tout le village l’appeloit Martin, comme son père.",
+      "context": "On l’appeloit communément dans le logis Cucendron.",
       "targetText": "appeloit",
       "targetRange": {
-        "start": 18,
-        "end": 26
+        "start": 5,
+        "end": 13
       },
       "prompt": "Meaning",
       "choices": [
@@ -114,23 +114,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "On _____ ce chien Médor depuis sa naissance.",
+      "context": "Dans le logis, on l’_____ communément Cucendron.",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "appelé"
+          "id": "choice_8",
+          "text": "grondoit"
         },
         {
           "id": "choice_1",
           "text": "appeloit"
         },
         {
-          "id": "choice_6",
-          "text": "appeloient"
+          "id": "choice_9",
+          "text": "louoit"
         },
         {
-          "id": "choice_7",
-          "text": "appeler"
+          "id": "choice_10",
+          "text": "regardoit"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -761,6 +761,39 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_a_pied_fr_a_pied_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_pied_a",
+        "senseId": "sns_fr_a_pied"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, nous rentrons à pied après le bal.",
+      "prompt": "Quelle préposition figure dans la locution « à pied » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "rentrons"
+        },
+        {
+          "id": "choice_2",
+          "text": "après"
+        },
+        {
+          "id": "choice_3",
+          "text": "bal"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_changer_transform_fr_change_changer_verb_levels_6_8",
@@ -1496,6 +1529,76 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_tout_a_coup_fr_tout_a_coup_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_tout_a_coup_a",
+        "senseId": "sns_fr_tout_a_coup"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Tout à coup, elle découvre le bijou.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 5,
+        "end": 6
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_2",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_3",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_4",
+          "text": "suddenly; all at once"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_tout_a_coup_fr_tout_a_coup_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_tout_a_coup_a",
+        "senseId": "sns_fr_tout_a_coup"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Tout _____ coup, le silence revient.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "de"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_leur_their_intermediate",
@@ -3322,32 +3425,32 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Demain, Léa aura les clés de la maison.",
+      "context": "Une enquête loyale aura établi nettement ses actes.",
       "targetText": "aura",
       "targetRange": {
-        "start": 12,
-        "end": 16
+        "start": 19,
+        "end": 23
       },
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "will have"
-        },
-        {
-          "id": "choice_2",
-          "text": "had"
+          "id": "choice_5",
+          "text": "will have (auxiliary)"
         },
         {
           "id": "choice_3",
           "text": "would have"
         },
         {
+          "id": "choice_2",
+          "text": "had"
+        },
+        {
           "id": "choice_4",
           "text": "has now"
         }
       ],
-      "correctChoiceId": "choice_1"
+      "correctChoiceId": "choice_5"
     },
     {
       "id": "qiz_zola_baiser_baiser_kiss_advanced",

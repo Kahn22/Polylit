@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 1,
+  "status": "offline_editorial_draft_unpublished",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "note": "Ten additional contextual sense drafts with all exact-form occurrences and three authored question bands. Physical laws, forces, and light rays are distinguished from legal laws, armies or geometrical radii; published same-lemma identities still require final reuse QA.",
+  "items": [
+    {
+      "key": "sur_le_champ_immediately",
+      "form": "sur-le-champ",
+      "lemma": "sur-le-champ",
+      "partOfSpeech": "adverb invariable",
+      "meaning": "immediately; on the spot",
+      "editorialNote": "A single hyphenated adverb at two points in the story; the phrase triage explicitly routes this orthographic token to vocabulary, not independent expression mastery.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 3,
+          "start": 62,
+          "end": 74,
+          "text": "sur-le-champ"
+        },
+        {
+          "chapter": 6,
+          "unit": 138,
+          "start": 362,
+          "end": 374,
+          "text": "sur-le-champ"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Elle répondit sur-le-champ à l’appel.",
+          "question": "Meaning",
+          "answer": "immediately",
+          "choices": [
+            "immediately",
+            "tomorrow",
+            "slowly",
+            "elsewhere"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "En entendant l’alarme, elle partit ___, sans attendre.",
+          "question": "Complétez la phrase.",
+          "answer": "sur-le-champ",
+          "choices": [
+            "sur-le-champ",
+            "le lendemain",
+            "une semaine après",
+            "après réflexion"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Elle part sur-le-champ dès l’alarme. Son voisin attend le lendemain ; son frère reviendra le matin et sa sœur le soir.",
+          "question": "Quel mot indique qu’elle part immédiatement ?",
+          "answer": "sur-le-champ",
+          "choices": [
+            "sur-le-champ",
+            "lendemain",
+            "matin",
+            "soir"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rayon_lightbeam",
+      "form": "rayon",
+      "lemma": "rayon",
+      "partOfSpeech": "noun masculine singular",
+      "meaning": "ray; beam of light",
+      "editorialNote": "Used for a beam from the sun employed in cosmic travel. Not a radius or department-store aisle.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 19,
+          "start": 54,
+          "end": 59,
+          "text": "rayon"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un rayon de soleil éclaire le sol.",
+          "question": "Meaning",
+          "answer": "sunbeam",
+          "choices": [
+            "sunbeam",
+            "cloud",
+            "wind",
+            "noise"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Un ___ de soleil traverse la fenêtre et éclaire la table.",
+          "question": "Complétez la phrase.",
+          "answer": "rayon",
+          "choices": [
+            "rayon",
+            "nuage",
+            "vent",
+            "bruit"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le rayon du soleil éclaire la fenêtre. Un nuage le cache ensuite ; le vent déplace les feuilles.",
+          "question": "Quel mot désigne la lumière qui arrive du Soleil ?",
+          "answer": "rayon",
+          "choices": [
+            "rayon",
+            "nuage",
+            "vent",
+            "fenêtre"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lois_physical_laws",
+      "form": "lois",
+      "lemma": "loi",
+      "partOfSpeech": "noun feminine plural",
+      "meaning": "physical laws; principles",
+      "editorialNote": "The laws of gravitation are principles describing natural behavior, a separate sense from statutes; related existing loi law identities must not be reused without checking sense.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 18,
+          "start": 48,
+          "end": 52,
+          "text": "lois"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Les lois de la physique décrivent le mouvement des corps.",
+          "question": "Meaning",
+          "answer": "laws of nature",
+          "choices": [
+            "laws of nature",
+            "paintings",
+            "stories",
+            "maps"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Les ___ de la gravitation permettent de prévoir les mouvements des planètes.",
+          "question": "Complétez la phrase.",
+          "answer": "lois",
+          "choices": [
+            "lois",
+            "images",
+            "histoires",
+            "légendes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les lois de la gravitation décrivent comment les masses s’attirent. Les images illustrent les résultats, et les histoires racontent la vie des savants.",
+          "question": "Quel mot désigne les principes qui décrivent ce phénomène naturel ?",
+          "answer": "lois",
+          "choices": [
+            "lois",
+            "images",
+            "histoires",
+            "résultats"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "forces_physical",
+      "form": "forces",
+      "lemma": "force",
+      "partOfSpeech": "noun feminine plural",
+      "meaning": "physical forces",
+      "editorialNote": "Refers to attractive and repulsive effects in the astronomical passage, not an army or personal strength.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 18,
+          "start": 86,
+          "end": 92,
+          "text": "forces"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Des forces agissent entre ces deux aimants.",
+          "question": "Meaning",
+          "answer": "forces",
+          "choices": [
+            "forces",
+            "shapes",
+            "distances",
+            "speeds"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ces ___ physiques attirent les aimants l’un vers l’autre.",
+          "question": "Complétez la phrase.",
+          "answer": "forces",
+          "choices": [
+            "forces",
+            "formes",
+            "distances",
+            "vitesses"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les forces attirent les deux aimants. Les distances indiquent leur écartement, les formes décrivent leur contour et les vitesses leur mouvement.",
+          "question": "Quel mot désigne ce qui provoque leur attraction ?",
+          "answer": "forces",
+          "choices": [
+            "forces",
+            "distances",
+            "formes",
+            "vitesses"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "attractives_attracting",
+      "form": "attractives",
+      "lemma": "attractif",
+      "partOfSpeech": "adjective feminine plural",
+      "meaning": "attractive; drawing together",
+      "editorialNote": "Agrees with forces; means physically drawing objects together, not appealing or charming.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 18,
+          "start": 93,
+          "end": 104,
+          "text": "attractives"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ces forces attractives rapprochent les deux aimants.",
+          "question": "Meaning",
+          "answer": "attracting",
+          "choices": [
+            "attracting",
+            "repelling",
+            "warming",
+            "slowing"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Les deux corps se rapprochent sous l’effet de forces ___.",
+          "question": "Complétez la phrase.",
+          "answer": "attractives",
+          "choices": [
+            "attractives",
+            "répulsives",
+            "destructrices",
+            "isolantes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les forces attractives rapprochent les deux objets. Les forces répulsives les éloignent ; les forces destructrices les brisent et les forces isolantes les séparent.",
+          "question": "Quel mot qualifie les forces qui rapprochent ?",
+          "answer": "attractives",
+          "choices": [
+            "attractives",
+            "répulsives",
+            "destructrices",
+            "isolantes"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "repulsives_repelling",
+      "form": "répulsives",
+      "lemma": "répulsif",
+      "partOfSpeech": "adjective feminine plural",
+      "meaning": "repulsive; pushing apart",
+      "editorialNote": "Agrees with forces; describes physical repulsion, not unpleasant appearance.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 18,
+          "start": 108,
+          "end": 118,
+          "text": "répulsives"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Les forces répulsives éloignent les deux aimants.",
+          "question": "Meaning",
+          "answer": "repelling",
+          "choices": [
+            "repelling",
+            "attracting",
+            "illuminating",
+            "warming"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Les deux aimants s’éloignent sous l’effet de forces ___.",
+          "question": "Complétez la phrase.",
+          "answer": "répulsives",
+          "choices": [
+            "répulsives",
+            "attractives",
+            "créatrices",
+            "réparatrices"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les forces répulsives éloignent les aimants ; les forces attractives les rapprochent. Des actions réparatrices consolident l’appareil et des mesures préventives réduisent les risques.",
+          "question": "Quel mot qualifie les forces qui éloignent les aimants ?",
+          "answer": "répulsives",
+          "choices": [
+            "répulsives",
+            "attractives",
+            "réparatrices",
+            "préventives"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inventions_new_creations",
+      "form": "inventions",
+      "lemma": "invention",
+      "partOfSpeech": "noun feminine plural",
+      "meaning": "inventions; newly created devices or ideas",
+      "editorialNote": "The secretary reports others’ inventions; the narrator explicitly says he invented none himself.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 28,
+          "start": 177,
+          "end": 187,
+          "text": "inventions"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ces inventions ont changé la façon de mesurer le temps.",
+          "question": "Meaning",
+          "answer": "inventions",
+          "choices": [
+            "inventions",
+            "repairs",
+            "translations",
+            "copies"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ces machines entièrement nouvelles sont des ___ qui n’existaient pas auparavant.",
+          "question": "Complétez la phrase.",
+          "answer": "inventions",
+          "choices": [
+            "inventions",
+            "réparations",
+            "imitations",
+            "traductions"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les inventions sont des machines nouvelles. Les réparations remettent en état les machines anciennes, et les imitations en reproduisent la forme.",
+          "question": "Quel mot désigne les créations inédites ?",
+          "answer": "inventions",
+          "choices": [
+            "inventions",
+            "réparations",
+            "imitations",
+            "machines"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "calculs_computations",
+      "form": "calculs",
+      "lemma": "calcul",
+      "partOfSpeech": "noun masculine plural",
+      "meaning": "calculations; computations",
+      "editorialNote": "The Saturnian secretary performs mathematical computations; not plans, kidney stones, or political schemes.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 28,
+          "start": 256,
+          "end": 263,
+          "text": "calculs"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ses calculs donnent une réponse exacte.",
+          "question": "Meaning",
+          "answer": "calculations",
+          "choices": [
+            "calculations",
+            "drawings",
+            "stories",
+            "songs"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour additionner ces quantités, elle effectue plusieurs ___.",
+          "question": "Complétez la phrase.",
+          "answer": "calculs",
+          "choices": [
+            "calculs",
+            "dessins",
+            "récits",
+            "poèmes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ses calculs additionnent les nombres. Ses dessins montrent les figures, ses récits racontent les voyages et ses poèmes jouent sur les sons.",
+          "question": "Quel mot désigne les opérations sur les nombres ?",
+          "answer": "calculs",
+          "choices": [
+            "calculs",
+            "dessins",
+            "récits",
+            "poèmes"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "academie_scholarly",
+      "form": "académie",
+      "lemma": "académie",
+      "partOfSpeech": "noun feminine singular",
+      "meaning": "academy; scholarly institution",
+      "editorialNote": "The Saturnian academy and Paris Academy of Sciences are learned institutions, not school classes or physical libraries.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 28,
+          "start": 50,
+          "end": 58,
+          "text": "Académie"
+        },
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 82,
+          "end": 90,
+          "text": "Académie"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Cette académie réunit des chercheurs qui présentent leurs travaux.",
+          "question": "Meaning",
+          "answer": "academy",
+          "choices": [
+            "academy",
+            "factory",
+            "library",
+            "classroom"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette ___ des sciences, société savante composée de chercheurs élus, organise des débats.",
+          "question": "Complétez la phrase.",
+          "answer": "académie",
+          "choices": [
+            "académie",
+            "bibliothèque",
+            "usine",
+            "école"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "L’académie accueille les chercheurs pour débattre de leurs découvertes. La bibliothèque conserve leurs livres, et l’usine fabrique leurs instruments.",
+          "question": "Quel mot désigne ici la société savante ?",
+          "answer": "académie",
+          "choices": [
+            "académie",
+            "bibliothèque",
+            "usine",
+            "chercheurs"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "conversation_dialogue",
+      "form": "conversation",
+      "lemma": "conversation",
+      "partOfSpeech": "noun feminine singular",
+      "meaning": "conversation; spoken exchange",
+      "editorialNote": "The three uses are spoken exchanges, including one the giants seek with humans. « Lier conversation » is a contextual collocation for later expression triage.",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 29,
+          "start": 59,
+          "end": 71,
+          "text": "conversation"
+        },
+        {
+          "chapter": 6,
+          "unit": 145,
+          "start": 74,
+          "end": 86,
+          "text": "conversation"
+        },
+        {
+          "chapter": 6,
+          "unit": 168,
+          "start": 13,
+          "end": 25,
+          "text": "conversation"
+        }
+      ],
+      "status": "workwide_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Leur conversation dura longtemps après le repas.",
+          "question": "Meaning",
+          "answer": "conversation",
+          "choices": [
+            "conversation",
+            "song",
+            "letter",
+            "silence"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "En se parlant tour à tour, ils eurent une longue ___ au café.",
+          "question": "Complétez la phrase.",
+          "answer": "conversation",
+          "choices": [
+            "conversation",
+            "chanson",
+            "lettre",
+            "traduction"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La conversation continue : Paul parle et Léa répond. Une chanson passe à la radio, puis une lettre arrive par la poste.",
+          "question": "Quel mot désigne leur échange de paroles ?",
+          "answer": "conversation",
+          "choices": [
+            "conversation",
+            "chanson",
+            "lettre",
+            "radio"
+          ]
+        }
+      ]
+    }
+  ]
+}

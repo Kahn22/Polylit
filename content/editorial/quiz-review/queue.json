@@ -1032,8 +1032,11 @@
       "language": "fr",
       "identity": "srf_zola_doigt_doigt:sns_zola_doigt_finger",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-02",
-      "reviewedAt": "2026-09-19T09:31:23.811Z"
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z",
+      "targets": [
+        "srf_zola_doigt_doigt:sns_zola_doigt_finger"
+      ]
     },
     {
       "language": "fr",
@@ -1130,8 +1133,12 @@
       "language": "fr",
       "identity": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-02",
-      "reviewedAt": "2026-09-19T09:31:23.811Z"
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z",
+      "targets": [
+        "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+        "srf_zola_doute_doute_noun:sns_fr_sans_doute_probably"
+      ]
     },
     {
       "language": "fr",
@@ -1715,8 +1722,12 @@
       "language": "fr",
       "identity": "srf_zola_triomphe_triomphe:sns_zola_triomphe_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-05",
-      "reviewedAt": "2026-09-19T11:27:42.594Z"
+      "batch": "fr-triomphe-noun-verb-split-2026-09-25",
+      "reviewedAt": "2026-09-25T09:54:53.862Z",
+      "targets": [
+        "srf_zola_triomphe_triomphe:sns_zola_triomphe_primary",
+        "srf_fr_triomphe_triompher_verb:sns_fr_triompher_prevail"
+      ]
     },
     {
       "language": "fr",
@@ -2262,8 +2273,12 @@
       "language": "fr",
       "identity": "srf_zola_tour_tour:sns_zola_tour_turn",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-06",
-      "reviewedAt": "2026-09-19T11:38:19.665Z"
+      "batch": "fr-tour-lieu-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:38:39.176Z",
+      "targets": [
+        "srf_zola_tour_tour:sns_zola_tour_turn",
+        "srf_zola_tour_tour:sns_fr_tour_stroll"
+      ]
     },
     {
       "language": "fr",
@@ -2395,8 +2410,12 @@
       "language": "fr",
       "identity": "srf_zola_sens_sens:sns_zola_sens_direction",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-06",
-      "reviewedAt": "2026-09-19T11:38:19.665Z"
+      "batch": "fr-sens-judgment-direction-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:43:18.268Z",
+      "targets": [
+        "srf_zola_sens_sens:sns_zola_sens_direction",
+        "srf_zola_sens_sens:sns_fr_sens_judgment"
+      ]
     },
     {
       "language": "fr",
@@ -7982,8 +8001,14 @@
       "language": "fr",
       "identity": "srf_de:sns_de_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z",
+      "targets": [
+        "srf_de:sns_de_primary",
+        "srf_fr_de_sorte_que_de:sns_fr_de_sorte_que",
+        "srf_fr_de_meme_de:sns_fr_de_meme",
+        "srf_fr_de_quoi_de:sns_fr_de_quoi"
+      ]
     },
     {
       "language": "fr",
@@ -8092,8 +8117,31 @@
       "language": "fr",
       "identity": "srf_a:sns_a_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z",
+      "targets": [
+        "srf_a:sns_a_primary",
+        "srf_fr_a_peu_pres_a:sns_fr_a_peu_pres",
+        "srf_fr_a_jeun_a:sns_fr_a_jeun",
+        "srf_fr_a_l_etourdie_a:sns_fr_a_l_etourdie",
+        "srf_fr_a_cause_de_a:sns_fr_a_cause_de",
+        "srf_fr_tout_a_coup_a:sns_fr_tout_a_coup",
+        "srf_fr_peu_a_peu_a:sns_fr_peu_a_peu",
+        "srf_fr_a_moins_que_a:sns_fr_a_moins_que",
+        "srf_fr_a_force_de_a:sns_fr_a_force_de",
+        "srf_fr_a_bas_a:sns_fr_a_bas",
+        "srf_fr_a_jamais_a:sns_fr_a_jamais",
+        "srf_fr_a_pied_a:sns_fr_a_pied",
+        "srf_fr_a_moitie_a:sns_fr_a_moitie",
+        "srf_fr_a_la_fin_a:sns_fr_a_la_fin",
+        "srf_fr_a_son_tour_a:sns_fr_a_son_tour",
+        "srf_fr_a_point_a:sns_fr_a_point",
+        "srf_fr_a_tout_heure_a:sns_fr_a_tout_heure",
+        "srf_fr_a_aucun_prix_a:sns_fr_a_aucun_prix",
+        "srf_fr_a_son_de_trompe_a:sns_fr_a_son_de_trompe",
+        "srf_fr_a_grande_eau_a:sns_fr_a_grande_eau",
+        "srf_fr_sou_a_sou_a:sns_fr_sou_a_sou"
+      ]
     },
     {
       "language": "fr",
@@ -8139,8 +8187,17 @@
       "language": "fr",
       "identity": "srf_d_elided:sns_de_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z",
+      "targets": [
+        "srf_d_elided:sns_de_primary",
+        "srf_fr_d_autant_plus_d_elided:sns_fr_d_autant_plus",
+        "srf_fr_d_ailleurs_d_elided:sns_fr_d_ailleurs",
+        "srf_fr_tout_d_un_coup_d_elided:sns_fr_tout_d_un_coup",
+        "srf_fr_d_abord_d_elided:sns_fr_d_abord",
+        "srf_fr_d_autre_part_d_elided:sns_fr_d_autre_part",
+        "srf_fr_d_accord_d_elided:sns_fr_d_accord"
+      ]
     },
     {
       "language": "fr",
@@ -8153,8 +8210,12 @@
       "language": "fr",
       "identity": "srf_n_elided:sns_ne_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-ne-restrictive-split-2026-09-25",
+      "reviewedAt": "2026-09-25T16:17:37.364Z",
+      "targets": [
+        "srf_n_elided:sns_ne_primary",
+        "srf_n_elided:sns_fr_ne_que_only"
+      ]
     },
     {
       "language": "fr",
@@ -8265,8 +8326,12 @@
       "language": "fr",
       "identity": "srf_ne:sns_ne_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-ne-restrictive-split-2026-09-25",
+      "reviewedAt": "2026-09-25T16:17:37.364Z",
+      "targets": [
+        "srf_ne:sns_ne_primary",
+        "srf_ne:sns_fr_ne_que_only"
+      ]
     },
     {
       "language": "fr",
@@ -8365,8 +8430,13 @@
       "language": "fr",
       "identity": "srf_sur:sns_sur_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z",
+      "targets": [
+        "srf_sur:sns_sur_primary",
+        "srf_sur:sns_fr_sur_about_topic",
+        "srf_fr_sur_toutes_choses_sur:sns_fr_sur_toutes_choses_above_all"
+      ]
     },
     {
       "language": "fr",
@@ -8386,8 +8456,14 @@
       "language": "fr",
       "identity": "srf_par:sns_par_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z",
+      "targets": [
+        "srf_par:sns_par_primary",
+        "srf_fr_par_consequent_par:sns_fr_par_consequent_therefore",
+        "srf_fr_finir_par_par:sns_fr_finir_par_eventually",
+        "srf_fr_par_la_place_par:sns_fr_par_la_around_there"
+      ]
     },
     {
       "language": "fr",
@@ -8514,8 +8590,12 @@
       "language": "fr",
       "identity": "srf_beau:sns_beau_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_beau:sns_beau_primary",
+        "srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression"
+      ]
     },
     {
       "language": "fr",
@@ -8612,8 +8692,8 @@
       "language": "fr",
       "identity": "srf_belle:sns_beau_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-13",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z"
     },
     {
       "language": "fr",
@@ -10509,8 +10589,12 @@
       "language": "fr",
       "identity": "srf_zola_en_en:sns_zola_en_gerund",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-16",
-      "reviewedAt": "2026-09-19T12:46:39.458Z"
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z",
+      "targets": [
+        "srf_zola_en_en:sns_zola_en_gerund",
+        "srf_zola_en_en:sns_fr_en_repeated_progression"
+      ]
     },
     {
       "language": "fr",
@@ -10716,8 +10800,14 @@
       "language": "fr",
       "identity": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-16",
-      "reviewedAt": "2026-09-19T12:46:39.458Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+        "srf_fr_avoir_avoir_lieu:sns_zola_avoir_lieu_happen",
+        "srf_fr_avoir_avoir_l_air:sns_fr_avoir_l_air_seem",
+        "srf_fr_avoir_y_avoir:sns_fr_y_avoir_exist"
+      ]
     },
     {
       "language": "fr",
@@ -10988,8 +11078,12 @@
       "language": "fr",
       "identity": "srf_zola_toutes_tout:sns_tout_primary",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-16",
-      "reviewedAt": "2026-09-19T12:46:39.458Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_toutes_tout:sns_tout_primary",
+        "srf_fr_toutes_pronoun:sns_fr_toutes_all_of_them"
+      ]
     },
     {
       "language": "fr",
@@ -11342,9 +11436,12 @@
     {
       "language": "fr",
       "identity": "srf_zola_mes_mon:sns_zola_mon_my",
-      "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-17",
-      "reviewedAt": "2026-09-19T12:51:44.332Z"
+      "status": "resolved_semantic",
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z",
+      "targets": [
+        "srf_fr_mes_mon_determiner:sns_mon_primary"
+      ]
     },
     {
       "language": "fr",
@@ -11364,8 +11461,12 @@
       "language": "fr",
       "identity": "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-17",
-      "reviewedAt": "2026-09-19T12:51:44.332Z"
+      "batch": "fr-haut-noun-adverb-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:40:06.571Z",
+      "targets": [
+        "srf_zola_haut_haut_adverb:sns_zola_haut_aloud",
+        "srf_fr_haut_noun:sns_fr_haut_top"
+      ]
     },
     {
       "language": "fr",
@@ -11822,8 +11923,12 @@
       "language": "fr",
       "identity": "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-17",
-      "reviewedAt": "2026-09-19T12:51:44.332Z"
+      "batch": "fr-tour-lieu-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:38:39.176Z",
+      "targets": [
+        "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
+        "srf_fr_lieu_au_lieu_de:sns_fr_au_lieu_de_instead"
+      ]
     },
     {
       "language": "fr",
@@ -12110,8 +12215,11 @@
       "language": "fr",
       "identity": "srf_zola_compromis_compromettre:sns_zola_compromettre_incriminate",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-18",
-      "reviewedAt": "2026-09-19T12:56:41.318Z"
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z",
+      "targets": [
+        "srf_zola_compromis_compromettre:sns_zola_compromettre_incriminate"
+      ]
     },
     {
       "language": "fr",
@@ -12327,9 +12435,12 @@
     {
       "language": "fr",
       "identity": "srf_zola_belle_beau:sns_zola_beau_beautiful",
-      "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-18",
-      "reviewedAt": "2026-09-19T12:56:41.318Z"
+      "status": "resolved_semantic",
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z",
+      "targets": [
+        "srf_belle:sns_beau_primary"
+      ]
     },
     {
       "language": "fr",
@@ -12670,8 +12781,12 @@
       "language": "fr",
       "identity": "srf_zola_bien_bien:sns_zola_bien_well",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-19",
-      "reviewedAt": "2026-09-19T13:01:46.341Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_bien_bien:sns_zola_bien_well",
+        "srf_zola_bien_bien:sns_fr_bien_intensifier"
+      ]
     },
     {
       "language": "fr",
@@ -14050,8 +14165,13 @@
       "language": "fr",
       "identity": "srf_zola_mettre_mettre:sns_zola_mettre_place",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-20",
-      "reviewedAt": "2026-09-19T13:06:56.364Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_mettre_mettre:sns_zola_mettre_place",
+        "srf_zola_mettre_mettre:sns_fr_mettre_en_flammes",
+        "srf_zola_mettre_mettre:sns_fr_mettre_au_net"
+      ]
     },
     {
       "language": "fr",
@@ -14197,8 +14317,11 @@
       "language": "fr",
       "identity": "srf_zola_beau_beau:sns_zola_beau_beautiful",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-21",
-      "reviewedAt": "2026-09-19T13:11:56.882Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_beau_beau:sns_zola_beau_beautiful"
+      ]
     },
     {
       "language": "fr",
@@ -14394,9 +14517,12 @@
     {
       "language": "fr",
       "identity": "srf_zola_eux_memes_9137724deb62_eux:sns_zola_eux_them",
-      "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-21",
-      "reviewedAt": "2026-09-19T13:11:56.882Z"
+      "status": "resolved_semantic",
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z",
+      "targets": [
+        "srf_zola_eux_memes_9137724deb62_eux:sns_fr_eux_memes_themselves"
+      ]
     },
     {
       "language": "fr",
@@ -15189,8 +15315,12 @@
       "language": "fr",
       "identity": "srf_zola_autres_autre:sns_zola_autre_adjective",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-22",
-      "reviewedAt": "2026-09-19T13:17:11.374Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
+      "targets": [
+        "srf_zola_autres_autre:sns_zola_autre_adjective",
+        "srf_fr_autres_pronoun:sns_fr_autres_others"
+      ]
     },
     {
       "language": "fr",
@@ -15712,9 +15842,12 @@
     {
       "language": "fr",
       "identity": "srf_zola_mets_mettre:sns_zola_mettre_place",
-      "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-23",
-      "reviewedAt": "2026-09-19T13:23:48.549Z"
+      "status": "resolved_semantic",
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z",
+      "targets": [
+        "srf_zola_mets_mettre:sns_fr_se_mettre_sous_le_coup_liability"
+      ]
     },
     {
       "language": "fr",
@@ -17802,8 +17935,12 @@
       "language": "fr",
       "identity": "srf_parure_trouver_lem_zola_trouver_75d0160413:sns_parure_trouver_rencontrer_la_personne_ou_la_chose_que_l_on_cherche_26ab9fa323",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-25",
-      "reviewedAt": "2026-09-19T13:39:02.101Z"
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z",
+      "targets": [
+        "srf_parure_trouver_lem_zola_trouver_75d0160413:sns_parure_trouver_rencontrer_la_personne_ou_la_chose_que_l_on_cherche_26ab9fa323",
+        "srf_parure_trouver_lem_zola_trouver_75d0160413:sns_fr_aller_trouver_see_person"
+      ]
     },
     {
       "language": "fr",
@@ -17952,8 +18089,12 @@
       "language": "fr",
       "identity": "srf_parure_rendre_lem_zola_rendre_506e242df3:sns_parure_rendre_remettre_une_chose_entre_les_mains_de_celui_a_qui_elle_appartient_de_quelque_maniere_qu_on_l_ait_eue_2b7ef09520",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-25",
-      "reviewedAt": "2026-09-19T13:39:02.101Z"
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z",
+      "targets": [
+        "srf_parure_rendre_lem_zola_rendre_506e242df3:sns_parure_rendre_remettre_une_chose_entre_les_mains_de_celui_a_qui_elle_appartient_de_quelque_maniere_qu_on_l_ait_eue_2b7ef09520",
+        "srf_parure_rendre_lem_zola_rendre_506e242df3:sns_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7"
+      ]
     },
     {
       "language": "fr",
@@ -34898,8 +35039,8 @@
       "language": "fr",
       "identity": "srf_zola_bien_bien:sns_fr_bien_intensifier",
       "status": "quiz_reviewed",
-      "batch": "fr-2026-09-19-65",
-      "reviewedAt": "2026-09-19T15:50:41.934Z"
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
     },
     {
       "language": "fr",
@@ -37528,6 +37669,398 @@
       "status": "quiz_reviewed",
       "batch": "es-2026-09-19-36",
       "reviewedAt": "2026-09-19T18:30:39.351Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_mes_mon_determiner:sns_mon_primary",
+      "status": "quiz_reviewed",
+      "batch": "fr-checkpoint-30-recovery-identities-2026-09-25",
+      "reviewedAt": "2026-09-25T09:43:41.337Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_triomphe_triompher_verb:sns_fr_triompher_prevail",
+      "status": "quiz_reviewed",
+      "batch": "fr-triomphe-noun-verb-split-2026-09-25",
+      "reviewedAt": "2026-09-25T09:54:53.862Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_tour_tour:sns_fr_tour_stroll",
+      "status": "quiz_reviewed",
+      "batch": "fr-tour-lieu-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:38:39.176Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_lieu_au_lieu_de:sns_fr_au_lieu_de_instead",
+      "status": "quiz_reviewed",
+      "batch": "fr-tour-lieu-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:38:39.176Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_haut_noun:sns_fr_haut_top",
+      "status": "quiz_reviewed",
+      "batch": "fr-haut-noun-adverb-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:40:06.571Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_sens_sens:sns_fr_sens_judgment",
+      "status": "quiz_reviewed",
+      "batch": "fr-sens-judgment-direction-split-2026-09-25",
+      "reviewedAt": "2026-09-25T15:43:18.268Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_parure_rendre_lem_zola_rendre_506e242df3:sns_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7",
+      "status": "quiz_reviewed",
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_parure_trouver_lem_zola_trouver_75d0160413:sns_fr_aller_trouver_see_person",
+      "status": "quiz_reviewed",
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_eux_memes_9137724deb62_eux:sns_fr_eux_memes_themselves",
+      "status": "quiz_reviewed",
+      "batch": "fr-rendre-trouver-eux-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T15:46:49.882Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_doute_doute_noun:sns_fr_sans_doute_probably",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_mets_mettre:sns_fr_se_mettre_sous_le_coup_liability",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_en_en:sns_fr_en_repeated_progression",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-24-splits-2026-09-25",
+      "reviewedAt": "2026-09-25T16:07:22.240Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_toutes_pronoun:sns_fr_toutes_all_of_them",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_mettre_mettre:sns_fr_mettre_en_flammes",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_zola_mettre_mettre:sns_fr_mettre_au_net",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_autres_pronoun:sns_fr_autres_others",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_avoir_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_avoir_avoir_l_air:sns_fr_avoir_l_air_seem",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_avoir_y_avoir:sns_fr_y_avoir_exist",
+      "status": "quiz_reviewed",
+      "batch": "fr-ten-batch-25-semantic-2026-09-25",
+      "reviewedAt": "2026-09-25T16:15:41.538Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_ne:sns_fr_ne_que_only",
+      "status": "quiz_reviewed",
+      "batch": "fr-ne-restrictive-split-2026-09-25",
+      "reviewedAt": "2026-09-25T16:17:37.364Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_n_elided:sns_fr_ne_que_only",
+      "status": "quiz_reviewed",
+      "batch": "fr-ne-restrictive-split-2026-09-25",
+      "reviewedAt": "2026-09-25T16:17:37.364Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_sur:sns_fr_sur_about_topic",
+      "status": "quiz_reviewed",
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_sur_toutes_choses_sur:sns_fr_sur_toutes_choses_above_all",
+      "status": "quiz_reviewed",
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_par_consequent_par:sns_fr_par_consequent_therefore",
+      "status": "quiz_reviewed",
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_finir_par_par:sns_fr_finir_par_eventually",
+      "status": "quiz_reviewed",
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_par_la_place_par:sns_fr_par_la_around_there",
+      "status": "quiz_reviewed",
+      "batch": "fr-sur-par-semantic-2026-09-25",
+      "reviewedAt": "2026-09-26T00:26:27.280Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_peu_pres_a:sns_fr_a_peu_pres",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_jeun_a:sns_fr_a_jeun",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_l_etourdie_a:sns_fr_a_l_etourdie",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_cause_de_a:sns_fr_a_cause_de",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_tout_a_coup_a:sns_fr_tout_a_coup",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_peu_a_peu_a:sns_fr_peu_a_peu",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_moins_que_a:sns_fr_a_moins_que",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_force_de_a:sns_fr_a_force_de",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_bas_a:sns_fr_a_bas",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_jamais_a:sns_fr_a_jamais",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_pied_a:sns_fr_a_pied",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_moitie_a:sns_fr_a_moitie",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_la_fin_a:sns_fr_a_la_fin",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_son_tour_a:sns_fr_a_son_tour",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_point_a:sns_fr_a_point",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_tout_heure_a:sns_fr_a_tout_heure",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_aucun_prix_a:sns_fr_a_aucun_prix",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_son_de_trompe_a:sns_fr_a_son_de_trompe",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_a_grande_eau_a:sns_fr_a_grande_eau",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_sou_a_sou_a:sns_fr_sou_a_sou",
+      "status": "quiz_reviewed",
+      "batch": "fr-a-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:35:09.941Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_de_sorte_que_de:sns_fr_de_sorte_que",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_de_meme_de:sns_fr_de_meme",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_de_quoi_de:sns_fr_de_quoi",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_d_autant_plus_d_elided:sns_fr_d_autant_plus",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_d_ailleurs_d_elided:sns_fr_d_ailleurs",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_tout_d_un_coup_d_elided:sns_fr_tout_d_un_coup",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_d_abord_d_elided:sns_fr_d_abord",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_d_autre_part_d_elided:sns_fr_d_autre_part",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
+    },
+    {
+      "language": "fr",
+      "identity": "srf_fr_d_accord_d_elided:sns_fr_d_accord",
+      "status": "quiz_reviewed",
+      "batch": "fr-de-semantic-2026-09-26",
+      "reviewedAt": "2026-09-26T00:36:35.350Z"
     }
   ]
 }

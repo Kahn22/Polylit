@@ -1,0 +1,1483 @@
+{
+  "version": 2,
+  "id": "fr-ten-batch-25-semantic-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T16:15:41.538Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_beau:sns_beau_primary",
+      "to": "srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression",
+      "occurrenceIds": [
+        "occ_cendrillon_7fadef0d7fd90dcbb4a81153"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_toutes_tout:sns_tout_primary",
+      "to": "srf_fr_toutes_pronoun:sns_fr_toutes_all_of_them",
+      "occurrenceIds": [
+        "occ_parure_d59675e4a8da9d4d3f8c457d",
+        "occ_cendrillon_1b5d3fb8a04c49fd4d8f3491"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_bien_bien:sns_zola_bien_well",
+      "to": "srf_zola_bien_bien:sns_fr_bien_intensifier",
+      "occurrenceIds": [
+        "occ_zola_52bdf3043f03fcc8b86a8249",
+        "occ_zola_6562105a85029d21cedef310"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mettre_mettre:sns_fr_mettre_en_flammes",
+      "occurrenceIds": [
+        "occ_zola_80b6c3361167562b6d54ebbb"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mettre_mettre:sns_fr_mettre_au_net",
+      "occurrenceIds": [
+        "occ_parure_fc64544df17a76dbd2a33f9f"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_autres_autre:sns_zola_autre_adjective",
+      "to": "srf_fr_autres_pronoun:sns_fr_autres_others",
+      "occurrenceIds": [
+        "occ_zola_bdbc1668e3640e43dbe6f9e2",
+        "occ_zola_dfaf928132a64fd82d9791ca",
+        "occ_parure_dbd10734cd111bc5a7d806fc",
+        "occ_cendrillon_b009be49f7ba5df25f3b99a0"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "occurrenceIds": [
+        "occ_zola_7db9219cdab0e8be4185211b",
+        "occ_zola_7f57294f369691d6a38f5f84"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_avoir_l_air:sns_fr_avoir_l_air_seem",
+      "occurrenceIds": [
+        "occ_parure_baa151f8b17e15dc81bdb226"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_y_avoir:sns_fr_y_avoir_exist",
+      "occurrenceIds": [
+        "occ_zola_b3eb097738faae8aab58d49e"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_beau:sns_beau_primary",
+      "to": "srf_beau:sns_beau_primary",
+      "form": "beau",
+      "reason": "The raven, carriage, horse and color passages describe attractive appearance; the three existing beauty questions apply to those four uses."
+    },
+    {
+      "from": "srf_beau:sns_beau_primary",
+      "to": "srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression",
+      "form": "beau",
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "from": "srf_zola_toutes_tout:sns_tout_primary",
+      "to": "srf_zola_toutes_tout:sns_tout_primary",
+      "form": "toutes",
+      "reason": "Fourteen occurrences determine explicit feminine plural nouns, including toutes les fautes, toutes choses and toutes les personnes; the three existing questions target that determiner form."
+    },
+    {
+      "from": "srf_zola_toutes_tout:sns_tout_primary",
+      "to": "srf_fr_toutes_pronoun:sns_fr_toutes_all_of_them",
+      "form": "toutes",
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "from": "srf_zola_bien_bien:sns_zola_bien_well",
+      "to": "srf_zola_bien_bien:sns_zola_bien_well",
+      "form": "bien",
+      "reason": "The other five uses express certainty or affirmation, as in « On verra bien » and « je crois bien »; the established indeed/well sense and questions remain applicable."
+    },
+    {
+      "from": "srf_zola_bien_bien:sns_zola_bien_well",
+      "to": "srf_zola_bien_bien:sns_fr_bien_intensifier",
+      "form": "bien",
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "from": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "form": "mettre",
+      "reason": "The two other occurrences put a garment on the body or place oneself near the fireplace, which fit the ordinary put/place meaning and its questions."
+    },
+    {
+      "from": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mettre_mettre:sns_fr_mettre_en_flammes",
+      "form": "mettre",
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "from": "srf_zola_mettre_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mettre_mettre:sns_fr_mettre_au_net",
+      "form": "mettre",
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "from": "srf_zola_autres_autre:sns_zola_autre_adjective",
+      "to": "srf_zola_autres_autre:sns_zola_autre_adjective",
+      "form": "autres",
+      "reason": "The other four occurrences explicitly modify occasions, men, women or talents, and the existing other-adjective questions fit each use."
+    },
+    {
+      "from": "srf_zola_autres_autre:sns_zola_autre_adjective",
+      "to": "srf_fr_autres_pronoun:sns_fr_autres_others",
+      "form": "autres",
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "form": "avoir",
+      "reason": "The remaining avoir uses express possession, having a quality, or auxiliary avoir; the existing questions use its infinitive possession sense."
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "form": "avoir",
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_avoir_l_air:sns_fr_avoir_l_air_seem",
+      "form": "avoir",
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "from": "srf_zola_avoir_avoir:sns_zola_avoir_possess_auxiliary",
+      "to": "srf_fr_avoir_y_avoir:sns_fr_y_avoir_exist",
+      "form": "avoir",
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "from": "srf_zola_beau_beau:sns_zola_beau_beautiful",
+      "to": "srf_zola_beau_beau:sns_zola_beau_beautiful",
+      "form": "beau",
+      "reason": "The sole beau passage describes a “fine result” ironically: the honest Picquart will be punished. The existing questions about a pretty garden tested only literal beauty, so these three questions now test the ironic favorable adjective in context while preserving the already broad beautiful/fine sense."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_avoir_beau_expression",
+      "before": null,
+      "after": {
+        "id": "lem_fr_avoir_beau_expression",
+        "headword": "avoir beau",
+        "partOfSpeech": "expression"
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_beau_avoir_beau",
+      "before": null,
+      "after": {
+        "id": "srf_fr_beau_avoir_beau",
+        "lemmaId": "lem_fr_avoir_beau_expression",
+        "form": "beau",
+        "normalized": "beau"
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_avoir_beau_concessive_expression",
+      "before": null,
+      "after": {
+        "id": "sns_fr_avoir_beau_concessive_expression",
+        "lemmaId": "lem_fr_avoir_beau_expression",
+        "gloss": "however much; in vain",
+        "definition": "Dans « avoir beau » suivi de l’infinitif, une action reste sans effet sur le résultat."
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_7fadef0d7fd90dcbb4a81153",
+      "before": {
+        "id": "occ_cendrillon_7fadef0d7fd90dcbb4a81153",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_052",
+        "start": 16,
+        "end": 20,
+        "surfaceFormId": "srf_beau",
+        "senseId": "sns_beau_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_7fadef0d7fd90dcbb4a81153",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_052",
+        "start": 16,
+        "end": 20,
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression"
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_1_3",
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression",
+        "band": "levels_1_3",
+        "contextFrench": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines.",
+        "correctAnswer": "however much; in vain",
+        "format": "meaning_choice",
+        "targetText": "beau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "beautiful",
+          "already",
+          "from afar",
+          "however much; in vain"
+        ]
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_4_5",
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression",
+        "band": "levels_4_5",
+        "contextFrench": "Vous aurez _____ les avoir : sans parrains, ces talents resteront vains.",
+        "correctAnswer": "beau",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "belle",
+          "beaux",
+          "beau",
+          "bel"
+        ]
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_6_8",
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression",
+        "band": "levels_6_8",
+        "contextFrench": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines si vous n’avez des parrains ou des Maraines.",
+        "correctAnswer": "beau",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient à la locution signifiant « malgré tous vos efforts » ?",
+        "choicesFrench": [
+          "Maraines",
+          "beau",
+          "avancement",
+          "choses"
+        ]
+      },
+      "reason": "The moral says that however much one possesses talents, they are vain without patrons; avoir beau is a concessive expression, not a description of beauty."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_toutes_pronoun",
+      "before": null,
+      "after": {
+        "id": "srf_fr_toutes_pronoun",
+        "lemmaId": "lem_fr_tout_pronoun",
+        "form": "toutes",
+        "normalized": "toutes"
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_toutes_all_of_them",
+      "before": null,
+      "after": {
+        "id": "sns_fr_toutes_all_of_them",
+        "lemmaId": "lem_fr_tout_pronoun",
+        "gloss": "all of them (feminine plural)",
+        "definition": "Pronom qui reprend un ensemble féminin pluriel sans nom exprimé après toutes."
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_d59675e4a8da9d4d3f8c457d",
+      "before": {
+        "id": "occ_parure_d59675e4a8da9d4d3f8c457d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_056",
+        "start": 79,
+        "end": 85,
+        "surfaceFormId": "srf_zola_toutes_tout",
+        "senseId": "sns_tout_primary"
+      },
+      "after": {
+        "id": "occ_parure_d59675e4a8da9d4d3f8c457d",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_056",
+        "start": 79,
+        "end": 85,
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them"
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_1b5d3fb8a04c49fd4d8f3491",
+      "before": {
+        "id": "occ_cendrillon_1b5d3fb8a04c49fd4d8f3491",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 225,
+        "end": 231,
+        "surfaceFormId": "srf_zola_toutes_tout",
+        "senseId": "sns_tout_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_1b5d3fb8a04c49fd4d8f3491",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 225,
+        "end": 231,
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them"
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_1_3",
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them",
+        "band": "levels_1_3",
+        "contextFrench": "Au bal, elle était plus jolie que toutes.",
+        "correctAnswer": "all of them (feminine plural)",
+        "format": "meaning_choice",
+        "targetText": "toutes",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "one woman",
+          "all of them (feminine plural)",
+          "each man",
+          "none of them"
+        ]
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_4_5",
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them",
+        "band": "levels_4_5",
+        "contextFrench": "Les six souris étaient _____ en vie.",
+        "correctAnswer": "toutes",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "toutes",
+          "tous",
+          "toute",
+          "tout"
+        ]
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_6_8",
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them",
+        "band": "levels_6_8",
+        "contextFrench": "Elle était plus jolie que toutes, élégante, gracieuse, souriante et folle de joie.",
+        "correctAnswer": "toutes",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom désigne toutes les autres femmes sans répéter le nom ?",
+        "choicesFrench": [
+          "jolie",
+          "gracieuse",
+          "joie",
+          "toutes"
+        ]
+      },
+      "reason": "« plus jolie que toutes » and « six souris toutes en vie » use toutes independently of a following noun; the other fourteen spans determine an explicit feminine plural noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_52bdf3043f03fcc8b86a8249",
+      "before": {
+        "id": "occ_zola_52bdf3043f03fcc8b86a8249",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_078",
+        "start": 75,
+        "end": 79,
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_zola_bien_well"
+      },
+      "after": {
+        "id": "occ_zola_52bdf3043f03fcc8b86a8249",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_078",
+        "start": 75,
+        "end": 79,
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier"
+      },
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_6562105a85029d21cedef310",
+      "before": {
+        "id": "occ_zola_6562105a85029d21cedef310",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_114",
+        "start": 105,
+        "end": 109,
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_zola_bien_well"
+      },
+      "after": {
+        "id": "occ_zola_6562105a85029d21cedef310",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_114",
+        "start": 105,
+        "end": 109,
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier"
+      },
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_1_3",
+      "before": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_1_3",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "contextFrench": "Cette valise est bien lourde : je peine à la soulever.",
+        "correctAnswer": "very",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "bien",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "very",
+          "hardly",
+          "never",
+          "formerly"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_1_3",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "band": "levels_1_3",
+        "contextFrench": "Ce qu’il faut affirmer bien haut, c’est que Gonse était convaincu.",
+        "correctAnswer": "very; emphatically",
+        "format": "meaning_choice",
+        "targetText": "bien",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "poorly",
+          "only afterward",
+          "in secret",
+          "very; emphatically"
+        ]
+      },
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_4_5",
+      "before": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_4_5",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "contextFrench": "Il est _____ fatigué, au point de tenir à peine debout.",
+        "correctAnswer": "bien",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "peu",
+          "à peine",
+          "faiblement",
+          "bien"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_4_5",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "band": "levels_4_5",
+        "contextFrench": "Ils étaient _____ obligés de l’acquitter, faute de preuve.",
+        "correctAnswer": "bien",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "mal",
+          "pas",
+          "bien",
+          "peu"
+        ]
+      },
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_6_8",
+      "before": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_6_8",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "contextFrench": "Elle a connu bien des difficultés avant de réussir enfin.",
+        "correctAnswer": "bien",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel adverbe indique ici une quantité importante ?",
+        "choicesFrench": [
+          "réussir",
+          "enfin",
+          "bien",
+          "difficultés"
+        ]
+      },
+      "after": {
+        "id": "qiz_fr_bien_intensifier_zola_bien_bien_levels_6_8",
+        "surfaceFormId": "srf_zola_bien_bien",
+        "senseId": "sns_fr_bien_intensifier",
+        "band": "levels_6_8",
+        "contextFrench": "Les généraux sont bien obligés de faire acquitter le commandant, puisqu’ils ne peuvent laisser reconnaître son innocence.",
+        "correctAnswer": "bien",
+        "format": "target_identification",
+        "promptFrench": "Quel mot renforce l’idée qu’ils sont obligés ?",
+        "choicesFrench": [
+          "innocence",
+          "bien",
+          "généraux",
+          "commandant"
+        ]
+      },
+      "reason": "« bien haut » and « bien obligés » intensify the following word rather than describing how well an action is done."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_mettre_en_flammes",
+      "before": null,
+      "after": {
+        "id": "sns_fr_mettre_en_flammes",
+        "lemmaId": "lem_zola_mettre",
+        "gloss": "to set ablaze; throw into turmoil",
+        "definition": "Dans « mettre en flammes », enflammer ou provoquer de graves bouleversements."
+      },
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_80b6c3361167562b6d54ebbb",
+      "before": {
+        "id": "occ_zola_80b6c3361167562b6d54ebbb",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_045",
+        "start": 77,
+        "end": 83,
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_zola_mettre_place"
+      },
+      "after": {
+        "id": "occ_zola_80b6c3361167562b6d54ebbb",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_045",
+        "start": 77,
+        "end": 83,
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_en_flammes"
+      },
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_1_3",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_en_flammes",
+        "band": "levels_1_3",
+        "contextFrench": "Les révélations étaient capables de mettre l’Europe en flammes.",
+        "correctAnswer": "set ablaze; throw into turmoil",
+        "format": "meaning_choice",
+        "targetText": "mettre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "give back",
+          "set ablaze; throw into turmoil",
+          "place on a shelf",
+          "tidy up"
+        ]
+      },
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_4_5",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_en_flammes",
+        "band": "levels_4_5",
+        "contextFrench": "Ces révélations risquaient de _____ l’Europe en flammes.",
+        "correctAnswer": "mettre",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "mettre",
+          "tenir",
+          "rendre",
+          "porter"
+        ]
+      },
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_en_flammes_zola_mettre_mettre_levels_6_8",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_en_flammes",
+        "band": "levels_6_8",
+        "contextFrench": "Les choses dangereuses, capables de mettre l’Europe en flammes, avaient été enterrées derrière ce huis clos.",
+        "correctAnswer": "mettre",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe appartient à la locution signifiant provoquer un embrasement ?",
+        "choicesFrench": [
+          "choses",
+          "Europe",
+          "flammes",
+          "mettre"
+        ]
+      },
+      "reason": "« mettre l’Europe en flammes » predicts upheaval, not physical placement of an object."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_mettre_au_net",
+      "before": null,
+      "after": {
+        "id": "sns_fr_mettre_au_net",
+        "lemmaId": "lem_zola_mettre",
+        "gloss": "to write up neatly; make a clean copy",
+        "definition": "Dans « mettre au net les comptes », établir une version propre et ordonnée des comptes."
+      },
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_fc64544df17a76dbd2a33f9f",
+      "before": {
+        "id": "occ_parure_fc64544df17a76dbd2a33f9f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_107",
+        "start": 32,
+        "end": 38,
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_zola_mettre_place"
+      },
+      "after": {
+        "id": "occ_parure_fc64544df17a76dbd2a33f9f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_107",
+        "start": 32,
+        "end": 38,
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net"
+      },
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_1_3",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net",
+        "band": "levels_1_3",
+        "contextFrench": "Le mari travaillait le soir à mettre au net les comptes d’un commerçant.",
+        "correctAnswer": "write up neatly; make a clean copy",
+        "format": "meaning_choice",
+        "targetText": "mettre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "write up neatly; make a clean copy",
+          "set on fire",
+          "hide",
+          "lend"
+        ]
+      },
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_4_5",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net",
+        "band": "levels_4_5",
+        "contextFrench": "Il passait ses soirées à _____ au net les comptes.",
+        "correctAnswer": "mettre",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "voir",
+          "tenir",
+          "prendre",
+          "mettre"
+        ]
+      },
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_6_8",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net",
+        "band": "levels_6_8",
+        "contextFrench": "Le mari travaillait, le soir, à mettre au net les comptes d’un commerçant, et la nuit il faisait de la copie.",
+        "correctAnswer": "mettre",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe appartient à l’expression signifiant établir des comptes propres ?",
+        "choicesFrench": [
+          "commerçant",
+          "copie",
+          "mettre",
+          "comptes"
+        ]
+      },
+      "reason": "Mathilde’s husband works to put accounts into a clean final form; mettre au net is a distinct accounting or copying expression."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_autres_pronoun",
+      "before": null,
+      "after": {
+        "id": "srf_fr_autres_pronoun",
+        "lemmaId": "lem_fr_autre_pronoun",
+        "form": "autres",
+        "normalized": "autres"
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_autres_others",
+      "before": null,
+      "after": {
+        "id": "sns_fr_autres_others",
+        "lemmaId": "lem_fr_autre_pronoun",
+        "gloss": "others; the other ones",
+        "definition": "Désigne d’autres personnes ou choses sans répéter leur nom."
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_bdbc1668e3640e43dbe6f9e2",
+      "before": {
+        "id": "occ_zola_bdbc1668e3640e43dbe6f9e2",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 130,
+        "end": 136,
+        "surfaceFormId": "srf_zola_autres_autre",
+        "senseId": "sns_zola_autre_adjective"
+      },
+      "after": {
+        "id": "occ_zola_bdbc1668e3640e43dbe6f9e2",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 130,
+        "end": 136,
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others"
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_dfaf928132a64fd82d9791ca",
+      "before": {
+        "id": "occ_zola_dfaf928132a64fd82d9791ca",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 92,
+        "end": 98,
+        "surfaceFormId": "srf_zola_autres_autre",
+        "senseId": "sns_zola_autre_adjective"
+      },
+      "after": {
+        "id": "occ_zola_dfaf928132a64fd82d9791ca",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 92,
+        "end": 98,
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others"
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_dbd10734cd111bc5a7d806fc",
+      "before": {
+        "id": "occ_parure_dbd10734cd111bc5a7d806fc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_106",
+        "start": 58,
+        "end": 64,
+        "surfaceFormId": "srf_zola_autres_autre",
+        "senseId": "sns_zola_autre_adjective"
+      },
+      "after": {
+        "id": "occ_parure_dbd10734cd111bc5a7d806fc",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_106",
+        "start": 58,
+        "end": 64,
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others"
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b009be49f7ba5df25f3b99a0",
+      "before": {
+        "id": "occ_cendrillon_b009be49f7ba5df25f3b99a0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 448,
+        "end": 454,
+        "surfaceFormId": "srf_zola_autres_autre",
+        "senseId": "sns_zola_autre_adjective"
+      },
+      "after": {
+        "id": "occ_cendrillon_b009be49f7ba5df25f3b99a0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 448,
+        "end": 454,
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others"
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_1_3",
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others",
+        "band": "levels_1_3",
+        "contextFrench": "Il a pris à sa charge le crime des autres.",
+        "correctAnswer": "others; the other ones",
+        "format": "meaning_choice",
+        "targetText": "autres",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "everyone",
+          "nobody",
+          "others; the other ones",
+          "the same people"
+        ]
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_4_5",
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others",
+        "band": "levels_4_5",
+        "contextFrench": "Il fallait payer des billets, en renouveler d’_____.",
+        "correctAnswer": "autres",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "amples",
+          "autres",
+          "anciens",
+          "utiles"
+        ]
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_6_8",
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others",
+        "band": "levels_6_8",
+        "contextFrench": "En renouvelant d’autres billets chaque mois, il obtint un peu de temps pour rembourser sa dette.",
+        "correctAnswer": "autres",
+        "format": "target_identification",
+        "promptFrench": "Quel pronom désigne ici des billets supplémentaires ?",
+        "choicesFrench": [
+          "autres",
+          "billets",
+          "mois",
+          "temps"
+        ]
+      },
+      "reason": "« les autres », « d’autres » and « tous les autres » stand for people or items without a following noun; the four remaining autres modify an explicit noun."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_avoir_avoir_lieu",
+      "before": null,
+      "after": {
+        "id": "srf_fr_avoir_avoir_lieu",
+        "lemmaId": "lem_zola_avoir_lieu",
+        "form": "avoir",
+        "normalized": "avoir"
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_7db9219cdab0e8be4185211b",
+      "before": {
+        "id": "occ_zola_7db9219cdab0e8be4185211b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_108",
+        "start": 21,
+        "end": 26,
+        "surfaceFormId": "srf_zola_avoir_avoir",
+        "senseId": "sns_zola_avoir_possess_auxiliary"
+      },
+      "after": {
+        "id": "occ_zola_7db9219cdab0e8be4185211b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_108",
+        "start": 21,
+        "end": 26,
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen"
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_7f57294f369691d6a38f5f84",
+      "before": {
+        "id": "occ_zola_7f57294f369691d6a38f5f84",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_162",
+        "start": 38,
+        "end": 43,
+        "surfaceFormId": "srf_zola_avoir_avoir",
+        "senseId": "sns_zola_avoir_possess_auxiliary"
+      },
+      "after": {
+        "id": "occ_zola_7f57294f369691d6a38f5f84",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_162",
+        "start": 38,
+        "end": 43,
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen"
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_1_3",
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen",
+        "band": "levels_1_3",
+        "contextFrench": "Dès lors, le duel va avoir lieu entre les deux lieutenants-colonels.",
+        "correctAnswer": "take place; happen",
+        "format": "meaning_choice",
+        "targetText": "avoir",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "take place; happen",
+          "possess",
+          "borrow",
+          "remember"
+        ]
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_4_5",
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen",
+        "band": "levels_4_5",
+        "contextFrench": "Le duel va _____ lieu entre les deux hommes.",
+        "correctAnswer": "avoir",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "faire",
+          "prendre",
+          "donner",
+          "avoir"
+        ]
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_6_8",
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen",
+        "band": "levels_6_8",
+        "contextFrench": "Dès lors, le duel va avoir lieu entre le lieutenant-colonel Picquart et le lieutenant-colonel du Paty de Clam.",
+        "correctAnswer": "avoir",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe appartient à l’expression signifiant se dérouler ?",
+        "choicesFrench": [
+          "Picquart",
+          "Clam",
+          "avoir",
+          "duel"
+        ]
+      },
+      "reason": "The duel and an inner collapse « vont/doivent avoir lieu »: the whole expression means take place, not possess something."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_avoir_l_air",
+      "before": null,
+      "after": {
+        "id": "lem_fr_avoir_l_air",
+        "headword": "avoir l’air",
+        "partOfSpeech": "expression"
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_avoir_avoir_l_air",
+      "before": null,
+      "after": {
+        "id": "srf_fr_avoir_avoir_l_air",
+        "lemmaId": "lem_fr_avoir_l_air",
+        "form": "avoir",
+        "normalized": "avoir"
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_avoir_l_air_seem",
+      "before": null,
+      "after": {
+        "id": "sns_fr_avoir_l_air_seem",
+        "lemmaId": "lem_fr_avoir_l_air",
+        "gloss": "to look; seem",
+        "definition": "Dans « avoir l’air » suivi d’un adjectif, donner l’impression d’être ainsi."
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_baa151f8b17e15dc81bdb226",
+      "before": {
+        "id": "occ_parure_baa151f8b17e15dc81bdb226",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_040",
+        "start": 45,
+        "end": 50,
+        "surfaceFormId": "srf_zola_avoir_avoir",
+        "senseId": "sns_zola_avoir_possess_auxiliary"
+      },
+      "after": {
+        "id": "occ_parure_baa151f8b17e15dc81bdb226",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_040",
+        "start": 45,
+        "end": 50,
+        "surfaceFormId": "srf_fr_avoir_avoir_l_air",
+        "senseId": "sns_fr_avoir_l_air_seem"
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_1_3",
+        "surfaceFormId": "srf_fr_avoir_avoir_l_air",
+        "senseId": "sns_fr_avoir_l_air_seem",
+        "band": "levels_1_3",
+        "contextFrench": "Elle trouvait humiliant d’avoir l’air pauvre au milieu de femmes riches.",
+        "correctAnswer": "look; seem",
+        "format": "meaning_choice",
+        "targetText": "avoir",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "possess",
+          "become wealthy",
+          "borrow",
+          "look; seem"
+        ]
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_4_5",
+        "surfaceFormId": "srf_fr_avoir_avoir_l_air",
+        "senseId": "sns_fr_avoir_l_air_seem",
+        "band": "levels_4_5",
+        "contextFrench": "Elle craignait d’_____ l’air pauvre au milieu des femmes riches.",
+        "correctAnswer": "avoir",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "faire",
+          "voir",
+          "avoir",
+          "être"
+        ]
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_6_8",
+        "surfaceFormId": "srf_fr_avoir_avoir_l_air",
+        "senseId": "sns_fr_avoir_l_air_seem",
+        "band": "levels_6_8",
+        "contextFrench": "Il n’y a rien de plus humiliant que d’avoir l’air pauvre au milieu de femmes riches.",
+        "correctAnswer": "avoir",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe appartient à l’expression signifiant paraître pauvre ?",
+        "choicesFrench": [
+          "femmes",
+          "avoir",
+          "humiliant",
+          "pauvre"
+        ]
+      },
+      "reason": "« avoir l’air pauvre » means appear poor, distinct from possession or auxiliary avoir."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_y_avoir_existential",
+      "before": null,
+      "after": {
+        "id": "lem_fr_y_avoir_existential",
+        "headword": "y avoir",
+        "partOfSpeech": "expression"
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_avoir_y_avoir",
+      "before": null,
+      "after": {
+        "id": "srf_fr_avoir_y_avoir",
+        "lemmaId": "lem_fr_y_avoir_existential",
+        "form": "avoir",
+        "normalized": "avoir"
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_y_avoir_exist",
+      "before": null,
+      "after": {
+        "id": "sns_fr_y_avoir_exist",
+        "lemmaId": "lem_fr_y_avoir_existential",
+        "gloss": "there to be; to occur",
+        "definition": "Dans « il y avoir », marque l’existence ou la survenue de quelque chose."
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_b3eb097738faae8aab58d49e",
+      "before": {
+        "id": "occ_zola_b3eb097738faae8aab58d49e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_081",
+        "start": 9,
+        "end": 14,
+        "surfaceFormId": "srf_zola_avoir_avoir",
+        "senseId": "sns_zola_avoir_possess_auxiliary"
+      },
+      "after": {
+        "id": "occ_zola_b3eb097738faae8aab58d49e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_081",
+        "start": 9,
+        "end": 14,
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist"
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_1_3",
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist",
+        "band": "levels_1_3",
+        "contextFrench": "Il pouvait y avoir une minute d’hésitation avant que le conseil ne tranche.",
+        "correctAnswer": "there to be; to occur",
+        "format": "meaning_choice",
+        "targetText": "avoir",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "take away",
+          "remember",
+          "there to be; to occur",
+          "possess"
+        ]
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_4_5",
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist",
+        "band": "levels_4_5",
+        "contextFrench": "Il dut y _____ là une minute d’angoisse.",
+        "correctAnswer": "avoir",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "aller",
+          "avoir",
+          "être",
+          "faire"
+        ]
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_6_8",
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist",
+        "band": "levels_6_8",
+        "contextFrench": "Il dut y avoir un instant d’angoisse avant la décision du conseil.",
+        "correctAnswer": "avoir",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe appartient à la tournure marquant l’existence de cet instant ?",
+        "choicesFrench": [
+          "avoir",
+          "instant",
+          "angoisse",
+          "conseil"
+        ]
+      },
+      "reason": "« Il dut y avoir là une minute psychologique » means there must have been such a moment, not that someone owned it."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_beau_beau_beautiful_early",
+      "before": {
+        "id": "qiz_zola_beau_beau_beautiful_early",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "contextFrench": "Le jardin est beau au printemps, quand les fleurs couvrent les allées.",
+        "correctAnswer": "beautiful",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "beau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "beautiful",
+          "ugly",
+          "empty",
+          "dangerous"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_beau_beau_beautiful_early",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "band": "levels_1_3",
+        "contextFrench": "Le beau résultat de cette affaire, c’est que l’homme honnête sera puni.",
+        "correctAnswer": "fine; splendid (said ironically)",
+        "format": "meaning_choice",
+        "targetText": "beau",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "secret",
+          "fine; splendid (said ironically)",
+          "ugly",
+          "ordinary"
+        ]
+      },
+      "reason": "The sole beau passage describes a “fine result” ironically: the honest Picquart will be punished. The existing questions about a pretty garden tested only literal beauty, so these three questions now test the ironic favorable adjective in context while preserving the already broad beautiful/fine sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_beau_beau_beautiful_intermediate",
+      "before": {
+        "id": "qiz_zola_beau_beau_beautiful_intermediate",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "contextFrench": "Devant ce _____ paysage de montagne, les visiteurs s’arrêtent pour l’admirer.",
+        "correctAnswer": "beau",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "beau",
+          "laid",
+          "terne",
+          "sinistre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_beau_beau_beautiful_intermediate",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "band": "levels_4_5",
+        "contextFrench": "Quel _____ résultat : Picquart a fait son devoir et sera pourtant puni !",
+        "correctAnswer": "beau",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "beau",
+          "bel",
+          "belle",
+          "beaux"
+        ]
+      },
+      "reason": "The sole beau passage describes a “fine result” ironically: the honest Picquart will be punished. The existing questions about a pretty garden tested only literal beauty, so these three questions now test the ironic favorable adjective in context while preserving the already broad beautiful/fine sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_beau_beau_beautiful_advanced",
+      "before": {
+        "id": "qiz_zola_beau_beau_beautiful_advanced",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "contextFrench": "Le beau jardin de Nina attire les promeneurs : ses roses sont en fleurs et les allées sont soignées. La clôture est vieille, mais le portail fonctionne.",
+        "correctAnswer": "beau",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot exprime la beauté du jardin ?",
+        "choicesFrench": [
+          "beau",
+          "vieille",
+          "soignées",
+          "portail"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_beau_beau_beautiful_advanced",
+        "surfaceFormId": "srf_zola_beau_beau",
+        "senseId": "sns_zola_beau_beautiful",
+        "band": "levels_6_8",
+        "contextFrench": "Et le beau résultat de cette situation prodigieuse, c’est que l’honnête homme, le lieutenant-colonel Picquart, va être la victime.",
+        "correctAnswer": "beau",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif qualifie ironiquement ce résultat ?",
+        "choicesFrench": [
+          "résultat",
+          "Picquart",
+          "victime",
+          "beau"
+        ]
+      },
+      "reason": "The sole beau passage describes a “fine result” ironically: the honest Picquart will be punished. The existing questions about a pretty garden tested only literal beauty, so these three questions now test the ironic favorable adjective in context while preserving the already broad beautiful/fine sense."
+    }
+  ]
+}

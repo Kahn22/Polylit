@@ -1124,6 +1124,114 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_force_de_fr_a_force_de_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_force_de_a",
+        "senseId": "sns_fr_a_force_de"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle réussit à force de patience et de travail.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 13,
+        "end": 14
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by dint of; through repeated effort"
+        },
+        {
+          "id": "choice_2",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_4",
+          "text": "beneath an object"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_a_force_de_fr_a_force_de_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_force_de_a",
+        "senseId": "sns_fr_a_force_de"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il apprend _____ force de pratique et de temps.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "par"
+        },
+        {
+          "id": "choice_3",
+          "text": "sans"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_a_jamais_fr_a_jamais_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_jamais_a",
+        "senseId": "sns_fr_a_jamais"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Cette décision restera à jamais dans les mémoires.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 23,
+        "end": 24
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_2",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "forever; for all time"
+        },
+        {
+          "id": "choice_4",
+          "text": "towards a place"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_aine_elder_sibling_fr_aisnee_aine_noun_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1659,6 +1767,39 @@
         {
           "id": "choice_4",
           "text": "ciel"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Il n’a pas les vêtements nécessaires ; par conséquent, il restera chez lui.",
+      "prompt": "Quel mot appartient au lien logique « donc » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "conséquent"
+        },
+        {
+          "id": "choice_2",
+          "text": "restera"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "vêtements"
         }
       ],
       "correctChoiceId": "choice_3"
@@ -4001,24 +4142,24 @@
       },
       "band": "levels_6_8",
       "format": "target_identification",
-      "context": "Elle se coupe le doigt en préparant les légumes, pose le couteau et demande un pansement.",
-      "prompt": "Quel mot désigne la partie de la main qui est blessée ?",
+      "context": "Je voudrais faire toucher du doigt les machinations qui ont rendu possible l’erreur judiciaire.",
+      "prompt": "Quel mot complète l’expression qui rend cette démonstration concrète ?",
       "choices": [
-        {
-          "id": "choice_3",
-          "text": "couteau"
-        },
-        {
-          "id": "choice_5",
-          "text": "pansement"
-        },
         {
           "id": "choice_1",
           "text": "doigt"
         },
         {
-          "id": "choice_6",
-          "text": "légumes"
+          "id": "choice_7",
+          "text": "toucher"
+        },
+        {
+          "id": "choice_8",
+          "text": "erreur"
+        },
+        {
+          "id": "choice_9",
+          "text": "possible"
         }
       ],
       "correctChoiceId": "choice_1"

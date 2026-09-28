@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-haut-annotation-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison after one occurrence reassignment",
+  "changes": [
+    {
+      "subjectId": "wrk_perrault_cendrillon",
+      "reviewId": "annotations:wrk_perrault_cendrillon",
+      "outcome": "approve",
+      "rationale": "The ordered passage units retain identical canonical text and structure; the noun haut occurrence retains its exact source span and now matches « au haut de la maison ».",
+      "before": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_c649c754c3c247e28402bbeccf057c9e7fecbaef821ae0c16051f7d7d7e4ce25",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Rechecked all 55 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_e06a2a926043cb3faaf8bbc8c635df8ea347816724e2c79bfbc73faa3d0eaa33",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The ordered passage units retain identical canonical text and structure; the noun haut occurrence retains its exact source span and now matches « au haut de la maison ».",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T15:40:30.441Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 55
+    }
+  ]
+}

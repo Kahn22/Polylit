@@ -958,6 +958,38 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_l_etourdie_fr_a_l_etourdie_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_l_etourdie_a",
+        "senseId": "sns_fr_a_l_etourdie"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Le visiteur entre _____ l’étourdie dans la salle.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "de"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sans"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -994,6 +1026,44 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_d_autant_plus_fr_d_autant_plus_d_elided_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_autant_plus_d_elided",
+        "senseId": "sns_fr_d_autant_plus"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Cette accusation est d’autant plus grave que les preuves manquent.",
+      "targetText": "d’",
+      "targetRange": {
+        "start": 21,
+        "end": 23
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "belonging to"
+        },
+        {
+          "id": "choice_2",
+          "text": "toward a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_4",
+          "text": "all the more; especially so"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_donner_sacrifice_cendrillon_donneroit_lem_zola_donner_956cd42477_levels_4_5",
@@ -1635,6 +1705,38 @@
         {
           "id": "choice_4",
           "text": "voyant"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_tout_d_un_coup_fr_tout_d_un_coup_d_elided_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_tout_d_un_coup_d_elided",
+        "senseId": "sns_fr_tout_d_un_coup"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Tout _____un coup, elle aperçoit un bijou sur la table.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "d’"
+        },
+        {
+          "id": "choice_2",
+          "text": "à"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sans"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -3893,16 +3995,8 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Elle glisse une bague autour d’un _____ de sa main gauche.",
+      "context": "Zola veut faire toucher du _____ les machinations qui ont rendu possible l’erreur judiciaire.",
       "choices": [
-        {
-          "id": "choice_2",
-          "text": "coude"
-        },
-        {
-          "id": "choice_3",
-          "text": "genou"
-        },
         {
           "id": "choice_5",
           "text": "poignet"
@@ -3910,6 +4004,14 @@
         {
           "id": "choice_1",
           "text": "doigt"
+        },
+        {
+          "id": "choice_2",
+          "text": "coude"
+        },
+        {
+          "id": "choice_3",
+          "text": "genou"
         }
       ],
       "correctChoiceId": "choice_1"

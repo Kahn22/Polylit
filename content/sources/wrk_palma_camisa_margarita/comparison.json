@@ -1,0 +1,40 @@
+{
+  "method": "Lowercase Unicode word tokens; long s normalized; punctuation and layout ignored. Automatic boundary detection requires first and last eight tokens. This is not a scan review.",
+  "boundaryLocated": true,
+  "changes": [
+    {
+      "operation": "delete",
+      "witnessTokens": [
+        113,
+        114
+      ],
+      "canonicalTokens": [
+        113,
+        113
+      ],
+      "from": "i",
+      "to": "",
+      "review": "needs_editorial_decision",
+      "classification": "section headings omitted",
+      "reason": "Canonical text omits numbered section labels; check FIN II placement against a historical scan before approving scope."
+    },
+    {
+      "operation": "delete",
+      "witnessTokens": [
+        1014,
+        1016
+      ],
+      "canonicalTokens": [
+        1013,
+        1013
+      ],
+      "from": "fin ii",
+      "to": "",
+      "review": "needs_editorial_decision",
+      "classification": "section headings omitted",
+      "reason": "Canonical text omits numbered section labels; check FIN II placement against a historical scan before approving scope."
+    }
+  ],
+  "witnessTokenCount": 1126,
+  "canonicalTokenCount": 1123
+}

@@ -1851,6 +1851,115 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_anduvo_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_anduvo",
+        "senseId": "sns_es_samaniego_anduvo"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Durante meses anduvo en negociaciones; al final firmó el acuerdo y descansó.",
+      "prompt": "¿Qué palabra, con en negociaciones, indica que estuvo ocupado en esa actividad?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "anduvo"
+        },
+        {
+          "id": "choice_2",
+          "text": "firmó"
+        },
+        {
+          "id": "choice_3",
+          "text": "descansó"
+        },
+        {
+          "id": "choice_4",
+          "text": "acuerdo"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_fijo_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_fijo",
+        "senseId": "sns_es_samaniego_fijo"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Vendrá de fijo: me lo ha confirmado tres veces.",
+      "targetText": "fijo",
+      "targetRange": {
+        "start": 10,
+        "end": 14
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "certainly (in de fijo)"
+        },
+        {
+          "id": "choice_2",
+          "text": "by chance"
+        },
+        {
+          "id": "choice_3",
+          "text": "secretly"
+        },
+        {
+          "id": "choice_4",
+          "text": "slowly"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_mil_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0514_mil",
+        "senseId": "sns_es_samaniego_mil"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "¡Te lo he explicado mil veces y todavía no me escuchas!",
+      "targetText": "mil",
+      "targetRange": {
+        "start": 20,
+        "end": 23
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "countless; very many"
+        },
+        {
+          "id": "choice_2",
+          "text": "exactly ten"
+        },
+        {
+          "id": "choice_3",
+          "text": "very few"
+        },
+        {
+          "id": "choice_4",
+          "text": "none"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

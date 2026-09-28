@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-27T05:59:20.842Z",
+  "sense": {
+    "id": "sns_parure_oiseau_bird_9f2b853e65",
+    "lemmaId": "lem_parure_oiseau_noun_b7fad63659",
+    "gloss": "birds",
+    "definition": "animaux vertébrés couverts de plumes"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_advanced",
+      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_early",
+      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_oiseaux_oiseau_noun_fc62a7de82:sns_parure_oiseau_bird_9f2b853e65",
+      "surface": "oiseaux",
+      "lemma": "oiseau",
+      "currentRevision": "rev_2a2604c471d7efa6e380f3feef7f430da3d43757680f5a973e4e0bffefd44b5d",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_2d5b6e226146fd5ad2031415",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_006",
+          "passage": "Quand elle s’asseyait, pour dîner, devant la table ronde couverte d’une nappe de trois jours, en face de son mari qui découvrait la soupière en déclarant d’un air enchanté : « Ah ! le bon pot-au-feu ! je ne sais rien de meilleur que cela… », elle songeait aux dîners fins, aux argenteries reluisantes, aux tapisseries peuplant les murailles de personnages anciens et d’oiseaux étranges au milieu d’une forêt de féerie ;",
+          "span": [
+            369,
+            376
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les oiseaux quittent leurs nids au lever du jour ; leurs plumes brillent lorsqu’ils traversent le jardin.",
+          "prompt": "Quel nom désigne les animaux couverts de plumes ?",
+          "choices": [
+            {
+              "text": "jour",
+              "correct": false
+            },
+            {
+              "text": "jardin",
+              "correct": false
+            },
+            {
+              "text": "oiseaux",
+              "correct": true
+            },
+            {
+              "text": "nids",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les oiseaux se posent sur les branches et commencent à chanter.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "insects",
+              "correct": false
+            },
+            {
+              "text": "mammals",
+              "correct": false
+            },
+            {
+              "text": "reptiles",
+              "correct": false
+            },
+            {
+              "text": "birds",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces _____ ont un bec, deux ailes et un corps couvert de plumes.",
+          "choices": [
+            {
+              "text": "insectes",
+              "correct": false
+            },
+            {
+              "text": "mammifères",
+              "correct": false
+            },
+            {
+              "text": "reptiles",
+              "correct": false
+            },
+            {
+              "text": "oiseaux",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

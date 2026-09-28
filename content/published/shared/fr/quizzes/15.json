@@ -1063,6 +1063,108 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_bas_fr_a_bas_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_bas_a",
+        "senseId": "sns_fr_a_bas"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Les ouvriers vont jeter _____ bas le mur.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "de"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_a_moitie_fr_a_moitie_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moitie_a",
+        "senseId": "sns_fr_a_moitie"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Le manteau est _____ moitié fermé ce soir.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "par"
+        },
+        {
+          "id": "choice_3",
+          "text": "sans"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_a_pied_fr_a_pied_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_pied_a",
+        "senseId": "sns_fr_a_pied"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Nous rentrons à pied après le bal.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 14,
+        "end": 15
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "on foot"
+        },
+        {
+          "id": "choice_3",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_4",
+          "text": "by an agent"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_ailleurs_besides_component_zola_ailleurs_ailleurs_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1291,23 +1393,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Il est _____ fatigué, au point de tenir à peine debout.",
+      "context": "Ils étaient _____ obligés de l’acquitter, faute de preuve.",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "peu"
+          "id": "choice_5",
+          "text": "mal"
         },
         {
-          "id": "choice_2",
-          "text": "à peine"
-        },
-        {
-          "id": "choice_3",
-          "text": "faiblement"
+          "id": "choice_6",
+          "text": "pas"
         },
         {
           "id": "choice_4",
           "text": "bien"
+        },
+        {
+          "id": "choice_1",
+          "text": "peu"
         }
       ],
       "correctChoiceId": "choice_4"
@@ -1524,6 +1626,44 @@
       "correctChoiceId": "choice_4"
     },
     {
+      "id": "qiz_fr_de_quoi_fr_de_quoi_de_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_de_quoi_de",
+        "senseId": "sns_fr_de_quoi"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "De quoi vous sert cette vitesse ?",
+      "targetText": "de",
+      "targetRange": {
+        "start": 0,
+        "end": 2
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "what use; to what end"
+        },
+        {
+          "id": "choice_3",
+          "text": "belonging to"
+        },
+        {
+          "id": "choice_4",
+          "text": "toward a place"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_decouvrir_find_parure_decouvrit_lem_parure_decouvrir_verb_85904ca65e_7112114255_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1626,6 +1766,44 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "On le déplaçait de plus loin en plus loin.",
+      "targetText": "en",
+      "targetRange": {
+        "start": 29,
+        "end": 31
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "to progressively greater distance"
+        },
+        {
+          "id": "choice_2",
+          "text": "while traveling"
+        },
+        {
+          "id": "choice_3",
+          "text": "at once"
+        },
+        {
+          "id": "choice_4",
+          "text": "back home"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_etre_compound_auxiliary_fut_levels_6_8",
@@ -1942,6 +2120,39 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_ne_que_only_ne_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "La vérité ne se dévoilera que lorsqu’une enquête sera menée.",
+      "prompt": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "menée"
+        },
+        {
+          "id": "choice_2",
+          "text": "ne"
+        },
+        {
+          "id": "choice_3",
+          "text": "vérité"
+        },
+        {
+          "id": "choice_4",
+          "text": "enquête"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_pareil_matching_item_fr_pareille_pareil_noun_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -2109,6 +2320,38 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "En portant ces accusations, je me _____ sous le coup de la loi.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "repose"
+        },
+        {
+          "id": "choice_2",
+          "text": "mets"
+        },
+        {
+          "id": "choice_3",
+          "text": "tiens"
+        },
+        {
+          "id": "choice_4",
+          "text": "cache"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_souffrir_tolerate_fr_souffrir_souffrir_verb_levels_1_3",
@@ -4310,24 +4553,24 @@
       },
       "band": "levels_6_8",
       "format": "target_identification",
-      "context": "Léa aura bientôt une chambre pour elle seule. Paul cherche un hôtel, Nina prépare son sac et Luc attend à la gare.",
-      "prompt": "Quel mot indique que Léa possédera une chambre plus tard ?",
+      "context": "On ne la connaîtra que lorsqu’une enquête loyale aura établi nettement ses actes.",
+      "prompt": "Quel mot sert d’auxiliaire au futur antérieur du verbe établir ?",
       "choices": [
+        {
+          "id": "choice_5",
+          "text": "connaîtra"
+        },
+        {
+          "id": "choice_6",
+          "text": "enquête"
+        },
         {
           "id": "choice_1",
           "text": "aura"
         },
         {
-          "id": "choice_2",
-          "text": "cherche"
-        },
-        {
-          "id": "choice_3",
-          "text": "prépare"
-        },
-        {
-          "id": "choice_4",
-          "text": "attend"
+          "id": "choice_7",
+          "text": "établi"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -4882,32 +5125,32 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Elle lève un doigt pour demander la parole.",
+      "context": "Je voudrais faire toucher du doigt comment l’erreur judiciaire a pu être possible.",
       "targetText": "doigt",
       "targetRange": {
-        "start": 13,
-        "end": 18
+        "start": 29,
+        "end": 34
       },
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_2",
-          "text": "elbow"
+          "id": "choice_5",
+          "text": "accidentally"
         },
         {
-          "id": "choice_3",
-          "text": "knee"
+          "id": "choice_6",
+          "text": "from far away"
         },
         {
-          "id": "choice_4",
-          "text": "shoulder"
+          "id": "choice_7",
+          "text": "directly, concretely (in the phrase)"
         },
         {
-          "id": "choice_1",
-          "text": "finger"
+          "id": "choice_8",
+          "text": "secretly"
         }
       ],
-      "correctChoiceId": "choice_1"
+      "correctChoiceId": "choice_7"
     },
     {
       "id": "qiz_zola_doute_se_douter_suspect_early",
@@ -5539,19 +5782,19 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Le _____ de l’histoire, c’est que le professeur avait lui-même perdu son cahier !",
+      "context": "Le _____ de l’histoire, c’est qu’il était justement antisémite.",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "jolie"
+          "id": "choice_8",
+          "text": "lieu"
         },
         {
-          "id": "choice_6",
-          "text": "jolis"
+          "id": "choice_9",
+          "text": "début"
         },
         {
-          "id": "choice_7",
-          "text": "jolies"
+          "id": "choice_10",
+          "text": "personnage"
         },
         {
           "id": "choice_1",

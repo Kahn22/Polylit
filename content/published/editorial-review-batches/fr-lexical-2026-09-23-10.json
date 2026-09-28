@@ -1,0 +1,851 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-10",
+  "date": "2026-09-23",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 10,
+  "reviewedIdentities": 25,
+  "approvals": 20,
+  "holds": 5,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of current lemma, part of speech, surface form, every indexed occurrence, sense, and same-lemma reuse candidates; only supported records approved",
+  "changes": [
+    {
+      "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+      "reviewId": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+      "outcome": "hold",
+      "rationale": "The source has s’étaient quittées (“had parted/left each other”), a reciprocal pronominal use, but the learner gloss says “to discharge somebody from an obligation.” Correct the gloss and include the reciprocal construction before approval.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "subjectRevision": "rev_27de5d9d0bc93df99ef9cbdabf8dda54010844755a3d6dbf84b55d6de4e7fe42",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "subjectRevision": "rev_27de5d9d0bc93df99ef9cbdabf8dda54010844755a3d6dbf84b55d6de4e7fe42",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source has s’étaient quittées (“had parted/left each other”), a reciprocal pronominal use, but the learner gloss says “to discharge somebody from an obligation.” Correct the gloss and include the reciprocal construction before approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+      "reviewId": "vocabulary:srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: Cinderella is recounting everything that happened at the ball to her godmother. Raconter means to tell/narrate events; the verb and definition fit.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+        "subjectRevision": "rev_84dd861c85a64318cfa00e2a138b33fd24ee64d00b56b5702520c51777a866f4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
+        "subjectRevision": "rev_84dd861c85a64318cfa00e2a138b33fd24ee64d00b56b5702520c51777a866f4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: Cinderella is recounting everything that happened at the ball to her godmother. Raconter means to tell/narrate events; the verb and definition fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+      "reviewId": "vocabulary:srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the hairdresser arranges two rows of curls/locks (cornettes à deux rangs). Rangs means rows/lines of things arranged alongside one another; the noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+        "subjectRevision": "rev_1763559c746b0ec53de5d3c291bad0a5f3ff1c226cbaadb55c0f7feb0ed59623",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rangs_lem_cendrillon_rang_noun_289c3caef2_48b9916c9f:sns_cendrillon_rang_ordre_disposition_de_plusieurs_personnes_ou_de_plusieurs_choses_sur_une_meme_ligne_file_alignement_80e7917af6",
+        "subjectRevision": "rev_1763559c746b0ec53de5d3c291bad0a5f3ff1c226cbaadb55c0f7feb0ed59623",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the hairdresser arranges two rows of curls/locks (cornettes à deux rangs). Rangs means rows/lines of things arranged alongside one another; the noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+      "reviewId": "vocabulary:srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole verse: beauty is described as a rare treasure. Rare means uncommon/not often found, exactly as defined.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+        "subjectRevision": "rev_3a9e99cd5bd192051faa8df2cb0a636e94a6c0894e88e48f4ca7443d1b1c9e19",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rare_lem_cendrillon_rare_adjective_ec9d18af7b_1883f8f140:sns_cendrillon_rare_qui_est_en_petit_nombre_qui_se_trouve_difficilement_90837d387d",
+        "subjectRevision": "rev_3a9e99cd5bd192051faa8df2cb0a636e94a6c0894e88e48f4ca7443d1b1c9e19",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole verse: beauty is described as a rare treasure. Rare means uncommon/not often found, exactly as defined.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+      "reviewId": "vocabulary:srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+      "outcome": "approve",
+      "rationale": "Reviewed all four occurrences: the rat appears as an animal in the fables, as Sire Rat, and as the animal transformed into a coachman. The noun rat and rodent sense fit throughout.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "subjectRevision": "rev_b2f881d433925fe813bc6f34eb366624a4866656497f90c53aed05170601736b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rat_lem_cendrillon_rat_noun_fb18c8c0e7_8b7775104f:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "subjectRevision": "rev_b2f881d433925fe813bc6f34eb366624a4866656497f90c53aed05170601736b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all four occurrences: the rat appears as an animal in the fables, as Sire Rat, and as the animal transformed into a coachman. The noun rat and rodent sense fit throughout.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+      "reviewId": "vocabulary:srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+      "outcome": "approve",
+      "rationale": "Reviewed both occurrences: Cinderella finds three rats in the ratière and uses the trap to bring one to the fairy. The noun means a rat trap, as defined.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+        "subjectRevision": "rev_a47c1e9803d505ee4eab7226e0cb6ff6ceb444d5a66c68c6e0868ea123a888e9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ratiere_lem_cendrillon_ratiere_noun_58ade38fa9_5629264905:sns_cendrillon_ratiere_piege_destine_a_prendre_les_rats_b36a56d2db",
+        "subjectRevision": "rev_a47c1e9803d505ee4eab7226e0cb6ff6ceb444d5a66c68c6e0868ea123a888e9",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed both occurrences: Cinderella finds three rats in the ratière and uses the trap to bring one to the fairy. The noun means a rat trap, as defined.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+      "reviewId": "vocabulary:srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole plural occurrence: three rats are in the trap, and one is transformed. Rats is correctly the plural of rat and denotes the rodent.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "subjectRevision": "rev_5302a94c7a4d5a16200392da9bef368881ea632d2f1d555f4d64eb102d70e81f",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rats_lem_cendrillon_rat_noun_fb18c8c0e7_fe3d4b8614:sns_cendrillon_rat_rongeur_a_museau_pointu_a_pattes_courtes_et_a_queue_longue_qui_ronge_et_mange_les_grains_la_paille_etc_4df6b50798",
+        "subjectRevision": "rev_5302a94c7a4d5a16200392da9bef368881ea632d2f1d555f4d64eb102d70e81f",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole plural occurrence: three rats are in the trap, and one is transformed. Rats is correctly the plural of rat and denotes the rodent.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+      "reviewId": "vocabulary:srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole verse: grace is something received from Heaven as a share/gift. Reçoit is the present form of recevoir, and the receiving/accepting sense fits the metaphor.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+        "subjectRevision": "rev_cec7cbd720c839d5c8bf9cfd7870974624e591032ee7f6c21f73e6112533a390",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_recoit_lem_zola_recevoir_dbbb465bce:sns_cendrillon_recevoir_accepter_prendre_ce_qui_est_donne_ce_qui_est_presente_ce_qui_est_offert_sans_qu_il_soit_du_542b5c7af1",
+        "subjectRevision": "rev_cec7cbd720c839d5c8bf9cfd7870974624e591032ee7f6c21f73e6112533a390",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole verse: grace is something received from Heaven as a share/gift. Reçoit is the present form of recevoir, and the receiving/accepting sense fits the metaphor.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+      "reviewId": "vocabulary:srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+      "outcome": "hold",
+      "rationale": "The godmother instructed/urged Cinderella above all not to stay past midnight, but the learner gloss “to recommend, endorse” is misleading and “endorse” does not fit. Rewrite it as advise/instruct/urge and re-review.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+        "subjectRevision": "rev_b1936eb5eb2cd34ba9b4819b4daadc7dd879355b1f5c8b1dc8fd709416a7adde",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_recommanda_lem_cendrillon_recommander_verb_8700cfa1eb_efd98e46a9:sns_cendrillon_recommander_ordonner_a_quelqu_un_prier_avec_instance_quelqu_un_de_faire_quelque_chose_lui_donner_a_ce_sujet_des_instructions_precises_dc26b2ceac",
+        "subjectRevision": "rev_b1936eb5eb2cd34ba9b4819b4daadc7dd879355b1f5c8b1dc8fd709416a7adde",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The godmother instructed/urged Cinderella above all not to stay past midnight, but the learner gloss “to recommend, endorse” is misleading and “endorse” does not fit. Rewrite it as advise/instruct/urge and re-review."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+      "reviewId": "vocabulary:srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole conditional: the carriage would become a pumpkin again if Cinderella stayed beyond midnight. Redeviendroit is redevenir and the return-to-previous-state sense is exact.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+        "subjectRevision": "rev_eabda6e68f6993abf52c5c56859d8e1b592d8d6794630f92636415f1ced6439d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_redeviendroit_lem_cendrillon_redevenir_verb_822d7c2c18_da504e5cb5:sns_cendrillon_redevenir_devenir_de_nouveau_recommencer_a_etre_ce_qu_on_etait_auparavant_4dc249ece9",
+        "subjectRevision": "rev_eabda6e68f6993abf52c5c56859d8e1b592d8d6794630f92636415f1ced6439d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole conditional: the carriage would become a pumpkin again if Cinderella stayed beyond midnight. Redeviendroit is redevenir and the return-to-previous-state sense is exact.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+      "reviewId": "vocabulary:srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+      "outcome": "approve",
+      "rationale": "Reviewed all three occurrences: the fairy looks into the mousetrap, the king looks at Cinderella, and the prince keeps looking at her. Regarder means to direct one’s gaze at someone or something in each.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "subjectRevision": "rev_a2977348a860e2ecc5906f247ebdff8bbf97ca464e6539031c5bcb6d3f1d9a15",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_regarder_lem_parure_regarder_verb_993a66acc5_d7ff171e7b:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "subjectRevision": "rev_a2977348a860e2ecc5906f247ebdff8bbf97ca464e6539031c5bcb6d3f1d9a15",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all three occurrences: the fairy looks into the mousetrap, the king looks at Cinderella, and the prince keeps looking at her. Regarder means to direct one’s gaze at someone or something in each.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+      "reviewId": "vocabulary:srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole historical imperfect: Cinderella was watching her sisters try on the slipper. Regardoit maps to regarder, “to look at/watch,” and fits the indexed context.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "subjectRevision": "rev_ecce2a2b03273b9e0d02b160d821426d26a74939ad606ae83bf0808600890544",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_regardoit_lem_parure_regarder_verb_993a66acc5_a37ea0f8c9:sns_parure_regarder_porter_ses_regards_sur_quelque_chose_ou_quelqu_un_cf77619608",
+        "subjectRevision": "rev_ecce2a2b03273b9e0d02b160d821426d26a74939ad606ae83bf0808600890544",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole historical imperfect: Cinderella was watching her sisters try on the slipper. Regardoit maps to regarder, “to look at/watch,” and fits the indexed context.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+      "reviewId": "vocabulary:srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: after her sisters fall at her feet, Cinderella raises them back up and forgives them. Relever means to lift/raise again, matching the transitive use.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+        "subjectRevision": "rev_557dfd0ca52b46362a0f08d2d55249095ff4d0685d5becf19f55d8612673159e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_releva_lem_cendrillon_relever_verb_ac66898880_f0157c6667:sns_cendrillon_relever_lever_a_nouveau_584b98abed",
+        "subjectRevision": "rev_557dfd0ca52b46362a0f08d2d55249095ff4d0685d5becf19f55d8612673159e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: after her sisters fall at her feet, Cinderella raises them back up and forgives them. Relever means to lift/raise again, matching the transitive use.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+      "reviewId": "vocabulary:srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+      "outcome": "hold",
+      "rationale": "The source has après l’avoir remerciée (“after thanking her”), a past participle agreeing with the godmother; the gloss says only “historical or contextual form of remercier.” Provide the learner meaning/form analysis and re-review.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+        "subjectRevision": "rev_569d31101699027ad279b530dd067ee948c7da3503a90bc74ceb3927e76cd63c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_remerciee_lem_cendrillon_remercier_verb_83edcce1ec_2bddb47882:sns_cendrillon_remercier_rendre_grace_exprimer_la_gratitude_c35ff021e6",
+        "subjectRevision": "rev_569d31101699027ad279b530dd067ee948c7da3503a90bc74ceb3927e76cd63c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source has après l’avoir remerciée (“after thanking her”), a past participle agreeing with the godmother; the gloss says only “historical or contextual form of remercier.” Provide the learner meaning/form analysis and re-review."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+      "reviewId": "vocabulary:srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole historical imperfect: Cinderella’s good qualities made the stepdaughters more hateful. Rendre means to make/cause someone to become a certain way; the causative construction fits.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+        "subjectRevision": "rev_d1ccdb78485b8c3b5d8c6e0bc777764394ec691b6f5d957e3c20232c7b7cccb5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rendoient_lem_zola_rendre_5d783bbaf6:sns_cendrillon_rendre_faisaient_devenir_d_une_certaine_maniere_38a5b0af39",
+        "subjectRevision": "rev_d1ccdb78485b8c3b5d8c6e0bc777764394ec691b6f5d957e3c20232c7b7cccb5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole historical imperfect: Cinderella’s good qualities made the stepdaughters more hateful. Rendre means to make/cause someone to become a certain way; the causative construction fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+      "reviewId": "vocabulary:srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole imperfect: Cinderella ironed her sisters’ laundry. Repasser means to smooth linen with a hot iron; the action and definition align.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+        "subjectRevision": "rev_3e282d6d3b9c9aa591297d8a2003aa85ad4e62cf3bbb4b7fe79f3c317d79cf05",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_repassoit_lem_cendrillon_repasser_verb_66cab4ad75_1baeff8e49:sns_cendrillon_repasser_rendait_le_linge_lisse_au_moyen_d_un_fer_chaud_8c02eeee18",
+        "subjectRevision": "rev_3e282d6d3b9c9aa591297d8a2003aa85ad4e62cf3bbb4b7fe79f3c317d79cf05",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole imperfect: Cinderella ironed her sisters’ laundry. Repasser means to smooth linen with a hot iron; the action and definition align.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+      "reviewId": "vocabulary:srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole past-historic plural: the sisters answer Cinderella’s question about the princess’s identity. Répondirent is répondre and means to give an answer, as defined.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+        "subjectRevision": "rev_aa214fefb5dfdfa7d06ddee38cd0d30541497f3754dac12d0eca458d4f0ac78e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_repondirent_lem_parure_repondre_verb_243ee2e73d_877ae8f704:sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79",
+        "subjectRevision": "rev_aa214fefb5dfdfa7d06ddee38cd0d30541497f3754dac12d0eca458d4f0ac78e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole past-historic plural: the sisters answer Cinderella’s question about the princess’s identity. Répondirent is répondre and means to give an answer, as defined.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+      "reviewId": "vocabulary:srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole historical imperfect: the stepdaughters were like their mother in every respect. Ressembler means to resemble/share similarity; the pronominal form and context fit.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+        "subjectRevision": "rev_7ee766060cead7d3f0e8f9b027c0b36298cb596d3cebe1b4d75d867f422b6c20",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ressembloient_lem_cendrillon_ressembler_verb_3d0c869419_b6708ab669:sns_cendrillon_ressembler_avoir_du_rapport_de_la_conformite_avec_quelqu_un_avec_quelque_chose_9b53aca48d",
+        "subjectRevision": "rev_7ee766060cead7d3f0e8f9b027c0b36298cb596d3cebe1b4d75d867f422b6c20",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole historical imperfect: the stepdaughters were like their mother in every respect. Ressembler means to resemble/share similarity; the pronominal form and context fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+      "reviewId": "vocabulary:srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+      "outcome": "hold",
+      "rationale": "The indexed construction is reflexive se réveiller (“to wake up”), in an imagined comparison, while the current sense only describes waking someone else. Add or reassign the reflexive sense before approval.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+        "subjectRevision": "rev_2764182530cc619470b71501c73414cd382abd73fc352562423b3763d6157c53",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_reveiller_lem_cendrillon_reveiller_verb_fa0c666325_c28e392d5d:sns_cendrillon_reveiller_tirer_du_sommeil_148b7b959d",
+        "subjectRevision": "rev_2764182530cc619470b71501c73414cd382abd73fc352562423b3763d6157c53",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed construction is reflexive se réveiller (“to wake up”), in an imagined comparison, while the current sense only describes waking someone else. Add or reassign the reflexive sense before approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+      "reviewId": "vocabulary:srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole past-historic plural: the sisters returned from the ball. Revinrent is revenir and means to come back/return, exactly as glossed.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+        "subjectRevision": "rev_22e790cdd51bc24160e7ec36fb53c182e3e93f86b7c0b0de56be072e7bf38823",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_revinrent_lem_zola_revenir_e922a76f05:sns_parure_revenir_venir_une_autre_fois_venir_de_nouveau_54b685da55",
+        "subjectRevision": "rev_22e790cdd51bc24160e7ec36fb53c182e3e93f86b7c0b0de56be072e7bf38823",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole past-historic plural: the sisters returned from the ball. Revinrent is revenir and means to come back/return, exactly as glossed.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+      "reviewId": "vocabulary:srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+      "outcome": "approve",
+      "rationale": "Reviewed all three occurrences: Cinderella laughs while suggesting she try the slipper, and the sisters laugh at her. The verb rire denotes laughter in each context, including the playful/mocking use.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "subjectRevision": "rev_5fb07df321f8476a5e95fa67e0efb00e806d97514c6b3e3c9648aac061518659",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rire_lem_cendrillon_rire_verb_b8ffecde49_e2125c5110:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "subjectRevision": "rev_5fb07df321f8476a5e95fa67e0efb00e806d97514c6b3e3c9648aac061518659",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all three occurrences: Cinderella laughs while suggesting she try the slipper, and the sisters laugh at her. The verb rire denotes laughter in each context, including the playful/mocking use.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+      "reviewId": "vocabulary:srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole conditional: Javotte says they would laugh if they saw Cinderella going to the ball. Riroit is an older form of rire; the laughter sense fits.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "subjectRevision": "rev_d89902e6d3400f35fb0fd71baff193515d55be3b5052304488e41ee1b726890f",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9:sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+        "subjectRevision": "rev_d89902e6d3400f35fb0fd71baff193515d55be3b5052304488e41ee1b726890f",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole conditional: Javotte says they would laugh if they saw Cinderella going to the ball. Riroit is an older form of rire; the laughter sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+      "reviewId": "vocabulary:srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+      "outcome": "hold",
+      "rationale": "The corpus includes the literal monarch (King of a people) and the metaphorical Lion, king of animals. The current definition is restricted to a human monarch; broaden/split the ruler/leader sense to cover the fable use.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+        "subjectRevision": "rev_9765223a4db5ee63932f6742a26a88f81915c5fb2750fc190e7e7e16fccc0a3e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_roi_lem_cendrillon_roi_noun_edddf2e562_aa31040522:sns_cendrillon_roi_titre_porte_par_celui_qui_regne_sur_un_peuple_un_etat_en_particulier_un_etat_monarchique_et_qui_tient_sa_fonction_de_l_heredite_ou_de_l_election_celui_qui_est_a_la_tete_d_un_royaume_93d71f9fb3",
+        "subjectRevision": "rev_9765223a4db5ee63932f6742a26a88f81915c5fb2750fc190e7e7e16fccc0a3e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The corpus includes the literal monarch (King of a people) and the metaphorical Lion, king of animals. The current definition is restricted to a human monarch; broaden/split the ruler/leader sense to cover the fable use."
+      },
+      "reviewedOccurrences": 8
+    },
+    {
+      "subjectId": "srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+      "reviewId": "vocabulary:srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole past-historic plural: the sisters broke more than twelve laces while tightening their clothes. Rompre means to break/snap; the object and context fit.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+        "subjectRevision": "rev_8461176ddd901e44e30cc818e1a893655e6661764444e0084ac38e3944bbb51a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rompit_lem_cendrillon_rompre_verb_9305404b10_60d7388160:sns_cendrillon_rompre_separer_un_solide_en_deux_parties_sans_se_servir_d_instrument_tranchant_briser_mettre_en_pieces_bd8d12c3bd",
+        "subjectRevision": "rev_8461176ddd901e44e30cc818e1a893655e6661764444e0084ac38e3944bbb51a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole past-historic plural: the sisters broke more than twelve laces while tightening their clothes. Rompre means to break/snap; the object and context fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+      "reviewId": "vocabulary:srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the eldest sister chooses a red velvet dress. Rouge is the color adjective red; form, sense, and context agree.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+        "subjectRevision": "rev_a4769e025f4c96dc62bca6d2a23081af880f4cce380113d70490621ad3fd7e79",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_rouge_lem_parure_rouge_adjective_47e260fc6a_83aaa0b20e:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
+        "subjectRevision": "rev_a4769e025f4c96dc62bca6d2a23081af880f4cce380113d70490621ad3fd7e79",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the eldest sister chooses a red velvet dress. Rouge is the color adjective red; form, sense, and context agree.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

@@ -20,12 +20,12 @@
             {
               "id": "sns_lion_rat_affaire_besoin_ou_recours_a_quelqu_un_dans_l_expression_avoir_affaire_4e0bc1880f",
               "gloss": "need; use",
-              "definition": "besoin ou recours à quelqu’un, dans l’expression « avoir affaire »"
+              "definition": "Besoin de quelqu’un ou de quelque chose, dans l’ancienne construction avoir affaire de."
             },
             {
               "id": "sns_affaire_primary",
-              "gloss": "Affaire is the noun matter/business in c’est l’affaire.",
-              "definition": "Affaire is the noun matter/business in c’est l’affaire."
+              "gloss": "matter; business; concern",
+              "definition": "Question, situation ou activité dont une personne s’occupe ou qui la concerne."
             }
           ],
           "surfaceFormIds": [
@@ -74,15 +74,42 @@
               "id": "sns_zola_aller_imminent",
               "gloss": "to be going to",
               "definition": "marquer une action imminente devant un infinitif"
+            },
+            {
+              "id": "sns_fr_aller_progressive",
+              "gloss": "to go on; progressive auxiliary",
+              "definition": "Avec un participe présent, présente une action qui se déroule ou se poursuit."
+            },
+            {
+              "id": "sns_fr_aller_extent",
+              "gloss": "to go so far as",
+              "definition": "Dans aller jusqu’à, atteindre un degré ou une limite, parfois jugés excessifs."
+            },
+            {
+              "id": "sns_fr_aller_stakes",
+              "gloss": "to be at stake (in il y va de)",
+              "definition": "Dans il y va de, indique ce qui est en jeu dans une affaire."
+            },
+            {
+              "id": "sns_fr_aller_near_future",
+              "gloss": "to be going to (near future)",
+              "definition": "Avec un infinitif, présente une action à venir ou imminente."
             }
           ],
           "surfaceFormIds": [
+            "srf_fr_va_aller_verb",
+            "srf_fr_vas_aller_verb",
             "srf_zola_allait_aller",
+            "srf_fr_vais_aller_verb",
             "srf_zola_allais_aller",
+            "srf_fr_allons_aller_verb",
             "srf_zola_allaient_aller"
           ],
           "workIds": [
+            "wrk_lievre_tortue",
+            "wrk_loup_agneau",
             "wrk_maupassant_la_parure",
+            "wrk_perrault_cendrillon",
             "wrk_zola_jaccuse"
           ]
         },
@@ -97,12 +124,12 @@
             {
               "id": "sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
               "gloss": "to go",
-              "definition": "Se déplacer jusqu'à un endroit."
+              "definition": "Se déplacer d’un endroit vers un autre ou se rendre quelque part."
             },
             {
               "id": "sns_aller_primary",
-              "gloss": "Aller is the infinitive to go.",
-              "definition": "Aller is the infinitive to go."
+              "gloss": "to go",
+              "definition": "Se déplacer ou se diriger vers un lieu."
             }
           ],
           "surfaceFormIds": [
@@ -112,6 +139,7 @@
             "srf_loup_agneau_allons_lem_aller_1a35a2f685",
             "srf_parure_alla_lem_aller_d743ea83f3",
             "srf_cendrillon_alloit_lem_aller_312ce8f741",
+            "srf_fr_allee_aller_verb",
             "srf_aller",
             "srf_parure_vas_lem_aller_eb07407384",
             "srf_parure_vais_lem_aller_81ac8d9ae1"
@@ -144,8 +172,8 @@
           "senses": [
             {
               "id": "sns_apprendre_primary",
-              "gloss": "learn",
-              "definition": "learn"
+              "gloss": "to learn",
+              "definition": "Acquérir une connaissance ou prendre connaissance de quelque chose."
             }
           ],
           "surfaceFormIds": [
@@ -189,9 +217,24 @@
           "lemmaId": "lem_arriver",
           "senses": [
             {
+              "id": "sns_fr_arriver_manage",
+              "gloss": "to manage; to succeed",
+              "definition": "Parvenir à réaliser un objectif ou à faire face à une difficulté."
+            },
+            {
+              "id": "sns_fr_arriver_happen",
+              "gloss": "to happen",
+              "definition": "Se produire, survenir, en parlant d’un événement."
+            },
+            {
               "id": "sns_arriver_primary",
-              "gloss": "Arriva is the past historic of arriver.",
-              "definition": "Arriva is the past historic of arriver."
+              "gloss": "to arrive; happen",
+              "definition": "Parvenir à un lieu ou à un moment ; dans la construction il arriva que, se produire."
+            },
+            {
+              "id": "sns_fr_arriver_reach_destination",
+              "gloss": "to arrive",
+              "definition": "Atteindre le lieu où l’on se rend."
             },
             {
               "id": "sns_parure_arriver_parvenir_a_destination_411ed12b4a",
@@ -200,7 +243,9 @@
             }
           ],
           "surfaceFormIds": [
+            "srf_fr_arrivee_arriver_verb",
             "srf_arriva",
+            "srf_fr_arrive_arriver_verb",
             "srf_parure_arriver_lem_arriver_93ac84a6a5"
           ],
           "workIds": [
@@ -250,8 +295,8 @@
           "senses": [
             {
               "id": "sns_atteindre_primary",
-              "gloss": "Atteindrez is the second-person plural future of atteindre.",
-              "definition": "Atteindrez is the second-person plural future of atteindre."
+              "gloss": "to reach; catch up with",
+              "definition": "Parvenir jusqu’à un lieu, une personne ou une chose, notamment en la rejoignant."
             }
           ],
           "surfaceFormIds": [
@@ -297,8 +342,8 @@
           "senses": [
             {
               "id": "sns_autre_adjective",
-              "gloss": "Autre is an adjective modifying chose.",
-              "definition": "Autre is an adjective modifying chose."
+              "gloss": "other; another",
+              "definition": "Qui est distinct de ce dont on parle ou qui vient s’y ajouter."
             },
             {
               "id": "sns_autre_pronoun",
@@ -354,29 +399,54 @@
           "lemmaId": "lem_avoir",
           "senses": [
             {
+              "id": "sns_fr_avoir_beau_in_vain",
+              "gloss": "to do in vain (in avoir beau)",
+              "definition": "Avec beau et un infinitif, indique qu’une action ou une qualité ne suffit pas à produire le résultat attendu."
+            },
+            {
               "id": "sns_parure_avoir_reunion_du_pronom_elide_l_et_de_la_forme_verbale_aurait_297af83c4f",
-              "gloss": "would have it; would have her",
-              "definition": "réunion du pronom élidé « l’ » et de la forme verbale « aurait »"
+              "gloss": "would have ... him/her/it (object plus auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurait auxiliaire, devant un participe passé."
             },
             {
               "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_as_86588e6d68",
-              "gloss": "what do you have",
-              "definition": "réunion élidée de « que » et de la forme verbale « as »"
+              "gloss": "what is wrong with you; what do you have",
+              "definition": "Réunion élidée de que et as ; dans qu’as-tu, demande ce qui affecte l’interlocuteur ou ce qu’il possède."
             },
             {
               "id": "sns_cendrillon_avoir_ancienne_graphie_de_avaient_forme_du_verbe_avoir_28a804d6fd",
-              "gloss": "had",
-              "definition": "ancienne graphie de « avaient », forme du verbe avoir"
+              "gloss": "to have (historical avoient)",
+              "definition": "Ancienne graphie d’avaient, forme de l’imparfait du verbe avoir dans son emploi lexical."
+            },
+            {
+              "id": "sns_fr_avoir_compound_auxiliary",
+              "gloss": "have (compound-tense auxiliary)",
+              "definition": "Auxiliaire employé avec un participe passé pour former un temps composé."
             },
             {
               "id": "sns_avoir_primary",
-              "gloss": "Avait is the imperfect third-person singular form of avoir.",
-              "definition": "Avait is the imperfect third-person singular form of avoir."
+              "gloss": "to have; auxiliary have",
+              "definition": "Posséder ou présenter quelque chose ; sert aussi d’auxiliaire pour former des temps composés."
+            },
+            {
+              "id": "sns_fr_n_ont_restrictive_auxiliary",
+              "gloss": "ne + have (auxiliary; restrictive ne…que)",
+              "definition": "Réunion de ne élidé et de ont, auxiliaire à la troisième personne du pluriel ; avec que, marque ici une restriction équivalant à seulement."
             },
             {
               "id": "sns_cendrillon_avoir_ancienne_graphie_de_aurai_forme_future_du_verbe_avoir_94d3a5bc90",
-              "gloss": "will have",
-              "definition": "ancienne graphie de « aurai », forme future du verbe avoir"
+              "gloss": "to have (historical future auray)",
+              "definition": "Ancienne graphie d’aurai, première personne du singulier au futur du verbe avoir."
+            },
+            {
+              "id": "sns_fr_avoir_existential",
+              "gloss": "there be (in il y a)",
+              "definition": "Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée."
+            },
+            {
+              "id": "sns_fr_avoir_air",
+              "gloss": "to look; to seem (avoir l’air)",
+              "definition": "Avec l’air, exprime l’apparence ou l’impression donnée."
             },
             {
               "id": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
@@ -385,13 +455,13 @@
             },
             {
               "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_aurait_ee7425f24c",
-              "gloss": "that would have; what would have",
-              "definition": "réunion élidée de « que » et de la forme verbale « aurait »"
+              "gloss": "what would ... have (in a compound-tense question)",
+              "definition": "Réunion de que interrogatif et aurait auxiliaire ; introduit une question sur une action envisagée au conditionnel passé."
             },
             {
               "id": "sns_loup_agneau_avoir_reunit_le_pronom_elide_l_et_la_forme_conditionnelle_aurais_0e747c9e36",
-              "gloss": "would have it",
-              "definition": "réunit le pronom élidé « l’ » et la forme conditionnelle « aurais »"
+              "gloss": "it + would have (auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurais, auxiliaire du conditionnel passé ; le participe passé indique l’action."
             }
           ],
           "surfaceFormIds": [
@@ -404,10 +474,15 @@
             "srf_parure_qu_as_lem_avoir_1629ccf75d",
             "srf_ayant",
             "srf_cendrillon_avoit_lem_avoir_b5f0c2a0fc",
+            "srf_fr_avions_avoir_verb",
+            "srf_fr_auras_avoir_verb",
             "srf_parure_aurai_lem_avoir_12eca10844",
             "srf_zola_n_ont_9e96b0e83f21_avoir",
             "srf_cendrillon_auray_lem_avoir_f146cfc901",
+            "srf_fr_as_avoir_verb",
+            "srf_fr_aurions_avoir_verb",
             "srf_parure_l_aurait_lem_avoir_5fd595bd36",
+            "srf_fr_eut_avoir_verb",
             "srf_zola_ont_avoir",
             "srf_parure_eussent_lem_avoir_f3e3d0b61c",
             "srf_cendrillon_avoient_lem_avoir_4b9785f812",
@@ -428,16 +503,15 @@
           "senses": [
             {
               "id": "sns_parure_avoir_subjunctive_fd166d2fd9",
-              "gloss": "had",
-              "definition": "forme littéraire du subjonctif imparfait du verbe avoir"
+              "gloss": "to have",
+              "definition": "Posséder ou disposer de quelque chose, concrètement ou abstraitement ; eût est une forme littéraire du subjonctif imparfait."
             }
           ],
           "surfaceFormIds": [
             "srf_parure_eut_avoir_verb_b7c29293b6"
           ],
           "workIds": [
-            "wrk_lion_rat",
-            "wrk_maupassant_la_parure"
+            "wrk_lion_rat"
           ]
         },
         {
@@ -553,12 +627,35 @@
               "id": "sns_zola_bien_well",
               "gloss": "indeed; well",
               "definition": "d’une manière bonne ou certaine"
+            },
+            {
+              "id": "sns_fr_bien_intensifier",
+              "gloss": "very; much; many",
+              "definition": "Renforce le degré, l’intensité ou la quantité, notamment devant un adjectif ou avec des."
+            },
+            {
+              "id": "sns_fr_bien_discourse",
+              "gloss": "well (discourse marker)",
+              "definition": "Dans eh bien ou hé bien, introduit une réaction, une reprise ou une conclusion dans le discours."
+            },
+            {
+              "id": "sns_fr_bien_willing",
+              "gloss": "willingly; gladly (vouloir bien)",
+              "definition": "Avec vouloir, exprime le consentement ou un souhait volontiers formulé."
+            },
+            {
+              "id": "sns_fr_bien_well",
+              "gloss": "well; satisfactorily",
+              "definition": "D’une manière satisfaisante, convenable ou réussie."
             }
           ],
           "surfaceFormIds": [
             "srf_zola_bien_bien"
           ],
           "workIds": [
+            "wrk_cigale_fourmi",
+            "wrk_maupassant_la_parure",
+            "wrk_perrault_cendrillon",
             "wrk_zola_jaccuse"
           ]
         },
@@ -572,15 +669,14 @@
             },
             {
               "id": "sns_bien_discourse",
-              "gloss": "In Eh bien, bien is a discourse marker, not the emphatic adverbial sense.",
-              "definition": "In Eh bien, bien is a discourse marker, not the emphatic adverbial sense."
+              "gloss": "well; well then",
+              "definition": "Marqueur de discours employé pour introduire une réaction, une conclusion ou une transition, notamment dans « eh bien »."
             }
           ],
           "surfaceFormIds": [
             "srf_bien"
           ],
           "workIds": [
-            "wrk_cigale_fourmi",
             "wrk_corbeau_renard",
             "wrk_lievre_tortue",
             "wrk_maupassant_la_parure",
@@ -605,16 +701,39 @@
           "lemmaId": "lem_zola_bon",
           "senses": [
             {
+              "id": "sns_fr_bon_fitting",
+              "gloss": "fitting; suitable in size",
+              "definition": "Qui convient par ses dimensions, notamment en parlant d’un vêtement ou d’une chaussure."
+            },
+            {
               "id": "sns_zola_bon_good",
               "gloss": "good",
               "definition": "qui possède une qualité favorable"
+            },
+            {
+              "id": "sns_fr_bon_useful",
+              "gloss": "useful; worthwhile",
+              "definition": "Qui présente une utilité ; dans à quoi bon, interroge l’utilité d’une action."
+            },
+            {
+              "id": "sns_fr_bon_arbitrary_pleasure",
+              "gloss": "own; arbitrary (in bon plaisir)",
+              "definition": "Dans bon plaisir, qualifie une volonté personnelle qui s’exerce librement, parfois arbitrairement."
+            },
+            {
+              "id": "sns_fr_bon_better_best",
+              "gloss": "better; best",
+              "definition": "D’un degré de qualité supérieur, dans les formes meilleur, meilleure et leurs pluriels."
             }
           ],
           "surfaceFormIds": [
-            "srf_zola_bon_bon"
+            "srf_fr_meilleure_bon_adjective",
+            "srf_zola_bon_bon",
+            "srf_fr_bonne_bon_adjective"
           ],
           "workIds": [
             "wrk_maupassant_la_parure",
+            "wrk_perrault_cendrillon",
             "wrk_zola_jaccuse"
           ]
         },
@@ -678,8 +797,8 @@
           "senses": [
             {
               "id": "sns_chose_primary",
-              "gloss": "Chose is the noun thing.",
-              "definition": "Chose is the noun thing."
+              "gloss": "thing; matter",
+              "definition": "Objet, fait, idée ou réalité que l’on désigne sans la nommer plus précisément."
             }
           ],
           "surfaceFormIds": [
@@ -729,12 +848,12 @@
             {
               "id": "sns_cendrillon_courir_se_deplacer_rapidement_avec_impetuosite_par_un_mouvement_alternatif_des_jambes_ou_des_pattes_prenant_appui_sur_le_sol_avec_une_phase_de_suspension_en_l_air_sans_appui_f406f5e4a6",
               "gloss": "to run",
-              "definition": "Se déplacer rapidement, avec impétuosité, par un mouvement alternatif des jambes ou des pattes prenant appui sur le sol, avec une phase de suspension en l’air, sans appui."
+              "definition": "Se déplacer rapidement par une succession de foulées."
             },
             {
               "id": "sns_courir_primary",
-              "gloss": "Courir is the infinitive to run.",
-              "definition": "Courir is the infinitive to run."
+              "gloss": "to run",
+              "definition": "Se déplacer rapidement en faisant une suite de pas ou de foulées."
             }
           ],
           "surfaceFormIds": [
@@ -765,22 +884,29 @@
           "senses": [
             {
               "id": "sns_cigale_fourmi_crier_jeter_un_ou_plusieurs_cris_324ab66571",
-              "gloss": "to cry out",
-              "definition": "Jeter un ou plusieurs cris."
+              "gloss": "to shout; cry out",
+              "definition": "Pousser un ou plusieurs cris ou parler d’une voix forte."
+            },
+            {
+              "id": "sns_fr_crier_shout",
+              "gloss": "to shout; to call loudly",
+              "definition": "Émettre des paroles ou des sons d’une voix forte."
             },
             {
               "id": "sns_crier_primary",
-              "gloss": "Cria is the past historic of crier.",
-              "definition": "Cria is the past historic of crier."
+              "gloss": "to shout; cry out",
+              "definition": "Parler ou appeler d’une voix forte."
             }
           ],
           "surfaceFormIds": [
+            "srf_fr_criant_crier_verb",
             "srf_cria",
             "srf_cigale_fourmi_crier_lem_crier_fbb171c5bb"
           ],
           "workIds": [
             "wrk_cigale_fourmi",
-            "wrk_lievre_tortue"
+            "wrk_lievre_tortue",
+            "wrk_maupassant_la_parure"
           ]
         },
         {
@@ -819,13 +945,13 @@
           "senses": [
             {
               "id": "sns_croire_primary",
-              "gloss": "Croit is the third-person singular present of croire.",
-              "definition": "Croit is the third-person singular present of croire."
+              "gloss": "to believe; think",
+              "definition": "Tenir quelque chose pour vrai ou penser qu’une situation est telle."
             },
             {
               "id": "sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
-              "gloss": "to believe (someone)",
-              "definition": "Tenir pour véritable."
+              "gloss": "to believe; think",
+              "definition": "Tenir une personne, une chose ou une proposition pour vraie."
             }
           ],
           "surfaceFormIds": [
@@ -895,12 +1021,12 @@
             {
               "id": "sns_parure_dormir_se_reposer_dans_un_etat_inconscient_de_sommeil_c9bdd6abba",
               "gloss": "to sleep",
-              "definition": "Se reposer dans un état inconscient, de sommeil."
+              "definition": "Être dans l’état de repos naturel du sommeil."
             },
             {
               "id": "sns_dormir_primary",
-              "gloss": "Dormir is the infinitive to sleep.",
-              "definition": "Dormir is the infinitive to sleep."
+              "gloss": "to sleep",
+              "definition": "Être dans l’état de repos naturel du sommeil."
             }
           ],
           "surfaceFormIds": [
@@ -932,8 +1058,8 @@
           "senses": [
             {
               "id": "sns_doute_primary",
-              "gloss": "doubt",
-              "definition": "doubt"
+              "gloss": "doubt; uncertainty",
+              "definition": "État d’incertitude qui empêche de tenir quelque chose pour assuré."
             }
           ],
           "surfaceFormIds": [
@@ -980,8 +1106,8 @@
           "senses": [
             {
               "id": "sns_eloigner_primary",
-              "gloss": "Éloigne is the present form of éloigner, moves away.",
-              "definition": "Éloigne is the present form of éloigner, moves away."
+              "gloss": "to move away; take farther away",
+              "definition": "Mettre plus loin ou, avec se, prendre de la distance."
             }
           ],
           "surfaceFormIds": [
@@ -1026,8 +1152,8 @@
           "senses": [
             {
               "id": "sns_en_in",
-              "gloss": "in",
-              "definition": "Introduces the place or state in which something is situated"
+              "gloss": "in; as; by",
+              "definition": "Préposition introduisant notamment un lieu, une époque, un état, une manière, un domaine ou un moyen ; entre aussi dans des locutions prépositives."
             },
             {
               "id": "sns_en_it",
@@ -1039,7 +1165,6 @@
             "srf_en"
           ],
           "workIds": [
-            "wrk_cigale_fourmi",
             "wrk_corbeau_renard",
             "wrk_lievre_tortue",
             "wrk_lion_rat",
@@ -1110,8 +1235,8 @@
           "senses": [
             {
               "id": "sns_hater_primary",
-              "gloss": "Hâte is the present form in se hâter, to hurry.",
-              "definition": "Hâte is the present form in se hâter, to hurry."
+              "gloss": "to hurry; hasten",
+              "definition": "Accélérer une action ou, avec se, agir plus vite."
             }
           ],
           "surfaceFormIds": [
@@ -1173,7 +1298,7 @@
             {
               "id": "sns_honteux_primary",
               "gloss": "ashamed",
-              "definition": "ashamed"
+              "definition": "Qui éprouve ou manifeste de la honte."
             }
           ],
           "surfaceFormIds": [
@@ -1243,7 +1368,7 @@
             {
               "id": "sns_joli_primary",
               "gloss": "pretty; handsome",
-              "definition": "pretty; handsome"
+              "definition": "Agréable à regarder par sa beauté ou sa grâce."
             }
           ],
           "surfaceFormIds": [
@@ -1291,8 +1416,8 @@
           "senses": [
             {
               "id": "sns_juge_primary",
-              "gloss": "Juge is the noun judge.",
-              "definition": "Juge is the noun judge."
+              "gloss": "judge",
+              "definition": "Personne chargée de trancher un différend ou de rendre une décision de justice."
             }
           ],
           "surfaceFormIds": [
@@ -1321,13 +1446,31 @@
           "lemmaId": "lem_parure_laisser_verb_31cf929b15",
           "senses": [
             {
+              "id": "sns_fr_laisser_de_continue",
+              "gloss": "to fail or cease (in ne pas laisser de)",
+              "definition": "Dans ne pas laisser de, ne pas cesser ou ne pas manquer de faire quelque chose, malgré une circonstance contraire."
+            },
+            {
               "id": "sns_parure_laisser_allow_9b583fe23f",
-              "gloss": "let; allowed",
-              "definition": "permit qu’une action se fasse"
+              "gloss": "to let; allow; let fall",
+              "definition": "Ne pas empêcher une action de se produire ou laisser tomber quelque chose ; le sens dépend de la construction."
+            },
+            {
+              "id": "sns_fr_laisser_bequeath",
+              "gloss": "to leave; to bequeath",
+              "definition": "Transmettre des biens après sa mort."
+            },
+            {
+              "id": "sns_fr_laisser_sell_price",
+              "gloss": "to let someone have (for a price)",
+              "definition": "Céder un objet à quelqu’un pour un prix convenu."
             }
           ],
           "surfaceFormIds": [
-            "srf_parure_laissa_laisser_verb_b2b1644aaf"
+            "srf_parure_laissa_laisser_verb_b2b1644aaf",
+            "srf_fr_laissoit_laisser_verb",
+            "srf_fr_laisserait_laisser_verb",
+            "srf_fr_laisses_laisser_verb"
           ],
           "workIds": [
             "wrk_maupassant_la_parure",
@@ -1356,9 +1499,7 @@
           ],
           "workIds": [
             "wrk_corbeau_renard",
-            "wrk_lievre_tortue",
-            "wrk_maupassant_la_parure",
-            "wrk_perrault_cendrillon"
+            "wrk_lievre_tortue"
           ]
         },
         {
@@ -1416,8 +1557,8 @@
           "senses": [
             {
               "id": "sns_lorsque_primary",
-              "gloss": "Lorsque is the subordinating conjunction when.",
-              "definition": "Lorsque is the subordinating conjunction when."
+              "gloss": "when",
+              "definition": "Conjonction qui introduit le moment où se produit une action."
             }
           ],
           "surfaceFormIds": [
@@ -1500,8 +1641,8 @@
           "senses": [
             {
               "id": "sns_maison_primary",
-              "gloss": "Maison is the noun house.",
-              "definition": "Maison is the noun house."
+              "gloss": "house; home; household",
+              "definition": "Bâtiment où l’on habite ou, par extension, foyer et ensemble domestique."
             }
           ],
           "surfaceFormIds": [
@@ -1565,8 +1706,8 @@
           "senses": [
             {
               "id": "sns_me_primary",
-              "gloss": "to me",
-              "definition": "to me"
+              "gloss": "me; to me; myself",
+              "definition": "Pronom personnel conjoint de la première personne du singulier, complément direct, indirect ou marqueur pronominal."
             }
           ],
           "surfaceFormIds": [
@@ -1644,19 +1785,36 @@
           "lemmaId": "lem_mettre",
           "senses": [
             {
+              "id": "sns_fr_mettre_reflexive_begin",
+              "gloss": "to begin (in se mettre à)",
+              "definition": "Avec se et à suivi d’un infinitif, commencer une action."
+            },
+            {
+              "id": "sns_fr_mettre_begin",
+              "gloss": "to begin (se mettre à)",
+              "definition": "Avec se et à suivi d’un infinitif, commencer une action."
+            },
+            {
               "id": "sns_parure_mettre_placer_une_personne_ou_un_animal_ou_une_chose_dans_un_lieu_determine_203318a543",
               "gloss": "to put; to place",
               "definition": "Placer une personne, ou un animal, ou une chose dans un lieu déterminé."
             },
             {
+              "id": "sns_fr_mettre_wear",
+              "gloss": "put on",
+              "definition": "Revêtir un vêtement ou placer un accessoire sur soi."
+            },
+            {
               "id": "sns_mettre_primary",
-              "gloss": "Mit is the past historic of mettre, put.",
-              "definition": "Mit is the past historic of mettre, put."
+              "gloss": "to put; to place",
+              "definition": "Placer une personne ou une chose dans un lieu ou une position."
             }
           ],
           "surfaceFormIds": [
             "srf_cendrillon_mettray_lem_mettre_5e3a47fc27",
+            "srf_fr_mette_mettre",
             "srf_parure_mettras_lem_mettre_9c41cf70cc",
+            "srf_fr_mirent_mettre_verb",
             "srf_cendrillon_mettez_lem_mettre_e90d8dbaec",
             "srf_mit"
           ],
@@ -1771,7 +1929,7 @@
             {
               "id": "sns_lion_rat_montrer_faire_voir_exposer_aux_regards_fea895fd29",
               "gloss": "to show",
-              "definition": "Faire voir ; exposer aux regards."
+              "definition": "Faire voir ou exposer quelque chose aux regards."
             }
           ],
           "surfaceFormIds": [
@@ -1838,8 +1996,8 @@
           "senses": [
             {
               "id": "sns_notre_primary",
-              "gloss": "Notre is the first-person plural possessive determiner our.",
-              "definition": "Notre is the first-person plural possessive determiner our."
+              "gloss": "our",
+              "definition": "Déterminant possessif de première personne du pluriel."
             }
           ],
           "surfaceFormIds": [
@@ -1924,13 +2082,13 @@
           "senses": [
             {
               "id": "sns_premier_primary",
-              "gloss": "Première is the feminine ordinal/adjective first.",
-              "definition": "Première is the feminine ordinal/adjective first."
+              "gloss": "first",
+              "definition": "Qui occupe le rang numéro un dans un ordre ou une succession."
             },
             {
               "id": "sns_cendrillon_premier_adjectif_numeral_ordinal_correspondant_au_nombre_1_f6de38661f",
               "gloss": "first",
-              "definition": "Adjectif numéral ordinal correspondant au nombre 1."
+              "definition": "Qui occupe le rang un dans une suite ; ancienne graphie féminine de première."
             }
           ],
           "surfaceFormIds": [
@@ -1996,8 +2154,8 @@
           "senses": [
             {
               "id": "sns_temoignage_primary",
-              "gloss": "Témoignage is the noun testimony/evidence.",
-              "definition": "Témoignage is the noun testimony/evidence."
+              "gloss": "testimony; evidence",
+              "definition": "Déclaration d’un témoin ou élément qui atteste un fait."
             }
           ],
           "surfaceFormIds": [

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "fr-lexical-correction-2026-09-25-19",
+  "language": "fr",
+  "masteryIdsChanged": false,
+  "progressTransfers": [],
+  "reboundQuizApprovals": 3,
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_inconscient_inconscient_unaware_early",
+      "before": {
+        "id": "qiz_zola_inconscient_inconscient_unaware_early",
+        "surfaceFormId": "srf_zola_inconscient_inconscient",
+        "senseId": "sns_zola_inconscient_unaware",
+        "contextFrench": "Ce conducteur inconscient prend des risques sans en mesurer les conséquences.",
+        "correctAnswer": "reckless",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "inconscient",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "careful",
+          "prudent",
+          "cautious",
+          "reckless"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_inconscient_inconscient_unaware_early",
+        "surfaceFormId": "srf_zola_inconscient_inconscient",
+        "senseId": "sns_zola_inconscient_unaware",
+        "contextFrench": "Il a agi en inconscient, sans connaître les conséquences de son geste.",
+        "correctAnswer": "unwitting; unaware",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "inconscient",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "unwitting; unaware",
+          "fully aware",
+          "deliberate",
+          "informed"
+        ]
+      },
+      "reason": "Zola says “en inconscient, je veux le croire”: he depicts an unwitting participant, not necessarily someone reckless. The early choice now tests lack of awareness; the completion and identification questions also test not grasping consequences. The historical nominal use and adjectival uses retain the same learner meaning."
+    }
+  ]
+}

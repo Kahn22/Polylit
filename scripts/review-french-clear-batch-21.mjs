@@ -1,0 +1,26 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { sharedSourceFiles, adoptSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-lexical-review-2026-09-25-21';
+const ledgerPath = `editorial-review-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, ledgerPath))) throw new Error('Review batch already exists');
+const id = 'srf_zola_agir_agir:sns_zola_s_agir_concern';
+const publication = loadPublication();
+if (!auditEditorialQuality(publication).some(issue => issue.kind === 'vocabulary' && issue.id === id)) throw new Error('Identity no longer pending');
+const family = editorialSubjects(publication).filter(subject => subject.kind === 'vocabulary' && subject.language === 'fr' && subject.value.sense.id === 'sns_zola_s_agir_concern');
+if (family.length !== 3 || family.reduce((sum, subject) => sum + subject.value.occurrences.length, 0) !== 4) throw new Error('Shared sense changed; re-review family');
+const subject = family.find(subject => subject.id === id);
+const source = publication.sharedSources.fr;
+const reviews = new Map(source.reviews.map(review => [review.id, review]));
+const rationale = 'In “il ne pouvait s’agir que d’un officier de troupe”, agir belongs to the impersonal construction s’agir de, meaning that the matter could concern only an army officer. The four indexed uses across agir, agissait and agit share that construction. The three existing questions for agir test the same impersonal meaning and fit their contexts and answer alternatives; no lexical or quiz edit is needed.';
+const reviewId = `vocabulary:${id}`, before = reviews.get(reviewId);
+const after = approveReview('fr', 'vocabulary', id, subject.value, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+reviews.set(reviewId, after);
+const files = new Map(sharedSourceFiles({ ...source, reviews: [...reviews.values()] }));
+files.set(ledgerPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'vocabulary', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'all shared-sense occurrences and three dependent question bands reviewed', changes: [{ subjectId: id, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: 1 }] });
+adoptSourceFiles(publicationRoot, files, stage => { const candidate = loadPublication(stage); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.kind === 'vocabulary' && issue.id === id)) throw new Error('Still pending'); });
+console.log(JSON.stringify({ batchId, reviewedIdentities: 1 }));

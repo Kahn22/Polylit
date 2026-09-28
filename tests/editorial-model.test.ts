@@ -4,7 +4,7 @@ import { prepareQuiz, legacyQuiz, targetCandidates, quizEditorialIssues, quizStr
 import { approveReview, approvalIssues, pendingReview } from "../src/publication/editorial.js";
 import { assertTextBinding, textBinding } from "../src/publication/revisions.js";
 import { sharedSourceFiles } from "../src/publication/source-store.js";
-import { assertEditorialRelease, duplicateCandidates } from "../src/publication/quality-audit.js";
+import { assertEditorialRelease, duplicateCandidates, editorialSubjects } from "../src/publication/quality-audit.js";
 import { highlightedContext } from "../src/app/quiz-view.js";
 import { correctChoice } from "../src/domain/prepared-quiz.js";
 import { orderedChoices } from "../src/app/state.js";
@@ -64,7 +64,12 @@ describe("explicit quiz identity and editorial evidence", () => {
     const quiz = [...publication.preparedQuizzes.values()].find(quiz => quiz.context === "Completa con la forma exacta: ___.")!;
     expect(quizStructureIssues(quiz)).toEqual([]);
     expect(quizEditorialIssues(quiz)).toContain("template_context");
-    expect(() => assertEditorialRelease(publication)).toThrow("Editorial publication gate blocked");
+    const active = editorialSubjects(publication).find(subject => subject.kind === "quiz" && subject.language === "es" && (subject.value as { quiz: typeof quiz }).quiz.format === "surface_completion")!;
+    const altered = { ...(active.value as { quiz: typeof quiz }).quiz, context: quiz.context };
+    expect(quizStructureIssues(altered)).toEqual([]);
+    const candidate = { ...publication, preparedQuizzes: new Map(publication.preparedQuizzes) };
+    candidate.preparedQuizzes.set(active.id, altered);
+    expect(() => assertEditorialRelease(candidate)).toThrow("Editorial publication gate blocked");
   });
   it.each([
     "Nina emploie « chat » pour exprimer cette idée : animal domestique.",
@@ -126,7 +131,10 @@ describe("versioned sources and stable editorial chunks", () => {
   it("reports duplicate candidates without merging their identities", () => {
     const originalIds = publication.bundle.lemmas.map(item => item.id);
     const candidates = duplicateCandidates(publication);
-    expect(candidates.filter(item => item.language === "fr")).toHaveLength(35);
+    // Correcting the Zola noun headword from secret_adjective to secret exposes
+    // a genuine same-headword candidate that remains pending review.
+    expect(candidates.filter(item => item.language === "fr")).toHaveLength(36);
+    expect(candidates.some(item => item.headword === 'secret' && item.partOfSpeech === 'noun' && item.lemmaIds.includes('lem_zola_secret_noun'))).toBe(true);
     expect(candidates.every(item => item.status === "pending")).toBe(true);
     expect(publication.bundle.lemmas.map(item => item.id)).toEqual(originalIds);
   });

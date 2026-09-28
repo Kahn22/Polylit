@@ -4,6 +4,42 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_de_fijo_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_de_fijo"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Sé de fijo que viene: acaba de confirmármelo.",
+      "targetText": "de fijo",
+      "targetRange": {
+        "start": 3,
+        "end": 10
+      },
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "certainly; for sure"
+        },
+        {
+          "id": "choice_2",
+          "text": "by chance"
+        },
+        {
+          "id": "choice_3",
+          "text": "at night"
+        },
+        {
+          "id": "choice_4",
+          "text": "in silence"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0021_agravado_early",
       "language": "es",
       "glossLanguage": "en",
@@ -1773,6 +1809,76 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_estan_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_estan",
+        "senseId": "sns_es_samaniego_estan"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Toca las toallas: todavía ___ mojadas ahora mismo.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "están"
+        },
+        {
+          "id": "choice_2",
+          "text": "estuvieron"
+        },
+        {
+          "id": "choice_3",
+          "text": "estarán"
+        },
+        {
+          "id": "choice_4",
+          "text": "estarían"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_morlacos_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_morlacos_currency_sourcefix",
+        "senseId": "sns_es_morlaco_coin"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El comerciante pidió treinta morlacos por la mercancía.",
+      "targetText": "morlacos",
+      "targetRange": {
+        "start": 29,
+        "end": 37
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "coins or units of money"
+        },
+        {
+          "id": "choice_2",
+          "text": "shirts"
+        },
+        {
+          "id": "choice_3",
+          "text": "horses"
+        },
+        {
+          "id": "choice_4",
+          "text": "letters"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

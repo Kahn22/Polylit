@@ -935,6 +935,39 @@
       "correctChoiceId": "choice_2"
     },
     {
+      "id": "qiz_fr_a_jamais_fr_a_jamais_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_jamais_a",
+        "senseId": "sns_fr_a_jamais"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, cette décision restera à jamais dans les mémoires.",
+      "prompt": "Quelle préposition figure dans la locution « à jamais » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "décision"
+        },
+        {
+          "id": "choice_3",
+          "text": "restera"
+        },
+        {
+          "id": "choice_4",
+          "text": "mémoires"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_autre_pronoun_other_fr_autre_autre_pronoun_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -971,6 +1004,38 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_autres_others_fr_autres_pronoun_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_autres_pronoun",
+        "senseId": "sns_fr_autres_others"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il fallait payer des billets, en renouveler d’_____.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "amples"
+        },
+        {
+          "id": "choice_2",
+          "text": "autres"
+        },
+        {
+          "id": "choice_3",
+          "text": "anciens"
+        },
+        {
+          "id": "choice_4",
+          "text": "utiles"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_aventure_hazardous_undertaking_loup_agneau_aventure_lem_loup_agneau_aventure_noun_2ea3740dab_8ffb433892_levels_4_5",
@@ -1138,6 +1203,44 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_de_sorte_que_fr_de_sorte_que_de_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_de_sorte_que_de",
+        "senseId": "sns_fr_de_sorte_que"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il a insisté, de sorte que nous avons accepté.",
+      "targetText": "de",
+      "targetRange": {
+        "start": 14,
+        "end": 16
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "belonging to"
+        },
+        {
+          "id": "choice_2",
+          "text": "toward a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_4",
+          "text": "so that; with the result that"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_faire_perform_activity_faire_levels_6_8",
@@ -1547,6 +1650,44 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "En portant ces accusations, je me mets sous le coup des articles de la loi sur la presse.",
+      "targetText": "mets",
+      "targetRange": {
+        "start": 34,
+        "end": 38
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "forget"
+        },
+        {
+          "id": "choice_2",
+          "text": "escape"
+        },
+        {
+          "id": "choice_3",
+          "text": "become subject to legal provisions"
+        },
+        {
+          "id": "choice_4",
+          "text": "place a physical object"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_fr_si_intensity_fr_si_si_adverb_levels_4_5",

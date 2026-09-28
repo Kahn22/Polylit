@@ -1248,6 +1248,71 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_aucun_prix_fr_a_aucun_prix_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_aucun_prix_a",
+        "senseId": "sns_fr_a_aucun_prix"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Le ministre ne céderait _____ aucun prix sa place.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "de"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_a_peu_pres_fr_a_peu_pres_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_peu_pres_a",
+        "senseId": "sns_fr_a_peu_pres"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, il a raconté à peu près la même histoire.",
+      "prompt": "Quelle préposition figure dans la locution « à peu près » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "même"
+        },
+        {
+          "id": "choice_2",
+          "text": "à"
+        },
+        {
+          "id": "choice_3",
+          "text": "raconté"
+        },
+        {
+          "id": "choice_4",
+          "text": "histoire"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_argent_money_parure_argent_lem_parure_argent_noun_b9f2eb743a_aceaa41be7_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -2452,6 +2517,44 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7_parure_rendre_lem_zola_rendre_506e242df3_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_rendre_lem_zola_rendre_506e242df3",
+        "senseId": "sns_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "On serra les lacets pour leur rendre la taille plus menuë.",
+      "targetText": "rendre",
+      "targetRange": {
+        "start": 30,
+        "end": 36
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "give back"
+        },
+        {
+          "id": "choice_2",
+          "text": "sell"
+        },
+        {
+          "id": "choice_3",
+          "text": "borrow"
+        },
+        {
+          "id": "choice_4",
+          "text": "make; cause to become"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_loup_agneau_vos_sns_loup_agneau_votre_determinant_possessif_qui_renvoie_a_plusieurs_choses_possedees_8dcb969a8f_b14d5b6680_early",

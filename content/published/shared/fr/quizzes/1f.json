@@ -514,23 +514,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Le terme précis pour exprimer « Celle qui avec le parrain, présente un enfant (le filleul) aux fonts baptismaux (mère spirituelle d’un enfant) ou assiste l’enfant de manière analogue dans une cérémonie civile ou d’une autre religion ou conviction. » est _____.",
+      "context": "Au baptême, les femmes désignées pour présenter les enfants aux côtés des parrains sont leurs _____.",
       "choices": [
+        {
+          "id": "choice_5",
+          "text": "mères"
+        },
+        {
+          "id": "choice_6",
+          "text": "tantes"
+        },
         {
           "id": "choice_1",
           "text": "Maraines"
         },
         {
-          "id": "choice_2",
-          "text": "fenêtre"
-        },
-        {
-          "id": "choice_3",
-          "text": "cahier"
-        },
-        {
-          "id": "choice_4",
-          "text": "jardin"
+          "id": "choice_7",
+          "text": "sœurs"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -1492,6 +1492,72 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_d_autre_part_fr_d_autre_part_d_elided_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_autre_part_d_elided",
+        "senseId": "sns_fr_d_autre_part"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, d’autre part, le témoin présente une preuve nouvelle.",
+      "prompt": "Quel élément appartient à la locution « d’autre part » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "preuve"
+        },
+        {
+          "id": "choice_2",
+          "text": "d’"
+        },
+        {
+          "id": "choice_3",
+          "text": "témoin"
+        },
+        {
+          "id": "choice_4",
+          "text": "présente"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_de_quoi_fr_de_quoi_de_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_de_quoi_de",
+        "senseId": "sns_fr_de_quoi"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, de quoi vous sert cette vitesse ?",
+      "prompt": "Quel élément appartient à la locution « de quoi » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vous"
+        },
+        {
+          "id": "choice_2",
+          "text": "sert"
+        },
+        {
+          "id": "choice_3",
+          "text": "vitesse"
+        },
+        {
+          "id": "choice_4",
+          "text": "de"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_des_que_as_soon_fr_des_des_conjunction_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -2207,6 +2273,44 @@
       "correctChoiceId": "choice_2"
     },
     {
+      "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "De la naissance, du bon sens, et d’autres semblables talens.",
+      "targetText": "sens",
+      "targetRange": {
+        "start": 24,
+        "end": 28
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "physical direction"
+        },
+        {
+          "id": "choice_2",
+          "text": "hearing"
+        },
+        {
+          "id": "choice_3",
+          "text": "meaning of a word"
+        },
+        {
+          "id": "choice_4",
+          "text": "good sense; sound judgment"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_serrer_tighten_cendrillon_serrer_lem_zola_serrer_5e8fe06605_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -2346,6 +2450,39 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_tout_d_un_coup_fr_tout_d_un_coup_d_elided_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_tout_d_un_coup_d_elided",
+        "senseId": "sns_fr_tout_d_un_coup"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, tout d’un coup, une décision change le procès.",
+      "prompt": "Quel élément appartient à la locution « tout d’un coup » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Tout"
+        },
+        {
+          "id": "choice_2",
+          "text": "décision"
+        },
+        {
+          "id": "choice_3",
+          "text": "procès"
+        },
+        {
+          "id": "choice_4",
+          "text": "d’"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_tresor_cherished_cendrillon_tresor_lem_parure_tresor_noun_4670be9245_1e04d72ceb_levels_1_3",

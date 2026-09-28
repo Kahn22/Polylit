@@ -582,24 +582,24 @@
       },
       "band": "levels_6_8",
       "format": "target_identification",
-      "context": "Dans cette situation, le mot « Maraines » exprime précisément ceci : Celle qui avec le parrain, présente un enfant (le filleul) aux fonts baptismaux (mère spirituelle d’un enfant) ou assiste l’enfant de manière analogue dans une cérémonie civile ou d’une autre religion ou conviction.. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
-      "prompt": "Quel mot du contexte signifie « Celle qui avec le parrain, présente un enfant (le filleul) aux fonts baptismaux (mère spirituelle d’un enfant) ou assiste l’enfant de manière analogue dans une cérémonie civile ou d’une autre religion ou conviction. » ?",
+      "context": "Lors de la cérémonie, les Maraines présentent les enfants avec les parrains. Leurs parentes attendent à l’entrée.",
+      "prompt": "Quel nom désigne les mères spirituelles des enfants ?",
       "choices": [
         {
           "id": "choice_1",
           "text": "Maraines"
         },
         {
-          "id": "choice_2",
-          "text": "fenêtre"
+          "id": "choice_5",
+          "text": "enfants"
         },
         {
-          "id": "choice_3",
-          "text": "cahier"
+          "id": "choice_6",
+          "text": "parrains"
         },
         {
-          "id": "choice_4",
-          "text": "jardin"
+          "id": "choice_7",
+          "text": "parentes"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -1489,6 +1489,44 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_peu_a_peu_fr_peu_a_peu_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_peu_a_peu_a",
+        "senseId": "sns_fr_peu_a_peu"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Peu à peu, sa confiance revient.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 4,
+        "end": 5
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_2",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "gradually; little by little"
+        },
+        {
+          "id": "choice_4",
+          "text": "towards a place"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_fr_porter_inscription_parure_portait_lem_porter_1159b1b8fd_levels_1_3",
@@ -4760,32 +4798,32 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Le gardien a surpris le chat en train de voler du pain.",
+      "context": "Il est des secrets qu’il ne fait pas bon d’avoir surpris.",
       "targetText": "surpris",
       "targetRange": {
-        "start": 13,
-        "end": 20
+        "start": 49,
+        "end": 56
       },
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "followed"
+          "id": "choice_9",
+          "text": "revealed publicly"
         },
         {
-          "id": "choice_6",
-          "text": "caught in the act"
+          "id": "choice_10",
+          "text": "discovered unexpectedly"
         },
         {
-          "id": "choice_7",
-          "text": "fed"
+          "id": "choice_11",
+          "text": "forgotten"
         },
         {
-          "id": "choice_8",
-          "text": "hid"
+          "id": "choice_12",
+          "text": "concealed"
         }
       ],
-      "correctChoiceId": "choice_6"
+      "correctChoiceId": "choice_10"
     },
     {
       "id": "qiz_zola_tout_intensifier_advanced",

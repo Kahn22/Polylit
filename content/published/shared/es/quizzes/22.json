@@ -4,6 +4,38 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_de_fijo_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_de_fijo"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Vendrá de fijo; saldrá de noche, viajará sin prisa y llegará por la mañana.",
+      "prompt": "¿Qué expresión indica seguridad sobre lo que ocurrirá?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de fijo"
+        },
+        {
+          "id": "choice_2",
+          "text": "de noche"
+        },
+        {
+          "id": "choice_3",
+          "text": "sin prisa"
+        },
+        {
+          "id": "choice_4",
+          "text": "por la mañana"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0015_adelgazara_intermediate",
       "language": "es",
       "glossLanguage": "en",
@@ -1867,6 +1899,39 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_impaciente_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_impaciente",
+        "senseId": "sns_es_samaniego_impaciente"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "El viajero impaciente miraba el reloj; su hermana tranquila seguía leyendo.",
+      "prompt": "¿Qué adjetivo describe a quien lleva mal la espera?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "impaciente"
+        },
+        {
+          "id": "choice_2",
+          "text": "tranquila"
+        },
+        {
+          "id": "choice_3",
+          "text": "viajero"
+        },
+        {
+          "id": "choice_4",
+          "text": "reloj"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

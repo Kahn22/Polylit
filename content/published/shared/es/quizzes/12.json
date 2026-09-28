@@ -1873,6 +1873,76 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_hojas_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_hojas",
+        "senseId": "sns_es_samaniego_hojas"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El árbol perdió sus ___: las láminas verdes de sus ramas se habían secado.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "hojas"
+        },
+        {
+          "id": "choice_2",
+          "text": "raíces"
+        },
+        {
+          "id": "choice_3",
+          "text": "flores"
+        },
+        {
+          "id": "choice_4",
+          "text": "semillas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_muestres_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_muestres",
+        "senseId": "sns_es_samaniego_muestres"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "No te muestres enfadado delante de los invitados.",
+      "targetText": "muestres",
+      "targetRange": {
+        "start": 6,
+        "end": 14
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "show yourself; appear"
+        },
+        {
+          "id": "choice_2",
+          "text": "hide yourself"
+        },
+        {
+          "id": "choice_3",
+          "text": "fall asleep"
+        },
+        {
+          "id": "choice_4",
+          "text": "go away"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

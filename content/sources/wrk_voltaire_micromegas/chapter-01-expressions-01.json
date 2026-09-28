@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 1,
+  "status": "offline_expression_triage_and_question_drafts_unpublished",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "note": "Eleven chapter I phrase candidates checked against source spans and existing published identities. À peu près reuses existing vocabulary mastery, while à propos and voie lactée are independent offline expression drafts. Se mettre à uses the existing reflexive-begin sense with a planned new met surface; no expression imported or approved.",
+  "items": [
+    {
+      "key": "sur_le_champ",
+      "surface": "sur-le-champ",
+      "disposition": "single_orthographic_word_lexical_queue",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 3,
+          "start": 62,
+          "end": 74,
+          "text": "sur-le-champ"
+        },
+        {
+          "chapter": 6,
+          "unit": 138,
+          "start": 362,
+          "end": 374,
+          "text": "sur-le-champ"
+        }
+      ],
+      "decision": "The hyphenated adverb is one orthographic token meaning immediately. Index it as vocabulary surface+sense, not independent multiword expression mastery."
+    },
+    {
+      "key": "a_peu_pres",
+      "surface": "à peu près",
+      "disposition": "reuse_existing_vocabulary_identity_no_new_expression_mastery",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 25,
+          "start": 44,
+          "end": 54,
+          "text": "à peu près"
+        },
+        {
+          "chapter": 5,
+          "unit": 122,
+          "start": 326,
+          "end": 336,
+          "text": "à peu près"
+        },
+        {
+          "chapter": 6,
+          "unit": 135,
+          "start": 32,
+          "end": 42,
+          "text": "à peu près"
+        }
+      ],
+      "existing": {
+        "explanatoryNoteId": "exp_a_peu_pres",
+        "vocabularyIdentity": "srf_fr_a_peu_pres_a:sns_fr_a_peu_pres",
+        "questionBands": 3
+      },
+      "decision": "The chapter I, V and VI uses express approximation, matching the already published surface à plus locution sense and its three prepared quiz bands. Reuse that exact vocabulary identity on the à token when importing the work; retain the phrase note. Do not create a second expression mastery item or transfer/reset progress. Check the indexed occurrence and page context during import."
+    },
+    {
+      "key": "ne_que",
+      "surface": "ne … que",
+      "disposition": "grammatical_construction_no_new_expression",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 24,
+          "start": 123,
+          "end": 132,
+          "text": "n’ont que"
+        }
+      ],
+      "decision": "Restrictive negation is productive grammar, with existing vocabulary identities for restriction; this is a representative source span, not exhaustive workwide expression indexing."
+    },
+    {
+      "key": "de_meme_nature",
+      "surface": "de même nature",
+      "disposition": "compositional_no_new_expression",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 12,
+          "start": 269,
+          "end": 283,
+          "text": "de même nature"
+        }
+      ],
+      "decision": "Means of the same kind. The nature kind sense is already separately drafted in chapter I batch 01; independent phrase mastery would double count a compositional comparison."
+    },
+    {
+      "key": "de_globe_en_globe",
+      "surface": "de globe en globe",
+      "disposition": "productive_pattern_no_new_expression",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 19,
+          "start": 119,
+          "end": 136,
+          "text": "de globe en globe"
+        }
+      ],
+      "decision": "Repeated-noun de X en X travel construction; the same pattern also occurs with planète and branche, so keep components learnable without a separate fixed phrase identity."
+    },
+    {
+      "key": "faire_le_tour",
+      "surface": "faire le tour",
+      "disposition": "new_expression_draft_question_signoff_pending",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 6,
+          "start": 71,
+          "end": 84,
+          "text": "faire le tour"
+        }
+      ],
+      "meaning": "go around; make a circuit of",
+      "decision": "The path around the small states has a stable circuit meaning. No published expression identity with this headword was found; retain component vocabulary independently.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils vont faire le tour du lac à pied.",
+          "question": "Meaning",
+          "answer": "go all the way around",
+          "choices": [
+            "go all the way around",
+            "cross by boat",
+            "stay inside",
+            "leave immediately"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour revenir au point de départ en suivant toute la rive, ils vont ___ du lac.",
+          "question": "Complétez la phrase.",
+          "answer": "faire le tour",
+          "choices": [
+            "faire le tour",
+            "prendre le chemin",
+            "rester près",
+            "s’éloigner"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les promeneurs veulent faire le tour du lac. D’autres préfèrent prendre le chemin du village, rester près du pont ou s’éloigner de la rive.",
+          "question": "Quelle expression signifie suivre tout le contour ?",
+          "answer": "faire le tour",
+          "choices": [
+            "faire le tour",
+            "prendre le chemin",
+            "rester près",
+            "s’éloigner"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "se_mettre_a",
+      "surface": "se mettre à",
+      "disposition": "reuse_existing_vocabulary_sense_per_surface_no_expression_mastery",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 16,
+          "start": 96,
+          "end": 104,
+          "text": "se mit à"
+        },
+        {
+          "chapter": 1,
+          "unit": 25,
+          "start": 81,
+          "end": 89,
+          "text": "se met à"
+        },
+        {
+          "chapter": 4,
+          "unit": 109,
+          "start": 120,
+          "end": 128,
+          "text": "se mit à"
+        }
+      ],
+      "existing": {
+        "vocabularySenseIds": [
+          "sns_fr_mettre_reflexive_begin",
+          "sns_fr_mettre_begin"
+        ],
+        "surfaceForms": [
+          "mit",
+          "mirent"
+        ],
+        "reusablePastIdentity": "srf_mit:sns_fr_mettre_reflexive_begin",
+        "presentSenseId": "sns_fr_mettre_reflexive_begin",
+        "pendingPresentSurface": "met",
+        "questionBandsPerSense": 3
+      },
+      "decision": "All three occurrences mean begin an action. The two Micromégas past se mit à uses match the already published mit + reflexive-begin identity, which should keep its mastery and questions. The present se met à links a new met surface to the same reflexive-begin sense under the chapter I identity plan, while retaining separate mastery for met versus mit. The other published begin sense under mirent stays unchanged. Keep the whole phrase out of independent expression mastery; import the present surface only after complete work signoff."
+    },
+    {
+      "key": "au_bout_de",
+      "surface": "au bout de",
+      "disposition": "split_spatial_compositional_temporal_expression_draft",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 20,
+          "start": 205,
+          "end": 215,
+          "text": "au bout de"
+        },
+        {
+          "chapter": 7,
+          "unit": 182,
+          "start": 10,
+          "end": 20,
+          "text": "au bout de"
+        }
+      ],
+      "meaning": "after; at the end of a period",
+      "decision": "The p. 1 telescope use is the spatial end of an object and is compositional. Chapter VII au bout de dix ans is temporal and may warrant an independent expression identity; only that latter use receives questions.",
+      "expressionOccurrenceUnits": [
+        182
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils se revoient au bout de trois ans.",
+          "question": "Meaning",
+          "answer": "after three years",
+          "choices": [
+            "after three years",
+            "for three years",
+            "before three years",
+            "every three years"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils se sont quittés en 2020 et se sont revus en 2023, ___ trois ans.",
+          "question": "Complétez la phrase.",
+          "answer": "au bout de",
+          "choices": [
+            "au bout de",
+            "pendant",
+            "avant",
+            "tous les"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils se retrouvent au bout de trois ans. Ils écrivent pendant ces années ; avant leur séparation, ils vivaient ensemble, puis ils voyagent tous les étés.",
+          "question": "Quelle expression marque la fin de l’attente de trois ans ?",
+          "answer": "au bout de",
+          "choices": [
+            "au bout de",
+            "pendant",
+            "avant",
+            "tous les"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "a_propos",
+      "surface": "à propos",
+      "disposition": "new_expression_draft_question_signoff_pending",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 19,
+          "start": 19,
+          "end": 27,
+          "text": "à propos"
+        }
+      ],
+      "meaning": "aptly; appropriately",
+      "decision": "In « si à propos que » the locution means suitably or at the right moment, not the discourse marker “by the way.” No matching published expression identity found.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Elle choisit à propos les mots qui calment la dispute.",
+          "question": "Meaning",
+          "answer": "aptly",
+          "choices": [
+            "aptly",
+            "late",
+            "randomly",
+            "without reason"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Son commentaire arrive ___ : il répond exactement à la question posée.",
+          "question": "Complétez la phrase.",
+          "answer": "à propos",
+          "choices": [
+            "à propos",
+            "en retard",
+            "à côté",
+            "sans raison"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le professeur répond à propos et éclaire la question. Son collègue arrive en retard, parle à côté et intervient sans raison.",
+          "question": "Quelle expression dit que la réponse convient bien à la situation ?",
+          "answer": "à propos",
+          "choices": [
+            "à propos",
+            "en retard",
+            "à côté",
+            "sans raison"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "de_planete_en_planete",
+      "surface": "de planète en planète",
+      "disposition": "productive_pattern_no_new_expression",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 16,
+          "start": 113,
+          "end": 134,
+          "text": "de planète en planète"
+        }
+      ],
+      "decision": "Same productive de X en X travel construction as de globe en globe; the independently useful planet noun is drafted in batch 03."
+    },
+    {
+      "key": "voie_lactee",
+      "surface": "voie lactée",
+      "disposition": "new_expression_draft_question_signoff_pending",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "unit": 20,
+          "start": 16,
+          "end": 27,
+          "text": "voie lactée"
+        }
+      ],
+      "meaning": "Milky Way; our galaxy",
+      "decision": "The two words together name the Milky Way, the astronomical body the traveler crosses. Keep one expression mastery item for the whole name; do not test voie and lactée independently as if their general component meanings identified this celestial object. Source case follows the printed edition.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il traverse la voie lactée en peu de temps.",
+          "question": "Meaning",
+          "answer": "Milky Way",
+          "choices": [
+            "Milky Way",
+            "planet Saturn",
+            "the sun",
+            "a comet"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette vaste bande d’étoiles qui contient notre système solaire est la ___.",
+          "question": "Complétez la phrase.",
+          "answer": "voie lactée",
+          "choices": [
+            "voie lactée",
+            "planète Mars",
+            "comète",
+            "lune"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La voie lactée est la galaxie à laquelle appartient le Soleil. La planète Mars est un monde voisin, une comète est un petit corps glacé et la lune est un satellite naturel.",
+          "question": "Quelle expression nomme la galaxie traversée par le voyageur ?",
+          "answer": "voie lactée",
+          "choices": [
+            "voie lactée",
+            "planète Mars",
+            "comète",
+            "lune"
+          ]
+        }
+      ]
+    }
+  ]
+}

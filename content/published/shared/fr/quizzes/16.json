@@ -142,11 +142,11 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Le professeur emploie « Ciel » pour exprimer cette idée : Espace immense dans lequel se meuvent tous les astres..",
-      "targetText": "Ciel",
+      "context": "Derham affirme voir le ciel avec sa lunette.",
+      "targetText": "ciel",
       "targetRange": {
-        "start": 24,
-        "end": 28
+        "start": 23,
+        "end": 27
       },
       "prompt": "Meaning",
       "choices": [
@@ -155,16 +155,16 @@
           "text": "sky"
         },
         {
-          "id": "choice_2",
-          "text": "a window"
+          "id": "choice_5",
+          "text": "earth"
         },
         {
-          "id": "choice_3",
-          "text": "a notebook"
+          "id": "choice_6",
+          "text": "sea"
         },
         {
-          "id": "choice_4",
-          "text": "a garden"
+          "id": "choice_7",
+          "text": "forest"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -1675,6 +1675,39 @@
         }
       ],
       "correctChoiceId": "choice_7"
+    },
+    {
+      "id": "qiz_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7_parure_rendre_lem_zola_rendre_506e242df3_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_rendre_lem_zola_rendre_506e242df3",
+        "senseId": "sns_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "On rompit plus de douze lacets à force de les serrer pour leur rendre la taille plus menuë.",
+      "prompt": "Quel verbe signifie faire devenir la taille plus fine ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "serrer"
+        },
+        {
+          "id": "choice_2",
+          "text": "rendre"
+        },
+        {
+          "id": "choice_3",
+          "text": "rompit"
+        },
+        {
+          "id": "choice_4",
+          "text": "lacets"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_loup_agneau_temerite_sns_loup_agneau_temerite_hardiesse_imprudente_et_presomptueuse_courage_inconsidere_5c0eeb632a_47aca88d57_early",
@@ -3309,6 +3342,39 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Dès lors, le duel va avoir lieu entre le lieutenant-colonel Picquart et le lieutenant-colonel du Paty de Clam.",
+      "prompt": "Quel verbe appartient à l’expression signifiant se dérouler ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Picquart"
+        },
+        {
+          "id": "choice_2",
+          "text": "Clam"
+        },
+        {
+          "id": "choice_3",
+          "text": "avoir"
+        },
+        {
+          "id": "choice_4",
+          "text": "duel"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_zola_baiser_baiser_kiss_intermediate",

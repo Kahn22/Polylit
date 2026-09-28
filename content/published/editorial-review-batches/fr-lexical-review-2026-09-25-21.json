@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-review-2026-09-25-21",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "all shared-sense occurrences and three dependent question bands reviewed",
+  "changes": [
+    {
+      "subjectId": "srf_zola_agir_agir:sns_zola_s_agir_concern",
+      "reviewId": "vocabulary:srf_zola_agir_agir:sns_zola_s_agir_concern",
+      "outcome": "approve",
+      "rationale": "In “il ne pouvait s’agir que d’un officier de troupe”, agir belongs to the impersonal construction s’agir de, meaning that the matter could concern only an army officer. The four indexed uses across agir, agissait and agit share that construction. The three existing questions for agir test the same impersonal meaning and fit their contexts and answer alternatives; no lexical or quiz edit is needed.",
+      "before": {
+        "id": "vocabulary:srf_zola_agir_agir:sns_zola_s_agir_concern",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_agir_agir:sns_zola_s_agir_concern",
+        "subjectRevision": "rev_9f9b03ed14f5b6c82ec3f47be799866857dfdd32f27e95a5747f76d078cb3190",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In il s’agissait d’innocenter, the impersonal construction means it was a matter of/was necessary to; hold because the generic ‘to be a matter of’ gloss does not capture the construction cleanly."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_agir_agir:sns_zola_s_agir_concern",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_agir_agir:sns_zola_s_agir_concern",
+        "subjectRevision": "rev_9f9b03ed14f5b6c82ec3f47be799866857dfdd32f27e95a5747f76d078cb3190",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In “il ne pouvait s’agir que d’un officier de troupe”, agir belongs to the impersonal construction s’agir de, meaning that the matter could concern only an army officer. The four indexed uses across agir, agissait and agit share that construction. The three existing questions for agir test the same impersonal meaning and fit their contexts and answer alternatives; no lexical or quiz edit is needed.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

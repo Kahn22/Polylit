@@ -918,6 +918,72 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_l_etourdie_fr_a_l_etourdie_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_l_etourdie_a",
+        "senseId": "sns_fr_a_l_etourdie"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, le rat sort à l’étourdie de son abri.",
+      "prompt": "Quelle préposition figure dans la locution « à l’étourdie » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "rat"
+        },
+        {
+          "id": "choice_2",
+          "text": "sort"
+        },
+        {
+          "id": "choice_3",
+          "text": "abri"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_a_moins_que_fr_a_moins_que_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moins_que_a",
+        "senseId": "sns_fr_a_moins_que"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, il viendra à moins que la pluie ne tombe.",
+      "prompt": "Quelle préposition figure dans la locution « à moins que » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "viendra"
+        },
+        {
+          "id": "choice_2",
+          "text": "pluie"
+        },
+        {
+          "id": "choice_3",
+          "text": "tombe"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_certain_unspecified_zola_certain_certain_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1222,6 +1288,38 @@
       "correctChoiceId": "choice_3"
     },
     {
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "On l’éloigna de plus loin _____ plus loin.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "sur"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "en"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_etre_presence_fr_este_etre_verb_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1448,6 +1546,44 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Ils allaient chasser du côté de Nanterre, par là, le dimanche.",
+      "targetText": "par",
+      "targetRange": {
+        "start": 42,
+        "end": 45
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_2",
+          "text": "after that"
+        },
+        {
+          "id": "choice_3",
+          "text": "around there; in that area"
+        },
+        {
+          "id": "choice_4",
+          "text": "because of this"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_4_5",

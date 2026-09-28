@@ -2042,6 +2042,109 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_cazando_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_cazando",
+        "senseId": "sns_es_samaniego_cazando"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "El lince estaba cazando conejos mientras el ciervo comía hierba.",
+      "prompt": "¿Qué palabra indica que un animal buscaba capturar a otros?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "cazando"
+        },
+        {
+          "id": "choice_2",
+          "text": "conejos"
+        },
+        {
+          "id": "choice_3",
+          "text": "comía"
+        },
+        {
+          "id": "choice_4",
+          "text": "hierba"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_comer_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_comer",
+        "senseId": "sns_es_samaniego_comer"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Tenía hambre y la comida estaba lista; por fin podía ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "comer"
+        },
+        {
+          "id": "choice_2",
+          "text": "dormir"
+        },
+        {
+          "id": "choice_3",
+          "text": "cantar"
+        },
+        {
+          "id": "choice_4",
+          "text": "nadar"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_di_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_di",
+        "senseId": "sns_es_samaniego_di"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Di la verdad, aunque te dé vergüenza.",
+      "targetText": "di",
+      "targetRange": {
+        "start": 0,
+        "end": 2
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "say; tell (command)"
+        },
+        {
+          "id": "choice_2",
+          "text": "hide"
+        },
+        {
+          "id": "choice_3",
+          "text": "forget"
+        },
+        {
+          "id": "choice_4",
+          "text": "hear"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

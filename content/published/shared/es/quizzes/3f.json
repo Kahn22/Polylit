@@ -1968,6 +1968,141 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_aplica_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_aplica",
+        "senseId": "sns_es_samaniego_aplica"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Para resolver el ejercicio según lo aprendido, ___ la regla del manual.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "aplica"
+        },
+        {
+          "id": "choice_2",
+          "text": "olvida"
+        },
+        {
+          "id": "choice_3",
+          "text": "oculta"
+        },
+        {
+          "id": "choice_4",
+          "text": "infringe"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_las_pronoun_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_las_pronoun",
+        "senseId": "sns_es_samaniego_las_pronoun"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Compré dos peras y las guardé en una bolsa.",
+      "targetText": "las",
+      "targetRange": {
+        "start": 19,
+        "end": 22
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "them (feminine plural)"
+        },
+        {
+          "id": "choice_2",
+          "text": "her"
+        },
+        {
+          "id": "choice_3",
+          "text": "us"
+        },
+        {
+          "id": "choice_4",
+          "text": "him"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_racimos_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_racimos",
+        "senseId": "sns_es_samaniego_racimos"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Las uvas seguían unidas a sus tallos formando grandes ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "racimos"
+        },
+        {
+          "id": "choice_2",
+          "text": "troncos"
+        },
+        {
+          "id": "choice_3",
+          "text": "hoyos"
+        },
+        {
+          "id": "choice_4",
+          "text": "terrones"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_verdes_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_verdes",
+        "senseId": "sns_es_samaniego_verdes"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "El dibujo tenía árboles verdes, flores rojas y un cielo azul.",
+      "prompt": "¿Qué palabra expresa el color de la hierba?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "verdes"
+        },
+        {
+          "id": "choice_2",
+          "text": "rojas"
+        },
+        {
+          "id": "choice_3",
+          "text": "azul"
+        },
+        {
+          "id": "choice_4",
+          "text": "árboles"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "reviewer": "Codex",
+  "reviewedOn": "2026-09-21",
+  "direction": "historical witness → current canonical (or explicitly identified online-transcription correction)",
+  "textChanged": false,
+  "changes": [
+    {
+      "from": "Newspaper line-end hyphenation, columns and section asterisks",
+      "to": "Reflowed paragraphs/thought units; no asterisks",
+      "reason": "Reading-layout transformation. The complete body is bounded by its salutation and closing, excluding adjoining articles.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    },
+    {
+      "from": "Headline, LETTRE À M. FÉLIX FAURE and ÉMILE ZOLA signature",
+      "to": "Title, author and edition attribution in metadata",
+      "reason": "Front matter/signature are outside the canonical body, not silently treated as missing narrative.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    },
+    {
+      "from": "Page numbers, running headers, ornaments/illustrations, line-end hyphenation, nonsemantic whitespace",
+      "to": "Excluded or reflowed in canonical text",
+      "reason": "Routine presentation-only policy. Preserve all literary words except the separately enumerated variants.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    }
+  ],
+  "note": "This records the observed existing transformations. Entries marked requires_correction are findings, not approvals or implemented changes."
+}

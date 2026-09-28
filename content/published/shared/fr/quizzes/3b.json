@@ -1304,6 +1304,109 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_cause_de_fr_a_cause_de_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_cause_de_a",
+        "senseId": "sns_fr_a_cause_de"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Le bal est annulé _____ cause de la pluie.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "par"
+        },
+        {
+          "id": "choice_3",
+          "text": "sans"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_a_tout_heure_fr_a_tout_heure_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_tout_heure_a",
+        "senseId": "sns_fr_a_tout_heure"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, je te montrerai à tout l’heure la preuve.",
+      "prompt": "Quelle préposition figure dans la locution « à tout l’heure » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "preuve"
+        },
+        {
+          "id": "choice_2",
+          "text": "tout"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "montrerai"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines.",
+      "targetText": "beau",
+      "targetRange": {
+        "start": 16,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "beautiful"
+        },
+        {
+          "id": "choice_2",
+          "text": "already"
+        },
+        {
+          "id": "choice_3",
+          "text": "from afar"
+        },
+        {
+          "id": "choice_4",
+          "text": "however much; in vain"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_bureau_workplace_zola_bureau_bureau_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1886,6 +1989,39 @@
       "correctChoiceId": "choice_3"
     },
     {
+      "id": "qiz_fr_peu_a_peu_fr_peu_a_peu_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_peu_a_peu_a",
+        "senseId": "sns_fr_peu_a_peu"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, peu à peu, sa confiance revient.",
+      "prompt": "Quelle préposition figure dans la locution « peu à peu » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "Peu"
+        },
+        {
+          "id": "choice_3",
+          "text": "confiance"
+        },
+        {
+          "id": "choice_4",
+          "text": "revient"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_reconnaitre_identify_fr_reconnaissait_reconnaitre_verb_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1949,6 +2085,71 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "L’un sans _____ par passion cléricale, l’autre peut-être par esprit de corps.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "risque"
+        },
+        {
+          "id": "choice_2",
+          "text": "moyen"
+        },
+        {
+          "id": "choice_3",
+          "text": "doute"
+        },
+        {
+          "id": "choice_4",
+          "text": "preuve"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "En portant ces accusations, je n’ignore pas que je me mets sous le coup des articles 30 et 31 de la loi sur la presse.",
+      "prompt": "Quel verbe exprime le fait de s’exposer à ces dispositions ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mets"
+        },
+        {
+          "id": "choice_2",
+          "text": "portant"
+        },
+        {
+          "id": "choice_3",
+          "text": "ignore"
+        },
+        {
+          "id": "choice_4",
+          "text": "articles"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_se_plaindre_complain_fr_plaindre_se_plaindre_verb_levels_1_3",

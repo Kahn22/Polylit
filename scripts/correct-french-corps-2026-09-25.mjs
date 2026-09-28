@@ -1,0 +1,46 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { quizEditorialIssues } from '../dist/publication/quiz-authoring.js';
+import { fromNeutral, toNeutral } from '../dist/publication/format.js';
+import { adoptSourceFiles, reconcileQuizzes, sharedSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-lexical-correction-2026-09-25-14';
+const reviewLedgerPath = `editorial-review-batches/${batchId}.json`;
+const correctionLedgerPath = `editorial-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, reviewLedgerPath)) || existsSync(resolve(publicationRoot, correctionLedgerPath))) throw new Error('Batch exists');
+const subjectId = 'srf_zola_corps_corps:sns_zola_corps_group';
+const publication = loadPublication();
+if (!auditEditorialQuality(publication).some(issue => issue.kind === 'vocabulary' && issue.id === subjectId)) throw new Error('Subject no longer pending');
+const source = publication.sharedSources.fr;
+const content = fromNeutral(source.legacy.content);
+const oldSense = content.senses.find(sense => sense.id === 'sns_zola_corps_group');
+if (!oldSense) throw new Error('Sense missing');
+const newSense = { ...oldSense, gloss: 'professional corps; institutional body', definition: 'Ensemble organisé de personnes d’une même institution, en particulier dans « esprit de corps », la solidarité des membres du même groupe.' };
+content.senses = content.senses.map(sense => sense.id === oldSense.id ? newSense : sense);
+const oldQuestion = content.quizItems.find(q => q.surfaceFormId === 'srf_zola_corps_corps' && q.band === 'levels_1_3');
+if (!oldQuestion) throw new Error('Question missing');
+const newQuestion = { ...oldQuestion, correctAnswer: 'professional corps', choicesEnglish: ['professional corps', 'building', 'vehicle', 'uniform'] };
+content.quizItems = content.quizItems.map(q => q.id === oldQuestion.id ? newQuestion : q);
+const legacy = { ...source.legacy, content: toNeutral(content) };
+const quizzes = reconcileQuizzes(source, legacy);
+const subject = editorialSubjects(publication).find(s => s.kind === 'vocabulary' && s.id === subjectId);
+const reviewId = `vocabulary:${subjectId}`, reviews = new Map(source.reviews.map(review => [review.id, review]));
+const rationale = 'Both Zola passages use esprit de corps for institutional solidarity, not a physical body. The new learner gloss explains the institutional group; all three question bands were checked and the English answer was corrected.';
+const before = reviews.get(reviewId), after = approveReview('fr', 'vocabulary', subjectId, { ...subject.value, sense: newSense }, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+reviews.set(reviewId, after);
+const surface = content.surfaceForms.find(surface => surface.id === 'srf_zola_corps_corps');
+const lemma = content.lemmas.find(lemma => lemma.id === surface.lemmaId);
+let reboundQuizApprovals = 0;
+for (const quiz of quizzes.filter(q => q.subject.kind === 'vocabulary' && q.subject.surfaceFormId === surface.id && q.subject.senseId === newSense.id)) {
+  if (quizEditorialIssues(quiz).length) throw new Error(`Question invalid: ${quiz.id}`);
+  reviews.set(`quiz:${quiz.id}`, approveReview('fr', 'quiz', quiz.id, { quiz, target: { surface, sense: newSense, lemma } }, 'Codex', '2026-09-25T00:00:00.000Z', rationale));
+  reboundQuizApprovals++;
+}
+const files = new Map(sharedSourceFiles({ ...source, legacy, quizzes, reviews: [...reviews.values()] }));
+files.set(reviewLedgerPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'vocabulary', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'contextual sense correction and exact-version quiz check', changes: [{ subjectId, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: subject.value.occurrences.length }] });
+files.set(correctionLedgerPath, { version: 1, id: batchId, language: 'fr', masteryIdsChanged: false, progressTransfers: [], reboundQuizApprovals, changes: [{ kind: 'senses', id: newSense.id, before: oldSense, after: newSense, reason: rationale }, { kind: 'quizItems', id: oldQuestion.id, before: oldQuestion, after: newQuestion, reason: rationale }] });
+const backup = adoptSourceFiles(publicationRoot, files, root => { const candidate = loadPublication(root); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.kind === 'vocabulary' && issue.id === subjectId)) throw new Error('Still blocked'); });
+console.log(JSON.stringify({ batchId, correctedSenses: 1, rewrittenQuestions: 1, reboundQuizApprovals, backup }));

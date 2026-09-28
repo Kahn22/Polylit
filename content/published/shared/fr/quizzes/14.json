@@ -1257,6 +1257,39 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_grande_eau_fr_a_grande_eau_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_grande_eau_a",
+        "senseId": "sns_fr_a_grande_eau"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, elle lave à grande eau les planchers.",
+      "prompt": "Quelle préposition figure dans la locution « à grande eau » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "lave"
+        },
+        {
+          "id": "choice_2",
+          "text": "planchers"
+        },
+        {
+          "id": "choice_3",
+          "text": "grande"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_aise_glad_cigale_fourmi_aise_lem_cigale_fourmi_aise_adjective_ae7b5ae617_51d57d9616_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -2051,6 +2084,44 @@
       "correctChoiceId": "choice_4"
     },
     {
+      "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il pouvait y avoir une minute d’hésitation avant que le conseil ne tranche.",
+      "targetText": "avoir",
+      "targetRange": {
+        "start": 13,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "take away"
+        },
+        {
+          "id": "choice_2",
+          "text": "remember"
+        },
+        {
+          "id": "choice_3",
+          "text": "there to be; to occur"
+        },
+        {
+          "id": "choice_4",
+          "text": "possess"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_joli_intermediate",
       "language": "fr",
       "glossLanguage": "en",
@@ -2435,23 +2506,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "La petite fille a été _____ Rose par ses parents.",
+      "context": "L’autre s’étonnait d’être _____ ainsi familièrement par cette bourgeoise.",
       "choices": [
         {
           "id": "choice_1",
           "text": "appelée"
         },
         {
-          "id": "choice_5",
-          "text": "appelé"
+          "id": "choice_8",
+          "text": "grondée"
         },
         {
-          "id": "choice_6",
-          "text": "appeler"
+          "id": "choice_9",
+          "text": "invitée"
         },
         {
-          "id": "choice_7",
-          "text": "appelant"
+          "id": "choice_10",
+          "text": "renvoyée"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -4267,8 +4338,8 @@
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "corps"
+          "id": "choice_5",
+          "text": "professional corps"
         },
         {
           "id": "choice_2",
@@ -4283,7 +4354,7 @@
           "text": "uniform"
         }
       ],
-      "correctChoiceId": "choice_1"
+      "correctChoiceId": "choice_5"
     },
     {
       "id": "qiz_zola_coupable_coupable_adj_guilty_intermediate",

@@ -1511,6 +1511,114 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_comun_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_comun",
+        "senseId": "sns_es_samaniego_comun"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La costumbre de compartir pan es ___: se practica en todas las casas del pueblo.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "común"
+        },
+        {
+          "id": "choice_2",
+          "text": "rara"
+        },
+        {
+          "id": "choice_3",
+          "text": "secreta"
+        },
+        {
+          "id": "choice_4",
+          "text": "nueva"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_hojas_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_hojas",
+        "senseId": "sns_es_samaniego_hojas"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "En otoño las hojas del árbol cayeron al suelo.",
+      "targetText": "hojas",
+      "targetRange": {
+        "start": 13,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "leaves"
+        },
+        {
+          "id": "choice_2",
+          "text": "roots"
+        },
+        {
+          "id": "choice_3",
+          "text": "fruits"
+        },
+        {
+          "id": "choice_4",
+          "text": "seeds"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_verdes_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_verdes",
+        "senseId": "sns_es_samaniego_verdes"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Pintó las puertas verdes para que tuvieran el color de la hierba.",
+      "targetText": "verdes",
+      "targetRange": {
+        "start": 18,
+        "end": 24
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "green"
+        },
+        {
+          "id": "choice_2",
+          "text": "blue"
+        },
+        {
+          "id": "choice_3",
+          "text": "black"
+        },
+        {
+          "id": "choice_4",
+          "text": "white"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

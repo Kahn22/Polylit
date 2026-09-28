@@ -1,0 +1,35 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { adoptSourceFiles, sharedSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-checkpoint-30-recovery-annotations-2026-09-25';
+const ledgerPath = `editorial-review-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, ledgerPath))) throw new Error('Annotation refresh already applied');
+const before = loadPublication(resolve('content/.publication-previous-VSilPK'));
+const publication = loadPublication();
+const ids = ['wrk_perrault_cendrillon', 'wrk_zola_jaccuse'];
+const subjects = new Map(editorialSubjects(publication).filter(subject => subject.kind === 'annotations' && subject.language === 'fr').map(subject => [subject.id, subject]));
+const stale = new Set(auditEditorialQuality(publication).filter(issue => issue.kind === 'annotations' && issue.language === 'fr').map(issue => issue.id));
+const source = publication.sharedSources.fr;
+const reviews = new Map(source.reviews.map(review => [review.id, review]));
+const changes = ids.map(id => {
+  if (!stale.has(id)) throw new Error(`Expected stale annotation approval: ${id}`);
+  const original = before.textBindings.get(id);
+  const current = publication.textBindings.get(id);
+  if (!original || !current || original.textRevision !== current.textRevision || original.structureRevision !== current.structureRevision || original.annotationRevision === current.annotationRevision) throw new Error(`Unexpected work revision: ${id}`);
+  const subject = subjects.get(id);
+  const reviewId = `annotations:${id}`;
+  const oldReview = reviews.get(reviewId);
+  const rationale = `Rechecked all ${subject.value.units.length} ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.`;
+  const after = approveReview('fr', 'annotations', id, subject.value, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+  reviews.set(reviewId, after);
+  return { subjectId: id, reviewId, outcome: 'approve', rationale, before: oldReview, after, reviewedOccurrences: subject.value.units.length };
+});
+const ledger = { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'annotations', reviewedIdentities: changes.length, approvals: changes.length, holds: 0, progressTransfers: [], reviewMethod: 'exact canonical and structural revision comparison followed by new annotation approval after occurrence mapping', changes };
+const files = new Map(sharedSourceFiles({ ...source, reviews: [...reviews.values()] }));
+files.set(ledgerPath, ledger);
+const backup = adoptSourceFiles(publicationRoot, files, root => { const candidate = loadPublication(root); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); const blocked = auditEditorialQuality(candidate); for (const id of ids) if (blocked.some(issue => issue.kind === 'annotations' && issue.id === id)) throw new Error(`Still blocked: ${id}`); });
+console.log(JSON.stringify({ batchId, workAnnotations: ids.length, backup }));

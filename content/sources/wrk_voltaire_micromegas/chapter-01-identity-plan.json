@@ -1,0 +1,4766 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 1,
+  "status": "offline_import_mapping_unpublished",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "coverageSha256": "583e02bc567e826fcd0943fedbf4255d4779cf50d79c3b443fbf0dccff4f8b27",
+  "reviewEvidence": {
+    "chapter-01-shared-identity-01.json": "76f353650d39eee9560aab219cc384a4c9ceafb4c5f35ad17094b63a288be6de",
+    "chapter-01-shared-lemma-01.json": "42a16bea704a4aa5963330cedfc734c3f6da79637167f6fdce8207f8d9493f59",
+    "chapter-01-shared-lemma-02.json": "9fcf5caf5c6a00fd2abb5340df8db6142ef626ad666b6e83e597c75ed02746f8"
+  },
+  "note": "One source-bound draft-to-sense route for every chapter I draft. The 29 surface additions include present met linking the already published reflexive-begin sense (not the same-form place sense). The historical sky identity still needs first-use approval; this map does not import the seven-chapter work.",
+  "summary": {
+    "new_lemma_and_sense": 145,
+    "add_surface_to_published_sense": 29,
+    "new_sense": 56,
+    "reuse_exact_published_identity": 5,
+    "published_identity_pending_first_use_approval": 1
+  },
+  "sharedNewSenseGroups": {
+    "géomètre:geometry_specialist": [
+      "géomètres_geometry",
+      "geometre_geometry_scholar"
+    ],
+    "planète:celestial_body": [
+      "planete_world",
+      "planetes_worlds"
+    ],
+    "habitant:person_residing": [
+      "habitant_resident",
+      "habitants_residents"
+    ],
+    "étoile:literal_celestial": [
+      "etoiles_stars",
+      "etoile_literal_star"
+    ],
+    "voyager:travel": [
+      "voyager_travel",
+      "voyagent_travel_present"
+    ]
+  },
+  "items": [
+    {
+      "key": "fourmilière_anthill",
+      "form": "fourmilière",
+      "lemma": "fourmilière",
+      "meaning": "anthill",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "05303236991880ce1a622d2152c128030ade5ddd93ac196b028efdfe5eeb0526",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9f549c05613a237e7343c688863df4008002f306bd4546d658783318a24d1799",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "fourmilière:fourmilière_anthill",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "lieues_distance",
+      "form": "lieues",
+      "lemma": "lieue",
+      "meaning": "leagues (historical distance units)",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "4d3bd61cda3521e4caec2c7a9665d588723de18354c284eba31839f9f2cf4fcc",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 3,
+      "questionSha256": "04f74b221267827eb5aced68d40cd7c72af85ab98cdf5f2da7fa022d848b31b3",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "lieue:lieues_distance",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "géomètres_geometry",
+      "form": "géomètres",
+      "lemma": "géomètre",
+      "meaning": "geometers",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "3073bd5cbea9d29cc759fcadc95b491ac3918e9086fe70a791900d564c2a2a4c",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e20dcbfc219c0cf29b6d4c27480191ccf40bdc12d3aada32f8329a621ee2f27c",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "géomètre:geometry_specialist",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "globe_planet",
+      "form": "globe",
+      "lemma": "globe",
+      "meaning": "world; planet",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "288d291ec4bc2bd32d1abdcffcce226ef0c440b4328027c1b1a5466826881604",
+      "workwideUseCount": 23,
+      "chapterOneUseCount": 6,
+      "questionSha256": "e361139a206a368b8084ac807623310ba0a3438f21a936331269d3ce953e1fd6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "globe:globe_planet",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nature_world",
+      "form": "nature",
+      "lemma": "nature",
+      "meaning": "nature; the natural world",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "b3fc0b9d09272f03dc5232cef4f175fdebce251a3bac8ebe7cc69648fecc009c",
+      "workwideUseCount": 11,
+      "chapterOneUseCount": 2,
+      "questionSha256": "c61d62ab2c6b11474ae447a28426769b25c66cec4bdef0a7aeae9163fcc0f563",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "nature:nature_world",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nature_kind",
+      "form": "nature",
+      "lemma": "nature",
+      "meaning": "kind; character",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "fa196179e8ad473726b4b9b0d1f0be33389a5a20b1eb51b675ac07205de0bed0",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e5f0ad5b91ddf2baa08cdb582761bebf01dd5a638d5b46e995c2939f1eda0f6d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "nature:nature_kind",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sirien_inhabitant",
+      "form": "sirien",
+      "lemma": "Sirien",
+      "meaning": "inhabitant of Sirius",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "0abc59a0fc4ba7d2071e79698f912d14feca608ddaaf9d6edeee459689df0db4",
+      "workwideUseCount": 24,
+      "chapterOneUseCount": 2,
+      "questionSha256": "538ee5b9417b36718f99b51fa0af434b926e9c2fa361b0a230926b5122bc3dfe",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "Sirien:sirien_inhabitant",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "muphti_mufti",
+      "form": "muphti",
+      "lemma": "muphti",
+      "meaning": "mufti",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "8cc4a49f3e1047d47d505bb23ca0c239ad3b0e18cb06a4d838969aa448109cf5",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 3,
+      "questionSha256": "12e94e8f74deeffd90f4798ff38ebd4849718a33feae03215056969995b724ed",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "muphti:muphti_mufti",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "gravitation_attraction",
+      "form": "gravitation",
+      "lemma": "gravitation",
+      "meaning": "gravitation; gravity",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "53a53d2c4862885b28d9961d1d838a16446dc427a34c4fa8d5ef6e005ae5e8bc",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2a0e25e0823bd036e403896ec23339306409ffd62556b0632db39c1966c3d0ae",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "gravitation:gravitation_attraction",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "comète_astronomy",
+      "form": "comète",
+      "lemma": "comète",
+      "meaning": "comet",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "6975d45b712a31c726303a7702b0c93e3de6a3535600c48b647613fc2c1f8c6f",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1c74a3b15c5c97d0e9bfa3058c1c985d78929e73eb661e5620af7c0aacd7d33e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "comète:comète_astronomy",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "circonférence_perimeter",
+      "form": "circonférence",
+      "lemma": "circonférence",
+      "meaning": "circumference",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "4551053951394cc5b3efcf6a6db08ad7e586078b85e782ac78ecc18fcc03154b",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7ed94ffbcc450ec0177eb029a8965294e7d26460768ce12b82216cb0ecbd0eca",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "circonférence:circonférence_perimeter",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "diamètre_width",
+      "form": "diamètre",
+      "lemma": "diamètre",
+      "meaning": "diameter",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "5d7c63f73c23932038c4878ae83db0fc61286074fb6940dad772ad768ece16f1",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2951b2ba24dce6a14fb323238656edfd24864e0de7aceac0d076d99f4aabbbad",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "diamètre:diamètre_width",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "microscopes_optical",
+      "form": "microscopes",
+      "lemma": "microscope",
+      "meaning": "microscopes",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "91f9e74488986b61723808078851907709b2de16c855d4c2e0a41b2339558f00",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "45f5945e57b80622efed8763c077abb7ae1598fa47548c452f966100ae6990c5",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "microscope:microscopes_optical",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "heresie_religious",
+      "form": "hérésie",
+      "lemma": "hérésie",
+      "meaning": "heresy",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "8965c2cc757586419f8c0550a0e158b841197209c3bcf34a4718fd078728c011",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6a9c94cc2a7b5045dd56e789b3e33bd165c58a5e619dcda48e32d4df0ac3090a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "hérésie:heresie_religious",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "jurisconsultes_legal",
+      "form": "jurisconsultes",
+      "lemma": "jurisconsulte",
+      "meaning": "legal scholars; jurists",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "94fc3bcae9631e820acf58564473ec8bdbddaa92dae124cbfe8ccc496662feeb",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b0d6dd847525f25b77d6c13aa676206cb9e7c466d9c55d41bb4edf4fb2737849",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "jurisconsulte:jurisconsultes_legal",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "berline_carriage",
+      "form": "berline",
+      "lemma": "berline",
+      "meaning": "carriage; coach",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "e4e3c4c8e002ffed36292d51a413faea4fb615319f5f1a2bd6404a8030587ab5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "25daff638bb48bec113509fd97f71757badefd3d5e9666ccd18bc4102a5e1397",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "berline:berline_carriage",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "toises_historical_length",
+      "form": "toises",
+      "lemma": "toise",
+      "meaning": "toises (historical length units)",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "0e40746297f0f4337f8a043f2c4b621885747af863241cc71f2319bcf3837d23",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 1,
+      "questionSha256": "38f16098bf1fd87b915d15759250fbfc171f45aec8369863dee6600ee5fdad19",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "toise:toises_historical_length",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "secretaire_academy_official",
+      "form": "secrétaire",
+      "lemma": "secrétaire",
+      "meaning": "secretary; official who records and conducts an academy’s business",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "6c1fddd9354331dedf6326f239b1c93d2cb7a431e808f75f75c1649a32bbebed",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 2,
+      "questionSha256": "008bbf8836501346a27f58798f8d0e9acfae8a7c769fc298cfd771dcf6468217",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "secrétaire:secretaire_academy_official",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sculpteurs_artists",
+      "form": "sculpteurs",
+      "lemma": "sculpteur",
+      "meaning": "sculptors",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "bf227bcac34761b17b61b562e9b057b5b29c3abff6b32b29bea44cf40b351f30",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "20f10769d9971e797b223a3d201b0af7ba9b4752bf9a4f9ce4bac1f5e63c9fc8",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "sculpteur:sculpteurs_artists",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "voyageur_traveler",
+      "form": "voyageur",
+      "lemma": "voyageur",
+      "meaning": "traveler",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "0a87bb6a11e7c6ca3e85898dcc9dc068a324f1d5d4edc153f8f50cc4151da0ef",
+      "workwideUseCount": 5,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1b5ffdf6a1ae05f850db40c277f36f42779d8096080acf20689b6a61a3d6beec",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "voyageur:voyageur_traveler",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "planete_world",
+      "form": "planète",
+      "lemma": "planète",
+      "meaning": "planet",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "ee7f1a8654fed9ff92cf0bb0deeda0f9e94a1275f15e5085477b56b83186ed45",
+      "workwideUseCount": 5,
+      "chapterOneUseCount": 3,
+      "questionSha256": "70bc6be94a8fe1e6a8c6d98dbcb27a9b7587d2b98e8fdc1b3b1608a684fa7d7d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "planète:celestial_body",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "livre_book",
+      "form": "livre",
+      "lemma": "livre",
+      "meaning": "book",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "5883ff016c923a44c82221f6855d58c04661bc91ebdae904f5ba9338e115e81e",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 3,
+      "questionSha256": "e13fa56cf33dc89b567f06eeafa31ec2843d05238fd442ae94ccd769e3f14a6e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_parure_livre_assemblage_de_feuilles_manuscrites_ou_imprimees_destinees_a_etre_lues_a87a577f33",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "hauteur_height",
+      "form": "hauteur",
+      "lemma": "hauteur",
+      "meaning": "height",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "21762409821927a38bf1ffface203cc5bc2b16fd403b032e244b1bebc417ff6d",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 2,
+      "questionSha256": "1a4e07d7ecc4be009e0dc99dde7ff39baa2895b3427ba0f46c17e310afb287ec",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "hauteur:hauteur_height",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "habitant_resident",
+      "form": "habitant",
+      "lemma": "habitant",
+      "meaning": "inhabitant; resident",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "faddafa4176b75943ae8d5348e35fd6ef9fee7686bc54fbe97ce6dbefa83dabe",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "c9935ddde4acaff5284d3029fee2a0fd1d3b948ff21499e1c8105e3ade8752e7",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "habitant:person_residing",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etres_beings",
+      "form": "êtres",
+      "lemma": "être",
+      "meaning": "beings; entities",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "f19c6ee5b6d64118a4ee622e105810a3f550eaee5db89799b757ee907d2ee808",
+      "workwideUseCount": 10,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "être:etres_beings",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "insectes_insects",
+      "form": "insectes",
+      "lemma": "insecte",
+      "meaning": "insects",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "60cd8014ea66cd1f5de362f7bfa1276507cd925a7dc402317d9dfe698639b76e",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1c718395fe0353fae3aae20d7c99860c2bebd1518ae5582ac568f8eb11c7f969",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "insecte:insectes_insects",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etoiles_stars",
+      "form": "étoiles",
+      "lemma": "étoile",
+      "meaning": "stars",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "383470e6b3a0db6b405f4e79ee91e2051c6f348b0118ce78ab4ac1e2195e28a9",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "862ea2bfc19b132e20c9a0b79921e936b21bb31c3a02b5b7469cd3336379eb81",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "étoile:literal_celestial",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "voyage_journey",
+      "form": "voyage",
+      "lemma": "voyage",
+      "meaning": "journey; travel",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "ee1644927e4918fc50cdadcb4f20cf4a15d63b0c6a1a282683b5e3e88e1b0f0e",
+      "workwideUseCount": 5,
+      "chapterOneUseCount": 1,
+      "questionSha256": "76a7260e2aff055a581760a1f84dd7e94f0aa6e23619fd16fc295f7a60422d2a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "voyage:voyage_journey",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "petitesse_smallness",
+      "form": "petitesse",
+      "lemma": "petitesse",
+      "meaning": "smallness",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "eff67f24029fff50e9dbc9e743f0ed91bb0fe58a95280b7dbb7efeb94fa33037",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "75a73c857c4c65f1db6619d2b05dbf293e3f5bfc3cf0d0cb4a1db87410269f14",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "petitesse:petitesse_smallness",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "habitants_residents",
+      "form": "habitants",
+      "lemma": "habitant",
+      "meaning": "inhabitants; residents",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "49e6b03ea98f44095120ee1038d1d71e513ce369633f536d4dcf93fd061a6c19",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2f5a0aa80d9771f8f75770d1cc4a81a0824f778d11d73e3b6cd54a4722218e29",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "habitant:person_residing",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "cinquante_fifty",
+      "form": "cinquante",
+      "lemma": "cinquante",
+      "meaning": "fifty",
+      "partOfSpeech": "numeral invariable",
+      "sourceOccurrencesSha256": "7db8a904110933f572e8c2503071770c7259b3a42b1652a8a844ae0082011b86",
+      "workwideUseCount": 6,
+      "chapterOneUseCount": 4,
+      "questionSha256": "4746bb75446851f43f0b3ad2b97643908fb52c4f69ae4d0fc37730419ac93534",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "cinquante:cinquante_fifty",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "huit_eight",
+      "form": "huit",
+      "lemma": "huit",
+      "meaning": "eight",
+      "partOfSpeech": "numeral invariable",
+      "sourceOccurrencesSha256": "f7cf49448f9d779d0d20264a08ef89e1ef5091f564fc0f02c45546b81bfab240",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 3,
+      "questionSha256": "a72d52d5d6b5cdf8fdb7d9c6b1be3d0bc5834204d766fd05632bd0cadc103e7e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "huit:huit_eight",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "citoyens_inhabitants",
+      "form": "citoyens",
+      "lemma": "citoyen",
+      "meaning": "citizens; members of a community",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "eee98b2648d872a00ef9e8c2dc7d90b27594a8cac6bd7267740dc61f8191c8b4",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "070b2a0abc9e8a63bad362469e864890fbd4688ca148dc260ae7d82e68e0c042",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "citoyen:citoyens_inhabitants",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "propositions_mathematical",
+      "form": "propositions",
+      "lemma": "proposition",
+      "meaning": "mathematical propositions; theorems",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "3b7879999298ffee20fb56f9f20e745d200f22d68e5eb8cbc0839a1d10c5d29a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7aee21c92f56fe9ed246f83e9895c7d8bd39519003a62307eed180a911ffdce5",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "proposition:propositions_mathematical",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "propositions_assertions",
+      "form": "propositions",
+      "lemma": "proposition",
+      "meaning": "assertions; claims",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "05508d0d0f61a2c663eeafc010e51cbdfa62c1b468d900afa4aad6936d152f3c",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b73d9eaf4027fcd9c269a81093aea0e22d8c97879784106f4799895db108fda6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "proposition:propositions_assertions",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tiers_third",
+      "form": "tiers",
+      "lemma": "tiers",
+      "meaning": "one third",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "f0175650c8f87ae30259d6797701a0185e685961f943262efd96cbea244a9ccd",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "755770aa67b3f3ea990e602ab89ec7c47d74cf1395127c78985f7b0439987e4d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "tiers:tiers_third",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "fraction_part",
+      "form": "fraction",
+      "lemma": "fraction",
+      "meaning": "fraction; part of a whole",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "863fe61f3ab97a1c2b11470184626a4b86d6caea7026a90e2df92eb23f5a6124",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6e849f86d92e28b810994e36e9555fce67dc00b5f6ef816265f94989ecf7c568",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "fraction:fraction_part",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "metaphysicien_philosopher",
+      "form": "métaphysicien",
+      "lemma": "métaphysicien",
+      "meaning": "metaphysician; philosopher studying the nature of reality",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "cc72822ff25c5299c32f4ec9be482efed2a255aebc03df8e8fd80371b1fec93f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "836c013a0d9e333f2d99d3d99bb842d62f228741431899493f9a6e95319cf550",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "métaphysicien:metaphysicien_philosopher",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tracasseries_hassles",
+      "form": "tracasseries",
+      "lemma": "tracasserie",
+      "meaning": "petty hassles; vexations",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "abe129f7971769f33fc9918b56757d0a8f24b753e8592261b76727e997ebced8",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6b2bd43bc02c0319e51ed02083627b8b23874589445d3faf7ec23bf3c4c4cf42",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "tracasserie:tracasseries_hassles",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "peintres_painters",
+      "form": "peintres",
+      "lemma": "peintre",
+      "meaning": "painters; visual artists",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "3068bc2a3c5861008d81b6656d302efb58dbb7c33185d9a5aa76bdf454ca45a1",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "5db8eef46b0180068ebf69bdd4ed38120a8db20e7c379504a0743216268fb930",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "peintre:peintres_painters",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sur_le_champ_immediately",
+      "form": "sur-le-champ",
+      "lemma": "sur-le-champ",
+      "meaning": "immediately; on the spot",
+      "partOfSpeech": "adverb invariable",
+      "sourceOccurrencesSha256": "ac0ae9862ede1b01d8d424ecf929cf60638f5859ab98ebfea10670f56ddfc16c",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "cebd284df5fe7977d96887e746dcd4205b66e0a35cb484db77c6db789a37b323",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "sur-le-champ:sur_le_champ_immediately",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "rayon_lightbeam",
+      "form": "rayon",
+      "lemma": "rayon",
+      "meaning": "ray; beam of light",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "15ab6300803d272c04da018b2311f2232c5f5b43ed3cdcdad2c2eb888ae0600c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "831248c72a19c0b745f7e9cca660c722b6f72e12d19079ea728b9ce8e8125d27",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "rayon:rayon_lightbeam",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "lois_physical_laws",
+      "form": "lois",
+      "lemma": "loi",
+      "meaning": "physical laws; principles",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "247b59593ab6c82ddf9a1c62b4983655664ee5fd4f0c830d41a91ff7246db80f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8e697191be08113038bcb5be911f9137408831a68864fa778e5cd651a19f7104",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "loi:lois_physical_laws",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "forces_physical",
+      "form": "forces",
+      "lemma": "force",
+      "meaning": "physical forces",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "20d4d82a3465f6f0f53c9a9dafe5218c72b8a1dbac2e6fc97e3a1b62cbfd838b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "71dfb7751cca28c71f327cdb583e084753cc932824a65b70d480d445e12d0f2f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_force_power",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "attractives_attracting",
+      "form": "attractives",
+      "lemma": "attractif",
+      "meaning": "attractive; drawing together",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "454eb001099b7703df6927b7f5910818d8fbf06aef2e6d90d981780b1e766086",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2193e4ef079856929efd2ec5bd7f89df1ce282f9c3c680ca70f1f874cd019169",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "attractif:attractives_attracting",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "repulsives_repelling",
+      "form": "répulsives",
+      "lemma": "répulsif",
+      "meaning": "repulsive; pushing apart",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "1d6854f93f77ac6fdcb332d0cb9270ba55f13dbae476321ef2c6504e973cfbe4",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f9739a15b4f670c2b71c651e8b83fd836473d3c1042c50eb3fa159addad536eb",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "répulsif:repulsives_repelling",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "inventions_new_creations",
+      "form": "inventions",
+      "lemma": "invention",
+      "meaning": "inventions; newly created devices or ideas",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "2cfa45d30f37e9bbd57e3ff193a1b672452f89dd4663908115105b6882978f10",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "c7c6057bfcff44225fb7efc8674e788bb62c9f58bdedd84d56a51044c279cf22",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "invention:inventions_new_creations",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "calculs_computations",
+      "form": "calculs",
+      "lemma": "calcul",
+      "meaning": "calculations; computations",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "e63f3455b8f53fa3e97d8a3eb79f1dcbf50b6e0e1caca0cb491761263577089c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "23f4ef5e44c19d5bc13561540b75a9f6164b75553ca32eeb02f5a6c848b5b173",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "calcul:calculs_computations",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "academie_scholarly",
+      "form": "académie",
+      "lemma": "académie",
+      "meaning": "academy; scholarly institution",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "99714212592ccdbb2c47197bbd32655ae12616d85f14683834957527af77db6d",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f180b8162fa46740dfb9dd83526f2d7cffccec432705148adc6c495f936a88a5",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "académie:academie_scholarly",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "conversation_dialogue",
+      "form": "conversation",
+      "lemma": "conversation",
+      "meaning": "conversation; spoken exchange",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "41f7efaa472f63a5551eed78bdaf720aea6b6baae40a892668a63416acc0016b",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a8f55e74df6c0763ca2374707a7f6a6b2b3ddd71a1a2632df542b783f8af3667",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "conversation:conversation_dialogue",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "dissequa_anatomical",
+      "form": "disséqua",
+      "lemma": "disséquer",
+      "meaning": "dissected; cut open for anatomical study",
+      "partOfSpeech": "verb past historic third singular",
+      "sourceOccurrencesSha256": "8b53cd9b24b6c36368228352b669138dc38ff93638734d6c2eb7e44425ae44a9",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "af7eec3f58199cb9cf72632dc8e8ceec99c56612cb3e54f15b47ae626b9af74e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "disséquer:dissequa_anatomical",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "derobent_escape_observation",
+      "form": "dérobent",
+      "lemma": "se dérober",
+      "meaning": "elude; escape observation",
+      "partOfSpeech": "verb pronominal present third plural",
+      "sourceOccurrencesSha256": "27635eea398cb84ef30c7600020afaa3dd7ac6aae925837923cdd7ccb0eb06d3",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "c5d7359b64b191f6c8b67619e2bbd5c723e87f25c504b041ee9d8a16d0077a68",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "se dérober:derobent_escape_observation",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vetillard_petifogging",
+      "form": "vétillard",
+      "lemma": "vétillard",
+      "meaning": "petty and fault-finding over trifles",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "475c3d47d986cd388cc140553b1312061a2b654185d7afc0ba2a6f6cec9cd29d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8d4aec5f6e98a0b63e688e5b46a945d154821455ce890c7a918bffb1996e9c71",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "vétillard:vetillard_petifogging",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "suspectes_dubious",
+      "form": "suspectes",
+      "lemma": "suspect",
+      "meaning": "suspect; viewed with mistrust",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "cff03194e1f4c2e2fca0a1138f2f7bad83f1e55e0a5d8e0a23f026d14376ac5c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b9feba4d00d99f68f47f956c3e0144592aa9a52e86e613943cc6b62963f3ec8f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "suspect:suspectes_dubious",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "malsonnantes_doctrinal_offense",
+      "form": "malsonnantes",
+      "lemma": "malsonnant",
+      "meaning": "offensive to accepted religious doctrine",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "e5d9e353178943484a9914219bef5bc2fb0983af2996c6dab5859bca8f94a1f2",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "af559fb88be78d4f94e767fe5122e1f22d0fd1ad941335f881f5f35389bfb1d7",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "malsonnant:malsonnantes_doctrinal_offense",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "temeraires_doctrinal_reckless",
+      "form": "téméraires",
+      "lemma": "téméraire",
+      "meaning": "rashly bold in doctrine",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "42c51642440a0f895fbfe449c9ebf221ba5f60c006a5d3ada9032bb0ee9960a7",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "948baae70ac3069f4a01e8fc193d7c4b24bb8fe5b7e9961d2883c9343a8b86ff",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "téméraire:temeraires_doctrinal_reckless",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "heretiques_against_doctrine",
+      "form": "hérétiques",
+      "lemma": "hérétique",
+      "meaning": "heretical; judged contrary to religious doctrine",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "cd2c00fbb2132596434d41469f554b9e52c32f47f4779c60950020c344a2c3a0",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "374b4519abeb00858d484bfdb3a482ada56556da3447673f01d7810250149aef",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "hérétique:heretiques_against_doctrine",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "puces_fleas",
+      "form": "puces",
+      "lemma": "puce",
+      "meaning": "fleas; small jumping insects",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "15d27ffda687407eb65d6cc76dab33c5729c2e37b5a5632542310dd1454f8aad",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e92145cf6dfb5d60fe9f4b6f7b2e084ddbd1501edb35b7514f7be055fcfcb166",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "puce:puces_fleas",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "colimacons_snails",
+      "form": "colimaçons",
+      "lemma": "colimaçon",
+      "meaning": "snails",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "dfd487efa307ea38dbe5de9e60765922b7cc1ca2b787a80494045b1e67cee8bb",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "430e97005f7518321e819ebf00eb4b45f9b2b3b5e4946016308c84eb0115b540",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "colimaçon:colimacons_snails",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "condamner_official_censure",
+      "form": "condamner",
+      "lemma": "condamner",
+      "meaning": "officially condemn or censure a work",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "093bc2babfe0c5f974026b7951d76f3b817715d91d48ff95f6eeaf7975462fa5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ff05e630ba994e2eeeef34ed09baa6a4c6d734aab4090d3b24ed637eeb61f105",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "condamner:condamner_official_censure",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "composa_wrote_book",
+      "form": "composa",
+      "lemma": "composer",
+      "meaning": "composed; wrote a book",
+      "partOfSpeech": "verb past historic third singular",
+      "sourceOccurrencesSha256": "b1031865df0751b69667478ed508f64159b6ecbc918336c2c1456cd454cff5ba",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "19ed343aeb7280c36fb122a40706a3ec46096495c622c6e7ce4d4688142fed40",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "composer:composa_wrote_book",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "affaires_troubles",
+      "form": "affaires",
+      "lemma": "affaire",
+      "meaning": "troubles; legal difficulties",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "72ffbdc45fb32cd0004fa36858201fc2fcd1692717055084db063b798c927194",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "87dfa3f806315d4a214808f52a054bc7b4935a76b27f6e88da43d13a21b6ebea",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "affaire:affaires_troubles",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "poursuivit_prosecuted",
+      "form": "poursuivit",
+      "lemma": "poursuivre",
+      "meaning": "prosecuted; pursued legal action against",
+      "partOfSpeech": "verb past historic third singular",
+      "sourceOccurrencesSha256": "433c247b0cee4c816e881a354b01b122a5a03bc9b2e9ce77bf8e28d9d70d6c8b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e842f5b5b69576a6d6808e0ec31b5c7d310bba9cf8b06a781e7a8fe440df0270",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "poursuivre:poursuivit_prosecuted",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "defendit_self_in_case",
+      "form": "défendit",
+      "lemma": "se défendre",
+      "meaning": "defended himself against an accusation",
+      "partOfSpeech": "verb pronominal past historic third singular",
+      "sourceOccurrencesSha256": "b686051cbdf4a104cfb8957f689b347ba28d77d2323ba70be70006ef7cfe6b2a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "64c3bf80ec80f10e77a0fc707f6427bf3cf4c8e97c825a5e1e8c674c51da0f14",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "se défendre:defendit_self_in_case",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "afflige_distressed",
+      "form": "affligé",
+      "lemma": "affliger",
+      "meaning": "distressed; saddened",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "c58687fb33d228c78cd8186aab8e5986b50b6b31f20d7fa0fc2e6559bd87c5de",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d5a4498afdb85fd149dd19ec3bd92cc5482eb8fd25ccba652457af15391571bc",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "affliger:afflige_distressed",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "banni_exiled",
+      "form": "banni",
+      "lemma": "bannir",
+      "meaning": "banished; expelled from a court or place",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "f16fb815927e42167145087fac2d17b22ccd203c0c55de8f48adb5d4e15cf774",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "dbb0e33314c011f9e30ebf04f6c1b2cc6957956e8bfc71f819f9d9f1b5d105ae",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "bannir:banni_exiled",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "equipages_travel_conveyances",
+      "form": "équipages",
+      "lemma": "équipage",
+      "meaning": "means of transport; traveling conveyances",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "47ee4f3583b200d660068b99d09cdbe75cd82e0a919f187c073781f2c9927613",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8c6568524c9ebb0b0d2c7beae129163ff2724e1386cbadebe2868f7894200c71",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "équipage:equipages_travel_conveyances",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "usages_customs",
+      "form": "usages",
+      "lemma": "usage",
+      "meaning": "customs; habitual ways",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "4498029729963ba6e9ba107c1131f687e8532ea3b1e782c6912cd403e260c8f3",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "150320834e2abb8967787aa2b327e2bd58c6f73284a616107485c314a713e473",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "usage:usages_customs",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "petitesses_petty_behavior",
+      "form": "petitesses",
+      "lemma": "petitesse",
+      "meaning": "pettiness; petty actions",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "0b11845692008e9cee42a8144d1334f780cc58460d9c8091f5cc920e75622d16",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "eff60a775f9217f8e6dd3409d516ce3c13eaee87de7025c106dd76510ee6fb74",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "petitesse:petitesses_petty_behavior",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ordinaires_usual",
+      "form": "ordinaires",
+      "lemma": "ordinaire",
+      "meaning": "usual; ordinary",
+      "partOfSpeech": "adjective plural",
+      "sourceOccurrencesSha256": "b92f8359e26c589130f99d4074be25f7dd4a924f8e56972c6915e6ecac736619",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "fc8bc841dc0419ab0955c0331f42aab9157169e0ac0f2f548d88ea1fbda99eed",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_parure_ordinaire_commun_habituel_a8bfdb1e4d",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "planetes_worlds",
+      "form": "planètes",
+      "lemma": "planète",
+      "meaning": "planets; worlds orbiting a star",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "20c9ea96ed40162acfb89131a7542808f188094508d1bdcbbecf534a487357ba",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d29e4bf3d9bf107b403a308eaedccf89ce8296fdd68ce85a534b489c1e6389b6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "planète:celestial_body",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tournent_orbit",
+      "form": "tournent",
+      "lemma": "tourner",
+      "meaning": "revolve; orbit around",
+      "partOfSpeech": "verb present third plural",
+      "sourceOccurrencesSha256": "29e044f3388ebb2801d9c7afa08dd8dd7cd6eba8467136427fc8ab05c8bce297",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "90218517abcc194d5cc77567516c8f076b6d06dbd24bcd9000c7e8e60d32ec85",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "tourner:tournent_orbit",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nommee_called",
+      "form": "nommée",
+      "lemma": "nommer",
+      "meaning": "named; called",
+      "partOfSpeech": "past participle feminine singular",
+      "sourceOccurrencesSha256": "4fdb9339fbbdf2eb027c5e884cf549c1418770b69e68e781c38cbfb4b019de6d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "002934251dd3cf4f844d2444ba7f7b3e093db67a10c44b649f3c13705017cc7f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_cendrillon_nommer_attribuer_imposer_un_nom_a_une_personne_une_chose_ou_une_collectivite_6380ea9273",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "connaitre_person",
+      "form": "connaître",
+      "lemma": "connaître",
+      "meaning": "to know; be acquainted with a person",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "fca8f0e3c9739040d5918e0f5babb8850f55b709ef92e2e91e100ca4273912bf",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8a12d7ae43a17791ce06eab21c0ccc173187903fc5fd0762e60fea98bb060fc7",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_cendrillon_connaitre_faire_ou_avoir_fait_l_experience_permettant_une_representation_mentale_de_quelque_chose_ou_quelqu_un_avoir_l_idee_la_notion_d_une_personne_ou_d_une_chose_832d4989ec",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "convient_suits",
+      "form": "convient",
+      "lemma": "convenir",
+      "meaning": "suits; is appropriate for",
+      "partOfSpeech": "verb present third singular",
+      "sourceOccurrencesSha256": "40f2fa8ca09a1e5bf3ff5ac3098706a43b6107dfb5ac5d5f3438240f42b44705",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "381a418801f0d931ec9573832f2e26e43f23ec20ca725fd0daa79a672a024fd4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "convenir:convient_suits",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "geometriques_measured_paces",
+      "form": "géométriques",
+      "lemma": "géométrique",
+      "meaning": "geometrical; of the fixed historical five-foot pace",
+      "partOfSpeech": "adjective masculine plural",
+      "sourceOccurrencesSha256": "0633ccfc45de4735b451eb8169bfc45be2211ddae453ea9dd91fb1c3a5e6be81",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8382dc57025d9b73fa9acc55aebfead6ec3369ecce8685e353d3ce8cc0605f53",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "géométrique:geometriques_measured_paces",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "chacun_each",
+      "form": "chacun",
+      "lemma": "chacun",
+      "meaning": "each one",
+      "partOfSpeech": "indefinite pronoun masculine singular",
+      "sourceOccurrencesSha256": "8f79186a6a306adc2b2110cb320e12cd9433bd78f5b78aaa5ef38db159150e59",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ad83056b4fe6440b8fc061d8e85320ed4de1707d9d6870c055241258ba33c77f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "chacun:chacun_each",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "trouveront_deduce",
+      "form": "trouveront",
+      "lemma": "trouver",
+      "meaning": "will determine; deduce by calculation",
+      "partOfSpeech": "verb future third plural",
+      "sourceOccurrencesSha256": "f8252e1af1e20c1f180996631f6a839c71c5e48ccfdbc537d68096a1e89fc958",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "3aa4135dab0b028c62fdf91ee6953f11a93fb6b3c29d77cf2bf18754539103ba",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_trouver_discover",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "produit_origin",
+      "form": "produit",
+      "lemma": "produire",
+      "meaning": "gave rise to; brought into being",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "b58d4cf5b818076a8137333a8e489036971bac138396009f5ca37fa7f9aa90e9",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e32a674e0ea64939bf21540efef22506d3c38e2276dfc29b41402b668ceb3701",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "produire:produit_origin",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "millions_number",
+      "form": "millions",
+      "lemma": "million",
+      "meaning": "millions; groups of one million",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "8de1c4f149da4d2be64c13f3da94f704ec6c630443ef33a9c91ecd4cb3fbb54a",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1701a6b6b40b69aaa05ff5ab80db55683f2dad135dc076404b3c91023321a3a2",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "million:millions_number",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "dernier_most_recent",
+      "form": "dernier",
+      "lemma": "dernier",
+      "meaning": "last; most recent",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "2c5675f73e50140cebe06ff6511a889895d775d302b6258496a910657e68601a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9dba1ee6c51c53e8930d01d5c67be7aa77dbfad2104dcb2463fa0536b8ce4a34",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "dernier:dernier_most_recent",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "appelait_was_named",
+      "form": "appelait",
+      "lemma": "appeler",
+      "meaning": "was called; bore the name",
+      "partOfSpeech": "pronominal verb imperfect third singular",
+      "sourceOccurrencesSha256": "bb0addeb3287e6c8c93945e1103f5f321d467264dd60f5adfe785c14d1e8cdbc",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6e167965b344fac9cdebadd53b00802724204d82524ea7fc9636337a0e5d521a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_appeler_name",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "utiles_helpful",
+      "form": "utiles",
+      "lemma": "utile",
+      "meaning": "useful; of help",
+      "partOfSpeech": "adjective plural",
+      "sourceOccurrencesSha256": "f2a0d36543919c3f8060bc1d9f1ef305cbe39946c6b85cc33c26e3f078ba956f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d263349bb3dda4eba16a5af2376519f1aa7e6c5e22f1947e0c430704b8f5b397",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "utile:utiles_helpful",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "public_people",
+      "form": "public",
+      "lemma": "public",
+      "meaning": "the public; people in general",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "e9f1961611b272b8a3fc6c03064965331bdde6f6158d279c07b628e7e781c78f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "10652ccf1ce030800639e63c2b5dc4c79bdb64d948406d9f73f7d9f99b77a9cb",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "public:public_people",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "prendront_take_up",
+      "form": "prendront",
+      "lemma": "prendre",
+      "meaning": "will take up; will pick up",
+      "partOfSpeech": "verb future third plural",
+      "sourceOccurrencesSha256": "d909bd530e412be591de718b917d0de259346baa47ca2ffb3316341d8355c80d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8f003737e29eed94095d31b15cbd6c3c0c7d9af2ce9e6e9746c2a97a0e1063ca",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_parure_prendre_saisir_mettre_en_sa_main_d76a9c8f6e",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "plume_writing_quill",
+      "form": "plume",
+      "lemma": "plume",
+      "meaning": "pen; writing quill",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "0a62d61dda197ebef9d4d4e8823ca08f6f65cddebcfa5d88f58820e18d1b4562",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f3b1e8e71236ac57c2d4a90b2f076e9d31ccec86dde31eae95ec37b9dc35ebe7",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "plume:plume_writing_quill",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "dis_say",
+      "form": "dis",
+      "lemma": "dire",
+      "meaning": "I say",
+      "partOfSpeech": "verb present first singular",
+      "sourceOccurrencesSha256": "c66e03dbbcafba851bcee6d1c8a1bd31b9d7044c35b3dfe502cda727654ec453",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1d6fb6ebc8ab6644975f41935ec69ecd6d5d72ee9081cc2d04ed041057527431",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_ready",
+      "route": "reuse_exact_published_identity",
+      "targetIdentity": "srf_dis:sns_dire_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "absolument_necessarily",
+      "form": "absolument",
+      "lemma": "absolument",
+      "meaning": "absolutely; necessarily",
+      "partOfSpeech": "adverb invariable",
+      "sourceOccurrencesSha256": "8be6d2fa4c1d4775489a99587a5ed69066bc44473918eddb36758f982fe6e80d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "850c254769f18f05d4a595e8b9f173f2f92ce2d31eed6c0e72ca6a0c1ea0f29f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "absolument:absolument_necessarily",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "simple_uncomplicated",
+      "form": "simple",
+      "lemma": "simple",
+      "meaning": "simple; uncomplicated",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "71743207c1bbddf7ceab8b4539ccae69f3e568f04700e3e52b5381f1d9278f8c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "56cf15b1e0956fc26b053a1039ca6095a31666c580386657ed92e15c559fe943",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_ready",
+      "route": "reuse_exact_published_identity",
+      "targetIdentity": "srf_zola_simple_simple:sns_zola_simple_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ordinaire_common",
+      "form": "ordinaire",
+      "lemma": "ordinaire",
+      "meaning": "ordinary; usual",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "27fa0f9aa29013dbed02d2d4e76d1e575c352b624a7b46cd68d95775fdd16f9b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "153fbc7f15e441fbc4b3af07b87553df38fdf9662d193109ff3149fccdbaac7e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_ready",
+      "route": "reuse_exact_published_identity",
+      "targetIdentity": "srf_parure_ordinaire_lem_parure_ordinaire_adjective_35198f7a8a_f631af53c8:sns_parure_ordinaire_commun_habituel_a8bfdb1e4d",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etats_territories",
+      "form": "états",
+      "lemma": "état",
+      "meaning": "states; territories governed by rulers",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "207cd912ead5430c3f448fa6c7c8aa842b5afe31198afc04282320e867053da5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2192f11b1bcf975dd498b5782e29a0afa65465736f491c1e073b10a0fddbd25d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "état:etats_territories",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "souverains_rulers",
+      "form": "souverains",
+      "lemma": "souverain",
+      "meaning": "rulers; sovereigns",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "416d03a4802f6cbedd3b5eda4f65dadf126a3a9867c96705ef1b74894987e1e7",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "11a991915443218dc012540054dadb2fa9bc4e5f7c0d5188a2d6d0f9ea62f659",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "souverain:souverains_rulers",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "compares_placed_side_by_side",
+      "form": "comparés",
+      "lemma": "comparer",
+      "meaning": "compared; considered side by side",
+      "partOfSpeech": "past participle masculine plural",
+      "sourceOccurrencesSha256": "cfe79695101787e931a19322eec8b3869dba6965a842f24d2ca576fb85d5b368",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a3bcbbb1f01ba511508cf2acc9386b8b8a362060204fe6c1d2bdf7ba34fc81bc",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "comparer:compares_placed_side_by_side",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "empire_large_realm",
+      "form": "empire",
+      "lemma": "empire",
+      "meaning": "empire; vast state under one ruler",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "53e4bc7a1d8ed6d2801c8a0c575f1386c8937c54026b9f6a38b9f89a2ffd78e9",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d7ee52191db5c331a35a73c7252d24c63b114feac8c2db2cabe590728dcb2463",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "empire:empire_large_realm",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "image_representation",
+      "form": "image",
+      "lemma": "image",
+      "meaning": "image; representation or illustration",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "ccd760717cc7f4c4495028f078997aa06277883450b64c602771f41a499d6788",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "44e47ca9601683afc8322106e631881246f404ef2de0ae50680805915482bb43",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "image:image_representation",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "prodigieuses_immense",
+      "form": "prodigieuses",
+      "lemma": "prodigieux",
+      "meaning": "astonishingly large; extraordinary",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "bc8165444e81606b6dad8c66aaa8fc639d3d7f73ccfbfc5c07536388b755cd13",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "5e62a796e2c5c6813eae025dbeeba087cfa395400f8ca520d8b603d71062c385",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_prodigieux_extraordinary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ceinture_waist_belt",
+      "form": "ceinture",
+      "lemma": "ceinture",
+      "meaning": "belt; object worn around the waist",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "928dd6f68d0869dcac7cfba697fe5445baa2c01147e9420cf075384bbf647021",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "887792b4f0b2515ef3fa394e4ebdd45c5ceda18e2b47f458a74b9563ad37b6e4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "ceinture:ceinture_waist_belt",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "septieme_seventh",
+      "form": "septième",
+      "lemma": "septième",
+      "meaning": "one seventh; the seventh part",
+      "partOfSpeech": "fractional adjective feminine singular",
+      "sourceOccurrencesSha256": "54155a1716c74ca4647374bf58584a3322f42770bb6617f7f223e912da37c5ea",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6670c8d7763f117ff831350c554417714ea33e58b1a2a4d4c0a27ca27a6081e0",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "septième:septieme_seventh",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "demontrer_prove",
+      "form": "démontrer",
+      "lemma": "démontrer",
+      "meaning": "to prove by reasoning",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "0d16ad4a37576817fd1a4f24d8813aa19878be5f78f2651d8e87c5321c8d8588",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b6935de0927300edfd189dddaca02582936ef67d81857667cc53e0a9f0e23723",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_demontrer_prove",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "coutume_custom",
+      "form": "coutume",
+      "lemma": "coutume",
+      "meaning": "custom; established practice",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "b28c496cdb4937cf1e40188f63f192cd0eb1a5530fd3b5d14628e0c307a0faeb",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b42098cce1b28ca989dc0308d4533bcfcf67d980643f19ec288bbddcc55b0eca",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "coutume:coutume_custom",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "taille_stature",
+      "form": "taille",
+      "lemma": "taille",
+      "meaning": "height; stature of a person",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "a349e887d18d7b7f2a15bb6bff09acfdc58a2b6439fb5773bd0b22d07f47a5af",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8935e11010cf38f1ed40a6d644dee3211a46039b43d9291f178664daf8d10960",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "taille:taille_stature",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "corps_physical",
+      "form": "corps",
+      "lemma": "corps",
+      "meaning": "physical body",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "878e0aed89c377bb4c64d31fe1aa3f7e6b0b27e4664015c36720ee823a74fa84",
+      "workwideUseCount": 5,
+      "chapterOneUseCount": 1,
+      "questionSha256": "cb503bed8c5b26357116e432eb715fe6370fe4894fe6250cca36aa98b2b6ae13",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "corps:corps_physical",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "soeur_sibling",
+      "form": "sœur",
+      "lemma": "sœur",
+      "meaning": "sister; female sibling",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "9db332b318e17ee5911c3dcd00118ed3ca628d141ca82544581efc637f454450",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ffe12253311d07638cff22bc26a26def65731eaf04ac962d30d979dd2288b911",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_ready",
+      "route": "reuse_exact_published_identity",
+      "targetIdentity": "srf_cendrillon_s_ur_lem_cendrillon_s_ur_noun_e4c9350ccf_538c925ff2:sns_cendrillon_s_ur_femme_ou_fille_ayant_le_meme_pere_et_la_meme_mere_que_la_personne_consideree_si_un_seul_des_parents_est_commun_c_est_une_demi_s_ur_722dee1466",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "chaise_postal_carriage",
+      "form": "chaise",
+      "lemma": "chaise",
+      "meaning": "post chaise; small horse-drawn traveling carriage",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "ccf3635ce471a8103e9c7d79c5c0eb7540b25059119d60f5f0badde40a04aaf1",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ec2235c40f70c8445dd63182928ede150b46fc61f78cf3ab359adca1d503edaf",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "chaise:chaise_postal_carriage",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vivement_with_vigor",
+      "form": "vivement",
+      "lemma": "vivement",
+      "meaning": "vigorously; intensely",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "4efe058c5c609512fad851701254e13f88220376622934b0c6490235a411f93d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b6e47c8f77ffb1c8194a11c1eb9fe1e2e05799870e78acffb921edc9349a928d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "vivement:vivement_with_vigor",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etant_being",
+      "form": "étant",
+      "lemma": "être",
+      "meaning": "being; since it or they were",
+      "partOfSpeech": "present participle",
+      "sourceOccurrencesSha256": "35487828ed3415e5486930bcc176fa9c8c8ca57c3042417853062cd704eba49f",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 3,
+      "questionSha256": "6529c3cde4313b4f2791801e11bd7d95126b95719bddb74d9f1f0df8d5e7e499",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_etre_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "branche_tree_limb",
+      "form": "branche",
+      "lemma": "branche",
+      "meaning": "tree branch",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "6e3cf20a310c3f37daa3c89591fe81eb417c2f9db65de539b78b5161b52be234",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "2d31f186414018ed305d90765145ecaa695dd6d069ecba19c5ac750202b6a9bd",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "branche:branche_tree_limb",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nez_nose",
+      "form": "nez",
+      "lemma": "nez",
+      "meaning": "nose",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "4e37148bcf0da4bbe6d357d5b18c1a4a6cdbdbac54a8c069666b8db51954042b",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "830a7153b03aa8e954101df98aaf65d7b70fd10455c9c2eb314dab0e3ff64a2a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "nez:nez_nose",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etonnes_surprised",
+      "form": "étonnés",
+      "lemma": "étonner",
+      "meaning": "surprised; astonished",
+      "partOfSpeech": "past participle masculine plural",
+      "sourceOccurrencesSha256": "18183d509a201ba2ac2a8fe2e75ecd7aa4ea34ed8a1c7762c14109cfeb8c4ed7",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "246f47b9d9891864900f63ca421331462378ba5edf655e0797c4c244a12273dc",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_etonner_surprise",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "college_school",
+      "form": "collège",
+      "lemma": "collège",
+      "meaning": "school; college of study",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "3654f86d5d6736983b5c19dff0cf1a9f08428425e82c711e016a5129ee0be200",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6100a001f4fc8a0010dbe395f7f27f3c5b5ff51d5607a4ff1e6b9473f7390ba2",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "collège:college_school",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vingt_quatre_twenty_four",
+      "form": "vingt-quatre",
+      "lemma": "vingt-quatre",
+      "meaning": "twenty-four",
+      "partOfSpeech": "numeral",
+      "sourceOccurrencesSha256": "da704f652a9e4f39c212de6496ae06b3d2905869eeee68e065c56ab519745c13",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "89bca3477934751717806eed9a68c1e2df4d8614b3e22d08ecf210b142b40a7b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "vingt-quatre:vingt_quatre_twenty_four",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "neuf_nine",
+      "form": "neuf",
+      "lemma": "neuf",
+      "meaning": "nine",
+      "partOfSpeech": "numeral",
+      "sourceOccurrencesSha256": "cb91bf528cb56be6ffdfb30d64191fb3ce0fde38d8ca2563c01a13595a690963",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 2,
+      "questionSha256": "73a37667e0acdf43f51ab43dd7e4c4b4c6bbdc8a213da7fdacb539766db76c05",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "neuf:neuf_nine",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tantot_alternation",
+      "form": "tantôt",
+      "lemma": "tantôt",
+      "meaning": "at one moment; then, alternating",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "307c7683236f79883cf9f3f25971064dc5da5f793c909e6f2d76064a88a6613a",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "f0f284b144222c51a68a7503b6efd4f61b13b96d35f2fc15a8a89d236c67861f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "tantôt:tantot_alternation",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "differences_distinctions",
+      "form": "différences",
+      "lemma": "différence",
+      "meaning": "differences; distinctions",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "9f5c78f4fe654ada1fd191809beb985622e5f7ffa40aaab22159d55734c08baf",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "5f8b8a6ac44cfe7c15b3dbcf06814c03d113ecb7dec001134b6612238f3aef6e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "différence:differences_distinctions",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "geometre_geometry_scholar",
+      "form": "géomètre",
+      "lemma": "géomètre",
+      "meaning": "geometer; specialist in geometry",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "e502b4d421b7fe97e07f9efe16d8af435b4470ca88f31ddba3f0e4209bc55dd0",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b5212e039e82fcedd96e96179734cc6be98991ae7de90232e91b207d392b29e6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "géomètre:geometry_specialist",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "faible_weak",
+      "form": "faible",
+      "lemma": "faible",
+      "meaning": "weak; inadequate as a representation",
+      "partOfSpeech": "adjective feminine singular",
+      "sourceOccurrencesSha256": "153ca2c6689cd95048189f88c3ca2ddb0b199b62646174ce27df13702640086c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "72937cc66f810fb30c62b4a1eae91c417aee58ba7a3d8e9cb0f4aa6bf4c62f58",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "faible:faible_weak",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "demi_heure_half_hour",
+      "form": "demi-heure",
+      "lemma": "demi-heure",
+      "meaning": "half an hour; thirty minutes",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "d6174aad2e6941f36ea9ee61967fadf29d511736cfec8200f9fba2b3d03cbad1",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9723e70f0b3c49efe0b3735c2a044f0db4fb2e4fba8cbc47f2483ef4a59e9453",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "demi-heure:demi_heure_half_hour",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "conviendront_agree",
+      "form": "conviendront",
+      "lemma": "convenir",
+      "meaning": "will agree; will acknowledge",
+      "partOfSpeech": "future indicative third person plural",
+      "sourceOccurrencesSha256": "290609e4fb388b95f955d5ab59327fb8f311aa890c23df3bffa6612ed74208a3",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "58326b844b6ace4317b2656355fa427bf89f859c511e7a4a53988b8d625f5e3e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_convenir_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "enfance_childhood",
+      "form": "enfance",
+      "lemma": "enfance",
+      "meaning": "childhood",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "5acad02e19c704ed937964bc60a31c2900504a69d638347803d25c3f6c494ded",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "98ce5f8f8745d78dfcc991c745d918ce5b4ec12c919cfaebb4db33c3a3a8ea0f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "enfance:enfance_childhood",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nains_dwarfs",
+      "form": "nains",
+      "lemma": "nain",
+      "meaning": "dwarfs; very small people in comparison",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "14663d412882575dadc380dc93d40152818e334135a8dee765234494210e9cf0",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "da8598ceb62e8b57a00fbb25304cceba3863ee1ba4488ed26ede7ded8a073d36",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "nain:nains_dwarfs",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "pieds_length_measure",
+      "form": "pieds",
+      "lemma": "pied",
+      "meaning": "feet; units of length",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "4228d32e28faceec5a4d1d957abcc8b83e3cf5b5f0e0209e6a911bbdbe4826d1",
+      "workwideUseCount": 14,
+      "chapterOneUseCount": 7,
+      "questionSha256": "e46ccd8d91c11e1f78c5c49130d8ca45d1b128f98ace2ebac7f2cb2d9e3aa96b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "pied:pieds_length_measure",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "haut_vertical_measure",
+      "form": "haut",
+      "lemma": "haut",
+      "meaning": "high; tall (in a measure of height)",
+      "partOfSpeech": "adjective used for vertical dimension",
+      "sourceOccurrencesSha256": "1161237cf4a13f60e1b343c0353598d69ec6c8a70d3feda63835a0d1b98266c9",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 3,
+      "questionSha256": "ee0c22ba669f950b9c3d6998681be989eeac2ead85d020b4216360ff1fa2e2c4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "haut:haut_vertical_measure",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tour_circumference",
+      "form": "tour",
+      "lemma": "tour",
+      "meaning": "circumference; distance all the way around",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "ce92788c005290ea7d2635ec543b532a8b7c9f8147f85c32f50dc0024ac0a4df",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 2,
+      "questionSha256": "d12423001f060aeb1f0eeba266813b42d4f98095012ab52c35f4af9511266d49",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "tour:tour_circumference",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tour_full_circuit",
+      "form": "tour",
+      "lemma": "tour",
+      "meaning": "complete circuit; going around something",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "06fefda419cee87fc0d8abbbbb81379bc898c530ddab31a5759ac4a73594f23b",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d79bfb4d038f20f49937d023515caa53cf0a99e9e2aa41cbf18000a406faf43c",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "tour:tour_full_circuit",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "fois_multiplier",
+      "form": "fois",
+      "lemma": "fois",
+      "meaning": "times; multiplied by",
+      "partOfSpeech": "noun feminine plural in multiplier construction",
+      "sourceOccurrencesSha256": "86eaf4221ce6a5824e25c17f8a555c9f85040ad93768231a3b52630eb9721f7f",
+      "workwideUseCount": 7,
+      "chapterOneUseCount": 2,
+      "questionSha256": "32a5d10ffe0128b11d4e7b3dab1425c39d83ec977b60584b2f7dedd08e2ca0d6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "fois:fois_multiplier",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "font_amount_to",
+      "form": "font",
+      "lemma": "faire",
+      "meaning": "amount to; total",
+      "partOfSpeech": "present indicative third person plural",
+      "sourceOccurrencesSha256": "87331b1f941981c20b8a90b3534e341487e281cf7537e609d3c1b803e410c2cf",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7e73db36b368b834245dcf9fa0ccabcdd1b9c1653a0addf27e50b2853e90782e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "faire:font_amount_to",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "forme_substantial_scholastic",
+      "form": "forme",
+      "lemma": "forme",
+      "meaning": "substantial form; supposed inner principle of a being",
+      "partOfSpeech": "noun feminine singular in philosophical doctrine",
+      "sourceOccurrencesSha256": "9b03e4e5077f5bc849f5fd65b6570d8131509391ac1f99f0a8b447a76ad1797a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e966608c70a20521b5c8c0b5d7fc334d787e9ab02071c525ed4ad1641413ab37",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "forme:forme_substantial_scholastic",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vingt_un_twenty_one",
+      "form": "vingt-un",
+      "lemma": "vingt-un",
+      "meaning": "twenty-one",
+      "partOfSpeech": "numeral",
+      "sourceOccurrencesSha256": "0bbc328de6e59fb609a977fc405881b2f20e739753dee5d64f1b1b323295225b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "bd574b4acd8cd40a67b15ed92f739582395b75af762eda2f542743d371d5ade4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "vingt-un:vingt_un_twenty_one",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "trente_trois_thirty_three",
+      "form": "trente-trois",
+      "lemma": "trente-trois",
+      "meaning": "thirty-three",
+      "partOfSpeech": "numeral",
+      "sourceOccurrencesSha256": "8357d077b618ebc1f76bff5ce44d07ab4af0bd0dd81e8293d4ad9fe55a31eddd",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1bdec03cc91010c43a30070d911d2e50b103bae7827c22e936f1cff1f61bc94b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "trente-trois:trente_trois_thirty_three",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "trente_deux_thirty_two",
+      "form": "trente-deux",
+      "lemma": "trente-deux",
+      "meaning": "thirty-two",
+      "partOfSpeech": "numeral",
+      "sourceOccurrencesSha256": "3d4faab3943afedad1a0aa349b58430cd8676629576babb35b0219bab897a26a",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "0ff3d2ac8a1d7e96356726c3b747859e75a6d09f6f37ae09f12cf5cad7222618",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "trente-deux:trente_deux_thirty_two",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "mises_placed",
+      "form": "mises",
+      "lemma": "mettre",
+      "meaning": "placed; put",
+      "partOfSpeech": "past participle feminine plural",
+      "sourceOccurrencesSha256": "e7bda7e64f356130f193ffae4fe0d786b9aa7c2284d93601ab63e4cb06eb2344",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1f5613c5b39838483d42d80648b84217b1e8c54df8b1c1e958ee5f664dd2aa33",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_mettre_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "excellence_title",
+      "form": "excellence",
+      "lemma": "excellence",
+      "meaning": "Your/His Excellency; title of high office",
+      "partOfSpeech": "noun feminine singular in honorific",
+      "sourceOccurrencesSha256": "2a244238957e1703cb458646276e8b7da16752cc5e3a45a610e91531727366fa",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "fcbd0e791a67e0643b97668c0296a93d6d01a37dec55dfcbcf54bfc70a8e695b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "excellence:excellence_title",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "dite_said",
+      "form": "dite",
+      "lemma": "dire",
+      "meaning": "said; mentioned",
+      "partOfSpeech": "past participle feminine singular",
+      "sourceOccurrencesSha256": "18563cb9c148906a685c32e553905ae6e1ccf585a5d7ead3bc7eee20f936fea2",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a6e4a425307d895508d36ca16db96d3b8ba4220346a2c94519a817fa1fd95291",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_dire_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tres_jolie_very_pretty",
+      "form": "très-jolie",
+      "lemma": "très-joli",
+      "meaning": "very pretty; very pleasing",
+      "partOfSpeech": "adjective feminine singular",
+      "sourceOccurrencesSha256": "b94bee0b6d979f8265ef14aa6309cc07220f41446a2be303046c726b1718f5f5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "73f6142739dad8330bd8dc2c8d0bf98ffe692ae1c7de62464bfb06c662e60e71",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "très-joli:tres_jolie_very_pretty",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "proportion_ratio",
+      "form": "proportion",
+      "lemma": "proportion",
+      "meaning": "proportion; relation between measured parts",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "757d55c5371746940a69ddb5702e7211c95da144d7f0a901612f276d72738eae",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "729da66c27631fdffe481e7b306c7a7b782b1a25377d5c0d8cd85655d0c1d545",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "proportion:proportion_ratio",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "cultives_educated",
+      "form": "cultivés",
+      "lemma": "cultivé",
+      "meaning": "cultivated; highly educated",
+      "partOfSpeech": "adjective masculine plural",
+      "sourceOccurrencesSha256": "2dc9392a5c6dab117406f4dcbd3922e7acf00512e43d37a1497b337572e32909",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e3a1bca132a63dd2adcb0a5e155c638952d2cac8c14ca12a404e674c18f47472",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "cultivé:cultives_educated",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ayons_have_subjunctive",
+      "form": "ayons",
+      "lemma": "avoir",
+      "meaning": "that we have",
+      "partOfSpeech": "present subjunctive first person plural",
+      "sourceOccurrencesSha256": "834668d902fec400ae27d5db5d50c10782585a2f6e0f2e887b4a4a8309ce73fa",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a535b489a252476b12c88481f5fc43a47627c7126d21c47202ee40f736693bf2",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_avoir_primary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "quelques_unes_some_of_them",
+      "form": "quelques-unes",
+      "lemma": "quelques-uns",
+      "meaning": "some of them",
+      "partOfSpeech": "indefinite pronoun feminine plural",
+      "sourceOccurrencesSha256": "8fc48d8d8040e20be24034372ddb409cef0945bb4e01f211535125239c77b729",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "af9b15ba53ae8da5cbee5eba106c82abb0af059e57e9c8a419e14b3afb18781f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "quelques-uns:quelques_unes_some_of_them",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etudiait_studied",
+      "form": "étudiait",
+      "lemma": "étudier",
+      "meaning": "was studying; used to study",
+      "partOfSpeech": "imperfect indicative third person singular",
+      "sourceOccurrencesSha256": "2c49c91e049fb7aa71b91ed3a7ac556523bf03a6789ab96e204ab4c3bd93e721",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "224a8b515e51e22452a16b435a5b3a85a26a364a4c21aa08de2af6bd6298ded2",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_etudier_examine",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "selon_according_to",
+      "form": "selon",
+      "lemma": "selon",
+      "meaning": "according to; following",
+      "partOfSpeech": "preposition",
+      "sourceOccurrencesSha256": "818ed231432494173c340a0ec224350a384837005cacfe0cb2fdb6f7adb38b3c",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "da9a4aac2b94dab4ddec9c10669b890b56ebc204c800b104cee16b9f338dbd84",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "selon:selon_according_to",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "celebre_famous",
+      "form": "célèbre",
+      "lemma": "célèbre",
+      "meaning": "famous; renowned",
+      "partOfSpeech": "adjective singular",
+      "sourceOccurrencesSha256": "54b62d179bd3e8aee8303ca79b4adc467007c83e13dab765fe73e5acee2ee2b3",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "cfa49b5cae1a9d1d68c34d4b09c6f20e5e9e8e0b3cc8626aa0e754fb9fd045be",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "célèbre:celebre_famous",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "devina_inferred",
+      "form": "devina",
+      "lemma": "deviner",
+      "meaning": "divined; figured out by insight",
+      "partOfSpeech": "past historic third person singular",
+      "sourceOccurrencesSha256": "822d600f9756ba6eac326eafbaff0c1a06cbc617ac3442b0544a9015b02ca72b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b8e4100653c437af666d06f5f24f5f708c0280778e1b3d328cb5dbb5fbcd1a54",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_fr_deviner_infer",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "devine_inferred",
+      "form": "deviné",
+      "lemma": "deviner",
+      "meaning": "figured out; divined",
+      "partOfSpeech": "past participle",
+      "sourceOccurrencesSha256": "cb8d71736211a73d7bfe46e9298bbf263c310a4a0e4bc12409908bd223b466ca",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "162011f34ad1163aaed63a247b02dbfc4108a6756b602773416c7c7fc7471ef2",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_fr_deviner_infer",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "jouant_effortlessly",
+      "form": "jouant",
+      "lemma": "jouer",
+      "meaning": "playfully; without effort (en se jouant)",
+      "partOfSpeech": "present participle in en se jouant",
+      "sourceOccurrencesSha256": "e7dcee8784473e163f5b4ddcee26a7717ba2509607479b40387bf8547b9aaad1",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9442b4a028c2f348b296fcfd0af0453227f153e4837a3e8ea67ee90e4fa1d21e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "jouer:jouant_effortlessly",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "devint_became",
+      "form": "devint",
+      "lemma": "devenir",
+      "meaning": "became",
+      "partOfSpeech": "past historic third person singular",
+      "sourceOccurrencesSha256": "502010b8f27186c2ed3373df01828b41fa48f0574b6801e1608459219ffb5e96",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "09b5bf4f36efb223e866f06b7f81369a7ea0067c04c39b59751f82533a03d14b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_devenir_become",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "curieux_intriguing_book",
+      "form": "curieux",
+      "lemma": "curieux",
+      "meaning": "intriguing; remarkable",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "c09358d3611896910d3fb72d5498e6a05c8b5c0505ed2be09e778d583dad4d89",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "58f09008831f159a5866b2b767f6ed78a82406b17ab698311fd53986bc890fa6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "curieux:curieux_intriguing_book",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ignorant_unlearned",
+      "form": "ignorant",
+      "lemma": "ignorant",
+      "meaning": "ignorant; lacking knowledge",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "ddc8e1e6c622b0ad543da2a92118f506e8e1e4ba2a2f5e876c5b8a264ab3b27b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "394eb9af1212906807084ed46c06b4824d0b70cb4d6df841422f37d601e4d551",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "ignorant:ignorant_unlearned",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "substantielle_scholastic",
+      "form": "substantielle",
+      "lemma": "substantiel",
+      "meaning": "substantial; relating to supposed inner essence",
+      "partOfSpeech": "adjective feminine singular in philosophical term",
+      "sourceOccurrencesSha256": "4bebf308a6bd56943019a10203a7012c7192949f00896a4beb0892f0a6b032b4",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "07509a1a57b04a2432cf7f70c4c02300ac1380b670114e3fb931d72836a8d56d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "substantiel:substantielle_scholastic",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "la_haut_up_there",
+      "form": "là-haut",
+      "lemma": "là-haut",
+      "meaning": "up there; in the higher place",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "cbc8f8a6f42019fa73a696bbd7e149513c7f95a1aba67bdd5004eb98ffdcd6d1",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f96043be17decbea8e55dab70d660f639603516607716db564a9cfce58e7a198",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "là-haut:la_haut_up_there",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "parcourut_traversed",
+      "form": "parcourut",
+      "lemma": "parcourir",
+      "meaning": "traversed; traveled through",
+      "partOfSpeech": "past historic third person singular",
+      "sourceOccurrencesSha256": "da8ca1b8bbbb947d6ace9afa4d2389563d0fe162d13c8ab6b3d405113fb655d3",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "165fd5bd7e097214bdaea49d00c015036b30869c7100d338cfc2551680ba1024",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "parcourir:parcourut_traversed",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "fait_yields_result",
+      "form": "fait",
+      "lemma": "faire",
+      "meaning": "yields; results in",
+      "partOfSpeech": "present indicative third person singular",
+      "sourceOccurrencesSha256": "feefe5f00f01def7c57d6629d983d022231b30318c53ca5aa257807dd3ccf970",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b0e80a82aae3974e5b1af8e4c6f11ad71ba378d8dcfcb8a0b09b294caba2e572",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "faire:fait_yields_result",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "depuis_afterward",
+      "form": "depuis",
+      "lemma": "depuis",
+      "meaning": "later; subsequently",
+      "partOfSpeech": "adverb in historical narrative",
+      "sourceOccurrencesSha256": "8222c9269605baf01a95da8c23bc0a916ba1639b5ef4de4f4e94a7a7cfab228c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f01cfbb2dda8c558f56a77ba5a94398b6b9316750b95cd88c4524d160a6cd585",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "depuis:depuis_afterward",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sentant_suggesting_heresy",
+      "form": "sentant",
+      "lemma": "sentir",
+      "meaning": "suggesting; smacking of (heresy)",
+      "partOfSpeech": "present participle",
+      "sourceOccurrencesSha256": "5c221237e8bd252245c8c5a4956fcd397fa81ab0851a646e446ed14346ab4013",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a20b353e90bb1ccc657057a7f54805b86f2e3730d97313b8ad2925f22d839dcf",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "sentir:sentant_suggesting_heresy",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "cote_own_side",
+      "form": "côté",
+      "lemma": "côté",
+      "meaning": "side; one’s camp or support",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "61d0e7d4b677d5201f91998e6a1240d86a6c71c18a0351f51cbd663148fc524f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "903b7b2a61736ee7cf50d731d9f68ebb306d7b95101c0f90501a411d1d5bcb0d",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "côté:cote_own_side",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "paraitre_appear_at_court",
+      "form": "paraître",
+      "lemma": "paraître",
+      "meaning": "to appear; present oneself in public",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "8225bf955c5097473cc1bc3496d4066468eaa02efb088825f8315b5f1870b9fe",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8182c7e550ca37907544f3f70bbee8f4f08cc853f59362d84fd82afd4ff5468f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "paraître:paraitre_appear_at_court",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "annees_years",
+      "form": "années",
+      "lemma": "année",
+      "meaning": "years",
+      "partOfSpeech": "noun feminine plural",
+      "sourceOccurrencesSha256": "4edebe7bb2c226480b8fe2a732ccfedec670cf1936e22337a24e1772a39d0242",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8739b8935279d927a92aeeede7724356999509aebc14bd64abf20b9c8b5350c9",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "année:annees_years",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "mediocrement_moderately",
+      "form": "médiocrement",
+      "lemma": "médiocrement",
+      "meaning": "moderately; only somewhat",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "72f8191ca823529563f3894a2cdf4fe5563ff9ed7f2d934d542c5df416edb88c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d4f62674af02952cd69443f37eb0694243420e7250ac553ce861a1d14428ecdf",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "médiocrement:mediocrement_moderately",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "remplie_filled",
+      "form": "remplie",
+      "lemma": "remplir",
+      "meaning": "filled; full of",
+      "partOfSpeech": "past participle feminine singular",
+      "sourceOccurrencesSha256": "7e91d26b2d4d5c0976e4836d361ce0395c7a6e0fd268bf1c845a5ef351da02df",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8b3fb9df3638508ea07ec7be6b57f2de81971dceb93c6c52c0bd70943b56448f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "remplir:remplie_filled",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "chanson_song",
+      "form": "chanson",
+      "lemma": "chanson",
+      "meaning": "song",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "d2fc067c6e62b3b1ed8926ab6dddacfdd179936d0c94c6677da42bc0daad4b85",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "3b92d3eeccd3c1bf831839895e8f0e578b2c67fb13b61ba87d01476d2e45db4b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "chanson:chanson_song",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "plaisante_amusing",
+      "form": "plaisante",
+      "lemma": "plaisant",
+      "meaning": "amusing; witty",
+      "partOfSpeech": "adjective feminine singular",
+      "sourceOccurrencesSha256": "541f07d2cebfe254fbf6061c3287f09d9cbc4051ba272149782d8d1e4d21376c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "44f62ee3ddfc5f709cd897741d4674bc504d92e6e86cf1a9bd910e3855c71136",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "plaisant:plaisante_amusing",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "celui_ci_this_one",
+      "form": "celui-ci",
+      "lemma": "celui-ci",
+      "meaning": "this one; the one just mentioned",
+      "partOfSpeech": "demonstrative pronoun masculine singular",
+      "sourceOccurrencesSha256": "d38ec279a2f2ecdd38026b606689bd019f0bfabb2a1583ec20966b7dff49fc45",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "0adcb8cedd5101a6d6e6313efd1b78da502be965a4bc3bce6f62d590cc8b712b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "celui-ci:celui_ci_this_one",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "voyager_travel",
+      "form": "voyager",
+      "lemma": "voyager",
+      "meaning": "to travel",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "3b5e88f441b1a8a717e4ecdfdda3f88fca567285718fe5a89040a4faaa3a88a2",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "4f28dfa99ce3808bbfb56a3481c7aeb06ad6e7d0fab2ed11efab3547ca07ffb6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "voyager:travel",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "former_cultivate_mind",
+      "form": "former",
+      "lemma": "former",
+      "meaning": "develop; cultivate one’s mind",
+      "partOfSpeech": "verb infinitive in se former",
+      "sourceOccurrencesSha256": "24d5372274d32f8b83fce5e98231bd56719ffedadc3d0f7a930800d003cf7c95",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d309ab4c07598ddbbf6c3c3eb417b80da4e4e213756a803a4ef2f0c82d202d32",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "former:former_cultivate_mind",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "voyagent_travel_present",
+      "form": "voyagent",
+      "lemma": "voyager",
+      "meaning": "travel; are traveling",
+      "partOfSpeech": "present indicative third person plural",
+      "sourceOccurrencesSha256": "d05461dba4295fc0fdd9e715535d2826d0019b53f299fe440307f6c9d8163874",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "39c561a1b12b4567cc4651449cdaa1ae2e6644d6116dafa57751c9c5b11238d6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "voyager:travel",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tas_heap",
+      "form": "tas",
+      "lemma": "tas",
+      "meaning": "heap; pile",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "090f046892e3b19150e6616535ce2f133f1c41f48d9b43c9f08bd4d4c4df73ca",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "29b0a1a22a813b1457d4e6b585dcc7bb320c602f996a6a773cb0d481871433a6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "tas:tas_heap",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "concevons_imagine",
+      "form": "concevons",
+      "lemma": "concevoir",
+      "meaning": "can imagine; can conceive",
+      "partOfSpeech": "present indicative first person plural",
+      "sourceOccurrencesSha256": "d26bfdfb222bb2cd700f97314dd2f28640ab1fc23822893867118fd926d3d8fc",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "86461ca9b400d57f0e92fec42861fe845480dc1a6b5ce01018d483c27c923c45",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "concevoir:concevons_imagine",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "dela_beyond",
+      "form": "delà",
+      "lemma": "delà",
+      "meaning": "beyond; farther than",
+      "partOfSpeech": "adverb in au delà",
+      "sourceOccurrencesSha256": "fac7c57cadc442077678ce102ba3f0424bfdc1876eabf8fcaa0939505b7f1447",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9b17ffd1909b8ff5731119b309d7948c4afac691c1585c40424c6caf20364d66",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "delà:dela_beyond",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "connaissait_knew",
+      "form": "connaissait",
+      "lemma": "connaître",
+      "meaning": "knew; was familiar with",
+      "partOfSpeech": "imperfect indicative third person singular",
+      "sourceOccurrencesSha256": "72104185aaf525173cc7445e34be6ba16fe2e09e2dac1614b38c9ac1328d14f5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "335229d409a2885e4bfcaa8890ebce1a8db9ec300438756b05dda5ed34d04ea6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_connaitre_know",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "merveilleusement_extremely_well",
+      "form": "merveilleusement",
+      "lemma": "merveilleusement",
+      "meaning": "extremely well; marvelously",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "7a6ec36cd515dc88a3a8fc2bcddff5868db345cdbaf539c15c1530df3d3c5b8f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a93c5b56cf06675bb190e54603723248d1742ecb3bb8a7f3ccf8c2dac3e13768",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "merveilleusement:merveilleusement_extremely_well",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "aide_help_means",
+      "form": "aide",
+      "lemma": "aide",
+      "meaning": "help; assistance or means (à l’aide de)",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "e4938b6d467104831aa6eef8cd753a59186ee42fd9197aaaf46be578bd2eca24",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ed4dfcfbc82a8e6a5b71dda005934f6a18b352a3a49afc5acf99ccdff3c288d4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "aide:aide_help_means",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "embarrassa_bothered",
+      "form": "embarrassa",
+      "lemma": "embarrasser",
+      "meaning": "was bothered; concerned himself",
+      "partOfSpeech": "past historic reflexive third singular",
+      "sourceOccurrencesSha256": "d5fcfcf1d200cb557f2d62f5d4817a2a501a79e4e03bdde28837d1a72d1f8ef5",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "34e747c5798c4de832fb80a375c1ab9331b92efe713b08a47f5ad4cfe6bd58c6",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "embarrasser:embarrassa_bothered",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "servait_used",
+      "form": "servait",
+      "lemma": "servir",
+      "meaning": "used; made use of",
+      "partOfSpeech": "imperfect indicative reflexive third singular",
+      "sourceOccurrencesSha256": "909aa56652992d2cce09492211ef03f2a33e6b6dff92297fdc220cbf969959dd",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "56723b9f23295bfb50f9abb6f4accaeead5301296cac10d693d890a5ee6d6c80",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "servir:servait_used",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "commodite_convenient_means",
+      "form": "commodité",
+      "lemma": "commodité",
+      "meaning": "convenient means; convenience",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "b6dc86ee6baf826f7a6ae65bf8239dfe7819bcdb8a79bb6b71fdd9516d16ee98",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "5ec1938f59c0bdc2280ec5a4a8dfb92ca31667c8bcc70a82e98ab40e07464c70",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "commodité:commodite_convenient_means",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "siens_his_people",
+      "form": "siens",
+      "lemma": "sien",
+      "meaning": "his own people; those belonging to his group",
+      "partOfSpeech": "possessive pronoun masculine plural",
+      "sourceOccurrencesSha256": "9c69893b3bc6b1dbaaa374d6557c74b09b1fa30468afc6a34d2e15232f828755",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "15ef598ad4f9ce10519356734b818b2b0da2ef1eb27ede527a7e5832f490d845",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "sien:siens_his_people",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "oiseau_bird",
+      "form": "oiseau",
+      "lemma": "oiseau",
+      "meaning": "bird",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "87c5b600deb4be9bf16a9e005ca31bdcd6114a6b12518495479b38a108ae3dd0",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "51bdaed6aa0eb91a0701631fe2f4d060212fa71386b88ad181f018e14a999693",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_parure_oiseau_bird_9f2b853e65",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "voltige_flits",
+      "form": "voltige",
+      "lemma": "voltiger",
+      "meaning": "flits; flutters about",
+      "partOfSpeech": "present indicative third singular",
+      "sourceOccurrencesSha256": "95cc737788fc986b525435b9328ccd171fd7ad1ecc05c25db0adf4b6ffe75cd0",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "26d07c8cb374bce8c49f44eade84c7a2068c6d5fb97ea65ccd9a03874ad16c29",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "voltiger:voltige_flits",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "oblige_compelled",
+      "form": "obligé",
+      "lemma": "obliger",
+      "meaning": "obliged; compelled",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "f299453a6dc89ede3c15fae1e57567962883da214fe36046751aed4f2f758a5c",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ba62c5be742c68ac78b5c4efb3baed6319308e94e4db0c16d0bc1cf5d814dc5b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_obliger_compel",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "semee_strewn",
+      "form": "semée",
+      "lemma": "semer",
+      "meaning": "strewn; scattered with",
+      "partOfSpeech": "past participle feminine singular",
+      "sourceOccurrencesSha256": "11f362dbccf7caf1cdf11dc66469b3030cbfd016ae9e81e59f66937a16b87f7d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "79860f95b5a131786159dde2e53fdae90281250ebc359c8c5e8e3b87eaa7d7d8",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "semer:semee_strewn",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "empyree_highest_heaven",
+      "form": "empyrée",
+      "lemma": "empyrée",
+      "meaning": "empyrean; of the highest heaven",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "8e3056b436f1d7c48bbdb13fb615d19a5cf2fe82b6bb40517837195ed610701a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "342c3b7af33c58605327051e309e874aa169991eb2e1687c9baaec88065a65a1",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "empyrée:empyree_highest_heaven",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "illustre_famous",
+      "form": "illustre",
+      "lemma": "illustre",
+      "meaning": "illustrious; distinguished",
+      "partOfSpeech": "adjective singular",
+      "sourceOccurrencesSha256": "9ca63db9ad856f6d0174b045a9191d28baab85f5638af1611d328dabc4174768",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "3510879d2d9750a7d68d666bc25ea29de88856bddf0fa316d3761c2b873026a3",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "illustre:illustre_famous",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vicaire_clergyman",
+      "form": "vicaire",
+      "lemma": "vicaire",
+      "meaning": "vicar; clergyman serving in a parish",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "3c8a38107db18dfd7004f7f464dc510ab3db2a25148d9e7523004af06088c9f0",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "b7d829fb4b804145a927c826344a2c8171725c5cbd97c62ff4ab7ba6e7036890",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "vicaire:vicaire_clergyman",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vante_boasts",
+      "form": "vante",
+      "lemma": "vanter",
+      "meaning": "boasts; claims proudly",
+      "partOfSpeech": "present indicative reflexive third singular",
+      "sourceOccurrencesSha256": "678733a6e0003fa0f0609ad0b102b88ea771e8b86e0ca2f4fdfa0cdece7b717f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7542e793af8a8840f85c77cf3b38c58e30be46b4c42624a8942dcbe619e5b4fb",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "vanter:vante_boasts",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "lunette_telescope",
+      "form": "lunette",
+      "lemma": "lunette",
+      "meaning": "telescope; viewing instrument",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "cca28f85d525a83bc4f8156fc33aba73f4c860b18defdebb017b0386b397754b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "c89297a13a60efdfe35c9460ca08ed725ec223787ad2e1ad59641fa2ce54b457",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "lunette:lunette_telescope",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "pretende_claims_to_assert",
+      "form": "prétende",
+      "lemma": "prétendre",
+      "meaning": "claim; assert",
+      "partOfSpeech": "present subjunctive first singular",
+      "sourceOccurrencesSha256": "0a7963bd81b17884f8683e0e52e3e67895c279d0b01c13b9f243f79f10ad8219",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "befdb45f998655d21aa711ebe1c1437efde9b9ce20c4c19727e99386d713183b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "prétendre:pretende_claims_to_assert",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "plaise_heaven_forbid",
+      "form": "plaise",
+      "lemma": "plaire",
+      "meaning": "heaven forbid; may God prevent it",
+      "partOfSpeech": "present subjunctive third singular in fixed idiom",
+      "sourceOccurrencesSha256": "8408bf6b599d1dc738acae23db275922030e5d8a102c343a1c6842773822872b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "56eb74159692ef8c496ea3d841bb1757254d56a72acfdb96d2988431b87924b9",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "plaire:plaise_heaven_forbid",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "observateur_observer",
+      "form": "observateur",
+      "lemma": "observateur",
+      "meaning": "observer; someone attentive to evidence",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "d48971ddc8d50334ec0aa460749155385fe8095f32acfeedb100778df8f33363",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "64b7ef39d9af9a54582f736ff5a65da7fe54b087da7753e667245b23afd46d4b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "observateur:observateur_observer",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "contredire_contradict",
+      "form": "contredire",
+      "lemma": "contredire",
+      "meaning": "to contradict; dispute a claim",
+      "partOfSpeech": "verb infinitive",
+      "sourceOccurrencesSha256": "346e8b474a1e5e781f7a1a33e07a7d50a7dd7734c9620441802a354d77128c52",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9498f8a36d18a30b96ad5b702673abb4d0d8a45ca92e5c6099234c42ed9b1e63",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "contredire:contredire_contradict",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tourne_traveled_around",
+      "form": "tourné",
+      "lemma": "tourner",
+      "meaning": "gone around; traveled through",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "638faa3d48d29272d42e928e8b78e635119e0abcf0fb5649785c96b1d4b9d544",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f1b042b496bd47abf7d8dbaa98505dd472a9e9bb4bf11a3d62297971477a56b4",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "tourner:tourne_traveled_around",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "accoutume_used_to",
+      "form": "accoutumé",
+      "lemma": "accoutumer",
+      "meaning": "accustomed; used to",
+      "partOfSpeech": "past participle masculine singular",
+      "sourceOccurrencesSha256": "f3ebd9d0eb36a74f8fd2c053cc01512c68cc9f7ae9caebf1a56ac18369e1e427",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9eb14a3a39a7203731d4eecc503b5d65570e4d7310b378f70e674fa6022d2f35",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "accoutumer:accoutume_used_to",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nouvelles_new_things",
+      "form": "nouvelles",
+      "lemma": "nouveau",
+      "meaning": "new; unfamiliar",
+      "partOfSpeech": "adjective feminine plural",
+      "sourceOccurrencesSha256": "eab250045cbc763d23230dc9f84ae926d66fca1f7eb49ee6188e58eab8a179e2",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "0231df2add4ffc5fdd9cd87eae02c1e2c8b223279650ad1fd5bdebc4e13dd4ea",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_fr_nouveau_new",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "superiorite_superiority",
+      "form": "supériorité",
+      "lemma": "supériorité",
+      "meaning": "superiority; feeling of being above others",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "b695959f1ac4fe0476e3aae44a84c72fdbaa72f51f96e08b37897411f55b248c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "afe914c02ba1c6c87e23c82a6890009d5e76c1a57f2a8a1867adb9c9a16775ea",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "supériorité:superiorite_superiority",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "echappe_occurs_involuntarily",
+      "form": "échappe",
+      "lemma": "échapper",
+      "meaning": "slips out; escapes involuntarily",
+      "partOfSpeech": "present indicative third singular",
+      "sourceOccurrencesSha256": "b6a4163b6823b2a3e8d256bbd214dd0e05f6872aff4d0fb68c082cb9b404f440",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a42dd7bab863d918391813d4c26f3234ba5ab58734dff974434ac72ef457c1c5",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "échapper:echappe_occurs_involuntarily",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "quelquefois_sometimes",
+      "form": "quelquefois",
+      "lemma": "quelquefois",
+      "meaning": "sometimes; on some occasions",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "93010f7d088ef379b6e44811d152754a8e40290060083edb601cf96aacc42326",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "19b2b0ab9fb4effe72fbdd32653dc4bf176bf6876290154e333d2aaf65a41cd1",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "quelquefois:quelquefois_sometimes",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sages_wise_people",
+      "form": "sages",
+      "lemma": "sage",
+      "meaning": "wise people",
+      "partOfSpeech": "substantive adjective masculine plural",
+      "sourceOccurrencesSha256": "5144c4413345fbb376a359dec292ac1fe46a17849d7111a4f4ce430f3948b632",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "12e2eff21b3649d74e686c268c618b68824608f23cb2632eafdad459c0aec957",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "sage:sages_wise_people",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "pays_la_that_place",
+      "form": "pays-là",
+      "lemma": "pays",
+      "meaning": "that place; that country",
+      "partOfSpeech": "noun masculine singular with demonstrative suffix",
+      "sourceOccurrencesSha256": "48e3b9eb0c56b361707ed5af45f4c78187be671ffa115fdb38eddc8dfb653ad9",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "5d05d1fe43747864d9302a219d24a150dc6ac4a901ec2eca7ac6badd8ed69b6b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_pays_country",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "environ_approximately",
+      "form": "environ",
+      "lemma": "environ",
+      "meaning": "approximately; about",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "207de6216c17bebd4e5f07e1263d7bae3cf0b8cebb7bbefb2a79dd63d579df3c",
+      "workwideUseCount": 8,
+      "chapterOneUseCount": 1,
+      "questionSha256": "cc556d7666d8e7054be55e0c845ff44ac471ad579c13ffe8950bdc82bd103959",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "environ:environ_approximately",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "moqua_mocked",
+      "form": "moqua",
+      "lemma": "moquer",
+      "meaning": "mocked; made fun of",
+      "partOfSpeech": "past historic reflexive third singular",
+      "sourceOccurrencesSha256": "2d3c873f55f801055d56632202dca789518a7f3100b0f66a4f8922f3a3c19e9b",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "93932efede6b8172ac1ac8678098a769ef60a3e8444a70ea80e47b1aba51b403",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_cendrillon_moquer_se_railler_de_quelqu_un_ou_de_quelque_chose_en_rire_en_faire_un_sujet_de_plaisanterie_ou_de_derision_ed5e0baacf",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "musicien_musician",
+      "form": "musicien",
+      "lemma": "musicien",
+      "meaning": "musician",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "5d308149e76151eb6b80a75f89c8b32bf9ccc02a93f147261c8cf9896f410d54",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "694806227b04008529c5625d840b7992f4afc9cf3e714f5fe266838f2899a16e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "musicien:musicien_musician",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "italien_italian",
+      "form": "italien",
+      "lemma": "italien",
+      "meaning": "Italian; from Italy",
+      "partOfSpeech": "adjective masculine singular",
+      "sourceOccurrencesSha256": "b82f3b10bd32ae77035b2721e06a1659569c8fb53ae4023ebf409495e37b870f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "07f0223c7ba944f7f12fa6f819881633a922426571382d02d3f1f84fca2ea52e",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "italien:italien_italian",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "musique_music",
+      "form": "musique",
+      "lemma": "musique",
+      "meaning": "music",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "729bbcd744f558ba05d96ce27d269209e7a423b347615a38736ddbf0d771633c",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "53c936262dc9877cae2706ee600ede02967fa6a672c739e50cd38c15e24a1ae3",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "musique:musique_music",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "fit_caused_trouble",
+      "form": "fit",
+      "lemma": "faire",
+      "meaning": "caused; brought about",
+      "partOfSpeech": "past historic third singular",
+      "sourceOccurrencesSha256": "71cf4a8fcb4d5c9405b34170c58d7f0c002cea8ff70aea91ee6e6df88c3ca415",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "f435c09f67bfae3167978b32a52d2ef63711f7e32ae5d687611899e2fde8c7cf",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "faire:fit_caused_trouble",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "eut_received_order",
+      "form": "eut",
+      "lemma": "avoir",
+      "meaning": "received; was given (an order)",
+      "partOfSpeech": "past historic third singular in avoir ordre",
+      "sourceOccurrencesSha256": "c15da85a7e7f4c7df62c6b3d268395622ef311b16bcd2177f0508093c32ef967",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "479e56f9c39537d417a6c9b85e5e371ade04f44825196b886e340e450acceb6f",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_ready",
+      "route": "reuse_exact_published_identity",
+      "targetIdentity": "srf_zola_eut_avoir:sns_zola_avoir_possess_auxiliary",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "fit_composed_song",
+      "form": "fit",
+      "lemma": "faire",
+      "meaning": "composed; made",
+      "partOfSpeech": "past historic third singular",
+      "sourceOccurrencesSha256": "6dfc7142cd54929ed9069d5e8e6f0bfb33e33960da4cb6aff9ea94222545f3e2",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9d9f8119a9f6dd5180bdbfb099a94be3a926a44be412eac6b6a4e6ce86354caf",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "faire:fit_composed_song",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "poste_relay_service",
+      "form": "poste",
+      "lemma": "poste",
+      "meaning": "post-horse relay service",
+      "partOfSpeech": "noun feminine singular in chaise de poste",
+      "sourceOccurrencesSha256": "98da778dd01ea85d24c9870e77bb474150a9471cdad2c8ab7e2313a9c881b190",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ac15c1ffcfc1181f096a503c20dc54eb48819b269063ce5aff87e62768c5d34a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "poste:poste_relay_service",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "allait_moved",
+      "form": "allait",
+      "lemma": "aller",
+      "meaning": "went; traveled",
+      "partOfSpeech": "imperfect indicative third singular",
+      "sourceOccurrencesSha256": "555037b252334a4e46ef7073e3ffe65eb878cf1c5e1128f56c5d279df1e44711",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ff2b197261cc76790da51217180eaf9ff646c4debb7016a15a2bb2b91a275cb5",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "aller:allait_moved",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "travers_through",
+      "form": "travers",
+      "lemma": "travers",
+      "meaning": "through; across",
+      "partOfSpeech": "noun masculine singular in à travers",
+      "sourceOccurrencesSha256": "ee14ce0f04151ebb937a7bbb24e50174499862545aec78f7949239e377227d62",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "61a6ea87921d5efe60fe31258e56be6b4eb169acb39771dcfe496e4d846041f8",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "travers:travers_through",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ciel_visible_sky",
+      "form": "ciel",
+      "lemma": "ciel",
+      "meaning": "sky; visible heavens",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "fab5f304ae8e1fd12ed3ece306cc262d7ca4c43512e7c35a9359a8f7267c77a6",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2e0c66b88eadd664fffd0c95cbc69173a63bb48dcf3143d5e6ab71c643c81f44",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "reuse_pending_activation",
+      "route": "published_identity_pending_first_use_approval",
+      "targetIdentity": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6:sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+      "status": "blocked_until_first_indexed_use_and_quiz_approval"
+    },
+    {
+      "key": "quelque_concessive",
+      "form": "quelque",
+      "lemma": "quelque",
+      "meaning": "however; no matter how",
+      "partOfSpeech": "concessive adverb before adjective or noun",
+      "sourceOccurrencesSha256": "30fa030d187e4b31bb5f0ee8d25da7c9addf549e5f6bfedaae71a54a550fa217",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "2589d38c14a7e819a26bdc0f9610c2832a2537a2ba925e781f7e277bc3e653f9",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "quelque:quelque_concessive",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "defendre_resist_reflexive",
+      "form": "défendre",
+      "lemma": "défendre",
+      "meaning": "resist; keep oneself from",
+      "partOfSpeech": "infinitive in se défendre de",
+      "sourceOccurrencesSha256": "0ae3138d0d186e68c3bf7bf8ef30b4b54c4cf75c0cd850aeafce2856da7289bc",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "aae903144700558942f35b4ac49564957f4aa4341684d041d6a7eb5816d55753",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "défendre:defendre_resist_reflexive",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "enfin_after_all",
+      "form": "enfin",
+      "lemma": "enfin",
+      "meaning": "after all; when all is said",
+      "partOfSpeech": "discourse adverb",
+      "sourceOccurrencesSha256": "3490444479532b119e7724c6e757a7dd06a86cc1c2f2cf39391782a96f7b7783",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "4e817192939b6dd8242a5bcec36a499c47caa66c4f1b85d51ee3ec3d0c456a64",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "enfin:enfin_after_all",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "met_begins_reflexive",
+      "form": "met",
+      "lemma": "mettre",
+      "meaning": "begins (an action)",
+      "partOfSpeech": "present indicative third singular in se mettre à",
+      "sourceOccurrencesSha256": "1ebb7d8130891c479fe04aab4b94021ac105c2d1f0c785bc337ccdb7532f9aaa",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "df57813276141e9d5de2fb358f318b11cd505b3bb57dffe03bf3cfb46a52541c",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_fr_mettre_reflexive_begin",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "comprit_understood",
+      "form": "comprit",
+      "lemma": "comprendre",
+      "meaning": "understood; realized",
+      "partOfSpeech": "past historic third singular",
+      "sourceOccurrencesSha256": "c6c66bbb7a3ea464b8ea34f7b21a984bdd6dc3214be8425a90a43626fddf8947",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1d991ee3e63891a701917391b96f86fe9828dd03f876e598072b0fb2f8b41fef",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_zola_comprendre_understand",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vite_quickly",
+      "form": "vite",
+      "lemma": "vite",
+      "meaning": "quickly; fast",
+      "partOfSpeech": "adverb",
+      "sourceOccurrencesSha256": "c475f9aaafedd6421d16f2b5a0e3930e917960c40cb1ee3f6779f128a9914f7d",
+      "workwideUseCount": 4,
+      "chapterOneUseCount": 1,
+      "questionSha256": "982f4587387c83342f58093045ada8b9772a54e6bb9057b3efb6dd617ec084ec",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "link_published_sense",
+      "route": "add_surface_to_published_sense",
+      "targetSenseId": "sns_cendrillon_vite_rapidement_avec_vitesse_5bc32d98b1",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etre_living_being",
+      "form": "être",
+      "lemma": "être",
+      "meaning": "being; living creature",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "5d6aba624aac0df402fcb0c9f9fde9b1a3481449c7234c383fbb851fa6a4f926",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "être:etre_living_being",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "familiarisa_became_familiar",
+      "form": "familiarisa",
+      "lemma": "familiariser",
+      "meaning": "became familiar; grew at ease with",
+      "partOfSpeech": "past historic reflexive third singular",
+      "sourceOccurrencesSha256": "0be731a3605e8f6aa0b66caaa5375f2c33b808893b3fcf727011eb3e11a43454",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "15b41d833e967724a34e5a3f833c7487b9b047667e2d16b8f93694a2f4155873",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "familiariser:familiarisa_became_familiar",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "saturniens_inhabitants",
+      "form": "saturniens",
+      "lemma": "Saturnien",
+      "meaning": "inhabitants of Saturn",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "05ae487c0b0bf080c37b6b8dca3216c09c092298ce30e031aaef25afcb762c76",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "0c5afed17e6827e2bf3c6c34b29aa020e36c4df5b24c586664460bd242c9cac1",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "Saturnien:saturniens_inhabitants",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "lia_formed_bond",
+      "form": "lia",
+      "lemma": "lier",
+      "meaning": "formed; established (a friendship)",
+      "partOfSpeech": "past historic third singular",
+      "sourceOccurrencesSha256": "916504e113027e9832e0a5a738d7976f1a70d927be8dd3756decd55a75b81e92",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ba3a50deb134cfeb3f5c7bdd619fd61bbfcd3c76f4a2cdf7db8155955f211a93",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "lier:lia_formed_bond",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etroite_close_relationship",
+      "form": "étroite",
+      "lemma": "étroit",
+      "meaning": "close; intimate (friendship)",
+      "partOfSpeech": "adjective feminine singular",
+      "sourceOccurrencesSha256": "e806a6c71fae75623211c57f04303f1c2d7a1386b6e23a4da792f6c3ffa8aecc",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d6530283b9f963f3356b2fa0e1c39812a0c5e686cb606ca66c471a09488f7a90",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "étroit:etroite_close_relationship",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "amitie_friendship",
+      "form": "amitié",
+      "lemma": "amitié",
+      "meaning": "friendship",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "da2dfaddb174f5040043dc7e3b225d39138ef3c0fdaa3a9dd6720423291e9f7d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "d263c402571efdbfb0e72bf10a82d4e3a4d8a649ba6082bfc9e9b49adb04bb1b",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "amitié:amitie_friendship",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "verite_in_truth",
+      "form": "vérité",
+      "lemma": "vérité",
+      "meaning": "in fact; to tell the truth",
+      "partOfSpeech": "noun feminine singular in à/en vérité",
+      "sourceOccurrencesSha256": "93f47d7f7d681f712b6b42e40d585ee36a955b092f56be10e70335007462f3ba",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "0f1df06cc4ef719b8a7051fcb4ace80f31207e3f3c146b91427c4b9fc6a9e377",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "vérité:verite_in_truth",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "rendait_gave_account",
+      "form": "rendait",
+      "lemma": "rendre",
+      "meaning": "gave; presented (an account)",
+      "partOfSpeech": "imperfect indicative third singular in rendre compte",
+      "sourceOccurrencesSha256": "8054fca898b12bb8ddbbe39112b99bf5808943dd70a30a546ff2a68b5f9e432f",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "6d4e26fa895f408bb468c7ebeb5f9b97288d1c671642417bfad57992d8d27568",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "rendre:rendait_gave_account",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "compte_report",
+      "form": "compte",
+      "lemma": "compte",
+      "meaning": "account; explanation",
+      "partOfSpeech": "noun masculine singular in rendre compte",
+      "sourceOccurrencesSha256": "835adbd012dd26c97304647544b62568db25859c6fa6fc8badc394dafa7a89aa",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ba831d76f87d6d021bdb2237dada579f34d418d76173cf6173e6f24acff4211a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "compte:compte_report",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "passablement_appreciable_quantity",
+      "form": "passablement",
+      "lemma": "passablement",
+      "meaning": "quite a few; an appreciable amount of",
+      "partOfSpeech": "quantity adverb in passablement de",
+      "sourceOccurrencesSha256": "d4d040b35d787ba42e13a3f6c09bbdc9a573494679c2153373e0fef73bd057d7",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "9c38dd090361b88e59f07f7665bacd20908616a49a9e045a9191668f7c9c4bc9",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "passablement:passablement_appreciable_quantity",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vers_lines_of_poetry",
+      "form": "vers",
+      "lemma": "vers",
+      "meaning": "lines of verse; poetry",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "1eedd02604daa55c9a0cdfed12db1d10cabb1105ab2af8f06ab802002bcfb877",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "948def4936a9de4129b39f18aa23fefa5b37a8c53685aa9f09b859b2699153a1",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "vers:vers_lines_of_poetry",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "rapporterai_recount",
+      "form": "rapporterai",
+      "lemma": "rapporter",
+      "meaning": "I shall recount; I shall relate",
+      "partOfSpeech": "future indicative first singular",
+      "sourceOccurrencesSha256": "e91adeaa06d3d965dfcf97f14655ce89be0d9e637c106047d0a77f205cd3e4f1",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7130f527c8a6a547345fc8ea58733c297d229cb106cb978b3dbf42e4303a1c11",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_sense_existing_lemma",
+      "route": "new_sense",
+      "intendedSenseGroup": "rapporter:rapporterai_recount",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "satisfaction_pleasure",
+      "form": "satisfaction",
+      "lemma": "satisfaction",
+      "meaning": "pleasure; gratification",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "ffc14c0b008f52c7a7b3faca0c7f5789970920ad92616f2dcaf461c6c502a6d9",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "4674bc6eb46afc7c6d857e997bf1e5d36168c9012a2fd0029e636003301d5608",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "satisfaction:satisfaction_pleasure",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "lecteurs_readers",
+      "form": "lecteurs",
+      "lemma": "lecteur",
+      "meaning": "readers",
+      "partOfSpeech": "noun masculine plural",
+      "sourceOccurrencesSha256": "77bcf4a337783e8f49525a40e8b015c676f9d2e46e0e0e6e122bc81f68da052a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1154da1988a8d8005458ce99d571a70952a8c982ed25687a8938408aaaa0152a",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "new_lemma_sense",
+      "route": "new_lemma_and_sense",
+      "intendedSenseGroup": "lecteur:lecteurs_readers",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "etoile_literal_star",
+      "form": "étoile",
+      "lemma": "étoile",
+      "meaning": "star; luminous celestial body",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "d81e39f8725891f01139194fb4856d4184e5bf1f6dfd0d6ba1dd6130efc8d166",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 1,
+      "questionSha256": "8a1520d349b51e543f16a7dc31dc2a4b48b5ab6089095a5b595a6ec992311839",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "étoile:literal_celestial",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "honneur_privilege",
+      "form": "honneur",
+      "lemma": "honneur",
+      "meaning": "honor; privilege of an acquaintance or opportunity",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "b6d48463f841e33f3fd6c7c5042c245540524216a5a7a822a4ccd02c1b9cec14",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "1c47dcba7512bb9e933891007720a3cfd479241d709330b1ac4095f3614f3879",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "honneur:honneur_privilege",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "tete_body_head",
+      "form": "tête",
+      "lemma": "tête",
+      "meaning": "head; anatomical body part",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "10d48a6eccacad95687cb451d58122d3d262c5d64dc53eab07b356880ed8651d",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "a90d1f740486ccb3aa43a2ee2b19a8db9ebf03895bf68b9d3f0c10412aa36902",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "tête:tete_body_head",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "terre_planet_earth",
+      "form": "terre",
+      "lemma": "terre",
+      "meaning": "Earth; the planet inhabited by humans",
+      "partOfSpeech": "noun feminine singular",
+      "sourceOccurrencesSha256": "3764e250dde729cfac45e6af270f8e58e717e42af1bc43bd29ff27f72efbfaa5",
+      "workwideUseCount": 3,
+      "chapterOneUseCount": 3,
+      "questionSha256": "50bb80482b504d78c35e8843769090480ba223afac3b0fc5a81f4a9907cd75a1",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "terre:terre_planet_earth",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "ici_in_this_account",
+      "form": "ici",
+      "lemma": "ici",
+      "meaning": "here; at this point in the written account",
+      "partOfSpeech": "narrative adverb",
+      "sourceOccurrencesSha256": "3f85014bb969f6161fc423d0604afdf91d1cf7fbeda871475be838001eed4a10",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "ed6786996a68750f6f247e4672368a0aed0bc65d07e498e92724012cb0158007",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "ici:ici_in_this_account",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "nom_appellation",
+      "form": "nom",
+      "lemma": "nom",
+      "meaning": "name; word by which a person is called",
+      "partOfSpeech": "noun masculine singular",
+      "sourceOccurrencesSha256": "f1880cea7ecad1d588e78e10e81731a01b036d2dbe676106c8af38ea1fe71a77",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "bc1c6444f32538727e10fb3fd0236c0f32051507348932a51ca001593c6367de",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "nom:nom_appellation",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "vers_approximately_age",
+      "form": "vers",
+      "lemma": "vers",
+      "meaning": "around; approximately (an age)",
+      "partOfSpeech": "preposition before an age",
+      "sourceOccurrencesSha256": "529f15fb66d34113d1079cba2372667757eb6b5619a7530cb373c4737d168e8a",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "7a604d36a678095d72d242f83f50ffcb8b58156ec5fb47c952b87531957919dc",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "vers:vers_approximately_age",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "pas_historical_length",
+      "form": "pas",
+      "lemma": "pas",
+      "meaning": "paces; historical units of length",
+      "partOfSpeech": "noun masculine plural in historic measure",
+      "sourceOccurrencesSha256": "a8ff749b488f77194cd72bdc0fe7bcd6205764eb46474466e77106d503239a7a",
+      "workwideUseCount": 2,
+      "chapterOneUseCount": 2,
+      "questionSha256": "4f1e1ffdca4679186e647f74f3926d341b06e4af2d2f114297ab9a3820162fb7",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "pas:pas_historical_length",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    },
+    {
+      "key": "sortir_leaving_childhood",
+      "form": "sortir",
+      "lemma": "sortir",
+      "meaning": "emerging from; leaving a period of life",
+      "partOfSpeech": "infinitive in au sortir de",
+      "sourceOccurrencesSha256": "681c918b0f12bf2ca355087a6fb3c96df278348ab1a94bbc7df10b5162d07c62",
+      "workwideUseCount": 1,
+      "chapterOneUseCount": 1,
+      "questionSha256": "e162cdddeae8fd6b04d0c1d17225eff9fe3a3af101dba104bcbd5da777b12151",
+      "questionBands": [
+        "1-3",
+        "4-5",
+        "6-8"
+      ],
+      "priorDecision": "separate",
+      "route": "new_sense",
+      "intendedSenseGroup": "sortir:sortir_leaving_childhood",
+      "status": "offline_import_plan_pending_complete_work_signoff"
+    }
+  ]
+}

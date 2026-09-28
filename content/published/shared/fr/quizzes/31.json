@@ -1070,6 +1070,76 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_moins_que_fr_a_moins_que_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moins_que_a",
+        "senseId": "sns_fr_a_moins_que"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Nous partons _____ moins que le train ne tarde.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "de"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sans"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_a_point_fr_a_point_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_point_a",
+        "senseId": "sns_fr_a_point"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il faut partir à point pour finir la course.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 15,
+        "end": 16
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "at the right moment; in time"
+        },
+        {
+          "id": "choice_3",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_4",
+          "text": "by an agent"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_aise_glad_fr_aises_aise_adjective_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1619,6 +1689,44 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_ne_que_only_ne_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il ne restait qu’une seule preuve dans le dossier.",
+      "targetText": "ne",
+      "targetRange": {
+        "start": 3,
+        "end": 5
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "not at all"
+        },
+        {
+          "id": "choice_2",
+          "text": "already"
+        },
+        {
+          "id": "choice_3",
+          "text": "never again"
+        },
+        {
+          "id": "choice_4",
+          "text": "only, in ne ... que"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_fr_nouveau_new_fr_nouvelle_adjective_levels_1_3",

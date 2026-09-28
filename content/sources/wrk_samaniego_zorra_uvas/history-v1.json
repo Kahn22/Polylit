@@ -1,0 +1,161 @@
+{
+  "dossier": {
+    "schemaVersion": 1,
+    "standardVersion": 1,
+    "workId": "wrk_samaniego_zorra_uvas",
+    "identity": {
+      "title": "La zorra y las uvas",
+      "author": "Félix María Samaniego",
+      "language": "es",
+      "originCountry": {
+        "code": "ES",
+        "name": "Spain"
+      },
+      "collection": "Fábulas",
+      "book": "Libro IV",
+      "ordinal": 6,
+      "originalPublication": {
+        "claim": "Félix María Samaniego, Fábulas, ed. Miguel de Toro Gómez (Paris: Armand Colin, 1902), Libro IV, Fábula VI, pp. 83–84. Historical text cross-checked with the page scans and the Project Gutenberg transcription (ebook 55206); see the intake source report for typography and the cuando correction.",
+        "status": "legacy_claim_not_independently_reverified",
+        "note": "This citation may describe first publication or a later edition; do not treat the dates as interchangeable."
+      }
+    },
+    "edition": {
+      "legacyCitation": "Félix María Samaniego, Fábulas, ed. Miguel de Toro Gómez (Paris: Armand Colin, 1902), Libro IV, Fábula VI, pp. 83–84. Historical text cross-checked with the page scans and the Project Gutenberg transcription (ebook 55206); see the intake source report for typography and the cuando correction.",
+      "witnessMetadata": {
+        "publisher": "Armand Colin",
+        "datePublished": null,
+        "pagination": null,
+        "locationCreated": null,
+        "editor": "Miguel de Toro Gómez",
+        "place": "Paris",
+        "year": 1902,
+        "printedPages": "83–84"
+      },
+      "pageReferences": [],
+      "status": "identified_from_saved_transcription_metadata"
+    },
+    "acquisition": {
+      "requestedUrl": "https://www.gutenberg.org/cache/epub/55206/pg55206-images.html",
+      "resolvedUrl": "https://www.gutenberg.org/cache/epub/55206/pg55206-images.html",
+      "retrievedOn": "2026-09-21",
+      "role": "recorded_source",
+      "bytes": 569060,
+      "institution": "Project Gutenberg"
+    },
+    "canonical": {
+      "file": "canonical.txt",
+      "sha256": "c0ebe98def27c8999dd9dcae518069b0781802f08b0b8863e54443d5adacf480",
+      "characters": 562,
+      "scope": "complete_work_intended",
+      "scopeVerification": "verified_in_existing_intake",
+      "typographyPolicy": "modern_conventional_typography_preserving_wording",
+      "unitCount": 4,
+      "unitsReconstructIgnoringWhitespace": true
+    },
+    "rights": {
+      "status": "assessment_pending_documentary_completion",
+      "territories": [
+        "US",
+        "FR"
+      ],
+      "material": "Historical original-language literary text only; no translation, modern adaptation, illustrations, annotations or website boilerplate in learner text.",
+      "authorDeathYear": 1801,
+      "basis": "Recorded historical editions predate 1931 and recorded author deaths predate 1956. Original text is expected public domain by 2026 in US and France; verify edition-specific contributions and documentary dates before marking the dossier verified.",
+      "references": [
+        "https://www.copyright.gov/circs/circ15a.pdf",
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937"
+      ],
+      "otherTerritories": "Not assessed; author origin does not establish worldwide reuse rights.",
+      "referencesCheckedOn": "2026-09-21",
+      "referenceCheckNotes": "US Copyright Office Circular 15A retrieved and read. Legifrance endpoint returned HTTP 403 in this session; French documentary legal verification remains pending."
+    },
+    "transformations": {
+      "status": "documented_in_intake",
+      "log": "../../intake/samaniego-zorra-uvas/README.md",
+      "routinePolicy": "modern_conventional_typography_preserving_wording",
+      "canonicalChangedInThisMigration": false
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": "Codex",
+      "reviewedOn": "2026-09-21",
+      "checks": [
+        "Preserved current canonical text with SHA-256.",
+        "Saved source HTML and plain-text evidence.",
+        "Recorded edition metadata and page links where exposed by the witness.",
+        "Compared unit reconstruction and attempted automatic word-token comparison."
+      ],
+      "scanPagesVisuallyChecked": [
+        "83",
+        "84"
+      ],
+      "priorReviewEvidence": "../../intake/samaniego-zorra-uvas/README.md",
+      "openIssues": [
+        "Complete documentary rights assessment before full source verification."
+      ],
+      "scansPreserved": 2
+    },
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-09-21",
+        "reason": "Adopt source-dossier standard for every existing work.",
+        "textChanged": false,
+        "learnerImpact": "None: canonical text, occurrence spans, mastery identities and quizzes unchanged."
+      }
+    ],
+    "evidence": [
+      {
+        "file": "canonical.txt",
+        "sha256": "c0ebe98def27c8999dd9dcae518069b0781802f08b0b8863e54443d5adacf480",
+        "bytes": 575
+      },
+      {
+        "file": "comparison.json",
+        "sha256": "68c3954de18aedb3e91ecf13590ccdae567a3d66ecf89766ee221d74a11087c1",
+        "bytes": 239
+      },
+      {
+        "file": "diplomatic.txt",
+        "sha256": "f79dd0685901d744e761155dcf4a8887111da850d6e9e36d0749ee487671ec3a",
+        "bytes": 582
+      },
+      {
+        "file": "retrieval.json",
+        "sha256": "851be16376c94dee1a9a0406942ee522edb960040be72c95a3501cd4d6651311",
+        "bytes": 249
+      },
+      {
+        "file": "scan-1902-p83.jpg",
+        "sha256": "ae088fcdee81208b2dca776d542ff4c7ee50f331079dd5ef72c7f3e3c844581f",
+        "bytes": 777438
+      },
+      {
+        "file": "scan-1902-p84.jpg",
+        "sha256": "46089df3e56df8cc5e2e369671c3ab9fde5b7c2896a8cbd2d836493dcabef46e",
+        "bytes": 939168
+      },
+      {
+        "file": "witness-clean.txt",
+        "sha256": "b5f3ae8c1bc586df745e2ed7e2df16cdace3daa19cef0f0652ab40a590a93817",
+        "bytes": 286237
+      },
+      {
+        "file": "witness-page.txt",
+        "sha256": "17f56f047f41a971697ebcb08aafa49a2a67f01f0782583d6ddf15b6e0c8502a",
+        "bytes": 287443
+      },
+      {
+        "file": "witness.html",
+        "sha256": "d7dd0e993c71ebcf711acbe3fb595b9e68004991b4b60f37e8b934556999829c",
+        "bytes": 569060
+      }
+    ]
+  },
+  "comparison": {
+    "method": "Lowercase Unicode word tokens; long s normalized; punctuation and layout ignored. Automatic boundary detection requires first and last eight tokens. This is not a scan review.",
+    "boundaryLocated": false,
+    "changes": []
+  }
+}

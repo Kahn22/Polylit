@@ -1,0 +1,872 @@
+{
+  "version": 2,
+  "id": "fr-ne-restrictive-split-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T16:17:37.364Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_ne:sns_ne_primary",
+      "to": "srf_ne:sns_fr_ne_que_only",
+      "occurrenceIds": [
+        "occ_zola_1f6a51770544472f6e1affba",
+        "occ_zola_278e1f18f4a003a5f60adbf5",
+        "occ_zola_6253acfabf851d4bf0eb56a5",
+        "occ_zola_6cd27a24ddca96272b32a37f",
+        "occ_zola_ba1788aa5853c8341ef0ae3e",
+        "occ_zola_ebb494ea7e7a120c1117db79",
+        "occ_parure_6fb8722ace6a117d302a0778",
+        "occ_cendrillon_16f1ee225e4b403a71f04675",
+        "occ_cendrillon_662d4efecba1b31d449570a6",
+        "occ_cendrillon_7dda75ed85068d4078d37603"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_n_elided:sns_ne_primary",
+      "to": "srf_n_elided:sns_fr_ne_que_only",
+      "occurrenceIds": [
+        "occ_68f407d6a864b78af4b1aa0a",
+        "occ_zola_0151e84f53f3f74b76c66c94",
+        "occ_zola_1ad7d70706d8f167e8441a83",
+        "occ_zola_1eefd0f5b841f67b9e341635",
+        "occ_zola_49f40d2ce53a7ac0fc82130e",
+        "occ_zola_4b0ada8ed616f513be2601a7",
+        "occ_zola_548965006ba1a4c7ed2caa82",
+        "occ_zola_773a7538e1c3face917bdf3b",
+        "occ_zola_8c9f38b4bec04baebdfa12a5",
+        "occ_zola_8dfede1f991873b5cb554e8c",
+        "occ_zola_9bcfee0a9560b660dd438af0",
+        "occ_zola_fe3dcfc318e5f1bb3b2a7909",
+        "occ_parure_c1eddbc9e02c9b1ddede8ad0",
+        "occ_cendrillon_9e2c0c7e46578a05cdbee7ea",
+        "occ_cendrillon_827771ac7140750b421c08a8",
+        "occ_cendrillon_b1dcbb9abb9f0a6bd6782066",
+        "occ_cendrillon_1ed1915ec285f4016bb40503",
+        "occ_cendrillon_2a62bbabb770111c3a23e1f0"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_ne:sns_ne_primary",
+      "to": "srf_ne:sns_ne_primary",
+      "form": "ne",
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "from": "srf_ne:sns_ne_primary",
+      "to": "srf_ne:sns_fr_ne_que_only",
+      "form": "ne",
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "from": "srf_n_elided:sns_ne_primary",
+      "to": "srf_n_elided:sns_ne_primary",
+      "form": "n’",
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "from": "srf_n_elided:sns_ne_primary",
+      "to": "srf_n_elided:sns_fr_ne_que_only",
+      "form": "n’",
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_fr_ne_que_only",
+      "before": null,
+      "after": {
+        "id": "sns_fr_ne_que_only",
+        "lemmaId": "lem_ne",
+        "gloss": "only (in ne ... que)",
+        "definition": "Particule de la restriction ne ... que, équivalant à seulement."
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_1f6a51770544472f6e1affba",
+      "before": {
+        "id": "occ_zola_1f6a51770544472f6e1affba",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_023",
+        "start": 194,
+        "end": 196,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_1f6a51770544472f6e1affba",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_023",
+        "start": 194,
+        "end": 196,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_278e1f18f4a003a5f60adbf5",
+      "before": {
+        "id": "occ_zola_278e1f18f4a003a5f60adbf5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_084",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_278e1f18f4a003a5f60adbf5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_084",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_6253acfabf851d4bf0eb56a5",
+      "before": {
+        "id": "occ_zola_6253acfabf851d4bf0eb56a5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_017",
+        "start": 42,
+        "end": 44,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_6253acfabf851d4bf0eb56a5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_017",
+        "start": 42,
+        "end": 44,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_6cd27a24ddca96272b32a37f",
+      "before": {
+        "id": "occ_zola_6cd27a24ddca96272b32a37f",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_023",
+        "start": 405,
+        "end": 407,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_6cd27a24ddca96272b32a37f",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_023",
+        "start": 405,
+        "end": 407,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_ba1788aa5853c8341ef0ae3e",
+      "before": {
+        "id": "occ_zola_ba1788aa5853c8341ef0ae3e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_192",
+        "start": 4,
+        "end": 6,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_ba1788aa5853c8341ef0ae3e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_192",
+        "start": 4,
+        "end": 6,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_ebb494ea7e7a120c1117db79",
+      "before": {
+        "id": "occ_zola_ebb494ea7e7a120c1117db79",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_058",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_ebb494ea7e7a120c1117db79",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_058",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_6fb8722ace6a117d302a0778",
+      "before": {
+        "id": "occ_parure_6fb8722ace6a117d302a0778",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_063",
+        "start": 132,
+        "end": 134,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_parure_6fb8722ace6a117d302a0778",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_063",
+        "start": 132,
+        "end": 134,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_16f1ee225e4b403a71f04675",
+      "before": {
+        "id": "occ_cendrillon_16f1ee225e4b403a71f04675",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 125,
+        "end": 127,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_16f1ee225e4b403a71f04675",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 125,
+        "end": 127,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_662d4efecba1b31d449570a6",
+      "before": {
+        "id": "occ_cendrillon_662d4efecba1b31d449570a6",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_016",
+        "start": 259,
+        "end": 261,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_662d4efecba1b31d449570a6",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_016",
+        "start": 259,
+        "end": 261,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_7dda75ed85068d4078d37603",
+      "before": {
+        "id": "occ_cendrillon_7dda75ed85068d4078d37603",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_026",
+        "start": 198,
+        "end": 200,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_7dda75ed85068d4078d37603",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_026",
+        "start": 198,
+        "end": 200,
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_ne_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_ne_levels_1_3",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_1_3",
+        "contextFrench": "Il ne restait qu’une seule preuve dans le dossier.",
+        "correctAnswer": "only, in ne ... que",
+        "format": "meaning_choice",
+        "targetText": "ne",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "not at all",
+          "already",
+          "never again",
+          "only, in ne ... que"
+        ]
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_ne_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_ne_levels_4_5",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_4_5",
+        "contextFrench": "Il _____ pouvait s’agir que d’un officier de troupe.",
+        "correctAnswer": "ne",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "le",
+          "en",
+          "ne",
+          "se"
+        ]
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_ne_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_ne_levels_6_8",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_6_8",
+        "contextFrench": "La vérité ne se dévoilera que lorsqu’une enquête sera menée.",
+        "correctAnswer": "ne",
+        "format": "target_identification",
+        "promptFrench": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+        "choicesFrench": [
+          "menée",
+          "ne",
+          "vérité",
+          "enquête"
+        ]
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_68f407d6a864b78af4b1aa0a",
+      "before": {
+        "id": "occ_68f407d6a864b78af4b1aa0a",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_08",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary",
+        "start": 13,
+        "end": 15
+      },
+      "after": {
+        "id": "occ_68f407d6a864b78af4b1aa0a",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_08",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only",
+        "start": 13,
+        "end": 15
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_0151e84f53f3f74b76c66c94",
+      "before": {
+        "id": "occ_zola_0151e84f53f3f74b76c66c94",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_054",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_0151e84f53f3f74b76c66c94",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_054",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_1ad7d70706d8f167e8441a83",
+      "before": {
+        "id": "occ_zola_1ad7d70706d8f167e8441a83",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_144",
+        "start": 131,
+        "end": 133,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_1ad7d70706d8f167e8441a83",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_144",
+        "start": 131,
+        "end": 133,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_1eefd0f5b841f67b9e341635",
+      "before": {
+        "id": "occ_zola_1eefd0f5b841f67b9e341635",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_194",
+        "start": 3,
+        "end": 5,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_1eefd0f5b841f67b9e341635",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_194",
+        "start": 3,
+        "end": 5,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_49f40d2ce53a7ac0fc82130e",
+      "before": {
+        "id": "occ_zola_49f40d2ce53a7ac0fc82130e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_128",
+        "start": 17,
+        "end": 19,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_49f40d2ce53a7ac0fc82130e",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_128",
+        "start": 17,
+        "end": 19,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_4b0ada8ed616f513be2601a7",
+      "before": {
+        "id": "occ_zola_4b0ada8ed616f513be2601a7",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_028",
+        "start": 18,
+        "end": 20,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_4b0ada8ed616f513be2601a7",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_028",
+        "start": 18,
+        "end": 20,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_548965006ba1a4c7ed2caa82",
+      "before": {
+        "id": "occ_zola_548965006ba1a4c7ed2caa82",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_193",
+        "start": 30,
+        "end": 32,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_548965006ba1a4c7ed2caa82",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_193",
+        "start": 30,
+        "end": 32,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_773a7538e1c3face917bdf3b",
+      "before": {
+        "id": "occ_zola_773a7538e1c3face917bdf3b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_037",
+        "start": 13,
+        "end": 15,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_773a7538e1c3face917bdf3b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_037",
+        "start": 13,
+        "end": 15,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_8c9f38b4bec04baebdfa12a5",
+      "before": {
+        "id": "occ_zola_8c9f38b4bec04baebdfa12a5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 35,
+        "end": 37,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_8c9f38b4bec04baebdfa12a5",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_087",
+        "start": 35,
+        "end": 37,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_8dfede1f991873b5cb554e8c",
+      "before": {
+        "id": "occ_zola_8dfede1f991873b5cb554e8c",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_046",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_8dfede1f991873b5cb554e8c",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_046",
+        "start": 9,
+        "end": 11,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_9bcfee0a9560b660dd438af0",
+      "before": {
+        "id": "occ_zola_9bcfee0a9560b660dd438af0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_195",
+        "start": 26,
+        "end": 28,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_9bcfee0a9560b660dd438af0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_195",
+        "start": 26,
+        "end": 28,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_fe3dcfc318e5f1bb3b2a7909",
+      "before": {
+        "id": "occ_zola_fe3dcfc318e5f1bb3b2a7909",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_047",
+        "start": 10,
+        "end": 12,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_zola_fe3dcfc318e5f1bb3b2a7909",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_047",
+        "start": 10,
+        "end": 12,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_c1eddbc9e02c9b1ddede8ad0",
+      "before": {
+        "id": "occ_parure_c1eddbc9e02c9b1ddede8ad0",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_008",
+        "start": 60,
+        "end": 62,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_parure_c1eddbc9e02c9b1ddede8ad0",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_008",
+        "start": 60,
+        "end": 62,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_9e2c0c7e46578a05cdbee7ea",
+      "before": {
+        "id": "occ_cendrillon_9e2c0c7e46578a05cdbee7ea",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 287,
+        "end": 289,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_9e2c0c7e46578a05cdbee7ea",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_007",
+        "start": 287,
+        "end": 289,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_827771ac7140750b421c08a8",
+      "before": {
+        "id": "occ_cendrillon_827771ac7140750b421c08a8",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 25,
+        "end": 27,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_827771ac7140750b421c08a8",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 25,
+        "end": 27,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b1dcbb9abb9f0a6bd6782066",
+      "before": {
+        "id": "occ_cendrillon_b1dcbb9abb9f0a6bd6782066",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_019",
+        "start": 131,
+        "end": 133,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_b1dcbb9abb9f0a6bd6782066",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_019",
+        "start": 131,
+        "end": 133,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_1ed1915ec285f4016bb40503",
+      "before": {
+        "id": "occ_cendrillon_1ed1915ec285f4016bb40503",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_022",
+        "start": 316,
+        "end": 318,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_1ed1915ec285f4016bb40503",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_022",
+        "start": 316,
+        "end": 318,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_2a62bbabb770111c3a23e1f0",
+      "before": {
+        "id": "occ_cendrillon_2a62bbabb770111c3a23e1f0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_028",
+        "start": 46,
+        "end": 48,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_ne_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_2a62bbabb770111c3a23e1f0",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_028",
+        "start": 46,
+        "end": 48,
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_n_elided_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_n_elided_levels_1_3",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_1_3",
+        "contextFrench": "Il n’y a ici qu’une seule explication.",
+        "correctAnswer": "only, in n’ ... que",
+        "format": "meaning_choice",
+        "targetText": "n’",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "everywhere",
+          "only, in n’ ... que",
+          "not at all",
+          "already"
+        ]
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_n_elided_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_n_elided_levels_4_5",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_4_5",
+        "contextFrench": "Elle _____avait que quatre pas à faire.",
+        "correctAnswer": "n’",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "n’",
+          "ne",
+          "ni",
+          "non"
+        ]
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_ne_que_only_n_elided_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_ne_que_only_n_elided_levels_6_8",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only",
+        "band": "levels_6_8",
+        "contextFrench": "Je n’ai qu’une passion, comprendre la vérité et la faire connaître.",
+        "correctAnswer": "n’",
+        "format": "target_identification",
+        "promptFrench": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+        "choicesFrench": [
+          "passion",
+          "vérité",
+          "connaître",
+          "n’"
+        ]
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation."
+    }
+  ]
+}

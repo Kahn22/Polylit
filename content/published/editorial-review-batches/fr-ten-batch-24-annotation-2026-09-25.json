@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-ten-batch-24-annotation-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison after five occurrence reassignments",
+  "changes": [
+    {
+      "subjectId": "wrk_zola_jaccuse",
+      "reviewId": "annotations:wrk_zola_jaccuse",
+      "outcome": "approve",
+      "rationale": "The 199 ordered passage units retain identical canonical text and structure; the five reassigned doute, mets, and en occurrences retain their exact source spans and now match the idiomatic contexts.",
+      "before": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_51201df1b97ce347cfc4b6c5ebe7e8aa9ce07832e7778c1ebb3a1ffae7c5c5d1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The ordered passage units retain identical canonical text and structure; the reassigned rendre, trouver, and eux-mêmes occurrences retain their exact source spans and now match their local contexts.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T15:47:13.392Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_31b931f1f36e2a538a2c0d072e57be18f1f3e724f1121e994e1c4154792af6ce",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The 199 ordered passage units retain identical canonical text and structure; the five reassigned doute, mets, and en occurrences retain their exact source spans and now match the idiomatic contexts.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:07:44.336Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 199
+    }
+  ]
+}

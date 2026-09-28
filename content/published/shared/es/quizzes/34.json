@@ -2528,6 +2528,77 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_hojas_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_hojas",
+        "senseId": "sns_es_samaniego_hojas"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Las hojas daban sombra a las flores; las raíces quedaban bajo tierra.",
+      "prompt": "¿Qué palabra nombra las partes planas de la planta que nacen en las ramas?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "hojas"
+        },
+        {
+          "id": "choice_2",
+          "text": "flores"
+        },
+        {
+          "id": "choice_3",
+          "text": "raíces"
+        },
+        {
+          "id": "choice_4",
+          "text": "tierra"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_copio_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_copio_copiar_sourcefix",
+        "senseId": "sns_es_copio_reproduce"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El escribano copió el párrafo de un documento anterior.",
+      "targetText": "copió",
+      "targetRange": {
+        "start": 13,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "copied"
+        },
+        {
+          "id": "choice_2",
+          "text": "destroyed"
+        },
+        {
+          "id": "choice_3",
+          "text": "translated"
+        },
+        {
+          "id": "choice_4",
+          "text": "invented"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

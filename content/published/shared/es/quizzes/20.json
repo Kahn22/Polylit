@@ -2251,6 +2251,148 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_samaniego_algun_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_algun",
+        "senseId": "sns_es_samaniego_algun"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Si encuentras algún error, avísame para corregirlo.",
+      "targetText": "algún",
+      "targetRange": {
+        "start": 14,
+        "end": 19
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "some; any"
+        },
+        {
+          "id": "choice_2",
+          "text": "every"
+        },
+        {
+          "id": "choice_3",
+          "text": "no"
+        },
+        {
+          "id": "choice_4",
+          "text": "the same"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_las_pronoun_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_las_pronoun",
+        "senseId": "sns_es_samaniego_las_pronoun"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Encontré las llaves junto al libro y las devolví a su dueña.",
+      "prompt": "¿Qué palabra sustituye a las llaves como objeto de devolví?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "las"
+        },
+        {
+          "id": "choice_2",
+          "text": "llaves"
+        },
+        {
+          "id": "choice_3",
+          "text": "libro"
+        },
+        {
+          "id": "choice_4",
+          "text": "dueña"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_maduras_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_maduras",
+        "senseId": "sns_es_samaniego_maduras"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Apartó las manzanas podridas y guardó las maduras junto a las peras verdes.",
+      "prompt": "¿Qué adjetivo indica que las frutas están listas para comer?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "maduras"
+        },
+        {
+          "id": "choice_2",
+          "text": "podridas"
+        },
+        {
+          "id": "choice_3",
+          "text": "verdes"
+        },
+        {
+          "id": "choice_4",
+          "text": "manzanas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_mostrar_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_mostrar",
+        "senseId": "sns_es_samaniego_mostrar"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Abrió el álbum para mostrar las fotografías a sus amigos.",
+      "targetText": "mostrar",
+      "targetRange": {
+        "start": 20,
+        "end": 27
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "to show; to display"
+        },
+        {
+          "id": "choice_2",
+          "text": "to conceal"
+        },
+        {
+          "id": "choice_3",
+          "text": "to forget"
+        },
+        {
+          "id": "choice_4",
+          "text": "to destroy"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

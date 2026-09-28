@@ -1896,6 +1896,82 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_ayunas_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_ayunas",
+        "senseId": "sns_es_samaniego_ayunas"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Llegó en ayunas y pidió algo para desayunar.",
+      "targetText": "ayunas",
+      "targetRange": {
+        "start": 9,
+        "end": 15
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "fasting; without eating"
+        },
+        {
+          "id": "choice_2",
+          "text": "in a hurry"
+        },
+        {
+          "id": "choice_3",
+          "text": "in silence"
+        },
+        {
+          "id": "choice_4",
+          "text": "in company"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_cuento_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_cuento",
+        "senseId": "sns_es_samaniego_cuento"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Su abuelo le contó un cuento antes de dormir.",
+      "targetText": "cuento",
+      "targetRange": {
+        "start": 22,
+        "end": 28
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "story; tale"
+        },
+        {
+          "id": "choice_2",
+          "text": "recipe"
+        },
+        {
+          "id": "choice_3",
+          "text": "bill"
+        },
+        {
+          "id": "choice_4",
+          "text": "map"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

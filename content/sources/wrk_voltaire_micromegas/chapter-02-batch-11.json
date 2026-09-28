@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 2,
+  "status": "offline_editorial_draft_unpublished",
+  "expectedIdentityCount": 10,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "note": "Chapter II contextual source and three-band question drafts. All learner import and complete chapter coverage remain pending.",
+  "items": [
+    {
+      "key": "comptez_count",
+      "form": "comptez",
+      "lemma": "compter",
+      "partOfSpeech": "present indicative second plural",
+      "meaning": "you count; reckon",
+      "editorialNote": "Combien comptez-vous asks how many material properties the Saturnian counts.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 51,
+          "start": 8,
+          "end": 15,
+          "text": "comptez"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Combien de propriétés comptez-vous ?",
+          "question": "Meaning",
+          "answer": "do you count",
+          "choices": [
+            "do you count",
+            "do you hide",
+            "do you forget",
+            "do you refuse"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Vous faites le total de ces objets : vous les ___.",
+          "question": "Complétez la phrase.",
+          "answer": "comptez",
+          "choices": [
+            "comptez",
+            "cachez",
+            "oubliez",
+            "refusez"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Vous comptez les objets en calculant leur nombre. Vous les cachez en les dissimulant, les oubliez en les laissant sortir de votre mémoire et les refusez en les rejetant.",
+          "question": "Quel verbe signifie calculer leur nombre ?",
+          "answer": "comptez",
+          "choices": [
+            "comptez",
+            "cachez",
+            "oubliez",
+            "refusez"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "parlez_speak",
+      "form": "parlez",
+      "lemma": "parler",
+      "partOfSpeech": "present indicative second plural",
+      "meaning": "you speak; you are talking about",
+      "editorialNote": "Si vous parlez de ces propriétés introduces the topic of material properties.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 51,
+          "start": 79,
+          "end": 85,
+          "text": "parlez"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Vous parlez de la matière.",
+          "question": "Meaning",
+          "answer": "speak about",
+          "choices": [
+            "speak about",
+            "forget",
+            "measure",
+            "buy"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Vous discutez de ce sujet : vous en ___.",
+          "question": "Complétez la phrase.",
+          "answer": "parlez",
+          "choices": [
+            "parlez",
+            "oubliez",
+            "mesurez",
+            "achetez"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Vous parlez du sujet quand vous en discutez. Vous l’oubliez si vous n’y pensez plus, le mesurez si vous en déterminez la taille et l’achetez si vous payez pour l’obtenir.",
+          "question": "Quel verbe indique la discussion ?",
+          "answer": "parlez",
+          "choices": [
+            "parlez",
+            "oubliez",
+            "mesurez",
+            "achetez"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lesquelles_which",
+      "form": "lesquelles",
+      "lemma": "lequel",
+      "partOfSpeech": "relative pronoun feminine plural",
+      "meaning": "which; those that",
+      "editorialNote": "Sans lesquelles refers back to the feminine plural properties needed for the globe to exist.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 51,
+          "start": 128,
+          "end": 138,
+          "text": "lesquelles"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ces propriétés sans lesquelles le globe ne subsiste pas…",
+          "question": "Meaning",
+          "answer": "without which",
+          "choices": [
+            "without which",
+            "because of whom",
+            "with how many",
+            "before what time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ces lois sont importantes : sans ___ le système échouerait.",
+          "question": "Complétez la phrase.",
+          "answer": "lesquelles",
+          "choices": [
+            "lesquelles",
+            "lesquels",
+            "laquelle",
+            "lequel"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Les lois sont féminines et plurielles : sans lesquelles indique celles dont dépend le système. Lesquels est masculin pluriel, laquelle féminin singulier et lequel masculin singulier.",
+          "question": "Quel pronom reprend ces lois ?",
+          "answer": "lesquelles",
+          "choices": [
+            "lesquelles",
+            "lesquels",
+            "laquelle",
+            "lequel"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "croyons_we_believe",
+      "form": "croyons",
+      "lemma": "croire",
+      "partOfSpeech": "present indicative first plural",
+      "meaning": "we believe; we think",
+      "editorialNote": "Nous croyons that the globe needs certain properties, a stated belief rather than proof.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 51,
+          "start": 144,
+          "end": 151,
+          "text": "croyons"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nous croyons que ce globe en a besoin.",
+          "question": "Meaning",
+          "answer": "we believe",
+          "choices": [
+            "we believe",
+            "we know with certainty",
+            "we forget",
+            "we measure"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Nous pensons que cette idée est vraie : nous le ___.",
+          "question": "Complétez la phrase.",
+          "answer": "croyons",
+          "choices": [
+            "croyons",
+            "savons",
+            "oublions",
+            "mesurons"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Nous croyons une idée lorsque nous la tenons pour vraie. Nous savons si elle est établie, oublions si nous ne nous en souvenons plus et mesurons si nous calculons une valeur.",
+          "question": "Quel verbe exprime une conviction ?",
+          "answer": "croyons",
+          "choices": [
+            "croyons",
+            "savons",
+            "oublions",
+            "mesurons"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "comptons_we_count",
+      "form": "comptons",
+      "lemma": "compter",
+      "partOfSpeech": "present indicative first plural",
+      "meaning": "we count; we reckon",
+      "editorialNote": "Nous en comptons trois cents describes counting properties or substances.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 51,
+          "start": 210,
+          "end": 218,
+          "text": "comptons"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nous comptons trois cents propriétés.",
+          "question": "Meaning",
+          "answer": "we count",
+          "choices": [
+            "we count",
+            "we conceal",
+            "we paint",
+            "we lose"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Nous calculons leur nombre : nous les ___.",
+          "question": "Complétez la phrase.",
+          "answer": "comptons",
+          "choices": [
+            "comptons",
+            "cachons",
+            "peignons",
+            "perdons"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Nous comptons les objets en calculant leur nombre. Nous les cachons en les dissimulant, les peignons en leur donnant des couleurs et les perdons en ne les retrouvant plus.",
+          "question": "Quel verbe indique le calcul du nombre ?",
+          "answer": "comptons",
+          "choices": [
+            "comptons",
+            "cachons",
+            "peignons",
+            "perdons"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "apparemment_apparently",
+      "form": "apparemment",
+      "lemma": "apparemment",
+      "partOfSpeech": "adverb",
+      "meaning": "apparently; it seems",
+      "editorialNote": "The traveler infers that the smaller set of properties appears sufficient for Saturn.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 52,
+          "start": 2,
+          "end": 13,
+          "text": "Apparemment"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Apparemment, ce nombre suffit.",
+          "question": "Meaning",
+          "answer": "apparently",
+          "choices": [
+            "apparently",
+            "certainly",
+            "never",
+            "secretly"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cela semble vrai sans être démontré : ___.",
+          "question": "Complétez la phrase.",
+          "answer": "apparemment",
+          "choices": [
+            "apparemment",
+            "certainement",
+            "jamais",
+            "secrètement"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Apparemment indique une conclusion fondée sur les apparences. Certainement annonce une certitude, jamais exclut tout moment et secrètement décrit une action cachée.",
+          "question": "Quel mot marque une apparence plutôt qu’une preuve ?",
+          "answer": "apparemment",
+          "choices": [
+            "apparemment",
+            "certainement",
+            "jamais",
+            "secrètement"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vues_purposes",
+      "form": "vues",
+      "lemma": "vue",
+      "partOfSpeech": "noun feminine plural",
+      "meaning": "plans; purposes; intentions",
+      "editorialNote": "Les vues que le Créateur avait sur votre habitation are the Creator’s intended ends, not literal visual sights.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 52,
+          "start": 68,
+          "end": 72,
+          "text": "vues"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le Créateur a des vues pour cette planète.",
+          "question": "Meaning",
+          "answer": "purposes",
+          "choices": [
+            "purposes",
+            "eyesights",
+            "paintings",
+            "windows"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il a des intentions pour ce projet : des ___.",
+          "question": "Complétez la phrase.",
+          "answer": "vues",
+          "choices": [
+            "vues",
+            "images",
+            "fenêtres",
+            "peintures"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ses vues sont ici ses intentions. Les images représentent des scènes, les fenêtres sont des ouvertures et les peintures des œuvres réalisées avec des couleurs.",
+          "question": "Quel nom désigne les intentions ?",
+          "answer": "vues",
+          "choices": [
+            "vues",
+            "images",
+            "fenêtres",
+            "peintures"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "createur_creator",
+      "form": "créateur",
+      "lemma": "créateur",
+      "partOfSpeech": "noun masculine singular",
+      "meaning": "Creator; maker of the world",
+      "editorialNote": "The Creator is the divine maker invoked in the speaker’s philosophical account.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 52,
+          "start": 80,
+          "end": 88,
+          "text": "Créateur"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le Créateur a donné à ce monde ses propriétés.",
+          "question": "Meaning",
+          "answer": "creator",
+          "choices": [
+            "creator",
+            "inhabitant",
+            "traveler",
+            "scholar"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Celui qui a créé ce monde : son ___.",
+          "question": "Complétez la phrase.",
+          "answer": "créateur",
+          "choices": [
+            "créateur",
+            "habitant",
+            "visiteur",
+            "lecteur"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le créateur produit ce qui n’existait pas. Un habitant vit dans un lieu, un visiteur y passe et un lecteur lit un texte.",
+          "question": "Quel nom désigne celui qui crée ?",
+          "answer": "créateur",
+          "choices": [
+            "créateur",
+            "habitant",
+            "visiteur",
+            "lecteur"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "habitation_dwelling_place",
+      "form": "habitation",
+      "lemma": "habitation",
+      "partOfSpeech": "noun feminine singular",
+      "meaning": "dwelling place; home",
+      "editorialNote": "Votre petite habitation refers metaphorically to Saturn as the home of its inhabitants.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 52,
+          "start": 112,
+          "end": 122,
+          "text": "habitation"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Cette planète est leur habitation.",
+          "question": "Meaning",
+          "answer": "home",
+          "choices": [
+            "home",
+            "journey",
+            "painting",
+            "question"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette demeure est l’endroit où ils vivent : leur ___.",
+          "question": "Complétez la phrase.",
+          "answer": "habitation",
+          "choices": [
+            "habitation",
+            "expédition",
+            "peinture",
+            "interrogation"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "L’habitation est le lieu où l’on vit. L’expédition est un voyage, la peinture une œuvre ou matière colorée et l’interrogation une question.",
+          "question": "Quel nom désigne le lieu de vie ?",
+          "answer": "habitation",
+          "choices": [
+            "habitation",
+            "expédition",
+            "peinture",
+            "interrogation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "admire_admires",
+      "form": "admire",
+      "lemma": "admirer",
+      "partOfSpeech": "present indicative first singular",
+      "meaning": "I admire; regard with wonder",
+      "editorialNote": "J’admire en tout sa sagesse praises the Creator’s wisdom.",
+      "formCoverage": "contextual_sense_subset",
+      "sourceOccurrences": [
+        {
+          "chapter": 2,
+          "unit": 53,
+          "start": 2,
+          "end": 8,
+          "text": "admire"
+        }
+      ],
+      "status": "chapter_two_context_reviewed_question_signoff_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "J’admire sa sagesse.",
+          "question": "Meaning",
+          "answer": "I admire",
+          "choices": [
+            "I admire",
+            "I deny",
+            "I forget",
+            "I fear"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Je trouve sa sagesse remarquable : je l’___.",
+          "question": "Complétez la phrase.",
+          "answer": "admire",
+          "choices": [
+            "admire",
+            "ignore",
+            "oublie",
+            "accuse"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Je l’admire quand je la trouve remarquable. Je l’ignore si je n’y prête pas attention, l’oublie si je ne m’en souviens plus et l’accuse si je lui reproche quelque chose.",
+          "question": "Quel verbe exprime l’émerveillement ?",
+          "answer": "admire",
+          "choices": [
+            "admire",
+            "ignore",
+            "oublie",
+            "accuse"
+          ]
+        }
+      ]
+    }
+  ]
+}

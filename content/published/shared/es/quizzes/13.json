@@ -1794,6 +1794,175 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_samaniego_ayunas_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_ayunas",
+        "senseId": "sns_es_samaniego_ayunas"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Salió en ayunas y regresó con hambre, cansancio y sueño.",
+      "prompt": "¿Qué palabra, junto con en, indica que había salido sin comer?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "ayunas"
+        },
+        {
+          "id": "choice_2",
+          "text": "hambre"
+        },
+        {
+          "id": "choice_3",
+          "text": "cansancio"
+        },
+        {
+          "id": "choice_4",
+          "text": "sueño"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_imposible_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_imposible",
+        "senseId": "sns_es_samaniego_imposible"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Hacer que el sol salga por el oeste es un ___ para cualquier persona.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "imposible"
+        },
+        {
+          "id": "choice_2",
+          "text": "premio"
+        },
+        {
+          "id": "choice_3",
+          "text": "permiso"
+        },
+        {
+          "id": "choice_4",
+          "text": "beneficio"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_pendia_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_pendia",
+        "senseId": "sns_es_samaniego_pendia"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Una lámpara pendía del techo sobre la mesa.",
+      "targetText": "pendía",
+      "targetRange": {
+        "start": 12,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was hanging"
+        },
+        {
+          "id": "choice_2",
+          "text": "was burning"
+        },
+        {
+          "id": "choice_3",
+          "text": "was rolling"
+        },
+        {
+          "id": "choice_4",
+          "text": "was growing"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_quedase_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_quedase",
+        "senseId": "sns_es_samaniego_quedase"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "La niña quédase en el jardín; su hermano sale y el perro corre tras él.",
+      "prompt": "¿Qué palabra indica que alguien permanece en un lugar?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "quédase"
+        },
+        {
+          "id": "choice_2",
+          "text": "sale"
+        },
+        {
+          "id": "choice_3",
+          "text": "corre"
+        },
+        {
+          "id": "choice_4",
+          "text": "jardín"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_vio_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_vio",
+        "senseId": "sns_es_samaniego_vio"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Leyó el informe y vio que el plan era inviable; después llamó al director.",
+      "prompt": "¿Qué verbo expresa que comprendió la inviabilidad del plan?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vio"
+        },
+        {
+          "id": "choice_2",
+          "text": "leyó"
+        },
+        {
+          "id": "choice_3",
+          "text": "llamó"
+        },
+        {
+          "id": "choice_4",
+          "text": "director"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

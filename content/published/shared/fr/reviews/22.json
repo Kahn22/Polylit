@@ -10,8 +10,15 @@
       "subjectId": "exi_parure_par_consequent_40a447f3d5",
       "subjectRevision": "rev_c28ebb9093c1dbaeeeff4df07607b9ec3dc12a1ca2777d19ca09bf82490b371e",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Both occurrences of par conséquent introduce a logical consequence; the shared expression meaning and spans fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "shared_meaning",
+        "source_spans",
+        "separate_from_component_words"
+      ]
     },
     {
       "id": "quiz:exq_parure_par_consequent_40a447f3d5_early",
@@ -41,9 +48,9 @@
       "subjectRevision": "rev_767a52b81a45d4cd09f21e9f23d8a55d6d02b02f8bff88fc77eaa65d98dd8ac5",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "All three bands individually read against the current lexical target. Infinitive movement to a location; three distinct contexts.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T16:28:46.987Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -58,12 +65,20 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_ayant_having_intermediate",
-      "subjectRevision": "rev_ed85eff31f2edd45a055c1419e738d76f16a33fe9957ec3656e76af5ede62b41",
+      "subjectRevision": "rev_b3685620768ea629950a0e2bb8f51ed4e5e22170c0a8e66eb92ca401fc6381ad",
       "policy": "polylit-editorial-v2",
-      "status": "rejected",
-      "reason": "Ayant is present participle avoir, with lexical and auxiliary uses; sense incorrectly defines avait imperfect third singular. Correct shared metadata and usages.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:28:51.672Z"
+      "status": "approved",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
     },
     {
       "id": "quiz:qiz_cendrillon_achever_sns_cendrillon_achever_finir_une_chose_commencee_15602b231f_ee84306845_advanced",
@@ -110,12 +125,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_cendrillon_alloit_sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133_67de6e8eee_early",
-      "subjectRevision": "rev_4588b9e1c493e753c98b3c195d3759ebbf15f79db67bea11c39db70a405c80e9",
+      "subjectRevision": "rev_b0b13ed068e145ac56f951f17d115dc87ff87a106a44f1387f2dfb6621327d66",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Meaning checked against the source; three distinct contextual questions authored. Intermediate agreement: Agreement and number checked; historical target spellings preserved.. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:52:00.636Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -222,12 +237,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_cendrillon_pantoufles_sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc_2353332cae_intermediate",
-      "subjectRevision": "rev_832aa5a5d5ab78b4be43a023cbb04351f1cc80bb6c062a761da5024d70aa2be7",
+      "subjectRevision": "rev_1e8d1939ae9b04d85ff30dc93898aea4825d2dab1ecc6146fbc86fdd7c859d02",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Slippers, source glass material does not alter footwear identity. Intermediate agreement: feminine plural. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:24:06.131Z",
+      "reason": "Re-reviewed the authored question after its target meaning was corrected or clarified; its context, answer, grammatical fit, distractors, and band remain valid.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -750,6 +765,26 @@
       ]
     },
     {
+      "id": "quiz:qiz_fr_finir_par_eventually_fr_finir_par_par_levels_1_3",
+      "language": "fr",
+      "kind": "quiz",
+      "subjectId": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_1_3",
+      "subjectRevision": "rev_7b691f608d7da55cd9a3b0112528775aa48e4cc2b3e0deebf24d143c49ddf496",
+      "policy": "polylit-editorial-v2",
+      "status": "approved",
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-26T00:26:27.280Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
+    },
+    {
       "id": "quiz:qiz_fr_foi_attestation_cigale_fourmi_foi_lem_cigale_fourmi_foi_noun_bfbf2615e4_7850306a53_levels_1_3",
       "language": "fr",
       "kind": "quiz",
@@ -910,6 +945,26 @@
       ]
     },
     {
+      "id": "quiz:qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+      "language": "fr",
+      "kind": "quiz",
+      "subjectId": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+      "subjectRevision": "rev_bd2f203156ca145b783138e43b98fffb850bf82be002c238b5f34ca795f3b2ca",
+      "policy": "polylit-editorial-v2",
+      "status": "approved",
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-25T16:07:22.240Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
+    },
+    {
       "id": "quiz:qiz_fr_secrier_exclaim_fr_ecria_s_ecrier_verb_levels_1_3",
       "language": "fr",
       "kind": "quiz",
@@ -1034,12 +1089,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_meprise_despises_advanced",
-      "subjectRevision": "rev_bd0217a58ec3d029661124bd602514d97eea5925dfd1151ce104445450191ce1",
+      "subjectRevision": "rev_07fdd6524af2751dd1161b801ed04177107fc66e31a30f5ded65b9178085b96e",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Use agreement alternatives instead of viable accepte. Intermediate agreement: third singular present. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:41:58.440Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1094,12 +1149,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_parure_apercue_apercevoir_notice_34b0d7226f_intermediate",
-      "subjectRevision": "rev_2998cf567869df2c8c89887feec818f046cebdc5ea065f558113bf31b6d16168",
+      "subjectRevision": "rev_b3a4e712c2e36778a0a156856e1d79fe26c7e265cb7ef01b0336cd42ffb36619",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Reviewed meaning, source use, three distinct contexts and a single defensible answer. Intermediate agreement: All choices fit the required number and agreement where applicable.. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:34:56.170Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1362,12 +1417,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_parure_fermeture_sns_parure_fermeture_dispositif_qui_sert_a_fermer_4e50482436_5762c779fa_early",
-      "subjectRevision": "rev_9e2d54ce03bd293743454ae060b3051a0a6aeb9f74c0134343ee45c499ef7750",
+      "subjectRevision": "rev_ad0df47fc1b834b94c60d2915ba2defb5816dd17c00c9e54581a79108ab0d3a8",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Fastening mechanism, not act of closing as wrong answer. Intermediate agreement: feminine singular. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:12:06.320Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1518,12 +1573,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_parure_occasion_sns_parure_occasion_rencontre_conjoncture_ou_concours_fortuit_et_ephemere_de_circonstances_qui_favorise_temporairement_une_entreprise_un_dessein_etc_a43e45a25c_b5d0cc94eb_early",
-      "subjectRevision": "rev_e2bd7e8ca7750c2ce381790047b4e3e3992bc3c0141ee10a6b2fb164b34025b6",
+      "subjectRevision": "rev_aa55693b8f6401c3ab0a2e4fa97946b277a05f25986a1866eaaab95eb9653e16",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Opportunity sense, not a dated event; feminine singular alternatives. Intermediate agreement: feminine singular. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T09:20:35.914Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1810,12 +1865,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_trait_dart_advanced",
-      "subjectRevision": "rev_9ee2e50fc3b1ef73c5a76dd795c978707b1e558f3517b610925c193472d18a87",
+      "subjectRevision": "rev_68be702f81019327e8902e0aa52767855bcb4cb39af44ef0a60d8c37a1fee288",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "New projectile context avoids the source-like hare comparison. Intermediate agreement: masculine singular. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T09:31:23.811Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -2865,9 +2920,9 @@
       "subjectRevision": "rev_e2d83fb1f7b9c0926f334921a9b85846556a7599b97f2efaadf41e29945f69b1",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Read totality and agreement correct. Intermediate agreement: feminine plural determiner. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
+      "reason": "Fourteen occurrences determine explicit feminine plural nouns, including toutes les fautes, toutes choses and toutes les personnes; the three existing questions target that determiner form.",
       "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:46:39.458Z",
+      "reviewedAt": "2026-09-25T16:15:41.538Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -2932,8 +2987,16 @@
       "subjectId": "srf_cendrillon_laquais_lem_cendrillon_laquais_noun_16b2fdc7ff_4930d90b90:sns_cendrillon_laquais_valet_de_livree_destine_principalement_a_suivre_son_maitre_ou_sa_maitresse_ee8e44fd01",
       "subjectRevision": "rev_3c09848475294146980c2af55155de99a9e887c3fcd6642c52066106a1376e13",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed all three plural occurrences: the lizards are transformed into liveried servants who ride behind the carriage, later reverting to lizards, and guards report seeing them leave. The laquais servant sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_mere_lem_cendrillon_mere_noun_756760135e_8a02a83b02:sns_cendrillon_mere_femme_qui_a_donne_naissance_a_au_moins_un_enfant_03e4c88001",
@@ -2942,8 +3005,34 @@
       "subjectId": "srf_cendrillon_mere_lem_cendrillon_mere_noun_756760135e_8a02a83b02:sns_cendrillon_mere_femme_qui_a_donne_naissance_a_au_moins_un_enfant_03e4c88001",
       "subjectRevision": "rev_56e37f0ca63402abf6b4925f762aabdeaa1b019759e1ecd40b3850bab58b129c",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole capitalized occurrence: Cinderella inherited her gentleness from her mother, who is described as the best person. The kinship noun mère and sense align.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
+    },
+    {
+      "id": "vocabulary:srf_fr_a_aucun_prix_a:sns_fr_a_aucun_prix",
+      "language": "fr",
+      "kind": "vocabulary",
+      "subjectId": "srf_fr_a_aucun_prix_a:sns_fr_a_aucun_prix",
+      "subjectRevision": "rev_5012963476da7c1a202df40ab2c534f9e080d136ebf43cee3b436f7ba23c56ff",
+      "policy": "polylit-editorial-v2",
+      "status": "approved",
+      "reason": "The 1 occurrence(s) use « à aucun prix » in context with the phrase meaning “at no price; under no circumstances”; the preposition's destination, time and complement gloss does not express that fixed meaning. Retain original occurrence IDs and spans.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-26T00:35:09.941Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_fr_durs_dur_adjective:sns_fr_dur_difficult",
@@ -3004,10 +3093,18 @@
       "language": "fr",
       "kind": "vocabulary",
       "subjectId": "srf_gageure:sns_gageure_primary",
-      "subjectRevision": "rev_0cea9f5a380ae72f3b3d53cc1429159a729a34f86f744351b929f74e46d363a8",
+      "subjectRevision": "rev_e59e3be18602acc2652327655c21765368a5b16fae5fe6d572687646064f2ebd",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_lecon:sns_lecon_primary",
@@ -3016,8 +3113,16 @@
       "subjectId": "srf_lecon:sns_lecon_primary",
       "subjectRevision": "rev_8cb09f26e85ac91646f52c6b8f1c0f344b740cf2b1d5580b526167b5b9adb6e5",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole occurrence: the fox calls its moral a lesson worth a cheese. Leçon means lesson, matching the fable’s explicit moral.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_loup_agneau_plutot_lem_cendrillon_plutot_adverb_32645291e2_85915a7f07:sns_loup_agneau_plutot_de_preference_ou_plus_exactement_19da335266",
@@ -3026,8 +3131,16 @@
       "subjectId": "srf_loup_agneau_plutot_lem_cendrillon_plutot_adverb_32645291e2_85915a7f07:sns_loup_agneau_plutot_de_preference_ou_plus_exactement_19da335266",
       "subjectRevision": "rev_45040895aec4e4113e868b1c3bc33dd8984ad9d4b2743db7ab627d5b6207346b",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole argumentative transition Mais plutôt qu’elle considère…: plutôt means rather/instead, introducing the lamb’s correction of the wolf’s claim. The adverb sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_loup_agneau_quelqu_un_lem_loup_agneau_quelqu_un_pronoun_2ac406ed75_fb64efb7e1:sns_loup_agneau_quelqu_un_une_personne_non_precisement_identifiee_91430b404b",
@@ -3036,8 +3149,16 @@
       "subjectId": "srf_loup_agneau_quelqu_un_lem_loup_agneau_quelqu_un_pronoun_2ac406ed75_fb64efb7e1:sns_loup_agneau_quelqu_un_une_personne_non_precisement_identifiee_91430b404b",
       "subjectRevision": "rev_d084d745039628533cd00d6c23217f07c48ba981dd315da26ab200cb41c2d1ee",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed both occurrences: quelqu’un asks whether anyone imagined a lion would have dealings with a rat, and means someone among the wolf’s people. The indefinite pronoun sense fits both.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_billets_lem_parure_billet_noun_56fbdb3f05_0ac09b85a6:sns_fr_billet_promissory",
@@ -3074,8 +3195,16 @@
       "subjectId": "srf_parure_entiers_entier_adjective_f29dbbf0a5:sns_zola_entier_whole",
       "subjectRevision": "rev_6c78a0f12ea95e32eb1ffdc889c38ea355c199bf05c0c5e1997e5da28004bdaf",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the phrase des jours entiers: the grief lasts for whole days. The adjective “whole/entire” is accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_essuyant_lem_parure_essuyer_verb_2116e38b61_e86fc7b73e:sns_parure_essuyer_secher_en_frottant_par_exemple_avec_un_objet_absorbant_24502be5d6",
@@ -3084,8 +3213,16 @@
       "subjectId": "srf_parure_essuyant_lem_parure_essuyer_verb_2116e38b61_e86fc7b73e:sns_parure_essuyer_secher_en_frottant_par_exemple_avec_un_objet_absorbant_24502be5d6",
       "subjectRevision": "rev_cc270965ed9ac5bc48583ab43c57959923aa652f1f5d9df0548dc5fc5921c19c",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the phrase en essuyant ses joues humides: Mathilde wipes her wet cheeks. Essuyer means wipe/dry by rubbing.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_fetee_lem_parure_feter_verb_bbfd465af6_c0a727fd3f:sns_parure_feter_celebrer_par_une_fete_609b7bb013",
@@ -3104,8 +3241,16 @@
       "subjectId": "srf_parure_filles_fille_noun_7709c9b174:sns_parure_fille_girl_56875b5e2d",
       "subjectRevision": "rev_3642a9068814c30e6a4dec9faf27e758a0fbf75cf1f099db2974c47f89d4d43c",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed all indexed occurrences across the two works: filles refers to daughters, young women, and girls of the people. The supplied French definition and English gloss cover these uses.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_grasses_lem_parure_gras_adjective_ce570cb5dd_c814dce6c1:sns_parure_gras_qui_est_forme_de_graisse_9fabc713a1",
@@ -3142,8 +3287,16 @@
       "subjectId": "srf_parure_instinct_instinct_noun_363061ef74:sns_parure_instinct_intuition_0f3a9fbc09",
       "subjectRevision": "rev_aa88ddc57d04b6ad75049d6e21e40b344144be44c07bcc710577644852ebd5ea",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The phrase instinct d’élégance describes an innate natural tendency. The noun “instinct” is accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_physiques_lem_parure_physique_adjective_7b9e2e5962_6c531e9b88:sns_parure_physique_qui_s_exprime_dans_le_monde_materiel_sous_une_forme_mesurable_1392ead01a",
@@ -3216,8 +3369,16 @@
       "subjectId": "srf_parure_rouges_lem_parure_rouge_adjective_47e260fc6a_4a7e3a9bdd:sns_parure_rouge_qui_est_d_une_couleur_semblable_a_celle_du_sang_du_coquelicot_de_la_fraise_etc_dont_la_longueur_d_onde_dominante_est_comprise_entre_environ_625_et_740_nm_e01010_ff0000_ff0040_ff2000_850606_da7e7173fd",
       "subjectRevision": "rev_ef2c09bba0756649872cee0a7ec00b57ab9702233b869ada405a615032004289",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Mathilde’s hands are red from household work. The adjective’s color sense is accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_salon_lem_parure_salon_noun_3e610f80c6_3b5cd63436:sns_parure_salon_piece_dans_un_appartement_dans_une_maison_qui_est_ordinairement_plus_grande_et_plus_ornee_que_les_autres_et_qui_sert_a_recevoir_les_visites_3f56b3c322",
@@ -3226,8 +3387,16 @@
       "subjectId": "srf_parure_salon_lem_parure_salon_noun_3e610f80c6_3b5cd63436:sns_parure_salon_piece_dans_un_appartement_dans_une_maison_qui_est_ordinairement_plus_grande_et_plus_ornee_que_les_autres_et_qui_sert_a_recevoir_les_visites_3f56b3c322",
       "subjectRevision": "rev_8e5ee4097c9867cbf83cd8182febeb27c74b8d1241f3607deba969f9a33a3fe5",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The husband sleeps in a small empty salon. This is a reception/living room in a home.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_touchee_lem_parure_touche_adjective_2866b4ac76_8d81a6373b:sns_parure_touche_emu_par_quelque_chose_c40635b201",
@@ -3246,8 +3415,16 @@
       "subjectId": "srf_zola_apparaissez_apparaitre:sns_zola_apparaitre_seem",
       "subjectRevision": "rev_982895f5cf073362a92a460e994a26cf66d9b0c4a53f30891eaa6c219974c721",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "In vous apparaissez rayonnant, apparaître means appear/seem; the form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_charge_charge:sns_zola_charge_burden",
@@ -3256,8 +3433,16 @@
       "subjectId": "srf_zola_charge_charge:sns_zola_charge_burden",
       "subjectRevision": "rev_62256597998e49bbc9ecc161bd817669a94665b47120f2c160206a12a984f496",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "In à sa charge le crime des autres, charge means responsibility/burden; the noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_commis_commettre:sns_zola_commettre_commit",
@@ -3266,8 +3451,16 @@
       "subjectId": "srf_zola_commis_commettre:sns_zola_commettre_commit",
       "subjectRevision": "rev_40354c70ea652a06fddaec542f31bec926a2b76f1368d8743d3fb74a8a4012e6",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed occurrences: commis means committed/perpetrated for crimes and wrongdoing; participial form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_dans_dans:sns_zola_dans_in",
@@ -3276,8 +3469,16 @@
       "subjectId": "srf_zola_dans_dans:sns_zola_dans_in",
       "subjectRevision": "rev_8d8fe958f824873eaaa2cc3a228e7158d5ddcbc8fbce83051386b7101df85890",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed occurrences: dans marks location, containment, and temporal placement (“in/within/during”). The preposition gloss covers these uses.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_dirai_dire:sns_dire_primary",
@@ -3304,8 +3505,16 @@
       "subjectId": "srf_zola_expie_expier:sns_zola_expier_atone",
       "subjectRevision": "rev_cc779b63bf17c311db5b758a5b5752dc630ab619c6271ea815318ea2465c9dde",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Dreyfus is suffering punishment for a crime he did not commit; expie means atones/pays the penalty, though the injustice is ironic.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_font_faire:sns_fr_faire_form_idea",
@@ -3332,8 +3541,16 @@
       "subjectId": "srf_zola_interpellation_interpellation:sns_zola_interpellation_parliamentary",
       "subjectRevision": "rev_0fa9e1f3e23cb12cf851a9815f4a7d60bb77d667ee3e987aec135cc8b2e457e8",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "L’interpellation au Sénat is a parliamentary questioning/interpellation; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_irresistible_662e6159ddfa_irresistible:sns_zola_irresistible_unstoppable",
@@ -3342,8 +3559,16 @@
       "subjectId": "srf_zola_irresistible_662e6159ddfa_irresistible:sns_zola_irresistible_unstoppable",
       "subjectRevision": "rev_a7ea83b3bb3daaaaa518fb4609f323d98fd2c4a0513d3767235b627594059840",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "La vérité marchait, irrésistible means truth advanced unstoppably; adjective sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_la_0da86e0f6dc3_la_adverb:sns_zola_la_there",
@@ -3352,8 +3577,16 @@
       "subjectId": "srf_zola_la_0da86e0f6dc3_la_adverb:sns_zola_la_there",
       "subjectRevision": "rev_073eb151106dd5304b4c5d72b880322baee0aaef0fcfd9b1d3c65e9108910e02",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts là points to a place or a previously mentioned point/state; adverb sense there/at that point fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_oui_oui:sns_zola_oui_yes",
@@ -3362,8 +3595,16 @@
       "subjectId": "srf_zola_oui_oui:sns_zola_oui_yes",
       "subjectRevision": "rev_f3099634ff59007e19f5583beebd111928851553222c7ac40f639efe0e981c8b",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts oui expresses affirmation or emphatic agreement, meaning yes/indeed; interjection sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_piece_33769aca792e_piece:sns_zola_piece_document",
@@ -3372,8 +3613,16 @@
       "subjectId": "srf_zola_piece_33769aca792e_piece:sns_zola_piece_document",
       "subjectRevision": "rev_ffd43d9a72adcf19f476b7ba48622b7e8386e4c5de51d39e6da73138d430754a",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts pièce means a document or piece of evidence in the case; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_pu_pouvoir:sns_zola_pouvoir_past_ability",
@@ -3382,8 +3631,16 @@
       "subjectId": "srf_zola_pu_pouvoir:sns_zola_pouvoir_past_ability",
       "subjectRevision": "rev_f6f1ac531e7b2855cd7b69bf8d77b88fe8877dd096d4089319e5fe05fe50a508",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts pu expresses past possibility or ability in perfect constructions, meaning could/was able to; form fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_puis_pouvoir:sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47",
@@ -3392,8 +3649,16 @@
       "subjectId": "srf_zola_puis_pouvoir:sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47",
       "subjectRevision": "rev_9aecb21abe731ea97c4d3a574c9cacb77d232ac73f0257a411619dd83171fe96",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Je ne puis troubler means I cannot disturb; first-person present modal sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_seconde_second:sns_zola_second_ordinal_feminine",
@@ -3402,8 +3667,16 @@
       "subjectId": "srf_zola_seconde_second:sns_zola_second_ordinal_feminine",
       "subjectRevision": "rev_b32312a474485dab30e170d676084070c8375883f89ead61634867991c9c137b",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Une seconde fois means a second time in both passages; the feminine singular ordinal form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_seraient_etre:sns_fr_etre_passive_auxiliary",
@@ -3430,8 +3703,16 @@
       "subjectId": "srf_zola_sous_ordres_sous_ordres:sns_zola_sous_ordres_subordinates",
       "subjectRevision": "rev_fcfec3d53660c8ecebf7b76838962d0c31b764364dd938f937cd7ad0ccdcfb2c",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Les sous-ordres refers to subordinate officers or lower ranks; the plural compound noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_suspicion_suspicion:sns_zola_suspicion_doubt",
@@ -3440,8 +3721,16 @@
       "subjectId": "srf_zola_suspicion_suspicion:sns_zola_suspicion_doubt",
       "subjectRevision": "rev_43ee8419543ee23b052b90ac5fbea4663f7323de45f3ec296ffd68a603a52e25",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Entacher de suspicion means taint the judgments with distrust or doubt; the noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     }
   ]
 }

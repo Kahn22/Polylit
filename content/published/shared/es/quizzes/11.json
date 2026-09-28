@@ -4,6 +4,37 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_en_ayunas_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_en_ayunas"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "No había probado ningún alimento; llegó ___ al desayuno.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "en ayunas"
+        },
+        {
+          "id": "choice_2",
+          "text": "con prisa"
+        },
+        {
+          "id": "choice_3",
+          "text": "en secreto"
+        },
+        {
+          "id": "choice_4",
+          "text": "con amigos"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0006_abril_intermediate",
       "language": "es",
       "glossLanguage": "en",
@@ -1698,6 +1729,181 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_comun_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_comun",
+        "senseId": "sns_es_samaniego_comun"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "La creencia común del pueblo era falsa, aunque parecía antigua.",
+      "prompt": "¿Qué adjetivo indica que muchos compartían la creencia?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "común"
+        },
+        {
+          "id": "choice_2",
+          "text": "falsa"
+        },
+        {
+          "id": "choice_3",
+          "text": "antigua"
+        },
+        {
+          "id": "choice_4",
+          "text": "pueblo"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_frescamente_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_frescamente",
+        "senseId": "sns_es_samaniego_frescamente"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Negó frescamente haber roto el vaso, aunque todos lo habían visto.",
+      "targetText": "frescamente",
+      "targetRange": {
+        "start": 5,
+        "end": 16
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "coolly; without embarrassment"
+        },
+        {
+          "id": "choice_2",
+          "text": "fearfully"
+        },
+        {
+          "id": "choice_3",
+          "text": "sadly"
+        },
+        {
+          "id": "choice_4",
+          "text": "angrily"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_intento_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_intento",
+        "senseId": "sns_es_samaniego_intento"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Su primer intento de abrir la puerta no tuvo éxito.",
+      "targetText": "intento",
+      "targetRange": {
+        "start": 10,
+        "end": 17
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "attempt"
+        },
+        {
+          "id": "choice_2",
+          "text": "reward"
+        },
+        {
+          "id": "choice_3",
+          "text": "accident"
+        },
+        {
+          "id": "choice_4",
+          "text": "rest"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_copio_advanced",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_copio_copiar_sourcefix",
+        "senseId": "sns_es_copio_reproduce"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "María copió la cita, revisó la fuente y guardó el cuaderno.",
+      "prompt": "¿Qué verbo indica que reprodujo por escrito la cita?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "copió"
+        },
+        {
+          "id": "choice_2",
+          "text": "revisó"
+        },
+        {
+          "id": "choice_3",
+          "text": "guardó"
+        },
+        {
+          "id": "choice_4",
+          "text": "fuente"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_dato_advanced",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_dato_sourcefix",
+        "senseId": "sns_es_dato_information"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "El informe incluye un dato, una opinión del autor y una copia del mapa.",
+      "prompt": "¿Qué palabra nombra la información concreta que puede comprobarse?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "dato"
+        },
+        {
+          "id": "choice_2",
+          "text": "opinión"
+        },
+        {
+          "id": "choice_3",
+          "text": "autor"
+        },
+        {
+          "id": "choice_4",
+          "text": "mapa"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

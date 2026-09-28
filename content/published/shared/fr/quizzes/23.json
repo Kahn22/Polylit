@@ -775,6 +775,77 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_aucun_prix_fr_a_aucun_prix_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_aucun_prix_a",
+        "senseId": "sns_fr_a_aucun_prix"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le directeur ne signerait à aucun prix cette proposition.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 26,
+        "end": 27
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_2",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_3",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_4",
+          "text": "at no price; under no circumstances"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_a_jeun_fr_a_jeun_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_jeun_a",
+        "senseId": "sns_fr_a_jeun"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, le voyageur part à jeun ce matin.",
+      "prompt": "Quelle préposition figure dans la locution « à jeun » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "voyageur"
+        },
+        {
+          "id": "choice_3",
+          "text": "part"
+        },
+        {
+          "id": "choice_4",
+          "text": "matin"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_angoisse_distress_parure_angoisses_lem_zola_angoisse_16f3208436_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -906,6 +977,38 @@
         {
           "id": "choice_4",
           "text": "excessive"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Au _____ d’être ravie, elle jeta avec dépit l’invitation sur la table.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "lieu"
+        },
+        {
+          "id": "choice_2",
+          "text": "moment"
+        },
+        {
+          "id": "choice_3",
+          "text": "temps"
+        },
+        {
+          "id": "choice_4",
+          "text": "point"
         }
       ],
       "correctChoiceId": "choice_1"

@@ -1,0 +1,24 @@
+{
+  "method": "Lowercase Unicode word tokens; long s normalized; punctuation and layout ignored. Automatic boundary detection requires first and last eight tokens. This is not a scan review.",
+  "boundaryLocated": true,
+  "changes": [
+    {
+      "operation": "replace",
+      "witnessTokens": [
+        30,
+        31
+      ],
+      "canonicalTokens": [
+        30,
+        31
+      ],
+      "from": "survint",
+      "to": "survient",
+      "review": "resolved_by_historical_scan",
+      "classification": "online_transcription_error",
+      "reason": "Printed 1874 p. 41 reads survient, matching canonical text. The online transcription alone has survint. No canonical or annotation correction is necessary."
+    }
+  ],
+  "witnessTokenCount": 213,
+  "canonicalTokenCount": 213
+}

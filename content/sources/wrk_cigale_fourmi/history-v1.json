@@ -1,0 +1,185 @@
+{
+  "dossier": {
+    "schemaVersion": 1,
+    "standardVersion": 1,
+    "workId": "wrk_cigale_fourmi",
+    "identity": {
+      "title": "La Cigale et la Fourmi",
+      "author": "Jean de La Fontaine",
+      "language": "fr",
+      "originCountry": {
+        "code": "FR",
+        "name": "France"
+      },
+      "collection": "Fables",
+      "book": "Livre I",
+      "ordinal": 1,
+      "originalPublication": {
+        "claim": "Jean de La Fontaine, Fables, Livre I, fable I (1668)",
+        "status": "legacy_claim_not_independently_reverified",
+        "note": "This citation may describe first publication or a later edition; do not treat the dates as interchangeable."
+      }
+    },
+    "edition": {
+      "legacyCitation": "Jean de La Fontaine, Fables, Livre I, fable I (1668)",
+      "witnessMetadata": {
+        "publisher": "Bernardin-Béchet, Libraire-Éditeur",
+        "datePublished": "1874",
+        "pagination": null,
+        "locationCreated": null
+      },
+      "pageReferences": [
+        {
+          "printedPage": "29",
+          "url": "https://fr.wikisource.org/wiki/Page%3ALa%20Fontaine%20-%20Fables%2C%20Bernardin-Bechet%2C%201874.djvu/37"
+        },
+        {
+          "printedPage": "30",
+          "url": "https://fr.wikisource.org/wiki/Page%3ALa%20Fontaine%20-%20Fables%2C%20Bernardin-Bechet%2C%201874.djvu/38"
+        }
+      ],
+      "status": "identified_from_saved_transcription_metadata"
+    },
+    "acquisition": {
+      "requestedUrl": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Cigale_et_la_Fourmi",
+      "resolvedUrl": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Cigale_et_la_Fourmi",
+      "retrievedOn": "2026-09-21",
+      "role": "recorded_source",
+      "bytes": 64688,
+      "permanentUrl": "https://fr.wikisource.org/w/index.php?oldid=13176453",
+      "institution": "Wikisource / Wikimedia"
+    },
+    "canonical": {
+      "file": "canonical.txt",
+      "sha256": "c1fd99e92d63f8c00a41a8d69a338bd700549af9ce766f41be37b8791e60887a",
+      "characters": 613,
+      "scope": "complete_work_intended",
+      "scopeVerification": "pending_scan_comparison",
+      "typographyPolicy": "modern_conventional_typography_preserving_wording",
+      "unitCount": 11,
+      "unitsReconstructIgnoringWhitespace": true
+    },
+    "rights": {
+      "status": "assessment_pending_documentary_completion",
+      "territories": [
+        "US",
+        "FR"
+      ],
+      "material": "Historical original-language literary text only; no translation, modern adaptation, illustrations, annotations or website boilerplate in learner text.",
+      "authorDeathYear": 1695,
+      "basis": "Recorded historical editions predate 1931 and recorded author deaths predate 1956. Original text is expected public domain by 2026 in US and France; verify edition-specific contributions and documentary dates before marking the dossier verified.",
+      "references": [
+        "https://www.copyright.gov/circs/circ15a.pdf",
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937"
+      ],
+      "otherTerritories": "Not assessed; author origin does not establish worldwide reuse rights.",
+      "referencesCheckedOn": "2026-09-21",
+      "referenceCheckNotes": "US Copyright Office Circular 15A retrieved and read. Legifrance endpoint returned HTTP 403 in this session; French documentary legal verification remains pending."
+    },
+    "transformations": {
+      "status": "retrospective_review_pending",
+      "log": "comparison.json",
+      "routinePolicy": "modern_conventional_typography_preserving_wording",
+      "canonicalChangedInThisMigration": false
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": "Codex",
+      "reviewedOn": "2026-09-21",
+      "checks": [
+        "Preserved current canonical text with SHA-256.",
+        "Saved source HTML and plain-text evidence.",
+        "Recorded edition metadata and page links where exposed by the witness.",
+        "Compared unit reconstruction and attempted automatic word-token comparison."
+      ],
+      "scanPagesVisuallyChecked": [],
+      "priorReviewEvidence": null,
+      "openIssues": [
+        "Full visual comparison with historical scans remains pending.",
+        "Retrospective word-level and typography change log requires editorial review; automatic comparison is evidence, not approval.",
+        "Complete documentary rights assessment before full source verification."
+      ],
+      "scansPreserved": 2
+    },
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-09-21",
+        "reason": "Adopt source-dossier standard for every existing work.",
+        "textChanged": false,
+        "learnerImpact": "None: canonical text, occurrence spans, mastery identities and quizzes unchanged."
+      }
+    ],
+    "evidence": [
+      {
+        "file": "canonical.txt",
+        "sha256": "c1fd99e92d63f8c00a41a8d69a338bd700549af9ce766f41be37b8791e60887a",
+        "bytes": 650
+      },
+      {
+        "file": "comparison.json",
+        "sha256": "5d6647f7365947afca97cc1122fb37a8e6939e11a08e6f0732963fc86cf89ff3",
+        "bytes": 716
+      },
+      {
+        "file": "retrieval.json",
+        "sha256": "3bf39454ce692f48731157473631de2f2d673dde5580ccca07fd9240106127da",
+        "bytes": 380
+      },
+      {
+        "file": "scan-001.jpg",
+        "sha256": "5e65c412cd2364de810cfe89907e4ea306600bc0ff7b05851869426e66af0f64",
+        "bytes": 344193
+      },
+      {
+        "file": "scan-002.jpg",
+        "sha256": "60f8f116664c230e2f7afb9867a2c1057ef2cf88c89537db5d6a1eca2d9f9307",
+        "bytes": 209834
+      },
+      {
+        "file": "scan-acquisition.json",
+        "sha256": "97999861421316130a0e4c525bbf29722812cc58159a15a087b407b39996281b",
+        "bytes": 995
+      },
+      {
+        "file": "witness-clean.txt",
+        "sha256": "54ba793e4eb0dd30f9791054621e6e9373abf2b28d164ad8326e3abc79dc4146",
+        "bytes": 684
+      },
+      {
+        "file": "witness-page.txt",
+        "sha256": "8da39e5bca64caa7601dff8ea541d2d3a675f9198a9ff3e075c24edb468add66",
+        "bytes": 1214
+      },
+      {
+        "file": "witness.html",
+        "sha256": "160dd57efc3266ccc52085aee1bc1e1d243a5e91859dae19cc8695d8f1d9ea89",
+        "bytes": 64688
+      }
+    ]
+  },
+  "comparison": {
+    "method": "Lowercase Unicode word tokens; long s normalized; punctuation and layout ignored. Automatic boundary detection requires first and last eight tokens. This is not a scan review.",
+    "boundaryLocated": true,
+    "changes": [
+      {
+        "operation": "replace",
+        "witnessTokens": [
+          57,
+          58
+        ],
+        "canonicalTokens": [
+          57,
+          58
+        ],
+        "from": "oût",
+        "to": "août",
+        "review": "classified",
+        "classification": "orthographic modernization",
+        "reason": "Witness oût is rendered août in canonical text; retain the modernization in the explicit transformation record."
+      }
+    ],
+    "witnessTokenCount": 109,
+    "canonicalTokenCount": 109
+  }
+}

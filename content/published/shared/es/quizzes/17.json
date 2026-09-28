@@ -2037,6 +2037,44 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_samaniego_comun_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_comun",
+        "senseId": "sns_es_samaniego_comun"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Es una opinión común entre los vecinos del barrio.",
+      "targetText": "común",
+      "targetRange": {
+        "start": 15,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "widespread; common"
+        },
+        {
+          "id": "choice_2",
+          "text": "secret"
+        },
+        {
+          "id": "choice_3",
+          "text": "rare"
+        },
+        {
+          "id": "choice_4",
+          "text": "false"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

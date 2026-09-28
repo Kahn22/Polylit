@@ -1090,6 +1090,77 @@
       "correctChoiceId": "choice_4"
     },
     {
+      "id": "qiz_fr_a_cause_de_fr_a_cause_de_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_cause_de_a",
+        "senseId": "sns_fr_a_cause_de"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, elle est partie à cause de cette dispute.",
+      "prompt": "Quelle préposition figure dans la locution « à cause de » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "partie"
+        },
+        {
+          "id": "choice_2",
+          "text": "dispute"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "Elle"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_a_moins_que_fr_a_moins_que_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moins_que_a",
+        "senseId": "sns_fr_a_moins_que"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il viendra à moins que la pluie ne tombe.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 11,
+        "end": 12
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "unless"
+        },
+        {
+          "id": "choice_3",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_4",
+          "text": "by an agent"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_abattu_dejected_fr_abattue_abattu_adjective_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -5517,24 +5588,24 @@
       },
       "band": "levels_6_8",
       "format": "target_identification",
-      "context": "Paul a surpris une conversation qu’il ne devait pas entendre en passant devant la porte.",
-      "prompt": "Quel mot indique une découverte inattendue de ce qui était caché ?",
+      "context": "On examinait les écritures ; il est des secrets qu’il ne fait pas bon d’avoir surpris.",
+      "prompt": "Quel mot indique que ces secrets ont été découverts à l’improviste ?",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "entendre"
+          "id": "choice_8",
+          "text": "écritures"
         },
         {
-          "id": "choice_6",
-          "text": "porte"
+          "id": "choice_9",
+          "text": "secrets"
         },
         {
           "id": "choice_1",
           "text": "surpris"
         },
         {
-          "id": "choice_7",
-          "text": "conversation"
+          "id": "choice_10",
+          "text": "examinait"
         }
       ],
       "correctChoiceId": "choice_1"

@@ -1,0 +1,24 @@
+{
+  "method": "Lowercase Unicode word tokens; long s normalized; punctuation and layout ignored. Automatic boundary detection requires first and last eight tokens. This is not a scan review.",
+  "boundaryLocated": true,
+  "changes": [
+    {
+      "operation": "replace",
+      "witnessTokens": [
+        104,
+        105
+      ],
+      "canonicalTokens": [
+        104,
+        105
+      ],
+      "from": "près",
+      "to": "prêt",
+      "review": "needs_editorial_decision",
+      "classification": "wording variant",
+      "reason": "Canonical wording differs from the saved 1874 comparison witness. Do not silently normalize or claim a typographical-only change."
+    }
+  ],
+  "witnessTokenCount": 263,
+  "canonicalTokenCount": 263
+}

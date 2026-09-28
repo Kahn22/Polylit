@@ -1,0 +1,102 @@
+{
+  "reviewer": "Codex",
+  "reviewedOn": "2026-09-22",
+  "direction": "historical witness → current canonical (or explicitly identified online-transcription correction)",
+  "textChanged": true,
+  "changes": [
+    {
+      "from": "diez y ocho mayos",
+      "to": "diez y ocho años",
+      "reason": "Lexical modernization changes the author’s figurative wording.",
+      "printedPage": 107,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "diez y ocho mayos",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "mecina",
+      "to": "medicina",
+      "reason": "Historical colloquial spelling replaced.",
+      "printedPage": 107,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "mecina",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "le dijo",
+      "to": "lo dijo",
+      "reason": "Current transcription has an unsupported pronoun substitution.",
+      "printedPage": 107,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "le dijo",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "según lo afirma Bermejo, quien parece copió este dato de las Relaciones secretas de Ulloa y D. Jorge Juan.",
+      "to": "",
+      "reason": "The current text omits this source-attribution clause.",
+      "printedPage": 108,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "según lo afirma Bermejo, quien parece copió este dato de las Relaciones secretas de Ulloa y D. Jorge Juan.",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "Item, el cordoncillo",
+      "to": "El cordoncillo",
+      "reason": "Discourse marker omitted and capitalization changed.",
+      "printedPage": 108,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "Item, el cordoncillo",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "morlacos",
+      "to": "monedas de plata",
+      "reason": "Currency term replaced by a gloss.",
+      "printedPage": 108,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "morlacos",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "á saber lo cierto",
+      "to": "a saberlo cierto",
+      "reason": "Word boundary changed; historical meaning is knowing the truth, not saberlo cierto.",
+      "printedPage": 108,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "á saber lo cierto",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "I / II",
+      "to": "",
+      "reason": "Printed section labels omitted; II belongs before Y D. Raimundo Pareja, not before the previous paragraph.",
+      "printedPage": null,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "I / II",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "Wikisource Fin before II",
+      "to": "",
+      "reason": 108,
+      "printedPage": "FIN is not present at this point in the 1894 scan; its omission is correct. The source still continues through section II.",
+      "status": "resolved_transcription_artifact"
+    },
+    {
+      "from": "á / ó / fué / dió / Alarmóse / Habráse / litteræ",
+      "to": "a / o / fue / dio / Alarmose / Habrase / litterae",
+      "reason": "Observed accent and ligature changes in the current transcription; these do not account for the separately listed lexical changes.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    },
+    {
+      "from": "Page numbers, running headers, ornaments/illustrations, line-end hyphenation, nonsemantic whitespace",
+      "to": "Excluded or reflowed in canonical text",
+      "reason": "Routine presentation-only policy. Preserve all literary words except the separately enumerated variants.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    }
+  ],
+  "note": "The historical-witness corrections identified on 2026-09-21 were implemented atomically in publication batch text-2026-09-22-01. Remaining entries document approved presentation-only transformations or resolved transcription artifacts."
+}

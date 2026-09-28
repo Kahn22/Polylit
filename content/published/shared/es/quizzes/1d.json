@@ -1776,6 +1776,115 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_mil_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0514_mil",
+        "senseId": "sns_es_samaniego_mil"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "«Tengo mil preocupaciones», exageró Ana, aunque solo había olvidado una cita.",
+      "prompt": "¿Qué palabra exagera la cantidad de preocupaciones?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mil"
+        },
+        {
+          "id": "choice_2",
+          "text": "exageró"
+        },
+        {
+          "id": "choice_3",
+          "text": "solo"
+        },
+        {
+          "id": "choice_4",
+          "text": "una"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_salto_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_salto",
+        "senseId": "sns_es_samaniego_salto"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "La niña saltó el charco para no mojarse los zapatos.",
+      "targetText": "saltó",
+      "targetRange": {
+        "start": 8,
+        "end": 13
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "jumped"
+        },
+        {
+          "id": "choice_2",
+          "text": "crawled"
+        },
+        {
+          "id": "choice_3",
+          "text": "slept"
+        },
+        {
+          "id": "choice_4",
+          "text": "swam"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_pst_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_pst_sourcefix",
+        "senseId": "sns_es_pst_hesitation"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El médico hizo «Pst…» antes de responder con cautela.",
+      "targetText": "Pst",
+      "targetRange": {
+        "start": 16,
+        "end": 19
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "a brief hesitation sound"
+        },
+        {
+          "id": "choice_2",
+          "text": "a greeting"
+        },
+        {
+          "id": "choice_3",
+          "text": "a laugh"
+        },
+        {
+          "id": "choice_4",
+          "text": "a command to run"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

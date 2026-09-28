@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-tour-lieu-annotations-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison after two occurrence reassignments",
+  "changes": [
+    {
+      "subjectId": "wrk_maupassant_la_parure",
+      "reviewId": "annotations:wrk_maupassant_la_parure",
+      "outcome": "approve",
+      "rationale": "The ordered passage units retain identical canonical text and structure; the tour and lieu occurrence identities retain their exact source spans and now match their local contexts.",
+      "before": {
+        "id": "annotations:wrk_maupassant_la_parure",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_maupassant_la_parure",
+        "subjectRevision": "rev_9bd65acd73238dd5ebf183fa29905ddaf1f93b3358715303bbd3b677cd9ba87d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The 134 ordered unit spans reconstruct the canonical text exactly; all vocabulary, 34 exclusions, and ten expression spans validate against the bound revisions.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_maupassant_la_parure",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_maupassant_la_parure",
+        "subjectRevision": "rev_269aefb333e880519ab8a1ab14b22c8affd27859d1fa46635ba69a47e6378549",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The ordered passage units retain identical canonical text and structure; the tour and lieu occurrence identities retain their exact source spans and now match their local contexts.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T15:39:05.042Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 134
+    }
+  ]
+}

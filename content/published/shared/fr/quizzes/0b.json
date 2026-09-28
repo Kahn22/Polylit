@@ -921,6 +921,44 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_son_tour_fr_a_son_tour_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_son_tour_a",
+        "senseId": "sns_fr_a_son_tour"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le témoin répond à son tour au juge.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 17,
+        "end": 18
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_2",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "in turn; in his or her turn"
+        },
+        {
+          "id": "choice_4",
+          "text": "towards a place"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_aller_near_future_fr_vais_aller_verb_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1300,6 +1338,70 @@
       "correctChoiceId": "choice_2"
     },
     {
+      "id": "qiz_fr_d_autant_plus_fr_d_autant_plus_d_elided_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_autant_plus_d_elided",
+        "senseId": "sns_fr_d_autant_plus"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Sa colère grandit _____autant plus qu’on lui cache la vérité.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "d’"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_de_sorte_que_fr_de_sorte_que_de_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_de_sorte_que_de",
+        "senseId": "sns_fr_de_sorte_que"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Elle a parlé, _____ sorte que chacun a compris.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "de"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_dire_imply_dit_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1331,6 +1433,39 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "On l’éloigna de plus loin en plus loin.",
+      "prompt": "Quel mot relie les deux degrés de distance dans cette progression ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "plus"
+        },
+        {
+          "id": "choice_2",
+          "text": "loin"
+        },
+        {
+          "id": "choice_3",
+          "text": "en"
+        },
+        {
+          "id": "choice_4",
+          "text": "éloigna"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_fr_etre_existential_cendrillon_estoit_lem_etre_ae3752ba86_levels_4_5",
@@ -1498,6 +1633,44 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_mettre_au_net_zola_mettre_mettre_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_mettre_mettre",
+        "senseId": "sns_fr_mettre_au_net"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le mari travaillait le soir à mettre au net les comptes d’un commerçant.",
+      "targetText": "mettre",
+      "targetRange": {
+        "start": 30,
+        "end": 36
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "write up neatly; make a clean copy"
+        },
+        {
+          "id": "choice_2",
+          "text": "set on fire"
+        },
+        {
+          "id": "choice_3",
+          "text": "hide"
+        },
+        {
+          "id": "choice_4",
+          "text": "lend"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_mettre_wear_fr_mette_mettre_levels_4_5",
@@ -2078,6 +2251,38 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_toutes_pronoun",
+        "senseId": "sns_fr_toutes_all_of_them"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Les six souris étaient _____ en vie.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "toutes"
+        },
+        {
+          "id": "choice_2",
+          "text": "tous"
+        },
+        {
+          "id": "choice_3",
+          "text": "toute"
+        },
+        {
+          "id": "choice_4",
+          "text": "tout"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_1_3",

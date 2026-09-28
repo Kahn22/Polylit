@@ -2,7 +2,7 @@ name: checks
 
 on:
   push:
-    branches: [main]
+    branches: [main, 'editorial/**', 'work/**']
   pull_request:
 
 permissions:
@@ -19,5 +19,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
-      - run: npm run build
-      - run: npm run content:check
+      - run: npm run build:local-review
+      - name: Editorial audit and release gate
+        run: node scripts/editorial-ci-report.mjs

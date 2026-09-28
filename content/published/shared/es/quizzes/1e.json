@@ -2406,6 +2406,76 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_samaniego_voz_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0869_voz",
+        "senseId": "sns_es_samaniego_voz"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Corrió la voz de que abrirían una escuela en el pueblo.",
+      "targetText": "voz",
+      "targetRange": {
+        "start": 10,
+        "end": 13
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "report; rumor"
+        },
+        {
+          "id": "choice_2",
+          "text": "song"
+        },
+        {
+          "id": "choice_3",
+          "text": "command"
+        },
+        {
+          "id": "choice_4",
+          "text": "silence"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_prendidas_intermediate",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_prendidas_sourcefix",
+        "senseId": "sns_es_prendidas_lit"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La habitación seguía iluminada porque las lámparas estaban ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "prendidas"
+        },
+        {
+          "id": "choice_2",
+          "text": "apagadas"
+        },
+        {
+          "id": "choice_3",
+          "text": "rotas"
+        },
+        {
+          "id": "choice_4",
+          "text": "cubiertas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

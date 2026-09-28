@@ -1831,6 +1831,108 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_frustra_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_frustra",
+        "senseId": "sns_es_samaniego_frustra"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El plan se ___: ningún paso da resultado y al final lo abandonan.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "frustra"
+        },
+        {
+          "id": "choice_2",
+          "text": "cumple"
+        },
+        {
+          "id": "choice_3",
+          "text": "perfecciona"
+        },
+        {
+          "id": "choice_4",
+          "text": "concreta"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_quedase_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_quedase",
+        "senseId": "sns_es_samaniego_quedase"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Todos parten, pero el anciano ___ en casa; no sale en todo el día.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "quédase"
+        },
+        {
+          "id": "choice_2",
+          "text": "márchase"
+        },
+        {
+          "id": "choice_3",
+          "text": "escápase"
+        },
+        {
+          "id": "choice_4",
+          "text": "aléjase"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_mayos_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_mayos_mayo_sourcefix",
+        "senseId": "sns_es_mayo_years_poetic"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "La poeta llamó mayos a los años felices de su juventud.",
+      "targetText": "mayos",
+      "targetRange": {
+        "start": 15,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "months on a calendar"
+        },
+        {
+          "id": "choice_2",
+          "text": "years or springs of life"
+        },
+        {
+          "id": "choice_3",
+          "text": "storms"
+        },
+        {
+          "id": "choice_4",
+          "text": "debts"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     }
   ]
 }

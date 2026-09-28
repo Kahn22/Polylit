@@ -24,8 +24,8 @@ describe("incremental learner content delivery", () => {
     expect(first.quizBatches.every((batch) => batch.quizItems.length === batch.identityKeys.length * 3)).toBe(true);
     const vocabularyIdentityCount = new Set(appBundle.quizItems.map((item) => `${item.surfaceFormId}:${item.senseId}`)).size;
     expect(Object.keys(first.manifest.quizBatchForIdentity)).toHaveLength(vocabularyIdentityCount);
-    expect(first.manifest.expressionCatalog.identities).toHaveLength(39);
-    expect(first.manifest.expressionCatalog.preparedQuizzes).toHaveLength(117);
+    expect(first.manifest.expressionCatalog.identities).toHaveLength(41);
+    expect(first.manifest.expressionCatalog.preparedQuizzes).toHaveLength(123);
   });
 
   it("publishes separate French and Spanish library indexes", () => {
@@ -42,7 +42,7 @@ describe("incremental learner content delivery", () => {
       packages.learningManifests.es.identityLocations[identity]!.every((location) => spanish.works[location.workId] !== undefined),
     )).toBe(true);
     expect(french.catalog.works).toHaveLength(8);
-    expect(spanish.catalog.works).toHaveLength(2);
+    expect(spanish.catalog.works).toHaveLength(3);
   });
 
   it("queues no more than ten unique questions and prefetches when three remain", () => {

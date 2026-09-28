@@ -1,0 +1,854 @@
+{
+  "version": 2,
+  "id": "fr-sur-par-semantic-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-26T00:26:27.280Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_sur:sns_sur_primary",
+      "to": "srf_sur:sns_fr_sur_about_topic",
+      "occurrenceIds": [
+        "occ_zola_4adcf03ec8b0c66c1fe2313b",
+        "occ_zola_5c263f73be731c944621da02",
+        "occ_zola_98c9b2eaf1cb4264da57114a",
+        "occ_cendrillon_95ac119a7525edb78b8e0776"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_sur:sns_sur_primary",
+      "to": "srf_fr_sur_toutes_choses_sur:sns_fr_sur_toutes_choses_above_all",
+      "occurrenceIds": [
+        "occ_cendrillon_66420e33789039b3227bcb08"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_par_consequent_par:sns_fr_par_consequent_therefore",
+      "occurrenceIds": [
+        "occ_loup_agneau_269204ff5687dc0b53a3ca13",
+        "occ_parure_238183973e1b337139208f0c"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_finir_par_par:sns_fr_finir_par_eventually",
+      "occurrenceIds": [
+        "occ_zola_04bccbcf12d5eed3653442d3",
+        "occ_zola_85d6fde67cb9bca947a60ad0"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_par_la_place_par:sns_fr_par_la_around_there",
+      "occurrenceIds": [
+        "occ_parure_d91cb9c034d5466b67f9576f"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_sur:sns_sur_primary",
+      "to": "srf_sur:sns_sur_primary",
+      "form": "sur",
+      "reason": "The remaining twenty-eight uses locate something on or onto a surface or rest a claim or action upon a basis: on a tree/table/robe/quay, a suspicion on Dreyfus, a sentence based on evidence, or a burden upon the council. The original physical-on questions remain a valid instance of this relation."
+    },
+    {
+      "from": "srf_sur:sns_sur_primary",
+      "to": "srf_sur:sns_fr_sur_about_topic",
+      "form": "sur",
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "from": "srf_sur:sns_sur_primary",
+      "to": "srf_fr_sur_toutes_choses_sur:sns_fr_sur_toutes_choses_above_all",
+      "form": "sur",
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_par:sns_par_primary",
+      "form": "par",
+      "reason": "The other thirty-seven uses introduce an agent, means, cause, route, or unit: tempted by the smell, by order or patriotism, written by a person, affected by warmth or fear, and hour by hour. The original by-agent questions remain accurate for a central use."
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_par_consequent_par:sns_fr_par_consequent_therefore",
+      "form": "par",
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_finir_par_par:sns_fr_finir_par_eventually",
+      "form": "par",
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "from": "srf_par:sns_par_primary",
+      "to": "srf_fr_par_la_place_par:sns_fr_par_la_around_there",
+      "form": "par",
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_sur_primary",
+      "before": {
+        "id": "sns_sur_primary",
+        "lemmaId": "lem_sur",
+        "gloss": "on",
+        "definition": "on"
+      },
+      "after": {
+        "id": "sns_sur_primary",
+        "lemmaId": "lem_sur",
+        "gloss": "on; onto; upon; based on",
+        "definition": "Marque un contact ou une position sur une surface, ou un appui matériel ou figuré."
+      },
+      "reason": "The remaining twenty-eight uses locate something on or onto a surface or rest a claim or action upon a basis: on a tree/table/robe/quay, a suspicion on Dreyfus, a sentence based on evidence, or a burden upon the council. The original physical-on questions remain a valid instance of this relation."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_sur_about_topic",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sur_about_topic",
+        "lemmaId": "lem_sur",
+        "gloss": "about; concerning",
+        "definition": "Introduit le sujet d’une loi, d’un propos ou d’un récit."
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_4adcf03ec8b0c66c1fe2313b",
+      "before": {
+        "id": "occ_zola_4adcf03ec8b0c66c1fe2313b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_189",
+        "start": 104,
+        "end": 107,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_sur_primary"
+      },
+      "after": {
+        "id": "occ_zola_4adcf03ec8b0c66c1fe2313b",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_189",
+        "start": 104,
+        "end": 107,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic"
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_5c263f73be731c944621da02",
+      "before": {
+        "id": "occ_zola_5c263f73be731c944621da02",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_015",
+        "start": 35,
+        "end": 38,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_sur_primary"
+      },
+      "after": {
+        "id": "occ_zola_5c263f73be731c944621da02",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_015",
+        "start": 35,
+        "end": 38,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic"
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_98c9b2eaf1cb4264da57114a",
+      "before": {
+        "id": "occ_zola_98c9b2eaf1cb4264da57114a",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_015",
+        "start": 18,
+        "end": 21,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_sur_primary"
+      },
+      "after": {
+        "id": "occ_zola_98c9b2eaf1cb4264da57114a",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_015",
+        "start": 18,
+        "end": 21,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic"
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_95ac119a7525edb78b8e0776",
+      "before": {
+        "id": "occ_cendrillon_95ac119a7525edb78b8e0776",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_041",
+        "start": 11,
+        "end": 14,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_sur_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_95ac119a7525edb78b8e0776",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_041",
+        "start": 11,
+        "end": 14,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic"
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_about_topic_sur_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_about_topic_sur_levels_1_3",
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic",
+        "band": "levels_1_3",
+        "contextFrench": "Le journal publie un article sur le procès.",
+        "correctAnswer": "about; concerning",
+        "format": "meaning_choice",
+        "targetText": "sur",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "under",
+          "behind",
+          "without",
+          "about; concerning"
+        ]
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_about_topic_sur_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_about_topic_sur_levels_4_5",
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic",
+        "band": "levels_4_5",
+        "contextFrench": "Un ouvrage _____ la condamnation de Dreyfus paraîtra demain.",
+        "correctAnswer": "sur",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "vers",
+          "entre",
+          "sur",
+          "sous"
+        ]
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_about_topic_sur_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_about_topic_sur_levels_6_8",
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_fr_sur_about_topic",
+        "band": "levels_6_8",
+        "contextFrench": "La chroniqueuse écrit sur le procès devant le tribunal.",
+        "correctAnswer": "sur",
+        "format": "target_identification",
+        "promptFrench": "Quelle préposition introduit le sujet du texte ?",
+        "choicesFrench": [
+          "tribunal",
+          "sur",
+          "chroniqueuse",
+          "procès"
+        ]
+      },
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_sur_toutes_choses",
+      "before": null,
+      "after": {
+        "id": "lem_fr_sur_toutes_choses",
+        "headword": "sur toutes choses",
+        "partOfSpeech": "expression"
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_sur_toutes_choses_sur",
+      "before": null,
+      "after": {
+        "id": "srf_fr_sur_toutes_choses_sur",
+        "lemmaId": "lem_fr_sur_toutes_choses",
+        "form": "sur",
+        "normalized": "sur"
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_sur_toutes_choses_above_all",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sur_toutes_choses_above_all",
+        "lemmaId": "lem_fr_sur_toutes_choses",
+        "gloss": "above all; especially",
+        "definition": "Ancienne locution signifiant avant toute autre chose."
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_66420e33789039b3227bcb08",
+      "before": {
+        "id": "occ_cendrillon_66420e33789039b3227bcb08",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_017",
+        "start": 167,
+        "end": 170,
+        "surfaceFormId": "srf_sur",
+        "senseId": "sns_sur_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_66420e33789039b3227bcb08",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_017",
+        "start": 167,
+        "end": 170,
+        "surfaceFormId": "srf_fr_sur_toutes_choses_sur",
+        "senseId": "sns_fr_sur_toutes_choses_above_all"
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_1_3",
+        "surfaceFormId": "srf_fr_sur_toutes_choses_sur",
+        "senseId": "sns_fr_sur_toutes_choses_above_all",
+        "band": "levels_1_3",
+        "contextFrench": "Sur toutes choses, respecte l’heure fixée pour rentrer.",
+        "correctAnswer": "above all; especially",
+        "format": "meaning_choice",
+        "targetText": "sur",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "because of",
+          "afterward",
+          "above all; especially",
+          "on top of objects"
+        ]
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_4_5",
+        "surfaceFormId": "srf_fr_sur_toutes_choses_sur",
+        "senseId": "sns_fr_sur_toutes_choses_above_all",
+        "band": "levels_4_5",
+        "contextFrench": "_____ toutes choses, n’oublie pas de rentrer avant minuit.",
+        "correctAnswer": "sur",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "par",
+          "sur",
+          "dans",
+          "entre"
+        ]
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_6_8",
+        "surfaceFormId": "srf_fr_sur_toutes_choses_sur",
+        "senseId": "sns_fr_sur_toutes_choses_above_all",
+        "band": "levels_6_8",
+        "contextFrench": "Sa marraine lui rappela, sur toutes choses, de ne pas dépasser minuit.",
+        "correctAnswer": "sur",
+        "format": "target_identification",
+        "promptFrench": "Quel mot ouvre la locution signifiant « avant tout » ?",
+        "choicesFrench": [
+          "sur",
+          "marraine",
+          "choses",
+          "minuit"
+        ]
+      },
+      "reason": "The godmother’s warning « sur toutes choses, de ne pas passer minuit » means above all or especially, not physical location or subject matter."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_par_primary",
+      "before": {
+        "id": "sns_par_primary",
+        "lemmaId": "lem_par",
+        "gloss": "by; through",
+        "definition": "by; through"
+      },
+      "after": {
+        "id": "sns_par_primary",
+        "lemmaId": "lem_par",
+        "gloss": "by; through; via; because of; per",
+        "definition": "Introduit un agent, un moyen, une cause, un passage ou une répartition."
+      },
+      "reason": "The other thirty-seven uses introduce an agent, means, cause, route, or unit: tempted by the smell, by order or patriotism, written by a person, affected by warmth or fear, and hour by hour. The original by-agent questions remain accurate for a central use."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_par_consequent",
+      "before": null,
+      "after": {
+        "id": "lem_fr_par_consequent",
+        "headword": "par conséquent",
+        "partOfSpeech": "expression"
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_par_consequent_par",
+      "before": null,
+      "after": {
+        "id": "srf_fr_par_consequent_par",
+        "lemmaId": "lem_fr_par_consequent",
+        "form": "par",
+        "normalized": "par"
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_par_consequent_therefore",
+      "before": null,
+      "after": {
+        "id": "sns_fr_par_consequent_therefore",
+        "lemmaId": "lem_fr_par_consequent",
+        "gloss": "therefore; consequently",
+        "definition": "Locution qui présente une conséquence de ce qui précède."
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_loup_agneau_269204ff5687dc0b53a3ca13",
+      "before": {
+        "id": "occ_loup_agneau_269204ff5687dc0b53a3ca13",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_10",
+        "start": 7,
+        "end": 10,
+        "surfaceFormId": "srf_par",
+        "senseId": "sns_par_primary"
+      },
+      "after": {
+        "id": "occ_loup_agneau_269204ff5687dc0b53a3ca13",
+        "workId": "wrk_loup_agneau",
+        "unitId": "unt_loup_agneau_10",
+        "start": 7,
+        "end": 10,
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore"
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_238183973e1b337139208f0c",
+      "before": {
+        "id": "occ_parure_238183973e1b337139208f0c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_024",
+        "start": 45,
+        "end": 48,
+        "surfaceFormId": "srf_par",
+        "senseId": "sns_par_primary"
+      },
+      "after": {
+        "id": "occ_parure_238183973e1b337139208f0c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_024",
+        "start": 45,
+        "end": 48,
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore"
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_1_3",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore",
+        "band": "levels_1_3",
+        "contextFrench": "Je n’ai pas de robe convenable ; par conséquent, je ne peux aller à la fête.",
+        "correctAnswer": "therefore; consequently",
+        "format": "meaning_choice",
+        "targetText": "par",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "therefore; consequently",
+          "however",
+          "meanwhile",
+          "by someone"
+        ]
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_4_5",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore",
+        "band": "levels_4_5",
+        "contextFrench": "Elle n’a pas de robe ; _____ conséquent, elle refuse l’invitation.",
+        "correctAnswer": "par",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "sur",
+          "de",
+          "en",
+          "par"
+        ]
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_6_8",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore",
+        "band": "levels_6_8",
+        "contextFrench": "Il n’a pas les vêtements nécessaires ; par conséquent, il restera chez lui.",
+        "correctAnswer": "par",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient au lien logique « donc » ?",
+        "choicesFrench": [
+          "conséquent",
+          "restera",
+          "par",
+          "vêtements"
+        ]
+      },
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_finir_par",
+      "before": null,
+      "after": {
+        "id": "lem_fr_finir_par",
+        "headword": "finir par",
+        "partOfSpeech": "expression"
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_finir_par_par",
+      "before": null,
+      "after": {
+        "id": "srf_fr_finir_par_par",
+        "lemmaId": "lem_fr_finir_par",
+        "form": "par",
+        "normalized": "par"
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_finir_par_eventually",
+      "before": null,
+      "after": {
+        "id": "sns_fr_finir_par_eventually",
+        "lemmaId": "lem_fr_finir_par",
+        "gloss": "eventually; end up doing",
+        "definition": "Dans finir par suivi d’un infinitif, indique le résultat atteint après un temps ou une suite d’actions."
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_04bccbcf12d5eed3653442d3",
+      "before": {
+        "id": "occ_zola_04bccbcf12d5eed3653442d3",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_162",
+        "start": 113,
+        "end": 116,
+        "surfaceFormId": "srf_par",
+        "senseId": "sns_par_primary"
+      },
+      "after": {
+        "id": "occ_zola_04bccbcf12d5eed3653442d3",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_162",
+        "start": 113,
+        "end": 116,
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually"
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_85d6fde67cb9bca947a60ad0",
+      "before": {
+        "id": "occ_zola_85d6fde67cb9bca947a60ad0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_069",
+        "start": 117,
+        "end": 120,
+        "surfaceFormId": "srf_par",
+        "senseId": "sns_par_primary"
+      },
+      "after": {
+        "id": "occ_zola_85d6fde67cb9bca947a60ad0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_069",
+        "start": 117,
+        "end": 120,
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually"
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_1_3",
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually",
+        "band": "levels_1_3",
+        "contextFrench": "Après plusieurs débats, ils finissent par se convaincre.",
+        "correctAnswer": "eventually; end up doing",
+        "format": "meaning_choice",
+        "targetText": "par",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "through a person",
+          "at the start",
+          "without trying",
+          "eventually; end up doing"
+        ]
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_4_5",
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually",
+        "band": "levels_4_5",
+        "contextFrench": "Il finira _____ éprouver un remords après cette affaire.",
+        "correctAnswer": "par",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "de",
+          "sans",
+          "par",
+          "sur"
+        ]
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_6_8",
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually",
+        "band": "levels_6_8",
+        "contextFrench": "Après de longues recherches, ils finissent par se convaincre de son innocence.",
+        "correctAnswer": "par",
+        "format": "target_identification",
+        "promptFrench": "Quelle préposition appartient à la tournure indiquant un résultat final ?",
+        "choicesFrench": [
+          "innocence",
+          "par",
+          "recherches",
+          "convaincre"
+        ]
+      },
+      "reason": "« finira par éprouver » and « finissent par se convaincre » express an eventual outcome rather than means, cause or agent."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_par_la_place",
+      "before": null,
+      "after": {
+        "id": "lem_fr_par_la_place",
+        "headword": "par là",
+        "partOfSpeech": "expression"
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_par_la_place_par",
+      "before": null,
+      "after": {
+        "id": "srf_fr_par_la_place_par",
+        "lemmaId": "lem_fr_par_la_place",
+        "form": "par",
+        "normalized": "par"
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_par_la_around_there",
+      "before": null,
+      "after": {
+        "id": "sns_fr_par_la_around_there",
+        "lemmaId": "lem_fr_par_la_place",
+        "gloss": "around there; in that area",
+        "definition": "Dans par là, indique un lieu approximatif ou les environs."
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_d91cb9c034d5466b67f9576f",
+      "before": {
+        "id": "occ_parure_d91cb9c034d5466b67f9576f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 210,
+        "end": 213,
+        "surfaceFormId": "srf_par",
+        "senseId": "sns_par_primary"
+      },
+      "after": {
+        "id": "occ_parure_d91cb9c034d5466b67f9576f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_030",
+        "start": 210,
+        "end": 213,
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there"
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_1_3",
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there",
+        "band": "levels_1_3",
+        "contextFrench": "Ils allaient chasser du côté de Nanterre, par là, le dimanche.",
+        "correctAnswer": "around there; in that area",
+        "format": "meaning_choice",
+        "targetText": "par",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "by an agent",
+          "after that",
+          "around there; in that area",
+          "because of this"
+        ]
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_4_5",
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there",
+        "band": "levels_4_5",
+        "contextFrench": "Ils allaient chasser près de Nanterre, _____ là.",
+        "correctAnswer": "par",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "avec",
+          "par",
+          "sur",
+          "de"
+        ]
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_6_8",
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there",
+        "band": "levels_6_8",
+        "contextFrench": "Quelques amis allaient tirer des alouettes par là, du côté de Nanterre.",
+        "correctAnswer": "par",
+        "format": "target_identification",
+        "promptFrench": "Quelle préposition appartient à la locution désignant les environs ?",
+        "choicesFrench": [
+          "par",
+          "amis",
+          "alouettes",
+          "Nanterre"
+        ]
+      },
+      "reason": "The men went to Nanterre to hunt larks « par là », meaning around that area, not by a person or through an instrument."
+    }
+  ]
+}

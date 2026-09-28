@@ -1,0 +1,26 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { editorialSubjects, auditEditorialQuality } from '../dist/publication/quality-audit.js';
+import { adoptSourceFiles, sharedSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-triomphe-annotation-2026-09-25';
+const ledgerPath = `editorial-review-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, ledgerPath))) throw new Error('Batch exists');
+const old = loadPublication(resolve('content/.publication-previous-Pzs6kk'));
+const publication = loadPublication();
+const id = 'wrk_zola_jaccuse';
+const a = old.textBindings.get(id), b = publication.textBindings.get(id);
+if (!a || !b || a.textRevision !== b.textRevision || a.structureRevision !== b.structureRevision || a.annotationRevision === b.annotationRevision) throw new Error('Unexpected Zola text or binding revision');
+const subject = editorialSubjects(publication).find(s => s.kind === 'annotations' && s.id === id);
+if (!subject || !auditEditorialQuality(publication).some(issue => issue.kind === 'annotations' && issue.id === id)) throw new Error('Annotation no longer stale');
+const source = publication.sharedSources.fr, reviews = new Map(source.reviews.map(review => [review.id, review]));
+const reviewId = `annotations:${id}`, before = reviews.get(reviewId);
+const rationale = `The 199 ordered J’Accuse units still reconstruct identical canonical text and structure; the new triomphe verb assignment preserves its source span and is reflected in the annotation revision.`;
+const after = approveReview('fr', 'annotations', id, subject.value, 'Codex', '2026-09-25T00:00:00.000Z', rationale);
+reviews.set(reviewId, after);
+const files = new Map(sharedSourceFiles({ ...source, reviews: [...reviews.values()] }));
+files.set(ledgerPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'annotations', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'exact canonical and structural revision comparison after one occurrence reassignment', changes: [{ subjectId: id, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: subject.value.units.length }] });
+const backup = adoptSourceFiles(publicationRoot, files, root => { const candidate = loadPublication(root); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.kind === 'annotations' && issue.id === id)) throw new Error('Still blocked'); });
+console.log(JSON.stringify({ batchId, reviewedUnits: subject.value.units.length, backup }));

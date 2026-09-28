@@ -1998,6 +1998,77 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_pendia_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_pendia",
+        "senseId": "sns_es_samaniego_pendia"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Del gancho pendía una cesta; debajo descansaba un gato junto a la puerta.",
+      "prompt": "¿Qué palabra indica que algo estaba suspendido?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "pendía"
+        },
+        {
+          "id": "choice_2",
+          "text": "gancho"
+        },
+        {
+          "id": "choice_3",
+          "text": "descansaba"
+        },
+        {
+          "id": "choice_4",
+          "text": "puerta"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_mecina_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_mecina_sourcefix",
+        "senseId": "sns_es_mecina_medicine_archaic"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "El manuscrito antiguo llama mecina al remedio que toma el enfermo.",
+      "targetText": "mecina",
+      "targetRange": {
+        "start": 28,
+        "end": 34
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "medicine or remedy"
+        },
+        {
+          "id": "choice_2",
+          "text": "illness"
+        },
+        {
+          "id": "choice_3",
+          "text": "shop"
+        },
+        {
+          "id": "choice_4",
+          "text": "prayer"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

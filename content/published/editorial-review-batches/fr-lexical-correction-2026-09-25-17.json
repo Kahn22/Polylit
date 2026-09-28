@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-17",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 17,
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "individual source passage and dependent question review",
+  "changes": [
+    {
+      "subjectId": "srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+      "reviewId": "vocabulary:srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+      "outcome": "approve",
+      "rationale": "La Parure contrasts the speaker’s lack of suitable clothes with a better-dressed colleague. The three questions test being dressed and feminine participle agreement; the old gloss described a form instead of its meaning.",
+      "before": {
+        "id": "vocabulary:srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+        "subjectRevision": "rev_fd26b87cc49a4eabf8fd5e9b58458024f174a9186340f4e604f944fc557c0205",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The phrase mieux nippée means better dressed, but the lemma/gloss “historical or contextual form of nipper” is circular and does not teach the participial meaning. Clarify the lemma and gloss before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_nippee_lem_parure_nipper_verb_2569c6ec72_d0a7a2030e:sns_parure_nipper_fournir_de_nippes_88f7738218",
+        "subjectRevision": "rev_d5f6bcb013097be269e8f00a4fcffd0d8c6139f590550e8d6dbc0f8496637dcf",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La Parure contrasts the speaker’s lack of suitable clothes with a better-dressed colleague. The three questions test being dressed and feminine participle agreement; the old gloss described a form instead of its meaning.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

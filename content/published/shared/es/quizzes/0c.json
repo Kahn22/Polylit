@@ -4,6 +4,38 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_en_ayunas_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_en_ayunas"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Llegó en ayunas, desayunó con calma, salió con prisa y volvió de noche.",
+      "prompt": "¿Qué expresión indica que llegó sin haber comido?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "en ayunas"
+        },
+        {
+          "id": "choice_2",
+          "text": "con calma"
+        },
+        {
+          "id": "choice_3",
+          "text": "con prisa"
+        },
+        {
+          "id": "choice_4",
+          "text": "de noche"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0017_adquirir_early",
       "language": "es",
       "glossLanguage": "en",
@@ -1748,6 +1780,135 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_alcanzar_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_alcanzar",
+        "senseId": "sns_es_samaniego_alcanzar"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El libro está demasiado alto; ni poniéndome de puntillas consigo ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "alcanzar"
+        },
+        {
+          "id": "choice_2",
+          "text": "esconder"
+        },
+        {
+          "id": "choice_3",
+          "text": "romper"
+        },
+        {
+          "id": "choice_4",
+          "text": "soltar"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_bien_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_bien",
+        "senseId": "sns_es_samaniego_bien"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Aunque habló despacio y escribió poco, explicó bien el problema.",
+      "prompt": "¿Qué adverbio indica que la explicación fue adecuada?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "bien"
+        },
+        {
+          "id": "choice_2",
+          "text": "despacio"
+        },
+        {
+          "id": "choice_3",
+          "text": "poco"
+        },
+        {
+          "id": "choice_4",
+          "text": "problema"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_congojas_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_congojas",
+        "senseId": "sns_es_samaniego_congojas"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Las malas noticias trajeron ___ a la familia: todos quedaron sumidos en la angustia.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "congojas"
+        },
+        {
+          "id": "choice_2",
+          "text": "alegrías"
+        },
+        {
+          "id": "choice_3",
+          "text": "ilusiones"
+        },
+        {
+          "id": "choice_4",
+          "text": "bromas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_iba_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0413_iba",
+        "senseId": "sns_es_samaniego_iba"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "De niño, Pablo ___ creciendo poco a poco; ahora ya es adulto.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "iba"
+        },
+        {
+          "id": "choice_2",
+          "text": "va"
+        },
+        {
+          "id": "choice_3",
+          "text": "irá"
+        },
+        {
+          "id": "choice_4",
+          "text": "iría"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

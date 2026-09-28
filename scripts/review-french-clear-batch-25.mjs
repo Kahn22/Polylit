@@ -1,0 +1,26 @@
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadPublication, publicationRoot, validatePublication } from '../dist/publication/repository.js';
+import { approveReview } from '../dist/publication/editorial.js';
+import { auditEditorialQuality, editorialSubjects } from '../dist/publication/quality-audit.js';
+import { sharedSourceFiles, adoptSourceFiles } from '../dist/publication/source-store.js';
+
+const batchId = 'fr-lexical-review-2026-09-25-25';
+const ledgerPath = `editorial-review-batches/${batchId}.json`;
+if (existsSync(resolve(publicationRoot, ledgerPath))) throw new Error('Review batch already exists');
+const id = 'srf_en:sns_en_it';
+const publication = loadPublication();
+if (!auditEditorialQuality(publication).some(issue => issue.kind === 'vocabulary' && issue.id === id)) throw new Error('Identity no longer pending');
+const family = editorialSubjects(publication).filter(subject => subject.kind === 'vocabulary' && subject.language === 'fr' && subject.value.sense.id === 'sns_en_it');
+if (family.length !== 1 || family[0].value.occurrences.length !== 11) throw new Error('En pronoun source changed; re-review family');
+const subject = family.find(subject => subject.id === id);
+const source = publication.sharedSources.fr;
+const reviews = new Map(source.reviews.map(review => [review.id, review]));
+const rationale = 'All eleven indexed uses are the pronoun en referring back to a de-complement, source, or partitive object: « s’en saisit », « je n’en ai point », « en sont un témoignage », « pour l’en expulser », « il en disparaît », « s’en assurer », and « en tira une carte ». The sense definition covers these back-references, while the three questions correctly test of it or a partitive quantity. None is the preposition en or the gerund marker.';
+const reviewId = `vocabulary:${id}`, before = reviews.get(reviewId);
+const after = approveReview('fr', 'vocabulary', id, subject.value, 'Codex offline contextual review', new Date().toISOString(), rationale);
+reviews.set(reviewId, after);
+const files = new Map(sharedSourceFiles({ ...source, reviews: [...reviews.values()] }));
+files.set(ledgerPath, { version: 1, kind: 'offline_editorial_review_batch', id: batchId, date: '2026-09-25', language: 'fr', subjectKind: 'vocabulary', reviewedIdentities: 1, approvals: 1, holds: 0, progressTransfers: [], reviewMethod: 'all eleven indexed pronoun occurrences and three dependent question bands reviewed', changes: [{ subjectId: id, reviewId, outcome: 'approve', rationale, before, after, reviewedOccurrences: 11 }] });
+adoptSourceFiles(publicationRoot, files, stage => { const candidate = loadPublication(stage); validatePublication(candidate.bundle, candidate.expressionCatalog, candidate.registry); if (auditEditorialQuality(candidate).some(issue => issue.kind === 'vocabulary' && issue.id === id)) throw new Error('Still pending'); });
+console.log(JSON.stringify({ batchId, reviewedIdentities: 1 }));

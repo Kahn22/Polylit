@@ -775,6 +775,82 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_grande_eau_fr_a_grande_eau_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_grande_eau_a",
+        "senseId": "sns_fr_a_grande_eau"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle lave à grande eau les planchers.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 10,
+        "end": 11
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "with plenty of water; thoroughly"
+        },
+        {
+          "id": "choice_3",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_4",
+          "text": "by an agent"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_a_moitie_fr_a_moitie_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_moitie_a",
+        "senseId": "sns_fr_a_moitie"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Son mari est à moitié habillé ce soir.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 13,
+        "end": 14
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "half; halfway; partly"
+        },
+        {
+          "id": "choice_2",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_4",
+          "text": "beneath an object"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_avoir_air_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1016,6 +1092,38 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_d_accord_fr_d_accord_d_elided_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_accord_d_elided",
+        "senseId": "sns_fr_d_accord"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Les deux juges semblent _____accord sur la date.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "sans"
+        },
+        {
+          "id": "choice_2",
+          "text": "d’"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "par"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_donner_spare_life_cendrillon_donna_lem_zola_donner_518d60b734_levels_6_8",
@@ -1276,6 +1384,44 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Je n’ai pas de robe convenable ; par conséquent, je ne peux aller à la fête.",
+      "targetText": "par",
+      "targetRange": {
+        "start": 33,
+        "end": 36
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "therefore; consequently"
+        },
+        {
+          "id": "choice_2",
+          "text": "however"
+        },
+        {
+          "id": "choice_3",
+          "text": "meanwhile"
+        },
+        {
+          "id": "choice_4",
+          "text": "by someone"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_poche_clothing_cendrillon_poche_lem_parure_poche_noun_3f04190937_f53ebe885b_levels_6_8",
@@ -1756,6 +1902,44 @@
         }
       ],
       "correctChoiceId": "choice_8"
+    },
+    {
+      "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Mes nuits seraient hantées par le spectre de l’innocent.",
+      "targetText": "mes",
+      "targetRange": {
+        "start": 0,
+        "end": 3
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "their"
+        },
+        {
+          "id": "choice_2",
+          "text": "my"
+        },
+        {
+          "id": "choice_3",
+          "text": "your"
+        },
+        {
+          "id": "choice_4",
+          "text": "his"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_parure_amis_ami_friend_6779b6508a_intermediate",

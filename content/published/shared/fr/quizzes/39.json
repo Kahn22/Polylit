@@ -797,6 +797,44 @@
       "correctChoiceId": "choice_3"
     },
     {
+      "id": "qiz_fr_avoir_l_air_seem_fr_avoir_avoir_l_air_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_avoir_avoir_l_air",
+        "senseId": "sns_fr_avoir_l_air_seem"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle trouvait humiliant d’avoir l’air pauvre au milieu de femmes riches.",
+      "targetText": "avoir",
+      "targetRange": {
+        "start": 26,
+        "end": 31
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "possess"
+        },
+        {
+          "id": "choice_2",
+          "text": "become wealthy"
+        },
+        {
+          "id": "choice_3",
+          "text": "borrow"
+        },
+        {
+          "id": "choice_4",
+          "text": "look; seem"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_briser_break_fr_brise_briser_verb_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1206,6 +1244,38 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_ne_que_only_n_elided_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Elle _____avait que quatre pas à faire.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "n’"
+        },
+        {
+          "id": "choice_2",
+          "text": "ne"
+        },
+        {
+          "id": "choice_3",
+          "text": "ni"
+        },
+        {
+          "id": "choice_4",
+          "text": "non"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     },
     {
       "id": "qiz_fr_officiel_public_function_parure_officiel_lem_parure_officiel_adjective_ea32d88a26_ce2536730a_levels_4_5",
@@ -1639,6 +1709,38 @@
         }
       ],
       "correctChoiceId": "choice_8"
+    },
+    {
+      "id": "qiz_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7_parure_rendre_lem_zola_rendre_506e242df3_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_rendre_lem_zola_rendre_506e242df3",
+        "senseId": "sns_loup_agneau_rendre_fait_devenir_ou_met_dans_un_certain_etat_dcec08f1b7"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "On serra les lacets pour leur _____ la taille plus menuë.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "prendre"
+        },
+        {
+          "id": "choice_2",
+          "text": "cacher"
+        },
+        {
+          "id": "choice_3",
+          "text": "rendre"
+        },
+        {
+          "id": "choice_4",
+          "text": "donner"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_loup_agneau_repond_sns_parure_repondre_donner_une_reponse_a_ce_qui_a_ete_dit_ou_demande_6396497c79_362424b5bd_intermediate",
@@ -4921,12 +5023,12 @@
       "context": "Cette règle vaut pour tous sans exception : sa portée est _____.",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "universel"
+          "id": "choice_8",
+          "text": "locale"
         },
         {
-          "id": "choice_6",
-          "text": "universels"
+          "id": "choice_9",
+          "text": "limitée"
         },
         {
           "id": "choice_7",

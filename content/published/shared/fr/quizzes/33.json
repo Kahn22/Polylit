@@ -867,6 +867,108 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_peu_pres_fr_a_peu_pres_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_peu_pres_a",
+        "senseId": "sns_fr_a_peu_pres"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Son compte rendu est _____ peu près exact.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "à"
+        },
+        {
+          "id": "choice_4",
+          "text": "de"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_a_pied_fr_a_pied_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_pied_a",
+        "senseId": "sns_fr_a_pied"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ils vont _____ pied vers la gare.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "de"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sans"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_a_son_de_trompe_fr_a_son_de_trompe_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_son_de_trompe_a",
+        "senseId": "sns_fr_a_son_de_trompe"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le messager annonce à son de trompe la nouvelle.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 20,
+        "end": 21
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_2",
+          "text": "beneath an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "by public proclamation; with a trumpet call"
+        },
+        {
+          "id": "choice_4",
+          "text": "towards a place"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_aine_elder_sibling_fr_aisnee_aine_noun_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1346,6 +1448,71 @@
         {
           "id": "choice_4",
           "text": "shop"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_par_consequent_par",
+        "senseId": "sns_fr_par_consequent_therefore"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Elle n’a pas de robe ; _____ conséquent, elle refuse l’invitation.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "sur"
+        },
+        {
+          "id": "choice_2",
+          "text": "de"
+        },
+        {
+          "id": "choice_3",
+          "text": "en"
+        },
+        {
+          "id": "choice_4",
+          "text": "par"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_par_la_around_there_fr_par_la_place_par_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_par_la_place_par",
+        "senseId": "sns_fr_par_la_around_there"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Quelques amis allaient tirer des alouettes par là, du côté de Nanterre.",
+      "prompt": "Quelle préposition appartient à la locution désignant les environs ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "amis"
+        },
+        {
+          "id": "choice_3",
+          "text": "alouettes"
+        },
+        {
+          "id": "choice_4",
+          "text": "Nanterre"
         }
       ],
       "correctChoiceId": "choice_1"

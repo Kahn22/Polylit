@@ -8,10 +8,17 @@
       "language": "fr",
       "kind": "annotations",
       "subjectId": "wrk_perrault_cendrillon",
-      "subjectRevision": "rev_8ad462cad6081f44b860263ef9a5a770bc4575276ad0989cc185009777bcc670",
+      "subjectRevision": "rev_712a33e93432e15ffe45304a112dae4fffb7aedd29c5fc3aa4e0786fc935c46d",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The canonical text and ordered unit structure match the prior approved binding. All 3 reassigned à/de/d’ word occurrences keep their original source spans and now point to their reviewed fixed-expression senses; the remaining preposition uses keep the revised functional senses.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-26T00:37:21.474Z",
+      "checks": [
+        "canonical_reconstruction",
+        "all_spans",
+        "exclusions_and_expressions"
+      ]
     },
     {
       "id": "quiz:exq_parure_par_consequent_40a447f3d5_intermediate",
@@ -142,12 +149,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_cendrillon_coeffeuse_sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6_722c0b245a_advanced",
-      "subjectRevision": "rev_9d0190a57213edfc1fa80e1a6a2452673590a52f96043df1e95d4d50d023fd88",
+      "subjectRevision": "rev_92f6312249c60bd26a222ed6a410e81d6fc6132b65e8fe546f55a71eb75471f4",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Hairdresser. Intermediate agreement: feminine singular historical spelling. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:17:54.245Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -306,12 +313,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_cendrillon_manqueroit_sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a_4e48ab6db7_advanced",
-      "subjectRevision": "rev_519055d55363b23aa59321922ce2ad8c1c2e85e637eec569560f3bb0b1c26804",
+      "subjectRevision": "rev_416bb7f64cfbd67db81113e172d3224707a79eaec6d3c17c60c863be4f8a954e",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Reviewed source meaning and replaced templates with three distinct contexts. Intermediate agreement: Agreement and number checked; original historical spelling retained.. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:56:26.763Z",
+      "reason": "Re-reviewed the authored question after its target meaning was corrected or clarified; its context, answer, grammatical fit, distractors, and band remain valid.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -776,6 +783,26 @@
       "reason": "All source occurrences read. Identity same state/same time and emphatic exact day. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed.",
       "reviewedBy": "Codex offline contextual review",
       "reviewedAt": "2026-09-19T15:46:30.615Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
+    },
+    {
+      "id": "quiz:qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_1_3",
+      "language": "fr",
+      "kind": "quiz",
+      "subjectId": "qiz_fr_par_consequent_therefore_fr_par_consequent_par_levels_1_3",
+      "subjectRevision": "rev_c7777e7bfe3928aa25809bc87edb1ee91605a3fa00b03a80f1c422451a811192",
+      "policy": "polylit-editorial-v2",
+      "status": "approved",
+      "reason": "In the fable’s reasoning and Mathilde’s explanation, par conséquent is the logical connector therefore, not an agentive or causal by.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-26T00:26:27.280Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1698,12 +1725,20 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_parure_quitter_sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3_d062e6a893_early",
-      "subjectRevision": "rev_c45af6041203d8e7a6855cc562813a4beb1e5f79858fa947c3410df0579e0fa7",
+      "subjectRevision": "rev_03a59d26b73468c0a4f54b74ecf7bf4d26a42d8464b8682828ce13c1859bd17f",
       "policy": "polylit-editorial-v2",
-      "status": "rejected",
-      "reason": "Quitter jewelry means take off/part with objects, definition only separation from person.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:39:02.101Z"
+      "status": "approved",
+      "reason": "Re-reviewed the authored question after its target meaning was corrected or clarified; its context, answer, grammatical fit, distractors, and band remain valid.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
     },
     {
       "id": "quiz:qiz_parure_regrets_regret_sorrow_d8cc2082e4_early",
@@ -1798,12 +1833,20 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_parure_vais_sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133_cd1924201b_early",
-      "subjectRevision": "rev_d4339de31cf4f39205946684a8e59645aefe01165b310f0f78846bd225416b1c",
+      "subjectRevision": "rev_2c9070d51ebfb699305bfa636f2bf35a9d3c349814414dc3224aacc5075d3e89",
       "policy": "polylit-editorial-v2",
-      "status": "rejected",
-      "reason": "Vais near-future auxiliary not movement.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:43:38.110Z"
+      "status": "approved",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "natural_context",
+        "sense_in_context",
+        "single_defensible_answer",
+        "distractors_reviewed",
+        "three_distinct_contexts",
+        "target_checked"
+      ]
     },
     {
       "id": "quiz:qiz_parure_violent_sns_parure_violent_qui_est_impetueux_qui_agit_avec_impetuosite_avec_une_force_non_contenue_en_parlant_des_evenements_des_choses_ou_des_personnes_et_de_leurs_actes_60ca8de3c1_480764855c_early",
@@ -1830,12 +1873,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_premiere_first_early",
-      "subjectRevision": "rev_756f6d8de4f87f35fadfaf15a08f9ed072199fa7fe1c61f1f8fd84b4389a85aa",
+      "subjectRevision": "rev_dede94abc7182afa4a832e272931efb06d36859154e8607cd15d62603c80f1b0",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "First turn specified. Intermediate agreement: feminine ordinal. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T12:46:39.458Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -1850,12 +1893,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_pret_primary_fr_prete_pret_adjective_levels_1_3",
-      "subjectRevision": "rev_d0f504a5ef292442f719c19d69fb38e809d145d5b5a5468292fb91e224133099",
+      "subjectRevision": "rev_9dc1ab326741bf736741d4b1b7e47870d898c40768ca147c89471aa4cd658e0f",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "All source occurrences read. Reuse the ready sense and adjective lemma; old noun barrel-binding identity remains historical. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T14:06:48.162Z",
+      "reason": "Re-reviewed the unchanged authored question after its target meaning was corrected; context, target, answer, grammar, distractors, and all three distinct bands remain accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -2970,12 +3013,12 @@
       "language": "fr",
       "kind": "quiz",
       "subjectId": "qiz_zola_surpris_surprendre_catch_unawares_early",
-      "subjectRevision": "rev_ac2d618721d9e1beaa74074c31c605eed81e41b19fe4d1fe55f7147444588554",
+      "subjectRevision": "rev_9d3005c0ff0ce970a1c81f1f9ad8f999cdd402d1e78ccd78f4bf7331708ea1da",
       "policy": "polylit-editorial-v2",
       "status": "approved",
-      "reason": "Caught/discovered unawares. Intermediate agreement: masculine past participle discovering unexpectedly. Each band inspected; retained content was also read. No vocabulary/occurrence approval is implied.",
-      "reviewedBy": "Codex offline contextual review",
-      "reviewedAt": "2026-09-19T13:23:48.549Z",
+      "reason": "Zola writes both « un traître à surprendre » (catch unawares) and « secrets ... d’avoir surpris » (discover unexpectedly); the shared verb sense now explains both constructions. Checked all three question bands for each form.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
       "checks": [
         "natural_context",
         "sense_in_context",
@@ -3132,8 +3175,16 @@
       "subjectId": "srf_arbre:sns_arbre_primary",
       "subjectRevision": "rev_2e752184b34c8729af7d582814d5da80cad5b42cab0903982a4b2f9677fc7b89",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole occurrence in sur un arbre perché: masculine-singular arbre means tree. The indexed form, noun classification, gloss, and source context align; no competing same-lemma record was found.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_civilitez_lem_cendrillon_civilite_noun_33afd4c973_79369d49da:sns_cendrillon_civilite_ensemble_de_comportements_lies_a_la_politesse_et_au_savoir_vivre_b49c1f0de1",
@@ -3142,8 +3193,16 @@
       "subjectId": "srf_cendrillon_civilitez_lem_cendrillon_civilite_noun_33afd4c973_79369d49da:sns_cendrillon_civilite_ensemble_de_comportements_lies_a_la_politesse_et_au_savoir_vivre_b49c1f0de1",
       "subjectRevision": "rev_079c71e7046e060d2d46acdb6919ca2e357a6b17460bd26a97af64aa766c15ab",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole plural occurrence: the sisters report that the princess showed them many civilitez, i.e. courteous acts/politeness. The noun, gloss, and definition fit the source use.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_coste_lem_zola_cote_cb374df165:sns_cendrillon_cote_region_des_cotes_depuis_l_aisselle_jusqu_a_la_hanche_db515c58e4",
@@ -3172,8 +3231,16 @@
       "subjectId": "srf_cendrillon_mener_lem_zola_mener_e37b7ea3d1:sns_cendrillon_mener_conduire_quelqu_un_vers_un_etre_ou_une_chose_bae34c2fe3",
       "subjectRevision": "rev_92c403707ebed9e94b1671a17e81029f2378616e5c79fb3a0ce6df94070213c6",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole infinitive in la prit pour la mener danser: the prince takes/leads Cinderella to dance. The lemma, form, and lead/take-someone-to sense match.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_oranges_lem_cendrillon_orange_noun_eaf11a3e29_403625b646:sns_cendrillon_orange_fruit_de_l_oranger_agrume_de_couleur_orangee_et_de_forme_spherique_compose_d_une_ecorce_orange_avec_une_chair_juteuse_et_divise_en_loges_par_des_cloisons_9d8dab3766",
@@ -3182,8 +3249,16 @@
       "subjectId": "srf_cendrillon_oranges_lem_cendrillon_orange_noun_eaf11a3e29_403625b646:sns_cendrillon_orange_fruit_de_l_oranger_agrume_de_couleur_orangee_et_de_forme_spherique_compose_d_une_ecorce_orange_avec_une_chair_juteuse_et_divise_en_loges_par_des_cloisons_9d8dab3766",
       "subjectRevision": "rev_0ca21769e9a6f9279c53ad4d180efc364357d0f5d29dbbd8682aa719ea83c6a1",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed both contexts: the prince gives oranges to Cinderella, and her sisters recount receiving oranges and lemons. The plural fruit noun and botanical sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_pleurer_lem_parure_pleurer_verb_2a216fae80_d4c40b3890:sns_cendrillon_pleurer_repandre_des_larmes_757a9bb62f",
@@ -3192,8 +3267,16 @@
       "subjectId": "srf_cendrillon_pleurer_lem_parure_pleurer_verb_2a216fae80_d4c40b3890:sns_cendrillon_pleurer_repandre_des_larmes_757a9bb62f",
       "subjectRevision": "rev_2e8e705da84cb3c9257b7f03af157205b0c73d85f45ae203b4c8b9223dc89581",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed both occurrences: Cinderella starts crying and cries so hard that she cannot finish her request. Pleurer means to shed tears in both contexts.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
@@ -3202,8 +3285,16 @@
       "subjectId": "srf_cendrillon_raconter_lem_zola_raconter_ccfc2aed0e:sns_cendrillon_raconter_faire_le_recit_d_une_histoire_vraie_ou_imaginaire_e8aeba79ba",
       "subjectRevision": "rev_84dd861c85a64318cfa00e2a138b33fd24ee64d00b56b5702520c51777a866f4",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole occurrence: Cinderella is recounting everything that happened at the ball to her godmother. Raconter means to tell/narrate events; the verb and definition fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_salle_lem_cendrillon_salle_noun_98f96330db_1739ffc4bd:sns_cendrillon_salle_piece_d_une_habitation_ouverte_aux_visiteurs_57513c3f60",
@@ -3212,8 +3303,16 @@
       "subjectId": "srf_cendrillon_salle_lem_cendrillon_salle_noun_98f96330db_1739ffc4bd:sns_cendrillon_salle_piece_d_une_habitation_ouverte_aux_visiteurs_57513c3f60",
       "subjectRevision": "rev_34735df8c5778618537a7602a427bcff2e712fc0cfbe82533195b9fa8cf87d26",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole occurrence: the prince leads the arriving princess into the hall where the company is gathered. Salle means a hall/large room receiving visitors; the noun and context align.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_cendrillon_sexe_lem_cendrillon_sexe_noun_45dd9e036e_9f0e7a9627:sns_cendrillon_sexe_attribut_utilise_pour_classer_un_individu_dans_les_especes_biologiques_employant_un_mode_de_reproduction_sexue_fac38ed515",
@@ -3250,8 +3349,16 @@
       "subjectId": "srf_cigale_fourmi_principal_lem_cigale_fourmi_principal_noun_9a90142e00_f300c18e09:sns_cigale_fourmi_principal_somme_pretee_distincte_des_interets_qui_s_y_ajoutent_518ae6360b",
       "subjectRevision": "rev_af08bb59131f53f8c8b8c343680fd59bbc36efe3efb015e12ef05693a60e6154",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole promise to pay “intérêt et principal”: principal is the original amount borrowed apart from interest. The financial noun sense is exact.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_etre:sns_fr_etre_compound_auxiliary",
@@ -3330,10 +3437,18 @@
       "language": "fr",
       "kind": "vocabulary",
       "subjectId": "srf_partit:sns_partir_primary",
-      "subjectRevision": "rev_1453358e54b94d49f6a01544a954dc6c6b01f0571eeda2bf94b233c0fcd07263",
+      "subjectRevision": "rev_efef512b9195c28e48aa2e090a454823b81e71c898cdf396a28ed9e4c12fd570",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed the sole occurrence: the hare set off as the tortoise neared the finish. Partit is the past historic of partir, “set off/left.”",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-23T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_compromit_lem_zola_compromettre_a8af4a0729:sns_parure_compromettre_exposer_quelqu_un_a_se_trouver_dans_quelque_embarras_soit_en_usant_de_son_nom_sans_son_aveu_soit_en_l_engageant_dans_des_demeles_dans_des_affaires_ca317c73f4",
@@ -3360,8 +3475,16 @@
       "subjectId": "srf_parure_finesse_finesse_noun_f2b0509822:sns_parure_finesse_subtlety_669529c0ed",
       "subjectRevision": "rev_c16435efd5104f55db5575563415162f20a0426342d975c90d31bd22280e2b92",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The occurrence describes the women’s native delicacy of judgment and refinement of spirit. “Subtlety/refinement” is accurate.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_grands_grand_adjective_077dd1638c:sns_zola_grand_great",
@@ -3388,8 +3511,16 @@
       "subjectId": "srf_parure_menage_menage_noun_2fe06cc697:sns_parure_menage_housework_2bcadfda28",
       "subjectRevision": "rev_df1178392c857197fbf12856483ee10ac0e2697133db237673b1b5c740b9d7c4",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed both occurrences: ménage refers to heavy domestic chores and the maid’s humble housework. “Housework” fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_mettras_lem_mettre_9c41cf70cc:sns_parure_mettre_placer_une_personne_ou_un_animal_ou_une_chose_dans_un_lieu_determine_203318a543",
@@ -3426,8 +3557,16 @@
       "subjectId": "srf_parure_quai_lem_parure_quai_noun_ee136f4e1c_826a193ec6:sns_parure_quai_levee_ordinairement_revetue_de_pierres_de_taille_et_faite_le_long_d_une_riviere_ou_d_un_canal_pour_rendre_le_chemin_praticable_et_pour_empecher_le_debordement_de_l_eau_3c5109d265",
       "subjectRevision": "rev_37c8b9424fac3c6f946be97f03014f9cdfc8c108d7fa88e232fa3fdd68b2e032",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The couple finds a hired carriage on the quay beside the Seine. Quai means riverside quay/wharf.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_reconnaissait_lem_parure_reconnaitre_verb_576c84ce55_6d71563fd5:sns_parure_reconnaitre_variante_orthographique_du_verbe_reconnaitre_ee9dafca53",
@@ -3492,8 +3631,16 @@
       "subjectId": "srf_parure_sourire_sourire_noun_a5caaa3fa4:sns_parure_sourire_smile_b41007b72f",
       "subjectRevision": "rev_a98505bb04189c1a7026b8fc5128d53344773dd487ab27523525c9720f92c039",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The imagined guests listen with a sphinx-like smile. Sourire means smile.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_parure_taux_lem_parure_taux_noun_df9d27e90d_cdacdca1ac:sns_fr_taux_interest_rate",
@@ -3514,14 +3661,40 @@
       ]
     },
     {
+      "id": "vocabulary:srf_sur:sns_fr_sur_about_topic",
+      "language": "fr",
+      "kind": "vocabulary",
+      "subjectId": "srf_sur:sns_fr_sur_about_topic",
+      "subjectRevision": "rev_0a2d46d2180abdbf0c2280fef8bcddcc8af2fc5315a83b172f47f56d4b9c98da",
+      "policy": "polylit-editorial-v2",
+      "status": "approved",
+      "reason": "The law concerns the press, Zola asks for truth about the trial and conviction, and the moral comments on the tale; these four sur tokens introduce a topic rather than a surface.",
+      "reviewedBy": "Codex offline contextual review",
+      "reviewedAt": "2026-09-26T00:26:27.280Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
+    },
+    {
       "id": "vocabulary:srf_tenait:sns_tenir_hold",
       "language": "fr",
       "kind": "vocabulary",
       "subjectId": "srf_tenait:sns_tenir_hold",
       "subjectRevision": "rev_a2f444e49879e27b3a8e488a744ff9ede07e9bfb623fdc2ddccd281d331cafdc",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "The hare held the wager; tenir la gageure means to maintain or hold the wager. The conjugated form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_accomplis_accomplir:sns_zola_accomplir_perform",
@@ -3530,8 +3703,16 @@
       "subjectId": "srf_zola_accomplis_accomplir:sns_zola_accomplir_perform",
       "subjectRevision": "rev_8a25086438e9c1a86c3c273e142169f4ec12e75903a674081bec82d1ddc303af",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "In l’acte que j’accomplis, accomplir means carry out/perform; the form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_acquitter_acquitter:sns_zola_acquitter_acquit",
@@ -3540,8 +3721,16 @@
       "subjectId": "srf_zola_acquitter_acquitter:sns_zola_acquitter_acquit",
       "subjectRevision": "rev_971bf084239641ec6c1ce60262653a4276909fc32906972cd809a945652263d8",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed occurrences: acquitter means acquit in the trial contexts, including a decision the judges were pressured to reach. The sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_affirme_affirmer:sns_zola_affirmer_state",
@@ -3550,18 +3739,34 @@
       "subjectId": "srf_zola_affirme_affirmer:sns_zola_affirmer_state",
       "subjectRevision": "rev_393598ae8a8b161274cdcd8c58de8e65ea74cd54fe9c41ebf0ab686262dcc353",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "In affirme l’existence, affirmer means assert/state; the present form and sense fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_arme_8c5fe48540d9_armer:sns_zola_arme_equipped",
       "language": "fr",
       "kind": "vocabulary",
       "subjectId": "srf_zola_arme_8c5fe48540d9_armer:sns_zola_arme_equipped",
-      "subjectRevision": "rev_5673452b1500dd86caebd84a17592bc060bdc51271e7134a0b07230806ec9fd7",
+      "subjectRevision": "rev_33666ad3c2ebb8ea403b64f1364cc4d368ba8c2be0190c0fc53b1da6259541df",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Rechecked the indexed source passage, learner meaning, stable identity, and the three authored question bands after the documented correction.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_aucun_aucun:sns_zola_aucun_none",
@@ -3570,8 +3775,16 @@
       "subjectId": "srf_zola_aucun_aucun:sns_zola_aucun_none",
       "subjectRevision": "rev_4b83c2d1090f9e02a02bcfac9d0ec3fd0386c8f3262a49b73d7f7cdd917cb835",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Reviewed occurrences: aucun means no/not any, modifying a dot, paper, power, and similar nouns. The determiner sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
@@ -3580,8 +3793,16 @@
       "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
       "subjectRevision": "rev_f33b8e3ec5ad0ca1574daf2e80c20e1dad51b225b0d7c2ca2214d1fca6cf98f2",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Croira means will believe in its indexed passage; the form and questions fit.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_declaration_c31e0267a367_declaration:sns_zola_declaration_statement",
@@ -3590,8 +3811,16 @@
       "subjectId": "srf_zola_declaration_c31e0267a367_declaration:sns_zola_declaration_statement",
       "subjectRevision": "rev_f5a8502a039a46d1dc186fb48b3aeb774e6adb86f1e8353d84384e1953b97100",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "In par sa déclaration, déclaration means statement/declaration; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_erreur_erreur:sns_zola_erreur_mistake",
@@ -3600,8 +3829,16 @@
       "subjectId": "srf_zola_erreur_erreur:sns_zola_erreur_mistake",
       "subjectRevision": "rev_b0d305c5aa2f7679ddc757474c56ebd9cdc3363f9bad19419ff0398d29daf3ba",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts erreur means an error or mistake, including judicial errors and an error of destiny; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_etaient_cdec19ace9e4_etre:sns_etre_primary",
@@ -3628,8 +3865,16 @@
       "subjectId": "srf_zola_folles_fou:sns_zola_fou_mad",
       "subjectRevision": "rev_d82cc53fb65a602560ca93c3e8e362ce5e50f2762db58cc4d974bcc8b931f819",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Folles describes irrational investigations and wild imaginations; feminine plural adjective form fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_histoire_histoire:sns_zola_histoire_story",
@@ -3638,8 +3883,16 @@
       "subjectId": "srf_zola_histoire_histoire:sns_zola_histoire_story",
       "subjectRevision": "rev_a55c50a9b58c12b8ab56173ee3643d68ae54fe30bcef30c784dcd8a5b5b93721",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts, histoire means a story or account of events; contexts include a known account and summary; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_infamie_infamie:sns_zola_infamie_disgrace",
@@ -3648,8 +3901,16 @@
       "subjectId": "srf_zola_infamie_infamie:sns_zola_infamie_disgrace",
       "subjectRevision": "rev_85c4ad564d6365d0d463acd1c30f602960acbe75d0edd5861963ac40164951c9",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Infamie means infamy or disgrace; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_inique_inique:sns_zola_inique_unjust",
@@ -3658,8 +3919,16 @@
       "subjectId": "srf_zola_inique_inique:sns_zola_inique_unjust",
       "subjectRevision": "rev_b458d35f8628f85e261d762946334a42e6a2c05b18430919e1963df276363a47",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Inique describes a profoundly unjust act; adjective sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_mysterieuses_9b2f9669e16b_mysterieux:sns_zola_mysterieux_mysterious",
@@ -3668,8 +3937,16 @@
       "subjectId": "srf_zola_mysterieuses_9b2f9669e16b_mysterieux:sns_zola_mysterieux_mysterious",
       "subjectRevision": "rev_e357467b1ec4992676eb0d70dc098b8f45d8dfc906f6ab41aa2d01bca81c816c",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Femmes mystérieuses means mysterious/unknown women; plural adjective form fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_nuit_nuit:sns_zola_nuit_night",
@@ -3678,8 +3955,16 @@
       "subjectId": "srf_zola_nuit_nuit:sns_zola_nuit_night",
       "subjectRevision": "rev_23a00dba5a9429e19ae9a35857eee4581cc8f5481f0fa5ef78ceccfe2af74115",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts nuit means night/nighttime, including both all night and night-time activities; noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_paquet_paquet:sns_zola_paquet_bundle",
@@ -3688,8 +3973,16 @@
       "subjectId": "srf_zola_paquet_paquet:sns_zola_paquet_bundle",
       "subjectRevision": "rev_f6fca12d8370e2d09fa903d5236360ea8e90bc7a35f2b5d7103f0bd9088f4e87",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Lâcher tout le paquet means reveal the whole bundle of information; figurative noun sense fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_quelque_quelque:sns_zola_quelque_indefinite",
@@ -3698,8 +3991,16 @@
       "subjectId": "srf_zola_quelque_quelque:sns_zola_quelque_indefinite",
       "subjectRevision": "rev_416a4d7db9405e3c327a6e1b9891ffd076d0e987d7ff21f438151af7bec459d5",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Across contexts quelque means some/a certain, modifying a grain, thing, or colleague; indefinite determiner fits.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-24T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     },
     {
       "id": "vocabulary:srf_zola_universelle_universel:sns_zola_universel_general",
@@ -3708,8 +4009,16 @@
       "subjectId": "srf_zola_universelle_universel:sns_zola_universel_general",
       "subjectRevision": "rev_bff5ea0aa4c06e3c4b22fd0a0e8e0eca648967481aa17f72c97f367e5affe764",
       "policy": "polylit-editorial-v2",
-      "status": "pending",
-      "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      "status": "approved",
+      "reason": "Conscience universelle and Exposition universelle both reach beyond one country or group. Corrected the completion distractors to feminine singular adjectives so grammar alone cannot identify universelle.",
+      "reviewedBy": "Codex",
+      "reviewedAt": "2026-09-25T00:00:00.000Z",
+      "checks": [
+        "lemma_and_part_of_speech",
+        "sense_in_every_occurrence",
+        "surface_form",
+        "existing_identity_reuse"
+      ]
     }
   ]
 }

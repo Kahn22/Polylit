@@ -1668,6 +1668,39 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_ne_que_only_n_elided_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_n_elided",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Je n’ai qu’une passion, comprendre la vérité et la faire connaître.",
+      "prompt": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "passion"
+        },
+        {
+          "id": "choice_2",
+          "text": "vérité"
+        },
+        {
+          "id": "choice_3",
+          "text": "connaître"
+        },
+        {
+          "id": "choice_4",
+          "text": "n’"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_nouveau_new_fr_nouvelle_adjective_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -2117,6 +2150,39 @@
         {
           "id": "choice_4",
           "text": "rideaux"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_fr_tour_stroll"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Un dimanche, elle était allée faire un tour aux Champs-Élysées pour se délasser des besognes de la semaine.",
+      "prompt": "Quel mot désigne ici une promenade ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "besognes"
+        },
+        {
+          "id": "choice_2",
+          "text": "tour"
+        },
+        {
+          "id": "choice_3",
+          "text": "dimanche"
+        },
+        {
+          "id": "choice_4",
+          "text": "semaine"
         }
       ],
       "correctChoiceId": "choice_2"
@@ -3989,6 +4055,44 @@
         {
           "id": "choice_7",
           "text": "salle"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_avoir_lieu_happen_fr_avoir_avoir_lieu_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_avoir_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Dès lors, le duel va avoir lieu entre les deux lieutenants-colonels.",
+      "targetText": "avoir",
+      "targetRange": {
+        "start": 21,
+        "end": 26
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "take place; happen"
+        },
+        {
+          "id": "choice_2",
+          "text": "possess"
+        },
+        {
+          "id": "choice_3",
+          "text": "borrow"
+        },
+        {
+          "id": "choice_4",
+          "text": "remember"
         }
       ],
       "correctChoiceId": "choice_1"

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-26T12:16:52.686Z",
+  "sense": {
+    "id": "sns_fr_mettre_begin",
+    "lemmaId": "lem_mettre",
+    "gloss": "to begin (se mettre à)",
+    "definition": "Avec se et à suivi d’un infinitif, commencer une action."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_6_8",
+      "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_1_3",
+      "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_mirent_mettre_verb:sns_fr_mettre_begin",
+      "surface": "mirent",
+      "lemma": "mettre",
+      "currentRevision": "rev_6d00ae499e8fb143a64aa5bb045be9af6c8bc2432a0bb79bcc562edcfffdc9d6",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_167d70e35e229de6b10ff530",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            281,
+            287
+          ]
+        },
+        {
+          "id": "occ_parure_30efa4b0815500bd1a7c5867",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_062",
+          "passage": "Mais elle ne l’écoutait point et descendait rapidement l’escalier. Lorsqu’ils furent dans la rue, ils ne trouvèrent pas de voiture ; et ils se mirent à chercher, criant après les cochers qu’ils voyaient passer de loin.",
+          "span": [
+            143,
+            149
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Ils se mirent à chercher la clé sous les meubles.",
+          "prompt": "Quel verbe, avec se et à, marque le début de l’action ?",
+          "choices": [
+            {
+              "text": "mirent",
+              "correct": true
+            },
+            {
+              "text": "chercher",
+              "correct": false
+            },
+            {
+              "text": "clé",
+              "correct": false
+            },
+            {
+              "text": "meubles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les enfants se mirent à rire en voyant le petit chien.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forgot",
+              "correct": false
+            },
+            {
+              "text": "refused",
+              "correct": false
+            },
+            {
+              "text": "began",
+              "correct": true
+            },
+            {
+              "text": "stopped",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_mettre_begin_fr_mirent_mettre_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les voisins se _____ à chanter dès les premières notes.",
+          "choices": [
+            {
+              "text": "mettre",
+              "correct": false
+            },
+            {
+              "text": "mirent",
+              "correct": true
+            },
+            {
+              "text": "mit",
+              "correct": false
+            },
+            {
+              "text": "mis",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

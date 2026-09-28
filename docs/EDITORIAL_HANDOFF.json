@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "checkpoint": "Polylit-French-Editorial-recovery-296-micromegas-chapter-02-handoff.zip",
+  "publicationReady": true,
+  "blockedRecords": 0,
+  "blockedByKind": {
+    "fr": {
+      "quiz": 0,
+      "vocabulary": 0,
+      "expression": 0,
+      "annotations": 0
+    },
+    "es": {
+      "quiz": 0,
+      "vocabulary": 0,
+      "expression": 0,
+      "annotations": 0
+    }
+  },
+  "nextFrenchVocabularyIds": [],
+  "nextSharedSenseIds": [],
+  "nextContentWorkId": "wrk_voltaire_micromegas",
+  "candidateProgress": {
+    "workId": "wrk_voltaire_micromegas",
+    "dossierSha256": "c32f3a84ce39ef174be1bfa97c27f8b8dffc265b3ff075c42ac9b6fb64dd1397",
+    "historyVersion": 46,
+    "evidenceCount": 120,
+    "batchCount": 24,
+    "senseDrafts": 236,
+    "workwideOccurrences": 469,
+    "chapterOneOccurrences": 281,
+    "vocabularyQuestionDrafts": 708,
+    "latestBatch": "chapter-01-batch-24.json",
+    "questionReview": {
+      "meaningDraftsChecked": 236,
+      "questionBandsChecked": 708,
+      "recordedCorrections": 9
+    },
+    "sharedIdentityReview": {
+      "draftMeaningsWithPublishedForm": 44,
+      "decisions": {
+        "separate": 38,
+        "reuse_ready": 5,
+        "reuse_pending_activation": 1
+      }
+    },
+    "sharedLemmaReview": {
+      "reviewedNoExactFormMeanings": 192,
+      "remainingNoExactFormMeanings": 0,
+      "firstDecisions": {
+        "new_lemma_sense": 79,
+        "link_published_sense": 12,
+        "new_sense_existing_lemma": 9
+      },
+      "finalDecisions": {
+        "new_lemma_sense": 66,
+        "link_published_sense": 16,
+        "new_sense_existing_lemma": 10
+      }
+    },
+    "identityPlan": {
+      "mappedMeanings": 236,
+      "routes": {
+        "new_lemma_and_sense": 145,
+        "add_surface_to_published_sense": 29,
+        "new_sense": 56,
+        "reuse_exact_published_identity": 5,
+        "published_identity_pending_first_use_approval": 1
+      }
+    },
+    "publishedRepairPlan": {
+      "completedRepairs": 2,
+      "heldFirstUseApproval": 1,
+      "publishedMutationBatch": "fr-micromegas-shared-repair-2026-09-27-01"
+    },
+    "chapterOneCoverage": {
+      "tokenUses": 1020,
+      "distinctForms": 422,
+      "draftedTokenUses": 281,
+      "reusedTokenUses": 710,
+      "excludedProperNameUses": 24,
+      "coveredPhraseComponents": 5,
+      "unresolvedTokenUses": 0,
+      "reusePackets": 12
+    },
+    "chapterTwoCoverage": {
+      "tokenUses": 1035,
+      "distinctForms": 393,
+      "draftedTokenUses": 252,
+      "reusedTokenUses": 773,
+      "excludedProperNameUses": 6,
+      "unresolvedTokenUses": 0,
+      "unresolvedDistinctForms": 0,
+      "batchCount": 18,
+      "newMeaningDrafts": 171,
+      "publishedReusePackets": 10,
+      "newQuestionBands": 513,
+      "coveredPhraseComponents": 4,
+      "expressionTriages": 14,
+      "newExpressionQuestionBands": 3,
+      "questionReviewedMeanings": 171,
+      "questionReviewedBands": 513,
+      "identityRoutes": {
+        "link_published_sense": 47,
+        "new_lemma_and_sense": 92,
+        "link_planned_chapter_one_sense": 7,
+        "new_sense_existing_lemma": 25
+      },
+      "expressionReviewedBands": 3
+    }
+  },
+  "nextAction": "Chapter II offline review is recorded: all 1035 tokenizer uses have dispositions, 171 new meanings have 513 reviewed question bands and identity routes, and the \u00e0 peine expression has 3 reviewed bands. Continue with chapter III coverage and complete-work sense reconciliation before importing Microm\u00e9gas. The candidate remains unpublished; the existing release gate covers the previous 11 works only.",
+  "validation": {
+    "check": "passed",
+    "sourceDossiers": "included in check",
+    "localReviewBuild": "passed",
+    "editorialAudit": "passed",
+    "productionBuild": "passed"
+  },
+  "source": "This is an unpublished source checkpoint; no GitHub push or deployment has occurred."
+}

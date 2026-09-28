@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-sens-annotation-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison after one occurrence reassignment",
+  "changes": [
+    {
+      "subjectId": "wrk_perrault_cendrillon",
+      "reviewId": "annotations:wrk_perrault_cendrillon",
+      "outcome": "approve",
+      "rationale": "The ordered passage units retain identical canonical text and structure; the judgment sense occurrence retains its exact source span and now matches « du bon sens ».",
+      "before": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_e06a2a926043cb3faaf8bbc8c635df8ea347816724e2c79bfbc73faa3d0eaa33",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The ordered passage units retain identical canonical text and structure; the noun haut occurrence retains its exact source span and now matches « au haut de la maison ».",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T15:40:30.441Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_1ce7f7ccca4e198b55af276c76fc51af236349ba9a4e259d631fb4b013b4f4db",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The ordered passage units retain identical canonical text and structure; the judgment sense occurrence retains its exact source span and now matches « du bon sens ».",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T15:43:35.803Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 55
+    }
+  ]
+}

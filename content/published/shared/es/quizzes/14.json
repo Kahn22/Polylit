@@ -4,6 +4,37 @@
   "kind": "quizzes",
   "records": [
     {
+      "id": "exq_samaniego_de_fijo_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_es_samaniego_de_fijo"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "No tengo ninguna duda; lo sé ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de fijo"
+        },
+        {
+          "id": "choice_2",
+          "text": "por casualidad"
+        },
+        {
+          "id": "choice_3",
+          "text": "de oídas"
+        },
+        {
+          "id": "choice_4",
+          "text": "a medias"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_es_0027_al_early",
       "language": "es",
       "glossLanguage": "en",
@@ -1946,6 +1977,38 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_sourcefix_pst_intermediate",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_pst_sourcefix",
+        "senseId": "sns_es_pst_hesitation"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El médico vaciló un instante y murmuró «___» antes de responder.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Pst"
+        },
+        {
+          "id": "choice_2",
+          "text": "Ay"
+        },
+        {
+          "id": "choice_3",
+          "text": "Uf"
+        },
+        {
+          "id": "choice_4",
+          "text": "Eh"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

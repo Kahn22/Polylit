@@ -1055,6 +1055,39 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_a_bas_fr_a_bas_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_bas_a",
+        "senseId": "sns_fr_a_bas"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, il veut jeter à bas cette vieille clôture.",
+      "prompt": "Quelle préposition figure dans la locution « à bas » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "clôture"
+        },
+        {
+          "id": "choice_2",
+          "text": "à"
+        },
+        {
+          "id": "choice_3",
+          "text": "jeter"
+        },
+        {
+          "id": "choice_4",
+          "text": "vieille"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_approcher_bring_near_fr_approchant_approcher_verb_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1212,24 +1245,24 @@
       },
       "band": "levels_6_8",
       "format": "target_identification",
-      "context": "Elle a connu bien des difficultés avant de réussir enfin.",
-      "prompt": "Quel adverbe indique ici une quantité importante ?",
+      "context": "Les généraux sont bien obligés de faire acquitter le commandant, puisqu’ils ne peuvent laisser reconnaître son innocence.",
+      "prompt": "Quel mot renforce l’idée qu’ils sont obligés ?",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "réussir"
-        },
-        {
-          "id": "choice_2",
-          "text": "enfin"
+          "id": "choice_5",
+          "text": "innocence"
         },
         {
           "id": "choice_3",
           "text": "bien"
         },
         {
-          "id": "choice_4",
-          "text": "difficultés"
+          "id": "choice_6",
+          "text": "généraux"
+        },
+        {
+          "id": "choice_7",
+          "text": "commandant"
         }
       ],
       "correctChoiceId": "choice_3"
@@ -1435,6 +1468,39 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_d_autant_plus_fr_d_autant_plus_d_elided_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_autant_plus_d_elided",
+        "senseId": "sns_fr_d_autant_plus"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, cette accusation est d’autant plus grave que les preuves manquent.",
+      "prompt": "Quel élément appartient à la locution « d’autant plus » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "preuves"
+        },
+        {
+          "id": "choice_2",
+          "text": "d’"
+        },
+        {
+          "id": "choice_3",
+          "text": "accusation"
+        },
+        {
+          "id": "choice_4",
+          "text": "grave"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_essayer_try_on_parure_essayait_lem_parure_essayer_verb_e727cbb8b7_e94762e7f0_levels_4_5",
@@ -1780,6 +1846,44 @@
       "correctChoiceId": "choice_3"
     },
     {
+      "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "L’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps.",
+      "targetText": "doute",
+      "targetRange": {
+        "start": 10,
+        "end": 15
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "never"
+        },
+        {
+          "id": "choice_2",
+          "text": "by accident"
+        },
+        {
+          "id": "choice_3",
+          "text": "in secret"
+        },
+        {
+          "id": "choice_4",
+          "text": "probably; no doubt"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
       "id": "qiz_fr_sattendre_expect_fr_attendoit_s_attendre_verb_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1849,6 +1953,76 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_sou_a_sou_fr_sou_a_sou_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_sou_a_sou_a",
+        "senseId": "sns_fr_sou_a_sou"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Le marchand compte sou _____ sou ses économies.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "par"
+        },
+        {
+          "id": "choice_3",
+          "text": "sans"
+        },
+        {
+          "id": "choice_4",
+          "text": "à"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_tout_d_un_coup_fr_tout_d_un_coup_d_elided_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_tout_d_un_coup_d_elided",
+        "senseId": "sns_fr_tout_d_un_coup"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Tout d’un coup, une décision change le procès.",
+      "targetText": "d’",
+      "targetRange": {
+        "start": 5,
+        "end": 7
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_2",
+          "text": "suddenly; all at once"
+        },
+        {
+          "id": "choice_3",
+          "text": "belonging to"
+        },
+        {
+          "id": "choice_4",
+          "text": "toward a place"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_un_group_member_fr_un_un_pronoun_levels_4_5",

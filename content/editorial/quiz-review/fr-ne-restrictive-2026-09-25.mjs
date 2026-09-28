@@ -1,0 +1,292 @@
+export default {
+  "version": 1,
+  "id": "fr-ne-restrictive-split-2026-09-25",
+  "snapshot": "fr-ne-restrictive-2026-09-25-input.json",
+  "language": "fr",
+  "entries": [
+    {
+      "from": "srf_ne:sns_ne_primary",
+      "occurrenceIds": [
+        "occ_267623871f39a12c921f6170",
+        "occ_6f1fd27815f87446702d81d5",
+        "occ_bde20a7c6e82c8b2a3c4de2a",
+        "occ_cendrillon_14597e9226e6fb8f6b226eb5",
+        "occ_cendrillon_1c22d3041ff688a401d5c4df",
+        "occ_cendrillon_1fc475dc4d2312c50129608c",
+        "occ_cendrillon_22539f74626d850aa837ecbf",
+        "occ_cendrillon_2a1b135eeddd02071ac9c3be",
+        "occ_cendrillon_3101470fdc1126b3f45ed96b",
+        "occ_cendrillon_32e1cebc99e356b4b2962daf",
+        "occ_cendrillon_3e1091c125a2e8c41bf82118",
+        "occ_cendrillon_3f891da69921d3604a04b809",
+        "occ_cendrillon_42a2705a74ab2d26de20dcc7",
+        "occ_cendrillon_4f56d576585dc4d9b26a0e52",
+        "occ_cendrillon_542a4cafc25922d68044ae0c",
+        "occ_cendrillon_5a0fd4c1cb2bb47ae5d7d4b6",
+        "occ_cendrillon_5aee65ff312a030e7f6598b3",
+        "occ_cendrillon_5c00595e90c76548f3a64b05",
+        "occ_cendrillon_73d6c1fa5c3780a879515554",
+        "occ_cendrillon_7d8727801697b6371e052772",
+        "occ_cendrillon_80dd493ff2cb234c96ce9e89",
+        "occ_cendrillon_9e79cc0ec00811c759a68a71",
+        "occ_cendrillon_a9d24bbb5403d530c9c0593c",
+        "occ_cendrillon_ab7884a0e31297120ee37f2c",
+        "occ_cendrillon_abb1416ad2e782ab143040e3",
+        "occ_cendrillon_b2ad0e28368190c964958cc5",
+        "occ_cendrillon_e8dc9b25ead5c2636c8cebf4",
+        "occ_cendrillon_ee3f08994914296abae04c91",
+        "occ_cendrillon_f4a3afb8ab859a090713d004",
+        "occ_cendrillon_fe96321050ee853089539234",
+        "occ_cigale_fourmi_5faeb84452192ced8ccb1ec9",
+        "occ_lion_rat_1a07072ea36a1c972506bb19",
+        "occ_lion_rat_cf6597e3823a61b4a49bcf4b",
+        "occ_loup_agneau_6ca7f44e9e90c173ae20e7c7",
+        "occ_loup_agneau_aa210ff7c297f581d069d5de",
+        "occ_loup_agneau_be9bf90d292aa3769ef6c69c",
+        "occ_parure_109a0d9f97e104e5227dde8f",
+        "occ_parure_232d9db54d028ecc2b459856",
+        "occ_parure_238b285425c876b34ab2b72b",
+        "occ_parure_23aa8a76ed0990bd1678db4b",
+        "occ_parure_334610602b053af30b84d389",
+        "occ_parure_41e73c625173437c05e2a3c7",
+        "occ_parure_4bc44adbd667f49383a2b67b",
+        "occ_parure_4dc1731512a417649a558dfb",
+        "occ_parure_6b68113261719d91a9088737",
+        "occ_parure_6db9c889091a5a5d27020ee9",
+        "occ_parure_6fa12c22678886691e686b4a",
+        "occ_parure_724a9daa6425a9eaa039ff10",
+        "occ_parure_87159dcd82ff0dad006516ec",
+        "occ_parure_881d0ef423c5f1ab66b779b1",
+        "occ_parure_8ff0ce0bf6ae1d79bd5ad3d9",
+        "occ_parure_a987c7bba154bb48152171e6",
+        "occ_parure_aa73b22ee69ca68a3af7fad7",
+        "occ_parure_b59ec79e3d40231f00f925bf",
+        "occ_parure_d0a40d6fc935d40993c1072c",
+        "occ_parure_d482d3a142bbe00cb3d1b7dd",
+        "occ_parure_e2a7a4bb73fc7dcecc2defdc",
+        "occ_parure_e3d5df6efe9284364f911bff",
+        "occ_parure_ea73bd64c284e2e2ffb35d7d",
+        "occ_zola_001fd51dc58d25fb40f950f7",
+        "occ_zola_0346ddc34bba6675d0bfc7e3",
+        "occ_zola_05b884124061ce2c9237a9d1",
+        "occ_zola_1327897910675e5533992b9d",
+        "occ_zola_1522415f8e4fba0135211b44",
+        "occ_zola_15b186927532e51a47cb4000",
+        "occ_zola_1dceac53c45b0f25e7e95a17",
+        "occ_zola_2c58e2e8fde07f64ad007027",
+        "occ_zola_2e38e2686a7adddcbbf06006",
+        "occ_zola_37bdb4868b652dd7f388d841",
+        "occ_zola_4ccad8f5cd3ae41c747043db",
+        "occ_zola_4d18c68c6262ef5371221654",
+        "occ_zola_4ee9c7391529df1b067dda5b",
+        "occ_zola_57cb6ba004f8a3d4f32e216c",
+        "occ_zola_705d6fbe9a3236e95b55af13",
+        "occ_zola_7ce36661d007b955ac0da995",
+        "occ_zola_83b994c6e6d68e4350b4f126",
+        "occ_zola_88fe49ba2813237e075a4f3c",
+        "occ_zola_989b8aa7ffe55b38553d48c9",
+        "occ_zola_9e0ef9ac1809b94b222c5647",
+        "occ_zola_a7ddfdebccb55da0bdc86a8e",
+        "occ_zola_a9e5988e46f1c7cffe775b65",
+        "occ_zola_b9707ae11475c7800ad86e1a",
+        "occ_zola_c00720503254804b1ee72107",
+        "occ_zola_c13c607d9ad130e13cd419ce",
+        "occ_zola_c5427a43914f193ff3f5064a",
+        "occ_zola_caa250e4d96d5a79e636a09e",
+        "occ_zola_d4413e3ea443e5b73b298d14",
+        "occ_zola_d95e086fa29551783d4d645c",
+        "occ_zola_e3a219eead1bdfcaaa916be3",
+        "occ_zola_ea82e04f3a1d37130391e252",
+        "occ_zola_f0c375c922295bdd857f5c1b",
+        "occ_zola_f3ba61c83cff772304ee3b45",
+        "occ_zola_fbac7c3ac0d422dab5942d56",
+        "occ_zola_fcd351cfbda69972e23d6dd4",
+        "occ_zola_ff7eedfba820679b15ad0d9c"
+      ],
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone.",
+      "questions": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "from": "srf_ne:sns_ne_primary",
+      "occurrenceIds": [
+        "occ_zola_1f6a51770544472f6e1affba",
+        "occ_zola_278e1f18f4a003a5f60adbf5",
+        "occ_zola_6253acfabf851d4bf0eb56a5",
+        "occ_zola_6cd27a24ddca96272b32a37f",
+        "occ_zola_ba1788aa5853c8341ef0ae3e",
+        "occ_zola_ebb494ea7e7a120c1117db79",
+        "occ_parure_6fb8722ace6a117d302a0778",
+        "occ_cendrillon_16f1ee225e4b403a71f04675",
+        "occ_cendrillon_662d4efecba1b31d449570a6",
+        "occ_cendrillon_7dda75ed85068d4078d37603"
+      ],
+      "target": {
+        "lemma": {
+          "id": "lem_ne",
+          "headword": "ne",
+          "partOfSpeech": "adverb"
+        },
+        "surface": {
+          "id": "srf_ne",
+          "lemmaId": "lem_ne",
+          "form": "ne",
+          "normalized": "ne"
+        },
+        "sense": {
+          "id": "sns_fr_ne_que_only",
+          "lemmaId": "lem_ne",
+          "gloss": "only (in ne ... que)",
+          "definition": "Particule de la restriction ne ... que, équivalant à seulement."
+        }
+      },
+      "reason": "These ten unelided ne occurrences form restrictive ne ... que, meaning only, while the other ne occurrences negate a clause with pas, point, jamais, plus, rien, or literary ne alone.",
+      "questions": [
+        {
+          "context": "Il ne restait qu’une seule preuve dans le dossier.",
+          "choices": "only, in ne ... que|not at all|already|never again"
+        },
+        {
+          "context": "Il _____ pouvait s’agir que d’un officier de troupe.",
+          "choices": "ne|se|le|en"
+        },
+        {
+          "context": "La vérité ne se dévoilera que lorsqu’une enquête sera menée.",
+          "prompt": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+          "choices": "ne|vérité|enquête|menée"
+        }
+      ]
+    },
+    {
+      "from": "srf_n_elided:sns_ne_primary",
+      "occurrenceIds": [
+        "occ_7ef5d0125a6d2e4727f3ec9e",
+        "occ_cendrillon_1aac6bf38a3e510c0af7b1c4",
+        "occ_cendrillon_256c944fba1e5e0ba4214c47",
+        "occ_cendrillon_37a84cea0c2a07bdfe096443",
+        "occ_cendrillon_3953573bf2391f36c52491d8",
+        "occ_cendrillon_3f208e795fd32e00ffda6a81",
+        "occ_cendrillon_5a06309c016a5400d526b9e9",
+        "occ_cendrillon_73d2910049793cd4707b74fe",
+        "occ_cendrillon_9e072c97bb336ff634ed9129",
+        "occ_cendrillon_b01a5fe0250ad3ec048af934",
+        "occ_cendrillon_bf1532e34fe6ae0cad6e7051",
+        "occ_cendrillon_f46cf25b4b8d414f9841efd5",
+        "occ_cigale_fourmi_8b455d79a49e209b8d78d56d",
+        "occ_e75254cb31a8cdee83c66ff1",
+        "occ_loup_agneau_b29238f99e2489cf602ff55d",
+        "occ_loup_agneau_c115e946e3309fd8a2b24caa",
+        "occ_loup_agneau_e5b9dc5a1808fbf81de313c6",
+        "occ_parure_08b0ec898e89da22f7ebbbf5",
+        "occ_parure_0a65e2c27bbfec6a3c3b1284",
+        "occ_parure_11bf459238139a56d1819254",
+        "occ_parure_151b63709b6462a2266fedf4",
+        "occ_parure_274a9b222c4aa535ff0d4e0f",
+        "occ_parure_2dbbbf306e93f4b5f0a457d8",
+        "occ_parure_34dbd4170a1109885adf27bb",
+        "occ_parure_353b9388e4d5e8a9833725d0",
+        "occ_parure_3ffcc11870e7b29443618417",
+        "occ_parure_64a35ddd9bbd79d9671cffb3",
+        "occ_parure_68c2f47484b537d204fa4d71",
+        "occ_parure_7a9fffbfe43a64a702041b7d",
+        "occ_parure_84da6e1d4ba7903b49885ef9",
+        "occ_parure_95bef1a1b3028dbbd85fa18e",
+        "occ_parure_ae5dbfc40ffdf11c3ad92a2c",
+        "occ_parure_bea07fd881b2bec7f84e9f41",
+        "occ_parure_c123e068476dc3a0966d8896",
+        "occ_parure_c9701a652c03809b2f663b5f",
+        "occ_parure_dff9ff2485e9a2a410aad998",
+        "occ_parure_edfb87444612d076bda5515d",
+        "occ_parure_f3ea11d7583919b5881a6a1c",
+        "occ_zola_27418bcfca905654815b5a16",
+        "occ_zola_2a8efeaf35be6c30ff1df785",
+        "occ_zola_4535c95c4e289bd4529c68ee",
+        "occ_zola_5a40de69dbbe3ff3d232b1ea",
+        "occ_zola_5d94052297d05b862ebe971f",
+        "occ_zola_73b9ebed721c995502674217",
+        "occ_zola_77fcf04610122ca195785dda",
+        "occ_zola_8a0115631d723f18e914c8f5",
+        "occ_zola_933b490144e73b73ea81ed44",
+        "occ_zola_a34c99ee63411084e08dce97",
+        "occ_zola_a5214777c423f63899749bf1",
+        "occ_zola_b07fe9d22a09802545fdf851",
+        "occ_zola_b4b8f37a3c3f49f862f63575",
+        "occ_zola_b50b7c080c0f27b1d4c74db4",
+        "occ_zola_c2d07b1fb92dac4a72ee2111",
+        "occ_zola_ce59485042b281f96beaade2",
+        "occ_zola_d69b8991211e7b197222ec3a",
+        "occ_zola_df580045231a352e9f34a28a",
+        "occ_zola_dfdb0065c0466bfbf71aa1c6",
+        "occ_zola_ef5acf36e0147790678fe321",
+        "occ_zola_fbbadceb9dc40d88f1e3e8fb"
+      ],
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation.",
+      "questions": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "from": "srf_n_elided:sns_ne_primary",
+      "occurrenceIds": [
+        "occ_68f407d6a864b78af4b1aa0a",
+        "occ_zola_0151e84f53f3f74b76c66c94",
+        "occ_zola_1ad7d70706d8f167e8441a83",
+        "occ_zola_1eefd0f5b841f67b9e341635",
+        "occ_zola_49f40d2ce53a7ac0fc82130e",
+        "occ_zola_4b0ada8ed616f513be2601a7",
+        "occ_zola_548965006ba1a4c7ed2caa82",
+        "occ_zola_773a7538e1c3face917bdf3b",
+        "occ_zola_8c9f38b4bec04baebdfa12a5",
+        "occ_zola_8dfede1f991873b5cb554e8c",
+        "occ_zola_9bcfee0a9560b660dd438af0",
+        "occ_zola_fe3dcfc318e5f1bb3b2a7909",
+        "occ_parure_c1eddbc9e02c9b1ddede8ad0",
+        "occ_cendrillon_9e2c0c7e46578a05cdbee7ea",
+        "occ_cendrillon_827771ac7140750b421c08a8",
+        "occ_cendrillon_b1dcbb9abb9f0a6bd6782066",
+        "occ_cendrillon_1ed1915ec285f4016bb40503",
+        "occ_cendrillon_2a62bbabb770111c3a23e1f0"
+      ],
+      "target": {
+        "lemma": {
+          "id": "lem_ne",
+          "headword": "ne",
+          "partOfSpeech": "adverb"
+        },
+        "surface": {
+          "id": "srf_n_elided",
+          "lemmaId": "lem_ne",
+          "form": "n’",
+          "normalized": "n’"
+        },
+        "sense": {
+          "id": "sns_fr_ne_que_only",
+          "lemmaId": "lem_ne",
+          "gloss": "only (in ne ... que)",
+          "definition": "Particule de la restriction ne ... que, équivalant à seulement."
+        }
+      },
+      "reason": "These eighteen elided n’ spans belong to restrictive n’ ... que, as in « n’ai qu’une passion » and « n’avait que quatre pas »; the remaining n’ spans express negation.",
+      "questions": [
+        {
+          "context": "Il n’y a ici qu’une seule explication.",
+          "choices": "only, in n’ ... que|not at all|already|everywhere"
+        },
+        {
+          "context": "Elle _____avait que quatre pas à faire.",
+          "choices": "n’|ne|ni|non"
+        },
+        {
+          "context": "Je n’ai qu’une passion, comprendre la vérité et la faire connaître.",
+          "prompt": "Quel mot forme avec « que » la restriction signifiant « seulement » ?",
+          "choices": "n’|passion|vérité|connaître"
+        }
+      ]
+    }
+  ]
+};

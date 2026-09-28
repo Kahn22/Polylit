@@ -1908,6 +1908,82 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_iba_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0413_iba",
+        "senseId": "sns_es_samaniego_iba"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Mientras caminaba, Ana iba recogiendo flores para su madre.",
+      "targetText": "iba",
+      "targetRange": {
+        "start": 23,
+        "end": 26
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was continuing to (with a gerund)"
+        },
+        {
+          "id": "choice_2",
+          "text": "was about to start"
+        },
+        {
+          "id": "choice_3",
+          "text": "had stopped"
+        },
+        {
+          "id": "choice_4",
+          "text": "refused to"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_quiero_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_quiero",
+        "senseId": "sns_es_samaniego_quiero"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Quiero una taza de té porque tengo frío.",
+      "targetText": "quiero",
+      "targetRange": {
+        "start": 0,
+        "end": 6
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "I want"
+        },
+        {
+          "id": "choice_2",
+          "text": "I fear"
+        },
+        {
+          "id": "choice_3",
+          "text": "I forget"
+        },
+        {
+          "id": "choice_4",
+          "text": "I refuse"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

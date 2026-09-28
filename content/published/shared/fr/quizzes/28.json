@@ -811,6 +811,39 @@
       "correctChoiceId": "choice_2"
     },
     {
+      "id": "qiz_fr_a_aucun_prix_fr_a_aucun_prix_a_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_aucun_prix_a",
+        "senseId": "sns_fr_a_aucun_prix"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Selon le narrateur, le directeur ne signerait à aucun prix cette proposition.",
+      "prompt": "Quelle préposition figure dans la locution « à aucun prix » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "proposition"
+        },
+        {
+          "id": "choice_2",
+          "text": "à"
+        },
+        {
+          "id": "choice_3",
+          "text": "directeur"
+        },
+        {
+          "id": "choice_4",
+          "text": "signerait"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_arreter_reflexive_stop_fr_arretant_arreter_verb_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -1500,6 +1533,38 @@
       "correctChoiceId": "choice_4"
     },
     {
+      "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "De la naissance, du bon _____, et d’autres semblables talens.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "esprit"
+        },
+        {
+          "id": "choice_2",
+          "text": "talent"
+        },
+        {
+          "id": "choice_3",
+          "text": "sens"
+        },
+        {
+          "id": "choice_4",
+          "text": "courage"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_seulement_however_zola_seulement_seulement_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1603,6 +1668,71 @@
         {
           "id": "choice_4",
           "text": "destroyed"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_triompher_prevail_fr_triomphe_triompher_verb_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_triomphe_triompher_verb",
+        "senseId": "sns_fr_triompher_prevail"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Au milieu de la défaite du droit, voilà la fripouille qui _____ insolemment.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "hésite"
+        },
+        {
+          "id": "choice_2",
+          "text": "tombe"
+        },
+        {
+          "id": "choice_3",
+          "text": "triomphe"
+        },
+        {
+          "id": "choice_4",
+          "text": "recule"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_triompher_prevail_fr_triomphe_triompher_verb_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_triomphe_triompher_verb",
+        "senseId": "sns_fr_triompher_prevail"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Voilà la fripouille qui triomphe insolemment dans la défaite du droit et de la simple probité.",
+      "prompt": "Quel verbe indique que la fripouille l’emporte ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "droit"
+        },
+        {
+          "id": "choice_2",
+          "text": "triomphe"
+        },
+        {
+          "id": "choice_3",
+          "text": "fripouille"
+        },
+        {
+          "id": "choice_4",
+          "text": "défaite"
         }
       ],
       "correctChoiceId": "choice_2"

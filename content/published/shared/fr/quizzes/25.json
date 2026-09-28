@@ -1123,6 +1123,72 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Au lieu d’être ravie, comme l’espérait son mari, elle jeta avec dépit l’invitation sur la table.",
+      "prompt": "Quel mot appartient à l’expression signifiant « à la place de » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mari"
+        },
+        {
+          "id": "choice_2",
+          "text": "invitation"
+        },
+        {
+          "id": "choice_3",
+          "text": "table"
+        },
+        {
+          "id": "choice_4",
+          "text": "lieu"
+        }
+      ],
+      "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_beau_avoir_beau",
+        "senseId": "sns_fr_avoir_beau_concessive_expression"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines si vous n’avez des parrains ou des Maraines.",
+      "prompt": "Quel mot appartient à la locution signifiant « malgré tous vos efforts » ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Maraines"
+        },
+        {
+          "id": "choice_2",
+          "text": "beau"
+        },
+        {
+          "id": "choice_3",
+          "text": "avancement"
+        },
+        {
+          "id": "choice_4",
+          "text": "choses"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
       "id": "qiz_fr_celui_demonstrative_fr_celles_celui_pronoun_levels_1_3",
       "language": "fr",
       "glossLanguage": "en",
@@ -1712,6 +1778,38 @@
         {
           "id": "choice_4",
           "text": "vérifia"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_fr_sur_toutes_choses_above_all_fr_sur_toutes_choses_sur_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_sur_toutes_choses_sur",
+        "senseId": "sns_fr_sur_toutes_choses_above_all"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "_____ toutes choses, n’oublie pas de rentrer avant minuit.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "par"
+        },
+        {
+          "id": "choice_2",
+          "text": "sur"
+        },
+        {
+          "id": "choice_3",
+          "text": "dans"
+        },
+        {
+          "id": "choice_4",
+          "text": "entre"
         }
       ],
       "correctChoiceId": "choice_2"

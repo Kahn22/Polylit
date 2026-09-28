@@ -1735,6 +1735,108 @@
         }
       ],
       "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_samaniego_mostrar_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_mostrar",
+        "senseId": "sns_es_samaniego_mostrar"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Apartó la cortina para ___ el retrato que nadie había visto.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mostrar"
+        },
+        {
+          "id": "choice_2",
+          "text": "ocultar"
+        },
+        {
+          "id": "choice_3",
+          "text": "olvidar"
+        },
+        {
+          "id": "choice_4",
+          "text": "destruir"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_uvas_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_uvas",
+        "senseId": "sns_es_samaniego_uvas"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Lavó las uvas antes de ponerlas en la mesa.",
+      "targetText": "uvas",
+      "targetRange": {
+        "start": 9,
+        "end": 13
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "grapes"
+        },
+        {
+          "id": "choice_2",
+          "text": "olives"
+        },
+        {
+          "id": "choice_3",
+          "text": "cherries"
+        },
+        {
+          "id": "choice_4",
+          "text": "apples"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_morlacos_intermediate",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_morlacos_currency_sourcefix",
+        "senseId": "sns_es_morlaco_coin"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El narrador usa un nombre antiguo para las monedas: pagaron veinte ___ por el encargo.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "morlacos"
+        },
+        {
+          "id": "choice_2",
+          "text": "doblones"
+        },
+        {
+          "id": "choice_3",
+          "text": "denarios"
+        },
+        {
+          "id": "choice_4",
+          "text": "reales"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

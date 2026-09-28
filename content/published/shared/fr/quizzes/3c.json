@@ -219,26 +219,26 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Le terme précis pour exprimer « Espace immense dans lequel se meuvent tous les astres. » est _____.",
+      "context": "Les étoiles paraissent dans cet espace au-dessus de nous : le ___.",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "Ciel"
+          "id": "choice_5",
+          "text": "ciel"
         },
         {
-          "id": "choice_2",
-          "text": "fenêtre"
+          "id": "choice_6",
+          "text": "sol"
         },
         {
-          "id": "choice_3",
-          "text": "cahier"
+          "id": "choice_7",
+          "text": "lac"
         },
         {
-          "id": "choice_4",
-          "text": "jardin"
+          "id": "choice_8",
+          "text": "champ"
         }
       ],
-      "correctChoiceId": "choice_1"
+      "correctChoiceId": "choice_5"
     },
     {
       "id": "qiz_cendrillon_coeffees_sns_cendrillon_coiffer_couvrir_la_tete_de_quelqu_un_y_mettre_quelque_chose_b2794452a5_a07c99683b_intermediate",
@@ -539,32 +539,32 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Le professeur emploie « Maraines » pour exprimer cette idée : Celle qui avec le parrain, présente un enfant (le filleul) aux fonts baptismaux (mère spirituelle d’un enfant) ou assiste l’enfant de manière analogue dans une cérémonie civile ou d’une autre religion ou conviction..",
+      "context": "Ces Maraines accompagnent leurs filleuls pendant la cérémonie.",
       "targetText": "Maraines",
       "targetRange": {
-        "start": 24,
-        "end": 32
+        "start": 4,
+        "end": 12
       },
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_1",
-          "text": "historical or contextual form of marraine"
+          "id": "choice_5",
+          "text": "godmothers"
         },
         {
-          "id": "choice_2",
-          "text": "a window"
+          "id": "choice_6",
+          "text": "aunts"
         },
         {
-          "id": "choice_3",
-          "text": "a notebook"
+          "id": "choice_7",
+          "text": "teachers"
         },
         {
-          "id": "choice_4",
-          "text": "a garden"
+          "id": "choice_8",
+          "text": "sisters"
         }
       ],
-      "correctChoiceId": "choice_1"
+      "correctChoiceId": "choice_5"
     },
     {
       "id": "qiz_cendrillon_meilleure_sns_cendrillon_meilleure_celle_qui_est_la_mieux_placee_la_premiere_qui_est_au_maximum_au_top_bb6295679c_68310bf953_intermediate",
@@ -1065,6 +1065,38 @@
         {
           "id": "choice_4",
           "text": "because"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_a_point_fr_a_point_a_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_a_point_a",
+        "senseId": "sns_fr_a_point"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Nous devons arriver _____ point pour le départ.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "à"
+        },
+        {
+          "id": "choice_2",
+          "text": "de"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sans"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -1949,6 +1981,44 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_triompher_prevail_fr_triomphe_triompher_verb_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_triomphe_triompher_verb",
+        "senseId": "sns_fr_triompher_prevail"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Voilà la fripouille qui triomphe insolemment dans la défaite du droit.",
+      "targetText": "triomphe",
+      "targetRange": {
+        "start": 24,
+        "end": 32
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "withdraws"
+        },
+        {
+          "id": "choice_2",
+          "text": "hesitates"
+        },
+        {
+          "id": "choice_3",
+          "text": "forgets"
+        },
+        {
+          "id": "choice_4",
+          "text": "prevails; triumphs"
+        }
+      ],
+      "correctChoiceId": "choice_4"
     },
     {
       "id": "qiz_joie_early",

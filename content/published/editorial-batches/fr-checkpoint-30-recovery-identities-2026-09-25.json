@@ -1,0 +1,351 @@
+{
+  "version": 2,
+  "id": "fr-checkpoint-30-recovery-identities-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T09:43:41.337Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_belle_beau:sns_zola_beau_beautiful",
+      "to": "srf_belle:sns_beau_primary",
+      "occurrenceIds": [
+        "occ_zola_3d26f1421aad702e35dda278"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_mes_mon:sns_zola_mon_my",
+      "to": "srf_fr_mes_mon_determiner:sns_mon_primary",
+      "occurrenceIds": [
+        "occ_cendrillon_35c0bb005b717ab5a19fec0f",
+        "occ_zola_1bb4cedf95eb3b4ba40a58c1"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_compromis_compromettre:sns_zola_compromettre_incriminate",
+      "to": "srf_zola_compromis_compromettre:sns_zola_compromettre_incriminate",
+      "form": "compromis",
+      "reason": "In each of the three J’Accuse passages, compromis means implicated or entangled in wrongdoing, unlike the adjective compromettant. Corrected the learner gloss while retaining the stable meaning ID; checked the three existing questions."
+    },
+    {
+      "from": "srf_zola_belle_beau:sns_zola_beau_beautiful",
+      "to": "srf_belle:sns_beau_primary",
+      "form": "belle",
+      "reason": "The single Zola occurrence « la belle besogne » shares the ordinary beau/belle aesthetic sense with the established cross-work identity. Retain its occurrence ID and make subsequent encounters fresh on view of that unit; the three canonical questions fit."
+    },
+    {
+      "from": "srf_zola_doigt_doigt:sns_zola_doigt_finger",
+      "to": "srf_zola_doigt_doigt:sns_zola_doigt_finger",
+      "form": "doigt",
+      "reason": "In « faire toucher du doigt comment l’erreur judiciaire a pu être possible », doigt participates in an idiom meaning to make a point concrete. Corrected the learner meaning and replaced the three invented finger-injury and jewelry contexts with contexts tied to Zola’s actual explanation."
+    },
+    {
+      "from": "srf_zola_mes_mon:sns_zola_mon_my",
+      "to": "srf_fr_mes_mon_determiner:sns_mon_primary",
+      "form": "mes",
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_zola_compromettre_incriminate",
+      "before": {
+        "id": "sns_zola_compromettre_incriminate",
+        "lemmaId": "lem_zola_compromettre",
+        "gloss": "compromising",
+        "definition": "qui risque de nuire à la réputation ou à la défense"
+      },
+      "after": {
+        "id": "sns_zola_compromettre_incriminate",
+        "lemmaId": "lem_zola_compromettre",
+        "gloss": "compromised; implicated",
+        "definition": "Mis en cause ou impliqué dans une affaire susceptible de nuire à sa réputation ou à sa défense."
+      },
+      "reason": "In each of the three J’Accuse passages, compromis means implicated or entangled in wrongdoing, unlike the adjective compromettant. Corrected the learner gloss while retaining the stable meaning ID; checked the three existing questions."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_3d26f1421aad702e35dda278",
+      "before": {
+        "id": "occ_zola_3d26f1421aad702e35dda278",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_127",
+        "start": 65,
+        "end": 70,
+        "surfaceFormId": "srf_zola_belle_beau",
+        "senseId": "sns_zola_beau_beautiful"
+      },
+      "after": {
+        "id": "occ_zola_3d26f1421aad702e35dda278",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_127",
+        "start": 65,
+        "end": 70,
+        "surfaceFormId": "srf_belle",
+        "senseId": "sns_beau_primary"
+      },
+      "reason": "The single Zola occurrence « la belle besogne » shares the ordinary beau/belle aesthetic sense with the established cross-work identity. Retain its occurrence ID and make subsequent encounters fresh on view of that unit; the three canonical questions fit."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_zola_doigt_finger",
+      "before": {
+        "id": "sns_zola_doigt_finger",
+        "lemmaId": "lem_zola_doigt",
+        "gloss": "finger",
+        "definition": "partie articulée située à l’extrémité de la main"
+      },
+      "after": {
+        "id": "sns_zola_doigt_finger",
+        "lemmaId": "lem_zola_doigt",
+        "gloss": "finger; directly, concretely (in toucher du doigt)",
+        "definition": "Partie de la main ; dans « faire toucher du doigt », faire saisir directement et concrètement une idée ou une preuve."
+      },
+      "reason": "In « faire toucher du doigt comment l’erreur judiciaire a pu être possible », doigt participates in an idiom meaning to make a point concrete. Corrected the learner meaning and replaced the three invented finger-injury and jewelry contexts with contexts tied to Zola’s actual explanation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_doigt_doigt_finger_early",
+      "before": {
+        "id": "qiz_zola_doigt_doigt_finger_early",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "contextFrench": "Elle lève un doigt pour demander la parole.",
+        "correctAnswer": "finger",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "doigt",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "elbow",
+          "knee",
+          "shoulder",
+          "finger"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_doigt_doigt_finger_early",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "band": "levels_1_3",
+        "contextFrench": "Je voudrais faire toucher du doigt comment l’erreur judiciaire a pu être possible.",
+        "correctAnswer": "directly, concretely (in the phrase)",
+        "format": "meaning_choice",
+        "targetText": "doigt",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "accidentally",
+          "from far away",
+          "directly, concretely (in the phrase)",
+          "secretly"
+        ]
+      },
+      "reason": "In « faire toucher du doigt comment l’erreur judiciaire a pu être possible », doigt participates in an idiom meaning to make a point concrete. Corrected the learner meaning and replaced the three invented finger-injury and jewelry contexts with contexts tied to Zola’s actual explanation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_doigt_doigt_finger_intermediate",
+      "before": {
+        "id": "qiz_zola_doigt_doigt_finger_intermediate",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "contextFrench": "Elle glisse une bague autour d’un _____ de sa main gauche.",
+        "correctAnswer": "doigt",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "coude",
+          "genou",
+          "poignet",
+          "doigt"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_doigt_doigt_finger_intermediate",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "band": "levels_4_5",
+        "contextFrench": "Zola veut faire toucher du _____ les machinations qui ont rendu possible l’erreur judiciaire.",
+        "correctAnswer": "doigt",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "poignet",
+          "doigt",
+          "coude",
+          "genou"
+        ]
+      },
+      "reason": "In « faire toucher du doigt comment l’erreur judiciaire a pu être possible », doigt participates in an idiom meaning to make a point concrete. Corrected the learner meaning and replaced the three invented finger-injury and jewelry contexts with contexts tied to Zola’s actual explanation."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_doigt_doigt_finger_advanced",
+      "before": {
+        "id": "qiz_zola_doigt_doigt_finger_advanced",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "contextFrench": "Elle se coupe le doigt en préparant les légumes, pose le couteau et demande un pansement.",
+        "correctAnswer": "doigt",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne la partie de la main qui est blessée ?",
+        "choicesFrench": [
+          "couteau",
+          "pansement",
+          "doigt",
+          "légumes"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_doigt_doigt_finger_advanced",
+        "surfaceFormId": "srf_zola_doigt_doigt",
+        "senseId": "sns_zola_doigt_finger",
+        "band": "levels_6_8",
+        "contextFrench": "Je voudrais faire toucher du doigt les machinations qui ont rendu possible l’erreur judiciaire.",
+        "correctAnswer": "doigt",
+        "format": "target_identification",
+        "promptFrench": "Quel mot complète l’expression qui rend cette démonstration concrète ?",
+        "choicesFrench": [
+          "doigt",
+          "toucher",
+          "erreur",
+          "possible"
+        ]
+      },
+      "reason": "In « faire toucher du doigt comment l’erreur judiciaire a pu être possible », doigt participates in an idiom meaning to make a point concrete. Corrected the learner meaning and replaced the three invented finger-injury and jewelry contexts with contexts tied to Zola’s actual explanation."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_mes_mon_determiner",
+      "before": null,
+      "after": {
+        "id": "srf_fr_mes_mon_determiner",
+        "lemmaId": "lem_mon",
+        "form": "mes",
+        "normalized": "mes"
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_35c0bb005b717ab5a19fec0f",
+      "before": {
+        "id": "occ_cendrillon_35c0bb005b717ab5a19fec0f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_016",
+        "start": 227,
+        "end": 230,
+        "surfaceFormId": "srf_zola_mes_mon",
+        "senseId": "sns_zola_mon_my"
+      },
+      "after": {
+        "id": "occ_cendrillon_35c0bb005b717ab5a19fec0f",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_016",
+        "start": 227,
+        "end": 230,
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary"
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_1bb4cedf95eb3b4ba40a58c1",
+      "before": {
+        "id": "occ_zola_1bb4cedf95eb3b4ba40a58c1",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_011",
+        "start": 0,
+        "end": 3,
+        "surfaceFormId": "srf_zola_mes_mon",
+        "senseId": "sns_zola_mon_my"
+      },
+      "after": {
+        "id": "occ_zola_1bb4cedf95eb3b4ba40a58c1",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_011",
+        "start": 0,
+        "end": 3,
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary"
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_1_3",
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary",
+        "band": "levels_1_3",
+        "contextFrench": "Mes nuits seraient hantées par le spectre de l’innocent.",
+        "correctAnswer": "my",
+        "format": "meaning_choice",
+        "targetText": "mes",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "their",
+          "my",
+          "your",
+          "his"
+        ]
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_4_5",
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary",
+        "band": "levels_4_5",
+        "contextFrench": "Est-ce que j’irai comme cela, avec _____ vilains habits ?",
+        "correctAnswer": "mes",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "mes",
+          "tes",
+          "ses",
+          "nos"
+        ]
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_mon_primary_fr_mes_mon_determiner_levels_6_8",
+        "surfaceFormId": "srf_fr_mes_mon_determiner",
+        "senseId": "sns_mon_primary",
+        "band": "levels_6_8",
+        "contextFrench": "Est-ce que j’irai comme cela, avec mes vilains habits ? Sa marraine la touche avec sa baguette.",
+        "correctAnswer": "mes",
+        "format": "target_identification",
+        "promptFrench": "Quel mot rattache les habits à la personne qui pose la question ?",
+        "choicesFrench": [
+          "habits",
+          "marraine",
+          "baguette",
+          "mes"
+        ]
+      },
+      "reason": "« mes vilains habits » in Cendrillon and « Mes nuits » in J’Accuse are the same first-person plural possessive determiner. Merge the two occurrence IDs into the shared mon/my lemma and sense, adding the mes form; retain history without transferring mastery."
+    }
+  ]
+}

@@ -1435,6 +1435,82 @@
       "correctChoiceId": "choice_4"
     },
     {
+      "id": "qiz_fr_d_accord_fr_d_accord_d_elided_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_accord_d_elided",
+        "senseId": "sns_fr_d_accord"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Les experts ne sont pas d’accord sur ce point.",
+      "targetText": "d’",
+      "targetRange": {
+        "start": 24,
+        "end": 26
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "toward a place"
+        },
+        {
+          "id": "choice_2",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "in agreement; agreed"
+        },
+        {
+          "id": "choice_4",
+          "text": "belonging to"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_fr_d_ailleurs_fr_d_ailleurs_d_elided_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_d_ailleurs_d_elided",
+        "senseId": "sns_fr_d_ailleurs"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "D’ailleurs, nous avons déjà répondu à cette question.",
+      "targetText": "d’",
+      "targetRange": {
+        "start": 0,
+        "end": 2
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "toward a place"
+        },
+        {
+          "id": "choice_2",
+          "text": "under an object"
+        },
+        {
+          "id": "choice_3",
+          "text": "besides; moreover"
+        },
+        {
+          "id": "choice_4",
+          "text": "belonging to"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_ecorce_fruit_rind_cendrillon_ecorce_lem_cendrillon_ecorce_noun_40ac80d2d5_50297571d1_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1776,6 +1852,38 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_finir_par_eventually_fr_finir_par_par_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_finir_par_par",
+        "senseId": "sns_fr_finir_par_eventually"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il finira _____ éprouver un remords après cette affaire.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "de"
+        },
+        {
+          "id": "choice_2",
+          "text": "sans"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "sur"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
       "id": "qiz_fr_lacet_clothing_lace_cendrillon_lacets_lem_cendrillon_lacet_noun_0118695d16_e8ac94683f_levels_4_5",
       "language": "fr",
       "glossLanguage": "en",
@@ -1908,6 +2016,38 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_ne_que_only_ne_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_ne",
+        "senseId": "sns_fr_ne_que_only"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il _____ pouvait s’agir que d’un officier de troupe.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "le"
+        },
+        {
+          "id": "choice_2",
+          "text": "en"
+        },
+        {
+          "id": "choice_3",
+          "text": "ne"
+        },
+        {
+          "id": "choice_4",
+          "text": "se"
+        }
+      ],
+      "correctChoiceId": "choice_3"
     },
     {
       "id": "qiz_fr_peigner_comb_fr_peignee_peigner_verb_levels_1_3",
@@ -2258,6 +2398,44 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "qiz_fr_sou_a_sou_fr_sou_a_sou_a_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_sou_a_sou_a",
+        "senseId": "sns_fr_sou_a_sou"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle économise sou à sou son argent.",
+      "targetText": "à",
+      "targetRange": {
+        "start": 19,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "penny by penny; one coin at a time"
+        },
+        {
+          "id": "choice_2",
+          "text": "towards a place"
+        },
+        {
+          "id": "choice_3",
+          "text": "by an agent"
+        },
+        {
+          "id": "choice_4",
+          "text": "beneath an object"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "qiz_fr_tost_aussi_immediately_fr_tost_aussitot_adverb_levels_6_8",
       "language": "fr",
       "glossLanguage": "en",
@@ -2327,6 +2505,38 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_fr_y_avoir_exist_fr_avoir_y_avoir_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_avoir_y_avoir",
+        "senseId": "sns_fr_y_avoir_exist"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il dut y _____ là une minute d’angoisse.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "aller"
+        },
+        {
+          "id": "choice_2",
+          "text": "avoir"
+        },
+        {
+          "id": "choice_3",
+          "text": "être"
+        },
+        {
+          "id": "choice_4",
+          "text": "faire"
+        }
+      ],
+      "correctChoiceId": "choice_2"
     },
     {
       "id": "qiz_fr_y_pronominal_reference_y_levels_1_3",
@@ -4753,32 +4963,32 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Ce conducteur inconscient prend des risques sans en mesurer les conséquences.",
+      "context": "Il a agi en inconscient, sans connaître les conséquences de son geste.",
       "targetText": "inconscient",
       "targetRange": {
-        "start": 14,
-        "end": 25
+        "start": 12,
+        "end": 23
       },
       "prompt": "Meaning",
       "choices": [
         {
-          "id": "choice_5",
-          "text": "careful"
+          "id": "choice_9",
+          "text": "unwitting; unaware"
         },
         {
-          "id": "choice_6",
-          "text": "prudent"
+          "id": "choice_10",
+          "text": "fully aware"
         },
         {
-          "id": "choice_7",
-          "text": "cautious"
+          "id": "choice_11",
+          "text": "deliberate"
         },
         {
-          "id": "choice_8",
-          "text": "reckless"
+          "id": "choice_12",
+          "text": "informed"
         }
       ],
-      "correctChoiceId": "choice_8"
+      "correctChoiceId": "choice_9"
     },
     {
       "id": "qiz_zola_invente_d805b360623b_inventer_fabricate_advanced",

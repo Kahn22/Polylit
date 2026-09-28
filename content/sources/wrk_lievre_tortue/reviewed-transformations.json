@@ -1,0 +1,39 @@
+{
+  "reviewer": "Codex",
+  "reviewedOn": "2026-09-22",
+  "direction": "historical witness → current canonical (or explicitly identified online-transcription correction)",
+  "textChanged": true,
+  "changes": [
+    {
+      "from": "Printed verse line breaks and indentation",
+      "to": "Existing thought-unit reflow",
+      "reason": "Retain existing learner layout as an explicitly documented presentation transformation; no claim to preserve the printed lineation.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    },
+    {
+      "from": "Historical quote glyphs, spacing and selected animal-name capitalization",
+      "to": "Current conventional punctuation and capitalization",
+      "reason": "Routine typography normalization; case does not change the lexical identity.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    },
+    {
+      "from": "près",
+      "to": "prêt",
+      "reason": "Printed 1874 p. 189 confirms près. Current canonical variant needs a text/sense correction; not approved as modernization.",
+      "printedPage": 189,
+      "status": "implemented_2026-09-22",
+      "implementedAs": "près",
+      "publicationBatch": "text-2026-09-22-01"
+    },
+    {
+      "from": "Page numbers, running headers, ornaments/illustrations, line-end hyphenation, nonsemantic whitespace",
+      "to": "Excluded or reflowed in canonical text",
+      "reason": "Routine presentation-only policy. Preserve all literary words except the separately enumerated variants.",
+      "printedPage": null,
+      "status": "verified_existing_transformation"
+    }
+  ],
+  "note": "The historical-witness corrections identified on 2026-09-21 were implemented atomically in publication batch text-2026-09-22-01. Remaining entries document approved presentation-only transformations or resolved transcription artifacts."
+}

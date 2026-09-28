@@ -1895,6 +1895,103 @@
         }
       ],
       "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_algun_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_algun",
+        "senseId": "sns_es_samaniego_algun"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "¿Tienes algún lápiz? El mío se ha roto y necesito escribir una nota.",
+      "prompt": "¿Qué palabra pregunta por un lápiz sin precisar cuál?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "algún"
+        },
+        {
+          "id": "choice_2",
+          "text": "mío"
+        },
+        {
+          "id": "choice_3",
+          "text": "necesito"
+        },
+        {
+          "id": "choice_4",
+          "text": "nota"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_probaduras_middle",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_probaduras",
+        "senseId": "sns_es_samaniego_probaduras"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ensayó una solución tras otra; después de muchas ___, dio con la que funcionaba.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "probaduras"
+        },
+        {
+          "id": "choice_2",
+          "text": "certezas"
+        },
+        {
+          "id": "choice_3",
+          "text": "felicitaciones"
+        },
+        {
+          "id": "choice_4",
+          "text": "renuncias"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_mayos_intermediate",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_mayos_mayo_sourcefix",
+        "senseId": "sns_es_mayo_years_poetic"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "En lenguaje poético, contaba sus ___, es decir, sus años de vida.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mayos"
+        },
+        {
+          "id": "choice_2",
+          "text": "siglos"
+        },
+        {
+          "id": "choice_3",
+          "text": "inviernos"
+        },
+        {
+          "id": "choice_4",
+          "text": "minutos"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

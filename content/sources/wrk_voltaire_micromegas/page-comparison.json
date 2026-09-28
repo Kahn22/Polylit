@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "status": "exact_word_sequence_after_documented_transformations",
+  "method": "Independent page transcriptions, selected 1877 volume pp. 105–122, compared to the canonical draft after removing headings and 34 editorial calls and joining two page-split words. Scan OCR is a separate rough check.",
+  "draftSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "pages": [
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "chapterStartPages": [
+    {
+      "chapter": 1,
+      "startPrintedPage": 105
+    },
+    {
+      "chapter": 2,
+      "startPrintedPage": 108
+    },
+    {
+      "chapter": 3,
+      "startPrintedPage": 110
+    },
+    {
+      "chapter": 4,
+      "startPrintedPage": 112
+    },
+    {
+      "chapter": 5,
+      "startPrintedPage": 114
+    },
+    {
+      "chapter": 6,
+      "startPrintedPage": 116
+    },
+    {
+      "chapter": 7,
+      "startPrintedPage": 118
+    }
+  ],
+  "pageBreakJoins": [
+    {
+      "printedPages": [
+        117,
+        118
+      ],
+      "pageReading": "au-- / dessus",
+      "canonicalReading": "au-dessus"
+    },
+    {
+      "printedPages": [
+        119,
+        120
+      ],
+      "pageReading": "dis- / séquons",
+      "canonicalReading": "disséquons"
+    }
+  ],
+  "printedReadingCorrections": [
+    {
+      "printedPage": 107,
+      "transcriptionReading": "au-delà",
+      "scanReading": "au delà",
+      "candidateReading": "au delà"
+    },
+    {
+      "printedPage": 108,
+      "transcriptionReading": "au-delà",
+      "scanReading": "au delà",
+      "candidateReading": "au delà"
+    },
+    {
+      "printedPage": 109,
+      "transcriptionReading": "tous les êtres",
+      "scanReading": "tous- les êtres",
+      "candidateReading": "tous les êtres",
+      "reason": "Apparent compositor hyphen after the determiner; online transcription silently corrects it."
+    },
+    {
+      "printedPage": 113,
+      "transcriptionReading": "quelques apparence",
+      "scanReading": "quelque apparence",
+      "candidateReading": "quelque apparence"
+    },
+    {
+      "printedPage": 114,
+      "transcriptionReading": "une âme fut logée",
+      "scanReading": "une âme fût logée",
+      "candidateReading": "une âme fût logée",
+      "reason": "Imperfect subjunctive distinguishes this verb from the indicative fut earlier in the same passage."
+    },
+    {
+      "printedPage": 118,
+      "transcriptionReading": "Ô Dieu ! / Ô atomes intelligents",
+      "scanReading": "O Dieu ! / O atomes intelligents",
+      "candidateReading": "O Dieu ! / O atomes intelligents"
+    },
+    {
+      "printedPage": 121,
+      "transcriptionReading": "Très-bien, répondit l’homme",
+      "scanReading": "Très-bien, lui répondit l’homme",
+      "candidateReading": "Très-bien, lui répondit l’homme"
+    },
+    {
+      "printedPage": 121,
+      "transcriptionReading": "Alors monsieur Micromégas",
+      "scanReading": "Alors M. Micromégas",
+      "candidateReading": "Alors M. Micromégas"
+    }
+  ],
+  "comparedWordTokens": 6608,
+  "wordSequenceMismatches": 0,
+  "limitation": "Exact agreement with corrected page transcriptions supports source preparation; learner identity, expression, and quiz review remain pending."
+}

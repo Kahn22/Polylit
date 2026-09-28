@@ -1,0 +1,1389 @@
+{
+  "schemaVersion": 1,
+  "standardVersion": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "intakeStatus": "source_and_units_reviewed_learning_review_pending",
+  "priority": "next_work",
+  "selectedOn": "2026-09-25",
+  "identity": {
+    "title": "Micromégas",
+    "author": "Voltaire (François-Marie Arouet)",
+    "language": "fr",
+    "originCountry": {
+      "code": "FR",
+      "name": "France"
+    },
+    "collection": "Contes philosophiques",
+    "scope": "complete_seven_chapter_work",
+    "originalPublication": {
+      "status": "bibliography_to_reconcile",
+      "claim": "BnF catalogue describes an edition with the imprint 'A Londres [i. e. Paris, Michel Lambert, 1752]'; its bibliographic note calls it a probable first edition. The chosen 1877 transcription labels the work 1752.",
+      "reference": "https://catalogue.bnf.fr/ark:/12148/cb31604356z"
+    }
+  },
+  "edition": {
+    "candidateBase": "Œuvres complètes de Voltaire, Garnier, Paris, 1877, tome 21, pp. 105–122; edited text on French Wikisource",
+    "transcriptionUrl": "https://fr.wikisource.org/wiki/Microm%C3%A9gas/Texte_entier",
+    "comparisonWitness": "Le Micromégas de M. de Voltaire, A Londres [i. e. Paris, Michel Lambert, 1752], BnF cb31604356z",
+    "comparisonRecordUrl": "https://catalogue.bnf.fr/ark:/12148/cb31604356z",
+    "status": "selected_1877_base_pages_105_to_122",
+    "editorialNotes": "The 1877 edition includes Beuchot/editorial variants in notes; those are omitted from the candidate literary prose. The 1752 catalogue record does not establish the wording of the 1877 edition.",
+    "publisher": "Garnier frères",
+    "place": "Paris",
+    "year": 1877,
+    "volume": 21,
+    "printedPages": "105–122",
+    "sourceTextPolicy": "1877 base readings only. The 1752 BnF item is a separate bibliographic witness; do not silently combine its variants. Historical editor notes remain outside learner text."
+  },
+  "acquisition": {
+    "status": "acquired",
+    "institution": "French Wikisource transcluding a scanned Garnier edition",
+    "requestedUrl": "https://fr.wikisource.org/wiki/Microm%C3%A9gas/Texte_entier",
+    "resolvedUrl": "https://fr.wikisource.org/wiki/Microm%C3%A9gas/Texte_entier",
+    "retrievedOn": "2026-09-26",
+    "sourceBytes": 58888,
+    "revisionId": "not recorded; frozen bytes and SHA-256 retained",
+    "pageRange": "105–122",
+    "retrievalMethod": "Browser captured visible transcluded text, HTML, 18 page transcriptions and scan images"
+  },
+  "evidence": [
+    {
+      "role": "transcluded_html",
+      "file": "witness.html",
+      "bytes": 58888,
+      "sha256": "b867c031c2ba46c5bbe34312945ad32531893c1be127082955f183973ae3b91f"
+    },
+    {
+      "role": "transcluded_visible_text",
+      "file": "witness-page.txt",
+      "bytes": 41994,
+      "sha256": "109b92ed593b8c9bf04a30dfb35e7f8161f0624f79547d2659e1eefd7a530f94"
+    },
+    {
+      "role": "individual_page_transcriptions",
+      "file": "page-transcriptions.json",
+      "bytes": 48008,
+      "sha256": "bb40cfcc59b50d556d1cabcc27a357745d895a5bd1bf21d0f790220effc22737"
+    },
+    {
+      "role": "mechanical_full_scope_comparison",
+      "file": "page-comparison.json",
+      "bytes": 3352,
+      "sha256": "27024eea67fef7a5719a3b0a4f113b1892b0fbdaf26b38352a909eac51fa0f6f"
+    },
+    {
+      "role": "rough_scan_ocr_crosscheck",
+      "file": "scan-ocr-comparison.json",
+      "bytes": 3182,
+      "sha256": "7e9e82afb18c7dfd0f1356552ca2ff2ebf9613df694bd751af97eae769c60052"
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p105.jpg",
+      "bytes": 327333,
+      "sha256": "32e23dbbc3d4bf7a4c8902bad10907e41b66b8dabddf5675b9efb48c33650eab",
+      "printedPage": 105,
+      "djvuPage": 131
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p106.jpg",
+      "bytes": 512193,
+      "sha256": "4421d7cdaec993bdcdf01724f676ebc0d9e64b234df19145dae829e360fa2278",
+      "printedPage": 106,
+      "djvuPage": 132
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p107.jpg",
+      "bytes": 508992,
+      "sha256": "a6af6c8f741034d360a884aeb4e615b537e815fd95e9967ed472f167a6c5e1e4",
+      "printedPage": 107,
+      "djvuPage": 133
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p108.jpg",
+      "bytes": 463093,
+      "sha256": "a25ce16d441bdc0921a981d17ba04a5ab185340878b715622b97e7c2c961084f",
+      "printedPage": 108,
+      "djvuPage": 134
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p109.jpg",
+      "bytes": 512805,
+      "sha256": "bc1c2077bf005024bc1523f248b7338d2062952e17dffcbbe837861d36362eee",
+      "printedPage": 109,
+      "djvuPage": 135
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p110.jpg",
+      "bytes": 446491,
+      "sha256": "4a6ee21b19e508556a564a8da7f4cfdd61ed457f764d4d0b92d41f3b15717d46",
+      "printedPage": 110,
+      "djvuPage": 136
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p111.jpg",
+      "bytes": 487920,
+      "sha256": "7cda161614ea128f509974753cd2f392f269f4e396b7de3ea7d1b0c3e1b07d10",
+      "printedPage": 111,
+      "djvuPage": 137
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p112.jpg",
+      "bytes": 474306,
+      "sha256": "3d4372b1f68cc5fa5086c5ca9305df4e4c4d0ebafe1460e288d9c8d1c44a45b1",
+      "printedPage": 112,
+      "djvuPage": 138
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p113.jpg",
+      "bytes": 527299,
+      "sha256": "7b4ebf4924dbcd7159671bbf9eed3f8f86d32a272393181b412fc746c5d8792d",
+      "printedPage": 113,
+      "djvuPage": 139
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p114.jpg",
+      "bytes": 454496,
+      "sha256": "d39eaa5ecf1fb7ead69ca657ffcdb97990d7bbdfabacb3c4ecf666f6e4bf2019",
+      "printedPage": 114,
+      "djvuPage": 140
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p115.jpg",
+      "bytes": 470045,
+      "sha256": "ca4f46f7f88a41981c704d996dc93ef867021df9d2ed6abca95b1219b4491a80",
+      "printedPage": 115,
+      "djvuPage": 141
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p116.jpg",
+      "bytes": 488058,
+      "sha256": "c2a1d6307b4941c4f336d5952a83c445eff6fb85884af149f0a1bcb8c30c94a2",
+      "printedPage": 116,
+      "djvuPage": 142
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p117.jpg",
+      "bytes": 504095,
+      "sha256": "3e47ef31861a3ea0a843e02616fb0d6fea1c83ca23f82702d321cb7583f3dcc1",
+      "printedPage": 117,
+      "djvuPage": 143
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p118.jpg",
+      "bytes": 440732,
+      "sha256": "b067f7fcbb3f62fc6f383a9dc6a7f680e775cb6f786ad7d229fbaea45190cf0d",
+      "printedPage": 118,
+      "djvuPage": 144
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p119.jpg",
+      "bytes": 486129,
+      "sha256": "afaec77e8758a7611e06c75ce52e7b03598855a657b34b412ad0d1b5948160ca",
+      "printedPage": 119,
+      "djvuPage": 145
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p120.jpg",
+      "bytes": 497720,
+      "sha256": "b71e723e1f419a5d244687f7f28aa43aad71981deb798ad40842c9a81b7a7b93",
+      "printedPage": 120,
+      "djvuPage": 146
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p121.jpg",
+      "bytes": 490395,
+      "sha256": "120ea560bb7fc580a7d940e9c94ff2ba84c2df1aee00d4a0f922ff0d85d14f37",
+      "printedPage": 121,
+      "djvuPage": 147
+    },
+    {
+      "role": "historical_scan",
+      "file": "scan-p122.jpg",
+      "bytes": 398865,
+      "sha256": "4f8b476d7caba8aed17cc4feba85f5e894302e3bf18c5c27605d9dcf2dc18446",
+      "printedPage": 122,
+      "djvuPage": 148
+    },
+    {
+      "role": "unreviewed_unit_and_passage_proposal",
+      "file": "unit-plan.json",
+      "bytes": 74504,
+      "sha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc"
+    },
+    {
+      "role": "chapter_one_editorial_review",
+      "file": "chapter-01-review.json",
+      "bytes": 21131,
+      "sha256": "8a42e1e1ef93efa7c8433d90a5601f505321d215ead4eec97dda4c010b08b441"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts",
+      "file": "chapter-01-batch-01.json",
+      "bytes": 26954,
+      "sha256": "543ee455a477e4e27d181f1bf8da4658a586a5fbdcae4fa9b1626e264f4edf02"
+    },
+    {
+      "role": "chapter_two_editorial_review",
+      "file": "chapter-02-review.json",
+      "bytes": 2772,
+      "sha256": "bbc20e49d172ca82701475d68c67873156d5d355293334c3b66df657be7e32ca"
+    },
+    {
+      "role": "chapter_3_editorial_review",
+      "file": "chapter-03-review.json",
+      "bytes": 2039,
+      "sha256": "2b20c10488b42294005d7694c1d0a7d95632f61e58bde3448607a713ed12f3e9"
+    },
+    {
+      "role": "chapter_4_editorial_review",
+      "file": "chapter-04-review.json",
+      "bytes": 2260,
+      "sha256": "deddd086caae0f8f7e1a3bc4d07342042cc16daf076635f002f8ffcfd0850f58"
+    },
+    {
+      "role": "chapter_5_editorial_review",
+      "file": "chapter-05-review.json",
+      "bytes": 1617,
+      "sha256": "e808a2a10a1da89aeba0b5e2f084e56a04323a240de032aa8faeb33fca23f47d"
+    },
+    {
+      "role": "chapter_6_editorial_review",
+      "file": "chapter-06-review.json",
+      "bytes": 1515,
+      "sha256": "1b7a765c2ce45bc7dd8e17986088a9c74a3eee3f3c4e71e97e9d7be6f22449ba"
+    },
+    {
+      "role": "chapter_7_editorial_review",
+      "file": "chapter-07-review.json",
+      "bytes": 2284,
+      "sha256": "e86551e7c84d440d31c36dbb2c17e941035a1b59262a79cdca9ed9d659b44b59"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_02",
+      "file": "chapter-01-batch-02.json",
+      "bytes": 20686,
+      "sha256": "dde97736d300af3379a4589dae1a4d14bc4db1d0a50326bdc21642a18d4c84de"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_03",
+      "file": "chapter-01-batch-03.json",
+      "bytes": 23384,
+      "sha256": "7a5f12f446e4173f8133054a0edcf2d39d94a26be6a6121d8fea29a352371f45"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_04",
+      "file": "chapter-01-batch-04.json",
+      "bytes": 19411,
+      "sha256": "7760eaf421dcdea44e858fbd944f6059744c60696cacff9e81a13645221cbae4"
+    },
+    {
+      "role": "unpublished_expression_triage_and_question_drafts_01",
+      "file": "chapter-01-expressions-01.json",
+      "bytes": 13602,
+      "sha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_05",
+      "file": "chapter-01-batch-05.json",
+      "bytes": 18642,
+      "sha256": "3d25ab1ff45600b87a75bf3a92eda3b7b4f4f9d1ebc19d1061c70a89536225c2"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_06",
+      "file": "chapter-01-batch-06.json",
+      "bytes": 18656,
+      "sha256": "f8ae5569850735f1f8ceb26a5cc782a3c74278a1d20049e3d5bcc7d087a2d83b"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_07",
+      "file": "chapter-01-batch-07.json",
+      "bytes": 18722,
+      "sha256": "b3019185ca085ed49565286c1f71517ccbc357f781c32728f01d30fc0e5fa5b5"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_08",
+      "file": "chapter-01-batch-08.json",
+      "bytes": 19236,
+      "sha256": "5596b6e592997d1cb2af5d2f785ca60f6ddea1de8bb860bb28ca700fac3378c9"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_09",
+      "file": "chapter-01-batch-09.json",
+      "bytes": 17522,
+      "sha256": "69ba42de5467343e7b83dc1d32f6f5e405bdd10d129bdaba7fd0e298f6416a39"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_10",
+      "file": "chapter-01-batch-10.json",
+      "bytes": 18110,
+      "sha256": "7e5f66004eb2c8dd215180f98d095a463f306abccf4e9d5d2dc2ada456324a3a"
+    },
+    {
+      "role": "chapter_01_token_inventory",
+      "file": "chapter-01-coverage.json",
+      "bytes": 1322930,
+      "sha256": "583e02bc567e826fcd0943fedbf4255d4779cf50d79c3b443fbf0dccff4f8b27"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-01.json",
+      "bytes": 31921,
+      "sha256": "fab8b443d6ae116ded9a8c8e0ddc8b926271ffd7fd1e25aa4d4588b5c54ec686"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-02.json",
+      "bytes": 24918,
+      "sha256": "4382072e7a230ef5a74d06ffd1cda04b3a3604d8d7ebcb77ce9bf65fe26a41c0"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-03.json",
+      "bytes": 22019,
+      "sha256": "46cb3324913a89c17b1d4108392be887f57b0c03458730e063149e1a0396c007"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-04.json",
+      "bytes": 18917,
+      "sha256": "2776f616f1fd38aa318e22bcf0253726b77236ecf474b10f294dd93b3faae414"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-05.json",
+      "bytes": 17253,
+      "sha256": "25dbf63a3e204133693161d53215c07e0aaa01ecef984b3adb79d4a751451563"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-06.json",
+      "bytes": 11218,
+      "sha256": "89540201cdd1f0e506c71076114eb74190183687398e77b527e3f6c594b0b29a"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-ambiguous-01.json",
+      "bytes": 63657,
+      "sha256": "31f08529fd2258114cc9f0c997cb87ed8fd2d1599d8bfe193439f30747d445bc"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-ambiguous-02.json",
+      "bytes": 23282,
+      "sha256": "83a2e2b38d26daf544826784e70c54a029eb3101dbdcb010038623f4b052109d"
+    },
+    {
+      "role": "chapter_01_proper_names_and_honorific_review",
+      "file": "chapter-01-names-01.json",
+      "bytes": 10645,
+      "sha256": "fc9d80195915b96c43e629a8e479bb36d938af2238acc683fa0da6a2af2e5d0c"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-ambiguous-03.json",
+      "bytes": 54812,
+      "sha256": "f978ad05abe4d70a870bab9d28743598202f8ec0f892d33ecad2d746556658c2"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-reuse-07.json",
+      "bytes": 1815,
+      "sha256": "655b27109bcaef16ef278a6f0bfb10f258107e3b7a162d4c9026a96482575873"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_11",
+      "file": "chapter-01-batch-11.json",
+      "bytes": 19228,
+      "sha256": "18b49e4b07828fba188dcd4f5106aafb1a11e61534bb7dfd177248ec6075ac48"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-ambiguous-04.json",
+      "bytes": 30717,
+      "sha256": "f6c4e084d8430526fee99ff8bfc1e92b629a92c8da0562f7951d6ef8ccf291aa"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_12",
+      "file": "chapter-01-batch-12.json",
+      "bytes": 18923,
+      "sha256": "f367c7fcdeb77a7c17a4f053b4941e5ef97e4ef6d67496723a9ae90aca01e0d9"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_13",
+      "file": "chapter-01-batch-13.json",
+      "bytes": 22109,
+      "sha256": "36f23af705e81a86b18884faa650171e2be96c7b4e92be3603efeaf267861248"
+    },
+    {
+      "role": "unpublished_chapter_01_contextual_identity_reuse_review",
+      "file": "chapter-01-ambiguous-05.json",
+      "bytes": 3788,
+      "sha256": "7bfa570969eacd3093b30e296536d041ca82155bed606fa2e74d70f6ebb0351c"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_14",
+      "file": "chapter-01-batch-14.json",
+      "bytes": 19133,
+      "sha256": "72a9998cfec85f14b73ed4691b302ee185a389738d67498e94ed0c016fb8b3c8"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_15",
+      "file": "chapter-01-batch-15.json",
+      "bytes": 19022,
+      "sha256": "0fe5bb8300e6db43471f17b241b1b3e24384aa11f490debbb975a5f88245ac3b"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_16",
+      "file": "chapter-01-batch-16.json",
+      "bytes": 18690,
+      "sha256": "2ee486aaf30aff19ef4224452471d51c7f28e46ef5a984319cfb4f5d3ec68e56"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_17",
+      "file": "chapter-01-batch-17.json",
+      "bytes": 18921,
+      "sha256": "3aa46371b361af1c7ba3ed70da15000f319c591a96c5a5b7daea18c95f34125e"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_18",
+      "file": "chapter-01-batch-18.json",
+      "bytes": 19146,
+      "sha256": "3c1156de99bf7475ffad88c522cb99616639b06d8976e2fcdab4f9ac61cc623a"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_19",
+      "file": "chapter-01-batch-19.json",
+      "bytes": 18706,
+      "sha256": "cf7c7f5fefd2394a44f22be8be7f008ecba0c9497541b15038656f1d3323c50f"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_20",
+      "file": "chapter-01-batch-20.json",
+      "bytes": 19640,
+      "sha256": "4fb596f3bd27b0ff2a0f1f1d10f73f1e805e0dff840f1e47d6e7adc2fd6ecce8"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_21",
+      "file": "chapter-01-batch-21.json",
+      "bytes": 19362,
+      "sha256": "7c62f771aed167dacf6a74421ad5ba6e9666dc2b4e14790c9b2277c1d6cce049"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_22",
+      "file": "chapter-01-batch-22.json",
+      "bytes": 19034,
+      "sha256": "18279dd7a7af7ddb0c3502f09bb92e24e2dd23af728d4bcf8699a29f2fe0b32b"
+    },
+    {
+      "role": "unpublished_contextual_vocabulary_and_quiz_drafts_batch_23",
+      "file": "chapter-01-batch-23.json",
+      "bytes": 15556,
+      "sha256": "395e40dde311ca63c262b4944b1ddf4f2d3b35f21d7c955b988281a5dd4d2a35"
+    },
+    {
+      "role": "unpublished_chapter_01_expression_component_coverage",
+      "file": "chapter-01-phrase-components.json",
+      "bytes": 2920,
+      "sha256": "a6ea38193aee125980c9a5f1137953398ff45a6208499cc832990b369ca71d57"
+    },
+    {
+      "role": "unpublished_chapter_01_first_fifty_contextual_question_review",
+      "file": "chapter-01-qa-01.json",
+      "bytes": 41813,
+      "sha256": "76b27f06027a7a285cc8ef4b11783df82b89c9d030c5a95b565083aa1e6fff66"
+    },
+    {
+      "role": "unpublished_chapter_01_next_hundred_contextual_question_review",
+      "file": "chapter-01-qa-02.json",
+      "bytes": 105417,
+      "sha256": "9c62cebb9c782ca087fa400085b204b6fecb31787ff6a384febc0d3aa4a7eb48"
+    },
+    {
+      "role": "unpublished_chapter_01_final_seventy_seven_contextual_question_review",
+      "file": "chapter-01-qa-03.json",
+      "bytes": 81260,
+      "sha256": "af5bdd667ad71d8770746e5f2881dd58dae09e02929cb974992e030d3a0b95bd"
+    },
+    {
+      "role": "unpublished_chapter_01_exact_published_identity_context_review",
+      "file": "chapter-01-shared-identity-01.json",
+      "bytes": 32714,
+      "sha256": "76f353650d39eee9560aab219cc384a4c9ceafb4c5f35ad17094b63a288be6de"
+    },
+    {
+      "role": "unpublished_chapter_01_first_hundred_no_exact_form_lemma_review",
+      "file": "chapter-01-shared-lemma-01.json",
+      "bytes": 79832,
+      "sha256": "42a16bea704a4aa5963330cedfc734c3f6da79637167f6fdce8207f8d9493f59"
+    },
+    {
+      "role": "unpublished_chapter_01_final_ninety_two_no_exact_form_lemma_review",
+      "file": "chapter-01-shared-lemma-02.json",
+      "bytes": 74122,
+      "sha256": "9fcf5caf5c6a00fd2abb5340df8db6142ef626ad666b6e83e597c75ed02746f8"
+    },
+    {
+      "role": "unpublished_chapter_01_full_draft_identity_import_mapping",
+      "file": "chapter-01-identity-plan.json",
+      "bytes": 175685,
+      "sha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e"
+    },
+    {
+      "role": "unpublished_chapter_01_published_dependency_repair_proposals",
+      "file": "chapter-01-published-repair-plan.json",
+      "bytes": 13679,
+      "sha256": "2ee655c00cb23e2049833ae4a93c2a74accd0c543a9f3923b6ac796b392792ed"
+    },
+    {
+      "role": "chapter_one_expression_question_review",
+      "file": "chapter-01-expression-qa.json",
+      "bytes": 4252,
+      "sha256": "c11c2c007e8dfb3d0b0a14c864637562afec6de25f920143be118ecd8ec60aa0"
+    },
+    {
+      "role": "chapter_one_contextual_correction",
+      "file": "chapter-01-batch-24.json",
+      "bytes": 15529,
+      "sha256": "f219b5727d7707a412ad5356df52e36be25f78b2bba4436a1852d0efa06e024f"
+    },
+    {
+      "role": "chapter_one_contextual_correction",
+      "file": "chapter-01-qa-04.json",
+      "bytes": 9473,
+      "sha256": "2e6393ac3636637af3cd8d40aa39f64a809dbbf4a9bf2296e33f71d559f29c2e"
+    },
+    {
+      "role": "chapter_two_token_inventory_partial_review",
+      "file": "chapter-02-coverage.json",
+      "bytes": 1426604,
+      "sha256": "1828a7b0c6764e5669d07e16cbb8f2f333ecfc8cf80c99514309965ee45f155f"
+    },
+    {
+      "role": "chapter_two_proper_name_review",
+      "file": "chapter-02-names.json",
+      "bytes": 2382,
+      "sha256": "a518fdc72210b9e2d5cbabb3beb2e636fbe1d2f86b63e021a765951624d07701"
+    },
+    {
+      "role": "chapter_two_expression_triage",
+      "file": "chapter-02-expressions.json",
+      "bytes": 8607,
+      "sha256": "66572b8d7083ae55246464372ec336940b449dc229efc2abf562b711fd079d99"
+    },
+    {
+      "role": "chapter_two_phrase_component_review",
+      "file": "chapter-02-phrase-components.json",
+      "bytes": 2452,
+      "sha256": "2f1db4f5bd499d7794c2e434bbe989c03b83769aecd9202ce0e6a781db4a5cb2"
+    },
+    {
+      "role": "chapter_two_published_lemma_comparison_packet",
+      "file": "chapter-02-identity-packet.json",
+      "bytes": 229393,
+      "sha256": "ec078c788814724d2f9d431470d0e111d20cc2be954ae22b11592023b5860902"
+    },
+    {
+      "role": "chapter_two_source_bound_identity_route_plan",
+      "file": "chapter-02-identity-plan.json",
+      "bytes": 147180,
+      "sha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe"
+    },
+    {
+      "role": "chapter_two_expression_three_band_question_review",
+      "file": "chapter-02-expression-qa.json",
+      "bytes": 1224,
+      "sha256": "85b3c076808cf5fc9174902ef26fbaa9f24344c8aa7e91706c5495c9d7682a1b"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-01.json",
+      "bytes": 19412,
+      "sha256": "06d533ab322b9998fd173b0f632079d0cceb319a2b2c5aa94f1f52943e5fd425"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-02.json",
+      "bytes": 18530,
+      "sha256": "cd780853e1b4356a16d3a320896121bb00a1bed53e70c6d68720ca68ec359219"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-03.json",
+      "bytes": 19764,
+      "sha256": "e7c0f391fcb0f8a629a67bed74ff6c1eaaf504f521d3b63a60c5b7c2ed95ad5b"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-04.json",
+      "bytes": 17930,
+      "sha256": "41c825a1d07137d2051c5c2a4420c2857afc67e74a3afa85e81ab8ec89b236ca"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-05.json",
+      "bytes": 17392,
+      "sha256": "d1b0c27429664ca38234f6a7a44562da0ffc14d1a1640e70e88be2ac4a8c4138"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-06.json",
+      "bytes": 18296,
+      "sha256": "8d2593e1c127926722a046c5de3537ae6a23cf008c26769a5783f3504ed38fda"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-07.json",
+      "bytes": 17429,
+      "sha256": "c45271c3fef9d1a6e9bfdfb8b7305688c9f85ead0b364303937c6fa2b19b7b98"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-08.json",
+      "bytes": 17470,
+      "sha256": "5accc5d5179a580e80efe7c5fcfd6b5bcea7f577e07dfa9e857d8e9a54866f38"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-09.json",
+      "bytes": 18184,
+      "sha256": "1f693f3bf798b6aeb4a30f0a331af2d7198f94ed9fb7d353882368faab39aea1"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-10.json",
+      "bytes": 18083,
+      "sha256": "0817478adea781702c2cef365933f7b959062ec08e318a2f0837d85df2971b07"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-11.json",
+      "bytes": 17810,
+      "sha256": "fe5dd9aef4bce85e5209791c4f17d60ff7da15af4cb13f5ac4e19c71f2866a77"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-12.json",
+      "bytes": 17448,
+      "sha256": "18fd4d07bf269b655aa1143b144d7319779efc9d0144083d3bb88ad22b4dfe8d"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-13.json",
+      "bytes": 17888,
+      "sha256": "5b384705ff69391a09545b3a347f119cdd4c0043c8e0393c8d8600c462a10e29"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-14.json",
+      "bytes": 18828,
+      "sha256": "5ae96dabd7afef4e247bb113f2aa738a59eb79540ed14433dc5747a36c8bebce"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-15.json",
+      "bytes": 18735,
+      "sha256": "04651b14813d863a79682e3e2de4fa7a46a582325cc55bdd72ea1ec45cbe6fb5"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-16.json",
+      "bytes": 18728,
+      "sha256": "8475d4e7beb4e5d36666f2de66f25d5aa0f0a7fd3f499623f774b0fbfe732caf"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-17.json",
+      "bytes": 19331,
+      "sha256": "33a97b41c8195ccffaab1075d5df100409686704f160276bb95f8262ed1988e4"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-batch-18.json",
+      "bytes": 2419,
+      "sha256": "04f3bf2e960b09ec0022a385c947025659a3340631fda1ab1ab9b0a906ca3b0b"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-reuse-01.json",
+      "bytes": 40846,
+      "sha256": "d59105ca33c148c922add48e124612020b9309aa6fc8df24eef6ef6bacbd7339"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-reuse-02.json",
+      "bytes": 37005,
+      "sha256": "c8e52c8fd1f57aa62161d960f0c059a0b09ed2056d46b5e88dd2c4250051a193"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-reuse-03.json",
+      "bytes": 48806,
+      "sha256": "29f090454cfea35170248db3f4c6df20667ce78cfc43dc33bc188f0706d7c1e8"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-reuse-04.json",
+      "bytes": 39219,
+      "sha256": "2bff5c077009c75dee4c47b38e3be9b16d6aa115261f88c511785654e65472d1"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-reuse-05.json",
+      "bytes": 7234,
+      "sha256": "da84bf77c2d10208e85d79e089472e1f77bac335bc8cdafb607e923013802623"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-ambiguous-01.json",
+      "bytes": 52903,
+      "sha256": "85acc940c44f48591a66e00b230e4d4de99c56ca6465fe4dd87fa9a3acc5870b"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-ambiguous-02.json",
+      "bytes": 43429,
+      "sha256": "052141221d3de40d0c907d2eee470aa6b81364403beef171c8ebd61c9d5f6eac"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-ambiguous-03.json",
+      "bytes": 33037,
+      "sha256": "a792a4bee554524f71363086ad49aea4d0565c35bfec0253bfc6b56213b3a361"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-ambiguous-04.json",
+      "bytes": 14793,
+      "sha256": "e1d182dd8c03e7448864496547aa557797f29b37e319d24a5423859800bf8f75"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-ambiguous-05.json",
+      "bytes": 8574,
+      "sha256": "c2d9c81761349537b5d3b76cb7178b261753e0a7579fb5874f18676e75824737"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-qa-01.json",
+      "bytes": 43586,
+      "sha256": "8e0783ecc880698dfc8053220cda298b0d45e3c7251b4d9394c781baa631d07b"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-qa-02.json",
+      "bytes": 42701,
+      "sha256": "081fe2ee984f8e33eec140bf2da3d6ac386396defb674d653a9b0961561473e3"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-qa-03.json",
+      "bytes": 42913,
+      "sha256": "2dbc3ddda806a65a9398eede84d266c6c8fd112cbf983e789f133e7168cd0382"
+    },
+    {
+      "role": "chapter_two_offline_editorial_review",
+      "file": "chapter-02-qa-04.json",
+      "bytes": 20604,
+      "sha256": "5016d7be59ac53d6e8696ec33851923fbea6af762a6a0210332cc7a8f8f84200"
+    }
+  ],
+  "canonical": {
+    "status": "source_approved_learning_pending",
+    "file": "canonical.txt",
+    "candidateFile": "canonical-draft.txt",
+    "candidateSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+    "scope": "complete_seven_chapter_work",
+    "scopeVerification": "Full seven-chapter selected-edition scope reviewed against saved pp. 105–122 scans and page transcriptions; 6608 words in order with documented variants; learner publication pending.",
+    "version": 1,
+    "unitCount": 215,
+    "chapterStartPages": [
+      {
+        "chapter": 1,
+        "startPrintedPage": 105
+      },
+      {
+        "chapter": 2,
+        "startPrintedPage": 108
+      },
+      {
+        "chapter": 3,
+        "startPrintedPage": 110
+      },
+      {
+        "chapter": 4,
+        "startPrintedPage": 112
+      },
+      {
+        "chapter": 5,
+        "startPrintedPage": 114
+      },
+      {
+        "chapter": 6,
+        "startPrintedPage": 116
+      },
+      {
+        "chapter": 7,
+        "startPrintedPage": 118
+      }
+    ],
+    "sha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4"
+  },
+  "rights": {
+    "status": "original_french_literary_text_public_domain_assessed_US_FR",
+    "authorDeathYear": 1778,
+    "selectedEditionYear": 1877,
+    "territoriesAssessed": [
+      "US",
+      "FR"
+    ],
+    "basis": {
+      "US": {
+        "conclusion": "original literary text published before 1931; public-domain term expired",
+        "authority": "https://www.copyright.gov/circs/circ15a.pdf",
+        "note": "1890s and later editorial additions are excluded; this source edition is 1877."
+      },
+      "FR": {
+        "conclusion": "Voltaire died 1778; death year plus 70 calendar years expired long ago",
+        "authority": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "authorDatesReference": "https://catalogue.bnf.fr/ark:/12148/cb31602455d"
+      }
+    },
+    "material": "Original French literary prose only; exclude editorial notes, later translations, independent illustrations and scanned image reuse in learner bundle",
+    "otherTerritories": "Not assessed"
+  },
+  "transformations": {
+    "status": "documented_candidate_rules",
+    "log": "candidate-preparation.json",
+    "pageComparison": "page-comparison.json",
+    "pageBreakJoins": [
+      {
+        "printedPages": [
+          117,
+          118
+        ],
+        "pageReading": "au-- / dessus",
+        "canonicalReading": "au-dessus"
+      },
+      {
+        "printedPages": [
+          119,
+          120
+        ],
+        "pageReading": "dis- / séquons",
+        "canonicalReading": "disséquons"
+      }
+    ],
+    "editorialNoteCallsRemoved": 34,
+    "notes": "Seven chapter headings retained in candidate navigation metadata and should be preserved in final learner presentation.",
+    "printedReadingCorrections": [
+      {
+        "printedPage": 107,
+        "transcriptionReading": "au-delà",
+        "scanReading": "au delà",
+        "candidateReading": "au delà"
+      },
+      {
+        "printedPage": 108,
+        "transcriptionReading": "au-delà",
+        "scanReading": "au delà",
+        "candidateReading": "au delà"
+      },
+      {
+        "printedPage": 109,
+        "transcriptionReading": "tous les êtres",
+        "scanReading": "tous- les êtres",
+        "candidateReading": "tous les êtres",
+        "reason": "Apparent compositor hyphen after the determiner; online transcription silently corrects it."
+      },
+      {
+        "printedPage": 113,
+        "transcriptionReading": "quelques apparence",
+        "scanReading": "quelque apparence",
+        "candidateReading": "quelque apparence"
+      },
+      {
+        "printedPage": 114,
+        "transcriptionReading": "une âme fut logée",
+        "scanReading": "une âme fût logée",
+        "candidateReading": "une âme fût logée",
+        "reason": "Imperfect subjunctive distinguishes this verb from the indicative fut earlier in the same passage."
+      },
+      {
+        "printedPage": 118,
+        "transcriptionReading": "Ô Dieu ! / Ô atomes intelligents",
+        "scanReading": "O Dieu ! / O atomes intelligents",
+        "candidateReading": "O Dieu ! / O atomes intelligents"
+      },
+      {
+        "printedPage": 121,
+        "transcriptionReading": "Très-bien, répondit l’homme",
+        "scanReading": "Très-bien, lui répondit l’homme",
+        "candidateReading": "Très-bien, lui répondit l’homme"
+      },
+      {
+        "printedPage": 121,
+        "transcriptionReading": "Alors monsieur Micromégas",
+        "scanReading": "Alors M. Micromégas",
+        "candidateReading": "Alors M. Micromégas"
+      }
+    ]
+  },
+  "review": {
+    "status": "source_verified_learning_pending",
+    "reviewedOn": "2026-09-26",
+    "mechanicalCheckedOn": "2026-09-26",
+    "printedPagesChecked": "105–122",
+    "scanVisualReview": "All 18 scanned pages visually inspected, with chapter-by-chapter proofreading and recorded selected-edition readings; rough OCR is supporting evidence only",
+    "pageTranscriptionComparison": "6608 word tokens, 0 mismatches after documented changes",
+    "reviewer": "Codex editorial review of recorded page-by-page visual proofreading and documented readings",
+    "openIssues": [
+      "Chapter I has source-bound dispositions for all 1,020 tokenizer uses: 281 offline draft uses, 710 published-identity reuse decisions, 24 proper-name exclusions and five phrase components. The 236 draft meanings and 708 questions await complete-work identity and import signoff; review workwide sense splits and chapters II–VII. Astronomical ciel awaits first indexed use and question approval.",
+      "Review all three question bands and expression questions for every approved identity, then run work-specific coverage and publication checks; this candidate is not in the current release bundle."
+    ],
+    "chapterOne": {
+      "source": "pp. 105–107 and chapter I portion of p. 108 visually proofread; recorded in chapter-01-review.json",
+      "unitOrdinals": "1–29",
+      "passageOrdinals": "1–8",
+      "batch": "Two hundred thirty-six contextual meanings mapped to 469 selected occurrences across seven chapters, with 708 offline vocabulary questions. Eight newly separated meanings correct false published-question reuses in chapter I; workwide sense splits and later chapters remain pending.",
+      "expressions": "Eleven chapter I phrase candidates: four independent expression question drafts (twelve questions), à peu près reuses its published vocabulary identity on the à anchor; five phrase components have explicit nonduplicate token dispositions; past se mit à reuses mit and present se met à is planned as a new surface under the existing reflexive-begin sense. No independent expression mastery for se mettre à.",
+      "coverage": "Complete inventory of 1020 tokenizer tokens and 422 forms; 281 uses assigned to 236 offline draft meanings; 710 uses have authored published-identity reuse decisions across 179 forms; 24 proper-name uses excluded; five phrase components have no duplicate vocabulary mastery; zero tokenizer uses lack a recorded disposition. No learner import.",
+      "reuseReview": {
+        "indexedOccurrences": 710,
+        "reviewedForms": 179,
+        "packetCount": 12,
+        "status": "offline_contextual_reuse_pending_final_bundle_signoff"
+      },
+      "nameReview": {
+        "file": "chapter-01-names-01.json",
+        "excludedTokenUses": 24,
+        "namedForms": 14,
+        "honorificUsesPending": 0,
+        "status": "proper_names_excluded_honorific_published_identity_reused",
+        "honorificUsesReused": 3
+      },
+      "phraseComponentReview": {
+        "file": "chapter-01-phrase-components.json",
+        "coveredTokenUses": 5,
+        "expressionKeys": [
+          "a_propos",
+          "a_peu_pres",
+          "voie_lactee"
+        ],
+        "status": "source_bound_expression_components_no_duplicate_vocabulary_mastery_pending_bundle_signoff"
+      },
+      "qaReview": {
+        "file": "chapter-01-qa-01.json",
+        "reviewedBatches": "01–05",
+        "reviewedMeanings": 50,
+        "reviewedQuestionBands": 150,
+        "correctedQuestionSets": 2,
+        "status": "all_chapter_one_draft_sources_and_questions_reviewed_pending_final_shared_identity_and_bundle_signoff",
+        "additionalFile": "chapter-01-qa-02.json",
+        "additionalReviewedBatches": "06–15",
+        "additionalMeanings": 100,
+        "additionalQuestionBands": 300,
+        "additionalCorrections": 5,
+        "totalReviewedMeanings": 236,
+        "totalReviewedQuestionBands": 708,
+        "totalCorrectedQuestionSets": 9,
+        "finalFile": "chapter-01-qa-03.json",
+        "finalReviewedBatches": "16–23",
+        "finalReviewedMeanings": 78,
+        "finalReviewedQuestionBands": 234,
+        "finalCorrections": 2,
+        "finalCorrectionFile": "chapter-01-qa-04.json",
+        "finalCorrectionMeanings": 8,
+        "finalCorrectionQuestionBands": 24
+      },
+      "sharedIdentityReview": {
+        "file": "chapter-01-shared-identity-01.json",
+        "draftMeaningsWithPublishedForm": 44,
+        "reuseReady": 5,
+        "reuseAfterRepair": 0,
+        "sharedSenseHolds": 0,
+        "distinctMeanings": 38,
+        "status": "current_published_catalogue_exact_form_reviewed_no_learner_import",
+        "firstUseApprovalPending": 1
+      },
+      "sharedLemmaReview": {
+        "file": "chapter-01-shared-lemma-01.json",
+        "reviewedNoExactFormMeanings": 100,
+        "remainingNoExactFormMeanings": 0,
+        "linkedPublishedSenses": 12,
+        "distinctExistingLemmaSenses": 9,
+        "heldExistingLemmaSenses": 0,
+        "newLemmaSenseDrafts": 79,
+        "sharedNewSenseGroups": [
+          "habitant:person_residing",
+          "planète:celestial_body",
+          "étoile:literal_celestial"
+        ],
+        "status": "first_hundred_lemma_comparison_recorded_unpublished_pending_import_signoff"
+      },
+      "sharedLemmaReview02": {
+        "file": "chapter-01-shared-lemma-02.json",
+        "reviewedNoExactFormMeanings": 92,
+        "remainingNoExactFormMeanings": 0,
+        "linkedPublishedSenses": 16,
+        "distinctExistingLemmaSenses": 10,
+        "pendingPublishedGlossRepair": 0,
+        "newLemmaSenseDrafts": 66,
+        "sharedNewSenseGroups": [
+          "géomètre:geometry_specialist",
+          "voyager:travel"
+        ],
+        "status": "all_192_no_exact_form_comparisons_recorded_unpublished_pending_import_signoff"
+      },
+      "identityPlan": {
+        "file": "chapter-01-identity-plan.json",
+        "mappedMeanings": 236,
+        "reuseExactPublishedIdentity": 5,
+        "addSurfaceToPublishedSense": 29,
+        "newSense": 56,
+        "newLemmaAndSense": 145,
+        "publishedRepairDependencies": 0,
+        "status": "source_bound_offline_import_mapping_no_learner_import",
+        "publishedIdentityPendingFirstUseApproval": 1
+      },
+      "publishedRepairPlan": {
+        "file": "chapter-01-published-repair-plan.json",
+        "heldRepairs": 1,
+        "publishedMutations": 1,
+        "status": "two_glosses_repaired_sky_questions_prepared_first_use_approval_pending",
+        "completedRepairs": 2,
+        "publicationBatchId": "fr-micromegas-shared-repair-2026-09-27-01"
+      },
+      "expressionQuestionReview": {
+        "file": "chapter-01-expression-qa.json",
+        "reviewedExpressions": 4,
+        "reviewedBands": 12,
+        "status": "contextual_expression_questions_reviewed_offline_pending_complete_work_import"
+      }
+    },
+    "chapterTwo": {
+      "source": "pp. 108–109 and chapter II portion of p. 110 visually proofread; recorded in chapter-02-review.json",
+      "unitOrdinals": "30–60",
+      "passageOrdinals": "9–17",
+      "lexical": "Offline chapter review: 252 drafted token uses, 773 published reuse uses, 6 proper-name exclusions, 4 phrase components, 0 unresolved of 1035; no learner import.",
+      "progress": {
+        "tokenUses": 1035,
+        "distinctForms": 393,
+        "draftedTokenUses": 252,
+        "draftedDistinctForms": 185,
+        "reusedTokenUses": 773,
+        "reusedDistinctForms": 208,
+        "excludedProperNameUses": 6,
+        "coveredPhraseComponents": 4,
+        "unresolvedTokenUses": 0,
+        "unresolvedDistinctForms": 0,
+        "batchCount": 18,
+        "newMeaningDrafts": 171,
+        "publishedReusePackets": 10,
+        "newQuestionBands": 513,
+        "expressionTriages": 14,
+        "newExpressionQuestionBands": 3,
+        "questionReviewedMeanings": 171,
+        "questionReviewedBands": 513,
+        "identityRoutes": {
+          "link_published_sense": 47,
+          "new_lemma_and_sense": 92,
+          "link_planned_chapter_one_sense": 7,
+          "new_sense_existing_lemma": 25
+        },
+        "expressionReviewedBands": 3
+      }
+    },
+    "chapterThree": {
+      "source": "chapter III from p. 110 to p. 112 visually proofread; recorded in chapter-03-review.json",
+      "unitOrdinals": "61–82",
+      "passageOrdinals": "18–22",
+      "lexical": "first ten shared workwide senses cross-checked, other forms pending"
+    },
+    "chapterFour": {
+      "source": "chapter IV from p. 112 to p. 114 visually proofread; recorded in chapter-04-review.json",
+      "unitOrdinals": "83–115",
+      "passageOrdinals": "23–30",
+      "lexical": "printed fut/fût distinction requires separate occurrence review; other forms pending"
+    },
+    "chapterFive": {
+      "source": "Chapter 5 visually proofread against pp. 114–115; recorded in chapter-05-review.json",
+      "unitOrdinals": "116–132",
+      "passageOrdinals": "31–35",
+      "lexical": "Remaining contextual forms, expressions and questions pending"
+    },
+    "chapterSix": {
+      "source": "Chapter 6 visually proofread against pp. 116–118; recorded in chapter-06-review.json",
+      "unitOrdinals": "133–168",
+      "passageOrdinals": "36–44",
+      "lexical": "Remaining contextual forms, expressions and questions pending"
+    },
+    "chapterSeven": {
+      "source": "Chapter 7 visually proofread against pp. 118–122; recorded in chapter-07-review.json",
+      "unitOrdinals": "169–215",
+      "passageOrdinals": "45–57",
+      "lexical": "Remaining contextual forms, expressions and questions pending"
+    },
+    "sourceDecision": {
+      "scope": "complete_seven_chapter_work",
+      "chapterHeadings": "preserved_as_navigation_metadata",
+      "navigation": "Use the seven exact label/heading pairs and paragraph indices in candidate-preparation.json and unit-plan.json in both Book View and Learning View.",
+      "text": "Approved canonical.txt is byte-identical to the reviewed candidate; preserve the selected 1877 readings and the documented p. 109 compositor-hyphen correction. No editorial notes or scans enter learner content.",
+      "rights": "Original French literary prose assessed for US and FR reuse only; other territories unassessed.",
+      "learning": "Approval applies only to source and reviewed passage structure; vocabulary, expression, and quiz approvals remain open."
+    }
+  },
+  "history": [
+    {
+      "version": 0,
+      "date": "2026-09-25",
+      "reason": "User advanced Micromégas to the first next-work priority; bibliographic candidates recorded without treating an unacquired source as verified."
+    },
+    {
+      "version": 1,
+      "date": "2026-09-26",
+      "reason": "Acquired and hashed complete 1877 text, individual transcriptions and scans, mechanically compared all seven chapters, assessed original French literary text reuse in US/FR. Candidate remains unpublished pending editorial and learning review."
+    },
+    {
+      "version": 2,
+      "date": "2026-09-26",
+      "reason": "Added mechanically reconstructed 249-unit, 57-passage proposal for human review; no learning content or canonical approval."
+    },
+    {
+      "version": 3,
+      "date": "2026-09-26",
+      "reason": "Visually proofread chapter I, restored printed au delà readings on pages 107–108, revised two chapter I thought boundaries and authored the first ten contextual sense/quiz drafts. Candidate remains unpublished."
+    },
+    {
+      "version": 4,
+      "date": "2026-09-26",
+      "reason": "Extended first ten chapter I contextual sense drafts to all 79 exact-form occurrences across seven chapters, separating natural-world and kind senses. No publication import."
+    },
+    {
+      "version": 5,
+      "date": "2026-09-26",
+      "reason": "Visually proofread chapter II, documented printed page 109 compositor hyphen already corrected by the online transcription, and reviewed 31 chapter II thought units and nine passages. Candidate remains unpublished."
+    },
+    {
+      "version": 6,
+      "date": "2026-09-26",
+      "reason": "Visually proofread chapters III–IV, restored singular quelque and imperfect subjunctive fût from pp. 113–114, and reviewed their thought-unit/passages. No import."
+    },
+    {
+      "version": 7,
+      "date": "2026-09-26",
+      "reason": "Visually proofread chapters V–VII, restored four late-page source readings, and reviewed all seven chapters as 215 thought units and 57 passages; full lexical and quiz review remains pending."
+    },
+    {
+      "version": 8,
+      "date": "2026-09-26",
+      "reason": "Added second chapter I batch of ten contextual surface-and-sense drafts, 28 additional workwide exact-form assignments and thirty individually authored questions. Remains offline pending full lexical and question approval."
+    },
+    {
+      "version": 9,
+      "date": "2026-09-26",
+      "reason": "Added third chapter I batch of ten contextual surface-and-sense drafts, 50 additional workwide exact-form assignments and thirty individually authored questions. Singular/plural habitant share a sense but retain separate mastery surfaces."
+    },
+    {
+      "version": 10,
+      "date": "2026-09-26",
+      "reason": "Added fourth chapter I batch of ten contextual sense drafts, 20 additional workwide exact-form assignments and thirty authored questions; separated mathematical and doctrinal propositions. Candidate remains unpublished."
+    },
+    {
+      "version": 11,
+      "date": "2026-09-26",
+      "reason": "Reviewed ten chapter I expression candidates against 16 source spans and the published expression/vocabulary catalogue, drafted three expression identities with nine questions, and held two pre-existing progress overlaps. No import."
+    },
+    {
+      "version": 12,
+      "date": "2026-09-26",
+      "reason": "Added fifth chapter I batch of ten contextual sense drafts, 14 additional workwide exact-form assignments and thirty authored questions; single-token sur-le-champ was routed from expression triage to vocabulary. Candidate remains unpublished."
+    },
+    {
+      "version": 13,
+      "date": "2026-09-26",
+      "reason": "Added sixth chapter I batch of ten scientific and doctrinal context sense drafts, ten additional workwide exact-form assignments and thirty authored questions; reconciled period theological terminology against historical dictionaries. Candidate remains unpublished."
+    },
+    {
+      "version": 14,
+      "date": "2026-09-26",
+      "reason": "Added chapter I batch 07 with ten contextual sense drafts, workwide occurrences and thirty authored questions on prosecution and travel; candidate remains unpublished."
+    },
+    {
+      "version": 15,
+      "date": "2026-09-26",
+      "reason": "Added chapter I batch 08 with ten contextual sense drafts, workwide occurrences and thirty authored questions on opening astronomy and calculation; candidate remains unpublished."
+    },
+    {
+      "version": 16,
+      "date": "2026-09-26",
+      "reason": "Approved the complete seven-chapter Garnier 1877 source scope and exact chapter navigation after reviewing the recorded visual proofreading, page comparisons, documented variants, evidence hashes, and 215-unit reconstruction. Kept the candidate outside learner publication pending lexical and question review; canonical.txt copies reviewed draft without change."
+    },
+    {
+      "version": 17,
+      "date": "2026-09-26",
+      "reason": "Authored chapter I batch 09 with ten contextual meanings, ten exact workwide occurrences and thirty offline question drafts. Reviewed existing à peu près identity and committed to preserving its published vocabulary mastery and questions instead of creating a duplicate expression; se mettre à still awaits shared-sense reconciliation. Corrected the chacun middle-band choices so grammar does not reveal the answer. No learner import."
+    },
+    {
+      "version": 18,
+      "date": "2026-09-26",
+      "reason": "Reviewed both published se mettre à shared-sense impact packets: mit and mirent each have one approved identity, two indexed occurrences and three active quizzes. The two Micromégas mit uses can reuse the existing surface+sense identity; present met remains held pending shared-sense choice. No existing quiz or mastery changed."
+    },
+    {
+      "version": 19,
+      "date": "2026-09-26",
+      "reason": "Authored chapter I batch 10 with ten context-reviewed meanings for the sovereign-states comparison and geometric description, ten single workwide indexed uses, and thirty offline questions. Checked noun number and gender in the six middle-band noun items. Source approval and old learner identities remain unchanged; no import."
+    },
+    {
+      "version": 20,
+      "date": "2026-09-26",
+      "reason": "Inventoried every one of 1020 chapter I tokenizer spans (422 forms), recorded six contextual published-identity reuse packets and two homograph packets: 130 additional forms and 524 token uses reviewed with published three-band question references. Highlighted 372 still-unresolved uses, including proper-name and M. abbreviation triage, without auto-approving any learner identity or changing published progress."
+    },
+    {
+      "version": 21,
+      "date": "2026-09-26",
+      "reason": "Resolved 24 chapter I named-entity uses as vocabulary exclusions while retaining them in the prose. Examined three printed M. honorifics: exact-form learner identity requires a separate abbreviated surface under the existing monsieur lemma and sense, with three reviewed questions. 348 tokenizer uses remain unassigned; no import or mastery change."
+    },
+    {
+      "version": 22,
+      "date": "2026-09-26",
+      "reason": "Reviewed 18 high-frequency function and ambiguous sense families in their exact chapter I contexts, adding 138 published-identity reuse decisions; 662 indexed reuse uses in nine packets, 24 proper-name exclusions and 210 remaining token uses. One noun être remains unassigned. No learner import or published mastery change."
+    },
+    {
+      "version": 23,
+      "date": "2026-09-26",
+      "reason": "Located the existing published M honorific surface under monsieur with three active questions; reviewed and assigned all three chapter I M. tokens to that existing identity, leaving the period in the prose. Reuse protects existing mastery and avoids a duplicate surface. 207 chapter I uses remain unassigned; no import."
+    },
+    {
+      "version": 24,
+      "date": "2026-09-26",
+      "reason": "Added 53 location-specific contextual published-identity reuse decisions and ten workwide draft meanings with 30 offline questions, distinguishing height from waist, anatomical from institutional body, singular sister, post chaise and vigorous prosecution. Chapter I has 139 draft uses, 718 reviewed reuses, 24 name exclusions and 139 unresolved tokens; candidate remains unpublished."
+    },
+    {
+      "version": 25,
+      "date": "2026-09-26",
+      "reason": "Added chapter I batch 12 with ten number, alternation, scale and study meanings, 13 newly drafted chapter I uses and 17 workwide exact-form uses and thirty offline questions. Chapter I has 126 unresolved uses; candidate remains unpublished."
+    },
+    {
+      "version": 26,
+      "date": "2026-09-26",
+      "reason": "Added batch 13 with ten meanings and thirty offline questions for historic feet as a length unit, vertical haut, two tour senses, multiplier fois, philosophical forme and other uses. Explicit context-selected subsets avoid forcing anatomical feet or other same-spelling contexts into the wrong identity. Chapter I has 106 unresolved tokens; no import."
+    },
+    {
+      "version": 27,
+      "date": "2026-09-26",
+      "reason": "Reviewed three royal qualifiers in pieds de roi against the existing king identity with a separate historical foot-unit explanation, and the performed voyage fit against published faire. Four more chapter I uses retain existing mastery and quiz bands; 102 remain unresolved."
+    },
+    {
+      "version": 28,
+      "date": "2026-09-26",
+      "reason": "Added batches 14 and 15 with twenty context-reviewed meanings, twenty chapter I and twenty-seven workwide uses, and sixty authored offline questions. The workwide adjective curieux is explicitly limited to the intriguing book, leaving later curious people open. Chapter I has 82 unresolved tokens; no import."
+    },
+    {
+      "version": 29,
+      "date": "2026-09-26",
+      "reason": "Added chapter I batches 16 and 17 with twenty contextual meanings, twenty chapter I and twenty-six workwide source uses, and sixty offline questions. Historical standalone depuis and contextual fait are scoped separately from later same-spelling senses; travel and comparison forms have exact-form workwide assignments. Chapter I has 62 unresolved uses; no learner import."
+    },
+    {
+      "version": 30,
+      "date": "2026-09-26",
+      "reason": "Added batches 18–20 as one larger thirty-meaning increment, with thirty chapter I uses, forty-six context-selected workwide uses and ninety offline questions. Nouvelles (new things), prétende (assert) and idiomatic plaise are limited to their source senses where later same-spelling uses differ. Chapter I has 32 unresolved uses; no learner import."
+    },
+    {
+      "version": 31,
+      "date": "2026-09-26",
+      "reason": "Added chapter I batches 21–23 with 27 contextual draft meanings, 27 chapter I and 36 context-selected workwide uses and 81 vocabulary question drafts. Corrected passablement de to its quantity sense on Académie/CNRTL evidence. Added voie lactée as a single offline expression candidate with three questions and five source-bound expression component decisions to prevent duplicate mastery. All 1020 chapter I tokens now have a recorded draft, contextual published reuse or reasoned exclusion; final identity/question approval and later chapters remain open. No import."
+    },
+    {
+      "version": 32,
+      "date": "2026-09-26",
+      "reason": "Reviewed a larger 50-meaning chapter I increment (batches 01–05) against source contexts and all 150 authored question bands. Corrected the diameter blank to remove a second valid generic answer and rewrote citizens questions for planetary-community membership rather than formal voting. Recorded exact draft and question hashes in a review ledger; final shared-identity and import signoff remain pending. No published mutation."
+    },
+    {
+      "version": 33,
+      "date": "2026-09-27",
+      "reason": "Reviewed chapter I batches 06–15 as a 100-meaning, 300-question increment with source-bound per-item review records. Corrected fraction septième, modest affliction, scoped faible image apart from a later faint voice, removed ambiguity in the historical feet blank and fixed the honorific blank. Total reviewed: 150 meanings and 450 question bands; 77 drafts remain for contextual QA. No learner import or published mutation."
+    },
+    {
+      "version": 34,
+      "date": "2026-09-26",
+      "reason": "Reviewed chapter I batches 16–23 as a single 77-meaning, 231-question increment. Corrected ambiguous celui-ci versus celui-là and les siens versus les autres prompts. All 227 contextual chapter I draft meanings and 681 vocabulary question bands now have source-bound QA records across three ledgers; final shared-identity adjudication, expression and reuse signoff and later chapters remain pending. No learner import or published mutation."
+    },
+    {
+      "version": 35,
+      "date": "2026-09-26",
+      "reason": "Compared all 227 chapter I draft meanings against the current published same-form catalogue rather than the older lexical gap shortlist. Thirty-five have published-form candidates: four old identities and all three prepared question bands are ready for contextual reuse; two existing senses need gloss or question repair before reuse; three remain held for shared-sense adjudication; twenty-six require distinct contextual meanings. Recorded exact current candidate/question fingerprints and preserved all published content and learner mastery. Micromégas remains unpublished."
+    },
+    {
+      "version": 36,
+      "date": "2026-09-26",
+      "reason": "Reviewed the first 100 chapter I meaning drafts with no exact published surface against current French lemma senses and old prepared questions. Twelve can link an existing sense under a new surface, eight need separate senses under existing lemmas, one figurative étoile versus literal étoiles is held, and 79 require a new lemma sense; paired inhabitant/habitants and planète/planètes explicitly share one intended sense across surfaces. Ninety-two no-exact-form drafts remain. No published mutation or learner import."
+    },
+    {
+      "version": 37,
+      "date": "2026-09-27",
+      "reason": "Completed the remaining 92 chapter I no-exact-form lemma comparisons in four internally checked groups, bringing this review to all 192. Resolved fit as composed-song meaning, vérité as discourse formula and étoiles as literal celestial stars as separate senses from published candidates. Retained four repair or adjudication dependencies across exact and lemma reviews: sœur gloss, astronomical ciel questions, travers shared sense, and singular oiseau gloss. Added paired geometry-specialist and travel new-sense groups across surfaces; no published mutation or learner import. Adopted internal recovery increments with a full verified checkpoint at the package boundary."
+    },
+    {
+      "version": 38,
+      "date": "2026-09-27",
+      "reason": "Mapped all 227 chapter I draft meanings to explicit import routes against the current publication: 4 exact reuses, 28 new surfaces under existing senses (including present met under reflexive begin), 47 distinct senses, 145 new lemma senses and 3 published-repair dependencies. Resolved à travers as a distinct prepositional meaning on historical Académie evidence, separate from the current published nominal-width sense. Recorded all affected published surfaces, indexed uses and question hashes for sœur, ciel and oiseau before any repair. The 722 contextual reuse uses retain their existing packet checks and expressions retain offline status. No published mutation or learner import."
+    },
+    {
+      "version": 39,
+      "date": "2026-09-27",
+      "reason": "Corrected shared English glosses for sœur/sœurs and oiseaux to cover singular and plural while preserving all established IDs, 15 indexed old uses and nine old authored question bands. Rebound exact-revision approvals for three active identities and nine dependent questions. Replaced three rejected dictionary-placeholder astronomical ciel questions with reviewed contextual drafts under stable IDs; kept them pending until Micromégas supplies the first indexed use and final approval. Published batch fr-micromegas-shared-repair-2026-09-27-01 records before/after changes and no progress transfers. Recomputed 227 chapter I identity routes against the repaired catalogue: five exact reuses, 29 surface additions, 47 separate senses, 145 new lemma senses and one sky first-use approval dependency. Micromégas remains offline."
+    },
+    {
+      "version": 40,
+      "date": "2026-09-27",
+      "reason": "Corrected literal Sirius étoile mistakenly assigned to figurative published lucky-star questions. Authored a new singular literal-star draft and grouped it with plural étoiles under one intended celestial sense; regenerated all source-bound chapter I decisions. Total 228 drafts, 684 questions, 270 drafted chapter I uses, 721 contextual reuse uses and 24 proper-name exclusions. Resolved se mettre à present met to a new surface under the existing reflexive-begin sense, retaining old progress. Expressions and seven-chapter import remain pending; no published mutation."
+    },
+    {
+      "version": 41,
+      "date": "2026-09-27",
+      "reason": "Reviewed all four drafted expression question sets across 12 bands against source senses and alternatives. The temporal au bout de in chapter VII alone receives expression mastery; the chapter I telescope tip is spatial and compositional. Faire le tour, à propos and voie lactée have contextual three-band QA; all remain offline pending complete-work signoff."
+    },
+    {
+      "version": 42,
+      "date": "2026-09-27",
+      "reason": "Compared all chapter I published reuse question bands with selected source contexts. Eight mismatches were separated into batch 24: honor as acquaintance privilege, anatomical head, Earth as planet, narrative here, a person’s name, approximate age, historical five-foot pace and leaving childhood. Reassigned 11 source tokens to fresh offline meanings without changing published records or mastery. Chapter I now has 236 meanings, 708 draft vocabulary bands and 710 contextual published reuses; all 1,020 token dispositions remain covered. Final complete-work import and chapters II–VII pending."
+    },
+    {
+      "version": 43,
+      "date": "2026-09-27",
+      "reason": "Partial chapter II source-bound package: 30 new meaning drafts and three question bands each; 647 contextual published uses and 6 proper names indexed. 295 token uses await editorial decisions. All chapter II work remains unpublished and no final question/identity signoff is claimed."
+    },
+    {
+      "version": 44,
+      "date": "2026-09-27",
+      "reason": "Partial chapter II source-bound package: 60 new meaning drafts and three question bands each; 719 contextual published uses and 6 proper names indexed. 188 token uses await editorial decisions. All chapter II work remains unpublished and no final question/identity signoff is claimed."
+    },
+    {
+      "version": 45,
+      "date": "2026-09-27",
+      "reason": "Chapter II source-bound coverage package: 171 new meaning drafts and three question bands each; 773 contextual published uses, 6 proper names and 4 phrase components indexed. 0 token uses await decisions. Question QA and identity route signoff remain pending; no learner import."
+    },
+    {
+      "version": 46,
+      "date": "2026-09-28",
+      "reason": "Chapter II offline editorial review: 171 contextual meaning drafts, 513 individually reviewed question bands, and 171 source-bound shared identity routes. 773 published reuse uses, 6 proper names and 4 phrase components indexed; 0 token uses unresolved. One expression has three reviewed bands. Later chapters, whole-work reconciliation and learner import remain pending; no learner import or publication."
+    }
+  ]
+}

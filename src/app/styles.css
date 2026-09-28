@@ -107,6 +107,7 @@ main { display: grid; gap: 14px; }
 .number { color: #a19684; font-size: .75rem; padding-top: 8px; }
 .french { margin: 0; line-height: 1.75; }
 .french { font-family: Georgia, serif; font-size: 1.24rem; }
+.text-units .french, .book-text p { white-space: pre-line; }
 .status { background: #efe2c8; border-left: 3px solid #963e28; border-radius: 4px; color: #5c4b3d; line-height: 1.5; margin-top: 24px; padding: 14px 16px; }
 .word { appearance: none; background: none; border: 0; color: inherit; cursor: pointer; padding: 0; }
 .word.learning-word { border-bottom: 1px dotted #9b5540; }

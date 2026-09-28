@@ -1819,6 +1819,110 @@
         }
       ],
       "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_samaniego_aplica_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_aplica",
+        "senseId": "sns_es_samaniego_aplica"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Aplica la regla que acabas de aprender para resolver este problema.",
+      "targetText": "aplica",
+      "targetRange": {
+        "start": 0,
+        "end": 6
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "apply (command)"
+        },
+        {
+          "id": "choice_2",
+          "text": "forget"
+        },
+        {
+          "id": "choice_3",
+          "text": "hide"
+        },
+        {
+          "id": "choice_4",
+          "text": "break"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_voz_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_0869_voz",
+        "senseId": "sns_es_samaniego_voz"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "La voz de una posible venta llegó al barrio antes de la confirmación del dueño.",
+      "prompt": "¿Qué palabra designa la noticia que circulaba sin confirmación?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "voz"
+        },
+        {
+          "id": "choice_2",
+          "text": "venta"
+        },
+        {
+          "id": "choice_3",
+          "text": "confirmación"
+        },
+        {
+          "id": "choice_4",
+          "text": "dueño"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_afirma_advanced",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_afirma_sourcefix",
+        "senseId": "sns_es_afirmar_state"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "El cronista afirma la noticia, pero el vecino duda de ella y el juez pide pruebas.",
+      "prompt": "¿Qué verbo presenta la noticia como verdadera?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "afirma"
+        },
+        {
+          "id": "choice_2",
+          "text": "duda"
+        },
+        {
+          "id": "choice_3",
+          "text": "pide"
+        },
+        {
+          "id": "choice_4",
+          "text": "pruebas"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }

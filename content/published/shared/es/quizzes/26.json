@@ -1834,6 +1834,147 @@
         }
       ],
       "correctChoiceId": "choice_4"
+    },
+    {
+      "id": "qiz_samaniego_frustra_late",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_frustra",
+        "senseId": "sns_es_samaniego_frustra"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Su proyecto se frustra por falta de fondos, aunque ella trabaja y ahorra cada mes.",
+      "prompt": "¿Qué verbo indica que un plan no llega a realizarse?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "frustra"
+        },
+        {
+          "id": "choice_2",
+          "text": "trabaja"
+        },
+        {
+          "id": "choice_3",
+          "text": "ahorra"
+        },
+        {
+          "id": "choice_4",
+          "text": "fondos"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_probaduras_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_probaduras",
+        "senseId": "sns_es_samaniego_probaduras"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Tras varias probaduras, consiguió encajar la pieza en la cerradura.",
+      "targetText": "probaduras",
+      "targetRange": {
+        "start": 12,
+        "end": 22
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "attempts; trials"
+        },
+        {
+          "id": "choice_2",
+          "text": "congratulations"
+        },
+        {
+          "id": "choice_3",
+          "text": "certainties"
+        },
+        {
+          "id": "choice_4",
+          "text": "excuses"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_samaniego_vid_early",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_samaniego_vid",
+        "senseId": "sns_es_samaniego_vid"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "La vid crece bien en este terreno y produce uvas dulces.",
+      "targetText": "vid",
+      "targetRange": {
+        "start": 3,
+        "end": 6
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "grapevine"
+        },
+        {
+          "id": "choice_2",
+          "text": "fig tree"
+        },
+        {
+          "id": "choice_3",
+          "text": "olive tree"
+        },
+        {
+          "id": "choice_4",
+          "text": "palm tree"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sourcefix_item_intermediate",
+      "language": "es",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_es_item_sourcefix",
+        "senseId": "sns_es_item_furthermore"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "El inventario añade otro punto: «___, se entregarán las llaves del almacén».",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Item"
+        },
+        {
+          "id": "choice_2",
+          "text": "Luego"
+        },
+        {
+          "id": "choice_3",
+          "text": "Mientras"
+        },
+        {
+          "id": "choice_4",
+          "text": "Quizá"
+        }
+      ],
+      "correctChoiceId": "choice_1"
     }
   ]
 }
