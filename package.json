@@ -29,7 +29,7 @@
     "content:review:parure:01": "npm run build:domain && node scripts/prepare-maupassant-batch-01.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --dir tests --maxWorkers 2",
-    "sources:check": "node scripts/check-text-sources.mjs",
+    "sources:check": "npm run build:domain && node scripts/check-text-sources.mjs",
     "source-corrections:apply": "npm run build:domain && node scripts/apply-source-corrections.mjs",
     "source-corrections:finalize": "npm run build:domain && node scripts/finalize-source-corrections.mjs",
     "source-corrections:rebind-reviews": "npm run build:domain && node scripts/rebind-source-correction-reviews.mjs",
