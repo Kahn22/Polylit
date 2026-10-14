@@ -1,0 +1,12 @@
+import{readFileSync,writeFileSync}from'node:fs';
+import{createHash}from'node:crypto';
+import{composeMicromegasNextConstructions}from'./micromegas-next-constructions.mjs';
+const folder=new URL('../content/sources/wrk_voltaire_micromegas/',import.meta.url).pathname,sha=x=>createHash('sha256').update(x).digest('hex'),write=(f,d)=>writeFileSync(folder+f,JSON.stringify(d,null,2)+'\n');
+const file='whole-work-next-constructions-53.json',progress='whole-work-next-construction-progress-53.json',e=composeMicromegasNextConstructions(folder);write(file,e);
+const d=JSON.parse(readFileSync(folder+'dossier.json'));
+const nextAction={family:'chapter III and IV word identities',form:'inquisiteurs',unit:70,start:169,end:181,reason:'Resume source order at inquisiteurs after the full sous presse construction. Continue the words through chapters III and IV, preserving aurore boréale and nouveau style as complete expressions. The additional de peur de construction in unit81 owns only that occurrence; later peur remains a word candidate. Remaining906 direct draft source uses/698 groups and127 original phrase spans require materialization. The candidate stays offline and unapplied.'};
+const small={version:1,status:e.status,summary:e.summary,nextAction,evidenceSha256:{[file]:sha(readFileSync(folder+file))},candidateReleaseReady:false,appliedScopePlans:0};write(progress,small);
+d.review.wholeWorkNextConstructions={file:progress,status:e.status,summary:e.summary,nextAction};
+for(const f of[file,progress]){const bytes=readFileSync(folder+f);d.evidence=[...d.evidence.filter(x=>x.file!==f),{file:f,role:'reviewed_next_complete_constructions_offline',sha256:sha(bytes),bytes:bytes.length}];}
+const marker='Next complete construction package53:';if(!d.history.some(h=>h.reason.startsWith(marker)))d.history.push({version:d.history.at(-1).version+1,date:'2026-10-02',reason:`${marker} Prepare four full Surface+Meaning banks and12 stored questions for sous presse, de peur de, aurore boréale and nouveau style, at four exact printed spans. Reassign six direct draft lexical uses; suppress three published component uses only in the offline candidate. Preserve all previous word keys, expression records, question banks and mastery. Retain the other occurrence of peur for subsequent word review. The combined expression catalog passes validation. No import, release approval or deployment.`});
+write('dossier.json',d);console.log(JSON.stringify({history:d.history.at(-1).version,summary:e.summary,nextAction}));

@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:45:16.959Z",
+  "sense": {
+    "id": "sns_quoi_primary",
+    "lemmaId": "lem_quoi",
+    "gloss": "Quoi is the interrogative pronoun what in both occurrences.",
+    "definition": "Quoi is the interrogative pronoun what in both occurrences."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 4,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_quoi_what_advanced",
+      "qiz_quoi_what_intermediate",
+      "qiz_quoi_what_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_quoi:sns_quoi_primary",
+      "surface": "quoi",
+      "lemma": "quoi",
+      "currentRevision": "rev_57c260a3d265b024edfab0eb3f7f1de69c384868a1d42cc0fbcd0b23e76ef59c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_47af17b0266656627c8812d2",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_07",
+          "passage": "Ainsi fut fait : et de tous deux on mit près du but les enjeux : savoir quoi, ce n’est pas l’affaire, ni de quel juge l’on convint.",
+          "span": [
+            72,
+            76
+          ]
+        },
+        {
+          "id": "occ_ba833928ae5431c8e930fcf5",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_15",
+          "passage": "De quoi vous sert votre vitesse ?",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "occ_parure_8c9f0a9002a6622ae5c3ae3a",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_071",
+          "passage": "— Quoi !… comment !… Ce n’est pas possible !",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "occ_zola_89e38ff2956f3f4978c822d0",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_164",
+          "passage": "A quoi bon tout bouleverser, puisque bientôt le soleil allait luire ?",
+          "span": [
+            2,
+            6
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_quoi_what_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Tu veux quoi : le livre, la carte ou la lettre ?",
+          "prompt": "Quel mot demande de préciser la chose désirée ?",
+          "choices": [
+            {
+              "text": "veux",
+              "correct": false
+            },
+            {
+              "text": "quoi",
+              "correct": true
+            },
+            {
+              "text": "livre",
+              "correct": false
+            },
+            {
+              "text": "lettre",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_quoi_what_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Quel objet cherchez-vous ? Vous cherchez _____ exactement ?",
+          "choices": [
+            {
+              "text": "qui",
+              "correct": false
+            },
+            {
+              "text": "où",
+              "correct": false
+            },
+            {
+              "text": "quand",
+              "correct": false
+            },
+            {
+              "text": "quoi",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_quoi_what_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "De quoi parlez-vous ?",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "what",
+              "correct": true
+            },
+            {
+              "text": "where",
+              "correct": false
+            },
+            {
+              "text": "when",
+              "correct": false
+            },
+            {
+              "text": "who",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

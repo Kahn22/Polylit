@@ -40,6 +40,19 @@ for (const route of ["index.html", "languages/index.html", "fr/library/index.htm
   }
   if (!route.includes("library/")) assert(!html.includes("polylit-library-data"), `${route}: library data must not be embedded`);
 }
+// All generated document links must resolve within either hosting layout.
+for (const prefix of ["/", "/Polylit/"]) {
+  for (const route of ["index.html", "languages/index.html", "fr/library/index.html", "es/library/index.html"]) {
+    const base = new URL(prefix + route, "https://polylit.test");
+    for (const match of read(route).toString().matchAll(/(?:src|href)="([^"]+)"/g)) {
+      const target = new URL(match[1], base);
+      assert.equal(target.origin, base.origin, "Unexpected external navigation");
+      assert(target.pathname.startsWith(prefix), `${route}: link escapes repository prefix`);
+      const path = target.pathname.slice(prefix.length);
+      assert(existsSync(resolve(root, path.endsWith("/") || !path ? path + "index.html" : path)), `${route}: broken link ${target.pathname}`);
+    }
+  }
+}
 const bootstrap = read("landing-bootstrap.js").toString();
 assert(!/\bfetch\s*\(/.test(bootstrap), "Entry-page library prefetch must not return");
 const report = { loginJavaScriptGzip: loginJs, libraryJavaScriptGzip: gzip(main.file), libraries: {}, bookView: {} };
@@ -47,7 +60,7 @@ for (const language of ["fr", "es"]) {
   const file = `content/library/${language}.json`, index = json(file);
   const size = gzip(file);
   assert(size < (language === "fr" ? 36_000 : 12_000), `${language}: library data exceeds gzip budget`);
-  assert(index.version === 3 && index.language === language && index.release, "Invalid release index");
+  assert(index.version === 4 && index.language === language && index.release, "Invalid release index");
   const html = read(`${language}/library/index.html`).toString();
   assert.equal((html.match(/<article class="text-card/g) ?? []).length, index.catalog.works.length, "All book cards must be generated before JS runs");
   const embedded = JSON.parse(html.match(/id="polylit-library-data"[^>]*>([\s\S]*?)<\/script>/)[1]);

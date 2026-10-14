@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:57:07.420Z",
+  "sense": {
+    "id": "sns_fr_voir_perceive",
+    "lemmaId": "lem_voir",
+    "gloss": "to see",
+    "definition": "Percevoir par la vue, constater visuellement."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 5,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_4_5",
+      "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_1_3",
+      "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_6_8",
+      "qiz_fr_voir_perceive_vit_voir_levels_6_8",
+      "qiz_fr_voir_perceive_vit_voir_levels_1_3",
+      "qiz_fr_voir_perceive_vit_voir_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_voyant_voir_verb:sns_fr_voir_perceive",
+      "surface": "voyant",
+      "lemma": "voir",
+      "currentRevision": "rev_ca43be0583445fdfdeea636a1011c736d35a6dd8dfa10a720773f36bf52a8d06",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_603869c438b9877fa6384527",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_021",
+          "passage": "Il se tut, stupéfait, éperdu, en voyant que sa femme pleurait. Deux grosses larmes descendaient lentement des coins des yeux vers les coins de la bouche ; il bégaya :",
+          "span": [
+            33,
+            39
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "En _____ la fumée, il donna aussitôt l’alerte.",
+          "choices": [
+            {
+              "text": "voient",
+              "correct": false
+            },
+            {
+              "text": "voyait",
+              "correct": false
+            },
+            {
+              "text": "voyant",
+              "correct": true
+            },
+            {
+              "text": "voir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "En voyant la porte ouverte, elle comprit que quelqu’un était entré.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "closing",
+              "correct": false
+            },
+            {
+              "text": "painting",
+              "correct": false
+            },
+            {
+              "text": "breaking",
+              "correct": false
+            },
+            {
+              "text": "seeing",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_perceive_fr_voyant_voir_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Voyant les enfants trembler, elle leur apporta des couvertures.",
+          "prompt": "Quel participe indique ce qu’elle constate par la vue ?",
+          "choices": [
+            {
+              "text": "couvertures",
+              "correct": false
+            },
+            {
+              "text": "Voyant",
+              "correct": true
+            },
+            {
+              "text": "enfants",
+              "correct": false
+            },
+            {
+              "text": "trembler",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_vit_voir:sns_fr_voir_perceive",
+      "surface": "vit",
+      "lemma": "voir",
+      "currentRevision": "rev_fcdaec1e15c8a0f868db1aa2c222c44a74a5431224296d371d3d49405eae2cc5",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_2c2ded015b13cf6ed3163470",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_011",
+          "passage": "lorsqu’elle ne les vit plus, elle se mit à pleurer. Sa Maraine, qui la vit toute en pleurs, luy demanda ce qu’elle avoit : Je voudrois bien… Je voudrois bien… elle pleuroit si fort qu’elle ne put achever : sa Maraine, qui estoit Fée, luy dit, tu voudrois bien aller au Bal, n’est-ce pas : Helas ! ouy, dit Cendrillon en soûpirant : Hé bien ! seras-tu bonne fille ? dit sa Maraine ;",
+          "span": [
+            71,
+            74
+          ]
+        },
+        {
+          "id": "occ_cendrillon_5a3a316829b8d19abdb1c9a3",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_011",
+          "passage": "lorsqu’elle ne les vit plus, elle se mit à pleurer. Sa Maraine, qui la vit toute en pleurs, luy demanda ce qu’elle avoit : Je voudrois bien… Je voudrois bien… elle pleuroit si fort qu’elle ne put achever : sa Maraine, qui estoit Fée, luy dit, tu voudrois bien aller au Bal, n’est-ce pas : Helas ! ouy, dit Cendrillon en soûpirant : Hé bien ! seras-tu bonne fille ? dit sa Maraine ;",
+          "span": [
+            19,
+            22
+          ]
+        },
+        {
+          "id": "occ_cendrillon_7a4cda12e0769e63845bc5b8",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_030",
+          "passage": "il fit asseoir Cendrillon, et approchant la pentoufle de son petit pied, il vit qu’elle y entroit sanspeine, et qu’elle y estoit juste comme de cire. L’étonnement des deux sœurs fut grand, mais plus grand encore quand Cendrillon tira de sa poche l’autre petite pentoufle, qu’elle mit à son pied. Là-dessus arriva la Maraine, qui, ayant donné un coup de sa baguette sur les habits de Cendrillon, les fit devenir encore plus magnifiques que tous les autres.",
+          "span": [
+            76,
+            79
+          ]
+        },
+        {
+          "id": "occ_parure_201208d180df1980c822113a",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_048",
+          "passage": "Elle vit d’abord des bracelets, puis un collier de perles, puis une croix vénitienne, or et pierreries, d’un admirable travail. Elle essayait les parures devant la glace, hésitait, ne pouvait se décider à les quitter, à les rendre. Elle demandait toujours :",
+          "span": [
+            5,
+            8
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_voir_perceive_vit_voir_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle vit que la porte était ouverte et aperçut son voisin dans le jardin.",
+          "prompt": "Quel verbe au début du passage indique une constatation visuelle ?",
+          "choices": [
+            {
+              "text": "voisin",
+              "correct": false
+            },
+            {
+              "text": "jardin",
+              "correct": false
+            },
+            {
+              "text": "vit",
+              "correct": true
+            },
+            {
+              "text": "porte",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_perceive_vit_voir_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "En ouvrant la fenêtre, elle vit un oiseau posé sur le toit.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "saw",
+              "correct": true
+            },
+            {
+              "text": "heard",
+              "correct": false
+            },
+            {
+              "text": "smelled",
+              "correct": false
+            },
+            {
+              "text": "touched",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_perceive_vit_voir_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il ouvrit les yeux et _____ la lumière du matin.",
+          "choices": [
+            {
+              "text": "entendit",
+              "correct": false
+            },
+            {
+              "text": "goûta",
+              "correct": false
+            },
+            {
+              "text": "respira",
+              "correct": false
+            },
+            {
+              "text": "vit",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

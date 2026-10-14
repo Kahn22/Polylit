@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:35:27.248Z",
+  "sense": {
+    "id": "sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948",
+    "lemmaId": "lem_zola_penser",
+    "gloss": "to think, reflect, concentrate one's mind on something",
+    "definition": "Exercer l’activité de l’esprit ; accomplir quelque opération de l’intelligence ; concevoir ; imaginer ; réfléchir."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_advanced",
+      "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_intermediate",
+      "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_pensais_lem_zola_penser_d6f67fa0bc:sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948",
+      "surface": "pensais",
+      "lemma": "penser",
+      "currentRevision": "rev_a5b1ef30185decf89e4390a5ab83021db10b3617625577942df6d7a53d6409a6",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_66801c7741888e3828786f03",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_016",
+          "passage": "— Mais, ma chérie, je pensais que tu serais contente. Tu ne sors jamais, et c’est une occasion, cela, une belle ! J’ai eu une peine infinie à l’obtenir. Tout le monde en veut ; c’est très recherché et on n’en donne pas beaucoup aux employés. Tu verras là tout le monde officiel.",
+          "span": [
+            22,
+            29
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Tu pensais à une solution pendant que les autres discutaient du problème.",
+          "prompt": "Quel mot évoque une activité de réflexion ?",
+          "choices": [
+            {
+              "text": "solution",
+              "correct": false
+            },
+            {
+              "text": "autres",
+              "correct": false
+            },
+            {
+              "text": "discutaient",
+              "correct": false
+            },
+            {
+              "text": "pensais",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Hier, je _____ que tu arriverais plus tôt.",
+          "choices": [
+            {
+              "text": "pensant",
+              "correct": false
+            },
+            {
+              "text": "pensais",
+              "correct": true
+            },
+            {
+              "text": "pensait",
+              "correct": false
+            },
+            {
+              "text": "penser",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pensais_sns_parure_penser_exercer_l_activite_de_l_esprit_accomplir_quelque_operation_de_l_intelligence_concevoir_imaginer_reflechir_55c58ae948_c2e3cdf914_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Je pensais à notre voyage en regardant les photos.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "was running",
+              "correct": false
+            },
+            {
+              "text": "was thinking",
+              "correct": true
+            },
+            {
+              "text": "was laughing",
+              "correct": false
+            },
+            {
+              "text": "was listening",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

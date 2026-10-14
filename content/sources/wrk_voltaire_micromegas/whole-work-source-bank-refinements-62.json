@@ -1,0 +1,1435 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-07-batch-02.json",
+      "key": "sont_chapter_07_02_173_189",
+      "beforeQuestionSha256": "c40d38fbd91317c50b587c2d3a31ede66ec35d42ff8a0860a78100f3c5adad1a",
+      "after": {
+        "form": "sont",
+        "lemma": "être",
+        "partOfSpeech": "auxiliary present plural passive",
+        "meaning": "are; auxiliary forming a passive",
+        "key": "sont_chapter_07_02_173_189",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 173,
+            "start": 189,
+            "end": 193,
+            "text": "sont",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+            "targetText": "sont",
+            "question": "What does the highlighted word mean here?",
+            "answer": "are; auxiliary forming a passive",
+            "choices": [
+              "are; auxiliary forming a passive",
+              "have as a compound auxiliary",
+              "seem",
+              "remain"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ils sont massacrés par leurs ennemis, l’auxiliaire passif au présent pluriel est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "sont",
+            "choices": [
+              "sont",
+              "ont",
+              "semblent",
+              "restent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle forme d’être sert d’auxiliaire passif avec massacrés ?",
+            "question": "Quel mot convient ?",
+            "answer": "sont",
+            "choices": [
+              "sont",
+              "ont",
+              "semblent",
+              "restent"
+            ]
+          }
+        ],
+        "reviewNote": "Sont massacrés par eux forms a passive with an explicit agent. The exact sont candidate is copular; the global proper être family has a passive auxiliary sense. Add this plural surface bank to that existing sense, while massacrés carries the lexical violent killing. Middle options are grammatical labels in the quoted auxiliary prompt; the requested être auxiliary distinguishes sont."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "3f10e852e117516a90ac2a23fd1582ac1d1a16da01ad6a1f299126a94584da4f",
+          "afterSha256": "05c206ee15bb2fab89efc79eff802ef26419c317e0be19342eda263f945e92ae",
+          "reason": "Quoted forms remove incompatible auxiliary alternatives."
+        }
+      ],
+      "afterQuestionSha256": "acf9df0286e4faaec0a2a93fed2403e83af65699d7bffec8ab48b040667a6304"
+    },
+    {
+      "file": "chapter-07-batch-02.json",
+      "key": "malheureux_chapter_07_02_171_250",
+      "beforeQuestionSha256": "6840b1cd8abea791add59617fefc1b322e8650bb4e542d1ba5afafca2db38594",
+      "after": {
+        "form": "malheureux",
+        "lemma": "malheureux",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "unfortunate people; people worthy of pity",
+        "key": "malheureux_chapter_07_02_171_250",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 171,
+            "start": 250,
+            "end": 260,
+            "text": "malheureux",
+            "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux."
+          },
+          {
+            "chapter": 7,
+            "unit": 179,
+            "start": 7,
+            "end": 17,
+            "text": "malheureux",
+            "context": "— Ah ! malheureux ! s’écria le Sirien avec indignation, peut-on concevoir cet excès de rage forcenée !"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux.",
+            "targetText": "malheureux",
+            "question": "What does the highlighted word mean here?",
+            "answer": "unfortunate people; people who suffer",
+            "choices": [
+              "unfortunate people; people who suffer",
+              "privileged people",
+              "happy people",
+              "victors"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les personnes qui souffrent et sont dignes de pitié sont des ___.",
+            "question": "Complétez la phrase.",
+            "answer": "malheureux",
+            "choices": [
+              "malheureux",
+              "privilégiés",
+              "heureux",
+              "vainqueurs"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin pluriel désigne des personnes dans une situation pénible ?",
+            "question": "Quel mot convient ?",
+            "answer": "malheureux",
+            "choices": [
+              "malheureux",
+              "privilégiés",
+              "heureux",
+              "vainqueurs"
+            ]
+          }
+        ],
+        "reviewNote": "The assemblage’s malheureux and the giant’s vocative Ah malheureux name unfortunate people. The exact published bank is adjectival, with singular adjective alternatives; this noun requires proper French nominal ownership and four masculine plural nouns. The source’s judgment is attributed to speakers, not a claim that all humans are invariably unhappy."
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "030457a2ca7e5c0c2c6f3056791972a3a30d2800e0bd477a18801de011319cc1",
+          "afterSha256": "6e1c41e25d1a60de82ad1481185349b74dae8fa5f2c6e9aba75c5070b8a2dcc1",
+          "reason": "Bind the descriptive unit171 use; defer the reproachful unit179 address to its own meaning and bank."
+        }
+      ],
+      "afterQuestionSha256": "96e0d2b4a494753e77df2482dcb206e591ba6769259f7811cc37d30f105f10cb"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "non_chapter_06_04_166_14",
+      "beforeQuestionSha256": "83fed1e77fc3de7c3a47ca888e92b3d40de5378065ab6db3f54c30e7e7530bef",
+      "after": {
+        "form": "non",
+        "lemma": "non",
+        "partOfSpeech": "adverb negative exclusion",
+        "meaning": "not; excluding the following account",
+        "key": "non_chapter_06_04_166_14",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 166,
+            "start": 14,
+            "end": 17,
+            "text": "non",
+            "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué.",
+            "targetText": "non",
+            "question": "What does the highlighted word mean here?",
+            "answer": "not; excluding the following account",
+            "choices": [
+              "not; excluding the following account",
+              "yes",
+              "perhaps",
+              "surely"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le mot qui exclut le récit inventé au profit des observations est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "non",
+            "choices": [
+              "non",
+              "seulement",
+              "aussi",
+              "surtout"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adverbe, dans non pas… mais…, écarte le premier terme ?",
+            "question": "Quel mot convient ?",
+            "answer": "non",
+            "choices": [
+              "non",
+              "seulement",
+              "aussi",
+              "surtout"
+            ]
+          }
+        ],
+        "reviewNote": "Non pas excludes the fabulous Virgil account before mais introduces observed anatomy. The published definition includes negation/exclusion, but its banks ask oral refusal. Add an exclusion-context bank on that same sense rather than approving the refusal bank as a source fit or importing an earlier ou non phrase."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d99507c067e15d9aa8dc18fd23ed099c31ca9e71dc92215f7dea3166bf2d2306",
+          "afterSha256": "6cbb8f6125c024382a455a61eae6508a27003963069fb8e9bc3dbafaa5e9ba58",
+          "reason": "Explicit exclusion rather than a sentence that can add both accounts."
+        }
+      ],
+      "afterQuestionSha256": "8a145f252935fcac927930fb27e5e1900bfd5f577ab13baa57b14096b1b78666"
+    },
+    {
+      "file": "chapter-06-batch-03.json",
+      "key": "a_chapter_06_03_167_28",
+      "beforeQuestionSha256": "39582a125808864d01ee10346aca11daef51d506314b85a39dc1dbaca97a5be5",
+      "after": {
+        "form": "a",
+        "lemma": "avoir",
+        "partOfSpeech": "verb present singular existential",
+        "meaning": "there is; there are",
+        "key": "a_chapter_06_03_167_28",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 28,
+            "end": 29,
+            "text": "a",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+            "targetText": "a",
+            "question": "What does the highlighted word mean here?",
+            "answer": "there is; there are",
+            "choices": [
+              "there is; there are",
+              "owns something",
+              "wants something",
+              "sees something"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans il y a des animaux, le verbe qui exprime leur existence est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "a",
+            "choices": [
+              "a",
+              "possède",
+              "désire",
+              "observe"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe complète il y pour signaler une existence au présent ?",
+            "question": "Quel mot convient ?",
+            "answer": "a",
+            "choices": [
+              "a",
+              "possède",
+              "désire",
+              "observe"
+            ]
+          }
+        ],
+        "reviewNote": "At 167 il y a introduces the existence of tiny animals. Global avoir plans already route the earlier a existential to sns_fr_avoir_existential; use that meaning. Its earlier Chapter IV middle context lacks il y, so author an intact construction here and record the old-bank repair dependency for final whole-work reconciliation, without silently editing it."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "36b6102d42544911e89234864de90724e8288bd3a1813d8e2bde8eacb71f2943",
+          "afterSha256": "71282df19fa0f9fa0fa99445ebaf60c9b171956c359988c015e48881379e4f86",
+          "reason": "Quoted forms avoid malformed alternatives in the existential frame."
+        }
+      ],
+      "afterQuestionSha256": "2092e7825aea51bda3be16677e87c036b82571f6948186a9c9230e175bc3cc46"
+    },
+    {
+      "file": "chapter-06-held-context-review-03.json",
+      "key": "pour_held_chapter_06_03",
+      "beforeQuestionSha256": "58fbe292f0812c67748ddd50b8d762cdac81d5f0cd55189efb1b7b68886ba2d5",
+      "after": {
+        "key": "pour_held_chapter_06_03",
+        "form": "pour",
+        "lemma": "pour",
+        "partOfSpeech": "preposition relational analogy",
+        "meaning": "in relation to; relative to",
+        "target": "new:lem_pour",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 51,
+            "end": 55,
+            "text": "pour",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          },
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 94,
+            "end": 98,
+            "text": "pour",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          },
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 140,
+            "end": 144,
+            "text": "pour",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          },
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 218,
+            "end": 222,
+            "text": "pour",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+            "targetText": "pour",
+            "question": "What does the highlighted word mean here?",
+            "answer": "in relation to; relative to",
+            "choices": [
+              "in relation to; relative to",
+              "against",
+              "without",
+              "in the home of"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ces êtres sont pour les abeilles ce que les abeilles sont pour l’homme, la préposition qui marque le rapport analogique est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "pour",
+            "choices": [
+              "pour",
+              "contre",
+              "sans",
+              "chez"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle préposition met deux êtres en rapport dans une analogie de leurs tailles respectives ?",
+            "question": "Quel mot convient ?",
+            "answer": "pour",
+            "choices": [
+              "pour",
+              "contre",
+              "sans",
+              "chez"
+            ]
+          }
+        ],
+        "questionSha256": "58fbe292f0812c67748ddd50b8d762cdac81d5f0cd55189efb1b7b68886ba2d5",
+        "sourceOccurrencesSha256": "ff7b4b4fe68db3532e6cb322dd0044e0c0856b3733316df5b989036713f325df",
+        "reviewNote": "The four pour occurrences at unit 167 relate scales: small animals to bees, bees to humankind, the Sirian to vast animals, and those vast animals to still larger substances. The global published pour has only beneficiary/purpose questions and the earlier pour moi bank marks personal viewpoint; neither tests this relational analogy. Prepare relational correspondence under the existing French preposition lemma, without a new comparison-only lemma. All alternatives fit the grammatical prepositional slot; correspondence rather than opposition, absence or location selects pour. No published bank is changed; final reconciliation must compare this proposed relation sense with every other workwide pour context before import.",
+        "status": "offline_contextual_three_band_review_recorded_unpublished"
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "3869f7694f0dc98a04afc7cf32194d9e61f6dd4e44f233c4384512e9006d0947",
+          "afterSha256": "1b99b3a52bd21d175fe770121ef20d3c227a3a74820241f96a2a8e3c6a78d521",
+          "reason": "Identify the relation without relying on complement compatibility."
+        }
+      ],
+      "afterQuestionSha256": "ff8379c0947caac584b2a51777d8b82eac5dfb1bfba69bcee2bc74f83ee39006"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "vastes_chapter_06_04_167_160",
+      "beforeQuestionSha256": "24cf38cc63f9bee5006173cffcae9ab195a4b0aa0abb4f2018c20977bd3cc7f1",
+      "after": {
+        "form": "vastes",
+        "lemma": "vaste",
+        "partOfSpeech": "adjective plural great physical extent",
+        "meaning": "vast; of great extent",
+        "key": "vastes_chapter_06_04_167_160",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 160,
+            "end": 166,
+            "text": "vastes",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+            "targetText": "vastes",
+            "question": "What does the highlighted word mean here?",
+            "answer": "vast; of great extent",
+            "choices": [
+              "vast; of great extent",
+              "narrow",
+              "tiny",
+              "short"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adjectif pluriel qui signifie d’une très grande étendue est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "vastes",
+            "choices": [
+              "vastes",
+              "étroits",
+              "minuscules",
+              "courts"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adjectif pluriel signifie d’une très grande étendue ?",
+            "question": "Quel mot convient ?",
+            "answer": "vastes",
+            "choices": [
+              "vastes",
+              "étroits",
+              "minuscules",
+              "courts"
+            ]
+          }
+        ],
+        "reviewNote": "The cosmic animals have great physical extent, the same broad large/spacious sense as the earlier VI vaste funnel bank. Add the plural adjective form on that shared planned meaning, without an animal-only sense. All four plural descriptors fit the stem; considerable extent selects vastes."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d2de7fc352840295a955f6fc3420f744b3c8fb962a269ed6937c79c9fb4983cc",
+          "afterSha256": "9b7bdb67039ba411df24ab63e473ad6077f8d9d7b27da519ef69a96ee0e90d0c",
+          "reason": "Great extent need not exclude narrowness."
+        }
+      ],
+      "afterQuestionSha256": "fcb26b1af734ac1b0147374c9d555ce281dc3fb24e81f7f3cd70916ffba56db6"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "devant_chapter_06_04_167_243",
+      "beforeQuestionSha256": "97d8a4e0d9fa77e80bd0395c535060b7be0b4471d6dfba628b7f37d38fb3f8fb",
+      "after": {
+        "form": "devant",
+        "lemma": "devant",
+        "partOfSpeech": "preposition comparison",
+        "meaning": "compared with; in relation to",
+        "key": "devant_chapter_06_04_167_243",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 167,
+            "start": 243,
+            "end": 249,
+            "text": "devant",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+            "targetText": "devant",
+            "question": "What does the highlighted word mean here?",
+            "answer": "compared with; in relation to",
+            "choices": [
+              "compared with; in relation to",
+              "behind spatially",
+              "without",
+              "towards spatially"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La préposition qui signifie ici par comparaison avec est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "devant",
+            "choices": [
+              "devant",
+              "derrière",
+              "sans",
+              "vers"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle préposition signifie ici par comparaison avec ?",
+            "question": "Quel mot convient ?",
+            "answer": "devant",
+            "choices": [
+              "devant",
+              "derrière",
+              "sans",
+              "vers"
+            ]
+          }
+        ],
+        "reviewNote": "Devant lesquelles in the repeated scale analogy means in comparison with those substances, not their literal spatial front. Académie 9 devant I.4 explicitly includes relative comparison, supporting this contextual reading. The global definition/bank is spatial position or actual presence; prepare comparison under that existing preposition lemma, preserving earlier spatial mastery."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "0bd7b49a3d17137901eb16079680d3411713f6803db5efe3ab54979c34853d21",
+          "afterSha256": "877fd680688ebde2db56f46ff19916d90ba998e28a8478d95438e97766961845",
+          "reason": "Specify comparative meaning rather than a potentially spatial situation."
+        }
+      ],
+      "afterQuestionSha256": "5fe32c5069d01f5e9432e17af82058dbf1872e1543af5bfd7344ae9f96f34d49"
+    },
+    {
+      "file": "chapter-07-batch-01.json",
+      "key": "paraissant_chapter_07_01_169_207",
+      "beforeQuestionSha256": "632f26e9ce9b53981dbc85b88abdc3af8ecc60aff66c29e978b1a48072f88a68",
+      "after": {
+        "form": "paraissant",
+        "lemma": "paraître",
+        "partOfSpeech": "present participle seeming",
+        "meaning": "seeming; appearing to be",
+        "key": "paraissant_chapter_07_01_169_207",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 169,
+            "start": 207,
+            "end": 217,
+            "text": "paraissant",
+            "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits.",
+            "targetText": "paraissant",
+            "question": "What does the highlighted word mean here?",
+            "answer": "seeming; appearing to be",
+            "choices": [
+              "seeming; appearing to be",
+              "becoming",
+              "remaining",
+              "disappearing"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le participe présent qui signifie donnant l’impression d’être est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "paraissant",
+            "choices": [
+              "paraissant",
+              "croyant",
+              "prétendant",
+              "affirmant"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe présent signifie donnant l’impression d’être ?",
+            "question": "Quel mot convient ?",
+            "answer": "paraissant",
+            "choices": [
+              "paraissant",
+              "croyant",
+              "prétendant",
+              "affirmant"
+            ]
+          }
+        ],
+        "reviewNote": "Paraissant tout esprit describes an appearance inferred from little matter. The global seem and appear families were inspected; preserve the previously chosen proper seem sense. Each participle takes the infinitive n’être; seeming differs from believing, claiming or affirming. No truth of an immaterial nature is asserted."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "142101aa1ea3a9a5cc248739b09958502a56925fb92600eb402e8afe79b7afd9",
+          "afterSha256": "bed864863b5adad043f8cb95bd13cd8423685abb1735d8d36f561eab98343600",
+          "reason": "Claims and beliefs may also create impressions; identify the lexical meaning."
+        }
+      ],
+      "afterQuestionSha256": "f8905bec5f76493a3989334d40b7feea154262015c98c07a3e76542c62500186"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "au-dessus_chapter_06_04_160_120",
+      "beforeQuestionSha256": "ead3eeb5860ff69a4c985a6efff59b3038b0eb085da5febef0101dc516df3233",
+      "after": {
+        "form": "au-dessus",
+        "lemma": "au-dessus",
+        "partOfSpeech": "prepositional adverb spatial",
+        "meaning": "above; higher than",
+        "key": "au-dessus_chapter_06_04_160_120",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 160,
+            "start": 120,
+            "end": 129,
+            "text": "au-dessus",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages.",
+            "targetText": "au-dessus",
+            "question": "What does the highlighted word mean here?",
+            "answer": "above; higher than",
+            "choices": [
+              "above; higher than",
+              "below",
+              "beside",
+              "behind"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La locution qui indique une position plus haute dans l’espace est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "au-dessus",
+            "choices": [
+              "au-dessus",
+              "au-dessous",
+              "à côté",
+              "derrière"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle locution indique une position plus haute que ce qui suit ?",
+            "question": "Quel mot convient ?",
+            "answer": "au-dessus",
+            "choices": [
+              "au-dessus",
+              "au-dessous",
+              "à côté",
+              "derrière"
+            ]
+          }
+        ],
+        "reviewNote": "The head would be physically above the clouds; this is not moral superiority or beyond a numerical limit. The source uses au-dessus des and the bank retains that spatial reference. Middle alternatives all fit their stated complements; the above-height clue selects the target."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "e4c3eb59b94486dfcb87af239a9a4e36f668da9029f1340109df8b8e2052c3fc",
+          "afterSha256": "16b64687eb5b4ecea33cf5addf72ec79594a169d92e0f4633b1d7acfdfd836b5",
+          "reason": "Quoted forms remove the incompatible derrière des complement."
+        }
+      ],
+      "afterQuestionSha256": "5051817f61abdc9dabe013303aed93e468b40465bfec8379db7ad601c0608c16"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "conclurent_chapter_06_04_162_52",
+      "beforeQuestionSha256": "e29fdc2c5ec996ebfad698f6744ff22f9758e0ef9da933bee0c8d0b5bb81c5be",
+      "after": {
+        "form": "conclurent",
+        "lemma": "conclure",
+        "partOfSpeech": "verb past historic plural",
+        "meaning": "concluded; inferred from their reasoning",
+        "key": "conclurent_chapter_06_04_162_52",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 162,
+            "start": 52,
+            "end": 62,
+            "text": "conclurent",
+            "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi.",
+            "targetText": "conclurent",
+            "question": "What does the highlighted word mean here?",
+            "answer": "concluded; inferred from their reasoning",
+            "choices": [
+              "concluded; inferred from their reasoning",
+              "believed",
+              "forgot",
+              "ignored"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie tirèrent un résultat de leur raisonnement est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "conclurent",
+            "choices": [
+              "conclurent",
+              "crurent",
+              "oublièrent",
+              "ignorèrent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe au passé simple pluriel signifie tirèrent une conclusion ?",
+            "question": "Quel mot convient ?",
+            "answer": "conclurent",
+            "choices": [
+              "conclurent",
+              "crurent",
+              "oublièrent",
+              "ignorèrent"
+            ]
+          }
+        ],
+        "reviewNote": "Their linked-triangle computation produces an inferred height. The published conclude sense and earlier concluez plan apply, not merely ending a meeting. The independent retrieval clue tests deriving a conclusion, with no claim that automated source checks prove the measurement."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c75ba3942eac34a881d679a0839126a71f004dd25263ad4118fc71640e6793a7",
+          "afterSha256": "488e175c5b69484a85ea03c18372f77bda5378d061d2b5a6c278924f20784e48",
+          "reason": "Identify inference rather than belief that may follow it."
+        }
+      ],
+      "afterQuestionSha256": "3f65cc42c7fbe6297d49ad9e81b7faa5b7c9342a55ba7754dc40286f11ab29f0"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "méprisables_chapter_06_04_164_76",
+      "beforeQuestionSha256": "8fe569009b156b6de5004639afc61fc17b2f1c17535c75a2e8e19660db999c29",
+      "after": {
+        "form": "méprisables",
+        "lemma": "méprisable",
+        "partOfSpeech": "adjective plural",
+        "meaning": "contemptible; seeming unworthy of regard",
+        "key": "méprisables_chapter_06_04_164_76",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 76,
+            "end": 87,
+            "text": "méprisables",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "méprisables",
+            "question": "What does the highlighted word mean here?",
+            "answer": "contemptible; unworthy of esteem",
+            "choices": [
+              "contemptible; unworthy of esteem",
+              "admirable",
+              "respectable",
+              "valuable"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces êtres paraissent indignes d’estime aux yeux de celui qui les juge : ils semblent ___.",
+            "question": "Complétez la phrase.",
+            "answer": "méprisables",
+            "choices": [
+              "méprisables",
+              "admirables",
+              "respectables",
+              "précieux"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adjectif pluriel signifie dignes de mépris, indignes d’estime ?",
+            "question": "Quel mot convient ?",
+            "answer": "méprisables",
+            "choices": [
+              "méprisables",
+              "admirables",
+              "respectables",
+              "précieux"
+            ]
+          }
+        ],
+        "reviewNote": "Paraissent si méprisables describes the deceptive impression caused by small size; the following prayer acknowledges their intelligence. Do not endorse the narrator’s seeming lack of worth as an actual fact. No global or earlier méprisable family exists; the plural adjective agrees with substances."
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "b0f0162001d4e7c98cdc5b12937663987d097d7491f19a76d326bddf554bde1a",
+          "afterSha256": "c5d12e3c6e110eb8b7ecf7414fdd65eea197e28eb6ed24ef08b8d991a6277fbf",
+          "reason": "Paraissent contributes seeming; the adjective contributes unworthiness of esteem."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "ba64b26010fbe7aaf4b5ee234d0e81f7aba1ab2f6370c02fad3efdb78c89407e",
+          "afterSha256": "d5190f61cec4789c8904c8db7f8d59d5a72c463852dbe585d4ee8a9174e5678c",
+          "reason": "Do not encode seeming in the adjective."
+        }
+      ],
+      "afterQuestionSha256": "3693d3b607084b0c389d11fc6fcb1cc800235582fd7491c00cbe36cb9a200460"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "coûte_chapter_06_04_164_114",
+      "beforeQuestionSha256": "925321a69a6fdccbaed25a1c49f944887f34901b4226f8bd6ce2fdf261016d6b",
+      "after": {
+        "form": "coûte",
+        "lemma": "coûter",
+        "partOfSpeech": "verb present singular effort",
+        "meaning": "costs effort; requires effort",
+        "key": "coûte_chapter_06_04_164_114",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 114,
+            "end": 119,
+            "text": "coûte",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "coûte",
+            "question": "What does the highlighted word mean here?",
+            "answer": "costs effort; requires effort",
+            "choices": [
+              "costs effort; requires effort",
+              "saves effort",
+              "exhausts",
+              "pleases"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie exige un effort de quelqu’un est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "coûte",
+            "choices": [
+              "coûte",
+              "profite",
+              "plaît",
+              "déplaît"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe signifie exige un effort ou une peine de quelqu’un ?",
+            "question": "Quel mot convient ?",
+            "answer": "coûte",
+            "choices": [
+              "coûte",
+              "profite",
+              "plaît",
+              "déplaît"
+            ]
+          }
+        ],
+        "reviewNote": "The deity creates the infinitely small as easily as the infinitely large; aussi peu concerns the effort of creation, not a purchase price. The sole published coûter sense is explicitly monetary. Prepare effort under that existing verb lemma, retaining price mastery; the bank contrasts effort required with benefit, pleasure or displeasure."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "f4dc630e6573be7bca8e35fbe6a647b6ffbec252da04e7ea207f315ebfbeedb7",
+          "afterSha256": "172736bb20e4ffeeb223d5da8a7facff8ea5f97af6649dd09cb1958ae929561a",
+          "reason": "Little effort does not establish whether creation also pleases."
+        }
+      ],
+      "afterQuestionSha256": "35fd6e927dfbaa71fb227cf5636418da9ed39e1d176c9d44c3a0d7d66e8ac60b"
+    },
+    {
+      "file": "chapter-06-batch-03.json",
+      "key": "encore_chapter_06_03_164_235",
+      "beforeQuestionSha256": "20836ef3be051473017866a8871280c43b6f253ef5b42e9fca2151f70fb7dc12",
+      "after": {
+        "form": "encore",
+        "lemma": "encore",
+        "partOfSpeech": "adverb continuation despite possibility",
+        "meaning": "still; nevertheless",
+        "key": "encore_chapter_06_03_164_235",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 235,
+            "end": 241,
+            "text": "encore",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "encore",
+            "question": "What does the highlighted word mean here?",
+            "answer": "still; nevertheless",
+            "choices": [
+              "still; nevertheless",
+              "never",
+              "already",
+              "formerly"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le mot qui maintient ici une possibilité malgré la petite taille des êtres est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "encore",
+            "choices": [
+              "encore",
+              "jamais",
+              "déjà",
+              "autrefois"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adverbe indique qu’une possibilité reste valable malgré ce qui vient d’être dit ?",
+            "question": "Quel mot convient ?",
+            "answer": "encore",
+            "choices": [
+              "encore",
+              "jamais",
+              "déjà",
+              "autrefois"
+            ]
+          }
+        ],
+        "reviewNote": "Peuvent encore avoir retains a possibility despite smaller size: still/nevertheless, not again and not a further comparative degree. Link the published continuation sense and author a context making that persistent possibility explicit. Legacy still mastery and the broad primary sense remain intact."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "4db9cc011a7d3bf25f556866c27a317a0fd9518c07d1dd8ff8e80e8a59377fe8",
+          "afterSha256": "9b85408b6d66fd372f428532c1e8f17aeefb1afb345745b7269da605971cf6f7",
+          "reason": "Quoted forms avoid negative polarity and temporal alternatives."
+        }
+      ],
+      "afterQuestionSha256": "80361502a0355177d1840ba7e48bb4250b330ed0b76f2adc7615ac70408a9295"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "suis_chapter_06_04_164_370",
+      "beforeQuestionSha256": "1ae25d7339234f099b1e8334ff82719b188c3e012e5dbaf0df9a353c554b3906",
+      "after": {
+        "form": "suis",
+        "lemma": "être",
+        "partOfSpeech": "auxiliary present first singular compound",
+        "meaning": "have; auxiliary forming a compound past",
+        "key": "suis_chapter_06_04_164_370",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 370,
+            "end": 374,
+            "text": "suis",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "suis",
+            "question": "What does the highlighted word mean here?",
+            "answer": "have; auxiliary forming a compound past",
+            "choices": [
+              "have; auxiliary forming a compound past",
+              "am as a description",
+              "want",
+              "can"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans je suis descendu, le mot qui sert d’auxiliaire au passé composé est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "suis",
+            "choices": [
+              "suis",
+              "veux",
+              "peux",
+              "dois"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle forme d’être sert d’auxiliaire avec descendu après je ?",
+            "question": "Quel mot convient ?",
+            "answer": "suis",
+            "choices": [
+              "suis",
+              "veux",
+              "peux",
+              "dois"
+            ]
+          }
+        ],
+        "reviewNote": "Je suis descendu forms a compound past of intransitive descent. The exact suis candidate is copular; the global être family has the proper compound auxiliary sense. Add the inflected bank to that shared auxiliary identity, while descendu carries the lexical downward motion."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "9010c88cc93c31e5860ea6dd1abb5f5d9923ecf2c43ddab7a14f05fcc03ff4e7",
+          "afterSha256": "ba4bdbdeeade5ae15b5be48cc4755f19b09bc31784137cf9bf6062842649752a",
+          "reason": "Quoted forms remove incompatible participle complements."
+        }
+      ],
+      "afterQuestionSha256": "1b0b78dd0b9ba5edd1c5a1d17db6b26cbea5b0bad279453755466c39d795cc6b"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "interlocuteur_chapter_06_04_157_107",
+      "beforeQuestionSha256": "877254ee8d831400ad8b6e3907adf46e71116515f39c2a005fdb9de0ac183561",
+      "after": {
+        "form": "interlocuteur",
+        "lemma": "interlocuteur",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "interlocutor; person being spoken to",
+        "key": "interlocuteur_chapter_06_04_157_107",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 157,
+            "start": 107,
+            "end": 120,
+            "text": "interlocuteur",
+            "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+            "targetText": "interlocuteur",
+            "question": "What does the highlighted word mean here?",
+            "answer": "interlocutor; person being spoken to",
+            "choices": [
+              "interlocutor; person being spoken to",
+              "silent spectator",
+              "messenger",
+              "sleeper"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le nom qui désigne une personne en tant que partenaire d’un échange de paroles est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "interlocuteur",
+            "choices": [
+              "interlocuteur",
+              "spectateur",
+              "messager",
+              "dormeur"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin désigne la personne avec laquelle on s’entretient ?",
+            "question": "Quel mot convient ?",
+            "answer": "interlocuteur",
+            "choices": [
+              "interlocuteur",
+              "spectateur",
+              "messager",
+              "dormeur"
+            ]
+          }
+        ],
+        "reviewNote": "The observed interlocutor is the dwarf addressed in the measurement discussion. Interlocuteur/spectateur/messager/dormeur are masculine singular and fit son; the active reciprocal exchange, not merely being present or carrying a message, selects interlocuteur."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c242f546967d848216ca8ea8812fc014a0e5a6588d290b63e62d0816e68c6416",
+          "afterSha256": "ad621f8e3de393b917c579be2b9c7814fec2c567fdeac26230c828bd107f6595",
+          "reason": "Specify the conversational role rather than exclude a messenger who may also speak."
+        }
+      ],
+      "afterQuestionSha256": "ed978b1d55cd4d5cb7ef9567444fb3028ad216fd747465819ad485fc556b5c92"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "parla_chapter_06_04_157_212",
+      "beforeQuestionSha256": "a54a5b53cf25748de836900bc6d7981ebbfdadfa107ebafcb051a14fa0fc2cc3",
+      "after": {
+        "form": "parla",
+        "lemma": "parler",
+        "partOfSpeech": "verb past historic singular",
+        "meaning": "spoke; addressed the listeners",
+        "key": "parla_chapter_06_04_157_212",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 157,
+            "start": 212,
+            "end": 217,
+            "text": "parla",
+            "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+          },
+          {
+            "chapter": 6,
+            "unit": 168,
+            "start": 61,
+            "end": 66,
+            "text": "parla",
+            "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+            "targetText": "parla",
+            "question": "What does the highlighted word mean here?",
+            "answer": "spoke; addressed the listeners",
+            "choices": [
+              "spoke; addressed the listeners",
+              "wrote",
+              "slept",
+              "sang"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il exprima ses pensées oralement, sans les chanter : il ___.",
+            "question": "Complétez la phrase.",
+            "answer": "parla",
+            "choices": [
+              "parla",
+              "écrivit",
+              "dormit",
+              "chanta"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe au passé simple signifie s’exprima par la parole ?",
+            "question": "Quel mot convient ?",
+            "answer": "parla",
+            "choices": [
+              "parla",
+              "écrivit",
+              "dormit",
+              "chanta"
+            ]
+          }
+        ],
+        "reviewNote": "Both parla ainsi occurrences introduce direct speech by the reasoner and Micromégas. The existing speak/treat-a-subject sense and earlier same-family proposals were checked. Add this past-historic surface without treating tense or the archaic parler spelling as a new meaning."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "892514dd64b5a33235018a2e8f7a12a2719a3b55f1eae7fe1470509f39aa90ec",
+          "afterSha256": "206a4ebe38e8f696b0d6fad1255f75acdcb41e23696fe7768c60a56ecb2c2404",
+          "reason": "Speech rather than song; both can express thoughts aloud."
+        }
+      ],
+      "afterQuestionSha256": "e16c9970904b866e9d5200841cb59a5a9c85ede948565958e4d442cff721ed45"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "grand_chapter_06_04_159_78",
+      "beforeQuestionSha256": "7fc22a620d805454fd7ad943abab0735c4878ddd898859d6c1f4d15a0ae29006",
+      "after": {
+        "form": "grand",
+        "lemma": "grand",
+        "partOfSpeech": "adjective masculine singular physical size",
+        "meaning": "large; of considerable physical size",
+        "key": "grand_chapter_06_04_159_78",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 159,
+            "start": 78,
+            "end": 83,
+            "text": "grand",
+            "context": "— Oui, je vous ai mesuré, dit le physicien, et je mesurerai bien encore votre grand compagnon. »"
+          },
+          {
+            "chapter": 6,
+            "unit": 161,
+            "start": 34,
+            "end": 39,
+            "text": "grand",
+            "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "— Oui, je vous ai mesuré, dit le physicien, et je mesurerai bien encore votre grand compagnon. »",
+            "targetText": "grand",
+            "question": "What does the highlighted word mean here?",
+            "answer": "large; of considerable physical size",
+            "choices": [
+              "large; of considerable physical size",
+              "small",
+              "narrow",
+              "short"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adjectif qui signifie de dimensions considérables est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "grand",
+            "choices": [
+              "grand",
+              "petit",
+              "étroit",
+              "court"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adjectif masculin signifie de dimensions considérables ?",
+            "question": "Quel mot convient ?",
+            "answer": "grand",
+            "choices": [
+              "grand",
+              "petit",
+              "étroit",
+              "court"
+            ]
+          }
+        ],
+        "reviewNote": "The companion and tree are physically large. The broad published grand sense includes considerable extent, and VI package 02 grande already augments that same meaning for size. Add this masculine singular contextual bank on the existing identity, without creating a size-only duplicate; grand respect retains the intensity bank and l’infiniment grand retains the full phrase."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "65197f97614bdfa7b2bfb36e4f1785f93db085c349f9f8d7460c108b7694316d",
+          "afterSha256": "16641c6b1df2f11c5c9df4b7a4871a97b52d675834199d2f522de2f70651f371",
+          "reason": "Large dimensions do not by themselves rule out narrowness."
+        }
+      ],
+      "afterQuestionSha256": "f0d9834a896dd267a9b41c585b325dcb711df2317d97928298fc515c5176b6a2"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "fût_chapter_06_04_160_82",
+      "beforeQuestionSha256": "b9e496ae701e6add25076425c00fdecebfbc08a77eb55bae03ab283ec0f5eee0",
+      "after": {
+        "form": "fût",
+        "lemma": "être",
+        "partOfSpeech": "auxiliary imperfect subjunctive compound",
+        "meaning": "had; auxiliary in a hypothetical compound past",
+        "key": "fût_chapter_06_04_160_82",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 160,
+            "start": 82,
+            "end": 85,
+            "text": "fût",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages.",
+            "targetText": "fût",
+            "question": "What does the highlighted word mean here?",
+            "answer": "had; auxiliary in a hypothetical compound past",
+            "choices": [
+              "had; auxiliary in a hypothetical compound past",
+              "was the possessor",
+              "wanted",
+              "needed"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans s’il se fût tenu debout, le mot qui sert d’auxiliaire au temps composé est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "fût",
+            "choices": [
+              "fût",
+              "voulût",
+              "pût",
+              "dût"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel auxiliaire forme ici le temps composé de se tenir dans une hypothèse ?",
+            "question": "Quel mot convient ?",
+            "answer": "fût",
+            "choices": [
+              "fût",
+              "voulût",
+              "pût",
+              "dût"
+            ]
+          }
+        ],
+        "reviewNote": "Se fût tenu debout is a compound form of reflexive se tenir, equivalent in the conditional hypothesis to had stood. It is neither a passive nor a simple copular fût exact. The global être auxiliary senses were inspected; add this accented surface to the existing compound-auxiliary meaning."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "7d83565e2eae22ca3c9d8379a0b156d7c063b45de9ff3838915d64d79c93b9cb",
+          "afterSha256": "2efffef94151a947d53a7cdb324cd28bf207c10c313b5c8e11f14e0230f1cc13",
+          "reason": "Quoted forms avoid incompatible participle complements."
+        }
+      ],
+      "afterQuestionSha256": "9fec47eae4b11ac92f397c5e7d223c02ddd26de57d949839edcaba9b9d5d06b2"
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "tenu_chapter_06_04_160_86",
+      "beforeQuestionSha256": "b7ece7682100ee385f824db20d57c7db1bf7228da14c70b2923a65c2fbffdea6",
+      "after": {
+        "form": "tenu",
+        "lemma": "tenir",
+        "partOfSpeech": "past participle masculine singular reflexive posture",
+        "meaning": "held himself; remained in a posture",
+        "key": "tenu_chapter_06_04_160_86",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 160,
+            "start": 86,
+            "end": 90,
+            "text": "tenu",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages.",
+            "targetText": "tenu",
+            "question": "What does the highlighted word mean here?",
+            "answer": "held himself; remained in a posture",
+            "choices": [
+              "held himself; remained in a posture",
+              "recalled",
+              "boasted",
+              "rejoiced"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Avec se, le participe qui signifie maintenu son corps dans une position est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "tenu",
+            "choices": [
+              "tenu",
+              "souvenu",
+              "vanté",
+              "réjoui"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe, avec se, signifie gardé son corps dans une certaine position ?",
+            "question": "Quel mot convient ?",
+            "answer": "tenu",
+            "choices": [
+              "tenu",
+              "souvenu",
+              "vanté",
+              "réjoui"
+            ]
+          }
+        ],
+        "reviewNote": "Se tenir debout maintains bodily posture, not holding an object, inheriting a quality, addressing someone or considering something to be true. All global tenir senses were read; prepare posture under the existing lemma. The whole compound fût is separately an être auxiliary, not part of the lexical tenir meaning."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "bac6cb6fa97bc8c5d46b0faa8dd09f246acdad0929bf4a363bc038b3885bb3a9",
+          "afterSha256": "c3ec7689dd27703da53086ed13d39290aa8993eef1bc34f92534f2994e087f19",
+          "reason": "Quoted forms remove complement-selection cues."
+        }
+      ],
+      "afterQuestionSha256": "996dd8bc79b5d61ecea69cc4778af07b8bfec01e5d72ed18a045e260d7f4288d"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 19,
+    "refinedQuestionBands": 20
+  }
+}

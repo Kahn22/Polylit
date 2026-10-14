@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
+import { readFileSync } from "node:fs";
 import { lafountainFixtures } from "../src/content/fixtures/la-fontaine.js";
-import { expressionMasteryKey, learnerExpressionsForWork, validateExpressionCatalog, type ExpressionCatalog } from "../src/domain/expression-content.js";
+import { expressionMasteryKey, learnerExpressionsForWork, partitionExpressionTokens, validateExpressionCatalog, assertReviewedExpressionCoverage, type ExpressionCatalog } from "../src/domain/expression-content.js";
+import { tokenizeFrench } from "../src/ingestion/tokenize.js";
 
 const bundle = () => structuredClone(lafountainFixtures);
 const fixture = (): ExpressionCatalog => ({
@@ -49,5 +51,31 @@ describe("expression mastery content", () => {
     b.readiness.find((item) => item.workId === "wrk_corbeau_renard")!.unresolvedLearnerTokens = [];
     expect(learnerExpressionsForWork(b, incomplete, "wrk_corbeau_renard")).toEqual([]);
     expect(learnerExpressionsForWork(b, catalog, "wrk_corbeau_renard")).toEqual(["exi_shared"]);
+  });
+
+  it("owns only the two lexical parts in each reviewed faire figure envelope", () => {
+    const plan = JSON.parse(readFileSync("content/sources/wrk_voltaire_micromegas/whole-work-scope-plan-27.json", "utf8"));
+    const phrases = [...plan.phraseComponents, ...plan.candidatePhraseComponents];
+    expect(phrases).toHaveLength(3);
+    let intervening = 0;
+    for (const [index, phrase] of phrases.entries()) {
+      const occurrence = { id: `exo_figure_${index}`, identityId: "exi_figure", workId: phrase.workId ?? "wrk_voltaire_micromegas", unitId: phrase.unitId ?? `unt_figure_${index}`, start: phrase.start, end: phrase.end, text: phrase.text, lexicalSegments: phrase.lexicalSegments };
+      const tokens = tokenizeFrench(phrase.context);
+      const { components, retained } = partitionExpressionTokens(occurrence, tokens);
+      expect(components.map((item) => [item.start, item.end])).toEqual(phrase.lexicalSegments.map((item: { start: number; end: number }) => [item.start, item.end]));
+      expect(retained.map((item) => item.text)).toEqual(phrase.retainedInterveningTokens.map((item: { text: string }) => item.text));
+      intervening += retained.length;
+      expect(() => partitionExpressionTokens(occurrence, [...tokens, components[0]!])).toThrow("missing or duplicated");
+      const catalog: ExpressionCatalog = { identities: [{ id: "exi_figure", headword: "faire figure", gloss: "showing", definition: "présenter une apparence" }], occurrences: [occurrence], preparedQuizzes: fixture().preparedQuizzes.map((quiz) => ({ ...quiz, expressionId: "exi_figure" })) };
+      const b = bundle();
+      b.units.push({ id: occurrence.unitId, workId: occurrence.workId, ordinal: 100 + index, french: phrase.context });
+      expect(validateExpressionCatalog(b, catalog).some((item) => item.code === "expression.invalid_lexical_segments")).toBe(false);
+      const changed = structuredClone(catalog);
+      changed.occurrences[0]!.lexicalSegments![0]!.text = "wrong";
+      expect(validateExpressionCatalog(b, changed).map((item) => item.code)).toContain("expression.invalid_lexical_segments");
+      const candidate = { id: `tok_figure_${index}`, workId: occurrence.workId, unitId: occurrence.unitId, start: retained[0]!.start, end: retained[0]!.end, text: retained[0]!.text, normalized: retained[0]!.text, capitalizationHint: "lowercase" as const, disposition: "expression" as const };
+      expect(() => assertReviewedExpressionCoverage([candidate], [{ candidateId: candidate.id, disposition: "expression", expressionIdentityId: "exi_figure" }], catalog)).toThrow("Missing prepared expression");
+    }
+    expect(intervening).toBe(11);
   });
 });

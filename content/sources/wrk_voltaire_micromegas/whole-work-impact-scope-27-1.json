@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:15:57.635Z",
+  "sense": {
+    "id": "sns_fr_figure_face",
+    "lemmaId": "lem_parure_figure_noun_6897d057c3",
+    "gloss": "face",
+    "definition": "Partie antérieure de la tête où se trouvent les yeux, le nez et la bouche."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+      "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+      "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_face",
+      "surface": "figure",
+      "lemma": "figure",
+      "currentRevision": "rev_a53031b71b91b55ae77263ef1920ca4b8a3d4e4ff4b1c632b0ab592517ae5c43",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_c9614a24677ae3ad180a1f01",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_086",
+          "passage": "Loisel revint le soir, avec la figure creusée, pâlie ; il n’avait rien découvert.",
+          "span": [
+            31,
+            37
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La figure du garçon s’éclaire d’un sourire qui fait briller ses yeux.",
+          "prompt": "Quel mot désigne son visage ?",
+          "choices": [
+            {
+              "text": "figure",
+              "correct": true
+            },
+            {
+              "text": "garçon",
+              "correct": false
+            },
+            {
+              "text": "sourire",
+              "correct": false
+            },
+            {
+              "text": "yeux",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il se lave la _____, en passant de l’eau sur ses joues et son front.",
+          "choices": [
+            {
+              "text": "cheville",
+              "correct": false
+            },
+            {
+              "text": "figure",
+              "correct": true
+            },
+            {
+              "text": "main",
+              "correct": false
+            },
+            {
+              "text": "jambe",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_figure_face_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Sa figure est pâle, avec des cernes sous les yeux.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "back",
+              "correct": false
+            },
+            {
+              "text": "shoulder",
+              "correct": false
+            },
+            {
+              "text": "face",
+              "correct": true
+            },
+            {
+              "text": "hand",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

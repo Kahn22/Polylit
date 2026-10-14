@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:38:49.432Z",
+  "sense": {
+    "id": "sns_zola_savoir_ability_conditional",
+    "lemmaId": "lem_savoir",
+    "gloss": "to know how; be able",
+    "definition": "dans ne saurait, indique l’impossibilité d’une action"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_saurait_savoir_ability_conditional_advanced",
+      "qiz_zola_saurait_savoir_ability_conditional_intermediate",
+      "qiz_zola_saurait_savoir_ability_conditional_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_saurait_savoir:sns_zola_savoir_ability_conditional",
+      "surface": "saurait",
+      "lemma": "savoir",
+      "currentRevision": "rev_98a47351bf4b5b4336160817297a8e3e16198f28dbe020fcc1b8b6adfb948d66",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_0ebd9691f75038670f1ba500",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_063",
+          "passage": "Mais une pièce intéressant la défense nationale, qu’on ne saurait produire sans que la guerre fût déclarée demain, non, non !",
+          "span": [
+            58,
+            65
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_saurait_savoir_ability_conditional_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Cette promesse ne saurait être tenue : elle exige des moyens dont personne ne dispose.",
+          "prompt": "Quel verbe, avec ne, exprime l’impossibilité ?",
+          "choices": [
+            {
+              "text": "promesse",
+              "correct": false
+            },
+            {
+              "text": "moyens",
+              "correct": false
+            },
+            {
+              "text": "dispose",
+              "correct": false
+            },
+            {
+              "text": "saurait",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_saurait_savoir_ability_conditional_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Un si petit enfant ne _____ porter seul cette énorme caisse.",
+          "choices": [
+            {
+              "text": "saurais",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": false
+            },
+            {
+              "text": "saurait",
+              "correct": true
+            },
+            {
+              "text": "sauraient",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_saurait_savoir_ability_conditional_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il ne saurait vous aider : cela lui est impossible.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "would refuse to",
+              "correct": false
+            },
+            {
+              "text": "could not",
+              "correct": true
+            },
+            {
+              "text": "would not want to",
+              "correct": false
+            },
+            {
+              "text": "would forget to",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

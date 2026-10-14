@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:21.127Z",
+  "sense": {
+    "id": "sns_zola_prendre_acquire",
+    "lemmaId": "lem_prendre",
+    "gloss": "takes; gains",
+    "definition": "forme du présent de prendre, indiquant l’acquisition d’une force ou d’un état"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_prend_prendre_acquire_intermediate",
+      "qiz_zola_prend_prendre_acquire_early",
+      "qiz_zola_prend_prendre_acquire_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_prend_prendre:sns_zola_prendre_acquire",
+      "surface": "prend",
+      "lemma": "prendre",
+      "currentRevision": "rev_069d75c57ca85b868586f9b761cda414b49235bf5769f29ff53aef617ea20da6",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_59d5eed49b2d9da4a9dfeea9",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_178",
+          "passage": "Quand on enferme la vérité sous terre, elle s’y amasse, elle y prend une force telle d’explosion, que le jour où elle éclate, elle fait tout sauter avec elle.",
+          "span": [
+            63,
+            68
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_prend_prendre_acquire_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "L’incendie _____ de l’ampleur à mesure que le vent se lève.",
+          "choices": [
+            {
+              "text": "prennent",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": false
+            },
+            {
+              "text": "prend",
+              "correct": true
+            },
+            {
+              "text": "prends",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prend_prendre_acquire_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le vent prend de la force au fil des heures.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "avoids",
+              "correct": false
+            },
+            {
+              "text": "gains",
+              "correct": true
+            },
+            {
+              "text": "loses",
+              "correct": false
+            },
+            {
+              "text": "lacks",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prend_prendre_acquire_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le projet prend une importance nouvelle lorsque toute la ville décide de le soutenir.",
+          "prompt": "Quel verbe indique l’acquisition d’un nouvel état ?",
+          "choices": [
+            {
+              "text": "prend",
+              "correct": true
+            },
+            {
+              "text": "nouvelle",
+              "correct": false
+            },
+            {
+              "text": "ville",
+              "correct": false
+            },
+            {
+              "text": "soutenir",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

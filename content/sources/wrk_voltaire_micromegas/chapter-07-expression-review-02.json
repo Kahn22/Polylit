@@ -1,0 +1,652 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 7,
+    "reviewedQuestionBands": 21,
+    "newExpressionForms": 2,
+    "newQuestionBands": 6,
+    "reusedEarlierQuestionBands": 15
+  },
+  "items": [
+    {
+      "key": "s_agit",
+      "surfacePattern": "s’agit",
+      "meaning": "is about; concerns",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 175,
+          "start": 5,
+          "end": 11,
+          "text": "s’agit"
+        },
+        {
+          "chapter": 7,
+          "unit": 177,
+          "start": 6,
+          "end": 12,
+          "text": "s’agit"
+        },
+        {
+          "chapter": 7,
+          "unit": 178,
+          "start": 83,
+          "end": 89,
+          "text": "s’agit"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 175,
+          "start": 5,
+          "end": 7,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 175,
+          "start": 7,
+          "end": 11,
+          "text": "agit",
+          "form": "agit"
+        },
+        {
+          "unit": 177,
+          "start": 6,
+          "end": 8,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 177,
+          "start": 8,
+          "end": 12,
+          "text": "agit",
+          "form": "agit"
+        },
+        {
+          "unit": 178,
+          "start": 83,
+          "end": 85,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 178,
+          "start": 85,
+          "end": 89,
+          "text": "agit",
+          "form": "agit"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Il s’agit, dit le philosophe, de quelque tas de boue grand comme votre talon.",
+          "targetText": "s’agit",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "is about; concerns",
+          "choices": [
+            "is about; concerns",
+            "happens",
+            "proceeds",
+            "is spent"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La querelle a pour objet ce tas de boue : il ___ de ce tas.",
+          "question": "Complétez la phrase.",
+          "answer": "s’agit",
+          "choices": [
+            "s’agit",
+            "provient",
+            "reste",
+            "manque"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction impersonnelle signifie est question de quelque chose ?",
+          "question": "Quelle expression convient ?",
+          "answer": "s’agit",
+          "choices": [
+            "s’agit",
+            "provient",
+            "reste",
+            "manque"
+          ]
+        }
+      ],
+      "questionSha256": "c6ef2da0f5f8d1645e60f62533e96417d6f8f57a280c9bca02b4e43e8d3fd62f",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:sns_zola_s_agir_concern",
+      "reviewNote": "The three impersonal clauses name what the quarrel concerns, including negation of the claimed motive. The global agir family already has sns_zola_s_agir_concern, distinct from accomplishing an action. Prepare this full fused pronominal surface on that existing meaning, not a second expression sense. The middle alternatives are syntactically possible with de ce tas, while the stated subject of the dispute selects s’agit. Final import must bridge the whole span and suppress s’/agit duplicate encounters. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "s_agit",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "en_use",
+      "surfacePattern": "en use",
+      "meaning": "behaves; acts in that manner",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 267,
+          "end": 273,
+          "text": "en use"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 267,
+          "end": 269,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 173,
+          "start": 270,
+          "end": 273,
+          "text": "use",
+          "form": "use"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "en use",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "behaves; acts in that manner",
+          "choices": [
+            "behaves; acts in that manner",
+            "wears it down",
+            "uses a tool",
+            "makes a purchase"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour dire qu’on agit ainsi envers autrui, le récit emploie « on ___ ainsi ».",
+          "question": "Complétez la phrase.",
+          "answer": "en use",
+          "choices": [
+            "en use",
+            "le détériore",
+            "se sert d’un outil",
+            "fait un achat"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction signifie agit de cette manière, notamment envers autrui ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en use",
+          "choices": [
+            "en use",
+            "le détériore",
+            "se sert d’un outil",
+            "fait un achat"
+          ]
+        }
+      ],
+      "questionSha256": "6c954ecbabb6f37f2b8a53489678c8f33e7688af1a36cf9e8677ecb74213dd8b",
+      "identityTarget": "new_sense_existing_lemma:lem_fr_user_verb",
+      "reviewNote": "Académie 7 user explicitly records absolute en user for acting in a particular manner. The global proper user verb has only wear-down, so prepare this distinct behaving meaning under lem_fr_user_verb. This is how humans wage war, not deterioration by rubbing. All middle predicates are grammatical; behavior rather than wearing an object, using a tool or purchasing selects the whole construction. No anaphoric en encounter is duplicated. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "en_use",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "de_temps_immemorial",
+      "surfacePattern": "de temps immémorial",
+      "meaning": "since time beyond living memory",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 274,
+          "end": 293,
+          "text": "de temps immémorial"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 274,
+          "end": 276,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 173,
+          "start": 277,
+          "end": 282,
+          "text": "temps",
+          "form": "temps"
+        },
+        {
+          "unit": 173,
+          "start": 283,
+          "end": 293,
+          "text": "immémorial",
+          "form": "immémorial"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "de temps immémorial",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "since time beyond living memory",
+          "choices": [
+            "since time beyond living memory",
+            "since yesterday",
+            "for a moment",
+            "for the first time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce comportement dure depuis une époque si ancienne qu’aucun souvenir n’en marque le début : on agit ainsi ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de temps immémorial",
+          "choices": [
+            "de temps immémorial",
+            "depuis hier",
+            "pour un instant",
+            "pour la première fois"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution renvoie à une ancienneté dont on ne garde pas le souvenir du commencement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de temps immémorial",
+          "choices": [
+            "de temps immémorial",
+            "depuis hier",
+            "pour un instant",
+            "pour la première fois"
+          ]
+        }
+      ],
+      "questionSha256": "93c806e2ea48584f0e94dc00244d9999c92afb48bcf13edeb95080854731e3e8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosopher presents warfare as having persisted beyond remembered beginnings. The bank tests the phrase’s temporal meaning, not a factual date of the first war. All four temporal phrases fit the verb; remote unremembered antiquity selects the target. The noun temps and adjective immémorial remain inside the full-span identity. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "de_temps_immemorial",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "ou_bien",
+      "surfacePattern": "ou bien",
+      "meaning": "or else; introducing another alternative",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 183,
+          "end": 190,
+          "text": "ou bien"
+        },
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 273,
+          "end": 280,
+          "text": "ou bien"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 205,
+          "start": 183,
+          "end": 185,
+          "text": "ou",
+          "form": "ou"
+        },
+        {
+          "unit": 205,
+          "start": 186,
+          "end": 190,
+          "text": "bien",
+          "form": "bien"
+        },
+        {
+          "unit": 205,
+          "start": 273,
+          "end": 275,
+          "text": "ou",
+          "form": "ou"
+        },
+        {
+          "unit": 205,
+          "start": 276,
+          "end": 280,
+          "text": "bien",
+          "form": "bien"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »",
+          "targetText": "ou bien",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "or else; introducing another alternative",
+          "choices": [
+            "or else; introducing another alternative",
+            "and then",
+            "therefore",
+            "nevertheless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il propose une autre possibilité : « L’âme serait ceci, ___ elle serait cela. »",
+          "question": "Complétez la phrase.",
+          "answer": "ou bien",
+          "choices": [
+            "ou bien",
+            "et puis",
+            "par conséquent",
+            "pourtant"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution relie ici deux possibilités présentées comme des alternatives ?",
+          "question": "Quelle expression convient ?",
+          "answer": "ou bien",
+          "choices": [
+            "ou bien",
+            "et puis",
+            "par conséquent",
+            "pourtant"
+          ]
+        }
+      ],
+      "questionSha256": "d035f39a4d6d7dfc1a0ea926c64ea26746c364afeb770fb25f4307a0148ec486",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Both occurrences introduce an alternative metaphor for soul and body. Every occurrence of ou bien in this unit is indexed, including the second one. Bien does not express knowledge quality or certainty here. All connectors fit the two clauses, while alternatives rather than succession, consequence or opposition select ou bien. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "ou_bien",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "a_l_heure_que",
+      "surfacePattern": "à l’heure que",
+      "meaning": "at the time when; as",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 33,
+          "end": 46,
+          "text": "à l’heure que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 33,
+          "end": 34,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 173,
+          "start": 35,
+          "end": 37,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 173,
+          "start": 37,
+          "end": 42,
+          "text": "heure",
+          "form": "heure"
+        },
+        {
+          "unit": 173,
+          "start": 43,
+          "end": 46,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "à l’heure que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at the time when; as",
+          "choices": [
+            "at the time when; as",
+            "before the time when",
+            "after the time when",
+            "because"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour situer les faits au moment même où il parle, il dit : « Cela arrive ___ je vous parle. »",
+          "question": "Complétez la phrase.",
+          "answer": "à l’heure que",
+          "choices": [
+            "à l’heure que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction du récit situe les faits au moment où l’on parle ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à l’heure que",
+          "choices": [
+            "à l’heure que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        }
+      ],
+      "questionSha256": "b78439abbc0a324571937e1eea649ecd36fe3db7035f15b09f949b5ac3544630",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The historical à l’heure que clause states that the warfare is occurring as the philosopher speaks. The temporal relative construction is prepared in full rather than assigning que an unrelated object-relative bank. The first-person parle form works with all four connective alternatives; contemporaneity rather than before, after or cause selects the phrase. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "a_l_heure_que",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "par_exemple",
+      "surfacePattern": "par exemple",
+      "meaning": "for example; to give an illustration",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 17,
+          "end": 28,
+          "text": "par exemple"
+        },
+        {
+          "chapter": 7,
+          "unit": 201,
+          "start": 0,
+          "end": 11,
+          "text": "Par exemple"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 17,
+          "end": 20,
+          "text": "par",
+          "form": "par"
+        },
+        {
+          "unit": 173,
+          "start": 21,
+          "end": 28,
+          "text": "exemple",
+          "form": "exemple"
+        },
+        {
+          "unit": 201,
+          "start": 0,
+          "end": 3,
+          "text": "Par",
+          "form": "par"
+        },
+        {
+          "unit": 201,
+          "start": 4,
+          "end": 11,
+          "text": "exemple",
+          "form": "exemple"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "par exemple",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "for example; to give an illustration",
+          "choices": [
+            "for example; to give an illustration",
+            "as a result",
+            "on the contrary",
+            "in the meantime"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il introduit un cas destiné à illustrer son propos : « ___, considérons cette pierre. »",
+          "question": "Complétez la phrase.",
+          "answer": "Par exemple",
+          "choices": [
+            "Par exemple",
+            "Par conséquent",
+            "Au contraire",
+            "Pendant ce temps"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution présente un cas qui illustre le propos ?",
+          "question": "Quelle expression convient ?",
+          "answer": "Par exemple",
+          "choices": [
+            "Par exemple",
+            "Par conséquent",
+            "Au contraire",
+            "Pendant ce temps"
+          ]
+        }
+      ],
+      "questionSha256": "2b794ae27a506a8552a4eeea60cb6c8d5e6080db2a60c4188d0a540047fb9f7e",
+      "identityTarget": "share_earlier_word_meaning:chapter-02-identity-plan.json:exemple_illustration",
+      "reviewNote": "The philosopher illustrates harmful human behavior and later offers a stone as an example in the matter discussion. The earlier II exemple_illustration word plan and all three questions were read. Share that illustrative meaning through a single full phrase before import, suppressing par/exemple duplication rather than creating a precedent meaning. All four connectors fit the illustration prompt, while example rather than consequence, opposition or simultaneity selects the target.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierDecisionFile": "chapter-02-identity-plan.json",
+      "earlierDecisionKey": "exemple_illustration",
+      "earlierDecisionFileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe"
+    },
+    {
+      "key": "pas_trop",
+      "surfacePattern": "pas trop",
+      "meaning": "not very; not particularly",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 198,
+          "start": 15,
+          "end": 23,
+          "text": "pas trop"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 198,
+          "start": 15,
+          "end": 18,
+          "text": "pas",
+          "form": "pas"
+        },
+        {
+          "unit": 198,
+          "start": 19,
+          "end": 23,
+          "text": "trop",
+          "form": "trop"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je n’entends pas trop bien le grec, dit le géant. — Ni moi non plus, dit la mite philosophique. — Pourquoi donc, reprit le Sirien, citez-vous un certain Aristote en grec ? — C’est, répliqua le savant, qu’il faut bien citer ce qu’on ne comprend point du tout dans la langue qu’on entend le moins. »",
+          "targetText": "pas trop",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "not very; not particularly",
+          "choices": [
+            "not very; not particularly",
+            "not at all",
+            "not always",
+            "not yet"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il comprend assez peu cette langue : il ne la comprend ___ bien.",
+          "question": "Complétez la phrase.",
+          "answer": "pas trop",
+          "choices": [
+            "pas trop",
+            "pas du tout",
+            "pas toujours",
+            "pas encore"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction indique ici un faible degré de compréhension, sans parler de fréquence ou d’un délai ?",
+          "question": "Quelle expression convient ?",
+          "answer": "pas trop",
+          "choices": [
+            "pas trop",
+            "pas du tout",
+            "pas toujours",
+            "pas encore"
+          ]
+        }
+      ],
+      "questionSha256": "bbf89d95eb134af344df010d2b6c0718252514ee3c63386fbc1fee92bcae95c3",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Académie 1762 trop explicitly records pas trop as guère. In je n’entends pas trop bien le grec, the giant understands Greek little or not particularly well, rather than saying his understanding fails to exceed a proper limit. All four negative constructions fit ne la comprend… bien; small degree differs from complete absence, frequency and not-yet timing. Trop’s other source use retains excessive quantity; no generic negative or excess-word encounter is duplicated.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    }
+  ]
+}

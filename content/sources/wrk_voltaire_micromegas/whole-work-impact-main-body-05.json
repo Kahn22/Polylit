@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:11:21.979Z",
+  "sense": {
+    "id": "sns_parure_main_body_part_bdc9fe7397",
+    "lemmaId": "lem_zola_main",
+    "gloss": "hand",
+    "definition": "partie du corps située à l’extrémité du bras"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_main_main_body_part_36f392076d_intermediate",
+      "qiz_parure_main_main_body_part_36f392076d_early",
+      "qiz_parure_main_main_body_part_36f392076d_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_main_main:sns_parure_main_body_part_bdc9fe7397",
+      "surface": "main",
+      "lemma": "main",
+      "currentRevision": "rev_23c3de47d5e7e5834b396902eabb41f927689f5c8577ef2d50b636b09a5dc939",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_b953ae5a5a5669309d71631a",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_018",
+          "passage": "Elle part, ne se sentant pas de joye. Le Fils du Roi, qu’on alla avertir qu’il venoit d’arriver une grande Princesse qu’on ne connoissoit point, courut la recevoir ; il luy donna la main à la descente du carosse, et la mena dans la salle où estoit la compagnie : il se fit alors un grand silence ;",
+          "span": [
+            182,
+            186
+          ]
+        },
+        {
+          "id": "occ_parure_b72c65d4a7d26b21d4e75d9f",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_010",
+          "passage": "Or, un soir, son mari rentra, l’air glorieux, et tenant à la main une large enveloppe.",
+          "span": [
+            61,
+            65
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_main_main_body_part_36f392076d_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il ouvre la _____ et écarte ses cinq doigts.",
+          "choices": [
+            {
+              "text": "poche",
+              "correct": false
+            },
+            {
+              "text": "manche",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            },
+            {
+              "text": "bouche",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_main_main_body_part_36f392076d_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle tient une clé dans sa main droite.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "pocket",
+              "correct": false
+            },
+            {
+              "text": "sleeve",
+              "correct": false
+            },
+            {
+              "text": "mouth",
+              "correct": false
+            },
+            {
+              "text": "hand",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_main_main_body_part_36f392076d_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Sa main se referme sur la poignée tandis qu’il pousse la porte avec l’épaule.",
+          "prompt": "Quel mot désigne la partie du corps à l’extrémité du bras ?",
+          "choices": [
+            {
+              "text": "épaule",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            },
+            {
+              "text": "poignée",
+              "correct": false
+            },
+            {
+              "text": "porte",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

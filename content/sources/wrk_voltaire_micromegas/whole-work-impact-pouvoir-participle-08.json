@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:36:18.763Z",
+  "sense": {
+    "id": "sns_parure_pouvoir_ability_4262fa6d97",
+    "lemmaId": "lem_zola_pouvoir",
+    "gloss": "being able to",
+    "definition": "ayant la capacité ou la possibilité de faire quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_early",
+      "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_intermediate",
+      "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_pouvant_pouvoir_verb_0ded60fc25:sns_parure_pouvoir_ability_4262fa6d97",
+      "surface": "pouvant",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_2cebd7ace28eb3be9335c9127aedac9ca28d78fdbb8e669b0cc7ed3549015c45",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_095bf47c91350dca78443f8e",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_012",
+          "passage": "je t’y feray aller ? Elle la mena dans sa chambre, et luy dit, va dans le jardin et apporte moy une citroüille : Cendrillon alla aussi tost cueillir la plus belle qu’elle put trouver, et la porta à sa Maraine, ne pouvant deviner comment cette citroüille la pouroit faire aller au bal :",
+          "span": [
+            213,
+            220
+          ]
+        },
+        {
+          "id": "occ_parure_68004de4ac394e218827d9dc",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_002",
+          "passage": "Elle fut simple ne pouvant être parée, mais malheureuse comme une déclassée ; car les femmes n’ont point de caste ni de race, leur beauté, leur grâce et leur charme leur servant de naissance et de famille. Leur finesse native, leur instinct d’élégance, leur souplesse d’esprit, sont leur seule hiérarchie, et font des filles du peuple les égales des plus grandes dames.",
+          "span": [
+            19,
+            26
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ne pouvant dormir, je me suis levé pour lire.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "wanting to",
+              "correct": false
+            },
+            {
+              "text": "daring to",
+              "correct": false
+            },
+            {
+              "text": "forgetting to",
+              "correct": false
+            },
+            {
+              "text": "being able to",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ne _____ ouvrir la porte bloquée, elle appelle un serrurier.",
+          "choices": [
+            {
+              "text": "pourra",
+              "correct": false
+            },
+            {
+              "text": "pouvant",
+              "correct": true
+            },
+            {
+              "text": "peut",
+              "correct": false
+            },
+            {
+              "text": "pouvaient",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pouvant_pouvoir_ability_8a21a4df28_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Pouvant enfin marcher sans douleur, le blessé quitte sa chambre avec joie.",
+          "prompt": "Quel mot indique qu’il a désormais la capacité de marcher ?",
+          "choices": [
+            {
+              "text": "Pouvant",
+              "correct": true
+            },
+            {
+              "text": "enfin",
+              "correct": false
+            },
+            {
+              "text": "blessé",
+              "correct": false
+            },
+            {
+              "text": "quitte",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

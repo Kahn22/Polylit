@@ -1,0 +1,2385 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "status": "offline_individually_reviewed_owner_routes_pending_complete_work_transaction",
+  "masteryPolicy": "Preserve existing meanings/IDs and all legacy learner records. Separate genuinely distinct POS/meanings; corrected identities start only when their exact source unit is viewed. Never transfer or reset mastery, or use structural checks as editorial approval.",
+  "items": [
+    {
+      "family": "douter",
+      "publishedImpactFile": "whole-work-impact-douter-02.json",
+      "publishedImpactSha256": "12982f2ec75c0e6d7a0125f1e0d156ec91a81c6b55a7ad02146af9f695de033f",
+      "publishedDecision": "retain_suspicion_sense_normalize_canonical_verb_head",
+      "lemmaChange": {
+        "id": "lem_zola_se_douter",
+        "before": {
+          "id": "lem_zola_se_douter",
+          "headword": "se douter",
+          "partOfSpeech": "verb"
+        },
+        "after": {
+          "id": "lem_zola_se_douter",
+          "headword": "douter",
+          "partOfSpeech": "verb"
+        }
+      },
+      "questionChanges": [
+        {
+          "id": "qiz_zola_doute_se_douter_suspect_intermediate",
+          "before": {
+            "id": "qiz_zola_doute_se_douter_suspect_intermediate",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_zola_doute_se_douter",
+              "senseId": "sns_zola_se_douter_suspect"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "En voyant les cadeaux cachés, Léa se _____ qu’une fête se prépare.",
+            "choices": [
+              {
+                "id": "choice_5",
+                "text": "doutes"
+              },
+              {
+                "id": "choice_6",
+                "text": "doutent"
+              },
+              {
+                "id": "choice_7",
+                "text": "douter"
+              },
+              {
+                "id": "choice_1",
+                "text": "doute"
+              }
+            ],
+            "correctChoiceId": "choice_1"
+          },
+          "beforeSha256": "05d8cf4b811836c9c9f1a27a6057511157e1de62bb8c73876667f52dfd8648b1",
+          "after": {
+            "id": "qiz_zola_doute_se_douter_suspect_intermediate",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_zola_doute_se_douter",
+              "senseId": "sns_zola_se_douter_suspect"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "Les cadeaux cachés lui font pressentir une fête, sans souvenir préalable ni réaction de joie ou de mécontentement : Léa se _____ qu’une fête se prépare.",
+            "choices": [
+              {
+                "id": "choice_1",
+                "text": "doute"
+              },
+              {
+                "id": "choice_2",
+                "text": "rappelle"
+              },
+              {
+                "id": "choice_3",
+                "text": "réjouit"
+              },
+              {
+                "id": "choice_4",
+                "text": "plaint"
+              }
+            ],
+            "correctChoiceId": "choice_1"
+          },
+          "afterSha256": "932a04c17b30fe342ba9181bf3dd3c344e4efc45ab2ebe78d6266fdc7a05654a",
+          "reason": "Read both full Zola uses and all three stored bands. Replace the inflection-only middle alternatives with four complete reflexive predicates fitting se and the following que clause. The evidence-based anticipation clue selects suspicion rather than recollection, joy or complaint. Keep the existing question ID and suspicion meaning/mastery; early and retrieval banks remain unchanged."
+        }
+      ],
+      "candidateBindings": [
+        {
+          "file": "chapter-05-held-batch-02.json",
+          "key": "douter_chapter_05_held_01_124",
+          "fileSha256": "74e95b0f4cde853f03eecb79247c3fe4c6e59cd265b42b055bf3a4c117845e0b",
+          "questionSha256": "cc5dccc08546dae7b15f369b592eb5be2415d2428241904d5be5406dcf9627de",
+          "sourceOccurrences": [
+            {
+              "unit": 124,
+              "start": 6,
+              "end": 11,
+              "text": "doute",
+              "chapter": 5,
+              "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits."
+            }
+          ],
+          "before": {
+            "key": "douter_chapter_05_held_01_124",
+            "form": "doute",
+            "lemma": "douter",
+            "partOfSpeech": "verb present first singular",
+            "meaning": "doubt; be uncertain",
+            "sourceOccurrences": [
+              {
+                "unit": 124,
+                "start": 6,
+                "end": 11,
+                "text": "doute",
+                "chapter": 5
+              }
+            ],
+            "status": "offline_contextual_question_draft_pending_editorial_review",
+            "editorialNote": "Je ne doute pas uses nonreflexive doubter; available candidates are noun doubt, sans doute, or reflexive se douter. This is an offline draft; final question and identity QA remain pending.",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+                "targetText": "doute",
+                "question": "What does the highlighted word mean here?",
+                "answer": "doubt",
+                "choices": [
+                  "doubt",
+                  "know",
+                  "remember",
+                  "observe"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Je suis certain de cette réaction : je ne ___ pas que le capitaine réagisse ainsi.",
+                "question": "Complétez la phrase.",
+                "answer": "doute",
+                "choices": [
+                  "doute",
+                  "crois",
+                  "pense",
+                  "suppose"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel verbe signifie avoir des incertitudes, dans la première personne « je ... » ?",
+                "question": "Quel mot convient ?",
+                "answer": "doute",
+                "choices": [
+                  "doute",
+                  "crois",
+                  "pense",
+                  "suppose"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-06-batch-04.json",
+          "key": "doutait_chapter_06_04_157_77",
+          "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+          "questionSha256": "76924babfe6c4194be65cd54f0145d39995939f7e2d6adfa1225addcc59c24cf",
+          "sourceOccurrences": [
+            {
+              "chapter": 6,
+              "unit": 157,
+              "start": 77,
+              "end": 84,
+              "text": "doutait",
+              "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+            }
+          ],
+          "before": {
+            "form": "doutait",
+            "lemma": "douter",
+            "partOfSpeech": "verb imperfect singular",
+            "meaning": "doubted; was uncertain",
+            "key": "doutait_chapter_06_04_157_77",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 6,
+                "unit": 157,
+                "start": 77,
+                "end": 84,
+                "text": "doutait",
+                "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+                "targetText": "doutait",
+                "question": "What does the highlighted word mean here?",
+                "answer": "doubted; was uncertain",
+                "choices": [
+                  "doubted; was uncertain",
+                  "was certain",
+                  "recalled",
+                  "proved"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Il n’était pas convaincu de l’existence de son âme : il ___ de cette existence.",
+                "question": "Complétez la phrase.",
+                "answer": "doutait",
+                "choices": [
+                  "doutait",
+                  "s’assurait",
+                  "se souvenait",
+                  "se réjouissait"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel verbe à l’imparfait signifie n’était pas certain de quelque chose ?",
+                "question": "Quel mot convient ?",
+                "answer": "doutait",
+                "choices": [
+                  "doutait",
+                  "s’assurait",
+                  "se souvenait",
+                  "se réjouissait"
+                ]
+              }
+            ],
+            "reviewNote": "The giant questions the existence of a soul. The earlier douter uncertainty plan fits and is reused, not a newly invented past-tense sense. All four predicates take de in the unchanged construction; uncertainty rather than certainty, memory or joy selects doutait."
+          }
+        },
+        {
+          "file": "chapter-07-batch-07.json",
+          "key": "douté_chapter_07_07_215_225",
+          "fileSha256": "87383545202021d1a7d13b7ee1d2b1f1d7d939db3089b4a7112d9652db59d8a7",
+          "questionSha256": "788d51c9db325cda83d83776381b4309907ff1533992bdc75e062c8e15efccf1",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 215,
+              "start": 225,
+              "end": 230,
+              "text": "douté",
+              "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+            }
+          ],
+          "before": {
+            "form": "douté",
+            "lemma": "douter",
+            "partOfSpeech": "verb pronominal past participle",
+            "meaning": "suspected; anticipated",
+            "key": "douté_chapter_07_07_215_225",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 215,
+                "start": 225,
+                "end": 230,
+                "text": "douté",
+                "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »",
+                "targetText": "douté",
+                "question": "What does the highlighted word mean here?",
+                "answer": "suspected; anticipated",
+                "choices": [
+                  "suspected; anticipated",
+                  "proved",
+                  "forgotten",
+                  "denied"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "J’avais pressenti ce résultat sans preuve : je m’en étais ___.",
+                "question": "Complétez la phrase.",
+                "answer": "douté",
+                "choices": [
+                  "douté",
+                  "assuré",
+                  "souvenu",
+                  "réjoui"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel participe, dans se douter de, signifie avait soupçonné ou pressenti ?",
+                "question": "Quel mot convient ?",
+                "answer": "douté",
+                "choices": [
+                  "douté",
+                  "assuré",
+                  "souvenu",
+                  "réjoui"
+                ]
+              }
+            ],
+            "reviewNote": "Je m’en étais bien douté reports that the secretary had suspected or anticipated the blank result. Académie1762 distinguishes pronominal conjecture from ordinary uncertainty. The existing se douter/suspect meaning and all three stored banks were read, alongside earlier nonpronominal doute/doutait banks. Share the existing suspicion meaning; explicitly normalize its se douter owner to proper douter after whole-family impact review, preserving the sense and mastery. All four pronominal participles fit je m’en étais; anticipation contrasts with certainty, memory or joy."
+          }
+        }
+      ],
+      "routeOverrides": [
+        {
+          "file": "chapter-05-identity-plan.json",
+          "key": "douter_chapter_05_held_01_124",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "questionSha256": "cc5dccc08546dae7b15f369b592eb5be2415d2428241904d5be5406dcf9627de",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "douter_chapter_05_held_01_124",
+            "form": "doute",
+            "lemma": "douter",
+            "meaning": "doubt; be uncertain",
+            "batchFile": "chapter-05-held-batch-02.json",
+            "questionSha256": "cc5dccc08546dae7b15f369b592eb5be2415d2428241904d5be5406dcf9627de",
+            "sourceOccurrencesSha256": "6e4eed6c66a5f0ee76657b3a5fe74bd209505c73ea3d0cbd1555bf1a989b8f22",
+            "sourceUseCount": 1,
+            "route": "new_lemma_and_sense",
+            "intendedSenseGroup": "douter:douter_chapter_05_held_01_124",
+            "rationale": "No published French lemma or earlier planned matching meaning was found. The exact source uses teach doubt; be uncertain; propose this lemma and sense for complete-work reconciliation.",
+            "status": "offline_identity_route_pending_complete_work_import"
+          },
+          "after": {
+            "route": "new_sense_existing_lemma_after_canonical_normalization",
+            "targetLemmaId": "lem_zola_se_douter",
+            "intendedSenseGroup": "douter:douter_chapter_05_held_01_124"
+          },
+          "reason": "Ordinary uncertainty remains a distinct meaning from reflexive conjecture, under one proper verb lemma douter after canonical head normalization. The existing published se douter owner becomes that proper lemma; creating another duplicate douter lemma is unnecessary. VI doutait shares this same uncertainty sense, while VII douté shares existing suspicion. Inflection never creates a new meaning."
+        }
+      ],
+      "reviewNote": "Read Zola173 and162 and every active bank; there are no historical suspicion bands. Both source uses conjecture about unobserved conditions. Read V124 ordinary negative certainty, VI157 questioned soul existence, VII215 prior anticipation, and all nine corresponding bands. Académie1762 explicitly distinguishes ordinary uncertainty and pronominal conjecture under douter. Normalize only the canonical head; retain the existing suspicion sense and surface IDs/mastery. Add the already prepared generic uncertainty sense under the normalized owner and keep all three contextual surface banks. No noun doute or full sans doute reassignment is implied."
+    },
+    {
+      "family": "voisin",
+      "publishedImpactFile": "whole-work-impact-voisin-02.json",
+      "publishedImpactSha256": "7cca711b136b3fcd6be467f09cc56cdc5770bb1070f1144b041828573f26ba58",
+      "publishedDecision": "retain_existing_neighbor_noun_identity_and_banks",
+      "candidateBindings": [
+        {
+          "file": "chapter-03-batch-11.json",
+          "key": "voisine_nearby",
+          "fileSha256": "c646724dfea37e1eee1b5325298c254226467dc9c35851b41cb9c6f951ce3e5e",
+          "questionSha256": "960cb78be78565cfe49b5ab3c5bb01e18cc9219426ce7f7f261942094631a00a",
+          "sourceOccurrences": [
+            {
+              "chapter": 3,
+              "unit": 77,
+              "start": 234,
+              "end": 241,
+              "text": "voisine",
+              "context": "Quoi qu’il en soit, nos gens trouvèrent cela si petit qu’ils craignirent de n’y pas trouver de quoi coucher, et ils passèrent leur chemin comme deux voyageurs qui dédaignent un mauvais cabaret de village, et poussent jusqu’à la ville voisine."
+            }
+          ],
+          "before": {
+            "key": "voisine_nearby",
+            "form": "voisine",
+            "lemma": "voisin",
+            "partOfSpeech": "adjective feminine singular",
+            "meaning": "nearby; neighboring",
+            "editorialNote": "In chapter III 77:234, voisine means nearby; neighboring. The source excerpt and authored alternatives distinguish the target meaning.",
+            "sourceOccurrences": [
+              {
+                "chapter": 3,
+                "unit": 77,
+                "start": 234,
+                "end": 241,
+                "text": "voisine"
+              }
+            ],
+            "formCoverage": "chapter_three_contextual_sense_subset",
+            "status": "chapter_three_draft_question_review_pending",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "… cabaret de village, et poussent jusqu’à la ville voisine.",
+                "question": "Meaning",
+                "answer": "neighboring",
+                "choices": [
+                  "neighboring",
+                  "distant",
+                  "remote",
+                  "foreign"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Cette ville est proche : la ville ___.",
+                "question": "Complétez la phrase.",
+                "answer": "voisine",
+                "choices": [
+                  "voisine",
+                  "lointaine",
+                  "éloignée",
+                  "étrangère"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Une ville voisine se trouve près; lointaine et éloignée sont loin, étrangère appartient à un autre pays.",
+                "question": "Quel mot exprime nearby ?",
+                "answer": "voisine",
+                "choices": [
+                  "voisine",
+                  "lointaine",
+                  "éloignée",
+                  "étrangère"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-06-batch-04.json",
+          "key": "voisin_chapter_06_04_156_197",
+          "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+          "questionSha256": "9b34ad7f8714ff41c85f1b26fa2fe6a0a4a6b668724840f189e9efdd37f5c6a1",
+          "sourceOccurrences": [
+            {
+              "chapter": 6,
+              "unit": 156,
+              "start": 197,
+              "end": 203,
+              "text": "voisin",
+              "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+            }
+          ],
+          "before": {
+            "form": "voisin",
+            "lemma": "voisin",
+            "partOfSpeech": "adjective masculine singular figurative proximity",
+            "meaning": "close to; near",
+            "key": "voisin_chapter_06_04_156_197",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 6,
+                "unit": 156,
+                "start": 197,
+                "end": 203,
+                "text": "voisin",
+                "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature.",
+                "targetText": "voisin",
+                "question": "What does the highlighted word mean here?",
+                "answer": "close to; near",
+                "choices": [
+                  "close to; near",
+                  "far from",
+                  "opposite to",
+                  "independent of"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Cet état est très proche de la disparition : il est ___ de l’anéantissement.",
+                "question": "Complétez la phrase.",
+                "answer": "voisin",
+                "choices": [
+                  "voisin",
+                  "éloigné",
+                  "distinct",
+                  "indépendant"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel adjectif signifie proche, dans l’expression voisin de ?",
+                "question": "Quel mot convient ?",
+                "answer": "voisin",
+                "choices": [
+                  "voisin",
+                  "éloigné",
+                  "distinct",
+                  "indépendant"
+                ]
+              }
+            ],
+            "reviewNote": "Voisin de marks figurative proximity to nonexistence, the same nearby meaning as the earlier voisine adjective. The published voisin family is a noun for a neighboring person; it cannot own the adjective directly. Reuse the earlier planned adjective meaning only after its noun-lemma target is corrected to a proper French adjective lemma during whole-work reconciliation; this explicit dependency prevents silent noun/adjective ownership mismatch."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "routeOverrides": [
+        {
+          "file": "chapter-03-identity-plan.json",
+          "key": "voisine_nearby",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "questionSha256": "960cb78be78565cfe49b5ab3c5bb01e18cc9219426ce7f7f261942094631a00a",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "voisine_nearby",
+            "form": "voisine",
+            "lemma": "voisin",
+            "meaning": "nearby; neighboring",
+            "batchFile": "chapter-03-batch-11.json",
+            "questionSha256": "960cb78be78565cfe49b5ab3c5bb01e18cc9219426ce7f7f261942094631a00a",
+            "sourceOccurrencesSha256": "b5680f451209bbac804acf14f6baf539af9bed14c19f5040e1a4d41a01b4eb0b",
+            "sourceUseCount": 1,
+            "route": "new_sense_existing_lemma",
+            "targetLemmaId": "lem_cigale_fourmi_voisin_noun_fb6e05fc05",
+            "rationale": "An adjacent city is an adjective, distinct from a female neighbor noun.",
+            "status": "offline_chapter_identity_route_pending_complete_work_import"
+          },
+          "after": {
+            "route": "new_lemma_and_sense",
+            "lemma": "voisin",
+            "partOfSpeech": "adjective",
+            "intendedSenseGroup": "voisin:voisine_nearby"
+          },
+          "reason": "The published lemma is a noun naming a neighboring person and cannot own an adjective modifying ville. Prepare one proper adjective voisin owner and one nearby/proximity meaning. VI voisin de l’anéantissement shares this generic adjective sense through figurative proximity; neither masculine agreement nor figurative reference creates an inflection-only sense. Preserve all noun voisin records and the personified fable neighbor use."
+        }
+      ],
+      "reviewNote": "Read the Fourmi neighbor passage and all three published noun banks; the feminine noun middle alternatives all match the target number and gender. Read the full III77 city passage and VI156 proximity-to-nonexistence passage and all six adjective bands. Académie1740 distinguishes the adjective proximity use from the substantive neighbor. Create a proper adjective lemma and shared proximity meaning for voisine/voisin, correcting the earlier III noun-owner route only through this exact revision overlay. Existing noun identity, definition, questions and mastery are retained unchanged."
+    },
+    {
+      "family": "sien",
+      "publishedLemmaSnapshot": [],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-01-batch-18.json",
+          "key": "siens_his_people",
+          "fileSha256": "3c1156de99bf7475ffad88c522cb99616639b06d8976e2fcdab4f9ac61cc623a",
+          "questionSha256": "15ef598ad4f9ce10519356734b818b2b0da2ef1eb27ede527a7e5832f490d845",
+          "sourceOccurrences": [
+            {
+              "chapter": 1,
+              "unit": 19,
+              "start": 149,
+              "end": 154,
+              "text": "siens",
+              "context": "Il s’en servait si à propos que, tantôt à l’aide d’un rayon du soleil, tantôt par la commodité d’une comète, il allait de globe en globe, lui et les siens, comme un oiseau voltige de branche en branche."
+            },
+            {
+              "chapter": 5,
+              "unit": 124,
+              "start": 213,
+              "end": 218,
+              "text": "siens",
+              "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits."
+            }
+          ],
+          "before": {
+            "key": "siens_his_people",
+            "form": "siens",
+            "lemma": "sien",
+            "partOfSpeech": "possessive pronoun masculine plural",
+            "meaning": "his own people; those belonging to his group",
+            "editorialNote": "Lui et les siens denotes Micromégas and his companions; later lui et les siens denotes a captain and his soldiers.",
+            "formCoverage": "complete_exact_form",
+            "sourceOccurrences": [
+              {
+                "chapter": 1,
+                "unit": 19,
+                "start": 149,
+                "end": 154,
+                "text": "siens"
+              },
+              {
+                "chapter": 5,
+                "unit": 124,
+                "start": 213,
+                "end": 218,
+                "text": "siens"
+              }
+            ],
+            "status": "workwide_context_reviewed_question_signoff_pending",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Il allait de globe en globe, lui et les siens.",
+                "question": "Meaning",
+                "answer": "his companions",
+                "choices": [
+                  "his companions",
+                  "his enemies",
+                  "the strangers",
+                  "the planets"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Lui et les membres de son propre groupe voyageaient ensemble : lui et les ___.",
+                "question": "Complétez la phrase.",
+                "answer": "siens",
+                "choices": [
+                  "siens",
+                  "inconnus",
+                  "étrangers",
+                  "ennemis"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Lui et les siens comprend l’homme et les personnes de son propre groupe. Les inconnus ne sont pas identifiés, les étrangers ne lui appartiennent pas et les ennemis lui sont hostiles.",
+                "question": "Quel pronom désigne les personnes de son propre groupe ?",
+                "answer": "siens",
+                "choices": [
+                  "siens",
+                  "inconnus",
+                  "étrangers",
+                  "ennemis"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-06-batch-04.json",
+          "key": "sienne_chapter_06_04_158_280",
+          "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+          "questionSha256": "4d6588f5152a6e7ace143e725c50d5c99b333de33c0f9d4f3565355e348e7ce8",
+          "sourceOccurrences": [
+            {
+              "chapter": 6,
+              "unit": 158,
+              "start": 280,
+              "end": 286,
+              "text": "sienne",
+              "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+            }
+          ],
+          "before": {
+            "form": "sienne",
+            "lemma": "sien",
+            "partOfSpeech": "possessive pronoun feminine singular",
+            "meaning": "his; his own, referring to his height",
+            "key": "sienne_chapter_06_04_158_280",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 6,
+                "unit": 158,
+                "start": 280,
+                "end": 286,
+                "text": "sienne",
+                "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !",
+                "targetText": "sienne",
+                "question": "What does the highlighted word mean here?",
+                "answer": "his; his own, referring to his height",
+                "choices": [
+                  "his; his own, referring to his height",
+                  "mine",
+                  "yours",
+                  "ours"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Cette hauteur appartient à cet autre voyageur, et non à moi : c’est la ___.",
+                "question": "Complétez la phrase.",
+                "answer": "sienne",
+                "choices": [
+                  "sienne",
+                  "mienne",
+                  "tienne",
+                  "nôtre"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel possessif féminin singulier reprend une chose attribuée à une troisième personne ?",
+                "question": "Quel mot convient ?",
+                "answer": "sienne",
+                "choices": [
+                  "sienne",
+                  "mienne",
+                  "tienne",
+                  "nôtre"
+                ]
+              }
+            ],
+            "reviewNote": "La sienne resumes la grandeur of the measured companion. The earlier siens plan substantivizes a person’s group; this feminine singular possessive resumes an inanimate attribute. Prepare this ordinary possessive-reference sense on a proper possessive-pronoun lemma, reconciled with the earlier sien family rather than the people-group noun interpretation."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "sien",
+        "partOfSpeech": "pronoun",
+        "route": "new_lemma",
+        "senseGroups": [
+          {
+            "key": "sien:siens_his_people",
+            "definition": "Les personnes de son entourage, ses proches ou ceux qui lui sont attachés."
+          },
+          {
+            "key": "sien:third_person_possession",
+            "definition": "Ce qui appartient à la personne dont on parle ou lui est attribué."
+          }
+        ]
+      },
+      "routeOverrides": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "key": "siens_his_people",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "questionSha256": "15ef598ad4f9ce10519356734b818b2b0da2ef1eb27ede527a7e5832f490d845",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "siens_his_people",
+            "form": "siens",
+            "lemma": "sien",
+            "meaning": "his own people; those belonging to his group",
+            "partOfSpeech": "possessive pronoun masculine plural",
+            "sourceOccurrencesSha256": "9c69893b3bc6b1dbaaa374d6557c74b09b1fa30468afc6a34d2e15232f828755",
+            "workwideUseCount": 2,
+            "chapterOneUseCount": 1,
+            "questionSha256": "15ef598ad4f9ce10519356734b818b2b0da2ef1eb27ede527a7e5832f490d845",
+            "questionBands": [
+              "1-3",
+              "4-5",
+              "6-8"
+            ],
+            "priorDecision": "new_lemma_sense",
+            "route": "new_lemma_and_sense",
+            "intendedSenseGroup": "sien:siens_his_people",
+            "status": "offline_import_plan_pending_complete_work_signoff"
+          },
+          "after": {
+            "route": "new_lemma_and_sense",
+            "partOfSpeech": "pronoun",
+            "lemma": "sien",
+            "intendedSenseGroup": "sien:siens_his_people"
+          },
+          "reason": "Bind the already planned attached-people meaning to proper pronoun ownership. Retain the special collective meaning under that canonical owner, not a plural spelling-only sense. The ordinary possession meaning for sienne uses the same pronoun lemma, independently of gender and number."
+        },
+        {
+          "file": "chapter-06-identity-targets-04.json",
+          "key": "sienne_chapter_06_04_158_280",
+          "fileSha256": "352834488c250bb17a99dc0095b10d8d4b6565d7785f755d24027905f62bd597",
+          "questionSha256": "4d6588f5152a6e7ace143e725c50d5c99b333de33c0f9d4f3565355e348e7ce8",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "sienne_chapter_06_04_158_280",
+            "form": "sienne",
+            "lemma": "sien",
+            "meaning": "his; his own, referring to his height",
+            "target": "new-prior:chapter-01-identity-plan.json:siens_his_people",
+            "questionSha256": "4d6588f5152a6e7ace143e725c50d5c99b333de33c0f9d4f3565355e348e7ce8",
+            "sourceOccurrencesSha256": "bf31f8a06a1746edf500586f00362f245425eb92ecdc4d8f77dfdc34df721d57",
+            "reviewNote": "La sienne resumes la grandeur of the measured companion. The earlier siens plan substantivizes a person’s group; this feminine singular possessive resumes an inanimate attribute. Prepare this ordinary possessive-reference sense on a proper possessive-pronoun lemma, reconciled with the earlier sien family rather than the people-group noun interpretation.",
+            "status": "explicit_identity_target_pending_final_reconciliation",
+            "earlierFileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e"
+          },
+          "after": {
+            "route": "new_sense_planned_lemma",
+            "target": "prior:chapter-01-identity-plan.json:siens_his_people",
+            "intendedSenseGroup": "sien:third_person_possession",
+            "partOfSpeech": "pronoun"
+          },
+          "reason": "The feminine singular resumes the other traveller’s height. Add ordinary third-person possession under the same proper pronoun owner, with generic reference to a possessed thing or attribute rather than a height-only or feminine-only meaning. Keep the group-bank distinction supported by the source and primary dictionary."
+        }
+      ],
+      "publishedImpacts": [],
+      "reviewNote": "Read the full I19 and V124 companion/troop passages and VI158 resumed-height passage, and all six bands. Académie1740 labels the core pronoun and its special substantive plural group use; Académie9 retains the special attached-people meaning under its pronoun section. One proper pronoun lemma sien owns both the lexical group use and ordinary third-person possession, rather than separate gender/number lemmas. The group meaning is not simply a plural version of possession: it denotes attached persons without an antecedent noun; la sienne resumes grandeur. All four feminine singular possessive alternatives fit la in the VI bank. Preserve the two contextual banks and do not invent a height-only meaning."
+    },
+    {
+      "family": "être",
+      "publishedLemmaSnapshot": [
+        {
+          "lemma": {
+            "id": "lem_etre",
+            "headword": "être",
+            "partOfSpeech": "verb"
+          },
+          "senses": [
+            {
+              "id": "sns_fr_etre_compound_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "be (compound-tense auxiliary)",
+              "definition": "Auxiliaire employé avec un participe passé pour former les temps composés de certains verbes."
+            },
+            {
+              "id": "sns_cendrillon_etre_forme_negative_elidee_construite_avec_ne_et_es_5e55760189",
+              "lemmaId": "lem_etre",
+              "gloss": "are not",
+              "definition": "forme négative élidée construite avec « ne » et « es »"
+            },
+            {
+              "id": "sns_etre_primary",
+              "lemmaId": "lem_etre",
+              "gloss": "to be (linking verb)",
+              "definition": "Relier un sujet à son état, sa qualité ou son identité ; les formes varient selon le temps et la personne."
+            },
+            {
+              "id": "sns_fr_etre_question_formula",
+              "lemmaId": "lem_etre",
+              "gloss": "question marker (in est-ce que)",
+              "definition": "Forme de être dans la locution interrogative est-ce que, qui introduit une question."
+            },
+            {
+              "id": "sns_fr_etre_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "had (past auxiliary)",
+              "definition": "Auxiliaire être employé pour former un temps composé."
+            },
+            {
+              "id": "sns_cendrillon_etre_forme_negative_elidee_construite_avec_ne_et_est_016b33b80a",
+              "lemmaId": "lem_etre",
+              "gloss": "is not",
+              "definition": "forme négative élidée construite avec « ne » et « est »"
+            },
+            {
+              "id": "sns_zola_etre_subjunctive",
+              "lemmaId": "lem_etre",
+              "gloss": "be",
+              "definition": "forme du subjonctif présent de être"
+            },
+            {
+              "id": "sns_fr_etre_existential",
+              "lemmaId": "lem_etre",
+              "gloss": "to exist; there is/are",
+              "definition": "Dans certaines constructions impersonnelles littéraires, exprime l’existence, comme il est des choses."
+            },
+            {
+              "id": "sns_parure_etre_definir_un_etat_une_caracteristique_du_sujet_151b22dfa3",
+              "lemmaId": "lem_etre",
+              "gloss": "to be",
+              "definition": "Définir un état, une caractéristique du sujet."
+            },
+            {
+              "id": "sns_parure_etre_reunion_elidee_de_que_et_de_la_forme_verbale_est_33ab1a468f",
+              "lemmaId": "lem_etre",
+              "gloss": "what is (in a question)",
+              "definition": "Réunion élidée du pronom interrogatif que et de est, notamment dans la formule qu’est-ce que."
+            },
+            {
+              "id": "sns_fr_etre_presence",
+              "lemmaId": "lem_etre",
+              "gloss": "to be present; to be at",
+              "definition": "Se trouver dans un lieu ou être présent à un événement."
+            },
+            {
+              "id": "sns_fr_etre_passive_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "be (passive auxiliary)",
+              "definition": "Auxiliaire suivi d’un participe passé pour exprimer la voix passive."
+            }
+          ]
+        }
+      ],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-01-batch-03.json",
+          "key": "etres_beings",
+          "fileSha256": "7a5f12f446e4173f8133054a0edcf2d39d94a26be6a6121d8fea29a352371f45",
+          "questionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+          "sourceOccurrences": [
+            {
+              "chapter": 1,
+              "unit": 6,
+              "start": 257,
+              "end": 262,
+              "text": "êtres",
+              "context": "Les États de quelques souverains d’Allemagne ou d’Italie, dont on peut faire le tour en une demi-heure, comparés à l’empire de Turquie, de Moscovie ou de la Chine, ne sont qu’une faible image des prodigieuses différences que la nature a mises dans tous les êtres."
+            },
+            {
+              "chapter": 2,
+              "unit": 34,
+              "start": 247,
+              "end": 252,
+              "text": "êtres",
+              "context": "— Je le crois bien, dit Micromégas ; car dans notre globe nous avons près de mille sens, et il nous reste encore je ne sais quel désir vague, je ne sais quelle inquiétude, qui nous avertit sans cesse que nous sommes peu de chose, et qu’il y a des êtres beaucoup plus parfaits."
+            },
+            {
+              "chapter": 2,
+              "unit": 49,
+              "start": 21,
+              "end": 26,
+              "text": "êtres",
+              "context": "Par exemple tous les êtres pensants sont différents, et tous se ressemblent au fond par le don de la pensée et des désirs."
+            },
+            {
+              "chapter": 2,
+              "unit": 58,
+              "start": 86,
+              "end": 91,
+              "text": "êtres",
+              "context": "Il apprit qu’on n’en comptait qu’une trentaine, comme Dieu, l’espace, la matière, les êtres étendus qui sentent, les êtres étendus qui sentent et qui pensent, les êtres pensants qui n’ont point d’étendue ; ceux qui se pénètrent, ceux qui ne se pénètrent pas, et le reste."
+            },
+            {
+              "chapter": 2,
+              "unit": 58,
+              "start": 117,
+              "end": 122,
+              "text": "êtres",
+              "context": "Il apprit qu’on n’en comptait qu’une trentaine, comme Dieu, l’espace, la matière, les êtres étendus qui sentent, les êtres étendus qui sentent et qui pensent, les êtres pensants qui n’ont point d’étendue ; ceux qui se pénètrent, ceux qui ne se pénètrent pas, et le reste."
+            },
+            {
+              "chapter": 2,
+              "unit": 58,
+              "start": 163,
+              "end": 168,
+              "text": "êtres",
+              "context": "Il apprit qu’on n’en comptait qu’une trentaine, comme Dieu, l’espace, la matière, les êtres étendus qui sentent, les êtres étendus qui sentent et qui pensent, les êtres pensants qui n’ont point d’étendue ; ceux qui se pénètrent, ceux qui ne se pénètrent pas, et le reste."
+            },
+            {
+              "chapter": 4,
+              "unit": 91,
+              "start": 131,
+              "end": 136,
+              "text": "êtres",
+              "context": "Ils se baissèrent, ils se couchèrent, ils tâtèrent partout ; mais leurs yeux et leurs mains n’étant point proportionnés aux petits êtres qui rampent ici, ils ne reçurent pas la moindre sensation qui pût leur faire soupçonner que nous et nos confrères les autres habitants de ce globe avons l’honneur d’exister."
+            },
+            {
+              "chapter": 6,
+              "unit": 134,
+              "start": 161,
+              "end": 166,
+              "text": "êtres",
+              "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+            },
+            {
+              "chapter": 6,
+              "unit": 164,
+              "start": 192,
+              "end": 197,
+              "text": "êtres",
+              "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+            },
+            {
+              "chapter": 6,
+              "unit": 165,
+              "start": 92,
+              "end": 97,
+              "text": "êtres",
+              "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme."
+            }
+          ],
+          "before": {
+            "key": "etres_beings",
+            "form": "êtres",
+            "lemma": "être",
+            "partOfSpeech": "noun masculine plural",
+            "meaning": "beings; entities",
+            "editorialNote": "Ten substantival uses denote beings broadly, especially living or thinking beings; the sense is not the finite verb être. Do not conflate the noun with other surface and grammar forms.",
+            "sourceOccurrences": [
+              {
+                "chapter": 1,
+                "unit": 6,
+                "start": 257,
+                "end": 262,
+                "text": "êtres"
+              },
+              {
+                "chapter": 2,
+                "unit": 34,
+                "start": 247,
+                "end": 252,
+                "text": "êtres"
+              },
+              {
+                "chapter": 2,
+                "unit": 49,
+                "start": 21,
+                "end": 26,
+                "text": "êtres"
+              },
+              {
+                "chapter": 2,
+                "unit": 58,
+                "start": 86,
+                "end": 91,
+                "text": "êtres"
+              },
+              {
+                "chapter": 2,
+                "unit": 58,
+                "start": 117,
+                "end": 122,
+                "text": "êtres"
+              },
+              {
+                "chapter": 2,
+                "unit": 58,
+                "start": 163,
+                "end": 168,
+                "text": "êtres"
+              },
+              {
+                "chapter": 4,
+                "unit": 91,
+                "start": 131,
+                "end": 136,
+                "text": "êtres"
+              },
+              {
+                "chapter": 6,
+                "unit": 134,
+                "start": 161,
+                "end": 166,
+                "text": "êtres"
+              },
+              {
+                "chapter": 6,
+                "unit": 164,
+                "start": 192,
+                "end": 197,
+                "text": "êtres"
+              },
+              {
+                "chapter": 6,
+                "unit": 165,
+                "start": 92,
+                "end": 97,
+                "text": "êtres"
+              }
+            ],
+            "status": "workwide_context_reviewed_question_signoff_pending",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Dans ce conte, d’autres êtres vivent sur les étoiles.",
+                "question": "Meaning",
+                "answer": "beings",
+                "choices": [
+                  "beings",
+                  "buildings",
+                  "numbers",
+                  "machines"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Ces ___ vivants et intelligents pensent et communiquent, même s’ils sont minuscules.",
+                "question": "Complétez la phrase.",
+                "answer": "êtres",
+                "choices": [
+                  "êtres",
+                  "objets",
+                  "cailloux",
+                  "meubles"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Les êtres du récit pensent et parlent. Les objets du laboratoire, comme les cailloux et les meubles, restent silencieux.",
+                "question": "Quel mot nomme les personnes ou créatures qui pensent dans ce récit ?",
+                "answer": "êtres",
+                "choices": [
+                  "êtres",
+                  "objets",
+                  "cailloux",
+                  "meubles"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-01-batch-22.json",
+          "key": "etre_living_being",
+          "fileSha256": "18279dd7a7af7ddb0c3502f09bb92e24e2dd23af728d4bcf8699a29f2fe0b32b",
+          "questionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+          "sourceOccurrences": [
+            {
+              "chapter": 1,
+              "unit": 26,
+              "start": 69,
+              "end": 73,
+              "text": "être",
+              "context": "Mais comme le Sirien avait un bon esprit, il comprit bien vite qu’un être pensant peut fort bien n’être pas ridicule pour n’avoir que six mille pieds de haut."
+            },
+            {
+              "chapter": 5,
+              "unit": 121,
+              "start": 103,
+              "end": 107,
+              "text": "être",
+              "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes."
+            }
+          ],
+          "before": {
+            "key": "etre_living_being",
+            "form": "être",
+            "lemma": "être",
+            "partOfSpeech": "noun masculine singular",
+            "meaning": "being; living creature",
+            "editorialNote": "Un être pensant and un être aussi imperceptible refer to individual beings. Infinitive être and Être éternel in the sense of God remain outside this contextual subset.",
+            "formCoverage": "contextual_sense_subset",
+            "sourceOccurrences": [
+              {
+                "chapter": 1,
+                "unit": 26,
+                "start": 69,
+                "end": 73,
+                "text": "être"
+              },
+              {
+                "chapter": 5,
+                "unit": 121,
+                "start": 103,
+                "end": 107,
+                "text": "être"
+              }
+            ],
+            "status": "workwide_context_reviewed_question_signoff_pending",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Un être pensant peut être très petit.",
+                "question": "Meaning",
+                "answer": "being",
+                "choices": [
+                  "being",
+                  "stone",
+                  "sentence",
+                  "number"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Cette créature est capable de penser : un ___ pensant.",
+                "question": "Complétez la phrase.",
+                "answer": "être",
+                "choices": [
+                  "être",
+                  "caillou",
+                  "calcul",
+                  "livre"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Cet être pensant est une créature capable de pensée. Le caillou est une pierre, un calcul est une opération et un livre est un ouvrage.",
+                "question": "Quel nom désigne cette créature ?",
+                "answer": "être",
+                "choices": [
+                  "être",
+                  "caillou",
+                  "calcul",
+                  "livre"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-07-batch-01.json",
+          "key": "être_chapter_07_01_169_36",
+          "fileSha256": "206b0dfdad857878a97748d234896ed06fe165575b0c377dfd0a05d533f56a5c",
+          "questionSha256": "594fce67e1363af7d193c0a58c6b3980c270b251443769f8d3e6212f33db9ef9",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 169,
+              "start": 36,
+              "end": 40,
+              "text": "Être",
+              "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits."
+            }
+          ],
+          "before": {
+            "form": "être",
+            "lemma": "être",
+            "partOfSpeech": "noun masculine singular",
+            "meaning": "being; an entity that exists",
+            "key": "être_chapter_07_01_169_36",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 169,
+                "start": 36,
+                "end": 40,
+                "text": "Être",
+                "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits.",
+                "targetText": "Être",
+                "question": "What does the highlighted word mean here?",
+                "answer": "being; an entity that exists",
+                "choices": [
+                  "being; an entity that exists",
+                  "a place",
+                  "a time",
+                  "a movement"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Le terme général pour ce qui existe, quelle que soit sa nature, est un ___.",
+                "question": "Complétez la phrase.",
+                "answer": "être",
+                "choices": [
+                  "être",
+                  "endroit",
+                  "moment",
+                  "mouvement"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel nom masculin désigne de manière générale une entité qui existe ?",
+                "question": "Quel mot convient ?",
+                "answer": "être",
+                "choices": [
+                  "être",
+                  "endroit",
+                  "moment",
+                  "mouvement"
+                ]
+              }
+            ],
+            "reviewNote": "L’Être éternel refers to the divine being, a noun rather than copular or auxiliary être. The earlier Chapter I plural general-entities plan and singular living-being plan were inspected. Share the general-entities meaning and reconcile the narrower singular wording; its new-sense route must be corrected to a proper French noun lemma before import; the published être verb cannot own this noun. Add a deity-context bank on general being, without claiming a material living creature or copying verb mastery. Être/endroit/moment/mouvement are masculine singular, and the general existence clue selects être."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "être",
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "route": "new_lemma_and_one_shared_sense",
+        "intendedSenseGroup": "être:etres_beings",
+        "gloss": "being; entity",
+        "definition": "Entité dotée d’une existence, de quelque nature qu’elle soit."
+      },
+      "routeOverrides": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "key": "etres_beings",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "questionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "etres_beings",
+            "form": "êtres",
+            "lemma": "être",
+            "meaning": "beings; entities",
+            "partOfSpeech": "noun masculine plural",
+            "sourceOccurrencesSha256": "f19c6ee5b6d64118a4ee622e105810a3f550eaee5db89799b757ee907d2ee808",
+            "workwideUseCount": 10,
+            "chapterOneUseCount": 1,
+            "questionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+            "questionBands": [
+              "1-3",
+              "4-5",
+              "6-8"
+            ],
+            "priorDecision": "new_sense_existing_lemma",
+            "route": "new_sense",
+            "intendedSenseGroup": "être:etres_beings",
+            "status": "offline_import_plan_pending_complete_work_signoff"
+          },
+          "after": {
+            "route": "new_lemma_and_sense",
+            "lemma": "être",
+            "partOfSpeech": "noun",
+            "intendedSenseGroup": "être:etres_beings"
+          },
+          "reason": "The nominal êtres denotes entities; the current published être owner is a verb. Create a proper noun owner and one general entity meaning, with plural surface preserved. No existing verb meaning or progress is changed."
+        },
+        {
+          "file": "chapter-01-identity-plan.json",
+          "key": "etre_living_being",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "questionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "etre_living_being",
+            "form": "être",
+            "lemma": "être",
+            "meaning": "being; living creature",
+            "partOfSpeech": "noun masculine singular",
+            "sourceOccurrencesSha256": "5d6aba624aac0df402fcb0c9f9fde9b1a3481449c7234c383fbb851fa6a4f926",
+            "workwideUseCount": 2,
+            "chapterOneUseCount": 1,
+            "questionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+            "questionBands": [
+              "1-3",
+              "4-5",
+              "6-8"
+            ],
+            "priorDecision": "separate",
+            "route": "new_sense",
+            "intendedSenseGroup": "être:etre_living_being",
+            "status": "offline_import_plan_pending_complete_work_signoff"
+          },
+          "after": {
+            "route": "link_planned_earlier_sense",
+            "target": "prior:chapter-01-identity-plan.json:etres_beings",
+            "intendedSenseGroup": "être:etres_beings",
+            "partOfSpeech": "noun"
+          },
+          "reason": "The singular thinking/tiny creature is an entity of the same general type already proposed for êtres. Share the canonical noun meaning while retaining the singular contextual bank; no extra meaning is created only for singularity or a currently living referent."
+        },
+        {
+          "file": "chapter-07-identity-targets-01.json",
+          "key": "être_chapter_07_01_169_36",
+          "fileSha256": "e03d2a7c1d38fe5538a4c21a9d9369fbc19db7c0c327c495cc7de9f8f3278968",
+          "questionSha256": "594fce67e1363af7d193c0a58c6b3980c270b251443769f8d3e6212f33db9ef9",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "être_chapter_07_01_169_36",
+            "form": "être",
+            "lemma": "être",
+            "meaning": "being; an entity that exists",
+            "target": "prior:chapter-01-identity-plan.json:etres_beings",
+            "questionSha256": "594fce67e1363af7d193c0a58c6b3980c270b251443769f8d3e6212f33db9ef9",
+            "sourceOccurrencesSha256": "5770084ff38d92bc79e70322e123bc11e5e14fcfbb9a15f3ab4777a71db1e2eb",
+            "reviewNote": "L’Être éternel refers to the divine being, a noun rather than copular or auxiliary être. The earlier Chapter I plural general-entities plan and singular living-being plan were inspected. Share the general-entities meaning and reconcile the narrower singular wording; its new-sense route must be corrected to a proper French noun lemma before import; the published être verb cannot own this noun. Add a deity-context bank on general being, without claiming a material living creature or copying verb mastery. Être/endroit/moment/mouvement are masculine singular, and the general existence clue selects être.",
+            "status": "explicit_identity_target_pending_final_reconciliation",
+            "earlierFileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e"
+          },
+          "after": {
+            "route": "link_planned_earlier_sense",
+            "target": "prior:chapter-01-identity-plan.json:etres_beings",
+            "partOfSpeech": "noun"
+          },
+          "reason": "The divine being is an entity qualified by éternel, under the proper noun owner and broad entity meaning. Preserve the exact capitalized surface in source and its contextual bank; do not route this noun to the published verb."
+        }
+      ],
+      "publishedImpacts": [],
+      "reviewNote": "Read all thirteen noun spans in their full source units: I6/26, II34/49/58 (three), IV91, V121, VI134/164/165 and VII169. Read all nine singular/plural/divine-context question bands. The beings vary in size, thought and materiality; the divine referent is a being qualified by éternel. Académie9 separates the noun from the verb and includes animate, inanimate, imagined and divine entities. One general noun entity meaning covers the authored living-creature subset too; no singular-only meaning is required. Prepare proper masculine noun ownership, retaining contextual banks and every published verb record. Noun middle alternatives are all masculine and match singular/plural agreement. Only offline duplicate meaning proposals are reconciled; no learner progress has been created or transferred."
+    },
+    {
+      "family": "sage",
+      "publishedLemmaSnapshot": [
+        {
+          "lemma": {
+            "id": "lem_sage",
+            "headword": "sage",
+            "partOfSpeech": "adjective"
+          },
+          "senses": [
+            {
+              "id": "sns_sage_primary",
+              "lemmaId": "lem_sage",
+              "gloss": "Sage is the adjective wise/sensible.",
+              "definition": "Sage is the adjective wise/sensible."
+            }
+          ]
+        }
+      ],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-01-batch-20.json",
+          "key": "sages_wise_people",
+          "fileSha256": "4fb596f3bd27b0ff2a0f1f1d10f73f1e805e0dff840f1e47d6e7adc2fd6ecce8",
+          "questionSha256": "12e2eff21b3649d74e686c268c618b68824608f23cb2632eafdad459c0aec957",
+          "sourceOccurrences": [
+            {
+              "chapter": 1,
+              "unit": 23,
+              "start": 203,
+              "end": 208,
+              "text": "sages",
+              "context": "Quelque accoutumé qu’il fût à voir des choses nouvelles, il ne put d’abord, en voyant la petitesse du globe et de ses habitants, se défendre de ce sourire de supériorité qui échappe quelquefois aux plus sages."
+            },
+            {
+              "chapter": 7,
+              "unit": 185,
+              "start": 40,
+              "end": 45,
+              "text": "sages",
+              "context": "« Puisque vous êtes du petit nombre des sages, dit-il à ces messieurs, et qu’apparemment vous ne tuez personne pour de l’argent, dites-moi, je vous en prie, à quoi vous vous occupez. — Nous disséquons des mouches, dit le philosophe, nous mesurons des lignes, nous assemblons des nombres ; nous sommes d’accord sur deux ou trois points que nous entendons, et nous disputons sur deux ou trois mille que nous n’entendons pas. »"
+            }
+          ],
+          "before": {
+            "key": "sages_wise_people",
+            "form": "sages",
+            "lemma": "sage",
+            "partOfSpeech": "substantive adjective masculine plural",
+            "meaning": "wise people",
+            "editorialNote": "Aux plus sages and later du petit nombre des sages both designate people of sound judgment, not merely a well-behaved child.",
+            "formCoverage": "complete_exact_form",
+            "sourceOccurrences": [
+              {
+                "chapter": 1,
+                "unit": 23,
+                "start": 203,
+                "end": 208,
+                "text": "sages"
+              },
+              {
+                "chapter": 7,
+                "unit": 185,
+                "start": 40,
+                "end": 45,
+                "text": "sages"
+              }
+            ],
+            "status": "workwide_context_reviewed_question_signoff_pending",
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Un sourire échappe quelquefois aux plus sages.",
+                "question": "Meaning",
+                "answer": "wisest people",
+                "choices": [
+                  "wisest people",
+                  "youngest people",
+                  "wealthiest people",
+                  "tallest people"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Même les personnes dotées de jugement ne l’évitent pas : les plus ___.",
+                "question": "Complétez la phrase.",
+                "answer": "sages",
+                "choices": [
+                  "sages",
+                  "jeunes",
+                  "riches",
+                  "grands"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Les plus sages sont les personnes au jugement le plus sûr. Les plus jeunes ont le moins d’années, les plus riches ont le plus de biens et les plus grands ont la plus grande taille.",
+                "question": "Quel mot désigne les personnes au meilleur jugement ?",
+                "answer": "sages",
+                "choices": [
+                  "sages",
+                  "jeunes",
+                  "riches",
+                  "grands"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "file": "chapter-07-batch-05.json",
+          "key": "sage_chapter_07_05_203_52",
+          "fileSha256": "d13b78b814e2540950d148c7804e1bc826fec42be0b4ffa3878b6748e9d6aa2f",
+          "questionSha256": "1196165386e2658fc585df6b1cfdad83c362bf688fe21a9883d6770393661b1b",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 203,
+              "start": 52,
+              "end": 56,
+              "text": "sage",
+              "context": "Alors M. Micromégas, adressant la parole à un autre sage qu’il tenait sur son pouce, lui demanda ce que c’était que son âme, et ce qu’elle faisait."
+            },
+            {
+              "chapter": 7,
+              "unit": 204,
+              "start": 223,
+              "end": 227,
+              "text": "sage",
+              "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+            }
+          ],
+          "before": {
+            "form": "sage",
+            "lemma": "sage",
+            "partOfSpeech": "noun masculine singular wise person",
+            "meaning": "wise person; a person of sound judgment",
+            "key": "sage_chapter_07_05_203_52",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 203,
+                "start": 52,
+                "end": 56,
+                "text": "sage",
+                "context": "Alors M. Micromégas, adressant la parole à un autre sage qu’il tenait sur son pouce, lui demanda ce que c’était que son âme, et ce qu’elle faisait."
+              },
+              {
+                "chapter": 7,
+                "unit": 204,
+                "start": 223,
+                "end": 227,
+                "text": "sage",
+                "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Alors M. Micromégas, adressant la parole à un autre sage qu’il tenait sur son pouce, lui demanda ce que c’était que son âme, et ce qu’elle faisait.",
+                "targetText": "sage",
+                "question": "What does the highlighted word mean here?",
+                "answer": "wise person; a person of sound judgment",
+                "choices": [
+                  "wise person; a person of sound judgment",
+                  "a fool",
+                  "a reckless person",
+                  "an ignorant person"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Une personne au jugement sûr, plutôt qu’un insensé ou un imprudent, est un ___.",
+                "question": "Complétez la phrase.",
+                "answer": "sage",
+                "choices": [
+                  "sage",
+                  "insensé",
+                  "imprudent",
+                  "ignorant"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel nom masculin désigne une personne au jugement sûr ?",
+                "question": "Quel mot convient ?",
+                "answer": "sage",
+                "choices": [
+                  "sage",
+                  "insensé",
+                  "imprudent",
+                  "ignorant"
+                ]
+              }
+            ],
+            "reviewNote": "Un autre sage and le sage de Sirius name persons, whereas unit209 le moins sage predicates wisdom and retains the published adjective bank. The earlier I sages wise-people bank and identity plan were read in all bands. Add the singular noun surface to the same planned nominal meaning, correcting the earlier substantive-adjective route to proper nominal ownership before import. Sage/insensé/imprudent/ignorant are masculine singular nouns after un. No singular-only or philosopher-only meaning is made, and the label does not certify a character’s knowledge."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "sage",
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "route": "new_lemma_and_one_shared_sense",
+        "intendedSenseGroup": "sage:sages_wise_people",
+        "definition": "Personne qui fait preuve de sagesse et de jugement."
+      },
+      "routeOverrides": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "key": "sages_wise_people",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "questionSha256": "12e2eff21b3649d74e686c268c618b68824608f23cb2632eafdad459c0aec957",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "sages_wise_people",
+            "form": "sages",
+            "lemma": "sage",
+            "meaning": "wise people",
+            "partOfSpeech": "substantive adjective masculine plural",
+            "sourceOccurrencesSha256": "5144c4413345fbb376a359dec292ac1fe46a17849d7111a4f4ce430f3948b632",
+            "workwideUseCount": 2,
+            "chapterOneUseCount": 1,
+            "questionSha256": "12e2eff21b3649d74e686c268c618b68824608f23cb2632eafdad459c0aec957",
+            "questionBands": [
+              "1-3",
+              "4-5",
+              "6-8"
+            ],
+            "priorDecision": "new_sense_existing_lemma",
+            "route": "new_sense",
+            "intendedSenseGroup": "sage:sages_wise_people",
+            "status": "offline_import_plan_pending_complete_work_signoff"
+          },
+          "after": {
+            "route": "new_lemma_and_sense",
+            "lemma": "sage",
+            "partOfSpeech": "noun",
+            "intendedSenseGroup": "sage:sages_wise_people"
+          },
+          "reason": "The earlier plural names persons rather than qualifying a noun. Create proper noun sage and a generic wise-person sense, shared with the VII singular. Preserve the adjective owner and all adjective learner records."
+        },
+        {
+          "file": "chapter-07-identity-targets-05.json",
+          "key": "sage_chapter_07_05_203_52",
+          "fileSha256": "c9f3dccf8c687d35bd811451b9a6de641f04406807c79a24095333dbd2053788",
+          "questionSha256": "1196165386e2658fc585df6b1cfdad83c362bf688fe21a9883d6770393661b1b",
+          "sourceOccurrences": [],
+          "before": {
+            "key": "sage_chapter_07_05_203_52",
+            "form": "sage",
+            "lemma": "sage",
+            "meaning": "wise person; a person of sound judgment",
+            "target": "new-prior:chapter-01-batch-20.json:sages_wise_people",
+            "questionSha256": "1196165386e2658fc585df6b1cfdad83c362bf688fe21a9883d6770393661b1b",
+            "sourceOccurrencesSha256": "8dd1226031dbf6fab98f14a0631ec219c44db79437e856e7db3a0f2f92922832",
+            "reviewNote": "Un autre sage and le sage de Sirius name persons, whereas unit209 le moins sage predicates wisdom and retains the published adjective bank. The earlier I sages wise-people bank and identity plan were read in all bands. Add the singular noun surface to the same planned nominal meaning, correcting the earlier substantive-adjective route to proper nominal ownership before import. Sage/insensé/imprudent/ignorant are masculine singular nouns after un. No singular-only or philosopher-only meaning is made, and the label does not certify a character’s knowledge.",
+            "status": "explicit_identity_target_pending_final_reconciliation",
+            "earlierFileSha256": "4fb596f3bd27b0ff2a0f1f1d10f73f1e805e0dff840f1e47d6e7adc2fd6ecce8"
+          },
+          "after": {
+            "route": "link_planned_earlier_sense",
+            "target": "prior:chapter-01-identity-plan.json:sages_wise_people",
+            "partOfSpeech": "noun"
+          },
+          "reason": "The singular wise persons in un autre sage and le sage share the proper nominal wise-person meaning already proposed for sages. Keep the exact singular surface and existing contextual bank, without a singular-only or philosopher-only meaning."
+        }
+      ],
+      "publishedImpacts": [
+        {
+          "file": "whole-work-impact-sage-02.json",
+          "sha256": "14b0b12abb5863454c17fc742c1b5761646879ebe62b636e0185aafc1c042e11"
+        }
+      ],
+      "reviewNote": "Read I23 and VII185/203/204 nominal wise-person uses in full, and all six singular/plural noun bands. Read the three active adjective uses and all three stored adjective banks; no historical dependent bank exists. The adjective describes sound judgment of a subject or quality; the noun names a wise person. Correct the earlier substantive-adjective route to a proper noun owner shared by sages and sage. All middle options remain masculine singular/plural substantive nouns as required by their source sentences. The published adjective’s English dictionary-placeholder metadata can be replaced by an equivalent French definition and concise English gloss without changing its meaning, IDs, questions or mastery; every affected use/band has been individually inspected.",
+      "sharedSenseChanges": [
+        {
+          "id": "sns_sage_primary",
+          "before": {
+            "id": "sns_sage_primary",
+            "lemmaId": "lem_sage",
+            "gloss": "Sage is the adjective wise/sensible.",
+            "definition": "Sage is the adjective wise/sensible."
+          },
+          "beforeSha256": "c6a599556b46c7191b325090503ed348a74337b6e0b43c8ee925f6f0d9a814a9",
+          "after": {
+            "id": "sns_sage_primary",
+            "lemmaId": "lem_sage",
+            "gloss": "wise; sensible",
+            "definition": "Qui fait preuve de jugement, de raison et de prudence."
+          },
+          "reason": "The complete impact was read: two predicative fable uses and wise patriotism express reasoned judgment; all three dependent banks teach the same meaning. Replace English placeholder prose with proper French lexical metadata and concise English gloss, preserving the sense ID and all learner mastery. Exact approvals must be rebound to the completed transaction revision.",
+          "afterSha256": "a388e4a9e1afa6ae5829ba96738d6fc7482f2bb5c64f8671a1e60193d01cf00d"
+        }
+      ]
+    },
+    {
+      "family": "fou",
+      "publishedLemmaSnapshot": [
+        {
+          "lemma": {
+            "id": "lem_zola_fou",
+            "headword": "fou",
+            "partOfSpeech": "adjective"
+          },
+          "senses": [
+            {
+              "id": "sns_fr_fou_emotion_intense",
+              "lemmaId": "lem_zola_fou",
+              "gloss": "wild with emotion",
+              "definition": "Emporté par une émotion si forte qu’elle semble faire perdre toute mesure."
+            },
+            {
+              "id": "sns_zola_fou_mad",
+              "lemmaId": "lem_zola_fou",
+              "gloss": "mad; irrational",
+              "definition": "qui manque entièrement de raison ou de mesure"
+            }
+          ]
+        }
+      ],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-07-batch-02.json",
+          "key": "fous_chapter_07_02_171_226",
+          "fileSha256": "7fe137cda918d3b6222ccd579b18dea7bb6584b09627e7ab5a6017010dcfb1c9",
+          "questionSha256": "c7288fa9ec5b095dc56d52cdf4aba77743d8cf8d293ff99eecee006f0d2fdcd1",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 171,
+              "start": 226,
+              "end": 230,
+              "text": "fous",
+              "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux."
+            },
+            {
+              "chapter": 7,
+              "unit": 173,
+              "start": 80,
+              "end": 84,
+              "text": "fous",
+              "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+            }
+          ],
+          "before": {
+            "form": "fous",
+            "lemma": "fou",
+            "partOfSpeech": "noun masculine plural",
+            "meaning": "madmen; people lacking reason",
+            "key": "fous_chapter_07_02_171_226",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 171,
+                "start": 226,
+                "end": 230,
+                "text": "fous",
+                "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux."
+              },
+              {
+                "chapter": 7,
+                "unit": 173,
+                "start": 80,
+                "end": 84,
+                "text": "fous",
+                "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux.",
+                "targetText": "fous",
+                "question": "What does the highlighted word mean here?",
+                "answer": "madmen; people lacking reason",
+                "choices": [
+                  "madmen; people lacking reason",
+                  "wise people",
+                  "righteous people",
+                  "scholars"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Ces personnes sont entièrement dépourvues de raison : ce sont des ___.",
+                "question": "Complétez la phrase.",
+                "answer": "fous",
+                "choices": [
+                  "fous",
+                  "sages",
+                  "justes",
+                  "savants"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel nom masculin pluriel désigne ici des personnes qui manquent de raison ?",
+                "question": "Quel mot convient ?",
+                "answer": "fous",
+                "choices": [
+                  "fous",
+                  "sages",
+                  "justes",
+                  "savants"
+                ]
+              }
+            ],
+            "reviewNote": "Both fous uses name people, including combatants judged irrational, rather than directly describing a following noun. The global fou family is an adjective only; it cannot silently own this noun. Prepare a proper French noun lemma and irrational-person meaning, preserving adjective mastery. Fous/sages/justes/savants are masculine plural substantive nouns; lack of reason selects fous."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "fou",
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "route": "new_lemma_and_sense",
+        "intendedSenseGroup": "fou:irrational_person",
+        "definition": "Personne jugée dépourvue de raison ou de bon sens."
+      },
+      "routeOverrides": [],
+      "publishedImpacts": [
+        {
+          "file": "whole-work-impact-fou-adjective-02.json",
+          "sha256": "8c01d5635a0a47b77bf1ed14d468dc8050c3413c3a37b570d6b7e9d9e58bcb08"
+        },
+        {
+          "file": "whole-work-impact-fou-emotion-02.json",
+          "sha256": "bcc9dbeb21fa377dc2b15b912823284b6ff8e955fd3e8330343745a48cee4120"
+        }
+      ],
+      "reviewNote": "Read VII171 and173 in full and the three plural noun bands. Read every existing mad/irrational adjective and emotion adjective use (four full passages) and all twelve stored bands. Fous names persons in the satirical argument, rather than modifying an expressed noun; the emotion meaning is separate from the noun and from the existing irrational adjective. Prepare one proper masculine noun owner and generic irrational-person sense. Fous/sages/justes/savants are all masculine plural substantive nouns, and the lack-of-reason clue selects the target. Preserve both existing adjective meanings, all active questions and learner mastery; no clinical or combatant-only meaning is created."
+    },
+    {
+      "family": "rire",
+      "publishedLemmaSnapshot": [
+        {
+          "lemma": {
+            "id": "lem_cendrillon_rire_verb_b8ffecde49",
+            "headword": "rire",
+            "partOfSpeech": "verb"
+          },
+          "senses": [
+            {
+              "id": "sns_fr_rire_laugh",
+              "lemmaId": "lem_cendrillon_rire_verb_b8ffecde49",
+              "gloss": "to laugh",
+              "definition": "Exprimer la gaieté ou l’amusement par le rire."
+            },
+            {
+              "id": "sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c",
+              "lemmaId": "lem_cendrillon_rire_verb_b8ffecde49",
+              "gloss": "to laugh",
+              "definition": "Marquer un sentiment de gaieté par un mouvement de la bouche accompagné souvent de bruit et par une expression correspondante des regards et des traits du visage."
+            }
+          ]
+        }
+      ],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-07-batch-06.json",
+          "key": "rire_chapter_07_06_211_90",
+          "fileSha256": "9deaef10aaac098459906ba5db55b431d762abb0f39805628b2fc6d4d7155d24",
+          "questionSha256": "dc3d40e24ee50ef5a2278b94f6a1833a97e411d33ade15b55f7cc74d0b7e5f6b",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 211,
+              "start": 90,
+              "end": 94,
+              "text": "rire",
+              "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+            }
+          ],
+          "before": {
+            "form": "rire",
+            "lemma": "rire",
+            "partOfSpeech": "noun masculine singular laughter",
+            "meaning": "laughter; an audible expression of amusement",
+            "key": "rire_chapter_07_06_211_90",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 211,
+                "start": 90,
+                "end": 94,
+                "text": "rire",
+                "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien.",
+                "targetText": "rire",
+                "question": "What does the highlighted word mean here?",
+                "answer": "laughter; an audible expression of amusement",
+                "choices": [
+                  "laughter; an audible expression of amusement",
+                  "a sob",
+                  "a cry",
+                  "a sigh"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "La manifestation sonore de gaieté qui secoue les voyageurs est ce ___.",
+                "question": "Complétez la phrase.",
+                "answer": "rire",
+                "choices": [
+                  "rire",
+                  "sanglot",
+                  "cri",
+                  "soupir"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel nom masculin désigne la manifestation de gaieté produite en riant ?",
+                "question": "Quel mot convient ?",
+                "answer": "rire",
+                "choices": [
+                  "rire",
+                  "sanglot",
+                  "cri",
+                  "soupir"
+                ]
+              }
+            ],
+            "reviewNote": "Ce rire inextinguible is a masculine singular noun, not the exact published infinitive rire. The complete exact verb bank and global/earlier proper lemma inventory were read; only verb owners exist. Prepare proper French rire noun ownership, keeping the verb separate rather than attaching a noun to it. Rire/sanglot/cri/soupir are masculine singular nouns after ce. Gaiety distinguishes laughter from sobbing, crying out or sighing, and no deity-only meaning is made."
+          }
+        }
+      ],
+      "questionChanges": [
+        {
+          "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_4_5",
+          "before": {
+            "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_4_5",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_fr_riant_rire_verb",
+              "senseId": "sns_fr_rire_laugh"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "Il accueille cette plaisanterie en _____ de bon cœur.",
+            "choices": [
+              {
+                "id": "choice_1",
+                "text": "rit"
+              },
+              {
+                "id": "choice_2",
+                "text": "rirent"
+              },
+              {
+                "id": "choice_3",
+                "text": "riant"
+              },
+              {
+                "id": "choice_4",
+                "text": "rire"
+              }
+            ],
+            "correctChoiceId": "choice_3"
+          },
+          "beforeSha256": "32cd91da6f0943ab41243d51fe7796d4346755e16bc25b01762c6d4bbf6b05da",
+          "after": {
+            "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_4_5",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_fr_riant_rire_verb",
+              "senseId": "sns_fr_rire_laugh"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "Ses éclats de gaieté expriment son amusement : il répond en _____.",
+            "choices": [
+              {
+                "id": "choice_1",
+                "text": "riant"
+              },
+              {
+                "id": "choice_2",
+                "text": "pleurant"
+              },
+              {
+                "id": "choice_3",
+                "text": "gémissant"
+              },
+              {
+                "id": "choice_4",
+                "text": "soupirant"
+              }
+            ],
+            "correctChoiceId": "choice_1"
+          },
+          "afterSha256": "213eb8b47e5f0ce40715411281b804b945c23568d3c155a0f6be0bf9b093182f",
+          "reason": "The full riant source and all three dependent questions were read. Replace the inflection-only alternatives with four present participles fitting en. Audible gaiety and amusement select laughing rather than tears, groans or sighs. Preserve the existing surface/sense identity, question ID and mastery."
+        },
+        {
+          "id": "qiz_cendrillon_riroit_sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c_80be53988d_intermediate",
+          "before": {
+            "id": "qiz_cendrillon_riroit_sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c_80be53988d_intermediate",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9",
+              "senseId": "sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "Elle _____ en voyant ce drôle de dessin.",
+            "choices": [
+              {
+                "id": "choice_5",
+                "text": "rire"
+              },
+              {
+                "id": "choice_6",
+                "text": "riant"
+              },
+              {
+                "id": "choice_1",
+                "text": "riroit"
+              },
+              {
+                "id": "choice_7",
+                "text": "riroient"
+              }
+            ],
+            "correctChoiceId": "choice_1"
+          },
+          "beforeSha256": "d62a2e76877aa21be3188844d39cb61e8382c2ed5f42a88d8ed312ed2f90fc4d",
+          "after": {
+            "id": "qiz_cendrillon_riroit_sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c_80be53988d_intermediate",
+            "language": "fr",
+            "glossLanguage": "en",
+            "subject": {
+              "kind": "vocabulary",
+              "surfaceFormId": "srf_cendrillon_riroit_lem_cendrillon_rire_verb_b8ffecde49_bc5998e2c9",
+              "senseId": "sns_cendrillon_rire_marquer_un_sentiment_de_gaiete_par_un_mouvement_de_la_bouche_accompagne_souvent_de_bruit_et_par_une_expression_correspondante_des_regards_et_des_traits_du_visage_42d3040d9c"
+            },
+            "band": "levels_4_5",
+            "format": "surface_completion",
+            "context": "Cette plaisanterie l’amuseroit et provoquerait des éclats de gaieté : elle _____ en l’entendant.",
+            "choices": [
+              {
+                "id": "choice_1",
+                "text": "riroit"
+              },
+              {
+                "id": "choice_2",
+                "text": "pleureroit"
+              },
+              {
+                "id": "choice_3",
+                "text": "gémiroit"
+              },
+              {
+                "id": "choice_4",
+                "text": "sangloteroit"
+              }
+            ],
+            "correctChoiceId": "choice_1"
+          },
+          "afterSha256": "0800445d8bb8d9b52112aa74d5f93cb9274c69c61fc879c04a2c8c3257214d8d",
+          "reason": "Read the full hypothetical fable source and all three stored riroit questions. Four historical conditional singular verbs fit elle; the amusement/gaiety clue selects laughter rather than tears or distress. The old spelling remains the stored surface of generic laughing, not a conditional-only meaning. Preserve the question ID and learner progress."
+        }
+      ],
+      "canonicalOwner": {
+        "headword": "rire",
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "route": "new_lemma_and_sense",
+        "intendedSenseGroup": "rire:laughter",
+        "definition": "Manifestation de gaieté ou d’amusement, généralement accompagnée de sons."
+      },
+      "routeOverrides": [],
+      "publishedImpacts": [
+        {
+          "file": "whole-work-impact-rire-verb-02.json",
+          "sha256": "7e9c4b943a4ed923067e9141ac01baef6f119ba6b75c469cddabd8192cdcf10b"
+        },
+        {
+          "file": "whole-work-impact-rire-dictionary-02.json",
+          "sha256": "b0b50bd6499e5b1f4fdc1bc8066e18fbd227b0fe864a7eedfd56a2ed4cca87a1"
+        }
+      ],
+      "reviewNote": "Read the complete VII211 nominal laughter unit and all three noun bands, plus every active riant/rire/riroit source and all nine stored verb bands. The noun names the audible expression, while the infinitive and participles express laughing. Prepare a separate proper noun owner; rire/sanglot/cri/soupir are masculine singular after ce. Both existing generic laugh senses and learner identities are retained; their overlap does not justify copying or merging mastery. Replace the two deficient verb middle banks with four grammatical meaning alternatives, leaving other bands and meaning IDs unchanged. No tense-only meaning or divine-only laughter sense is introduced."
+    },
+    {
+      "family": "menu",
+      "publishedLemmaSnapshot": [
+        {
+          "lemma": {
+            "id": "lem_cendrillon_menu_adjective_96369decd9",
+            "headword": "menu",
+            "partOfSpeech": "adjective"
+          },
+          "senses": [
+            {
+              "id": "sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa",
+              "lemmaId": "lem_cendrillon_menu_adjective_96369decd9",
+              "gloss": "slim, small, fine",
+              "definition": "Qui est délié, qui a peu de volume, peu de grosseur."
+            }
+          ]
+        }
+      ],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-07-batch-07.json",
+          "key": "menu_chapter_07_07_214_69",
+          "fileSha256": "87383545202021d1a7d13b7ee1d2b1f1d7d939db3089b4a7112d9652db59d8a7",
+          "questionSha256": "3ca4883626a6f9a8630e3b1aaa7dd8c89e938d9728f810afd67679311a86a3b2",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 214,
+              "start": 69,
+              "end": 73,
+              "text": "menu",
+              "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+            }
+          ],
+          "before": {
+            "form": "menu",
+            "lemma": "menu",
+            "partOfSpeech": "adverb",
+            "meaning": "small; in very small writing",
+            "key": "menu_chapter_07_07_214_69",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 214,
+                "start": 69,
+                "end": 73,
+                "text": "menu",
+                "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+                "targetText": "menu",
+                "question": "What does the highlighted word mean here?",
+                "answer": "small; in very small writing",
+                "choices": [
+                  "small; in very small writing",
+                  "large",
+                  "quickly",
+                  "slowly"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Les lettres sont minuscules : il écrit ___.",
+                "question": "Complétez la phrase.",
+                "answer": "menu",
+                "choices": [
+                  "menu",
+                  "gros",
+                  "vite",
+                  "lentement"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel adverbe indique ici une écriture en lettres très petites ?",
+                "question": "Quel mot convient ?",
+                "answer": "menu",
+                "choices": [
+                  "menu",
+                  "gros",
+                  "vite",
+                  "lentement"
+                ]
+              }
+            ],
+            "reviewNote": "Écrit fort menu describes the small size of the writing, not a meal list or a slender noun referent. Académie7 explicitly places écrire menu under adverbial menu; Académie9 also labels this use adverbial. The complete existing menuë adjective bank was read. Prepare proper adverbial menu ownership and a fine/small manner meaning, comparing the adjacent adjective core without assigning this invariant adverb to the published adjective lemma. All four adverbs fit il écrit; only menu states tiny lettering."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "menu",
+        "partOfSpeech": "adverb",
+        "route": "new_lemma_and_sense",
+        "intendedSenseGroup": "menu:fine_small_manner",
+        "definition": "D’une manière fine ou en petits éléments ; pour l’écriture, en petits caractères."
+      },
+      "routeOverrides": [],
+      "publishedImpacts": [
+        {
+          "file": "whole-work-impact-menu-02.json",
+          "sha256": "887fc5db21273a54f685857536271ab6674d7fee0b4ba9153251d69267bbd5b6"
+        }
+      ],
+      "reviewNote": "Read the full VII214 tiny-writing passage and all three adverb bands, and the complete Cendrillon10 slender-waist passage and all three published menuë adjective bands. The invariant manner adverb modifies écrit, rather than qualifying livre as a menu noun or an adjective. The saved Académie7/9 evidence explicitly supports writing menu as adverbial. Prepare a proper adverb owner and generic fine/small manner sense; the adjective menuë and all learner mastery remain unchanged. Menu/gros/vite/lentement are complete adverb alternatives after il écrit; the small-lettering clue distinguishes size from speed."
+    },
+    {
+      "family": "malebranchiste",
+      "publishedLemmaSnapshot": [],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-07-batch-05.json",
+          "key": "malebranchiste_chapter_07_05_204_39",
+          "fileSha256": "d13b78b814e2540950d148c7804e1bc826fec42be0b4ffa3878b6748e9d6aa2f",
+          "questionSha256": "96939fe9e3ec4402ebdd0fc73f41acf01e98f2a1b8a9c93e1cbed9eafecf8671",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 204,
+              "start": 39,
+              "end": 53,
+              "text": "malebranchiste",
+              "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+            }
+          ],
+          "before": {
+            "form": "malebranchiste",
+            "lemma": "malebranchiste",
+            "partOfSpeech": "adjective masculine singular philosophical affiliation",
+            "meaning": "Malebranchean; following Malebranche’s philosophy",
+            "key": "malebranchiste_chapter_07_05_204_39",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 204,
+                "start": 39,
+                "end": 53,
+                "text": "malebranchiste",
+                "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius.",
+                "targetText": "malebranchiste",
+                "question": "What does the highlighted word mean here?",
+                "answer": "Malebranchean; following Malebranche’s philosophy",
+                "choices": [
+                  "Malebranchean; following Malebranche’s philosophy",
+                  "Cartesian; following Descartes",
+                  "Aristotelian; following Aristotle",
+                  "Leibnizian; following Leibniz"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "Ce philosophe adhère au système de Malebranche : il est ___.",
+                "question": "Complétez la phrase.",
+                "answer": "malebranchiste",
+                "choices": [
+                  "malebranchiste",
+                  "cartésien",
+                  "péripatéticien",
+                  "leibnitzien"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel adjectif désigne l’adhésion au système philosophique de Malebranche ?",
+                "question": "Quel mot convient ?",
+                "answer": "malebranchiste",
+                "choices": [
+                  "malebranchiste",
+                  "cartésien",
+                  "péripatéticien",
+                  "leibnitzien"
+                ]
+              }
+            ],
+            "reviewNote": "Le philosophe malebranchiste uses an adjective modifying philosophe, rather than a stand-alone follower noun. The primary nineteenth-century Larousse entry explicitly separates the adjective belonging to Malebranche’s philosophical system from the masculine follower noun; the reproduced Littré follower entry provides independent lexical comparison. No proper earlier/global malebranchiste owner exists. Prepare proper French adjective ownership. All four masculine singular philosophical-affiliation predicates fit ce philosophe; the named school distinguishes them. The bank does not endorse the character’s claimed divine agency."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "malebranchiste",
+        "partOfSpeech": "adjective",
+        "route": "new_lemma_and_sense",
+        "intendedSenseGroup": "malebranchiste:philosophical_affiliation"
+      },
+      "routeOverrides": [],
+      "publishedImpacts": [],
+      "reviewNote": "Read the complete VII204 philosophical reply and all three affiliation bands again, including all four adjective alternatives. The modifier belongs to philosophe. The saved primary Larousse lexical evidence separates the adjective from its follower noun; the current French inventory contains neither owner. Retain the prepared proper adjective route and one general philosophical-affiliation meaning, without a new follower-noun or character-specific meaning. No existing published identity or learner progress is reassigned."
+    },
+    {
+      "family": "saint",
+      "publishedLemmaSnapshot": [],
+      "publishedDecision": "preserve_other_parts_of_speech_and_existing_mastery",
+      "candidateBindings": [
+        {
+          "file": "chapter-07-batch-06.json",
+          "key": "saint_chapter_07_06_210_205",
+          "fileSha256": "9deaef10aaac098459906ba5db55b431d762abb0f39805628b2fc6d4d7155d24",
+          "questionSha256": "dd327fa8c0574ecb6e4719bd46f67a40ed2aa49f378bdc96949e6dabc5cd4494",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 205,
+              "end": 210,
+              "text": "saint",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "before": {
+            "form": "saint",
+            "lemma": "saint",
+            "partOfSpeech": "adjective masculine singular religious sanctity before a name",
+            "meaning": "saint; holy, as a religious qualification before a name",
+            "key": "saint_chapter_07_06_210_205",
+            "status": "offline_contextual_three_band_review_recorded_unpublished",
+            "sourceOccurrences": [
+              {
+                "chapter": 7,
+                "unit": 210,
+                "start": 205,
+                "end": 210,
+                "text": "saint",
+                "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+              }
+            ],
+            "questions": [
+              {
+                "band": "1-3",
+                "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+                "targetText": "saint",
+                "question": "What does the highlighted word mean here?",
+                "answer": "saint; holy, as a religious qualification before a name",
+                "choices": [
+                  "saint; holy, as a religious qualification before a name",
+                  "profane",
+                  "impious",
+                  "secular"
+                ]
+              },
+              {
+                "band": "4-5",
+                "context": "L’adjectif religieux signifiant sanctifié, placé ici devant Thomas, est ___.",
+                "question": "Complétez la phrase.",
+                "answer": "saint",
+                "choices": [
+                  "saint",
+                  "profane",
+                  "impie",
+                  "laïc"
+                ]
+              },
+              {
+                "band": "6-8",
+                "context": "Quel adjectif qualifie une personne reconnue comme sainte ?",
+                "question": "Quel mot convient ?",
+                "answer": "saint",
+                "choices": [
+                  "saint",
+                  "profane",
+                  "impie",
+                  "laïc"
+                ]
+              }
+            ],
+            "reviewNote": "Saint before Thomas is a religious adjective qualifying the named person, rather than the name Thomas itself or a stand-alone saint noun. Académie9 lists named saints such as saint Pierre and saint Augustin in its adjective section; nominal saints have a separate section. No proper earlier/global saint owner exists. Prepare proper French saint adjective ownership and general religious-sanctity meaning, without a title-only or masculine-only sense. All four masculine singular adjectives are compatible with the metalinguistic clue, contrasting religious sanctity with profane, impious or secular status."
+          }
+        }
+      ],
+      "questionChanges": [],
+      "canonicalOwner": {
+        "headword": "saint",
+        "partOfSpeech": "adjective",
+        "route": "new_lemma_and_sense",
+        "intendedSenseGroup": "saint:religious_sanctity"
+      },
+      "routeOverrides": [],
+      "publishedImpacts": [],
+      "reviewNote": "Read the complete VII210 Somme de saint Thomas passage and all three adjective bands again. The stored primary Académie9 evidence places this named-person qualification in its adjective section; the noun saint has a separate section. No proper published or earlier saint owner exists. Retain the prepared proper adjective lemma and generic religious-sanctity meaning; the four masculine singular alternatives fit the unchanged clue. No Thomas-specific, title-only or masculine-only meaning or mastery is created."
+    }
+  ],
+  "lexicalEvidence": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A4D1550",
+      "edition": "Académie1762",
+      "consulted": "2026-10-01",
+      "paraphrase": "Douter expresses uncertainty and, with a personal pronoun, conjecture or suspicion under the same verb head."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A3V0487",
+      "edition": "Académie1740",
+      "consulted": "2026-10-01",
+      "paraphrase": "Voisin is an adjective for proximity; its substantive use names someone who lives or stands nearby."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A3S0546",
+      "edition": "Académie1740",
+      "consulted": "2026-10-01",
+      "paraphrase": "The possessive pronoun includes a special plural group use for relatives, servants, soldiers and attached persons."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9S1575",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Ordinary possession and the special attached-people use are distinguished under the possessive pronoun section."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9E2987",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "The noun être is separate from the verb and covers entities of various kinds, including animate and divine references."
+    }
+  ]
+}

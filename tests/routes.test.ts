@@ -15,6 +15,16 @@ describe("application routes", () => {
     expect(parseRoute("#/read/../../secret")).toEqual({ name: "home" });
   });
 
+  it("round-trips positions and rejects malformed position values", () => {
+    for (const name of ["read", "book"] as const) {
+      const route = { name, workId: "wrk_voltaire_micromegas", position: 7 };
+      expect(parseRoute(routeHash(route))).toEqual(route);
+      for (const position of ["-1", "NaN", "1.5", "9007199254740992"]) {
+        expect(parseRoute(`#/${name}/wrk_voltaire_micromegas?position=${position}`)).toEqual({ name, workId: route.workId });
+      }
+    }
+  });
+
   it("formats stable hash routes for GitHub Pages", () => {
     expect(routeHash({ name: "languages" })).toBe("#/languages");
     expect(routeHash({ name: "library" })).toBe("#/library");

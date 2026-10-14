@@ -10,7 +10,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parent.parent
 CANDIDATE = Path('content/sources/wrk_voltaire_micromegas')
-EXACT = {'AGENTS.md', 'docs/CHECKPOINT_RECOVERY.md', 'docs/MICROMEGAS_PROGRESS.md', 'docs/MICROMEGAS_READINESS.md', 'scripts/check-text-sources.mjs', 'scripts/checkpoint_integrity.py', 'scripts/editorial-recovery-increment.py'}
+EXACT = {'tests/test_checkpoint_integrity.py', 'AGENTS.md', 'docs/CHECKPOINT_RECOVERY.md', 'docs/FR_EDITORIAL_REVIEW_PROGRESS.md', 'docs/MICROMEGAS_PROGRESS.md', 'docs/MICROMEGAS_READINESS.md', 'scripts/check-text-sources.mjs', 'scripts/check-micromegas-remaining.mjs', 'scripts/editorial-checkpoint.py', 'scripts/checkpoint_integrity.py', 'scripts/editorial-recovery-increment.py', 'scripts/editorial-change-impact.mjs'}
 MANIFEST = 'RECOVERY_INCREMENT.json'
 
 
@@ -20,8 +20,18 @@ def digest(data: bytes) -> str:
 
 def paths() -> list[Path]:
     names = set(EXACT)
+    # New source packages and their tests must survive recovery before the next
+    # full checkpoint, including names that did not exist in the base archive.
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas*.mjs'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'tests').glob('micromegas*.test.*'))
     names.update(str(p.relative_to(ROOT)) for p in (ROOT / CANDIDATE).rglob('*') if p.is_file())
     names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('prepare-micromegas-*.mjs'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-chapter-06*'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-chapter-07*'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-*reconciliation*.mjs'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-owner-*'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-scope-*'))
+    names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'scripts').glob('*micromegas-faire-scope-*'))
     names.update(str(p.relative_to(ROOT)) for p in (ROOT / 'docs').glob('MICROMEGAS_*.json'))
     return sorted(Path(name) for name in names)
 

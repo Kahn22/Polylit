@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "de_plural_article",
+      "beforeQuestionSha256": "2ff333041d77c2f3ce0ed1bbe26dba0b309a26fd4e4bb04646b2f3356d9f83c3",
+      "after": {
+        "key": "de_plural_article",
+        "form": "de",
+        "lemma": "de",
+        "partOfSpeech": "plural indefinite article before adjective",
+        "meaning": "some; plural article before an adjective",
+        "editorialNote": "In chapter IV 86:303, de means some; plural article before an adjective. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 303,
+            "end": 305,
+            "text": "de"
+          },
+          {
+            "chapter": 4,
+            "unit": 104,
+            "start": 35,
+            "end": 37,
+            "text": "de"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils ont trouvé de jolis petits carats.",
+            "question": "Meaning",
+            "answer": "some",
+            "choices": [
+              "some",
+              "none",
+              "all",
+              "one"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il décrit plusieurs petits diamants : ce sont ___ jolis petits carats.",
+            "question": "Complétez la phrase.",
+            "answer": "de",
+            "choices": [
+              "de",
+              "les",
+              "ces",
+              "mes"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "De devant un adjectif pluriel introduit ici des éléments indéfinis; les et ces désignent un ensemble identifié, mes marque la possession.",
+            "question": "Quel mot signifie some ?",
+            "answer": "de",
+            "choices": [
+              "de",
+              "les",
+              "ces",
+              "mes"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "f5763298d827cfca8dfbbf2e6ac47f582c0f34e7d915dcdcd1b2903657c61798",
+          "afterSha256": "84e045ca3a2815846d0207c8f788fa7f366285c2b29c3bac97916451dd9e849d",
+          "reason": "Use a short contextual sentence with one exact target instance; the source excerpt has repeated de tokens. The plural determiner before the adjective means an unspecified quantity."
+        }
+      ],
+      "afterQuestionSha256": "59e72318fb6ae8dc0969dd242df8815e4f325ac249d203a79823f733a0c8ae38"
+    },
+    {
+      "file": "chapter-03-batch-08.json",
+      "key": "difficile_difficult",
+      "beforeQuestionSha256": "ba6354a83ca3ee80236c4056d6db6a0ef6b7c2cc3f90fb795f6a75962f41ef93",
+      "after": {
+        "key": "difficile_difficult",
+        "form": "difficile",
+        "lemma": "difficile",
+        "partOfSpeech": "adjective singular",
+        "meaning": "difficult; hard to do",
+        "editorialNote": "In chapter III 76:49, difficile means difficult; hard to do. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 76,
+            "start": 49,
+            "end": 58,
+            "text": "difficile"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ces bons philosophes-là savent combien il serait difficile que Mars, qui est si loin du soleil, se passât à moins …",
+            "question": "Meaning",
+            "answer": "difficult",
+            "choices": [
+              "difficult",
+              "easy",
+              "necessary",
+              "pleasant"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Mars pourrait vivre sans lunes, mais seulement au prix d’un grand effort : ce serait ___.",
+            "question": "Complétez la phrase.",
+            "answer": "difficile",
+            "choices": [
+              "difficile",
+              "facile",
+              "agréable",
+              "impossible"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Difficile demande beaucoup d’effort; facile en demande peu, agréable procure du plaisir et impossible ne peut pas se faire.",
+            "question": "Quel mot exprime difficult ?",
+            "answer": "difficile",
+            "choices": [
+              "difficile",
+              "facile",
+              "agréable",
+              "impossible"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "0d31ab6b22b6e42fdb03b45a6d3b62a341465d9abfd4c5fa33b5dce61f31aeec",
+          "afterSha256": "79f9782efa017786f17c1068522d7f50c717d00eb41ea56905dfb911cdc33fce",
+          "reason": "State that the feat remains possible while requiring substantial effort, excluding impossible; all four masculine singular adjectives fit."
+        }
+      ],
+      "afterQuestionSha256": "53d6a8723f2f2ec8f068b70131ecc7da3467cf134b70db63d5116d8daf8ea69e"
+    },
+    {
+      "file": "chapter-04-batch-02.json",
+      "key": "telles_such",
+      "beforeQuestionSha256": "5f07d284d29b761f44a796ec6b137bf4112adb57f577ca16223db411e9e0fa07",
+      "after": {
+        "key": "telles_such",
+        "form": "telles",
+        "lemma": "tel",
+        "partOfSpeech": "demonstrative adjective feminine plural",
+        "meaning": "such; of this kind",
+        "editorialNote": "Chapter IV source 86:306 shows telles as such; of this kind. Each authored contrast retains the same grammatical frame where relevant.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 306,
+            "end": 312,
+            "text": "telles"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_and_three_bands_pending_identity_route",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… : figurez-vous (s’il est permis de faire de telles comparaisons) un très-petit chien de manchon qui …",
+            "question": "Meaning",
+            "answer": "such",
+            "choices": [
+              "such",
+              "none",
+              "earlier",
+              "tiny"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Des comparaisons du type déjà décrit sont de ___ comparaisons.",
+            "question": "Complétez la phrase.",
+            "answer": "telles",
+            "choices": [
+              "telles",
+              "rares",
+              "anciennes",
+              "audacieuses"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Telles reprend le type de comparaisons déjà mentionné. Rares évoque une faible fréquence, anciennes leur âge et audacieuses leur caractère risqué.",
+            "question": "Quel adjectif renvoie ici au type déjà mentionné ?",
+            "answer": "telles",
+            "choices": [
+              "telles",
+              "rares",
+              "anciennes",
+              "audacieuses"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "149ad5baba1b7f181692614d4c85ccf8b9ae3ebf66c35619ba9161a2f528eb4f",
+          "afterSha256": "2cc4a00f2f27cda3da53d2355e9cea057e52b2399295e262fed7bdcd97fb81ed",
+          "reason": "The target points to an already named type; rarity, age and daring do not express that reference. All choices are feminine plural adjectives agreeing with comparaisons."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "63d0f47f4d3513328ce23860a99255c641897df8716f6c6e78fe752dd85fa513",
+          "afterSha256": "b9627aec5eb77ccdb8fd668b20f03aa85fb1a5d9d0c6939f7f00e1c27654b27d",
+          "reason": "Use distinct semantic dimensions and matching feminine plural adjectives; this removes the near-synonym semblables."
+        }
+      ],
+      "afterQuestionSha256": "e1dca64dac3887b9c79cb0db17e4437b25b3e191c57fe798c6e8c5660f78362b"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 3,
+    "refinedQuestionBands": 4
+  },
+  "policy": "Exact recorded source-bank refinements; preserve all other questions, publication and mastery."
+}

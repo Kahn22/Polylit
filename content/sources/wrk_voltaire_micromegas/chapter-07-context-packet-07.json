@@ -1,0 +1,4023 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "status": "source_bound_candidate_packet_not_editorial_approval",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "formRange": {
+    "startInclusive": 480,
+    "endExclusive": 517
+  },
+  "summary": {
+    "forms": 37,
+    "sourceUses": 38
+  },
+  "items": [
+    {
+      "form": "culotte",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 211,
+          "start": 307,
+          "end": 314,
+          "text": "culotte",
+          "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_parure_culotte_culotte_noun_71ceeccc41:sns_parure_culotte_breeches_752935d106",
+          "lemma": "culotte",
+          "gloss": "breeches",
+          "definition": "pantalon court porté autrefois par les hommes",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_parure_culotte_culotte_breeches_0011284b12_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_culotte_culotte_noun_71ceeccc41",
+                "senseId": "sns_parure_culotte_breeches_752935d106"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Dans ce tableau ancien, le valet porte une culotte qui s’arrête aux genoux.",
+              "targetText": "culotte",
+              "targetRange": {
+                "start": 43,
+                "end": 50
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "coat"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "waistcoat"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "cape"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "breeches"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_parure_culotte_culotte_breeches_0011284b12_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_culotte_culotte_noun_71ceeccc41",
+                "senseId": "sns_parure_culotte_breeches_752935d106"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Dans le costume ancien, cette _____ couvre les jambes jusqu’aux genoux ; des bas couvrent le reste.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "culotte"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "veste"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "cape"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "chemise"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_parure_culotte_culotte_breeches_0011284b12_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_culotte_culotte_noun_71ceeccc41",
+                "senseId": "sns_parure_culotte_breeches_752935d106"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Il enfile sa culotte courte, puis attache ses bas sous les genoux avant de mettre ses souliers.",
+              "prompt": "Quel nom désigne le pantalon court du costume ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "souliers"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "culotte"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "bas"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "genoux"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "52ff7c557046e94a38b35d90144e5171b1ea8bf9d2be3e2cb8ab7fc612b2a34e"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "bonnes",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 9,
+          "end": 15,
+          "text": "bonnes",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_bonnes_lem_bon_a6893c85fc:sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640",
+          "lemma": "bon",
+          "gloss": "good",
+          "definition": "Qui a des qualités conformes à ce que l’on attendait.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_bonnes_sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640_50741a3094_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonnes_lem_bon_a6893c85fc",
+                "senseId": "sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Ses bonnes idées nous ont aidés à résoudre le problème.",
+              "targetText": "bonnes",
+              "targetRange": {
+                "start": 4,
+                "end": 10
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "strange"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "good"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "bad"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "old"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_bonnes_sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640_50741a3094_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonnes_lem_bon_a6893c85fc",
+                "senseId": "sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Ces nouvelles sont _____ : tout s’est passé comme nous l’espérions.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "désastreuses"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "catastrophiques"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "bonnes"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "mauvaises"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_bonnes_sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640_50741a3094_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonnes_lem_bon_a6893c85fc",
+                "senseId": "sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Les bonnes récoltes permettent au village de passer l’hiver sans manquer de nourriture.",
+              "prompt": "Quel mot exprime une qualité favorable ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "nourriture"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "bonnes"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "récoltes"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "hiver"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "c3a6f0535698ca08bdf859951cfdb9011d292f554b920e8f35c12b257b1bcab2"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "cherchèrent",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 24,
+          "end": 35,
+          "text": "cherchèrent",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_parure_chercherent_lem_zola_chercher_e8289aac13:sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825",
+          "lemma": "chercher",
+          "gloss": "to look for, to seek",
+          "definition": "Se donner du mouvement, du soin ou de la peine pour trouver quelqu’un ou quelque chose.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_parure_chercherent_sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825_8ed40399b6_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_chercherent_lem_zola_chercher_e8289aac13",
+                "senseId": "sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Ils cherchèrent la clé partout dans la maison.",
+              "targetText": "cherchèrent",
+              "targetRange": {
+                "start": 4,
+                "end": 15
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "broke"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "lent"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "looked for"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "hid"
+                }
+              ],
+              "correctChoiceId": "choice_7"
+            },
+            {
+              "id": "qiz_parure_chercherent_sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825_8ed40399b6_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_chercherent_lem_zola_chercher_e8289aac13",
+                "senseId": "sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Les policiers _____ des traces dans toute la pièce.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "chercha"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "chercher"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "cherché"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "cherchèrent"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_parure_chercherent_sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825_8ed40399b6_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_chercherent_lem_zola_chercher_e8289aac13",
+                "senseId": "sns_parure_chercher_se_donner_du_mouvement_du_soin_ou_de_la_peine_pour_trouver_quelqu_un_ou_quelque_chose_2c389ae825"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Les randonneurs cherchèrent un abri avant l’orage, parcourant les environs à la hâte.",
+              "prompt": "Quel mot indique des efforts pour trouver ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "cherchèrent"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "randonneurs"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "orage"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "environs"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "992f7ab063a9f5ad3ca431aafda57eacb3ac751421bfa04022945ee260cf075c"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "longtemps",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 36,
+          "end": 45,
+          "text": "longtemps",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_longtemps_lem_cendrillon_longtemps_adverb_38765dedaa_44bb3ce923:sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118",
+          "lemma": "longtemps",
+          "gloss": "for a long time; over a long period",
+          "definition": "Pendant un long temps.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_longtemps_sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118_7e33ffb664_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_longtemps_lem_cendrillon_longtemps_adverb_38765dedaa_44bb3ce923",
+                "senseId": "sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Nous avons attendu longtemps avant que le train arrive.",
+              "targetText": "longtemps",
+              "targetRange": {
+                "start": 19,
+                "end": 28
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "yesterday"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "nearby"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "for a long time"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "briefly"
+                }
+              ],
+              "correctChoiceId": "choice_7"
+            },
+            {
+              "id": "qiz_cendrillon_longtemps_sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118_7e33ffb664_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_longtemps_lem_cendrillon_longtemps_adverb_38765dedaa_44bb3ce923",
+                "senseId": "sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Ce chêne a vécu _____ : il a plus de trois cents ans.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "brièvement"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "peu"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "rapidement"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "longtemps"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_longtemps_sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118_7e33ffb664_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_longtemps_lem_cendrillon_longtemps_adverb_38765dedaa_44bb3ce923",
+                "senseId": "sns_cendrillon_longtemps_pendant_un_long_temps_0126f3c118"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Le souvenir de cette rencontre restera longtemps dans ma mémoire, peut-être toute ma vie.",
+              "prompt": "Quel mot exprime une longue durée ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "longtemps"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "souvenir"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "rencontre"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "mémoire"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "abb81c0df57dad87250e671779f680eae5a77e48baf433e08d9d980447433f9a"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "retrouvèrent",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 58,
+          "end": 70,
+          "text": "retrouvèrent",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "équipage",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 73,
+          "end": 81,
+          "text": "équipage",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": [
+        {
+          "key": "equipage_chapter_05_02",
+          "file": "chapter-05-batch-02.json",
+          "lemma": "équipage",
+          "meaning": "ship’s crew",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Les passagers et les gens de l’équipage, qui s’étaient crus enlevés par un ouragan, et qui se croyaient sur une espèce de rocher, se mettent tous en mouvement ; les matelots prennent des tonneaux de vin, les jettent sur la main de Micromégas, et se précipitent après.",
+              "question": "What does the highlighted word mean here?",
+              "answer": "ship’s crew",
+              "choices": [
+                "ship’s crew",
+                "ship’s cargo",
+                "ship’s hull",
+                "storm"
+              ],
+              "targetText": "équipage"
+            },
+            {
+              "band": "4-5",
+              "context": "Les gens de l’___ sont sur le vaisseau.",
+              "question": "Complétez la phrase.",
+              "answer": "équipage",
+              "choices": [
+                "équipage",
+                "océan",
+                "horizon",
+                "animal"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Il s’agit du personnel qui sert sur le navire.",
+              "question": "Quel mot convient ?",
+              "answer": "équipage",
+              "choices": [
+                "équipage",
+                "océan",
+                "horizon",
+                "animal"
+              ]
+            }
+          ],
+          "questionSha256": "33b9c603d8e0d7671112007d42cc1305f240228db8d2b3abe06aa697b9e168ec",
+          "fileSha256": "90845b90cdfd0a0887816e7045d513e2078835b1d2999f69f5ae29b03b808b72"
+        },
+        {
+          "key": "équipage_chapter_06_02_139_66",
+          "file": "chapter-06-batch-02.json",
+          "lemma": "équipage",
+          "meaning": "ship’s crew",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "La circonférence de l’entonnoir enveloppait le vaisseau et tout l’équipage.",
+              "targetText": "équipage",
+              "question": "What does the highlighted word mean here?",
+              "answer": "ship’s crew",
+              "choices": [
+                "ship’s crew",
+                "ocean",
+                "horizon",
+                "animal"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "Le personnel qui travaille à bord du navire constitue l’___.",
+              "question": "Complétez la phrase.",
+              "answer": "équipage",
+              "choices": [
+                "équipage",
+                "océan",
+                "horizon",
+                "animal"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Quel nom désigne collectivement le personnel qui sert sur un navire ?",
+              "question": "Quel mot convient ?",
+              "answer": "équipage",
+              "choices": [
+                "équipage",
+                "océan",
+                "horizon",
+                "animal"
+              ]
+            }
+          ],
+          "questionSha256": "a27f7ba2604956534be2035f1a533dea1d248ad3d205a71e16338d0d4a76b8e7",
+          "fileSha256": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe"
+        }
+      ]
+    },
+    {
+      "form": "rajustèrent",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 89,
+          "end": 100,
+          "text": "rajustèrent",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "proprement",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 212,
+          "start": 106,
+          "end": 116,
+          "text": "proprement",
+          "context": "Ces deux bonnes gens le cherchèrent longtemps ; enfin ils retrouvèrent l’équipage, et le rajustèrent fort proprement."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": [
+        {
+          "key": "proprement_neatly",
+          "file": "chapter-04-batch-01.json",
+          "lemma": "proprement",
+          "meaning": "neatly; in a tidy manner",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "… que leurs gens leur apprêtèrent assez proprement.",
+              "question": "Meaning",
+              "answer": "neatly",
+              "choices": [
+                "neatly",
+                "clumsily",
+                "late",
+                "angrily"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "Le repas est préparé avec soin : il est apprêté ___.",
+              "question": "Complétez la phrase.",
+              "answer": "proprement",
+              "choices": [
+                "proprement",
+                "grossièrement",
+                "tardivement",
+                "coléreusement"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Proprement indique le soin de la préparation; grossièrement indique la négligence, tardivement un retard et coléreusement de la colère.",
+              "question": "Quel mot signifie neatly ?",
+              "answer": "proprement",
+              "choices": [
+                "proprement",
+                "grossièrement",
+                "tardivement",
+                "coléreusement"
+              ]
+            }
+          ],
+          "questionSha256": "ade9b9829f5b544bf94de7cb8a3819e4297abf225379b9f83d10f30c7801975b",
+          "fileSha256": "3a4e0fd5814460e27460bd2d0670e0051322e3cdc161371256b3c8bfe55e28e7"
+        }
+      ]
+    },
+    {
+      "form": "petites",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 21,
+          "end": 28,
+          "text": "petites",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_zola_petites_petit:sns_fr_petit_familiar_diminutive",
+          "lemma": "petit",
+          "gloss": "little (familiar or disparaging qualifier)",
+          "definition": "Diminutif exprimant une manière familière ou dépréciative de parler d’une personne, sans mesurer sa taille.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_fr_petit_familiar_diminutive"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "« Ces petites prétentieuses ! » dit-il avec mépris, sans parler de leur taille.",
+              "targetText": "petites",
+              "targetRange": {
+                "start": 6,
+                "end": 13
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "respected"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "admired"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "honoured"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "little (disparaging)"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_fr_petit_familiar_diminutive"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Il les rabaisse en disant : « Ces _____ sottes ! », avec le diminutif au féminin pluriel.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "petit"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "petite"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "petites"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "petits"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            },
+            {
+              "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_fr_petit_familiar_diminutive"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Il parle de ces petites dames sur un ton familier, sans rien dire de leurs dimensions physiques.",
+              "prompt": "Quel adjectif donne ici une nuance familière plutôt qu’une mesure de taille ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "dimensions"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "petites"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "dames"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "familier"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            }
+          ],
+          "questionSha256": "9585edc726f2008e5344ebf594d5a65831f6a691f9320f14d10f90201b0f1236"
+        },
+        {
+          "identity": "srf_zola_petites_petit:sns_zola_petit_small",
+          "lemma": "petit",
+          "gloss": "small; little",
+          "definition": "de faible dimension, importance ou âge",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_petites_petit_small_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Ces petites chaussures conviennent aux pieds d’un enfant.",
+              "targetText": "petites",
+              "targetRange": {
+                "start": 4,
+                "end": 11
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "small"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "large"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "heavy"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "new"
+                }
+              ],
+              "correctChoiceId": "choice_5"
+            },
+            {
+              "id": "qiz_zola_petites_petit_small_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Ces boîtes sont _____ : elles tiennent toutes dans la paume de la main.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "grandes"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "immenses"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "gigantesques"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "petites"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_petites_petit_small_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petites_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Les petites fenêtres laissent entrer moins de lumière que les grandes baies.",
+              "prompt": "Quel adjectif indique des dimensions réduites ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "lumière"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "baies"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "petites"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "fenêtres"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "4b98caef524029d1448dba4d920b104a631c08e4667d291214686e8929e4570f"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "mites",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 29,
+          "end": 34,
+          "text": "mites",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": [
+        {
+          "key": "mites_chapter_06_02_144_20",
+          "file": "chapter-06-batch-02.json",
+          "lemma": "mite",
+          "meaning": "mites; minuscule creatures compared to insects",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Ils entendaient des mites parler d’assez bon sens : ce jeu de la nature leur paraissait inexplicable.",
+              "targetText": "mites",
+              "question": "What does the highlighted word mean here?",
+              "answer": "mites; minuscule creatures compared to insects",
+              "choices": [
+                "mites; minuscule creatures compared to insects",
+                "mountains",
+                "planets",
+                "forests"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "Ces créatures sont comparées à de minuscules insectes : ces ___ parlent.",
+              "question": "Complétez la phrase.",
+              "answer": "mites",
+              "choices": [
+                "mites",
+                "montagnes",
+                "planètes",
+                "forêts"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Quel nom pluriel évoque de très petits insectes dans cette comparaison ?",
+              "question": "Quel mot convient ?",
+              "answer": "mites",
+              "choices": [
+                "mites",
+                "montagnes",
+                "planètes",
+                "forêts"
+              ]
+            }
+          ],
+          "questionSha256": "5e89cf368cb12765826c2781f3d9a7c524dae14904a8b95b51d8c1cf48866479",
+          "fileSha256": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe"
+        }
+      ]
+    },
+    {
+      "form": "parla",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 45,
+          "end": 50,
+          "text": "parla",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": [
+        {
+          "key": "parla_chapter_06_04_157_212",
+          "file": "chapter-06-batch-04.json",
+          "lemma": "parler",
+          "meaning": "spoke; addressed the listeners",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+              "targetText": "parla",
+              "question": "What does the highlighted word mean here?",
+              "answer": "spoke; addressed the listeners",
+              "choices": [
+                "spoke; addressed the listeners",
+                "wrote",
+                "slept",
+                "sang"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "Il exprima ses pensées à voix haute devant ses auditeurs : il ___.",
+              "question": "Complétez la phrase.",
+              "answer": "parla",
+              "choices": [
+                "parla",
+                "écrivit",
+                "dormit",
+                "chanta"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Quel verbe au passé simple signifie s’exprima par la parole ?",
+              "question": "Quel mot convient ?",
+              "answer": "parla",
+              "choices": [
+                "parla",
+                "écrivit",
+                "dormit",
+                "chanta"
+              ]
+            }
+          ],
+          "questionSha256": "a54a5b53cf25748de836900bc6d7981ebbfdadfa107ebafcb051a14fa0fc2cc3",
+          "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662"
+        }
+      ]
+    },
+    {
+      "form": "bonté",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 75,
+          "end": 80,
+          "text": "bonté",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_bonte_lem_cendrillon_bonte_noun_45ce9ee53a_4d31c0f800:sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0",
+          "lemma": "bonté",
+          "gloss": "goodness, kindness",
+          "definition": "Qualité de ce qui est bon.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_bonte_sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0_e2895a4c21_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonte_lem_cendrillon_bonte_noun_45ce9ee53a_4d31c0f800",
+                "senseId": "sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Sa bonté la pousse à aider l’inconnu sans rien demander en retour.",
+              "targetText": "bonté",
+              "targetRange": {
+                "start": 3,
+                "end": 8
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "kindness"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "pride"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "fear"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "greed"
+                }
+              ],
+              "correctChoiceId": "choice_5"
+            },
+            {
+              "id": "qiz_cendrillon_bonte_sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0_e2895a4c21_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonte_lem_cendrillon_bonte_noun_45ce9ee53a_4d31c0f800",
+                "senseId": "sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Elle agit avec générosité et cherche le bien des autres ; tous apprécient sa _____.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "bonté"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "cruauté"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "avarice"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "vanité"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_bonte_sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0_e2895a4c21_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_bonte_lem_cendrillon_bonte_noun_45ce9ee53a_4d31c0f800",
+                "senseId": "sns_cendrillon_bonte_qualite_de_ce_qui_est_bon_362dc648d0"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Sa bonté se manifeste envers les plus faibles ; elle partage son repas et offre un abri à ceux qui n’en ont pas.",
+              "prompt": "Quel nom désigne sa disposition à faire le bien ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "faibles"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "repas"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "abri"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "bonté"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "f97647d51d841f8984b393989f9b81841196dc130244fb91ac0ff82cddd1eceb"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "quoiqu’il",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 82,
+          "end": 91,
+          "text": "quoiqu’il",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "fâché",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 103,
+          "end": 108,
+          "text": "fâché",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "cœur",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 125,
+          "end": 129,
+          "text": "cœur",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_zola_c_ur_2ab194f16690_coeur:sns_zola_coeur_heart",
+          "lemma": "cœur",
+          "gloss": "heart",
+          "definition": "organe ou siège figuré des sentiments",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_c_ur_2ab194f16690_coeur_heart_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_c_ur_2ab194f16690_coeur",
+                "senseId": "sns_zola_coeur_heart"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "En revoyant sa fille après des années, son cœur se remplit de joie.",
+              "targetText": "cœur",
+              "targetRange": {
+                "start": 43,
+                "end": 47
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "heart"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "mind"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "voice"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "hand"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_c_ur_2ab194f16690_coeur_heart_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_c_ur_2ab194f16690_coeur",
+                "senseId": "sns_zola_coeur_heart"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "En apprenant la bonne nouvelle, son _____ se remplit de joie.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "cœur"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "bureau"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "manteau"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "carnet"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_c_ur_2ab194f16690_coeur_heart_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_c_ur_2ab194f16690_coeur",
+                "senseId": "sns_zola_coeur_heart"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Le cœur de Nina se serre quand elle lit cette lettre triste. Elle ferme les yeux, serre la main de Paul et range la photographie.",
+              "prompt": "Quel mot désigne ici le siège figuré des sentiments de Nina ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "cœur"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "yeux"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "main"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "photographie"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "ed2dedaa62babafa98fc81b8b65f987bb6561c10584b3adf8fffa749f38ba834"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "voir",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 133,
+          "end": 137,
+          "text": "voir",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_zola_voir_voir:sns_zola_voir_observe",
+          "lemma": "voir",
+          "gloss": "to see; observe",
+          "definition": "percevoir par la vue ou constater un fait",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_voir_voir_observe_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_voir_voir",
+                "senseId": "sns_zola_voir_observe"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Nina s’approche de la fenêtre pour voir le jardin.",
+              "targetText": "voir",
+              "targetRange": {
+                "start": 35,
+                "end": 39
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "smell"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "touch"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "see"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "hear"
+                }
+              ],
+              "correctChoiceId": "choice_7"
+            },
+            {
+              "id": "qiz_zola_voir_voir_observe_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_voir_voir",
+                "senseId": "sns_zola_voir_observe"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Paul met ses lunettes pour _____ les petits caractères.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "voit"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "voient"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "voyait"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "voir"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_voir_voir_observe_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_voir_voir",
+                "senseId": "sns_zola_voir_observe"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Du sommet, les marcheurs peuvent voir la mer à l’horizon.",
+              "prompt": "Quel infinitif exprime une perception par les yeux ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "voir"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "sommet"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "mer"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "horizon"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "570f3ce7f3b426954623445d933fda580278be3f13dcf82c3e23506817da8159"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "infiniment",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 146,
+          "end": 156,
+          "text": "infiniment",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        },
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 191,
+          "end": 201,
+          "text": "infiniment",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": [
+        {
+          "key": "infiniment_chapter_05_04_infiniment",
+          "file": "chapter-05-batch-04.json",
+          "lemma": "infiniment",
+          "meaning": "infinitely; without limit",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+              "targetText": "infiniment",
+              "question": "What does the highlighted word mean here?",
+              "answer": "infinitely",
+              "choices": [
+                "infinitely",
+                "slightly",
+                "temporarily",
+                "roughly"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "À l’échelle du géant, leur petitesse semble sans limite : ils sont ___ petits.",
+              "question": "Complétez la phrase.",
+              "answer": "infiniment",
+              "choices": [
+                "infiniment",
+                "légèrement",
+                "relativement",
+                "assez"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "La petitesse dépasse toute limite imaginable.",
+              "question": "Quel mot convient ?",
+              "answer": "infiniment",
+              "choices": [
+                "infiniment",
+                "légèrement",
+                "relativement",
+                "assez"
+              ]
+            }
+          ],
+          "questionSha256": "6b141e6c90747508eba3591073d125d7fcdbd9dd4be0db631fd5de2f540ed2dd",
+          "fileSha256": "21740e46a1e3a1da1d90bb5abd1811f1234fdea9c61bc7aa56a0d4d3c0edf919"
+        }
+      ]
+    },
+    {
+      "form": "petits",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 157,
+          "end": 163,
+          "text": "petits",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_zola_petits_petit:sns_zola_petit_lowly",
+          "lemma": "petit",
+          "gloss": "small; lowly",
+          "definition": "de condition modeste ou dépourvu de pouvoir social",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_petits_petit_lowly_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_lowly"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Les petits ont peu de pouvoir face aux puissants qui prennent les décisions.",
+              "targetText": "petits",
+              "targetRange": {
+                "start": 4,
+                "end": 10
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "the rulers"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "the wealthy"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "the leaders"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "the powerless"
+                }
+              ],
+              "correctChoiceId": "choice_8"
+            },
+            {
+              "id": "qiz_zola_petits_petit_lowly_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_lowly"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Dans ce conflit social, les _____ n’ont ni fortune ni influence, contrairement aux puissants.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "riches"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "notables"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "petits"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "dirigeants"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_petits_petit_lowly_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_lowly"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Les petits réclament une voix face aux puissants qui décident pour eux.",
+              "prompt": "Quel mot substantivé désigne les personnes sans pouvoir social ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "décident"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "petits"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "voix"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "puissants"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "4065033422ee253c1f3a4daa408ba4f97c35a88c528475e2a1996ab4684ad436"
+        },
+        {
+          "identity": "srf_zola_petits_petit:sns_zola_petit_small",
+          "lemma": "petit",
+          "gloss": "small; little",
+          "definition": "de faible dimension, importance ou âge",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_petit_small_zola_petits_petit_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Les petits salons ne peuvent accueillir que quelques personnes.",
+              "targetText": "petits",
+              "targetRange": {
+                "start": 4,
+                "end": 10
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "bright"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "empty"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "small"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "large"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            },
+            {
+              "id": "qiz_zola_petit_small_zola_petits_petit_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Ces appartements sont très _____ : on ne peut y installer que peu de meubles.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "immenses"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "petits"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "grands"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "vastes"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            },
+            {
+              "id": "qiz_zola_petit_small_zola_petits_petit_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_petits_petit",
+                "senseId": "sns_zola_petit_small"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Les petits jardins offrent peu d’espace, mais leurs propriétaires y cultivent de nombreuses fleurs.",
+              "prompt": "Quel adjectif indique des dimensions réduites ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "petits"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "jardins"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "espace"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "fleurs"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "fe7c6dda5a3dae0026044a7292c969e168a79bf20a11ea003d7fc46ee5cb8dec"
+        }
+      ],
+      "earlierCandidates": [
+        {
+          "key": "petit_chapter_05_held_01_124",
+          "file": "chapter-05-held-batch-01.json",
+          "lemma": "petit",
+          "meaning": "tiny beings",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+              "targetText": "petits",
+              "question": "What does the highlighted word mean here?",
+              "answer": "tiny beings",
+              "choices": [
+                "tiny beings",
+                "large beings",
+                "strong beings",
+                "elderly people"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "À cette échelle ils sont minuscules : ils resteront des infiniment ___.",
+              "question": "Complétez la phrase.",
+              "answer": "petits",
+              "choices": [
+                "petits",
+                "grands",
+                "puissants",
+                "lourds"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Leur taille demeure minuscule à l’échelle des géants.",
+              "question": "Quel mot convient ?",
+              "answer": "petits",
+              "choices": [
+                "petits",
+                "grands",
+                "puissants",
+                "lourds"
+              ]
+            }
+          ],
+          "questionSha256": "d596ad6e848e7d18fefc858fea2490011e4620965183e7aa4d124ae4ad5b1547",
+          "fileSha256": "0f7c935747eb6c2ef2e95164bf6fc0d77173feaee3d28109d4035b04111bcb22"
+        }
+      ]
+    },
+    {
+      "form": "eussent",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 164,
+          "end": 171,
+          "text": "eussent",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_parure_eussent_lem_avoir_f3e3d0b61c:sns_fr_avoir_compound_auxiliary",
+          "lemma": "avoir",
+          "gloss": "have (compound-tense auxiliary)",
+          "definition": "Auxiliaire employé avec un participe passé pour former un temps composé.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_avoir_compound_auxiliary_parure_eussent_lem_avoir_f3e3d0b61c_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_eussent_lem_avoir_f3e3d0b61c",
+                "senseId": "sns_fr_avoir_compound_auxiliary"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Il craignait qu’ils eussent oublié le rendez-vous.",
+              "targetText": "eussent",
+              "targetRange": {
+                "start": 20,
+                "end": 27
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "had (auxiliary)"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "owned"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "wanted"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "refused"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_fr_avoir_compound_auxiliary_parure_eussent_lem_avoir_f3e3d0b61c_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_eussent_lem_avoir_f3e3d0b61c",
+                "senseId": "sns_fr_avoir_compound_auxiliary"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Il doutait qu’ils _____ compris la consigne.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "eût"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "eusses"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "eussions"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "eussent"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_avoir_compound_auxiliary_parure_eussent_lem_avoir_f3e3d0b61c_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_eussent_lem_avoir_f3e3d0b61c",
+                "senseId": "sns_fr_avoir_compound_auxiliary"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Elle partit avant qu’ils eussent terminé leur discussion.",
+              "prompt": "Quel auxiliaire forme le plus-que-parfait du subjonctif avec terminé ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "terminé"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "discussion"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "eussent"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "partit"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            }
+          ],
+          "questionSha256": "d933d47aea2079795355d66394e18816a34cc932a5c94a0cda72e1ad65b032c2"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "orgueil",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 175,
+          "end": 182,
+          "text": "orgueil",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "promit",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 8,
+          "end": 14,
+          "text": "promit",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_promit_lem_zola_promettre_855abb2f21:sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce",
+          "lemma": "promettre",
+          "gloss": "to promise",
+          "definition": "S’engager verbalement ou par écrit à quelque chose.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_promit_sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce_14c3e80101_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_promit_lem_zola_promettre_855abb2f21",
+                "senseId": "sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Il promit de revenir avant la nuit.",
+              "targetText": "promit",
+              "targetRange": {
+                "start": 3,
+                "end": 9
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "feared"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "promised"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "refused"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "forgot"
+                }
+              ],
+              "correctChoiceId": "choice_6"
+            },
+            {
+              "id": "qiz_cendrillon_promit_sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce_14c3e80101_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_promit_lem_zola_promettre_855abb2f21",
+                "senseId": "sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Elle _____ à sa sœur de garder le secret.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "promirent"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "promis"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "promit"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "promettre"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_promit_sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce_14c3e80101_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_promit_lem_zola_promettre_855abb2f21",
+                "senseId": "sns_parure_promettre_s_engager_verbalement_ou_par_ecrit_a_quelque_chose_27d09190ce"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Le maire promit une aide aux familles touchées et signa un engagement écrit.",
+              "prompt": "Quel mot signifie s’engagea à faire quelque chose ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "promit"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "maire"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "familles"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "signa"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "8298f27652c6b6c0f65187ba58cf3938c63ec5d73485cb8992628b088011247d"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "beau",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 32,
+          "end": 36,
+          "text": "beau",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_beau:sns_beau_primary",
+          "lemma": "beau",
+          "gloss": "beautiful",
+          "definition": "beautiful",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_beau_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_beau",
+                "senseId": "sns_beau_primary"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Ce beau cheval court dans le pré.",
+              "targetText": "beau",
+              "targetRange": {
+                "start": 3,
+                "end": 7
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "beautiful; handsome"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "ugly"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "weak"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "small"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_beau_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_beau",
+                "senseId": "sns_beau_primary"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Le musée expose un ___ portrait ancien.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "beau"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "bel"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "belle"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "beaux"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_beau_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_beau",
+                "senseId": "sns_beau_primary"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Un beau tableau domine la salle, tandis qu’une lampe éclaire le mur.",
+              "prompt": "Quel mot donne une appréciation esthétique positive du tableau ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "beau"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "salle"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "lampe"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "mur"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "763f3cd15fa73c72147eb88e9dbee21b20f22612c36267a3e1eb3fbd265e275d"
+        },
+        {
+          "identity": "srf_zola_beau_beau:sns_zola_beau_beautiful",
+          "lemma": "beau",
+          "gloss": "beautiful; fine",
+          "definition": "qui plaît par ses qualités",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_beau_beau_beautiful_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_beau_beau",
+                "senseId": "sns_zola_beau_beautiful"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Le beau résultat de cette affaire, c’est que l’homme honnête sera puni.",
+              "targetText": "beau",
+              "targetRange": {
+                "start": 3,
+                "end": 7
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "secret"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "fine; splendid (said ironically)"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "ugly"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "ordinary"
+                }
+              ],
+              "correctChoiceId": "choice_6"
+            },
+            {
+              "id": "qiz_zola_beau_beau_beautiful_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_beau_beau",
+                "senseId": "sns_zola_beau_beautiful"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Quel _____ résultat : Picquart a fait son devoir et sera pourtant puni !",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "beau"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "bel"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "belle"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "beaux"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_beau_beau_beautiful_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_beau_beau",
+                "senseId": "sns_zola_beau_beautiful"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Et le beau résultat de cette situation prodigieuse, c’est que l’honnête homme, le lieutenant-colonel Picquart, va être la victime.",
+              "prompt": "Quel adjectif qualifie ironiquement ce résultat ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "résultat"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "Picquart"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "victime"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "beau"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "c858faae693f7b74c1abdb8554ae916a5e3f842dcd5b0073a357e81a64259925"
+        },
+        {
+          "identity": "srf_fr_beau_avoir_beau:sns_fr_avoir_beau_concessive_expression",
+          "lemma": "avoir beau",
+          "gloss": "however much; in vain",
+          "definition": "Dans « avoir beau » suivi de l’infinitif, une action reste sans effet sur le résultat.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_beau_avoir_beau",
+                "senseId": "sns_fr_avoir_beau_concessive_expression"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines.",
+              "targetText": "beau",
+              "targetRange": {
+                "start": 16,
+                "end": 20
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "beautiful"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "already"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "from afar"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "however much; in vain"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_beau_avoir_beau",
+                "senseId": "sns_fr_avoir_beau_concessive_expression"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Vous aurez _____ les avoir : sans parrains, ces talents resteront vains.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "belle"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "beaux"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "beau"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "bel"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            },
+            {
+              "id": "qiz_fr_avoir_beau_concessive_expression_fr_beau_avoir_beau_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_beau_avoir_beau",
+                "senseId": "sns_fr_avoir_beau_concessive_expression"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Mais vous aurez beau les avoir, pour vostre avancement ce seront choses vaines si vous n’avez des parrains ou des Maraines.",
+              "prompt": "Quel mot appartient à la locution signifiant « malgré tous vos efforts » ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "Maraines"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "beau"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "avancement"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "choses"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            }
+          ],
+          "questionSha256": "ab51ed905a13aafc666440e5a214a3b0cddeb096db1ffd3119770705b984b7af"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "philosophie",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 46,
+          "end": 57,
+          "text": "philosophie",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "écrit",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 58,
+          "end": 63,
+          "text": "écrit",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "menu",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 69,
+          "end": 73,
+          "text": "menu",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "usage",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 84,
+          "end": 89,
+          "text": "usage",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "verraient",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 118,
+          "end": 127,
+          "text": "verraient",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "effectivement",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 0,
+          "end": 13,
+          "text": "Effectivement",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "donna",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 23,
+          "end": 28,
+          "text": "donna",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_donna_lem_zola_donner_518d60b734:sns_fr_donner_spare_life",
+          "lemma": "donner",
+          "gloss": "to spare someone’s life",
+          "definition": "Accorder la vie sauve à quelqu’un que l’on pourrait faire mourir, dans donner la vie.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_donner_spare_life_cendrillon_donna_lem_zola_donner_518d60b734_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_spare_life"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Le vainqueur donna la vie à son prisonnier au lieu de le faire exécuter.",
+              "targetText": "donna",
+              "targetRange": {
+                "start": 13,
+                "end": 18
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "spared"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "threatened"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "ignored"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "questioned"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_fr_donner_spare_life_cendrillon_donna_lem_zola_donner_518d60b734_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_spare_life"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Le juge lui _____ la vie sauve en annulant son exécution.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "ôta"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "retira"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "refusa"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "donna"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_donner_spare_life_cendrillon_donna_lem_zola_donner_518d60b734_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_spare_life"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Touché par sa demande de grâce, le chef lui donna la vie et le laissa partir libre.",
+              "prompt": "Quel verbe, avec la vie, exprime le fait d’épargner le prisonnier ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "chef"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "partir"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "donna"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "demande"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            }
+          ],
+          "questionSha256": "3573dab98930d8b1225711b31c49087791b4ff277026fe4bb51ebbd55babd4b2"
+        },
+        {
+          "identity": "srf_cendrillon_donna_lem_zola_donner_518d60b734:sns_fr_donner_host_event",
+          "lemma": "donner",
+          "gloss": "to give; to host",
+          "definition": "Organiser une réception, une fête ou un spectacle.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_donner_host_event_cendrillon_donna_lem_zola_donner_518d60b734_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_host_event"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Elle donna une grande réception pour célébrer son retour.",
+              "targetText": "donna",
+              "targetRange": {
+                "start": 5,
+                "end": 10
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "cancelled"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "attended"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "missed"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "hosted"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_donner_host_event_cendrillon_donna_lem_zola_donner_518d60b734_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_host_event"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Pour fêter leur arrivée, il _____ un banquet auquel il invita tous ses voisins.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "manqua"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "refusa"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "donna"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "annula"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            },
+            {
+              "id": "qiz_fr_donner_host_event_cendrillon_donna_lem_zola_donner_518d60b734_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_fr_donner_host_event"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "La famille donna une fête dans le jardin et accueillit une cinquantaine d’invités.",
+              "prompt": "Quel verbe indique l’organisation de la fête ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "invités"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "donna"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "famille"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "jardin"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            }
+          ],
+          "questionSha256": "37ff174834c94a32f1718eca22726c6d0e7b9253d3f766e450f08f1156d21261"
+        },
+        {
+          "identity": "srf_cendrillon_donna_lem_zola_donner_518d60b734:sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01",
+          "lemma": "donner",
+          "gloss": "to give; to offer",
+          "definition": "Transmettre, offrir ou mettre quelque chose à la disposition de quelqu’un, notamment un objet ou une main tendue.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_donna_sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01_53d94483b2_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Elle lui donna un livre en cadeau pour son anniversaire.",
+              "targetText": "donna",
+              "targetRange": {
+                "start": 9,
+                "end": 14
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "hid"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "withheld"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "gave"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "sold"
+                }
+              ],
+              "correctChoiceId": "choice_7"
+            },
+            {
+              "id": "qiz_cendrillon_donna_sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01_53d94483b2_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Pour l’aider à descendre, il lui _____ la main et la soutint.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "refusa"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "donna"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "retira"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "cacha"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_donna_sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01_53d94483b2_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_donna_lem_zola_donner_518d60b734",
+                "senseId": "sns_cendrillon_donner_faire_un_don_transferer_sans_retribution_la_propriete_d_une_chose_que_l_on_possede_ou_dont_on_jouit_a_une_autre_personne_277db6ff01"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Il donna son manteau au voyageur qui avait froid, sans rien demander en échange.",
+              "prompt": "Quel verbe exprime le fait d’offrir l’objet au voyageur ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "donna"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "manteau"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "voyageur"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "échange"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "3b72ce5a9acd32249e22ef9fe1a9092ed81a5f389f07abdd740b8237fd9d4039"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "avant",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 39,
+          "end": 44,
+          "text": "avant",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_parure_avant_lem_parure_avant_preposition_2bf7a798c2_cd2035fa75:sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d",
+          "lemma": "avant",
+          "gloss": "before (in time)",
+          "definition": "Marque la priorité ou l’antériorité de temps.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_parure_avant_sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d_4d78543da5_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_avant_lem_parure_avant_preposition_2bf7a798c2_cd2035fa75",
+                "senseId": "sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Elle arrive avant le début du spectacle.",
+              "targetText": "avant",
+              "targetRange": {
+                "start": 12,
+                "end": 17
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "before"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "after"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "during"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "since"
+                }
+              ],
+              "correctChoiceId": "choice_5"
+            },
+            {
+              "id": "qiz_parure_avant_sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d_4d78543da5_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_avant_lem_parure_avant_preposition_2bf7a798c2_cd2035fa75",
+                "senseId": "sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Elle entre _____ le début du film ; la projection n’a pas encore commencé.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "depuis"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "pendant"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "avant"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "après"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_parure_avant_sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d_4d78543da5_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_parure_avant_lem_parure_avant_preposition_2bf7a798c2_cd2035fa75",
+                "senseId": "sns_parure_avant_marque_la_priorite_ou_l_anteriorite_de_temps_95b333e08d"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Il faut réserver avant vendredi ; samedi, toutes les places seront déjà attribuées.",
+              "prompt": "Quel mot indique une limite antérieure au jour nommé ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "vendredi"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "samedi"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "places"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "avant"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "6c7702caf99f62ec52741b34040da51101a65cfef51ee88f529468332914cc24"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "départ",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 49,
+          "end": 55,
+          "text": "départ",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "porta",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 64,
+          "end": 69,
+          "text": "porta",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_cendrillon_porta_lem_porter_72074fbfc9:sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88",
+          "lemma": "porter",
+          "gloss": "to carry",
+          "definition": "Soutenir une personne ou une chose, notamment en la déplaçant jusqu’à un lieu.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_cendrillon_porta_sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88_93d3e241a0_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_porta_lem_porter_72074fbfc9",
+                "senseId": "sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Elle porta le panier jusque dans la cuisine.",
+              "targetText": "porta",
+              "targetRange": {
+                "start": 5,
+                "end": 10
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "emptied"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "opened"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "carried"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "dropped"
+                }
+              ],
+              "correctChoiceId": "choice_7"
+            },
+            {
+              "id": "qiz_cendrillon_porta_sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88_93d3e241a0_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_porta_lem_porter_72074fbfc9",
+                "senseId": "sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Il _____ la caisse sur son dos jusqu’à la grange.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "portant"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "porta"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "portèrent"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "porter"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_cendrillon_porta_sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88_93d3e241a0_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_cendrillon_porta_lem_porter_72074fbfc9",
+                "senseId": "sns_parure_porter_soutenir_quelque_chose_ou_quelqu_un_446a795d88"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Elle souleva l’enfant et le porta jusqu’à son lit.",
+              "prompt": "Quel verbe désigne le déplacement de l’enfant soutenu dans ses bras ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "porta"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "souleva"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "enfant"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "lit"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "e11fd107867381bda23a007246878afcc88170aca90a3410a58a3e88df9813ac"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "sciences",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 95,
+          "end": 103,
+          "text": "sciences",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    },
+    {
+      "form": "ouvert",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 143,
+          "end": 149,
+          "text": "ouvert",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_zola_ouvert_ouvrir:sns_zola_ouvrir_begin",
+          "lemma": "ouvrir",
+          "gloss": "to open; begin",
+          "definition": "faire passer d’un état fermé à un état accessible ou commencer une activité",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_zola_ouvert_ouvrir_begin_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_ouvert_ouvrir",
+                "senseId": "sns_zola_ouvrir_begin"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Paul a ouvert la fenêtre pour aérer la chambre.",
+              "targetText": "ouvert",
+              "targetRange": {
+                "start": 7,
+                "end": 13
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "opened"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "closed"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "repaired"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "painted"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_ouvert_ouvrir_begin_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_ouvert_ouvrir",
+                "senseId": "sns_zola_ouvrir_begin"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Le gardien a _____ la porte aux visiteurs.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "ouvrir"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "ouvert"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "ouvre"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "ouvrent"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_zola_ouvert_ouvrir_begin_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_zola_ouvert_ouvrir",
+                "senseId": "sns_zola_ouvrir_begin"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Le conseil a ouvert une enquête pour comprendre les causes de l’incident.",
+              "prompt": "Quel mot indique le commencement officiel de l’enquête ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "conseil"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "causes"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "incident"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "ouvert"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "51e591d7e0fcb5927d48512f2860220dc1bb11f3194b8e16c1585e87c605b008"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "vit",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 157,
+          "end": 160,
+          "text": "vit",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_vit:sns_vivre_primary",
+          "lemma": "vivre",
+          "gloss": "lives",
+          "definition": "lives",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_vit_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit",
+                "senseId": "sns_vivre_primary"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Il vit de son travail et paie ainsi toutes ses dépenses.",
+              "targetText": "vit",
+              "targetRange": {
+                "start": 3,
+                "end": 6
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "sleeps"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "lives"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "dies"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "travels"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_vit_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit",
+                "senseId": "sns_vivre_primary"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Elle lui fournit le gîte et le couvert : il _____ à ses dépens.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "vit"
+                },
+                {
+                  "id": "choice_5",
+                  "text": "meurt"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "court"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "tombe"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_vit_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit",
+                "senseId": "sns_vivre_primary"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Cet homme vit grâce aux revenus de sa ferme, qui suffisent à ses besoins.",
+              "prompt": "Quel verbe indique qu’il assure son existence avec ces ressources ?",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "revenus"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "ferme"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "besoins"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "vit"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            }
+          ],
+          "questionSha256": "69d6d4b1fd4082641e3443702f1bb1afa84de5ced573f8c1961e17219e5a7368"
+        },
+        {
+          "identity": "srf_vit_voir:sns_voir_past",
+          "lemma": "voir",
+          "gloss": "Here vit is the past historic of voir (saw), not the existing vivre identity.",
+          "definition": "Here vit is the past historic of voir (saw), not the existing vivre identity.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_vit_saw_early",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_voir_past"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Paul vit une lumière derrière la fenêtre.",
+              "targetText": "vit",
+              "targetRange": {
+                "start": 5,
+                "end": 8
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "saw"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "heard"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "found"
+                },
+                {
+                  "id": "choice_8",
+                  "text": "forgot"
+                }
+              ],
+              "correctChoiceId": "choice_5"
+            },
+            {
+              "id": "qiz_vit_saw_intermediate",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_voir_past"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Marie _____ un homme courir vers la rivière.",
+              "choices": [
+                {
+                  "id": "choice_5",
+                  "text": "voir"
+                },
+                {
+                  "id": "choice_6",
+                  "text": "vis"
+                },
+                {
+                  "id": "choice_1",
+                  "text": "vit"
+                },
+                {
+                  "id": "choice_7",
+                  "text": "virent"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_vit_saw_advanced",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_voir_past"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Paul vit la lettre sur la table, mais il ne la lut pas.",
+              "prompt": "Quel verbe au passé signifie aperçut ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "Paul"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "vit"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "lettre"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "table"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            }
+          ],
+          "questionSha256": "78919ddc212bc35e5fee48d65696696d5b227fa335442bc8fad7b0c52258cac3"
+        },
+        {
+          "identity": "srf_vit_voir:sns_fr_voir_perceive",
+          "lemma": "voir",
+          "gloss": "to see",
+          "definition": "Percevoir par la vue, constater visuellement.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_voir_perceive_vit_voir_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_fr_voir_perceive"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "En ouvrant la fenêtre, elle vit un oiseau posé sur le toit.",
+              "targetText": "vit",
+              "targetRange": {
+                "start": 28,
+                "end": 31
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "saw"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "heard"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "smelled"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "touched"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            },
+            {
+              "id": "qiz_fr_voir_perceive_vit_voir_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_fr_voir_perceive"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Il ouvrit les yeux et _____ la lumière du matin.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "entendit"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "goûta"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "respira"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "vit"
+                }
+              ],
+              "correctChoiceId": "choice_4"
+            },
+            {
+              "id": "qiz_fr_voir_perceive_vit_voir_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_vit_voir",
+                "senseId": "sns_fr_voir_perceive"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Elle vit que la porte était ouverte et aperçut son voisin dans le jardin.",
+              "prompt": "Quel verbe au début du passage indique une constatation visuelle ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "voisin"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "jardin"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "vit"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "porte"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            }
+          ],
+          "questionSha256": "a8ab5d1bec305384fc56b1bfebc3bd06ab66a49bfe69b738d7bfa99e27930a0a"
+        }
+      ],
+      "earlierCandidates": []
+    },
+    {
+      "form": "étais",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 214,
+          "end": 219,
+          "text": "étais",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [
+        {
+          "identity": "srf_fr_etais_etre:sns_fr_etre_auxiliary",
+          "lemma": "être",
+          "gloss": "had (past auxiliary)",
+          "definition": "Auxiliaire être employé pour former un temps composé.",
+          "preparedBands": [
+            "levels_1_3",
+            "levels_4_5",
+            "levels_6_8"
+          ],
+          "questions": [
+            {
+              "id": "qiz_fr_etre_auxiliary_fr_etais_etre_levels_1_3",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_etais_etre",
+                "senseId": "sns_fr_etre_auxiliary"
+              },
+              "band": "levels_1_3",
+              "format": "meaning_choice",
+              "context": "Tu étais déjà revenu quand la pluie a commencé.",
+              "targetText": "étais",
+              "targetRange": {
+                "start": 3,
+                "end": 8
+              },
+              "prompt": "Meaning",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "must"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "can"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "had"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "will"
+                }
+              ],
+              "correctChoiceId": "choice_3"
+            },
+            {
+              "id": "qiz_fr_etre_auxiliary_fr_etais_etre_levels_4_5",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_etais_etre",
+                "senseId": "sns_fr_etre_auxiliary"
+              },
+              "band": "levels_4_5",
+              "format": "surface_completion",
+              "context": "Hier, tu _____ déjà parti quand je suis arrivé.",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "étiez"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "étais"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "était"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "étions"
+                }
+              ],
+              "correctChoiceId": "choice_2"
+            },
+            {
+              "id": "qiz_fr_etre_auxiliary_fr_etais_etre_levels_6_8",
+              "language": "fr",
+              "glossLanguage": "en",
+              "subject": {
+                "kind": "vocabulary",
+                "surfaceFormId": "srf_fr_etais_etre",
+                "senseId": "sns_fr_etre_auxiliary"
+              },
+              "band": "levels_6_8",
+              "format": "target_identification",
+              "context": "Tu étais sorti avant le début de la réunion ; ton voisin a donc gardé les documents pour toi.",
+              "prompt": "Quelle forme de l’auxiliaire être accompagne sorti pour situer le départ dans le passé ?",
+              "choices": [
+                {
+                  "id": "choice_1",
+                  "text": "étais"
+                },
+                {
+                  "id": "choice_2",
+                  "text": "sorti"
+                },
+                {
+                  "id": "choice_3",
+                  "text": "voisin"
+                },
+                {
+                  "id": "choice_4",
+                  "text": "gardé"
+                }
+              ],
+              "correctChoiceId": "choice_1"
+            }
+          ],
+          "questionSha256": "b934d38635f32c8ed269de737af6742eb973e467edb121a779bf415419fbc8f8"
+        }
+      ],
+      "earlierCandidates": [
+        {
+          "key": "etais_you_were",
+          "file": "chapter-03-batch-12.json",
+          "lemma": "être",
+          "meaning": "you were; you used to be",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "… n’es qu’un curieux, tu n’as jamais eu d’amour : si tu étais un vrai Saturnien, tu serais fidèle. Où vas-tu courir …",
+              "question": "Meaning",
+              "answer": "you were",
+              "choices": [
+                "you were",
+                "you had",
+                "you went",
+                "you saw"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "À cette époque, tu ___ fidèle.",
+              "question": "Complétez la phrase.",
+              "answer": "étais",
+              "choices": [
+                "étais",
+                "avais",
+                "allais",
+                "voyais"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "Tu étais décrit ton état passé; tu avais exprime la possession, allais un déplacement et voyais une perception.",
+              "question": "Quel mot exprime you were ?",
+              "answer": "étais",
+              "choices": [
+                "étais",
+                "avais",
+                "allais",
+                "voyais"
+              ]
+            }
+          ],
+          "questionSha256": "2393040466bf5e027f9a32987a46674c983412d55db1eb52aa79d2d33367aac4",
+          "fileSha256": "9bd804769cbde90bb751ecdeb9c10636ea6f3285e31ea0fe72c03ec8b2abc8e2"
+        }
+      ]
+    },
+    {
+      "form": "douté",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 215,
+          "start": 225,
+          "end": 230,
+          "text": "douté",
+          "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+        }
+      ],
+      "publishedCandidates": [],
+      "earlierCandidates": []
+    }
+  ]
+}

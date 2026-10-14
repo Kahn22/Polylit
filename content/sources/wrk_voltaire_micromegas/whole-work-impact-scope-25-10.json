@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:38.117Z",
+  "sense": {
+    "id": "sns_fr_faire_form_idea",
+    "lemmaId": "lem_faire",
+    "gloss": "to form (an idea)",
+    "definition": "Élaborer mentalement une idée ou une opinion, dans se faire une idée."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_form_idea_zola_font_faire_levels_1_3",
+      "qiz_fr_faire_form_idea_zola_font_faire_levels_6_8",
+      "qiz_fr_faire_form_idea_zola_font_faire_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_font_faire:sns_fr_faire_form_idea",
+      "surface": "font",
+      "lemma": "faire",
+      "currentRevision": "rev_c3f16f7462b64117a9988ba521b2d6491c84a7efcc37d13cb334c4d0b0d6bf18",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_b0467bbf8801fb439583ecef",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_171",
+          "passage": "Décidément, les tribunaux militaires se font une singulière idée de la justice.",
+          "span": [
+            40,
+            44
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_form_idea_zola_font_faire_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ils se font une idée du village en regardant les photos.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "hide",
+              "correct": false
+            },
+            {
+              "text": "form",
+              "correct": true
+            },
+            {
+              "text": "erase",
+              "correct": false
+            },
+            {
+              "text": "forget",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_form_idea_zola_font_faire_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elles se font une image précise du paysage grâce au récit.",
+          "prompt": "Quel verbe exprime l’élaboration d’une représentation mentale ?",
+          "choices": [
+            {
+              "text": "image",
+              "correct": false
+            },
+            {
+              "text": "paysage",
+              "correct": false
+            },
+            {
+              "text": "récit",
+              "correct": false
+            },
+            {
+              "text": "font",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_form_idea_zola_font_faire_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les visiteurs se _____ une opinion après la visite.",
+          "choices": [
+            {
+              "text": "font",
+              "correct": true
+            },
+            {
+              "text": "fait",
+              "correct": false
+            },
+            {
+              "text": "fais",
+              "correct": false
+            },
+            {
+              "text": "faites",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

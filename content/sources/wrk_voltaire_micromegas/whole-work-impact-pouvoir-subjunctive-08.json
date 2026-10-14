@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:36:16.839Z",
+  "sense": {
+    "id": "sns_zola_pouvoir_subjunctive",
+    "lemmaId": "lem_zola_pouvoir",
+    "gloss": "may; can",
+    "definition": "forme du subjonctif de pouvoir indiquant une possibilité"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_puisse_pouvoir_subjunctive_intermediate",
+      "qiz_zola_puisse_pouvoir_subjunctive_advanced",
+      "qiz_zola_puisse_pouvoir_subjunctive_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_puisse_pouvoir:sns_zola_pouvoir_subjunctive",
+      "surface": "puisse",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_20c7805f16507bb9ef87ffff12564f19ab1463285c78626c564dc07673fe120e",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_42545f5c69a416b9688a765d",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_023",
+          "passage": "il y est venu la plus belle Princesse, la plus belle qu’on puisse jamais voir ; elle nous a fait mille civilitez ; elle nous a donné des oranges et des citrons. Cendrillon ne se sentoit pas de joye : elle leur demanda le nom de cette Princesse ; mais elles luy répondirent qu’on ne la connoissoit pas, que le Fils du Roi en estoit fort en peine, et qu’il donneroit toutes choses au monde pour sçavoir qui elle estoit. Cendrillon sourit et leur dit, elle estoit donc bien belle ? Mon Dieu ! que vous estes heureuses,",
+          "span": [
+            59,
+            65
+          ]
+        },
+        {
+          "id": "occ_zola_b51c1b274d7fbd1930d89c04",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_064",
+          "passage": "C’est un mensonge ; et cela est d’autant plus odieux et cynique qu’ils mentent impunément sans qu’on puisse les en convaincre.",
+          "span": [
+            101,
+            107
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_puisse_pouvoir_subjunctive_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Nina cherche une place où elle _____ travailler tranquillement.",
+          "choices": [
+            {
+              "text": "puissent",
+              "correct": false
+            },
+            {
+              "text": "puissions",
+              "correct": false
+            },
+            {
+              "text": "pouvoir",
+              "correct": false
+            },
+            {
+              "text": "puisse",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_puisse_pouvoir_subjunctive_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul ouvre la grille pour que le véhicule puisse passer sans obstacle.",
+          "prompt": "Quel verbe exprime la possibilité de passer ?",
+          "choices": [
+            {
+              "text": "grille",
+              "correct": false
+            },
+            {
+              "text": "véhicule",
+              "correct": false
+            },
+            {
+              "text": "obstacle",
+              "correct": false
+            },
+            {
+              "text": "puisse",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_puisse_pouvoir_subjunctive_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il faut une clé pour qu’elle puisse entrer.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "wants to",
+              "correct": false
+            },
+            {
+              "text": "must",
+              "correct": false
+            },
+            {
+              "text": "refuses to",
+              "correct": false
+            },
+            {
+              "text": "can",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

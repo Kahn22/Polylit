@@ -1,0 +1,2001 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 24,
+    "reviewedQuestionBands": 72,
+    "newExpressionForms": 20,
+    "newQuestionBands": 60,
+    "reusedEarlierQuestionBands": 12
+  },
+  "items": [
+    {
+      "key": "s_est_plu_a",
+      "surfacePattern": "s’est plu à",
+      "meaning": "took pleasure in; delighted in",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 169,
+          "start": 49,
+          "end": 60,
+          "text": "s’est plu à"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 169,
+          "start": 49,
+          "end": 51,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 169,
+          "start": 51,
+          "end": 54,
+          "text": "est",
+          "form": "est"
+        },
+        {
+          "unit": 169,
+          "start": 55,
+          "end": 58,
+          "text": "plu",
+          "form": "plu"
+        },
+        {
+          "unit": 169,
+          "start": 59,
+          "end": 60,
+          "text": "à",
+          "form": "à"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables.",
+          "targetText": "s’est plu à",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "took pleasure in; delighted in",
+          "choices": [
+            "took pleasure in; delighted in",
+            "refused to",
+            "reluctantly accepted",
+            "restricted oneself to"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il a pris plaisir à créer ces êtres : il ___ les faire naître.",
+          "question": "Complétez la phrase.",
+          "answer": "s’est plu à",
+          "choices": [
+            "s’est plu à",
+            "s’est refusé à",
+            "s’est résigné à",
+            "s’est borné à"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction au passé composé signifie a trouvé du plaisir à faire quelque chose ?",
+          "question": "Quelle expression convient ?",
+          "answer": "s’est plu à",
+          "choices": [
+            "s’est plu à",
+            "s’est refusé à",
+            "s’est résigné à",
+            "s’est borné à"
+          ]
+        }
+      ],
+      "questionSha256": "9d44ee9b58ecad970d500d6c1316ace6d430446a362d45031d9d40b76053f62f",
+      "identityTarget": "new_sense_existing_lemma:lem_parure_plaire_verb_2795ef7bb8",
+      "reviewNote": "The eternal being is personified as taking pleasure in revealing ingenuity and power. The exact VI plaire bank and all three bands were read and reused unchanged. The four pronominal prefixes fit an infinitive; pleasure differs from refusal, reluctant acceptance and limitation. No isolated plu, est or s’ encounter is added.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-06-expression-review-03.json",
+      "earlierKey": "s_est_plu_a",
+      "earlierFileSha256": "4541d46cba902d69852b363e7a97c6a1f82fb556d0605e67764be63624e704b4"
+    },
+    {
+      "key": "a_la_fois",
+      "surfacePattern": "à la fois",
+      "meaning": "at the same time; simultaneously",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 188,
+          "start": 21,
+          "end": 30,
+          "text": "à la fois"
+        },
+        {
+          "chapter": 7,
+          "unit": 193,
+          "start": 31,
+          "end": 40,
+          "text": "à la fois"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 188,
+          "start": 21,
+          "end": 22,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 188,
+          "start": 23,
+          "end": 25,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 188,
+          "start": 26,
+          "end": 30,
+          "text": "fois",
+          "form": "fois"
+        },
+        {
+          "unit": 193,
+          "start": 31,
+          "end": 32,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 193,
+          "start": 33,
+          "end": 35,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 193,
+          "start": 36,
+          "end": 40,
+          "text": "fois",
+          "form": "fois"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je les vois, disaient-ils tous deux à la fois ; ne les voyez-vous pas qui portent des fardeaux, qui se baissent, qui se relèvent. »",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at the same time; simultaneously",
+          "choices": [
+            "at the same time; simultaneously",
+            "one after the other",
+            "once in the past",
+            "for the first time"
+          ],
+          "targetText": "à la fois"
+        },
+        {
+          "band": "4-5",
+          "context": "Leurs paroles sont simultanées : les deux voyageurs s’écrient ___ « Je les vois ! ».",
+          "question": "Complétez la phrase.",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "l’un après l’autre",
+            "plus tard"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils parlent simultanément, sans attendre leur tour.",
+          "question": "Quelle expression convient ?",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "plus tard",
+            "de temps en temps"
+          ]
+        }
+      ],
+      "questionSha256": "645f823ea7ceedac79f35d7983f581a2c58209fe78e8dca2102960e40ca8aa2e",
+      "identityTarget": "share_earlier_expression_meaning:chapter-05-expression-review.json:a_la_fois",
+      "reviewNote": "The philosophers answer and speak simultaneously. The Chapter V full-span bank was read in all three bands and reused unchanged; neither repeated occasions nor one-after-another applies. The new exhaustive VII spans suppress component à/la/fois identities without copying mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-05-expression-review.json",
+      "earlierKey": "a_la_fois",
+      "earlierFileSha256": "ef51d2552a62210807d44fbe68bf2eb44508ab54f7588c8c68b8798885099fb3"
+    },
+    {
+      "key": "non_plus",
+      "surfacePattern": "non plus",
+      "meaning": "not either; not also",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 198,
+          "start": 61,
+          "end": 69,
+          "text": "non plus"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 198,
+          "start": 61,
+          "end": 64,
+          "text": "non",
+          "form": "non"
+        },
+        {
+          "unit": 198,
+          "start": 65,
+          "end": 69,
+          "text": "plus",
+          "form": "plus"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "En vérité, ce qui fait que je pense qu’il n’y a ici personne, c’est qu’il me paraît que des gens de bon sens ne voudraient pas y demeurer. — Eh bien, dit Micromégas, ce ne sont peut-être pas non plus des gens de bon sens qui l’habitent.",
+          "question": "What does the phrase mean here?",
+          "answer": "not either",
+          "choices": [
+            "not either",
+            "much more",
+            "at once",
+            "ever again"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ces habitants ne seraient peut-être pas raisonnables ___.",
+          "question": "Complétez la phrase.",
+          "answer": "non plus",
+          "choices": [
+            "non plus",
+            "davantage",
+            "à jamais",
+            "tout de suite"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Non plus ajoute un autre élément nié; davantage augmente, à jamais indique la durée et tout de suite l’immédiateté.",
+          "question": "Quelle locution signifie not either ?",
+          "answer": "non plus",
+          "choices": [
+            "non plus",
+            "davantage",
+            "à jamais",
+            "tout de suite"
+          ]
+        }
+      ],
+      "questionSha256": "98e83d4019a897bfc2cb675e6d870a537fe2e808362bf5aeb5fb478b4eff46a8",
+      "identityTarget": "share_earlier_expression_meaning:chapter-04-final-expressions.json:non_plus",
+      "reviewNote": "The second speaker adds that he too does not understand Greek. The earlier IV bank was read and retained unchanged in all three bands. It adds a second negation rather than expressing increased degree, immediacy or indefinite duration; plus does not receive a separate quantity encounter here.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-04-final-expressions.json",
+      "earlierKey": "non_plus",
+      "earlierFileSha256": "d654d5bb6ca50edf077ada1adc14e2d30318d3564e24a0172770e2db34a25991"
+    },
+    {
+      "key": "d_ailleurs",
+      "surfacePattern": "d’ailleurs",
+      "meaning": "besides; moreover",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 183,
+          "start": 0,
+          "end": 10,
+          "text": "D’ailleurs"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 183,
+          "start": 0,
+          "end": 2,
+          "text": "D’",
+          "form": "d’"
+        },
+        {
+          "unit": 183,
+          "start": 2,
+          "end": 10,
+          "text": "ailleurs",
+          "form": "ailleurs"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "d’ailleurs",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "besides; moreover",
+          "choices": [
+            "besides; moreover",
+            "yesterday",
+            "instead",
+            "perhaps"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il ajoute un argument : « ___, ces êtres auraient-ils une voix ? »",
+          "question": "Complétez la phrase.",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression ajoute une remarque ou un argument supplémentaire ?",
+          "question": "Quelle expression convient ?",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        }
+      ],
+      "questionSha256": "df3a8b6ac573e2a62b3806da7204e8df37528527acda1157c6f03f215559896a",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_zola_ailleurs_ailleurs:sns_fr_ailleurs_besides_component",
+      "reviewNote": "The philosopher adds that the remote rulers, rather than the soldiers alone, deserve punishment. The VI full-span bank and its published component identity were inspected and reused unchanged. This is an additional argument, not spatial elsewhere; final import must retain the published meaning with no duplicate component mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-06-expression-review-01.json",
+      "earlierKey": "d_ailleurs",
+      "earlierFileSha256": "7588e8293335190c959b226a06555e47ba55c23069b398637c991659f7cab4fa"
+    },
+    {
+      "key": "nulle_part",
+      "surfacePattern": "nulle part",
+      "meaning": "nowhere; in no place",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 170,
+          "start": 11,
+          "end": 21,
+          "text": "nulle part"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 170,
+          "start": 11,
+          "end": 16,
+          "text": "nulle",
+          "form": "nulle"
+        },
+        {
+          "unit": 170,
+          "start": 17,
+          "end": 21,
+          "text": "part",
+          "form": "part"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je n’ai vu nulle part le vrai bonheur ; mais il est ici, sans doute. »",
+          "targetText": "nulle part",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "nowhere; in no place",
+          "choices": [
+            "nowhere; in no place",
+            "elsewhere",
+            "everywhere",
+            "somewhere"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il affirme ne trouver le bonheur dans aucun lieu : il ne l’a vu ___.",
+          "question": "Complétez la phrase.",
+          "answer": "nulle part",
+          "choices": [
+            "nulle part",
+            "ailleurs",
+            "partout",
+            "quelque part"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution négative signifie dans aucun lieu ?",
+          "question": "Quelle expression convient ?",
+          "answer": "nulle part",
+          "choices": [
+            "nulle part",
+            "ailleurs",
+            "partout",
+            "quelque part"
+          ]
+        }
+      ],
+      "questionSha256": "fc1ff9d27b13eefac4f4b58bbdb65d9c61df5900c8ac13ae2f052c74a27ea5e7",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Nulle part denies any location where the traveler has found true happiness. The four full phrases fit the negated seeing construction; lack of a place differs from another place, every place or an unspecified place. Part is neither a portion noun nor the verb departing in this span.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_bonne_foi",
+      "surfacePattern": "de bonne foi",
+      "meaning": "honestly; sincerely",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 171,
+          "start": 105,
+          "end": 117,
+          "text": "de bonne foi"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 171,
+          "start": 105,
+          "end": 107,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 171,
+          "start": 108,
+          "end": 113,
+          "text": "bonne",
+          "form": "bonne"
+        },
+        {
+          "unit": 171,
+          "start": 114,
+          "end": 117,
+          "text": "foi",
+          "form": "foi"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "À ce discours, tous les philosophes secouèrent la tête ; et l’un d’eux, plus franc que les autres, avoua de bonne foi que, si l’on en excepte un petit nombre d’habitants fort peu considérés, tout le reste est un assemblage de fous, de méchants et de malheureux.",
+          "targetText": "de bonne foi",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "honestly; sincerely",
+          "choices": [
+            "honestly; sincerely",
+            "reluctantly",
+            "in secret",
+            "dishonestly"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il avoue sincèrement ce qu’il croit vrai, sans tromper son interlocuteur : il le dit ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de bonne foi",
+          "choices": [
+            "de bonne foi",
+            "à contrecœur",
+            "en secret",
+            "de mauvaise foi"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique une déclaration sincère faite sans intention de tromper ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de bonne foi",
+          "choices": [
+            "de bonne foi",
+            "à contrecœur",
+            "en secret",
+            "de mauvaise foi"
+          ]
+        }
+      ],
+      "questionSha256": "49bf1cd63878f2004685f7102ac54999de7c35870aa1f3a51083c85ebf196e53",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The frank philosopher candidly admits widespread folly and unhappiness. The earlier VII expression draft has no approved questions; its sincerity disposition was checked, then these three bands were authored. All adverbial choices fit le dit, while honesty rather than reluctance, secrecy or insincerity selects the phrase. Bonne is not a maid and foi is not a promised word.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "s_agit",
+      "surfacePattern": "s’agit",
+      "meaning": "is about; concerns",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 175,
+          "start": 5,
+          "end": 11,
+          "text": "s’agit"
+        },
+        {
+          "chapter": 7,
+          "unit": 177,
+          "start": 6,
+          "end": 12,
+          "text": "s’agit"
+        },
+        {
+          "chapter": 7,
+          "unit": 178,
+          "start": 83,
+          "end": 89,
+          "text": "s’agit"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 175,
+          "start": 5,
+          "end": 7,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 175,
+          "start": 7,
+          "end": 11,
+          "text": "agit",
+          "form": "agit"
+        },
+        {
+          "unit": 177,
+          "start": 6,
+          "end": 8,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 177,
+          "start": 8,
+          "end": 12,
+          "text": "agit",
+          "form": "agit"
+        },
+        {
+          "unit": 178,
+          "start": 83,
+          "end": 85,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 178,
+          "start": 85,
+          "end": 89,
+          "text": "agit",
+          "form": "agit"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Il s’agit, dit le philosophe, de quelque tas de boue grand comme votre talon.",
+          "targetText": "s’agit",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "is about; concerns",
+          "choices": [
+            "is about; concerns",
+            "happens",
+            "proceeds",
+            "is spent"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La querelle a pour objet ce tas de boue : il ___ de ce tas.",
+          "question": "Complétez la phrase.",
+          "answer": "s’agit",
+          "choices": [
+            "s’agit",
+            "provient",
+            "reste",
+            "manque"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction impersonnelle signifie est question de quelque chose ?",
+          "question": "Quelle expression convient ?",
+          "answer": "s’agit",
+          "choices": [
+            "s’agit",
+            "provient",
+            "reste",
+            "manque"
+          ]
+        }
+      ],
+      "questionSha256": "c6ef2da0f5f8d1645e60f62533e96417d6f8f57a280c9bca02b4e43e8d3fd62f",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:sns_zola_s_agir_concern",
+      "reviewNote": "The three impersonal clauses name what the quarrel concerns, including negation of the claimed motive. The global agir family already has sns_zola_s_agir_concern, distinct from accomplishing an action. Prepare this full fused pronominal surface on that existing meaning, not a second expression sense. The middle alternatives are syntactically possible with de ce tas, while the stated subject of the dispute selects s’agit. Final import must bridge the whole span and suppress s’/agit duplicate encounters.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "en_use",
+      "surfacePattern": "en use",
+      "meaning": "behaves; acts in that manner",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 267,
+          "end": 273,
+          "text": "en use"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 267,
+          "end": 269,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 173,
+          "start": 270,
+          "end": 273,
+          "text": "use",
+          "form": "use"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "en use",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "behaves; acts in that manner",
+          "choices": [
+            "behaves; acts in that manner",
+            "wears it down",
+            "uses a tool",
+            "makes a purchase"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour dire qu’on agit ainsi envers autrui, le récit emploie « on ___ ainsi ».",
+          "question": "Complétez la phrase.",
+          "answer": "en use",
+          "choices": [
+            "en use",
+            "le détériore",
+            "se sert d’un outil",
+            "fait un achat"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction signifie agit de cette manière, notamment envers autrui ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en use",
+          "choices": [
+            "en use",
+            "le détériore",
+            "se sert d’un outil",
+            "fait un achat"
+          ]
+        }
+      ],
+      "questionSha256": "6c954ecbabb6f37f2b8a53489678c8f33e7688af1a36cf9e8677ecb74213dd8b",
+      "identityTarget": "new_sense_existing_lemma:lem_fr_user_verb",
+      "reviewNote": "Académie 7 user explicitly records absolute en user for acting in a particular manner. The global proper user verb has only wear-down, so prepare this distinct behaving meaning under lem_fr_user_verb. This is how humans wage war, not deterioration by rubbing. All middle predicates are grammatical; behavior rather than wearing an object, using a tool or purchasing selects the whole construction. No anaphoric en encounter is duplicated.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_temps_immemorial",
+      "surfacePattern": "de temps immémorial",
+      "meaning": "since time beyond living memory",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 274,
+          "end": 293,
+          "text": "de temps immémorial"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 274,
+          "end": 276,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 173,
+          "start": 277,
+          "end": 282,
+          "text": "temps",
+          "form": "temps"
+        },
+        {
+          "unit": 173,
+          "start": 283,
+          "end": 293,
+          "text": "immémorial",
+          "form": "immémorial"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "de temps immémorial",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "since time beyond living memory",
+          "choices": [
+            "since time beyond living memory",
+            "since yesterday",
+            "for a moment",
+            "for the first time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce comportement dure depuis une époque si ancienne qu’aucun souvenir n’en marque le début : on agit ainsi ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de temps immémorial",
+          "choices": [
+            "de temps immémorial",
+            "depuis hier",
+            "pour un instant",
+            "pour la première fois"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution renvoie à une ancienneté dont on ne garde pas le souvenir du commencement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de temps immémorial",
+          "choices": [
+            "de temps immémorial",
+            "depuis hier",
+            "pour un instant",
+            "pour la première fois"
+          ]
+        }
+      ],
+      "questionSha256": "93c806e2ea48584f0e94dc00244d9999c92afb48bcf13edeb95080854731e3e8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosopher presents warfare as having persisted beyond remembered beginnings. The bank tests the phrase’s temporal meaning, not a factual date of the first war. All four temporal phrases fit the verb; remote unremembered antiquity selects the target. The noun temps and adjective immémorial remain inside the full-span identity.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "d_accord",
+      "surfacePattern": "d’accord",
+      "meaning": "in agreement; agreed",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 185,
+          "start": 301,
+          "end": 309,
+          "text": "d’accord"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 185,
+          "start": 301,
+          "end": 303,
+          "text": "d’",
+          "form": "d’"
+        },
+        {
+          "unit": 185,
+          "start": 303,
+          "end": 309,
+          "text": "accord",
+          "form": "accord"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Puisque vous êtes du petit nombre des sages, dit-il à ces messieurs, et qu’apparemment vous ne tuez personne pour de l’argent, dites-moi, je vous en prie, à quoi vous vous occupez. — Nous disséquons des mouches, dit le philosophe, nous mesurons des lignes, nous assemblons des nombres ; nous sommes d’accord sur deux ou trois points que nous entendons, et nous disputons sur deux ou trois mille que nous n’entendons pas. »",
+          "targetText": "d’accord",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in agreement; agreed",
+          "choices": [
+            "in agreement; agreed",
+            "in conflict",
+            "in doubt",
+            "in a hurry"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils partagent la même opinion sur ces points : ils sont ___.",
+          "question": "Complétez la phrase.",
+          "answer": "d’accord",
+          "choices": [
+            "d’accord",
+            "en désaccord",
+            "dans le doute",
+            "dans l’urgence"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie que plusieurs personnes partagent une même opinion ?",
+          "question": "Quelle expression convient ?",
+          "answer": "d’accord",
+          "choices": [
+            "d’accord",
+            "en désaccord",
+            "dans le doute",
+            "dans l’urgence"
+          ]
+        }
+      ],
+      "questionSha256": "d69cfeb05aba714c7170566ccc3fe4d6f9e2adb79d8027d425804883e13c68b8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosophers agree on two or three understood points, contrasting their many disputes. The full agreeing predicate is prepared, excluding generic de and musical accord. Each alternative fits ils sont; shared opinion rather than disagreement, uncertainty or urgency selects agreement. Published d’accord component meanings require one canonical full-span route before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "du_tout",
+      "surfacePattern": "du tout",
+      "meaning": "at all; whatsoever",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 198,
+          "start": 252,
+          "end": 259,
+          "text": "du tout"
+        },
+        {
+          "chapter": 7,
+          "unit": 204,
+          "start": 7,
+          "end": 14,
+          "text": "du tout"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 198,
+          "start": 252,
+          "end": 254,
+          "text": "du",
+          "form": "du"
+        },
+        {
+          "unit": 198,
+          "start": 255,
+          "end": 259,
+          "text": "tout",
+          "form": "tout"
+        },
+        {
+          "unit": 204,
+          "start": 7,
+          "end": 9,
+          "text": "du",
+          "form": "du"
+        },
+        {
+          "unit": 204,
+          "start": 10,
+          "end": 14,
+          "text": "tout",
+          "form": "tout"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je n’entends pas trop bien le grec, dit le géant. — Ni moi non plus, dit la mite philosophique. — Pourquoi donc, reprit le Sirien, citez-vous un certain Aristote en grec ? — C’est, répliqua le savant, qu’il faut bien citer ce qu’on ne comprend point du tout dans la langue qu’on entend le moins. »",
+          "targetText": "du tout",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at all; whatsoever",
+          "choices": [
+            "at all; whatsoever",
+            "sometimes",
+            "probably",
+            "already"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il n’en comprend absolument rien : il ne le comprend pas ___.",
+          "question": "Complétez la phrase.",
+          "answer": "du tout",
+          "choices": [
+            "du tout",
+            "encore",
+            "entièrement",
+            "vraiment"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution renforce une négation en excluant toute quantité ou tout degré ?",
+          "question": "Quelle expression convient ?",
+          "answer": "du tout",
+          "choices": [
+            "du tout",
+            "encore",
+            "entièrement",
+            "vraiment"
+          ]
+        }
+      ],
+      "questionSha256": "f5ee15b11fd03d0da344b9a95d5944b6476d39bd4b28a73bc799473a7bc3178b",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Point du tout and rien du tout reinforce a complete negation, concerning understanding and action respectively. They are not the quantity pronoun tout standing for everything. All adverbs fit the negative completion while absolute exclusion alone selects du tout; each complete source span is retained to suppress duplicate component mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "tout_haut",
+      "surfacePattern": "tout haut",
+      "meaning": "aloud; audibly",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 195,
+          "start": 28,
+          "end": 37,
+          "text": "tout haut"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 195,
+          "start": 28,
+          "end": 32,
+          "text": "tout",
+          "form": "tout"
+        },
+        {
+          "unit": 195,
+          "start": 33,
+          "end": 37,
+          "text": "haut",
+          "form": "haut"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un vieux péripatéticien dit tout haut avec confiance : « L’âme est une entéléchie, et une raison par qui elle a la puissance d’être ce qu’elle est.",
+          "targetText": "tout haut",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "aloud; audibly",
+          "choices": [
+            "aloud; audibly",
+            "silently",
+            "in secret",
+            "inwardly"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il prononce les paroles de manière audible, plutôt que dans sa tête : il les dit ___.",
+          "question": "Complétez la phrase.",
+          "answer": "tout haut",
+          "choices": [
+            "tout haut",
+            "en silence",
+            "en secret",
+            "intérieurement"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie de manière audible, par opposition à intérieurement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "tout haut",
+          "choices": [
+            "tout haut",
+            "en silence",
+            "en secret",
+            "intérieurement"
+          ]
+        }
+      ],
+      "questionSha256": "1f82b16a6c84484f681aa346399361e08a97d4ef7c82e1460a8ac1fe31b6e804",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Peripatetic says the proposition aloud. Haut is not spatial elevation, and tout intensifies the established vocal expression. All four manner phrases fit les dit; audibility rather than silence, secrecy or an inward thought selects tout haut. Before import reconcile any existing haut loud meaning into one whole-span route rather than duplicate word and phrase encounters.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "en_dedans",
+      "surfacePattern": "en dedans",
+      "meaning": "inside; within",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 191,
+          "start": 128,
+          "end": 137,
+          "text": "en dedans"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 191,
+          "start": 128,
+          "end": 130,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 191,
+          "start": 131,
+          "end": 137,
+          "text": "dedans",
+          "form": "dedans"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Enfin Micromégas leur dit : « Puisque vous savez si bien ce qui est hors de vous, sans doute vous savez encore mieux ce qui est en dedans.",
+          "targetText": "en dedans",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "inside; within",
+          "choices": [
+            "inside; within",
+            "outside",
+            "above",
+            "nearby"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils prétendent connaître leur être intérieur : ce qui est à l’intérieur se trouve ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en dedans",
+          "choices": [
+            "en dedans",
+            "en dehors",
+            "au-dessus",
+            "tout près"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution désigne l’intérieur, en opposition à l’extérieur ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en dedans",
+          "choices": [
+            "en dedans",
+            "en dehors",
+            "au-dessus",
+            "tout près"
+          ]
+        }
+      ],
+      "questionSha256": "07fbbb0b2c54d547a1bebb254bd2827abe1c5ecdeb4a0eb1d811685af07aff50",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The giant contrasts what is outside the philosophers with their interior soul and thinking. This figurative inward domain retains the inside/outside opposition; it does not mean bodily location alone. All four locative phrases fit se trouve. The whole locution is prepared so en is not incorrectly treated as a partitive pronoun.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_nouveau",
+      "surfacePattern": "de nouveau",
+      "meaning": "again; once more",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 199,
+          "start": 210,
+          "end": 220,
+          "text": "de nouveau"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 199,
+          "start": 210,
+          "end": 212,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 199,
+          "start": 213,
+          "end": 220,
+          "text": "nouveau",
+          "form": "nouveau"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton.",
+          "targetText": "de nouveau",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "again; once more",
+          "choices": [
+            "again; once more",
+            "for the first time",
+            "forever",
+            "in advance"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Elle doit apprendre encore une fois ce qu’elle aurait déjà su : elle l’apprend ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de nouveau",
+          "choices": [
+            "de nouveau",
+            "pour la première fois",
+            "à jamais",
+            "à l’avance"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique qu’une action se produit une nouvelle fois ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de nouveau",
+          "choices": [
+            "de nouveau",
+            "pour la première fois",
+            "à jamais",
+            "à l’avance"
+          ]
+        }
+      ],
+      "questionSha256": "1bc2b06cfe448c90a43498fffcd527294b67148a3d45eed0cca173095d3d2231",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Cartesian claim says the soul must learn everything again; tout remains the pronoun everything outside de nouveau. No adjective meaning new modifies an object here. All temporal phrases fit apprend; repetition rather than first occurrence, indefinite duration or anticipation selects the target.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_haut_en_bas",
+      "surfacePattern": "de haut en bas",
+      "meaning": "with contempt; looking down on someone",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 231,
+          "end": 245,
+          "text": "de haut en bas"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 231,
+          "end": 233,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 210,
+          "start": 234,
+          "end": 238,
+          "text": "haut",
+          "form": "haut"
+        },
+        {
+          "unit": 210,
+          "start": 239,
+          "end": 241,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 210,
+          "start": 242,
+          "end": 245,
+          "text": "bas",
+          "form": "bas"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "de haut en bas",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "with contempt; looking down on someone",
+          "choices": [
+            "with contempt; looking down on someone",
+            "with respect",
+            "with curiosity",
+            "with indifference"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Se croyant supérieur, il leur témoigne du mépris : il les regarde ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution, dans regarder quelqu’un, exprime ici un regard méprisant ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        }
+      ],
+      "questionSha256": "d13614d4e5ea98497fd4888084c0fb1b5b8cb60c817d457d565934ca1e84c242",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Académie 1762 regarder explicitly gives regarder quelqu’un de haut en bas for showing contempt or disdain. The source’s tiny cleric claims universal knowledge and human primacy before giants; this contextual application is an editorial inference supported by the conventional idiom, rather than a mere vertical survey. The earlier unresolved gaze draft was inspected. All four adverbial phrases fit regarde; contempt rather than respect, curiosity or indifference selects the whole locution.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "je_vous_en_prie",
+      "surfacePattern": "je vous en prie",
+      "meaning": "please; I ask you politely",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 185,
+          "start": 140,
+          "end": 155,
+          "text": "je vous en prie"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 185,
+          "start": 140,
+          "end": 142,
+          "text": "je",
+          "form": "je"
+        },
+        {
+          "unit": 185,
+          "start": 143,
+          "end": 147,
+          "text": "vous",
+          "form": "vous"
+        },
+        {
+          "unit": 185,
+          "start": 148,
+          "end": 150,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 185,
+          "start": 151,
+          "end": 155,
+          "text": "prie",
+          "form": "prie"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Puisque vous êtes du petit nombre des sages, dit-il à ces messieurs, et qu’apparemment vous ne tuez personne pour de l’argent, dites-moi, je vous en prie, à quoi vous vous occupez. — Nous disséquons des mouches, dit le philosophe, nous mesurons des lignes, nous assemblons des nombres ; nous sommes d’accord sur deux ou trois points que nous entendons, et nous disputons sur deux ou trois mille que nous n’entendons pas. »",
+          "targetText": "je vous en prie",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "please; I ask you politely",
+          "choices": [
+            "please; I ask you politely",
+            "I forbid you",
+            "I blame you",
+            "I congratulate you"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il sollicite poliment une réponse : « Dites-moi, ___, à quoi vous vous occupez. »",
+          "question": "Complétez la phrase.",
+          "answer": "je vous en prie",
+          "choices": [
+            "je vous en prie",
+            "je vous l’interdis",
+            "je vous le reproche",
+            "je vous en félicite"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle formule exprime ici une demande polie ?",
+          "question": "Quelle expression convient ?",
+          "answer": "je vous en prie",
+          "choices": [
+            "je vous en prie",
+            "je vous l’interdis",
+            "je vous le reproche",
+            "je vous en félicite"
+          ]
+        }
+      ],
+      "questionSha256": "9fd2ca1c9922792af0fd65569424aa91fa0cdd0fee0b8e81fb7b8cac2db81f41",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Sirian politely requests an account of the sages’ activities. This source formula is an entreaty, not the response to thanks that identical words can express elsewhere. Each first-person clause fits the quotation; polite requesting rather than prohibition, reproach or congratulation selects it. Je/vous/en/prie components stay within this specific formula.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "en_nombre_rond",
+      "surfacePattern": "en nombre rond",
+      "meaning": "in round numbers; approximately",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 188,
+          "start": 142,
+          "end": 156,
+          "text": "en nombre rond"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 188,
+          "start": 142,
+          "end": 144,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 188,
+          "start": 145,
+          "end": 151,
+          "text": "nombre",
+          "form": "nombre"
+        },
+        {
+          "unit": 188,
+          "start": 152,
+          "end": 156,
+          "text": "rond",
+          "form": "rond"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils répondirent tous à la fois : « Trente-deux degrés et demi. — Combien comptez-vous d’ici à la lune ? — Soixante demi-diamètres de la terre en nombre rond. — Combien pèse votre air ? »",
+          "targetText": "en nombre rond",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in round numbers; approximately",
+          "choices": [
+            "in round numbers; approximately",
+            "exactly",
+            "without a number",
+            "in strict order"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La quantité est donnée sous une forme arrondie, non comme une mesure exacte : elle est exprimée ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en nombre rond",
+          "choices": [
+            "en nombre rond",
+            "avec exactitude",
+            "sans aucun nombre",
+            "dans un ordre strict"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique une quantité exprimée par un nombre arrondi ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en nombre rond",
+          "choices": [
+            "en nombre rond",
+            "avec exactitude",
+            "sans aucun nombre",
+            "dans un ordre strict"
+          ]
+        }
+      ],
+      "questionSha256": "32a06ae687da91d58fcf997c6d1dcff84fc98837070d0d3fd384a4c48037c0a4",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosophers give the lunar distance as a rounded quantity. The question tests rounding and does not endorse a modern astronomical measurement. Each manner phrase fits exprimée; round approximation rather than exactness, absence of a number or ordering selects the target. Nominal rond is not physical circularity here.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "eh_bien",
+      "surfacePattern": "Eh bien",
+      "meaning": "well then; a prompt to continue the reasoning",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 201,
+          "start": 116,
+          "end": 123,
+          "text": "Eh bien"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 201,
+          "start": 116,
+          "end": 118,
+          "text": "Eh",
+          "form": "eh"
+        },
+        {
+          "unit": 201,
+          "start": 119,
+          "end": 123,
+          "text": "bien",
+          "form": "bien"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Par exemple cette pierre est grise, est d’une telle forme, a ses trois dimensions, elle est pesante et divisible. — Eh bien ! dit le Sirien, cette chose qui te paraît être divisible, pesante, et grise, me dirais-tu bien ce que c’est ?",
+          "targetText": "Eh bien",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "well then; a prompt to continue the reasoning",
+          "choices": [
+            "well then; a prompt to continue the reasoning",
+            "goodbye",
+            "thank you",
+            "alas"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il poursuit son raisonnement à partir de la réponse : « ___, peux-tu expliquer ce que cette chose est ? »",
+          "question": "Complétez la phrase.",
+          "answer": "Eh bien",
+          "choices": [
+            "Eh bien",
+            "Au revoir",
+            "Merci beaucoup",
+            "Hélas"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle formule introduit ici la prochaine étape d’un raisonnement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "Eh bien",
+          "choices": [
+            "Eh bien",
+            "Au revoir",
+            "Merci beaucoup",
+            "Hélas"
+          ]
+        }
+      ],
+      "questionSha256": "82171cfff6551fa326c4566d2b1f8e4e918ebac5e681bef87a1ee64caa635aa5",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Micromégas takes up the reported attributes and asks for the underlying nature of matter. The formula advances the exchange, not a claim of good quality, proficiency or willingness. All complete interjections fit the quotation. Published bien discourse meanings must be reconciled into a full formula before import so one occurrence does not generate two encounters.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "ou_bien",
+      "surfacePattern": "ou bien",
+      "meaning": "or else; introducing another alternative",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 183,
+          "end": 190,
+          "text": "ou bien"
+        },
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 273,
+          "end": 280,
+          "text": "ou bien"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 205,
+          "start": 183,
+          "end": 185,
+          "text": "ou",
+          "form": "ou"
+        },
+        {
+          "unit": 205,
+          "start": 186,
+          "end": 190,
+          "text": "bien",
+          "form": "bien"
+        },
+        {
+          "unit": 205,
+          "start": 273,
+          "end": 275,
+          "text": "ou",
+          "form": "ou"
+        },
+        {
+          "unit": 205,
+          "start": 276,
+          "end": 280,
+          "text": "bien",
+          "form": "bien"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »",
+          "targetText": "ou bien",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "or else; introducing another alternative",
+          "choices": [
+            "or else; introducing another alternative",
+            "and then",
+            "therefore",
+            "nevertheless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il propose une autre possibilité : « L’âme serait ceci, ___ elle serait cela. »",
+          "question": "Complétez la phrase.",
+          "answer": "ou bien",
+          "choices": [
+            "ou bien",
+            "et puis",
+            "par conséquent",
+            "pourtant"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution relie ici deux possibilités présentées comme des alternatives ?",
+          "question": "Quelle expression convient ?",
+          "answer": "ou bien",
+          "choices": [
+            "ou bien",
+            "et puis",
+            "par conséquent",
+            "pourtant"
+          ]
+        }
+      ],
+      "questionSha256": "d035f39a4d6d7dfc1a0ea926c64ea26746c364afeb770fb25f4307a0148ec486",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Both occurrences introduce an alternative metaphor for soul and body. Every occurrence of ou bien in this unit is indexed, including the second one. Bien does not express knowledge quality or certainty here. All connectors fit the two clauses, while alternatives rather than succession, consequence or opposition select ou bien.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_l_heure_que",
+      "surfacePattern": "à l’heure que",
+      "meaning": "at the time when; as",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 33,
+          "end": 46,
+          "text": "à l’heure que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 173,
+          "start": 33,
+          "end": 34,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 173,
+          "start": 35,
+          "end": 37,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 173,
+          "start": 37,
+          "end": 42,
+          "text": "heure",
+          "form": "heure"
+        },
+        {
+          "unit": 173,
+          "start": 43,
+          "end": 46,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+          "targetText": "à l’heure que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at the time when; as",
+          "choices": [
+            "at the time when; as",
+            "before the time when",
+            "after the time when",
+            "because"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour situer les faits au moment même où il parle, il dit : « Cela arrive ___ je vous parle. »",
+          "question": "Complétez la phrase.",
+          "answer": "à l’heure que",
+          "choices": [
+            "à l’heure que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction du récit situe les faits au moment où l’on parle ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à l’heure que",
+          "choices": [
+            "à l’heure que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        }
+      ],
+      "questionSha256": "b78439abbc0a324571937e1eea649ecd36fe3db7035f15b09f949b5ac3544630",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The historical à l’heure que clause states that the warfare is occurring as the philosopher speaks. The temporal relative construction is prepared in full rather than assigning que an unrelated object-relative bank. The first-person parle form works with all four connective alternatives; contemporaneity rather than before, after or cause selects the phrase.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "sans_que",
+      "surfacePattern": "sans que",
+      "meaning": "without; without it being the case that",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 204,
+          "start": 159,
+          "end": 167,
+          "text": "sans que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 204,
+          "start": 159,
+          "end": 163,
+          "text": "sans",
+          "form": "sans"
+        },
+        {
+          "unit": 204,
+          "start": 164,
+          "end": 167,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius.",
+          "targetText": "sans que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "without; without it being the case that",
+          "choices": [
+            "without; without it being the case that",
+            "although",
+            "because",
+            "so that"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il affirme que Dieu fait tout sans son intervention : « Il fait tout ___ je m’en mêle. »",
+          "question": "Complétez la phrase.",
+          "answer": "sans que",
+          "choices": [
+            "sans que",
+            "bien que",
+            "parce que",
+            "afin que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution conjonctive exprime l’absence d’une intervention ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans que",
+          "choices": [
+            "sans que",
+            "bien que",
+            "parce que",
+            "afin que"
+          ]
+        }
+      ],
+      "questionSha256": "81fc20cfe733d577e36399f6ca2cb91f502522147a1d23c1b0768b8e7cc29b4d",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Malebranchist claims that God acts without his involvement. This is absence of the subordinate action, not the bare sans question under shared repair. The first-person mêle form fits all four conjunctions, with absence versus concession, cause and purpose selecting sans que. The philosophical claim stays attributed to the speaker.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_l_occasion_de",
+      "surfacePattern": "à l’occasion de",
+      "meaning": "in connection with; prompted by",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 206,
+          "start": 181,
+          "end": 196,
+          "text": "à l’occasion de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 206,
+          "start": 181,
+          "end": 182,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 206,
+          "start": 183,
+          "end": 185,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 206,
+          "start": 185,
+          "end": 193,
+          "text": "occasion",
+          "form": "occasion"
+        },
+        {
+          "unit": 206,
+          "start": 194,
+          "end": 196,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens.",
+          "targetText": "à l’occasion de",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in connection with; prompted by",
+          "choices": [
+            "in connection with; prompted by",
+            "in spite of",
+            "before",
+            "instead of"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il rapporte sa pensée à ses expériences sensibles : elle apparaît ___ ces expériences.",
+          "question": "Complétez la phrase.",
+          "answer": "à l’occasion de",
+          "choices": [
+            "à l’occasion de",
+            "en dépit de",
+            "avant",
+            "à la place de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution relie ici la pensée aux expériences qui lui donnent occasion de se produire ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à l’occasion de",
+          "choices": [
+            "à l’occasion de",
+            "en dépit de",
+            "avant",
+            "à la place de"
+          ]
+        }
+      ],
+      "questionSha256": "24ae216da45e08c54a54bea30ec4f02093311610bcd360c703d89a0d92ae710b",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Lockean reports thinking only in connection with his sensory experiences. Occasion names a circumstance giving rise to thinking, not a festive celebration. All prepositional phrases fit ces expériences, while the asserted occasion rather than obstacle, temporal precedence or replacement selects the target. No historical proof of a theory is claimed.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "les_infiniment_petits",
+      "surfacePattern": "les infiniment petits",
+      "meaning": "the infinitely small beings; the tiny people",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 142,
+          "end": 163,
+          "text": "les infiniment petits"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 213,
+          "start": 142,
+          "end": 145,
+          "text": "les",
+          "form": "les"
+        },
+        {
+          "unit": 213,
+          "start": 146,
+          "end": 156,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 213,
+          "start": 157,
+          "end": 163,
+          "text": "petits",
+          "form": "petits"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+          "targetText": "les infiniment petits",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the infinitely small beings; the tiny people",
+          "choices": [
+            "the infinitely small beings; the tiny people",
+            "the very large beings",
+            "the tall travelers",
+            "the adult rulers"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le géant donne ce nom aux minuscules êtres humains : il les appelle ___.",
+          "question": "Complétez la phrase.",
+          "answer": "les infiniment petits",
+          "choices": [
+            "les infiniment petits",
+            "les infiniment grands",
+            "les grands voyageurs",
+            "les souverains adultes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne ici les êtres humains vus comme extrêmement minuscules ?",
+          "question": "Quelle expression convient ?",
+          "answer": "les infiniment petits",
+          "choices": [
+            "les infiniment petits",
+            "les infiniment grands",
+            "les grands voyageurs",
+            "les souverains adultes"
+          ]
+        }
+      ],
+      "questionSha256": "11a2c658a8c60560c5eef12b348a4d3d902a3e3592dc3f1d70160e3ca9164b6f",
+      "identityTarget": "share_earlier_nominal_meaning:chapter-05-identity-plan.json:petit_chapter_05_held_01_124",
+      "reviewNote": "The giant names tiny people who nevertheless possess vast pride. This substantivized masculine plural phrase differs from the singular abstract domain l’infiniment petit reviewed in VI. All four complete noun phrases are masculine plural and fit appelle. The full span prevents an isolated article plus an unrelated adjective from becoming duplicated vocabulary identities. The earlier V substantive petits plan and all three banks were read: they denote the same tiny beings. Before import, correct that nominal ownership away from the adjective lemma, share the planned noun meaning, and reconcile the two complete spans without a new meaning or duplicate mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierDecisionFile": "chapter-05-identity-plan.json",
+      "earlierDecisionKey": "petit_chapter_05_held_01_124",
+      "earlierDecisionFileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844"
+    },
+    {
+      "key": "un_peu",
+      "surfacePattern": "un peu",
+      "meaning": "a little; to a small degree",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 96,
+          "end": 102,
+          "text": "un peu"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 213,
+          "start": 96,
+          "end": 98,
+          "text": "un",
+          "form": "un"
+        },
+        {
+          "unit": 213,
+          "start": 99,
+          "end": 102,
+          "text": "peu",
+          "form": "peu"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+          "targetText": "un peu",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "a little; to a small degree",
+          "choices": [
+            "a little; to a small degree",
+            "very much",
+            "completely",
+            "not at all"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Sa contrariété reste légère : il est seulement ___ fâché.",
+          "question": "Complétez la phrase.",
+          "answer": "un peu",
+          "choices": [
+            "un peu",
+            "très",
+            "tout à fait",
+            "nullement"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique un faible degré, sans l’annuler ?",
+          "question": "Quelle expression convient ?",
+          "answer": "un peu",
+          "choices": [
+            "un peu",
+            "très",
+            "tout à fait",
+            "nullement"
+          ]
+        }
+      ],
+      "questionSha256": "272b1a79978bad9483cc633741899ada0a75c93cb0cd2290b99ae351d8ad842c",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Un peu modifies fâché with slight degree rather than naming one object. All four adverbial phrases fit the unchanged masculine singular adjective; low positive intensity rather than high intensity, completeness or zero selects the target. Prepare the full degree phrase so the un component is not falsely routed as an indefinite article encounter.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    }
+  ]
+}

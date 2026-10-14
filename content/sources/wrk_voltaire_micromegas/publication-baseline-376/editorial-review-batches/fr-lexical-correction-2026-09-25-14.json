@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-14",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "contextual sense correction and exact-version quiz check",
+  "changes": [
+    {
+      "subjectId": "srf_zola_corps_corps:sns_zola_corps_group",
+      "reviewId": "vocabulary:srf_zola_corps_corps:sns_zola_corps_group",
+      "outcome": "approve",
+      "rationale": "Both Zola passages use esprit de corps for institutional solidarity, not a physical body. The new learner gloss explains the institutional group; all three question bands were checked and the English answer was corrected.",
+      "before": {
+        "id": "vocabulary:srf_zola_corps_corps:sns_zola_corps_group",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_corps_corps:sns_zola_corps_group",
+        "subjectRevision": "rev_f3091e1c6adbc57c98e9c3d998c95ae2350a8949cd890405791d2776fe40adfa",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The contexts include esprit de corps and military units. The prepared gloss body; corps is circular/incomplete for these uses. Hold for a precise sense/gloss."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_corps_corps:sns_zola_corps_group",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_corps_corps:sns_zola_corps_group",
+        "subjectRevision": "rev_fe6aa5b7539534668c0c202560d7394458ece67c49fd79abdd44ad36aa91da06",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Both Zola passages use esprit de corps for institutional solidarity, not a physical body. The new learner gloss explains the institutional group; all three question bands were checked and the English answer was corrected.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    }
+  ]
+}

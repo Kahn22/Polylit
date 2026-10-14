@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "fr-lexical-correction-2026-09-25-14",
+  "language": "fr",
+  "masteryIdsChanged": false,
+  "progressTransfers": [],
+  "reboundQuizApprovals": 3,
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_zola_corps_group",
+      "before": {
+        "id": "sns_zola_corps_group",
+        "lemmaId": "lem_zola_corps",
+        "gloss": "body; corps",
+        "definition": "ensemble organisé de personnes appartenant à une même institution"
+      },
+      "after": {
+        "id": "sns_zola_corps_group",
+        "lemmaId": "lem_zola_corps",
+        "gloss": "professional corps; institutional body",
+        "definition": "Ensemble organisé de personnes d’une même institution, en particulier dans « esprit de corps », la solidarité des membres du même groupe."
+      },
+      "reason": "Both Zola passages use esprit de corps for institutional solidarity, not a physical body. The new learner gloss explains the institutional group; all three question bands were checked and the English answer was corrected."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_corps_corps_group_early",
+      "before": {
+        "id": "qiz_zola_corps_corps_group_early",
+        "surfaceFormId": "srf_zola_corps_corps",
+        "senseId": "sns_zola_corps_group",
+        "contextFrench": "Le corps des pompiers organise une formation commune pour ses membres.",
+        "correctAnswer": "corps",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "corps",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "corps",
+          "building",
+          "vehicle",
+          "uniform"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_corps_corps_group_early",
+        "surfaceFormId": "srf_zola_corps_corps",
+        "senseId": "sns_zola_corps_group",
+        "contextFrench": "Le corps des pompiers organise une formation commune pour ses membres.",
+        "correctAnswer": "professional corps",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "corps",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "professional corps",
+          "building",
+          "vehicle",
+          "uniform"
+        ]
+      },
+      "reason": "Both Zola passages use esprit de corps for institutional solidarity, not a physical body. The new learner gloss explains the institutional group; all three question bands were checked and the English answer was corrected."
+    }
+  ]
+}

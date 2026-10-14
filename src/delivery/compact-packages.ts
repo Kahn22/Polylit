@@ -1,3 +1,4 @@
+import { encodeLibrary } from './library-wire.js';
 import { createHash } from "node:crypto";
 import type { ContentBundle } from "../domain/model.js";
 import type { ExpressionCatalog } from "../domain/expression-content.js";
@@ -39,7 +40,7 @@ export function createCompactPackages(bundle: ContentBundle, expressions: Expres
     const library = legacy.libraryIndexes[language];
     const workIds = new Set(library.catalog.works.map(work => work.id));
     const identityKeys = new Set(Object.values(library.works).flatMap(work => work.vocabularyIdentityKeys));
-    const expressionIds = new Set(expressions.occurrences.filter(item => workIds.has(item.workId)).map(item => item.identityId));
+    const expressionKeys = new Set(expressions.occurrences.filter(item => workIds.has(item.workId)).map(item => expressionMasteryKey(item.identityId, item.surfaceId)));
     const records = new Map<string, QuizRecord>();
     for (const quiz of bundle.quizItems) {
       const key = vocabularyIdentityKey(quiz.surfaceFormId, quiz.senseId);
@@ -48,9 +49,9 @@ export function createCompactPackages(bundle: ContentBundle, expressions: Expres
       record.items.push(prepared(quiz, language)); records.set(key, record);
     }
     for (const quiz of expressions.preparedQuizzes) {
-      if (!expressionIds.has(quiz.expressionId)) continue;
-      const key = expressionMasteryKey(quiz.expressionId);
-      const record = records.get(key) ?? { identity: key, label: expressions.identities.find(item => item.id === quiz.expressionId)!.headword, items: [] };
+      const key = expressionMasteryKey(quiz.expressionId, quiz.surfaceId);
+      if (!expressionKeys.has(key)) continue;
+      const record = records.get(key) ?? { identity: key, label: quiz.surfaceId ? expressions.occurrences.find(item => item.identityId === quiz.expressionId && item.surfaceId === quiz.surfaceId)?.text ?? quiz.surfaceId : expressions.identities.find(item => item.id === quiz.expressionId)!.headword, items: [] };
       record.items.push(prepared(quiz, language)); records.set(key, record);
     }
     const buckets = new Map<string, QuizRecord[]>();
@@ -86,7 +87,7 @@ export function createCompactPackages(bundle: ContentBundle, expressions: Expres
     const index: LibraryIndex = { version: 3, language, release: "", catalog: library.catalog, works, quizzes: add(`quiz-index/${language}`, quizzes) };
     index.release = digest(JSON.stringify(index));
     libraryIndexes[language] = index;
-    files.set(`library/${language}.json`, JSON.stringify(index) + "\n");
+    files.set(`library/${language}.json`, JSON.stringify(encodeLibrary(index)) + "\n");
   }
   return { files, libraryIndexes };
 }

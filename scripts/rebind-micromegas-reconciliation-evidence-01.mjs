@@ -1,0 +1,4 @@
+/** Bind artifact bytes only; never alters source decisions, publication snapshots or approvals. */
+import{readFileSync,writeFileSync}from'node:fs';import{createHash}from'node:crypto';
+const dir=new URL('../content/sources/wrk_voltaire_micromegas',import.meta.url).pathname,read=f=>JSON.parse(readFileSync(`${dir}/${f}`)),sha=x=>createHash('sha256').update(x).digest('hex'),write=(f,x)=>writeFileSync(`${dir}/${f}`,JSON.stringify(x,null,2)+'\n');
+const progress=read('whole-work-progress-01.json');for(const file of Object.keys(progress.evidenceSha256))progress.evidenceSha256[file]=sha(readFileSync(`${dir}/${file}`));write('whole-work-progress-01.json',progress);const d=read('dossier.json');for(const file of [...Object.keys(progress.evidenceSha256),'whole-work-progress-01.json']){const b=readFileSync(`${dir}/${file}`),e=d.evidence.find(i=>i.file===file);if(!e)throw Error(file);e.bytes=b.length;e.sha256=sha(b);}write('dossier.json',d);

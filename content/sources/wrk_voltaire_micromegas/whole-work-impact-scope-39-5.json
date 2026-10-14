@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:57:16.417Z",
+  "sense": {
+    "id": "sns_zola_voir_observe",
+    "lemmaId": "lem_voir",
+    "gloss": "to see; observe",
+    "definition": "percevoir par la vue ou constater un fait"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 9,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_verra_voir_observe_early",
+      "qiz_zola_verra_voir_observe_intermediate",
+      "qiz_zola_verra_voir_observe_advanced",
+      "qiz_zola_voir_voir_observe_early",
+      "qiz_zola_voir_voir_observe_advanced",
+      "qiz_zola_voir_voir_observe_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_verra_voir:sns_zola_voir_observe",
+      "surface": "verra",
+      "lemma": "voir",
+      "currentRevision": "rev_fc294197b4e3b316d7329d274e3d7d20f13deef539efadddc4f4bd6b434fcf92",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_10b5d8dc4a46785adcdc811f",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_179",
+          "passage": "On verra bien si l’on ne vient pas de préparer, pour plus tard, le plus retentissant des désastres.",
+          "span": [
+            3,
+            8
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_verra_voir_observe_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Depuis le sommet, elle verra toute la vallée.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "will hide",
+              "correct": false
+            },
+            {
+              "text": "will forget",
+              "correct": false
+            },
+            {
+              "text": "will cross",
+              "correct": false
+            },
+            {
+              "text": "will see",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_verra_voir_observe_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Demain, Paul _____ enfin le tableau restauré.",
+          "choices": [
+            {
+              "text": "verront",
+              "correct": false
+            },
+            {
+              "text": "verrai",
+              "correct": false
+            },
+            {
+              "text": "voir",
+              "correct": false
+            },
+            {
+              "text": "verra",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_verra_voir_observe_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Nina verra le résultat en ouvrant la boîte ; elle ignore encore ce que Paul a fabriqué.",
+          "prompt": "Quel verbe annonce une observation future ?",
+          "choices": [
+            {
+              "text": "verra",
+              "correct": true
+            },
+            {
+              "text": "résultat",
+              "correct": false
+            },
+            {
+              "text": "boîte",
+              "correct": false
+            },
+            {
+              "text": "fabriqué",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_voir_voir:sns_zola_voir_observe",
+      "surface": "voir",
+      "lemma": "voir",
+      "currentRevision": "rev_a9e736e16e153168e7cd930c9ae0151ae8455342d36fa9190161cca01ec90e1f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_2a826a577ba948434e20d06c",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_024",
+          "passage": "ne pourrois-je point la voir ? Helas ! Mademoiselle Javote, prestez-moi vostre habit jaune que vous mettez tous les jours : vraiment, dit mademoiselle Javotte, je suis de cet avis, prestez vostre habit à un vilain Cucendron comme cela, il faudroit que je fusse bien folle. Cendrillon s’attendoit bien à ce refus, et elle en fut bien aise, car elle auroit esté grandement embarrassée si sa sœur eut bien voulu luy prester son habit. Le lendemain, les deux sœurs furent au bal, et Cendrillon aussi,",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "id": "occ_cendrillon_3e3da6203309159c49a32f70",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_014",
+          "passage": "ce qui fit un bel attelage de six chevaux d’un beau gris de souris pommelé : Comme elle estoit en peine de quoy elle ferait un Cocher, je vais voir, dit Cendrillon, s’il n’y a point quelque rat dans la ratiere ; nous en ferons un Cocher : Tu as raison, dit sa Maraine, va voir :",
+          "span": [
+            272,
+            276
+          ]
+        },
+        {
+          "id": "occ_cendrillon_9c1342338d9e1ec1b97d2cae",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_014",
+          "passage": "ce qui fit un bel attelage de six chevaux d’un beau gris de souris pommelé : Comme elle estoit en peine de quoy elle ferait un Cocher, je vais voir, dit Cendrillon, s’il n’y a point quelque rat dans la ratiere ; nous en ferons un Cocher : Tu as raison, dit sa Maraine, va voir :",
+          "span": [
+            143,
+            147
+          ]
+        },
+        {
+          "id": "occ_cendrillon_b74526e02abb7d40d3cad140",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_023",
+          "passage": "il y est venu la plus belle Princesse, la plus belle qu’on puisse jamais voir ; elle nous a fait mille civilitez ; elle nous a donné des oranges et des citrons. Cendrillon ne se sentoit pas de joye : elle leur demanda le nom de cette Princesse ; mais elles luy répondirent qu’on ne la connoissoit pas, que le Fils du Roi en estoit fort en peine, et qu’il donneroit toutes choses au monde pour sçavoir qui elle estoit. Cendrillon sourit et leur dit, elle estoit donc bien belle ? Mon Dieu ! que vous estes heureuses,",
+          "span": [
+            73,
+            77
+          ]
+        },
+        {
+          "id": "occ_parure_353a81ac6347e78f893eb4dc",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_009",
+          "passage": "Elle avait une amie riche, une camarade de couvent qu’elle ne voulait plus aller voir, tant elle souffrait en revenant. Et elle pleurait pendant des jours entiers, de chagrin, de regret, de désespoir et de détresse.",
+          "span": [
+            81,
+            85
+          ]
+        },
+        {
+          "id": "occ_parure_7a06006cbfc92fc108297af5",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "passage": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+          "span": [
+            75,
+            79
+          ]
+        },
+        {
+          "id": "occ_parure_7fbc1240ab56702aafaa8fc9",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_065",
+          "passage": "Elle ôta les vêtements dont elle s’était enveloppé les épaules, devant la glace, afin de se voir encore une fois dans sa gloire. Mais soudain elle poussa un cri. Elle n’avait plus sa rivière autour du cou !",
+          "span": [
+            92,
+            96
+          ]
+        },
+        {
+          "id": "occ_zola_ea4b2a3aaab3d7df78f3ff55",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_161",
+          "passage": "Cette vérité, cette justice, que nous avons si passionnément voulues, quelle détresse à les voir ainsi souffletées, plus méconnues et plus obscurcies !",
+          "span": [
+            92,
+            96
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_voir_voir_observe_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nina s’approche de la fenêtre pour voir le jardin.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "smell",
+              "correct": false
+            },
+            {
+              "text": "touch",
+              "correct": false
+            },
+            {
+              "text": "see",
+              "correct": true
+            },
+            {
+              "text": "hear",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_voir_voir_observe_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Du sommet, les marcheurs peuvent voir la mer à l’horizon.",
+          "prompt": "Quel infinitif exprime une perception par les yeux ?",
+          "choices": [
+            {
+              "text": "voir",
+              "correct": true
+            },
+            {
+              "text": "sommet",
+              "correct": false
+            },
+            {
+              "text": "mer",
+              "correct": false
+            },
+            {
+              "text": "horizon",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_voir_voir_observe_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul met ses lunettes pour _____ les petits caractères.",
+          "choices": [
+            {
+              "text": "voit",
+              "correct": false
+            },
+            {
+              "text": "voient",
+              "correct": false
+            },
+            {
+              "text": "voyait",
+              "correct": false
+            },
+            {
+              "text": "voir",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

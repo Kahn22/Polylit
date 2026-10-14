@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:20:53.345Z",
+  "sense": {
+    "id": "sns_doute_primary",
+    "lemmaId": "lem_doute",
+    "gloss": "doubt; uncertainty",
+    "definition": "État d’incertitude qui empêche de tenir quelque chose pour assuré."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_doute_advanced",
+      "qiz_doute_intermediate",
+      "qiz_doute_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_doute:sns_doute_primary",
+      "surface": "doute",
+      "lemma": "doute",
+      "currentRevision": "rev_87db955e2c0bd40c5b9447700fc0b7992f4c8eedebf80418547a628f57334d42",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_ba7d7f63f2c0dd06e5b415ff",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_047",
+          "passage": "C’est sans doute un grand avantage",
+          "span": [
+            11,
+            16
+          ]
+        },
+        {
+          "id": "occ_dcee76ee07e6e24e829bd580",
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_10",
+          "passage": "Cette leçon vaut bien un fromage, sans doute. »",
+          "span": [
+            39,
+            44
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_doute_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le doute persiste malgré le rapport, inquiète les habitants et pousse le maire à demander une enquête.",
+          "prompt": "Quel mot désigne l’incertitude qui demeure ?",
+          "choices": [
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "rapport",
+              "correct": false
+            },
+            {
+              "text": "habitants",
+              "correct": false
+            },
+            {
+              "text": "enquête",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_doute_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Après vérification, je suis certain du résultat : je n’ai plus aucun _____.",
+          "choices": [
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "mensonge",
+              "correct": false
+            },
+            {
+              "text": "souvenir",
+              "correct": false
+            },
+            {
+              "text": "projet",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_doute_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "J’ai un doute sur l’heure du rendez-vous.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "doubt",
+              "correct": true
+            },
+            {
+              "text": "certainty",
+              "correct": false
+            },
+            {
+              "text": "memory",
+              "correct": false
+            },
+            {
+              "text": "plan",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

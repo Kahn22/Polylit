@@ -1,0 +1,1221 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 6,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "be6d2ea6f8f037b0c16b24ef201c339a711ecd8f571aac8bff9be80967ef69fc",
+  "status": "offline_full_span_expression_questions_reviewed_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 15,
+    "reviewedQuestionBands": 45,
+    "newQuestionBands": 42,
+    "reusedEarlierQuestionBands": 3,
+    "sourcePhraseUses": 16
+  },
+  "items": [
+    {
+      "key": "aussi_bien_que",
+      "surfacePattern": "aussi bien que",
+      "meaning": "as well as",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 134,
+          "start": 28,
+          "end": 42,
+          "text": "aussi bien que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 134,
+          "start": 28,
+          "end": 33,
+          "text": "aussi",
+          "form": "aussi"
+        },
+        {
+          "unit": 134,
+          "start": 34,
+          "end": 38,
+          "text": "bien",
+          "form": "bien"
+        },
+        {
+          "unit": 134,
+          "start": 39,
+          "end": 42,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "aussi bien que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "as well as",
+          "choices": [
+            "as well as",
+            "instead of",
+            "unlike",
+            "to the exclusion of"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le nain possède ce don, ___ le Sirien : chacun des deux le possède.",
+          "question": "Complétez la phrase.",
+          "answer": "aussi bien que",
+          "choices": [
+            "aussi bien que",
+            "à la place de",
+            "contrairement à",
+            "à l’exclusion de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution inclut les deux personnes dans une même affirmation ?",
+          "question": "Quelle expression convient ?",
+          "answer": "aussi bien que",
+          "choices": [
+            "aussi bien que",
+            "à la place de",
+            "contrairement à",
+            "à l’exclusion de"
+          ]
+        }
+      ],
+      "questionSha256": "d931fe31e4f57a0917de848651229da81bfe9bd9aa1ef51aba8c08b771c03b03",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The whole locution includes the Sirian alongside the dwarf as possessing the gift of languages. The choices contrast inclusion with substitution, difference and exclusion. This is neither discourse-marker bien nor simple also.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "est_ce_que",
+      "surfacePattern": "est-ce que",
+      "meaning": "question marker",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 79,
+          "end": 89,
+          "text": "est-ce que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 79,
+          "end": 82,
+          "text": "est",
+          "form": "est"
+        },
+        {
+          "unit": 136,
+          "start": 83,
+          "end": 85,
+          "text": "ce",
+          "form": "ce"
+        },
+        {
+          "unit": 136,
+          "start": 86,
+          "end": 89,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "est-ce que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "question marker",
+          "choices": [
+            "question marker",
+            "cause marker",
+            "time marker",
+            "condition marker"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour poser une question sans inverser le sujet et le verbe, il commence par « ___ vous venez ? »",
+          "question": "Complétez la phrase.",
+          "answer": "Est-ce que",
+          "choices": [
+            "Est-ce que",
+            "Parce que",
+            "Lorsque",
+            "Puisque"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle tournure introduit une interrogation directe sans inversion du sujet et du verbe ?",
+          "question": "Quelle expression convient ?",
+          "answer": "Est-ce que",
+          "choices": [
+            "Est-ce que",
+            "Parce que",
+            "Lorsque",
+            "Puisque"
+          ]
+        }
+      ],
+      "questionSha256": "625e85c454b84db17998041bd5245c5767e21e5e773f699930f256906cba0d25",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_est:sns_fr_etre_question_formula",
+      "reviewNote": "The source asks whether the dwarf believes the tiny beings can make love without thought. Published est question-formula bank was inspected in all three bands; the new target includes est-ce que in full rather than only its initial verb.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_sorte_que",
+      "surfacePattern": "de sorte que",
+      "meaning": "so that; as a result",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 140,
+          "start": 72,
+          "end": 84,
+          "text": "de sorte que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 140,
+          "start": 72,
+          "end": 74,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 140,
+          "start": 75,
+          "end": 80,
+          "text": "sorte",
+          "form": "sorte"
+        },
+        {
+          "unit": 140,
+          "start": 81,
+          "end": 84,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas.",
+          "targetText": "de sorte que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "so that; as a result",
+          "choices": [
+            "so that; as a result",
+            "because",
+            "although",
+            "before"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "L’ongle transmet le son, ___ le géant entend les paroles : c’en est le résultat.",
+          "question": "Complétez la phrase.",
+          "answer": "de sorte que",
+          "choices": [
+            "de sorte que",
+            "parce que",
+            "alors que",
+            "même si"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution introduit la conséquence de ce qui précède ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de sorte que",
+          "choices": [
+            "de sorte que",
+            "parce que",
+            "alors que",
+            "même si"
+          ]
+        }
+      ],
+      "questionSha256": "24f82c40c69be0f263fc60b908eee303a70e09bba7e525e94f95c1583dd4b961",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_fr_de_sorte_que_de:sns_fr_de_sorte_que",
+      "reviewNote": "The invention causes successful hearing: the locution links result, not prior cause or concession. Published de-token quizzes were inspected but target only one component; prepare the whole phrase without silently overwriting the shared bank.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "tout_a_l_heure_past",
+      "surfacePattern": "tout à l’heure",
+      "meaning": "a moment ago; just now",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 37,
+          "end": 51,
+          "text": "tout à l’heure"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 37,
+          "end": 41,
+          "text": "tout",
+          "form": "tout"
+        },
+        {
+          "unit": 136,
+          "start": 42,
+          "end": 43,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 136,
+          "start": 44,
+          "end": 46,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 136,
+          "start": 46,
+          "end": 51,
+          "text": "heure",
+          "form": "heure"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "tout à l’heure",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "a moment ago; just now",
+          "choices": [
+            "a moment ago; just now",
+            "soon; in a moment",
+            "every hour",
+            "at the same time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Vous l’avez cru il y a quelques instants : vous l’avez cru ___.",
+          "question": "Complétez la phrase.",
+          "answer": "tout à l’heure",
+          "choices": [
+            "tout à l’heure",
+            "dans un moment",
+            "à chaque heure",
+            "en même temps"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression renvoie à un moment très proche dans le passé, dans ce contexte ?",
+          "question": "Quelle expression convient ?",
+          "answer": "tout à l’heure",
+          "choices": [
+            "tout à l’heure",
+            "dans un moment",
+            "à chaque heure",
+            "en même temps"
+          ]
+        }
+      ],
+      "questionSha256": "d846bc620cdedf6ffdde55f7258eae486d76bca9f366e75c88ed605ac4dacd56",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Avez cru anchors the phrase in the past, recalling the dwarf’s earlier claim. The published à tout l’heure token bank means soon and has an anomalous extra à, so it is excluded. The source has tout à l’heure exactly.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "d_ailleurs",
+      "surfacePattern": "d’ailleurs",
+      "meaning": "besides; moreover",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 134,
+          "start": 137,
+          "end": 147,
+          "text": "d’ailleurs"
+        },
+        {
+          "chapter": 6,
+          "unit": 137,
+          "start": 14,
+          "end": 24,
+          "text": "d’ailleurs"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 134,
+          "start": 137,
+          "end": 139,
+          "text": "d’",
+          "form": "d’"
+        },
+        {
+          "unit": 134,
+          "start": 139,
+          "end": 147,
+          "text": "ailleurs",
+          "form": "ailleurs"
+        },
+        {
+          "unit": 137,
+          "start": 14,
+          "end": 16,
+          "text": "d’",
+          "form": "d’"
+        },
+        {
+          "unit": 137,
+          "start": 16,
+          "end": 24,
+          "text": "ailleurs",
+          "form": "ailleurs"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "d’ailleurs",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "besides; moreover",
+          "choices": [
+            "besides; moreover",
+            "yesterday",
+            "instead",
+            "perhaps"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il ajoute un argument : « ___, ces êtres auraient-ils une voix ? »",
+          "question": "Complétez la phrase.",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression ajoute une remarque ou un argument supplémentaire ?",
+          "question": "Quelle expression convient ?",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        }
+      ],
+      "questionSha256": "df3a8b6ac573e2a62b3806da7204e8df37528527acda1157c6f03f215559896a",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_zola_ailleurs_ailleurs:sns_fr_ailleurs_besides_component",
+      "reviewNote": "Both occurrences add another reason/question to the argument, not a spatial elsewhere. The already published ailleurs component bank was read in full; retain its meaning through a complete-span target. Capitalization in the authored direct-quote clue is deliberate.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "grace_a",
+      "surfacePattern": "grâce à",
+      "meaning": "thanks to",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 140,
+          "start": 86,
+          "end": 93,
+          "text": "grâce à"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 140,
+          "start": 86,
+          "end": 91,
+          "text": "grâce",
+          "form": "grâce"
+        },
+        {
+          "unit": 140,
+          "start": 92,
+          "end": 93,
+          "text": "à",
+          "form": "à"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas.",
+          "targetText": "grâce à",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "thanks to",
+          "choices": [
+            "thanks to",
+            "despite",
+            "without",
+            "against"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Son invention lui apporte une aide décisive : il entend les hommes ___ cette invention.",
+          "question": "Complétez la phrase.",
+          "answer": "grâce à",
+          "choices": [
+            "grâce à",
+            "malgré",
+            "sans",
+            "contre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution attribue un résultat favorable à une aide reçue ?",
+          "question": "Quelle expression convient ?",
+          "answer": "grâce à",
+          "choices": [
+            "grâce à",
+            "malgré",
+            "sans",
+            "contre"
+          ]
+        }
+      ],
+      "questionSha256": "8f10a464b1ced315417829d43182df055c54b698a31df317bf2cf845016cf93d",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The positive contribution of his skill/invention enables hearing. Beneficial causation selects grâce à; the alternatives express obstacle, absence and opposition. No full expression with this wording exists in the published bundle.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_travers",
+      "surfacePattern": "à travers",
+      "meaning": "through",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 158,
+          "start": 227,
+          "end": 236,
+          "text": "à travers"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 158,
+          "start": 227,
+          "end": 228,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 158,
+          "start": 229,
+          "end": 236,
+          "text": "travers",
+          "form": "travers"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !",
+          "targetText": "à travers",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "through",
+          "choices": [
+            "through",
+            "toward",
+            "around",
+            "opposite"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il regarde ___ le microscope : son regard passe par les lentilles.",
+          "question": "Complétez la phrase.",
+          "answer": "à travers",
+          "choices": [
+            "à travers",
+            "vers",
+            "autour de",
+            "en face de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique que le regard passe par un instrument ou un milieu ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à travers",
+          "choices": [
+            "à travers",
+            "vers",
+            "autour de",
+            "en face de"
+          ]
+        }
+      ],
+      "questionSha256": "f3b0f33d135d0b21ea7cfb3520e80798c6bea00be6f9909899741fc7764bdaf1",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The dwarf sees the man through a microscope. Passing through its optics differs from looking toward, around or opposite the instrument. Keep the full prepositional locution rather than an isolated à meaning.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_cause_de",
+      "surfacePattern": "à cause de",
+      "meaning": "because of",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 161,
+          "start": 146,
+          "end": 156,
+          "text": "à cause de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 161,
+          "start": 146,
+          "end": 147,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 161,
+          "start": 148,
+          "end": 153,
+          "text": "cause",
+          "form": "cause"
+        },
+        {
+          "unit": 161,
+          "start": 154,
+          "end": 156,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames.",
+          "targetText": "à cause de",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "because of",
+          "choices": [
+            "because of",
+            "despite",
+            "independently of",
+            "in spite of"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le respect pour les dames explique son silence : il se tait ___ ce respect.",
+          "question": "Complétez la phrase.",
+          "answer": "à cause de",
+          "choices": [
+            "à cause de",
+            "malgré",
+            "indépendamment de",
+            "en dépit de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution présente la raison d’une action ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à cause de",
+          "choices": [
+            "à cause de",
+            "malgré",
+            "indépendamment de",
+            "en dépit de"
+          ]
+        }
+      ],
+      "questionSha256": "4eb8629be89067894b0a4d6de6bb61779f822342783e0b463066a0e947657fb8",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_fr_a_cause_de_a:sns_fr_a_cause_de",
+      "reviewNote": "Respect explains the narrator’s refusal to name the anatomical spot. Causal wording is not an obstacle to or independence from that respect. Published à-component quizzes were inspected; this proposal targets all three words.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "peu_a_peu",
+      "surfacePattern": "Peu à peu",
+      "meaning": "gradually; little by little",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 168,
+          "start": 0,
+          "end": 9,
+          "text": "Peu à peu"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 168,
+          "start": 0,
+          "end": 3,
+          "text": "Peu",
+          "form": "peu"
+        },
+        {
+          "unit": 168,
+          "start": 4,
+          "end": 5,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 168,
+          "start": 6,
+          "end": 9,
+          "text": "peu",
+          "form": "peu"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :",
+          "targetText": "Peu à peu",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "gradually; little by little",
+          "choices": [
+            "gradually; little by little",
+            "suddenly",
+            "all at once",
+            "never"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La conversation devient intéressante par degrés, ___.",
+          "question": "Complétez la phrase.",
+          "answer": "peu à peu",
+          "choices": [
+            "peu à peu",
+            "tout à coup",
+            "d’un seul coup",
+            "jamais"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique une évolution progressive ?",
+          "question": "Quelle expression convient ?",
+          "answer": "peu à peu",
+          "choices": [
+            "peu à peu",
+            "tout à coup",
+            "d’un seul coup",
+            "jamais"
+          ]
+        }
+      ],
+      "questionSha256": "84e4dcb1710bd3ec6d4987ae30b3454e052d6fa1e7562239ca65040315e334aa",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_fr_peu_a_peu_a:sns_fr_peu_a_peu",
+      "reviewNote": "The conversation grows more interesting gradually. The source initial capital is preserved; middle/retrieval answers are lowercase because the phrase is mid-sentence or cited as a lexical expression. Published à-component bank does not cover the full target.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "de_son_long",
+      "surfacePattern": "de son long",
+      "meaning": "at full length; stretched out",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 160,
+          "start": 55,
+          "end": 66,
+          "text": "de son long"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 160,
+          "start": 55,
+          "end": 57,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 160,
+          "start": 58,
+          "end": 61,
+          "text": "son",
+          "form": "son"
+        },
+        {
+          "unit": 160,
+          "start": 62,
+          "end": 66,
+          "text": "long",
+          "form": "long"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages.",
+          "targetText": "de son long",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at full length; stretched out",
+          "choices": [
+            "at full length; stretched out",
+            "on his side",
+            "while sitting",
+            "on his knees"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le géant étend tout son corps horizontalement : il se couche ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de son long",
+          "choices": [
+            "de son long",
+            "sur le côté",
+            "en restant assis",
+            "sur les genoux"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression dit que quelqu’un étend tout son corps en se couchant ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de son long",
+          "choices": [
+            "de son long",
+            "sur le côté",
+            "en restant assis",
+            "sur les genoux"
+          ]
+        }
+      ],
+      "questionSha256": "449870f8267bb2de996cee2452386a0ae4ad96008c51300cdbe78a2bb3776498",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The giant lies down along his full length to permit measurement, because standing would put his head above the clouds. Side orientation, sitting and kneeling do not express full-length extension. No isolated long or possessive son quiz substitutes for this construction.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "du_moins",
+      "surfacePattern": "du moins",
+      "meaning": "at least; if nothing more",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 177,
+          "end": 185,
+          "text": "du moins"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 177,
+          "end": 179,
+          "text": "du",
+          "form": "du"
+        },
+        {
+          "unit": 136,
+          "start": 180,
+          "end": 185,
+          "text": "moins",
+          "form": "moins"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "du moins",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at least; if nothing more",
+          "choices": [
+            "at least; if nothing more",
+            "at most",
+            "less than",
+            "nevertheless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "S’ils ne parlent pas vraiment, ils doivent au minimum se faire entendre : ___, ils se font entendre.",
+          "question": "Complétez la phrase.",
+          "answer": "du moins",
+          "choices": [
+            "du moins",
+            "au plus",
+            "moins que",
+            "néanmoins"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution apporte une qualification minimale à une affirmation ?",
+          "question": "Quelle expression convient ?",
+          "answer": "du moins",
+          "choices": [
+            "du moins",
+            "au plus",
+            "moins que",
+            "néanmoins"
+          ]
+        }
+      ],
+      "questionSha256": "bcd0ec5c7c225ef687ebd9b26ed8f6cdf0214db9a6f71d1e542a4dec140d1af3",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The phrase lowers the minimum communicative requirement from articulated words to making oneself heard. It is not numerical au moins. Its qualification differs from upper limit, lesser-degree comparison and concession; do not inherit the published numerical moins bank.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "faisaient_l_amour",
+      "surfacePattern": "faisaient l’amour",
+      "meaning": "were making love",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 59,
+          "end": 76,
+          "text": "faisaient l’amour"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 59,
+          "end": 68,
+          "text": "faisaient",
+          "form": "faisaient"
+        },
+        {
+          "unit": 136,
+          "start": 69,
+          "end": 71,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 136,
+          "start": 71,
+          "end": 76,
+          "text": "amour",
+          "form": "amour"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "faisaient l’amour",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "were making love",
+          "choices": [
+            "were making love",
+            "were making peace",
+            "were celebrating",
+            "were fighting"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "En imaginant une union sexuelle, le nain a cru que ces êtres ___.",
+          "question": "Complétez la phrase.",
+          "answer": "faisaient l’amour",
+          "choices": [
+            "faisaient l’amour",
+            "faisaient la paix",
+            "faisaient la fête",
+            "faisaient la guerre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression à l’imparfait évoque ici une union sexuelle ?",
+          "question": "Quelle expression convient ?",
+          "answer": "faisaient l’amour",
+          "choices": [
+            "faisaient l’amour",
+            "faisaient la paix",
+            "faisaient la fête",
+            "faisaient la guerre"
+          ]
+        }
+      ],
+      "questionSha256": "9c3be9a358e6079bad4630c4c68c9edeaaebc4d333a8f98ef46d08978f25c32d",
+      "identityTarget": "same_expression_meaning:faire_l_amour",
+      "reviewNote": "Contextual inference: generation in unit 133 and producing an enfant in 137 connect this erotic act with procreation. The Académie documents older courting and animal sexual uses; this particular source context selects physical intimacy. The bare noun affection bank is insufficient. Shared meaning with faire l’amour, distinct surface; no copied mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "faire_l_amour",
+      "surfacePattern": "faire l’amour",
+      "meaning": "make love; have sexual relations",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 115,
+          "end": 128,
+          "text": "faire l’amour"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 115,
+          "end": 120,
+          "text": "faire",
+          "form": "faire"
+        },
+        {
+          "unit": 136,
+          "start": 121,
+          "end": 123,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 136,
+          "start": 123,
+          "end": 128,
+          "text": "amour",
+          "form": "amour"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "faire l’amour",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "make love; have sexual relations",
+          "choices": [
+            "make love; have sexual relations",
+            "make peace",
+            "celebrate",
+            "fight"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "L’union physique de deux êtres évoquée ici correspond à l’expression ___.",
+          "question": "Complétez la phrase.",
+          "answer": "faire l’amour",
+          "choices": [
+            "faire l’amour",
+            "faire la paix",
+            "faire la fête",
+            "faire la guerre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression à l’infinitif évoque ici une union sexuelle ?",
+          "question": "Quelle expression convient ?",
+          "answer": "faire l’amour",
+          "choices": [
+            "faire l’amour",
+            "faire la paix",
+            "faire la fête",
+            "faire la guerre"
+          ]
+        }
+      ],
+      "questionSha256": "b1de9dbcf37cd042f20c247968268d2a327995233f457c3bca83fa13b1595d4f",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Contextual inference follows the adjacent generation/enfant discussion, not an assumption that the historical phrase always meant modern intercourse. All four choices are complete faire constructions. Reconcile the infinitive and imperfect under one erotic meaning while preserving separate surface mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "se_faire_entendre",
+      "surfacePattern": "se faire entendre",
+      "meaning": "make oneself heard",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 191,
+          "end": 208,
+          "text": "se faire entendre"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 136,
+          "start": 191,
+          "end": 193,
+          "text": "se",
+          "form": "se"
+        },
+        {
+          "unit": 136,
+          "start": 194,
+          "end": 199,
+          "text": "faire",
+          "form": "faire"
+        },
+        {
+          "unit": 136,
+          "start": 200,
+          "end": 208,
+          "text": "entendre",
+          "form": "entendre"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "se faire entendre",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "make oneself heard",
+          "choices": [
+            "make oneself heard",
+            "fall asleep",
+            "keep silent",
+            "make oneself forgotten"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour que sa voix soit perçue par autrui, il doit ___.",
+          "question": "Complétez la phrase.",
+          "answer": "se faire entendre",
+          "choices": [
+            "se faire entendre",
+            "s’endormir",
+            "garder le silence",
+            "se faire oublier"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction signifie faire percevoir sa voix à d’autres ?",
+          "question": "Quelle expression convient ?",
+          "answer": "se faire entendre",
+          "choices": [
+            "se faire entendre",
+            "s’endormir",
+            "garder le silence",
+            "se faire oublier"
+          ]
+        }
+      ],
+      "questionSha256": "eab78d10ff39c3ad4c9650b15d143c65a69708ef5ba1eb8951ebf3c88a709d83",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The minimum communication required by the Sirian is audible signaling. The full causative-reflexive construction teaches making oneself heard; entendre le français in unit 141 separately means understand a language. The alternatives express sleep, silence or disappearance from attention.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_peu_pres",
+      "surfacePattern": "à peu près",
+      "meaning": "approximately; more or less",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 135,
+          "start": 32,
+          "end": 42,
+          "text": "à peu près"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 135,
+          "start": 32,
+          "end": 33,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 135,
+          "start": 34,
+          "end": 37,
+          "text": "peu",
+          "form": "peu"
+        },
+        {
+          "unit": 135,
+          "start": 38,
+          "end": 42,
+          "text": "près",
+          "form": "près"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur.",
+          "targetText": "à peu près",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "approximately; roughly",
+          "choices": [
+            "approximately; roughly",
+            "exactly",
+            "at least",
+            "at most"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce n’est pas une mesure exacte : l’animal mesure ___ cette fraction de pouce.",
+          "question": "Complétez la phrase.",
+          "answer": "à peu près",
+          "choices": [
+            "à peu près",
+            "exactement",
+            "au moins",
+            "au plus"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression présente une valeur approximative, sans la fixer exactement ni comme une borne ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à peu près",
+          "choices": [
+            "à peu près",
+            "exactement",
+            "au moins",
+            "au plus"
+          ]
+        }
+      ],
+      "questionSha256": "08975ce312c6aa71403d6a7f09d460889b3a0237c7b355ca48a951ab82cd2510",
+      "identityTarget": "share_reviewed_earlier_full_expression",
+      "earlierFile": "chapter-05-expression-review.json",
+      "earlierKey": "a_peu_pres",
+      "earlierFileSha256": "ef51d2552a62210807d44fbe68bf2eb44508ab54f7588c8c68b8798885099fb3",
+      "reviewNote": "Ou à peu près qualifies thinking as more or less, an approximation of the degree/description. The Chapter V full-span bank and all three bands were re-read: approximation rather than exact value, minimum or maximum. Share that meaning and bank; no new expression mastery duplication.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    }
+  ]
+}

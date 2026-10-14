@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:27.211Z",
+  "sense": {
+    "id": "sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3",
+    "lemmaId": "lem_prendre",
+    "gloss": "caught; trapped",
+    "definition": "capturé et retenu dans un piège"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_intermediate",
+      "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_advanced",
+      "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_pris_prendre:sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3",
+      "surface": "pris",
+      "lemma": "prendre",
+      "currentRevision": "rev_b3b174f498dfb49db09236265eac005d6eb67fd69022ab3fbd50a1dc60527343",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_lion_rat_421a4572c1f61c576f191000",
+          "workId": "wrk_lion_rat",
+          "unitId": "unt_lion_rat_08",
+          "passage": "Cependant il advint qu’au sortir des forêts ce Lion fut pris dans des rets,",
+          "span": [
+            56,
+            60
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le petit animal est _____ dans le filet ; la gardienne vient le libérer.",
+          "choices": [
+            {
+              "text": "libre",
+              "correct": false
+            },
+            {
+              "text": "pris",
+              "correct": true
+            },
+            {
+              "text": "prise",
+              "correct": false
+            },
+            {
+              "text": "prises",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Un oiseau est pris dans les mailles ; Nina coupe doucement les fils pour le délivrer.",
+          "prompt": "Quel mot indique qu’il est retenu prisonnier ?",
+          "choices": [
+            {
+              "text": "pris",
+              "correct": true
+            },
+            {
+              "text": "mailles",
+              "correct": false
+            },
+            {
+              "text": "coupe",
+              "correct": false
+            },
+            {
+              "text": "fils",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_lion_rat_pris_sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3_27d788d32f_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le renard est pris dans un piège et ne peut plus avancer.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "hidden",
+              "correct": false
+            },
+            {
+              "text": "asleep",
+              "correct": false
+            },
+            {
+              "text": "trapped",
+              "correct": true
+            },
+            {
+              "text": "released",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

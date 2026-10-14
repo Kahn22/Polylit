@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:44.819Z",
+  "sense": {
+    "id": "sns_fr_faire_condition_stipulate",
+    "lemmaId": "lem_faire",
+    "gloss": "to stipulate (faire condition)",
+    "definition": "Dans l’ancienne expression faire condition, poser une condition à un accord."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_6_8",
+      "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_4_5",
+      "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_firent_lem_faire_c10eccc26b:sns_fr_faire_condition_stipulate",
+      "surface": "firent",
+      "lemma": "faire",
+      "currentRevision": "rev_36245f64250c1baa906342c93402c28bc670f9d6e3ee045cf17aa7ac8982c951",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_a844358e74bde8c7f25d6ae2",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_096",
+          "passage": "Ils prièrent donc le joaillier de ne pas le vendre avant trois jours. Et ils firent condition qu’on le reprendrait pour trente-quatre mille francs, si le premier était retrouvé avant la fin de février.",
+          "span": [
+            77,
+            83
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Ils firent condition que la vente serait annulée si la livraison tardait.",
+          "prompt": "Quel verbe entre dans l’expression ancienne signifiant poser une condition ?",
+          "choices": [
+            {
+              "text": "firent",
+              "correct": true
+            },
+            {
+              "text": "vente",
+              "correct": false
+            },
+            {
+              "text": "annulée",
+              "correct": false
+            },
+            {
+              "text": "livraison",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les parties _____ condition que le bien serait rendu si le paiement manquait.",
+          "choices": [
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "firent",
+              "correct": true
+            },
+            {
+              "text": "fit",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_condition_stipulate_parure_firent_lem_faire_c10eccc26b_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Dans cet ancien contrat, ils firent condition que la somme serait remboursée.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "denied",
+              "correct": false
+            },
+            {
+              "text": "concealed",
+              "correct": false
+            },
+            {
+              "text": "stipulated",
+              "correct": true
+            },
+            {
+              "text": "forgot",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

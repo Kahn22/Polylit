@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:57:09.319Z",
+  "sense": {
+    "id": "sns_voir_past",
+    "lemmaId": "lem_voir",
+    "gloss": "Here vit is the past historic of voir (saw), not the existing vivre identity.",
+    "definition": "Here vit is the past historic of voir (saw), not the existing vivre identity."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_vit_saw_advanced",
+      "qiz_vit_saw_early",
+      "qiz_vit_saw_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_vit_voir:sns_voir_past",
+      "surface": "vit",
+      "lemma": "voir",
+      "currentRevision": "rev_5dc0d32f7dbe496eeddc1ce95a0c3927065d00aa050ee80e7385d3a50932d5e3",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_d29da1894f360800448c77c4",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_13",
+          "passage": "À la fin, quand il vit que l’autre touchait presque au bout de la carrière, il partit comme un trait ; mais les élans qu’il fit furent vains : la Tortue arriva la première.",
+          "span": [
+            19,
+            22
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_vit_saw_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul vit la lettre sur la table, mais il ne la lut pas.",
+          "prompt": "Quel verbe au passé signifie aperçut ?",
+          "choices": [
+            {
+              "text": "Paul",
+              "correct": false
+            },
+            {
+              "text": "vit",
+              "correct": true
+            },
+            {
+              "text": "lettre",
+              "correct": false
+            },
+            {
+              "text": "table",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_vit_saw_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Paul vit une lumière derrière la fenêtre.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "saw",
+              "correct": true
+            },
+            {
+              "text": "heard",
+              "correct": false
+            },
+            {
+              "text": "found",
+              "correct": false
+            },
+            {
+              "text": "forgot",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_vit_saw_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Marie _____ un homme courir vers la rivière.",
+          "choices": [
+            {
+              "text": "voir",
+              "correct": false
+            },
+            {
+              "text": "vis",
+              "correct": false
+            },
+            {
+              "text": "vit",
+              "correct": true
+            },
+            {
+              "text": "virent",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,5 +1,7 @@
+import { decodeLibrary, type LibraryWire } from '../delivery/library-wire.js';
 import type { BookPage, Language, LibraryIndex, QuizIndex, QuizPackage, QuizRecord, ReadingSection, WorkManifest } from "../delivery/types.js";
 import { quizShard } from "../delivery/identity-token.js";
+import { expressionMasteryKey } from "../domain/runtime.js";
 
 export class ContentRequestError extends Error {
   constructor(readonly status: number) { super(`Content request failed (${status}). Please retry.`); }
@@ -20,7 +22,7 @@ export class ContentLoader {
 
   async library(language: Language): Promise<LibraryIndex> {
     const embedded = typeof document === "undefined" ? undefined : document.querySelector<HTMLScriptElement>(`#polylit-library-data[data-language="${language}"]`);
-    const index = embedded?.textContent ? JSON.parse(embedded.textContent) as LibraryIndex : await this.json<LibraryIndex>(`library/${language}.json`, false);
+    const index = decodeLibrary(embedded?.textContent ? JSON.parse(embedded.textContent) as LibraryIndex | LibraryWire : await this.json<LibraryIndex | LibraryWire>(`library/${language}.json`, false));
     if (index.version !== 3 || index.language !== language || !index.release || !index.catalog || !index.works || !index.quizzes) throw new Error("The library index is invalid. Refresh to get the latest release.");
     this.#library = index;
     return index;
@@ -67,7 +69,7 @@ export class ContentLoader {
     const record = batch.records.find(record => record.identity === identity);
     if (!record || record.items.length !== 3 || new Set(record.items.map(item => item.band)).size !== 3) throw new Error("Prepared quiz is incomplete");
     for (const quiz of record.items) {
-      const key = quiz.subject?.kind === "expression" ? `expression:${quiz.subject.expressionId}` : quiz.subject?.kind === "vocabulary" ? `${quiz.subject.surfaceFormId}:${quiz.subject.senseId}` : undefined;
+      const key = quiz.subject?.kind === "expression" ? expressionMasteryKey(quiz.subject.expressionId, quiz.subject.surfaceId) : quiz.subject?.kind === "vocabulary" ? `${quiz.subject.surfaceFormId}:${quiz.subject.senseId}` : undefined;
       if (quiz.language !== batch.language || key !== identity || !Array.isArray(quiz.choices) || quiz.choices.length !== 4 || new Set(quiz.choices.map(choice => choice.id)).size !== 4 || quiz.choices.filter(choice => choice.id === quiz.correctChoiceId).length !== 1) throw new Error("Invalid prepared quiz choices or identity");
     }
     return record;

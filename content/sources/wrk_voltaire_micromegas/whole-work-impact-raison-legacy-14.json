@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:07:21.465Z",
+  "sense": {
+    "id": "sns_raison_primary",
+    "lemmaId": "lem_raison",
+    "gloss": "Raison is the noun reason.",
+    "definition": "Raison is the noun reason."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 0,
+    "occurrenceCount": 0,
+    "activeQuizCount": 0,
+    "historicalQuizCount": 3,
+    "affectedQuizIds": [
+      "qiz_raison_reason_intermediate",
+      "qiz_raison_reason_early",
+      "qiz_raison_reason_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [],
+  "historicalDependentQuizzes": [
+    {
+      "id": "qiz_raison_reason_intermediate",
+      "surfaceFormId": "srf_raison",
+      "band": "levels_4_5",
+      "context": "Marie refuse de partir sans connaître la ___.",
+      "choices": [
+        {
+          "text": "raison",
+          "correct": true
+        },
+        {
+          "text": "réponse",
+          "correct": false
+        },
+        {
+          "text": "route",
+          "correct": false
+        },
+        {
+          "text": "vérité",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_raison_reason_early",
+      "surfaceFormId": "srf_raison",
+      "band": "levels_1_3",
+      "context": "Paul explique la raison de son retard.",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "reason; right",
+          "correct": true
+        },
+        {
+          "text": "result",
+          "correct": false
+        },
+        {
+          "text": "price",
+          "correct": false
+        },
+        {
+          "text": "distance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_raison_reason_advanced",
+      "surfaceFormId": "srf_raison",
+      "band": "levels_6_8",
+      "context": "La raison de son départ demeure secrète, mais tout le village s’interroge.",
+      "prompt": "Quel mot désigne le motif ?",
+      "choices": [
+        {
+          "text": "raison",
+          "correct": true
+        },
+        {
+          "text": "départ",
+          "correct": false
+        },
+        {
+          "text": "village",
+          "correct": false
+        },
+        {
+          "text": "secrète",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

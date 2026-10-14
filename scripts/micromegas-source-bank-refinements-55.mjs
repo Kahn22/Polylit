@@ -1,0 +1,14 @@
+import{readFileSync}from'node:fs';
+import{createHash}from'node:crypto';
+const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+export function composeMicromegasSourceBankRefinements55(folder){
+ const graph=JSON.parse(readFileSync(`${folder}/whole-work-identity-dependencies-43.json`)),items=new Map(),specs=[
+  ['de_plural_article','1-3',{context:'Ils ont trouvé de jolis petits carats.',answer:'some',choices:['some','none','all','one']},'Use a short contextual sentence with one exact target instance; the source excerpt has repeated de tokens. The plural determiner before the adjective means an unspecified quantity.'],
+  ['difficile_difficult','4-5',{context:'Mars pourrait vivre sans lunes, mais seulement au prix d’un grand effort : ce serait ___.',choices:['difficile','facile','agréable','impossible']},'State that the feat remains possible while requiring substantial effort, excluding impossible; all four masculine singular adjectives fit.'],
+  ['telles_such','4-5',{context:'Des comparaisons du type déjà décrit sont de ___ comparaisons.',choices:['telles','rares','anciennes','audacieuses']},'The target points to an already named type; rarity, age and daring do not express that reference. All choices are feminine plural adjectives agreeing with comparaisons.'],
+  ['telles_such','6-8',{context:'Telles reprend le type de comparaisons déjà mentionné. Rares évoque une faible fréquence, anciennes leur âge et audacieuses leur caractère risqué.',question:'Quel adjectif renvoie ici au type déjà mentionné ?',choices:['telles','rares','anciennes','audacieuses']},'Use distinct semantic dimensions and matching feminine plural adjectives; this removes the near-synonym semblables.' ]
+ ];
+ for(const[key,band,patch,reason]of specs){const g=graph.directDraftBankGroups.find(g=>g.banks.some(b=>b.key===key)),b=g?.banks.find(b=>b.key===key);if(!b)throw Error(`Missing exact source question ${key}`);const root=JSON.parse(readFileSync(`${folder}/${b.file}`));let raw=root;for(const k of b.selector.split('/').slice(1))raw=Array.isArray(raw)?raw[+k]:raw[k];const name=`${b.file}:${key}`;if(!items.has(name))items.set(name,{file:b.file,key,beforeQuestionSha256:hash(raw.questions),after:structuredClone(raw),changes:[]});const e=items.get(name),q=e.after.questions.find(q=>q.band===band),beforeQuestionSha256=hash(q);Object.assign(q,patch);e.changes.push({band,beforeSha256:beforeQuestionSha256,afterSha256:hash(q),reason});}
+ for(const e of items.values())e.afterQuestionSha256=hash(e.after.questions);
+ return{version:1,status:'offline_exact_question_refinements_unapplied',items:[...items.values()],summary:{refinedBanks:items.size,refinedQuestionBands:specs.length},policy:'Exact recorded source-bank refinements; preserve all other questions, publication and mastery.'};
+}

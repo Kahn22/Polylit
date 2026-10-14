@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:17.778Z",
+  "sense": {
+    "id": "sns_fr_prendre_regard_as",
+    "lemmaId": "lem_prendre",
+    "gloss": "take for; regard as",
+    "definition": "Considérer une personne ou une chose comme étant autre chose, souvent par erreur, avec pour."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_6_8",
+      "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_1_3",
+      "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_prise_prendre_verb:sns_fr_prendre_regard_as",
+      "surface": "prise",
+      "lemma": "prendre",
+      "currentRevision": "rev_1d32c641b6b32ccf285d597f95897340374d6d97f8f5461316d92a5177d01fa3",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_937a75c2283248f11c3463b4",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_102",
+          "passage": "Elle n’ouvrit pas l’écrin, ce que redoutait son amie. Si elle s’était aperçue de la substitution, qu’aurait-elle pensé ? qu’aurait-elle dit ? Ne l’aurait-elle pas prise pour une voleuse ?",
+          "span": [
+            163,
+            168
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La visiteuse, prise pour une employée, doit expliquer qu’elle ne travaille pas ici.",
+          "prompt": "Quel mot, avec pour, indique une identification erronée ?",
+          "choices": [
+            {
+              "text": "visiteuse",
+              "correct": false
+            },
+            {
+              "text": "employée",
+              "correct": false
+            },
+            {
+              "text": "expliquer",
+              "correct": false
+            },
+            {
+              "text": "prise",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "On l’a prise pour sa sœur tant elles se ressemblent.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "compared favorably with",
+              "correct": false
+            },
+            {
+              "text": "mistaken for",
+              "correct": true
+            },
+            {
+              "text": "separated from",
+              "correct": false
+            },
+            {
+              "text": "introduced to",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Cette actrice, je l’ai _____ pour la réalisatrice par erreur.",
+          "choices": [
+            {
+              "text": "prise",
+              "correct": true
+            },
+            {
+              "text": "pris",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": false
+            },
+            {
+              "text": "prenant",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

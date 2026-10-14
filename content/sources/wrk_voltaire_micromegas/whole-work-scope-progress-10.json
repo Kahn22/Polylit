@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "status": "offline_quoi_scope_reconciliation_unapplied",
+  "summary": {
+    "reviewedPublishedIdentities": 2,
+    "reviewedPublishedUses": 6,
+    "reviewedPublishedWordBands": 6,
+    "reviewedHistoricalBands": 0,
+    "reviewedCandidateUnits": 4,
+    "reviewedCandidateTokens": 6,
+    "reviewedCandidateBanks": 2,
+    "reviewedCandidateBankUses": 3,
+    "reviewedCandidateBands": 6,
+    "preparedWordReplacementBands": 2,
+    "sharedSenseMetadataChanges": 2,
+    "newWordBanks": 1,
+    "newWordBands": 3,
+    "newCompletePhraseBanks": 1,
+    "newCompletePhraseBands": 3,
+    "publishedPhraseSpans": 1,
+    "publishedPhraseComponentTokens": 3,
+    "candidatePhraseSpans": 1,
+    "candidatePhraseComponentTokens": 5,
+    "retainedComponentBanks": 0,
+    "retainedComponentBands": 0,
+    "plannedAdverbOwners": 1,
+    "plannedAdverbMeanings": 1,
+    "exactPublishedPosReassignments": 1,
+    "recheckedPriorExpressionBanks": 1,
+    "recheckedPriorExpressionUses": 1,
+    "recheckedPriorExpressionBands": 3,
+    "preparedPriorExpressionReplacementBands": 2
+  },
+  "nextAction": {
+    "family": "prendre envie/fantaisie onset scope",
+    "senseId": "sns_zola_prendre_acquire",
+    "form": "prendre",
+    "reason": "Review every prendre branch, current/historical dependent bank and candidate onset proposal before reconciling a desire or fancy taking hold as one generic onset meaning rather than separate collocation senses. Preserve legacy acquisition/capture/taking records and exact full phrases. Then continue remaining whole-work dependencies; all current corrections remain unapplied."
+  },
+  "evidenceSha256": {
+    "whole-work-scope-plan-10.json": "04cbbdfe2d3cc9f9d18e08b78bb5a23dc2562866c37d8a9902465eb2203ef934",
+    "whole-work-impact-quoi-question-10.json": "a8ffd8f4ae6238d3925d99a6ef5c0085a1fa4c1d0f5e2b59d502adde37a62ca6",
+    "whole-work-impact-quoy-thing-10.json": "eb778ab145639a1c03427f398de16360d1666e22eba93333c3a4f2af39944a64"
+  }
+}

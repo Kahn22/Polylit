@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:36:14.948Z",
+  "sense": {
+    "id": "sns_zola_pouvoir_authority",
+    "lemmaId": "lem_zola_pouvoir_noun",
+    "gloss": "power; authority",
+    "definition": "capacité d’agir, d’imposer une décision ou d’exercer une autorité"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_pouvoir_pouvoir_authority_early",
+      "qiz_zola_pouvoir_pouvoir_authority_intermediate",
+      "qiz_zola_pouvoir_pouvoir_authority_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_pouvoir_pouvoir_noun:sns_zola_pouvoir_authority",
+      "surface": "pouvoir",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_6635ea76e5b6f9c55be73bc1a184e4fe2f4a9bb083fb05dc333c81730b6c8ea9",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_11ccaa439f4dc39cd7955b3f",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_173",
+          "passage": "Je me doute bien que vous n’avez aucun pouvoir en cette affaire, que vous êtes le prisonnier de la Constitution et de votre entourage.",
+          "span": [
+            39,
+            46
+          ]
+        },
+        {
+          "id": "occ_zola_62f71dc5838b9964ffef6d53",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_133",
+          "passage": "L’idée supérieure de discipline, qui est dans le sang de ces soldats, ne suffit-elle à infirmer leur pouvoir même d’équité ?",
+          "span": [
+            101,
+            108
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_pouvoir_pouvoir_authority_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le directeur a le pouvoir de signer les contrats au nom de l’entreprise.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "fear",
+              "correct": false
+            },
+            {
+              "text": "wish",
+              "correct": false
+            },
+            {
+              "text": "authority",
+              "correct": true
+            },
+            {
+              "text": "doubt",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pouvoir_pouvoir_authority_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le règlement lui donne le _____ de prendre seul cette décision et de la faire appliquer.",
+          "choices": [
+            {
+              "text": "pouvoir",
+              "correct": true
+            },
+            {
+              "text": "doute",
+              "correct": false
+            },
+            {
+              "text": "souvenir",
+              "correct": false
+            },
+            {
+              "text": "regret",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pouvoir_pouvoir_authority_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Son pouvoir lui permet de nommer le directeur et de modifier les règles de l’organisation.",
+          "prompt": "Quel mot désigne son autorité pour agir et décider ?",
+          "choices": [
+            {
+              "text": "organisation",
+              "correct": false
+            },
+            {
+              "text": "pouvoir",
+              "correct": true
+            },
+            {
+              "text": "directeur",
+              "correct": false
+            },
+            {
+              "text": "règles",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

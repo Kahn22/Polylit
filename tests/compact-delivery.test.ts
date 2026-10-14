@@ -1,3 +1,5 @@
+import { expressionMasteryKey } from '../src/domain/runtime.js';
+import { decodeLibrary, encodeLibrary } from '../src/delivery/library-wire.js';
 import { beforeAll, describe, expect, it } from "vitest";
 import { gzipSync } from "node:zlib";
 import { appBundle, appExpressionCatalog, appPreparedQuizzes } from "../src/app/content.js";
@@ -14,6 +16,17 @@ describe("compact language-specific delivery", () => {
     for (const index of Object.values(packages.libraryIndexes)) for (const [workId, work] of Object.entries(index.works)) {
       const expected = new Set(appBundle.occurrences.filter(item => item.workId === workId).map(item => identityToken(`${item.surfaceFormId}:${item.senseId}`)));
       expect(new Set(work.vocabularyTokens)).toEqual(expected);
+    }
+  });
+  it("losslessly restores all 64-bit memberships and rejects truncated transport", () => {
+    for (const index of Object.values(packages.libraryIndexes)) {
+      const wire = encodeLibrary(index), restored = decodeLibrary(wire);
+      expect(restored.catalog).toEqual(index.catalog);
+      for (const [id, work] of Object.entries(index.works)) {
+        expect(new Set(restored.works[id]!.vocabularyTokens)).toEqual(new Set(work.vocabularyTokens));
+        expect(new Set(restored.works[id]!.expressionTokens)).toEqual(new Set(work.expressionIdentityKeys.map(id => identityToken(`expression:${id}`))));
+      }
+      expect(() => decodeLibrary({ ...wire, tokenPool: wire.tokenPool.slice(0, -12) })).toThrow('Truncated');
     }
   });
   it("keeps the exact canonical text in both views and omits learning records from Book View", () => {
@@ -45,7 +58,7 @@ describe("compact language-specific delivery", () => {
       }
     }
     const current = new Set(appBundle.occurrences.map(item => `${item.surfaceFormId}:${item.senseId}`));
-    for (const item of appExpressionCatalog.occurrences) current.add(`expression:${item.identityId}`);
+    for (const item of appExpressionCatalog.occurrences) current.add(expressionMasteryKey(item.identityId, item.surfaceId));
     expect(seen).toEqual(current); // Historical, unreferenced questions stay source-only.
   });
   it("uses deterministic content-addressed paths and stable quiz grouping", () => {

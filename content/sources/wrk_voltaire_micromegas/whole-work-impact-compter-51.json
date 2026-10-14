@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-02T06:51:32.936Z",
+  "sense": {
+    "id": "sns_zola_compter_count",
+    "lemmaId": "lem_zola_compter",
+    "gloss": "to count; not counting",
+    "definition": "énumérer ou considérer comme compris"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_compter_compter_count_intermediate",
+      "qiz_zola_compter_compter_count_advanced",
+      "qiz_zola_compter_compter_count_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_compter_compter:sns_zola_compter_count",
+      "surface": "compter",
+      "lemma": "compter",
+      "currentRevision": "rev_078dd3585f2c399f98b639bc6827d303f124de96647907c437e42115e245141e",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_6427bf5f511962d1c6af5b68",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_083",
+          "passage": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major, le général de Boisdeffre, le général Gonse, sans compter les sous-ordres.",
+          "span": [
+            177,
+            184
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_compter_compter_count_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Pour connaître leur nombre exact, il faut _____ les personnes présentes.",
+          "choices": [
+            {
+              "text": "ignorer",
+              "correct": false
+            },
+            {
+              "text": "compter",
+              "correct": true
+            },
+            {
+              "text": "cacher",
+              "correct": false
+            },
+            {
+              "text": "écarter",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_compter_compter_count_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul veut compter les trente livres sur l’étagère pour vérifier le total. Nina range les cahiers, Luc nettoie la table et Marie apporte un carton.",
+          "prompt": "Quel verbe signifie dénombrer les livres un par un ?",
+          "choices": [
+            {
+              "text": "compter",
+              "correct": true
+            },
+            {
+              "text": "range",
+              "correct": false
+            },
+            {
+              "text": "nettoie",
+              "correct": false
+            },
+            {
+              "text": "apporte",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_compter_compter_count_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Pour connaître le nombre de chaises, Léa va les compter une par une.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "to count",
+              "correct": true
+            },
+            {
+              "text": "to hide",
+              "correct": false
+            },
+            {
+              "text": "to carry",
+              "correct": false
+            },
+            {
+              "text": "to repair",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

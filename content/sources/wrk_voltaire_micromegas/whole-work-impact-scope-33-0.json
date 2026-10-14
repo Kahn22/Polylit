@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:42:55.067Z",
+  "sense": {
+    "id": "sns_zola_possible_primary",
+    "lemmaId": "lem_zola_possible",
+    "gloss": "possible",
+    "definition": "qui peut se produire ou être réalisé"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 5,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_possible_possible_primary_early",
+      "qiz_zola_possible_possible_primary_intermediate",
+      "qiz_zola_possible_possible_primary_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_possible_possible:sns_zola_possible_primary",
+      "surface": "possible",
+      "lemma": "possible",
+      "currentRevision": "rev_678431f36ea61a5e334a2173dd753e3fcb2513f13daaa0ef31646d54e3413b01",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_3602180e2423e8446615b077",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            54,
+            62
+          ]
+        },
+        {
+          "id": "occ_parure_b41c9d45304c241830e2fe11",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_071",
+          "passage": "— Quoi !… comment !… Ce n’est pas possible !",
+          "span": [
+            34,
+            42
+          ]
+        },
+        {
+          "id": "occ_zola_6cde419a5f18f579d74a27ac",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_153",
+          "passage": "Que de gens je connais qui, devant une guerre possible, tremblent d’angoisse, en sachant dans quelles mains est la défense nationale ! et quel nid de basses intrigues, de commérages et de dilapidations, est devenu cet asile sacré, où se décide le sort de la patrie !",
+          "span": [
+            46,
+            54
+          ]
+        },
+        {
+          "id": "occ_zola_b0a21fb66ea6e1e7eaf4e0ed",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_036",
+          "passage": "Je voudrais faire toucher du doigt comment l’erreur judiciaire a pu être possible, comment elle est née des machinations du commandant du Paty de Clam, comment le général Mercier, les généraux de Boisdeffre et Gonse ont pu s’y laisser prendre, engager peu à peu leur responsabilité dans cette erreur, qu’ils ont cru devoir, plus tard, imposer comme la vérité sainte, une vérité qui ne se discute même pas.",
+          "span": [
+            73,
+            81
+          ]
+        },
+        {
+          "id": "occ_zola_e2134b87012e7e11a4b3e128",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_132",
+          "passage": "Je ne parle même pas du choix toujours possible des juges.",
+          "span": [
+            39,
+            47
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_possible_possible_primary_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il est possible de traverser la rivière par ce pont.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forbidden",
+              "correct": false
+            },
+            {
+              "text": "necessary",
+              "correct": false
+            },
+            {
+              "text": "possible",
+              "correct": true
+            },
+            {
+              "text": "impossible",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_possible_possible_primary_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "La porte est ouverte et rien ne bloque le passage : entrer est _____.",
+          "choices": [
+            {
+              "text": "irréalisable",
+              "correct": false
+            },
+            {
+              "text": "interdit",
+              "correct": false
+            },
+            {
+              "text": "possible",
+              "correct": true
+            },
+            {
+              "text": "impossible",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_possible_possible_primary_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Une autre solution reste possible ; Nina va l’examiner avant de prendre sa décision.",
+          "prompt": "Quel adjectif indique que la solution peut être réalisée ?",
+          "choices": [
+            {
+              "text": "examiner",
+              "correct": false
+            },
+            {
+              "text": "décision",
+              "correct": false
+            },
+            {
+              "text": "possible",
+              "correct": true
+            },
+            {
+              "text": "Nina",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

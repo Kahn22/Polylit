@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:12:57.870Z",
+  "sense": {
+    "id": "sns_zola_punir_past",
+    "lemmaId": "lem_zola_punir",
+    "gloss": "punished",
+    "definition": "participe passé de punir, frappé d’une peine ou d’une conséquence"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_puni_punir_past_intermediate",
+      "qiz_zola_puni_punir_past_early",
+      "qiz_zola_puni_punir_past_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_puni_punir:sns_zola_punir_past",
+      "surface": "puni",
+      "lemma": "punir",
+      "currentRevision": "rev_37ff30f8f3360210bd2da31718ad5bedf10697da336c00ad96c263c406ab1433",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_164c0e7b9af532c22ba472fc",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_165",
+          "passage": "Et c’est de cette sérénité confiante, dont il est si cruellement puni.",
+          "span": [
+            65,
+            69
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_puni_punir_past_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le garçon sera _____ pour avoir enfreint le règlement.",
+          "choices": [
+            {
+              "text": "punissent",
+              "correct": false
+            },
+            {
+              "text": "punis",
+              "correct": false
+            },
+            {
+              "text": "puni",
+              "correct": true
+            },
+            {
+              "text": "punir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_puni_punir_past_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "L’élève a été puni pour avoir triché.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "praised",
+              "correct": false
+            },
+            {
+              "text": "thanked",
+              "correct": false
+            },
+            {
+              "text": "punished",
+              "correct": true
+            },
+            {
+              "text": "rewarded",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_puni_punir_past_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul a été puni après sa faute ; il doit maintenant présenter ses excuses à la classe.",
+          "prompt": "Quel mot indique qu’il a reçu une sanction ?",
+          "choices": [
+            {
+              "text": "classe",
+              "correct": false
+            },
+            {
+              "text": "puni",
+              "correct": true
+            },
+            {
+              "text": "faute",
+              "correct": false
+            },
+            {
+              "text": "excuses",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,20 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {composeMicromegasReviewedWords} from './micromegas-reviewed-word-bindings.mjs';
+import {composeMicromegasReviewedWordBanks} from './micromegas-reviewed-word-banks.mjs';
+
+const folder=new URL('../content/sources/wrk_voltaire_micromegas/',import.meta.url).pathname;
+const sha=x=>createHash('sha256').update(x).digest('hex');
+const write=(f,d)=>writeFileSync(folder+f,JSON.stringify(d,null,2)+'\n');
+const words=composeMicromegasReviewedWords(folder),banks=composeMicromegasReviewedWordBanks(folder,words);
+const nextAction={family:'remaining direct draft word and full expression identity binding',form:'planètes',unit:1,start:16,end:24,reason:'The 368 whole-work sense-route uses and one exact sentit surface correction now bind 154 final Surface+Sense keys and 462 stored prepared questions, with all predecessors retained. The other 4,554 published-word routes keep their exact identities. Continue the 1,718 direct draft uses and 127 full expression spans; resolve the four historical lemma headwords and 18 repeated direct-draft bank groups before constructing the isolated complete-work candidate. Begin with the declared planètes/planète celestial-body sense at 1:16–24. Fresh keys encounter only on exact unit view; no publication or approval.'};
+const artifacts=[['44',words,'whole-work-reviewed-word-bindings-44.json','whole-work-reviewed-word-progress-44.json','wholeWorkReviewedWordBindings'],['45',banks,'whole-work-reviewed-word-banks-45.json','whole-work-reviewed-bank-progress-45.json','wholeWorkReviewedWordBanks']];
+const d=JSON.parse(readFileSync(folder+'dossier.json'));
+for(const[number,data,file,progressFile,reviewKey]of artifacts){
+ write(file,data);
+ const progress={version:1,status:data.status,summary:data.summary,nextAction,evidenceSha256:{[file]:sha(readFileSync(folder+file))},candidateReleaseReady:false,appliedScopePlans:0};write(progressFile,progress);
+ for(const f of[file,progressFile]){const bytes=readFileSync(folder+f);d.evidence=[...d.evidence.filter(e=>e.file!==f),{role:'whole_work_final_reviewed_word_binding_offline',file:f,bytes:bytes.length,sha256:sha(bytes)}];}
+ d.review[reviewKey]={file:progressFile,status:progress.status,summary:progress.summary,nextAction};
+ if(!d.history.some(h=>h.reason.startsWith(`Reviewed word composition${number}:`)))d.history.push({version:d.history.at(-1).version+1,date:'2026-10-02',reason:number==='44'?'Reviewed word composition44: Bind 369 exact source uses to 154 final Surface+Sense keys: 64 existing identities and 90 fresh keys. Materialize seven proper lemma heads, 16 genuinely distinct senses and 59 missing surface records from the earlier reviewed declarations; retain all existing records and 4,554 other published-word routes. Correct the source sentit at127:13–19 from the wrongly inherited sentoit identity to its exact reviewed existing feeling identity, without transferring progress between forms. All 154 identities have stored bank coverage; author only the four missing exact-pair banks after comparing current and historical questions. No scope application, publication, bulk encounter, mastery migration or work approval.':'Reviewed word composition45: Materialize exactly one three-band prepared bank per reviewed word identity: 154 banks/462 questions, with exact final subjects and unchanged publication baseline. Preserve 60 indexed existing bank selections with only explicit reviewed overlays, one required historical sentit replacement, six reviewed scope banks, 83 contextual banks and four missing-pair banks. Carry 136 exact stored question overlays and four explicitly indexed source-highlight selections; preserve 27 alternate bank records. Named choices for fit/font/pense/communiquer join already reviewed shared meanings and retain every other source bank. Do not select inactive defective templates solely because their legacy IDs remain. No runtime AI, publication or approval.'});
+}
+write('dossier.json',d);console.log(JSON.stringify({history:d.history.at(-1).version,words:words.summary,banks:banks.summary,nextAction}));

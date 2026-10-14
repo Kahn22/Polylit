@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:07:17.872Z",
+  "sense": {
+    "id": "sns_fr_raison_state_interest",
+    "lemmaId": "lem_raison",
+    "gloss": "overriding state interest",
+    "definition": "Intérêt supérieur de l’État invoqué pour justifier une décision, dans raison d’État."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_raison_state_interest_raison_levels_4_5",
+      "qiz_fr_raison_state_interest_raison_levels_6_8",
+      "qiz_fr_raison_state_interest_raison_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_raison:sns_fr_raison_state_interest",
+      "surface": "raison",
+      "lemma": "raison",
+      "currentRevision": "rev_9a3be4395c51388b265b3774174768221cffba2a53dc358a913858b8af692f3a",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_b74a7d23bc9116ef069bc663",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_155",
+          "passage": "Ah ! tout ce qui s’est agité là de démence et de sottise, des imaginations folles, des pratiques de basse police, des mœurs d’inquisition et de tyrannie, le bon plaisir de quelques galonnés mettant leurs bottes sur la nation, lui rentrant dans la gorge son cri de vérité et de justice, sous le prétexte menteur et sacrilège de la raison d’Etat !",
+          "span": [
+            330,
+            336
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_raison_state_interest_raison_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il prétend agir au nom de la _____ d’État, faisant passer l’intérêt du pouvoir avant toute autre considération.",
+          "choices": [
+            {
+              "text": "joie",
+              "correct": false
+            },
+            {
+              "text": "fatigue",
+              "correct": false
+            },
+            {
+              "text": "raison",
+              "correct": true
+            },
+            {
+              "text": "faim",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_raison_state_interest_raison_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La raison d’État sert ici d’argument pour imposer le silence malgré les objections des citoyens.",
+          "prompt": "Quel mot fait partie de la locution désignant l’intérêt supérieur de l’État ?",
+          "choices": [
+            {
+              "text": "citoyens",
+              "correct": false
+            },
+            {
+              "text": "raison",
+              "correct": true
+            },
+            {
+              "text": "argument",
+              "correct": false
+            },
+            {
+              "text": "silence",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_raison_state_interest_raison_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le ministre invoque la raison d’État pour justifier le secret de cette décision.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "private convenience",
+              "correct": false
+            },
+            {
+              "text": "personal affection",
+              "correct": false
+            },
+            {
+              "text": "religious belief",
+              "correct": false
+            },
+            {
+              "text": "overriding state interest",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

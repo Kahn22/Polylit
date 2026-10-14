@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:29:17.208Z",
+  "sense": {
+    "id": "sns_apprendre_primary",
+    "lemmaId": "lem_apprendre",
+    "gloss": "to learn",
+    "definition": "Acquérir une connaissance ou prendre connaissance de quelque chose."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_apprenez_early",
+      "qiz_apprenez_advanced",
+      "qiz_apprenez_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_apprenez:sns_apprendre_primary",
+      "surface": "apprenez",
+      "lemma": "apprendre",
+      "currentRevision": "rev_d3f370830a1f37bc87b22ac868ef84146cbcd0a2438f570dcf87eb8410201255",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_a0950885ca964523dc1f3856",
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_09",
+          "passage": "Le Renard s’en saisit, et dit : « Mon bon Monsieur, apprenez que tout flatteur vit aux dépens de celui qui l’écoute.",
+          "span": [
+            52,
+            60
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_apprenez_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Pour progresser, apprenez cinq mots chaque jour.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "learn",
+              "correct": true
+            },
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "repeat",
+              "correct": false
+            },
+            {
+              "text": "write",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_apprenez_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "En classe, apprenez cette règle, comparez les exemples et corrigez vos réponses.",
+          "prompt": "Quel mot demande aux élèves d’acquérir la connaissance de la règle ?",
+          "choices": [
+            {
+              "text": "classe",
+              "correct": false
+            },
+            {
+              "text": "apprenez",
+              "correct": true
+            },
+            {
+              "text": "exemples",
+              "correct": false
+            },
+            {
+              "text": "réponses",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_apprenez_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Vous tous, les élèves, _____ cette formule par cœur.",
+          "choices": [
+            {
+              "text": "apprenons",
+              "correct": false
+            },
+            {
+              "text": "apprenez",
+              "correct": true
+            },
+            {
+              "text": "apprends",
+              "correct": false
+            },
+            {
+              "text": "apprendre",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

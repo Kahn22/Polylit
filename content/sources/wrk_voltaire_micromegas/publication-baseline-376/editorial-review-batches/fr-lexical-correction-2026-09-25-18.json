@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-18",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "reviewed all indexed constructions and three dependent questions",
+  "changes": [
+    {
+      "subjectId": "srf_aux:sns_aux_primary",
+      "reviewId": "vocabulary:srf_aux:sns_aux_primary",
+      "outcome": "approve",
+      "rationale": "All 29 indexed uses contract à + les. The old “at the” gloss obscured destination, relation, and topic uses, including songeait aux and supérieure aux. The clarified gloss preserves the same grammatical identity; all three questions still test this contraction in their own contexts.",
+      "before": {
+        "id": "vocabulary:srf_aux:sns_aux_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_aux:sns_aux_primary",
+        "subjectRevision": "rev_d868a4cf6f41d33edc0da554f0121bb971d960571aaea8516b51a984b5dcb0b9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All 29 occurrences are the contraction à + les, but the current gloss “at the” is too narrow across the indexed goal, recipient, and relational contexts; aux dépens is also fixed. Broaden the function/gloss and review the bank questions before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_aux:sns_aux_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_aux:sns_aux_primary",
+        "subjectRevision": "rev_c10e902427b4e353dd40cffc05c5d5e0c3e905093eb60e25f7a09a31f62c7ef5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "All 29 indexed uses contract à + les. The old “at the” gloss obscured destination, relation, and topic uses, including songeait aux and supérieure aux. The clarified gloss preserves the same grammatical identity; all three questions still test this contraction in their own contexts.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 29
+    }
+  ]
+}

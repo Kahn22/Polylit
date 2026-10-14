@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:01:10.448Z",
+  "sense": {
+    "id": "sns_fr_parti_resolution",
+    "lemmaId": "lem_fr_parti_noun",
+    "gloss": "decision; resolve (in prendre son parti)",
+    "definition": "Dans prendre son parti de, décision d’accepter une situation et de s’y résigner."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_4_5",
+      "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_6_8",
+      "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_parti_parti_noun:sns_fr_parti_resolution",
+      "surface": "parti",
+      "lemma": "parti",
+      "currentRevision": "rev_f6354c0537c7767c5e98cd259b6ca202b5b0f142a1232e95940c24a0a56b96a4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_381a0135b00dfc56c9d9c016",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_103",
+          "passage": "Mme Loisel connut la vie horrible des nécessiteux. Elle prit son parti, d’ailleurs, tout d’un coup, héroïquement. Il fallait payer cette dette effroyable. Elle payerait. On renvoya la bonne ; on changea de logement ; on loua sous les toits une mansarde.",
+          "span": [
+            65,
+            70
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle prend son _____ de la situation et cesse de lutter contre ce qui ne peut changer.",
+          "choices": [
+            {
+              "text": "billet",
+              "correct": false
+            },
+            {
+              "text": "repas",
+              "correct": false
+            },
+            {
+              "text": "parti",
+              "correct": true
+            },
+            {
+              "text": "départ",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle a pris son parti de cette perte, acceptant enfin ce qui est arrivé.",
+          "prompt": "Quel nom appartient à l’expression signifiant se résigner ?",
+          "choices": [
+            {
+              "text": "arrivé",
+              "correct": false
+            },
+            {
+              "text": "parti",
+              "correct": true
+            },
+            {
+              "text": "perte",
+              "correct": false
+            },
+            {
+              "text": "acceptant",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_parti_resolution_fr_parti_parti_noun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il prend son parti de cet échec et décide d’avancer malgré tout.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "protest",
+              "correct": false
+            },
+            {
+              "text": "doubt",
+              "correct": false
+            },
+            {
+              "text": "fear",
+              "correct": false
+            },
+            {
+              "text": "resolve to accept",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

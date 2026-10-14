@@ -1,0 +1,479 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-08",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 8,
+  "reviewedIdentities": 13,
+  "approvals": 13,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "contextual sense correction and exact-version question re-review; separate approvals for fully accurate identities",
+  "changes": [
+    {
+      "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+      "reviewId": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+        "subjectRevision": "rev_5363e0857df5029f141248798aa81920d6213b77366b022eaf24e2ccb4047445",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In il court chez madame Dreyfus, court means runs/hurries to her; the verb sense fits. Unresolved same-lemma candidate remains (dup_582f9ff5b0c1e83565eea5785f6726e3df62cc1cb399ec062d276a44bc6b8073)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+        "subjectRevision": "rev_5363e0857df5029f141248798aa81920d6213b77366b022eaf24e2ccb4047445",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+      "reviewId": "vocabulary:srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+        "subjectRevision": "rev_e15e2c91ccfd883c59190948ecedff6edfe9df2292b091f0aa37480d5c3b70f1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Honteuse describes a shameful/infamous stain; feminine adjective form fits. Unresolved same-lemma candidate remains (dup_a621c29661a429c08b8d2fcc852e00f9a95e754c252bed695a694ac20f88be87)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_honteuse_honteux:sns_zola_honteux_shameful",
+        "subjectRevision": "rev_e15e2c91ccfd883c59190948ecedff6edfe9df2292b091f0aa37480d5c3b70f1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+      "reviewId": "vocabulary:srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+        "subjectRevision": "rev_308f7cdfd0f111615f5416d61de120825034c9d491b7e0da9a6cc3cc5b91fbfb",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "All source occurrences read. Simple past soumit, not participle soumis; accurate lemma meaning. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-19T15:06:34.230Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_soumit_soumettre:sns_zola_soumettre_submitted",
+        "subjectRevision": "rev_7f9923000c8790836716962cb2b273a993e612276fdd57f31811b56d0028d6c6",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+      "reviewId": "vocabulary:srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+        "subjectRevision": "rev_469df5e59ff9d66f43b0e12d73238a0c10f38a1379ed67cf813fefdd0aa5f217",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context means he subjected Dreyfus to experiments, not that he presented something for consideration; the prepared sense mismatches."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_soumis_soumettre:sns_zola_soumettre_submitted",
+        "subjectRevision": "rev_7fdc5ad1b6e1c663a173ddf899dbc8db3c1bb9ff7882288bbb55dfd5d059f2f1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+      "reviewId": "vocabulary:srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+        "subjectRevision": "rev_d1596d0f224577a588a150f0d1f76acdf75793c91515cf25098448ba620f7d9d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Both contexts mean sleep, including servants asleep in chairs and people sleeping at night; present plural form fits. Unresolved same-lemma candidate remains (dup_6798735f5ffedd637f3d74814d40a9e9318e9b7ed31243381fbf698e29c94ab3)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dorment_dormir:sns_zola_dormir_sleep",
+        "subjectRevision": "rev_d1596d0f224577a588a150f0d1f76acdf75793c91515cf25098448ba620f7d9d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+      "reviewId": "vocabulary:srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+        "subjectRevision": "rev_59352efab1a2f0ca923ad27376306e1d7772499d631c496b8f69a749ba371f42",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Picquart was sent progressively farther away to Tunisia; éloigna means distance/send away, past historic form fits. Unresolved same-lemma candidate remains (dup_e5327a82a66f5b16a0d4d9858dd6256a0e7cd291539fb3db5fa7efbe89d35c87)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_eloigna_39057499692a_eloigner:sns_zola_eloigner_send_away",
+        "subjectRevision": "rev_59352efab1a2f0ca923ad27376306e1d7772499d631c496b8f69a749ba371f42",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "reviewId": "vocabulary:srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_de59ab36b88cb5c9c4fc4a96930a86ced7371d8cd695d1bf4baa900ed73c4db2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The glass pentoufles are elegant footwear worn to the ball, not house slippers. The current definition conflicts with the story use; broaden/split the pantoufle sense and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pentoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_f6334e90fd:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_18d65beac8cfc0a8cfd2d84921455001caa8bed2865fec4bc98499b9789c86f5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+      "reviewId": "vocabulary:srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+        "subjectRevision": "rev_e4b4f2cb811fb0121aef298ecab82dacd08c02d6bb46488556b0bf6b749470b2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context promises that Cinderella would not fail to leave before midnight (ne manquerait pas de sortir), but the learner gloss says “lack/be short of,” a different construction. Correct the gloss for manquer de + infinitive and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_manqueroit_lem_cendrillon_manquer_verb_5bb1a65fb3_ee0fdf57b0:sns_cendrillon_manquer_faillir_tomber_en_faute_c7512f1e5a",
+        "subjectRevision": "rev_ae171844498315c821d971dc801bfdcdbceee7c8f050eaa659ea53103d2b06e3",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+      "reviewId": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "subjectRevision": "rev_27de5d9d0bc93df99ef9cbdabf8dda54010844755a3d6dbf84b55d6de4e7fe42",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source has s’étaient quittées (“had parted/left each other”), a reciprocal pronominal use, but the learner gloss says “to discharge somebody from an obligation.” Correct the gloss and include the reciprocal construction before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_quittees_lem_parure_quitter_verb_9e91e3f716_54294ce757:sns_parure_quitter_laisser_quelqu_un_quelque_part_se_separer_de_lui_27032d5ee3",
+        "subjectRevision": "rev_daf14d86ac4177a3853429e1874df116b8aa630e1863b9ac6202c927d3651805",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+      "reviewId": "vocabulary:srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+        "subjectRevision": "rev_9d89c19212ee89872a31043a2bb8d8d22583a8f242eaa15acf501d9d102866cf",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The fixed phrase ne se sentoit pas de joye means Cinderella was beside herself/overcome with joy, not “to smell.” The gloss is wrong and the broad definition does not explain this idiom; refine the sense and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_sentoit_lem_sentir_b5d0d71517:sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+        "subjectRevision": "rev_6ddba651ef4df59dd4de7f195131ce14468e34712976fe67164dc7f926f0840b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+      "reviewId": "vocabulary:srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+        "subjectRevision": "rev_a5a4f9a42b3720642d644c18a9b2adc96896ecb70bbd9c33acf466011d9bb983",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source says la jeune Demoiselle ne s’ennuyoit point (“the young woman was not bored”), a pronominal state; the current transitive sense “to bore someone” does not represent that use. Add/reassign the reflexive sense and re-review questions."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_ennuyoit_lem_parure_ennuyer_verb_7338e3692f_8bed1d0677:sns_parure_ennuyer_causer_de_l_ennui_fatiguer_l_esprit_par_quelque_chose_d_insignifiant_de_monotone_de_deplaisant_ou_de_trop_long_3943cceb9a",
+        "subjectRevision": "rev_92e1ac9c759557f3c21930cfb8a33f07feacd0d67ecc487ee409036af25d6bb3",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "reviewId": "vocabulary:srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_8f6e5440439b91a2e958c59f68d009686dcc1d5143fbe18c450833c465e6d83c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Perrault’s pantoufles de verre are Cinderella’s formal ball shoes, not indoor comfort footwear. The current definition is too narrow and misleading for every indexed occurrence; add the historical shoe sense and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pantoufles_lem_cendrillon_pantoufle_noun_4a911c8ad5_bfb46b74b7:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_a7a422857bdaabfd5977e13cac77cbaacccaa4066374799328d2cdfbf4da0d97",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "reviewId": "vocabulary:srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+      "outcome": "approve",
+      "rationale": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_01c181e2f7fc355674721760d261ca317caf202146f9b277cdb71ae769106197",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All three occurrences name Cinderella’s glass ball shoe, not indoor footwear for comfort. The current definition is too narrow for the Perrault context; add the historical shoe sense and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_pentoufle_lem_cendrillon_pantoufle_noun_4a911c8ad5_abed3147e1:sns_cendrillon_pantoufle_chaussure_d_interieur_que_l_on_met_chez_soi_pour_etre_plus_a_l_aise_f4799862bc",
+        "subjectRevision": "rev_616c45a41286d3ae30541f74f7176ddb9feb1f2fd04760f3b614be1379a868cd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed every indexed source context and the learner-facing meaning; corrected senses also received a fresh review of their unchanged dependent questions. Permanent vocabulary identity and occurrence IDs remain stable.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 7
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:35:27.235Z",
+  "sense": {
+    "id": "sns_fr_penser_think",
+    "lemmaId": "lem_zola_penser",
+    "gloss": "to think",
+    "definition": "Former une pensée, réfléchir à quelque chose ou porter un jugement."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_penser_think_fr_pense_penser_verb_levels_6_8",
+      "qiz_fr_penser_think_fr_pense_penser_verb_levels_4_5",
+      "qiz_fr_penser_think_fr_pense_penser_verb_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_pense_penser_verb:sns_fr_penser_think",
+      "surface": "pensé",
+      "lemma": "penser",
+      "currentRevision": "rev_d35c8cf3a16a010275637e66f3bdfa55a0914f7469c131974df97a6202ab0fce",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_20831cc614a72e49abcbce23",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_044",
+          "passage": "— C’est vrai. Je n’y avais point pensé.",
+          "span": [
+            33,
+            38
+          ]
+        },
+        {
+          "id": "occ_parure_c34ccc4a26335ae755208915",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_102",
+          "passage": "Elle n’ouvrit pas l’écrin, ce que redoutait son amie. Si elle s’était aperçue de la substitution, qu’aurait-elle pensé ? qu’aurait-elle dit ? Ne l’aurait-elle pas prise pour une voleuse ?",
+          "span": [
+            113,
+            118
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_penser_think_fr_pense_penser_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Qu’aurait-elle pensé en découvrant cette erreur ? Il craignait son jugement.",
+          "prompt": "Quel participe désigne l’activité de pensée ou de jugement ?",
+          "choices": [
+            {
+              "text": "pensé",
+              "correct": true
+            },
+            {
+              "text": "erreur",
+              "correct": false
+            },
+            {
+              "text": "craignait",
+              "correct": false
+            },
+            {
+              "text": "jugement",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_penser_think_fr_pense_penser_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il a _____ aux conséquences avant de répondre.",
+          "choices": [
+            {
+              "text": "pensaient",
+              "correct": false
+            },
+            {
+              "text": "pensé",
+              "correct": true
+            },
+            {
+              "text": "penser",
+              "correct": false
+            },
+            {
+              "text": "pensez",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_penser_think_fr_pense_penser_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle avait pensé à tout avant le départ.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "slept",
+              "correct": false
+            },
+            {
+              "text": "run",
+              "correct": false
+            },
+            {
+              "text": "thought",
+              "correct": true
+            },
+            {
+              "text": "forgotten",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

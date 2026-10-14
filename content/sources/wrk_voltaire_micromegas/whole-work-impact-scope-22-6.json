@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:42:23.718Z",
+  "sense": {
+    "id": "sns_bien_discourse",
+    "lemmaId": "lem_bien",
+    "gloss": "well; well then",
+    "definition": "Marqueur de discours employé pour introduire une réaction, une conclusion ou une transition, notamment dans « eh bien »."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_bien_discourse_advanced",
+      "qiz_bien_discourse_early",
+      "qiz_bien_discourse_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_bien:sns_bien_discourse",
+      "surface": "bien",
+      "lemma": "bien",
+      "currentRevision": "rev_a1f768c8d66e9c8dcd2cdf157b2abab1973aff694f0621dec4bfa7a62690bd21",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_8c1880aca071a566e75a75a7",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_14",
+          "passage": "« Eh bien ! lui cria-t-elle, avais-je pas raison ?",
+          "span": [
+            5,
+            9
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_bien_discourse_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Eh bien, le juge rendra sa décision demain matin.",
+          "prompt": "Quel mot complète la locution qui introduit la conclusion ?",
+          "choices": [
+            {
+              "text": "bien",
+              "correct": true
+            },
+            {
+              "text": "juge",
+              "correct": false
+            },
+            {
+              "text": "décision",
+              "correct": false
+            },
+            {
+              "text": "demain",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_bien_discourse_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Eh bien, commençons sans attendre.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "elsewhere",
+              "correct": false
+            },
+            {
+              "text": "well then",
+              "correct": true
+            },
+            {
+              "text": "unless",
+              "correct": false
+            },
+            {
+              "text": "yesterday",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_bien_discourse_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Eh ___, Paul, dites-nous la vérité.",
+          "choices": [
+            {
+              "text": "bien",
+              "correct": true
+            },
+            {
+              "text": "bon",
+              "correct": false
+            },
+            {
+              "text": "mieux",
+              "correct": false
+            },
+            {
+              "text": "beau",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

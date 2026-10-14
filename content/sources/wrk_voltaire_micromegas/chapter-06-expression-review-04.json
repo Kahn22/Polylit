@@ -1,0 +1,767 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 6,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "be6d2ea6f8f037b0c16b24ef201c339a711ecd8f571aac8bff9be80967ef69fc",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 9,
+    "reviewedQuestionBands": 27,
+    "newExpressionForms": 7,
+    "newQuestionBands": 21,
+    "reusedEarlierQuestionBands": 6
+  },
+  "items": [
+    {
+      "key": "quart_de_cercle",
+      "surfacePattern": "quart de cercle",
+      "meaning": "quadrant; an instrument for measuring angles",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 157,
+          "start": 155,
+          "end": 170,
+          "text": "quart de cercle"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 157,
+          "start": 155,
+          "end": 160,
+          "text": "quart",
+          "form": "quart"
+        },
+        {
+          "unit": 157,
+          "start": 161,
+          "end": 163,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 157,
+          "start": 164,
+          "end": 170,
+          "text": "cercle",
+          "form": "cercle"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+          "targetText": "quart de cercle",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "quadrant; an instrument for measuring angles",
+          "choices": [
+            "quadrant; an instrument for measuring angles",
+            "drawing compass",
+            "wooden hammer",
+            "wall barometer"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "L’instrument gradué en arc de quatre-vingt-dix degrés pour mesurer des angles est un ___.",
+          "question": "Complétez la phrase.",
+          "answer": "quart de cercle",
+          "choices": [
+            "quart de cercle",
+            "compas de dessin",
+            "marteau de bois",
+            "baromètre mural"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne l’instrument gradué en quart de circonférence qui mesure des angles ?",
+          "question": "Quelle expression convient ?",
+          "answer": "quart de cercle",
+          "choices": [
+            "quart de cercle",
+            "compas de dessin",
+            "marteau de bois",
+            "baromètre mural"
+          ]
+        }
+      ],
+      "questionSha256": "225de90eeee3bd1bc298d51114f8b2aacbcd1d6913e553b58384a8dfefa10643",
+      "identityTarget": "share_earlier_expression_meaning:chapter-05-expression-review.json:quarts_de_cercle",
+      "reviewNote": "The Chapter V quarts de cercle bank and its primary Académie 1762 quart evidence were re-read. This is the singular form of the same angular measuring instrument, with pinnules for sighting, not a new fraction sense. All four complete noun phrases are masculine singular and fit un; angular graduation selects the quadrant. Share the earlier expression meaning with a distinct singular surface and its own bank.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "middleNounAgreement": "masculine singular noun phrases; all choices fit un",
+      "earlierDecisionFile": "chapter-05-expression-review.json",
+      "earlierDecisionKey": "quarts_de_cercle",
+      "earlierDecisionFileSha256": "ef51d2552a62210807d44fbe68bf2eb44508ab54f7588c8c68b8798885099fb3"
+    },
+    {
+      "key": "juste_ciel",
+      "surfacePattern": "juste Ciel",
+      "meaning": "good heavens!; an exclamation of astonishment",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 158,
+          "start": 35,
+          "end": 45,
+          "text": "juste Ciel"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 158,
+          "start": 35,
+          "end": 40,
+          "text": "juste",
+          "form": "juste"
+        },
+        {
+          "unit": 158,
+          "start": 41,
+          "end": 45,
+          "text": "Ciel",
+          "form": "ciel"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !",
+          "targetText": "juste Ciel",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "good heavens!; an exclamation of astonishment",
+          "choices": [
+            "good heavens!; an exclamation of astonishment",
+            "hello!",
+            "thank you!",
+            "goodbye!"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le nain manifeste sa stupeur en s’écriant « ___ ».",
+          "question": "Complétez la phrase.",
+          "answer": "juste Ciel",
+          "choices": [
+            "juste Ciel",
+            "bonjour",
+            "merci beaucoup",
+            "au revoir"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression du récit est une invocation exclamative marquant l’étonnement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "juste Ciel",
+          "choices": [
+            "juste Ciel",
+            "bonjour",
+            "merci beaucoup",
+            "au revoir"
+          ]
+        }
+      ],
+      "questionSha256": "915c9a5524f10f475ed6271936026f67950739146e23fe30520c4c7cdaa33d76",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The dwarf reacts to the unexpectedly exact measurement with a conventional invocation of providence. The published divine Ciel bank and literal just/exact/tight meanings were inspected, but the whole exclamation carries the surprise function. All four options are complete formulae; astonishment rather than greeting, thanks or farewell selects juste Ciel. Final reconciliation must avoid adding duplicate Ciel component mastery for this span.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "l_infiniment_grand",
+      "surfacePattern": "l’infiniment grand",
+      "meaning": "the infinitely large; the domain of extreme largeness",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 134,
+          "end": 152,
+          "text": "l’infiniment grand"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 164,
+          "start": 134,
+          "end": 136,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 164,
+          "start": 136,
+          "end": 146,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 164,
+          "start": 147,
+          "end": 152,
+          "text": "grand",
+          "form": "grand"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+          "targetText": "l’infiniment grand",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the infinitely large; the domain of extreme largeness",
+          "choices": [
+            "the infinitely large; the domain of extreme largeness",
+            "the infinitely small",
+            "the visible world",
+            "the audible world"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le domaine des dimensions qui deviennent toujours plus grandes est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "l’infiniment grand",
+          "choices": [
+            "l’infiniment grand",
+            "l’infiniment petit",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne le domaine des dimensions infiniment grandes ?",
+          "question": "Quelle expression convient ?",
+          "answer": "l’infiniment grand",
+          "choices": [
+            "l’infiniment grand",
+            "l’infiniment petit",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        }
+      ],
+      "questionSha256": "0348a16dd3226042f57f4056124229746150105cea158774a89bea224eda7295",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The exact l’infiniment grand bank was re-read for grand at 164:147. The whole phrase is an abstract domain of infinitely large dimensions, not physical grand in tree/companion or intense grand respect. Reuse the previous full-span meaning and its three bands without duplicate component mastery; all complete middle noun choices remain masculine singular.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "middleNounAgreement": "masculine singular noun phrases; each complete choice retains its own article",
+      "earlierFile": "chapter-06-expression-review-03.json",
+      "earlierKey": "l_infiniment_grand",
+      "earlierFileSha256": "4541d46cba902d69852b363e7a97c6a1f82fb556d0605e67764be63624e704b4"
+    },
+    {
+      "key": "de_son_long",
+      "surfacePattern": "de son long",
+      "meaning": "at full length; stretched out",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 160,
+          "start": 55,
+          "end": 66,
+          "text": "de son long"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 160,
+          "start": 55,
+          "end": 57,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 160,
+          "start": 58,
+          "end": 61,
+          "text": "son",
+          "form": "son"
+        },
+        {
+          "unit": 160,
+          "start": 62,
+          "end": 66,
+          "text": "long",
+          "form": "long"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages.",
+          "targetText": "de son long",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at full length; stretched out",
+          "choices": [
+            "at full length; stretched out",
+            "in detail",
+            "very briefly",
+            "in great haste"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il étendit entièrement son corps : il se coucha ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de son long",
+          "choices": [
+            "de son long",
+            "en détail",
+            "en un instant",
+            "à toute vitesse"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution exprime la position d’un corps étendu sur toute sa longueur ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de son long",
+          "choices": [
+            "de son long",
+            "en détail",
+            "en un instant",
+            "à toute vitesse"
+          ]
+        }
+      ],
+      "questionSha256": "a43ec9836b1e43cf2f843787c22605de36eeeb001842a5fca983ca188d064a20",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The giant stretches his body out for measurement; long is not the published detailed-narrative au long sense. The whole posture phrase explains the source, and each alternative fits se coucha as an adverbial modifier; bodily extent rather than manner of narration, speed or short duration selects de son long. No detailed-explanation mastery is transferred.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "me_garderai_bien_de",
+      "surfacePattern": "me garderai bien d’",
+      "meaning": "will take care not to call; will avoid naming",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 161,
+          "start": 106,
+          "end": 125,
+          "text": "me garderai bien d’"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 161,
+          "start": 106,
+          "end": 108,
+          "text": "me",
+          "form": "me"
+        },
+        {
+          "unit": 161,
+          "start": 109,
+          "end": 117,
+          "text": "garderai",
+          "form": "garderai"
+        },
+        {
+          "unit": 161,
+          "start": 118,
+          "end": 122,
+          "text": "bien",
+          "form": "bien"
+        },
+        {
+          "unit": 161,
+          "start": 123,
+          "end": 125,
+          "text": "d’",
+          "form": "d’"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames.",
+          "targetText": "me garderai bien d’",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "will take care not to call; will avoid naming",
+          "choices": [
+            "will take care not to call; will avoid naming",
+            "will be eager to name",
+            "will forget to name",
+            "will decide to name"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Je veux éviter de nommer cet endroit : je ___appeler cet endroit par son nom.",
+          "question": "Complétez la phrase.",
+          "answer": "me garderai bien d’",
+          "choices": [
+            "me garderai bien d’",
+            "m’empresserai d’",
+            "négligerai d’",
+            "déciderai d’"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction signifie prendrai soin de ne pas nommer cet endroit ?",
+          "question": "Quelle expression convient ?",
+          "answer": "me garderai bien d’",
+          "choices": [
+            "me garderai bien d’",
+            "m’empresserai d’",
+            "négligerai d’",
+            "déciderai d’"
+          ]
+        }
+      ],
+      "questionSha256": "88592c51a50628f9a066198806ef8afbbf3d4fd8c6ff65137f0bf2a378fa5fa2",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Se garder bien de plus infinitive means deliberate avoidance, not keeping an object. The complete inflected se garder bien de source phrase carries deliberate avoidance; appeler follows as its separately reviewed naming infinitive. All four prefixes attach directly to appeler cet endroit par son nom and distinguish careful avoidance from eagerness, neglect and decision. The source narrator’s unnamed anatomy is preserved without invention.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "a_cause_de",
+      "surfacePattern": "à cause de",
+      "meaning": "because of; on account of",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 161,
+          "start": 146,
+          "end": 156,
+          "text": "à cause de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 161,
+          "start": 146,
+          "end": 147,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 161,
+          "start": 148,
+          "end": 153,
+          "text": "cause",
+          "form": "cause"
+        },
+        {
+          "unit": 161,
+          "start": 154,
+          "end": 156,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames.",
+          "targetText": "à cause de",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "because of; on account of",
+          "choices": [
+            "because of; on account of",
+            "despite",
+            "without",
+            "in addition to"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il refuse de nommer l’endroit en raison de son respect : il le tait ___ son respect pour les dames.",
+          "question": "Complétez la phrase.",
+          "answer": "à cause de",
+          "choices": [
+            "à cause de",
+            "malgré",
+            "sans",
+            "en plus de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution prépositive indique la raison de ce refus ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à cause de",
+          "choices": [
+            "à cause de",
+            "malgré",
+            "sans",
+            "en plus de"
+          ]
+        }
+      ],
+      "questionSha256": "899ac7da533bb3d767c8453930e638685a9e97119939d45ba908b9c4fafa27ce",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "À cause de introduces respect as the reason for declining to name the body part. The noun cause bank and earlier work phrase decisions were compared, but the full causal connection is prepared so the isolated noun question cannot suggest an effect. All four alternatives attach directly to son respect; the explicitly causal clue selects à cause de.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "pieds_de_roi",
+      "surfacePattern": "pieds de roi",
+      "meaning": "royal feet; historical French units of length",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 162,
+          "start": 136,
+          "end": 148,
+          "text": "pieds de roi"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 162,
+          "start": 136,
+          "end": 141,
+          "text": "pieds",
+          "form": "pieds"
+        },
+        {
+          "unit": 162,
+          "start": 142,
+          "end": 144,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 162,
+          "start": 145,
+          "end": 148,
+          "text": "roi",
+          "form": "roi"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi.",
+          "targetText": "pieds de roi",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "royal feet; historical French units of length",
+          "choices": [
+            "royal feet; historical French units of length",
+            "litres of wine",
+            "hammer blows",
+            "dance steps"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le récit exprime la hauteur du géant dans les anciennes unités françaises de longueur appelées ___.",
+          "question": "Complétez la phrase.",
+          "answer": "pieds de roi",
+          "choices": [
+            "pieds de roi",
+            "litres de vin",
+            "coups de marteau",
+            "pas de danse"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne ici les unités françaises historiques qui servent à mesurer cette hauteur ?",
+          "question": "Quelle expression convient ?",
+          "answer": "pieds de roi",
+          "choices": [
+            "pieds de roi",
+            "litres de vin",
+            "coups de marteau",
+            "pas de danse"
+          ]
+        }
+      ],
+      "questionSha256": "1ffb287d7de1446dc05abccd41d2c89a443e55f2390f99500fdf8c4d916181cb",
+      "identityTarget": "share_earlier_length_measure_meaning:chapter-01-identity-plan.json:pieds_length_measure",
+      "reviewNote": "The earlier pieds length-measure plan and primary source evidence were re-read; pieds de roi is the specified historical foot unit, not a king’s anatomical feet. Retain the earlier measurement sense as a whole phrase with a contextual bank; no modern metric conversion is asserted. All four phrases are masculine plural and fit the unchanged called-units stem; length-unit meaning selects pieds de roi.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "middleNounAgreement": "masculine plural complete noun phrases",
+      "earlierDecisionFile": "chapter-01-identity-plan.json",
+      "earlierDecisionKey": "pieds_length_measure",
+      "earlierDecisionFileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e"
+    },
+    {
+      "key": "en_effet",
+      "surfacePattern": "en effet",
+      "meaning": "indeed; in fact",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 162,
+          "start": 92,
+          "end": 100,
+          "text": "en effet"
+        },
+        {
+          "chapter": 6,
+          "unit": 165,
+          "start": 79,
+          "end": 87,
+          "text": "en effet"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 162,
+          "start": 92,
+          "end": 94,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 162,
+          "start": 95,
+          "end": 100,
+          "text": "effet",
+          "form": "effet"
+        },
+        {
+          "unit": 165,
+          "start": 79,
+          "end": 81,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 165,
+          "start": 82,
+          "end": 87,
+          "text": "effet",
+          "form": "effet"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi.",
+          "targetText": "en effet",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "indeed; in fact",
+          "choices": [
+            "indeed; in fact",
+            "perhaps",
+            "instead",
+            "nevertheless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La mesure confirme leur conclusion : c’était ___ un jeune homme de cette taille.",
+          "question": "Complétez la phrase.",
+          "answer": "en effet",
+          "choices": [
+            "en effet",
+            "peut-être",
+            "à la place",
+            "néanmoins"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution confirme une affirmation comme correspondant à la réalité ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en effet",
+          "choices": [
+            "en effet",
+            "peut-être",
+            "à la place",
+            "néanmoins"
+          ]
+        }
+      ],
+      "questionSha256": "c37518ca0b97c2b079844a50e36822f3bf96f6a2ce2527bfc4121fc76a13eeab",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The two effet noun-shaped tokens at 162:95 and 165:82 belong to the previously reviewed en effet confirmation phrase. The exact three-band bank was re-read; indeed confirms the calculated height and the existence claim, rather than naming a physical effect or a cause. Reuse that full-span bank without any duplicate effect-word mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-06-expression-review-02.json",
+      "earlierKey": "en_effet",
+      "earlierFileSha256": "4ff0f2fbe574d96350323e1ec69651e46a54a6dc136cbf8206f6ee2bdc2e63ac"
+    },
+    {
+      "key": "en_toute_surete",
+      "surfacePattern": "en toute sûreté",
+      "meaning": "with complete certainty; with assurance",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 165,
+          "start": 46,
+          "end": 61,
+          "text": "en toute sûreté"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 165,
+          "start": 46,
+          "end": 48,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 165,
+          "start": 49,
+          "end": 54,
+          "text": "toute",
+          "form": "toute"
+        },
+        {
+          "unit": 165,
+          "start": 55,
+          "end": 61,
+          "text": "sûreté",
+          "form": "sûreté"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme.",
+          "targetText": "en toute sûreté",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "with complete certainty; with assurance",
+          "choices": [
+            "with complete certainty; with assurance",
+            "in great haste",
+            "in strict secrecy",
+            "with hesitation"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il peut tenir cette affirmation pour certaine, sans aucun doute : il peut la croire ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en toute sûreté",
+          "choices": [
+            "en toute sûreté",
+            "en toute hâte",
+            "en grand secret",
+            "avec hésitation"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution du récit indique qu’on peut croire quelque chose avec assurance ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en toute sûreté",
+          "choices": [
+            "en toute sûreté",
+            "en toute hâte",
+            "en grand secret",
+            "avec hésitation"
+          ]
+        }
+      ],
+      "questionSha256": "4216543027e8974f34ea2503f8980748341b0e07286045a1014dc3278b9bdf21",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosopher assures the giant that still smaller intelligent beings exist. En toute sûreté modifies croire with epistemic certainty, not bodily protection or a secure locked place. The published toute determiner and absence of a sûreté bank were checked, but the full adverbial phrase supplies the source meaning. All four phrases fit croire as manner modifiers; no doubt rather than haste, secrecy or hesitation selects en toute sûreté.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    }
+  ]
+}

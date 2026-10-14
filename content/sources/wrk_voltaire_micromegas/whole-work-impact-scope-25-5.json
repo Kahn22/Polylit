@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:29.445Z",
+  "sense": {
+    "id": "sns_fr_faire_assure",
+    "lemmaId": "lem_faire",
+    "gloss": "to claim confidently (se faire fort de)",
+    "definition": "Dans se faire fort de, affirmer avec assurance sa capacité à réussir."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_assure_fait_levels_6_8",
+      "qiz_fr_faire_assure_fait_levels_4_5",
+      "qiz_fr_faire_assure_fait_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fait:sns_fr_faire_assure",
+      "surface": "fait",
+      "lemma": "faire",
+      "currentRevision": "rev_ca029d5eb67478718ffd52fbe6b8c4142a6da7ed1c85106d9b950815e555d42f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_4b7f8ddb948d18c038da6bcb",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_026",
+          "passage": "A partir de ce moment, c’est lui qui a inventé Dreyfus, l’affaire devient son affaire, il se fait fort de confondre le traître, de l’amener à des aveux complets.",
+          "span": [
+            93,
+            97
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_assure_fait_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le négociateur se fait fort de convaincre les deux parties.",
+          "prompt": "Quel verbe entre dans la formule exprimant son assurance ?",
+          "choices": [
+            {
+              "text": "fait",
+              "correct": true
+            },
+            {
+              "text": "négociateur",
+              "correct": false
+            },
+            {
+              "text": "convaincre",
+              "correct": false
+            },
+            {
+              "text": "parties",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_assure_fait_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle se _____ fort de réussir et affirme en être capable.",
+          "choices": [
+            {
+              "text": "faites",
+              "correct": false
+            },
+            {
+              "text": "fait",
+              "correct": true
+            },
+            {
+              "text": "font",
+              "correct": false
+            },
+            {
+              "text": "fais",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_assure_fait_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il se fait fort de réparer la machine avant demain.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forgets",
+              "correct": false
+            },
+            {
+              "text": "regrets",
+              "correct": false
+            },
+            {
+              "text": "claims confidently",
+              "correct": true
+            },
+            {
+              "text": "doubts",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

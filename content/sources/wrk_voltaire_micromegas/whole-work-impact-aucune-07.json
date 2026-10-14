@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.292Z",
+  "sense": {
+    "id": "sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f",
+    "lemmaId": "lem_zola_aucun",
+    "gloss": "no; any",
+    "definition": "marque l’absence complète dans une phrase négative"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_early",
+      "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_advanced",
+      "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_loup_agneau_aucune_lem_zola_aucun_a841b3c202:sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f",
+      "surface": "aucune",
+      "lemma": "aucun",
+      "currentRevision": "rev_46da9179e2f25fb8f6b7d9d5843005657f82026768abc47bac2a323503c18ec9",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_loup_agneau_271a24a9f10f5b9fce6e075f",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_10",
+          "passage": "Et que par conséquent, en aucune façon, je ne puis troubler sa boisson.",
+          "span": [
+            26,
+            32
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il n’a reçu aucune réponse à sa lettre.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "every",
+              "correct": false
+            },
+            {
+              "text": "another",
+              "correct": false
+            },
+            {
+              "text": "this",
+              "correct": false
+            },
+            {
+              "text": "no",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Aucune voiture ne passe sur cette route fermée ; seuls les piétons peuvent entrer dans le village.",
+          "prompt": "Quel déterminant exprime l’absence totale de voitures ?",
+          "choices": [
+            {
+              "text": "Aucune",
+              "correct": true
+            },
+            {
+              "text": "route",
+              "correct": false
+            },
+            {
+              "text": "seuls",
+              "correct": false
+            },
+            {
+              "text": "village",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_aucune_sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f_e41e176d3f_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Personne ne répond : je n’entends _____ voix.",
+          "choices": [
+            {
+              "text": "plusieurs",
+              "correct": false
+            },
+            {
+              "text": "aucune",
+              "correct": true
+            },
+            {
+              "text": "aucun",
+              "correct": false
+            },
+            {
+              "text": "chaque",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

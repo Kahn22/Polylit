@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:37:32.923Z",
+  "sense": {
+    "id": "sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa",
+    "lemmaId": "lem_cendrillon_menu_adjective_96369decd9",
+    "gloss": "slim, small, fine",
+    "definition": "Qui est délié, qui a peu de volume, peu de grosseur."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_advanced",
+      "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_intermediate",
+      "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_menue_lem_cendrillon_menu_adjective_96369decd9_e99aacf65c:sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa",
+      "surface": "menuë",
+      "lemma": "menu",
+      "currentRevision": "rev_5b29f5bfa84caa6b7f953dd4ed003d47bb70293657fad86f7bea799285d8348b",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_4b470810eee1b8a46bae3700",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_010",
+          "passage": "mais elle estoit bonne, et elle les coëffa parfaitement bien. Elles furent prés de deux jours sans manger, tant elles estoient transportées de joye : on rompit plus de douze lacets à force de les serrer pour leur rendre la taille plus menuë, et elles estoient toûjours devant leur miroir. Enfin l’heureux jour arriva ; on partit, et Cendrillon les suivit des yeux le plus longtemps qu’elle put ;",
+          "span": [
+            235,
+            240
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La silhouette menuë de la fillette se devine sous son grand manteau.",
+          "prompt": "Quel mot indique une faible grosseur ?",
+          "choices": [
+            {
+              "text": "manteau",
+              "correct": false
+            },
+            {
+              "text": "menuë",
+              "correct": true
+            },
+            {
+              "text": "silhouette",
+              "correct": false
+            },
+            {
+              "text": "fillette",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Cette branche est _____ et fine comme un doigt.",
+          "choices": [
+            {
+              "text": "épaisse",
+              "correct": false
+            },
+            {
+              "text": "massive",
+              "correct": false
+            },
+            {
+              "text": "volumineuse",
+              "correct": false
+            },
+            {
+              "text": "menuë",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_menue_sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa_090c84b5f1_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Sa taille menuë lui permet de passer par cette ouverture étroite.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "tall",
+              "correct": false
+            },
+            {
+              "text": "slender",
+              "correct": true
+            },
+            {
+              "text": "bulky",
+              "correct": false
+            },
+            {
+              "text": "rigid",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

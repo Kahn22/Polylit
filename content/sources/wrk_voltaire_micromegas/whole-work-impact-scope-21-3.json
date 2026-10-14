@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:38:49.568Z",
+  "sense": {
+    "id": "sns_savoir_primary",
+    "lemmaId": "lem_savoir",
+    "gloss": "Savoir is the infinitive to know.",
+    "definition": "Savoir is the infinitive to know."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 3,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_savoir_know_intermediate",
+      "qiz_savoir_know_early",
+      "qiz_savoir_know_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_savoir:sns_savoir_primary",
+      "surface": "savoir",
+      "lemma": "savoir",
+      "currentRevision": "rev_cf5e938910aaa258033d5808ed627659686f793ca7ec16a0b2d3649627b82332",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_4a97a881b617ecde2a451ac2",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_07",
+          "passage": "Ainsi fut fait : et de tous deux on mit près du but les enjeux : savoir quoi, ce n’est pas l’affaire, ni de quel juge l’on convint.",
+          "span": [
+            65,
+            71
+          ]
+        },
+        {
+          "id": "occ_parure_3a9f056391d817547cda79aa",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_098",
+          "passage": "Il emprunta, demandant mille francs à l’un, cinq cents à l’autre, cinq louis par-ci, trois louis par-là. Il fit des billets, prit des engagements ruineux, eut affaire aux usuriers, à toutes les races de prêteurs. Il compromit toute la fin de son existence, risqua sa signature sans savoir même s’il pourrait y faire honneur, et, épouvanté par les angoisses de l’avenir, par la noire misère qui allait s’abattre sur lui, par la perspective de toutes les privations physiques et de toutes les tortures morales,",
+          "span": [
+            282,
+            288
+          ]
+        },
+        {
+          "id": "occ_zola_01c819775b275235ec840b06",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_052",
+          "passage": "Dreyfus sait plusieurs langues, crime ; on n’a trouvé chez lui aucun papier compromettant, crime ; il va parfois dans son pays d’origine, crime ; il est laborieux, il a le souci de tout savoir, crime ; il ne se trouble pas, crime ; il se trouble, crime.",
+          "span": [
+            186,
+            192
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_savoir_know_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Pour répondre, vous devez _____ où se trouve la clé.",
+          "choices": [
+            {
+              "text": "sait",
+              "correct": false
+            },
+            {
+              "text": "savons",
+              "correct": false
+            },
+            {
+              "text": "savais",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_savoir_know_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Je voudrais savoir la vérité.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "to know",
+              "correct": true
+            },
+            {
+              "text": "to hide",
+              "correct": false
+            },
+            {
+              "text": "to repeat",
+              "correct": false
+            },
+            {
+              "text": "to change",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_savoir_know_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Pour savoir la réponse, Marie consulte le livre et interroge Paul.",
+          "prompt": "Quel infinitif signifie connaître ?",
+          "choices": [
+            {
+              "text": "savoir",
+              "correct": true
+            },
+            {
+              "text": "réponse",
+              "correct": false
+            },
+            {
+              "text": "livre",
+              "correct": false
+            },
+            {
+              "text": "Paul",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

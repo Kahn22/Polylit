@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.341Z",
+  "sense": {
+    "id": "sns_zola_venir_arrive",
+    "lemmaId": "lem_venir",
+    "gloss": "to come; arrive",
+    "definition": "arriver ou venir à un endroit"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 3,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_venu_venir_arrive_early",
+      "qiz_zola_venu_venir_arrive_advanced",
+      "qiz_zola_venu_venir_arrive_intermediate",
+      "qiz_zola_venus_venir_arrive_advanced",
+      "qiz_zola_venus_venir_arrive_intermediate",
+      "qiz_zola_venus_venir_arrive_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_venu_venir:sns_zola_venir_arrive",
+      "surface": "venu",
+      "lemma": "venir",
+      "currentRevision": "rev_246d90cb4eb95039ef7aab9879db068d129ac3ac6a6e123388e7c6a6641ff2aa",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_14b011456987debc77bbcdfa",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_023",
+          "passage": "il y est venu la plus belle Princesse, la plus belle qu’on puisse jamais voir ; elle nous a fait mille civilitez ; elle nous a donné des oranges et des citrons. Cendrillon ne se sentoit pas de joye : elle leur demanda le nom de cette Princesse ; mais elles luy répondirent qu’on ne la connoissoit pas, que le Fils du Roi en estoit fort en peine, et qu’il donneroit toutes choses au monde pour sçavoir qui elle estoit. Cendrillon sourit et leur dit, elle estoit donc bien belle ? Mon Dieu ! que vous estes heureuses,",
+          "span": [
+            9,
+            13
+          ]
+        },
+        {
+          "id": "occ_zola_14fe1de7b1dcab0d4cae94da",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_103",
+          "passage": "C’est que du secours lui était venu, il avait reçu une lettre anonyme l’avertissant des menées de ses ennemis, une dame mystérieuse s’était même dérangée de nuit pour lui remettre une pièce volée à l’état-major, qui devait le sauver.",
+          "span": [
+            31,
+            35
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_venu_venir_arrive_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Mon frère est venu nous rendre visite hier.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "stayed",
+              "correct": false
+            },
+            {
+              "text": "hidden",
+              "correct": false
+            },
+            {
+              "text": "come",
+              "correct": true
+            },
+            {
+              "text": "left",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_venu_venir_arrive_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le médecin est venu au village après l’appel de la mairie ; les habitants l’attendaient.",
+          "prompt": "Quel mot indique son arrivée ?",
+          "choices": [
+            {
+              "text": "venu",
+              "correct": true
+            },
+            {
+              "text": "village",
+              "correct": false
+            },
+            {
+              "text": "mairie",
+              "correct": false
+            },
+            {
+              "text": "habitants",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_venu_venir_arrive_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul est _____ à la maison pour nous aider.",
+          "choices": [
+            {
+              "text": "venu",
+              "correct": true
+            },
+            {
+              "text": "venir",
+              "correct": false
+            },
+            {
+              "text": "vient",
+              "correct": false
+            },
+            {
+              "text": "viennent",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_venus_venir:sns_zola_venir_arrive",
+      "surface": "venus",
+      "lemma": "venir",
+      "currentRevision": "rev_672ab9df3764f68e274de53d3a53a3ee58a87fff897518876b2ad35c91a0cff7",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_e51ecb8b20f57c6f7db9fc6f",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_055",
+          "passage": "On parlait aussi de vingt-trois officiers qui étaient venus accabler Dreyfus de leurs témoignages.",
+          "span": [
+            54,
+            59
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_venus_venir_arrive_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les visiteurs sont venus de plusieurs villes pour voir cette exposition.",
+          "prompt": "Quel mot indique leur arrivée ?",
+          "choices": [
+            {
+              "text": "venus",
+              "correct": true
+            },
+            {
+              "text": "villes",
+              "correct": false
+            },
+            {
+              "text": "voir",
+              "correct": false
+            },
+            {
+              "text": "exposition",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_venus_venir_arrive_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul et Marc sont _____ pour la réunion.",
+          "choices": [
+            {
+              "text": "venir",
+              "correct": false
+            },
+            {
+              "text": "venus",
+              "correct": true
+            },
+            {
+              "text": "venu",
+              "correct": false
+            },
+            {
+              "text": "venue",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_venus_venir_arrive_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les voisins sont venus nous aider ce matin.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "stayed",
+              "correct": false
+            },
+            {
+              "text": "hidden",
+              "correct": false
+            },
+            {
+              "text": "come",
+              "correct": true
+            },
+            {
+              "text": "left",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

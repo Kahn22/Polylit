@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-checkpoint-30-recovery-annotations-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 2,
+  "approvals": 2,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison followed by new annotation approval after occurrence mapping",
+  "changes": [
+    {
+      "subjectId": "wrk_perrault_cendrillon",
+      "reviewId": "annotations:wrk_perrault_cendrillon",
+      "outcome": "approve",
+      "rationale": "Rechecked all 55 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+      "before": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_8d9daf4176aa2f9fbd5128cdc0b0d28248df39d2b76084acf3bf85cea6fa938e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The 55 ordered unit spans reconstruct the canonical text exactly; all vocabulary, 38 exclusions, and seven expression spans validate against the bound revisions.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_perrault_cendrillon",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_perrault_cendrillon",
+        "subjectRevision": "rev_c649c754c3c247e28402bbeccf057c9e7fecbaef821ae0c16051f7d7d7e4ce25",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Rechecked all 55 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 55
+    },
+    {
+      "subjectId": "wrk_zola_jaccuse",
+      "reviewId": "annotations:wrk_zola_jaccuse",
+      "outcome": "approve",
+      "rationale": "Rechecked all 199 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+      "before": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_0f763b2c69a038107b429bca61efe21f6851e238958ad0187717db335315d70a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The 199 ordered unit spans reconstruct the canonical text exactly; all vocabulary, 153 exclusions, and eleven expression spans validate against the bound revisions.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_f4540f0879808a43aedd08b2517bd0466e3645dc744aee984c7b7445ba1f047d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Rechecked all 199 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 199
+    }
+  ]
+}

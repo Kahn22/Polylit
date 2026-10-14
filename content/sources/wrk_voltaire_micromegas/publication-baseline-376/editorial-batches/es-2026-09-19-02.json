@@ -1,0 +1,773 @@
+{
+  "version": 2,
+  "id": "es-2026-09-19-02",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "userDecision": "Approved: new or corrected meanings begin at Level 1 only when their thought units are actually viewed in Learning View; retain prior records and unchanged mastery. No publishing or GitHub update.",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_es_0643_plumas:sns_es_0643_plumas",
+      "to": "srf_es_0643_plumas:sns_es_pluma_feather",
+      "occurrenceIds": [
+        "occ_es_quiroga_almohadon_031_24",
+        "occ_es_quiroga_almohadon_031_52"
+      ],
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_es_0501_medico:sns_es_0501_medico",
+      "to": "srf_es_medico_adjective_medico:sns_es_medico_medical",
+      "occurrenceIds": [
+        "occ_es_palma_camisa_012_22"
+      ],
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_es_0541_mujer:sns_es_0541_mujer",
+      "to": "srf_es_0541_mujer:sns_es_mujer_spouse",
+      "occurrenceIds": [
+        "occ_es_quiroga_almohadon_010_21"
+      ],
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_es_0943_paso:sns_es_0943_paso",
+      "to": "srf_es_pasar_paso:sns_es_pasar_accept",
+      "occurrenceIds": [
+        "occ_es_palma_camisa_015_81"
+      ],
+      "previousIdentity": "historical_only"
+    }
+  ],
+  "references": [
+    "https://dle.rae.es/pluma",
+    "https://dle.rae.es/m%C3%A9dico",
+    "https://dle.rae.es/mujer",
+    "https://dle.rae.es/pasar"
+  ],
+  "changes": [
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0643_plumas",
+      "before": {
+        "id": "lem_es_0643_plumas",
+        "headword": "plumas",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0643_plumas",
+        "headword": "pluma",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0643_plumas",
+      "before": {
+        "id": "srf_es_0643_plumas",
+        "lemmaId": "lem_es_0643_plumas",
+        "form": "plumas",
+        "normalized": "plumas"
+      },
+      "after": {
+        "id": "srf_es_0643_plumas",
+        "lemmaId": "lem_es_0643_plumas",
+        "form": "plumas",
+        "normalized": "plumas",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "plural"
+        }
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_pluma_feather",
+      "before": null,
+      "after": {
+        "id": "sns_es_pluma_feather",
+        "lemmaId": "lem_es_0643_plumas",
+        "gloss": "feathers",
+        "definition": "Piezas ligeras que cubren el cuerpo de las aves y pueden servir de relleno blando."
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_es_quiroga_almohadon_031_24",
+      "before": {
+        "id": "occ_es_quiroga_almohadon_031_24",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_031",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_0643_plumas",
+        "start": 139,
+        "end": 145
+      },
+      "after": {
+        "id": "occ_es_quiroga_almohadon_031_24",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_031",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "start": 139,
+        "end": 145
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_es_quiroga_almohadon_031_52",
+      "before": {
+        "id": "occ_es_quiroga_almohadon_031_52",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_031",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_0643_plumas",
+        "start": 301,
+        "end": 307
+      },
+      "after": {
+        "id": "occ_es_quiroga_almohadon_031_52",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_031",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "start": 301,
+        "end": 307
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_1_3",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Al romperse el cojín, salieron las plumas con las que estaba relleno.",
+        "targetText": "plumas",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "feathers",
+          "pens",
+          "buttons",
+          "threads"
+        ],
+        "correctAnswer": "feathers"
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_4_5",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "El ave sacudió las alas y dejó caer dos ___ de su plumaje.",
+        "choicesFrench": [
+          "plumas",
+          "hojas",
+          "escamas",
+          "semillas"
+        ],
+        "correctAnswer": "plumas"
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_6_8",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "La costurera abrió la funda del cojín, retiró las plumas y arregló la costura con hilo nuevo.",
+        "promptFrench": "¿Qué palabra nombra el relleno procedente del plumaje de aves?",
+        "choicesFrench": [
+          "plumas",
+          "funda",
+          "costura",
+          "hilo"
+        ],
+        "correctAnswer": "plumas"
+      },
+      "reason": "Both tokens in Quiroga unit 031 name pillow filling exposed when Jordán cuts the cover. Neither denotes a pen. Retain the old pens sense and its history; assign a new feather sense to exactly these two spans. Keep the existing plural surface; normalize its lemma without merging the separately unreviewed singular pluma entry. All three questions disambiguate bird plumage from writing instruments."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_medico_adjective",
+      "before": null,
+      "after": {
+        "id": "lem_es_medico_adjective",
+        "headword": "médico",
+        "partOfSpeech": "adjective"
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_medico_adjective_medico",
+      "before": null,
+      "after": {
+        "id": "srf_es_medico_adjective_medico",
+        "lemmaId": "lem_es_medico_adjective",
+        "form": "médico",
+        "normalized": "médico",
+        "grammaticalFeatures": {
+          "gender": "masculine",
+          "number": "singular"
+        }
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_medico_medical",
+      "before": null,
+      "after": {
+        "id": "sns_es_medico_medical",
+        "lemmaId": "lem_es_medico_adjective",
+        "gloss": "medical",
+        "definition": "Relacionado con la medicina, sus profesionales o la atención de la salud."
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_es_palma_camisa_012_22",
+      "before": {
+        "id": "occ_es_palma_camisa_012_22",
+        "workId": "wrk_palma_camisa_margarita",
+        "unitId": "unt_palma_camisa_012",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "start": 102,
+        "end": 108
+      },
+      "after": {
+        "id": "occ_es_palma_camisa_012_22",
+        "workId": "wrk_palma_camisa_margarita",
+        "unitId": "unt_palma_camisa_012",
+        "surfaceFormId": "srf_es_medico_adjective_medico",
+        "senseId": "sns_es_medico_medical",
+        "start": 102,
+        "end": 108
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_medico_medical_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_es_medico_medical_levels_1_3",
+        "surfaceFormId": "srf_es_medico_adjective_medico",
+        "senseId": "sns_es_medico_medical",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "El informe médico describe el tratamiento que recibió la paciente en el hospital.",
+        "targetText": "médico",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "medical",
+          "legal",
+          "financial",
+          "literary"
+        ],
+        "correctAnswer": "medical"
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_medico_medical_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_es_medico_medical_levels_4_5",
+        "surfaceFormId": "srf_es_medico_adjective_medico",
+        "senseId": "sns_es_medico_medical",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Para comprobar el estado de mis pulmones, me hicieron un examen ___ en la clínica.",
+        "choicesFrench": [
+          "médico",
+          "musical",
+          "jurídico",
+          "astronómico"
+        ],
+        "correctAnswer": "médico"
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_medico_medical_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_es_medico_medical_levels_6_8",
+        "surfaceFormId": "srf_es_medico_adjective_medico",
+        "senseId": "sns_es_medico_medical",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "El equipo médico examinó a la paciente en la clínica.",
+        "promptFrench": "¿Qué palabra es un adjetivo que relaciona al equipo con la medicina?",
+        "choicesFrench": [
+          "médico",
+          "equipo",
+          "paciente",
+          "clínica"
+        ],
+        "correctAnswer": "médico"
+      },
+      "reason": "In Palma unit 012 médico modifies ultimátum; it does not name a person. Separate adjective lemma/surface/sense from the retained doctor noun. The questions all use the adjective, not a nominalized adjective or doctor noun; the three contexts and alternatives were checked separately."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0541_mujer",
+      "before": {
+        "id": "lem_es_0541_mujer",
+        "headword": "mujer",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0541_mujer",
+        "headword": "mujer",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0541_mujer",
+      "before": {
+        "id": "srf_es_0541_mujer",
+        "lemmaId": "lem_es_0541_mujer",
+        "form": "mujer",
+        "normalized": "mujer"
+      },
+      "after": {
+        "id": "srf_es_0541_mujer",
+        "lemmaId": "lem_es_0541_mujer",
+        "form": "mujer",
+        "normalized": "mujer",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "singular"
+        }
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_mujer_spouse",
+      "before": null,
+      "after": {
+        "id": "sns_es_mujer_spouse",
+        "lemmaId": "lem_es_0541_mujer",
+        "gloss": "wife",
+        "definition": "Esposa, considerada en relación con la persona con quien está casada."
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_es_quiroga_almohadon_010_21",
+      "before": {
+        "id": "occ_es_quiroga_almohadon_010_21",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_010",
+        "surfaceFormId": "srf_es_0541_mujer",
+        "senseId": "sns_es_0541_mujer",
+        "start": 96,
+        "end": 101
+      },
+      "after": {
+        "id": "occ_es_quiroga_almohadon_010_21",
+        "workId": "wrk_quiroga_almohadon_plumas",
+        "unitId": "unt_quiroga_almohadon_010",
+        "surfaceFormId": "srf_es_0541_mujer",
+        "senseId": "sns_es_mujer_spouse",
+        "start": 96,
+        "end": 101
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_mujer_spouse_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_es_mujer_spouse_levels_1_3",
+        "surfaceFormId": "srf_es_0541_mujer",
+        "senseId": "sns_es_mujer_spouse",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Pedro y su mujer celebraron veinte años de matrimonio.",
+        "targetText": "mujer",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "wife",
+          "sister",
+          "daughter",
+          "neighbour"
+        ],
+        "correctAnswer": "wife"
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_mujer_spouse_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_es_mujer_spouse_levels_4_5",
+        "surfaceFormId": "srf_es_0541_mujer",
+        "senseId": "sns_es_mujer_spouse",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Me casé con Ana hace diez años; desde entonces ella es mi ___.",
+        "choicesFrench": [
+          "mujer",
+          "hermana",
+          "prima",
+          "hija"
+        ],
+        "correctAnswer": "mujer"
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_mujer_spouse_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_es_mujer_spouse_levels_6_8",
+        "surfaceFormId": "srf_es_0541_mujer",
+        "senseId": "sns_es_mujer_spouse",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Luis viajó con su mujer para celebrar su aniversario de boda; su hermana se quedó en casa.",
+        "promptFrench": "¿Qué palabra designa aquí a la persona casada con Luis?",
+        "choicesFrench": [
+          "mujer",
+          "aniversario",
+          "boda",
+          "hermana"
+        ],
+        "correctAnswer": "mujer"
+      },
+      "reason": "Quiroga unit 010 refers to Jordán's wife Alicia, established as the married couple in the opening. A general woman gloss loses the relationship meant by su mujer. Keep the same noun surface but add an independently learned spouse sense. Every question explicitly establishes marriage, avoiding the broader woman reading and unrelated family meanings."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_pasar",
+      "before": null,
+      "after": {
+        "id": "lem_es_pasar",
+        "headword": "pasar",
+        "partOfSpeech": "verb"
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_pasar_paso",
+      "before": null,
+      "after": {
+        "id": "srf_es_pasar_paso",
+        "lemmaId": "lem_es_pasar",
+        "form": "paso",
+        "normalized": "paso",
+        "grammaticalFeatures": {
+          "person": "first",
+          "number": "singular",
+          "tense": "present",
+          "mood": "indicative"
+        }
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_pasar_accept",
+      "before": null,
+      "after": {
+        "id": "sns_es_pasar_accept",
+        "lemmaId": "lem_es_pasar",
+        "gloss": "I accept",
+        "definition": "En pasar por algo, admitir o tolerar una condición, aunque no agrade."
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_es_palma_camisa_015_81",
+      "before": {
+        "id": "occ_es_palma_camisa_015_81",
+        "workId": "wrk_palma_camisa_margarita",
+        "unitId": "unt_palma_camisa_015",
+        "surfaceFormId": "srf_es_0943_paso",
+        "senseId": "sns_es_0943_paso",
+        "start": 461,
+        "end": 465
+      },
+      "after": {
+        "id": "occ_es_palma_camisa_015_81",
+        "workId": "wrk_palma_camisa_margarita",
+        "unitId": "unt_palma_camisa_015",
+        "surfaceFormId": "srf_es_pasar_paso",
+        "senseId": "sns_es_pasar_accept",
+        "start": 461,
+        "end": 465
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pasar_accept_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pasar_accept_levels_1_3",
+        "surfaceFormId": "srf_es_pasar_paso",
+        "senseId": "sns_es_pasar_accept",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "No me gusta esa condición, pero paso por ella para que podamos llegar a un acuerdo.",
+        "targetText": "paso",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "I accept",
+          "I refuse",
+          "I forget",
+          "I demand"
+        ],
+        "correctAnswer": "I accept"
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pasar_accept_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pasar_accept_levels_4_5",
+        "surfaceFormId": "srf_es_pasar_paso",
+        "senseId": "sns_es_pasar_accept",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "No me agrada esa condición, pero la acepto: ___ por ella para cerrar el trato.",
+        "choicesFrench": [
+          "paso",
+          "pasas",
+          "pasa",
+          "pasan"
+        ],
+        "correctAnswer": "paso"
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pasar_accept_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_es_pasar_accept_levels_6_8",
+        "surfaceFormId": "srf_es_pasar_paso",
+        "senseId": "sns_es_pasar_accept",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Entiendo la propuesta y paso por esa condición, aunque preferiría otro acuerdo.",
+        "promptFrench": "¿Qué forma verbal expresa aquí que acepto la condición?",
+        "choicesFrench": [
+          "paso",
+          "entiendo",
+          "preferiría",
+          "acuerdo"
+        ],
+        "correctAnswer": "paso"
+      },
+      "reason": "In Palma unit 015 Honorato concedes permission for the bridal shirt, immediately restated as Consiento. Context supports the accepting/tolerating construction, not a footstep or movement. The DLE supplies the tolerance senses and yo paso conjugation; the acceptance reading is a contextual interpretation. No existing pasar lemma was found. Preserve the old step identity and keep the separately reviewed plural pasos noun independent. Completion distinguishes present indicative person, not interchangeable synonyms."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0501_medico",
+      "before": {
+        "id": "lem_es_0501_medico",
+        "headword": "médico",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0501_medico",
+        "headword": "médico",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0501_medico",
+      "before": {
+        "id": "srf_es_0501_medico",
+        "lemmaId": "lem_es_0501_medico",
+        "form": "médico",
+        "normalized": "médico"
+      },
+      "after": {
+        "id": "srf_es_0501_medico",
+        "lemmaId": "lem_es_0501_medico",
+        "form": "médico",
+        "normalized": "médico",
+        "grammaticalFeatures": {
+          "gender": "masculine",
+          "number": "singular"
+        }
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0501_medico",
+      "before": {
+        "id": "sns_es_0501_medico",
+        "lemmaId": "lem_es_0501_medico",
+        "gloss": "doctor",
+        "definition": "doctor"
+      },
+      "after": {
+        "id": "sns_es_0501_medico",
+        "lemmaId": "lem_es_0501_medico",
+        "gloss": "doctor",
+        "definition": "Profesional que examina a pacientes y trata sus enfermedades."
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0501_medico_early",
+      "before": {
+        "id": "qiz_es_0501_medico_early",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "contextFrench": "La forma estudiada es «médico».",
+        "correctAnswer": "doctor",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "médico",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "doctor",
+          "doctors",
+          "half",
+          "better"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0501_medico_early",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "El médico examinó al enfermo y le recetó un tratamiento.",
+        "targetText": "médico",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "doctor",
+          "patient",
+          "teacher",
+          "lawyer"
+        ],
+        "correctAnswer": "doctor"
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0501_medico_intermediate",
+      "before": {
+        "id": "qiz_es_0501_medico_intermediate",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "médico",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "médico",
+          "médicos",
+          "medio",
+          "mejor"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0501_medico_intermediate",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Como tenía fiebre, pedí una consulta con el ___ para que me examinara.",
+        "choicesFrench": [
+          "médico",
+          "carpintero",
+          "panadero",
+          "jardinero"
+        ],
+        "correctAnswer": "médico"
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0501_medico_advanced",
+      "before": {
+        "id": "qiz_es_0501_medico_advanced",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "contextFrench": "Compara estas formas: médico, médicos, medio, mejor.",
+        "correctAnswer": "médico",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «doctor»?",
+        "choicesFrench": [
+          "médico",
+          "médicos",
+          "medio",
+          "mejor"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0501_medico_advanced",
+        "surfaceFormId": "srf_es_0501_medico",
+        "senseId": "sns_es_0501_medico",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "El médico escuchó al paciente mientras el conductor esperaba junto al coche.",
+        "promptFrench": "¿Qué palabra nombra al profesional que diagnostica y trata enfermedades?",
+        "choicesFrench": [
+          "médico",
+          "paciente",
+          "conductor",
+          "coche"
+        ],
+        "correctAnswer": "médico"
+      },
+      "reason": "Both Quiroga uses (units 007 and 018) denote the attending doctor. The doctor meaning and mastery key remain unchanged after excluding the Palma adjective. No progress is reset or copied. Noun classification and the descriptive definition preserve the original doctor gloss. All question contexts refer unambiguously to the professional person."
+    }
+  ]
+}

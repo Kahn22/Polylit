@@ -1,0 +1,23 @@
+/** The four missing complete banks, authored offline after inspecting all existing banks. */
+export const reviewedWordGapBanks=[
+ {form:'faisait',senseId:'sns_parure_faire_creer_produire_fabriquer_en_parlant_de_toute_uvre_materielle_a8e6f1d980',firstUnit:28,
+  early:{answer:'was making; was composing',choices:['was making; was composing','was reading','was sorting','was destroying']},
+  middle:{context:'Il inventait de nouveaux poèmes, sans lire, classer ni détruire des œuvres existantes : il ___ des vers.',answer:'faisait',choices:['faisait','lisait','classait','détruisait']},
+  upper:{context:'Quel verbe à l’imparfait signifie créer ou produire une œuvre, notamment composer des vers ?',answer:'faisait',choices:['faisait','lisait','classait','détruisait']},
+  reviewNote:'Read the complete unit28, all existing faisait creation/activity/causative candidates and scope25. The source describes composing verses and performing calculations; use the existing generic creation meaning for the independently routed verb. All middle alternatives are third-singular imperfect transitive verbs accepting des vers. Creating a poem selects the answer by meaning; no tense-only sense, phrase-wide suppression or activity-mastery transfer.'},
+ {form:'mains',senseId:'sns_parure_main_body_part_bdc9fe7397',firstUnit:91,
+  early:{answer:'hands',choices:['hands','ears','legs','shoulders']},
+  middle:{context:'Ces parties du corps portent les doigts et permettent de saisir un objet : ce sont les ___.',answer:'mains',choices:['mains','oreilles','jambes','épaules']},
+  upper:{context:'Quel nom pluriel désigne les parties du corps situées au bout des bras, portant les doigts et servant à saisir ?',answer:'mains',choices:['mains','oreilles','jambes','épaules']},
+  reviewNote:'Read the complete units91,127,129, every stored mains band, and the reviewed anatomical-hand decision in scope05. The old possession-labelled bank actually has an anatomical early and middle context, but its upper question is a mixed passage-word inventory. Preserve it unchanged and prepare three coherent banks on the exact plural surface paired with the existing anatomical sense. Every middle choice is a feminine plural body-part noun; meaning alone selects the fingers-bearing grasping organ. No possession progress is copied.'},
+ {form:'fait',senseId:'sns_fr_faire_cause_clause',firstUnit:97,
+  early:{answer:'causes; brings about',choices:['causes; brings about','proves','confirms','disproves']},
+  middle:{context:'En provoquant une méfiance nouvelle, sans attester ni réfuter une affirmation, ce témoignage ___ que Paul hésite.',answer:'fait',choices:['fait','prouve','confirme','dément']},
+  upper:{context:'Quel verbe au présent signifie provoquer le résultat énoncé dans une proposition introduite par que ?',answer:'fait',choices:['fait','prouve','confirme','dément']},
+  reviewNote:'Read the full unit97, every stored fait branch and the source-bound clause-cause decision in scope25. Ce qui fait que describes producing the following result; use the already distinct generic cause-clause meaning rather than the infinitive-causative or done bank. All four middle predicates are third-singular present verbs accepting que Paul hésite; the attesting/refuting alternatives fit syntactically while the causal clue chooses production of a result. No causative-bank overwrite or copied progress.'},
+ {form:'puisse',senseId:'sns_zola_pouvoir_present_ability',firstUnit:136,
+  early:{answer:'can; is able to',choices:['can; is able to','wants to','must','dares to']},
+  middle:{context:'La réparation permet matériellement l’ouverture, sans imposer une obligation ni exprimer un désir ou de l’audace : il faut que Paul ___ ouvrir la porte.',answer:'puisse',choices:['puisse','veuille','doive','ose']},
+  upper:{context:'Quel verbe au subjonctif présent exprime la possibilité ou la capacité, plutôt que le désir, l’obligation ou l’audace ?',answer:'puisse',choices:['puisse','veuille','doive','ose']},
+  reviewNote:'Read the complete unit136, all current/historical puisse banks and the generic ability routing in scope08. The source asks whether a being can perform the stated action; retain the named existing general ability meaning and exact puisse spelling. The legacy subjunctive-labelled bank remains unchanged. In the middle completion all four full predicates accept ouvrir: puisse/veuille/doive/ose ouvrir. The clue selects capacity rather than desire, obligation or daring, not conjugational agreement. No new mood-only sense or copied legacy mastery.'},
+];

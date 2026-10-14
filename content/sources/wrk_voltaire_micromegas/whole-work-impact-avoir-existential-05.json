@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:10:15.145Z",
+  "sense": {
+    "id": "sns_fr_avoir_existential",
+    "lemmaId": "lem_avoir",
+    "gloss": "there be (in il y a)",
+    "definition": "Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_1_3",
+      "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_4_5",
+      "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_avoit_lem_avoir_b5f0c2a0fc:sns_fr_avoir_existential",
+      "surface": "avoit",
+      "lemma": "avoir",
+      "currentRevision": "rev_2695de819b15d0abfbe93ae82a8542f4251f1796bb495b97cf721c4848487536",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_6ef2d30f32fb365d52c8f5b5",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_015",
+          "passage": "Cendrillon lui apporta la ratiere, où il y avoit trois gros rats. La fée en prit un d’entre les trois, à cause de sa maîtresse barbe, et l’ayant touché, il fut changé en un gros Cocher qui avoit une des plus belles moustaches qu’on ait jamais veuës. Ensuite elle luy dit, va dans le jardin, tu y trouveras six lezards derriere l’arrosoir, apporte les moy, elle ne les eut pas plûtost apportez, que la Maraine les changea en six Laquais, qui monterent aussi-tost derriere le carosse avec leurs habits chamarez,",
+          "span": [
+            43,
+            48
+          ]
+        },
+        {
+          "id": "occ_cendrillon_c87a9d5bdbcc1ae8ad177a9c",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_019",
+          "passage": "on cessa de danser, et les violons ne joüerent plus, tant on estoit attentif à contempler les grandes beautez de cet inconnuë : on n’entendoit qu’un bruit confus, ha, qu’elle est belle ! Le Roi même tout vieux qu’il estoit, ne laissoit pas de la regarder, et de dire tout bas à la Reine, qu’il y avoit long-temps qu’il n’avoit vû une si belle et si aimable personne. Toutes les Dames estoient attentives à considerer sa coëffure et ses habits, pour en avoir dés le lendemain de semblables,",
+          "span": [
+            296,
+            301
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il y avoit trois voyageurs devant la porte de l’auberge.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "he wanted",
+              "correct": false
+            },
+            {
+              "text": "he saw",
+              "correct": false
+            },
+            {
+              "text": "there were",
+              "correct": true
+            },
+            {
+              "text": "he owned",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il y _____ autrefois un moulin au bord de cette rivière.",
+          "choices": [
+            {
+              "text": "ayant",
+              "correct": false
+            },
+            {
+              "text": "avoit",
+              "correct": true
+            },
+            {
+              "text": "avoient",
+              "correct": false
+            },
+            {
+              "text": "avoir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_avoir_existential_cendrillon_avoit_lem_avoir_b5f0c2a0fc_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il y avoit longtemps qu’elle attendait cette nouvelle.",
+          "prompt": "Quel verbe, dans il y, exprime ici une durée écoulée ?",
+          "choices": [
+            {
+              "text": "avoit",
+              "correct": true
+            },
+            {
+              "text": "longtemps",
+              "correct": false
+            },
+            {
+              "text": "attendait",
+              "correct": false
+            },
+            {
+              "text": "nouvelle",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

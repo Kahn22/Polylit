@@ -1,7 +1,7 @@
 import {createHash} from 'node:crypto';
 import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
 import {resolve} from 'node:path';
-import {loadPublication} from '../dist/publication/repository.js';
+import {loadPublication} from './micromegas-publication-baseline.mjs';
 const root=resolve('content/sources/wrk_voltaire_micromegas');
 const read=n=>JSON.parse(readFileSync(resolve(root,n)));
 const sha=b=>createHash('sha256').update(b).digest('hex');

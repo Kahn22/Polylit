@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:42:04.490Z",
+  "sense": {
+    "id": "sns_fr_toutes_all_of_them",
+    "lemmaId": "lem_fr_tout_pronoun",
+    "gloss": "all of them (feminine plural)",
+    "definition": "Pronom qui reprend un ensemble féminin pluriel sans nom exprimé après toutes."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_4_5",
+      "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_6_8",
+      "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_toutes_pronoun:sns_fr_toutes_all_of_them",
+      "surface": "toutes",
+      "lemma": "tout",
+      "currentRevision": "rev_7a25ad96d50430007626bede8708db2f2914c49bb5ede669815fba5914bca804",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_1b5d3fb8a04c49fd4d8f3491",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_013",
+          "passage": "sa Maraine la creusa, et n’ayant laissé que l’écorce, la frappa de sa baguette, et la citroüille fut aussi-tost changée en un beau carosse tout doré. Ensuite, elle alla regarder dans sa sourissiere, où elle trouva six souris toutes en vie ; elle dit à Cendrillon de lever un peu la trappe de la sourissiere, et à chaque souris qui sortoit, elle luy donnoit un coup de sa baguette, et la souris estoit aussi-tost changée en un beau cheval ;",
+          "span": [
+            225,
+            231
+          ]
+        },
+        {
+          "id": "occ_parure_d59675e4a8da9d4d3f8c457d",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_056",
+          "passage": "Le jour de la fête arriva. Mme Loisel eut un succès. Elle était plus jolie que toutes, élégante, gracieuse, souriante et folle de joie. Tous les hommes la regardaient, demandaient son nom, cherchaient à être présentés. Tous les attachés du cabinet voulaient valser avec elle. Le ministre la remarqua.",
+          "span": [
+            79,
+            85
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les six souris étaient _____ en vie.",
+          "choices": [
+            {
+              "text": "toutes",
+              "correct": true
+            },
+            {
+              "text": "tous",
+              "correct": false
+            },
+            {
+              "text": "toute",
+              "correct": false
+            },
+            {
+              "text": "tout",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle était plus jolie que toutes, élégante, gracieuse, souriante et folle de joie.",
+          "prompt": "Quel pronom désigne toutes les autres femmes sans répéter le nom ?",
+          "choices": [
+            {
+              "text": "jolie",
+              "correct": false
+            },
+            {
+              "text": "gracieuse",
+              "correct": false
+            },
+            {
+              "text": "joie",
+              "correct": false
+            },
+            {
+              "text": "toutes",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_toutes_all_of_them_fr_toutes_pronoun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Au bal, elle était plus jolie que toutes.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "one woman",
+              "correct": false
+            },
+            {
+              "text": "all of them (feminine plural)",
+              "correct": true
+            },
+            {
+              "text": "each man",
+              "correct": false
+            },
+            {
+              "text": "none of them",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

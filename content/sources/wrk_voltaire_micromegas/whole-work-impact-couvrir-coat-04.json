@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:02:35.024Z",
+  "sense": {
+    "id": "sns_zola_couvrir_coat",
+    "lemmaId": "lem_zola_couvrir",
+    "gloss": "to cover; coat",
+    "definition": "mettre une matière sur toute la surface de quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 0,
+    "occurrenceCount": 0,
+    "activeQuizCount": 0,
+    "historicalQuizCount": 3,
+    "affectedQuizIds": [
+      "qiz_zola_couvrir_couvrir_coat_early",
+      "qiz_zola_couvrir_couvrir_coat_advanced",
+      "qiz_zola_couvrir_couvrir_coat_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [],
+  "historicalDependentQuizzes": [
+    {
+      "id": "qiz_zola_couvrir_couvrir_coat_early",
+      "surfaceFormId": "srf_zola_couvrir_couvrir",
+      "band": "levels_1_3",
+      "context": "Pour protéger la table, Léa veut la couvrir d’une couche de vernis.",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "to coat",
+          "correct": true
+        },
+        {
+          "text": "to uncover",
+          "correct": false
+        },
+        {
+          "text": "to break",
+          "correct": false
+        },
+        {
+          "text": "to move",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_couvrir_couvrir_coat_advanced",
+      "surfaceFormId": "srf_zola_couvrir_couvrir",
+      "band": "levels_6_8",
+      "context": "Marie va couvrir le gâteau de chocolat pour en napper toute la surface. Nina mélange la crème, Paul ferme le four et Luc pose des assiettes sur la table.",
+      "prompt": "Quel verbe signifie appliquer le chocolat sur toute la surface du gâteau ?",
+      "choices": [
+        {
+          "text": "couvrir",
+          "correct": true
+        },
+        {
+          "text": "mélange",
+          "correct": false
+        },
+        {
+          "text": "ferme",
+          "correct": false
+        },
+        {
+          "text": "pose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_couvrir_couvrir_coat_intermediate",
+      "surfaceFormId": "srf_zola_couvrir_couvrir",
+      "band": "levels_4_5",
+      "context": "Avant de peindre, il faut _____ tout le sol avec une bâche protectrice.",
+      "choices": [
+        {
+          "text": "couvrir",
+          "correct": true
+        },
+        {
+          "text": "découvrir",
+          "correct": false
+        },
+        {
+          "text": "déplacer",
+          "correct": false
+        },
+        {
+          "text": "casser",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

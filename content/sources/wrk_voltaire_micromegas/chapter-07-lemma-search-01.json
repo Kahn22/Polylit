@@ -1,0 +1,907 @@
+{
+  "version": 1,
+  "status": "lemma_wide_inventory_requires_individual_review",
+  "items": [
+    {
+      "lemma": "être",
+      "publishedFrench": [
+        {
+          "id": "lem_etre",
+          "headword": "être",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_etre_compound_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "be (compound-tense auxiliary)",
+              "definition": "Auxiliaire employé avec un participe passé pour former les temps composés de certains verbes."
+            },
+            {
+              "id": "sns_cendrillon_etre_forme_negative_elidee_construite_avec_ne_et_es_5e55760189",
+              "lemmaId": "lem_etre",
+              "gloss": "are not",
+              "definition": "forme négative élidée construite avec « ne » et « es »"
+            },
+            {
+              "id": "sns_etre_primary",
+              "lemmaId": "lem_etre",
+              "gloss": "to be (linking verb)",
+              "definition": "Relier un sujet à son état, sa qualité ou son identité ; les formes varient selon le temps et la personne."
+            },
+            {
+              "id": "sns_fr_etre_question_formula",
+              "lemmaId": "lem_etre",
+              "gloss": "question marker (in est-ce que)",
+              "definition": "Forme de être dans la locution interrogative est-ce que, qui introduit une question."
+            },
+            {
+              "id": "sns_fr_etre_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "had (past auxiliary)",
+              "definition": "Auxiliaire être employé pour former un temps composé."
+            },
+            {
+              "id": "sns_cendrillon_etre_forme_negative_elidee_construite_avec_ne_et_est_016b33b80a",
+              "lemmaId": "lem_etre",
+              "gloss": "is not",
+              "definition": "forme négative élidée construite avec « ne » et « est »"
+            },
+            {
+              "id": "sns_zola_etre_subjunctive",
+              "lemmaId": "lem_etre",
+              "gloss": "be",
+              "definition": "forme du subjonctif présent de être"
+            },
+            {
+              "id": "sns_fr_etre_existential",
+              "lemmaId": "lem_etre",
+              "gloss": "to exist; there is/are",
+              "definition": "Dans certaines constructions impersonnelles littéraires, exprime l’existence, comme il est des choses."
+            },
+            {
+              "id": "sns_parure_etre_definir_un_etat_une_caracteristique_du_sujet_151b22dfa3",
+              "lemmaId": "lem_etre",
+              "gloss": "to be",
+              "definition": "Définir un état, une caractéristique du sujet."
+            },
+            {
+              "id": "sns_parure_etre_reunion_elidee_de_que_et_de_la_forme_verbale_est_33ab1a468f",
+              "lemmaId": "lem_etre",
+              "gloss": "what is (in a question)",
+              "definition": "Réunion élidée du pronom interrogatif que et de est, notamment dans la formule qu’est-ce que."
+            },
+            {
+              "id": "sns_fr_etre_presence",
+              "lemmaId": "lem_etre",
+              "gloss": "to be present; to be at",
+              "definition": "Se trouver dans un lieu ou être présent à un événement."
+            },
+            {
+              "id": "sns_fr_etre_passive_auxiliary",
+              "lemmaId": "lem_etre",
+              "gloss": "be (passive auxiliary)",
+              "definition": "Auxiliaire suivi d’un participe passé pour exprimer la voix passive."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "etres_beings",
+              "form": "êtres",
+              "lemma": "être",
+              "meaning": "beings; entities",
+              "partOfSpeech": "noun masculine plural",
+              "sourceOccurrencesSha256": "f19c6ee5b6d64118a4ee622e105810a3f550eaee5db89799b757ee907d2ee808",
+              "workwideUseCount": 10,
+              "chapterOneUseCount": 1,
+              "questionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_sense_existing_lemma",
+              "route": "new_sense",
+              "intendedSenseGroup": "être:etres_beings",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            },
+            {
+              "key": "etant_being",
+              "form": "étant",
+              "lemma": "être",
+              "meaning": "being; since it or they were",
+              "partOfSpeech": "present participle",
+              "sourceOccurrencesSha256": "35487828ed3415e5486930bcc176fa9c8c8ca57c3042417853062cd704eba49f",
+              "workwideUseCount": 4,
+              "chapterOneUseCount": 3,
+              "questionSha256": "6529c3cde4313b4f2791801e11bd7d95126b95719bddb74d9f1f0df8d5e7e499",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "link_published_sense",
+              "route": "add_surface_to_published_sense",
+              "targetSenseId": "sns_etre_primary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            },
+            {
+              "key": "etre_living_being",
+              "form": "être",
+              "lemma": "être",
+              "meaning": "being; living creature",
+              "partOfSpeech": "noun masculine singular",
+              "sourceOccurrencesSha256": "5d6aba624aac0df402fcb0c9f9fde9b1a3481449c7234c383fbb851fa6a4f926",
+              "workwideUseCount": 2,
+              "chapterOneUseCount": 1,
+              "questionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "separate",
+              "route": "new_sense",
+              "intendedSenseGroup": "être:etre_living_being",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "sommes_we_are",
+              "form": "sommes",
+              "lemma": "être",
+              "meaning": "we are",
+              "partOfSpeech": "present indicative first plural",
+              "batchFile": "chapter-02-batch-04.json",
+              "sourceOccurrencesSha256": "e064434444166b13fa18ac3125fc50546785d79535fa6eb2f7bb126d0215e93b",
+              "questionSha256": "28f215b15d0a1be45286f7c6e1a5dd6a1fe7d60994728b72a18beac50e143977",
+              "chapterTwoUseCount": 2,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_etre_primary",
+              "targetLemmaId": "lem_etre",
+              "rationale": "The reviewed source sense we are fits published to be (linking verb); author the separate sommes surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "etiez_were",
+              "form": "étiez",
+              "lemma": "être",
+              "meaning": "you were",
+              "partOfSpeech": "imperfect indicative second plural",
+              "batchFile": "chapter-02-batch-08.json",
+              "sourceOccurrencesSha256": "7d9622d6862b3f1c285e216d753394a4624d07b5adb317add588f9bfc6f83095",
+              "questionSha256": "aa55a53f6eb6a860ee89c7911ad2531241df1b21d3c3b4c9ad2c2af5d8c252f3",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_etre_primary",
+              "targetLemmaId": "lem_etre",
+              "rationale": "The reviewed source sense you were fits published to be (linking verb); author the separate étiez surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "ete_been_in_place",
+              "form": "été",
+              "lemma": "être",
+              "meaning": "been; stayed or visited a place",
+              "partOfSpeech": "past participle in j’ai été",
+              "batchFile": "chapter-02-batch-18.json",
+              "sourceOccurrencesSha256": "028be2c22c142d9f8038d4a302be02f95ddf9ecca9ef59faba8654113102277b",
+              "questionSha256": "e61ca58ba71859d9ebcda3f5f10b465d054572772c5ec7535d39312188201d6e",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_fr_etre_presence",
+              "targetLemmaId": "lem_etre",
+              "rationale": "The reviewed source sense been; stayed or visited a place fits published to be present; to be at; author the separate été surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "etais_you_were",
+              "form": "étais",
+              "lemma": "être",
+              "meaning": "you were; you used to be",
+              "batchFile": "chapter-03-batch-12.json",
+              "questionSha256": "2393040466bf5e027f9a32987a46674c983412d55db1eb52aa79d2d33367aac4",
+              "sourceOccurrencesSha256": "5d0d05c4b551396c0f60c087c0b40dce6a91b99a275806ba85181074634934fe",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_etre",
+              "targetSenseId": "sns_etre_primary",
+              "rationale": "The source use you were; you used to be matches published to be (linking verb); new étais questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "etaient_passive",
+              "form": "étaient",
+              "lemma": "être",
+              "meaning": "were; formed a passive with cut",
+              "batchFile": "chapter-04-batch-17.json",
+              "questionSha256": "a88ec2f11bb662d3ce9a399ed995ea97a5ca60a44a89f5a92f2552745785a28c",
+              "sourceOccurrencesSha256": "caa4b172a88cd9153ae5695c7b19055977568aaba238f2a5072ca24009c7f761",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_etre",
+              "rationale": "Étaient taillés is a passive formation; published étaient questions teach linking or a compound tense.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "ete_motion",
+              "form": "été",
+              "lemma": "être",
+              "meaning": "been; gone to do something",
+              "batchFile": "chapter-04-batch-17.json",
+              "questionSha256": "abfa63d2388d8bd991ada4add967bd5ccb410b3d989e4b5d9209c5338b4eacf4",
+              "sourceOccurrencesSha256": "ed36b2ebc02161876007c24d2f578cf370508905a55e682327fb15b43406f45d",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_etre",
+              "rationale": "Avaient été faire observations is a historical going-to-do construction; published été questions teach a linking state.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-identity-targets-04.json",
+          "fileSha256": "352834488c250bb17a99dc0095b10d8d4b6565d7785f755d24027905f62bd597",
+          "matches": [
+            {
+              "key": "été_chapter_06_04_160_111",
+              "form": "été",
+              "lemma": "être",
+              "meaning": "been; been situated",
+              "target": "sns_fr_etre_presence",
+              "questionSha256": "8d8e7c0114581c7302b67fbd1d85a068cb7e3cd663d4b6ca5999fc0ca0871fd9",
+              "sourceOccurrencesSha256": "994bfabf09ea8731674d97f14e1811b8c179c96a2a9592620865e6361623af16",
+              "reviewNote": "Sa tête eût été au-dessus locates the head spatially in the counterfactual. The other été use describes their misérable état and retains the copular identity; the passive and summer banks are excluded. Use the published presence sense for this participial form, preserving earlier spatial été dependency reconciliation.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "fût_chapter_06_04_160_82",
+              "form": "fût",
+              "lemma": "être",
+              "meaning": "had; auxiliary in a hypothetical compound past",
+              "target": "sns_fr_etre_compound_auxiliary",
+              "questionSha256": "b9e496ae701e6add25076425c00fdecebfbc08a77eb55bae03ab283ec0f5eee0",
+              "sourceOccurrencesSha256": "578d968093368589ffc96917112d29c74b875bf02bffc7dc6b3195379f2c5238",
+              "reviewNote": "Se fût tenu debout is a compound form of reflexive se tenir, equivalent in the conditional hypothesis to had stood. It is neither a passive nor a simple copular fût exact. The global être auxiliary senses were inspected; add this accented surface to the existing compound-auxiliary meaning.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "suis_chapter_06_04_164_370",
+              "form": "suis",
+              "lemma": "être",
+              "meaning": "have; auxiliary forming a compound past",
+              "target": "sns_fr_etre_compound_auxiliary",
+              "questionSha256": "1ae25d7339234f099b1e8334ff82719b188c3e012e5dbaf0df9a353c554b3906",
+              "sourceOccurrencesSha256": "9ee10646a862441e4222973871fae6d2030156eda8d98373c1d648506c85a9fb",
+              "reviewNote": "Je suis descendu forms a compound past of intransitive descent. The exact suis candidate is copular; the global être family has the proper compound auxiliary sense. Add the inflected bank to that shared auxiliary identity, while descendu carries the lexical downward motion.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "éternel",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "manifester",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "adresse",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "adresse_chapter_05_04_adresse",
+              "form": "adresse",
+              "lemma": "adresse",
+              "meaning": "dexterity; skill",
+              "batchFile": "chapter-05-batch-05.json",
+              "questionSha256": "dbde4ace5d0bc0f8a9b9ee67f59849fd55c65825a2595b8233486a1a30c398cf",
+              "sourceOccurrencesSha256": "addfc8b3928c02ae16fd0e8ea85c01855dae74eeddbbf416291c0ee77c11303e",
+              "sourceUseCount": 1,
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "adresse:adresse_chapter_05_04_adresse",
+              "rationale": "No published French lemma or earlier planned matching meaning was found. The exact source uses teach dexterity; skill; propose this lemma and sense for complete-work reconciliation.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "puissance",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_puissance",
+          "headword": "puissance",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_zola_puissance_power",
+              "lemmaId": "lem_zola_puissance",
+              "gloss": "power; might",
+              "definition": "force ou autorité dont dispose une personne, une institution ou un État"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "goûter",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "joie",
+      "publishedFrench": [
+        {
+          "id": "lem_joie",
+          "headword": "joie",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_cendrillon_joie_sentiment_de_bonheur_de_satisfaction_vive_et_intense_qui_vient_du_plaisir_que_l_on_a_a_agir_a_accomplir_non_pas_une_tache_repetitive_mais_de_contribuer_a_un_certain_progres_qui_est_empreint_d_un_caractere_spirituel_philosophique_scientifique_religieux_ou_esthetique_9160942270",
+              "lemmaId": "lem_joie",
+              "gloss": "joy",
+              "definition": "Sentiment de grand bonheur ou de vive satisfaction ; joye est une graphie ancienne de joie."
+            },
+            {
+              "id": "sns_joie_primary",
+              "lemmaId": "lem_joie",
+              "gloss": "joy",
+              "definition": "joy"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "pur",
+      "publishedFrench": [
+        {
+          "id": "lem_loup_agneau_pur_adjective_b7992d5032",
+          "headword": "pur",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2",
+              "lemmaId": "lem_loup_agneau_pur_adjective_b7992d5032",
+              "gloss": "pure; clear",
+              "definition": "qui n’est ni souillé ni mélangé, ici en parlant de l’eau"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "paraître",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_paraitre",
+          "headword": "paraître",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_paraitre_seem",
+              "lemmaId": "lem_zola_paraitre",
+              "gloss": "to seem; to appear",
+              "definition": "Donner une certaine impression ou présenter une apparence."
+            },
+            {
+              "id": "sns_zola_paraitre_appear",
+              "lemmaId": "lem_zola_paraitre",
+              "gloss": "to appear; seem",
+              "definition": "se montrer ou donner une impression déterminée"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "paraitre_appear_at_court",
+              "form": "paraître",
+              "lemma": "paraître",
+              "meaning": "to appear; present oneself in public",
+              "partOfSpeech": "verb infinitive",
+              "sourceOccurrencesSha256": "8225bf955c5097473cc1bc3496d4066468eaa02efb088825f8315b5f1870b9fe",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "8182c7e550ca37907544f3f70bbee8f4f08cc853f59362d84fd82afd4ff5468f",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_sense_existing_lemma",
+              "route": "new_sense",
+              "intendedSenseGroup": "paraître:paraitre_appear_at_court",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "paraissait_chapter_05_116",
+              "form": "paraissait",
+              "lemma": "paraître",
+              "meaning": "appeared; seemed visible",
+              "batchFile": "chapter-05-batch-01.json",
+              "questionSha256": "8952b8defc4723046ffe072769a04fa8503db08f7a215aaf38c519bbc2d982f8",
+              "sourceOccurrencesSha256": "c6f509883f41f2e3b5b2909e77be416a62cb80484bead44987045b386d6b3189",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_zola_paraitre",
+              "rationale": "The ship appears visibly at a spot, rather than seeming to have a property or presenting oneself at court.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-identity-targets-01.json",
+          "fileSha256": "41558befcf8fc833793ab56e65241d3df9f920a46a58bea852c896e15ecd5b83",
+          "matches": [
+            {
+              "key": "paraissait_chapter_06_135_172",
+              "form": "paraissait",
+              "lemma": "paraître",
+              "meaning": "seemed",
+              "target": "sns_fr_paraitre_seem",
+              "questionSha256": "6eee9eb41466561012946989e4637224cda597b3841b80bdee75aeca9ea5f41e",
+              "sourceOccurrencesSha256": "90d8d9482dcaffe6a055fa3c83abb2fc9fe00ff8654c61a277b37a2e5bfc823b",
+              "reviewNote": "All three uses express an impression (absurd, inexplicable, belonging to whales), not the Chapter V separate visible-object sense.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "paraissent_chapter_06_138_29",
+              "form": "paraissent",
+              "lemma": "paraître",
+              "meaning": "seem",
+              "target": "sns_fr_paraitre_seem",
+              "questionSha256": "272f1c08e2dd2f716b6db114335ade71e6c81c2423f04f6dbc83650937d6f2b7",
+              "sourceOccurrencesSha256": "29df9b3cf55e98f1857340620eba4e0346673e378a4f5d2de3926f0df3e5ccdc",
+              "reviewNote": "Mysteries and the creatures’ apparent worth/size concern an impression. Link the published seeming sense, rather than creating a tense-specific sense.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "esprit",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_esprit",
+          "headword": "esprit",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_zola_esprit_mind",
+              "lemmaId": "lem_zola_esprit",
+              "gloss": "mind; mentality",
+              "definition": "faculté de penser ou manière de considérer les choses"
+            },
+            {
+              "id": "sns_zola_esprit_supernatural",
+              "lemmaId": "lem_zola_esprit",
+              "gloss": "spirits; supernatural beings",
+              "definition": "êtres immatériels ou puissances invisibles présentés comme agissants"
+            },
+            {
+              "id": "sns_zola_esprit_group",
+              "lemmaId": "lem_zola_esprit",
+              "gloss": "spirit; group ethos",
+              "definition": "manière de penser propre à un groupe ou à un corps constitué"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "tout",
+      "publishedFrench": [
+        {
+          "id": "lem_tout",
+          "headword": "tout",
+          "partOfSpeech": "determiner",
+          "senses": [
+            {
+              "id": "sns_tout_primary",
+              "lemmaId": "lem_tout",
+              "gloss": "every; all",
+              "definition": "every; all"
+            },
+            {
+              "id": "sns_zola_tout_intensifier",
+              "lemmaId": "lem_tout",
+              "gloss": "quite; entirely",
+              "definition": "renforce l’adjectif ou l’adverbe qui suit"
+            },
+            {
+              "id": "sns_parure_tout_en_while_010cfee7ae",
+              "lemmaId": "lem_tout",
+              "gloss": "all the while; while",
+              "definition": "renforce la simultanéité dans la construction tout en suivie d’un gérondif"
+            }
+          ]
+        },
+        {
+          "id": "lem_fr_tout_pronoun",
+          "headword": "tout",
+          "partOfSpeech": "pronoun",
+          "senses": [
+            {
+              "id": "sns_fr_toutes_all_of_them",
+              "lemmaId": "lem_fr_tout_pronoun",
+              "gloss": "all of them (feminine plural)",
+              "definition": "Pronom qui reprend un ensemble féminin pluriel sans nom exprimé après toutes."
+            },
+            {
+              "id": "sns_fr_tout_everything",
+              "lemmaId": "lem_fr_tout_pronoun",
+              "gloss": "everything; all",
+              "definition": "Pronom indéfini neutre qui désigne la totalité des choses concernées, seul ou avec une précision comme cela ou ce qui suit."
+            }
+          ]
+        },
+        {
+          "id": "lem_fr_tout_adverb",
+          "headword": "tout",
+          "partOfSpeech": "adverb",
+          "senses": [
+            {
+              "id": "sns_fr_tout_intensifying",
+              "lemmaId": "lem_fr_tout_adverb",
+              "gloss": "quite; completely; intensifying element",
+              "definition": "Adverbe qui renforce un degré, une totalité ou une précision ; également dans tout à coup, tout à l’heure et la tournure concessive tout… que."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "toute_quite",
+              "form": "toute",
+              "lemma": "tout",
+              "meaning": "quite; entirely",
+              "batchFile": "chapter-03-batch-12.json",
+              "questionSha256": "91e9d47c86898af50500adacfa4d04fd927e8a038cdd6c71a1812bc6007bb655",
+              "sourceOccurrencesSha256": "233fbb788581d1a453947800205c6c40376f32c7e686cadf235228cd21944607",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_fr_tout_adverb",
+              "targetSenseId": "sns_fr_tout_intensifying",
+              "rationale": "The source use quite; entirely matches published quite; completely; intensifying element; new toute questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "secouer",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "franc",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_franc_adjective_23d8fc24b6",
+          "headword": "franc",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_parure_franc_libre_de_ses_mouvements_et_de_son_action_en_opposition_au_statut_d_esclave_ou_de_serf_9bf829fdd6",
+              "lemmaId": "lem_parure_franc_adjective_23d8fc24b6",
+              "gloss": "Frankish, Franconian",
+              "definition": "Libre de ses mouvements et de son action, en opposition au statut d’esclave ou de serf."
+            }
+          ]
+        },
+        {
+          "id": "lem_fr_franc_noun",
+          "headword": "franc",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_fr_franc_currency",
+              "lemmaId": "lem_fr_franc_noun",
+              "gloss": "franc (currency unit)",
+              "definition": "Unité monétaire appelée franc ; dans ce récit, ancienne monnaie française."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "avouer",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_avouer",
+          "headword": "avouer",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_avouer_admit",
+              "lemmaId": "lem_zola_avouer",
+              "gloss": "to admit; confess",
+              "definition": "reconnaître ouvertement ce qu’on voulait cacher"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "excepter",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "petit",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_petit",
+          "headword": "petit",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_parure_petit_small_dfe627cb55",
+              "lemmaId": "lem_zola_petit",
+              "gloss": "small; young",
+              "definition": "de petite taille ou jeune selon le contexte"
+            },
+            {
+              "id": "sns_fr_petit_familiar_diminutive",
+              "lemmaId": "lem_zola_petit",
+              "gloss": "little (familiar or disparaging qualifier)",
+              "definition": "Diminutif exprimant une manière familière ou dépréciative de parler d’une personne, sans mesurer sa taille."
+            },
+            {
+              "id": "sns_zola_petit_lowly",
+              "lemmaId": "lem_zola_petit",
+              "gloss": "small; lowly",
+              "definition": "de condition modeste ou dépourvu de pouvoir social"
+            },
+            {
+              "id": "sns_zola_petit_small",
+              "lemmaId": "lem_zola_petit",
+              "gloss": "small; little",
+              "definition": "de faible dimension, importance ou âge"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "tres_petit_very_small",
+              "form": "très-petit",
+              "lemma": "petit",
+              "meaning": "very small; tiny",
+              "batchFile": "chapter-04-batch-03.json",
+              "questionSha256": "542d4c073c2803a8643698f8337bf0d7d3982514e8d2c80ea3008102564ae38b",
+              "sourceOccurrencesSha256": "a6fe46217eafe388897d325bb8e4277fc5eb4693e7d9794e725987874db2bf6c",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_zola_petit_small",
+              "targetLemmaId": "lem_zola_petit",
+              "rationale": "In the source, très-petit means very small; tiny; the chosen published sense (small; little) teaches the same contextual action or attribute, with this new surface retaining its authored three question bands.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "petit_chapter_05_held_01_124",
+              "form": "petits",
+              "lemma": "petit",
+              "meaning": "tiny beings",
+              "batchFile": "chapter-05-held-batch-01.json",
+              "questionSha256": "d596ad6e848e7d18fefc858fea2490011e4620965183e7aa4d124ae4ad5b1547",
+              "sourceOccurrencesSha256": "69403776fdae4ac40b314b4e553ee4b5a1b48379b651c019b9a86522271ebfe0",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_zola_petit",
+              "rationale": "Des infiniment petits names tiny beings by substantivization, unlike adjectival small rooms or low social status.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "considérer",
+      "publishedFrench": [
+        {
+          "id": "lem_cendrillon_considerer_verb_7b6c9f7c8e",
+          "headword": "considérer",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_cendrillon_considerer_regarder_attentivement_1355ee8f74",
+              "lemmaId": "lem_cendrillon_considerer_verb_7b6c9f7c8e",
+              "gloss": "to consider (to look at)",
+              "definition": "Regarder attentivement."
+            },
+            {
+              "id": "sns_loup_agneau_considerer_examine_par_la_pensee_ou_tient_compte_de_a3eae21860",
+              "lemmaId": "lem_cendrillon_considerer_verb_7b6c9f7c8e",
+              "gloss": "considers; takes into account",
+              "definition": "examine par la pensée ou tient compte de"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "user",
+      "publishedFrench": [
+        {
+          "id": "lem_fr_user_verb",
+          "headword": "user",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_user_wear_down",
+              "lemmaId": "lem_fr_user_verb",
+              "gloss": "to wear down",
+              "definition": "Détériorer progressivement une matière ou un objet par l’usage ou le frottement."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "agir",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_agir",
+          "headword": "agir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_agir_act",
+              "lemmaId": "lem_zola_agir",
+              "gloss": "to act",
+              "definition": "accomplir une action"
+            },
+            {
+              "id": "sns_zola_s_agir_concern",
+              "lemmaId": "lem_zola_agir",
+              "gloss": "to be a matter of; concern",
+              "definition": "être question de quelque chose"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "reste",
+      "publishedFrench": [
+        {
+          "id": "lem_reste",
+          "headword": "reste",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_reste_primary",
+              "lemmaId": "lem_reste",
+              "gloss": "Reste is the noun remainder/time left.",
+              "definition": "Reste is the noun remainder/time left."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "rester",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_rester",
+          "headword": "rester",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_rester_left_over",
+              "lemmaId": "lem_zola_rester",
+              "gloss": "to remain; to be left",
+              "definition": "Subsister après la disparition ou le départ du reste."
+            },
+            {
+              "id": "sns_zola_rester_present",
+              "lemmaId": "lem_zola_rester",
+              "gloss": "remains; stays",
+              "definition": "demeurer dans un lieu ou un état"
+            },
+            {
+              "id": "sns_zola_rester_imperfect",
+              "lemmaId": "lem_zola_rester",
+              "gloss": "remained; was left",
+              "definition": "forme de l’imparfait de rester, indiquant la permanence ou ce qui subsistait"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "resterent_stayed",
+              "form": "restèrent",
+              "lemma": "rester",
+              "meaning": "stayed; remained",
+              "batchFile": "chapter-03-batch-05.json",
+              "questionSha256": "5b580a848d27bba6a3be07468d9b8c71bb375eff197141c05915491b874bdeba",
+              "sourceOccurrencesSha256": "fd77a5a1b127c945958a555a7f7b6346066c3cca9ec6352b1e34e0c4a5ceeba7",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_zola_rester",
+              "targetSenseId": "sns_zola_rester_present",
+              "rationale": "The source use stayed; remained matches published remains; stays; new restèrent questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

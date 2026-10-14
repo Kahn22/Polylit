@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:24:42.585Z",
+  "sense": {
+    "id": "sns_fr_reprendre_resume_speech",
+    "lemmaId": "lem_parure_reprendre_verb_cbc44546b1",
+    "gloss": "to resume speaking",
+    "definition": "Recommencer à parler après une pause ou après les paroles d’un autre."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 4,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_1_3",
+      "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_6_8",
+      "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e:sns_fr_reprendre_resume_speech",
+      "surface": "reprit",
+      "lemma": "reprendre",
+      "currentRevision": "rev_95a3fca086416d92f16afcc614a7935471eb58090df99cb5281763985404eb6c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_loup_agneau_2813f08df9bfd863e2cb09fd",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_11",
+          "passage": "— Tu la troubles, reprit cette bête cruelle ;",
+          "span": [
+            18,
+            24
+          ]
+        },
+        {
+          "id": "occ_loup_agneau_61611f3e7fa5211bfd4b18d5",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_13",
+          "passage": "— Comment l’aurais-je fait si je n’étais pas né ? reprit l’Agneau ; je tette encor ma mère.",
+          "span": [
+            50,
+            56
+          ]
+        },
+        {
+          "id": "occ_parure_9984539a50ec532c76964d83",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_025",
+          "passage": "Il était désolé. Il reprit :",
+          "span": [
+            20,
+            26
+          ]
+        },
+        {
+          "id": "occ_parure_f24e75774f9dc4c71da0d5dc",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_037",
+          "passage": "Il reprit :",
+          "span": [
+            3,
+            9
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Après un bref silence, il reprit : « Nous devons partir. »",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "fell asleep",
+              "correct": false
+            },
+            {
+              "text": "left",
+              "correct": false
+            },
+            {
+              "text": "laughed",
+              "correct": false
+            },
+            {
+              "text": "resumed speaking",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle écouta la réponse, puis reprit la parole pour poser une autre question.",
+          "prompt": "Quel verbe indique qu’elle recommence à parler ?",
+          "choices": [
+            {
+              "text": "question",
+              "correct": false
+            },
+            {
+              "text": "reprit",
+              "correct": true
+            },
+            {
+              "text": "écouta",
+              "correct": false
+            },
+            {
+              "text": "réponse",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_reprendre_resume_speech_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Après s’être interrompu, il _____ : « Voici la suite de mon récit. »",
+          "choices": [
+            {
+              "text": "sortit",
+              "correct": false
+            },
+            {
+              "text": "tomba",
+              "correct": false
+            },
+            {
+              "text": "reprit",
+              "correct": true
+            },
+            {
+              "text": "dormit",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

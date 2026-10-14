@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:35:27.324Z",
+  "sense": {
+    "id": "sns_zola_penser_think",
+    "lemmaId": "lem_zola_penser",
+    "gloss": "to think; consider",
+    "definition": "former une idée ou porter son attention sur quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_pensant_penser_think_early",
+      "qiz_zola_pensant_penser_think_intermediate",
+      "qiz_zola_pensant_penser_think_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_pensant_penser:sns_zola_penser_think",
+      "surface": "pensant",
+      "lemma": "penser",
+      "currentRevision": "rev_fea2ae577d42457b63f8f9a8340f1b4464c6153d0419c85be36edbbaf2d11bed",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_a4371bf96e606c80cafaea91",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_057",
+          "passage": "Elle dansait avec ivresse, avec emportement, grisée par le plaisir, ne pensant plus à rien, dans le triomphe de sa beauté, dans la gloire de son succès, dans une sorte de nuage de bonheur fait de tous ces hommages, de toutes ces admirations, de tous ces désirs éveillés, de cette victoire si complète et si douce au cœur des femmes.",
+          "span": [
+            71,
+            78
+          ]
+        },
+        {
+          "id": "occ_zola_a5d3d2ef0ca94389f150fdc1",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_051",
+          "passage": "Je défie les honnêtes gens de le lire, sans que leur cœur bondisse d’indignation et crie leur révolte, en pensant à l’expiation démesurée, là-bas, à l’île du Diable.",
+          "span": [
+            106,
+            113
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_pensant_penser_think_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nina sourit en pensant à ses vacances.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "thinking",
+              "correct": true
+            },
+            {
+              "text": "forgetting",
+              "correct": false
+            },
+            {
+              "text": "sleeping",
+              "correct": false
+            },
+            {
+              "text": "running",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pensant_penser_think_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul reste silencieux, _____ à ce qu’il vient d’apprendre.",
+          "choices": [
+            {
+              "text": "pensent",
+              "correct": false
+            },
+            {
+              "text": "pensant",
+              "correct": true
+            },
+            {
+              "text": "penser",
+              "correct": false
+            },
+            {
+              "text": "pense",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pensant_penser_think_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "En pensant à son enfance, Nina se rappelle les promenades avec sa grand-mère.",
+          "prompt": "Quel mot indique qu’elle porte son attention sur un souvenir ?",
+          "choices": [
+            {
+              "text": "promenades",
+              "correct": false
+            },
+            {
+              "text": "grand-mère",
+              "correct": false
+            },
+            {
+              "text": "pensant",
+              "correct": true
+            },
+            {
+              "text": "enfance",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

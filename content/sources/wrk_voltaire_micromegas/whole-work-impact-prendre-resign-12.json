@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:12.525Z",
+  "sense": {
+    "id": "sns_fr_prendre_son_parti_accept",
+    "lemmaId": "lem_prendre",
+    "gloss": "to accept; to resign oneself (prendre son parti)",
+    "definition": "Dans prendre son parti de, accepter une situation à laquelle on ne peut rien changer."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_1_3",
+      "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_4_5",
+      "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_prit_lem_prendre_fb914794ca:sns_fr_prendre_son_parti_accept",
+      "surface": "prit",
+      "lemma": "prendre",
+      "currentRevision": "rev_28750cef98c62de1ee3cc0c2dbb4d535393bc60da5a2025632c0d5849a3e0130",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_d69ae2fb07425d88ff3fdaf1",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_103",
+          "passage": "Mme Loisel connut la vie horrible des nécessiteux. Elle prit son parti, d’ailleurs, tout d’un coup, héroïquement. Il fallait payer cette dette effroyable. Elle payerait. On renvoya la bonne ; on changea de logement ; on loua sous les toits une mansarde.",
+          "span": [
+            56,
+            60
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle prit son parti de l’échec et décida de recommencer ailleurs.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "accepted",
+              "correct": true
+            },
+            {
+              "text": "denied",
+              "correct": false
+            },
+            {
+              "text": "forgot",
+              "correct": false
+            },
+            {
+              "text": "celebrated",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il _____ son parti de ce retard et cessa de protester.",
+          "choices": [
+            {
+              "text": "prirent",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": false
+            },
+            {
+              "text": "prenant",
+              "correct": false
+            },
+            {
+              "text": "prit",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_son_parti_accept_parure_prit_lem_prendre_fb914794ca_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle prit son parti de cette perte, comprenant qu’elle ne pourrait rien y changer.",
+          "prompt": "Quel verbe entre dans l’expression signifiant se résigner ?",
+          "choices": [
+            {
+              "text": "comprenant",
+              "correct": false
+            },
+            {
+              "text": "changer",
+              "correct": false
+            },
+            {
+              "text": "prit",
+              "correct": true
+            },
+            {
+              "text": "perte",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

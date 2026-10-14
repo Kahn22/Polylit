@@ -124,6 +124,22 @@ describe("approved publication sources", () => {
         expect(mapping.progress).toBe("fresh_on_actual_view_if_identity_not_previously_encountered");
       }
     }
+    // Replay the explicit final cross-work transaction after the earlier ledgers.
+    const transaction = JSON.parse(readFileSync(new URL('../content/published/transaction-batches/fr-micromegas-78.json', import.meta.url), 'utf8'));
+    expect(transaction.progressTransfers).toEqual([]);
+    expect(transaction.progressPolicy).toBe(semanticProgressPolicy);
+    expect(transaction.occurrenceReassignments).toHaveLength(16);
+    for (const group of ['bundle', 'expressions'] as const) {
+      for (const change of transaction.changes[group]) {
+        const items = (group === 'bundle' ? expected[change.kind as keyof ContentBundle] : expectedExpressions[change.kind as keyof ExpressionCatalog]) as {id?: string; workId?: string}[];
+        const key = (x: {id?: string; workId?: string}) => x.id ?? x.workId;
+        const position = items.findIndex(x => key(x) === change.id);
+        expect(position < 0 ? null : items[position]).toEqual(change.before);
+        if (change.before === null) items.push(change.after);
+        else if (change.after === null) items.splice(position, 1);
+        else items[position] = change.after;
+      }
+    }
     for (const key of Object.keys(original) as (keyof ContentBundle)[]) expect(sorted(publication.bundle[key]), key).toEqual(sorted(expected[key]));
     for (const key of Object.keys(expectedExpressions) as (keyof ExpressionCatalog)[]) expect(sorted(publication.expressionCatalog[key]), key).toEqual(sorted(expectedExpressions[key]));
     expect(publication.bundle.occurrences).toHaveLength(expected.occurrences.length);

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.361Z",
+  "sense": {
+    "id": "sns_fr_venir_a_bout",
+    "lemmaId": "lem_venir",
+    "gloss": "to succeed; to overcome (venir à bout)",
+    "definition": "Dans venir à bout de, réussir à achever une tâche ou à surmonter une difficulté."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_4_5",
+      "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_1_3",
+      "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_venir_lem_venir_a9faa636b8:sns_fr_venir_a_bout",
+      "surface": "venir",
+      "lemma": "venir",
+      "currentRevision": "rev_fef52db65478d1dc73125d25d0f9acb5fefaa146805b92ccd9bd89d7cdd34e06",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_5233aadc42d85ca0d264fc36",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_043",
+          "passage": "Pour engager un cœur, pour en venir à bout,",
+          "span": [
+            30,
+            35
+          ]
+        },
+        {
+          "id": "occ_cendrillon_604d4d9f26bf9a27cd15dfbb",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            134,
+            139
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Nous devons en _____ à bout, même si la tâche paraît difficile.",
+          "choices": [
+            {
+              "text": "venir",
+              "correct": true
+            },
+            {
+              "text": "partir",
+              "correct": false
+            },
+            {
+              "text": "sortir",
+              "correct": false
+            },
+            {
+              "text": "aller",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Avec de la patience, elle parvient à venir à bout du problème.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "create",
+              "correct": false
+            },
+            {
+              "text": "overcome",
+              "correct": true
+            },
+            {
+              "text": "avoid",
+              "correct": false
+            },
+            {
+              "text": "forget",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_a_bout_parure_venir_lem_venir_a9faa636b8_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il espère venir à bout de cette réparation avant la nuit.",
+          "prompt": "Quel infinitif appartient à l’expression signifiant réussir à achever ?",
+          "choices": [
+            {
+              "text": "réparation",
+              "correct": false
+            },
+            {
+              "text": "nuit",
+              "correct": false
+            },
+            {
+              "text": "espère",
+              "correct": false
+            },
+            {
+              "text": "venir",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

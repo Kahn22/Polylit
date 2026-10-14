@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 5,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "209f90c9c24127d26204cd0cdd6ba81e5c53815d2a9a56d7ca36e0bcf600ebb1",
+  "status": "impact_reviewed_shared_question_proposals_not_applied",
+  "items": [
+    {
+      "key": "et",
+      "senseId": "sns_et_primary",
+      "impactFile": "chapter-05-et-impact.json",
+      "impactSha256": "5991aeab60a92321a4af2e18335ec72a3ac4699bd380a7e29760c17e1ddeae76",
+      "impact": {
+        "activeIdentityCount": 1,
+        "occurrenceCount": 278,
+        "activeQuizCount": 3,
+        "historicalQuizCount": 0,
+        "affectedQuizIds": [
+          "qiz_et_intermediate",
+          "qiz_et_advanced",
+          "qiz_et_early"
+        ],
+        "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+      },
+      "decision": "shared_question_repair_required_before_import",
+      "reviewNote": "Lowercase the correct middle-band choice inside its sentence; keep the correctly capitalized opening in the other bands. No sense, occurrence or mastery mutation is proposed.",
+      "proposedQuestionDependency": null
+    },
+    {
+      "key": "sans",
+      "senseId": "sns_sans_primary",
+      "impactFile": "chapter-05-sans-impact.json",
+      "impactSha256": "bc6fd62d1e9081d6d363168f8d2902301fbd79e72c6d2ac82c8674715e1bea9a",
+      "impact": {
+        "activeIdentityCount": 1,
+        "occurrenceCount": 29,
+        "activeQuizCount": 3,
+        "historicalQuizCount": 0,
+        "affectedQuizIds": [
+          "qiz_sans_intermediate",
+          "qiz_sans_early",
+          "qiz_sans_advanced"
+        ],
+        "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+      },
+      "decision": "shared_question_repair_required_before_import",
+      "reviewNote": "Lowercase the correct middle-band choice inside its sentence; keep the correctly capitalized opening in the other bands. No sense, occurrence or mastery mutation is proposed.",
+      "proposedQuestionDependency": null
+    },
+    {
+      "key": "sentir",
+      "senseId": "sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810",
+      "impactFile": "chapter-05-sentir-impact.json",
+      "impactSha256": "3fe810b781a9b77a8194006424a8140eb824c46e9cb1de2aaf791efc07455b84",
+      "impact": {
+        "activeIdentityCount": 1,
+        "occurrenceCount": 1,
+        "activeQuizCount": 3,
+        "historicalQuizCount": 3,
+        "affectedQuizIds": [
+          "qiz_cendrillon_sentoit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_2f16bd2a46_early",
+          "qiz_cendrillon_sentoit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_2f16bd2a46_advanced",
+          "qiz_cendrillon_sentoit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_2f16bd2a46_intermediate",
+          "qiz_parure_sentit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_702ca90f9b_advanced",
+          "qiz_parure_sentit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_702ca90f9b_early",
+          "qiz_parure_sentit_sns_parure_sentir_recevoir_quelque_impression_par_le_moyen_des_sens_eprouver_en_soi_quelque_chose_d_agreable_ou_de_penible_46c27b8810_702ca90f9b_intermediate"
+        ],
+        "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+      },
+      "decision": "shared_question_repair_required_before_import",
+      "reviewNote": "The active sentoit bands express felt correctly. Historical sentit early incorrectly answers to smell, while its intermediate and advanced define experiencing a sensation; replace the three historical bands with the reviewed Chapter V sentit proposal and reconcile activation. The sense definition and existing mastery identity remain unchanged.",
+      "proposedQuestionDependency": "chapter-05-held-batch-02.json:sentir_chapter_05_held_01_127"
+    }
+  ],
+  "note": "No published record or approval is changed. Apply each repair with exact-revision reapproval and rebind source snapshots at complete-work reconciliation; never create a new meaning merely to avoid repairing a quiz."
+}

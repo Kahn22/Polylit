@@ -1,0 +1,9 @@
+import{readFileSync,writeFileSync}from'node:fs';import{createHash}from'node:crypto';
+const dir=new URL('../content/sources/wrk_voltaire_micromegas/',import.meta.url).pathname,read=f=>JSON.parse(readFileSync(dir+f)),sha=x=>createHash('sha256').update(x).digest('hex'),write=(f,x)=>writeFileSync(dir+f,JSON.stringify(x,null,2)+'\n');
+const plan=read('whole-work-scope-plan-19.json'),files=['whole-work-scope-plan-19.json',...plan.impacts.map(i=>i.file)];
+const progress={version:1,status:plan.status,summary:plan.summary,nextAction:plan.nextAction,evidenceSha256:Object.fromEntries(files.map(f=>[f,sha(readFileSync(dir+f))]))};
+write('whole-work-scope-progress-19.json',progress);files.push('whole-work-scope-progress-19.json');const dossier=read('dossier.json');
+for(const file of files){const b=readFileSync(dir+file);dossier.evidence=[...dossier.evidence.filter(e=>e.file!==file),{role:'whole_work_reprendre_scope_reconciliation_offline',file,bytes:b.length,sha256:sha(b)}];}
+dossier.review.wholeWorkReprendreScope={file:'whole-work-scope-progress-19.json',status:progress.status,summary:progress.summary,nextAction:progress.nextAction};
+if(!dossier.history.at(-1).reason.startsWith('Scope reconciliation19:'))dossier.history.push({version:dossier.history.at(-1).version+1,date:'2026-10-01',reason:'Scope reconciliation19: read six published sources, nine current and six inactive bands, five candidate tokens and the earlier unit213 bank. Prepare three meaning-only middle repairs. Retain four clear resumed-speech routes and hold only unit213 and its bank because the precise person-object interpretation is unresolved. Preserve every original route/legacy record; no new taking-again scope assumed. Continue independent apprendre.'});
+write('dossier.json',dossier);console.log(JSON.stringify({history:dossier.history.at(-1).version,...progress.summary,nextAction:progress.nextAction}));

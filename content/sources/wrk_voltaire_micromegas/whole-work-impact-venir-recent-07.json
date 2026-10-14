@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.251Z",
+  "sense": {
+    "id": "sns_fr_venir_recent_past",
+    "lemmaId": "lem_venir",
+    "gloss": "have just (recent-past auxiliary)",
+    "definition": "Avec de et un infinitif, indique qu’une action s’est produite tout récemment."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 5,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_1_3",
+      "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_4_5",
+      "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_6_8",
+      "qiz_fr_venir_recent_past_vient_levels_6_8",
+      "qiz_fr_venir_recent_past_vient_levels_1_3",
+      "qiz_fr_venir_recent_past_vient_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_venoit_lem_venir_fdb3c1d818:sns_fr_venir_recent_past",
+      "surface": "venoit",
+      "lemma": "venir",
+      "currentRevision": "rev_c7f3b0f6803bcab89319a9d1e3e03e1ecc4b12dbf4b2b568be8039fa7004dbd7",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_c33b9991ae21f76ca846156f",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_018",
+          "passage": "Elle part, ne se sentant pas de joye. Le Fils du Roi, qu’on alla avertir qu’il venoit d’arriver une grande Princesse qu’on ne connoissoit point, courut la recevoir ; il luy donna la main à la descente du carosse, et la mena dans la salle où estoit la compagnie : il se fit alors un grand silence ;",
+          "span": [
+            79,
+            85
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il venoit de partir : son départ datait de quelques instants.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "had never",
+              "correct": false
+            },
+            {
+              "text": "had to",
+              "correct": false
+            },
+            {
+              "text": "wanted to",
+              "correct": false
+            },
+            {
+              "text": "had just",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle _____ de rentrer quand on frappa à la porte, selon le récit ancien.",
+          "choices": [
+            {
+              "text": "venir",
+              "correct": false
+            },
+            {
+              "text": "venant",
+              "correct": false
+            },
+            {
+              "text": "venoit",
+              "correct": true
+            },
+            {
+              "text": "venoient",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_recent_past_cendrillon_venoit_lem_venir_fdb3c1d818_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "On annonça qu’il venoit d’arriver une princesse au palais.",
+          "prompt": "Quel verbe ancien, avec de, situe l’arrivée dans le passé tout récent ?",
+          "choices": [
+            {
+              "text": "palais",
+              "correct": false
+            },
+            {
+              "text": "venoit",
+              "correct": true
+            },
+            {
+              "text": "arriver",
+              "correct": false
+            },
+            {
+              "text": "princesse",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_vient:sns_fr_venir_recent_past",
+      "surface": "vient",
+      "lemma": "venir",
+      "currentRevision": "rev_b2e802eea3f797f57c78e74967285d11464f9d0a939bbdc2d42137f1241ff229",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_74e1c0b7a89225fdbc322595",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_179",
+          "passage": "On verra bien si l’on ne vient pas de préparer, pour plus tard, le plus retentissant des désastres.",
+          "span": [
+            25,
+            30
+          ]
+        },
+        {
+          "id": "occ_zola_884b4dd65e349bad701b5cd1",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_006",
+          "passage": "Un conseil de guerre vient, par ordre, d’oser acquitter un Esterhazy, soufflet suprême à toute vérité, à toute justice.",
+          "span": [
+            21,
+            26
+          ]
+        },
+        {
+          "id": "occ_zola_eab5c29634b3cb1d6815a737",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_154",
+          "passage": "On s’épouvante devant le jour terrible que vient d’y jeter l’affaire Dreyfus, ce sacrifice humain d’un malheureux, d’un « sale juif » !",
+          "span": [
+            43,
+            48
+          ]
+        },
+        {
+          "id": "occ_zola_eda7ab8599259130e8ba70cf",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_057",
+          "passage": "C’est un procès de famille, on est là entre soi, et il faut s’en souvenir : l’état-major a voulu le procès, l’a jugé, et il vient de le juger une seconde fois.",
+          "span": [
+            124,
+            129
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_venir_recent_past_vient_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le facteur vient de passer ; la lettre est encore dans la boîte.",
+          "prompt": "Quel verbe, suivi de de, marque un passé très récent ?",
+          "choices": [
+            {
+              "text": "facteur",
+              "correct": false
+            },
+            {
+              "text": "lettre",
+              "correct": false
+            },
+            {
+              "text": "boîte",
+              "correct": false
+            },
+            {
+              "text": "vient",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_recent_past_vient_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle vient de fermer la porte, il y a quelques secondes.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "wants to",
+              "correct": false
+            },
+            {
+              "text": "has just",
+              "correct": true
+            },
+            {
+              "text": "is going to",
+              "correct": false
+            },
+            {
+              "text": "must",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_recent_past_vient_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il _____ de terminer son travail à l’instant ; c’est tout récent.",
+          "choices": [
+            {
+              "text": "vient",
+              "correct": true
+            },
+            {
+              "text": "va",
+              "correct": false
+            },
+            {
+              "text": "doit",
+              "correct": false
+            },
+            {
+              "text": "veut",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

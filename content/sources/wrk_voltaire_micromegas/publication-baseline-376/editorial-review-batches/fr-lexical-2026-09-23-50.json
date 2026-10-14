@@ -1,0 +1,827 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-50",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 50,
+  "reviewedIdentities": 25,
+  "approvals": 17,
+  "holds": 8,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of lemma, part of speech, surface form, indexed contexts, sense and reuse candidates",
+  "changes": [
+    {
+      "subjectId": "srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+      "reviewId": "vocabulary:srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+      "outcome": "approve",
+      "rationale": "Reviewed contexts: coupables is a noun denoting guilty people/offenders, distinct from the adjective identity. Plural noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+        "subjectRevision": "rev_ef88210306a58cccfaf9fb9d229b11cba925feb4ea090ae3ee65f090571dd3ef",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_coupables_coupable_noun:sns_zola_coupable_noun_offender",
+        "subjectRevision": "rev_ef88210306a58cccfaf9fb9d229b11cba925feb4ea090ae3ee65f090571dd3ef",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed contexts: coupables is a noun denoting guilty people/offenders, distinct from the adjective identity. Plural noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+      "reviewId": "vocabulary:srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+      "outcome": "approve",
+      "rationale": "In couronnera notre grand siècle, couronner means crown/culminate; the figurative verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+        "subjectRevision": "rev_5b77550b945d1ca1e917849630fc6a7b42dbaf7fd99382d4bcd3c1277608ea03",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couronnera_couronner:sns_zola_couronner_culminate",
+        "subjectRevision": "rev_5b77550b945d1ca1e917849630fc6a7b42dbaf7fd99382d4bcd3c1277608ea03",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In couronnera notre grand siècle, couronner means crown/culminate; the figurative verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+      "reviewId": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+      "outcome": "hold",
+      "rationale": "In il court chez madame Dreyfus, court means runs/hurries to her; the verb sense fits. Unresolved same-lemma candidate remains (dup_582f9ff5b0c1e83565eea5785f6726e3df62cc1cb399ec062d276a44bc6b8073).",
+      "before": {
+        "id": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+        "subjectRevision": "rev_5363e0857df5029f141248798aa81920d6213b77366b022eaf24e2ccb4047445",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_court_courir:sns_zola_courir_run",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_court_courir:sns_zola_courir_run",
+        "subjectRevision": "rev_5363e0857df5029f141248798aa81920d6213b77366b022eaf24e2ccb4047445",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In il court chez madame Dreyfus, court means runs/hurries to her; the verb sense fits. Unresolved same-lemma candidate remains (dup_582f9ff5b0c1e83565eea5785f6726e3df62cc1cb399ec062d276a44bc6b8073)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+      "reviewId": "vocabulary:srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+      "outcome": "approve",
+      "rationale": "Reviewed both contexts: couvert means covered up/protected Esterhazy and the unlawful proceedings; participle and figurative sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+        "subjectRevision": "rev_f618b3264e94cc6bb65f471dc3717f4a056bfbe2e9161f74113a0be1b9ec49f4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+        "subjectRevision": "rev_f618b3264e94cc6bb65f471dc3717f4a056bfbe2e9161f74113a0be1b9ec49f4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed both contexts: couvert means covered up/protected Esterhazy and the unlawful proceedings; participle and figurative sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+      "reviewId": "vocabulary:srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+      "outcome": "approve",
+      "rationale": "In couvrir leur faute, couvrir means cover up/protect the wrongdoing; the verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+        "subjectRevision": "rev_df9f2598b59e7336a1166566830f55fb99a85e4f224def047addd1e68687be5a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+        "subjectRevision": "rev_df9f2598b59e7336a1166566830f55fb99a85e4f224def047addd1e68687be5a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In couvrir leur faute, couvrir means cover up/protect the wrongdoing; the verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_crainte_crainte:sns_zola_crainte_fear",
+      "reviewId": "vocabulary:srf_zola_crainte_crainte:sns_zola_crainte_fear",
+      "outcome": "approve",
+      "rationale": "In la crainte de livrer l’état-major, crainte means fear; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_crainte_crainte:sns_zola_crainte_fear",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crainte_crainte:sns_zola_crainte_fear",
+        "subjectRevision": "rev_baff0168678589809b810d70b652c616d32a1a2af23f5a44d6d8ce6a86f09a59",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crainte_crainte:sns_zola_crainte_fear",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crainte_crainte:sns_zola_crainte_fear",
+        "subjectRevision": "rev_baff0168678589809b810d70b652c616d32a1a2af23f5a44d6d8ce6a86f09a59",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In la crainte de livrer l’état-major, crainte means fear; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_cri_cri:sns_zola_cri_cry",
+      "reviewId": "vocabulary:srf_zola_cri_cri:sns_zola_cri_cry",
+      "outcome": "approve",
+      "rationale": "Reviewed contexts: cri means a cry/outcry, including cries of joy, protest, and the soul; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_cri_cri:sns_zola_cri_cry",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cri_cri:sns_zola_cri_cry",
+        "subjectRevision": "rev_e231a92f973b33fe8fd63453e9f97a5ba9a15b9fa85b5da1f6be1d78e9d8a19e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_cri_cri:sns_zola_cri_cry",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cri_cri:sns_zola_cri_cry",
+        "subjectRevision": "rev_e231a92f973b33fe8fd63453e9f97a5ba9a15b9fa85b5da1f6be1d78e9d8a19e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed contexts: cri means a cry/outcry, including cries of joy, protest, and the soul; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_zola_crie_crier:sns_zola_crier_proclaim",
+      "reviewId": "vocabulary:srf_zola_crie_crier:sns_zola_crier_proclaim",
+      "outcome": "hold",
+      "rationale": "In le cœur crie leur révolte, crie means cries out/voices their revolt; figurative verb sense fits. Unresolved same-lemma candidate remains (dup_b4e1cdb5ef9993ce367fcebdf65a7375136181880af60008296616ff4750fa93).",
+      "before": {
+        "id": "vocabulary:srf_zola_crie_crier:sns_zola_crier_proclaim",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crie_crier:sns_zola_crier_proclaim",
+        "subjectRevision": "rev_74e26e43602927e0da24c23eecc44eb322b6c5829caefcd7a05a818934189280",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crie_crier:sns_zola_crier_proclaim",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crie_crier:sns_zola_crier_proclaim",
+        "subjectRevision": "rev_74e26e43602927e0da24c23eecc44eb322b6c5829caefcd7a05a818934189280",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In le cœur crie leur révolte, crie means cries out/voices their revolt; figurative verb sense fits. Unresolved same-lemma candidate remains (dup_b4e1cdb5ef9993ce367fcebdf65a7375136181880af60008296616ff4750fa93)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_crierai_crier:sns_zola_crier_proclaim",
+      "reviewId": "vocabulary:srf_zola_crierai_crier:sns_zola_crier_proclaim",
+      "outcome": "hold",
+      "rationale": "In je la crierai, crier means proclaim/shout the truth; future form and sense fit. Unresolved same-lemma candidate remains (dup_b4e1cdb5ef9993ce367fcebdf65a7375136181880af60008296616ff4750fa93).",
+      "before": {
+        "id": "vocabulary:srf_zola_crierai_crier:sns_zola_crier_proclaim",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crierai_crier:sns_zola_crier_proclaim",
+        "subjectRevision": "rev_9fe45cee344fcb57001a72e84b427d45e58e93c733cc8389a35d29f53d96da72",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crierai_crier:sns_zola_crier_proclaim",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crierai_crier:sns_zola_crier_proclaim",
+        "subjectRevision": "rev_9fe45cee344fcb57001a72e84b427d45e58e93c733cc8389a35d29f53d96da72",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In je la crierai, crier means proclaim/shout the truth; future form and sense fit. Unresolved same-lemma candidate remains (dup_b4e1cdb5ef9993ce367fcebdf65a7375136181880af60008296616ff4750fa93)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_crime_crime:sns_zola_crime_offense",
+      "reviewId": "vocabulary:srf_zola_crime_crime:sns_zola_crime_offense",
+      "outcome": "approve",
+      "rationale": "Reviewed indexed occurrences: crime refers to a serious offense or wrongdoing, including legal, moral, and rhetorical accusations. The noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_crime_crime:sns_zola_crime_offense",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crime_crime:sns_zola_crime_offense",
+        "subjectRevision": "rev_3b6f4430702c42fb0f365012e9ee5beb557a9f03210a7ce6aa385d25dbaa72ff",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crime_crime:sns_zola_crime_offense",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crime_crime:sns_zola_crime_offense",
+        "subjectRevision": "rev_3b6f4430702c42fb0f365012e9ee5beb557a9f03210a7ce6aa385d25dbaa72ff",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed indexed occurrences: crime refers to a serious offense or wrongdoing, including legal, moral, and rhetorical accusations. The noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 27
+    },
+    {
+      "subjectId": "srf_zola_crimes_crime:sns_zola_crime_offense",
+      "reviewId": "vocabulary:srf_zola_crimes_crime:sns_zola_crime_offense",
+      "outcome": "approve",
+      "rationale": "In dettes et crimes, crimes means offenses/wrongdoings; plural noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_crimes_crime:sns_zola_crime_offense",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crimes_crime:sns_zola_crime_offense",
+        "subjectRevision": "rev_ea795bca73332abc15b80645f5e64d54c5f461f6d476e1ec4e3688c232958c03",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crimes_crime:sns_zola_crime_offense",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crimes_crime:sns_zola_crime_offense",
+        "subjectRevision": "rev_ea795bca73332abc15b80645f5e64d54c5f461f6d476e1ec4e3688c232958c03",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In dettes et crimes, crimes means offenses/wrongdoings; plural noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+      "reviewId": "vocabulary:srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+      "outcome": "approve",
+      "rationale": "In le second conseil ... est criminel, criminel means criminal; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+        "subjectRevision": "rev_40c66b329ef9cb255721cc6acec621aeb69d18b5c68c2d38beb66a190b88f399",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_criminel_criminel:sns_zola_criminel_criminal",
+        "subjectRevision": "rev_40c66b329ef9cb255721cc6acec621aeb69d18b5c68c2d38beb66a190b88f399",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In le second conseil ... est criminel, criminel means criminal; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+      "outcome": "hold",
+      "rationale": "In on ne croira jamais, croira means will believe; future form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663).",
+      "before": {
+        "id": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_f33b8e3ec5ad0ca1574daf2e80c20e1dad51b225b0d7c2ca2214d1fca6cf98f2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_f33b8e3ec5ad0ca1574daf2e80c20e1dad51b225b0d7c2ca2214d1fca6cf98f2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In on ne croira jamais, croira means will believe; future form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+      "outcome": "hold",
+      "rationale": "Reviewed infinitive contexts: croire means believe, including the speaker’s tentative belief and belief in truth; sense fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663).",
+      "before": {
+        "id": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_2a0af9aeb487a492d105868cd37713aea851af956e93ea0d7156d99d11cb6d98",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_2a0af9aeb487a492d105868cd37713aea851af956e93ea0d7156d99d11cb6d98",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed infinitive contexts: croire means believe, including the speaker’s tentative belief and belief in truth; sense fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+      "outcome": "hold",
+      "rationale": "In je crois bien, crois means believe/think; first-person present form fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663).",
+      "before": {
+        "id": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_66940ac7492f30935cbcd83ae47665ef66d62eb32217a49fd04476e0c9131876",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_66940ac7492f30935cbcd83ae47665ef66d62eb32217a49fd04476e0c9131876",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In je crois bien, crois means believe/think; first-person present form fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+      "reviewId": "vocabulary:srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+      "outcome": "approve",
+      "rationale": "The offices would collapse under public contempt; crouler means collapse/succumb under a burden. The figurative use fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+        "subjectRevision": "rev_a927a26ef3d2c4f6fde6db45a0b67139866992ccdb817bf3ef74278dcc40dfda",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croulent_crouler:sns_zola_crouler_collapse",
+        "subjectRevision": "rev_a927a26ef3d2c4f6fde6db45a0b67139866992ccdb817bf3ef74278dcc40dfda",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The offices would collapse under public contempt; crouler means collapse/succumb under a burden. The figurative use fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+      "outcome": "hold",
+      "rationale": "In ce qu’il croyait être l’intérêt militaire, croyait means believed/thought; the imperfect form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663).",
+      "before": {
+        "id": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_ed61efaac64f48cfe824f5d476d2f57e39d4b5ede5c8240846761ad7f0947bea",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_ed61efaac64f48cfe824f5d476d2f57e39d4b5ede5c8240846761ad7f0947bea",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In ce qu’il croyait être l’intérêt militaire, croyait means believed/thought; the imperfect form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_cru_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_cru_croire:sns_zola_croire_believe",
+      "outcome": "hold",
+      "rationale": "Reviewed occurrences: cru means believed/thought in hypothetical, reported, and subordinate clauses; participial form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663).",
+      "before": {
+        "id": "vocabulary:srf_zola_cru_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cru_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_e800c8c265523561cf449248a667ac3211edeac195e9aecccb5f00d2448b6f7c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_cru_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cru_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_e800c8c265523561cf449248a667ac3211edeac195e9aecccb5f00d2448b6f7c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed occurrences: cru means believed/thought in hypothetical, reported, and subordinate clauses; participial form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+      "reviewId": "vocabulary:srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+      "outcome": "approve",
+      "rationale": "In si cruellement puni, cruellement means cruelly/harshly; adverb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+        "subjectRevision": "rev_1df7fb20bfdba47a7263379f076e4717cca51abf90edcb242d06484d1bd5179a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cruellement_cruellement:sns_zola_cruellement_cruelly",
+        "subjectRevision": "rev_1df7fb20bfdba47a7263379f076e4717cca51abf90edcb242d06484d1bd5179a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In si cruellement puni, cruellement means cruelly/harshly; adverb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+      "reviewId": "vocabulary:srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+      "outcome": "approve",
+      "rationale": "Reviewed contexts: culpabilité means guilt/guiltiness, including alleged guilt and its political consequences; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+        "subjectRevision": "rev_1fffc3ce66d1cfb8693cba288c80292e675b52641709cd58bc63052bf54a34ce",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_culpabilite_13946967a8bc_culpabilite:sns_zola_culpabilite_guilt",
+        "subjectRevision": "rev_1fffc3ce66d1cfb8693cba288c80292e675b52641709cd58bc63052bf54a34ce",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed contexts: culpabilité means guilt/guiltiness, including alleged guilt and its political consequences; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+      "reviewId": "vocabulary:srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+      "outcome": "approve",
+      "rationale": "In odieux et cynique mensonge, cynique means cynical/shameless; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+        "subjectRevision": "rev_79af33bb9467607bdd8f767af3e827fc905b160dd3883df6b77fe866f93c2e72",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_cynique_cynique:sns_zola_cynique_shameless",
+        "subjectRevision": "rev_79af33bb9467607bdd8f767af3e827fc905b160dd3883df6b77fe866f93c2e72",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In odieux et cynique mensonge, cynique means cynical/shameless; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_dame_dame:sns_zola_dame_woman",
+      "reviewId": "vocabulary:srf_zola_dame_dame:sns_zola_dame_woman",
+      "outcome": "approve",
+      "rationale": "Reviewed contexts: dame means woman/lady, including a mysterious woman and a young woman in the story; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_dame_dame:sns_zola_dame_woman",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dame_dame:sns_zola_dame_woman",
+        "subjectRevision": "rev_e4534ec65aca9701a2750fbe8a010be42de40427dd852853729ffee02e6ef1fd",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_dame_dame:sns_zola_dame_woman",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dame_dame:sns_zola_dame_woman",
+        "subjectRevision": "rev_e4534ec65aca9701a2750fbe8a010be42de40427dd852853729ffee02e6ef1fd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed contexts: dame means woman/lady, including a mysterious woman and a young woman in the story; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+      "reviewId": "vocabulary:srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+      "outcome": "approve",
+      "rationale": "In choses dangereuses, dangereuses means dangerous; feminine plural adjective and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+        "subjectRevision": "rev_a44e765ea2a7a99f32eb96483bb5a961236ac1edf88bdd8591c7c92d44a0eea7",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dangereuses_dangereux:sns_zola_dangereux_dangerous",
+        "subjectRevision": "rev_a44e765ea2a7a99f32eb96483bb5a961236ac1edf88bdd8591c7c92d44a0eea7",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In choses dangereuses, dangereuses means dangerous; feminine plural adjective and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_dans_dans:sns_zola_dans_in",
+      "reviewId": "vocabulary:srf_zola_dans_dans:sns_zola_dans_in",
+      "outcome": "approve",
+      "rationale": "Reviewed occurrences: dans marks location, containment, and temporal placement (“in/within/during”). The preposition gloss covers these uses.",
+      "before": {
+        "id": "vocabulary:srf_zola_dans_dans:sns_zola_dans_in",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dans_dans:sns_zola_dans_in",
+        "subjectRevision": "rev_8d8fe958f824873eaaa2cc3a228e7158d5ddcbc8fbce83051386b7101df85890",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_dans_dans:sns_zola_dans_in",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dans_dans:sns_zola_dans_in",
+        "subjectRevision": "rev_8d8fe958f824873eaaa2cc3a228e7158d5ddcbc8fbce83051386b7101df85890",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed occurrences: dans marks location, containment, and temporal placement (“in/within/during”). The preposition gloss covers these uses.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 70
+    },
+    {
+      "subjectId": "srf_zola_dates_date:sns_zola_date_time_point",
+      "reviewId": "vocabulary:srf_zola_dates_date:sns_zola_date_time_point",
+      "outcome": "approve",
+      "rationale": "In dans l’ordre des dates, dates means dates/chronological points; plural noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_dates_date:sns_zola_date_time_point",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dates_date:sns_zola_date_time_point",
+        "subjectRevision": "rev_9c3cd9025ba54c70ce4e7f1c865d463b0d176eff055f0a94d2c6db04f502f468",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_dates_date:sns_zola_date_time_point",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_dates_date:sns_zola_date_time_point",
+        "subjectRevision": "rev_9c3cd9025ba54c70ce4e7f1c865d463b0d176eff055f0a94d2c6db04f502f468",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In dans l’ordre des dates, dates means dates/chronological points; plural noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

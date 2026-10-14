@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.389Z",
+  "sense": {
+    "id": "sns_fr_venir_arrival_time",
+    "lemmaId": "lem_venir",
+    "gloss": "come; arrived",
+    "definition": "Arriver ou se présenter, notamment en parlant d’un moment ou d’un phénomène."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_venir_arrival_time_fr_venue_venir_levels_4_5",
+      "qiz_fr_venir_arrival_time_fr_venue_venir_levels_6_8",
+      "qiz_fr_venir_arrival_time_fr_venue_venir_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_venue_venir:sns_fr_venir_arrival_time",
+      "surface": "venue",
+      "lemma": "venir",
+      "currentRevision": "rev_089ee4eb5cab7a4358795b56314c84d74c3852ee187209e827d8c294efacb391",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cigale_fourmi_ea80087bc5dae4662592bb69",
+          "workId": "wrk_cigale_fourmi",
+          "unitId": "unt_cigale_fourmi_02",
+          "passage": "Se trouva fort dépourvue quand la bise fut venue :",
+          "span": [
+            43,
+            48
+          ]
+        },
+        {
+          "id": "occ_parure_2477a7b8e584661711c06701",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_063",
+          "passage": "Ils descendaient vers la Seine, désespérés, grelottants. Enfin, ils trouvèrent sur le quai un de ces vieux coupés noctambules qu’on ne voit dans Paris que la nuit venue, comme s’ils eussent été honteux de leur misère pendant le jour.",
+          "span": [
+            163,
+            168
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_venir_arrival_time_fr_venue_venir_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "La nuit est enfin _____ sur le village ; les premières étoiles brillent.",
+          "choices": [
+            {
+              "text": "venues",
+              "correct": false
+            },
+            {
+              "text": "venu",
+              "correct": false
+            },
+            {
+              "text": "venus",
+              "correct": false
+            },
+            {
+              "text": "venue",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_arrival_time_fr_venue_venir_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "L’heure du départ est venue ; les voyageurs ferment leurs valises et gagnent le quai.",
+          "prompt": "Quelle forme verbale indique que le moment du départ est arrivé ?",
+          "choices": [
+            {
+              "text": "ferment",
+              "correct": false
+            },
+            {
+              "text": "quai",
+              "correct": false
+            },
+            {
+              "text": "venue",
+              "correct": true
+            },
+            {
+              "text": "heure",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_venir_arrival_time_fr_venue_venir_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "La saison des pluies est venue plus tôt cette année.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "come",
+              "correct": true
+            },
+            {
+              "text": "ended",
+              "correct": false
+            },
+            {
+              "text": "lasted",
+              "correct": false
+            },
+            {
+              "text": "disappeared",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,9 @@
+import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {loadPublication} from './micromegas-publication-baseline.mjs';
+const dir='content/sources/wrk_voltaire_micromegas',read=f=>JSON.parse(readFileSync(`${dir}/${f}`)),sha=x=>createHash('sha256').update(x).digest('hex'),b=loadPublication().bundle;
+const lemmas=['ami', 'leibnitzien', 'leibnizien', 'aiguille', 'montrer', 'carillonner', 'miroir', 'bordure', 'clair', 'partisan', 'auprès', 'avoir', 'penser', 'sens', 'immatériel', 'intelligent', 'communiquer', 'pensée', 'révérer', 'éternel', 'appartenir', 'borner', 'contenter', 'possible', 'embrasser', 'sectateur', 'extrême', 'disproportion', 'malheur', 'animalcule', 'bonnet', 'carré', 'savoir', 'secret', 'trouver', 'somme', 'saint', 'regarder', 'céleste', 'soutenir', 'personne', 'monde', 'soleil', 'uniquement', 'laisser', 'étouffer','rire', 'inextinguible', 'partage', 'dieu', 'épaule', 'ventre', 'aller', 'convulsion', 'vaisseau', 'ongle', 'tomber', 'poche'];
+const files=readdirSync(dir).filter(f=>/^chapter-0[1-6]-(identity-plan|((held-)?batch-\d\d))\.json$/.test(f)).concat(['chapter-07-batch-01.json','chapter-07-batch-02.json','chapter-07-batch-03.json','chapter-07-batch-04.json','chapter-07-batch-05.json','chapter-06-held-context-review-03.json']);
+const items=lemmas.map(lemma=>({lemma,publishedFrench:b.lemmas.filter(l=>l.headword.toLowerCase()===lemma&&!l.id.startsWith('lem_es_')).map(l=>({...l,senses:b.senses.filter(s=>s.lemmaId===l.id)})),earlierPlans:files.flatMap(file=>{const matches=read(file).items.filter(i=>i.lemma===lemma);return matches.length?[{file,fileSha256:sha(readFileSync(`${dir}/${file}`)),matches}]:[]})}));
+writeFileSync(`${dir}/chapter-07-lemma-search-06.json`,JSON.stringify({version:1,status:'global_and_earlier_lemma_inventory_individually_compared',items},null,2)+'\n');
+console.log(`${items.length} French lemma families captured; candidate evidence only.`);

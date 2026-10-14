@@ -1,0 +1,1172 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-01-batch-13.json",
+      "key": "haut_vertical_measure",
+      "beforeQuestionSha256": "ee0c22ba669f950b9c3d6998681be989eeac2ead85d020b4216360ff1fa2e2c4",
+      "after": {
+        "key": "haut_vertical_measure",
+        "form": "haut",
+        "lemma": "haut",
+        "partOfSpeech": "adjective used for vertical dimension",
+        "meaning": "high; tall (in a measure of height)",
+        "editorialNote": "Three chapter I de haut uses give vertical size. The later tout haut means aloud, while de haut en bas means from top to bottom and is held for a separate published identity.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 2,
+            "start": 24,
+            "end": 28,
+            "text": "haut"
+          },
+          {
+            "chapter": 1,
+            "unit": 24,
+            "start": 149,
+            "end": 153,
+            "text": "haut"
+          },
+          {
+            "chapter": 1,
+            "unit": 26,
+            "start": 153,
+            "end": 157,
+            "text": "haut"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il mesure huit lieues de haut.",
+            "question": "Meaning",
+            "answer": "height",
+            "choices": [
+              "height",
+              "width",
+              "weight",
+              "age"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans cette mesure ancienne, le ___ désigne la hauteur totale, et non une partie supérieure ou inférieure.",
+            "question": "Complétez la phrase.",
+            "answer": "haut",
+            "choices": [
+              "haut",
+              "bas",
+              "sommet",
+              "fond"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Dans huit lieues de haut, le haut est la hauteur mesurée. Le bas est une partie inférieure, le sommet une partie supérieure et le fond la partie la plus profonde.",
+            "question": "Quel nom désigne ici la dimension verticale ?",
+            "answer": "haut",
+            "choices": [
+              "haut",
+              "bas",
+              "sommet",
+              "fond"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "d6f9c9708ee8c5d3132ab04244d8b9c3fd12bcab415a832aaa01bd71c34b74bc",
+          "afterSha256": "bcde86f93aec4dcf5c81004ec114ee8140b4a9c3442876b58b7dc52b9709c7d6",
+          "reason": "The historical dimension is a noun, not the adjective tall."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "560605587f90bb30451005407616d6fec708d711c2422888476a5f66d56bb93a",
+          "afterSha256": "476d83e2f295989570c9ad0fe3c2a637ef3fc51aeb62d830b8c465448c3cea13",
+          "reason": "Four masculine singular nouns accept le; the stated dimension distinguishes height from top, bottom or lowest part."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "cff83ba21f69d29224e6f1f2aec193618f286747628ad768d941bb91516a344d",
+          "afterSha256": "9cd7409db76edff7ec5ad3c6e2ef1f05393eb9938245a9fb474dbb93cde9ddc5",
+          "reason": "Explain the noun meaning consistently across all bands."
+        }
+      ],
+      "afterQuestionSha256": "c9f2accbb88ff0c60f52c8bd91590be5189212ce219668c56674d4c1565e880d"
+    },
+    {
+      "file": "chapter-01-batch-24.json",
+      "key": "pas_historical_length",
+      "beforeQuestionSha256": "4f1e1ffdca4679186e647f74f3926d341b06e4af2d2f114297ab9a3820162fb7",
+      "after": {
+        "key": "pas_historical_length",
+        "form": "pas",
+        "lemma": "pas",
+        "partOfSpeech": "noun masculine plural in historic measure",
+        "meaning": "paces; historical units of length",
+        "editorialNote": "Pas géométriques are standardized five-foot units of length, not ordinary individual walking steps. The published noun quiz bands teach taking a step in motion; negative pas stays in separate reuse.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 2,
+            "start": 78,
+            "end": 81,
+            "text": "pas"
+          },
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 197,
+            "end": 200,
+            "text": "pas"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Vingt-quatre mille pas géométriques mesurent cette hauteur.",
+            "question": "Meaning",
+            "answer": "paces as length units",
+            "choices": [
+              "paces as length units",
+              "footsteps while walking",
+              "denials",
+              "pauses"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ce système ancien, les ___ géométriques valaient chacun cinq pieds.",
+            "question": "Complétez la phrase.",
+            "answer": "pas",
+            "choices": [
+              "pas",
+              "pieds",
+              "mètres",
+              "pouces"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le pas géométrique était une unité de longueur valant cinq pieds. Le pied, le mètre et le pouce sont d’autres unités de longueurs différentes.",
+            "question": "Quel nom désigne ici l’unité de cinq pieds ?",
+            "answer": "pas",
+            "choices": [
+              "pas",
+              "pied",
+              "mètre",
+              "pouce"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "fa29fd0ab929505ea95d37a7637a328a8428f5879e5fa1b946a212fc2fe72a49",
+          "afterSha256": "13a676c4f6a215afce25d495c30e689a538b8361f5051ce3f1f50d8ebc137d74",
+          "reason": "All four nouns are masculine plural, with the source plural surface; the five-foot measure selects pas."
+        }
+      ],
+      "afterQuestionSha256": "7ca353ad235fdc3a1b83dec0336db901a34869f472ec2e3897b4f2a8d84a2e6a"
+    },
+    {
+      "file": "chapter-01-batch-16.json",
+      "key": "depuis_afterward",
+      "beforeQuestionSha256": "f01cfbb2dda8c558f56a77ba5a94398b6b9316750b95cd88c4524d160a6cd585",
+      "after": {
+        "key": "depuis_afterward",
+        "form": "depuis",
+        "lemma": "depuis",
+        "partOfSpeech": "adverb in historical narrative",
+        "meaning": "later; subsequently",
+        "editorialNote": "Devint depuis marks what Pascal became afterward in the old narrative usage. The later depuis la tête jusqu’aux pieds marks spatial extent, so this is a contextual subset. The Académie française third edition records depuis used independently as a time adverb: https://www.dictionnaire-academie.fr/article/A3D0611 .",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 10,
+            "start": 127,
+            "end": 133,
+            "text": "depuis"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il devint depuis un géomètre médiocre.",
+            "question": "Meaning",
+            "answer": "subsequently",
+            "choices": [
+              "subsequently",
+              "beforehand",
+              "never",
+              "immediately"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ce récit ancien, il devint ___ géomètre, à une époque ultérieure dont la date précise est inconnue.",
+            "question": "Complétez la phrase.",
+            "answer": "depuis",
+            "choices": [
+              "depuis",
+              "auparavant",
+              "immédiatement",
+              "simultanément"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Dans ce récit ancien, depuis situe le changement à une époque ultérieure. Auparavant le situe avant, immédiatement sans délai et simultanément au même moment.",
+            "question": "Quel mot signifie ici à une époque ultérieure ?",
+            "answer": "depuis",
+            "choices": [
+              "depuis",
+              "auparavant",
+              "immédiatement",
+              "simultanément"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "e580b97e572ac7571c1e6880564c925d07a08378d8b5a3bd5a2b79032f96cc8e",
+          "afterSha256": "edc695fa451b62a7b625ad2e586bb1aad28c2142248507c4d8d4dea59c733c17",
+          "reason": "The later time is explicit without claiming immediate change; all four adverbs accept devint."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "3cbe301e8b862b2413d7bb93755bdeddabc43ca2c541389d8d722c2ce2e575d4",
+          "afterSha256": "8a699191a9aa8c72a59cca0a6bb73d8ea970cf7afc16142c04210776d731fb41",
+          "reason": "Distinguish later from before, immediate and simultaneous."
+        }
+      ],
+      "afterQuestionSha256": "2b743a6197583734fb481e0aff4367b4b5e6e20a6b436f7dceaf0dca4f9c3769"
+    },
+    {
+      "file": "chapter-01-batch-03.json",
+      "key": "etres_beings",
+      "beforeQuestionSha256": "a8cb2cb6681230f1fa3f8e755940e617e89a81c5185da7ff927f7dbae7426ba8",
+      "after": {
+        "key": "etres_beings",
+        "form": "êtres",
+        "lemma": "être",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "beings; entities",
+        "editorialNote": "Ten substantival uses denote beings broadly, especially living or thinking beings; the sense is not the finite verb être. Do not conflate the noun with other surface and grammar forms.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 6,
+            "start": 257,
+            "end": 262,
+            "text": "êtres"
+          },
+          {
+            "chapter": 2,
+            "unit": 34,
+            "start": 247,
+            "end": 252,
+            "text": "êtres"
+          },
+          {
+            "chapter": 2,
+            "unit": 49,
+            "start": 21,
+            "end": 26,
+            "text": "êtres"
+          },
+          {
+            "chapter": 2,
+            "unit": 58,
+            "start": 86,
+            "end": 91,
+            "text": "êtres"
+          },
+          {
+            "chapter": 2,
+            "unit": 58,
+            "start": 117,
+            "end": 122,
+            "text": "êtres"
+          },
+          {
+            "chapter": 2,
+            "unit": 58,
+            "start": 163,
+            "end": 168,
+            "text": "êtres"
+          },
+          {
+            "chapter": 4,
+            "unit": 91,
+            "start": 131,
+            "end": 136,
+            "text": "êtres"
+          },
+          {
+            "chapter": 6,
+            "unit": 134,
+            "start": 161,
+            "end": 166,
+            "text": "êtres"
+          },
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 192,
+            "end": 197,
+            "text": "êtres"
+          },
+          {
+            "chapter": 6,
+            "unit": 165,
+            "start": 92,
+            "end": 97,
+            "text": "êtres"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Dans ce conte, d’autres êtres vivent sur les étoiles.",
+            "question": "Meaning",
+            "answer": "beings",
+            "choices": [
+              "beings",
+              "buildings",
+              "numbers",
+              "machines"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces ___ vivants et intelligents pensent et communiquent, même s’ils sont minuscules.",
+            "question": "Complétez la phrase.",
+            "answer": "êtres",
+            "choices": [
+              "êtres",
+              "objets",
+              "cailloux",
+              "meubles"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les êtres sont les entités qui existent, matérielles ou pensées ; ce terme inclut notamment les créatures vivantes. Les objets sont des choses matérielles, les cailloux des pierres et les meubles des éléments du mobilier.",
+            "question": "Quel nom général comprend aussi les entités pensées ?",
+            "answer": "êtres",
+            "choices": [
+              "êtres",
+              "objets",
+              "cailloux",
+              "meubles"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "6-8",
+          "beforeSha256": "ae440bed39d86a38f0ed1f36a5b7d92e8b88c67fd177fd5c85c06b1a98083ddc",
+          "afterSha256": "809a57649b057964e16263991663e2297fa17976c61748246d8566b1a7a5dabf",
+          "reason": "The shared noun meaning covers the philosophical entities of unit58, not living creatures alone."
+        }
+      ],
+      "afterQuestionSha256": "654b0342f973cbd297fc02760f5647e03668470637908b1505eaad85d4095f54"
+    },
+    {
+      "file": "chapter-01-batch-22.json",
+      "key": "etre_living_being",
+      "beforeQuestionSha256": "ab234f7bb490ce1a871f6765073f5cf56b939bed7e0b3b5acc28e2f68883b5bb",
+      "after": {
+        "key": "etre_living_being",
+        "form": "être",
+        "lemma": "être",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "being; living creature",
+        "editorialNote": "Un être pensant and un être aussi imperceptible refer to individual beings. Infinitive être and Être éternel in the sense of God remain outside this contextual subset.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 26,
+            "start": 69,
+            "end": 73,
+            "text": "être"
+          },
+          {
+            "chapter": 5,
+            "unit": 121,
+            "start": 103,
+            "end": 107,
+            "text": "être"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Cet être est capable de penser.",
+            "question": "Meaning",
+            "answer": "being",
+            "choices": [
+              "being",
+              "stone",
+              "sentence",
+              "number"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette créature est capable de penser : un ___ pensant.",
+            "question": "Complétez la phrase.",
+            "answer": "être",
+            "choices": [
+              "être",
+              "caillou",
+              "calcul",
+              "livre"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Cet être pensant est une créature capable de pensée. Le caillou est une pierre, un calcul est une opération et un livre est un ouvrage.",
+            "question": "Quel nom désigne cette créature ?",
+            "answer": "être",
+            "choices": [
+              "être",
+              "caillou",
+              "calcul",
+              "livre"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "991c5155a739ceece8bfe5cd1f11e555d9298d6a67399602036f1626ef436b03",
+          "afterSha256": "006b5ce31751ac1a5e35da07d2920c15336624fab8d853a0706bcb9aab53d8b6",
+          "reason": "One unambiguous noun target replaces a sentence containing both noun être and verb être."
+        }
+      ],
+      "afterQuestionSha256": "468f5c362a3f005cd218a22673e6037bb9fb572ab9f4f2c08510603fe2a14448"
+    },
+    {
+      "file": "chapter-01-batch-07.json",
+      "key": "poursuivit_prosecuted",
+      "beforeQuestionSha256": "e842f5b5b69576a6d6808e0ec31b5c7d310bba9cf8b06a781e7a8fe440df0270",
+      "after": {
+        "key": "poursuivit_prosecuted",
+        "form": "poursuivit",
+        "lemma": "poursuivre",
+        "partOfSpeech": "verb past historic third singular",
+        "meaning": "prosecuted; pursued legal action against",
+        "editorialNote": "The mufti actively pursued a case against the author for alleged heresy; not simply followed him in space.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 12,
+            "start": 171,
+            "end": 181,
+            "text": "poursuivit"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le censeur poursuivit le savant devant le tribunal.",
+            "question": "Meaning",
+            "answer": "prosecuted",
+            "choices": [
+              "prosecuted",
+              "congratulated",
+              "guided",
+              "ignored"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le censeur engagea une action judiciaire contre l’auteur : il le ___ devant le tribunal.",
+            "question": "Complétez la phrase.",
+            "answer": "poursuivit",
+            "choices": [
+              "poursuivit",
+              "félicita",
+              "invita",
+              "oublia"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le censeur poursuivit l’auteur devant le tribunal. Un ami le félicita, un autre l’invita chez lui, et le secrétaire oublia son nom.",
+            "question": "Quel verbe décrit l’action judiciaire du censeur ?",
+            "answer": "poursuivit",
+            "choices": [
+              "poursuivit",
+              "félicita",
+              "invita",
+              "oublia"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "8da631787ce1b61cff6634aa2962006a8d0b344840dfd42839e74af9201661a4",
+          "afterSha256": "73a750d0ca1eb4c5ea0e599a2a33d1048eea358435706ceb2f12a9fd5c962f35",
+          "reason": "Make prosecution explicit; attendance at court alone did not distinguish inviting from prosecuting."
+        }
+      ],
+      "afterQuestionSha256": "b620727969989e711c8a1a92bc3d7182b7995ab16a5c755c6630e61f78db13d7"
+    },
+    {
+      "file": "chapter-01-batch-13.json",
+      "key": "forme_substantial_scholastic",
+      "beforeQuestionSha256": "e966608c70a20521b5c8c0b5d7fc334d787e9ab02071c525ed4ad1641413ab37",
+      "after": {
+        "key": "forme_substantial_scholastic",
+        "form": "forme",
+        "lemma": "forme",
+        "partOfSpeech": "noun feminine singular in philosophical doctrine",
+        "meaning": "substantial form; supposed inner principle of a being",
+        "editorialNote": "Forme substantielle names a disputed scholastic principle thought to determine the nature of fleas. The existing surface’s outward shape sense is unsuitable; five later forme uses concern outward shape or changed bodily form.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 12,
+            "start": 223,
+            "end": 228,
+            "text": "forme"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils disputent de la forme substantielle des puces.",
+            "question": "Meaning",
+            "answer": "supposed inner nature in scholastic philosophy",
+            "choices": [
+              "supposed inner nature in scholastic philosophy",
+              "outer silhouette",
+              "court procedure",
+              "printed page"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans la doctrine scolastique, le principe qui détermine ce qu’est un être, appelé ___ substantielle, est discuté.",
+            "question": "Complétez la phrase.",
+            "answer": "forme",
+            "choices": [
+              "forme",
+              "matière",
+              "couleur",
+              "taille"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La forme substantielle était un principe philosophique censé définir ce qu’est un être. Sa matière est ce dont il est fait, sa couleur ce qu’on voit et sa taille sa hauteur.",
+            "question": "Quel nom introduit le principe discuté par les scolastiques ?",
+            "answer": "forme",
+            "choices": [
+              "forme",
+              "matière",
+              "couleur",
+              "taille"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "12bbe51e95558b863b0617bfeaf0b06362c81a1fb603ffff72fe140e9b3c1b10",
+          "afterSha256": "60bea09d3c56a168ba3e9cb38b2ee936b0c0a285a03f1404b14905d4b28114be",
+          "reason": "Specify the defining philosophical principle rather than a topic that could also be substantial matter."
+        }
+      ],
+      "afterQuestionSha256": "0940a30812a31d0801651b470d4592ca8d32d943317bc98dfe3f65961449ac5e"
+    },
+    {
+      "file": "chapter-01-batch-16.json",
+      "key": "annees_years",
+      "beforeQuestionSha256": "8739b8935279d927a92aeeede7724356999509aebc14bd64abf20b9c8b5350c9",
+      "after": {
+        "key": "annees_years",
+        "form": "années",
+        "lemma": "année",
+        "partOfSpeech": "noun feminine plural",
+        "meaning": "years",
+        "editorialNote": "Eight hundred years is the satirically long period of exile from court, not a measure of distance.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 14,
+            "start": 148,
+            "end": 154,
+            "text": "années"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il ne reviendra pas avant huit cents années.",
+            "question": "Meaning",
+            "answer": "years",
+            "choices": [
+              "years",
+              "days",
+              "hours",
+              "leagues"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ce récit, l’exil dure huit cents ___, c’est-à-dire huit cents périodes de douze mois.",
+            "question": "Complétez la phrase.",
+            "answer": "années",
+            "choices": [
+              "années",
+              "journées",
+              "heures",
+              "minutes"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les années mesurent de longues périodes de douze mois. Les journées durent chacune un jour, les heures soixante minutes et les minutes soixante secondes.",
+            "question": "Quel nom désigne ces longues périodes de douze mois ?",
+            "answer": "années",
+            "choices": [
+              "années",
+              "journées",
+              "heures",
+              "minutes"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "4e56aa4e4e086ce5ae38c3a55cf653a5e41cfb3d9a9f450d271f7d367cfcca6a",
+          "afterSha256": "71d789ae1cb19bd39f05629c9b9384b36786f937c6413ce6414a55eed5c90b94",
+          "reason": "Length greater than days also allowed hours and minutes; twelve-month periods select the noun."
+        }
+      ],
+      "afterQuestionSha256": "743ebf1a7aad95028d594fc4339bafe2ba494e77fa14bf72c9cf115a99ea3118"
+    },
+    {
+      "file": "chapter-01-batch-07.json",
+      "key": "afflige_distressed",
+      "beforeQuestionSha256": "d5a4498afdb85fd149dd19ec3bd92cc5482eb8fd25ccba652457af15391571bc",
+      "after": {
+        "key": "afflige_distressed",
+        "form": "affligé",
+        "lemma": "affliger",
+        "partOfSpeech": "past participle masculine singular",
+        "meaning": "distressed; saddened",
+        "editorialNote": "He was only slightly troubled by exile from a petty court; médiocrement modifies the degree of distress, not the fact of banishment.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 15,
+            "start": 27,
+            "end": 34,
+            "text": "affligé"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Après cette mauvaise nouvelle, il se sentit affligé.",
+            "question": "Meaning",
+            "answer": "distressed",
+            "choices": [
+              "distressed",
+              "delighted",
+              "rested",
+              "amused"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’exil lui causait de la peine : il en était ___, sans être profondément triste.",
+            "question": "Complétez la phrase.",
+            "answer": "affligé",
+            "choices": [
+              "affligé",
+              "réjoui",
+              "amusé",
+              "rassuré"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il était médiocrement affligé par son exil : sa peine était légère. Son frère, au contraire, était réjoui ; leur ami était amusé et le témoin rassuré.",
+            "question": "Quel mot décrit sa peine légère ?",
+            "answer": "affligé",
+            "choices": [
+              "affligé",
+              "réjoui",
+              "amusé",
+              "rassuré"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "79b75245b42ca395e50319b88f0346e82e0588fec38180995da24e4d52c0f4c3",
+          "afterSha256": "d0d0dbffffd4be1425cd6039c4946a7619d15d0faf14202eb0959e88f10ae0c8",
+          "reason": "Make sadness explicit; the old sentence allowed delighted, amused or reassured."
+        }
+      ],
+      "afterQuestionSha256": "531188c337f6d833dd415a83075ba7ab45cec1214615ed005e42ee20d4f78732"
+    },
+    {
+      "file": "chapter-01-batch-12.json",
+      "key": "tantot_alternation",
+      "beforeQuestionSha256": "f0f284b144222c51a68a7503b6efd4f61b13b96d35f2fc15a8a89d236c67861f",
+      "after": {
+        "key": "tantot_alternation",
+        "form": "tantôt",
+        "lemma": "tantôt",
+        "partOfSpeech": "adverb",
+        "meaning": "at one moment; then, alternating",
+        "editorialNote": "Tantôt ... tantôt contrasts riding a ray of sunlight with traveling by comet; not a future adverb meaning soon.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 19,
+            "start": 33,
+            "end": 39,
+            "text": "tantôt"
+          },
+          {
+            "chapter": 1,
+            "unit": 19,
+            "start": 71,
+            "end": 77,
+            "text": "tantôt"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il utilise tantôt un rayon et, à d’autres moments, une comète.",
+            "question": "Meaning",
+            "answer": "at one moment; then",
+            "choices": [
+              "at one moment; then",
+              "always",
+              "never",
+              "only once"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il alterne entre deux moyens de transport : tantôt il utilise la lumière, ___ il prend une comète.",
+            "question": "Complétez la phrase.",
+            "answer": "tantôt",
+            "choices": [
+              "tantôt",
+              "toujours",
+              "jamais",
+              "seulement"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Avec tantôt un rayon, tantôt une comète, on indique une alternance. L’adverbe toujours ne change pas, jamais nie l’action et seulement la limite.",
+            "question": "Quel adverbe exprime une alternance ?",
+            "answer": "tantôt",
+            "choices": [
+              "tantôt",
+              "toujours",
+              "jamais",
+              "seulement"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "960dee410804d308e13942ba92b646ec1dc2ea5524e7f994818b26b47c1b362e",
+          "afterSha256": "d49a17780546d4dbf743c848c4c005048f2eb48d53255978fc2318c05df89e9f",
+          "reason": "The synthetic early context has one explicit highlighted target while keeping the alternation meaning."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "635e1dee4ea038b191ef2c39a449c12c054b0aebc13037ce3b25b67aff5e8713",
+          "afterSha256": "4990cfad22b5afcd00b5debdaf4e41dd262a2eb99a8b4c3ef47521da777f3851",
+          "reason": "Alternation selects the second tantôt by meaning."
+        }
+      ],
+      "afterQuestionSha256": "c566224f393649a7baac885ddf0d8daa570851923bc9c7eb670b9b45c734a484"
+    },
+    {
+      "file": "chapter-01-batch-21.json",
+      "key": "enfin_after_all",
+      "beforeQuestionSha256": "4e817192939b6dd8242a5bcec36a499c47caa66c4f1b85d51ee3ec3d0c456a64",
+      "after": {
+        "key": "enfin_after_all",
+        "form": "enfin",
+        "lemma": "enfin",
+        "partOfSpeech": "discourse adverb",
+        "meaning": "after all; when all is said",
+        "editorialNote": "Car enfin Saturne… introduces justification, not a chronological ending. Historical examples of Car enfin in Académie: https://www.dictionnaire-academie.fr/article/A3E0600",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 24,
+            "start": 4,
+            "end": 9,
+            "text": "enfin"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Car enfin Saturne est bien plus grand que la Terre.",
+            "question": "Meaning",
+            "answer": "after all",
+            "choices": [
+              "after all",
+              "at the end of time",
+              "immediately",
+              "never"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il fait valoir pour finir une raison décisive : car ___ Saturne est beaucoup plus grand.",
+            "question": "Complétez la phrase.",
+            "answer": "enfin",
+            "choices": [
+              "enfin",
+              "probablement",
+              "apparemment",
+              "prétendument"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La formule car enfin introduit ici une raison que l’on finit par faire valoir. La formule car d’abord annoncerait un premier point, aussitôt une action immédiate et jamais une négation dans le temps.",
+            "question": "Quel adverbe appuie cette justification ?",
+            "answer": "enfin",
+            "choices": [
+              "enfin",
+              "d’abord",
+              "aussitôt",
+              "jamais"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "7dc2c4041ad49ea97699e4763512c6e138ebb4acfd37be7180f62cd209948147",
+          "afterSha256": "25552673584261e986d97d6a6ab23bef6ea69218318fcdcd62a5cd91786ccc61",
+          "reason": "Four adverbs fit the sentence; the final insistence distinguishes enfin from uncertainty and reported appearance."
+        }
+      ],
+      "afterQuestionSha256": "3200ef3315eedf800a9f73d0b096d701492da17a41fe5d75b5559ff297bdb06c"
+    },
+    {
+      "file": "chapter-01-batch-20.json",
+      "key": "environ_approximately",
+      "beforeQuestionSha256": "cc556d7666d8e7054be55e0c845ff44ac471ad579c13ffe8950bdc82bd103959",
+      "after": {
+        "key": "environ_approximately",
+        "form": "environ",
+        "lemma": "environ",
+        "partOfSpeech": "adverb",
+        "meaning": "approximately; about",
+        "editorialNote": "After a measure or near a number, environ marks approximation; the workwide exact-form occurrences share this degree-of-precision sense.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 24,
+            "start": 157,
+            "end": 164,
+            "text": "environ"
+          },
+          {
+            "chapter": 2,
+            "unit": 40,
+            "start": 36,
+            "end": 43,
+            "text": "environ"
+          },
+          {
+            "chapter": 3,
+            "unit": 69,
+            "start": 22,
+            "end": 29,
+            "text": "environ"
+          },
+          {
+            "chapter": 3,
+            "unit": 74,
+            "start": 52,
+            "end": 59,
+            "text": "environ"
+          },
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 54,
+            "end": 61,
+            "text": "environ"
+          },
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 208,
+            "end": 215,
+            "text": "environ"
+          },
+          {
+            "chapter": 5,
+            "unit": 122,
+            "start": 181,
+            "end": 188,
+            "text": "environ"
+          },
+          {
+            "chapter": 7,
+            "unit": 189,
+            "start": 61,
+            "end": 68,
+            "text": "environ"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils ont mille toises de haut ou environ.",
+            "question": "Meaning",
+            "answer": "approximately",
+            "choices": [
+              "approximately",
+              "exactly",
+              "never",
+              "twice"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Leur taille est estimée sans précision : ils mesurent ___ mille toises.",
+            "question": "Complétez la phrase.",
+            "answer": "environ",
+            "choices": [
+              "environ",
+              "exactement",
+              "précisément",
+              "strictement"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’adverbe environ rend la quantité approximative. L’adverbe exactement la fixe sans écart, précisément insiste sur sa justesse et strictement exclut tout dépassement.",
+            "question": "Quel adverbe marque une estimation ?",
+            "answer": "environ",
+            "choices": [
+              "environ",
+              "exactement",
+              "précisément",
+              "strictement"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "31f90223259f3259c83aabf9ccde8f39437162600c6266136b95d16544d70510",
+          "afterSha256": "ec21ca397399d642f7fd79b869ff18b484f0b36575e37e6b03818516cba2e7ea",
+          "reason": "Remove the fixed ou environ grammar frame; all four adverbs fit before the quantity."
+        }
+      ],
+      "afterQuestionSha256": "51d0eb5d699a126166befba33ee64210bdccf91f7a99a11e1b1cefbd3c7cca58"
+    },
+    {
+      "file": "chapter-01-batch-22.json",
+      "key": "familiarisa_became_familiar",
+      "beforeQuestionSha256": "15b41d833e967724a34e5a3f833c7487b9b047667e2d16b8f93694a2f4155873",
+      "after": {
+        "key": "familiarisa_became_familiar",
+        "form": "familiarisa",
+        "lemma": "familiariser",
+        "partOfSpeech": "past historic reflexive third singular",
+        "meaning": "became familiar; grew at ease with",
+        "editorialNote": "He became acquainted with the Saturnians after astonishing them.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 27,
+            "start": 6,
+            "end": 17,
+            "text": "familiarisa"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il se familiarisa avec les Saturniens.",
+            "question": "Meaning",
+            "answer": "became acquainted",
+            "choices": [
+              "became acquainted",
+              "fought",
+              "fled",
+              "forgot"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces personnes lui étaient inconnues ; il apprit peu à peu à les connaître et se ___ avec elles.",
+            "question": "Complétez la phrase.",
+            "answer": "familiarisa",
+            "choices": [
+              "familiarisa",
+              "disputa",
+              "battit",
+              "fâcha"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il se familiarisa avec eux en apprenant à les connaître. Il se disputa avec eux s’il se querella, se battit avec eux s’il combattit et se sépara d’eux s’il les quitta.",
+            "question": "Quel verbe exprime le rapprochement ?",
+            "answer": "familiarisa",
+            "choices": [
+              "familiarisa",
+              "disputa",
+              "battit",
+              "sépara"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d08a1011b82fc371a44251f7050c53b2339f61824fd77d9d2ded103c462d117d",
+          "afterSha256": "c8221629bf61520cbd869e0a499bb80a6533255b47df17a06d6411ceed4baaff",
+          "reason": "Se séparer requires de; four past pronominal verbs now accept avec, with acquaintance selected by meaning."
+        }
+      ],
+      "afterQuestionSha256": "47a4c05f6df3fb74d545e2b994c6cfe6cbdfe7eeb608c1b5ddeaee640ad0babc"
+    },
+    {
+      "file": "chapter-01-batch-23.json",
+      "key": "passablement_appreciable_quantity",
+      "beforeQuestionSha256": "9c38dd090361b88e59f07f7665bacd20908616a49a9e045a9191668f7c9c4bc9",
+      "after": {
+        "key": "passablement_appreciable_quantity",
+        "form": "passablement",
+        "lemma": "passablement",
+        "partOfSpeech": "quantity adverb in passablement de",
+        "meaning": "quite a few; an appreciable amount of",
+        "editorialNote": "Passablement de petits vers et de grands calculs counts productions, rather than judging their quality. The de + noun construction is a quantity use: https://www.dictionnaire-academie.fr/article/A9P0816 and https://www.cnrtl.fr/definition/passablement",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 28,
+            "start": 215,
+            "end": 227,
+            "text": "passablement"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il faisait passablement de petits vers.",
+            "question": "Meaning",
+            "answer": "quite a few",
+            "choices": [
+              "quite a few",
+              "very few",
+              "none",
+              "exactly one"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Sans objectif précis à atteindre, il composa une quantité moyenne et appréciable, mais pas immense : il fit ___ de petits vers.",
+            "question": "Complétez la phrase.",
+            "answer": "passablement",
+            "choices": [
+              "passablement",
+              "peu",
+              "énormément",
+              "trop"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il faisait passablement de petits vers : il en composait un nombre appréciable. Il en faisait peu si le nombre était faible, énormément s’il était immense et suffisamment si cela répondait à un besoin précis.",
+            "question": "Quel adverbe désigne cette quantité appréciable ?",
+            "answer": "passablement",
+            "choices": [
+              "passablement",
+              "peu",
+              "énormément",
+              "suffisamment"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "125fd1be0042d856811c773fd2b08f678231a787b97b637e94309d018d122556",
+          "afterSha256": "dd5ca2ebbd22ca07880cefff9a3cc5f0200819f32fdcb3ae13521fb45fa367da",
+          "reason": "Remove sufficiently, which could equally fit an appreciable amount without a stated goal."
+        }
+      ],
+      "afterQuestionSha256": "b53810a75a7c9091c4bb4a7161c908fe96dad5185ac4be5b4ad5150d6d3ea049"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 14,
+    "refinedQuestionBands": 18
+  },
+  "policy": "Named exact-revision changes only. Preserve all source banks, old mastery and publication records."
+}

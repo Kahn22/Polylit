@@ -1,5 +1,6 @@
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
 import { appBundle, appExpressionCatalog, appPreparedQuizzes } from "../src/app/content.js";
+import { encodeLibrary } from "../src/delivery/library-wire.js";
 import { createCompactPackages } from "../src/delivery/compact-packages.js";
 
 let indexes: ReturnType<typeof createCompactPackages>["libraryIndexes"];
@@ -14,7 +15,7 @@ afterEach(() => vi.unstubAllGlobals());
 // Minimal DOM ports for executing the real entry module, not a mock of startup.
 // Browser navigation and layout still require separate browser QA.
 function environment(language: "fr" | "es", embedded: boolean, signedIn = true) {
-  const index = indexes[language];
+  const index = encodeLibrary(indexes[language]);
   const app = {
     innerHTML: "",
     insertAdjacentHTML: vi.fn(),
@@ -84,16 +85,17 @@ describe("application entry startup", () => {
       expect(destination.app.innerHTML.match(/<article class="text-card/g)).toHaveLength(indexes[language].catalog.works.length);
     });
 
-    for (const embedded of [false, true]) {
-      it(`opens the ${language} library with ${embedded ? "embedded" : "fetched"} content`, async () => {
-        const { app, local, runtime, fetcher } = environment(language, embedded);
+    for (const embedded of [false, true]) for (const suffix of ["", "index.html"]) {
+      it(`opens the ${language} library with ${embedded ? "embedded" : "fetched"} content at ${suffix || "directory"}`, async () => {
+        const { app, local, runtime, fetcher, location } = environment(language, embedded);
+        location.pathname += suffix;
         // This import must execute all top-level initializers without a TDZ error.
         await import("../src/app/main.js");
         await vi.waitFor(() => expect(app.innerHTML).toContain(`Your ${language === "fr" ? "french" : "spanish"} library`));
         expect(runtime.__polylitAppReady).toBe(true);
         expect(app.innerHTML).not.toContain("Opening your library");
         expect(app.innerHTML).not.toContain("Preparing your books, vocabulary, and quizzes");
-        expect(app.innerHTML).toContain('<a class="language-switch" href="/languages/" target="_self">Choose language</a>');
+        expect(app.innerHTML).toContain('<a class="language-switch" href="/languages/" target="_self" data-action="leave-for-languages">Choose language</a>');
         expect(app.innerHTML).not.toContain(`href="/${language === "fr" ? "es" : "fr"}/library/"`);
         expect(app.innerHTML.match(/<article class="text-card/g)).toHaveLength(indexes[language].catalog.works.length);
         for (const work of indexes[language === "fr" ? "es" : "fr"].catalog.works) {

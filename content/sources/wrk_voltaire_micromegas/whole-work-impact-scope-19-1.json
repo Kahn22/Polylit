@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:24:42.546Z",
+  "sense": {
+    "id": "sns_parure_reprendre_prendre_de_nouveau_002348fae7",
+    "lemmaId": "lem_parure_reprendre_verb_cbc44546b1",
+    "gloss": "to take back; buy back",
+    "definition": "Accepter le retour d’un objet ou l’acquérir de nouveau, notamment selon une condition de rachat."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 6,
+    "affectedQuizIds": [
+      "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_advanced",
+      "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_early",
+      "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_intermediate",
+      "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_early",
+      "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_intermediate",
+      "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_advanced",
+      "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_early",
+      "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_intermediate",
+      "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_reprendrait_lem_parure_reprendre_verb_cbc44546b1_66158d4acb:sns_parure_reprendre_prendre_de_nouveau_002348fae7",
+      "surface": "reprendrait",
+      "lemma": "reprendre",
+      "currentRevision": "rev_cc1a080f1196a60e5dafcd9b47b29e2ae4a4fdf4d9e4b2c59c9e544ea1b35e17",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_60b9fb5fc5a37dc341edf4d2",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_096",
+          "passage": "Ils prièrent donc le joaillier de ne pas le vendre avant trois jours. Et ils firent condition qu’on le reprendrait pour trente-quatre mille francs, si le premier était retrouvé avant la fin de février.",
+          "span": [
+            103,
+            114
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Si le livre ne convenait pas, la libraire le reprendrait et rembourserait le client.",
+          "prompt": "Quel mot signifie accepterait de nouveau l’objet ?",
+          "choices": [
+            {
+              "text": "livre",
+              "correct": false
+            },
+            {
+              "text": "libraire",
+              "correct": false
+            },
+            {
+              "text": "client",
+              "correct": false
+            },
+            {
+              "text": "reprendrait",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le magasin reprendrait l’appareil défectueux si nous présentions le reçu.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "would advertise",
+              "correct": false
+            },
+            {
+              "text": "would take back",
+              "correct": true
+            },
+            {
+              "text": "would discard",
+              "correct": false
+            },
+            {
+              "text": "would manufacture",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_reprendrait_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c5a126622c_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le vendeur a dit qu’il _____ l’article en cas de défaut.",
+          "choices": [
+            {
+              "text": "reprendre",
+              "correct": false
+            },
+            {
+              "text": "repris",
+              "correct": false
+            },
+            {
+              "text": "reprendrait",
+              "correct": true
+            },
+            {
+              "text": "reprendraient",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": [
+    {
+      "id": "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_early",
+      "surfaceFormId": "srf_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816",
+      "band": "levels_1_3",
+      "context": "Le professeur emploie « reprendroient » pour exprimer cette idée : Prendre de nouveau..",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "to take back, recover, regain",
+          "correct": true
+        },
+        {
+          "text": "to walk",
+          "correct": false
+        },
+        {
+          "text": "to close",
+          "correct": false
+        },
+        {
+          "text": "to wait",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_intermediate",
+      "surfaceFormId": "srf_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e",
+      "band": "levels_4_5",
+      "context": "Le terme précis pour exprimer « Prendre de nouveau. » est _____.",
+      "choices": [
+        {
+          "text": "reprit",
+          "correct": true
+        },
+        {
+          "text": "marcher",
+          "correct": false
+        },
+        {
+          "text": "fermer",
+          "correct": false
+        },
+        {
+          "text": "attendre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_advanced",
+      "surfaceFormId": "srf_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e",
+      "band": "levels_6_8",
+      "context": "Dans cette situation, le mot « reprit » exprime précisément ceci : Prendre de nouveau.. Paul compare marcher, Léa note fermer et Marc choisit attendre.",
+      "prompt": "Quel mot du contexte signifie « Prendre de nouveau. » ?",
+      "choices": [
+        {
+          "text": "reprit",
+          "correct": true
+        },
+        {
+          "text": "marcher",
+          "correct": false
+        },
+        {
+          "text": "fermer",
+          "correct": false
+        },
+        {
+          "text": "attendre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_parure_reprit_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c9b401ba99_early",
+      "surfaceFormId": "srf_parure_reprit_lem_parure_reprendre_verb_cbc44546b1_fb5e6b751e",
+      "band": "levels_1_3",
+      "context": "Le professeur emploie « reprit » pour exprimer cette idée : Prendre de nouveau..",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "to take back, recover, regain",
+          "correct": true
+        },
+        {
+          "text": "to walk",
+          "correct": false
+        },
+        {
+          "text": "to close",
+          "correct": false
+        },
+        {
+          "text": "to wait",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_intermediate",
+      "surfaceFormId": "srf_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816",
+      "band": "levels_4_5",
+      "context": "Le terme précis pour exprimer « Prendre de nouveau. » est _____.",
+      "choices": [
+        {
+          "text": "reprendroient",
+          "correct": true
+        },
+        {
+          "text": "marcher",
+          "correct": false
+        },
+        {
+          "text": "fermer",
+          "correct": false
+        },
+        {
+          "text": "attendre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_cendrillon_reprendroient_sns_parure_reprendre_prendre_de_nouveau_002348fae7_c0c8d072c1_advanced",
+      "surfaceFormId": "srf_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816",
+      "band": "levels_6_8",
+      "context": "Dans cette situation, le mot « reprendroient » exprime précisément ceci : Prendre de nouveau.. Paul compare marcher, Léa note fermer et Marc choisit attendre.",
+      "prompt": "Quel mot du contexte signifie « Prendre de nouveau. » ?",
+      "choices": [
+        {
+          "text": "reprendroient",
+          "correct": true
+        },
+        {
+          "text": "marcher",
+          "correct": false
+        },
+        {
+          "text": "fermer",
+          "correct": false
+        },
+        {
+          "text": "attendre",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

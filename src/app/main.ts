@@ -5,7 +5,7 @@ import { bundle, contentIndex, contentLoader, expressionCatalog, initializeAppSh
 import { libraryMarkup } from "../presentation/library.js";
 import { ProgressIndex } from "./progress-index.js";
 import { observeVisibleReadingUnits } from "./reading-visibility.js";
-import { sitePath } from "./paths.js";
+import { sitePath, languageFromPath, isLanguageChoicePath } from "./paths.js";
 import { ContentRequestError } from "./content-loader.js";
 import { parseRoute, routeHash, type AppRoute } from "./routes.js";
 import { clampMastery, isQuizEligibleLibraryStatus, libraryStatusFor, orderedChoices, parseReadingLibraryState, shouldUnderlineVocabulary, vocabularyKey, withLibraryStatus, type LibraryStatus, type ReadingLibraryState } from "./state.js";
@@ -45,7 +45,7 @@ const previewRequested = new URLSearchParams(location.search).get("preview") ===
 let demoSignedIn = readDemoSession() || previewRequested;
 let currentRoute: AppRoute = routeFromLocation();
 let selectedOccurrence: Occurrence | undefined;
-let selectedExpressionId: string | undefined;
+let selectedExpressionKey: string | undefined;
 let selectedAnswer: string | undefined;
 let activeQuiz: QuizItem | ExpressionQuiz | undefined;
 let reviewLabel = "";
@@ -58,15 +58,19 @@ let reviewSessionIndex = 0;
 let reviewScopeWorkId: string | undefined;
 let reviewReturnRoute: AppRoute = { name: "library" };
 let sectionReviewAdvances = false;
+let sectionExit: (() => void) | undefined;
+let sectionExitLabel = "";
 let readerSectionIndex = 0;
 let bookPageIndex = 0;
 let currentSection: Awaited<ReturnType<typeof loadReadingSection>> | undefined;
 let encounterObserver: { disconnect(): void } | undefined;
 let readingRenderRevision = 0;
 let sheetScrollPosition = 0;
+let sheetTrigger: HTMLElement | null = null;
 
 function lockPageScroll() {
   if (document.body.classList.contains("sheet-open")) return;
+  sheetTrigger = document.activeElement as HTMLElement | null;
   sheetScrollPosition = window.scrollY;
   document.body.style.top = `-${sheetScrollPosition}px`;
   document.body.classList.add("sheet-open");
@@ -94,14 +98,9 @@ function loadActiveLanguage(): StudyLanguage {
   try { return localStorage.getItem(languageStorageKey) === "es" ? "es" : "fr"; } catch { return "fr"; }
 }
 
-function languageFromPath(pathname = location.pathname): StudyLanguage | undefined {
-  const match = pathname.match(/\/(fr|es)\/library\/?$/);
-  return match?.[1] === "fr" || match?.[1] === "es" ? match[1] : undefined;
-}
-
 function routeFromLocation(): AppRoute {
   if (location.hash.startsWith("#/") && location.hash !== "#/") return parseRoute(location.hash);
-  if (/\/languages\/?$/.test(location.pathname)) return { name: "languages" };
+  if (isLanguageChoicePath()) return { name: "languages" };
   if (languageFromPath()) return { name: "library" };
   return { name: "home" };
 }
@@ -135,15 +134,26 @@ function loadReadingLibraryState(language: StudyLanguage): ReadingLibraryState {
   return parseReadingLibraryState(parsedJson(readingStorageKey(language)));
 }
 
-function loadBookPositions(): Record<string, number> {
-  const value = parsedJson(bookStorageKey(activeLanguage));
+function loadPositions(key: string): Record<string, number> {
+  const value = parsedJson(key);
   if (!value || typeof value !== "object" || Array.isArray(value)) return {};
   return Object.fromEntries(Object.entries(value).filter((entry): entry is [string, number] => typeof entry[1] === "number" && Number.isSafeInteger(entry[1]) && entry[1] >= 0));
 }
 
-function saveBookPosition(workId: string, pageIndex: number) {
-  try { localStorage.setItem(bookStorageKey(activeLanguage), JSON.stringify({ ...loadBookPositions(), [workId]: pageIndex })); } catch { /* Reading position is a local convenience. */ }
+const learningPositionKey = () => `polylit:${activeLanguage}:learning-position:v1`;
+const loadBookPositions = () => loadPositions(bookStorageKey(activeLanguage));
+function savePosition(key: string, workId: string, position: number) {
+  try { localStorage.setItem(key, JSON.stringify({ ...loadPositions(key), [workId]: position })); } catch { /* Position is a local convenience. */ }
 }
+function saveBookPosition(workId: string, pageIndex: number) {
+  savePosition(bookStorageKey(activeLanguage), workId, pageIndex);
+}
+function recordPosition(route: AppRoute, push = false) {
+  const url = routeHash(route);
+  if (push) history.pushState(null, "", url);
+  else history.replaceState(null, "", url);
+}
+
 
 function refreshLibraryAccess() {
   progressRevision += 1;
@@ -184,10 +194,9 @@ function initializeSectionEncounters(workId: string, unitId: string, occurrences
     learnerState[key] = createEncounter(encounteredAt, true);
     changed = true;
   }
-  for (const expressionId of new Set(expressionCatalog.occurrences
+  for (const key of new Set(expressionCatalog.occurrences
     .filter((item) => item.workId === workId && item.unitId === unitId)
-    .map((item) => item.identityId))) {
-    const key = expressionMasteryKey(expressionId);
+    .map((item) => expressionMasteryKey(item.identityId, item.surfaceId)))) {
     if (learnerState[key]) continue;
     learnerState[key] = createEncounter(encounteredAt, true);
     changed = true;
@@ -211,7 +220,7 @@ function actionableClaimsForSection(section: NonNullable<typeof currentSection>,
   const identities = new Set(section.occurrences.map(identityFor));
   const unitIds = new Set(section.units.map((unit) => unit.id));
   for (const occurrence of expressionCatalog.occurrences) {
-    if (occurrence.workId === section.workId && unitIds.has(occurrence.unitId)) identities.add(expressionMasteryKey(occurrence.identityId));
+    if (occurrence.workId === section.workId && unitIds.has(occurrence.unitId)) identities.add(expressionMasteryKey(occurrence.identityId, occurrence.surfaceId));
   }
   return createReviewSession(learnerState, at).filter((claim) => identities.has(claim.vocabularyIdentity));
 }
@@ -250,7 +259,7 @@ function logo(className: string, alt = "Polylit") {
 }
 
 function navigation() {
-  return `<nav class="topbar" aria-label="Main navigation"><span class="brand">${logo("brand-logo")}</span><div class="topbar-actions"><a class="language-switch" href="${sitePath("languages/")}" target="_self">Choose language</a><a class="text-button" href="${sitePath()}" data-action="sign-out">Sign out</a></div></nav>`;
+  return `<nav class="topbar" aria-label="Main navigation"><span class="brand">${logo("brand-logo")}</span><div class="topbar-actions"><a class="language-switch" href="${sitePath("languages/")}" target="_self" data-action="leave-for-languages">Choose language</a><a class="text-button" href="${sitePath()}" data-action="sign-out">Sign out</a></div></nav>`;
 }
 
 function renderHome() {
@@ -285,7 +294,10 @@ async function renderText(workId: string) {
   const [section, view] = await Promise.all([loadReadingSection(workId, readerSectionIndex), import("./learning-view.js")]);
   if (revision !== readingRenderRevision || currentRoute.name !== "read" || currentRoute.workId !== workId) return;
   currentSection = section;
+  savePosition(learningPositionKey(), workId, readerSectionIndex);
+  recordPosition({ name: "read", workId, position: readerSectionIndex });
   app.innerHTML = view.learningMarkup({ navigation: navigation(), origin: originLabel(metadata.work), metadata, readerSectionIndex, sectionCount, textDue: dueCount(workId), section, learnerState });
+  window.scrollTo(0, 0);
   observeReadingUnits(workId, section.occurrences);
   contentLoader.preloadNextSection(workId, readerSectionIndex, sectionCount);
 }
@@ -298,12 +310,16 @@ function observeReadingUnits(workId: string, occurrences: Occurrence[]) {
 async function renderBook(workId: string) {
   encounterObserver?.disconnect();
   currentSection = undefined;
+  const revision = ++readingRenderRevision;
   const metadata = workMetadata(workId);
   const pageCount = Math.max(1, Math.ceil((libraryIndex.works[workId]?.sectionCount ?? 0) / BOOK_SECTIONS_PER_PAGE));
   bookPageIndex = Math.max(0, Math.min(bookPageIndex, pageCount - 1));
   const [page, view] = await Promise.all([contentLoader.book(workId, bookPageIndex), import("./book-view.js")]);
+  if (revision !== readingRenderRevision || currentRoute.name !== "book" || currentRoute.workId !== workId) return;
   saveBookPosition(workId, bookPageIndex);
+  recordPosition({ name: "book", workId, position: bookPageIndex });
   app.innerHTML = view.bookMarkup({ navigation: navigation(), origin: originLabel(metadata.work), metadata, bookPageIndex, pageCount, page });
+  window.scrollTo(0, 0);
 }
 
 function renderVocabularySheet(occurrence: Occurrence) {
@@ -320,16 +336,19 @@ function renderVocabularySheet(occurrence: Occurrence) {
   document.querySelector<HTMLButtonElement>(".sheet .close")?.focus();
 }
 
-function renderExpressionSheet(expressionId: string) {
+function renderExpressionSheet(expressionId: string, surfaceId?: string) {
+  const occurrence = currentSection?.expressionCatalog.occurrences.find((item) => item.identityId === expressionId && item.surfaceId === surfaceId);
+  if (!occurrence) return;
   const identity = expressionCatalog.identities.find((item) => item.id === expressionId);
-  const state = learnerState[expressionMasteryKey(expressionId)];
+  const key = expressionMasteryKey(expressionId, surfaceId);
+  const state = learnerState[key];
   if (!identity || !state) return;
-  selectedExpressionId = expressionId;
+  selectedExpressionKey = key;
   selectedOccurrence = undefined;
   activeQuiz = undefined;
   const due = isDue(state, new Date());
   lockPageScroll();
-  app.insertAdjacentHTML("beforeend", `<div class="scrim" data-action="close-sheet"></div><aside class="sheet" aria-modal="true" role="dialog" aria-labelledby="expression-title"><button class="close" type="button" data-action="close-sheet" aria-label="Fermer">×</button><p class="eyebrow">Expression · Niveau ${state.masteryLevel} sur 8</p><h2 id="expression-title">${escapeHtml(identity.headword)}</h2><dl><div><dt>Sens</dt><dd>${escapeHtml(identity.gloss)}</dd></div><div><dt>Définition</dt><dd>${escapeHtml(identity.definition)}</dd></div></dl><p class="schedule-status">${escapeHtml(formattedDueState(state))}</p><button class="primary" type="button" data-action="start-expression-quiz" ${due ? "" : "disabled"}>${state.obligation === "accelerated" ? "Faire la révision accélérée" : "Réviser cette expression"}</button></aside>`);
+  app.insertAdjacentHTML("beforeend", `<div class="scrim" data-action="close-sheet"></div><aside class="sheet" aria-modal="true" role="dialog" aria-labelledby="expression-title"><button class="close" type="button" data-action="close-sheet" aria-label="Fermer">×</button><p class="eyebrow">Expression · Niveau ${state.masteryLevel} sur 8</p><h2 id="expression-title">${escapeHtml(surfaceId ? occurrence.text : identity.headword)}</h2><dl><div><dt>Sens</dt><dd>${escapeHtml(identity.gloss)}</dd></div><div><dt>Définition</dt><dd>${escapeHtml(identity.definition)}</dd></div></dl><p class="schedule-status">${escapeHtml(formattedDueState(state))}</p><button class="primary" type="button" data-action="start-expression-quiz" ${due ? "" : "disabled"}>${state.obligation === "accelerated" ? "Faire la révision accélérée" : "Réviser cette expression"}</button></aside>`);
   document.querySelector<HTMLButtonElement>(".sheet .close")?.focus();
 }
 
@@ -339,14 +358,18 @@ function renderQuiz() {
   unlockPageScroll();
   if (!activeClaim || !activeQuiz || !quizRenderer) return finishReview();
   const state = learnerState[activeClaim.vocabularyIdentity]!;
-  app.innerHTML = quizRenderer({ quiz: activeQuiz, label: reviewLabel, state, selectedAnswer, reviewSession, reviewSessionIndex, reviewScopeWorkId, sectionReviewAdvances, language: activeLanguage });
+  app.innerHTML = quizRenderer({ quiz: activeQuiz, label: reviewLabel, state, selectedAnswer, reviewSession, reviewSessionIndex, reviewScopeWorkId, sectionReviewAdvances, sectionExitLabel, language: activeLanguage });
   if (selectedAnswer !== undefined) document.querySelector<HTMLButtonElement>(".continue")?.focus({ preventScroll: true });
+  else window.scrollTo(0, 0);
 }
 
 function closeSheet() {
+  const trigger = sheetTrigger;
+  sheetTrigger = null;
   document.querySelector(".scrim")?.remove(); document.querySelector(".sheet")?.remove();
   unlockPageScroll();
-  selectedOccurrence = undefined; selectedExpressionId = undefined; activeQuiz = undefined; activeClaim = undefined;
+  selectedOccurrence = undefined; selectedExpressionKey = undefined; activeQuiz = undefined; activeClaim = undefined;
+  trigger?.focus?.({ preventScroll: true });
 }
 
 async function startClaim(claim: ReviewClaim): Promise<boolean> {
@@ -358,7 +381,7 @@ async function startClaim(claim: ReviewClaim): Promise<boolean> {
   activeQuiz = record.items.find(item => item.band === quizBandForMasteryLevel(state.masteryLevel));
   if (!activeQuiz) throw new Error("The prepared question could not load.");
   reviewLabel = record.label;
-  selectedOccurrence = undefined; selectedExpressionId = undefined; selectedAnswer = undefined; activeClaim = claim;
+  selectedOccurrence = undefined; selectedExpressionKey = undefined; selectedAnswer = undefined; activeClaim = claim;
   renderQuiz();
   const upcoming = [...(reviewSession?.slice(reviewSessionIndex + 1) ?? []), ...reviewBacklog].slice(0, 3);
   void Promise.all(upcoming.map(item => contentLoader.quiz(item.vocabularyIdentity))).catch(() => undefined);
@@ -367,7 +390,7 @@ async function startClaim(claim: ReviewClaim): Promise<boolean> {
 
 async function beginReview(workId?: string, singleClaim?: ReviewClaim, suppliedClaims?: ReviewClaim[], advanceAfter = false) {
   reviewScopeWorkId = workId;
-  reviewReturnRoute = workId ? { name: "read", workId } : { name: "library" };
+  reviewReturnRoute = currentRoute.name === "read" ? { ...currentRoute, position: readerSectionIndex } : { name: "library" };
   sectionReviewAdvances = advanceAfter;
   const claims = suppliedClaims ?? (singleClaim ? [singleClaim] : actionableClaims(workId));
   reviewSession = claims.slice(0, 10);
@@ -401,18 +424,29 @@ async function continueReviewSession() {
 }
 
 function finishReview() {
-  const advance = sectionReviewAdvances && reviewReturnRoute.name === "read";
-  reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; selectedOccurrence = undefined; selectedExpressionId = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined;
+  const exit = sectionReviewAdvances ? sectionExit : undefined;
+  sectionExit = undefined;
+  reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; selectedOccurrence = undefined; selectedExpressionKey = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined;
   sectionReviewAdvances = false;
-  if (advance) readerSectionIndex += 1;
+  if (exit) { void exit(); return; }
   go(reviewReturnRoute);
 }
 
 function leaveSectionReview(advance: boolean) {
   const route = reviewReturnRoute;
-  reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; selectedOccurrence = undefined; selectedExpressionId = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined; sectionReviewAdvances = false;
-  if (advance) readerSectionIndex += 1;
+  const exit = advance ? sectionExit : undefined;
+  sectionExit = undefined;
+  reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; selectedOccurrence = undefined; selectedExpressionKey = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined; sectionReviewAdvances = false;
+  if (exit) { void exit(); return; }
   go(route);
+}
+
+async function leaveLearning(exit: () => void, label: string) {
+  const claims = currentRoute.name === "read" && currentSection ? actionableClaimsForSection(currentSection) : [];
+  if (!claims.length) { await exit(); return; }
+  sectionExit = exit;
+  sectionExitLabel = label;
+  await beginReview(currentSection!.workId, undefined, claims, true);
 }
 
 function go(route: AppRoute) {
@@ -424,13 +458,17 @@ function go(route: AppRoute) {
     else location.hash = routeHash(route);
     return;
   }
-  if (location.pathname === next && !location.hash) requestRouteRender();
+  if (route.name === "library" && languageFromPath()) {
+    history.pushState(null, "", next);
+    requestRouteRender();
+  } else if (location.pathname === next && !location.hash) requestRouteRender();
   else location.assign(next);
 }
 
 function resetTransientUi() {
   unlockPageScroll();
-  selectedOccurrence = undefined; selectedExpressionId = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined; reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; sectionReviewAdvances = false;
+  sectionExit = undefined;
+  selectedOccurrence = undefined; selectedExpressionKey = undefined; selectedAnswer = undefined; activeQuiz = undefined; activeClaim = undefined; reviewSession = undefined; reviewBacklog = []; reviewPrefetch = undefined; sectionReviewAdvances = false;
 }
 
 async function renderCurrentRoute() {
@@ -443,10 +481,18 @@ async function renderCurrentRoute() {
   }
   if (currentRoute.name === "languages") return renderLanguageChoice();
   if (currentRoute.name === "library") return renderLibrary();
-  if (currentRoute.name === "read" && readableWorkIds.has(currentRoute.workId)) return renderText(currentRoute.workId);
+  if (currentRoute.name === "read" && readableWorkIds.has(currentRoute.workId)) {
+    readerSectionIndex = currentRoute.position ?? loadPositions(learningPositionKey())[currentRoute.workId] ?? 0;
+    return renderText(currentRoute.workId);
+  }
   if (currentRoute.name === "book" && visibleWorkIds.has(currentRoute.workId)) {
-    bookPageIndex = loadBookPositions()[currentRoute.workId] ?? 0;
+    bookPageIndex = currentRoute.position ?? loadBookPositions()[currentRoute.workId] ?? 0;
     return renderBook(currentRoute.workId);
+  }
+  if (demoSignedIn && languageFromPath()) {
+    currentRoute = { name: "library" };
+    history.replaceState(null, "", routePath(currentRoute));
+    return renderLibrary();
   }
   renderHome();
 }
@@ -455,12 +501,12 @@ async function handleClick(event: MouseEvent) {
   const target = (event.target as HTMLElement).closest<HTMLElement>("[data-occurrence-id], [data-expression-id], [data-route], [data-action], [data-answer]");
   if (!target) return;
   if (target.dataset.route) {
-    if (target.dataset.route.startsWith("#/read/")) readerSectionIndex = 0;
     if (target.dataset.route.startsWith("#/book/") && currentRoute.name === "read") {
       bookPageIndex = Math.floor(readerSectionIndex / BOOK_SECTIONS_PER_PAGE);
       saveBookPosition(currentRoute.workId, bookPageIndex);
     }
-    location.hash = target.dataset.route;
+    const route = parseRoute(target.dataset.route);
+    await leaveLearning(() => go(route), route.name === "book" ? "Skip review and open Book View →" : "Skip review and return to your library →");
     return;
   }
   if (target.dataset.occurrenceId) {
@@ -469,11 +515,16 @@ async function handleClick(event: MouseEvent) {
     return;
   }
   if (target.dataset.expressionId && currentRoute.name === "read") {
-    renderExpressionSheet(target.dataset.expressionId);
+    renderExpressionSheet(target.dataset.expressionId, target.dataset.expressionSurfaceId);
     return;
   }
   const action = target.dataset.action;
   if (action === "start-demo") { setDemoSession(true); return; }
+  if (action === "leave-for-languages") {
+    event.preventDefault();
+    await leaveLearning(() => go({ name: "languages" }), "Skip review and choose a language →");
+    return;
+  }
   if (action === "sign-out") {
     event.preventDefault();
     setDemoSession(false);
@@ -506,7 +557,7 @@ async function handleClick(event: MouseEvent) {
   if (action === "start-review-all") { await beginReview(); return; }
   if (action === "start-reading") {
     const workId = target.dataset.workId;
-    if (workId && visibleWorkIds.has(workId)) { setLibraryStatus(workId, "reading"); readerSectionIndex = 0; go({ name: "read", workId }); }
+    if (workId && visibleWorkIds.has(workId)) { setLibraryStatus(workId, "reading"); readerSectionIndex = 0; go({ name: "read", workId, position: 0 }); }
     return;
   }
   if (action === "mark-reading") {
@@ -519,13 +570,13 @@ async function handleClick(event: MouseEvent) {
     if (workId && visibleWorkIds.has(workId)) {
       setLibraryStatus(workId, "reading");
       readerSectionIndex = bookPageIndex * BOOK_SECTIONS_PER_PAGE;
-      go({ name: "read", workId });
+      go({ name: "read", workId, position: readerSectionIndex });
     }
     return;
   }
   if (action === "mark-completed") {
     const workId = target.dataset.workId;
-    if (workId && visibleWorkIds.has(workId)) { setLibraryStatus(workId, "completed"); go({ name: "library" }); }
+    if (workId && visibleWorkIds.has(workId)) await leaveLearning(() => { setLibraryStatus(workId, "completed"); go({ name: "library" }); }, "Skip review and mark completed →");
     return;
   }
   if (action === "stop-reading") {
@@ -542,24 +593,23 @@ async function handleClick(event: MouseEvent) {
     if (workId && quizEligibleWorkIds.has(workId)) await beginReview(workId);
     return;
   }
-  if (action === "start-expression-quiz" && selectedExpressionId) {
-    const key = expressionMasteryKey(selectedExpressionId);
+  if (action === "start-expression-quiz" && selectedExpressionKey) {
+    const key = selectedExpressionKey;
     const state = learnerState[key];
     if (state && isDue(state, new Date())) await beginReview(currentRoute.name === "read" ? currentRoute.workId : undefined, claimReview(key, state));
     return;
   }
   if (action === "continue-quiz") { await continueReviewSession(); return; }
-  if (action === "previous-section" && currentRoute.name === "read") { readerSectionIndex -= 1; await renderText(currentRoute.workId); return; }
-  if (action === "next-section" && currentRoute.name === "read") {
-    const claims = currentSection ? actionableClaimsForSection(currentSection) : [];
-    if (claims.length) await beginReview(currentRoute.workId, undefined, claims, true);
-    else { readerSectionIndex += 1; await renderText(currentRoute.workId); }
+  if ((action === "previous-section" || action === "next-section") && currentRoute.name === "read") {
+    const position = Math.max(0, Math.min(readerSectionIndex + (action === "next-section" ? 1 : -1), (libraryIndex.works[currentRoute.workId]?.sectionCount ?? 1) - 1));
+    const route = { ...currentRoute, position };
+    if (position !== readerSectionIndex) await leaveLearning(() => go(route), action === "next-section" ? "Skip review and read the next section →" : "Skip review and read the previous section →");
     return;
   }
   if (action === "skip-section-review") { leaveSectionReview(true); return; }
   if (action === "reread-section") { leaveSectionReview(false); return; }
-  if (action === "previous-book-page" && currentRoute.name === "book") { bookPageIndex -= 1; await renderBook(currentRoute.workId); return; }
-  if (action === "next-book-page" && currentRoute.name === "book") { bookPageIndex += 1; await renderBook(currentRoute.workId); return; }
+  if (action === "previous-book-page" && currentRoute.name === "book") { bookPageIndex = Math.max(0, bookPageIndex - 1); recordPosition({ ...currentRoute, position: bookPageIndex }, true); await renderBook(currentRoute.workId); return; }
+  if (action === "next-book-page" && currentRoute.name === "book") { bookPageIndex = Math.max(0, bookPageIndex + 1); recordPosition({ ...currentRoute, position: bookPageIndex }, true); await renderBook(currentRoute.workId); return; }
   if (action === "end-review") { finishReview(); return; }
   const answer = target.dataset.answer;
   if (answer === undefined || !activeQuiz || !activeClaim || selectedAnswer !== undefined || !activeQuiz.choices.some(choice => choice.id === answer)) return;
@@ -618,12 +668,34 @@ document.addEventListener("click", (event) => {
 }, true);
 
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Tab" && document.querySelector(".sheet")) {
+    const controls = [...document.querySelectorAll<HTMLElement>(".sheet button:not([disabled]), .sheet a[href]")];
+    const first = controls[0], last = controls.at(-1);
+    if (first && last && (event.shiftKey ? document.activeElement === first : document.activeElement === last)) {
+      event.preventDefault();
+      (event.shiftKey ? last : first).focus();
+    }
+    return;
+  }
   if (event.key !== "Escape") return;
+  for (const menu of document.querySelectorAll<HTMLDetailsElement>(".card-menu[open]")) {
+    menu.open = false;
+    menu.querySelector<HTMLElement>("summary")?.focus();
+  }
   if (document.querySelector(".sheet")) closeSheet();
   else if (document.querySelector(".quiz")) sectionReviewAdvances ? leaveSectionReview(false) : finishReview();
 });
 
 window.addEventListener("hashchange", requestRouteRender);
+window.addEventListener("popstate", requestRouteRender);
+window.addEventListener("pageshow", (event) => {
+  if (!event.persisted) return;
+  demoSignedIn = readDemoSession();
+  learnerState = loadLearnerState(activeLanguage);
+  readingLibraryState = loadReadingLibraryState(activeLanguage);
+  refreshLibraryAccess();
+  requestRouteRender();
+});
 function refreshReviewControls() {
   for (const counter of document.querySelectorAll<HTMLElement>("[data-due-count][data-scope]")) {
     const count = dueCount(counter.dataset.scope === "all" ? undefined : counter.dataset.scope);

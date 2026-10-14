@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:20:53.439Z",
+  "sense": {
+    "id": "sns_zola_doute_uncertainty",
+    "lemmaId": "lem_zola_doute_noun",
+    "gloss": "doubt; uncertainty",
+    "definition": "incertitude sur la vérité ou la réalité de quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 2,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_doute_doute_uncertainty_early",
+      "qiz_zola_doute_doute_uncertainty_intermediate",
+      "qiz_zola_doute_doute_uncertainty_advanced",
+      "qiz_zola_doutes_doute_uncertainty_intermediate",
+      "qiz_zola_doutes_doute_uncertainty_advanced",
+      "qiz_zola_doutes_doute_uncertainty_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+      "surface": "doute",
+      "lemma": "doute",
+      "currentRevision": "rev_c53d825c6deff9806f71373a8e7b907a255d4953db0c8f5171f4aa5f1ee99446",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_323b3b60c19228deb4c9edcb",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_078",
+          "passage": "Les recherches durèrent de mai à septembre 1896, et ce qu’il faut affirmer bien haut, c’est que le général Gonse était convaincu de la culpabilité d’Esterhazy, c’est que le général de Boisdeffre et le général Billot ne mettaient pas en doute que le fameux bordereau fût de l’écriture d’Esterhazy.",
+          "span": [
+            236,
+            241
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_doute_doute_uncertainty_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Un doute subsiste sur l’heure du départ, car deux horaires différents sont affichés.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "doubt",
+              "correct": true
+            },
+            {
+              "text": "certainty",
+              "correct": false
+            },
+            {
+              "text": "proof",
+              "correct": false
+            },
+            {
+              "text": "agreement",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doute_doute_uncertainty_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les témoignages se contredisent : un _____ subsiste sur ce qui s’est passé.",
+          "choices": [
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "accord",
+              "correct": false
+            },
+            {
+              "text": "fait",
+              "correct": false
+            },
+            {
+              "text": "constat",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doute_doute_uncertainty_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le doute persiste après deux réponses contradictoires ; elle vérifie donc la date dans le courrier du directeur.",
+          "prompt": "Quel mot désigne son incertitude ?",
+          "choices": [
+            {
+              "text": "directeur",
+              "correct": false
+            },
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "date",
+              "correct": false
+            },
+            {
+              "text": "courrier",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+      "surface": "doutes",
+      "lemma": "doute",
+      "currentRevision": "rev_447dd119fb5d632a166cc083820f1e44a3baff388f6bcc840855169da77dc081",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_91900ad8af4c5ff66a0cb1d0",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_070",
+          "passage": "Je ne ferai pas l’historique des doutes, puis de la conviction de M. Scheurer-Kestner.",
+          "span": [
+            33,
+            39
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_doutes_doute_uncertainty_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les preuves restent insuffisantes ; il garde des _____ sur la vérité de cette accusation.",
+          "choices": [
+            {
+              "text": "ordres",
+              "correct": false
+            },
+            {
+              "text": "témoignages",
+              "correct": false
+            },
+            {
+              "text": "doutes",
+              "correct": true
+            },
+            {
+              "text": "accords",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doutes_doute_uncertainty_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les doutes de Paul persistent parce que les deux témoins donnent des versions opposées. Nina relit les déclarations, Léa classe les photos et Marc appelle le juge.",
+          "prompt": "Quel mot désigne les incertitudes de Paul ?",
+          "choices": [
+            {
+              "text": "doutes",
+              "correct": true
+            },
+            {
+              "text": "témoins",
+              "correct": false
+            },
+            {
+              "text": "déclarations",
+              "correct": false
+            },
+            {
+              "text": "photos",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doutes_doute_uncertainty_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les contradictions du récit font naître des doutes chez les enquêteurs.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "doubts",
+              "correct": true
+            },
+            {
+              "text": "certainties",
+              "correct": false
+            },
+            {
+              "text": "proofs",
+              "correct": false
+            },
+            {
+              "text": "agreements",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

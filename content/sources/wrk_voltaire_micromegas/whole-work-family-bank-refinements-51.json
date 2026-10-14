@@ -1,0 +1,1677 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "lune_moon",
+      "beforeQuestionSha256": "fd3679e2ff4adfcac2fbcc603697ef3bad624573d6fd5e24825e3644332e8dd1",
+      "after": {
+        "key": "lune_moon",
+        "form": "lune",
+        "lemma": "lune",
+        "partOfSpeech": "noun feminine singular",
+        "meaning": "moon; natural satellite",
+        "editorialNote": "In chapter III 67:198, lune means moon; natural satellite. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 67,
+            "start": 198,
+            "end": 202,
+            "text": "lune"
+          },
+          {
+            "chapter": 3,
+            "unit": 67,
+            "start": 206,
+            "end": 210,
+            "text": "lune"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "La lune est un satellite naturel de la planète.",
+            "question": "Meaning",
+            "answer": "moon",
+            "choices": [
+              "moon",
+              "star",
+              "planet",
+              "comet"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cet astre tourne autour de la planète : une ___.",
+            "question": "Complétez la phrase.",
+            "answer": "lune",
+            "choices": [
+              "lune",
+              "étoile",
+              "planète",
+              "comète"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La lune est un satellite naturel; l’étoile émet sa lumière, la planète gravite autour d’une étoile et la comète est un petit corps céleste.",
+            "question": "Quel mot exprime moon ?",
+            "answer": "lune",
+            "choices": [
+              "lune",
+              "étoile",
+              "planète",
+              "comète"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "b354bec867d2cd323c95817a856a8a183d2072e27c883d50580a29f9c8e921e6",
+          "afterSha256": "546d432c94bde66a055ccd3c825a156ad8ddb6a9bd1f28701a695def110527e8",
+          "reason": "Give the singular surface one exact target in a reviewed generic context; the truncated draft repeats lune twice."
+        }
+      ],
+      "afterQuestionSha256": "821277d6a2cef8d9507ed612a2cdb6494a4e46dac5c86a90d7e90cd959583cec"
+    },
+    {
+      "file": "chapter-02-batch-17.json",
+      "key": "va_goes_beyond",
+      "beforeQuestionSha256": "922cbae91e4151bc611b8fd106dbdebb4dc3c8b5e4cdc67febdf97cc24745a44",
+      "after": {
+        "key": "va_goes_beyond",
+        "form": "va",
+        "lemma": "aller",
+        "partOfSpeech": "present indicative third singular",
+        "meaning": "goes beyond; extends past a limit",
+        "editorialNote": "Notre imagination va au delà de nos besoins means it exceeds them metaphorically, unlike a physical journey or progressive auxiliary in published quizzes.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 33,
+            "start": 18,
+            "end": 20,
+            "text": "va"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Notre imagination va au delà de nos besoins.",
+            "question": "Meaning",
+            "answer": "extends",
+            "choices": [
+              "extends",
+              "sleeps",
+              "waits",
+              "stands still"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Sa pensée dépasse les limites du sujet : elle ___ plus loin.",
+            "question": "Complétez la phrase.",
+            "answer": "va",
+            "choices": [
+              "va",
+              "dort",
+              "reste",
+              "attend"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Sa pensée va plus loin lorsqu’elle atteint ou dépasse une limite au figuré. Elle dort indique le sommeil, elle reste l’absence de changement et elle attend un délai.",
+            "question": "Quel verbe exprime ce dépassement figuré ?",
+            "answer": "va",
+            "choices": [
+              "va",
+              "dort",
+              "reste",
+              "attend"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "2427cdeb17943ab2ea664b09a39c75b900db9b330ce9fd7f4dbc1530de2894bb",
+          "afterSha256": "9770b98f4f098312307cd1ab8229594cbc1e08d10cbd1f0a1290e7fd50e3801e",
+          "reason": "Translate the highlighted figurative verb alone; au delà is separately prepared as a full expression."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "cefd268d45d7fb7cf450eec30d00ccb1aecd710a040f1bd47b20eb55d778de79",
+          "afterSha256": "7f6dc4b35a508d13eb1ea1bfc28ec33a9fc3e11eafa71bebca666f3018a647d5",
+          "reason": "Retain the generic figurative extent meaning across the three bands."
+        }
+      ],
+      "afterQuestionSha256": "192ef3b36354013a77e7c8cfcfabb0ace1cb84f94b6f924d74e5dc9ed51c0d55"
+    },
+    {
+      "file": "chapter-02-batch-08.json",
+      "key": "arrive_comes",
+      "beforeQuestionSha256": "dc6e2231608f8b8c9707699694980e75f6e8b959ce5fdc71bfe03985663ece48",
+      "after": {
+        "key": "arrive_comes",
+        "form": "arrive",
+        "lemma": "arriver",
+        "partOfSpeech": "present indicative third singular",
+        "meaning": "arrives; comes",
+        "editorialNote": "La mort arrive before they can gain much experience.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 42,
+            "start": 57,
+            "end": 63,
+            "text": "arrive"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Un accident arrive malgré les précautions. Cet événement se produit.",
+            "question": "Meaning",
+            "answer": "happens",
+            "choices": [
+              "happens",
+              "waits",
+              "sleeps",
+              "travels"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cet incident se produit de nouveau : il ___ de nouveau.",
+            "question": "Complétez la phrase.",
+            "answer": "arrive",
+            "choices": [
+              "arrive",
+              "disparaît",
+              "cesse",
+              "échoue"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’événement arrive quand il se produit. Il disparaît quand il n’est plus présent, cesse quand il s’interrompt et échoue quand il n’atteint pas son but.",
+            "question": "Quel verbe signifie ici se produire ?",
+            "answer": "arrive",
+            "choices": [
+              "arrive",
+              "disparaît",
+              "cesse",
+              "échoue"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "bf4994c946f210327e08b4fe3a5ffdca7e25a2ae13d3db75c98c5a300cb90bf8",
+          "afterSha256": "eb29cf9bbf416353ff36fab058daa7acc6a3c22034665920c0d3ecf51b70f563",
+          "reason": "Both source uses are occurrences, not destination movement."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "c33173b4f799fe0f9c4169533868d9f325468e7a62dae15aba668a479d24add5",
+          "afterSha256": "af37d090a17e538b3d47081fc315fffa324bf5b7b95eaf34a9be8f7525eb60c4",
+          "reason": "Four third-singular event predicates fit the sentence; occurrence rather than disappearance, cessation or failure selects the answer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "62f3573b31bf9278a42ec967152b26bd887e12f61ef0d8547e0198d470a49294",
+          "afterSha256": "ae933aa9c966963be11f155d861ce450b410dc60c916650be5731935f1ff7fbf",
+          "reason": "Remove physical-destination meaning from the canonical happen bank."
+        }
+      ],
+      "afterQuestionSha256": "ba0a0d01ee6cee950b6e13faca611c66a7f796769f9fdc6af62a888e15144936"
+    },
+    {
+      "file": "chapter-02-batch-18.json",
+      "key": "ete_been_in_place",
+      "beforeQuestionSha256": "e61ca58ba71859d9ebcda3f5f10b465d054572772c5ec7535d39312188201d6e",
+      "after": {
+        "key": "ete_been_in_place",
+        "form": "été",
+        "lemma": "être",
+        "partOfSpeech": "past participle in j’ai été",
+        "meaning": "been; stayed or visited a place",
+        "editorialNote": "J’ai été dans les pays means the traveler has been in those places. The published été question set tests being happy or being a guide; this spatial-presence use needs its own contextual identity and three bands.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 46,
+            "start": 5,
+            "end": 8,
+            "text": "été"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "J’ai été dans ce lieu : je m’y suis trouvé.",
+            "question": "Meaning",
+            "answer": "been present",
+            "choices": [
+              "been present",
+              "slept",
+              "worked",
+              "run"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Je veux seulement dire que je me suis trouvé dans ce lieu, sans préciser aucune activité : j’y ai ___.",
+            "question": "Complétez la phrase.",
+            "answer": "été",
+            "choices": [
+              "été",
+              "dormi",
+              "travaillé",
+              "couru"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "J’ai été dans ce lieu indique que je m’y suis trouvé. J’y ai dormi indique le sommeil, travaillé une activité professionnelle et couru une course.",
+            "question": "Quel participe situe ici la personne dans un lieu ?",
+            "answer": "été",
+            "choices": [
+              "été",
+              "dormi",
+              "travaillé",
+              "couru"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "b88def524cf17d1695f8b85212fc40505ae22f7e39a4f73eb3c2dabe240dea53",
+          "afterSha256": "29b0127be24fea4d01c185551cc9c054083ef1a671bf26130805d5bd7322730f",
+          "reason": "Generic presence covers the person’s travel and the head’s hypothetical position, without adding unhighlighted destination words."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "53a906ed56eadca545119ba5a18cf8566f084eb6dbef18a2156d13d7339d990e",
+          "afterSha256": "f8276125bdbb47d2dea33214abd1c2bb52ca8be4c8942b1b648937cc8c924e24",
+          "reason": "All four participles fit j’y ai; explicit location rather than activity selects presence."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "3f3ed98ecbd9b06a541a8619c8b7375a94885bb902dfa2aa85e89167bcd354ed",
+          "afterSha256": "346be12bdb04f2cc66064cf2962918fef8f1a10da4a0858791c1b565808d700c",
+          "reason": "Keep the alternate spatial source bank unchanged and choose this generic presence bank."
+        }
+      ],
+      "afterQuestionSha256": "d2c0ca6ecc6503c92bf7d29ffdbe0eb4e52abb4ae5ec5eff85480c12c16eb48a"
+    },
+    {
+      "file": "chapter-02-batch-11.json",
+      "key": "parlez_speak",
+      "beforeQuestionSha256": "7152c2d261f45515bf2bc28805e0b1bc52920ce8bdc1d24be227c82099b553f8",
+      "after": {
+        "key": "parlez_speak",
+        "form": "parlez",
+        "lemma": "parler",
+        "partOfSpeech": "present indicative second plural",
+        "meaning": "you speak; you are talking about",
+        "editorialNote": "Si vous parlez de ces propriétés introduces the topic of material properties.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 51,
+            "start": 79,
+            "end": 85,
+            "text": "parlez"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Vous parlez de la matière.",
+            "question": "Meaning",
+            "answer": "speak about",
+            "choices": [
+              "speak about",
+              "forget",
+              "measure",
+              "buy"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Vous discutez de ce sujet : vous en ___.",
+            "question": "Complétez la phrase.",
+            "answer": "parlez",
+            "choices": [
+              "parlez",
+              "rêvez",
+              "riez",
+              "doutez"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Vous parlez du sujet quand vous en discutez. Vous en rêvez quand vous l’imaginez en rêve, en riez quand il vous amuse et en doutez quand vous n’en êtes pas certain.",
+            "question": "Quel verbe signifie discuter du sujet ?",
+            "answer": "parlez",
+            "choices": [
+              "parlez",
+              "rêvez",
+              "riez",
+              "doutez"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "f582afee890bc98402a85b26362c7dee1a6521f8c57d058cf01930451fa137a2",
+          "afterSha256": "231e87a8c89c9113a6e927097bb7a5b5a41deb9de02bf9102a1ca95479c99b7f",
+          "reason": "Every verb accepts en; remove en mesurez/achetez/ oubliez without objects. Discussing rather than dreaming, laughing or doubting selects speak."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "0f1f27e1db78d0323a4338bbd76d3be91a42bcb59a9e01012387bb03facc4cef",
+          "afterSha256": "aa41c512cef20ff74f3eeb4dfb1d4c132ccbd1af580014e68ed63db2e9952cc5",
+          "reason": "Upper band follows the grammatically compatible predicates."
+        }
+      ],
+      "afterQuestionSha256": "55520c550d572e851dcf5effc3045acdbe5b752e2c10067e59adb1c21ec6cfe8"
+    },
+    {
+      "file": "chapter-02-batch-11.json",
+      "key": "lesquelles_which",
+      "beforeQuestionSha256": "0a6c889ed1a211b0966994796dc5fa17ca4ebaf4e9f68e97bfd649c027c196aa",
+      "after": {
+        "key": "lesquelles_which",
+        "form": "lesquelles",
+        "lemma": "lequel",
+        "partOfSpeech": "relative pronoun feminine plural",
+        "meaning": "which; those that",
+        "editorialNote": "Sans lesquelles refers back to the feminine plural properties needed for the globe to exist.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 51,
+            "start": 128,
+            "end": 138,
+            "text": "lesquelles"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ces propriétés sans lesquelles le globe ne subsiste pas…",
+            "question": "Meaning",
+            "answer": "which",
+            "choices": [
+              "which",
+              "where",
+              "when",
+              "why"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans « ces lois sans lesquelles rien ne fonctionne », le pronom ___ reprend les lois en introduisant une proposition relative.",
+            "question": "Complétez la phrase.",
+            "answer": "lesquelles",
+            "choices": [
+              "lesquelles",
+              "celles-ci",
+              "elles",
+              "certaines"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Lesquelles reprend les lois dans la proposition relative « sans lesquelles rien ne fonctionne ». Celles-ci est démonstratif, elles personnel et certaines indéfini.",
+            "question": "Quel pronom introduit ici la proposition relative ?",
+            "answer": "lesquelles",
+            "choices": [
+              "lesquelles",
+              "celles-ci",
+              "elles",
+              "certaines"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "68c3906f3999b5dda59dbad587e66e263850d5cd87922fb0472ce87d2dfb9008",
+          "afterSha256": "115f7e32839a25e1cbb6ea4c50f1ad62d20e288b60c7e6e6c2d244eb47c01f12",
+          "reason": "The highlighted pronoun excludes the unhighlighted sans; both source prepositions retain one relatif meaning."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "36f0dbed8bcffc16204f48169716a8ea6e9dd243bd3e8ab5d60a646a3f1bc7e1",
+          "afterSha256": "987701129046cc36759440503c086bf00ec5b6fb85f4d2007eed644ac819b19b",
+          "reason": "Quoted-label frame allows four feminine plural pronouns; relative linkage rather than number agreement selects the answer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "5fb922ad9a54701dfac2350e8d835b8b73e1f50de206c81859060d5d00ef1781",
+          "afterSha256": "ffa8a993ccf627c95e201ae3f881eca69805a6c96402d98a72a0827ff4349676",
+          "reason": "Remove a bank that tests only grammatical gender and number."
+        }
+      ],
+      "afterQuestionSha256": "7b2619d98a491a3682e7fd8508b17007bb7264ce4265b1c5902224199d534100"
+    },
+    {
+      "file": "chapter-02-batch-11.json",
+      "key": "croyons_we_believe",
+      "beforeQuestionSha256": "c2d8d37e3c87591d14dbfd9cadf12896ef5658d8830dfd74987b5a4052a695fe",
+      "after": {
+        "key": "croyons_we_believe",
+        "form": "croyons",
+        "lemma": "croire",
+        "partOfSpeech": "present indicative first plural",
+        "meaning": "we believe; we think",
+        "editorialNote": "Nous croyons that the globe needs certain properties, a stated belief rather than proof.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 51,
+            "start": 144,
+            "end": 151,
+            "text": "croyons"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Nous croyons que ce globe en a besoin.",
+            "question": "Meaning",
+            "answer": "we believe",
+            "choices": [
+              "we believe",
+              "we know with certainty",
+              "we forget",
+              "we measure"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Nous tenons cette idée pour vraie sans la savoir avec certitude : nous la ___.",
+            "question": "Complétez la phrase.",
+            "answer": "croyons",
+            "choices": [
+              "croyons",
+              "savons",
+              "oublions",
+              "mesurons"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Nous croyons l’idée si nous la tenons pour vraie sans certitude. Nous la savons si elle est établie, l’oublions si nous n’en avons plus le souvenir et la mesurons si nous lui donnons une valeur.",
+            "question": "Quel verbe exprime la croyance sans certitude ?",
+            "answer": "croyons",
+            "choices": [
+              "croyons",
+              "savons",
+              "oublions",
+              "mesurons"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "cb207d506df21b15672e63d421a97d1d50db72c07a98b5d8919373f7586dfee8",
+          "afterSha256": "434f68e8df8d82221da129277a4f87f5f86550aafc679dd4f9e754a4ce3f0a53",
+          "reason": "Use a feminine object accepted by all predicates and explicitly exclude certain knowledge."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "e219ba7343989596a20978cb9c78c0930ee7ca9e5dcdfe7b641f1cc91362fd08",
+          "afterSha256": "344ece180c536d737e63ccb5529fcd25df9f249005bdab77e62ceb13209b4126",
+          "reason": "Keep the belief/knowledge distinction explicit."
+        }
+      ],
+      "afterQuestionSha256": "78534d4ba9d3f4937b778947ab8e55210d790667b9a82de6ac48ec4b1a26d76e"
+    },
+    {
+      "file": "chapter-02-batch-14.json",
+      "key": "espace_space",
+      "beforeQuestionSha256": "241c6f00a48cb9828a8d3a6591f3623f36dca0d4fd5d5b6ef6683c2a0bb40e14",
+      "after": {
+        "key": "espace_space",
+        "form": "espace",
+        "lemma": "espace",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "space; expanse in which bodies exist",
+        "editorialNote": "The philosophical list separates space from matter and other kinds of existence.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 58,
+            "start": 62,
+            "end": 68,
+            "text": "espace"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il distingue l’espace de la matière.",
+            "question": "Meaning",
+            "answer": "space",
+            "choices": [
+              "space",
+              "time",
+              "sound",
+              "weight"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette étendue dans laquelle on peut situer les corps est l’___.",
+            "question": "Complétez la phrase.",
+            "answer": "espace",
+            "choices": [
+              "espace",
+              "instant",
+              "écho",
+              "orage"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’espace est l’étendue où les corps peuvent être situés. L’instant est un moment, l’écho répète un son et l’orage est un phénomène météorologique.",
+            "question": "Quel nom désigne l’étendue permettant de situer les corps ?",
+            "answer": "espace",
+            "choices": [
+              "espace",
+              "instant",
+              "écho",
+              "orage"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "a98c0c2d4ebe636ddb95c78928085ed926f556207f303ec385b09040ca40bddc",
+          "afterSha256": "37c7b1bb8edba89d9de8beee980b451850d1df31043339d9cacd18338e957207",
+          "reason": "Four masculine singular nouns all accept l’; remove l’poids."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "ab223f9ca43d371fbef6c770d462f1a9534ec84ab3e3383acec31cfb2012eef4",
+          "afterSha256": "dbbe25adf12126b666304175b17b30896af1dc93cfd985efc027890b751dd469",
+          "reason": "Keep the compatible noun distractors across bands."
+        }
+      ],
+      "afterQuestionSha256": "1c464c4f4e6db2391599e2c0f77fcdeb53b23e41c52769ef6486d8d63cdadb0f"
+    },
+    {
+      "file": "chapter-02-batch-13.json",
+      "key": "parmi_among",
+      "beforeQuestionSha256": "cb0aed7d6b1a964c1d766ead4977db159114ee008608774b6003c0ae59dcc8be",
+      "after": {
+        "key": "parmi_among",
+        "form": "parmi",
+        "lemma": "parmi",
+        "partOfSpeech": "preposition",
+        "meaning": "among; amid a group",
+        "editorialNote": "Among all the suns the traveler has approached, no two are alike.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 56,
+            "start": 24,
+            "end": 29,
+            "text": "parmi"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Parmi ces soleils, aucun n’est semblable à l’autre.",
+            "question": "Meaning",
+            "answer": "among",
+            "choices": [
+              "among",
+              "before",
+              "outside",
+              "above"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans « parmi les membres du groupe », la préposition ___ les situe au sein d’un ensemble, sans exprimer simplement leur compagnie.",
+            "question": "Complétez la phrase.",
+            "answer": "parmi",
+            "choices": [
+              "parmi",
+              "avec",
+              "contre",
+              "sans"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il vit parmi les autres s’il fait partie du groupe. Avec indique leur compagnie, contre une opposition et sans leur absence.",
+            "question": "Quel mot indique qu’il se trouve au sein de ce groupe ?",
+            "answer": "parmi",
+            "choices": [
+              "parmi",
+              "avec",
+              "contre",
+              "sans"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "7e42e52aef2a3062a9971fb49e679f84abfcba5f3fbd185f5170deca7c6082c4",
+          "afterSha256": "c6cda1074c798868e373676a1400858b7d1309af4234aff1b0f1788b75bc59da",
+          "reason": "The original lives-among frame also allowed avec; the quoted semantic distinction makes the answer unique."
+        }
+      ],
+      "afterQuestionSha256": "a502f3042c35b237682127875796b14689026e7e21df59d206ffcb1caaaf8bee"
+    },
+    {
+      "file": "chapter-02-batch-15.json",
+      "key": "ensemble_together",
+      "beforeQuestionSha256": "4453e2984d9333da729db357cca899e03679b988b36da951e8f62098ed81f32b",
+      "after": {
+        "key": "ensemble_together",
+        "form": "ensemble",
+        "lemma": "ensemble",
+        "partOfSpeech": "adverb",
+        "meaning": "together; in each other’s company",
+        "editorialNote": "They plan to make their journey together rather than separately.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 60,
+            "start": 196,
+            "end": 204,
+            "text": "ensemble"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils feront ce voyage ensemble.",
+            "question": "Meaning",
+            "answer": "together",
+            "choices": [
+              "together",
+              "alone",
+              "apart",
+              "later"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les deux voyageurs font le trajet en compagnie l’un de l’autre : ils voyagent ___.",
+            "question": "Complétez la phrase.",
+            "answer": "ensemble",
+            "choices": [
+              "ensemble",
+              "séparément",
+              "individuellement",
+              "isolément"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ensemble indique la compagnie ou la liaison. Séparément et isolément indiquent la séparation, individuellement une action faite par chaque personne pour elle-même.",
+            "question": "Quel adverbe indique la compagnie ou la liaison ?",
+            "answer": "ensemble",
+            "choices": [
+              "ensemble",
+              "séparément",
+              "individuellement",
+              "isolément"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "06f27b93a981b01c6e52d31182e6068fa12526c53b4c42db8520eb96ac05b5c6",
+          "afterSha256": "895d46fcbaf32e88fa4a6bdbf1888370ba5438b3dc0e00927e1e97fe3e7e9591",
+          "reason": "Same-time departure does not guarantee companionship. All four choices are adverbs."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "e07443d7b05b76742b45c9a217669a77aad935c25110fe8f18a7eab1100d0202",
+          "afterSha256": "6900cdecd6a75fa219c6d2ee990559bdf93e2685ed8fe741e365ff4c9e714d3c",
+          "reason": "Generic company/linkage covers both travelers and linked triangles."
+        }
+      ],
+      "afterQuestionSha256": "cf7615b20c928310db916e4d9b05312aaa5d47f89bd338c8bf8fd3ca3288ccb0"
+    },
+    {
+      "file": "chapter-02-batch-15.json",
+      "key": "resolurent_decided",
+      "beforeQuestionSha256": "30cd20dea770db35f94b003ca9c799912aa4733c94bd2924a167f470e4d7e680",
+      "after": {
+        "key": "resolurent_decided",
+        "form": "résolurent",
+        "lemma": "résoudre",
+        "partOfSpeech": "past historic third plural",
+        "meaning": "decided; resolved",
+        "editorialNote": "After their conversation, they decide to make a philosophical trip together.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 60,
+            "start": 176,
+            "end": 186,
+            "text": "résolurent"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils résolurent de faire un voyage.",
+            "question": "Meaning",
+            "answer": "decided",
+            "choices": [
+              "decided",
+              "forgot",
+              "refused",
+              "regretted"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Après réflexion, ils prirent la décision de partir : ils ___ de partir ensemble.",
+            "question": "Complétez la phrase.",
+            "answer": "résolurent",
+            "choices": [
+              "résolurent",
+              "oublièrent",
+              "refusèrent",
+              "regrettèrent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ils résolurent de partir lorsqu’ils prirent la décision. Ils oublièrent le projet s’ils n’y pensèrent plus, refusèrent s’ils le rejetèrent et regrettèrent s’ils en furent désolés.",
+            "question": "Quel verbe marque leur décision ?",
+            "answer": "résolurent",
+            "choices": [
+              "résolurent",
+              "oublièrent",
+              "refusèrent",
+              "regrettèrent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "010d1042069ce4d841a6ffca857128aeaa893c137e374a4a22b2f1be4f9eb81c",
+          "afterSha256": "b09d990e6ed358323743d94ead6bf25e65d5e06ee35ad007b5405c8b32a182bf",
+          "reason": "Exclude forgetting, refusing and regretting, which were possible after reflection alone."
+        }
+      ],
+      "afterQuestionSha256": "247e644e1f0bcd5e07ee25f23164a2cc3411d54c93141a3e96b8df5bcf9b47d6"
+    },
+    {
+      "file": "chapter-03-batch-02.json",
+      "key": "commencais_i_was_beginning",
+      "beforeQuestionSha256": "b75004e6be3ad03e904d8c5dc4f64b3bd97b78e1a48cb60ba710827bbb374164",
+      "after": {
+        "key": "commencais_i_was_beginning",
+        "form": "commençais",
+        "lemma": "commencer",
+        "partOfSpeech": "verb imperfect first singular",
+        "meaning": "I was beginning; I started",
+        "editorialNote": "In chapter III 63:88, commençais means I was beginning; I started. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 63,
+            "start": 88,
+            "end": 98,
+            "text": "commençais"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… t’avoir résisté quinze cents ans, lorsque enfin je commençais à me rendre, quand j’ai à peine passé cent ans entre …",
+            "question": "Meaning",
+            "answer": "was beginning",
+            "choices": [
+              "was beginning",
+              "was ending",
+              "was sleeping",
+              "was forgetting"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "À ce moment, j’entrais seulement dans la première phase de l’action : je ___.",
+            "question": "Complétez la phrase.",
+            "answer": "commençais",
+            "choices": [
+              "commençais",
+              "finissais",
+              "dormais",
+              "oubliais"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Je commençais à céder au début du changement; finissais le termine, dormais décrit le sommeil et oubliais une perte de mémoire.",
+            "question": "Quel mot exprime I was beginning ?",
+            "answer": "commençais",
+            "choices": [
+              "commençais",
+              "finissais",
+              "dormais",
+              "oubliais"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "79072f48a150cade8a1edf9416a2df4433ea42edc3f812ae251ec2896cc94651",
+          "afterSha256": "63cd6d87e6872edc10e8d24059f291ecaf93e7f174ba4cae84fe65955107566c",
+          "reason": "All predicates fit the standalone subject; remove awkward débutais à céder."
+        }
+      ],
+      "afterQuestionSha256": "c0c09fb32d91043f0a371edcccdccf581be570b0660ea041d15d85262dffae7a"
+    },
+    {
+      "file": "chapter-03-batch-12.json",
+      "key": "etais_you_were",
+      "beforeQuestionSha256": "2393040466bf5e027f9a32987a46674c983412d55db1eb52aa79d2d33367aac4",
+      "after": {
+        "key": "etais_you_were",
+        "form": "étais",
+        "lemma": "être",
+        "partOfSpeech": "verb imperfect second singular",
+        "meaning": "you were; you used to be",
+        "editorialNote": "In chapter III 63:289, étais means you were; you used to be. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 63,
+            "start": 289,
+            "end": 294,
+            "text": "étais"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… n’es qu’un curieux, tu n’as jamais eu d’amour : si tu étais un vrai Saturnien, tu serais fidèle. Où vas-tu courir …",
+            "question": "Meaning",
+            "answer": "you were",
+            "choices": [
+              "you were",
+              "you had",
+              "you went",
+              "you saw"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La phrase donne ton identité à cette époque : tu ___ un élève de cette classe.",
+            "question": "Complétez la phrase.",
+            "answer": "étais",
+            "choices": [
+              "étais",
+              "connaissais",
+              "suivais",
+              "admirais"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Tu étais décrit ton état passé; tu avais exprime la possession, allais un déplacement et voyais une perception.",
+            "question": "Quel mot exprime you were ?",
+            "answer": "étais",
+            "choices": [
+              "étais",
+              "avais",
+              "allais",
+              "voyais"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "1f38b06f80c566a5f6dbb0bd344bc3fd96b0b75a7ad6dd040936b594af48be19",
+          "afterSha256": "0e70d5ab5d059022179563bcbbbc04c009df9db46c3570dcbacb15928b1b9839",
+          "reason": "All choices accept a noun phrase as attribute or object. Past identity, not grammar before fidèle, selects être."
+        }
+      ],
+      "afterQuestionSha256": "0eac6c3e13bf39bfd3189859667c7cf8a815795c28d24a198aa6f0b745987db8"
+    },
+    {
+      "file": "chapter-03-batch-03.json",
+      "key": "aimerai_i_will_love",
+      "beforeQuestionSha256": "7e10c687598cd6ddc3a8f9c69198b6c542ab02b71768b15c978cac93b05c1769",
+      "after": {
+        "key": "aimerai_i_will_love",
+        "form": "aimerai",
+        "lemma": "aimer",
+        "partOfSpeech": "verb future first singular",
+        "meaning": "I will love",
+        "editorialNote": "In chapter III 65:25, aimerai means I will love. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 65,
+            "start": 25,
+            "end": 32,
+            "text": "aimerai"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Voilà qui est fait, je n’aimerai jamais plus personne. »",
+            "question": "Meaning",
+            "answer": "will love",
+            "choices": [
+              "will love",
+              "will hate",
+              "will forget",
+              "will fear"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Je lui porterai un attachement affectif à l’avenir : je l’___.",
+            "question": "Complétez la phrase.",
+            "answer": "aimerai",
+            "choices": [
+              "aimerai",
+              "haïrai",
+              "oublierai",
+              "apaiserai"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "J’aimerai exprime un futur attachement; je haïrai un rejet, oublierai une perte du souvenir et apaiserai une diminution de l’agitation.",
+            "question": "Quel verbe exprime le futur attachement affectif ?",
+            "answer": "aimerai",
+            "choices": [
+              "aimerai",
+              "haïrai",
+              "oublierai",
+              "apaiserai"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "4ea863ff28d8397f8a26f94ee6892b5a0527aa7dd9fcdd797fcdccde51fd528d",
+          "afterSha256": "8fb0499ba5295331eee3c104753833a1ecdf17417ed69a5ea74434b1dc49acd9",
+          "reason": "Every choice accepts l’; the old je haïrai/ oublierai required elision and the negative future statement allowed several meanings."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "25735d68c5b3b5c434784919f2f28ed06be88f35c327ea16e5f278d775d5f871",
+          "afterSha256": "65752eac54dd34413944596310ac295b6256b54169256352e35bf8a5a467daf0",
+          "reason": "Keep the same compatible options across the bank."
+        }
+      ],
+      "afterQuestionSha256": "7621e4719cf78102c523827ed539d8029d121faaa9d7bd15d5e9875322082b10"
+    },
+    {
+      "file": "chapter-03-batch-03.json",
+      "key": "petit_maitre_fashionable_young_gallant",
+      "beforeQuestionSha256": "ddb106a2d7a4481a79121fc88cac41337460461a1b76429e1f0035e57bffa564",
+      "after": {
+        "key": "petit_maitre_fashionable_young_gallant",
+        "form": "petit-maître",
+        "lemma": "petit-maître",
+        "partOfSpeech": "noun masculine singular historical",
+        "meaning": "fashionable young gallant; affected dandy",
+        "editorialNote": "In chapter III 66:131, petit-maître means fashionable young gallant; affected dandy. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 66,
+            "start": 131,
+            "end": 143,
+            "text": "petit-maître"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… la dame, après s’être pâmée, alla se consoler avec un petit-maître du pays.",
+            "question": "Meaning",
+            "answer": "fashionable gallant",
+            "choices": [
+              "fashionable gallant",
+              "young servant",
+              "primary teacher",
+              "small king"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cet élégant affecté se donne de l’importance auprès des femmes : c’est un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "petit-maître",
+            "choices": [
+              "petit-maître",
+              "valet",
+              "précepteur",
+              "monarque"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le petit-maître est un élégant affecté qui se donne de l’importance auprès des femmes. Le valet sert, le précepteur enseigne et le monarque règne.",
+            "question": "Quel nom désigne l’élégant affecté ?",
+            "answer": "petit-maître",
+            "choices": [
+              "petit-maître",
+              "valet",
+              "précepteur",
+              "monarque"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "93b28324dc5f9193bea9ea9000072e4b0ef772e49dddaa7aa4e10d9a56f0a158",
+          "afterSha256": "a5a45ca4e6c0236d87cb51967591ee45d14789696abddea0d8fb1adc743b06e0",
+          "reason": "Four masculine singular nouns, with a specific historical dandy meaning rather than ambiguous jeune maître."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "3d952159e58ec40416bacf1857548e0a9a2aedf0387165801aa2d2ef645826f1",
+          "afterSha256": "d151da63850167fea9833916ee3a2f2bd3fb26224edded02175f8008e9aee7fa",
+          "reason": "Remove the unsupported assumption that every young master is a teacher."
+        }
+      ],
+      "afterQuestionSha256": "35276150e1deb190904c003defb2ef2774c2d96b98fcb616089e9ebe174fc326"
+    },
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "eurent_had",
+      "beforeQuestionSha256": "bb079140f0368580af1e96259dd30c892f13c0f6cf678e3643dcf9dbce1a2842",
+      "after": {
+        "key": "eurent_had",
+        "form": "eurent",
+        "lemma": "avoir",
+        "partOfSpeech": "past historic third plural auxiliary",
+        "meaning": "had; auxiliary in past anterior",
+        "editorialNote": "In chapter III 69:10, eurent means had; auxiliary in past anterior. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 69,
+            "start": 10,
+            "end": 16,
+            "text": "eurent"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Quand ils eurent fait environ cent cinquante millions de lieues, ils …",
+            "question": "Meaning",
+            "answer": "had",
+            "choices": [
+              "had",
+              "did",
+              "never",
+              "might"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans « ils eurent fait le trajet », l’élément ___ est l’auxiliaire avoir qui forme le temps composé.",
+            "question": "Complétez la phrase.",
+            "answer": "eurent",
+            "choices": [
+              "eurent",
+              "prirent",
+              "virent",
+              "furent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Dans « ils eurent fait le trajet », eurent est l’auxiliaire avoir. Prirent exprime prendre, virent voir et furent être.",
+            "question": "Quel mot est ici l’auxiliaire avoir ?",
+            "answer": "eurent",
+            "choices": [
+              "eurent",
+              "prirent",
+              "virent",
+              "furent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "fbeac3fd1b471aaed7e3a8f86e95aab62f90300f6b04c7f08d13fcd371db32e8",
+          "afterSha256": "3e515daab809c6787d03c1ecbb58b7a1d3965abdd4ac3898ac6a0305570b4f9f",
+          "reason": "All choices are third-plural verbs in a quoted-label frame. Test the auxiliary meaning, not tense agreement."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "c32a92be7116a99cf0bdd115ffcd3fa725cd965b7a7ec3235f31a7d61e44458d",
+          "afterSha256": "dc5e7238f5a2799ef61479a56eb99e3fc873b76fd40ea9954acd01fdf6746087",
+          "reason": "No new past-anterior-only meaning; preserve the retained auxiliary owner."
+        }
+      ],
+      "afterQuestionSha256": "2aeacb5dc5ab7b96f54fc4111fb6f928e59a92ed719b7bc8e31879fb8ca44099"
+    },
+    {
+      "file": "chapter-02-batch-13.json",
+      "key": "primitives_primary",
+      "beforeQuestionSha256": "ff04f26b21be18d62d77bdee3a98b04bfb5c0aed9c319c4566d4b3137faaee3f",
+      "after": {
+        "key": "primitives_primary",
+        "form": "primitives",
+        "lemma": "primitif",
+        "partOfSpeech": "adjective feminine plural",
+        "meaning": "primary; basic",
+        "editorialNote": "Couleurs primitives are the supposed basic hues rather than colors derived from others in the characters’ cosmology.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 55,
+            "start": 266,
+            "end": 276,
+            "text": "primitives"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il compte les couleurs primitives.",
+            "question": "Meaning",
+            "answer": "primary",
+            "choices": [
+              "primary",
+              "mixed",
+              "faded",
+              "hidden"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces teintes sont présentées comme premières et fondamentales, et non obtenues par mélange : elles sont ___.",
+            "question": "Complétez la phrase.",
+            "answer": "primitives",
+            "choices": [
+              "primitives",
+              "mélangées",
+              "dérivées",
+              "secondaires"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les couleurs primitives sont présentées comme fondamentales. Les couleurs mélangées résultent d’un mélange, dérivées viennent d’autres et secondaires ne sont pas premières.",
+            "question": "Quel adjectif désigne les couleurs de base ?",
+            "answer": "primitives",
+            "choices": [
+              "primitives",
+              "mélangées",
+              "dérivées",
+              "secondaires"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "34626a1063b8b05f5d1f72fb2d8836decb3c4d5ac74c93d8054a7aa492328fed",
+          "afterSha256": "c4b7031a7a37e91af448abf701fc1bf49b341b823f317786c699f326fe4931d6",
+          "reason": "Exclude mixed and derived colors explicitly."
+        }
+      ],
+      "afterQuestionSha256": "29eda3b3890eadc66a2ea88b6a5bcf49a452dd3e3e8b41e7a46af9702c3934b3"
+    },
+    {
+      "file": "chapter-03-batch-02.json",
+      "key": "curieux_curious_person",
+      "beforeQuestionSha256": "dca64e00ae7d0fc4dcb9d8377e197907687461dd5164d0958aa08808862a37fd",
+      "after": {
+        "key": "curieux_curious_person",
+        "form": "curieux",
+        "lemma": "curieux",
+        "partOfSpeech": "noun masculine plural or singular",
+        "meaning": "curious person; someone eager to see",
+        "editorialNote": "In chapter III 63:246, curieux means curious person; someone eager to see. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 63,
+            "start": 246,
+            "end": 253,
+            "text": "curieux"
+          },
+          {
+            "chapter": 3,
+            "unit": 67,
+            "start": 19,
+            "end": 26,
+            "text": "curieux"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… avec un géant d’un autre monde ; va, tu n’es qu’un curieux, tu n’as jamais eu d’amour : si tu étais un vrai …",
+            "question": "Meaning",
+            "answer": "curious person",
+            "choices": [
+              "curious person",
+              "indifferent person",
+              "hostile person",
+              "sleeping person"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il désire voir et découvrir des choses nouvelles, même sans nécessité pratique : c’est un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "curieux",
+            "choices": [
+              "curieux",
+              "indifférent",
+              "ennemi",
+              "somnambule"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le curieux veut découvrir; l’indifférent n’y tient pas, l’ennemi s’y oppose et le somnambule marche en dormant.",
+            "question": "Quel mot exprime curious person ?",
+            "answer": "curieux",
+            "choices": [
+              "curieux",
+              "indifférent",
+              "ennemi",
+              "somnambule"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "8670a4721270e17c4bf21ebea762c6b8c5429bdb5c8371dc6309e6b4803e4915",
+          "afterSha256": "36581fafd4488ebc7b6288aeb9c1bec5fcd9deb95124933c9ebc6c9e7d5bbce6",
+          "reason": "Name the curiosity meaning directly; travel alone need not imply curiosity."
+        }
+      ],
+      "afterQuestionSha256": "c9f54f011119d92b0518658f5a581f3ed44e1cb77297e5ba0a332853ccca0835"
+    },
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "domestiques_servants",
+      "beforeQuestionSha256": "8ebdab86847457d6cea25f4e88e8c6990fc6375b7b46a235a7eb867066b07205",
+      "after": {
+        "key": "domestiques_servants",
+        "form": "domestiques",
+        "lemma": "domestique",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "servants; household staff",
+        "editorialNote": "In chapter III 68:85, domestiques means servants; household staff. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 68,
+            "start": 85,
+            "end": 96,
+            "text": "domestiques"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… de la dernière ; ils s’élancèrent sur elle avec leurs domestiques et leurs instruments.",
+            "question": "Meaning",
+            "answer": "servants",
+            "choices": [
+              "servants",
+              "rulers",
+              "guests",
+              "enemies"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces employés sont au service de leur maison et les accompagnent : leurs ___.",
+            "question": "Complétez la phrase.",
+            "answer": "domestiques",
+            "choices": [
+              "domestiques",
+              "maîtres",
+              "invités",
+              "ennemis"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les domestiques travaillent au service d’autrui; les maîtres les dirigent, les invités sont reçus et les ennemis s’opposent.",
+            "question": "Quel mot exprime servants ?",
+            "answer": "domestiques",
+            "choices": [
+              "domestiques",
+              "maîtres",
+              "invités",
+              "ennemis"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d78ac25f1b751dd2aa998ed305aa4000b7173b1933db36ca30e5dd972f3e9318",
+          "afterSha256": "33eeb2f327e26043673738ed25508fcb26d84a0850799a0f99d15d30a0f8782e",
+          "reason": "Accompanying employees alone could also be guests; household service selects the noun."
+        }
+      ],
+      "afterQuestionSha256": "ca67f58be8efec7f3657f3f7dbfacda575f39bce1fc6184646b181db422f0a2f"
+    },
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "satellites_natural_satellites",
+      "beforeQuestionSha256": "1fbe02e5802acdb4c75ff9c337e6bfb8e5da13994c283d87ca78f5abd1b64f1e",
+      "after": {
+        "key": "satellites_natural_satellites",
+        "form": "satellites",
+        "lemma": "satellite",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "natural satellites; orbiting bodies",
+        "editorialNote": "In chapter III 69:87, satellites means natural satellites; orbiting bodies. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 69,
+            "start": 87,
+            "end": 97,
+            "text": "satellites"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… cinquante millions de lieues, ils rencontrèrent les satellites de Jupiter.",
+            "question": "Meaning",
+            "answer": "natural satellites",
+            "choices": [
+              "natural satellites",
+              "stars",
+              "planets",
+              "asteroids"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces corps célestes naturels tournent autour de Jupiter, et ne sont ni des bandes annulaires ni des étoiles : ses ___.",
+            "question": "Complétez la phrase.",
+            "answer": "satellites",
+            "choices": [
+              "satellites",
+              "soleils",
+              "nuages",
+              "anneaux"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les satellites tournent autour de Jupiter; les soleils sont des étoiles, les nuages des vapeurs et les anneaux entourent une planète.",
+            "question": "Quel mot exprime natural satellites ?",
+            "answer": "satellites",
+            "choices": [
+              "satellites",
+              "soleils",
+              "nuages",
+              "anneaux"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "b5b7c5b4dbd8cd250668046d012faa1ba7aa137cbb3f07dd6602ed596b97d5c1",
+          "afterSha256": "654342f4c79858aff4ee188d0ddcd635dbd862357b02a28dda6758eab9cc389a",
+          "reason": "Distinguish celestial bodies from the orbiting ring alternative."
+        }
+      ],
+      "afterQuestionSha256": "bf8b9d67015b05cbf6acaacddbcc4475d5bcb86ea9223e4592ab8eef4d77fe58"
+    },
+    {
+      "file": "chapter-03-batch-13.json",
+      "key": "passait_was_passing_by",
+      "beforeQuestionSha256": "e6df57ba0f06fe6291a9c06160882d4857621f0cf3b73d05611f4611bcf17ce2",
+      "after": {
+        "key": "passait_was_passing_by",
+        "form": "passait",
+        "lemma": "passer",
+        "partOfSpeech": "verb imperfect third singular motion",
+        "meaning": "was passing by; moved nearby",
+        "editorialNote": "In chapter III 68:11, passait means was passing by; moved nearby. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 68,
+            "start": 11,
+            "end": 18,
+            "text": "passait"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Une comète passait tout auprès de la dernière ; ils s’élancèrent sur elle …",
+            "question": "Meaning",
+            "answer": "was passing",
+            "choices": [
+              "was passing",
+              "happened",
+              "vanished",
+              "slept"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La comète se déplaçait près de la lune : elle y ___.",
+            "question": "Complétez la phrase.",
+            "answer": "passait",
+            "choices": [
+              "passait",
+              "demeurait",
+              "disparaissait",
+              "dormait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Elle passait auprès de la lune en se déplaçant; demeurait si elle restait, disparaissait si elle s’effaçait et dormait si elle se reposait.",
+            "question": "Quel mot exprime was passing by ?",
+            "answer": "passait",
+            "choices": [
+              "passait",
+              "demeurait",
+              "disparaissait",
+              "dormait"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "983bee9fd11b160bd9aa72079d811cf9dba30db6e10f0f6aa1ed33e6b062b509",
+          "afterSha256": "88af43c8b611746d87a097fc59c09ca86520a3f3969a9b3d4d34321f02f8b8ee",
+          "reason": "Translate passait alone; nearby belongs to the unhighlighted auprès phrase."
+        }
+      ],
+      "afterQuestionSha256": "2adbf21bb2b759dc2f25572711bea646e50dfb19b08aaebd28a324c0fb0a17b4"
+    },
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "plat_flat",
+      "beforeQuestionSha256": "f51d935fd8becca6ac092f93481cfd1788880896e6de9362bcba4daee4641f15",
+      "after": {
+        "key": "plat_flat",
+        "form": "plat",
+        "lemma": "plat",
+        "partOfSpeech": "adjective masculine singular",
+        "meaning": "flat; level",
+        "editorialNote": "In chapter III 67:99, plat means flat; level. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 67,
+            "start": 99,
+            "end": 103,
+            "text": "plat"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… d’abord sur l’anneau, qu’ils trouvèrent assez plat, comme l’a fort bien deviné un illustre habitant de …",
+            "question": "Meaning",
+            "answer": "flat",
+            "choices": [
+              "flat",
+              "round",
+              "steep",
+              "curved"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cet anneau présente une surface plane, sans bosse, creux ni ondulation : il est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "plat",
+            "choices": [
+              "plat",
+              "bosselé",
+              "raviné",
+              "ondulé"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Plat décrit une surface plane sans relief. Bosselé indique des bosses, raviné des creux et ondulé des ondulations.",
+            "question": "Quel adjectif indique une surface plane sans relief ?",
+            "answer": "plat",
+            "choices": [
+              "plat",
+              "bosselé",
+              "raviné",
+              "ondulé"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c572b97fa018dea64404c15c3d3e655158d49d3ffa03656ac1813b7f8a6742bb",
+          "afterSha256": "de1a58fa21babac0ca7502f3018766c74ebc2a0f8834acab52ab78d44b34b2c7",
+          "reason": "Four masculine singular adjectives distinguish flatness from three kinds of relief; roundness could coexist with flatness."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "b132f475cd53b5a2acbb94c9d9745e434b6055743a03b0a9d6c9875c9b69da4c",
+          "afterSha256": "5daa899b4190bc8317a25b33e54737a51b4800b2f18c9392b4aafd430988f208",
+          "reason": "Use the same semantic relief contrast in the upper band."
+        }
+      ],
+      "afterQuestionSha256": "d9d0acfc350a1ac920e6c0ed4ea468a50e91067f23a157007ba730797aed83a9"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 22,
+    "refinedQuestionBands": 37
+  },
+  "policy": "Manual exact-revision question choices and meaning cues; original banks, publication and mastery preserved."
+}

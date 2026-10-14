@@ -1,6 +1,7 @@
 import type { ContentBundle } from "../domain/model.js";
 import type { ExpressionCatalog } from "../domain/expression-content.js";
 import { vocabularyIdentityKey } from "../domain/model.js";
+import { expressionMasteryKey } from "../domain/runtime.js";
 
 export const READING_SECTION_TARGET_WORDS = 120;
 export const READING_SECTION_MIN_WORDS = 80;
@@ -149,6 +150,7 @@ export function createDeliveryPackages(bundle: ContentBundle, expressionCatalog:
     const authorIds = new Set(collections.map((collection) => collection.authorId));
     const expressionOccurrences = expressionCatalog.occurrences.filter((occurrence) => workIds.has(occurrence.workId));
     const expressionIds = new Set(expressionOccurrences.map((occurrence) => occurrence.identityId));
+    const expressionKeys = new Set(expressionOccurrences.map((occurrence) => expressionMasteryKey(occurrence.identityId, occurrence.surfaceId)));
     const filteredLocations = Object.fromEntries(Object.entries(identityLocations).flatMap(([identity, locations]) => {
       const relevant = locations.filter((location) => workIds.has(location.workId));
       return relevant.length ? [[identity, relevant]] : [];
@@ -156,7 +158,7 @@ export function createDeliveryPackages(bundle: ContentBundle, expressionCatalog:
     const workIndex = Object.fromEntries(works.map((work) => [work.id, {
       sectionCount: manifest.works[work.id]?.sectionCount ?? 0,
       vocabularyIdentityKeys: Object.entries(filteredLocations).filter(([, locations]) => locations.some((location) => location.workId === work.id)).map(([identity]) => identity),
-      expressionIdentityKeys: [...new Set(expressionOccurrences.filter((occurrence) => occurrence.workId === work.id).map((occurrence) => occurrence.identityId))],
+      expressionIdentityKeys: [...new Set(expressionOccurrences.filter((occurrence) => occurrence.workId === work.id).map((occurrence) => occurrence.surfaceId ? `${occurrence.surfaceId}:${occurrence.identityId}` : occurrence.identityId))],
     }]));
     const libraryIndex: LanguageLibraryIndex = {
       version: 1,
@@ -177,7 +179,7 @@ export function createDeliveryPackages(bundle: ContentBundle, expressionCatalog:
       expressionCatalog: {
         identities: expressionCatalog.identities.filter((identity) => expressionIds.has(identity.id)),
         occurrences: expressionOccurrences,
-        preparedQuizzes: expressionCatalog.preparedQuizzes.filter((quiz) => expressionIds.has(quiz.expressionId)),
+        preparedQuizzes: expressionCatalog.preparedQuizzes.filter((quiz) => expressionKeys.has(expressionMasteryKey(quiz.expressionId, quiz.surfaceId))),
       },
       quizBatchForIdentity: Object.fromEntries(Object.keys(filteredLocations).flatMap((identity) => quizBatchForIdentity[identity] === undefined ? [] : [[identity, quizBatchForIdentity[identity]]])),
       identityLocations: filteredLocations,

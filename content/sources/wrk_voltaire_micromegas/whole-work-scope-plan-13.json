@@ -1,0 +1,650 @@
+{
+  "version": 1,
+  "status": "offline_prise_noun_scope_reconciliation_unapplied",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "masteryPolicy": "Keep every legacy record and unchanged generic meaning. Corrected generic noun meaning starts at Level1 only on exact thought-unit view. No copied mastery, reset, bulk encounter, microscope/abstract/gender-only sense, inactive socket-bank reactivation, queue subtraction or publication approval.",
+  "impacts": [
+    {
+      "key": "prise-noun",
+      "file": "whole-work-impact-prise-noun-13.json",
+      "sha256": "032fa190331e3968b8f1ad8bb166b429900d06e51ee3ac3302fb3ed2e9002059"
+    }
+  ],
+  "published": [],
+  "historical": [
+    {
+      "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_advanced",
+      "before": {
+        "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_advanced",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_parure_prise_lem_parure_prise_noun_bad9b46f7e_f6b34cddd9",
+          "senseId": "sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca"
+        },
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "context": "Dans cette situation, le mot « prise » exprime précisément ceci : Faculté de prendre, de saisir.. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "prompt": "Quel mot du contexte signifie « Faculté de prendre, de saisir. » ?",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "prise"
+          },
+          {
+            "id": "choice_2",
+            "text": "fenêtre"
+          },
+          {
+            "id": "choice_3",
+            "text": "cahier"
+          },
+          {
+            "id": "choice_4",
+            "text": "jardin"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "reviewNote": "Read all three inactive noun bands: the early key teaches an electrical socket, while the definition and later templates teach seizing capacity. The middle mixes masculine and feminine nouns, and the upper quotes its answer. No active source supports the socket gloss here. Retain the conflicting sense metadata and every historical question/mastery record unchanged and prohibit their reactivation for microscope efficacy. A fresh correct generic noun meaning on the same proper lemma avoids transferring legacy socket mastery into grip/efficacy."
+    },
+    {
+      "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_intermediate",
+      "before": {
+        "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_intermediate",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_parure_prise_lem_parure_prise_noun_bad9b46f7e_f6b34cddd9",
+          "senseId": "sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca"
+        },
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "context": "Le terme précis pour exprimer « Faculté de prendre, de saisir. » est _____.",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "prise"
+          },
+          {
+            "id": "choice_2",
+            "text": "fenêtre"
+          },
+          {
+            "id": "choice_3",
+            "text": "cahier"
+          },
+          {
+            "id": "choice_4",
+            "text": "jardin"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "reviewNote": "Read all three inactive noun bands: the early key teaches an electrical socket, while the definition and later templates teach seizing capacity. The middle mixes masculine and feminine nouns, and the upper quotes its answer. No active source supports the socket gloss here. Retain the conflicting sense metadata and every historical question/mastery record unchanged and prohibit their reactivation for microscope efficacy. A fresh correct generic noun meaning on the same proper lemma avoids transferring legacy socket mastery into grip/efficacy."
+    },
+    {
+      "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_early",
+      "before": {
+        "id": "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_early",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_parure_prise_lem_parure_prise_noun_bad9b46f7e_f6b34cddd9",
+          "senseId": "sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca"
+        },
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "context": "Le professeur emploie « prise » pour exprimer cette idée : Faculté de prendre, de saisir..",
+        "targetText": "prise",
+        "targetRange": {
+          "start": 24,
+          "end": 29
+        },
+        "prompt": "Meaning",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "socket, wall socket (also prise électrique)"
+          },
+          {
+            "id": "choice_2",
+            "text": "a window"
+          },
+          {
+            "id": "choice_3",
+            "text": "a notebook"
+          },
+          {
+            "id": "choice_4",
+            "text": "a garden"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "reviewNote": "Read all three inactive noun bands: the early key teaches an electrical socket, while the definition and later templates teach seizing capacity. The middle mixes masculine and feminine nouns, and the upper quotes its answer. No active source supports the socket gloss here. Retain the conflicting sense metadata and every historical question/mastery record unchanged and prohibit their reactivation for microscope efficacy. A fresh correct generic noun meaning on the same proper lemma avoids transferring legacy socket mastery into grip/efficacy."
+    }
+  ],
+  "wordChanges": [],
+  "senseChanges": [],
+  "plannedSenseGroups": [
+    {
+      "key": "generic_grip_efficacy",
+      "lemmaId": "lem_parure_prise_noun_bad9b46f7e",
+      "headword": "prise",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "plannedTarget": "planned_prise_generic_grip_efficacy",
+      "meaning": "grip; means of grasping or acting on",
+      "definition": "Moyen ou faculté de saisir quelque chose ou d’avoir une action sur lui, matériellement ou figurément.",
+      "reviewNote": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121."
+    }
+  ],
+  "candidate": [
+    {
+      "unit": 121,
+      "chapter": 5,
+      "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+      "contextSha256": "454ec6477f4de8bb5f55e6f2baadc0231a6826a51cd516cff63b997b57d14eca",
+      "tokens": [
+        {
+          "start": 90,
+          "end": 95,
+          "text": "prise",
+          "normalized": "prise",
+          "route": "planned_prise_generic_grip_efficacy",
+          "reviewNote": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121."
+        }
+      ]
+    }
+  ],
+  "candidateBindings": [
+    {
+      "file": "chapter-05-held-batch-01.json",
+      "key": "prise_chapter_05_held_01_121",
+      "fileSha256": "0f7c935747eb6c2ef2e95164bf6fc0d77173feaee3d28109d4035b04111bcb22",
+      "before": {
+        "key": "prise_chapter_05_held_01_121",
+        "form": "prise",
+        "lemma": "prise",
+        "partOfSpeech": "noun feminine singular in avoir prise sur",
+        "meaning": "purchase; ability to affect or resolve",
+        "sourceOccurrences": [
+          {
+            "unit": 121,
+            "start": 90,
+            "end": 95,
+            "text": "prise",
+            "chapter": 5
+          }
+        ],
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "editorialNote": "The microscope had no prise sur tiny humans, meaning it could not resolve them; published questions teach taking someone for another person. This is an offline draft; final question and identity QA remain pending.",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+            "targetText": "prise",
+            "question": "What does the highlighted word mean here?",
+            "answer": "effective purchase; ability to resolve",
+            "choices": [
+              "effective purchase; ability to resolve",
+              "grasping a book",
+              "an electrical outlet",
+              "a military capture"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La baleine est visible, mais les hommes restent indiscernables : le microscope n’a pas de ___ sur eux.",
+            "question": "Complétez la phrase.",
+            "answer": "prise",
+            "choices": [
+              "prise",
+              "mesure",
+              "force",
+              "cause"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’instrument ne pouvait pas discerner les êtres minuscules.",
+            "question": "Quel mot convient ?",
+            "answer": "prise",
+            "choices": [
+              "prise",
+              "mesure",
+              "force",
+              "cause"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "key": "prise_chapter_05_held_01_121",
+        "form": "prise",
+        "lemma": "prise",
+        "partOfSpeech": "noun feminine singular in avoir prise sur",
+        "meaning": "grip; means of grasping or acting on",
+        "sourceOccurrences": [
+          {
+            "unit": 121,
+            "start": 90,
+            "end": 95,
+            "text": "prise",
+            "chapter": 5
+          }
+        ],
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "editorialNote": "The microscope had no prise sur tiny humans, meaning it could not resolve them; published questions teach taking someone for another person. This is an offline draft; final question and identity QA remain pending.",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+            "targetText": "prise",
+            "question": "What does the highlighted word mean here?",
+            "answer": "grip; means of grasping or acting on",
+            "choices": [
+              "grip; means of grasping or acting on",
+              "colour",
+              "taste",
+              "smell"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’instrument n’offre aucun moyen de saisir ou de discerner cet objet ; on parle de cette faculté plutôt que de sa teinte, de son goût ou de son odeur : sa ___ est nulle.",
+            "question": "Complétez la phrase.",
+            "answer": "prise",
+            "choices": [
+              "prise",
+              "couleur",
+              "saveur",
+              "odeur"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom féminin désigne un moyen de saisir quelque chose ou d’avoir une action sur lui, plutôt que sa teinte, son goût ou son odeur ?",
+            "question": "Quel mot convient ?",
+            "answer": "prise",
+            "choices": [
+              "prise",
+              "couleur",
+              "saveur",
+              "odeur"
+            ]
+          }
+        ]
+      },
+      "identityTarget": "planned_prise_generic_grip_efficacy",
+      "questionSha256": "495a7d3de305a8ee4a701731770ad92c8d29fdccff5cd4ff3cb2df1fe77fdba7",
+      "afterQuestionSha256": "087d843c4088ee40681aa19dea938051c8f147799efa97210c43136d049b7aa2",
+      "sourceOccurrences": [
+        {
+          "unit": 121,
+          "start": 90,
+          "end": 95,
+          "text": "prise",
+          "chapter": 5,
+          "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes."
+        }
+      ],
+      "reviewNote": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121. Read all three original and replacement candidate bands. The fresh generic bank includes physical grip and figurative action, with the optical-discernment application inferred from the entire actual passage. All four middle choices prise/couleur/saveur/odeur are feminine singular nouns agreeing with sa and nulle; faculty of action rather than colour, taste or smell alone selects prise. Replace force, which could overlap with effective action, and retain the original immutable bank as evidence."
+    }
+  ],
+  "newWordBanks": [],
+  "newExpressions": [],
+  "phraseComponents": [],
+  "candidatePhraseComponents": [],
+  "legacyComponentBanks": [],
+  "priorBindings": [
+    {
+      "file": "chapter-05-identity-packet.json",
+      "fileSha256": "950e86702876a43b38dea48dbaf63dfa99911b6ad338191edb9a8e322b0ca988",
+      "selector": {
+        "key": "prise_chapter_05_held_01_121"
+      },
+      "before": {
+        "key": "prise_chapter_05_held_01_121",
+        "form": "prise",
+        "lemma": "prise",
+        "meaning": "purchase; ability to affect or resolve",
+        "partOfSpeech": "noun feminine singular in avoir prise sur",
+        "batchFile": "chapter-05-held-batch-01.json",
+        "sourceOccurrences": [
+          {
+            "unit": 121,
+            "start": 90,
+            "end": 95,
+            "text": "prise",
+            "chapter": 5
+          }
+        ],
+        "questionSha256": "495a7d3de305a8ee4a701731770ad92c8d29fdccff5cd4ff3cb2df1fe77fdba7",
+        "sourceOccurrencesSha256": "088eddb22b646e767488a6407220e3e038038581460e1b6f4708ae33b53066a4",
+        "publishedExact": [
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_fr_prendre_adopt_measure",
+            "gloss": "to take; to adopt",
+            "definition": "Adopter une décision, une disposition ou une mesure.",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_fr_prendre_son_parti_accept",
+            "gloss": "to accept; to resign oneself (prendre son parti)",
+            "definition": "Dans prendre son parti de, accepter une situation à laquelle on ne peut rien changer.",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_fr_prendre_note_record",
+            "gloss": "to note; to record",
+            "definition": "Noter ou relever une information pour la conserver.",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_fr_prendre_regard_as",
+            "gloss": "take for; regard as",
+            "definition": "Considérer une personne ou une chose comme étant autre chose, souvent par erreur, avec pour.",
+            "questionIds": [
+              "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_6_8",
+              "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_1_3",
+              "qiz_fr_prendre_regard_as_fr_prise_prendre_verb_levels_4_5"
+            ]
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_prendre_primary",
+            "gloss": "catch; trick",
+            "definition": "To catch or deceive someone by means of a ruse",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_zola_prendre_acquire",
+            "gloss": "takes; gains",
+            "definition": "forme du présent de prendre, indiquant l’acquisition d’une force ou d’un état",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_fr_prendre_commitment",
+            "gloss": "to undertake (a commitment)",
+            "definition": "S’engager à accomplir quelque chose, notamment dans prendre un engagement.",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_parure_prendre_saisir_mettre_en_sa_main_d76a9c8f6e",
+            "gloss": "to take",
+            "definition": "Saisir, mettre en sa main.",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3",
+            "gloss": "caught; trapped",
+            "definition": "capturé et retenu dans un piège",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_fr_prise_prendre_verb:sns_zola_prendre_charge",
+            "gloss": "take charge of; take up",
+            "definition": "s’occuper activement d’une affaire ou l’assumer",
+            "questionIds": []
+          },
+          {
+            "identity": "srf_parure_prise_lem_parure_prise_noun_bad9b46f7e_f6b34cddd9:sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca",
+            "gloss": "socket, wall socket (also prise électrique)",
+            "definition": "Faculté de prendre, de saisir.",
+            "questionIds": [
+              "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_advanced",
+              "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_intermediate",
+              "qiz_parure_prise_sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca_abb64160fa_early"
+            ]
+          }
+        ],
+        "publishedLemmaCandidates": [
+          {
+            "lemmaId": "lem_parure_prise_noun_bad9b46f7e",
+            "partOfSpeech": "noun",
+            "senses": [
+              {
+                "senseId": "sns_parure_prise_faculte_de_prendre_de_saisir_f7732988ca",
+                "gloss": "socket, wall socket (also prise électrique)",
+                "definition": "Faculté de prendre, de saisir."
+              }
+            ]
+          }
+        ],
+        "relatedEarlierPlans": [],
+        "status": "identity_route_editorial_decision_pending"
+      },
+      "reason": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121. Keep the earlier existing-noun-lemma proposal exactly; now supply an explicit generic target, semantic question overlays and no inactive socket-bank reactivation. Neither the noun/verb homograph nor physical/figurative application alone changes lexical ownership or splits this generic meaning."
+    },
+    {
+      "file": "chapter-05-identity-plan.json",
+      "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+      "selector": {
+        "key": "prise_chapter_05_held_01_121"
+      },
+      "before": {
+        "key": "prise_chapter_05_held_01_121",
+        "form": "prise",
+        "lemma": "prise",
+        "meaning": "purchase; ability to affect or resolve",
+        "batchFile": "chapter-05-held-batch-01.json",
+        "questionSha256": "495a7d3de305a8ee4a701731770ad92c8d29fdccff5cd4ff3cb2df1fe77fdba7",
+        "sourceOccurrencesSha256": "088eddb22b646e767488a6407220e3e038038581460e1b6f4708ae33b53066a4",
+        "sourceUseCount": 1,
+        "route": "new_sense_existing_lemma",
+        "targetLemmaId": "lem_parure_prise_noun_bad9b46f7e",
+        "rationale": "A microscope’s resolving purchase on a tiny object differs from an electrical outlet and the unrelated past participle prise.",
+        "status": "offline_identity_route_pending_complete_work_import"
+      },
+      "reason": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121. Keep the earlier existing-noun-lemma proposal exactly; now supply an explicit generic target, semantic question overlays and no inactive socket-bank reactivation. Neither the noun/verb homograph nor physical/figurative application alone changes lexical ownership or splits this generic meaning."
+    }
+  ],
+  "priorScopeBindings": [
+    {
+      "file": "whole-work-scope-plan-11.json",
+      "fileSha256": "972d2e8085e38dbcf6cac1255ab347a2438b5057c55224d6def7d79ad812dd63",
+      "field": "candidate",
+      "selector": {
+        "unit": 121
+      },
+      "before": {
+        "unit": 121,
+        "chapter": 5,
+        "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+        "contextSha256": "454ec6477f4de8bb5f55e6f2baadc0231a6826a51cd516cff63b997b57d14eca",
+        "tokens": [
+          {
+            "start": 90,
+            "end": 95,
+            "text": "prise",
+            "normalized": "prise",
+            "route": "retain_prior_prise_noun_pending_own_family_scope",
+            "reviewNote": "Read the full passage and every dependent current word bank. Preserve the proper prendre verb and every genuine taking, capture, trick, note-taking, identification, acquisition, commitment and responsibility meaning/record. Present/past/future, number and participial agreement do not create new meanings. A desire or fancy arising in someone shares one generic onset meaning across both forms. Complete resigning/caught-in-action phrase ownership remains an explicit follow-on dependency; this package does not grant those component banks fresh approval or silently replace the existing full prendre en main plan. Unit122 adopts an approximate height as a starting datum; it does not describe an act of measuring. The independent noun prise in the microscope source retains its proper noun proposal and is not a prendre participle. The pen-taking source preserves generic taking with its ordinary writing metonym, without an abstract-only fresh word meaning."
+          }
+        ]
+      },
+      "reason": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121."
+    },
+    {
+      "file": "whole-work-scope-plan-11.json",
+      "fileSha256": "972d2e8085e38dbcf6cac1255ab347a2438b5057c55224d6def7d79ad812dd63",
+      "field": "homographBankBindings",
+      "selector": {
+        "key": "prise_chapter_05_held_01_121"
+      },
+      "before": {
+        "file": "chapter-05-held-batch-01.json",
+        "key": "prise_chapter_05_held_01_121",
+        "fileSha256": "0f7c935747eb6c2ef2e95164bf6fc0d77173feaee3d28109d4035b04111bcb22",
+        "before": {
+          "key": "prise_chapter_05_held_01_121",
+          "form": "prise",
+          "lemma": "prise",
+          "partOfSpeech": "noun feminine singular in avoir prise sur",
+          "meaning": "purchase; ability to affect or resolve",
+          "sourceOccurrences": [
+            {
+              "unit": 121,
+              "start": 90,
+              "end": 95,
+              "text": "prise",
+              "chapter": 5
+            }
+          ],
+          "status": "offline_contextual_question_draft_pending_editorial_review",
+          "editorialNote": "The microscope had no prise sur tiny humans, meaning it could not resolve them; published questions teach taking someone for another person. This is an offline draft; final question and identity QA remain pending.",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+              "targetText": "prise",
+              "question": "What does the highlighted word mean here?",
+              "answer": "effective purchase; ability to resolve",
+              "choices": [
+                "effective purchase; ability to resolve",
+                "grasping a book",
+                "an electrical outlet",
+                "a military capture"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "La baleine est visible, mais les hommes restent indiscernables : le microscope n’a pas de ___ sur eux.",
+              "question": "Complétez la phrase.",
+              "answer": "prise",
+              "choices": [
+                "prise",
+                "mesure",
+                "force",
+                "cause"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "L’instrument ne pouvait pas discerner les êtres minuscules.",
+              "question": "Quel mot convient ?",
+              "answer": "prise",
+              "choices": [
+                "prise",
+                "mesure",
+                "force",
+                "cause"
+              ]
+            }
+          ]
+        },
+        "after": {
+          "key": "prise_chapter_05_held_01_121",
+          "form": "prise",
+          "lemma": "prise",
+          "partOfSpeech": "noun feminine singular in avoir prise sur",
+          "meaning": "purchase; ability to affect or resolve",
+          "sourceOccurrences": [
+            {
+              "unit": 121,
+              "start": 90,
+              "end": 95,
+              "text": "prise",
+              "chapter": 5
+            }
+          ],
+          "status": "offline_contextual_question_draft_pending_editorial_review",
+          "editorialNote": "The microscope had no prise sur tiny humans, meaning it could not resolve them; published questions teach taking someone for another person. This is an offline draft; final question and identity QA remain pending.",
+          "questions": [
+            {
+              "band": "1-3",
+              "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+              "targetText": "prise",
+              "question": "What does the highlighted word mean here?",
+              "answer": "effective purchase; ability to resolve",
+              "choices": [
+                "effective purchase; ability to resolve",
+                "grasping a book",
+                "an electrical outlet",
+                "a military capture"
+              ]
+            },
+            {
+              "band": "4-5",
+              "context": "La baleine est visible, mais les hommes restent indiscernables : le microscope n’a pas de ___ sur eux.",
+              "question": "Complétez la phrase.",
+              "answer": "prise",
+              "choices": [
+                "prise",
+                "mesure",
+                "force",
+                "cause"
+              ]
+            },
+            {
+              "band": "6-8",
+              "context": "L’instrument ne pouvait pas discerner les êtres minuscules.",
+              "question": "Quel mot convient ?",
+              "answer": "prise",
+              "choices": [
+                "prise",
+                "mesure",
+                "force",
+                "cause"
+              ]
+            }
+          ]
+        },
+        "questionSha256": "495a7d3de305a8ee4a701731770ad92c8d29fdccff5cd4ff3cb2df1fe77fdba7",
+        "reviewNote": "Read all three microscope prise noun bands to exclude this homograph from verb ownership. Preserve the proper noun proposal, its old bank and unresolved generic efficacy versus electrical-outlet family dependency. This package neither corrects the published noun family nor grants its earlier bank approval; do not relabel the noun as a prendre participle or create another gender-only meaning."
+      },
+      "reason": "Use the existing proper feminine prise noun head, distinct from the prendre participle. Primary dictionaries include generic seizing capacity and figurative purchase/action, separately from an electrical connector. The microscope’s inability to discern tiny beings is a contextual application of that generic faculty, not a microscope-specific or abstract-only fresh meaning. A fresh corrected meaning is required because the inconsistent inactive legacy early bank actually teaches socket; retain that record, never copy its mastery and encounter the corrected noun only on viewing unit121."
+    }
+  ],
+  "summary": {
+    "reviewedPublishedIdentities": 0,
+    "reviewedPublishedUses": 0,
+    "reviewedPublishedWordBands": 0,
+    "reviewedHistoricalBands": 3,
+    "reviewedCandidateUnits": 1,
+    "reviewedCandidateTokens": 1,
+    "reviewedCandidateBanks": 1,
+    "reviewedCandidateBankUses": 1,
+    "reviewedCandidateBands": 3,
+    "preparedWordReplacementBands": 0,
+    "sharedSenseMetadataChanges": 0,
+    "newWordBanks": 0,
+    "newWordBands": 0,
+    "newCompletePhraseBanks": 0,
+    "newCompletePhraseBands": 0,
+    "publishedPhraseSpans": 0,
+    "publishedPhraseComponentTokens": 0,
+    "candidatePhraseSpans": 0,
+    "candidatePhraseComponentTokens": 0,
+    "retainedComponentBanks": 0,
+    "retainedComponentBands": 0,
+    "plannedNounMeanings": 1,
+    "preparedCandidateReplacementBands": 3,
+    "exactPriorScopeOverrides": 2
+  },
+  "lexicalEvidence": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A8P2722",
+      "edition": "Académie8",
+      "consulted": "2026-10-01",
+      "paraphrase": "Defines general seizing capacity and gives figurative inability to affect someone; supports one generic physical/figurative grip/efficacy meaning."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9P4343",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Distinguishes bodily/tool seizing, figurative purchase or action and the separate electrical connector meaning. The optical-discernment application is inferred from the microscope passage, not an independently attested microscope-only definition."
+    }
+  ],
+  "nextAction": {
+    "family": "raison explanatory ground versus argument and placeholder metadata",
+    "senseId": "sns_loup_agneau_raison_argument_presente_comme_juste_ou_fonde_2637035b0d",
+    "form": "raison",
+    "reason": "Read all four proper raison noun branches, every current/historical source and stored band, and all candidate explanation/cause and rational-faculty proposals. Reconcile broader explanatory ground with justification and remove stale English metadata without a physical/abstract-only or grammar-only meaning. Preserve genuine correctness/state-interest and complete phrase ownership. Then air, volume, âme and remaining whole-work dependencies; all plans remain unapplied."
+  }
+}

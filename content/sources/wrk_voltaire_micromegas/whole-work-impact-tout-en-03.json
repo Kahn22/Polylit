@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:43:49.542Z",
+  "sense": {
+    "id": "sns_parure_tout_en_while_010cfee7ae",
+    "lemmaId": "lem_tout",
+    "gloss": "all the while; while",
+    "definition": "renforce la simultanéité dans la construction tout en suivie d’un gérondif"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_tout_tout_en_while_d6ddc04452_intermediate",
+      "qiz_parure_tout_tout_en_while_d6ddc04452_advanced",
+      "qiz_parure_tout_tout_en_while_d6ddc04452_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_tout:sns_parure_tout_en_while_010cfee7ae",
+      "surface": "tout",
+      "lemma": "tout",
+      "currentRevision": "rev_607675bb79cd04fc61ab308f9ecf45536e80d09bc89218547abe400bf547c661",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_b98b3f76027fc2a90d95485f",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_007",
+          "passage": "elle songeait aux plats exquis servis en des vaisselles merveilleuses, aux galanteries chuchotées et écoutées avec un sourire de sphinx, tout en mangeant la chair rose d’une truite ou des ailes de gélinotte.",
+          "span": [
+            137,
+            141
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_tout_tout_en_while_d6ddc04452_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il fredonne _____ en rangeant ses outils : les deux actions sont simultanées.",
+          "choices": [
+            {
+              "text": "tous",
+              "correct": false
+            },
+            {
+              "text": "toute",
+              "correct": false
+            },
+            {
+              "text": "toutes",
+              "correct": false
+            },
+            {
+              "text": "tout",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_tout_tout_en_while_d6ddc04452_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle surveille les enfants tout en répondant au téléphone.",
+          "prompt": "Quel mot renforce la simultanéité dans l’expression suivie de en ?",
+          "choices": [
+            {
+              "text": "répondant",
+              "correct": false
+            },
+            {
+              "text": "téléphone",
+              "correct": false
+            },
+            {
+              "text": "tout",
+              "correct": true
+            },
+            {
+              "text": "enfants",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_tout_tout_en_while_d6ddc04452_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle raconte sa journée tout en préparant le dîner.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "all the while",
+              "correct": true
+            },
+            {
+              "text": "before",
+              "correct": false
+            },
+            {
+              "text": "instead of",
+              "correct": false
+            },
+            {
+              "text": "after",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,2203 @@
+{
+  "version": 1,
+  "status": "offline_extent_reconciliation_unapplied",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "masteryPolicy": "Keep every legacy record and unchanged meaning; corrected full identities start at Level1 only on exact thought-unit view. No copied mastery, reset, automatic encounter or publication approval.",
+  "impacts": [
+    {
+      "key": "pied",
+      "file": "whole-work-impact-pied-04.json",
+      "sha256": "9eb008a9509e2d44aa0bc64169f3ff08b7d33edd94931de1a5c7ce4dc6ed9be5"
+    },
+    {
+      "key": "a-pied",
+      "file": "whole-work-impact-a-pied-04.json",
+      "sha256": "7ed6ae5c31c5b40fcf7a6dd8b39d107ee46a38102164d60cd22083bb65cfe90f"
+    },
+    {
+      "key": "couvrir-cover",
+      "file": "whole-work-impact-couvrir-cover-04.json",
+      "sha256": "8708b4bf0b3c1cf87ac3197cf497fcb6b84b78752f8962dc2f13f9aaeaba28a4"
+    },
+    {
+      "key": "couvrir-coat",
+      "file": "whole-work-impact-couvrir-coat-04.json",
+      "sha256": "cfc5d31cbf613c0580072eb3c10358fbabbb840f0159b22d0a70b61ad0e9c919"
+    },
+    {
+      "key": "couvrir-conceal",
+      "file": "whole-work-impact-couvrir-conceal-04.json",
+      "sha256": "882aa92ed939dd6f78bd83ab4e24df19a8493c9e2ca655311598e100127cd701"
+    },
+    {
+      "key": "couvrir-defame",
+      "file": "whole-work-impact-couvrir-defame-04.json",
+      "sha256": "e5ecdf55a053312b4508c0fb6524139f2fe837142c2491ac7f56bee465e6d347"
+    }
+  ],
+  "published": [
+    {
+      "identity": "srf_cendrillon_pieds_lem_parure_pied_noun_932ec5db4e_7988494874:sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+      "identityRevision": "rev_e400da0b375d1b63ab32ae229b2a26435d14f704421200f4379fa5a1a60eecc1",
+      "impactFile": "whole-work-impact-pied-04.json",
+      "impactSha256": "9eb008a9509e2d44aa0bc64169f3ff08b7d33edd94931de1a5c7ce4dc6ed9be5",
+      "questionIds": [
+        "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_advanced",
+        "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_early",
+        "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_intermediate"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_cendrillon_4ea0ecc09e0ffb51a9b118da",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_003",
+          "passage": "elle couchoit tout au haut de la maison, dans un grenier, sur une méchante paillasse, pendant que ses sœurs estoient dans des chambres parquetées, où elles avoient des lits des plus à la mode, et des miroirs où elles se voyoient depuis les pieds jusqu’à la teste ;",
+          "span": [
+            240,
+            245
+          ],
+          "passageSha256": "36ec0c10e24c8114b1415ecb29880b30f2426bf458d3f7ea58ba4713c0e6dc33",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_cendrillon_a131ccc9bbb9c125709f230a",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_031",
+          "passage": "Alors ses deux sœurs la reconnurent pour la belle personne qu’elles avoient veuë au Bal. Elles se jetterent à ses pieds pour luy demander pardon de tous les mauvais traittemens, qu’elles luy avoient fait souffrir. Cendrillon les releva et leur dit, en les embrassant, qu’elle leur pardonnoit de bon cœur, et qu’elle les prioit de l’aimer bien toûjours. On la mena chez le jeune Prince, parée comme elle estoit :",
+          "span": [
+            114,
+            119
+          ],
+          "passageSha256": "b15a9316fc549cbe6c8588483d51f1321c3bc113b20185f15f932a2cc3a53335",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_parure_pied_lem_parure_pied_noun_932ec5db4e_0ad2dc57cc:sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+      "identityRevision": "rev_bf3b30c7da8e7e4a90b343aac0fd45ea2b78c15559abfee18471b5731d1368fc",
+      "impactFile": "whole-work-impact-pied-04.json",
+      "impactSha256": "9eb008a9509e2d44aa0bc64169f3ff08b7d33edd94931de1a5c7ce4dc6ed9be5",
+      "questionIds": [
+        "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_advanced",
+        "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_intermediate",
+        "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_early"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_cendrillon_632335b78b8801f221eb8b50",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_028",
+          "passage": "que le fils du Roy l’avoit ramassée, et qu’il n’avoit fait que la regarder pendant tout le reste du Bal, et qu’assurément il estoit fort amoureux de la belle personne à qui appartenoit la petite pentoufle. Elles dirent vray, car peu de jours aprés, le fils du Roy fit publier à son de trompe, qu’il épouseroit celle dont le pied seroit bien juste à la pentoufle. On commença à l’essayer aux Princesses, ensuite aux Duchesses, et à toute la Cour, mais inutilement :",
+          "span": [
+            324,
+            328
+          ],
+          "passageSha256": "144167a44394e859ded2ddddd92b97024790f59c7d7a1c386635c2f7d8bd4fd8",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_cendrillon_cbf6c5411d6c9eaa9852ac59",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_030",
+          "passage": "il fit asseoir Cendrillon, et approchant la pentoufle de son petit pied, il vit qu’elle y entroit sanspeine, et qu’elle y estoit juste comme de cire. L’étonnement des deux sœurs fut grand, mais plus grand encore quand Cendrillon tira de sa poche l’autre petite pentoufle, qu’elle mit à son pied. Là-dessus arriva la Maraine, qui, ayant donné un coup de sa baguette sur les habits de Cendrillon, les fit devenir encore plus magnifiques que tous les autres.",
+          "span": [
+            290,
+            294
+          ],
+          "passageSha256": "b84fe03c673393c6dad6df1a9307d64cf0648fa440767eb5745c0c4e5cd24fd1",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_cendrillon_ef71fbfbb289b63e1cd4470f",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_030",
+          "passage": "il fit asseoir Cendrillon, et approchant la pentoufle de son petit pied, il vit qu’elle y entroit sanspeine, et qu’elle y estoit juste comme de cire. L’étonnement des deux sœurs fut grand, mais plus grand encore quand Cendrillon tira de sa poche l’autre petite pentoufle, qu’elle mit à son pied. Là-dessus arriva la Maraine, qui, ayant donné un coup de sa baguette sur les habits de Cendrillon, les fit devenir encore plus magnifiques que tous les autres.",
+          "span": [
+            67,
+            71
+          ],
+          "passageSha256": "b84fe03c673393c6dad6df1a9307d64cf0648fa440767eb5745c0c4e5cd24fd1",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_cendrillon_ff132a0d85902f64f0680bed",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            86,
+            90
+          ],
+          "passageSha256": "ce52e7378932d18ae573590c0e4ca2db5ef7c60d697be6bc19e350a49cf0762a",
+          "decision": {
+            "route": "retain_generic_anatomical_foot",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_parure_73f6bda5a0ca729b34cb8787",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "passage": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+          "span": [
+            64,
+            68
+          ],
+          "passageSha256": "79edb6828bdc754b4bf285442b62f66af69ae4afa0e37f62ef5e3b34df32837b",
+          "decision": {
+            "route": "complete_a_pied_exact_component",
+            "reviewNote": "The complete passage describes walking back over the route. Only the enumerated à+pied tokens enter the complete walking expression; preserve the two legacy component records and all their questions without carrying component mastery into a new full-expression identity."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_fr_a_pied_a:sns_fr_a_pied",
+      "identityRevision": "rev_07204680cc50498c9f8823c864edb66f5863ce520b9ae17f3d5c118a94727b44",
+      "impactFile": "whole-work-impact-a-pied-04.json",
+      "impactSha256": "7ed6ae5c31c5b40fcf7a6dd8b39d107ee46a38102164d60cd22083bb65cfe90f",
+      "questionIds": [
+        "qiz_fr_a_pied_fr_a_pied_a_levels_6_8",
+        "qiz_fr_a_pied_fr_a_pied_a_levels_1_3",
+        "qiz_fr_a_pied_fr_a_pied_a_levels_4_5"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_parure_99c756fd9177b9f2aa4d54b0",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "passage": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+          "span": [
+            62,
+            63
+          ],
+          "passageSha256": "79edb6828bdc754b4bf285442b62f66af69ae4afa0e37f62ef5e3b34df32837b",
+          "decision": {
+            "route": "complete_a_pied_exact_component",
+            "reviewNote": "The complete passage describes walking back over the route. Only the enumerated à+pied tokens enter the complete walking expression; preserve the two legacy component records and all their questions without carrying component mastery into a new full-expression identity."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_parure_couverte_couvrir_verb_739cacb308:sns_parure_couvrir_cover_42fc6b6b2a",
+      "identityRevision": "rev_ad42c439fee8d3fab3589310f38713e90722b6c68f071c47442d5c13ff91204b",
+      "impactFile": "whole-work-impact-couvrir-cover-04.json",
+      "impactSha256": "8708b4bf0b3c1cf87ac3197cf497fcb6b84b78752f8962dc2f13f9aaeaba28a4",
+      "questionIds": [
+        "qiz_parure_couverte_couvrir_cover_e110626ae3_early",
+        "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+        "qiz_parure_couverte_couvrir_cover_e110626ae3_advanced"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_parure_2de7ed42aa46d46ab7ce3b98",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_006",
+          "passage": "Quand elle s’asseyait, pour dîner, devant la table ronde couverte d’une nappe de trois jours, en face de son mari qui découvrait la soupière en déclarant d’un air enchanté : « Ah ! le bon pot-au-feu ! je ne sais rien de meilleur que cela… », elle songeait aux dîners fins, aux argenteries reluisantes, aux tapisseries peuplant les murailles de personnages anciens et d’oiseaux étranges au milieu d’une forêt de féerie ;",
+          "span": [
+            57,
+            65
+          ],
+          "passageSha256": "5076cde95332a8a7b240c8c00dde474350b234e19ccf126cd33a4bdb48726c13",
+          "decision": {
+            "route": "retain_generic_physical_cover",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+      "identityRevision": "rev_f618b3264e94cc6bb65f471dc3717f4a056bfbe2e9161f74113a0be1b9ec49f4",
+      "impactFile": "whole-work-impact-couvrir-conceal-04.json",
+      "impactSha256": "882aa92ed939dd6f78bd83ab4e24df19a8493c9e2ca655311598e100127cd701",
+      "questionIds": [
+        "qiz_zola_couvert_couvrir_conceal_early",
+        "qiz_zola_couvert_couvrir_conceal_intermediate",
+        "qiz_zola_couvert_couvrir_conceal_advanced"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_zola_2ea9b9b127d22059ed93e51c",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_150",
+          "passage": "Aussi les bureaux, par tous les moyens imaginables, par des campagnes de presse, par des communications, par des influences, n’ont-ils couvert Esterhazy que pour perdre une seconde fois Dreyfus.",
+          "span": [
+            135,
+            142
+          ],
+          "passageSha256": "e4d6bf2dafa957a25e8c6a0ff9a40f4413c0366ad7ec43b5f5352381e502495f",
+          "decision": {
+            "route": "retain_cover_up_or_protect",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        },
+        {
+          "id": "occ_zola_99a4a538f242dbc212125ded",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_188",
+          "passage": "J’accuse enfin le premier conseil de guerre d’avoir violé le droit, en condamnant un accusé sur une pièce restée secrète, et j’accuse le second conseil de guerre d’avoir couvert cette illégalité, par ordre, en commettant à son tour le crime juridique d’acquitter sciemment un coupable.",
+          "span": [
+            170,
+            177
+          ],
+          "passageSha256": "1b6135b8d78377b66350f72b0cbd463d3c0c97796eade140bae00489af1e809a",
+          "decision": {
+            "route": "retain_cover_up_or_protect",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+      "identityRevision": "rev_df9f2598b59e7336a1166566830f55fb99a85e4f224def047addd1e68687be5a",
+      "impactFile": "whole-work-impact-couvrir-conceal-04.json",
+      "impactSha256": "882aa92ed939dd6f78bd83ab4e24df19a8493c9e2ca655311598e100127cd701",
+      "questionIds": [
+        "qiz_zola_couvrir_couvrir_conceal_advanced",
+        "qiz_zola_couvrir_couvrir_conceal_early",
+        "qiz_zola_couvrir_couvrir_conceal_intermediate"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_zola_da0872b13f83fbf858902649",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_187",
+          "passage": "J’accuse les bureaux de la guerre d’avoir mené dans la presse, particulièrement dans l’Eclair et dans l’Echo de Paris, une campagne abominable, pour égarer l’opinion et couvrir leur faute.",
+          "span": [
+            169,
+            176
+          ],
+          "passageSha256": "c172b72f041cdbc582f243b363340b7c3929173bcc589f8c1f6eace4806e8436",
+          "decision": {
+            "route": "retain_cover_up_or_protect",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        }
+      ]
+    },
+    {
+      "identity": "srf_zola_couvrir_couvrir:sns_fr_couvrir_defame",
+      "identityRevision": "rev_cbd8bd5074b5adeacf81fa0ba3716418e53b4587c915fa90804bda2d73063023",
+      "impactFile": "whole-work-impact-couvrir-defame-04.json",
+      "impactSha256": "e5ecdf55a053312b4508c0fb6524139f2fe837142c2491ac7f56bee465e6d347",
+      "questionIds": [
+        "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_6_8",
+        "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_4_5",
+        "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_1_3"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_zola_db15c8661b96e61557b08992",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_167",
+          "passage": "Ces scrupules l’honorent d’autant plus, que, pendant qu’il restait respectueux de la discipline, ses supérieurs le faisaient couvrir de boue, instruisaient eux-mêmes son procès, de la façon la plus inattendue et la plus outrageante.",
+          "span": [
+            125,
+            132
+          ],
+          "passageSha256": "4aae786fb45d70b8b2d3439bafc77c0ec3a768ec6c8c1b54405b93a1de8fe748",
+          "decision": {
+            "route": "retain_figurative_defamation",
+            "reviewNote": "Read this complete passage and every current dependent band. Anatomy, physical overlying, concealment/protection and figurative attacks are assigned by source meaning under their existing proper noun/verb owners. Keep genuine meanings and all legacy progress; no tense, number, human/animal or participial-only sense is created."
+          }
+        }
+      ]
+    }
+  ],
+  "historical": [
+    {
+      "impactFile": "whole-work-impact-couvrir-coat-04.json",
+      "id": "qiz_zola_couvrir_couvrir_coat_early",
+      "before": {
+        "id": "qiz_zola_couvrir_couvrir_coat_early",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_zola_couvrir_couvrir",
+          "senseId": "sns_zola_couvrir_coat"
+        },
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "context": "Pour protéger la table, Léa veut la couvrir d’une couche de vernis.",
+        "targetText": "couvrir",
+        "targetRange": {
+          "start": 36,
+          "end": 43
+        },
+        "prompt": "Meaning",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "to coat"
+          },
+          {
+            "id": "choice_2",
+            "text": "to uncover"
+          },
+          {
+            "id": "choice_3",
+            "text": "to break"
+          },
+          {
+            "id": "choice_4",
+            "text": "to move"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "decision": "retain_legacy_physical_cover_alias_without_reactivation",
+      "reviewNote": "Read all three inactive coat banks: applying varnish, coating a cake and covering a floor with a tarpaulin. The last bank already crosses the supposed coating/covering boundary. Coating belongs to the same broad physical-covering family; retain this historical alias and its mastery, do not merge records or automatically reactivate its bank, and use the existing generic physical-cover sense for new related surfaces."
+    },
+    {
+      "impactFile": "whole-work-impact-couvrir-coat-04.json",
+      "id": "qiz_zola_couvrir_couvrir_coat_advanced",
+      "before": {
+        "id": "qiz_zola_couvrir_couvrir_coat_advanced",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_zola_couvrir_couvrir",
+          "senseId": "sns_zola_couvrir_coat"
+        },
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "context": "Marie va couvrir le gâteau de chocolat pour en napper toute la surface. Nina mélange la crème, Paul ferme le four et Luc pose des assiettes sur la table.",
+        "prompt": "Quel verbe signifie appliquer le chocolat sur toute la surface du gâteau ?",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "couvrir"
+          },
+          {
+            "id": "choice_2",
+            "text": "mélange"
+          },
+          {
+            "id": "choice_3",
+            "text": "ferme"
+          },
+          {
+            "id": "choice_4",
+            "text": "pose"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "decision": "retain_legacy_physical_cover_alias_without_reactivation",
+      "reviewNote": "Read all three inactive coat banks: applying varnish, coating a cake and covering a floor with a tarpaulin. The last bank already crosses the supposed coating/covering boundary. Coating belongs to the same broad physical-covering family; retain this historical alias and its mastery, do not merge records or automatically reactivate its bank, and use the existing generic physical-cover sense for new related surfaces."
+    },
+    {
+      "impactFile": "whole-work-impact-couvrir-coat-04.json",
+      "id": "qiz_zola_couvrir_couvrir_coat_intermediate",
+      "before": {
+        "id": "qiz_zola_couvrir_couvrir_coat_intermediate",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_zola_couvrir_couvrir",
+          "senseId": "sns_zola_couvrir_coat"
+        },
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "context": "Avant de peindre, il faut _____ tout le sol avec une bâche protectrice.",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "couvrir"
+          },
+          {
+            "id": "choice_2",
+            "text": "découvrir"
+          },
+          {
+            "id": "choice_3",
+            "text": "déplacer"
+          },
+          {
+            "id": "choice_4",
+            "text": "casser"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "decision": "retain_legacy_physical_cover_alias_without_reactivation",
+      "reviewNote": "Read all three inactive coat banks: applying varnish, coating a cake and covering a floor with a tarpaulin. The last bank already crosses the supposed coating/covering boundary. Coating belongs to the same broad physical-covering family; retain this historical alias and its mastery, do not merge records or automatically reactivate its bank, and use the existing generic physical-cover sense for new related surfaces."
+    }
+  ],
+  "expressionSnapshot": [
+    {
+      "identity": {
+        "id": "exi_tout_au_moins",
+        "headword": "tout au moins",
+        "gloss": "at least",
+        "definition": "indique une quantité minimale certaine, qui peut être dépassée"
+      },
+      "revision": "rev_6de691902b7455d8fdc16fd7138d56d84c652db569f40f9fc13fba9d9c6d889c",
+      "occurrences": [
+        {
+          "id": "exo_zola_unt_zola_jaccuse_182_exi_tout_au_moins",
+          "identityId": "exi_tout_au_moins",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_182",
+          "start": 54,
+          "end": 67,
+          "text": "tout au moins",
+          "context": "J’accuse le général Mercier de s’être rendu complice, tout au moins par faiblesse d’esprit, d’une des plus grandes iniquités du siècle."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "exq_tout_au_moins_advanced",
+          "expressionId": "exi_tout_au_moins",
+          "contextFrench": "Le magasin a reçu tout au moins dix colis. Tout au plus trois sont endommagés; exactement deux portent une étiquette rouge et moins de cinq sont ouverts.",
+          "correctAnswer": "tout au moins",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression indique que dix colis est un minimum ?",
+          "choicesFrench": [
+            "tout au moins",
+            "Tout au plus",
+            "exactement",
+            "moins de"
+          ]
+        },
+        {
+          "id": "exq_tout_au_moins_early",
+          "expressionId": "exi_tout_au_moins",
+          "contextFrench": "Nous aurons tout au moins dix minutes pour discuter.",
+          "correctAnswer": "at least",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "tout au moins",
+          "choicesEnglish": [
+            "at least",
+            "at most",
+            "exactly",
+            "fewer than"
+          ]
+        },
+        {
+          "id": "exq_tout_au_moins_intermediate",
+          "expressionId": "exi_tout_au_moins",
+          "contextFrench": "Deux invités ont déjà confirmé; d’autres pourraient encore venir. Il y aura _____ deux invités.",
+          "correctAnswer": "tout au moins",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "tout au moins",
+            "tout au plus",
+            "exactement",
+            "moins de"
+          ]
+        }
+      ],
+      "reviewNote": "Read Zola’s minimum admitted cause and all three numerical lower-limit banks. Weakness of mind is the minimum explanation one can retain, not a different cause-only lexical meaning. Broaden the quantity-only definition while retaining the full phrase, its questions and its progress."
+    },
+    {
+      "identity": {
+        "id": "exi_tout_au_plus",
+        "headword": "tout au plus",
+        "gloss": "at most",
+        "definition": "indique une limite maximale qui ne sera pas dépassée"
+      },
+      "revision": "rev_f92ffaf2ab157d4b1c91c634b69685c57ccfd2b972b5ca22056e7aba3fb703ea",
+      "occurrences": [
+        {
+          "id": "exo_zola_unt_zola_jaccuse_038_exi_tout_au_plus",
+          "identityId": "exi_tout_au_plus",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_038",
+          "start": 0,
+          "end": 12,
+          "text": "Tout au plus",
+          "context": "Tout au plus, les sent-on céder aux passions religieuses du milieu et aux préjugés de l’esprit de corps."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "exq_tout_au_plus_advanced",
+          "expressionId": "exi_tout_au_plus",
+          "contextFrench": "Le train aura tout au plus dix minutes de retard. La gare attend tout au moins vingt voyageurs; exactement trois agents sont présents et plus de quatre taxis attendent dehors.",
+          "correctAnswer": "tout au plus",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression indique que le retard ne dépassera pas dix minutes ?",
+          "choicesFrench": [
+            "tout au plus",
+            "tout au moins",
+            "exactement",
+            "plus de"
+          ]
+        },
+        {
+          "id": "exq_tout_au_plus_early",
+          "expressionId": "exi_tout_au_plus",
+          "contextFrench": "Le bus prendra tout au plus dix voyageurs.",
+          "correctAnswer": "at most",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "tout au plus",
+          "choicesEnglish": [
+            "at most",
+            "at least",
+            "exactly",
+            "more than"
+          ]
+        },
+        {
+          "id": "exq_tout_au_plus_intermediate",
+          "expressionId": "exi_tout_au_plus",
+          "contextFrench": "Personne n’a encore confirmé et seules deux invitations ont été envoyées. Il y aura _____ deux invités.",
+          "correctAnswer": "tout au plus",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "tout au plus",
+            "tout au moins",
+            "exactement",
+            "plus de"
+          ]
+        }
+      ],
+      "reviewNote": "Read Zola’s restricted upper assessment and all three numerical maximum banks. The existing definition already states an upper limit; make its applicability to an estimate or degree explicit, retaining the same phrase meaning, question identities and progress. No numerical/qualitative split."
+    }
+  ],
+  "expressionMetadataChanges": [
+    {
+      "id": "exi_tout_au_moins",
+      "before": {
+        "id": "exi_tout_au_moins",
+        "headword": "tout au moins",
+        "gloss": "at least",
+        "definition": "indique une quantité minimale certaine, qui peut être dépassée"
+      },
+      "beforeSha256": "7f280a4cc6f26d0d30d562668b44f91068625ad44e0263bab67075810a235d5a",
+      "after": {
+        "id": "exi_tout_au_moins",
+        "headword": "tout au moins",
+        "gloss": "at least",
+        "definition": "Marque une limite inférieure ou l’évaluation minimale qu’on peut retenir."
+      },
+      "afterSha256": "c964ee05bf1194dfcc40565f86fc24db20d8fd3c917f130b3023ed73d1152f65",
+      "reason": "Read Zola’s minimum admitted cause and all three numerical lower-limit banks. Weakness of mind is the minimum explanation one can retain, not a different cause-only lexical meaning. Broaden the quantity-only definition while retaining the full phrase, its questions and its progress."
+    },
+    {
+      "id": "exi_tout_au_plus",
+      "before": {
+        "id": "exi_tout_au_plus",
+        "headword": "tout au plus",
+        "gloss": "at most",
+        "definition": "indique une limite maximale qui ne sera pas dépassée"
+      },
+      "beforeSha256": "c97780246d6b7cbc5e64078582eda2f7848f8eb92f41c9687cb36f6d109f85a1",
+      "after": {
+        "id": "exi_tout_au_plus",
+        "headword": "tout au plus",
+        "gloss": "at most",
+        "definition": "Marque la limite supérieure d’une quantité, d’un degré ou de l’évaluation qu’on peut faire."
+      },
+      "afterSha256": "60dece3cb0a511b2e09e38f559015ea5d3e08e111da1b895f8428e846be6eb18",
+      "reason": "Read Zola’s restricted upper assessment and all three numerical maximum banks. The existing definition already states an upper limit; make its applicability to an estimate or degree explicit, retaining the same phrase meaning, question identities and progress. No numerical/qualitative split."
+    }
+  ],
+  "senseChanges": [
+    {
+      "id": "sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+      "before": {
+        "id": "sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+        "lemmaId": "lem_parure_pied_noun_932ec5db4e",
+        "gloss": "foot",
+        "definition": "Partie du corps humain située à l’extrémité des jambes."
+      },
+      "beforeSha256": "57c9c296af14873c25a6a71d3b5b53a90da32fbe47603ace3380aaffbc9f1ce3",
+      "after": {
+        "id": "sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+        "lemmaId": "lem_parure_pied_noun_932ec5db4e",
+        "gloss": "foot",
+        "definition": "Extrémité de la jambe ou de la patte qui sert d’appui au corps et à la marche, chez l’être humain ou certains animaux."
+      },
+      "afterSha256": "ecd742d55d738f3d6d1ea12f47bec26db3f58cc95599ea6ad2927c0e74778aa4",
+      "reason": "Every published anatomical use and bank was read. Keep their existing noun identity and progress while broadening human-only wording to the same bodily extremity in animals and imagined giants. The historical length unit remains a genuinely distinct meaning; à pied is routed as a complete walking phrase."
+    },
+    {
+      "id": "sns_parure_couvrir_cover_42fc6b6b2a",
+      "before": {
+        "id": "sns_parure_couvrir_cover_42fc6b6b2a",
+        "lemmaId": "lem_zola_couvrir",
+        "gloss": "covered",
+        "definition": "recouverte par quelque chose"
+      },
+      "beforeSha256": "f9c65806964689f6d74b5b5b0774e8e2f3353a6a1f5127e1aa7c06336e2f785a",
+      "after": {
+        "id": "sns_parure_couvrir_cover_42fc6b6b2a",
+        "lemmaId": "lem_zola_couvrir",
+        "gloss": "to cover; extend over",
+        "definition": "Mettre une chose sur une autre, ou s’étendre sur elle, de manière à en recouvrir la surface."
+      },
+      "afterSha256": "68162f12f13e29685e07572cfc382d74cc3fd3d4b880a53533c6ad91a801be04",
+      "reason": "Read the tablecloth source and every current bank, the inactive coating alias and all separate concealment/defamation sources and banks. Normalize the participial-only definition to the generic physical-cover verb meaning shared by couvre/couverte/couverts/couvrirait. Preserve every old record; coating is within this family, while covering up a fault and defamation remain distinct figurative meanings."
+    }
+  ],
+  "wordChanges": [
+    {
+      "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+      "before": {
+        "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_parure_couverte_couvrir_verb_739cacb308",
+          "senseId": "sns_parure_couvrir_cover_42fc6b6b2a"
+        },
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "context": "La pelouse est _____ de feuilles mortes.",
+        "choices": [
+          {
+            "id": "choice_5",
+            "text": "couvrant"
+          },
+          {
+            "id": "choice_1",
+            "text": "couverte"
+          },
+          {
+            "id": "choice_6",
+            "text": "couvert"
+          },
+          {
+            "id": "choice_7",
+            "text": "couvrir"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "beforeSha256": "f1419f9e7c13b3a4b2ff5c731bc7cace3aed07538e48b02b81d6d49a91cf4e2d",
+      "after": {
+        "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+        "language": "fr",
+        "glossLanguage": "en",
+        "subject": {
+          "kind": "vocabulary",
+          "surfaceFormId": "srf_parure_couverte_couvrir_verb_739cacb308",
+          "senseId": "sns_parure_couvrir_cover_42fc6b6b2a"
+        },
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "context": "Les feuilles mortes tapissent encore tout le gazon : la pelouse est _____ de feuilles mortes.",
+        "choices": [
+          {
+            "id": "choice_1",
+            "text": "couverte"
+          },
+          {
+            "id": "choice_2",
+            "text": "privée"
+          },
+          {
+            "id": "choice_3",
+            "text": "débarrassée"
+          },
+          {
+            "id": "choice_4",
+            "text": "dégagée"
+          }
+        ],
+        "correctChoiceId": "choice_1"
+      },
+      "afterSha256": "66ef034404b77b495da6bab1e6d973545d981cd4fa579ad81af27fe0fa05c330",
+      "reason": "All four feminine singular participles fit est … de feuilles mortes. The leaves still covering the entire lawn select couverte by meaning; replace the infinitive, masculine participle and present participle distractors that previously made agreement or conjugation alone select the answer. Preserve the existing physical-cover identity."
+    }
+  ],
+  "newExpressions": [
+    {
+      "key": "a_pied_walk",
+      "headword": "à pied",
+      "meaning": "on foot",
+      "definition": "En marchant, sans emprunter de véhicule.",
+      "identityTarget": "complete_expression_fresh_on_exact_view_preserve_component_records",
+      "legacySenseId": "sns_fr_a_pied",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "start": 62,
+          "end": 68,
+          "text": "à pied",
+          "context": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas."
+        }
+      ],
+      "reviewNote": "The current walking meaning is stored on the isolated à component, with middle and upper banks testing a preposition. The exact whole phrase describes walking. Preserve that correct legacy meaning and all its records, and author a complete three-band expression bank; suppress only the enumerated à and pied components. The new full identity starts at Level1 only when the exact thought unit is viewed, with no component mastery transfer.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Nous rentrons à pied après le bal.",
+          "targetText": "à pied",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "on foot",
+          "choices": [
+            "on foot",
+            "by carriage",
+            "on horseback",
+            "by train"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils parcourent le trajet en marchant, sans prendre de véhicule : ils vont à la gare _____.",
+          "question": "Complétez la phrase.",
+          "answer": "à pied",
+          "choices": [
+            "à pied",
+            "en voiture",
+            "à cheval",
+            "en train"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique que le trajet se fait en marchant, sans véhicule ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à pied",
+          "choices": [
+            "à pied",
+            "en voiture",
+            "à cheval",
+            "en train"
+          ]
+        }
+      ],
+      "questionSha256": "816f49fb17057bebf23d6150a878d2e7f0ee23121681254c0e25c5268a1f6a98"
+    }
+  ],
+  "phraseComponents": [
+    {
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_081",
+      "start": 62,
+      "end": 68,
+      "text": "à pied",
+      "context": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+      "target": "a_pied_walk",
+      "componentTokens": [
+        {
+          "start": 62,
+          "end": 63,
+          "text": "à",
+          "normalized": "à",
+          "legacyOccurrenceIds": [
+            "occ_parure_99c756fd9177b9f2aa4d54b0"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 68,
+          "text": "pied",
+          "normalized": "pied",
+          "legacyOccurrenceIds": [
+            "occ_parure_73f6bda5a0ca729b34cb8787"
+          ]
+        }
+      ],
+      "masteryAction": "suppress_only_exact_components_keep_all_legacy_records"
+    }
+  ],
+  "candidate": [
+    {
+      "unit": 2,
+      "chapter": 1,
+      "context": "Il avait huit lieues de haut : j’entends, par huit lieues, vingt-quatre mille pas géométriques de cinq pieds chacun.",
+      "contextSha256": "3837cbf268cbdd916cc9784f3e302e1b97123e38008412df8271edc917eca38a",
+      "tokens": [
+        {
+          "start": 103,
+          "end": 108,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "chapter": 1,
+      "context": "Quelques géomètres, gens toujours utiles au public, prendront sur-le-champ la plume, et trouveront que, puisque M. Micromégas, habitant du pays de Sirius, a de la tête aux pieds vingt-quatre mille pas, qui font cent vingt mille pieds de roi, et que nous autres, citoyens de la terre, nous n’avons guère que cinq pieds, et que notre globe a neuf mille lieues de tour ;",
+      "contextSha256": "ea8c4eaa4d6bedc54d8e002dacb342fae7488977e81faaa19715965c2f8f5c14",
+      "tokens": [
+        {
+          "start": 172,
+          "end": 177,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        },
+        {
+          "start": 228,
+          "end": 233,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        },
+        {
+          "start": 312,
+          "end": 317,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "chapter": 1,
+      "context": "La taille de Son Excellence étant de la hauteur que j’ai dite, tous nos sculpteurs et tous nos peintres conviendront sans peine que sa ceinture peut avoir cinquante mille pieds de roi de tour : ce qui fait une très-jolie proportion.",
+      "contextSha256": "4b855da9f35c60b7a57fd75ee2969ffa9627c57d148a5b26ccd449b0f5cbe475",
+      "tokens": [
+        {
+          "start": 171,
+          "end": 176,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "chapter": 1,
+      "context": "Son nez étant le tiers de son beau visage, et son beau visage étant la septième partie de la hauteur de son beau corps, il faut avouer que le nez du Sirien a six mille trois cent trente-trois pieds de roi plus une fraction ; ce qui était à démontrer.",
+      "contextSha256": "688a6c000afa55612890a9b9226b397ad23c4a1866bbd2ab99b6574d87860fd4",
+      "tokens": [
+        {
+          "start": 192,
+          "end": 197,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "chapter": 1,
+      "context": "Vers les quatre cent cinquante ans, au sortir de l’enfance, il disséqua beaucoup de ces petits insectes qui n’ont pas cent pieds de diamètre, et qui se dérobent aux microscopes ordinaires ; il en composa un livre fort curieux, mais qui lui fit quelques affaires.",
+      "contextSha256": "139cc17a5fdd730a0c1f497b64a3d0509c06db892998fbe5128dee6e4692c75d",
+      "tokens": [
+        {
+          "start": 123,
+          "end": 128,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 26,
+      "chapter": 1,
+      "context": "Mais comme le Sirien avait un bon esprit, il comprit bien vite qu’un être pensant peut fort bien n’être pas ridicule pour n’avoir que six mille pieds de haut.",
+      "contextSha256": "7321c3f6ec693e99cd29ad1578aae1122440e3e04de26c2599fd3541cdecb377",
+      "tokens": [
+        {
+          "start": 144,
+          "end": 149,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 86,
+      "chapter": 4,
+      "context": "Les pas ordinaires du Sirien et de ses gens étaient d’environ trente mille pieds de roi ; le nain de Saturne, dont la taille n’était que de mille toises, suivait de loin en haletant ; or il fallait qu’il fît environ douze pas, quand l’autre faisait une enjambée : figurez-vous (s’il est permis de faire de telles comparaisons) un très-petit chien de manchon qui suivrait un capitaine des gardes du roi de Prusse.",
+      "contextSha256": "088fbcb403d44d7ee44b66cc01d86ebb4de0d42323157a2bc9957b60f1d59379",
+      "tokens": [
+        {
+          "start": 75,
+          "end": 80,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 87,
+      "chapter": 4,
+      "context": "Comme ces étrangers-là vont assez vite, ils eurent fait le tour du globe en trente-six heures ; le soleil, à la vérité, ou plutôt la terre, fait un pareil voyage en une journée ; mais il faut songer qu’on va bien plus à son aise quand on tourne sur son axe que quand on marche sur ses pieds.",
+      "contextSha256": "e041400ee273d7705b5e49ea199389e6c6ea77db36e38161d58bc5e7efce57c6",
+      "tokens": [
+        {
+          "start": 285,
+          "end": 290,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 95,
+      "chapter": 4,
+      "context": "— Mais, dit le nain, ce globe-ci est si mal construit, cela est si irrégulier et d’une forme qui me paraît si ridicule ! tout semble être ici dans le chaos : voyez-vous ces petits ruisseaux dont aucun ne va de droit fil, ces étangs qui ne sont ni ronds, ni carrés, ni ovales, ni sous aucune forme régulière ; tous ces petits grains pointus dont ce globe est hérissé, et qui m’ont écorché les pieds ? (Il voulait parler des montagnes.)",
+      "contextSha256": "313875399e568d667ee4e7f96750ad7cd2d10a439e9e214509322c95c51568b0",
+      "tokens": [
+        {
+          "start": 392,
+          "end": 397,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 106,
+      "chapter": 4,
+      "context": "Il prit donc un petit microscope de cent soixante pieds de diamètre, qu’il appliqua à sa prunelle ; et Micromégas en choisit un de deux mille cinq cents pieds.",
+      "contextSha256": "cff3b6c1190678ac4bde1070c44821006ccb14ace2a3fd2cdd4227cc011f49b7",
+      "tokens": [
+        {
+          "start": 50,
+          "end": 55,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        },
+        {
+          "start": 153,
+          "end": 158,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 120,
+      "chapter": 5,
+      "context": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage.",
+      "contextSha256": "297b9f2ea8d660fd02b74a0d9d99cf57323e89adbb0f7ad09000a3c21f373d1a",
+      "tokens": [
+        {
+          "start": 141,
+          "end": 145,
+          "text": "pied",
+          "normalized": "pied",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 122,
+      "chapter": 5,
+      "context": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur.",
+      "contextSha256": "49bf4a1b6c1fc2fa800119e288bfe53a051f7b0add366b97f36fbe6740e4243b",
+      "tokens": [
+        {
+          "start": 194,
+          "end": 199,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        },
+        {
+          "start": 291,
+          "end": 296,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 124,
+      "chapter": 5,
+      "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+      "contextSha256": "02963d0300be13055975fcd30ad2d6e2151e80cbf31d0f69b4993e00a91a9b3c",
+      "tokens": [
+        {
+          "start": 115,
+          "end": 120,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 157,
+      "chapter": 6,
+      "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+      "contextSha256": "f223b73101d6fe3e6aea40d953ddebdc937b763d89d3cb120efbe4c0715eb7d3",
+      "tokens": [
+        {
+          "start": 314,
+          "end": 319,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 162,
+      "chapter": 6,
+      "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi.",
+      "contextSha256": "6657f7e458d532ea93ade6944c85a7c310e2dbb8520b849e84e388c3db03ec10",
+      "tokens": [
+        {
+          "start": 136,
+          "end": 141,
+          "text": "pieds",
+          "normalized": "pieds",
+          "route": "historical_length_unit",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    },
+    {
+      "unit": 164,
+      "chapter": 6,
+      "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+      "contextSha256": "30acdaf4078a53055d4800cb9defadcda4bf0de09d99824cc9c97b45b72edc6f",
+      "tokens": [
+        {
+          "start": 334,
+          "end": 338,
+          "text": "pied",
+          "normalized": "pied",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        },
+        {
+          "start": 344,
+          "end": 354,
+          "text": "couvrirait",
+          "normalized": "couvrirait",
+          "route": "generic_physical_cover",
+          "reviewNote": "Read the full unit: a vast foot overlies a globe, or hats/turbans cover heads. Share the generic physical-cover verb sense; conditional and plural participles are surfaces, not separate meanings."
+        }
+      ]
+    },
+    {
+      "unit": 173,
+      "chapter": 7,
+      "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+      "contextSha256": "b3cc1e7c67e091b73d2804d1f96cf0023d4d14850d133b8d3cd4b1184548a5fb",
+      "tokens": [
+        {
+          "start": 102,
+          "end": 110,
+          "text": "couverts",
+          "normalized": "couverts",
+          "route": "generic_physical_cover",
+          "reviewNote": "Read the full unit: a vast foot overlies a globe, or hats/turbans cover heads. Share the generic physical-cover verb sense; conditional and plural participles are surfaces, not separate meanings."
+        },
+        {
+          "start": 160,
+          "end": 168,
+          "text": "couverts",
+          "normalized": "couverts",
+          "route": "generic_physical_cover",
+          "reviewNote": "Read the full unit: a vast foot overlies a globe, or hats/turbans cover heads. Share the generic physical-cover verb sense; conditional and plural participles are surfaces, not separate meanings."
+        }
+      ]
+    },
+    {
+      "unit": 180,
+      "chapter": 7,
+      "context": "Il me prend envie de faire trois pas, et d’écraser de trois coups de pied toute cette fourmilière d’assassins ridicules.",
+      "contextSha256": "23ad558aaae06c3970ae4f6b33b3c539d3a621924a34d6d37aaa245809bb13df",
+      "tokens": [
+        {
+          "start": 69,
+          "end": 73,
+          "text": "pied",
+          "normalized": "pied",
+          "route": "generic_anatomical_foot",
+          "reviewNote": "Read the full unit and compare anatomy with measurements. Body extremities, including the compositional literal instrument in coups de pied, retain the proper anatomical noun. Numerical lengths retain the distinct historical length-unit meaning; do not create number-only or animal-only meanings."
+        }
+      ]
+    }
+  ],
+  "candidateBindings": [
+    {
+      "file": "chapter-01-batch-13.json",
+      "key": "pieds_length_measure",
+      "fileSha256": "36f23af705e81a86b18884faa650171e2be96c7b4e92be3603efeaf267861248",
+      "before": {
+        "key": "pieds_length_measure",
+        "form": "pieds",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "feet; units of length",
+        "editorialNote": "Fourteen of eighteen workwide uses give length, height, diameter or circumference. Four other uses describe anatomical feet, including one already assigned a published body-part identity in chapter I. Pieds de roi is a historical length measure.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 2,
+            "start": 103,
+            "end": 108,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 228,
+            "end": 233,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 312,
+            "end": 317,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 7,
+            "start": 171,
+            "end": 176,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 8,
+            "start": 192,
+            "end": 197,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 11,
+            "start": 123,
+            "end": 128,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 26,
+            "start": 144,
+            "end": 149,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 75,
+            "end": 80,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 50,
+            "end": 55,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 153,
+            "end": 158,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 122,
+            "start": 194,
+            "end": 199,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 122,
+            "start": 291,
+            "end": 296,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 124,
+            "start": 115,
+            "end": 120,
+            "text": "pieds"
+          },
+          {
+            "chapter": 6,
+            "unit": 162,
+            "start": 136,
+            "end": 141,
+            "text": "pieds"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le géant mesure cent vingt mille pieds de roi.",
+            "question": "Meaning",
+            "answer": "feet as length units",
+            "choices": [
+              "feet as length units",
+              "anatomical feet",
+              "hands",
+              "horses"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Un pas géométrique se compose ici de cinq ___ de roi.",
+            "question": "Complétez la phrase.",
+            "answer": "pieds",
+            "choices": [
+              "pieds",
+              "mètres",
+              "pouces",
+              "pas"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les pieds de roi mesurent ici une longueur. Les mètres, les pouces et les pas sont d’autres unités de longueur, mais le texte emploie précisément les pieds.",
+            "question": "Quel nom donne cette ancienne unité de longueur ?",
+            "answer": "pieds",
+            "choices": [
+              "pieds",
+              "mètres",
+              "pouces",
+              "pas"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "key": "pieds_length_measure",
+        "form": "pieds",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "feet; units of length",
+        "editorialNote": "Fourteen of eighteen workwide uses give length, height, diameter or circumference. Four other uses describe anatomical feet, including one already assigned a published body-part identity in chapter I. Pieds de roi is a historical length measure.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 2,
+            "start": 103,
+            "end": 108,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 228,
+            "end": 233,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 312,
+            "end": 317,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 7,
+            "start": 171,
+            "end": 176,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 8,
+            "start": 192,
+            "end": 197,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 11,
+            "start": 123,
+            "end": 128,
+            "text": "pieds"
+          },
+          {
+            "chapter": 1,
+            "unit": 26,
+            "start": 144,
+            "end": 149,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 86,
+            "start": 75,
+            "end": 80,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 50,
+            "end": 55,
+            "text": "pieds"
+          },
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 153,
+            "end": 158,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 122,
+            "start": 194,
+            "end": 199,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 122,
+            "start": 291,
+            "end": 296,
+            "text": "pieds"
+          },
+          {
+            "chapter": 5,
+            "unit": 124,
+            "start": 115,
+            "end": 120,
+            "text": "pieds"
+          },
+          {
+            "chapter": 6,
+            "unit": 162,
+            "start": 136,
+            "end": 141,
+            "text": "pieds"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le géant mesure cent vingt mille pieds de roi.",
+            "question": "Meaning",
+            "answer": "feet as length units",
+            "choices": [
+              "feet as length units",
+              "anatomical feet",
+              "hands",
+              "horses"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Un pas géométrique se compose ici de cinq ___ de roi.",
+            "question": "Complétez la phrase.",
+            "answer": "pieds",
+            "choices": [
+              "pieds",
+              "mètres",
+              "pouces",
+              "pas"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Cette ancienne unité de longueur vaut douze pouces ; cinq de ces unités composent ici un pas géométrique.",
+            "question": "Quel nom donne cette ancienne unité de longueur ?",
+            "answer": "pieds",
+            "choices": [
+              "pieds",
+              "mètres",
+              "pouces",
+              "pas"
+            ]
+          }
+        ]
+      },
+      "questionSha256": "e46ccd8d91c11e1f78c5c49130d8ca45d1b128f98ace2ebac7f2cb2d9e3aa96b",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 2,
+          "start": 103,
+          "end": 108,
+          "text": "pieds",
+          "context": "Il avait huit lieues de haut : j’entends, par huit lieues, vingt-quatre mille pas géométriques de cinq pieds chacun."
+        },
+        {
+          "chapter": 1,
+          "unit": 3,
+          "start": 228,
+          "end": 233,
+          "text": "pieds",
+          "context": "Quelques géomètres, gens toujours utiles au public, prendront sur-le-champ la plume, et trouveront que, puisque M. Micromégas, habitant du pays de Sirius, a de la tête aux pieds vingt-quatre mille pas, qui font cent vingt mille pieds de roi, et que nous autres, citoyens de la terre, nous n’avons guère que cinq pieds, et que notre globe a neuf mille lieues de tour ;"
+        },
+        {
+          "chapter": 1,
+          "unit": 3,
+          "start": 312,
+          "end": 317,
+          "text": "pieds",
+          "context": "Quelques géomètres, gens toujours utiles au public, prendront sur-le-champ la plume, et trouveront que, puisque M. Micromégas, habitant du pays de Sirius, a de la tête aux pieds vingt-quatre mille pas, qui font cent vingt mille pieds de roi, et que nous autres, citoyens de la terre, nous n’avons guère que cinq pieds, et que notre globe a neuf mille lieues de tour ;"
+        },
+        {
+          "chapter": 1,
+          "unit": 7,
+          "start": 171,
+          "end": 176,
+          "text": "pieds",
+          "context": "La taille de Son Excellence étant de la hauteur que j’ai dite, tous nos sculpteurs et tous nos peintres conviendront sans peine que sa ceinture peut avoir cinquante mille pieds de roi de tour : ce qui fait une très-jolie proportion."
+        },
+        {
+          "chapter": 1,
+          "unit": 8,
+          "start": 192,
+          "end": 197,
+          "text": "pieds",
+          "context": "Son nez étant le tiers de son beau visage, et son beau visage étant la septième partie de la hauteur de son beau corps, il faut avouer que le nez du Sirien a six mille trois cent trente-trois pieds de roi plus une fraction ; ce qui était à démontrer."
+        },
+        {
+          "chapter": 1,
+          "unit": 11,
+          "start": 123,
+          "end": 128,
+          "text": "pieds",
+          "context": "Vers les quatre cent cinquante ans, au sortir de l’enfance, il disséqua beaucoup de ces petits insectes qui n’ont pas cent pieds de diamètre, et qui se dérobent aux microscopes ordinaires ; il en composa un livre fort curieux, mais qui lui fit quelques affaires."
+        },
+        {
+          "chapter": 1,
+          "unit": 26,
+          "start": 144,
+          "end": 149,
+          "text": "pieds",
+          "context": "Mais comme le Sirien avait un bon esprit, il comprit bien vite qu’un être pensant peut fort bien n’être pas ridicule pour n’avoir que six mille pieds de haut."
+        },
+        {
+          "chapter": 4,
+          "unit": 86,
+          "start": 75,
+          "end": 80,
+          "text": "pieds",
+          "context": "Les pas ordinaires du Sirien et de ses gens étaient d’environ trente mille pieds de roi ; le nain de Saturne, dont la taille n’était que de mille toises, suivait de loin en haletant ; or il fallait qu’il fît environ douze pas, quand l’autre faisait une enjambée : figurez-vous (s’il est permis de faire de telles comparaisons) un très-petit chien de manchon qui suivrait un capitaine des gardes du roi de Prusse."
+        },
+        {
+          "chapter": 4,
+          "unit": 106,
+          "start": 50,
+          "end": 55,
+          "text": "pieds",
+          "context": "Il prit donc un petit microscope de cent soixante pieds de diamètre, qu’il appliqua à sa prunelle ; et Micromégas en choisit un de deux mille cinq cents pieds."
+        },
+        {
+          "chapter": 4,
+          "unit": 106,
+          "start": 153,
+          "end": 158,
+          "text": "pieds",
+          "context": "Il prit donc un petit microscope de cent soixante pieds de diamètre, qu’il appliqua à sa prunelle ; et Micromégas en choisit un de deux mille cinq cents pieds."
+        },
+        {
+          "chapter": 5,
+          "unit": 122,
+          "start": 194,
+          "end": 199,
+          "text": "pieds",
+          "context": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur."
+        },
+        {
+          "chapter": 5,
+          "unit": 122,
+          "start": 291,
+          "end": 296,
+          "text": "pieds",
+          "context": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur."
+        },
+        {
+          "chapter": 5,
+          "unit": 124,
+          "start": 115,
+          "end": 120,
+          "text": "pieds",
+          "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits."
+        },
+        {
+          "chapter": 6,
+          "unit": 162,
+          "start": 136,
+          "end": 141,
+          "text": "pieds",
+          "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi."
+        }
+      ],
+      "reviewNote": "Read every full source unit and all three authored questions. Retain the anatomical or historical measurement meaning under the proper noun owner, or generic physical covering under couvrir. The earlier review remains immutable; only the length-unit upper contextual clue is improved so that it no longer quotes its own answer."
+    },
+    {
+      "file": "chapter-05-held-batch-01.json",
+      "key": "pied_chapter_05_held_01_120",
+      "fileSha256": "0f7c935747eb6c2ef2e95164bf6fc0d77173feaee3d28109d4035b04111bcb22",
+      "before": {
+        "key": "pied_chapter_05_held_01_120",
+        "form": "pied",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "historical foot as a length unit",
+        "sourceOccurrences": [
+          {
+            "unit": 120,
+            "start": 141,
+            "end": 145,
+            "text": "pied",
+            "chapter": 5
+          }
+        ],
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "editorialNote": "D’un pied is a historical unit of length; published questions teach the anatomical foot. This is an offline draft; final question and identity QA remain pending.",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage.",
+            "targetText": "pied",
+            "question": "What does the highlighted word mean here?",
+            "answer": "foot as a length unit",
+            "choices": [
+              "foot as a length unit",
+              "body part at the end of a leg",
+              "hand",
+              "finger"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette ancienne unité de longueur vaut douze pouces : c’est un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "pouce",
+              "mètre",
+              "pas"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Cette ancienne unité de longueur comprend exactement douze pouces.",
+            "question": "Quel mot convient ?",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "pouce",
+              "mètre",
+              "pas"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "key": "pied_chapter_05_held_01_120",
+        "form": "pied",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "historical foot as a length unit",
+        "sourceOccurrences": [
+          {
+            "unit": 120,
+            "start": 141,
+            "end": 145,
+            "text": "pied",
+            "chapter": 5
+          }
+        ],
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "editorialNote": "D’un pied is a historical unit of length; published questions teach the anatomical foot. This is an offline draft; final question and identity QA remain pending.",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage.",
+            "targetText": "pied",
+            "question": "What does the highlighted word mean here?",
+            "answer": "foot as a length unit",
+            "choices": [
+              "foot as a length unit",
+              "body part at the end of a leg",
+              "hand",
+              "finger"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette ancienne unité de longueur vaut douze pouces : c’est un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "pouce",
+              "mètre",
+              "pas"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Cette ancienne unité de longueur comprend exactement douze pouces.",
+            "question": "Quel mot convient ?",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "pouce",
+              "mètre",
+              "pas"
+            ]
+          }
+        ]
+      },
+      "questionSha256": "0660e09e24af384fae1027b1d03eeb286d1f5cb2ef748936104e9dbf4a07780a",
+      "sourceOccurrences": [
+        {
+          "unit": 120,
+          "start": 141,
+          "end": 145,
+          "text": "pied",
+          "chapter": 5,
+          "context": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage."
+        }
+      ],
+      "reviewNote": "Read every full source unit and all three authored questions. Retain the anatomical or historical measurement meaning under the proper noun owner, or generic physical covering under couvrir. The earlier review remains immutable; only the length-unit upper contextual clue is improved so that it no longer quotes its own answer."
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "pied_chapter_06_04_164_334",
+      "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+      "before": {
+        "form": "pied",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine singular anatomical",
+        "meaning": "foot; bodily extremity at the end of a leg",
+        "key": "pied_chapter_06_04_164_334",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 334,
+            "end": 338,
+            "text": "pied",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "pied",
+            "question": "What does the highlighted word mean here?",
+            "answer": "foot; bodily extremity at the end of a leg",
+            "choices": [
+              "foot; bodily extremity at the end of a leg",
+              "knee",
+              "elbow",
+              "wrist"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’extrémité de sa jambe qui prend appui sur le sol est son ___.",
+            "question": "Complétez la phrase.",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "genou",
+              "coude",
+              "poignet"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin désigne l’extrémité de la jambe servant d’appui ?",
+            "question": "Quel mot convient ?",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "genou",
+              "coude",
+              "poignet"
+            ]
+          }
+        ],
+        "reviewNote": "The imagined animal’s foot is an anatomical extremity, not the old length unit. The published definition is restricted to human feet. This contextual augmentation is an explicit dependency: before activation, impact-review the shared pied family and broaden the definition to human and animal anatomy while preserving unchanged human mastery. Do not silently approve the current human-only wording or invent an animal-only duplicate. Pied/genou/coude/poignet are masculine singular after son."
+      },
+      "after": {
+        "form": "pied",
+        "lemma": "pied",
+        "partOfSpeech": "noun masculine singular anatomical",
+        "meaning": "foot; bodily extremity at the end of a leg",
+        "key": "pied_chapter_06_04_164_334",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 334,
+            "end": 338,
+            "text": "pied",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "pied",
+            "question": "What does the highlighted word mean here?",
+            "answer": "foot; bodily extremity at the end of a leg",
+            "choices": [
+              "foot; bodily extremity at the end of a leg",
+              "knee",
+              "elbow",
+              "wrist"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’extrémité de sa jambe qui prend appui sur le sol est son ___.",
+            "question": "Complétez la phrase.",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "genou",
+              "coude",
+              "poignet"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin désigne l’extrémité de la jambe servant d’appui ?",
+            "question": "Quel mot convient ?",
+            "answer": "pied",
+            "choices": [
+              "pied",
+              "genou",
+              "coude",
+              "poignet"
+            ]
+          }
+        ],
+        "reviewNote": "The imagined animal’s foot is an anatomical extremity, not the old length unit. The published definition is restricted to human feet. This contextual augmentation is an explicit dependency: before activation, impact-review the shared pied family and broaden the definition to human and animal anatomy while preserving unchanged human mastery. Do not silently approve the current human-only wording or invent an animal-only duplicate. Pied/genou/coude/poignet are masculine singular after son."
+      },
+      "questionSha256": "cd71b76577c8ffb6aa2fbb326ca5496cf3178b25ac81d6e6b5cf074d0e95cbbb",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 334,
+          "end": 338,
+          "text": "pied",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+        }
+      ],
+      "reviewNote": "Read every full source unit and all three authored questions. Retain the anatomical or historical measurement meaning under the proper noun owner, or generic physical covering under couvrir. The earlier review remains immutable; only the length-unit upper contextual clue is improved so that it no longer quotes its own answer."
+    },
+    {
+      "file": "chapter-06-batch-04.json",
+      "key": "couvrirait_chapter_06_04_164_344",
+      "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+      "before": {
+        "form": "couvrirait",
+        "lemma": "couvrir",
+        "partOfSpeech": "verb conditional singular physical extent",
+        "meaning": "would cover; would extend over",
+        "key": "couvrirait_chapter_06_04_164_344",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 344,
+            "end": 354,
+            "text": "couvrirait",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "couvrirait",
+            "question": "What does the highlighted word mean here?",
+            "answer": "would cover; would extend over",
+            "choices": [
+              "would cover; would extend over",
+              "would uncover",
+              "would cross",
+              "would surround"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Son pied serait assez large pour recouvrir toute la surface du globe : il le ___.",
+            "question": "Complétez la phrase.",
+            "answer": "couvrirait",
+            "choices": [
+              "couvrirait",
+              "découvrirait",
+              "traverserait",
+              "entourerait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe au conditionnel signifie s’étendrait sur toute la surface de quelque chose ?",
+            "question": "Quel mot convient ?",
+            "answer": "couvrirait",
+            "choices": [
+              "couvrirait",
+              "découvrirait",
+              "traverserait",
+              "entourerait"
+            ]
+          }
+        ],
+        "reviewNote": "The enormous foot would overlie the globe by its physical extent. The global generic covered-by-something sense applies to physical covering, unlike material coating, hiding a fault or figurative defamation. Add this conditional surface on the generic physical cover sense; final family reconciliation must normalize its participial gloss without resetting existing physical-cover mastery."
+      },
+      "after": {
+        "form": "couvrirait",
+        "lemma": "couvrir",
+        "partOfSpeech": "verb conditional singular physical extent",
+        "meaning": "would cover; would extend over",
+        "key": "couvrirait_chapter_06_04_164_344",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 164,
+            "start": 344,
+            "end": 354,
+            "text": "couvrirait",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+            "targetText": "couvrirait",
+            "question": "What does the highlighted word mean here?",
+            "answer": "would cover; would extend over",
+            "choices": [
+              "would cover; would extend over",
+              "would uncover",
+              "would cross",
+              "would surround"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Son pied serait assez large pour recouvrir toute la surface du globe : il le ___.",
+            "question": "Complétez la phrase.",
+            "answer": "couvrirait",
+            "choices": [
+              "couvrirait",
+              "découvrirait",
+              "traverserait",
+              "entourerait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe au conditionnel signifie s’étendrait sur toute la surface de quelque chose ?",
+            "question": "Quel mot convient ?",
+            "answer": "couvrirait",
+            "choices": [
+              "couvrirait",
+              "découvrirait",
+              "traverserait",
+              "entourerait"
+            ]
+          }
+        ],
+        "reviewNote": "The enormous foot would overlie the globe by its physical extent. The global generic covered-by-something sense applies to physical covering, unlike material coating, hiding a fault or figurative defamation. Add this conditional surface on the generic physical cover sense; final family reconciliation must normalize its participial gloss without resetting existing physical-cover mastery."
+      },
+      "questionSha256": "e7bfb3d66a43300def2318ece23a6d9299b169d2f7228a299b17683600be7c1a",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 344,
+          "end": 354,
+          "text": "couvrirait",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+        }
+      ],
+      "reviewNote": "Read every full source unit and all three authored questions. Retain the anatomical or historical measurement meaning under the proper noun owner, or generic physical covering under couvrir. The earlier review remains immutable; only the length-unit upper contextual clue is improved so that it no longer quotes its own answer."
+    },
+    {
+      "file": "chapter-07-batch-02.json",
+      "key": "couverts_chapter_07_02_173_102",
+      "fileSha256": "7fe137cda918d3b6222ccd579b18dea7bb6584b09627e7ab5a6017010dcfb1c9",
+      "before": {
+        "form": "couverts",
+        "lemma": "couvrir",
+        "partOfSpeech": "past participle masculine plural covered",
+        "meaning": "covered; wearing a covering",
+        "key": "couverts_chapter_07_02_173_102",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 173,
+            "start": 102,
+            "end": 110,
+            "text": "couverts",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+          },
+          {
+            "chapter": 7,
+            "unit": 173,
+            "start": 160,
+            "end": 168,
+            "text": "couverts",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+            "targetText": "couverts",
+            "question": "What does the highlighted word mean here?",
+            "answer": "covered; wearing a covering",
+            "choices": [
+              "covered; wearing a covering",
+              "deprived",
+              "bare",
+              "rid of a covering"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les chapeaux leur couvrent la tête : ils en sont ___.",
+            "question": "Complétez la phrase.",
+            "answer": "couverts",
+            "choices": [
+              "couverts",
+              "privés",
+              "dépourvus",
+              "débarrassés"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe masculin pluriel signifie recouverts par quelque chose ?",
+            "question": "Quel mot convient ?",
+            "answer": "couverts",
+            "choices": [
+              "couverts",
+              "privés",
+              "dépourvus",
+              "débarrassés"
+            ]
+          }
+        ],
+        "reviewNote": "The two couverts uses describe head coverings: hats and a turban. The existing generic covering sense and earlier conditional couvrirait plan were compared; physical covering fits rather than coating a surface or concealing a fault. All four participles fit en sont and agree masculine plural. Retain the earlier shared-definition gloss-normalization dependency before activation."
+      },
+      "after": {
+        "form": "couverts",
+        "lemma": "couvrir",
+        "partOfSpeech": "past participle masculine plural covered",
+        "meaning": "covered; wearing a covering",
+        "key": "couverts_chapter_07_02_173_102",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 173,
+            "start": 102,
+            "end": 110,
+            "text": "couverts",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+          },
+          {
+            "chapter": 7,
+            "unit": 173,
+            "start": 160,
+            "end": 168,
+            "text": "couverts",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »",
+            "targetText": "couverts",
+            "question": "What does the highlighted word mean here?",
+            "answer": "covered; wearing a covering",
+            "choices": [
+              "covered; wearing a covering",
+              "deprived",
+              "bare",
+              "rid of a covering"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les chapeaux leur couvrent la tête : ils en sont ___.",
+            "question": "Complétez la phrase.",
+            "answer": "couverts",
+            "choices": [
+              "couverts",
+              "privés",
+              "dépourvus",
+              "débarrassés"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe masculin pluriel signifie recouverts par quelque chose ?",
+            "question": "Quel mot convient ?",
+            "answer": "couverts",
+            "choices": [
+              "couverts",
+              "privés",
+              "dépourvus",
+              "débarrassés"
+            ]
+          }
+        ],
+        "reviewNote": "The two couverts uses describe head coverings: hats and a turban. The existing generic covering sense and earlier conditional couvrirait plan were compared; physical covering fits rather than coating a surface or concealing a fault. All four participles fit en sont and agree masculine plural. Retain the earlier shared-definition gloss-normalization dependency before activation."
+      },
+      "questionSha256": "11efe817dc373a50376721eff49e89a50b7eab73187277fbd9c88a6a214e3434",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 102,
+          "end": 110,
+          "text": "couverts",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+        },
+        {
+          "chapter": 7,
+          "unit": 173,
+          "start": 160,
+          "end": 168,
+          "text": "couverts",
+          "context": "Savez-vous bien, par exemple, qu’à l’heure que je vous parle, il y a cent mille fous de notre espèce, couverts de chapeaux, qui tuent cent mille autres animaux couverts d’un turban, ou qui sont massacrés par eux, et que, presque par toute la terre, c’est ainsi qu’on en use de temps immémorial ? »"
+        }
+      ],
+      "reviewNote": "Read every full source unit and all three authored questions. Retain the anatomical or historical measurement meaning under the proper noun owner, or generic physical covering under couvrir. The earlier review remains immutable; only the length-unit upper contextual clue is improved so that it no longer quotes its own answer."
+    }
+  ],
+  "summary": {
+    "reviewedPublishedIdentities": 7,
+    "reviewedPublishedUses": 13,
+    "reviewedPublishedWordBands": 21,
+    "reviewedHistoricalBands": 3,
+    "reviewedPublishedExpressions": 2,
+    "reviewedPublishedExpressionUses": 2,
+    "reviewedPublishedExpressionBands": 6,
+    "reviewedCandidateUnits": 18,
+    "reviewedCandidateTokens": 24,
+    "reviewedCandidateBanks": 5,
+    "reviewedCandidateBankUses": 19,
+    "reviewedCandidateBands": 15,
+    "preparedWordReplacementBands": 1,
+    "sharedSenseMetadataChanges": 2,
+    "sharedExpressionMetadataChanges": 2,
+    "newCompletePhraseBanks": 1,
+    "newCompletePhraseBands": 3,
+    "publishedPhraseSpans": 1,
+    "publishedPhraseComponentTokens": 2
+  },
+  "lexicalEvidence": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9P2279",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Lists human and animal anatomical feet, the walking locution and the separate historical length unit."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9C4730",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Physical covering includes tablecloths, material applied over a surface, coverings worn on heads and overlying physical extent; figurative blame/concealment uses remain contextually distinct."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A3M0817",
+      "edition": "Académie1740",
+      "consulted": "2026-10-01",
+      "paraphrase": "Explicitly associates tout au moins with restrictive minimum claims, beyond numerical quantity."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9P2988",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Tout au plus marks the highest assessment or maximum."
+    }
+  ],
+  "nextAction": {
+    "family": "avoir existential question dependency",
+    "senseId": "sns_fr_avoir_existential",
+    "form": "a",
+    "unit": 97,
+    "start": 46,
+    "end": 47,
+    "reason": "Locate and repair the IV existential completion missing y after reviewing its whole published family. Continue main, petits, pur and the remaining shared-scope dependencies. All current plans remain offline and unapplied."
+  }
+}

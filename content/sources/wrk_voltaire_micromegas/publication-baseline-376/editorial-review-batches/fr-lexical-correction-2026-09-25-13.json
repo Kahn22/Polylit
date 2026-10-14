@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-13",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 2,
+  "approvals": 2,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "both observed constructions and exact-version question recheck",
+  "changes": [
+    {
+      "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+      "reviewId": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+      "outcome": "approve",
+      "rationale": "Zola writes both « un traître à surprendre » (catch unawares) and « secrets ... d’avoir surpris » (discover unexpectedly); the shared verb sense now explains both constructions. Checked all three question bands for each form.",
+      "before": {
+        "id": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_5bb7e32ee52f48b11d11ff8140e1481e497ecc5c76bb322510e5f3e16c651afd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Secrets qu’il ne fait pas bon d’avoir surpris means secrets discovered unexpectedly; replaced a theft scenario and three unrelated contexts with questions about discovering secrets.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_6bcc6af188489f44d72edf2a640fc9fe4fde0b6eb3665d2157e764b485bdc517",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Zola writes both « un traître à surprendre » (catch unawares) and « secrets ... d’avoir surpris » (discover unexpectedly); the shared verb sense now explains both constructions. Checked all three question bands for each form.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+      "reviewId": "vocabulary:srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+      "outcome": "approve",
+      "rationale": "Zola writes both « un traître à surprendre » (catch unawares) and « secrets ... d’avoir surpris » (discover unexpectedly); the shared verb sense now explains both constructions. Checked all three question bands for each form.",
+      "before": {
+        "id": "vocabulary:srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_8e34715b13a484d1db4d619fb4a5d9960d2c7afaffd44788a8d5acbd082ecaba",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Both contexts use surprendre for catching someone or exposing a hidden crime unawares; the infinitive sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surprendre_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_c096b286badcd2732791bb4d26d07539dbdf2658232b913d2be85563c48e6c15",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Zola writes both « un traître à surprendre » (catch unawares) and « secrets ... d’avoir surpris » (discover unexpectedly); the shared verb sense now explains both constructions. Checked all three question bands for each form.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    }
+  ]
+}

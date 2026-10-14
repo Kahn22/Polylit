@@ -35,7 +35,6 @@ const identities = subjects.filter(subject => subject.kind === 'vocabulary' && s
     })), quizzes,
   };
 }).sort((a, b) => a.id.localeCompare(b.id, 'en'));
-if (!identities.length) throw new Error(`No active identity uses sense ${senseId}`);
 const activeSurfaceIds = new Set(subjects.filter(subject => subject.kind === 'vocabulary' && subject.value.sense.id === senseId).map(subject => subject.value.surface.id));
 const historicalDependentQuizzes = [...publication.preparedQuizzes.values()].filter(quiz => quiz.subject.kind === 'vocabulary' && quiz.subject.senseId === senseId && !activeSurfaceIds.has(quiz.subject.surfaceFormId)).map(quiz => ({
   id: quiz.id, surfaceFormId: quiz.subject.surfaceFormId, band: quiz.band,

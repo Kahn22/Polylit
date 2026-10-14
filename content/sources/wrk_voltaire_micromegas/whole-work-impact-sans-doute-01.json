@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:18:43.642Z",
+  "sense": {
+    "id": "sns_fr_sans_doute_probably",
+    "lemmaId": "lem_zola_doute_noun",
+    "gloss": "probably; no doubt",
+    "definition": "Dans « sans doute », marque une forte probabilité ou une supposition."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 3,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+      "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_1_3",
+      "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_doute_doute_noun:sns_fr_sans_doute_probably",
+      "surface": "doute",
+      "lemma": "doute",
+      "currentRevision": "rev_0b562acf1fe6009938435bf16501a85944032e723b253080a152f233a97a4170",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_08fc2bd3bcc72fe38ee8d4f0",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_062",
+          "passage": "Une pièce ridicule, oui, peut-être la pièce où il est question de petites femmes, et où il est parlé d’un certain D... qui devient trop exigeant, quelque mari sans doute trouvant qu’on ne lui payait pas sa femme assez cher.",
+          "span": [
+            164,
+            169
+          ]
+        },
+        {
+          "id": "occ_zola_cb070a368046b7a1edeced1a",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_184",
+          "passage": "J’accuse le général de Boisdeffre et le général Gonse de s’être rendus complices du même crime, l’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps qui fait des bureaux de la guerre l’arche sainte, inattaquable.",
+          "span": [
+            106,
+            111
+          ]
+        },
+        {
+          "id": "occ_zola_fc4a4cac019748a7ff2a73e6",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_083",
+          "passage": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major, le général de Boisdeffre, le général Gonse, sans compter les sous-ordres.",
+          "span": [
+            35,
+            40
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major.",
+          "prompt": "Quel mot appartient à l’expression indiquant ici une supposition probable ?",
+          "choices": [
+            {
+              "text": "crainte",
+              "correct": false
+            },
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "terreur",
+              "correct": false
+            },
+            {
+              "text": "opinion",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "L’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "never",
+              "correct": false
+            },
+            {
+              "text": "by accident",
+              "correct": false
+            },
+            {
+              "text": "in secret",
+              "correct": false
+            },
+            {
+              "text": "probably; no doubt",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "L’un sans _____ par passion cléricale, l’autre peut-être par esprit de corps.",
+          "choices": [
+            {
+              "text": "risque",
+              "correct": false
+            },
+            {
+              "text": "moyen",
+              "correct": false
+            },
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "preuve",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

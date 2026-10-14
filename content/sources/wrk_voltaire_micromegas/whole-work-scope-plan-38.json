@@ -1,0 +1,853 @@
+{
+  "version": 1,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "masteryPolicy": "Keep every legacy record and unchanged meaning. A genuinely new meaning starts at Level1 only on exact thought-unit view. No copied mastery, reset, bulk encounter, tense/person/number-only meaning, automatic duplicate-owner consolidation, queue subtraction or publication approval.",
+  "senseChanges": [
+    {
+      "id": "sns_fr_quoy_que_although",
+      "before": {
+        "id": "sns_fr_quoy_que_although",
+        "lemmaId": "lem_fr_quoique_conjunction",
+        "gloss": "although (historical quoy que)",
+        "definition": "Dans l’ancienne graphie séparée quoy que, premier élément de la conjonction concessive quoique."
+      },
+      "beforeSha256": "2e64609857a09b97c2d55f358d3692408f675c69b8fe923325803c1d080d5203",
+      "after": {
+        "id": "sns_fr_quoy_que_although",
+        "lemmaId": "lem_fr_quoique_conjunction",
+        "gloss": "although; even though",
+        "definition": "Conjonction qui introduit une concession : un fait admis malgré lequel l’autre fait se réalise ; également dans l’ancienne graphie quoy que."
+      },
+      "afterSha256": "44b0641e74f23d50d80fbb42cb855b86c494e3e32bb8dd5b8ba93d2325f80aba",
+      "reason": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    }
+  ],
+  "newWordBanks": [],
+  "newExpressions": [
+    {
+      "headword": "quoique",
+      "form": "quoy que",
+      "senseGroup": "planned_quoy_que_same_concession_meaning",
+      "meaningSourceSenseId": "sns_fr_quoy_que_although",
+      "newMeaning": false,
+      "definition": "Conjonction qui introduit une concession : un fait admis malgré lequel l’autre fait se réalise ; également dans l’ancienne graphie quoy que.",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_005",
+          "start": 190,
+          "end": 198,
+          "text": "quoy que",
+          "context": "la cadette, qui n’estoit pas si malhonneste que son aisnée, l’appeloit Cendrillon. Cependant Cendrillon, avec ses méchans habits, ne laissoit pas d’estre cent fois plus belle que ses sœurs, quoy que vestuës tres-magnifiquement.",
+          "contextSha256": "ad421d12bb851e0eff7238e60d8b01f3e2b5451dec4c739ba87d34babf3912c7",
+          "expressionTarget": "planned_quoy_que_same_concession_meaning",
+          "componentTokens": [
+            {
+              "start": 190,
+              "end": 194,
+              "text": "quoy",
+              "normalized": "quoy",
+              "legacyOccurrenceIds": [
+                "occ_cendrillon_22b1e4f96a0dead4164a2e7b"
+              ]
+            },
+            {
+              "start": 195,
+              "end": 198,
+              "text": "que",
+              "normalized": "que",
+              "legacyOccurrenceIds": [
+                "occ_cendrillon_590614a00599678a16b81025"
+              ]
+            }
+          ],
+          "masteryAction": "suppress_only_exact_components_keep_all_legacy_records"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "la cadette, qui n’estoit pas si malhonneste que son aisnée, l’appeloit Cendrillon. Cependant Cendrillon, avec ses méchans habits, ne laissoit pas d’estre cent fois plus belle que ses sœurs, quoy que vestuës tres-magnifiquement.",
+          "targetText": "quoy que",
+          "question": "What does the highlighted conjunction mean here?",
+          "answer": "although; even though",
+          "choices": [
+            "although; even though",
+            "before",
+            "without",
+            "unless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Elle a continué malgré la fatigue : elle a continué, ___ elle fût fatiguée.",
+          "question": "Quelle conjonction convient ?",
+          "answer": "quoy que",
+          "choices": [
+            "quoy que",
+            "avant que",
+            "sans que",
+            "à moins que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle conjonction, dans cette ancienne graphie, admet un fait tout en exprimant que l’autre fait se réalise malgré lui ?",
+          "question": "Quelle conjonction convient ?",
+          "answer": "quoy que",
+          "choices": [
+            "quoy que",
+            "avant que",
+            "sans que",
+            "à moins que"
+          ]
+        }
+      ],
+      "questionSha256": "fa5e23bd6aee7a220636baa47f4c2ce9d2598fbdb483f0b922c6fe30a28467c0",
+      "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    }
+  ],
+  "phraseComponents": [
+    {
+      "workId": "wrk_perrault_cendrillon",
+      "unitId": "unt_perrault_cendrillon_005",
+      "start": 190,
+      "end": 198,
+      "text": "quoy que",
+      "context": "la cadette, qui n’estoit pas si malhonneste que son aisnée, l’appeloit Cendrillon. Cependant Cendrillon, avec ses méchans habits, ne laissoit pas d’estre cent fois plus belle que ses sœurs, quoy que vestuës tres-magnifiquement.",
+      "contextSha256": "ad421d12bb851e0eff7238e60d8b01f3e2b5451dec4c739ba87d34babf3912c7",
+      "expressionTarget": "planned_quoy_que_same_concession_meaning",
+      "componentTokens": [
+        {
+          "start": 190,
+          "end": 194,
+          "text": "quoy",
+          "normalized": "quoy",
+          "legacyOccurrenceIds": [
+            "occ_cendrillon_22b1e4f96a0dead4164a2e7b"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 198,
+          "text": "que",
+          "normalized": "que",
+          "legacyOccurrenceIds": [
+            "occ_cendrillon_590614a00599678a16b81025"
+          ]
+        }
+      ],
+      "masteryAction": "suppress_only_exact_components_keep_all_legacy_records"
+    }
+  ],
+  "candidatePhraseComponents": [],
+  "legacyComponentBanks": [
+    {
+      "identity": "srf_fr_quoy_quoique_conjunction:sns_fr_quoy_que_although",
+      "quizzes": [
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_1_3",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_fr_quoy_quoique_conjunction",
+            "senseId": "sns_fr_quoy_que_although"
+          },
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "context": "Elle sourit, quoy que fatiguée par la route, selon ce vieux récit.",
+          "targetText": "quoy",
+          "targetRange": {
+            "start": 13,
+            "end": 17
+          },
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "id": "choice_1",
+              "text": "before"
+            },
+            {
+              "id": "choice_2",
+              "text": "until"
+            },
+            {
+              "id": "choice_3",
+              "text": "although"
+            },
+            {
+              "id": "choice_4",
+              "text": "because"
+            }
+          ],
+          "correctChoiceId": "choice_3"
+        },
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_4_5",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_fr_quoy_quoique_conjunction",
+            "senseId": "sns_fr_quoy_que_although"
+          },
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "context": "Le personnage reste calme, _____ que fort inquiet, dans cette graphie ancienne.",
+          "choices": [
+            {
+              "id": "choice_1",
+              "text": "quand"
+            },
+            {
+              "id": "choice_2",
+              "text": "quoy"
+            },
+            {
+              "id": "choice_3",
+              "text": "qui"
+            },
+            {
+              "id": "choice_4",
+              "text": "où"
+            }
+          ],
+          "correctChoiceId": "choice_2"
+        },
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_6_8",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_fr_quoy_quoique_conjunction",
+            "senseId": "sns_fr_quoy_que_although"
+          },
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "context": "Il continue son chemin, quoy que la nuit soit déjà tombée.",
+          "prompt": "Quel mot, suivi de que, forme ici l’ancienne graphie de quoique ?",
+          "choices": [
+            {
+              "id": "choice_1",
+              "text": "quoy"
+            },
+            {
+              "id": "choice_2",
+              "text": "chemin"
+            },
+            {
+              "id": "choice_3",
+              "text": "nuit"
+            },
+            {
+              "id": "choice_4",
+              "text": "tombée"
+            }
+          ],
+          "correctChoiceId": "choice_1"
+        }
+      ],
+      "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    },
+    {
+      "identity": "srf_que:sns_que_conjunction",
+      "quizzes": [
+        {
+          "id": "qiz_que_conjunction_intermediate",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_que",
+            "senseId": "sns_que_conjunction"
+          },
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "context": "_____ tu sois venu me fait plaisir.",
+          "choices": [
+            {
+              "id": "choice_5",
+              "text": "Qui"
+            },
+            {
+              "id": "choice_6",
+              "text": "Où"
+            },
+            {
+              "id": "choice_7",
+              "text": "Quand"
+            },
+            {
+              "id": "choice_8",
+              "text": "Que"
+            }
+          ],
+          "correctChoiceId": "choice_8"
+        },
+        {
+          "id": "qiz_que_conjunction_advanced",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_que",
+            "senseId": "sns_que_conjunction"
+          },
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "context": "Il pense que tout est prêt et attend le départ.",
+          "prompt": "Quel mot introduit la proposition qui complète pense ?",
+          "choices": [
+            {
+              "id": "choice_5",
+              "text": "prêt"
+            },
+            {
+              "id": "choice_6",
+              "text": "départ"
+            },
+            {
+              "id": "choice_2",
+              "text": "que"
+            },
+            {
+              "id": "choice_7",
+              "text": "tout"
+            }
+          ],
+          "correctChoiceId": "choice_2"
+        },
+        {
+          "id": "qiz_que_conjunction_early",
+          "language": "fr",
+          "glossLanguage": "en",
+          "subject": {
+            "kind": "vocabulary",
+            "surfaceFormId": "srf_que",
+            "senseId": "sns_que_conjunction"
+          },
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "context": "Elle affirme que la porte est fermée.",
+          "targetText": "Que",
+          "targetRange": {
+            "start": 13,
+            "end": 16
+          },
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "id": "choice_1",
+              "text": "that"
+            },
+            {
+              "id": "choice_5",
+              "text": "who"
+            },
+            {
+              "id": "choice_6",
+              "text": "where"
+            },
+            {
+              "id": "choice_7",
+              "text": "when"
+            }
+          ],
+          "correctChoiceId": "choice_1"
+        }
+      ],
+      "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    }
+  ],
+  "impacts": [
+    {
+      "file": "whole-work-impact-scope-38-0.json",
+      "sha256": "d734f23b8321d82871ede063eeb6c21015cf715e30a403992faa58871958a1d0"
+    }
+  ],
+  "published": [
+    {
+      "identity": "srf_fr_quoy_quoique_conjunction:sns_fr_quoy_que_although",
+      "identityRevision": "rev_a45edf167906aaf63b8624112ccb6c0bf0a264a3d5145408f5e91b3c44396b3a",
+      "impactFile": "whole-work-impact-scope-38-0.json",
+      "impactSha256": "d734f23b8321d82871ede063eeb6c21015cf715e30a403992faa58871958a1d0",
+      "questionIds": [
+        "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_1_3",
+        "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_4_5",
+        "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_6_8"
+      ],
+      "reviewedBands": 3,
+      "sourceReview": [
+        {
+          "id": "occ_cendrillon_22b1e4f96a0dead4164a2e7b",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_005",
+          "passage": "la cadette, qui n’estoit pas si malhonneste que son aisnée, l’appeloit Cendrillon. Cependant Cendrillon, avec ses méchans habits, ne laissoit pas d’estre cent fois plus belle que ses sœurs, quoy que vestuës tres-magnifiquement.",
+          "span": [
+            190,
+            194
+          ],
+          "passageSha256": "ad421d12bb851e0eff7238e60d8b01f3e2b5451dec4c739ba87d34babf3912c7",
+          "decision": {
+            "route": "sns_fr_quoy_que_although",
+            "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+          }
+        }
+      ]
+    }
+  ],
+  "historical": [],
+  "candidate": [
+    {
+      "unit": 142,
+      "chapter": 6,
+      "context": "Le nain en fit autant, quoique avec plus de difficulté.",
+      "contextSha256": "e78706ee23b70cd3c19726a51d4290b82d032a50bbd278bea10aac8830730b58",
+      "tokens": [
+        {
+          "start": 23,
+          "end": 30,
+          "text": "quoique",
+          "normalized": "quoique",
+          "route": "sns_fr_quoy_que_although",
+          "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+        }
+      ]
+    },
+    {
+      "unit": 213,
+      "chapter": 7,
+      "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+      "contextSha256": "fc7d606c4b9f0bb26a512a7e1ec21e46e0d4aa5557f03a0d7180128efb40e4fa",
+      "tokens": [
+        {
+          "start": 82,
+          "end": 91,
+          "text": "quoiqu’il",
+          "normalized": "quoiqu’il",
+          "route": "sns_fr_quoy_que_although",
+          "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+        }
+      ]
+    }
+  ],
+  "candidateBindings": [
+    {
+      "file": "chapter-06-batch-02.json",
+      "key": "quoique_chapter_06_02_142_23",
+      "fileSha256": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe",
+      "before": {
+        "form": "quoique",
+        "lemma": "quoique",
+        "partOfSpeech": "conjunction",
+        "meaning": "although",
+        "key": "quoique_chapter_06_02_142_23",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 142,
+            "start": 23,
+            "end": 30,
+            "text": "quoique",
+            "context": "Le nain en fit autant, quoique avec plus de difficulté."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le nain en fit autant, quoique avec plus de difficulté.",
+            "targetText": "quoique",
+            "question": "What does the highlighted word mean here?",
+            "answer": "although",
+            "choices": [
+              "although",
+              "because",
+              "before",
+              "unless"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il réussit malgré la difficulté : il réussit, ___ ce soit plus difficile pour lui.",
+            "question": "Complétez la phrase.",
+            "answer": "quoique",
+            "choices": [
+              "quoique",
+              "parce que",
+              "avant que",
+              "à moins que"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle conjonction exprime une concession, un fait admis malgré une difficulté ?",
+            "question": "Quel mot convient ?",
+            "answer": "quoique",
+            "choices": [
+              "quoique",
+              "parce que",
+              "avant que",
+              "à moins que"
+            ]
+          }
+        ],
+        "reviewNote": "The joined spelling quoique expresses the same concession as the published historical quoy que sense. Add a spelling surface with a complete joined-form bank, not a historical-spelling-only meaning. The actual success contrasts with greater difficulty."
+      },
+      "after": {
+        "form": "quoique",
+        "lemma": "quoique",
+        "partOfSpeech": "conjunction",
+        "meaning": "although",
+        "key": "quoique_chapter_06_02_142_23",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 142,
+            "start": 23,
+            "end": 30,
+            "text": "quoique",
+            "context": "Le nain en fit autant, quoique avec plus de difficulté."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le nain en fit autant, quoique avec plus de difficulté.",
+            "targetText": "quoique",
+            "question": "What does the highlighted word mean here?",
+            "answer": "although",
+            "choices": [
+              "although",
+              "because",
+              "before",
+              "unless"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il réussit malgré la difficulté : il réussit, ___ ce soit plus difficile pour lui.",
+            "question": "Complétez la phrase.",
+            "answer": "quoique",
+            "choices": [
+              "quoique",
+              "avant que",
+              "sans que",
+              "à moins que"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle conjonction exprime une concession, un fait admis malgré une difficulté ?",
+            "question": "Quel mot convient ?",
+            "answer": "quoique",
+            "choices": [
+              "quoique",
+              "parce que",
+              "avant que",
+              "à moins que"
+            ]
+          }
+        ],
+        "reviewNote": "The joined spelling quoique expresses the same concession as the published historical quoy que sense. Add a spelling surface with a complete joined-form bank, not a historical-spelling-only meaning. The actual success contrasts with greater difficulty."
+      },
+      "identityTarget": "sns_fr_quoy_que_although",
+      "questionSha256": "d60a9357d795f8b02f99a54cde222d69a32cc7d572178dac8e89f0db680ccb06",
+      "afterQuestionSha256": "bfd32ac3e156722045281bc7ddbd1e2fb77422f8da8504a3fda15c25b545e96d",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 142,
+          "start": 23,
+          "end": 30,
+          "text": "quoique",
+          "context": "Le nain en fit autant, quoique avec plus de difficulté."
+        }
+      ],
+      "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    },
+    {
+      "file": "chapter-07-batch-07.json",
+      "key": "quoiqu_il_chapter_07_07_213_82",
+      "fileSha256": "87383545202021d1a7d13b7ee1d2b1f1d7d939db3089b4a7112d9652db59d8a7",
+      "before": {
+        "form": "quoiqu’il",
+        "lemma": "quoique",
+        "partOfSpeech": "conjunction with contracted subject prefix",
+        "meaning": "although he",
+        "key": "quoiqu_il_chapter_07_07_213_82",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 213,
+            "start": 82,
+            "end": 91,
+            "text": "quoiqu’il",
+            "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+            "targetText": "quoiqu’il",
+            "question": "What does the highlighted word mean here?",
+            "answer": "although he",
+            "choices": [
+              "although he",
+              "before he",
+              "without his",
+              "so that he"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il continua malgré son irritation : il continua, ___ fût fâché.",
+            "question": "Complétez la phrase.",
+            "answer": "quoiqu’il",
+            "choices": [
+              "quoiqu’il",
+              "avant qu’il",
+              "sans qu’il",
+              "pour qu’il"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle ouverture de proposition signifie bien qu’il ?",
+            "question": "Quel mot convient ?",
+            "answer": "quoiqu’il",
+            "choices": [
+              "quoiqu’il",
+              "avant qu’il",
+              "sans qu’il",
+              "pour qu’il"
+            ]
+          }
+        ],
+        "reviewNote": "Quoiqu’il introduces the concession that the Sirian speaks kindly despite inward irritation. The published historical quoy que banks and earlier joined quoique bank were read. Share the proper quoique conjunction and its concessive meaning, preserving the contracted subject in this surface; historical spelling and subject person do not create senses. Before import normalize the old separated-spelling-only definition to the full modern/historical conjunction. All four clause introducers admit fût fâché; concession differs from anteriority, absence and purpose."
+      },
+      "after": {
+        "form": "quoiqu’il",
+        "lemma": "quoique",
+        "partOfSpeech": "conjunction with contracted subject prefix",
+        "meaning": "although he",
+        "key": "quoiqu_il_chapter_07_07_213_82",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 213,
+            "start": 82,
+            "end": 91,
+            "text": "quoiqu’il",
+            "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+            "targetText": "quoiqu’il",
+            "question": "What does the highlighted word mean here?",
+            "answer": "although he",
+            "choices": [
+              "although he",
+              "before he",
+              "without his",
+              "so that he"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il continua malgré son irritation : il continua, ___ fût fâché.",
+            "question": "Complétez la phrase.",
+            "answer": "quoiqu’il",
+            "choices": [
+              "quoiqu’il",
+              "avant qu’il",
+              "sans qu’il",
+              "pour qu’il"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelle ouverture de proposition signifie bien qu’il ?",
+            "question": "Quel mot convient ?",
+            "answer": "quoiqu’il",
+            "choices": [
+              "quoiqu’il",
+              "avant qu’il",
+              "sans qu’il",
+              "pour qu’il"
+            ]
+          }
+        ],
+        "reviewNote": "Quoiqu’il introduces the concession that the Sirian speaks kindly despite inward irritation. The published historical quoy que banks and earlier joined quoique bank were read. Share the proper quoique conjunction and its concessive meaning, preserving the contracted subject in this surface; historical spelling and subject person do not create senses. Before import normalize the old separated-spelling-only definition to the full modern/historical conjunction. All four clause introducers admit fût fâché; concession differs from anteriority, absence and purpose."
+      },
+      "identityTarget": "sns_fr_quoy_que_although",
+      "questionSha256": "96fa88b98e44af67229e2791cc98953659edf7aefbfbb515fe97df22b290215d",
+      "afterQuestionSha256": "96fa88b98e44af67229e2791cc98953659edf7aefbfbb515fe97df22b290215d",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 82,
+          "end": 91,
+          "text": "quoiqu’il",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+        }
+      ],
+      "reviewNote": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    }
+  ],
+  "priorBindings": [
+    {
+      "file": "chapter-06-context-review-02.json",
+      "fileSha256": "208e8bee49a3b7693f86779c2d11d5a4c3db32e62a5462ba6f634a3462f65873",
+      "selector": {
+        "key": "quoique_142_23"
+      },
+      "before": {
+        "key": "quoique_142_23",
+        "form": "quoique",
+        "sourceOccurrences": [
+          {
+            "chapter": 6,
+            "unit": 142,
+            "start": 23,
+            "end": 30,
+            "text": "quoique",
+            "context": "Le nain en fit autant, quoique avec plus de difficulté."
+          }
+        ],
+        "decision": "draft",
+        "proposalKey": "quoique_chapter_06_02_142_23",
+        "reviewNote": "The joined spelling quoique expresses the same concession as the published historical quoy que sense. Add a spelling surface with a complete joined-form bank, not a historical-spelling-only meaning. The actual success contrasts with greater difficulty."
+      },
+      "reason": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    },
+    {
+      "file": "chapter-06-identity-targets-02.json",
+      "fileSha256": "6da3e16dc2f779a8424a5a13ced07bfdebee45fa2ff0bd202a68688ccdd78e3f",
+      "selector": {
+        "key": "quoique_chapter_06_02_142_23"
+      },
+      "before": {
+        "key": "quoique_chapter_06_02_142_23",
+        "form": "quoique",
+        "lemma": "quoique",
+        "meaning": "although",
+        "target": "sns_fr_quoy_que_although",
+        "questionSha256": "d60a9357d795f8b02f99a54cde222d69a32cc7d572178dac8e89f0db680ccb06",
+        "sourceOccurrencesSha256": "51e8cca1c71ee5eb3fcad3de34bfe40eca87f7a4217be7fa414fbcb6a2f3bfda",
+        "reviewNote": "The joined spelling quoique expresses the same concession as the published historical quoy que sense. Add a spelling surface with a complete joined-form bank, not a historical-spelling-only meaning. The actual success contrasts with greater difficulty.",
+        "status": "explicit_identity_target_pending_final_reconciliation"
+      },
+      "reason": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    },
+    {
+      "file": "chapter-07-context-review-07.json",
+      "fileSha256": "31fdd08001639a29ebcfbb69c7f900d21ce1a79a20138067ffaf1221645ccedf",
+      "selector": {
+        "key": "quoiqu’il_213_82"
+      },
+      "before": {
+        "key": "quoiqu’il_213_82",
+        "form": "quoiqu’il",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 213,
+            "start": 82,
+            "end": 91,
+            "text": "quoiqu’il",
+            "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+          }
+        ],
+        "decision": "draft",
+        "proposalKey": "quoiqu_il_chapter_07_07_213_82",
+        "reviewNote": "Quoiqu’il introduces the concession that the Sirian speaks kindly despite inward irritation. The published historical quoy que banks and earlier joined quoique bank were read. Share the proper quoique conjunction and its concessive meaning, preserving the contracted subject in this surface; historical spelling and subject person do not create senses. Before import normalize the old separated-spelling-only definition to the full modern/historical conjunction. All four clause introducers admit fût fâché; concession differs from anteriority, absence and purpose."
+      },
+      "reason": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    },
+    {
+      "file": "chapter-07-identity-targets-07.json",
+      "fileSha256": "4d8c252472f9ba22e6e13b15963a543e303f1924a6c838bcd4b9923117b77b78",
+      "selector": {
+        "key": "quoiqu_il_chapter_07_07_213_82"
+      },
+      "before": {
+        "key": "quoiqu_il_chapter_07_07_213_82",
+        "form": "quoiqu’il",
+        "lemma": "quoique",
+        "meaning": "although he",
+        "target": "sns_fr_quoy_que_although",
+        "questionSha256": "96fa88b98e44af67229e2791cc98953659edf7aefbfbb515fe97df22b290215d",
+        "sourceOccurrencesSha256": "a53fb98dbb40504768ea214b8d4eac75d02f6bfc06d3ae018f730c94e1631abe",
+        "reviewNote": "Quoiqu’il introduces the concession that the Sirian speaks kindly despite inward irritation. The published historical quoy que banks and earlier joined quoique bank were read. Share the proper quoique conjunction and its concessive meaning, preserving the contracted subject in this surface; historical spelling and subject person do not create senses. Before import normalize the old separated-spelling-only definition to the full modern/historical conjunction. All four clause introducers admit fût fâché; concession differs from anteriority, absence and purpose.",
+        "status": "explicit_identity_target_pending_final_reconciliation"
+      },
+      "reason": "Read the complete published Cendrillon concession source and all three stored quoy-component questions, plus both complete candidate sources and all six earlier bank questions. Preserve the proper quoique conjunction and existing concession meaning across historical separated quoy que, joined quoique and contracted quoiqu’il. Replace only the spelling/first-component-only definition with a generic concession definition; never create spelling, ellipsis, subject-person or tense meanings. Prepare the historical whole construction as a complete surface on that same lexical concept, suppressing only the exact quoy and que tokens and retaining every legacy component record/mastery and all six component questions unapproved for standalone reactivation. Its new complete surface begins Level1 only when the exact thought unit is viewed, without copying the old component mastery. The modern and contracted candidate banks already express the same concession; repair only the modern middle’s indicative parce que distractor, using four complete conjunctions that all admit the unchanged subjunctive clause. Meaning selects concession from time, absence and condition. The contracted subject is retained within its exact tokenizer surface and does not invent a separate il occurrence. Unit213’s clear concession is independent of the held reprendre interpretation. No source/publication/learner mutation, duplicate mastery, reset, bulk encounter or VI–VII queue subtraction."
+    }
+  ],
+  "wordChanges": [],
+  "publicationBaseline": {
+    "unitsSha256": "d46e12826ba655531832815ef92688f7566235c9a785c9feef6a71a8e74202de",
+    "occurrencesSha256": "7bf3c696903d999389e52dd5d77643c6f968fa9bea0e72a25b7c2110ef19cddf",
+    "expressionIdentitiesSha256": "31fc9e3c045ff959cf053ea9c5c721d48ebc4977c8f34e078105e67c6228a355",
+    "expressionOccurrencesSha256": "f327cd123814cd52fe71f476e66d927471d3aa220e7d20377085400d09d4c81f",
+    "quizzesSha256": "dfeccd3e0f252345a94e142c57ea8e7182af82b2308e26306790ff051074430e"
+  },
+  "status": "offline_quoique_concession_scope_reconciliation_unapplied",
+  "summary": {
+    "reviewedPublishedIdentities": 1,
+    "reviewedPublishedUses": 1,
+    "reviewedPublishedWordBands": 3,
+    "reviewedHistoricalBands": 0,
+    "reviewedCandidateUnits": 2,
+    "reviewedCandidateTokens": 2,
+    "reviewedCandidateBanks": 2,
+    "reviewedCandidateBankUses": 2,
+    "reviewedCandidateBands": 6,
+    "preparedWordReplacementBands": 0,
+    "sharedSenseMetadataChanges": 1,
+    "newWordBanks": 0,
+    "newWordBands": 0,
+    "newCompletePhraseBanks": 1,
+    "newCompletePhraseBands": 3,
+    "publishedPhraseSpans": 1,
+    "publishedPhraseComponentTokens": 2,
+    "candidatePhraseSpans": 0,
+    "candidatePhraseComponentTokens": 0,
+    "retainedComponentBanks": 2,
+    "retainedComponentBands": 6,
+    "preparedCandidateReplacementBands": 1,
+    "plannedCompletePhraseMeanings": 0,
+    "reusedLexicalConcessionMeanings": 1
+  },
+  "lexicalEvidence": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9Q0313",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "The subordinating conjunction expresses concession, admits subjunctive/participle and elliptical constructions, and contracts before il. This supports the same concession core in both candidate sources."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A2Q0129",
+      "edition": "Académie2",
+      "consulted": "2026-10-01",
+      "paraphrase": "The historical complete head is quoy que, a conjunction equivalent to bien que/encore que. The Cendrillon two-word construction belongs to this existing concession concept; do not teach only its first component."
+    }
+  ],
+  "nextAction": {
+    "family": "voir visual perception and ascertainment",
+    "form": "verraient",
+    "reason": "Read all six proper voir branches and current/historical sources/questions, every candidate token and earlier bank, preserving vivre/vue homographs and complete bout des choses ownership. Reconcile tense-only metadata and broaden the established ascertainment meaning for finding out and understanding. Unit213 reprendre and segment-aware faire figure import remain held; plans remain unapplied."
+  }
+}

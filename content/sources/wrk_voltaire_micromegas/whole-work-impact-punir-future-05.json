@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:12:57.495Z",
+  "sense": {
+    "id": "sns_zola_punir_future",
+    "lemmaId": "lem_zola_punir",
+    "gloss": "will punish",
+    "definition": "forme du futur de punir"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_punira_punir_future_early",
+      "qiz_zola_punira_punir_future_intermediate",
+      "qiz_zola_punira_punir_future_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_punira_punir:sns_zola_punir_future",
+      "surface": "punira",
+      "lemma": "punir",
+      "currentRevision": "rev_746f1a77eab5281ccd7939b091f0bb547db3bd19a155565d47bf25fc7f58803f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_581377b6f1110551cd150eda",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_115",
+          "passage": "Et le beau résultat de cette situation prodigieuse, c’est que l’honnête homme là-dedans, le lieutenant-colonel Picquart, qui seul a fait son devoir, va être la victime, celui qu’on bafouera et qu’on punira.",
+          "span": [
+            199,
+            205
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_punira_punir_future_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le règlement punira cette faute d’une exclusion temporaire.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "will forgive",
+              "correct": false
+            },
+            {
+              "text": "will punish",
+              "correct": true
+            },
+            {
+              "text": "will reward",
+              "correct": false
+            },
+            {
+              "text": "will praise",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_punira_punir_future_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Dans le conte, le roi _____ le voleur pour son crime.",
+          "choices": [
+            {
+              "text": "puniras",
+              "correct": false
+            },
+            {
+              "text": "punir",
+              "correct": false
+            },
+            {
+              "text": "punira",
+              "correct": true
+            },
+            {
+              "text": "puniront",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_punira_punir_future_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le directeur punira l’élève qui a triché en lui retirant le droit de participer au concours.",
+          "prompt": "Quel verbe annonce une sanction ?",
+          "choices": [
+            {
+              "text": "concours",
+              "correct": false
+            },
+            {
+              "text": "punira",
+              "correct": true
+            },
+            {
+              "text": "élève",
+              "correct": false
+            },
+            {
+              "text": "droit",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

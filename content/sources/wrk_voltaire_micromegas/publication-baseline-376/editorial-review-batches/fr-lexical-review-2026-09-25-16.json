@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-review-2026-09-25-16",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 16,
+  "reviewedIdentities": 3,
+  "approvals": 3,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "individual passage and dependent question review",
+  "changes": [
+    {
+      "subjectId": "srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+      "reviewId": "vocabulary:srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+      "outcome": "approve",
+      "rationale": "In “l’historique des doutes, puis de la conviction”, doutes are uncertainties preceding conviction. The three questions test plural uncertainties with suitable noun distractors.",
+      "before": {
+        "id": "vocabulary:srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+        "subjectRevision": "rev_447dd119fb5d632a166cc083820f1e44a3baff388f6bcc840855169da77dc081",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In historique des doutes, doutes means doubts; plural noun form fits. Unresolved same-lemma candidate remains (dup_a8917e6f625012adc12dba478d443ed357448d0824f29362dc360839aecdc3df)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_doutes_doute_noun:sns_zola_doute_uncertainty",
+        "subjectRevision": "rev_447dd119fb5d632a166cc083820f1e44a3baff388f6bcc840855169da77dc081",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In “l’historique des doutes, puis de la conviction”, doutes are uncertainties preceding conviction. The three questions test plural uncertainties with suitable noun distractors.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1,
+      "questionOutcome": "all three dependent questions reviewed; unchanged"
+    },
+    {
+      "subjectId": "srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+      "reviewId": "vocabulary:srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+      "outcome": "approve",
+      "rationale": "In J’Accuse, “nous apprenons même que les experts” means learning new information. All three questions test that meaning, and the completion uses first-person plural agreement.",
+      "before": {
+        "id": "vocabulary:srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+        "subjectRevision": "rev_ade3895f5572eee69d66b89eb72fbaddb30c794f4bd8e1cc03741289e71ddac7",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In nous apprenons que les experts were divided, apprenons means learn/find out; the verb sense fits. Unresolved same-lemma candidate remains (dup_7e162a34b4ee291ba7b370a76103bbf3cfd0eb851071b66c11e86f51fae3b079)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+        "subjectRevision": "rev_ade3895f5572eee69d66b89eb72fbaddb30c794f4bd8e1cc03741289e71ddac7",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In J’Accuse, “nous apprenons même que les experts” means learning new information. All three questions test that meaning, and the completion uses first-person plural agreement.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1,
+      "questionOutcome": "all three dependent questions reviewed; unchanged"
+    },
+    {
+      "subjectId": "srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+      "reviewId": "vocabulary:srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+      "outcome": "approve",
+      "rationale": "Both La Parure occurrences concern opening a container, the second under negation. The three questions test opened/opening and the past-tense surface form with grammatical alternatives.",
+      "before": {
+        "id": "vocabulary:srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+        "subjectRevision": "rev_f6a41e151681ef65efc284e58800af7ca84799a5f3e359a4d23471a7b2308679",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed both contexts: she opened the jewelry case and opened the case holding the necklace. Ouvrit is “opened,” but an unresolved same-lemma duplicate candidate must be reconciled before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_ouvrit_lem_ouvrir_21e385e324:sns_parure_ouvrir_faire_que_ce_qui_etait_clos_ferme_ne_le_soit_plus_7ff93dc6d2",
+        "subjectRevision": "rev_f6a41e151681ef65efc284e58800af7ca84799a5f3e359a4d23471a7b2308679",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Both La Parure occurrences concern opening a container, the second under negation. The three questions test opened/opening and the past-tense surface form with grammatical alternatives.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2,
+      "questionOutcome": "all three dependent questions reviewed; unchanged"
+    }
+  ]
+}

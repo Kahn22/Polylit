@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:02:29.491Z",
+  "sense": {
+    "id": "sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+    "lemmaId": "lem_parure_pied_noun_932ec5db4e",
+    "gloss": "foot",
+    "definition": "Partie du corps humain située à l’extrémité des jambes."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 7,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_advanced",
+      "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_early",
+      "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_intermediate",
+      "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_advanced",
+      "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_intermediate",
+      "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_pieds_lem_parure_pied_noun_932ec5db4e_7988494874:sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+      "surface": "pieds",
+      "lemma": "pied",
+      "currentRevision": "rev_e400da0b375d1b63ab32ae229b2a26435d14f704421200f4379fa5a1a60eecc1",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_4ea0ecc09e0ffb51a9b118da",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_003",
+          "passage": "elle couchoit tout au haut de la maison, dans un grenier, sur une méchante paillasse, pendant que ses sœurs estoient dans des chambres parquetées, où elles avoient des lits des plus à la mode, et des miroirs où elles se voyoient depuis les pieds jusqu’à la teste ;",
+          "span": [
+            240,
+            245
+          ]
+        },
+        {
+          "id": "occ_cendrillon_a131ccc9bbb9c125709f230a",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_031",
+          "passage": "Alors ses deux sœurs la reconnurent pour la belle personne qu’elles avoient veuë au Bal. Elles se jetterent à ses pieds pour luy demander pardon de tous les mauvais traittemens, qu’elles luy avoient fait souffrir. Cendrillon les releva et leur dit, en les embrassant, qu’elle leur pardonnoit de bon cœur, et qu’elle les prioit de l’aimer bien toûjours. On la mena chez le jeune Prince, parée comme elle estoit :",
+          "span": [
+            114,
+            119
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Ses pieds sont fatigués ; il enlève ses bottes et remue les orteils avant de s’asseoir.",
+          "prompt": "Quel nom désigne les parties du corps à l’extrémité des jambes ?",
+          "choices": [
+            {
+              "text": "pieds",
+              "correct": true
+            },
+            {
+              "text": "bottes",
+              "correct": false
+            },
+            {
+              "text": "orteils",
+              "correct": false
+            },
+            {
+              "text": "fatigués",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il retire ses chaussures et pose ses pieds nus sur le tapis.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "feet",
+              "correct": true
+            },
+            {
+              "text": "hands",
+              "correct": false
+            },
+            {
+              "text": "knees",
+              "correct": false
+            },
+            {
+              "text": "elbows",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_pieds_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_416982775d_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ses chaussures protègent ses _____ pendant la marche.",
+          "choices": [
+            {
+              "text": "coudes",
+              "correct": false
+            },
+            {
+              "text": "poignets",
+              "correct": false
+            },
+            {
+              "text": "pieds",
+              "correct": true
+            },
+            {
+              "text": "genoux",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_parure_pied_lem_parure_pied_noun_932ec5db4e_0ad2dc57cc:sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6",
+      "surface": "pied",
+      "lemma": "pied",
+      "currentRevision": "rev_bf3b30c7da8e7e4a90b343aac0fd45ea2b78c15559abfee18471b5731d1368fc",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_632335b78b8801f221eb8b50",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_028",
+          "passage": "que le fils du Roy l’avoit ramassée, et qu’il n’avoit fait que la regarder pendant tout le reste du Bal, et qu’assurément il estoit fort amoureux de la belle personne à qui appartenoit la petite pentoufle. Elles dirent vray, car peu de jours aprés, le fils du Roy fit publier à son de trompe, qu’il épouseroit celle dont le pied seroit bien juste à la pentoufle. On commença à l’essayer aux Princesses, ensuite aux Duchesses, et à toute la Cour, mais inutilement :",
+          "span": [
+            324,
+            328
+          ]
+        },
+        {
+          "id": "occ_cendrillon_cbf6c5411d6c9eaa9852ac59",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_030",
+          "passage": "il fit asseoir Cendrillon, et approchant la pentoufle de son petit pied, il vit qu’elle y entroit sanspeine, et qu’elle y estoit juste comme de cire. L’étonnement des deux sœurs fut grand, mais plus grand encore quand Cendrillon tira de sa poche l’autre petite pentoufle, qu’elle mit à son pied. Là-dessus arriva la Maraine, qui, ayant donné un coup de sa baguette sur les habits de Cendrillon, les fit devenir encore plus magnifiques que tous les autres.",
+          "span": [
+            290,
+            294
+          ]
+        },
+        {
+          "id": "occ_cendrillon_ef71fbfbb289b63e1cd4470f",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_030",
+          "passage": "il fit asseoir Cendrillon, et approchant la pentoufle de son petit pied, il vit qu’elle y entroit sanspeine, et qu’elle y estoit juste comme de cire. L’étonnement des deux sœurs fut grand, mais plus grand encore quand Cendrillon tira de sa poche l’autre petite pentoufle, qu’elle mit à son pied. Là-dessus arriva la Maraine, qui, ayant donné un coup de sa baguette sur les habits de Cendrillon, les fit devenir encore plus magnifiques que tous les autres.",
+          "span": [
+            67,
+            71
+          ]
+        },
+        {
+          "id": "occ_cendrillon_ff132a0d85902f64f0680bed",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            86,
+            90
+          ]
+        },
+        {
+          "id": "occ_parure_73f6bda5a0ca729b34cb8787",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "passage": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+          "span": [
+            64,
+            68
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Son pied glisse dans la chaussure ; il remue les orteils pour vérifier qu’il reste assez de place.",
+          "prompt": "Quel nom désigne la partie du corps à l’extrémité de la jambe ?",
+          "choices": [
+            {
+              "text": "orteils",
+              "correct": false
+            },
+            {
+              "text": "place",
+              "correct": false
+            },
+            {
+              "text": "pied",
+              "correct": true
+            },
+            {
+              "text": "chaussure",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il retire sa chaussure pour examiner son _____.",
+          "choices": [
+            {
+              "text": "pied",
+              "correct": true
+            },
+            {
+              "text": "genou",
+              "correct": false
+            },
+            {
+              "text": "coude",
+              "correct": false
+            },
+            {
+              "text": "poignet",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_pied_sns_parure_pied_partie_du_corps_humain_situee_a_l_extremite_des_jambes_229cd337b6_ffb096c081_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il pose le pied sur la marche pour monter.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "knee",
+              "correct": false
+            },
+            {
+              "text": "elbow",
+              "correct": false
+            },
+            {
+              "text": "foot",
+              "correct": true
+            },
+            {
+              "text": "hand",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

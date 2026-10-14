@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 4,
+  "status": "source_bound_expression_review_unpublished_component_decisions_pending",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "a648e225ae507f0f95202167546d943b30db33e5f6ca5259d6518e44e7b242f5",
+  "items": [
+    {
+      "key": "entre_deux_eaux",
+      "surfacePattern": "entre deux eaux",
+      "meaning": "below the water surface, away from the bottom",
+      "partOfSpeech": "adverbial locution",
+      "decision": "new_expression_three_question_bands_pending_complete_work_import",
+      "sourceOccurrences": [
+        {
+          "chapter": 4,
+          "unit": 108,
+          "start": 74,
+          "end": 89,
+          "text": "entre deux eaux"
+        }
+      ],
+      "componentTokenHolds": [
+        {
+          "chapter": 4,
+          "unit": 108,
+          "start": 74,
+          "end": 79,
+          "text": "entre",
+          "form": "entre"
+        },
+        {
+          "chapter": 4,
+          "unit": 108,
+          "start": 80,
+          "end": 84,
+          "text": "deux",
+          "form": "deux"
+        },
+        {
+          "chapter": 4,
+          "unit": 108,
+          "start": 85,
+          "end": 89,
+          "text": "eaux",
+          "form": "eaux"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "quelque chose d’imperceptible qui remuait entre deux eaux",
+          "question": "Where was it moving?",
+          "answer": "below the water’s surface",
+          "choices": [
+            "below the water’s surface",
+            "high in the sky",
+            "on dry land",
+            "at the sea bottom"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La baleine nage sous la surface, sans être au fond : elle remue ___.",
+          "question": "Complétez la phrase.",
+          "answer": "entre deux eaux",
+          "choices": [
+            "entre deux eaux",
+            "sur la plage",
+            "dans les airs",
+            "au fond de la mer"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le Saturnien voit un mouvement dans la mer Baltique, sous la surface de l’eau. Le sens est spatial, sans allusion aux partis que l’on ménage.",
+          "question": "Quelle locution du passage indique cette position ?",
+          "answer": "entre deux eaux",
+          "choices": [
+            "entre deux eaux",
+            "à fleur de terre",
+            "à ciel ouvert",
+            "de droit fil"
+          ]
+        }
+      ],
+      "reviewNote": "The whale moves below the Baltic surface, rather than between political factions. The Académie records the literal nager entre deux eaux and later glosses it as below the surface. Entre, deux and eaux retain separate pending or reviewed token dispositions.",
+      "references": [
+        "https://dictionnaire-academie.fr/article/A4N0010",
+        "https://www.dictionnaire-academie.fr/article/A6E1065"
+      ]
+    }
+  ]
+}

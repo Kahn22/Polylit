@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 6,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "be6d2ea6f8f037b0c16b24ef201c339a711ecd8f571aac8bff9be80967ef69fc",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 5,
+    "reviewedQuestionBands": 15,
+    "newExpressionForms": 4,
+    "newQuestionBands": 12,
+    "reusedEarlierQuestionBands": 3
+  },
+  "items": [
+    {
+      "key": "s_est_plu_a",
+      "surfacePattern": "s’est plu à",
+      "meaning": "took pleasure in; delighted in",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 150,
+          "start": 47,
+          "end": 58,
+          "text": "s’est plu à"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 150,
+          "start": 47,
+          "end": 49,
+          "text": "s’",
+          "form": "s’"
+        },
+        {
+          "unit": 150,
+          "start": 49,
+          "end": 52,
+          "text": "est",
+          "form": "est"
+        },
+        {
+          "unit": 150,
+          "start": 53,
+          "end": 56,
+          "text": "plu",
+          "form": "plu"
+        },
+        {
+          "unit": 150,
+          "start": 57,
+          "end": 58,
+          "text": "à",
+          "form": "à"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables.",
+          "targetText": "s’est plu à",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "took pleasure in; delighted in",
+          "choices": [
+            "took pleasure in; delighted in",
+            "refused to",
+            "reluctantly accepted",
+            "restricted oneself to"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il a pris plaisir à créer ces êtres : il ___ les faire naître.",
+          "question": "Complétez la phrase.",
+          "answer": "s’est plu à",
+          "choices": [
+            "s’est plu à",
+            "s’est refusé à",
+            "s’est résigné à",
+            "s’est borné à"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction au passé composé signifie a trouvé du plaisir à faire quelque chose ?",
+          "question": "Quelle expression convient ?",
+          "answer": "s’est plu à",
+          "choices": [
+            "s’est plu à",
+            "s’est refusé à",
+            "s’est résigné à",
+            "s’est borné à"
+          ]
+        }
+      ],
+      "questionSha256": "9d44ee9b58ecad970d500d6c1316ace6d430446a362d45031d9d40b76053f62f",
+      "identityTarget": "new_sense_existing_lemma:lem_parure_plaire_verb_2795ef7bb8",
+      "reviewNote": "Académie 1762 explicitly records reciprocal plaire for taking pleasure in an activity. The Creator’s hand is personified; the source construction takes à plus infinitive. The existing pleasing-another-person meaning and heaven-forbid formula are different. All four whole predicates end with à and fit the same infinitive; pleasure rather than refusal, reluctant consent or limitation selects the target.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "l_infiniment_petit",
+      "surfacePattern": "l’infiniment petit",
+      "meaning": "the infinitely small; the domain of extreme smallness",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 150,
+          "start": 88,
+          "end": 106,
+          "text": "l’infiniment petit"
+        },
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 90,
+          "end": 108,
+          "text": "l’infiniment petit"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 150,
+          "start": 88,
+          "end": 90,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 150,
+          "start": 90,
+          "end": 100,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 150,
+          "start": 101,
+          "end": 106,
+          "text": "petit",
+          "form": "petit"
+        },
+        {
+          "unit": 164,
+          "start": 90,
+          "end": 92,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 164,
+          "start": 92,
+          "end": 102,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 164,
+          "start": 103,
+          "end": 108,
+          "text": "petit",
+          "form": "petit"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables.",
+          "targetText": "l’infiniment petit",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the infinitely small; the domain of extreme smallness",
+          "choices": [
+            "the infinitely small; the domain of extreme smallness",
+            "the infinitely large",
+            "the visible world",
+            "the audible world"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le domaine des dimensions qui deviennent toujours plus petites est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "l’infiniment petit",
+          "choices": [
+            "l’infiniment petit",
+            "l’infiniment grand",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne le domaine des dimensions infiniment petites ?",
+          "question": "Quelle expression convient ?",
+          "answer": "l’infiniment petit",
+          "choices": [
+            "l’infiniment petit",
+            "l’infiniment grand",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        }
+      ],
+      "questionSha256": "b7da569ba0526a3f4804f9db308ea60f727cf151b79a46f0ff84e33b9d98aa04",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The article substantivizes the infinitude/smallness construction: the giant marvels at the domain of tiny beings. The earlier infiniment adverb and plural infinitely small creatures bank were read; neither is this singular abstract noun phrase. Both occurrences share one full-span meaning. All four alternatives are masculine singular noun phrases with their own unchanged articles and fit est; ever smaller dimensions alone select the target.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "middleNounAgreement": "masculine singular noun phrases; each complete choice retains its own article"
+    },
+    {
+      "key": "l_infiniment_grand",
+      "surfacePattern": "l’infiniment grand",
+      "meaning": "the infinitely large; the domain of extreme largeness",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 134,
+          "end": 152,
+          "text": "l’infiniment grand"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 164,
+          "start": 134,
+          "end": 136,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 164,
+          "start": 136,
+          "end": 146,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 164,
+          "start": 147,
+          "end": 152,
+          "text": "grand",
+          "form": "grand"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »",
+          "targetText": "l’infiniment grand",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the infinitely large; the domain of extreme largeness",
+          "choices": [
+            "the infinitely large; the domain of extreme largeness",
+            "the infinitely small",
+            "the visible world",
+            "the audible world"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le domaine des dimensions qui deviennent toujours plus grandes est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "l’infiniment grand",
+          "choices": [
+            "l’infiniment grand",
+            "l’infiniment petit",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne le domaine des dimensions infiniment grandes ?",
+          "question": "Quelle expression convient ?",
+          "answer": "l’infiniment grand",
+          "choices": [
+            "l’infiniment grand",
+            "l’infiniment petit",
+            "le monde visible",
+            "le monde sonore"
+          ]
+        }
+      ],
+      "questionSha256": "0348a16dd3226042f57f4056124229746150105cea158774a89bea224eda7295",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The singular abstract noun phrase contrasts explicitly with l’infiniment petit and is not a plural group of large animals or an importance adjective. Author the counterpart full-span bank under a shared expression family relationship without transferring mastery between opposite senses. All four choices are masculine singular complete noun phrases and fit est; ever larger dimensions selects this phrase.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "middleNounAgreement": "masculine singular noun phrases; each complete choice retains its own article"
+    },
+    {
+      "key": "avaient_affaire",
+      "surfacePattern": "avaient affaire",
+      "meaning": "were dealing with; had dealings with",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 155,
+          "start": 120,
+          "end": 135,
+          "text": "avaient affaire"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 155,
+          "start": 120,
+          "end": 127,
+          "text": "avaient",
+          "form": "avaient"
+        },
+        {
+          "unit": 155,
+          "start": 128,
+          "end": 135,
+          "text": "affaire",
+          "form": "affaire"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le nain de Saturne, qui avait la voix plus douce que Micromégas, leur apprit alors en peu de mots à quelles espèces ils avaient affaire.",
+          "targetText": "avaient affaire",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "were dealing with; had dealings with",
+          "choices": [
+            "were dealing with; had dealings with",
+            "needed help from",
+            "owned",
+            "avoided"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils étaient en relation avec ces espèces et leur parlaient : c’étaient les espèces auxquelles ils ___.",
+          "question": "Complétez la phrase.",
+          "answer": "avaient affaire",
+          "choices": [
+            "avaient affaire",
+            "demandaient secours",
+            "appartenaient",
+            "échappaient"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction à l’imparfait signifie étaient en relation ou traitaient avec quelqu’un ?",
+          "question": "Quelle expression convient ?",
+          "answer": "avaient affaire",
+          "choices": [
+            "avaient affaire",
+            "demandaient secours",
+            "appartenaient",
+            "échappaient"
+          ]
+        }
+      ],
+      "questionSha256": "3093b6d809e4482204c273c717a63d474a23904a07308667d572050d069f58e0",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Académie 1762 distinguishes avoir affaire à/avec as speaking or dealing with someone from avoir affaire de as needing someone. The nain explains which species the humans are dealing with. The global affaire and avoir banks were read, including the earlier need construction, which is excluded. All four predicates fit auxquelles ils; relation rather than asking aid, belonging or escape selects the full construction.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "mit_au_fait",
+      "surfacePattern": "mit au fait",
+      "meaning": "informed; acquainted with the facts",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 156,
+          "start": 40,
+          "end": 51,
+          "text": "mit au fait"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 156,
+          "start": 40,
+          "end": 43,
+          "text": "mit",
+          "form": "mit"
+        },
+        {
+          "unit": 156,
+          "start": 44,
+          "end": 46,
+          "text": "au",
+          "form": "au"
+        },
+        {
+          "unit": 156,
+          "start": 47,
+          "end": 51,
+          "text": "fait",
+          "form": "fait"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature.",
+          "targetText": "mit au fait",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "informed; acquainted with the facts",
+          "choices": [
+            "informed; acquainted with the facts",
+            "kept ignorant",
+            "deceived",
+            "forgot"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il leur expliqua qui était Micromégas, afin qu’ils le sachent : il les ___.",
+          "question": "Complétez la phrase.",
+          "answer": "mit au fait",
+          "choices": [
+            "mit au fait",
+            "laissa dans l’ignorance",
+            "induisit en erreur",
+            "détourna"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle construction au passé signifie donna les informations nécessaires pour comprendre ?",
+          "question": "Quelle expression convient ?",
+          "answer": "mit au fait",
+          "choices": [
+            "mit au fait",
+            "laissa dans l’ignorance",
+            "induisit en erreur",
+            "détourna"
+          ]
+        }
+      ],
+      "questionSha256": "d7d6c82c387090e48cffbfa118beb0e8c821e8ef14b36bf6623f932b5caba537",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The exact mit au fait three-band bank in package 02 was re-read for the additional au and noun fait components at 156:44 and 156:47. The full construction informs the humans; these two tokens cannot be reused as generic contraction mastery plus a faire participle. Retain the previously reviewed phrase identity and avoid duplicate word/phrase encounters during final import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-06-expression-review-02.json",
+      "earlierKey": "mit_au_fait",
+      "earlierFileSha256": "4ff0f2fbe574d96350323e1ec69651e46a54a6dc136cbf8206f6ee2bdc2e63ac"
+    }
+  ]
+}

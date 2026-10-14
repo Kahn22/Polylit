@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:41.417Z",
+  "sense": {
+    "id": "sns_fr_faire_impersonal_condition",
+    "lemmaId": "lem_faire",
+    "gloss": "to be (impersonal conditions)",
+    "definition": "Dans il fait bon ou mauvais, décrit les conditions ou l’agrément d’une situation."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_impersonal_condition_fait_levels_4_5",
+      "qiz_fr_faire_impersonal_condition_fait_levels_6_8",
+      "qiz_fr_faire_impersonal_condition_fait_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fait:sns_fr_faire_impersonal_condition",
+      "surface": "fait",
+      "lemma": "faire",
+      "currentRevision": "rev_3048eba715190e9c8fe80eceeed1657e8f3b3e6e5f4988c16d5d07a753ee069c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_dfa5758907d9d4c20cd851f9",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_097",
+          "passage": "Seulement, il est des secrets qu’il ne fait pas bon d’avoir surpris.",
+          "span": [
+            39,
+            43
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_impersonal_condition_fait_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il _____ bon vivre dans ce village paisible.",
+          "choices": [
+            {
+              "text": "fait",
+              "correct": true
+            },
+            {
+              "text": "font",
+              "correct": false
+            },
+            {
+              "text": "fais",
+              "correct": false
+            },
+            {
+              "text": "faites",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_impersonal_condition_fait_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il ne fait pas bon sortir pendant cette violente tempête.",
+          "prompt": "Quel verbe impersonnel présente ici les conditions défavorables ?",
+          "choices": [
+            {
+              "text": "sortir",
+              "correct": false
+            },
+            {
+              "text": "violente",
+              "correct": false
+            },
+            {
+              "text": "tempête",
+              "correct": false
+            },
+            {
+              "text": "fait",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_impersonal_condition_fait_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il fait bon se reposer à l’ombre pendant la chaleur.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "is dangerous",
+              "correct": false
+            },
+            {
+              "text": "is pleasant",
+              "correct": true
+            },
+            {
+              "text": "is forbidden",
+              "correct": false
+            },
+            {
+              "text": "is impossible",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

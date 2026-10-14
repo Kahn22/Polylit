@@ -1,0 +1,2 @@
+import{checkReviewedVerbScope}from'./check-micromegas-scope-review-helpers.mjs';
+export async function checkApprendreScopeReconciliation(folder,unitPlan){return checkReviewedVerbScope(folder,unitPlan,'20','Apprendre',new Set(['apprendre','apprit','appris','apprenez','apprenons','apprend','apprennent','apprenant']),u=>[45,155,167].includes(u)?'planned_apprendre_generic_teach_inform':'sns_apprendre_primary');}

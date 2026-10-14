@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:44:48.324Z",
+  "sense": {
+    "id": "sns_zola_tout_intensifier",
+    "lemmaId": "lem_tout",
+    "gloss": "quite; entirely",
+    "definition": "renforce l’adjectif ou l’adverbe qui suit"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 0,
+    "occurrenceCount": 0,
+    "activeQuizCount": 0,
+    "historicalQuizCount": 3,
+    "affectedQuizIds": [
+      "qiz_zola_tout_intensifier_advanced",
+      "qiz_zola_tout_intensifier_intermediate",
+      "qiz_zola_tout_intensifier_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [],
+  "historicalDependentQuizzes": [
+    {
+      "id": "qiz_zola_tout_intensifier_advanced",
+      "surfaceFormId": "srf_tout",
+      "band": "levels_6_8",
+      "context": "Ce livre est tout neuf. Le carton est presque vide, le rayon bien rangé et le magasin encore ouvert.",
+      "prompt": "Quel mot renforce l’idée que le livre est neuf ?",
+      "choices": [
+        {
+          "text": "tout",
+          "correct": true
+        },
+        {
+          "text": "presque",
+          "correct": false
+        },
+        {
+          "text": "bien",
+          "correct": false
+        },
+        {
+          "text": "encore",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_tout_intensifier_intermediate",
+      "surfaceFormId": "srf_tout",
+      "band": "levels_4_5",
+      "context": "Ce cahier est ___ neuf : personne ne l’a encore utilisé.",
+      "choices": [
+        {
+          "text": "tout",
+          "correct": true
+        },
+        {
+          "text": "tous",
+          "correct": false
+        },
+        {
+          "text": "toute",
+          "correct": false
+        },
+        {
+          "text": "toutes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_tout_intensifier_early",
+      "surfaceFormId": "srf_tout",
+      "band": "levels_1_3",
+      "context": "Le pain est tout frais ce matin.",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "quite; entirely",
+          "correct": true
+        },
+        {
+          "text": "barely",
+          "correct": false
+        },
+        {
+          "text": "rarely",
+          "correct": false
+        },
+        {
+          "text": "never",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

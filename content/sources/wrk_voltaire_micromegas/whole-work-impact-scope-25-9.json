@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:36.369Z",
+  "sense": {
+    "id": "sns_fr_faire_cause_clause",
+    "lemmaId": "lem_faire",
+    "gloss": "to cause; to mean that",
+    "definition": "Dans faire que, produire un effet ou entraîner une conséquence."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_1_3",
+      "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_4_5",
+      "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_faisoit_lem_faire_115732cff1:sns_fr_faire_cause_clause",
+      "surface": "faisoit",
+      "lemma": "faire",
+      "currentRevision": "rev_64fbc79f2b879a4e4059e18e3b322b37b7fe3aa6d5d355010d07a2ae312087ca",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_a861c06369e636d4228b16aa",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_004",
+          "passage": "la pauvre fille souffroit tout avec patience et n’osoit s’en plaindre à son pere qui l’auroit grondée, parce que sa femme le gouvernoit entierement. Lorsqu’elle avoit fait son ouvrage, elle s’alloit mettre au coin de la cheminée et s’asseoir dans les cendres, ce qui faisoit qu’on l’appeloit communément dans le logis Cucendron ;",
+          "span": [
+            267,
+            274
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ce retard faisoit que nous arrivions toujours après les autres.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forgot",
+              "correct": false
+            },
+            {
+              "text": "refused",
+              "correct": false
+            },
+            {
+              "text": "meant",
+              "correct": true
+            },
+            {
+              "text": "prevented",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "La pluie _____ que le chemin restait boueux.",
+          "choices": [
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "faisoit",
+              "correct": true
+            },
+            {
+              "text": "faisoient",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_cause_clause_cendrillon_faisoit_lem_faire_115732cff1_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Son habitude de rester près des cendres faisoit qu’on lui donnait ce surnom.",
+          "prompt": "Quel verbe ancien introduit une conséquence ?",
+          "choices": [
+            {
+              "text": "faisoit",
+              "correct": true
+            },
+            {
+              "text": "habitude",
+              "correct": false
+            },
+            {
+              "text": "cendres",
+              "correct": false
+            },
+            {
+              "text": "surnom",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

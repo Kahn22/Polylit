@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:15:55.800Z",
+  "sense": {
+    "id": "sns_fr_figure_social_standing",
+    "lemmaId": "lem_parure_figure_noun_6897d057c3",
+    "gloss": "social standing",
+    "definition": "Place ou apparence que l’on présente dans la société, notamment dans faire figure."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+      "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+      "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061:sns_fr_figure_social_standing",
+      "surface": "figure",
+      "lemma": "figure",
+      "currentRevision": "rev_9531967f73aa47bcde8743aeec6992c3b73c8f5d0ea8832c0c2f7f69625f477d",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_b90e2aecad198926fb51a5f0",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_006",
+          "passage": "Il arriva que le fils du Roi donna un bal et qu’il en pria toutes les personnes de qualité : nos deux Damoiselles en furent aussi priées, car elles faisoient grande figure dans le pays. Les voilà bien aises et bien occupées à choisir les habits et les coëffures qui leur seïeroient le mieux ;",
+          "span": [
+            165,
+            171
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ce notable fait grande figure dans la ville grâce à sa richesse et à ses relations.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "travel experience",
+              "correct": false
+            },
+            {
+              "text": "social standing",
+              "correct": true
+            },
+            {
+              "text": "physical strength",
+              "correct": false
+            },
+            {
+              "text": "drawing skill",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "L’ambassadeur fait bonne figure parmi les invités et tient dignement son rang.",
+          "prompt": "Quel mot, avec fait bonne, renvoie à la place et à l’apparence sociales ?",
+          "choices": [
+            {
+              "text": "ambassadeur",
+              "correct": false
+            },
+            {
+              "text": "invités",
+              "correct": false
+            },
+            {
+              "text": "rang",
+              "correct": false
+            },
+            {
+              "text": "figure",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_figure_social_standing_parure_figure_lem_parure_figure_noun_6897d057c3_dda5faa061_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Sa famille fait grande _____ dans le pays et occupe un rang social élevé.",
+          "choices": [
+            {
+              "text": "figure",
+              "correct": true
+            },
+            {
+              "text": "distance",
+              "correct": false
+            },
+            {
+              "text": "blessure",
+              "correct": false
+            },
+            {
+              "text": "promenade",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "status": "offline_source_word_package_unapplied",
+  "summary": {
+    "boundDirectDraftSourceUses": 95,
+    "boundDirectDraftIdentityGroups": 80,
+    "storedPreparedQuestionBands": 240,
+    "newProperLemmas": 44,
+    "newSenses": 52,
+    "newSurfaceForms": 74,
+    "reusedIdentityGroups": 1,
+    "freshIdentityGroups": 79,
+    "preservedPriorCanonicalBanks": 0,
+    "preservedExistingBankSelections": 1,
+    "contextualBankSelections": 79,
+    "refinedBanks": 17,
+    "refinedQuestionBands": 24,
+    "explicitOwnershipAndBankHolds": 1,
+    "remainingDirectDraftSourceUses": 681,
+    "remainingDirectDraftIdentityGroups": 531,
+    "pendingPhraseSpans": 127
+  },
+  "nextAction": {
+    "family": "quantity complements and complete partitive determiner ownership",
+    "form": "de",
+    "unit": 100,
+    "start": 68,
+    "end": 70,
+    "reason": "Resolve the exact five-use de_partitive group606. Un peu de confusion uses a quantity-complement preposition, while the other four printed uses begin complete de la/de l’ partitive determiners. Retain every legacy de/article key and bank; prepare complete grammatical owners before removing these source uses from the queue. Then resume dispute at unit103 offsets3–10. Packages56/57 bind three complete phrase keys/seven components/nine questions and80 word keys/95 uses/240 questions, with24 bands refined in17 source banks and explicit same-meaning joins. Remaining681 direct source uses/531 groups and127 original phrase spans require review. All candidates remain offline and unapplied."
+  },
+  "ownershipHolds": [
+    {
+      "sourceGroupIndex": 606,
+      "form": "de",
+      "occurrences": [
+        {
+          "unit": 100,
+          "start": 68,
+          "end": 70,
+          "text": "de"
+        },
+        {
+          "unit": 101,
+          "start": 69,
+          "end": 71,
+          "text": "de"
+        },
+        {
+          "unit": 114,
+          "start": 88,
+          "end": 90,
+          "text": "de"
+        },
+        {
+          "unit": 185,
+          "start": 116,
+          "end": 118,
+          "text": "de"
+        },
+        {
+          "unit": 199,
+          "start": 431,
+          "end": 433,
+          "text": "de"
+        }
+      ],
+      "reason": "The bank conflates a quantity-complement preposition at100:68–70 (un peu de confusion) with components of complete partitive determiners de la/de l’ at101/114/185/199. Preserve these five exact uses until whole determiner ownership and separate quantity-complement ownership are explicitly prepared; do not bind the isolated preposition head to a partitive sense."
+    }
+  ],
+  "evidenceSha256": {
+    "whole-work-source-words-57.json": "7788cf7a6e1b2dca3ee7bc0d0107d3b5a47e803af4449f474a774e07d87ab5d6",
+    "whole-work-source-bank-refinements-57.json": "4f9578dccb0df3554b0046bea2c28defa548d960fb414b6e087d374320cbc106"
+  },
+  "candidateReleaseReady": false,
+  "appliedScopePlans": 0
+}

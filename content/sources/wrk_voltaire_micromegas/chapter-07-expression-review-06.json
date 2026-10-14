@@ -1,0 +1,1037 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 9,
+    "reviewedQuestionBands": 27,
+    "newExpressionForms": 4,
+    "newQuestionBands": 12,
+    "reusedEarlierQuestionBands": 15
+  },
+  "items": [
+    {
+      "key": "de_haut_en_bas",
+      "surfacePattern": "de haut en bas",
+      "meaning": "with contempt; looking down on someone",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 231,
+          "end": 245,
+          "text": "de haut en bas"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 231,
+          "end": 233,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 210,
+          "start": 234,
+          "end": 238,
+          "text": "haut",
+          "form": "haut"
+        },
+        {
+          "unit": 210,
+          "start": 239,
+          "end": 241,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 210,
+          "start": 242,
+          "end": 245,
+          "text": "bas",
+          "form": "bas"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "de haut en bas",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "with contempt; looking down on someone",
+          "choices": [
+            "with contempt; looking down on someone",
+            "with respect",
+            "with curiosity",
+            "with indifference"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Se croyant supérieur, il leur témoigne du mépris : il les regarde ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution, dans regarder quelqu’un, exprime ici un regard méprisant ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        }
+      ],
+      "questionSha256": "d13614d4e5ea98497fd4888084c0fb1b5b8cb60c817d457d565934ca1e84c242",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Académie 1762 regarder explicitly gives regarder quelqu’un de haut en bas for showing contempt or disdain. The source’s tiny cleric claims universal knowledge and human primacy before giants; this contextual application is an editorial inference supported by the conventional idiom, rather than a mere vertical survey. The earlier unresolved gaze draft was inspected. All four adverbial phrases fit regarde; contempt rather than respect, curiosity or indifference selects the whole locution. Package06 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "de_haut_en_bas",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "de_210_231",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 231,
+              "end": 233,
+              "text": "de",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "en_210_239",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 239,
+              "end": 241,
+              "text": "en",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-04.json",
+          "fileSha256": "cfe6316ee364f2e8609886760a1e8ed462186a6f22a4d14d5fceb7fa9476ada9",
+          "key": "haut_210_234",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 234,
+              "end": 238,
+              "text": "haut",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "a_l_occasion_de",
+      "surfacePattern": "à l’occasion de",
+      "meaning": "in connection with; prompted by",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 206,
+          "start": 181,
+          "end": 196,
+          "text": "à l’occasion de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 206,
+          "start": 181,
+          "end": 182,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 206,
+          "start": 183,
+          "end": 185,
+          "text": "l’",
+          "form": "l’"
+        },
+        {
+          "unit": 206,
+          "start": 185,
+          "end": 193,
+          "text": "occasion",
+          "form": "occasion"
+        },
+        {
+          "unit": 206,
+          "start": 194,
+          "end": 196,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens.",
+          "targetText": "à l’occasion de",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in connection with; prompted by",
+          "choices": [
+            "in connection with; prompted by",
+            "in spite of",
+            "before",
+            "instead of"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il rapporte sa pensée à ses expériences sensibles : elle apparaît ___ ces expériences.",
+          "question": "Complétez la phrase.",
+          "answer": "à l’occasion de",
+          "choices": [
+            "à l’occasion de",
+            "en dépit de",
+            "avant",
+            "à la place de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution relie ici la pensée aux expériences qui lui donnent occasion de se produire ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à l’occasion de",
+          "choices": [
+            "à l’occasion de",
+            "en dépit de",
+            "avant",
+            "à la place de"
+          ]
+        }
+      ],
+      "questionSha256": "24ae216da45e08c54a54bea30ec4f02093311610bcd360c703d89a0d92ae710b",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Lockean reports thinking only in connection with his sensory experiences. Occasion names a circumstance giving rise to thinking, not a festive celebration. All prepositional phrases fit ces expériences, while the asserted occasion rather than obstacle, temporal precedence or replacement selects the target. No historical proof of a theory is claimed. Package06 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "a_l_occasion_de",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "l’_206_183",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 206,
+              "start": 183,
+              "end": 185,
+              "text": "l’",
+              "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "à_206_181",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 206,
+              "start": 181,
+              "end": 182,
+              "text": "à",
+              "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "de_206_194",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 206,
+              "start": 194,
+              "end": 196,
+              "text": "de",
+              "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "adresser_la_parole_participe",
+      "surfacePattern": "adressé la parole",
+      "meaning": "addressed someone; begun to speak to someone",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 206,
+          "start": 76,
+          "end": 93,
+          "text": "adressé la parole"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 206,
+          "start": 76,
+          "end": 83,
+          "text": "adressé",
+          "form": "adressé"
+        },
+        {
+          "unit": 206,
+          "start": 84,
+          "end": 86,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 206,
+          "start": 87,
+          "end": 93,
+          "text": "parole",
+          "form": "parole"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens.",
+          "targetText": "adressé la parole",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "addressed someone; begun to speak to someone",
+          "choices": [
+            "addressed someone; begun to speak to someone",
+            "withheld speech",
+            "interrupted someone",
+            "turned away"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il a commencé à parler directement à cet interlocuteur : il lui a ___.",
+          "question": "Complétez la phrase.",
+          "answer": "adressé la parole",
+          "choices": [
+            "adressé la parole",
+            "refusé la parole",
+            "coupé la parole",
+            "tourné le dos"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie ici commencé à parler à quelqu’un ?",
+          "question": "Quelle expression convient ?",
+          "answer": "adressé la parole",
+          "choices": [
+            "adressé la parole",
+            "refusé la parole",
+            "coupé la parole",
+            "tourné le dos"
+          ]
+        }
+      ],
+      "questionSha256": "ed695c3669b58c1a66a6e3536fea62d1c8ef3a3beed093e02a806349f18dfa2b",
+      "identityTarget": "share_same_package_expression_meaning:adresser_la_parole",
+      "reviewNote": "Quand on lui eut adressé la parole marks speech directed to the follower of Locke. This completed surface shares the same planned adresser la parole expression meaning as the current adressant variant, with explicit canonical owner reconciliation before import and no participle-only new sense. Every full participial phrase fits il lui a; speaking to the listener differs from withholding, interruption or turning away. Suppress exact earlier component routes while preserving other speech meanings. Package06 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "la_169_287",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 206,
+              "start": 84,
+              "end": 86,
+              "text": "la",
+              "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ],
+      "earlierFile": "chapter-07-expression-review-05.json",
+      "earlierKey": "adresser_la_parole_participe",
+      "earlierFileSha256": "33181efd751165d707da9c0dede811ebe2eaced6268debb8d88f3bbb3f83a21b",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-05.json",
+          "fileSha256": "2a9eeec6ae68a51c6cfe875da5636d0bce5a4b087dd90105461651d4a9a22966",
+          "key": "parole_206_87",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 206,
+              "start": 87,
+              "end": 93,
+              "text": "parole",
+              "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "couper_la_parole",
+      "surfacePattern": "coupa la parole",
+      "meaning": "interrupted; cut off others’ speech",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 73,
+          "end": 88,
+          "text": "coupa la parole"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 73,
+          "end": 78,
+          "text": "coupa",
+          "form": "coupa"
+        },
+        {
+          "unit": 210,
+          "start": 79,
+          "end": 81,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 210,
+          "start": 82,
+          "end": 88,
+          "text": "parole",
+          "form": "parole"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "coupa la parole",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "interrupted; cut off others’ speech",
+          "choices": [
+            "interrupted; cut off others’ speech",
+            "let others finish",
+            "gave an answer",
+            "remained silent"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il empêcha les autres de finir de parler : il leur ___.",
+          "question": "Complétez la phrase.",
+          "answer": "coupa la parole",
+          "choices": [
+            "coupa la parole",
+            "laissa le temps",
+            "donna une réponse",
+            "accorda un délai"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie interrompit quelqu’un pendant qu’il parlait ?",
+          "question": "Quelle expression convient ?",
+          "answer": "coupa la parole",
+          "choices": [
+            "coupa la parole",
+            "laissa le temps",
+            "donna une réponse",
+            "accorda un délai"
+          ]
+        }
+      ],
+      "questionSha256": "2c04bc789dcadff270e47eee14e0ed2c3721d49ed747dd0eb4be52224718bb9a",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The animalcule coupa la parole à tous interrupts the philosophers rather than cutting a physical object. Prepare the full idiom under proper expression ownership, compared with existing couper and parole meanings before import. All four full past predicates fit il leur; preventing completion of speech rather than granting time, answering or granting a delay selects coupa la parole. Suppress only the exact component occurrences and preserve all other literal cutting or utterance mastery. Package06 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "la_169_287",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 79,
+              "end": 81,
+              "text": "la",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ],
+      "earlierFile": "chapter-07-expression-review-05.json",
+      "earlierKey": "couper_la_parole",
+      "earlierFileSha256": "33181efd751165d707da9c0dede811ebe2eaced6268debb8d88f3bbb3f83a21b",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-05.json",
+          "fileSha256": "2a9eeec6ae68a51c6cfe875da5636d0bce5a4b087dd90105461651d4a9a22966",
+          "key": "parole_210_82",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 82,
+              "end": 88,
+              "text": "parole",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "se_laisser_aller_posture",
+      "surfacePattern": "se laissèrent aller",
+      "meaning": "let their bodies lean; relaxed their bodily support",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 211,
+          "start": 34,
+          "end": 53,
+          "text": "se laissèrent aller"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 211,
+          "start": 34,
+          "end": 36,
+          "text": "se",
+          "form": "se"
+        },
+        {
+          "unit": 211,
+          "start": 37,
+          "end": 47,
+          "text": "laissèrent",
+          "form": "laissèrent"
+        },
+        {
+          "unit": 211,
+          "start": 48,
+          "end": 53,
+          "text": "aller",
+          "form": "aller"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien.",
+          "targetText": "se laissèrent aller",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "let their bodies lean; relaxed their bodily support",
+          "choices": [
+            "let their bodies lean; relaxed their bodily support",
+            "kept their bodies upright",
+            "stood firmly",
+            "remained motionless"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils ne soutinrent plus leurs corps en riant : ils ___.",
+          "question": "Complétez la phrase.",
+          "answer": "se laissèrent aller",
+          "choices": [
+            "se laissèrent aller",
+            "se tinrent droits",
+            "se redressèrent",
+            "restèrent immobiles"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie ici cessèrent de soutenir fermement leur corps ?",
+          "question": "Quelle expression convient ?",
+          "answer": "se laissèrent aller",
+          "choices": [
+            "se laissèrent aller",
+            "se tinrent droits",
+            "se redressèrent",
+            "restèrent immobiles"
+          ]
+        }
+      ],
+      "questionSha256": "da81bbaf0370ad5e94801cad974cae839568e17c6eb528a39500149fc3d236f9",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Se laissèrent aller l’un sur l’autre describes the two visitors physically leaning together under convulsive laughter. Académie1694 explicitly records laisser aller for not supporting one’s body or posture. Prepare this full postural construction rather than ordinary aller movement or a separate laughter-only meaning; retain the source’s emotional cause without narrowing the canonical scope to it. All four complete plural predicates fit ils; giving way physically differs from upright support, straightening or stillness. Exact earlier component suppression is required before import. Package06 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-02.json",
+          "fileSha256": "56f7e88646d3702aac313670bb0e98eab56d4d21180e0e6c1c3de71192cd8b2c",
+          "key": "se_176_51",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 211,
+              "start": 34,
+              "end": 36,
+              "text": "se",
+              "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ],
+      "earlierFile": "chapter-07-expression-review-05.json",
+      "earlierKey": "se_laisser_aller_posture",
+      "earlierFileSha256": "33181efd751165d707da9c0dede811ebe2eaced6268debb8d88f3bbb3f83a21b",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-05.json",
+          "fileSha256": "2a9eeec6ae68a51c6cfe875da5636d0bce5a4b087dd90105461651d4a9a22966",
+          "key": "aller_211_48",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 211,
+              "start": 48,
+              "end": 53,
+              "text": "aller",
+              "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "pendant_que",
+      "surfacePattern": "pendant que",
+      "meaning": "while; during the time that",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 148,
+          "end": 159,
+          "text": "pendant que"
+        },
+        {
+          "chapter": 7,
+          "unit": 205,
+          "start": 234,
+          "end": 245,
+          "text": "pendant que"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 205,
+          "start": 148,
+          "end": 155,
+          "text": "pendant",
+          "form": "pendant"
+        },
+        {
+          "unit": 205,
+          "start": 156,
+          "end": 159,
+          "text": "que",
+          "form": "que"
+        },
+        {
+          "unit": 205,
+          "start": 234,
+          "end": 241,
+          "text": "pendant",
+          "form": "pendant"
+        },
+        {
+          "unit": 205,
+          "start": 242,
+          "end": 245,
+          "text": "que",
+          "form": "que"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »",
+          "targetText": "pendant que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "while; during the time that",
+          "choices": [
+            "while; during the time that",
+            "before",
+            "after",
+            "because"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Les deux actions se déroulent en même temps : l’aiguille avance ___ la cloche sonne.",
+          "question": "Complétez la phrase.",
+          "answer": "pendant que",
+          "choices": [
+            "pendant que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution introduit une action simultanée ?",
+          "question": "Quelle expression convient ?",
+          "answer": "pendant que",
+          "choices": [
+            "pendant que",
+            "avant que",
+            "après que",
+            "parce que"
+          ]
+        }
+      ],
+      "questionSha256": "8c450d01d6b47d458d1878a2d371a250d499bb7ccfb44b5a8c5472ad41cac937",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Both pendant que link simultaneous clock-like functions in the soul/body analogy. The exact pendant duration-preposition bank was read; a complete clause requires the whole temporal conjunction. Prepare pendant que under proper full-expression ownership, not an isolated preposition lemma owning a conjunction. All four clause introducers take la cloche sonne in this metalinguistic simultaneity clue; simultaneity differs from prior/subsequent time or cause. Before import suppress only these exact pendant/que components, preserving other preposition and conjunction uses.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "que_171_118",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 205,
+              "start": 156,
+              "end": 159,
+              "text": "que",
+              "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »"
+            },
+            {
+              "chapter": 7,
+              "unit": 205,
+              "start": 242,
+              "end": 245,
+              "text": "que",
+              "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »"
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "par_malheur",
+      "surfacePattern": "par malheur",
+      "meaning": "unfortunately; by ill fortune",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 20,
+          "end": 31,
+          "text": "par malheur"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 20,
+          "end": 23,
+          "text": "par",
+          "form": "par"
+        },
+        {
+          "unit": 210,
+          "start": 24,
+          "end": 31,
+          "text": "malheur",
+          "form": "malheur"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "par malheur",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "unfortunately; by ill fortune",
+          "choices": [
+            "unfortunately; by ill fortune",
+            "fortunately",
+            "deliberately",
+            "at the same time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette présence est présentée comme regrettable : ___, le pédant était là.",
+          "question": "Complétez la phrase.",
+          "answer": "par malheur",
+          "choices": [
+            "par malheur",
+            "par bonheur",
+            "à dessein",
+            "en même temps"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie malheureusement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "par malheur",
+          "choices": [
+            "par malheur",
+            "par bonheur",
+            "à dessein",
+            "en même temps"
+          ]
+        }
+      ],
+      "questionSha256": "562a160c401a3bd6770ffdcb589458a6bce8e081a156fe85675fcc618094aec4",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Par malheur gives the narrator’s unfortunate assessment of the pedant’s presence, not a literal mechanism or an isolated misfortune noun. No earlier whole par malheur bank was found. Prepare this full adverbial expression; all four complete phrases fit the introductory position and contrast misfortune with good fortune, purpose or simultaneity. Exact earlier par component routes must be suppressed for this phrase at import, preserving all other relational par uses.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-02.json",
+          "fileSha256": "56f7e88646d3702aac313670bb0e98eab56d4d21180e0e6c1c3de71192cd8b2c",
+          "key": "par_173_204",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 210,
+              "start": 20,
+              "end": 23,
+              "text": "par",
+              "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "bonnet_carre",
+      "surfacePattern": "bonnet carré",
+      "meaning": "square academic cap; a traditional cap of learned professions",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 56,
+          "end": 68,
+          "text": "bonnet carré"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 56,
+          "end": 62,
+          "text": "bonnet",
+          "form": "bonnet"
+        },
+        {
+          "unit": 210,
+          "start": 63,
+          "end": 68,
+          "text": "carré",
+          "form": "carré"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "bonnet carré",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "square academic cap; a traditional cap of learned professions",
+          "choices": [
+            "square academic cap; a traditional cap of learned professions",
+            "a round ordinary hat",
+            "a long turban",
+            "a pointed helmet"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le couvre-chef traditionnel des maîtres en théologie est un ___.",
+          "question": "Complétez la phrase.",
+          "answer": "bonnet carré",
+          "choices": [
+            "bonnet carré",
+            "chapeau rond",
+            "turban long",
+            "casque pointu"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression nominale désigne le couvre-chef traditionnel des maîtres en théologie ?",
+          "question": "Quelle expression convient ?",
+          "answer": "bonnet carré",
+          "choices": [
+            "bonnet carré",
+            "chapeau rond",
+            "turban long",
+            "casque pointu"
+          ]
+        }
+      ],
+      "questionSha256": "9a9dfca04126960648cb21ad87ac55165c48297523715b11b9d6ede8ba8c8892",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Bonnet carré is a historical named cap of learned professions, especially masters in theology here, rather than a mathematical claim that every cap has four equal sides and angles. Académie9 records the complete cap expression; the earlier V bonnets noun and IV carrés geometry banks were read for comparison. Prepare the full cap term. All four complete noun phrases are masculine singular after un and their adjectives agree. Do not separately encounter generic bonnet and geometric carré for this same named cap; preserve their unrelated uses and mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "aller_et_venir",
+      "surfacePattern": "allaient et venaient",
+      "meaning": "moved back and forth; oscillated",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 211,
+          "start": 186,
+          "end": 206,
+          "text": "allaient et venaient"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 211,
+          "start": 186,
+          "end": 194,
+          "text": "allaient",
+          "form": "allaient"
+        },
+        {
+          "unit": 211,
+          "start": 195,
+          "end": 197,
+          "text": "et",
+          "form": "et"
+        },
+        {
+          "unit": 211,
+          "start": 198,
+          "end": 206,
+          "text": "venaient",
+          "form": "venaient"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien.",
+          "targetText": "allaient et venaient",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "moved back and forth; oscillated",
+          "choices": [
+            "moved back and forth; oscillated",
+            "stayed motionless",
+            "suddenly froze",
+            "stopped moving"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Leurs corps oscillaient en un mouvement de va-et-vient : ils ___.",
+          "question": "Complétez la phrase.",
+          "answer": "allaient et venaient",
+          "choices": [
+            "allaient et venaient",
+            "restaient immobiles",
+            "s’immobilisaient soudain",
+            "cessaient de bouger"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie se déplaçaient dans un sens puis dans l’autre ?",
+          "question": "Quelle expression convient ?",
+          "answer": "allaient et venaient",
+          "choices": [
+            "allaient et venaient",
+            "restaient immobiles",
+            "s’immobilisaient soudain",
+            "cessaient de bouger"
+          ]
+        }
+      ],
+      "questionSha256": "4b3de3cffb8bd35be1356044b05a15fb921e30d180d245d511c06fe7b3473ec4",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Allaient et venaient describes repeated back-and-forth bodily motion under laughter, not the imminent-action auxiliary aller before an infinitive. Prepare the complete aller et venir movement construction, sharing one canonical meaning across inflection. All four complete plural predicates fit ils; oscillation contrasts with stillness, freezing or stopping. Preserve earlier unrelated aller and venir uses and mastery. The exact et component is still held in package01; record its source-bound pre-import resolution dependency without subtracting it from the partial hold count or treating it as already approved.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "et_169_89",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 211,
+              "start": 195,
+              "end": 197,
+              "text": "et",
+              "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    }
+  ]
+}

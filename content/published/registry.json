@@ -36,6 +36,11 @@
         "id": "aut_felix_maria_samaniego",
         "name": "Félix María Samaniego",
         "sortName": "Samaniego, Félix María"
+      },
+      {
+        "id": "aut_voltaire",
+        "name": "Voltaire",
+        "sortName": "Voltaire"
       }
     ],
     "collections": [
@@ -80,6 +85,12 @@
         "authorId": "aut_felix_maria_samaniego",
         "title": "Fábulas",
         "language": "es"
+      },
+      {
+        "id": "col_voltaire_contes",
+        "authorId": "aut_voltaire",
+        "title": "Contes philosophiques",
+        "language": "fr"
       }
     ],
     "books": [
@@ -190,6 +201,12 @@
         "collectionId": "col_samaniego_fabulas",
         "ordinal": 4,
         "title": "Libro IV"
+      },
+      {
+        "id": "bok_voltaire_micromegas",
+        "collectionId": "col_voltaire_contes",
+        "ordinal": 1,
+        "title": "Micromégas"
       }
     ]
   },
@@ -247,6 +264,11 @@
     {
       "id": "wrk_samaniego_zorra_uvas",
       "language": "es",
+      "status": "approved"
+    },
+    {
+      "id": "wrk_voltaire_micromegas",
+      "language": "fr",
       "status": "approved"
     }
   ]

@@ -1,0 +1,646 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-24-01",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 1,
+  "reviewedIdentities": 18,
+  "approvals": 18,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "controlled correction of learner glosses and definitions followed by contextual re-review with stable identity IDs",
+  "changes": [
+    {
+      "subjectId": "srf_but:sns_but_primary",
+      "reviewId": "vocabulary:srf_but:sns_but_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_but:sns_but_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_but:sns_but_primary",
+        "subjectRevision": "rev_3417998db4a636591e21c90dfff154c548d061d7338dab2207dd1094053aa3e9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All four contexts concern an intended goal or purpose, but the present definition (“But is the noun goal”) is self-referential and the single sense groups a target with a political purpose. Replace it with a precise, contextual definition before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_but:sns_but_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_but:sns_but_primary",
+        "subjectRevision": "rev_9cb1fa676bc32f8785fa48cd267ac795f222e28d0222ad01b04f7116ed3cac77",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_brouter:sns_brouter_primary",
+      "reviewId": "vocabulary:srf_brouter:sns_brouter_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_brouter:sns_brouter_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_brouter:sns_brouter_primary",
+        "subjectRevision": "rev_01a83f8f49a63f3a0342fc92a061eeef3508f9a249f1fe3e83c9258fdba0057d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The infinitive means “to graze” in its sole indexed context, but the current gloss/definition (“Brouter is the infinitive to graze”) is circular and not learner-ready. Rewrite the shared sense once and re-review both surface forms before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_brouter:sns_brouter_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_brouter:sns_brouter_primary",
+        "subjectRevision": "rev_940ec37b2aec8b6343b6bf35be3a3ea30e50b932e96d6c6356cb4a708081c31e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_broute:sns_brouter_primary",
+      "reviewId": "vocabulary:srf_broute:sns_brouter_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_broute:sns_brouter_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_broute:sns_brouter_primary",
+        "subjectRevision": "rev_bbbb866be922f1cdb0644325d432237ecf06cc72e97e7e3c588de33b9ebe2468",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The verb and grazing sense are supported by the tortoise fable, but the current gloss/definition (“Brouter is the infinitive to graze”) is circular and not a learner-ready meaning. Rewrite it concisely, then re-review both surface forms sharing this lemma and sense."
+      },
+      "after": {
+        "id": "vocabulary:srf_broute:sns_brouter_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_broute:sns_brouter_primary",
+        "subjectRevision": "rev_3c5f4031d7fc1ca44e34d6d207b73d03a09f72ffecbc98f6bde0dca497bc9b13",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_carriere:sns_carriere_primary",
+      "reviewId": "vocabulary:srf_carriere:sns_carriere_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_carriere:sns_carriere_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_carriere:sns_carriere_primary",
+        "subjectRevision": "rev_48c7b54a8af9e70320770d7629579e42cccd7884b31b6679a034fbff3698a907",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The race-course context supports “course/track,” but the lemma is recorded as unaccented carriere while the indexed French form and standard headword are carrière. Correct the lemma spelling and rebind/review this exact identity before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_carriere:sns_carriere_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_carriere:sns_carriere_primary",
+        "subjectRevision": "rev_c8b82fb3a0ec43b8918abc751a032c9811fec9a9b0d5dd0d42164a76231f21c7",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+      "reviewId": "vocabulary:srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+        "subjectRevision": "rev_d6af803820ef29dc0d427944ed885f94139c24d93995883e84cd763229da9ef5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source says au coin de la cheminée, referring to the fireplace/hearth area; the gloss “a chimney” points to the smoke flue and is misleading in this context. Correct the learner gloss and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_cheminee_lem_cendrillon_cheminee_noun_256a664ec9_296cd6b5c2:sns_cendrillon_cheminee_construction_abritant_un_atre_ou_l_on_fait_du_feu_et_comportant_un_conduit_pour_donner_issue_a_la_fumee_5f304a43c2",
+        "subjectRevision": "rev_ab2bebbbd5f9d7c3d33cff10ee4b1281132b6ccfeea641f05152348adeeb1de9",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+      "reviewId": "vocabulary:srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "subjectRevision": "rev_6f77423554a4b3ebaf786a89cee2c24fa67140f8ab0f3bae3fd4a3e7ce973c92",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed forms cover ordinary clothes, ceremonial clothing, servants’ livery, and Cinderella’s old clothes, while the gloss lists several specialized English garment types. Replace the noisy gloss with the shared clothing/garment meaning and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_habits_lem_cendrillon_habit_noun_f8db4bca8f_72dd32bc4a:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "subjectRevision": "rev_ad49da9e97e1e6cc93faf7c2bd935fce46f8a7b52d3198ab9d46840a7da91ba3",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 10
+    },
+    {
+      "subjectId": "srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+      "reviewId": "vocabulary:srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "subjectRevision": "rev_7af2a3545d204eb5f7608b226dcec32360184cd947d509a4ee2b81876ff45dd6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed plural coëffures are hairstyles the sisters select to wear, not headwear or garments. Correct the learner gloss to agree with the sense definition, then re-review both forms sharing this lemma and sense."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffures_lem_cendrillon_coiffure_noun_caff90a480_cd4c23b8f6:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "subjectRevision": "rev_73bfbe255eca546a4548591f6367a0d858c802792af686145e785df7645fe50c",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+      "reviewId": "vocabulary:srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "subjectRevision": "rev_6873927a409986088652d50509da1c31158f3fd9c7e6e96663a386c0e7be83f6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All eight contexts refer broadly to clothing/garments, but the gloss expands into unrelated specialized English senses (dress-coat, evening dress, tails, full dress). Simplify it to the shared garment sense and re-review dependent questions."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_habit_lem_cendrillon_habit_noun_f8db4bca8f_7379bb502c:sns_cendrillon_habit_tout_ce_qui_est_fait_pour_couvrir_le_corps_excepte_le_linge_la_coiffure_et_la_chaussure_35c5cc2f5e",
+        "subjectRevision": "rev_507d11ec460009147d22c8b01b9df7fe39acdebfdbe7a93f35214617ad9f0bb2",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+      "reviewId": "vocabulary:srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+        "subjectRevision": "rev_1b216a7c498bbf1123634f2e08cee670abb81e2f2e3e7186855c2867b4d1e3c3",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sisters discuss their garniture d’Angleterre on a dress, meaning decorative trim/embellishment, but the gloss is the opaque cognate “garniture.” Provide a clear learner gloss for clothing trim and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_garniture_lem_cendrillon_garniture_noun_b70691284a_8ac04b8fc4:sns_cendrillon_garniture_ce_qui_est_mis_a_une_chose_pour_la_garnir_la_completer_l_orner_l_embellir_53005b6937",
+        "subjectRevision": "rev_3f115c42906457cb2d48674d96e9595d793e28941621fe45d17fc0aefdd93f66",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+      "reviewId": "vocabulary:srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+        "subjectRevision": "rev_ec7c2086483d20bb47fde47decaa14c27b94bc8f17cb9105ad97e8d1eb96a70f",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In context, coëffeuse is a person asked to style the sisters’ hair (a hairdresser), while the learner gloss says “dressing table,” a piece of furniture. Correct the gloss and re-review this identity."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffeuse_lem_cendrillon_coiffeuse_noun_bdcc6acc63_a4011468c2:sns_cendrillon_coiffeuse_artisane_salariee_ou_meme_jadis_employee_de_maison_dont_le_metier_est_de_couper_et_coiffer_les_cheveux_c6556929b6",
+        "subjectRevision": "rev_58837511a3562ec902ae3a8e707ab9dc19b9cc785a84faf4a795ae5c4452cbf1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+      "reviewId": "vocabulary:srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+        "subjectRevision": "rev_414b68021ec39e70686603a9f4368243cea42b3d6a30dcc8a471dc953c11de95",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The occurrences are exclamatory Helas expressing distress/regret, but the learner gloss calls it a conjunction as well as an exclamation and is unusually lengthy. Keep the accurate interjection classification and rewrite the gloss concisely."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_helas_lem_cendrillon_helas_interjection_ee088218b6_a07f1ab2f3:sns_cendrillon_helas_marque_l_affliction_le_regret_ou_la_deception_exprime_une_plainte_be548ab058",
+        "subjectRevision": "rev_e4e515a7694060b089a43272b9069faaebf8cce5dd56af6a91456dad7d76aa11",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+      "reviewId": "vocabulary:srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+        "subjectRevision": "rev_34c848b128d54604dc973f7388e9dd85db196dd9896fbd6b3c00e4f22f1e83ee",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All four indexed occurrences are the fairy’s magical baguette (wand), while the gloss/definition describe a generic stick or rod. Clarify the story-specific lexical sense as a wand and re-review the dependent questions."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_baguette_lem_cendrillon_baguette_noun_da284b99c4_26db2c8d1a:sns_cendrillon_baguette_petit_baton_mince_plus_ou_moins_long_et_flexible_5d188d4ca9",
+        "subjectRevision": "rev_51f6a496c884cb0c409e52099410d6218757650c6ddc4ac074f1a9939406be55",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+      "reviewId": "vocabulary:srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+        "subjectRevision": "rev_ad2996d1db7f3419c26f8aaef2673ced585e58fd6280c3e9d8ae9ee6654a8b3e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The source says the old clothes would resume their first form, meaning shape/appearance, but the gloss restricts forme to a geometric representation. Replace the gloss with a contextual shape/appearance meaning before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_forme_lem_cendrillon_forme_noun_6b4aecede8_d787e4c83b:sns_cendrillon_forme_aspect_exterieur_configuration_caracteristique_ou_particuliere_d_une_chose_b1bed43ef5",
+        "subjectRevision": "rev_ddfa7289027b00d218845a7fb5169773ebe301552210d04370411f740269b53e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+      "reviewId": "vocabulary:srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "subjectRevision": "rev_bdbdc5ab8ebed4048af3b4a6ebb38bc27cacf8582c7557336c427dbbeab44ded",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed coëffure is the hairstyle/arrangement of hair, not headwear or a garment worn on the head. Correct the learner gloss to agree with the sense definition, then re-review both forms sharing this lemma and sense."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_coeffure_lem_cendrillon_coiffure_noun_caff90a480_72128f0e5f:sns_cendrillon_coiffure_maniere_dont_on_arrange_les_cheveux_selon_le_pays_et_la_mode_8b6f84f977",
+        "subjectRevision": "rev_2df6836ceb797946c28f3914d0b4d4aa503ba9f8b8aa3fa0db5b866a28afe286",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+      "reviewId": "vocabulary:srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+        "subjectRevision": "rev_564dee40b12d75ccaf2d494d01da20708ba2ba55eaccfaf5beea4616f8f2151a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context is a light meal served at the ball, but the gloss says “the process of granting an academic degree,” a different sense. Correct the learner gloss and re-review the exact sense."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_collation_lem_cendrillon_collation_noun_84865d90cc_1e5a97744f:sns_cendrillon_collation_repas_leger_que_les_catholiques_font_les_jours_de_jeune_pour_remplacer_le_souper_et_par_extension_un_repas_leger_pris_au_cours_de_la_journee_ccf386d9fe",
+        "subjectRevision": "rev_292fd31a431f3c34f628cbf5b6aaa1f98a4755aa8a6d37411b01e503cb9e11ee",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+      "reviewId": "vocabulary:srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+        "subjectRevision": "rev_fe9521e8b29f84b515315e2a72ff2fc72a224c95345f4a2ac0468b8fcb781379",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context is “she did not think it was eleven yet,” a belief about a proposition, not believing a person as the gloss “to believe (someone)” implies. Correct the gloss and re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_croyoit_lem_croire_1381a7c783:sns_cendrillon_croire_tenir_pour_veritable_36281025b7",
+        "subjectRevision": "rev_001f0514022dba622753ebb8d5ad37aa5ebe09b8a6ba6d63d87da27a770faad1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+      "reviewId": "vocabulary:srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+        "subjectRevision": "rev_c6180eb2a841a007b06faff7538b717722a6dffd2c787a102d1c9ad53117fcc8",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context compares Cinderella’s flight to a doe, so légèrement means lightly/nimbly in movement, not merely “in a way that is not heavy.” Refine the learner definition to capture manner of movement before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_legerement_lem_cendrillon_legerement_adverb_8f3699fe47_f382975aa4:sns_cendrillon_legerement_d_une_maniere_legere_non_pesante_98a68504b3",
+        "subjectRevision": "rev_b6e14d7ccacd9c59ecfb1b2a5f32654b988a8246923cd264c49f52d98cd923bf",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+      "reviewId": "vocabulary:srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+        "subjectRevision": "rev_f5050c28f570671901e5b09011ed7acf55e43251514b31df200aa38bde3dbd66",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context fort amoureux means “very much in love,” but the learner gloss is the noun/verb “love,” not an adjective gloss. Replace it with “in love” (or equivalent), then bind and review the exact revised sense."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_amoureux_lem_cendrillon_amoureux_adjective_62bdd0184b_1f9da17b44:sns_cendrillon_amoureux_qui_aime_d_amour_04366087fe",
+        "subjectRevision": "rev_2e93061a80df77cd3ebbb901d35b5e0a1fdbb43bdc1cc808334364bd7fcf7ad5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

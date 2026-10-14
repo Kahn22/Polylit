@@ -1,0 +1,1619 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 6,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "be6d2ea6f8f037b0c16b24ef201c339a711ecd8f571aac8bff9be80967ef69fc",
+  "status": "partial_offline_review_remaining_contexts_and_dependencies_pending",
+  "summary": {
+    "formsConsidered": 120,
+    "consideredUses": 652,
+    "reviewedRouteGroups": 145,
+    "reviewedUses": 575,
+    "reviewedPublishedUses": 508,
+    "reviewedEarlierUses": 26,
+    "reviewedDraftUses": 41,
+    "contextualProposals": 30,
+    "newQuestionBands": 90,
+    "heldUses": 77,
+    "untouchedQueuedUses": 408,
+    "initialQueuedUses": 1060,
+    "queueRemoval": "deferred_until_complete_chapter_coverage"
+  },
+  "nextAction": {
+    "form": "et",
+    "unit": 133,
+    "start": 97,
+    "end": 99,
+    "reason": "All VI queued forms have been considered. Qu’auraient, comment, historical agent en and relational pour now have contextual banks. The remaining 30 held uses are et (26) and sans (4), awaiting the already recorded shared question repairs after whole-work impact reconciliation. Continue Chapter VII preparation; preserve earlier mastery and published banks."
+  },
+  "reviewFiles": [
+    "chapter-06-context-review-01.json"
+  ],
+  "evidenceSha256": {
+    "chapter-06-context-packet-01.json": "fdb740ffefc6009b8ae5d01cd80b9464f724ed9b3ee8e21ecf66ec8c7c9322bd",
+    "chapter-06-context-review-01.json": "0c07284206f9b1377353f5022278df6556f857283ce2f4844fe9f197af94633b",
+    "chapter-06-batch-01.json": "2b4cb8a20b235b1b9fcd1ee85d3a6d42b3f840ea411efd1305bdab99c465404e",
+    "chapter-06-identity-targets-01.json": "41558befcf8fc833793ab56e65241d3df9f920a46a58bea852c896e15ecd5b83",
+    "chapter-06-context-packet-02.json": "0cf2a8e7224738127131a2c42b075e68dab8efbe1f69063ccb6103646c315b25",
+    "chapter-06-context-review-02.json": "208e8bee49a3b7693f86779c2d11d5a4c3db32e62a5462ba6f634a3462f65873",
+    "chapter-06-batch-02.json": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe",
+    "chapter-06-identity-targets-02.json": "6da3e16dc2f779a8424a5a13ced07bfdebee45fa2ff0bd202a68688ccdd78e3f",
+    "chapter-06-expression-review-02.json": "4ff0f2fbe574d96350323e1ec69651e46a54a6dc136cbf8206f6ee2bdc2e63ac",
+    "chapter-06-lemma-search-02.json": "92032997a0cda18930a57c0755d1ee0bd929b612faf9fe92ea80fe9b15942a83",
+    "chapter-06-held-context-review-02.json": "08be786766725eb32a8414431c92cde3a172a86314a6f58cca3f41a2b6294361",
+    "chapter-06-lexical-evidence-02.json": "3f14d2fa3dba3ecd77bc0fd7d65ec334d0111880d1bf30864a1ac578e9020e5d",
+    "chapter-06-qa-02.json": "2ebe013ad99bfdaf45c74d165de9b1914c9946b64e39a9920e814fd4ebe709bd",
+    "chapter-06-context-packet-03.json": "f4458b5f109a6ffc5fae5d0793d54c77ced60a492c1908e62ed08babfc392274",
+    "chapter-06-context-review-03.json": "343d9b257883fe0464fcf9f4012c430057eb1a338ed3d53aa89506b8a466f031",
+    "chapter-06-batch-03.json": "c5a3c2c8ea8194ae6a2fefce7a95cb49817ff65da44a0e3c6272d0101c8cc13b",
+    "chapter-06-identity-targets-03.json": "c768cc91557c60a860105b8c49ab1953141ea58e1806cbd2bae1ddfc350d85f8",
+    "chapter-06-expression-review-03.json": "4541d46cba902d69852b363e7a97c6a1f82fb556d0605e67764be63624e704b4",
+    "chapter-06-lemma-search-03.json": "4cfcae38a8cf2af2ebcf4b3676426e4af87617d6409cab638bca0f91be3a27d6",
+    "chapter-06-qa-03.json": "5917f6418b2144038d410a3d0777688bdd5568dc60f8d1a65419846ad010fa51",
+    "chapter-06-lexical-evidence-03.json": "f1e24b92d30a710813397392a4433332913c96e4ac8b3eaf8d59c27af2a8829f",
+    "chapter-06-context-packet-04.json": "09f7361c5a650fb504e80f1feb1693ab0fb4a29d31bc8fa0dcf46929ae60942c",
+    "chapter-06-context-review-04.json": "248022c37d274287b267984aa6423fd618551fcd34cf74256f5157e68210cdc4",
+    "chapter-06-batch-04.json": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+    "chapter-06-identity-targets-04.json": "352834488c250bb17a99dc0095b10d8d4b6565d7785f755d24027905f62bd597",
+    "chapter-06-expression-review-04.json": "70c50e9b248795229936617bb30a343fc191cdb054b5d8f242d95974e4fbddd5",
+    "chapter-06-lemma-search-04.json": "fd009322f62fc414f7b08cdeb9684b39e30cad3e8dae94360e24cbb7eba96339",
+    "chapter-06-qa-04.json": "991e4ed28c61adab342721e64012963a571d5e0f58475c4a56d4ab36195c4958",
+    "chapter-06-lexical-evidence-04.json": "6e13a9edce7849bde6e307511c90584e45d839eba1c380501daf44f386a80079",
+    "chapter-06-held-context-review-03.json": "e9de5efa3a40540575903540be898cbc04d4ecf2c4a03ee3f1074cf7966dcc6c",
+    "chapter-06-lemma-search-05.json": "22724589db06fcac6244aa1e19d30ec2cb51d1afb424a91404840cdcd2a512e7",
+    "chapter-06-held-lexical-evidence-03.json": "ea792fe3fdf59a36ea6e91dc6d814dd2a51cd3a78ebfafde75a60870b93abc9e",
+    "chapter-06-qa-05.json": "65badbd76e6c3a6632ef43be96236c7bf1ab1fa2992d98af301a1cbab4942f10"
+  },
+  "expressionOverlay": {
+    "file": "chapter-06-expression-review-01.json",
+    "sha256": "7588e8293335190c959b226a06555e47ba55c23069b398637c991659f7cab4fa",
+    "resolvedHeldUses": 39,
+    "remainingHeldUses": 38,
+    "reviewedExpressionForms": 15,
+    "reviewedQuestionBands": 45,
+    "resolved": [
+      {
+        "form": "bien",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 34,
+          "end": 38,
+          "text": "bien",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "expressionKey": "aussi_bien_que"
+      },
+      {
+        "form": "que",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 39,
+          "end": 42,
+          "text": "que",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "expressionKey": "aussi_bien_que"
+      },
+      {
+        "form": "que",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 86,
+          "end": 89,
+          "text": "que",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "est_ce_que"
+      },
+      {
+        "form": "que",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 140,
+          "start": 81,
+          "end": 84,
+          "text": "que",
+          "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas."
+        },
+        "expressionKey": "de_sorte_que"
+      },
+      {
+        "form": "son",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 160,
+          "start": 58,
+          "end": 61,
+          "text": "son",
+          "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+        },
+        "expressionKey": "de_son_long"
+      },
+      {
+        "form": "se",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 191,
+          "end": 193,
+          "text": "se",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "se_faire_entendre"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 135,
+          "start": 32,
+          "end": 33,
+          "text": "à",
+          "context": "Pour parler, il faut penser, ou à peu près ; mais s’ils pensaient, ils auraient donc l’équivalent d’une âme ; or, attribuer l’équivalent d’une âme à cette espèce, cela lui paraissait absurde."
+        },
+        "expressionKey": "a_peu_pres"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 42,
+          "end": 43,
+          "text": "à",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "tout_a_l_heure_past"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 140,
+          "start": 92,
+          "end": 93,
+          "text": "à",
+          "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas."
+        },
+        "expressionKey": "grace_a"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 158,
+          "start": 227,
+          "end": 228,
+          "text": "à",
+          "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+        },
+        "expressionKey": "a_travers"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 161,
+          "start": 146,
+          "end": 147,
+          "text": "à",
+          "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames."
+        },
+        "expressionKey": "a_cause_de"
+      },
+      {
+        "form": "à",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 168,
+          "start": 4,
+          "end": 5,
+          "text": "à",
+          "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :"
+        },
+        "expressionKey": "peu_a_peu"
+      },
+      {
+        "form": "de",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 140,
+          "start": 72,
+          "end": 74,
+          "text": "de",
+          "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas."
+        },
+        "expressionKey": "de_sorte_que"
+      },
+      {
+        "form": "de",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 160,
+          "start": 55,
+          "end": 57,
+          "text": "de",
+          "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+        },
+        "expressionKey": "de_son_long"
+      },
+      {
+        "form": "de",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 161,
+          "start": 154,
+          "end": 156,
+          "text": "de",
+          "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames."
+        },
+        "expressionKey": "a_cause_de"
+      },
+      {
+        "form": "l’",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 44,
+          "end": 46,
+          "text": "l’",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "tout_a_l_heure_past"
+      },
+      {
+        "form": "l’",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 69,
+          "end": 71,
+          "text": "l’",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faisaient_l_amour"
+      },
+      {
+        "form": "l’",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 121,
+          "end": 123,
+          "text": "l’",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faire_l_amour"
+      },
+      {
+        "form": "aussi",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 28,
+          "end": 33,
+          "text": "aussi",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "expressionKey": "aussi_bien_que"
+      },
+      {
+        "form": "d’",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 137,
+          "end": 139,
+          "text": "d’",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "expressionKey": "d_ailleurs"
+      },
+      {
+        "form": "d’",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 137,
+          "start": 14,
+          "end": 16,
+          "text": "d’",
+          "context": "Supposez-vous d’ailleurs qu’il soit plus difficile de produire un argument qu’un enfant ?"
+        },
+        "expressionKey": "d_ailleurs"
+      },
+      {
+        "form": "ailleurs",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 139,
+          "end": 147,
+          "text": "ailleurs",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "expressionKey": "d_ailleurs"
+      },
+      {
+        "form": "ailleurs",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 137,
+          "start": 16,
+          "end": 24,
+          "text": "ailleurs",
+          "context": "Supposez-vous d’ailleurs qu’il soit plus difficile de produire un argument qu’un enfant ?"
+        },
+        "expressionKey": "d_ailleurs"
+      },
+      {
+        "form": "peu",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 135,
+          "start": 34,
+          "end": 37,
+          "text": "peu",
+          "context": "Pour parler, il faut penser, ou à peu près ; mais s’ils pensaient, ils auraient donc l’équivalent d’une âme ; or, attribuer l’équivalent d’une âme à cette espèce, cela lui paraissait absurde."
+        },
+        "expressionKey": "a_peu_pres"
+      },
+      {
+        "form": "peu",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 168,
+          "start": 0,
+          "end": 3,
+          "text": "Peu",
+          "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :"
+        },
+        "expressionKey": "peu_a_peu"
+      },
+      {
+        "form": "peu",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 168,
+          "start": 6,
+          "end": 9,
+          "text": "peu",
+          "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :"
+        },
+        "expressionKey": "peu_a_peu"
+      },
+      {
+        "form": "près",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 135,
+          "start": 38,
+          "end": 42,
+          "text": "près",
+          "context": "Pour parler, il faut penser, ou à peu près ; mais s’ils pensaient, ils auraient donc l’équivalent d’une âme ; or, attribuer l’équivalent d’une âme à cette espèce, cela lui paraissait absurde."
+        },
+        "expressionKey": "a_peu_pres"
+      },
+      {
+        "form": "tout",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 37,
+          "end": 41,
+          "text": "tout",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "tout_a_l_heure_past"
+      },
+      {
+        "form": "heure",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 46,
+          "end": 51,
+          "text": "heure",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "tout_a_l_heure_past"
+      },
+      {
+        "form": "faisaient",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 59,
+          "end": 68,
+          "text": "faisaient",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faisaient_l_amour"
+      },
+      {
+        "form": "amour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 71,
+          "end": 76,
+          "text": "amour",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faisaient_l_amour"
+      },
+      {
+        "form": "amour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 123,
+          "end": 128,
+          "text": "amour",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faire_l_amour"
+      },
+      {
+        "form": "est",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 79,
+          "end": 82,
+          "text": "est",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "est_ce_que"
+      },
+      {
+        "form": "ce",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 83,
+          "end": 85,
+          "text": "ce",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "est_ce_que"
+      },
+      {
+        "form": "faire",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 115,
+          "end": 120,
+          "text": "faire",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "faire_l_amour"
+      },
+      {
+        "form": "faire",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 194,
+          "end": 199,
+          "text": "faire",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "se_faire_entendre"
+      },
+      {
+        "form": "du",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 177,
+          "end": 179,
+          "text": "du",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "du_moins"
+      },
+      {
+        "form": "moins",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 180,
+          "end": 185,
+          "text": "moins",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "du_moins"
+      },
+      {
+        "form": "entendre",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 200,
+          "end": 208,
+          "text": "entendre",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "expressionKey": "se_faire_entendre"
+      }
+    ],
+    "remaining": [
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 133,
+          "start": 97,
+          "end": 99,
+          "text": "et",
+          "context": "Micromégas, bien meilleur observateur que son nain, vit clairement que les atomes se parlaient ; et il le fit remarquer à son compagnon, qui, honteux de s’être mépris sur l’article de la génération, ne voulut point croire que de pareilles espèces pussent se communiquer des idées."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 95,
+          "end": 97,
+          "text": "et",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 219,
+          "end": 221,
+          "text": "et",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 141,
+          "end": 143,
+          "text": "et",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 138,
+          "start": 15,
+          "end": 17,
+          "text": "et",
+          "context": "Pour moi, l’un et l’autre me paraissent de grands mystères. — Je n’ose plus ni croire ni nier, dit le nain ; je n’ai plus d’opinion ; il faut tâcher d’examiner ces insectes, nous raisonnerons après. — C’est fort bien dit, » reprit Micromégas ; et aussitôt il tira une paire de ciseaux dont il se coupa les ongles, et d’une rognure de l’ongle de son pouce il fit sur-le-champ une espèce de grande trompette parlante, comme un vaste entonnoir, dont il mit le tuyau dans son oreille."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 138,
+          "start": 244,
+          "end": 246,
+          "text": "et",
+          "context": "Pour moi, l’un et l’autre me paraissent de grands mystères. — Je n’ose plus ni croire ni nier, dit le nain ; je n’ai plus d’opinion ; il faut tâcher d’examiner ces insectes, nous raisonnerons après. — C’est fort bien dit, » reprit Micromégas ; et aussitôt il tira une paire de ciseaux dont il se coupa les ongles, et d’une rognure de l’ongle de son pouce il fit sur-le-champ une espèce de grande trompette parlante, comme un vaste entonnoir, dont il mit le tuyau dans son oreille."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 138,
+          "start": 314,
+          "end": 316,
+          "text": "et",
+          "context": "Pour moi, l’un et l’autre me paraissent de grands mystères. — Je n’ose plus ni croire ni nier, dit le nain ; je n’ai plus d’opinion ; il faut tâcher d’examiner ces insectes, nous raisonnerons après. — C’est fort bien dit, » reprit Micromégas ; et aussitôt il tira une paire de ciseaux dont il se coupa les ongles, et d’une rognure de l’ongle de son pouce il fit sur-le-champ une espèce de grande trompette parlante, comme un vaste entonnoir, dont il mit le tuyau dans son oreille."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 139,
+          "start": 56,
+          "end": 58,
+          "text": "et",
+          "context": "La circonférence de l’entonnoir enveloppait le vaisseau et tout l’équipage."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 141,
+          "start": 53,
+          "end": 55,
+          "text": "et",
+          "context": "En peu d’heures il parvint à distinguer les paroles, et enfin à entendre le français."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 145,
+          "start": 31,
+          "end": 33,
+          "text": "et",
+          "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 145,
+          "start": 148,
+          "end": 150,
+          "text": "et",
+          "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 148,
+          "start": 41,
+          "end": 43,
+          "text": "et",
+          "context": "Le Sirien tenait le nain sur ses genoux, et le vaisseau avec l’équipage sur un ongle ; il baissait la tête et parlait bas."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 148,
+          "start": 107,
+          "end": 109,
+          "text": "et",
+          "context": "Le Sirien tenait le nain sur ses genoux, et le vaisseau avec l’équipage sur un ongle ; il baissait la tête et parlait bas."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 149,
+          "start": 40,
+          "end": 42,
+          "text": "et",
+          "context": "Enfin, moyennant toutes ces précautions et bien d’autres encore, il commença ainsi son discours :"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 151,
+          "start": 86,
+          "end": 88,
+          "text": "et",
+          "context": "Peut-être ne daignerait-on pas vous regarder à ma cour ; mais je ne méprise personne, et je vous offre ma protection. »"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 154,
+          "start": 81,
+          "end": 83,
+          "text": "et",
+          "context": "L’aumônier du vaisseau récita les prières des exorcismes, les matelots jurèrent, et les philosophes du vaisseau firent des systèmes ; mais quelque système qu’ils fissent, ils ne purent jamais deviner qui leur parlait."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 156,
+          "start": 83,
+          "end": 85,
+          "text": "et",
+          "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 156,
+          "start": 368,
+          "end": 370,
+          "text": "et",
+          "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 157,
+          "start": 55,
+          "end": 57,
+          "text": "et",
+          "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 157,
+          "start": 191,
+          "end": 193,
+          "text": "et",
+          "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 158,
+          "start": 201,
+          "end": 203,
+          "text": "et",
+          "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 159,
+          "start": 44,
+          "end": 46,
+          "text": "et",
+          "context": "— Oui, je vous ai mesuré, dit le physicien, et je mesurerai bien encore votre grand compagnon. »"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 164,
+          "start": 155,
+          "end": 157,
+          "text": "et",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 166,
+          "start": 114,
+          "end": 116,
+          "text": "et",
+          "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 167,
+          "start": 184,
+          "end": 186,
+          "text": "et",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "et",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 168,
+          "start": 47,
+          "end": 49,
+          "text": "et",
+          "context": "Peu à peu la conversation devint intéressante, et Micromégas parla ainsi :"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "comment",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 149,
+          "end": 156,
+          "text": "comment",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "reason": "Published middle blank starts a sentence but all choices are lowercase; propose capitalization repair only after workwide impact review."
+      },
+      {
+        "form": "qu’auraient",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 134,
+          "start": 222,
+          "end": 233,
+          "text": "qu’auraient",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        },
+        "reason": "Que interrogative + lexical auraient in qu’auraient-ils à dire. Reconcile the combined surface with existing fused-form policy; do not invent a tense-only sense."
+      },
+      {
+        "form": "pour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 167,
+          "start": 51,
+          "end": 55,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        "reason": "Relational scale analogy sont pour les abeilles ce que... needs a dedicated construction decision."
+      },
+      {
+        "form": "pour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 167,
+          "start": 94,
+          "end": 98,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        "reason": "Relational scale analogy."
+      },
+      {
+        "form": "pour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 167,
+          "start": 140,
+          "end": 144,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        "reason": "Relational scale analogy."
+      },
+      {
+        "form": "pour",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 167,
+          "start": 218,
+          "end": 222,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        "reason": "Relational scale analogy."
+      },
+      {
+        "form": "avez",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 28,
+          "end": 32,
+          "text": "avez",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "reason": "Compound avoir auxiliary. Prepare avez bank linked to sns_fr_avoir_compound_auxiliary; existing bank teaches possession only."
+      },
+      {
+        "form": "avez",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 164,
+          "start": 13,
+          "end": 17,
+          "text": "avez",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+        },
+        "reason": "Compound avoir auxiliary. Prepare avez bank linked to sns_fr_avoir_compound_auxiliary; existing bank teaches possession only."
+      },
+      {
+        "form": "sans",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 129,
+          "end": 133,
+          "text": "sans",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "sans",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 144,
+          "end": 148,
+          "text": "sans",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "sans",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 136,
+          "start": 186,
+          "end": 190,
+          "text": "sans",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      },
+      {
+        "form": "sans",
+        "sourceOccurrence": {
+          "chapter": 6,
+          "unit": 145,
+          "start": 202,
+          "end": 206,
+          "text": "sans",
+          "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+        },
+        "reason": "Shared published middle-band capitalization repair already impact-reviewed in Chapter V; do not apply during this package."
+      }
+    ]
+  },
+  "effectiveSummary": {
+    "formsConsidered": 416,
+    "consideredUses": 1060,
+    "reviewedRouteGroups": 435,
+    "reviewedUses": 1030,
+    "reviewedPublishedUses": 698,
+    "reviewedEarlierUses": 49,
+    "reviewedDraftUses": 208,
+    "contextualProposals": 176,
+    "newQuestionBands": 528,
+    "heldUses": 30,
+    "untouchedQueuedUses": 0,
+    "initialQueuedUses": 1060,
+    "queueRemoval": "deferred_until_complete_chapter_coverage",
+    "reviewedExpressionComponentUses": 75,
+    "reviewedExpressionForms": 33,
+    "reviewedExpressionQuestionBands": 99,
+    "recheckedEarlierExpressionBands": 15
+  },
+  "initialEffectiveSummary": {
+    "formsConsidered": 120,
+    "consideredUses": 652,
+    "reviewedRouteGroups": 145,
+    "reviewedUses": 614,
+    "reviewedPublishedUses": 508,
+    "reviewedEarlierUses": 26,
+    "reviewedDraftUses": 41,
+    "contextualProposals": 30,
+    "newQuestionBands": 90,
+    "heldUses": 38,
+    "untouchedQueuedUses": 408,
+    "initialQueuedUses": 1060,
+    "queueRemoval": "deferred_until_complete_chapter_coverage",
+    "reviewedExpressionComponentUses": 39,
+    "reviewedExpressionForms": 15,
+    "reviewedExpressionQuestionBands": 45
+  },
+  "continuationPackages": [
+    {
+      "packetFile": "chapter-06-context-packet-02.json",
+      "reviewFile": "chapter-06-context-review-02.json",
+      "batchFile": "chapter-06-batch-02.json",
+      "identityTargetsFile": "chapter-06-identity-targets-02.json",
+      "expressionFile": "chapter-06-expression-review-02.json",
+      "formRange": {
+        "startInclusive": 120,
+        "endExclusive": 200
+      },
+      "summary": {
+        "formsConsidered": 80,
+        "consideredUses": 128,
+        "reviewedRouteGroups": 74,
+        "reviewedUses": 114,
+        "reviewedPublishedUses": 62,
+        "reviewedEarlierUses": 11,
+        "reviewedDraftUses": 41,
+        "contextualProposals": 36,
+        "newQuestionBands": 108,
+        "heldUses": 14
+      },
+      "expressionOverlay": {
+        "resolvedHeldUses": 13,
+        "remainingHeldUses": 1,
+        "resolved": [
+          {
+            "form": "trompette",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 138,
+              "start": 396,
+              "end": 405,
+              "text": "trompette",
+              "context": "Pour moi, l’un et l’autre me paraissent de grands mystères. — Je n’ose plus ni croire ni nier, dit le nain ; je n’ai plus d’opinion ; il faut tâcher d’examiner ces insectes, nous raisonnerons après. — C’est fort bien dit, » reprit Micromégas ; et aussitôt il tira une paire de ciseaux dont il se coupa les ongles, et d’une rognure de l’ongle de son pouce il fit sur-le-champ une espèce de grande trompette parlante, comme un vaste entonnoir, dont il mit le tuyau dans son oreille."
+            },
+            "expressionKey": "trompette_parlante"
+          },
+          {
+            "form": "parlante",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 138,
+              "start": 406,
+              "end": 414,
+              "text": "parlante",
+              "context": "Pour moi, l’un et l’autre me paraissent de grands mystères. — Je n’ose plus ni croire ni nier, dit le nain ; je n’ai plus d’opinion ; il faut tâcher d’examiner ces insectes, nous raisonnerons après. — C’est fort bien dit, » reprit Micromégas ; et aussitôt il tira une paire de ciseaux dont il se coupa les ongles, et d’une rognure de l’ongle de son pouce il fit sur-le-champ une espèce de grande trompette parlante, comme un vaste entonnoir, dont il mit le tuyau dans son oreille."
+            },
+            "expressionKey": "trompette_parlante"
+          },
+          {
+            "form": "mit",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 156,
+              "start": 40,
+              "end": 43,
+              "text": "mit",
+              "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+            },
+            "expressionKey": "mit_au_fait"
+          },
+          {
+            "form": "sorte",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 140,
+              "start": 75,
+              "end": 80,
+              "text": "sorte",
+              "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas."
+            },
+            "expressionKey": "de_sorte_que"
+          },
+          {
+            "form": "grâce",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 140,
+              "start": 86,
+              "end": 91,
+              "text": "grâce",
+              "context": "La voix la plus faible entrait dans les fibres circulaires de l’ongle ; de sorte que, grâce à son industrie, le philosophe de là-haut entendit parfaitement le bourdonnement de nos insectes de là-bas."
+            },
+            "expressionKey": "grace_a"
+          },
+          {
+            "form": "en",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 162,
+              "start": 92,
+              "end": 94,
+              "text": "en",
+              "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi."
+            },
+            "expressionKey": "en_effet"
+          },
+          {
+            "form": "en",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 165,
+              "start": 79,
+              "end": 81,
+              "text": "en",
+              "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme."
+            },
+            "expressionKey": "en_effet"
+          },
+          {
+            "form": "bon",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 144,
+              "start": 41,
+              "end": 44,
+              "text": "bon",
+              "context": "Ils entendaient des mites parler d’assez bon sens : ce jeu de la nature leur paraissait inexplicable."
+            },
+            "expressionKey": "bon_sens"
+          },
+          {
+            "form": "sens",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 144,
+              "start": 45,
+              "end": 49,
+              "text": "sens",
+              "context": "Ils entendaient des mites parler d’assez bon sens : ce jeu de la nature leur paraissait inexplicable."
+            },
+            "expressionKey": "bon_sens"
+          },
+          {
+            "form": "jeu",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 144,
+              "start": 55,
+              "end": 58,
+              "text": "jeu",
+              "context": "Ils entendaient des mites parler d’assez bon sens : ce jeu de la nature leur paraissait inexplicable."
+            },
+            "expressionKey": "jeu_de_la_nature"
+          },
+          {
+            "form": "brûlaient",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 145,
+              "start": 43,
+              "end": 52,
+              "text": "brûlaient",
+              "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+            },
+            "expressionKey": "brulaient_d_impatience"
+          },
+          {
+            "form": "impatience",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 145,
+              "start": 55,
+              "end": 65,
+              "text": "impatience",
+              "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+            },
+            "expressionKey": "brulaient_d_impatience"
+          },
+          {
+            "form": "lier",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 145,
+              "start": 69,
+              "end": 73,
+              "text": "lier",
+              "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+            },
+            "expressionKey": "lier_conversation"
+          }
+        ],
+        "remaining": [
+          {
+            "form": "en",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 145,
+              "start": 207,
+              "end": 209,
+              "text": "en",
+              "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+            },
+            "reason": "Historical agent en in sans en être entendue appears to mean by the mites; retain explicit hold pending primary linguistic evidence and agent-sense bank."
+          }
+        ],
+        "newExpressionForms": 7,
+        "newQuestionBands": 21,
+        "recheckedEarlierBands": 6
+      }
+    },
+    {
+      "packetFile": "chapter-06-context-packet-03.json",
+      "reviewFile": "chapter-06-context-review-03.json",
+      "batchFile": "chapter-06-batch-03.json",
+      "identityTargetsFile": "chapter-06-identity-targets-03.json",
+      "expressionFile": "chapter-06-expression-review-03.json",
+      "formRange": {
+        "startInclusive": 200,
+        "endExclusive": 280
+      },
+      "summary": {
+        "formsConsidered": 80,
+        "consideredUses": 122,
+        "reviewedRouteGroups": 84,
+        "reviewedUses": 112,
+        "reviewedPublishedUses": 59,
+        "reviewedEarlierUses": 6,
+        "reviewedDraftUses": 47,
+        "contextualProposals": 41,
+        "newQuestionBands": 123,
+        "heldUses": 10
+      },
+      "expressionOverlay": {
+        "resolvedHeldUses": 10,
+        "remainingHeldUses": 0,
+        "resolved": [
+          {
+            "form": "plu",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 150,
+              "start": 53,
+              "end": 56,
+              "text": "plu",
+              "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables."
+            },
+            "expressionKey": "s_est_plu_a"
+          },
+          {
+            "form": "infiniment",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 150,
+              "start": 90,
+              "end": 100,
+              "text": "infiniment",
+              "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables."
+            },
+            "expressionKey": "l_infiniment_petit"
+          },
+          {
+            "form": "infiniment",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 164,
+              "start": 92,
+              "end": 102,
+              "text": "infiniment",
+              "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+            },
+            "expressionKey": "l_infiniment_petit"
+          },
+          {
+            "form": "infiniment",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 164,
+              "start": 136,
+              "end": 146,
+              "text": "infiniment",
+              "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+            },
+            "expressionKey": "l_infiniment_grand"
+          },
+          {
+            "form": "petit",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 150,
+              "start": 101,
+              "end": 106,
+              "text": "petit",
+              "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables."
+            },
+            "expressionKey": "l_infiniment_petit"
+          },
+          {
+            "form": "petit",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 164,
+              "start": 103,
+              "end": 108,
+              "text": "petit",
+              "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+            },
+            "expressionKey": "l_infiniment_petit"
+          },
+          {
+            "form": "avaient",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 155,
+              "start": 120,
+              "end": 127,
+              "text": "avaient",
+              "context": "Le nain de Saturne, qui avait la voix plus douce que Micromégas, leur apprit alors en peu de mots à quelles espèces ils avaient affaire."
+            },
+            "expressionKey": "avaient_affaire"
+          },
+          {
+            "form": "affaire",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 155,
+              "start": 128,
+              "end": 135,
+              "text": "affaire",
+              "context": "Le nain de Saturne, qui avait la voix plus douce que Micromégas, leur apprit alors en peu de mots à quelles espèces ils avaient affaire."
+            },
+            "expressionKey": "avaient_affaire"
+          },
+          {
+            "form": "au",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 156,
+              "start": 44,
+              "end": 46,
+              "text": "au",
+              "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+            },
+            "expressionKey": "mit_au_fait"
+          },
+          {
+            "form": "fait",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 156,
+              "start": 47,
+              "end": 51,
+              "text": "fait",
+              "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+            },
+            "expressionKey": "mit_au_fait"
+          }
+        ],
+        "remaining": [],
+        "newExpressionForms": 4,
+        "newQuestionBands": 12,
+        "recheckedEarlierBands": 3
+      }
+    },
+    {
+      "packetFile": "chapter-06-context-packet-04.json",
+      "reviewFile": "chapter-06-context-review-04.json",
+      "batchFile": "chapter-06-batch-04.json",
+      "identityTargetsFile": "chapter-06-identity-targets-04.json",
+      "expressionFile": "chapter-06-expression-review-04.json",
+      "formRange": {
+        "startInclusive": 280,
+        "endExclusive": 416
+      },
+      "summary": {
+        "formsConsidered": 136,
+        "consideredUses": 158,
+        "reviewedRouteGroups": 127,
+        "reviewedUses": 145,
+        "reviewedPublishedUses": 69,
+        "reviewedEarlierUses": 6,
+        "reviewedDraftUses": 70,
+        "contextualProposals": 64,
+        "newQuestionBands": 192,
+        "heldUses": 13
+      },
+      "expressionOverlay": {
+        "resolvedHeldUses": 13,
+        "remainingHeldUses": 0,
+        "resolved": [
+          {
+            "form": "quart",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 157,
+              "start": 155,
+              "end": 160,
+              "text": "quart",
+              "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+            },
+            "expressionKey": "quart_de_cercle"
+          },
+          {
+            "form": "cercle",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 157,
+              "start": 164,
+              "end": 170,
+              "text": "cercle",
+              "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+            },
+            "expressionKey": "quart_de_cercle"
+          },
+          {
+            "form": "juste",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 158,
+              "start": 35,
+              "end": 40,
+              "text": "juste",
+              "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+            },
+            "expressionKey": "juste_ciel"
+          },
+          {
+            "form": "ciel",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 158,
+              "start": 41,
+              "end": 45,
+              "text": "Ciel",
+              "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+            },
+            "expressionKey": "juste_ciel"
+          },
+          {
+            "form": "grand",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 164,
+              "start": 147,
+              "end": 152,
+              "text": "grand",
+              "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+            },
+            "expressionKey": "l_infiniment_grand"
+          },
+          {
+            "form": "long",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 160,
+              "start": 62,
+              "end": 66,
+              "text": "long",
+              "context": "La proposition fut acceptée ; Son Excellence se coucha de son long : car, s’il se fût tenu debout, sa tête eût été trop au-dessus des nuages."
+            },
+            "expressionKey": "de_son_long"
+          },
+          {
+            "form": "garderai",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 161,
+              "start": 109,
+              "end": 117,
+              "text": "garderai",
+              "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames."
+            },
+            "expressionKey": "me_garderai_bien_de"
+          },
+          {
+            "form": "cause",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 161,
+              "start": 148,
+              "end": 153,
+              "text": "cause",
+              "context": "Nos philosophes lui plantèrent un grand arbre dans un endroit que le docteur Swift nommerait, mais que je me garderai bien d’appeler par son nom, à cause de mon grand respect pour les dames."
+            },
+            "expressionKey": "a_cause_de"
+          },
+          {
+            "form": "effet",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 162,
+              "start": 95,
+              "end": 100,
+              "text": "effet",
+              "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi."
+            },
+            "expressionKey": "en_effet"
+          },
+          {
+            "form": "effet",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 165,
+              "start": 82,
+              "end": 87,
+              "text": "effet",
+              "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme."
+            },
+            "expressionKey": "en_effet"
+          },
+          {
+            "form": "roi",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 162,
+              "start": 145,
+              "end": 148,
+              "text": "roi",
+              "context": "Puis, par une suite de triangles liés ensemble, ils conclurent que ce qu’ils voyaient était en effet un jeune homme de cent vingt mille pieds de roi."
+            },
+            "expressionKey": "pieds_de_roi"
+          },
+          {
+            "form": "toute",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 165,
+              "start": 49,
+              "end": 54,
+              "text": "toute",
+              "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme."
+            },
+            "expressionKey": "en_toute_surete"
+          },
+          {
+            "form": "sûreté",
+            "sourceOccurrence": {
+              "chapter": 6,
+              "unit": 165,
+              "start": 55,
+              "end": 61,
+              "text": "sûreté",
+              "context": "Un des philosophes lui répondit qu’il pouvait en toute sûreté croire qu’il est en effet des êtres intelligents beaucoup plus petits que l’homme."
+            },
+            "expressionKey": "en_toute_surete"
+          }
+        ],
+        "remaining": [],
+        "newExpressionForms": 7,
+        "newQuestionBands": 21,
+        "recheckedEarlierBands": 6
+      }
+    }
+  ],
+  "nextUntouchedFormIndex": 416,
+  "nextUntouchedAction": null,
+  "preHoldContextSummary": {
+    "formsConsidered": 416,
+    "consideredUses": 1060,
+    "reviewedRouteGroups": 430,
+    "reviewedUses": 1021,
+    "reviewedPublishedUses": 698,
+    "reviewedEarlierUses": 49,
+    "reviewedDraftUses": 199,
+    "contextualProposals": 171,
+    "newQuestionBands": 513,
+    "heldUses": 39,
+    "untouchedQueuedUses": 0,
+    "initialQueuedUses": 1060,
+    "queueRemoval": "deferred_until_complete_chapter_coverage",
+    "reviewedExpressionComponentUses": 75,
+    "reviewedExpressionForms": 33,
+    "reviewedExpressionQuestionBands": 99,
+    "recheckedEarlierExpressionBands": 15
+  },
+  "heldContextOverlay": {
+    "file": "chapter-06-held-context-review-03.json",
+    "sha256": "e9de5efa3a40540575903540be898cbc04d4ecf2c4a03ee3f1074cf7966dcc6c",
+    "summary": {
+      "resolvedHeldUses": 9,
+      "contextualProposals": 5,
+      "newQuestionBands": 15,
+      "reviewedRouteGroups": 5
+    }
+  }
+}

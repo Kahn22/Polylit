@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:30.249Z",
+  "sense": {
+    "id": "sns_zola_prendre_charge",
+    "lemmaId": "lem_prendre",
+    "gloss": "take charge of; take up",
+    "definition": "s’occuper activement d’une affaire ou l’assumer"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 2,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_prendre_prendre_charge_early",
+      "qiz_zola_prendre_prendre_charge_advanced",
+      "qiz_zola_prendre_prendre_charge_intermediate",
+      "qiz_zola_pris_prendre_charge_intermediate",
+      "qiz_zola_pris_prendre_charge_early",
+      "qiz_zola_pris_prendre_charge_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_prendre_prendre:sns_zola_prendre_charge",
+      "surface": "prendre",
+      "lemma": "prendre",
+      "currentRevision": "rev_419243f32a37d12d9c5503fdf6509cc6107d8a47813bf5980d89a4b5c6498b34",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_771a0c6012c82d2fe312b65d",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_093",
+          "passage": "Ce fut, plus tard, le langage que M. Scheurer-Kestner tint également au général Billot, l’adjurant par patriotisme de prendre en main l’affaire, de ne pas la laisser s’aggraver, au point de devenir un désastre public.",
+          "span": [
+            118,
+            125
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_prendre_prendre_charge_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nina va prendre en main l’organisation de la fête.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "take charge of",
+              "correct": true
+            },
+            {
+              "text": "abandon",
+              "correct": false
+            },
+            {
+              "text": "cancel",
+              "correct": false
+            },
+            {
+              "text": "criticize",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prendre_prendre_charge_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le directeur demande à Nina de prendre l’affaire en main pour la mener à bien.",
+          "prompt": "Quel infinitif entre dans l’expression signifiant s’occuper activement de l’affaire ?",
+          "choices": [
+            {
+              "text": "prendre",
+              "correct": true
+            },
+            {
+              "text": "directeur",
+              "correct": false
+            },
+            {
+              "text": "affaire",
+              "correct": false
+            },
+            {
+              "text": "bien",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prendre_prendre_charge_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul accepte de _____ en main ce projet et d’en assumer la responsabilité.",
+          "choices": [
+            {
+              "text": "prennent",
+              "correct": false
+            },
+            {
+              "text": "prenait",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": true
+            },
+            {
+              "text": "prend",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_pris_prendre:sns_zola_prendre_charge",
+      "surface": "pris",
+      "lemma": "prendre",
+      "currentRevision": "rev_77829e59698735faf01b444ad2b41bb4e9763694eca2ab2c2d65af2cb2de7a23",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_a4bf6e247939797ae47e4bfb",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_087",
+          "passage": "Et, depuis lors, sa responsabilité n’a fait que grandir, il a pris à sa charge le crime des autres, il est aussi coupable que les autres, il est plus coupable qu’eux, car il a été le maître de faire justice, et il n’a rien fait.",
+          "span": [
+            62,
+            66
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_pris_prendre_charge_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle a _____ en charge l’organisation et en assume désormais la responsabilité.",
+          "choices": [
+            {
+              "text": "oublié",
+              "correct": false
+            },
+            {
+              "text": "pris",
+              "correct": true
+            },
+            {
+              "text": "refusé",
+              "correct": false
+            },
+            {
+              "text": "écarté",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pris_prendre_charge_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il a pris à sa charge les dépenses de réparation.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "ignored",
+              "correct": false
+            },
+            {
+              "text": "forgotten",
+              "correct": false
+            },
+            {
+              "text": "taken on",
+              "correct": true
+            },
+            {
+              "text": "refused",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_pris_prendre_charge_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il a pris sur lui la responsabilité de l’erreur pour protéger son collègue.",
+          "prompt": "Quel participe entre dans l’expression signifiant assumer la responsabilité ?",
+          "choices": [
+            {
+              "text": "pris",
+              "correct": true
+            },
+            {
+              "text": "responsabilité",
+              "correct": false
+            },
+            {
+              "text": "erreur",
+              "correct": false
+            },
+            {
+              "text": "collègue",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

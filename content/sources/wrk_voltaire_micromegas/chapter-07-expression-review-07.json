@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 1,
+    "reviewedQuestionBands": 3,
+    "newExpressionForms": 0,
+    "newQuestionBands": 0,
+    "reusedEarlierQuestionBands": 3
+  },
+  "items": [
+    {
+      "key": "les_infiniment_petits",
+      "surfacePattern": "les infiniment petits",
+      "meaning": "the infinitely small beings; the tiny people",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 213,
+          "start": 142,
+          "end": 163,
+          "text": "les infiniment petits"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 213,
+          "start": 142,
+          "end": 145,
+          "text": "les",
+          "form": "les"
+        },
+        {
+          "unit": 213,
+          "start": 146,
+          "end": 156,
+          "text": "infiniment",
+          "form": "infiniment"
+        },
+        {
+          "unit": 213,
+          "start": 157,
+          "end": 163,
+          "text": "petits",
+          "form": "petits"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand.",
+          "targetText": "les infiniment petits",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the infinitely small beings; the tiny people",
+          "choices": [
+            "the infinitely small beings; the tiny people",
+            "the very large beings",
+            "the tall travelers",
+            "the adult rulers"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le géant donne ce nom aux minuscules êtres humains : il les appelle ___.",
+          "question": "Complétez la phrase.",
+          "answer": "les infiniment petits",
+          "choices": [
+            "les infiniment petits",
+            "les infiniment grands",
+            "les grands voyageurs",
+            "les souverains adultes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution nominale désigne ici les êtres humains vus comme extrêmement minuscules ?",
+          "question": "Quelle expression convient ?",
+          "answer": "les infiniment petits",
+          "choices": [
+            "les infiniment petits",
+            "les infiniment grands",
+            "les grands voyageurs",
+            "les souverains adultes"
+          ]
+        }
+      ],
+      "questionSha256": "11a2c658a8c60560c5eef12b348a4d3d902a3e3592dc3f1d70160e3ca9164b6f",
+      "identityTarget": "share_earlier_nominal_meaning:chapter-05-identity-plan.json:petit_chapter_05_held_01_124",
+      "reviewNote": "The giant names tiny people who nevertheless possess vast pride. This substantivized masculine plural phrase differs from the singular abstract domain l’infiniment petit reviewed in VI. All four complete noun phrases are masculine plural and fit appelle. The full span prevents an isolated article plus an unrelated adjective from becoming duplicated vocabulary identities. The earlier V substantive petits plan and all three banks were read: they denote the same tiny beings. Before import, correct that nominal ownership away from the adjective lemma, share the planned noun meaning, and reconcile the two complete spans without a new meaning or duplicate mastery. Package07 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierDecisionFile": "chapter-05-identity-plan.json",
+      "earlierDecisionKey": "petit_chapter_05_held_01_124",
+      "earlierDecisionFileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "les_infiniment_petits",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada",
+      "earlierHeldComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "les_213_142",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 213,
+              "start": 142,
+              "end": 145,
+              "text": "les",
+              "context": "Le Sirien reprit les petites mites ; il leur parla encore avec beaucoup de bonté, quoiqu’il fût un peu fâché dans le fond du cœur de voir que les infiniment petits eussent un orgueil presque infiniment grand."
+            }
+          ],
+          "action": "resolve_exact_held_component_at_whole_work_reconciliation_preserve_other_uses_and_mastery"
+        }
+      ]
+    }
+  ]
+}

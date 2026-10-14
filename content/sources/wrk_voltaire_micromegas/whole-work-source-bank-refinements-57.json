@@ -1,0 +1,1264 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "comme_cause",
+      "beforeQuestionSha256": "b26fbc9bf65fa50b577d402754086daa11347c591ef5cc6bb4d3228967eb8e09",
+      "after": {
+        "key": "comme_cause",
+        "form": "comme",
+        "lemma": "comme",
+        "partOfSpeech": "subordinating conjunction causal",
+        "meaning": "since; because",
+        "editorialNote": "In chapter IV 87:0, comme means since; because. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 87,
+            "start": 0,
+            "end": 5,
+            "text": "Comme"
+          },
+          {
+            "chapter": 4,
+            "unit": 110,
+            "start": 115,
+            "end": 120,
+            "text": "comme"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Comme ces étrangers-là vont assez vite, ils eurent fait le …",
+            "question": "Meaning",
+            "answer": "because",
+            "choices": [
+              "because",
+              "although",
+              "before",
+              "without"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le mot introduit la cause de son désir de vérifier : « ___ il raisonne beaucoup, il veut examiner le mouvement. »",
+            "question": "Complétez la phrase.",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "quand",
+              "si",
+              "tandis que"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Comme introduit ici une cause. Quand situe un fait dans le temps, si énonce une condition et tandis que marque une simultanéité ou une opposition.",
+            "question": "Quelle conjonction introduit ici la cause ?",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "quand",
+              "si",
+              "tandis que"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "ad8ee703c516ee0a0de397d6d2037a4c601e290603fd7b2e645d531815c6175d",
+          "afterSha256": "d03cd77b32e70f6d8a4e0aabd64d4337ab1f5885c686f402726ca33b08e014f8",
+          "reason": "Four indicative-compatible conjunctions with distinct cause, time, condition and simultaneity meanings."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "7d38be9e2e35a0eaba824fc76b495e1b62a9a282acd9d1e23cafc317f2138213",
+          "afterSha256": "12abed3375bd4a3f1d42c185b2afca63eeda92f5d86594734e3413d36c187f24",
+          "reason": "Keep cause apart from time and condition."
+        }
+      ],
+      "afterQuestionSha256": "5675b8868d4d70e12859605f98e9d80c680a6b9b9298f684675e05c42c9ef3b3"
+    },
+    {
+      "file": "chapter-04-batch-03.json",
+      "key": "journee_day",
+      "beforeQuestionSha256": "63abd42e6c15ba14f3ac165679d14e260b7b74ca81c94639e0ee3f5c14cd262c",
+      "after": {
+        "key": "journee_day",
+        "form": "journée",
+        "lemma": "journée",
+        "partOfSpeech": "noun feminine singular",
+        "meaning": "day; span of one day",
+        "editorialNote": "In chapter IV 87:169, journée carries the contextual meaning day; span of one day. The authored choices contrast that sense in the source passage.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 87,
+            "start": 169,
+            "end": 176,
+            "text": "journée"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… la terre, fait un pareil voyage en une journée ; mais il faut songer qu’on va bien plus à son aise …",
+            "question": "Meaning",
+            "answer": "one day",
+            "choices": [
+              "one day",
+              "one night",
+              "one month",
+              "one hour"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La durée d’un jour entier correspond à une ___.",
+            "question": "Complétez la phrase.",
+            "answer": "journée",
+            "choices": [
+              "journée",
+              "nuit",
+              "semaine",
+              "heure"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La journée représente ici un jour; la nuit est la période obscure, la semaine sept jours et l’heure une fraction du jour.",
+            "question": "Quel mot signifie day ?",
+            "answer": "journée",
+            "choices": [
+              "journée",
+              "nuit",
+              "semaine",
+              "heure"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "6f9c43f3d65ec3f0dc975bd332bc93cd17ebd64ba812a2aa9cb9732d6673e30c",
+          "afterSha256": "be6c8018f7944f8fd3174947218a39be9bebe39ce10625328677361029c301e7",
+          "reason": "A whole day is not a week, night or hour; avoid suggesting every calendar day lasts exactly24 hours."
+        }
+      ],
+      "afterQuestionSha256": "17065669e7bafd535e779bcb5487f90ab9278da3cce82970e892fb2761d33b48"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "non_alternative",
+      "beforeQuestionSha256": "f72bc4b0e7b4280edad7a885a046ff2748559ce8d9e0fc4b53cb6da76f2a00f0",
+      "after": {
+        "key": "non_alternative",
+        "form": "non",
+        "lemma": "non",
+        "partOfSpeech": "negative particle in alternative",
+        "meaning": "or not; negative alternative",
+        "editorialNote": "In chapter IV 90:129, non means or not; negative alternative. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 90,
+            "start": 129,
+            "end": 132,
+            "text": "non"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… d’apercevoir si ce globe était habité ou non.",
+            "question": "Meaning",
+            "answer": "not",
+            "choices": [
+              "not",
+              "yes",
+              "always",
+              "elsewhere"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils veulent savoir si la planète est habitée ou ___.",
+            "question": "Complétez la phrase.",
+            "answer": "non",
+            "choices": [
+              "non",
+              "oui",
+              "toujours",
+              "ailleurs"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ou non oppose la possibilité négative à la positive; oui confirme, toujours marque la durée et ailleurs le lieu.",
+            "question": "Quel mot signifie or not ?",
+            "answer": "non",
+            "choices": [
+              "non",
+              "oui",
+              "toujours",
+              "ailleurs"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "9de43b638a9bd3275c36f274fdba8098bfa6326bf9462779222fadb0b0afdc31",
+          "afterSha256": "6e48a0f4ffcd97d77cfd51a56b98cef0213f7cf8b55b7d5d793f7dbf67c55bff",
+          "reason": "Translate only the highlighted non; the surrounding ou contributes or."
+        }
+      ],
+      "afterQuestionSha256": "82341d94a150de29d91e162ff4014434009939aab83106bd08c47115d707fa14"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "certaines_some",
+      "beforeQuestionSha256": "65734325207210b4f1d2b27a64b8ca2ccee1228250d2fbc6fc37263037185638",
+      "after": {
+        "key": "certaines_some",
+        "form": "certaines",
+        "lemma": "certain",
+        "partOfSpeech": "indefinite determiner feminine plural",
+        "meaning": "some; certain unspecified stars",
+        "editorialNote": "In chapter IV 94:126, certaines means some; certain unspecified stars. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 94,
+            "start": 126,
+            "end": 135,
+            "text": "certaines"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… vous ne voyez pas avec vos petits yeux certaines étoiles de la cinquantième grandeur que j’aperçois …",
+            "question": "Meaning",
+            "answer": "some",
+            "choices": [
+              "some",
+              "all",
+              "no",
+              "one"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Sans préciser lesquelles ni combien, il désigne une partie des étoiles : « ___ étoiles sont visibles. »",
+            "question": "Complétez la phrase.",
+            "answer": "certaines",
+            "choices": [
+              "certaines",
+              "deux",
+              "trois",
+              "quatre"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Certaines désigne des éléments sans préciser lesquels ni combien. Deux, trois et quatre fixent au contraire un nombre exact.",
+            "question": "Quel déterminant laisse le nombre et les éléments non précisés ?",
+            "answer": "certaines",
+            "choices": [
+              "certaines",
+              "deux",
+              "trois",
+              "quatre"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "b4939632081e0e9ebc6dbe9ddb347187e956f63d01d5cdcf9f465216ff4c86a1",
+          "afterSha256": "decd9afe2e9a3845a3ec2203dc81903e27cb30e058319986945f24ff733ec086",
+          "reason": "Every determiner agrees with the unchanged plural noun; only certaines leaves number and members unspecified."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "afdce41de6ebab7eccc614d8890a20b8c8ea72ca98f4525483c52f3b96152eca",
+          "afterSha256": "d81e422ceba3330d9f2f9f3a07a2599761b945f12089f05fa13ce8b35441e6b2",
+          "reason": "Remove singular distractors and synonyms for some."
+        }
+      ],
+      "afterQuestionSha256": "34a8c90f371db94c1224d47be522dc14cf0a5009ad021b10a8741689cd35e9a3"
+    },
+    {
+      "file": "chapter-04-batch-07.json",
+      "key": "tres_distinctement_very_clearly",
+      "beforeQuestionSha256": "66d1785a4e1b80604815e6d25d0600c9edeffb47e9ae61500470eb6ff32e5381",
+      "after": {
+        "key": "tres_distinctement_very_clearly",
+        "form": "très-distinctement",
+        "lemma": "distinctement",
+        "partOfSpeech": "adverb intensive compound",
+        "meaning": "very clearly; quite distinctly",
+        "editorialNote": "In chapter IV 94:187, très-distinctement means very clearly; quite distinctly. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 94,
+            "start": 187,
+            "end": 205,
+            "text": "très-distinctement"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… de la cinquantième grandeur que j’aperçois très-distinctement ; concluez-vous de là que ces étoiles n’existent pas ? …",
+            "question": "Meaning",
+            "answer": "very clearly",
+            "choices": [
+              "very clearly",
+              "very faintly",
+              "without looking",
+              "only by touch"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il distingue les étoiles avec une très grande netteté : il les aperçoit ___.",
+            "question": "Complétez la phrase.",
+            "answer": "très-distinctement",
+            "choices": [
+              "très-distinctement",
+              "confusément",
+              "faiblement",
+              "aveuglément"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il les aperçoit très-distinctement, donc nettement; confusément manque de netteté, faiblement d’intensité et aveuglément exclut la vue.",
+            "question": "Quel mot signifie very clearly ?",
+            "answer": "très-distinctement",
+            "choices": [
+              "très-distinctement",
+              "confusément",
+              "faiblement",
+              "aveuglément"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "ab38c0839994cc41e12fa71ddba5710defb66170bc6e9ac2f163bee238bcbfbe",
+          "afterSha256": "79e574f09d9651d5265dd735d3584ce4f3991f66ce1015aa91d4c38ae9728704",
+          "reason": "State the semantic cue explicitly; distance alone does not select the answer."
+        }
+      ],
+      "afterQuestionSha256": "ede2cf2e0568d277ff4f2a1a6ca1ab15654a26465c77d3e85bd6ca6ff5bb94c9"
+    },
+    {
+      "file": "chapter-04-batch-06.json",
+      "key": "concluez_do_you_conclude",
+      "beforeQuestionSha256": "1bf325dac112ac069f1cf9d75ffcf07a389edfdb6f3baf4f84ebd01f79d4c634",
+      "after": {
+        "key": "concluez_do_you_conclude",
+        "form": "concluez",
+        "lemma": "conclure",
+        "partOfSpeech": "verb present second plural interrogative",
+        "meaning": "do you conclude; draw a conclusion",
+        "editorialNote": "In chapter IV 94:208, concluez carries the contextual meaning do you conclude; draw a conclusion. The authored choices contrast that sense in the source passage.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 94,
+            "start": 208,
+            "end": 216,
+            "text": "concluez"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… que j’aperçois très-distinctement ; concluez-vous de là que ces étoiles n’existent pas ? — Mais, …",
+            "question": "Meaning",
+            "answer": "conclude",
+            "choices": [
+              "conclude",
+              "measure",
+              "hide",
+              "forget"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’action de tirer une conséquence des faits se dit avec le verbe « ___ » à la deuxième personne du pluriel.",
+            "question": "Complétez la phrase.",
+            "answer": "concluez",
+            "choices": [
+              "concluez",
+              "annoncez",
+              "souhaitez",
+              "décrivez"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Concluez signifie tirez une conséquence de faits. Annoncez communique une information, souhaitez exprime un désir et décrivez présente des caractéristiques.",
+            "question": "Quel verbe signifie tirez une conséquence de faits ?",
+            "answer": "concluez",
+            "choices": [
+              "concluez",
+              "annoncez",
+              "souhaitez",
+              "décrivez"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "9105f6dbb54d62901f080207268d8e33bdab4edab231115233d5a01a0242c05d",
+          "afterSha256": "d0f82ee1cb208afeafba280b98371c83860f2764b6dbb29b5ca4c702e79a5c5b",
+          "reason": "A consequence deduced from a fact selects conclure; remove near-competing supposer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "285e94f49e4b2a02be133c7d34142ea509c0c4b6623b11a10646b257b9333c01",
+          "afterSha256": "ab4749e893b6ad3bdd27b3196130afe3c5e2542d90288756f552fdb9fbc9946e",
+          "reason": "Keep the same semantically distinct second-person-plural verbs."
+        }
+      ],
+      "afterQuestionSha256": "ccec721590cffc4dd50236f3312988ff7d39e392f1f678d1cbff68293ea1f7b7"
+    },
+    {
+      "file": "chapter-04-batch-06.json",
+      "key": "existent_exist",
+      "beforeQuestionSha256": "6be2bccd882d3127c496e6bb4e01302d99faad46cfa63c944a80ee403fbca9a0",
+      "after": {
+        "key": "existent_exist",
+        "form": "existent",
+        "lemma": "exister",
+        "partOfSpeech": "verb present third plural",
+        "meaning": "exist; are real",
+        "editorialNote": "In chapter IV 94:246, existent carries the contextual meaning exist; are real. The authored choices contrast that sense in the source passage.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 94,
+            "start": 246,
+            "end": 254,
+            "text": "existent"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… ; concluez-vous de là que ces étoiles n’existent pas ? — Mais, dit le nain, j’ai bien tâté. — Mais, …",
+            "question": "Meaning",
+            "answer": "exist",
+            "choices": [
+              "exist",
+              "disappear",
+              "sleep",
+              "argue"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces étoiles ont une réalité, même si vous ne les voyez pas : elles ___.",
+            "question": "Complétez la phrase.",
+            "answer": "existent",
+            "choices": [
+              "existent",
+              "disparaissent",
+              "dorment",
+              "discutent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Elles existent si elles sont réelles; disparaissent si elles s’effacent, dorment si elles sommeillent et discutent si elles débattent.",
+            "question": "Quel mot signifie exist ?",
+            "answer": "existent",
+            "choices": [
+              "existent",
+              "disparaissent",
+              "dorment",
+              "discutent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "3116f6ea614594683b571b7d49d78ebb46a550898154b9973650de09cf4f4157",
+          "afterSha256": "ec01cf17c9e31a0ff40660a78fac3bc1c97e881dc141971035b4e53c4e0044d0",
+          "reason": "Affirmed reality supplies the unique existence meaning."
+        }
+      ],
+      "afterQuestionSha256": "f90d3d53b69146751c7f46ef13befca357024b6068b2445ae565fc06ef3fc070"
+    },
+    {
+      "file": "chapter-04-batch-07.json",
+      "key": "irregulier_irregular",
+      "beforeQuestionSha256": "a6e8d5e1a40aa6e16c8f22adf96575080229c4af8a3efa8b79939f5074f47fd7",
+      "after": {
+        "key": "irregulier_irregular",
+        "form": "irrégulier",
+        "lemma": "irrégulier",
+        "partOfSpeech": "adjective masculine singular",
+        "meaning": "irregular; lacking a regular pattern",
+        "editorialNote": "In chapter IV 95:67, irrégulier means irregular; lacking a regular pattern. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 95,
+            "start": 67,
+            "end": 77,
+            "text": "irrégulier"
+          },
+          {
+            "chapter": 4,
+            "unit": 99,
+            "start": 17,
+            "end": 27,
+            "text": "irrégulier"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… globe-ci est si mal construit, cela est si irrégulier et d’une forme qui me paraît si ridicule ! tout semble …",
+            "question": "Meaning",
+            "answer": "irregular",
+            "choices": [
+              "irregular",
+              "perfectly even",
+              "completely straight",
+              "entirely symmetrical"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le contour ne suit aucune règle constante : il est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "irrégulier",
+            "choices": [
+              "irrégulier",
+              "uniforme",
+              "rectiligne",
+              "symétrique"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Irrégulier manque de forme constante; uniforme ne varie pas, rectiligne suit une ligne droite et symétrique présente des parties correspondantes.",
+            "question": "Quel mot signifie irregular ?",
+            "answer": "irrégulier",
+            "choices": [
+              "irrégulier",
+              "uniforme",
+              "rectiligne",
+              "symétrique"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "74a1bb2542241d3acf171d59eff0dca13017b95ff5135231315ee65becf5c424",
+          "afterSha256": "ccebafe5a0fb0957c58f8c4522130a5a6845ea40ebbf387e44b3a2f1e30e2966",
+          "reason": "All adjectives fit the masculine singular subject; repair the former feminine mismatch."
+        }
+      ],
+      "afterQuestionSha256": "4e6b6d236f9f4a496a5290954d85d454da9fc91d98d482ebb0e4bf623bf39c45"
+    },
+    {
+      "file": "chapter-04-batch-08.json",
+      "key": "reguliere_regular",
+      "beforeQuestionSha256": "85c2099fa8e3d379a2969b1c1a92a68aa88227ad7126757acc1261ce90a3f6a1",
+      "after": {
+        "key": "reguliere_regular",
+        "form": "régulière",
+        "lemma": "régulier",
+        "partOfSpeech": "adjective feminine singular",
+        "meaning": "regular; orderly in shape",
+        "editorialNote": "In chapter IV 95:297, régulière means regular; orderly in shape. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 95,
+            "start": 297,
+            "end": 306,
+            "text": "régulière"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… ni carrés, ni ovales, ni sous aucune forme régulière ; tous ces petits grains pointus dont ce globe est …",
+            "question": "Meaning",
+            "answer": "regular",
+            "choices": [
+              "regular",
+              "irregular",
+              "broken",
+              "unknown"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette forme suit une règle géométrique constante : elle est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "régulière",
+            "choices": [
+              "régulière",
+              "irrégulière",
+              "brillante",
+              "inconnue"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Une forme régulière suit une structure stable; irrégulière varie, brillante reflète la lumière et inconnue n’est pas identifiée.",
+            "question": "Quel mot signifie regular ?",
+            "answer": "régulière",
+            "choices": [
+              "régulière",
+              "irrégulière",
+              "brillante",
+              "inconnue"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "f68909c4a781fc319ae333d52ff2b2c4e11a0d19e13ebafa550a426cdbe46a9c",
+          "afterSha256": "f785478e9dc04a0c8094b5c637fa2cbd65f46741c512d20d74ce626a475c01c8",
+          "reason": "A positive definition selects regular; the former negative frame did not exclude other choices."
+        }
+      ],
+      "afterQuestionSha256": "fad8557f6443d9c35a780df53d3bacdd66cef046e37c13c668a29ffae54544a3"
+    },
+    {
+      "file": "chapter-04-batch-08.json",
+      "key": "herisse_bristling",
+      "beforeQuestionSha256": "ccbb5c1d92a2b01c8dd9fd8b6513b3218ee15ec8581a2031de51fc6d5cc83335",
+      "after": {
+        "key": "herisse_bristling",
+        "form": "hérissé",
+        "lemma": "hérisser",
+        "partOfSpeech": "past participle adjective masculine singular",
+        "meaning": "bristling; studded with points",
+        "editorialNote": "In chapter IV 95:358, hérissé means bristling; studded with points. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 95,
+            "start": 358,
+            "end": 365,
+            "text": "hérissé"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… ces petits grains pointus dont ce globe est hérissé, et qui m’ont écorché les pieds ? (Il voulait parler …",
+            "question": "Meaning",
+            "answer": "bristling with points",
+            "choices": [
+              "bristling with points",
+              "smooth and bare",
+              "entirely hollow",
+              "soft to touch"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le globe présente des pointes dressées comme des piquants : il est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "hérissé",
+            "choices": [
+              "hérissé",
+              "lisse",
+              "creux",
+              "moelleux"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Hérissé est couvert de saillies pointues; lisse est sans aspérités, creux a un vide intérieur et moelleux est doux.",
+            "question": "Quel mot signifie bristling ?",
+            "answer": "hérissé",
+            "choices": [
+              "hérissé",
+              "lisse",
+              "creux",
+              "moelleux"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "b2cc218052a388d6200a9cf69a9f6e41111ce882a03d2efd3e3a4f01fdfe053e",
+          "afterSha256": "30b9a7e48a5f5e8d0adddd5e978f80c961f7d5eb29ed12f70cc37e83d03fbfbc",
+          "reason": "Use a shared predicate-adjective frame without an en pronoun licensed only by the target."
+        }
+      ],
+      "afterQuestionSha256": "6e2b5c1cb4140bb8e9de01502dc93f7670fac761c5d7e48b003e986b50ba4f6a"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "parler_refer",
+      "beforeQuestionSha256": "c859477430465da8bcf73dfc563cbb30128ac2e6fb67f9cc7fba29187c1ec6c6",
+      "after": {
+        "key": "parler_refer",
+        "form": "parler",
+        "lemma": "parler",
+        "partOfSpeech": "infinitive verb referential",
+        "meaning": "to refer to; mean by speaking",
+        "editorialNote": "In chapter IV 95:412, parler means to refer to; mean by speaking. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 95,
+            "start": 412,
+            "end": 418,
+            "text": "parler"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… qui m’ont écorché les pieds ? (Il voulait parler des montagnes.)",
+            "question": "Meaning",
+            "answer": "refer to",
+            "choices": [
+              "refer to",
+              "shout at",
+              "forget",
+              "measure"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’infinitif qui signifie évoquer un sujet dans ses propos est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "parler",
+            "choices": [
+              "parler",
+              "oublier",
+              "mesurer",
+              "cacher"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Parler des montagnes signifie y faire référence; oublier perd le souvenir, mesurer calcule et cacher dissimule.",
+            "question": "Quel mot signifie to refer to ?",
+            "answer": "parler",
+            "choices": [
+              "parler",
+              "oublier",
+              "mesurer",
+              "cacher"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "1b96e4194ee2bb0fd757c0a538fffb398f0ab93dc8641ca93aa40456bc141498",
+          "afterSha256": "2b8ce49db4c678ad6a011e98674940c975b748fd73aafa0608f63b213c35fa72",
+          "reason": "A quoted infinitive frame makes meaning decide among four verbs; no de-complement syntax cue."
+        }
+      ],
+      "afterQuestionSha256": "374b58d781700f9c9b057a9fe4fd4fb370b049dc78d18d82b93b8149a619d1c4"
+    },
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "comme_exclamative",
+      "beforeQuestionSha256": "33532d6528bf1a97d9ed96e1a14ad56335509c9706ad350d199b9c7aad025130",
+      "after": {
+        "key": "comme_exclamative",
+        "form": "comme",
+        "lemma": "comme",
+        "partOfSpeech": "exclamative adverb",
+        "meaning": "how; to what degree",
+        "editorialNote": "In chapter IV 96:49, comme means how; to what degree. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 96,
+            "start": 49,
+            "end": 54,
+            "text": "comme"
+          },
+          {
+            "chapter": 4,
+            "unit": 96,
+            "start": 78,
+            "end": 83,
+            "text": "comme"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Remarquez comme le globe est plat aux pôles.",
+            "question": "Meaning",
+            "answer": "how",
+            "choices": [
+              "how",
+              "where",
+              "when",
+              "why"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans une observation de son degré d’aplatissement, on s’exclame : « ___ la planète est plate aux pôles ! »",
+            "question": "Complétez la phrase.",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "quand",
+              "pourquoi",
+              "où"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Comme souligne ici la manière ou le degré observé; où demande le lieu, quand le temps et pourquoi la cause.",
+            "question": "Quel mot signifie how ?",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "où",
+              "quand",
+              "pourquoi"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "e0d98885cefcb7703ba3f152777a6abb9c26d19f0303b92f159d8492b4f24ac5",
+          "afterSha256": "2c0a27b7fcae4f6e063f23e62c85d5f03185f997a74772302f278e035f984213",
+          "reason": "One explicit degree/manner target in a short contextual sentence; preserve both original source occurrences and the alternate chapterV bank."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "b6e5cf46a77f9e6246ff9912f2593362b8081a3d9d95bb8b0418e8efe9425d94",
+          "afterSha256": "22e897d754983b92cb2c2e33321f9e9f6b2d1fc2005a5a401c11ecf99ef8ca2a",
+          "reason": "Explicit degree observation distinguishes adverb comme from time, cause and place."
+        }
+      ],
+      "afterQuestionSha256": "6a600066c076db769452736612e5292648a96e960c2bd72c602e52ea81ae114b"
+    },
+    {
+      "file": "chapter-04-batch-09.json",
+      "key": "climats_climates",
+      "beforeQuestionSha256": "f1302bd9b978a74ed01f0f296a02e762c60253d8606e028b8db65a2b07d62d96",
+      "after": {
+        "key": "climats_climates",
+        "form": "climats",
+        "lemma": "climat",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "climates; regional weather patterns",
+        "editorialNote": "In chapter IV 96:150, climats means climates; regional weather patterns. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 96,
+            "start": 150,
+            "end": 157,
+            "text": "climats"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… d’une manière gauche, de façon que les climats des pôles sont nécessairement incultes ?",
+            "question": "Meaning",
+            "answer": "geographical regions",
+            "choices": [
+              "geographical regions",
+              "weather patterns",
+              "rivers",
+              "mountains"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans cet ancien usage, les régions terrestres considérées selon leur situation et leur température sont les ___.",
+            "question": "Complétez la phrase.",
+            "answer": "climats",
+            "choices": [
+              "climats",
+              "fleuves",
+              "monts",
+              "océans"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Dans cet ancien usage, les climats sont des régions terrestres considérées selon leur situation et leur température. Les fleuves sont des cours d’eau, les monts des reliefs et les océans de vastes étendues d’eau salée.",
+            "question": "Quel nom désigne ici des régions terrestres ?",
+            "answer": "climats",
+            "choices": [
+              "climats",
+              "fleuves",
+              "monts",
+              "océans"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "69360f7752107fe089821754149d4ce6027b254cdb17ea6373432c51c8c728e6",
+          "afterSha256": "fe7412750414c9f819cffc8fa87452db1d01d014552515f006d4158b2aabb9c7",
+          "reason": "Historical climat denotes a region considered geographically and thermally; here regions can be uncultivated. Academy1798 A5C1488."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "61c2172b755de032744e4546d076e216ece437e209e8baf2d463a39be126f649",
+          "afterSha256": "0af6629c1c9a8d8390631031954f35df39eee02a6bbff3bbce5d1c260d967e7f",
+          "reason": "Four masculine plural nouns; historical geographical regions rather than weather patterns."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "0920112e732841a444ececbe147b869601082b5dbb8b1bcc19a8db237a6f6a72",
+          "afterSha256": "e85e6f131b04f674d984efadeeb81c2b4c04142c101cdd579dcc3f52ae9d7a42",
+          "reason": "All four plural nouns share the historical source reading."
+        }
+      ],
+      "afterQuestionSha256": "d464d77f24c0770ddff38be141342d9b00a4b5d3ac365c802febc926973a900a"
+    },
+    {
+      "file": "chapter-04-batch-09.json",
+      "key": "voudraient_would_want",
+      "beforeQuestionSha256": "56a6fdf69fb66d583c754fc26cf029f0df03e7d2e7636ea3dbe85fee88156960",
+      "after": {
+        "key": "voudraient_would_want",
+        "form": "voudraient",
+        "lemma": "vouloir",
+        "partOfSpeech": "verb conditional third plural",
+        "meaning": "would want; would be willing",
+        "editorialNote": "In chapter IV 97:112, voudraient means would want; would be willing. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 97,
+            "start": 112,
+            "end": 122,
+            "text": "voudraient"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… qu’il me paraît que des gens de bon sens ne voudraient pas y demeurer. — Eh bien, dit Micromégas, ce ne sont …",
+            "question": "Meaning",
+            "answer": "would want",
+            "choices": [
+              "would want",
+              "would know",
+              "had seen",
+              "have forgotten"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces gens expriment un désir sous condition : s’ils avaient le choix, ils ___ vivre ailleurs.",
+            "question": "Complétez la phrase.",
+            "answer": "voudraient",
+            "choices": [
+              "voudraient",
+              "pourraient",
+              "devraient",
+              "viendraient"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Voudraient exprime un désir au conditionnel. Pourraient exprime une possibilité, devraient une obligation et viendraient un déplacement.",
+            "question": "Quel verbe exprime un désir au conditionnel ?",
+            "answer": "voudraient",
+            "choices": [
+              "voudraient",
+              "pourraient",
+              "devraient",
+              "viendraient"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "a5db8f6ca9afc8a26008f3c81a3d827e5356348436ca14856ae64c18643713c1",
+          "afterSha256": "698cf4cff390ce77c3c2d8a0f3f2ad09d654aabf1aba1fa88b50656e14e2834a",
+          "reason": "Four third-person-plural conditional forms can precede the infinitive; the stated desire selects vouloir."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "9c55914e18bc26e5b39ba6e3e9691b6ec660b516a656d46e0850b63fc2e09bcf",
+          "afterSha256": "b85005290bf4f2c9d83ce7cf6b61a51330ebcd3df9df39e755141c743cd23ecb",
+          "reason": "Use four grammatical conditional forms with distinct meanings."
+        }
+      ],
+      "afterQuestionSha256": "e0b4691d5d9377429c88056fd75726f687e9194ccbae22eb351538eb8ebeee26"
+    },
+    {
+      "file": "chapter-04-batch-09.json",
+      "key": "demeurer_to_live",
+      "beforeQuestionSha256": "46e36bf571bdeda95a849c3ed17f25135e254d8c7832696804b158d661a0a1c8",
+      "after": {
+        "key": "demeurer_to_live",
+        "form": "demeurer",
+        "lemma": "demeurer",
+        "partOfSpeech": "infinitive verb residential",
+        "meaning": "to live; reside",
+        "editorialNote": "In chapter IV 97:129, demeurer means to live; reside. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 97,
+            "start": 129,
+            "end": 137,
+            "text": "demeurer"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… des gens de bon sens ne voudraient pas y demeurer. — Eh bien, dit Micromégas, ce ne sont peut-être pas …",
+            "question": "Meaning",
+            "answer": "to reside",
+            "choices": [
+              "to reside",
+              "to depart",
+              "to shout",
+              "to compare"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils choisiraient un autre lieu pour y avoir leur résidence, pour y ___.",
+            "question": "Complétez la phrase.",
+            "answer": "demeurer",
+            "choices": [
+              "demeurer",
+              "partir",
+              "crier",
+              "comparer"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Demeurer signifie habiter en un lieu; partir le quitte, crier élève la voix et comparer rapproche des choses.",
+            "question": "Quel mot signifie to live ?",
+            "answer": "demeurer",
+            "choices": [
+              "demeurer",
+              "partir",
+              "crier",
+              "comparer"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "50d03d2b613a46000d7c72138cc0411956e7f45171b4b6ece82d7305fc53ef68",
+          "afterSha256": "bf2e689e4ed9a89e26bf77d33fa5f8bcfda5f5fcb29a75f6de3f3ccce4c05980",
+          "reason": "Supply the residence meaning explicitly."
+        }
+      ],
+      "afterQuestionSha256": "37b0faae0e3f2151d090ab272c3e9635421e7b243412f7142302638f5198d199"
+    },
+    {
+      "file": "chapter-04-batch-09.json",
+      "key": "habitent_live_in",
+      "beforeQuestionSha256": "b1b93f3a2ed812389673a27f645bc3d05f52a3306b9fda58ed048e073aacb42e",
+      "after": {
+        "key": "habitent_live_in",
+        "form": "habitent",
+        "lemma": "habiter",
+        "partOfSpeech": "verb present third plural",
+        "meaning": "live in; inhabit",
+        "editorialNote": "In chapter IV 97:227, habitent means live in; inhabit. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 97,
+            "start": 227,
+            "end": 235,
+            "text": "habitent"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… pas non plus des gens de bon sens qui l’habitent.",
+            "question": "Meaning",
+            "answer": "inhabit",
+            "choices": [
+              "inhabit",
+              "leave behind",
+              "observe",
+              "measure"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces êtres ont leur résidence sur la planète : ils l’___.",
+            "question": "Complétez la phrase.",
+            "answer": "habitent",
+            "choices": [
+              "habitent",
+              "observent",
+              "abandonnent",
+              "évaluent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Habitent veut dire vivent dans ce lieu; observent le regardent, abandonnent le quittent et évaluent en estiment la valeur.",
+            "question": "Quel mot signifie live in ?",
+            "answer": "habitent",
+            "choices": [
+              "habitent",
+              "observent",
+              "abandonnent",
+              "évaluent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "58acb0ae6e5bdfa5c9bbcef186d0939dc73542b527c627b7ea47170fa138c753",
+          "afterSha256": "d670b708b3fd5e5dc0a7502749bb16e53a9f213f3767e7c0690712daae129cef",
+          "reason": "Residency selects habiter, rather than a possible observation of the planet."
+        }
+      ],
+      "afterQuestionSha256": "2fafe539d56a99841f8e8edb57b5d35544e192f980732c9873eb42c1d952da70"
+    },
+    {
+      "file": "chapter-04-batch-09.json",
+      "key": "apparence_likelihood",
+      "beforeQuestionSha256": "2d0e7e4e72c5975d266e41dc79e478779ffc531ade63f9daa5637440d06cdc9d",
+      "after": {
+        "key": "apparence_likelihood",
+        "form": "apparence",
+        "lemma": "apparence",
+        "partOfSpeech": "noun feminine singular plausibility",
+        "meaning": "likelihood; indication",
+        "editorialNote": "In chapter IV 98:26, apparence means likelihood; indication. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 98,
+            "start": 26,
+            "end": 35,
+            "text": "apparence"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Mais enfin il y a quelque apparence que ceci n’est pas fait pour rien.",
+            "question": "Meaning",
+            "answer": "plausibility",
+            "choices": [
+              "plausibility",
+              "certainty",
+              "refusal",
+              "measurement"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cela semble vraisemblable sans être certain : cette vraisemblance est appelée « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "apparence",
+            "choices": [
+              "apparence",
+              "certitude",
+              "opposition",
+              "mesure"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelque apparence indique une possibilité vraisemblable; certitude est sûre, opposition refuse et mesure quantifie.",
+            "question": "Quel mot signifie likelihood ?",
+            "answer": "apparence",
+            "choices": [
+              "apparence",
+              "certitude",
+              "opposition",
+              "mesure"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "737151e73d66631514b1cb95a6824b76f32309021fd8a8f73e641a33a9fa76b9",
+          "afterSha256": "9e6af944b95cf7d29c8c308118785ad66d4f2e7e0c23d865e2c10c0303bf7350",
+          "reason": "Four feminine singular nouns in a common quoted-label frame; meaning rather than que-complement syntax selects the target."
+        }
+      ],
+      "afterQuestionSha256": "2ba792efa5d1b130cb2842b36a9eceb3b90f2625e32b879cf878559d6b61aa39"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 17,
+    "refinedQuestionBands": 24
+  },
+  "policy": "Exact source revisions preserved; reviewed questions staged without changing published content or mastery."
+}

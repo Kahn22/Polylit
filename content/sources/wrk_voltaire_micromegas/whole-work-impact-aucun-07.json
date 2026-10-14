@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.470Z",
+  "sense": {
+    "id": "sns_zola_aucun_none",
+    "lemmaId": "lem_zola_aucun",
+    "gloss": "no; not any",
+    "definition": "pas un seul"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 4,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_aucun_aucun_none_intermediate",
+      "qiz_zola_aucun_aucun_none_advanced",
+      "qiz_zola_aucun_aucun_none_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_aucun_aucun:sns_zola_aucun_none",
+      "surface": "aucun",
+      "lemma": "aucun",
+      "currentRevision": "rev_4b83c2d1090f9e02a02bcfac9d0ec3fd0386c8f3262a49b73d7f7cdd917cb835",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_4d2713dd2043725c356e8522",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_001",
+          "passage": "C’était une de ces jolies et charmantes filles, nées, comme par une erreur du destin, dans une famille d’employés. Elle n’avait pas de dot, pas d’espérances, aucun moyen d’être connue, comprise, aimée, épousée par un homme riche et distingué ; et elle se laissa marier avec un petit commis du ministère de l’instruction publique.",
+          "span": [
+            158,
+            163
+          ]
+        },
+        {
+          "id": "occ_zola_50e8267e91dc19512aadfcdf",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_173",
+          "passage": "Je me doute bien que vous n’avez aucun pouvoir en cette affaire, que vous êtes le prisonnier de la Constitution et de votre entourage.",
+          "span": [
+            33,
+            38
+          ]
+        },
+        {
+          "id": "occ_zola_5f2c2a5724eb03182f11ea3e",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_052",
+          "passage": "Dreyfus sait plusieurs langues, crime ; on n’a trouvé chez lui aucun papier compromettant, crime ; il va parfois dans son pays d’origine, crime ; il est laborieux, il a le souci de tout savoir, crime ; il ne se trouble pas, crime ; il se trouble, crime.",
+          "span": [
+            63,
+            68
+          ]
+        },
+        {
+          "id": "occ_zola_93a4efef13d591b84c7e5a14",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_080",
+          "passage": "Mais l’émoi était grand, car la condamnation d’Esterhazy entraînait inévitablement la revision du procès Dreyfus ; et c’était ce que l’état-major ne voulait à aucun prix.",
+          "span": [
+            159,
+            164
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_aucun_aucun_none_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il n’y a _____ billet disponible : tout est vendu.",
+          "choices": [
+            {
+              "text": "aucun",
+              "correct": true
+            },
+            {
+              "text": "chaque",
+              "correct": false
+            },
+            {
+              "text": "plusieurs",
+              "correct": false
+            },
+            {
+              "text": "certains",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_aucun_aucun_none_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Aucun billet n’est encore disponible. Chaque visiteur attend, plusieurs employés préparent la salle et les deux guichets sont fermés.",
+          "prompt": "Quel mot indique qu’il n’y a pas un seul billet disponible ?",
+          "choices": [
+            {
+              "text": "aucun",
+              "correct": true
+            },
+            {
+              "text": "Chaque",
+              "correct": false
+            },
+            {
+              "text": "plusieurs",
+              "correct": false
+            },
+            {
+              "text": "deux",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_aucun_aucun_none_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Aucun élève n’a oublié son livre aujourd’hui.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "not a single",
+              "correct": true
+            },
+            {
+              "text": "every",
+              "correct": false
+            },
+            {
+              "text": "several",
+              "correct": false
+            },
+            {
+              "text": "both",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

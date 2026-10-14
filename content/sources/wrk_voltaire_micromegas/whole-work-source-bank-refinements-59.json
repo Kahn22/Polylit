@@ -1,0 +1,2190 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "comme_manner",
+      "beforeQuestionSha256": "b6181ac39327ade7fb175b084b7c997b5f9ab62cc58b29bdc4a678b30e940245",
+      "after": {
+        "key": "comme_manner",
+        "form": "comme",
+        "lemma": "comme",
+        "partOfSpeech": "adverbial clause of manner",
+        "meaning": "how; in the way that",
+        "editorialNote": "In chapter IV 115:28, comme means how; in the way that. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 115,
+            "start": 28,
+            "end": 33,
+            "text": "comme"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Je vais raconter ingénument comme la chose se passa, sans y rien mettre du mien : ce qui …",
+            "question": "Meaning",
+            "answer": "in the way that",
+            "choices": [
+              "in the way that",
+              "because",
+              "before",
+              "without"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Pour annoncer la manière dont l’événement s’est déroulé, il dit : « Je raconterai ___ la chose se passa. »",
+            "question": "Complétez la phrase.",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "pourquoi",
+              "quand",
+              "où"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Comme la chose se passa indique la manière dont l’événement s’est déroulé; pourquoi, quand et où interrogent d’autres aspects.",
+            "question": "Quel mot signifie how ?",
+            "answer": "comme",
+            "choices": [
+              "comme",
+              "pourquoi",
+              "quand",
+              "où"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "fed892dbc0630eb083f69837cb4e1dffc536e8001f8782c2c02ce70df91642ca",
+          "afterSha256": "315a63444427e3977562630d9a2cafa23d698692524f0b7881d6daec4e8c6f19",
+          "reason": "Manner is explicit rather than one of four equally possible questions."
+        }
+      ],
+      "afterQuestionSha256": "ac86f8933991b74f83238c6fad31af85d47bedb1b1db6098f7ad0c16768d83fa"
+    },
+    {
+      "file": "chapter-05-batch-01.json",
+      "key": "paraissait_chapter_05_116",
+      "beforeQuestionSha256": "8952b8defc4723046ffe072769a04fa8503db08f7a215aaf38c519bbc2d982f8",
+      "after": {
+        "key": "paraissait_chapter_05_116",
+        "form": "paraissait",
+        "lemma": "paraître",
+        "partOfSpeech": "verb imperfect",
+        "meaning": "appeared; seemed visible",
+        "definition": "was appearing to his sight",
+        "sourceOccurrences": [
+          {
+            "chapter": 5,
+            "unit": 116,
+            "start": 68,
+            "end": 78,
+            "text": "paraissait"
+          }
+        ],
+        "editorialNote": "Chapter V, unit 116: paraissait means was appearing to his sight; source-bound offline candidate for question review.",
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Micromégas étendit la main tout doucement vers l’endroit où l’objet paraissait, et avançant deux doigts, et les retirant par la crainte de se tromper, puis les ouvrant et les serrant, il saisit fort adroitement le vaisseau qui portait ces messieurs, et le mit encore sur son ongle, sans le trop presser, de peur de l’écraser.",
+            "question": "What does the highlighted word mean here?",
+            "answer": "appeared; seemed visible",
+            "choices": [
+              "appeared; seemed visible",
+              "vanished",
+              "fell",
+              "turned"
+            ],
+            "targetText": "paraissait"
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie était visible, sans exprimer un mouvement, est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "paraissait",
+            "choices": [
+              "paraissait",
+              "disparaissait",
+              "tombait",
+              "roulait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe indique que l’objet était visible ?",
+            "question": "Quel mot convient ?",
+            "answer": "paraissait",
+            "choices": [
+              "paraissait",
+              "disparaissait",
+              "tombait",
+              "roulait"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "63d3abc7bbc381bffed33af9f0f4dc5b8bec5714f56194d7af4708e39936b78b",
+          "afterSha256": "3c0a97277598820d418bab581910fa49453473a5600ada0d8a6b5163077c46d3",
+          "reason": "Visibility selects paraissait, rather than a compatible movement."
+        }
+      ],
+      "afterQuestionSha256": "01c0d5037b224f06b6dcee24d3c7947830b2bf9d966e3e3992108fb03f3d1f99"
+    },
+    {
+      "file": "chapter-05-batch-01.json",
+      "key": "avancant_chapter_05_116",
+      "beforeQuestionSha256": "4b73feeb4c39f7c7c070b7b7bb866269105a5749736dad34ece2dc0994d63b3e",
+      "after": {
+        "key": "avancant_chapter_05_116",
+        "form": "avançant",
+        "lemma": "avancer",
+        "partOfSpeech": "verb present participle",
+        "meaning": "moving forward",
+        "definition": "moving two fingers toward it",
+        "sourceOccurrences": [
+          {
+            "chapter": 5,
+            "unit": 116,
+            "start": 83,
+            "end": 91,
+            "text": "avançant"
+          }
+        ],
+        "editorialNote": "Chapter V, unit 116: avançant means moving two fingers toward it; source-bound offline candidate for question review.",
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Micromégas étendit la main tout doucement vers l’endroit où l’objet paraissait, et avançant deux doigts, et les retirant par la crainte de se tromper, puis les ouvrant et les serrant, il saisit fort adroitement le vaisseau qui portait ces messieurs, et le mit encore sur son ongle, sans le trop presser, de peur de l’écraser.",
+            "question": "What does the highlighted word mean here?",
+            "answer": "moving forward",
+            "choices": [
+              "moving forward",
+              "withdrawing",
+              "crossing",
+              "hiding"
+            ],
+            "targetText": "avançant"
+          },
+          {
+            "band": "4-5",
+            "context": "En ___ les doigts vers le navire, il les porte en avant et les rapproche du navire.",
+            "question": "Complétez la phrase.",
+            "answer": "avançant",
+            "choices": [
+              "avançant",
+              "retirant",
+              "croisant",
+              "cachant"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe décrit des doigts dirigés vers l’objet ?",
+            "question": "Quel mot convient ?",
+            "answer": "avançant",
+            "choices": [
+              "avançant",
+              "retirant",
+              "croisant",
+              "cachant"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "9dabcd85e842d199861b1b5f8516dbb416f946198e5c540102f6e35cfdf6bee5",
+          "afterSha256": "79b89d62e7db30a2f2ddd362031cb691425aef906a97b0874192f62c70acdf2a",
+          "reason": "Remove the ambiguous pronoun lui that could refer to the giant."
+        }
+      ],
+      "afterQuestionSha256": "1ba0d1a952fac3ba0aeb1ab8c7d8f23c2a603bc4ec9819731bc1242d22a21585"
+    },
+    {
+      "file": "chapter-05-batch-01.json",
+      "key": "retirant_chapter_05_116",
+      "beforeQuestionSha256": "0e9a923109731d9dbb5b414191d57396033a4f98d58e2b5e8ba1419d4063ebcf",
+      "after": {
+        "key": "retirant_chapter_05_116",
+        "form": "retirant",
+        "lemma": "retirer",
+        "partOfSpeech": "verb present participle",
+        "meaning": "drawing back",
+        "definition": "pulling his fingers back",
+        "sourceOccurrences": [
+          {
+            "chapter": 5,
+            "unit": 116,
+            "start": 112,
+            "end": 120,
+            "text": "retirant"
+          }
+        ],
+        "editorialNote": "Chapter V, unit 116: retirant means pulling his fingers back; source-bound offline candidate for question review.",
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Micromégas étendit la main tout doucement vers l’endroit où l’objet paraissait, et avançant deux doigts, et les retirant par la crainte de se tromper, puis les ouvrant et les serrant, il saisit fort adroitement le vaisseau qui portait ces messieurs, et le mit encore sur son ongle, sans le trop presser, de peur de l’écraser.",
+            "question": "What does the highlighted word mean here?",
+            "answer": "drawing back",
+            "choices": [
+              "drawing back",
+              "advancing",
+              "crossing",
+              "raising"
+            ],
+            "targetText": "retirant"
+          },
+          {
+            "band": "4-5",
+            "context": "Il ramène ses doigts en arrière, vers lui : il les éloigne du navire en les ___.",
+            "question": "Complétez la phrase.",
+            "answer": "retirant",
+            "choices": [
+              "retirant",
+              "avançant",
+              "écartant",
+              "levant"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe indique le recul des doigts ?",
+            "question": "Quel mot convient ?",
+            "answer": "retirant",
+            "choices": [
+              "retirant",
+              "avançant",
+              "écartant",
+              "levant"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c0da4e9216a54dcc687ffa5358118f6c9ac111ec6a8374b965ee69064f098cb3",
+          "afterSha256": "2e49c77fb35cf18fab6a55392ba217541f0d808024fe6541489c540b557b2579",
+          "reason": "Explicit backward motion distinguishes withdrawal from spreading or raising."
+        }
+      ],
+      "afterQuestionSha256": "c6322870ce9c9e27d599aa5e7cc14ce05239826d0f726c48e998b00015070339"
+    },
+    {
+      "file": "chapter-05-held-batch-01.json",
+      "key": "encore_chapter_05_held_01_116",
+      "beforeQuestionSha256": "8e7e8c042e408b1da5de758369eaf22bb860c1560366836a280cdca4d1074cf0",
+      "after": {
+        "key": "encore_chapter_05_held_01_116",
+        "form": "encore",
+        "lemma": "encore",
+        "partOfSpeech": "adverb",
+        "meaning": "again; once more",
+        "sourceOccurrences": [
+          {
+            "unit": 116,
+            "start": 260,
+            "end": 266,
+            "text": "encore",
+            "chapter": 5
+          }
+        ],
+        "status": "offline_contextual_question_draft_pending_editorial_review",
+        "editorialNote": "Le mit encore sur son ongle means again; all three current published questions illustrate still/continuation. This is an offline draft; final question and identity QA remain pending.",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Micromégas étendit la main tout doucement vers l’endroit où l’objet paraissait, et avançant deux doigts, et les retirant par la crainte de se tromper, puis les ouvrant et les serrant, il saisit fort adroitement le vaisseau qui portait ces messieurs, et le mit encore sur son ongle, sans le trop presser, de peur de l’écraser.",
+            "targetText": "encore",
+            "question": "What does the highlighted word mean here?",
+            "answer": "again",
+            "choices": [
+              "again",
+              "still",
+              "never",
+              "already"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adverbe qui marque ici une nouvelle répétition du geste est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "encore",
+            "choices": [
+              "encore",
+              "désormais",
+              "jamais",
+              "déjà"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Encore signifie une nouvelle fois. Désormais signifie à partir de maintenant ; jamais nie la réalisation et déjà la présente comme accomplie.",
+            "question": "Quel mot convient ?",
+            "answer": "encore",
+            "choices": [
+              "encore",
+              "désormais",
+              "jamais",
+              "déjà"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "489688e5caabefaa7f3e8e8e08c3324f4080d152250febab3d50d840150b357b",
+          "afterSha256": "6081ac7f66a97abd50282e04224ba91512c4c1f09df551b03159f2c670c832f2",
+          "reason": "Avoid toujours, which can also mean repeatedly; quoted forms remove negation cues."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "cb050b866b5004458dffb18145277e49e11bdc0306d24d46c92c79c74a3b36aa",
+          "afterSha256": "6f8d2451d6e814d087d2b5a1fdcb623da91d084bc08c5b199afbfadbc2b84f4f",
+          "reason": "Explicit repeated-action contrasts."
+        }
+      ],
+      "afterQuestionSha256": "12c7428a24b9155e76ef8246c7d5448afd391feed5810b5c1055560e258b118e"
+    },
+    {
+      "file": "chapter-04-batch-14.json",
+      "key": "logee_housed",
+      "beforeQuestionSha256": "7fac01c79e93fbc2b47f1435334f9dd70b2124271d5e844636f655b906353b90",
+      "after": {
+        "key": "logee_housed",
+        "form": "logée",
+        "lemma": "loger",
+        "partOfSpeech": "past participle adjective feminine singular figurative",
+        "meaning": "housed; lodged within",
+        "editorialNote": "In chapter IV 111:154, logée means housed; lodged within. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 111,
+            "start": 154,
+            "end": 159,
+            "text": "logée"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… avait pas moyen de croire qu’une âme fût logée là.",
+            "question": "Meaning",
+            "answer": "lodged inside",
+            "choices": [
+              "lodged inside",
+              "absent",
+              "expelled",
+              "forgotten"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette hypothèse situe l’âme à l’intérieur de l’animal : elle y serait ___.",
+            "question": "Complétez la phrase.",
+            "answer": "logée",
+            "choices": [
+              "logée",
+              "absente",
+              "chassée",
+              "oubliée"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Logée signifie présente à l’intérieur; absente n’y est pas, chassée en est expulsée et oubliée n’est plus rappelée.",
+            "question": "Quel mot signifie housed ?",
+            "answer": "logée",
+            "choices": [
+              "logée",
+              "absente",
+              "chassée",
+              "oubliée"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "267625ba9a9614366161241878f7f24f20f5f926749a6c504d942a32165a501b",
+          "afterSha256": "47c2b8ddcea9b59205533304f40dd60973c25eacc437a038a1632a14286bfa52",
+          "reason": "Explicit location within rather than any state of the soul."
+        }
+      ],
+      "afterQuestionSha256": "68d1c22f889192a19094e439b0bfea48234a61bde93fd5e3b9bae07c2ad1529a"
+    },
+    {
+      "file": "chapter-04-batch-14.json",
+      "key": "inclinaient_were_inclined",
+      "beforeQuestionSha256": "374acde91e4f1525d4e4a098636a5ee418e0f79f93588b28f6173afeabdf1b73",
+      "after": {
+        "key": "inclinaient_were_inclined",
+        "form": "inclinaient",
+        "lemma": "incliner",
+        "partOfSpeech": "verb imperfect third plural figurative",
+        "meaning": "were inclined; tended toward a belief",
+        "editorialNote": "In chapter IV 112:19, inclinaient means were inclined; tended toward a belief. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 112,
+            "start": 19,
+            "end": 30,
+            "text": "inclinaient"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Les deux voyageurs inclinaient donc à penser qu’il n’y a point d’esprit dans notre …",
+            "question": "Meaning",
+            "answer": "leaned toward believing",
+            "choices": [
+              "leaned toward believing",
+              "refused to consider",
+              "had proved",
+              "forgot entirely"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils tendaient vers cette opinion sans certitude : ils ___ à la croire.",
+            "question": "Complétez la phrase.",
+            "answer": "inclinaient",
+            "choices": [
+              "inclinaient",
+              "renonçaient",
+              "hésitaient",
+              "résistaient"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Incliner à croire indique une tendance favorable. Renoncer abandonne, hésiter suspend le choix et résister marque une opposition.",
+            "question": "Quel mot signifie were inclined ?",
+            "answer": "inclinaient",
+            "choices": [
+              "inclinaient",
+              "renonçaient",
+              "hésitaient",
+              "résistaient"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "ea0d5a8fbfda047ee274d6b76e297b79cce683f9145a4529c4d1bf30d4fc5096",
+          "afterSha256": "fd1dbdcfcee9b336cda2624b177c50ea45935f551aaacc9caf5e6bd9ed6b8602",
+          "reason": "All choices permit à; positive tendency selects incliner."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "ae7dcc681e7923bd99fdcd916f1a1b1d488967ca41a5b1557b241f3cec479f03",
+          "afterSha256": "def2018f8e4ea2576d007239509aaea694be00a07041df391bd4ccee6fd88469",
+          "reason": "Align exact semantic contrasts with the middle band."
+        }
+      ],
+      "afterQuestionSha256": "3e7de177db7d57d5b26005dbd81a7ed40c31195fd43f34c3d18571d2be63dfe6"
+    },
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "d_negative_quantity",
+      "beforeQuestionSha256": "fc9cca21e033693c003e8ecfaddf48beae9318e1c69cb20c262a4299dc41bd42",
+      "after": {
+        "key": "d_negative_quantity",
+        "form": "d’",
+        "lemma": "de",
+        "partOfSpeech": "elided negative quantity article",
+        "meaning": "any; of after a negative quantity",
+        "editorialNote": "In chapter IV 112:63, d’ means any; of after a negative quantity. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 112,
+            "start": 63,
+            "end": 65,
+            "text": "d’"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… inclinaient donc à penser qu’il n’y a point d’esprit dans notre habitation, lorsqu’à l’aide du …",
+            "question": "Meaning",
+            "answer": "any after negation",
+            "choices": [
+              "any after negation",
+              "all at once",
+              "because of",
+              "away from"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans point d’esprit, le déterminant réduit après la négation est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "un",
+              "le",
+              "cet"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "D’ est ici la forme réduite de l’article après une négation de quantité. Un est indéfini, le défini et cet démonstratif.",
+            "question": "Quel mot signifie any ?",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "un",
+              "le",
+              "cet"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c434b6cd6e3e4e3f4ff774a09fc3bfcd99ad9cb4f0a394f810c34939d8a9d18a",
+          "afterSha256": "728cd162a5d27750b57b326fcc5045e2c475082304bc73e00f45075aa906de23",
+          "reason": "Quote the form so elision and blank spacing cannot select it."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "96e374da9d14d5c6011660f338092f7fc82984e60a57eeaa2e46105dedca3a75",
+          "afterSha256": "e3e6943311c3d57ab7838bdf9df4407cd0b11a00ab9bd06d2efc990c24f22501",
+          "reason": "Explicit negative article ownership."
+        }
+      ],
+      "afterQuestionSha256": "0003d808929febb5c4e204edfb0aa3fb213dda737777f3cafa87629f42bccd8b"
+    },
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "d_adjective",
+      "beforeQuestionSha256": "6f6b9a2a467041bf6dc5798693c766d93577ef3f17b1d91992abfce155b99d84",
+      "after": {
+        "key": "d_adjective",
+        "form": "d’",
+        "lemma": "de",
+        "partOfSpeech": "elided link before adjective",
+        "meaning": "of; with a described quality",
+        "editorialNote": "In chapter IV 108:46, d’ means of; with a described quality. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 108,
+            "start": 46,
+            "end": 48,
+            "text": "d’"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… l’habitant de Saturne vit quelque chose d’imperceptible qui remuait entre deux eaux dans la mer …",
+            "question": "Meaning",
+            "answer": "links the pronoun to its adjective",
+            "choices": [
+              "links the pronoun to its adjective",
+              "marks a destination",
+              "expresses opposition",
+              "compares two quantities"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans quelque chose d’imperceptible, la forme qui relie le pronom à son adjectif est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "très",
+              "moins",
+              "contre"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "D’ relie ici le pronom indéfini à son adjectif. Très et moins modifient le degré ; contre exprime une opposition.",
+            "question": "Quel mot signifie of ?",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "très",
+              "moins",
+              "contre"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "5cfb20aab50f6aa4afe6eae370b0d0dfbd54c6d045e89cc76bc507d1b5054d3f",
+          "afterSha256": "f096997858391987cb024ea1a7279c81a30c3da83a7a04e4dc2f58e8aeae79f2",
+          "reason": "Do not translate aussi or the adjective as the meaning of de."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "1474266f8738779f84c0257682e783e1b80594e723780ccffb957fd17f251091",
+          "afterSha256": "c585c6bca9f03c66126c5ddf9faf12d27754602c98c2aea98741c6b9acc02e2e",
+          "reason": "Quoted forms test the relation without an elision cue."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "d3e3f458b2a07896bc842aec2a3e3388a37234c066f309b9c2ed8af9f8895b01",
+          "afterSha256": "bc59dc9ee678744cb79284d1fbe3af45e3c1d21d5aafbb62ce423c0d3cd0dc80",
+          "reason": "Keep the linker separate from degree modifiers."
+        }
+      ],
+      "afterQuestionSha256": "97a835102dedf899cd86dd12e7c93b8dae07eb8d8cf0a6b834400e0e09affd25"
+    },
+    {
+      "file": "chapter-04-batch-19.json",
+      "key": "volee_group",
+      "beforeQuestionSha256": "d4cf40a4867b7856bfad1eb5c3e238214ec46de56c67e5c55934996c10a76ea8",
+      "after": {
+        "key": "volee_group",
+        "form": "volée",
+        "lemma": "volée",
+        "partOfSpeech": "noun feminine singular group",
+        "meaning": "flock; group of people",
+        "editorialNote": "In chapter IV 113:38, volée means flock; group of people. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 113,
+            "start": 38,
+            "end": 43,
+            "text": "volée"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "On sait que dans ce temps-là même une volée de philosophes revenait du cercle polaire, sous lequel …",
+            "question": "Meaning",
+            "answer": "flock; group",
+            "choices": [
+              "flock; group",
+              "letter",
+              "map",
+              "star"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Une foule de philosophes revient ensemble : une ___ de philosophes.",
+            "question": "Complétez la phrase.",
+            "answer": "volée",
+            "choices": [
+              "volée",
+              "lettre",
+              "carte",
+              "étoile"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Volée désigne ici un groupe de voyageurs; lettre, carte et étoile désignent d’autres choses.",
+            "question": "Quel mot signifie flock ?",
+            "answer": "volée",
+            "choices": [
+              "volée",
+              "lettre",
+              "carte",
+              "étoile"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "651d9389821ea91e96ce23faa5943f7d928f696344b0ce9634cc9efc96fb518b",
+          "afterSha256": "720c3d380aadd4665a2a8eeca845f42adb6f30cc728e667537be1e3c7e1e1030",
+          "reason": "Translate the target noun, not its following complement."
+        }
+      ],
+      "afterQuestionSha256": "e12bca0083923de5c0a1f795f9bdccd1e72b9c81c27d7b98c81230bb544feadb"
+    },
+    {
+      "file": "chapter-04-batch-14.json",
+      "key": "revenait_was_returning",
+      "beforeQuestionSha256": "1d5d99f6d2c1dc9d44434bb4d307016201121a0434111381a1a1f445673d1bc3",
+      "after": {
+        "key": "revenait_was_returning",
+        "form": "revenait",
+        "lemma": "revenir",
+        "partOfSpeech": "verb imperfect third singular",
+        "meaning": "was returning; came back",
+        "editorialNote": "In chapter IV 113:59, revenait means was returning; came back. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 113,
+            "start": 59,
+            "end": 67,
+            "text": "revenait"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… ce temps-là même une volée de philosophes revenait du cercle polaire, sous lequel ils avaient été faire …",
+            "question": "Meaning",
+            "answer": "was returning",
+            "choices": [
+              "was returning",
+              "was leaving",
+              "was staying",
+              "was vanishing"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le groupe regagnait son point de départ ; ce déplacement est exprimé par « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "revenait",
+            "choices": [
+              "revenait",
+              "partait",
+              "restait",
+              "disparaissait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Revenait signifie rentrait après un départ; partait quitte le lieu, restait y demeure et disparaissait échappe à la vue.",
+            "question": "Quel mot signifie was returning ?",
+            "answer": "revenait",
+            "choices": [
+              "revenait",
+              "partait",
+              "restait",
+              "disparaissait"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "5b99a7a069dcde9f195e518cdef80753a936c23936b4aff0b66425856939b57f",
+          "afterSha256": "2900ac831c666ad1cf1b7386cb4f87ad89fab3c46f296ea654d402bf02bbf41e",
+          "reason": "Return direction explicitly selects the answer; quoted forms remove complement cues."
+        }
+      ],
+      "afterQuestionSha256": "b3866acf0260beb0b10c79478a749a44b7e56e52c6da498cf63d3cb828d8f57d"
+    },
+    {
+      "file": "chapter-04-batch-14.json",
+      "key": "cercle_circle",
+      "beforeQuestionSha256": "4a287b05ebdef15ff5fa3e3b3f60e306bd0b0887a241ae87cc118459d4b473ca",
+      "after": {
+        "key": "cercle_circle",
+        "form": "cercle",
+        "lemma": "cercle",
+        "partOfSpeech": "noun masculine singular geography",
+        "meaning": "circle; line of latitude",
+        "editorialNote": "In chapter IV 113:71, cercle means circle; line of latitude. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 113,
+            "start": 71,
+            "end": 77,
+            "text": "cercle"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… même une volée de philosophes revenait du cercle polaire, sous lequel ils avaient été faire des …",
+            "question": "Meaning",
+            "answer": "circle",
+            "choices": [
+              "circle",
+              "square",
+              "shore",
+              "voyage"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La ligne de latitude proche du pôle est le ___ polaire.",
+            "question": "Complétez la phrase.",
+            "answer": "cercle",
+            "choices": [
+              "cercle",
+              "fleuve",
+              "massif",
+              "rempart"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le cercle polaire est une ligne de latitude; le fleuve est un cours d’eau, le massif un relief et le rempart un mur.",
+            "question": "Quel mot signifie circle ?",
+            "answer": "cercle",
+            "choices": [
+              "cercle",
+              "fleuve",
+              "massif",
+              "rempart"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "f9d1816603b4d5ed510ed5204e9b3dc9787441b02231a3f4395b3f3d384e865a",
+          "afterSha256": "fb3a1c4d70344cc0be386ef7c539422dbfa52024abf7b496f2ecbd05b94657f9",
+          "reason": "Polaire contributes polar; the noun alone means circle."
+        }
+      ],
+      "afterQuestionSha256": "cfd507cd274b9bbcfda85e3c595f1e79d513bc2d0855bdb6accbd7b3158f9500"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "ete_motion",
+      "beforeQuestionSha256": "abfa63d2388d8bd991ada4add967bd5ccb410b3d989e4b5d9209c5338b4eacf4",
+      "after": {
+        "key": "ete_motion",
+        "form": "été",
+        "lemma": "être",
+        "partOfSpeech": "past participle historical motion auxiliary",
+        "meaning": "been; gone to do something",
+        "editorialNote": "In chapter IV 113:111, été means been; gone to do something. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 113,
+            "start": 111,
+            "end": 114,
+            "text": "été"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… du cercle polaire, sous lequel ils avaient été faire des observations dont personne ne s’était avisé …",
+            "question": "Meaning",
+            "answer": "gone",
+            "choices": [
+              "gone",
+              "stayed",
+              "slept",
+              "forgotten"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils s’étaient rendus au cercle polaire : ils avaient ___ faire des observations.",
+            "question": "Complétez la phrase.",
+            "answer": "été",
+            "choices": [
+              "été",
+              "voulu",
+              "pu",
+              "dû"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Avaient été faire indique un déplacement pour observer; voulu exprime un désir, pu une capacité et dû une obligation.",
+            "question": "Quel mot signifie been ?",
+            "answer": "été",
+            "choices": [
+              "été",
+              "voulu",
+              "pu",
+              "dû"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "43b6d27301303f05c1a22a5966541b1024472ecbd6a95a624a861495b36e45c8",
+          "afterSha256": "1b29f844de515c9b89e785252c8820c0cc332e3904d3e572ecb4788cc92f2089",
+          "reason": "The auxiliary avaient contributes the past-perfect construction."
+        }
+      ],
+      "afterQuestionSha256": "0dcaeb43a2b5ebf01d08c26a30beea71e34b0781c0bcb7bb01268cfdc37ed9d1"
+    },
+    {
+      "file": "chapter-04-batch-15.json",
+      "key": "echoua_ran_aground",
+      "beforeQuestionSha256": "833386a15454d29ef2c4791e2010cae06e7fdbe5832ec50bd1ea08147c39aa51",
+      "after": {
+        "key": "echoua_ran_aground",
+        "form": "échoua",
+        "lemma": "échouer",
+        "partOfSpeech": "verb passé simple third singular nautical",
+        "meaning": "ran aground; was wrecked on shore",
+        "editorialNote": "In chapter IV 114:38, échoua means ran aground; was wrecked on shore. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 114,
+            "start": 38,
+            "end": 44,
+            "text": "échoua"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Les gazettes dirent que leur vaisseau échoua aux côtes de Botnie, et qu’ils eurent bien de la peine …",
+            "question": "Meaning",
+            "answer": "ran aground",
+            "choices": [
+              "ran aground",
+              "sailed away",
+              "took off",
+              "floated free"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le bateau heurta les hauts-fonds et y resta immobilisé : il ___.",
+            "question": "Complétez la phrase.",
+            "answer": "échoua",
+            "choices": [
+              "échoua",
+              "repartit",
+              "décolla",
+              "flotta"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Échoua signifie qu’il s’est immobilisé sur un fond ou rivage; repartit s’en va, décolla s’élève et flotta reste porté par l’eau.",
+            "question": "Quel mot signifie ran aground ?",
+            "answer": "échoua",
+            "choices": [
+              "échoua",
+              "repartit",
+              "décolla",
+              "flotta"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "c1a7591a4af7d3478cfe847611999b8ca471ec9ebe3618e9497b820ee760be13",
+          "afterSha256": "f6fe83ae2ea1ca3d7bc03d666bac33465a1d6fec13f1d000f0a9398a2975a131",
+          "reason": "Grounding entails immobilization, not merely collision."
+        }
+      ],
+      "afterQuestionSha256": "31a122f9afa423713d9aad7208e111a59e51c0f865c34af472fad8d83b652168"
+    },
+    {
+      "file": "chapter-03-batch-04.json",
+      "key": "eurent_had",
+      "beforeQuestionSha256": "bb079140f0368580af1e96259dd30c892f13c0f6cf678e3643dcf9dbce1a2842",
+      "after": {
+        "key": "eurent_had",
+        "form": "eurent",
+        "lemma": "avoir",
+        "partOfSpeech": "past historic third plural auxiliary",
+        "meaning": "had; auxiliary in past anterior",
+        "editorialNote": "In chapter III 69:10, eurent means had; auxiliary in past anterior. The source excerpt and authored alternatives distinguish the target meaning.",
+        "sourceOccurrences": [
+          {
+            "chapter": 3,
+            "unit": 69,
+            "start": 10,
+            "end": 16,
+            "text": "eurent"
+          }
+        ],
+        "formCoverage": "chapter_three_contextual_sense_subset",
+        "status": "chapter_three_draft_question_review_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Quand ils eurent fait environ cent cinquante millions de lieues, ils …",
+            "question": "Meaning",
+            "answer": "had; experienced",
+            "choices": [
+              "had; experienced",
+              "removed",
+              "forgot",
+              "measured"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ils eurent beaucoup de peine, la forme qui signifie éprouvèrent est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "eurent",
+            "choices": [
+              "eurent",
+              "avaient",
+              "ont",
+              "auront"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ils eurent fait marque le passé antérieur, avant rencontrèrent au passé simple; avaient fait serait le plus-que-parfait, ont fait le passé composé et auront fait le futur antérieur.",
+            "question": "Quel mot exprime had ?",
+            "answer": "eurent",
+            "choices": [
+              "eurent",
+              "avaient",
+              "ont",
+              "auront"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "b751f62369f3a4b6b64ccb1a85bd5ee226eecc407756bbbeecaa7e7cdf4dc177",
+          "afterSha256": "0668a19f66fbb41bc087ca7b9efe8af05f6a320dbc8a4c3b01eda2d2b63840e4",
+          "reason": "Peine contributes difficulty; translate only the target verb."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "fbeac3fd1b471aaed7e3a8f86e95aab62f90300f6b04c7f08d13fcd371db32e8",
+          "afterSha256": "3d629168002eb8c571f6e7d3b94d37c2f6f3f9ba60bb1f23bee790273412f569",
+          "reason": "Quoted forms avoid selecting by complement compatibility."
+        }
+      ],
+      "afterQuestionSha256": "1d7c06d36d7d554ad53c4eb2e913d914de500f6a288c0b1c6d41b0b7684bf2e3"
+    },
+    {
+      "file": "chapter-04-batch-18.json",
+      "key": "sauver_escape",
+      "beforeQuestionSha256": "f57543d6d79968b25140e295a929738867288491415c6d57b8ff6cdb630bcedf",
+      "after": {
+        "key": "sauver_escape",
+        "form": "sauver",
+        "lemma": "sauver",
+        "partOfSpeech": "reflexive infinitive verb",
+        "meaning": "escape; get to safety",
+        "editorialNote": "In chapter IV 114:105, sauver means escape; get to safety. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 114,
+            "start": 105,
+            "end": 111,
+            "text": "sauver"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… et qu’ils eurent bien de la peine à se sauver ; mais on ne sait jamais dans ce monde le dessous des …",
+            "question": "Meaning",
+            "answer": "escape; get to safety",
+            "choices": [
+              "escape; get to safety",
+              "rescue someone else",
+              "hide an object",
+              "lose a ship"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils échappèrent au naufrage et gagnèrent un lieu sûr : ils réussirent à se ___.",
+            "question": "Complétez la phrase.",
+            "answer": "sauver",
+            "choices": [
+              "sauver",
+              "cacher",
+              "perdre",
+              "taire"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Se sauver est échapper au danger; se cacher dissimule, se perdre égare et se taire cesse de parler.",
+            "question": "Quel mot signifie escape ?",
+            "answer": "sauver",
+            "choices": [
+              "sauver",
+              "cacher",
+              "perdre",
+              "taire"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "25fcb90ea23ae52951615d63c18b6f4e130af45a4b0cc357820301fac1a6dfc2",
+          "afterSha256": "ac04e7ffc6083bc0b244d5a61fa7a0aa5b03d07d197f98ee7864211d95655003",
+          "reason": "Idiomatic English for the reflexive escape meaning."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "3cb26d4fe2f7bd35a4c7d06c594b19784eec4562c6c6b144d217d6b148f37d07",
+          "afterSha256": "90b8565960c2150d70b7df35d7fd4db2410d2e7cd84e508d8398f1e2921138be",
+          "reason": "An explicit escape to safety selects sauver."
+        }
+      ],
+      "afterQuestionSha256": "da5f4c6cccf8354f8aed6fbd1f218e37a272b56c1e6edcb9a8a53680dc00f591"
+    },
+    {
+      "file": "chapter-04-batch-12.json",
+      "key": "choisit_chose",
+      "beforeQuestionSha256": "d36a73120869888b5db9969d59da264b6e960ad3dc106c0088c6b780eee82a7d",
+      "after": {
+        "key": "choisit_chose",
+        "form": "choisit",
+        "lemma": "choisir",
+        "partOfSpeech": "verb passé simple third singular",
+        "meaning": "chose; selected",
+        "editorialNote": "In chapter IV 106:117, choisit means chose; selected. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 117,
+            "end": 124,
+            "text": "choisit"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… appliqua à sa prunelle ; et Micromégas en choisit un de deux mille cinq cents pieds.",
+            "question": "Meaning",
+            "answer": "selected",
+            "choices": [
+              "selected",
+              "lost",
+              "refused",
+              "destroyed"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il fit une sélection parmi les instruments : il en ___ un pour son usage.",
+            "question": "Complétez la phrase.",
+            "answer": "choisit",
+            "choices": [
+              "choisit",
+              "perdit",
+              "refusa",
+              "détruisit"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Choisit marque une sélection; perdit égare, refusa rejette et détruisit anéantit.",
+            "question": "Quel mot signifie chose ?",
+            "answer": "choisit",
+            "choices": [
+              "choisit",
+              "perdit",
+              "refusa",
+              "détruisit"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "cf3fba3fed2ba986b8ef2782451e39e452853bddd11ac8e4962ff1967b102889",
+          "afterSha256": "797c4b09aa38bf5cefcf2f1b8636e136a687e34ad2b6f20e41c37a821b5fde4a",
+          "reason": "Explicit selection cue rather than availability alone."
+        }
+      ],
+      "afterQuestionSha256": "c4564d41ba48ab1c68daa004aad31c581bea397b5dee7dc6bbc54c02636c0025"
+    },
+    {
+      "file": "chapter-04-batch-18.json",
+      "key": "secours_instrument",
+      "beforeQuestionSha256": "deb8640b26dbb7511ebde0001b203ab003248ef183057db3eb818dbc8cf98815",
+      "after": {
+        "key": "secours_instrument",
+        "form": "secours",
+        "lemma": "secours",
+        "partOfSpeech": "noun masculine singular means of help",
+        "meaning": "aid; means provided by an instrument",
+        "editorialNote": "In chapter IV 107:62, secours means aid; means provided by an instrument. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 107,
+            "start": 62,
+            "end": 69,
+            "text": "secours"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… ; mais d’abord on ne vit rien par leur secours : il fallait s’ajuster.",
+            "question": "Meaning",
+            "answer": "instrumental aid",
+            "choices": [
+              "instrumental aid",
+              "medical rescue",
+              "official order",
+              "financial payment"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’aide fournie par ces instruments est ici appelée leur « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "secours",
+            "choices": [
+              "secours",
+              "ordre",
+              "prix",
+              "poids"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Par leur secours signifie au moyen de ces instruments; ordre commande, prix évalue et poids mesure.",
+            "question": "Quel mot signifie aid ?",
+            "answer": "secours",
+            "choices": [
+              "secours",
+              "ordre",
+              "prix",
+              "poids"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "44f631d7f4f78fddd66d145a3ab94c4293056ab46f1ef59d92fa96a3936dd7dc",
+          "afterSha256": "d1dad07e57e2fb6654d9cf45b27322898042f0efdb104ce63ad52a9216bc2805",
+          "reason": "Four masculine singular nouns; select aid rather than weight or price by meaning."
+        }
+      ],
+      "afterQuestionSha256": "a28c06ecd6fe64d3c0c358a9bf8aa59bd9a037602eb38b6e8263c45d113188b4"
+    },
+    {
+      "file": "chapter-04-batch-12.json",
+      "key": "remuait_was_moving",
+      "beforeQuestionSha256": "73980e2a912779cf4a1d14d254fae62a548f186db9d4413ff7ee543e1bb45a61",
+      "after": {
+        "key": "remuait_was_moving",
+        "form": "remuait",
+        "lemma": "remuer",
+        "partOfSpeech": "verb imperfect third singular",
+        "meaning": "was moving; stirring",
+        "editorialNote": "In chapter IV 108:66, remuait means was moving; stirring. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 108,
+            "start": 66,
+            "end": 73,
+            "text": "remuait"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… vit quelque chose d’imperceptible qui remuait entre deux eaux dans la mer Baltique : c’était une …",
+            "question": "Meaning",
+            "answer": "was moving",
+            "choices": [
+              "was moving",
+              "was motionless",
+              "was sleeping",
+              "was vanishing"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui décrit ses mouvements, par opposition à son immobilité, est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "remuait",
+            "choices": [
+              "remuait",
+              "s’immobilisait",
+              "dormait",
+              "disparaissait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Remuait indique un mouvement; s’immobilisait l’arrête, dormait décrit le sommeil et disparaissait l’absence de vue.",
+            "question": "Quel mot signifie was moving ?",
+            "answer": "remuait",
+            "choices": [
+              "remuait",
+              "s’immobilisait",
+              "dormait",
+              "disparaissait"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "6cc0add6fe9bd0825fba1d55c67b5b0958f1345344bdf037859960dad1d71a30",
+          "afterSha256": "e88b8e438c7b4eb3ec41ba0f7d5c7e932e1b548cc17f833eebbf45fdf624f2c1",
+          "reason": "Describe the motion itself rather than a merely compatible activity."
+        }
+      ],
+      "afterQuestionSha256": "5092e8220330e61136fa3f8591eee85ba11c2381f5e0e17e756899a4c63558b3"
+    },
+    {
+      "file": "chapter-04-batch-12.json",
+      "key": "adroitement_deftly",
+      "beforeQuestionSha256": "65177f700b0e88431e96e59904c3aeedaf3946e95cff88226ab87a49418f4cf0",
+      "after": {
+        "key": "adroitement_deftly",
+        "form": "adroitement",
+        "lemma": "adroitement",
+        "partOfSpeech": "adverb manner",
+        "meaning": "deftly; skillfully",
+        "editorialNote": "In chapter IV 109:36, adroitement means deftly; skillfully. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 109,
+            "start": 36,
+            "end": 47,
+            "text": "adroitement"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il la prit avec le petit doigt fort adroitement ; et la mettant sur l’ongle de son pouce, il la fit …",
+            "question": "Meaning",
+            "answer": "deftly",
+            "choices": [
+              "deftly",
+              "clumsily",
+              "blindly",
+              "roughly"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Avec adresse et habileté dans son geste, il saisit la baleine ___.",
+            "question": "Complétez la phrase.",
+            "answer": "adroitement",
+            "choices": [
+              "adroitement",
+              "maladroitement",
+              "aveuglément",
+              "brutalement"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Adroitement indique l’adresse; maladroitement manque d’habileté, aveuglément manque de vue et brutalement manque de douceur.",
+            "question": "Quel mot signifie deftly ?",
+            "answer": "adroitement",
+            "choices": [
+              "adroitement",
+              "maladroitement",
+              "aveuglément",
+              "brutalement"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "718492c53cee88240e63849e2ba61aefba3ff53f0112ca013cdb148e899ad1a7",
+          "afterSha256": "b685383245946f6cbf201205af691fbcc7c7532092c04bd9a97867aabe4955cb",
+          "reason": "Positive skill cue."
+        }
+      ],
+      "afterQuestionSha256": "c56c377ab2aed0965db6076dfab3a9ffad4c7eb771315211f598e0e530a0cf6d"
+    },
+    {
+      "file": "chapter-04-batch-18.json",
+      "key": "imagina_supposed",
+      "beforeQuestionSha256": "379da29c96fc4bb6c0fcea28d926b3ac4e8709c778344977b17646cf3d358f14",
+      "after": {
+        "key": "imagina_supposed",
+        "form": "imagina",
+        "lemma": "imaginer",
+        "partOfSpeech": "reflexive verb passé simple supposition",
+        "meaning": "supposed; assumed",
+        "editorialNote": "In chapter IV 110:54, imagina means supposed; assumed. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 110,
+            "start": 54,
+            "end": 61,
+            "text": "imagina"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… convaincu que notre monde est habité, s’imagina bien vite qu’il ne l’était que par des baleines ; et …",
+            "question": "Meaning",
+            "answer": "supposed",
+            "choices": [
+              "supposed",
+              "devised a machine",
+              "remembered a fact",
+              "observed directly"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La forme verbale qui, avec le pronom réfléchi, exprime une supposition sans constatation est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "imagina",
+            "choices": [
+              "imagina",
+              "aperçut",
+              "souvint",
+              "assura"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "S’imagina exprime une supposition. S’aperçut exprime une constatation, se souvint rappelle un souvenir et s’assura indique une vérification.",
+            "question": "Quel mot signifie supposed ?",
+            "answer": "imagina",
+            "choices": [
+              "imagina",
+              "aperçut",
+              "souvint",
+              "assura"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "5f3faa811d36f28c582df766c1559d53c10a1476743c7cb9078277615f9486d1",
+          "afterSha256": "61319172f20fdf9e217137a3733d6ead25bbdc29f0ce919eeedc9257f046469f",
+          "reason": "Quoted forms eliminate the s’/se cue; perception, memory and verification contrast with supposition."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "d200aa57cc45c09f4a02f0054cfe6b327bc60e9217198c5a129d868bed0fc8be",
+          "afterSha256": "14be746cf775a63dc804dce3dbb9a9f5592dbc0d329d34caf8f7c904efbe5587",
+          "reason": "Avoid persuaded as a near-competing unverified conviction."
+        }
+      ],
+      "afterQuestionSha256": "40033889896853f20f5ef4b03ad6d4f5e290bdf9df04639fe3f42a06deb3cff1"
+    },
+    {
+      "file": "chapter-04-batch-13.json",
+      "key": "mouvement_movement",
+      "beforeQuestionSha256": "513a8fa427a0f9364019a4f87724a66d3142bf1115343268c97063785473c0a2",
+      "after": {
+        "key": "mouvement_movement",
+        "form": "mouvement",
+        "lemma": "mouvement",
+        "partOfSpeech": "noun masculine singular physical motion",
+        "meaning": "movement; motion",
+        "editorialNote": "In chapter IV 110:200, mouvement means movement; motion. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 110,
+            "start": 200,
+            "end": 209,
+            "text": "mouvement"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… deviner d’où un si petit atome tirait son mouvement, s’il avait des idées, une volonté, une liberté.",
+            "question": "Meaning",
+            "answer": "movement",
+            "choices": [
+              "movement",
+              "rest",
+              "weight",
+              "silence"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le changement de position de cet atome constitue un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "mouvement",
+            "choices": [
+              "mouvement",
+              "repos",
+              "poids",
+              "silence"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le mouvement change la position; le repos est immobile, le poids mesure une charge et le silence concerne le son.",
+            "question": "Quel mot signifie movement ?",
+            "answer": "mouvement",
+            "choices": [
+              "mouvement",
+              "repos",
+              "poids",
+              "silence"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "56475bac92723102177f914bbe1aeaef1ee77a57ae46c70180446d5cacc95f35",
+          "afterSha256": "130b5db9601af62aafddd45f3852c9d1af28372742ac6c7d98ff39d2ac88f088",
+          "reason": "All choices are masculine singular nouns; identify motion rather than a compatible property."
+        }
+      ],
+      "afterQuestionSha256": "89cbb3f7eb2f39e89a58b084c1d24327902370228e71227ffedb1630d2e1a9cc"
+    },
+    {
+      "file": "chapter-04-batch-13.json",
+      "key": "patiemment_patiently",
+      "beforeQuestionSha256": "20680556a0d0672e3830a17e5d7c883fb15cf5eb8a82a6c124040838b5c4151a",
+      "after": {
+        "key": "patiemment_patiently",
+        "form": "patiemment",
+        "lemma": "patiemment",
+        "partOfSpeech": "adverb manner",
+        "meaning": "patiently; without haste",
+        "editorialNote": "In chapter IV 111:60, patiemment means patiently; without haste. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 111,
+            "start": 60,
+            "end": 70,
+            "text": "patiemment"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… fort embarrassé ; il examina l’animal fort patiemment, et le résultat de l’examen fut qu’il n’y avait pas …",
+            "question": "Meaning",
+            "answer": "patiently",
+            "choices": [
+              "patiently",
+              "hastily",
+              "roughly",
+              "blindly"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Avec patience, sans s’irriter de la difficulté ni se précipiter, il observa l’animal ___.",
+            "question": "Complétez la phrase.",
+            "answer": "patiemment",
+            "choices": [
+              "patiemment",
+              "hâtivement",
+              "brutalement",
+              "aveuglément"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Patiemment prend le temps nécessaire; hâtivement se presse, brutalement manque de douceur et aveuglément agit sans voir.",
+            "question": "Quel mot signifie patiently ?",
+            "answer": "patiemment",
+            "choices": [
+              "patiemment",
+              "hâtivement",
+              "brutalement",
+              "aveuglément"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "cab14fe5eef50646455edbc0a8f3f33e022445eb2607b0e7e41c5c4313ae968a",
+          "afterSha256": "2794ae90b0d98f38fb2cfe4bf1e761df24df47943eabe80192be500406874099",
+          "reason": "Explicit patience rather than mere absence of haste."
+        }
+      ],
+      "afterQuestionSha256": "58911e49a8a706f3a82cfcf73ccb2f29fe5c2408a1bd5c4e4c748bddad1e2e08"
+    },
+    {
+      "file": "chapter-04-batch-18.json",
+      "key": "moyen_possibility",
+      "beforeQuestionSha256": "8a939d4797656d5dbe6bdb1400e62a990f14255a24a57d77a71a871e30c7e428",
+      "after": {
+        "key": "moyen_possibility",
+        "form": "moyen",
+        "lemma": "moyen",
+        "partOfSpeech": "noun masculine singular possibility",
+        "meaning": "possibility; way to believe",
+        "editorialNote": "In chapter IV 111:123, moyen means possibility; way to believe. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 111,
+            "start": 123,
+            "end": 128,
+            "text": "moyen"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… de l’examen fut qu’il n’y avait pas moyen de croire qu’une âme fût logée là.",
+            "question": "Meaning",
+            "answer": "possibility",
+            "choices": [
+              "possibility",
+              "obstacle",
+              "refusal",
+              "command"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La possibilité de réussir à faire quelque chose se nomme ici un « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "moyen",
+            "choices": [
+              "moyen",
+              "obstacle",
+              "ordre",
+              "devoir"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Pas moyen de croire nie la possibilité. Un obstacle gêne une action, un ordre la commande et un devoir oblige à agir.",
+            "question": "Quel mot signifie possibility ?",
+            "answer": "moyen",
+            "choices": [
+              "moyen",
+              "obstacle",
+              "ordre",
+              "devoir"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "24b28d90477f92c16c38f93e2d62118727b01dad6987f3fe27721bc380c7fe0b",
+          "afterSha256": "b76d27ca8ccbd6af0433a687d6cbd99d46bf7b21e2124606f4175fadc779f9a7",
+          "reason": "Four masculine singular noun choices; quoted frame removes complement-selection cues."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "93d742c6d55e0a6cd164d7e9645f259b337f7a2584729193015855b728802204",
+          "afterSha256": "cb1b1af3588cf0a610638b9a157c6b100833d55c6153a45c991fa86d0ad4097b",
+          "reason": "Same noun contrasts as the middle bank."
+        }
+      ],
+      "afterQuestionSha256": "cf574319b82792645bd4b170604e4e1fad202876f19afa862d1e8dafe9f633b3"
+    },
+    {
+      "file": "chapter-04-batch-10.json",
+      "key": "dispute_argument",
+      "beforeQuestionSha256": "6ce5a7bd3df4ed24267e2327bee6463102d99ed2421ca40e630b86bcb03694c3",
+      "after": {
+        "key": "dispute_argument",
+        "form": "dispute",
+        "lemma": "dispute",
+        "partOfSpeech": "noun feminine singular argument",
+        "meaning": "argument; quarrel",
+        "editorialNote": "In chapter IV 103:3, dispute means argument; quarrel. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 103,
+            "start": 3,
+            "end": 10,
+            "text": "dispute"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "La dispute n’eût jamais fini, si par bonheur Micromégas, en …",
+            "question": "Meaning",
+            "answer": "argument; debate",
+            "choices": [
+              "argument; debate",
+              "agreement",
+              "silence",
+              "journey"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils opposent vivement leurs idées dans une discussion : cette ___ dure longtemps.",
+            "question": "Complétez la phrase.",
+            "answer": "dispute",
+            "choices": [
+              "dispute",
+              "entente",
+              "paix",
+              "promenade"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Dispute est un désaccord exprimé; entente et paix marquent l’accord, promenade est un déplacement.",
+            "question": "Quel mot signifie argument ?",
+            "answer": "dispute",
+            "choices": [
+              "dispute",
+              "entente",
+              "paix",
+              "promenade"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "2b84df99fa86cb4b05a30b02c781db4dbea47a83cd247416d04781e7704e1380",
+          "afterSha256": "ae581fab1d621b2236c2e3042f73ffd1973388caca2424d04a28f653048524c3",
+          "reason": "Keep the discussion of opposing views explicit; do not require a hostile altercation."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "8225bff9e23c203cf3c5977d6f76a0ccee3cce3f7524d562519b4d37d52f7b20",
+          "afterSha256": "5c4ff217cb7307f3d20fd54331c282191f9d287e388ae6cc5340b4d23ffcd4f6",
+          "reason": "The disagreement is expressed verbally; all four nouns are feminine singular."
+        }
+      ],
+      "afterQuestionSha256": "271ed54da6bf7f58ffae4bfe30398f2a2a2cf73aa3bb4398b23fe28d9cd0df22"
+    },
+    {
+      "file": "chapter-04-batch-11.json",
+      "key": "tomberent_fell",
+      "beforeQuestionSha256": "bff486908641818809f99c88e2104b923b78ef56772094a24ac90d2c0f5aa476",
+      "after": {
+        "key": "tomberent_fell",
+        "form": "tombèrent",
+        "lemma": "tomber",
+        "partOfSpeech": "verb passé simple third plural",
+        "meaning": "fell; dropped",
+        "editorialNote": "In chapter IV 104:13, tombèrent means fell; dropped. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 104,
+            "start": 13,
+            "end": 22,
+            "text": "tombèrent"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Les diamants tombèrent ; c’étaient de jolis petits carats assez inégaux, dont …",
+            "question": "Meaning",
+            "answer": "fell",
+            "choices": [
+              "fell",
+              "rose",
+              "stayed",
+              "flew away"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le fil se rompit et les pierres descendirent sous leur propre poids : elles ___ au sol.",
+            "question": "Complétez la phrase.",
+            "answer": "tombèrent",
+            "choices": [
+              "tombèrent",
+              "montèrent",
+              "restèrent",
+              "s’envolèrent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Tombèrent décrit la chute; montèrent s’élèvent, restèrent ne bougent pas et s’envolèrent s’éloignent par les airs.",
+            "question": "Quel mot signifie fell ?",
+            "answer": "tombèrent",
+            "choices": [
+              "tombèrent",
+              "montèrent",
+              "restèrent",
+              "s’envolèrent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "142cb75ef1b939c918777a69cd693dc82c5f55d91266aa0c94b851dfcce36738",
+          "afterSha256": "3769e567ee956d759b7a1ffb1e52972a7c939a32f1a85d6d7bb09a36b6f5ae6a",
+          "reason": "An explicit downward movement and consistent past narration select the target."
+        }
+      ],
+      "afterQuestionSha256": "087fba51eee3ca3c83ab916aa391173c63d6779f6f7413afe18b27a9617c9239"
+    },
+    {
+      "file": "chapter-04-batch-11.json",
+      "key": "quelques_uns_some_of_them",
+      "beforeQuestionSha256": "22beeaba75111376699255a9d49987f42230fbe54ccb8b5c18fd2870ce34a453",
+      "after": {
+        "key": "quelques_uns_some_of_them",
+        "form": "quelques-uns",
+        "lemma": "quelques-uns",
+        "partOfSpeech": "indefinite pronoun masculine plural",
+        "meaning": "some of them",
+        "editorialNote": "In chapter IV 105:19, quelques-uns means some of them. The questions contrast this contextual sense and preserve its source use.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 105,
+            "start": 19,
+            "end": 31,
+            "text": "quelques-uns"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le nain en ramassa quelques-uns ; il s’aperçut, en les approchant de ses yeux, que ces …",
+            "question": "Meaning",
+            "answer": "some of them",
+            "choices": [
+              "some of them",
+              "all of them",
+              "none of them",
+              "only one"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Sans les désigner précisément, il ne recueillit qu’une partie des diamants : ___ furent recueillis.",
+            "question": "Complétez la phrase.",
+            "answer": "quelques-uns",
+            "choices": [
+              "quelques-uns",
+              "tous",
+              "ceux-ci",
+              "ceux-là"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quelques-uns désigne une partie non précisée d’un ensemble. Tous désigne la totalité ; ceux-ci et ceux-là désignent des éléments de manière démonstrative.",
+            "question": "Quel pronom désigne une partie non précisée de l’ensemble ?",
+            "answer": "quelques-uns",
+            "choices": [
+              "quelques-uns",
+              "tous",
+              "ceux-ci",
+              "ceux-là"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d14763491ab73fd846138fd036dd9efcbf11eac9f572d77a6bc3deca96890f67",
+          "afterSha256": "cfa373dc46a87dd5cdc8a820a2f7e02226634494d9c34ff29bdc153434c26f3f",
+          "reason": "Masculine plural antecedent and four compatible pronouns; an unidentified subset supplies the answer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "2e3357a6dc35e560d5040b183c70b8faae15d5cf8ae1b596dbe159e9f9f70c40",
+          "afterSha256": "85f435bd1cc0d4bd87e66e163e30711ba2bc943b541f598155cd56d6901590db",
+          "reason": "Remove the gender mismatch and distinguish indefinite from demonstrative reference."
+        }
+      ],
+      "afterQuestionSha256": "8607b49fcad6e6f94462e2a7e4232c11904042fdab27081e9599ec6e66ab8cd1"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "apercut_realized",
+      "beforeQuestionSha256": "5faec5a2dd8e0f692e1da5e9745c46ad95b72618796840a5c8f9ad39df982be9",
+      "after": {
+        "key": "apercut_realized",
+        "form": "aperçut",
+        "lemma": "apercevoir",
+        "partOfSpeech": "reflexive verb passé simple realization",
+        "meaning": "realized; noticed a fact",
+        "editorialNote": "In chapter IV 105:39, aperçut means realized; noticed a fact. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 105,
+            "start": 39,
+            "end": 46,
+            "text": "aperçut"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le nain en ramassa quelques-uns ; il s’aperçut, en les approchant de ses yeux, que ces diamants, de …",
+            "question": "Meaning",
+            "answer": "realized a fact",
+            "choices": [
+              "realized a fact",
+              "glimpsed a shape",
+              "forgot an event",
+              "denied a claim"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La forme verbale qui, avec le pronom réfléchi, signifie remarqua un fait est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "aperçut",
+            "choices": [
+              "aperçut",
+              "imagina",
+              "assura",
+              "persuada"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "S’aperçut que indique une constatation; s’imagina suppose, s’assura vérifie et se persuada adopte une conviction.",
+            "question": "Quel mot signifie realized ?",
+            "answer": "aperçut",
+            "choices": [
+              "aperçut",
+              "imagina",
+              "assura",
+              "persuada"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "573707446f75f98cfa5a69851fa81d51d83b035daff63bba7e740f948f3b2081",
+          "afterSha256": "077763ca87e420594f7a4475225962e84c22b250440a0284815a11be388763df",
+          "reason": "Quoted forms avoid selecting by the different elision and complement patterns."
+        }
+      ],
+      "afterQuestionSha256": "0b35819bb53323484040fe20677919b9476ad41b5336399a6cf33e3a8c5b00aa"
+    },
+    {
+      "file": "chapter-04-batch-17.json",
+      "key": "etaient_passive",
+      "beforeQuestionSha256": "a88ec2f11bb662d3ce9a399ed995ea97a5ca60a44a89f5a92f2552745785a28c",
+      "after": {
+        "key": "etaient_passive",
+        "form": "étaient",
+        "lemma": "être",
+        "partOfSpeech": "verb imperfect third plural passive auxiliary",
+        "meaning": "were; formed a passive with cut",
+        "editorialNote": "In chapter IV 105:118, étaient means were; formed a passive with cut. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 105,
+            "start": 118,
+            "end": 125,
+            "text": "étaient"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Les diamants étaient taillés par un lapidaire.",
+            "question": "Meaning",
+            "answer": "were",
+            "choices": [
+              "were",
+              "will be",
+              "must be",
+              "might be"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Pour dire au passé que le lapidaire taillait ces pierres, on écrit à la voix passive : « Elles ___ taillées par lui. »",
+            "question": "Complétez la phrase.",
+            "answer": "étaient",
+            "choices": [
+              "étaient",
+              "semblaient",
+              "devenaient",
+              "restaient"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Étaient taillés affirme leur état obtenu par la coupe; semblaient serait une apparence, devenaient un changement et restaient une continuation.",
+            "question": "Quel mot signifie were ?",
+            "answer": "étaient",
+            "choices": [
+              "étaient",
+              "semblaient",
+              "devenaient",
+              "restaient"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "58f0099426768b927cc14c101c88afa2508ae2cbd163d672f5c0eaf79d4d4353",
+          "afterSha256": "429fe8c08ae54c497ac7894d628ee68006a22be612e454ee1cdc3f69a1a1268c",
+          "reason": "Highlight only étaient, once; taillés contributes cut."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "9fef8b618089b5491d5520df110d95db0e4434ee806caef31252884fc0d557ea",
+          "afterSha256": "1a5fcff5c1927bd216fae2a2be4e2f04496b886d8594d5b51dfe02aa76f1497c",
+          "reason": "Explicit passive construction, without a separate tense-only meaning."
+        }
+      ],
+      "afterQuestionSha256": "38b08aaf94b9714d59d42d4df59c07461696a1c3128cef40081599ec5b3a5756"
+    },
+    {
+      "file": "chapter-04-batch-16.json",
+      "key": "d_article",
+      "beforeQuestionSha256": "694a43d16f3d3c27007bf99db5f9b16e70a8100a5ee501aab51eec6fbf215da9",
+      "after": {
+        "key": "d_article",
+        "form": "d’",
+        "lemma": "de",
+        "partOfSpeech": "elided plural article before adjective",
+        "meaning": "some; plural article before a vowel",
+        "editorialNote": "In chapter IV 105:143, d’ means some; plural article before a vowel. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+        "sourceOccurrences": [
+          {
+            "chapter": 4,
+            "unit": 105,
+            "start": 143,
+            "end": 145,
+            "text": "d’"
+          }
+        ],
+        "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "… la façon dont ils étaient taillés, étaient d’excellents microscopes.",
+            "question": "Meaning",
+            "answer": "some",
+            "choices": [
+              "some",
+              "none",
+              "all",
+              "one"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le déterminant élidé qui introduit ici des instruments sans les identifier est « ___ » dans d’excellents microscopes.",
+            "question": "Complétez la phrase.",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "les",
+              "ces",
+              "mes"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "D’excellents remplace de devant une voyelle pour des instruments indéfinis; les et ces les identifient, mes marque la possession.",
+            "question": "Quel mot signifie some ?",
+            "answer": "d’",
+            "choices": [
+              "d’",
+              "les",
+              "ces",
+              "mes"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "6c79af6d3974001b23a730ed88910f37d988945699e14ed648e915faf42ef996",
+          "afterSha256": "6f4074f5279b2c350a5504cb479b09fe9efd1b951a50bdd7da42f43e3ee2a707",
+          "reason": "A quoted answer frame avoids an apostrophe/space cue and selects indefinite meaning."
+        }
+      ],
+      "afterQuestionSha256": "e57fb8aeff22ad5b8e5317e514f121d73636a995e3c18490f6e6895ea9fe3fa2"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 30,
+    "refinedQuestionBands": 42
+  }
+}

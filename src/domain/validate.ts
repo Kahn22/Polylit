@@ -32,6 +32,15 @@ export function validateContentBundle(input: unknown): ValidationResult {
   b.collections.forEach((x) => reference(authors, x.authorId, `collections.${x.id}.authorId`, diagnostics));
   b.books.forEach((x) => reference(collections, x.collectionId, `books.${x.id}.collectionId`, diagnostics));
   b.works.forEach((x) => reference(books, x.bookId, `works.${x.id}.bookId`, diagnostics));
+  for (const work of b.works) {
+    let previous = 0;
+    for (const [index, chapter] of (work.chapters ?? []).entries()) {
+      const first = unitById.get(chapter.firstUnitId);
+      if (!first || first.workId !== work.id || first.ordinal <= previous || chapter.ordinal !== index + 1)
+        add(diagnostics, "chapter.anchor", `works.${work.id}.chapters.${index}`, "Chapters must have ordered, unique anchors in their own work");
+      previous = first?.ordinal ?? previous;
+    }
+  }
   b.sources.forEach((x) => reference(works, x.workId, `sources.${x.workId}.workId`, diagnostics));
   b.units.forEach((x) => reference(works, x.workId, `units.${x.id}.workId`, diagnostics));
   b.senses.forEach((x) => reference(lemmas, x.lemmaId, `senses.${x.id}.lemmaId`, diagnostics));

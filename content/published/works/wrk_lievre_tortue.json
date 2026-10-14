@@ -1178,15 +1178,6 @@
         "end": 13
       },
       {
-        "id": "occ_69148fa08a78799b5ec99bfd",
-        "workId": "wrk_lievre_tortue",
-        "unitId": "unt_lievre_14",
-        "surfaceFormId": "srf_je",
-        "senseId": "sns_je_primary",
-        "start": 35,
-        "end": 37
-      },
-      {
         "id": "occ_4c19c3855f0afd931c061d2b",
         "workId": "wrk_lievre_tortue",
         "unitId": "unt_lievre_06",
@@ -1419,15 +1410,6 @@
         "senseId": "sns_pas_step",
         "start": 32,
         "end": 35
-      },
-      {
-        "id": "occ_18b1e79667ca9adc6ef18d24",
-        "workId": "wrk_lievre_tortue",
-        "unitId": "unt_lievre_14",
-        "surfaceFormId": "srf_pas",
-        "senseId": "sns_pas_primary",
-        "start": 38,
-        "end": 41
       },
       {
         "id": "occ_888d0b1d65b0eca29b2d98cf",
@@ -2375,24 +2357,6 @@
         "end": 20
       },
       {
-        "id": "occ_bc1524ebd7b3173f67688718",
-        "workId": "wrk_lievre_tortue",
-        "unitId": "unt_lievre_14",
-        "surfaceFormId": "srf_avais",
-        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
-        "start": 29,
-        "end": 34
-      },
-      {
-        "id": "occ_7f94f4d319d630c815b8dffe",
-        "workId": "wrk_lievre_tortue",
-        "unitId": "unt_lievre_14",
-        "surfaceFormId": "srf_raison",
-        "senseId": "sns_fr_raison_correctness",
-        "start": 42,
-        "end": 48
-      },
-      {
         "id": "occ_b8131a8d24974c71e792ef98",
         "workId": "wrk_lievre_tortue",
         "unitId": "unt_lievre_15",
@@ -2486,15 +2450,27 @@
       }
     ]
   },
-  "expressionOccurrences": [],
+  "expressionOccurrences": [
+    {
+      "id": "exo_micromegas_8d6fb3a9e74f8dbe",
+      "workId": "wrk_lievre_tortue",
+      "unitId": "unt_lievre_14",
+      "start": 29,
+      "end": 48,
+      "text": "avais-je pas raison",
+      "surfaceId": "exs_micromegas_146495d116f26546",
+      "identityId": "exi_micromegas_45875c7bc9ab76ed"
+    }
+  ],
   "editorialReviewFiles": [
     "content/review/wrk_lievre_tortue.lexical-plan.json",
-    "content/review/wrk_lievre_tortue.manifest.json"
+    "content/review/wrk_lievre_tortue.manifest.json",
+    "content/sources/wrk_voltaire_micromegas/whole-work-final-acceptance-77.json"
   ],
   "textBinding": {
     "textRevision": "txt_cea9804c56272ea498aa11f3398a054e7bfc92570c6b230a3d4bcf4fcb5e7d8a",
     "structureRevision": "str_8d4cca9bd8f7655c9cd760632d9227ed6ed3fda463023c64b8723f5f8adb5792",
-    "annotationRevision": "ann_173efc410308efba7325ae2b44189756184989af8b9cdcf2c3d70b35447c1a0a",
+    "annotationRevision": "ann_c90aaadaf8affec89474208fed76e81f8a92a321a9b2bd650055985410271002",
     "offsetUnit": "utf16",
     "separator": "\n",
     "units": [

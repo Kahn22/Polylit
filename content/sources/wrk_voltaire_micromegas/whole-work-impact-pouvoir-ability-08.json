@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:36:13.240Z",
+  "sense": {
+    "id": "sns_zola_pouvoir_ability",
+    "lemmaId": "lem_zola_pouvoir",
+    "gloss": "can; be able to",
+    "definition": "avoir la capacité ou la possibilité de faire quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 7,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_peut_pouvoir_ability_early",
+      "qiz_zola_peut_pouvoir_ability_intermediate",
+      "qiz_zola_peut_pouvoir_ability_advanced",
+      "qiz_zola_peuvent_pouvoir_ability_intermediate",
+      "qiz_zola_peuvent_pouvoir_ability_advanced",
+      "qiz_zola_peuvent_pouvoir_ability_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_peut_pouvoir:sns_zola_pouvoir_ability",
+      "surface": "peut",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_c7500f82e739d96fea49a58cba900ae98bceced356982c72beb1fc1b1f42fc5c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_0b8ec0c4480100dc7bee71c9",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_045",
+          "passage": "Sans elle on ne peut rien, avec elle on peut tout.",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "id": "occ_cendrillon_5d495606c7d3cc939bbfcee8",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_045",
+          "passage": "Sans elle on ne peut rien, avec elle on peut tout.",
+          "span": [
+            40,
+            44
+          ]
+        },
+        {
+          "id": "occ_lion_rat_660010b71fec31b856dca802",
+          "workId": "wrk_lion_rat",
+          "unitId": "unt_lion_rat_01",
+          "passage": "Il faut, autant qu’on peut, obliger tout le monde :",
+          "span": [
+            22,
+            26
+          ]
+        },
+        {
+          "id": "occ_parure_679835a9fc7521f38ee068d3",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_050",
+          "passage": "— Mais si. Cherche. Je ne sais pas ce qui peut te plaire.",
+          "span": [
+            42,
+            46
+          ]
+        },
+        {
+          "id": "occ_zola_58fa23a064c399f900b45a4d",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_149",
+          "passage": "Encore une fois, il ne peut revenir innocent, sans que tout l’état-major soit coupable.",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "id": "occ_zola_cf56317f9d9e7d72ebf9980b",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_060",
+          "passage": "Et, dès lors, comme l’on comprend l’obstination désespérée avec laquelle, pour justifier la condamnation, on affirme aujourd’hui l’existence d’une pièce secrète, accablante, la pièce qu’on ne peut montrer, qui légitime tout, devant laquelle nous devons nous incliner, le bon dieu invisible et inconnaissable.",
+          "span": [
+            192,
+            196
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_peut_pouvoir_ability_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nina peut lire cette lettre sans lunettes.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "wants to",
+              "correct": false
+            },
+            {
+              "text": "dares to",
+              "correct": false
+            },
+            {
+              "text": "can",
+              "correct": true
+            },
+            {
+              "text": "must",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_peut_pouvoir_ability_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ce nageur _____ traverser tout le bassin sans s’arrêter.",
+          "choices": [
+            {
+              "text": "peux",
+              "correct": false
+            },
+            {
+              "text": "pouvons",
+              "correct": false
+            },
+            {
+              "text": "pouvoir",
+              "correct": false
+            },
+            {
+              "text": "peut",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_peut_pouvoir_ability_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul peut réparer la porte ; il possède le matériel et connaît la marche à suivre.",
+          "prompt": "Quel verbe exprime sa capacité à effectuer la réparation ?",
+          "choices": [
+            {
+              "text": "peut",
+              "correct": true
+            },
+            {
+              "text": "porte",
+              "correct": false
+            },
+            {
+              "text": "matériel",
+              "correct": false
+            },
+            {
+              "text": "connaît",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_peuvent_pouvoir:sns_zola_pouvoir_ability",
+      "surface": "peuvent",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_190fbc0cd2ffb4226cce8d3e04c19bbaa1144c69d9eda1c27dbb19f2ffcbfc84",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_46abdc5820f39cc392863594",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_114",
+          "passage": "Puis, c’est le général de Boisdeffre, c’est le général Gonse, c’est le général Billot lui-même, qui sont bien obligés de faire acquitter le commandant, puisqu’ils ne peuvent laisser reconnaître l’innocence de Dreyfus, sans que les bureaux de la guerre croulent sous le mépris public.",
+          "span": [
+            166,
+            173
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_peuvent_pouvoir_ability_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul et Nina _____ entrer maintenant.",
+          "choices": [
+            {
+              "text": "pouvoir",
+              "correct": false
+            },
+            {
+              "text": "peuvent",
+              "correct": true
+            },
+            {
+              "text": "peut",
+              "correct": false
+            },
+            {
+              "text": "peux",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_peuvent_pouvoir_ability_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Ces nageurs peuvent traverser le lac ; ils ont la force et l’entraînement nécessaires.",
+          "prompt": "Quel verbe exprime leur capacité ?",
+          "choices": [
+            {
+              "text": "lac",
+              "correct": false
+            },
+            {
+              "text": "force",
+              "correct": false
+            },
+            {
+              "text": "nécessaires",
+              "correct": false
+            },
+            {
+              "text": "peuvent",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_peuvent_pouvoir_ability_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les enfants peuvent lire ce livre sans aide.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "can",
+              "correct": true
+            },
+            {
+              "text": "must",
+              "correct": false
+            },
+            {
+              "text": "want to",
+              "correct": false
+            },
+            {
+              "text": "refuse to",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

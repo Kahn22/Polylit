@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:19:24.849Z",
+  "sense": {
+    "id": "sns_zola_ame_inner_self",
+    "lemmaId": "lem_zola_ame",
+    "gloss": "soul; inner self",
+    "definition": "principe intérieur de la vie morale et affective"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_intermediate",
+      "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_early",
+      "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+      "surface": "âme",
+      "lemma": "âme",
+      "currentRevision": "rev_6af2f3d1c09ef8ec6b7e515d3c861eda52e91ba63d96e7a2a598b53a12b5ab1b",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_21c26141c928ddbf2839c079",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_195",
+          "passage": "Ma protestation enflammée n’est que le cri de mon âme.",
+          "span": [
+            50,
+            53
+          ]
+        },
+        {
+          "id": "occ_zola_c9e336c21872a481a4e46b87",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_162",
+          "passage": "Je me doute de l’écroulement qui doit avoir lieu dans l’âme de M. Scheurer-Kestner et je crois bien qu’il finira par éprouver un remords, celui de n’avoir pas agi révolutionnairement, le jour de l’interpellation au Sénat, en lâchant tout le paquet, pour tout jeter à bas.",
+          "span": [
+            56,
+            59
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ses mots de réconfort apaisent la peine qu’il ressent au fond de l’_____.",
+          "choices": [
+            {
+              "text": "épaule",
+              "correct": false
+            },
+            {
+              "text": "image",
+              "correct": false
+            },
+            {
+              "text": "âme",
+              "correct": true
+            },
+            {
+              "text": "oreille",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Cette musique touche l’âme de Marie.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "soul",
+              "correct": true
+            },
+            {
+              "text": "skin",
+              "correct": false
+            },
+            {
+              "text": "voice",
+              "correct": false
+            },
+            {
+              "text": "house",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_ame_0b45be1ce6f8_ame_inner_self_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Son âme généreuse le pousse à secourir l’inconnu ; il lui offre un repas et un endroit où dormir.",
+          "prompt": "Quel mot désigne ici sa vie intérieure et morale ?",
+          "choices": [
+            {
+              "text": "âme",
+              "correct": true
+            },
+            {
+              "text": "inconnu",
+              "correct": false
+            },
+            {
+              "text": "repas",
+              "correct": false
+            },
+            {
+              "text": "endroit",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

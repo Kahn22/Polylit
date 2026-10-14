@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:54.419Z",
+  "sense": {
+    "id": "sns_venir_primary",
+    "lemmaId": "lem_venir",
+    "gloss": "to come",
+    "definition": "Se déplacer vers un lieu ou avoir son origine dans une direction ou un endroit."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_vient_comes_advanced",
+      "qiz_vient_comes_early",
+      "qiz_vient_comes_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_vient:sns_venir_primary",
+      "surface": "vient",
+      "lemma": "venir",
+      "currentRevision": "rev_34fe7250360ee25550921b3b624dad5db23d65bfd47ec3b32b899c4ab6eb0901",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_51f9c3f7ffaceebe0ce0b487",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_09",
+          "passage": "Ayant, dis-je, du temps de reste pour brouter, pour dormir, et pour écouter d’où vient le vent, il laisse la Tortue aller son train de sénateur.",
+          "span": [
+            81,
+            86
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_vient_comes_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La lumière vient de la fenêtre ouverte sur le jardin.",
+          "prompt": "Quel verbe indique l’origine de la lumière ?",
+          "choices": [
+            {
+              "text": "vient",
+              "correct": true
+            },
+            {
+              "text": "fenêtre",
+              "correct": false
+            },
+            {
+              "text": "ouverte",
+              "correct": false
+            },
+            {
+              "text": "jardin",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_vient_comes_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le vent vient du nord et apporte de l’air froid.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "falls",
+              "correct": false
+            },
+            {
+              "text": "rests",
+              "correct": false
+            },
+            {
+              "text": "comes",
+              "correct": true
+            },
+            {
+              "text": "stops",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_vient_comes_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Cette lumière _____ de la lampe allumée : elle en provient directement.",
+          "choices": [
+            {
+              "text": "s’éloigne",
+              "correct": false
+            },
+            {
+              "text": "vient",
+              "correct": true
+            },
+            {
+              "text": "disparaît",
+              "correct": false
+            },
+            {
+              "text": "s’efface",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

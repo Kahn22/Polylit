@@ -133,7 +133,7 @@ describe("versioned sources and stable editorial chunks", () => {
     const candidates = duplicateCandidates(publication);
     // Correcting the Zola noun headword from secret_adjective to secret exposes
     // a genuine same-headword candidate that remains pending review.
-    expect(candidates.filter(item => item.language === "fr")).toHaveLength(36);
+    expect(candidates.filter(item => item.language === "fr")).toHaveLength(38);
     expect(candidates.some(item => item.headword === 'secret' && item.partOfSpeech === 'noun' && item.lemmaIds.includes('lem_zola_secret_noun'))).toBe(true);
     expect(candidates.every(item => item.status === "pending")).toBe(true);
     expect(publication.bundle.lemmas.map(item => item.id)).toEqual(originalIds);

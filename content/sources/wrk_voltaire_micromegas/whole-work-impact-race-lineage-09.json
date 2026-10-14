@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:41:57.754Z",
+  "sense": {
+    "id": "sns_parure_race_lineage_833d0f26aa",
+    "lemmaId": "lem_parure_race_noun_0aab185ee8",
+    "gloss": "lineage; ancestry",
+    "definition": "Lignée familiale ou origine commune, dans un emploi ancien lié à la naissance et à la famille."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_race_race_lineage_0333ea1ed5_early",
+      "qiz_parure_race_race_lineage_0333ea1ed5_intermediate",
+      "qiz_parure_race_race_lineage_0333ea1ed5_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_race_race_noun_a95292014c:sns_parure_race_lineage_833d0f26aa",
+      "surface": "race",
+      "lemma": "race",
+      "currentRevision": "rev_089ba83dcee1c4975d136eb331e73c20594489199acde44ab99df7e18d5e84ba",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_7ec8248843907be7b83ae76f",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_002",
+          "passage": "Elle fut simple ne pouvant être parée, mais malheureuse comme une déclassée ; car les femmes n’ont point de caste ni de race, leur beauté, leur grâce et leur charme leur servant de naissance et de famille. Leur finesse native, leur instinct d’élégance, leur souplesse d’esprit, sont leur seule hiérarchie, et font des filles du peuple les égales des plus grandes dames.",
+          "span": [
+            120,
+            124
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_race_race_lineage_0333ea1ed5_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Dans cette chronique ancienne, il se dit de noble race et cite les noms de ses ancêtres.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "occupation",
+              "correct": false
+            },
+            {
+              "text": "residence",
+              "correct": false
+            },
+            {
+              "text": "income",
+              "correct": false
+            },
+            {
+              "text": "lineage",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_race_race_lineage_0333ea1ed5_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "La chronique présente leur _____ comme une lignée qui descend du même ancêtre.",
+          "choices": [
+            {
+              "text": "profession",
+              "correct": false
+            },
+            {
+              "text": "demeure",
+              "correct": false
+            },
+            {
+              "text": "race",
+              "correct": true
+            },
+            {
+              "text": "fortune",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_race_race_lineage_0333ea1ed5_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le conte évoque une race de rois : chaque génération appartient à la même famille que la précédente.",
+          "prompt": "Quel nom désigne ici la lignée familiale ?",
+          "choices": [
+            {
+              "text": "conte",
+              "correct": false
+            },
+            {
+              "text": "race",
+              "correct": true
+            },
+            {
+              "text": "rois",
+              "correct": false
+            },
+            {
+              "text": "génération",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

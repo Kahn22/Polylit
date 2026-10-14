@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:07:23.161Z",
+  "sense": {
+    "id": "sns_fr_raison_correctness",
+    "lemmaId": "lem_raison",
+    "gloss": "being right",
+    "definition": "Justesse d’un jugement ou d’une affirmation, notamment dans avoir raison."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 3,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_raison_correctness_raison_levels_4_5",
+      "qiz_fr_raison_correctness_raison_levels_6_8",
+      "qiz_fr_raison_correctness_raison_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_raison:sns_fr_raison_correctness",
+      "surface": "raison",
+      "lemma": "raison",
+      "currentRevision": "rev_136b8bba8f59485a2eda51191322fa4dfed8d8416d8525da0cf10b4959fe1832",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_7f94f4d319d630c815b8dffe",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_14",
+          "passage": "« Eh bien ! lui cria-t-elle, avais-je pas raison ?",
+          "span": [
+            42,
+            48
+          ]
+        },
+        {
+          "id": "occ_cendrillon_5c898c79d0ca8a006ac45c64",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_014",
+          "passage": "ce qui fit un bel attelage de six chevaux d’un beau gris de souris pommelé : Comme elle estoit en peine de quoy elle ferait un Cocher, je vais voir, dit Cendrillon, s’il n’y a point quelque rat dans la ratiere ; nous en ferons un Cocher : Tu as raison, dit sa Maraine, va voir :",
+          "span": [
+            245,
+            251
+          ]
+        },
+        {
+          "id": "occ_cendrillon_80900dd11133f002f5d11b05",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_009",
+          "passage": "ce qu’elles voulurent bien. En les coëffant, elles luy disoient, Cendrillon, serois-tu bien aise d’aller au Bal : Helas ! Mesdamoiselles, vous vous mocquez de moy, ce n’est pas là ce qu’il me faut : tu as raison ; on riroit bien si on voyoit un Cucendron aller au bal. Une autre que Cendrillon les auroit coëffées de travers ;",
+          "span": [
+            205,
+            211
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_raison_correctness_raison_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Son affirmation est exacte ; elle a _____.",
+          "choices": [
+            {
+              "text": "faim",
+              "correct": false
+            },
+            {
+              "text": "peur",
+              "correct": false
+            },
+            {
+              "text": "honte",
+              "correct": false
+            },
+            {
+              "text": "raison",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_raison_correctness_raison_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il avait raison de prévoir la pluie : l’orage vient d’éclater.",
+          "prompt": "Quel mot, avec avait, indique que son jugement était juste ?",
+          "choices": [
+            {
+              "text": "pluie",
+              "correct": false
+            },
+            {
+              "text": "orage",
+              "correct": false
+            },
+            {
+              "text": "raison",
+              "correct": true
+            },
+            {
+              "text": "prévoir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_raison_correctness_raison_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Tu as raison : le calcul confirme exactement ta réponse.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "being right",
+              "correct": true
+            },
+            {
+              "text": "being afraid",
+              "correct": false
+            },
+            {
+              "text": "being late",
+              "correct": false
+            },
+            {
+              "text": "being hungry",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "status": "offline_complete_candidate_catalog_unapplied",
+  "summary": {
+    "sourceUnits": 215,
+    "sourceTokens": 7098,
+    "wordOccurrences": 6568,
+    "wordKeys": 1784,
+    "expressionOccurrences": 158,
+    "expressionKeys": 127,
+    "properNameExclusions": 96,
+    "legacyWordLocutionAttachments": 9,
+    "refinedFusedSourceUses": 4,
+    "canonicalBanks": 1911,
+    "storedQuestionBands": 5733,
+    "explicitLaterBankSelections": 9,
+    "publishedDependencyRecords": 272,
+    "crossWorkScopePlans": 31,
+    "crossWorkExpressionPlans": 23,
+    "crossWorkExpressionSpans": 25,
+    "suppressedPriorWordBindings": 1,
+    "unownedTokens": 0
+  },
+  "evidenceSha256": {
+    "whole-work-candidate-catalog-70.json": "02f91d906d9e43ae35bb9f4fa6f7a3b34ce982acd7d138408d843f9e0c82ba74"
+  },
+  "nextAction": {
+    "family": "cross-work expression transaction preparation",
+    "form": "tout à l’heure",
+    "source": "whole-work-scope-plan-03.json",
+    "selector": "/newExpressions/0",
+    "reason": "The complete Micromégas candidate catalog is composed and independently validated offline. Prepare the 23 existing-work expression plans covering25 source spans, starting with classical tout à l’heure in Le Loup et l’Agneau. Resolve final shared meaning/surface keys and three-band banks against this catalog, then compose the exact published occurrence transaction and its metadata/question overlays. Preserve all legacy records and mastery. No publication, deployment or learner-state changes."
+  },
+  "candidateReleaseReady": false,
+  "publicationApplied": false,
+  "learnerStateChanged": false
+}

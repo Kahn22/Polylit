@@ -1,0 +1,712 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 5,
+  "status": "offline_expression_source_and_three_band_review_recorded_unpublished",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "209f90c9c24127d26204cd0cdd6ba81e5c53815d2a9a56d7ca36e0bcf600ebb1",
+  "summary": {
+    "phraseUses": 9,
+    "newContextualExpressionDrafts": 9,
+    "newQuestionBands": 27,
+    "publishedComponentIdentityCandidates": 2,
+    "componentTokenUses": 25
+  },
+  "items": [
+    {
+      "key": "quarts_de_cercle",
+      "surfacePattern": "quarts de cercle",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 119,
+        "start": 29,
+        "end": 45,
+        "text": "quarts de cercle"
+      },
+      "sourceSentence": "Les géomètres prennent leurs quarts de cercle, leurs secteurs, deux filles laponnes, et descendent sur les doigts du Sirien.",
+      "componentTokens": [
+        {
+          "unit": 119,
+          "start": 29,
+          "end": 35,
+          "text": "quarts",
+          "form": "quarts"
+        },
+        {
+          "unit": 119,
+          "start": 36,
+          "end": 38,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 119,
+          "start": 39,
+          "end": 45,
+          "text": "cercle",
+          "form": "cercle"
+        }
+      ],
+      "meaning": "quarter-circle instruments for measuring angles",
+      "decision": "new_historical_instrument_expression_three_question_bands_pending_complete_work_import",
+      "note": "The 1762 Dictionnaire de l’Académie française defines quart de cercle as a graduated mathematical instrument. Here the geometers carry such instruments; cercle is part of the instrument name, not a free circle sense. Quarts is a held published fraction candidate and de is an overlapping component.",
+      "historicalLexicalEvidence": {
+        "title": "Dictionnaire de l’Académie française, 4e éd. (1762), quart",
+        "url": "https://www.dictionnaire-academie.fr/article/A4Q0049"
+      },
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Les géomètres prennent leurs quarts de cercle, leurs secteurs, deux filles laponnes, et descendent sur les doigts du Sirien.",
+          "question": "What does the highlighted phrase name here?",
+          "answer": "instruments for measuring angles",
+          "choices": [
+            "instruments for measuring angles",
+            "quarters of a meal",
+            "circular rooms",
+            "parts of a ship"
+          ],
+          "targetText": "quarts de cercle"
+        },
+        {
+          "band": "4-5",
+          "context": "Les géomètres prennent leurs ___ pour mesurer des angles.",
+          "question": "Complétez la phrase.",
+          "answer": "quarts de cercle",
+          "choices": [
+            "quarts de cercle",
+            "bâtons de marche",
+            "livres de voyage",
+            "tonneaux de vin"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ces instruments gradués servent à mesurer des angles.",
+          "question": "Quelle expression convient ?",
+          "answer": "quarts de cercle",
+          "choices": [
+            "quarts de cercle",
+            "bâtons de marche",
+            "livres de voyage",
+            "tonneaux de vin"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "d_abord",
+      "surfacePattern": "d’abord",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 120,
+        "start": 280,
+        "end": 287,
+        "text": "d’abord"
+      },
+      "sourceSentence": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage.",
+      "componentTokens": [
+        {
+          "unit": 120,
+          "start": 280,
+          "end": 282,
+          "text": "d’",
+          "form": "d’"
+        },
+        {
+          "unit": 120,
+          "start": 282,
+          "end": 287,
+          "text": "abord",
+          "form": "abord"
+        }
+      ],
+      "meaning": "at first; initially",
+      "decision": "retain_published_meaning_as_full_span_expression_with_reviewed_questions",
+      "identity": "srf_fr_d_abord_d_elided:sns_fr_d_abord",
+      "note": "The published d’ identity and three quizzes teach d’abord. It fits the initial suspicion here, though the quiz subject and target range cover the elided component rather than the full phrase; retain as an explicit import concern.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils en firent tant qu’il sentit enfin remuer quelque chose qui lui chatouillait les doigts : c’était un bâton ferré qu’on lui enfonçait d’un pied dans l’index ; il jugea, par ce picotement, qu’il était sorti quelque chose du petit animal qu’il tenait ; mais il n’en soupçonna pas d’abord davantage.",
+          "targetText": "d’abord",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at first; initially",
+          "choices": [
+            "at first; initially",
+            "at last",
+            "at the same time",
+            "always"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Au début, il ne comprend pas : il n’en soupçonne ___ pas davantage.",
+          "question": "Complétez la phrase.",
+          "answer": "d’abord",
+          "choices": [
+            "d’abord",
+            "enfin",
+            "toujours",
+            "simultanément"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie dans un premier temps, avant les observations suivantes ?",
+          "question": "Quelle expression convient ?",
+          "answer": "d’abord",
+          "choices": [
+            "d’abord",
+            "enfin",
+            "toujours",
+            "simultanément"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "a_peine",
+      "surfacePattern": "à peine",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 121,
+        "start": 27,
+        "end": 34,
+        "text": "à peine"
+      },
+      "sourceSentence": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+      "componentTokens": [
+        {
+          "unit": 121,
+          "start": 27,
+          "end": 28,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 121,
+          "start": 29,
+          "end": 34,
+          "text": "peine",
+          "form": "peine"
+        }
+      ],
+      "meaning": "barely; only just",
+      "decision": "new_scalar_expression_distinct_from_chapter_two_temporal_expression",
+      "note": "Here the microscope barely distinguishes a whale and a ship. The Chapter II à peine ... que temporal questions test no sooner ... than; they do not test this degree sense. Chapter IV at 89:47 requires its own contextual comparison before any sharing.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le microscope, qui faisait à peine discerner une baleine et un vaisseau, n’avait point de prise sur un être aussi imperceptible que des hommes.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "barely; only just",
+          "choices": [
+            "barely; only just",
+            "with ease",
+            "a long time afterward",
+            "not at all"
+          ],
+          "targetText": "à peine"
+        },
+        {
+          "band": "4-5",
+          "context": "La baleine reste presque invisible : le microscope permet ___ de la distinguer.",
+          "question": "Complétez la phrase.",
+          "answer": "à peine",
+          "choices": [
+            "à peine",
+            "sans peine",
+            "aisément",
+            "parfaitement"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le microscope permet de distinguer la baleine, mais très difficilement.",
+          "question": "Quelle expression convient ?",
+          "answer": "à peine",
+          "choices": [
+            "à peine",
+            "sans peine",
+            "à volonté",
+            "de loin"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "a_peu_pres",
+      "surfacePattern": "à peu près",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 122,
+        "start": 326,
+        "end": 336,
+        "text": "à peu près"
+      },
+      "sourceSentence": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur.",
+      "componentTokens": [
+        {
+          "unit": 122,
+          "start": 326,
+          "end": 327,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 122,
+          "start": 328,
+          "end": 331,
+          "text": "peu",
+          "form": "peu"
+        },
+        {
+          "unit": 122,
+          "start": 332,
+          "end": 336,
+          "text": "près",
+          "form": "près"
+        }
+      ],
+      "meaning": "approximately; more or less",
+      "decision": "retain_published_meaning_as_full_span_expression_with_reviewed_questions",
+      "identity": "srf_fr_a_peu_pres_a:sns_fr_a_peu_pres",
+      "note": "The published à identity and three quizzes teach à peu près. It fits approximate size here, though quiz subject and target range cover the first component rather than the full phrase; retain as an explicit import concern.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne prétends choquer ici la vanité de personne, mais je suis obligé de prier les importants de faire ici une petite remarque avec moi ; c’est qu’en prenant la taille des hommes d’environ cinq pieds, nous ne faisons pas sur la terre une plus grande figure qu’en ferait sur une boule de dix pieds de tour un animal qui aurait à peu près la six cent millième partie d’un pouce en hauteur.",
+          "targetText": "à peu près",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "approximately; roughly",
+          "choices": [
+            "approximately; roughly",
+            "exactly",
+            "at least",
+            "at most"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce n’est pas une mesure exacte : l’animal mesure ___ cette fraction de pouce.",
+          "question": "Complétez la phrase.",
+          "answer": "à peu près",
+          "choices": [
+            "à peu près",
+            "exactement",
+            "au moins",
+            "au plus"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression présente une valeur approximative, sans la fixer exactement ni comme une borne ?",
+          "question": "Quelle expression convient ?",
+          "answer": "à peu près",
+          "choices": [
+            "à peu près",
+            "exactement",
+            "au moins",
+            "au plus"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "sur_le_fait",
+      "surfacePattern": "sur le fait",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 131,
+        "start": 38,
+        "end": 49,
+        "text": "sur le fait"
+      },
+      "sourceSentence": "« Ah ! disait-il, j’ai pris la nature sur le fait. »",
+      "componentTokens": [
+        {
+          "unit": 131,
+          "start": 38,
+          "end": 41,
+          "text": "sur",
+          "form": "sur"
+        },
+        {
+          "unit": 131,
+          "start": 42,
+          "end": 44,
+          "text": "le",
+          "form": "le"
+        },
+        {
+          "unit": 131,
+          "start": 45,
+          "end": 49,
+          "text": "fait",
+          "form": "fait"
+        }
+      ],
+      "meaning": "in the very act; caught in action",
+      "decision": "new_expression_three_question_bands_pending_complete_work_import",
+      "note": "The speaker thinks he has observed nature directly in action; the expression is not a literal location atop a fact.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Ah ! disait-il, j’ai pris la nature sur le fait. »",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in the very act; caught in action",
+          "choices": [
+            "in the very act; caught in action",
+            "after a long delay",
+            "on top of a document",
+            "without any evidence"
+          ],
+          "targetText": "sur le fait"
+        },
+        {
+          "band": "4-5",
+          "context": "Le savant croit surprendre la nature pendant son action même : il la surprend ___.",
+          "question": "Complétez la phrase.",
+          "answer": "sur le fait",
+          "choices": [
+            "sur le fait",
+            "en retard",
+            "par hasard",
+            "de loin"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Il pense avoir surpris la nature pendant qu’elle agit.",
+          "question": "Quelle expression convient ?",
+          "answer": "sur le fait",
+          "choices": [
+            "sur le fait",
+            "de loin",
+            "au hasard",
+            "en retard"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "a_la_fois",
+      "surfacePattern": "à la fois",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 128,
+        "start": 38,
+        "end": 47,
+        "text": "à la fois"
+      },
+      "sourceSentence": "« Je les vois, disaient-ils tous deux à la fois ; ne les voyez-vous pas qui portent des fardeaux, qui se baissent, qui se relèvent. »",
+      "componentTokens": [
+        {
+          "unit": 128,
+          "start": 38,
+          "end": 39,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 128,
+          "start": 40,
+          "end": 42,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 128,
+          "start": 43,
+          "end": 47,
+          "text": "fois",
+          "form": "fois"
+        }
+      ],
+      "meaning": "at the same time; simultaneously",
+      "decision": "new_expression_three_question_bands_pending_complete_work_import",
+      "note": "The two travelers say the words at the same time, not one after the other.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je les vois, disaient-ils tous deux à la fois ; ne les voyez-vous pas qui portent des fardeaux, qui se baissent, qui se relèvent. »",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at the same time; simultaneously",
+          "choices": [
+            "at the same time; simultaneously",
+            "one after the other",
+            "once in the past",
+            "for the first time"
+          ],
+          "targetText": "à la fois"
+        },
+        {
+          "band": "4-5",
+          "context": "Leurs paroles sont simultanées : les deux voyageurs s’écrient ___ « Je les vois ! ».",
+          "question": "Complétez la phrase.",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "l’un après l’autre",
+            "plus tard"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils parlent simultanément, sans attendre leur tour.",
+          "question": "Quelle expression convient ?",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "plus tard",
+            "de temps en temps"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "au_moins",
+      "surfacePattern": "au moins",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 124,
+        "start": 121,
+        "end": 129,
+        "text": "au moins"
+      },
+      "sourceSentence": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+      "componentTokens": [
+        {
+          "unit": 124,
+          "start": 121,
+          "end": 123,
+          "text": "au",
+          "form": "au"
+        },
+        {
+          "unit": 124,
+          "start": 124,
+          "end": 129,
+          "text": "moins",
+          "form": "moins"
+        }
+      ],
+      "meaning": "at least; no less than",
+      "decision": "new_surface_expression_minimum_pending_identity_comparison",
+      "note": "The published expression is tout au moins; its surface is not the printed au moins. The shared minimum sense may be reusable, but surface-plus-sense identity and three question bands need explicit import review.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at least; no less than",
+          "choices": [
+            "at least; no less than",
+            "at most",
+            "exactly and only",
+            "less than"
+          ],
+          "targetText": "au moins"
+        },
+        {
+          "band": "4-5",
+          "context": "Deux pieds sont le minimum : il rehausserait les bonnets de deux pieds ___.",
+          "question": "Complétez la phrase.",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "à peine"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La hauteur serait de deux pieds ou davantage.",
+          "question": "Quelle expression convient ?",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "moins de"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "avoir_beau",
+      "surfacePattern": "aura beau faire",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 124,
+        "start": 181,
+        "end": 196,
+        "text": "aura beau faire"
+      },
+      "sourceSentence": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+      "componentTokens": [
+        {
+          "unit": 124,
+          "start": 181,
+          "end": 185,
+          "text": "aura",
+          "form": "aura"
+        },
+        {
+          "unit": 124,
+          "start": 186,
+          "end": 190,
+          "text": "beau",
+          "form": "beau"
+        },
+        {
+          "unit": 124,
+          "start": 191,
+          "end": 196,
+          "text": "faire",
+          "form": "faire"
+        }
+      ],
+      "meaning": "however much he may try, it will be in vain",
+      "decision": "new_expression_inflected_surface_three_question_bands_pending_complete_work_import",
+      "note": "The complete printed construction aura beau faire expresses a futile effort; the three components form one expression candidate. The inflected surface and shared headword require identity reconciliation.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "however much he may try, it will be in vain",
+          "choices": [
+            "however much he may try, it will be in vain",
+            "he will make something beautiful",
+            "he will be allowed to succeed",
+            "he already succeeded"
+          ],
+          "targetText": "aura beau faire"
+        },
+        {
+          "band": "4-5",
+          "context": "Quels que soient ses efforts futurs, rien ne changera : il ___, ils resteront petits.",
+          "question": "Complétez la phrase.",
+          "answer": "aura beau faire",
+          "choices": [
+            "aura beau faire",
+            "pourra enfin agir",
+            "saura bien agir",
+            "voudra tout changer"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quels que soient ses efforts, il ne changera pas le résultat.",
+          "question": "Quelle expression convient ?",
+          "answer": "aura beau faire",
+          "choices": [
+            "aura beau faire",
+            "pourra enfin agir",
+            "saura bien agir",
+            "voudra tout changer"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    },
+    {
+      "key": "pas_a_beaucoup_pres",
+      "surfacePattern": "pas à beaucoup près",
+      "sourceOccurrence": {
+        "chapter": 5,
+        "unit": 126,
+        "start": 117,
+        "end": 136,
+        "text": "pas à beaucoup près"
+      },
+      "sourceSentence": "Quand Leuwenhoek et Hartsoeker virent les premiers, ou crurent voir la graine dont nous sommes formés, ils ne firent pas à beaucoup près une si étonnante découverte.",
+      "componentTokens": [
+        {
+          "unit": 126,
+          "start": 117,
+          "end": 120,
+          "text": "pas",
+          "form": "pas"
+        },
+        {
+          "unit": 126,
+          "start": 121,
+          "end": 122,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 126,
+          "start": 123,
+          "end": 131,
+          "text": "beaucoup",
+          "form": "beaucoup"
+        },
+        {
+          "unit": 126,
+          "start": 132,
+          "end": 136,
+          "text": "près",
+          "form": "près"
+        }
+      ],
+      "meaning": "not by a long way; nowhere near",
+      "decision": "new_negative_degree_expression_three_question_bands_pending_complete_work_import",
+      "note": "The negative pas is part of the expression. Here the earlier observers did not make a discovery anywhere near as astonishing; the independent near and much questions do not teach this degree comparison.",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Quand Leuwenhoek et Hartsoeker virent les premiers, ou crurent voir la graine dont nous sommes formés, ils ne firent pas à beaucoup près une si étonnante découverte.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "not by a long way; nowhere near",
+          "choices": [
+            "not by a long way; nowhere near",
+            "almost exactly",
+            "a little later",
+            "in a nearby place"
+          ],
+          "targetText": "pas à beaucoup près"
+        },
+        {
+          "band": "4-5",
+          "context": "Leur découverte n’était ___ aussi étonnante; l’écart était énorme.",
+          "question": "Complétez la phrase.",
+          "answer": "pas à beaucoup près",
+          "choices": [
+            "pas à beaucoup près",
+            "pas encore",
+            "pas seulement",
+            "pas toujours"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Leur découverte reste très loin du caractère étonnant de l’autre.",
+          "question": "Quelle expression convient ?",
+          "answer": "pas à beaucoup près",
+          "choices": [
+            "pas à beaucoup près",
+            "presque autant",
+            "tout à fait",
+            "un peu plus tard"
+          ]
+        }
+      ],
+      "status": "offline_expression_source_and_three_band_review_recorded"
+    }
+  ]
+}

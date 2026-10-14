@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:42:24.396Z",
+  "sense": {
+    "id": "sns_fr_bien_discourse",
+    "lemmaId": "lem_zola_bien",
+    "gloss": "well (discourse marker)",
+    "definition": "Dans eh bien ou hé bien, introduit une réaction, une reprise ou une conclusion dans le discours."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 5,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_bien_discourse_zola_bien_bien_levels_6_8",
+      "qiz_fr_bien_discourse_zola_bien_bien_levels_4_5",
+      "qiz_fr_bien_discourse_zola_bien_bien_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_bien_bien:sns_fr_bien_discourse",
+      "surface": "bien",
+      "lemma": "bien",
+      "currentRevision": "rev_3f8ddadd876d01be9ce838541795e63a941b8f13b44197b96571a635eabdb757",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_57a3ca4f28c8d74761de9c57",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_016",
+          "passage": "et qui s’y tenoient attachez, comme s’ils n’eussent fait autre chose de toute leur vie. La Fée dit alors à Cendrillon : Hé bien ? voilà de quoy aller au bal, n’es-tu pas bien aise ? Ouy, mais est-ce que j’irai comme cela, avec mes vilains habits : Sa maraine ne fit que la toucher avec sa baguette, et en même tems ses habits furent changez en des habits de drap d’or et d’argent, tout chamarrez de pierreries :",
+          "span": [
+            123,
+            127
+          ]
+        },
+        {
+          "id": "occ_cendrillon_b2355be5ad4a525db05bbbad",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_011",
+          "passage": "lorsqu’elle ne les vit plus, elle se mit à pleurer. Sa Maraine, qui la vit toute en pleurs, luy demanda ce qu’elle avoit : Je voudrois bien… Je voudrois bien… elle pleuroit si fort qu’elle ne put achever : sa Maraine, qui estoit Fée, luy dit, tu voudrois bien aller au Bal, n’est-ce pas : Helas ! ouy, dit Cendrillon en soûpirant : Hé bien ! seras-tu bonne fille ? dit sa Maraine ;",
+          "span": [
+            335,
+            339
+          ]
+        },
+        {
+          "id": "occ_cigale_fourmi_ea764f1f89143d1927b533bc",
+          "workId": "wrk_cigale_fourmi",
+          "unitId": "unt_cigale_fourmi_11",
+          "passage": "Eh bien ! dansez maintenant. »",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "occ_parure_6f1834e528d570bef564403d",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_125",
+          "passage": "— Oui. Eh bien ?",
+          "span": [
+            10,
+            14
+          ]
+        },
+        {
+          "id": "occ_parure_d8cd09d091e3c322a461f4c3",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_126",
+          "passage": "— Eh bien, je l’ai perdue.",
+          "span": [
+            5,
+            9
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_bien_discourse_zola_bien_bien_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Eh bien ! je ne m’attendais pas à cette nouvelle, répond-elle, surprise.",
+          "prompt": "Quel mot complète eh pour introduire sa réaction ?",
+          "choices": [
+            {
+              "text": "surprise",
+              "correct": false
+            },
+            {
+              "text": "bien",
+              "correct": true
+            },
+            {
+              "text": "nouvelle",
+              "correct": false
+            },
+            {
+              "text": "répond",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_bien_discourse_zola_bien_bien_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Eh _____, reprenons notre discussion après cette pause.",
+          "choices": [
+            {
+              "text": "hier",
+              "correct": false
+            },
+            {
+              "text": "jamais",
+              "correct": false
+            },
+            {
+              "text": "bien",
+              "correct": true
+            },
+            {
+              "text": "loin",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_bien_discourse_zola_bien_bien_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Eh bien, puisque tout est prêt, nous pouvons partir.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "yesterday",
+              "correct": false
+            },
+            {
+              "text": "never",
+              "correct": false
+            },
+            {
+              "text": "nearby",
+              "correct": false
+            },
+            {
+              "text": "well",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

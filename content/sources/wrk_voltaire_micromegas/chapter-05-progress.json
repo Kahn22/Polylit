@@ -1,0 +1,4968 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 5,
+  "status": "source_bound_work_in_progress_no_publication_approval",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "evidenceSha256": {
+    "chapter-05-inventory.json": "209f90c9c24127d26204cd0cdd6ba81e5c53815d2a9a56d7ca36e0bcf600ebb1",
+    "chapter-05-batch-01.json": "04893242b4212831ce558f3109b0621405d73e6a0b12f3af5678590537d3357c",
+    "chapter-05-batch-02.json": "90845b90cdfd0a0887816e7045d513e2078835b1d2999f69f5ae29b03b808b72",
+    "chapter-05-batch-03.json": "8be17fe52fe6926d13544a8bd7dd2445e038b07c5adb2590f8d4d9d3e82da731",
+    "chapter-05-batch-04.json": "21740e46a1e3a1da1d90bb5abd1811f1234fdea9c61bc7aa56a0d4d3c0edf919",
+    "chapter-05-batch-05.json": "ca0a6a9b37aaa3a50f4e121761a4d85ea8564bd00a6374356437c65361dd00c5",
+    "chapter-05-batch-06.json": "5ec71c0321386b57cccb2d0d10c1c368bb850b6c70737fb94a0429f52f49beab",
+    "chapter-05-triage-02.json": "723a8e23a3c16be3b8015a728ddea21fd0da69a65aef02a31802079579cee320",
+    "chapter-05-published-reuse-review-01.json": "fdc983690e0ec904543427334260e0a600ce7c479dfce84dff038a27de6deff5",
+    "chapter-05-published-reuse-review-02.json": "ea9ca98b3c5591ef517aa8df57ec2d77d6c45b922495369ea2c67f04ea068d11",
+    "chapter-05-published-reuse-review-03.json": "30c9adc5a47d6e119f99da4085126c7df5f62a935bf70a9f1a659ca5f910c64e",
+    "chapter-05-published-reuse-review-04.json": "3994b956cdd0002ffa31073cb0ae0ebac2c42f07912043e8bc2314c04c0e1cfe",
+    "chapter-05-published-reuse-review-05.json": "20f4282f8575adf40b55a38904a9fa98f15810f9edc7cedf4711d24f40492630",
+    "chapter-04-07-carryover-review.json": "e6756506b08039bf303c247b6d10120276a210bbc9ad9446a4ecd8fdcf7e4e0c",
+    "chapter-04-07-names.json": "48ad5b5d212559684b73be10a2246a645813b57d3f81358261df0d9b8643ff63",
+    "chapter-05-expression-review.json": "ef51d2552a62210807d44fbe68bf2eb44508ab54f7588c8c68b8798885099fb3",
+    "chapter-05-earlier-draft-carryover.json": "3188f200c9f49b1c2c25a89fe5693c49aedbb885369f20b70bc3091bf5548ede",
+    "chapter-05-held-resolution.json": "78eca6e785810e82a703e1bea35aed47d63e06d4656daedb5bf329d63cbc1f54",
+    "chapter-05-held-batch-01.json": "0f7c935747eb6c2ef2e95164bf6fc0d77173feaee3d28109d4035b04111bcb22",
+    "chapter-05-held-batch-02.json": "74e95b0f4cde853f03eecb79247c3fe4c6e59cd265b42b055bf3a4c117845e0b",
+    "chapter-05-held-batch-03.json": "5d440ed09f7640d2d75af21ae97de7311f4f146e6e53ec057a4f5b44d9860ab5"
+  },
+  "summary": {
+    "tokenUses": 612,
+    "dispositions": {
+      "reviewed_proper_name": 7,
+      "new_contextual_question_draft_pending_review": 107,
+      "reuse_reviewed_published_identity_and_questions_pending_import": 381,
+      "published_candidate_held_for_editorial_repair": 73,
+      "share_earlier_contextual_question_draft_pending_review": 11,
+      "already_authored_earlier": 17,
+      "expression_component_pending_identity_import": 1,
+      "share_chapter_five_question_draft_pending_review": 3,
+      "earlier_reviewed_meaning_carryover_pending_import": 12
+    },
+    "newQuestionDrafts": 318,
+    "newContextualMeaningDrafts": 106,
+    "earlierDraftFormsShared": 8,
+    "earlierDraftUsesShared": 11,
+    "earlierQuestionBandsShared": 24,
+    "lexicalFormsTriaged": 118,
+    "publishedReuseFormsReviewed": 125,
+    "publishedReuseUsesReviewed": 381,
+    "publishedCandidateHeldUses": 73,
+    "publishedHeldRoutes": {
+      "whole_expression_component_pending_identity_and_question_qa": 21,
+      "alternate_published_identity_three_bands_reviewed_pending_import": 3,
+      "published_shared_question_repair_requires_impact_review": 15,
+      "distinct_contextual_meaning_or_construction_pending_question_authoring": 34
+    },
+    "heldContextualMeaningDrafts": 31,
+    "heldContextualQuestionDrafts": 93,
+    "heldContextualUsesWithDrafts": 34,
+    "heldContextualUsesAwaitingDrafts": 0,
+    "untriagedPublishedCandidateUses": 0,
+    "expressionPhraseUses": 9,
+    "newContextualExpressionDrafts": 9,
+    "newExpressionQuestionDrafts": 27,
+    "expressionComponentTokenUses": 25
+  },
+  "tokens": [
+    {
+      "unit": 116,
+      "start": 0,
+      "end": 10,
+      "text": "Micromégas",
+      "form": "micromégas",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 116,
+      "start": 11,
+      "end": 18,
+      "text": "étendit",
+      "form": "étendit",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 19,
+      "end": 21,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 22,
+      "end": 26,
+      "text": "main",
+      "form": "main",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 27,
+      "end": 31,
+      "text": "tout",
+      "form": "tout",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 32,
+      "end": 41,
+      "text": "doucement",
+      "form": "doucement",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 42,
+      "end": 46,
+      "text": "vers",
+      "form": "vers",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 47,
+      "end": 49,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 49,
+      "end": 56,
+      "text": "endroit",
+      "form": "endroit",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 57,
+      "end": 59,
+      "text": "où",
+      "form": "où",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 60,
+      "end": 62,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 62,
+      "end": 67,
+      "text": "objet",
+      "form": "objet",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 68,
+      "end": 78,
+      "text": "paraissait",
+      "form": "paraissait",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 80,
+      "end": 82,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 83,
+      "end": 91,
+      "text": "avançant",
+      "form": "avançant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 92,
+      "end": 96,
+      "text": "deux",
+      "form": "deux",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 97,
+      "end": 103,
+      "text": "doigts",
+      "form": "doigts",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 105,
+      "end": 107,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 108,
+      "end": 111,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 112,
+      "end": 120,
+      "text": "retirant",
+      "form": "retirant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 121,
+      "end": 124,
+      "text": "par",
+      "form": "par",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 125,
+      "end": 127,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 128,
+      "end": 135,
+      "text": "crainte",
+      "form": "crainte",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 136,
+      "end": 138,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 139,
+      "end": 141,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 142,
+      "end": 149,
+      "text": "tromper",
+      "form": "tromper",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 151,
+      "end": 155,
+      "text": "puis",
+      "form": "puis",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 156,
+      "end": 159,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 160,
+      "end": 167,
+      "text": "ouvrant",
+      "form": "ouvrant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 168,
+      "end": 170,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 171,
+      "end": 174,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 175,
+      "end": 182,
+      "text": "serrant",
+      "form": "serrant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 184,
+      "end": 186,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 187,
+      "end": 193,
+      "text": "saisit",
+      "form": "saisit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 194,
+      "end": 198,
+      "text": "fort",
+      "form": "fort",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 199,
+      "end": 210,
+      "text": "adroitement",
+      "form": "adroitement",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 211,
+      "end": 213,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 214,
+      "end": 222,
+      "text": "vaisseau",
+      "form": "vaisseau",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 223,
+      "end": 226,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 227,
+      "end": 234,
+      "text": "portait",
+      "form": "portait",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 235,
+      "end": 238,
+      "text": "ces",
+      "form": "ces",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 239,
+      "end": 248,
+      "text": "messieurs",
+      "form": "messieurs",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 250,
+      "end": 252,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 253,
+      "end": 255,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 256,
+      "end": 259,
+      "text": "mit",
+      "form": "mit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 260,
+      "end": 266,
+      "text": "encore",
+      "form": "encore",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 267,
+      "end": 270,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 271,
+      "end": 274,
+      "text": "son",
+      "form": "son",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 275,
+      "end": 280,
+      "text": "ongle",
+      "form": "ongle",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 282,
+      "end": 286,
+      "text": "sans",
+      "form": "sans",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 116,
+      "start": 287,
+      "end": 289,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 290,
+      "end": 294,
+      "text": "trop",
+      "form": "trop",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 295,
+      "end": 302,
+      "text": "presser",
+      "form": "presser",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 304,
+      "end": 306,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 307,
+      "end": 311,
+      "text": "peur",
+      "form": "peur",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 116,
+      "start": 312,
+      "end": 314,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 315,
+      "end": 317,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 116,
+      "start": 317,
+      "end": 324,
+      "text": "écraser",
+      "form": "écraser",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 117,
+      "start": 2,
+      "end": 7,
+      "text": "Voici",
+      "form": "voici",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 8,
+      "end": 10,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 11,
+      "end": 17,
+      "text": "animal",
+      "form": "animal",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 18,
+      "end": 22,
+      "text": "bien",
+      "form": "bien",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 23,
+      "end": 32,
+      "text": "différent",
+      "form": "différent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 117,
+      "start": 33,
+      "end": 35,
+      "text": "du",
+      "form": "du",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 36,
+      "end": 43,
+      "text": "premier",
+      "form": "premier",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 45,
+      "end": 48,
+      "text": "dit",
+      "form": "dit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 49,
+      "end": 51,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 52,
+      "end": 56,
+      "text": "nain",
+      "form": "nain",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 117,
+      "start": 57,
+      "end": 59,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 60,
+      "end": 67,
+      "text": "Saturne",
+      "form": "saturne",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 117,
+      "start": 72,
+      "end": 74,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 75,
+      "end": 81,
+      "text": "Sirien",
+      "form": "sirien",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 117,
+      "start": 82,
+      "end": 85,
+      "text": "mit",
+      "form": "mit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 86,
+      "end": 88,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 89,
+      "end": 97,
+      "text": "prétendu",
+      "form": "prétendu",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 117,
+      "start": 98,
+      "end": 104,
+      "text": "animal",
+      "form": "animal",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 105,
+      "end": 109,
+      "text": "dans",
+      "form": "dans",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 110,
+      "end": 112,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 113,
+      "end": 118,
+      "text": "creux",
+      "form": "creux",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 117,
+      "start": 119,
+      "end": 121,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 122,
+      "end": 124,
+      "text": "sa",
+      "form": "sa",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 117,
+      "start": 125,
+      "end": 129,
+      "text": "main",
+      "form": "main",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 0,
+      "end": 3,
+      "text": "Les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 4,
+      "end": 13,
+      "text": "passagers",
+      "form": "passagers",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 14,
+      "end": 16,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 118,
+      "start": 17,
+      "end": 20,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 21,
+      "end": 25,
+      "text": "gens",
+      "form": "gens",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 26,
+      "end": 28,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 29,
+      "end": 31,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 31,
+      "end": 39,
+      "text": "équipage",
+      "form": "équipage",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 41,
+      "end": 44,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 45,
+      "end": 47,
+      "text": "s’",
+      "form": "s’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 47,
+      "end": 54,
+      "text": "étaient",
+      "form": "étaient",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 55,
+      "end": 59,
+      "text": "crus",
+      "form": "crus",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 60,
+      "end": 67,
+      "text": "enlevés",
+      "form": "enlevés",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 68,
+      "end": 71,
+      "text": "par",
+      "form": "par",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 72,
+      "end": 74,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 75,
+      "end": 82,
+      "text": "ouragan",
+      "form": "ouragan",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 84,
+      "end": 86,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 118,
+      "start": 87,
+      "end": 90,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 91,
+      "end": 93,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 94,
+      "end": 103,
+      "text": "croyaient",
+      "form": "croyaient",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 104,
+      "end": 107,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 108,
+      "end": 111,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 112,
+      "end": 118,
+      "text": "espèce",
+      "form": "espèce",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 119,
+      "end": 121,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 122,
+      "end": 128,
+      "text": "rocher",
+      "form": "rocher",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 130,
+      "end": 132,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 133,
+      "end": 140,
+      "text": "mettent",
+      "form": "mettent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 141,
+      "end": 145,
+      "text": "tous",
+      "form": "tous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 146,
+      "end": 148,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 149,
+      "end": 158,
+      "text": "mouvement",
+      "form": "mouvement",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 161,
+      "end": 164,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 165,
+      "end": 173,
+      "text": "matelots",
+      "form": "matelots",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 174,
+      "end": 182,
+      "text": "prennent",
+      "form": "prennent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 183,
+      "end": 186,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 187,
+      "end": 195,
+      "text": "tonneaux",
+      "form": "tonneaux",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 196,
+      "end": 198,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 199,
+      "end": 202,
+      "text": "vin",
+      "form": "vin",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 204,
+      "end": 207,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 208,
+      "end": 215,
+      "text": "jettent",
+      "form": "jettent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 216,
+      "end": 219,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 220,
+      "end": 222,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 223,
+      "end": 227,
+      "text": "main",
+      "form": "main",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 228,
+      "end": 230,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 231,
+      "end": 241,
+      "text": "Micromégas",
+      "form": "micromégas",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 118,
+      "start": 243,
+      "end": 245,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 118,
+      "start": 246,
+      "end": 248,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 118,
+      "start": 249,
+      "end": 260,
+      "text": "précipitent",
+      "form": "précipitent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 118,
+      "start": 261,
+      "end": 266,
+      "text": "après",
+      "form": "après",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 0,
+      "end": 3,
+      "text": "Les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 4,
+      "end": 13,
+      "text": "géomètres",
+      "form": "géomètres",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 119,
+      "start": 14,
+      "end": 22,
+      "text": "prennent",
+      "form": "prennent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 119,
+      "start": 23,
+      "end": 28,
+      "text": "leurs",
+      "form": "leurs",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 29,
+      "end": 35,
+      "text": "quarts",
+      "form": "quarts",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 119,
+      "start": 36,
+      "end": 38,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 39,
+      "end": 45,
+      "text": "cercle",
+      "form": "cercle",
+      "disposition": "expression_component_pending_identity_import"
+    },
+    {
+      "unit": 119,
+      "start": 47,
+      "end": 52,
+      "text": "leurs",
+      "form": "leurs",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 53,
+      "end": 61,
+      "text": "secteurs",
+      "form": "secteurs",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 119,
+      "start": 63,
+      "end": 67,
+      "text": "deux",
+      "form": "deux",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 68,
+      "end": 74,
+      "text": "filles",
+      "form": "filles",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 75,
+      "end": 83,
+      "text": "laponnes",
+      "form": "laponnes",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 119,
+      "start": 85,
+      "end": 87,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 119,
+      "start": 88,
+      "end": 98,
+      "text": "descendent",
+      "form": "descendent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 119,
+      "start": 99,
+      "end": 102,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 103,
+      "end": 106,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 107,
+      "end": 113,
+      "text": "doigts",
+      "form": "doigts",
+      "disposition": "share_chapter_five_question_draft_pending_review"
+    },
+    {
+      "unit": 119,
+      "start": 114,
+      "end": 116,
+      "text": "du",
+      "form": "du",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 119,
+      "start": 117,
+      "end": 123,
+      "text": "Sirien",
+      "form": "sirien",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 120,
+      "start": 0,
+      "end": 3,
+      "text": "Ils",
+      "form": "ils",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 4,
+      "end": 6,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 7,
+      "end": 13,
+      "text": "firent",
+      "form": "firent",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 14,
+      "end": 18,
+      "text": "tant",
+      "form": "tant",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 19,
+      "end": 22,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 22,
+      "end": 24,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 25,
+      "end": 31,
+      "text": "sentit",
+      "form": "sentit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 32,
+      "end": 37,
+      "text": "enfin",
+      "form": "enfin",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 38,
+      "end": 44,
+      "text": "remuer",
+      "form": "remuer",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 45,
+      "end": 52,
+      "text": "quelque",
+      "form": "quelque",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 53,
+      "end": 58,
+      "text": "chose",
+      "form": "chose",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 59,
+      "end": 62,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 63,
+      "end": 66,
+      "text": "lui",
+      "form": "lui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 67,
+      "end": 79,
+      "text": "chatouillait",
+      "form": "chatouillait",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 80,
+      "end": 83,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 84,
+      "end": 90,
+      "text": "doigts",
+      "form": "doigts",
+      "disposition": "share_chapter_five_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 93,
+      "end": 95,
+      "text": "c’",
+      "form": "c’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 95,
+      "end": 100,
+      "text": "était",
+      "form": "était",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 101,
+      "end": 103,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 104,
+      "end": 109,
+      "text": "bâton",
+      "form": "bâton",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 110,
+      "end": 115,
+      "text": "ferré",
+      "form": "ferré",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 116,
+      "end": 119,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 119,
+      "end": 121,
+      "text": "on",
+      "form": "on",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 122,
+      "end": 125,
+      "text": "lui",
+      "form": "lui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 126,
+      "end": 135,
+      "text": "enfonçait",
+      "form": "enfonçait",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 136,
+      "end": 138,
+      "text": "d’",
+      "form": "d’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 138,
+      "end": 140,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 141,
+      "end": 145,
+      "text": "pied",
+      "form": "pied",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 120,
+      "start": 146,
+      "end": 150,
+      "text": "dans",
+      "form": "dans",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 151,
+      "end": 153,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 153,
+      "end": 158,
+      "text": "index",
+      "form": "index",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 161,
+      "end": 163,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 164,
+      "end": 169,
+      "text": "jugea",
+      "form": "jugea",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 171,
+      "end": 174,
+      "text": "par",
+      "form": "par",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 175,
+      "end": 177,
+      "text": "ce",
+      "form": "ce",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 178,
+      "end": 188,
+      "text": "picotement",
+      "form": "picotement",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 190,
+      "end": 193,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 193,
+      "end": 195,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 196,
+      "end": 201,
+      "text": "était",
+      "form": "était",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 202,
+      "end": 207,
+      "text": "sorti",
+      "form": "sorti",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 208,
+      "end": 215,
+      "text": "quelque",
+      "form": "quelque",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 216,
+      "end": 221,
+      "text": "chose",
+      "form": "chose",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 222,
+      "end": 224,
+      "text": "du",
+      "form": "du",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 225,
+      "end": 230,
+      "text": "petit",
+      "form": "petit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 231,
+      "end": 237,
+      "text": "animal",
+      "form": "animal",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 238,
+      "end": 241,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 241,
+      "end": 243,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 244,
+      "end": 250,
+      "text": "tenait",
+      "form": "tenait",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 120,
+      "start": 253,
+      "end": 257,
+      "text": "mais",
+      "form": "mais",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 258,
+      "end": 260,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 261,
+      "end": 263,
+      "text": "n’",
+      "form": "n’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 263,
+      "end": 265,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 266,
+      "end": 275,
+      "text": "soupçonna",
+      "form": "soupçonna",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 120,
+      "start": 276,
+      "end": 279,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 120,
+      "start": 280,
+      "end": 282,
+      "text": "d’",
+      "form": "d’",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 120,
+      "start": 282,
+      "end": 287,
+      "text": "abord",
+      "form": "abord",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 120,
+      "start": 288,
+      "end": 297,
+      "text": "davantage",
+      "form": "davantage",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 0,
+      "end": 2,
+      "text": "Le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 3,
+      "end": 13,
+      "text": "microscope",
+      "form": "microscope",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 121,
+      "start": 15,
+      "end": 18,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 19,
+      "end": 26,
+      "text": "faisait",
+      "form": "faisait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 27,
+      "end": 28,
+      "text": "à",
+      "form": "à",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 121,
+      "start": 29,
+      "end": 34,
+      "text": "peine",
+      "form": "peine",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 121,
+      "start": 35,
+      "end": 44,
+      "text": "discerner",
+      "form": "discerner",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 121,
+      "start": 45,
+      "end": 48,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 49,
+      "end": 56,
+      "text": "baleine",
+      "form": "baleine",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 121,
+      "start": 57,
+      "end": 59,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 121,
+      "start": 60,
+      "end": 62,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 63,
+      "end": 71,
+      "text": "vaisseau",
+      "form": "vaisseau",
+      "disposition": "share_chapter_five_question_draft_pending_review"
+    },
+    {
+      "unit": 121,
+      "start": 73,
+      "end": 75,
+      "text": "n’",
+      "form": "n’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 75,
+      "end": 80,
+      "text": "avait",
+      "form": "avait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 81,
+      "end": 86,
+      "text": "point",
+      "form": "point",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 87,
+      "end": 89,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 90,
+      "end": 95,
+      "text": "prise",
+      "form": "prise",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 121,
+      "start": 96,
+      "end": 99,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 100,
+      "end": 102,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 103,
+      "end": 107,
+      "text": "être",
+      "form": "être",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 121,
+      "start": 108,
+      "end": 113,
+      "text": "aussi",
+      "form": "aussi",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 114,
+      "end": 127,
+      "text": "imperceptible",
+      "form": "imperceptible",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 121,
+      "start": 128,
+      "end": 131,
+      "text": "que",
+      "form": "que",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 132,
+      "end": 135,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 121,
+      "start": 136,
+      "end": 142,
+      "text": "hommes",
+      "form": "hommes",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 0,
+      "end": 2,
+      "text": "Je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 3,
+      "end": 5,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 6,
+      "end": 14,
+      "text": "prétends",
+      "form": "prétends",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 15,
+      "end": 22,
+      "text": "choquer",
+      "form": "choquer",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 23,
+      "end": 26,
+      "text": "ici",
+      "form": "ici",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 27,
+      "end": 29,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 30,
+      "end": 36,
+      "text": "vanité",
+      "form": "vanité",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 37,
+      "end": 39,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 40,
+      "end": 48,
+      "text": "personne",
+      "form": "personne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 50,
+      "end": 54,
+      "text": "mais",
+      "form": "mais",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 55,
+      "end": 57,
+      "text": "je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 58,
+      "end": 62,
+      "text": "suis",
+      "form": "suis",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 63,
+      "end": 69,
+      "text": "obligé",
+      "form": "obligé",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 70,
+      "end": 72,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 73,
+      "end": 78,
+      "text": "prier",
+      "form": "prier",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 79,
+      "end": 82,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 83,
+      "end": 93,
+      "text": "importants",
+      "form": "importants",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 94,
+      "end": 96,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 97,
+      "end": 102,
+      "text": "faire",
+      "form": "faire",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 103,
+      "end": 106,
+      "text": "ici",
+      "form": "ici",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 107,
+      "end": 110,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 111,
+      "end": 117,
+      "text": "petite",
+      "form": "petite",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 118,
+      "end": 126,
+      "text": "remarque",
+      "form": "remarque",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 127,
+      "end": 131,
+      "text": "avec",
+      "form": "avec",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 132,
+      "end": 135,
+      "text": "moi",
+      "form": "moi",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 138,
+      "end": 140,
+      "text": "c’",
+      "form": "c’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 140,
+      "end": 143,
+      "text": "est",
+      "form": "est",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 144,
+      "end": 147,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 147,
+      "end": 149,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 150,
+      "end": 157,
+      "text": "prenant",
+      "form": "prenant",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 158,
+      "end": 160,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 161,
+      "end": 167,
+      "text": "taille",
+      "form": "taille",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 168,
+      "end": 171,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 172,
+      "end": 178,
+      "text": "hommes",
+      "form": "hommes",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 179,
+      "end": 181,
+      "text": "d’",
+      "form": "d’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 181,
+      "end": 188,
+      "text": "environ",
+      "form": "environ",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 189,
+      "end": 193,
+      "text": "cinq",
+      "form": "cinq",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 194,
+      "end": 199,
+      "text": "pieds",
+      "form": "pieds",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 201,
+      "end": 205,
+      "text": "nous",
+      "form": "nous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 206,
+      "end": 208,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 209,
+      "end": 216,
+      "text": "faisons",
+      "form": "faisons",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 217,
+      "end": 220,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 221,
+      "end": 224,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 225,
+      "end": 227,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 228,
+      "end": 233,
+      "text": "terre",
+      "form": "terre",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 234,
+      "end": 237,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 238,
+      "end": 242,
+      "text": "plus",
+      "form": "plus",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 243,
+      "end": 249,
+      "text": "grande",
+      "form": "grande",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 250,
+      "end": 256,
+      "text": "figure",
+      "form": "figure",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 257,
+      "end": 260,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 260,
+      "end": 262,
+      "text": "en",
+      "form": "en",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 263,
+      "end": 269,
+      "text": "ferait",
+      "form": "ferait",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 270,
+      "end": 273,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 274,
+      "end": 277,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 278,
+      "end": 283,
+      "text": "boule",
+      "form": "boule",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 284,
+      "end": 286,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 287,
+      "end": 290,
+      "text": "dix",
+      "form": "dix",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 291,
+      "end": 296,
+      "text": "pieds",
+      "form": "pieds",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 297,
+      "end": 299,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 300,
+      "end": 304,
+      "text": "tour",
+      "form": "tour",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 122,
+      "start": 305,
+      "end": 307,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 308,
+      "end": 314,
+      "text": "animal",
+      "form": "animal",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 315,
+      "end": 318,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 319,
+      "end": 325,
+      "text": "aurait",
+      "form": "aurait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 326,
+      "end": 327,
+      "text": "à",
+      "form": "à",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 328,
+      "end": 331,
+      "text": "peu",
+      "form": "peu",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 332,
+      "end": 336,
+      "text": "près",
+      "form": "près",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 337,
+      "end": 339,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 340,
+      "end": 343,
+      "text": "six",
+      "form": "six",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 344,
+      "end": 348,
+      "text": "cent",
+      "form": "cent",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 349,
+      "end": 357,
+      "text": "millième",
+      "form": "millième",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 358,
+      "end": 364,
+      "text": "partie",
+      "form": "partie",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 122,
+      "start": 365,
+      "end": 367,
+      "text": "d’",
+      "form": "d’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 367,
+      "end": 369,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 370,
+      "end": 375,
+      "text": "pouce",
+      "form": "pouce",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 122,
+      "start": 376,
+      "end": 378,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 122,
+      "start": 379,
+      "end": 386,
+      "text": "hauteur",
+      "form": "hauteur",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 123,
+      "start": 0,
+      "end": 7,
+      "text": "Figurez",
+      "form": "figurez",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 8,
+      "end": 12,
+      "text": "vous",
+      "form": "vous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 13,
+      "end": 16,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 17,
+      "end": 26,
+      "text": "substance",
+      "form": "substance",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 27,
+      "end": 30,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 31,
+      "end": 39,
+      "text": "pourrait",
+      "form": "pourrait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 40,
+      "end": 45,
+      "text": "tenir",
+      "form": "tenir",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 46,
+      "end": 48,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 49,
+      "end": 54,
+      "text": "terre",
+      "form": "terre",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 55,
+      "end": 59,
+      "text": "dans",
+      "form": "dans",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 60,
+      "end": 62,
+      "text": "sa",
+      "form": "sa",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 63,
+      "end": 67,
+      "text": "main",
+      "form": "main",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 69,
+      "end": 71,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 72,
+      "end": 75,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 76,
+      "end": 82,
+      "text": "aurait",
+      "form": "aurait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 83,
+      "end": 86,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 87,
+      "end": 94,
+      "text": "organes",
+      "form": "organes",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 95,
+      "end": 97,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 98,
+      "end": 108,
+      "text": "proportion",
+      "form": "proportion",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 123,
+      "start": 109,
+      "end": 112,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 113,
+      "end": 119,
+      "text": "nôtres",
+      "form": "nôtres",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 122,
+      "end": 124,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 125,
+      "end": 127,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 128,
+      "end": 130,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 131,
+      "end": 135,
+      "text": "peut",
+      "form": "peut",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 136,
+      "end": 145,
+      "text": "très-bien",
+      "form": "très-bien",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 146,
+      "end": 151,
+      "text": "faire",
+      "form": "faire",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 152,
+      "end": 155,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 155,
+      "end": 157,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 158,
+      "end": 159,
+      "text": "y",
+      "form": "y",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 160,
+      "end": 163,
+      "text": "ait",
+      "form": "ait",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 164,
+      "end": 166,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 167,
+      "end": 172,
+      "text": "grand",
+      "form": "grand",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 173,
+      "end": 179,
+      "text": "nombre",
+      "form": "nombre",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 180,
+      "end": 182,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 183,
+      "end": 186,
+      "text": "ces",
+      "form": "ces",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 187,
+      "end": 197,
+      "text": "substances",
+      "form": "substances",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 200,
+      "end": 202,
+      "text": "or",
+      "form": "or",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 203,
+      "end": 211,
+      "text": "concevez",
+      "form": "concevez",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 213,
+      "end": 215,
+      "text": "je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 216,
+      "end": 220,
+      "text": "vous",
+      "form": "vous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 221,
+      "end": 225,
+      "text": "prie",
+      "form": "prie",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 227,
+      "end": 229,
+      "text": "ce",
+      "form": "ce",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 230,
+      "end": 233,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 233,
+      "end": 238,
+      "text": "elles",
+      "form": "elles",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 239,
+      "end": 250,
+      "text": "penseraient",
+      "form": "penseraient",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 251,
+      "end": 253,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 254,
+      "end": 257,
+      "text": "ces",
+      "form": "ces",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 258,
+      "end": 267,
+      "text": "batailles",
+      "form": "batailles",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 268,
+      "end": 271,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 272,
+      "end": 276,
+      "text": "font",
+      "form": "font",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 277,
+      "end": 283,
+      "text": "gagner",
+      "form": "gagner",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 284,
+      "end": 286,
+      "text": "au",
+      "form": "au",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 287,
+      "end": 296,
+      "text": "vainqueur",
+      "form": "vainqueur",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 123,
+      "start": 297,
+      "end": 299,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 300,
+      "end": 307,
+      "text": "village",
+      "form": "village",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 308,
+      "end": 312,
+      "text": "pour",
+      "form": "pour",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 313,
+      "end": 315,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 123,
+      "start": 316,
+      "end": 322,
+      "text": "perdre",
+      "form": "perdre",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 123,
+      "start": 323,
+      "end": 330,
+      "text": "ensuite",
+      "form": "ensuite",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 0,
+      "end": 2,
+      "text": "Je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 3,
+      "end": 5,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 6,
+      "end": 11,
+      "text": "doute",
+      "form": "doute",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 12,
+      "end": 15,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 16,
+      "end": 19,
+      "text": "que",
+      "form": "que",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 20,
+      "end": 22,
+      "text": "si",
+      "form": "si",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 23,
+      "end": 30,
+      "text": "quelque",
+      "form": "quelque",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 31,
+      "end": 40,
+      "text": "capitaine",
+      "form": "capitaine",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 41,
+      "end": 44,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 45,
+      "end": 51,
+      "text": "grands",
+      "form": "grands",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 52,
+      "end": 62,
+      "text": "grenadiers",
+      "form": "grenadiers",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 63,
+      "end": 66,
+      "text": "lit",
+      "form": "lit",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 67,
+      "end": 73,
+      "text": "jamais",
+      "form": "jamais",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 74,
+      "end": 77,
+      "text": "cet",
+      "form": "cet",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 78,
+      "end": 85,
+      "text": "ouvrage",
+      "form": "ouvrage",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 87,
+      "end": 89,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 90,
+      "end": 92,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 93,
+      "end": 99,
+      "text": "hausse",
+      "form": "hausse",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 100,
+      "end": 102,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 103,
+      "end": 107,
+      "text": "deux",
+      "form": "deux",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 108,
+      "end": 114,
+      "text": "grands",
+      "form": "grands",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 115,
+      "end": 120,
+      "text": "pieds",
+      "form": "pieds",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 124,
+      "start": 121,
+      "end": 123,
+      "text": "au",
+      "form": "au",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 124,
+      "end": 129,
+      "text": "moins",
+      "form": "moins",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 130,
+      "end": 133,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 134,
+      "end": 141,
+      "text": "bonnets",
+      "form": "bonnets",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 142,
+      "end": 144,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 145,
+      "end": 147,
+      "text": "sa",
+      "form": "sa",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 148,
+      "end": 154,
+      "text": "troupe",
+      "form": "troupe",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 157,
+      "end": 161,
+      "text": "mais",
+      "form": "mais",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 162,
+      "end": 164,
+      "text": "je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 165,
+      "end": 167,
+      "text": "l’",
+      "form": "l’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 167,
+      "end": 174,
+      "text": "avertis",
+      "form": "avertis",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 175,
+      "end": 178,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 178,
+      "end": 180,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 181,
+      "end": 185,
+      "text": "aura",
+      "form": "aura",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 186,
+      "end": 190,
+      "text": "beau",
+      "form": "beau",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 191,
+      "end": 196,
+      "text": "faire",
+      "form": "faire",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 198,
+      "end": 201,
+      "text": "que",
+      "form": "que",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 202,
+      "end": 205,
+      "text": "lui",
+      "form": "lui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 206,
+      "end": 208,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 209,
+      "end": 212,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 213,
+      "end": 218,
+      "text": "siens",
+      "form": "siens",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 124,
+      "start": 219,
+      "end": 221,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 124,
+      "start": 222,
+      "end": 228,
+      "text": "seront",
+      "form": "seront",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 229,
+      "end": 235,
+      "text": "jamais",
+      "form": "jamais",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 236,
+      "end": 239,
+      "text": "que",
+      "form": "que",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 240,
+      "end": 243,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 124,
+      "start": 244,
+      "end": 254,
+      "text": "infiniment",
+      "form": "infiniment",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 124,
+      "start": 255,
+      "end": 261,
+      "text": "petits",
+      "form": "petits",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 125,
+      "start": 0,
+      "end": 6,
+      "text": "Quelle",
+      "form": "quelle",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 7,
+      "end": 14,
+      "text": "adresse",
+      "form": "adresse",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 125,
+      "start": 15,
+      "end": 27,
+      "text": "merveilleuse",
+      "form": "merveilleuse",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 125,
+      "start": 28,
+      "end": 30,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 31,
+      "end": 37,
+      "text": "fallut",
+      "form": "fallut",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 38,
+      "end": 40,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 41,
+      "end": 45,
+      "text": "donc",
+      "form": "donc",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 125,
+      "start": 46,
+      "end": 49,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 50,
+      "end": 51,
+      "text": "à",
+      "form": "à",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 52,
+      "end": 57,
+      "text": "notre",
+      "form": "notre",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 58,
+      "end": 68,
+      "text": "philosophe",
+      "form": "philosophe",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 69,
+      "end": 71,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 72,
+      "end": 78,
+      "text": "Sirius",
+      "form": "sirius",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 125,
+      "start": 79,
+      "end": 83,
+      "text": "pour",
+      "form": "pour",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 84,
+      "end": 94,
+      "text": "apercevoir",
+      "form": "apercevoir",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 125,
+      "start": 95,
+      "end": 98,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 99,
+      "end": 105,
+      "text": "atomes",
+      "form": "atomes",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 125,
+      "start": 106,
+      "end": 110,
+      "text": "dont",
+      "form": "dont",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 125,
+      "start": 111,
+      "end": 113,
+      "text": "je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 114,
+      "end": 119,
+      "text": "viens",
+      "form": "viens",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 125,
+      "start": 120,
+      "end": 122,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 125,
+      "start": 123,
+      "end": 129,
+      "text": "parler",
+      "form": "parler",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 0,
+      "end": 5,
+      "text": "Quand",
+      "form": "quand",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 6,
+      "end": 16,
+      "text": "Leuwenhoek",
+      "form": "leuwenhoek",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 126,
+      "start": 17,
+      "end": 19,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 20,
+      "end": 30,
+      "text": "Hartsoeker",
+      "form": "hartsoeker",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 126,
+      "start": 31,
+      "end": 37,
+      "text": "virent",
+      "form": "virent",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 38,
+      "end": 41,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 42,
+      "end": 50,
+      "text": "premiers",
+      "form": "premiers",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 126,
+      "start": 52,
+      "end": 54,
+      "text": "ou",
+      "form": "ou",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 55,
+      "end": 62,
+      "text": "crurent",
+      "form": "crurent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 126,
+      "start": 63,
+      "end": 67,
+      "text": "voir",
+      "form": "voir",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 68,
+      "end": 70,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 71,
+      "end": 77,
+      "text": "graine",
+      "form": "graine",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 126,
+      "start": 78,
+      "end": 82,
+      "text": "dont",
+      "form": "dont",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 83,
+      "end": 87,
+      "text": "nous",
+      "form": "nous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 88,
+      "end": 94,
+      "text": "sommes",
+      "form": "sommes",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 95,
+      "end": 101,
+      "text": "formés",
+      "form": "formés",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 126,
+      "start": 103,
+      "end": 106,
+      "text": "ils",
+      "form": "ils",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 107,
+      "end": 109,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 110,
+      "end": 116,
+      "text": "firent",
+      "form": "firent",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 117,
+      "end": 120,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 121,
+      "end": 122,
+      "text": "à",
+      "form": "à",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 123,
+      "end": 131,
+      "text": "beaucoup",
+      "form": "beaucoup",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 132,
+      "end": 136,
+      "text": "près",
+      "form": "près",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 126,
+      "start": 137,
+      "end": 140,
+      "text": "une",
+      "form": "une",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 141,
+      "end": 143,
+      "text": "si",
+      "form": "si",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 126,
+      "start": 144,
+      "end": 153,
+      "text": "étonnante",
+      "form": "étonnante",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 126,
+      "start": 154,
+      "end": 164,
+      "text": "découverte",
+      "form": "découverte",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 0,
+      "end": 4,
+      "text": "Quel",
+      "form": "quel",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 5,
+      "end": 12,
+      "text": "plaisir",
+      "form": "plaisir",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 13,
+      "end": 19,
+      "text": "sentit",
+      "form": "sentit",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 127,
+      "start": 20,
+      "end": 30,
+      "text": "Micromégas",
+      "form": "micromégas",
+      "disposition": "reviewed_proper_name"
+    },
+    {
+      "unit": 127,
+      "start": 31,
+      "end": 33,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 34,
+      "end": 40,
+      "text": "voyant",
+      "form": "voyant",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 41,
+      "end": 47,
+      "text": "remuer",
+      "form": "remuer",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 48,
+      "end": 51,
+      "text": "ces",
+      "form": "ces",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 52,
+      "end": 59,
+      "text": "petites",
+      "form": "petites",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 60,
+      "end": 68,
+      "text": "machines",
+      "form": "machines",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 70,
+      "end": 72,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 73,
+      "end": 82,
+      "text": "examinant",
+      "form": "examinant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 83,
+      "end": 87,
+      "text": "tous",
+      "form": "tous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 88,
+      "end": 93,
+      "text": "leurs",
+      "form": "leurs",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 94,
+      "end": 99,
+      "text": "tours",
+      "form": "tours",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 101,
+      "end": 103,
+      "text": "en",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 104,
+      "end": 107,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 108,
+      "end": 115,
+      "text": "suivant",
+      "form": "suivant",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 127,
+      "start": 116,
+      "end": 120,
+      "text": "dans",
+      "form": "dans",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 121,
+      "end": 127,
+      "text": "toutes",
+      "form": "toutes",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 128,
+      "end": 133,
+      "text": "leurs",
+      "form": "leurs",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 134,
+      "end": 144,
+      "text": "opérations",
+      "form": "opérations",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 127,
+      "start": 147,
+      "end": 152,
+      "text": "comme",
+      "form": "comme",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 127,
+      "start": 153,
+      "end": 155,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 156,
+      "end": 158,
+      "text": "s’",
+      "form": "s’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 158,
+      "end": 163,
+      "text": "écria",
+      "form": "écria",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 166,
+      "end": 171,
+      "text": "comme",
+      "form": "comme",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 127,
+      "start": 172,
+      "end": 174,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 175,
+      "end": 178,
+      "text": "mit",
+      "form": "mit",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 179,
+      "end": 183,
+      "text": "avec",
+      "form": "avec",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 184,
+      "end": 188,
+      "text": "joie",
+      "form": "joie",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 189,
+      "end": 191,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 192,
+      "end": 194,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 195,
+      "end": 198,
+      "text": "ses",
+      "form": "ses",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 199,
+      "end": 210,
+      "text": "microscopes",
+      "form": "microscopes",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 127,
+      "start": 211,
+      "end": 215,
+      "text": "dans",
+      "form": "dans",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 216,
+      "end": 219,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 220,
+      "end": 225,
+      "text": "mains",
+      "form": "mains",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 226,
+      "end": 228,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 229,
+      "end": 232,
+      "text": "son",
+      "form": "son",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 233,
+      "end": 242,
+      "text": "compagnon",
+      "form": "compagnon",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 243,
+      "end": 245,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 127,
+      "start": 246,
+      "end": 252,
+      "text": "voyage",
+      "form": "voyage",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 128,
+      "start": 2,
+      "end": 4,
+      "text": "Je",
+      "form": "je",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 5,
+      "end": 8,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 9,
+      "end": 13,
+      "text": "vois",
+      "form": "vois",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 15,
+      "end": 23,
+      "text": "disaient",
+      "form": "disaient",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 128,
+      "start": 24,
+      "end": 27,
+      "text": "ils",
+      "form": "ils",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 28,
+      "end": 32,
+      "text": "tous",
+      "form": "tous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 33,
+      "end": 37,
+      "text": "deux",
+      "form": "deux",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 38,
+      "end": 39,
+      "text": "à",
+      "form": "à",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 128,
+      "start": 40,
+      "end": 42,
+      "text": "la",
+      "form": "la",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 128,
+      "start": 43,
+      "end": 47,
+      "text": "fois",
+      "form": "fois",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 128,
+      "start": 50,
+      "end": 52,
+      "text": "ne",
+      "form": "ne",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 53,
+      "end": 56,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 57,
+      "end": 62,
+      "text": "voyez",
+      "form": "voyez",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 63,
+      "end": 67,
+      "text": "vous",
+      "form": "vous",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 68,
+      "end": 71,
+      "text": "pas",
+      "form": "pas",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 72,
+      "end": 75,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 76,
+      "end": 83,
+      "text": "portent",
+      "form": "portent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 128,
+      "start": 84,
+      "end": 87,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 88,
+      "end": 96,
+      "text": "fardeaux",
+      "form": "fardeaux",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 128,
+      "start": 98,
+      "end": 101,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 102,
+      "end": 104,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 105,
+      "end": 113,
+      "text": "baissent",
+      "form": "baissent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 128,
+      "start": 115,
+      "end": 118,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 119,
+      "end": 121,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 128,
+      "start": 122,
+      "end": 130,
+      "text": "relèvent",
+      "form": "relèvent",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 129,
+      "start": 0,
+      "end": 2,
+      "text": "En",
+      "form": "en",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 3,
+      "end": 10,
+      "text": "parlant",
+      "form": "parlant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 129,
+      "start": 11,
+      "end": 16,
+      "text": "ainsi",
+      "form": "ainsi",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 18,
+      "end": 21,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 22,
+      "end": 27,
+      "text": "mains",
+      "form": "mains",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 28,
+      "end": 32,
+      "text": "leur",
+      "form": "leur",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 33,
+      "end": 44,
+      "text": "tremblaient",
+      "form": "tremblaient",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 46,
+      "end": 49,
+      "text": "par",
+      "form": "par",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 50,
+      "end": 52,
+      "text": "le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 53,
+      "end": 60,
+      "text": "plaisir",
+      "form": "plaisir",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 61,
+      "end": 63,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 64,
+      "end": 68,
+      "text": "voir",
+      "form": "voir",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 69,
+      "end": 72,
+      "text": "des",
+      "form": "des",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 73,
+      "end": 79,
+      "text": "objets",
+      "form": "objets",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 129,
+      "start": 80,
+      "end": 82,
+      "text": "si",
+      "form": "si",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 83,
+      "end": 91,
+      "text": "nouveaux",
+      "form": "nouveaux",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 129,
+      "start": 93,
+      "end": 95,
+      "text": "et",
+      "form": "et",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 129,
+      "start": 96,
+      "end": 99,
+      "text": "par",
+      "form": "par",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 100,
+      "end": 102,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 103,
+      "end": 110,
+      "text": "crainte",
+      "form": "crainte",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 111,
+      "end": 113,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 114,
+      "end": 117,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 129,
+      "start": 118,
+      "end": 124,
+      "text": "perdre",
+      "form": "perdre",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 130,
+      "start": 0,
+      "end": 2,
+      "text": "Le",
+      "form": "le",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 3,
+      "end": 12,
+      "text": "Saturnien",
+      "form": "saturnien",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 14,
+      "end": 21,
+      "text": "passant",
+      "form": "passant",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 22,
+      "end": 24,
+      "text": "d’",
+      "form": "d’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 24,
+      "end": 26,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 27,
+      "end": 32,
+      "text": "excès",
+      "form": "excès",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 33,
+      "end": 35,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 36,
+      "end": 44,
+      "text": "défiance",
+      "form": "défiance",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 45,
+      "end": 46,
+      "text": "à",
+      "form": "à",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 47,
+      "end": 49,
+      "text": "un",
+      "form": "un",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 50,
+      "end": 55,
+      "text": "excès",
+      "form": "excès",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 56,
+      "end": 58,
+      "text": "de",
+      "form": "de",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 59,
+      "end": 68,
+      "text": "crédulité",
+      "form": "crédulité",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 70,
+      "end": 74,
+      "text": "crut",
+      "form": "crut",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 75,
+      "end": 85,
+      "text": "apercevoir",
+      "form": "apercevoir",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 86,
+      "end": 89,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 89,
+      "end": 92,
+      "text": "ils",
+      "form": "ils",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 93,
+      "end": 106,
+      "text": "travaillaient",
+      "form": "travaillaient",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 130,
+      "start": 107,
+      "end": 108,
+      "text": "à",
+      "form": "à",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 109,
+      "end": 111,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 130,
+      "start": 112,
+      "end": 123,
+      "text": "propagation",
+      "form": "propagation",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 131,
+      "start": 2,
+      "end": 4,
+      "text": "Ah",
+      "form": "ah",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 131,
+      "start": 7,
+      "end": 13,
+      "text": "disait",
+      "form": "disait",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 131,
+      "start": 14,
+      "end": 16,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 131,
+      "start": 18,
+      "end": 20,
+      "text": "j’",
+      "form": "j’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 131,
+      "start": 20,
+      "end": 22,
+      "text": "ai",
+      "form": "ai",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 131,
+      "start": 23,
+      "end": 27,
+      "text": "pris",
+      "form": "pris",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 131,
+      "start": 28,
+      "end": 30,
+      "text": "la",
+      "form": "la",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 131,
+      "start": 31,
+      "end": 37,
+      "text": "nature",
+      "form": "nature",
+      "disposition": "already_authored_earlier"
+    },
+    {
+      "unit": 131,
+      "start": 38,
+      "end": 41,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 131,
+      "start": 42,
+      "end": 44,
+      "text": "le",
+      "form": "le",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 131,
+      "start": 45,
+      "end": 49,
+      "text": "fait",
+      "form": "fait",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 132,
+      "start": 0,
+      "end": 4,
+      "text": "Mais",
+      "form": "mais",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 5,
+      "end": 7,
+      "text": "il",
+      "form": "il",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 8,
+      "end": 10,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 11,
+      "end": 19,
+      "text": "trompait",
+      "form": "trompait",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 132,
+      "start": 20,
+      "end": 23,
+      "text": "sur",
+      "form": "sur",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 132,
+      "start": 24,
+      "end": 27,
+      "text": "les",
+      "form": "les",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 28,
+      "end": 38,
+      "text": "apparences",
+      "form": "apparences",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 132,
+      "start": 41,
+      "end": 43,
+      "text": "ce",
+      "form": "ce",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 44,
+      "end": 47,
+      "text": "qui",
+      "form": "qui",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 48,
+      "end": 50,
+      "text": "n’",
+      "form": "n’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 50,
+      "end": 56,
+      "text": "arrive",
+      "form": "arrive",
+      "disposition": "earlier_reviewed_meaning_carryover_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 57,
+      "end": 60,
+      "text": "que",
+      "form": "que",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 61,
+      "end": 65,
+      "text": "trop",
+      "form": "trop",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 67,
+      "end": 71,
+      "text": "soit",
+      "form": "soit",
+      "disposition": "published_candidate_held_for_editorial_repair"
+    },
+    {
+      "unit": 132,
+      "start": 72,
+      "end": 75,
+      "text": "qu’",
+      "form": "qu’",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 75,
+      "end": 77,
+      "text": "on",
+      "form": "on",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 78,
+      "end": 80,
+      "text": "se",
+      "form": "se",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 81,
+      "end": 86,
+      "text": "serve",
+      "form": "serve",
+      "disposition": "new_contextual_question_draft_pending_review"
+    },
+    {
+      "unit": 132,
+      "start": 87,
+      "end": 89,
+      "text": "ou",
+      "form": "ou",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 90,
+      "end": 93,
+      "text": "non",
+      "form": "non",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 94,
+      "end": 96,
+      "text": "du",
+      "form": "du",
+      "disposition": "reuse_reviewed_published_identity_and_questions_pending_import"
+    },
+    {
+      "unit": 132,
+      "start": 97,
+      "end": 107,
+      "text": "microscope",
+      "form": "microscope",
+      "disposition": "share_earlier_contextual_question_draft_pending_review"
+    }
+  ],
+  "note": "A disposition here tracks work, not editorial approval. Expression spans are independently reviewed over component tokens; the token partition remains unchanged until identity and question reconciliation. New drafts and complete-work import still need review."
+}

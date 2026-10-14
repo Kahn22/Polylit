@@ -1,14 +1,15 @@
 import "./styles.css";
+import { languageFromPath, isLanguageChoicePath } from "./paths.js";
 
 /** Login and selection are independent documents with no learner-content imports. */
-const libraryRoute = /\/(fr|es)\/library\/?$/.test(location.pathname);
+const libraryRoute = languageFromPath();
 if (libraryRoute) {
   void import("./main.js").catch(() => {
     const app = document.querySelector("#app");
     if (app) app.innerHTML = '<main class="page" role="alert"><h1>This page could not finish loading.</h1><p>Your saved progress has not been changed.</p><button class="primary" id="retry-app">Retry</button></main>';
     document.querySelector("#retry-app")?.addEventListener("click", () => location.reload());
   });
-} else if (import.meta.env.DEV && /\/languages\/?$/.test(location.pathname)) {
+} else if (import.meta.env.DEV && isLanguageChoicePath()) {
   // Vite's development fallback serves index.html; production has a generated
   // selection document and never needs this development-only renderer.
   const app = document.querySelector("#app");

@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-12",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 4,
+  "approvals": 4,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "source-context check and individually rechecked question bands",
+  "changes": [
+    {
+      "subjectId": "srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+      "reviewId": "vocabulary:srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+      "outcome": "approve",
+      "rationale": "Both occurrences concern the handwriting examined by investigators or handwriting experts. The plural noun gloss and the three choices in each band distinguish scripts from other plural nouns.",
+      "before": {
+        "id": "vocabulary:srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+        "subjectRevision": "rev_259229eb1d889fbf8672a7e70d2c6eb2a03d3ca7e686af1095b4c916ff446508",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The contexts concern handwriting attributed to Esterhazy and written records; plural form appears to cover distinct senses."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ecritures_9dd460ce2c2b_ecriture:sns_zola_ecriture_handwriting",
+        "subjectRevision": "rev_259229eb1d889fbf8672a7e70d2c6eb2a03d3ca7e686af1095b4c916ff446508",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Both occurrences concern the handwriting examined by investigators or handwriting experts. The plural noun gloss and the three choices in each band distinguish scripts from other plural nouns.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_discute_discuter:sns_zola_discuter_question",
+      "reviewId": "vocabulary:srf_zola_discute_discuter:sns_zola_discuter_question",
+      "outcome": "approve",
+      "rationale": "In « une vérité qui ne se discute même pas », discute means is questioned or debated; the three existing questions use the matching contestation sense.",
+      "before": {
+        "id": "vocabulary:srf_zola_discute_discuter:sns_zola_discuter_question",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_discute_discuter:sns_zola_discuter_question",
+        "subjectRevision": "rev_addbf8cefdfb40e6ae5c71ceca6259d72aa61e93693fb23e0ede86d00507be4a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In ne se discute pas, the sense is be disputed/debated; the gloss to discuss is incomplete and question is imprecise."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_discute_discuter:sns_zola_discuter_question",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_discute_discuter:sns_zola_discuter_question",
+        "subjectRevision": "rev_addbf8cefdfb40e6ae5c71ceca6259d72aa61e93693fb23e0ede86d00507be4a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In « une vérité qui ne se discute même pas », discute means is questioned or debated; the three existing questions use the matching contestation sense.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_universelle_universel:sns_zola_universel_general",
+      "reviewId": "vocabulary:srf_zola_universelle_universel:sns_zola_universel_general",
+      "outcome": "approve",
+      "rationale": "Conscience universelle and Exposition universelle both reach beyond one country or group. Corrected the completion distractors to feminine singular adjectives so grammar alone cannot identify universelle.",
+      "before": {
+        "id": "vocabulary:srf_zola_universelle_universel:sns_zola_universel_general",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_universelle_universel:sns_zola_universel_general",
+        "subjectRevision": "rev_bff5ea0aa4c06e3c4b22fd0a0e8e0eca648967481aa17f72c97f367e5affe764",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The adjective uses are semantically universal, but the lemma headword is incorrectly stored in the feminine form universelle rather than citation form universel."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_universelle_universel:sns_zola_universel_general",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_universelle_universel:sns_zola_universel_general",
+        "subjectRevision": "rev_bff5ea0aa4c06e3c4b22fd0a0e8e0eca648967481aa17f72c97f367e5affe764",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Conscience universelle and Exposition universelle both reach beyond one country or group. Corrected the completion distractors to feminine singular adjectives so grammar alone cannot identify universelle.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+      "reviewId": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+      "outcome": "approve",
+      "rationale": "Secrets qu’il ne fait pas bon d’avoir surpris means secrets discovered unexpectedly; replaced a theft scenario and three unrelated contexts with questions about discovering secrets.",
+      "before": {
+        "id": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_0980229b939111fe66f1ebdad625be3bbc9f4f29430d3d9a8989f2e1055baf3e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Avoir surpris des secrets means having discovered or learned secrets, not catching a person unawares; the prepared sense is too narrow."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_surpris_surprendre:sns_zola_surprendre_catch_unawares",
+        "subjectRevision": "rev_5bb7e32ee52f48b11d11ff8140e1481e497ecc5c76bb322510e5f3e16c651afd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Secrets qu’il ne fait pas bon d’avoir surpris means secrets discovered unexpectedly; replaced a theft scenario and three unrelated contexts with questions about discovering secrets.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

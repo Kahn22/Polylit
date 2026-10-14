@@ -1,0 +1,2 @@
+import{checkReviewedVerbScope}from'./check-micromegas-scope-review-helpers.mjs';
+export async function checkReprendreScopeReconciliation(folder,unitPlan){return checkReviewedVerbScope(folder,unitPlan,'19','Reprendre',new Set(['reprendre','reprit','reprendroient','reprendrait','repris','reprise','reprend','reprenant']),u=>u===213?'held_reprendre_unit213_editorial_interpretation':'sns_fr_reprendre_resume_speech');}

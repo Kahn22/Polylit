@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:57:12.862Z",
+  "sense": {
+    "id": "sns_zola_voir_past_participle",
+    "lemmaId": "lem_voir",
+    "gloss": "seen",
+    "definition": "participe passé de voir, indiquant qu’une personne ou une chose a été observée"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 3,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_vu_voir_past_participle_intermediate",
+      "qiz_zola_vu_voir_past_participle_advanced",
+      "qiz_zola_vu_voir_past_participle_early",
+      "qiz_zola_vus_voir_past_participle_intermediate",
+      "qiz_zola_vus_voir_past_participle_early",
+      "qiz_zola_vus_voir_past_participle_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_vu_voir:sns_zola_voir_past_participle",
+      "surface": "vu",
+      "lemma": "voir",
+      "currentRevision": "rev_9c8227197480a882e2f1767b11f7d805a909d417aec26db061470e23d492e510",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_0b06546b16ff3be296cb4e3f",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_129",
+          "passage": "Et nous avons donc vu le général de Pellieux, puis le commandant Ravary, conduire une enquête scélérate d’où les coquins sortent transfigurés et les honnêtes gens salis.",
+          "span": [
+            19,
+            21
+          ]
+        },
+        {
+          "id": "occ_zola_3b5c7281741875d73199502a",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_169",
+          "passage": "Et l’on a même vu, pour le lieutenant-colonel Picquart, cette chose ignoble : un tribunal français, après avoir laissé le rapporteur charger publiquement un témoin, l’accuser de toutes les fautes, a fait le huis clos, lorsque ce témoin a été introduit pour s’expliquer et se défendre.",
+          "span": [
+            15,
+            17
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_vu_voir_past_participle_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle a _____ ce tableau au musée.",
+          "choices": [
+            {
+              "text": "vu",
+              "correct": true
+            },
+            {
+              "text": "voit",
+              "correct": false
+            },
+            {
+              "text": "voyons",
+              "correct": false
+            },
+            {
+              "text": "voir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_vu_voir_past_participle_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul a vu le bateau quitter le port ; il le regardait depuis la jetée.",
+          "prompt": "Quel mot indique qu’il a observé le départ ?",
+          "choices": [
+            {
+              "text": "port",
+              "correct": false
+            },
+            {
+              "text": "jetée",
+              "correct": false
+            },
+            {
+              "text": "vu",
+              "correct": true
+            },
+            {
+              "text": "bateau",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_vu_voir_past_participle_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "J’ai vu un renard près du chemin.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "caught",
+              "correct": false
+            },
+            {
+              "text": "fed",
+              "correct": false
+            },
+            {
+              "text": "seen",
+              "correct": true
+            },
+            {
+              "text": "heard",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_vus_voir:sns_zola_voir_past_participle",
+      "surface": "vus",
+      "lemma": "voir",
+      "currentRevision": "rev_ba8df44af496b88c56036052c2f93518602fb69c8002c821a0c0a0f888427bf9",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_507d375f53c037f030b9253e",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_191",
+          "passage": "Quant aux gens que j’accuse, je ne les connais pas, je ne les ai jamais vus, je n’ai contre eux ni rancune ni haine.",
+          "span": [
+            72,
+            75
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_vus_voir_past_participle_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces hommes, Nina les a _____ hier devant la gare.",
+          "choices": [
+            {
+              "text": "vus",
+              "correct": true
+            },
+            {
+              "text": "vu",
+              "correct": false
+            },
+            {
+              "text": "vue",
+              "correct": false
+            },
+            {
+              "text": "voir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_vus_voir_past_participle_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ces tableaux, je les ai vus au musée.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "seen",
+              "correct": true
+            },
+            {
+              "text": "painted",
+              "correct": false
+            },
+            {
+              "text": "bought",
+              "correct": false
+            },
+            {
+              "text": "hidden",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_vus_voir_past_participle_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les bateaux que Paul a vus ce matin quittent maintenant le port.",
+          "prompt": "Quel mot indique qu’il les a observés ?",
+          "choices": [
+            {
+              "text": "quittent",
+              "correct": false
+            },
+            {
+              "text": "port",
+              "correct": false
+            },
+            {
+              "text": "vus",
+              "correct": true
+            },
+            {
+              "text": "matin",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

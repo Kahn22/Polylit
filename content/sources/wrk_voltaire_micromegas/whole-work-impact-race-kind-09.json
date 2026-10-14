@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:41:59.343Z",
+  "sense": {
+    "id": "sns_fr_race_kind",
+    "lemmaId": "lem_parure_race_noun_0aab185ee8",
+    "gloss": "kinds; sorts",
+    "definition": "Catégories ou sortes de personnes ou de choses, dans un emploi figuré."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_1_3",
+      "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_4_5",
+      "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f:sns_fr_race_kind",
+      "surface": "races",
+      "lemma": "race",
+      "currentRevision": "rev_6a73a03e5a6dff9f0e347d87d78b85da025777c42353c2799f35f751cd252724",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_32d639d2acb2a513c1bf39ed",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_098",
+          "passage": "Il emprunta, demandant mille francs à l’un, cinq cents à l’autre, cinq louis par-ci, trois louis par-là. Il fit des billets, prit des engagements ruineux, eut affaire aux usuriers, à toutes les races de prêteurs. Il compromit toute la fin de son existence, risqua sa signature sans savoir même s’il pourrait y faire honneur, et, épouvanté par les angoisses de l’avenir, par la noire misère qui allait s’abattre sur lui, par la perspective de toutes les privations physiques et de toutes les tortures morales,",
+          "span": [
+            194,
+            199
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ce récit décrit toutes les races de filous, du menteur au voleur.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "families",
+              "correct": false
+            },
+            {
+              "text": "nationalities",
+              "correct": false
+            },
+            {
+              "text": "generations",
+              "correct": false
+            },
+            {
+              "text": "kinds",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il dénonce plusieurs _____ de tricheurs, classés selon leurs procédés.",
+          "choices": [
+            {
+              "text": "générations",
+              "correct": false
+            },
+            {
+              "text": "nationalités",
+              "correct": false
+            },
+            {
+              "text": "races",
+              "correct": true
+            },
+            {
+              "text": "familles",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_race_kind_parure_races_lem_parure_race_noun_0aab185ee8_40a40af72f_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il distingue deux races de flatteurs : ceux qui veulent plaire et ceux qui veulent obtenir un service.",
+          "prompt": "Quel mot signifie ici sortes ou catégories ?",
+          "choices": [
+            {
+              "text": "service",
+              "correct": false
+            },
+            {
+              "text": "races",
+              "correct": true
+            },
+            {
+              "text": "flatteurs",
+              "correct": false
+            },
+            {
+              "text": "plaire",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

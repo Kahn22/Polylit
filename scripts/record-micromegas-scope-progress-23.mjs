@@ -1,0 +1,9 @@
+import{readFileSync,writeFileSync}from'node:fs';import{createHash}from'node:crypto';
+const dir=new URL('../content/sources/wrk_voltaire_micromegas/',import.meta.url).pathname,read=f=>JSON.parse(readFileSync(dir+f)),sha=x=>createHash('sha256').update(x).digest('hex'),write=(f,x)=>writeFileSync(dir+f,JSON.stringify(x,null,2)+'\n');
+const plan=read('whole-work-scope-plan-23.json'),files=['whole-work-scope-plan-23.json',...plan.impacts.map(i=>i.file)];
+const progress={version:1,status:plan.status,summary:plan.summary,nextAction:plan.nextAction,evidenceSha256:Object.fromEntries(files.map(f=>[f,sha(readFileSync(dir+f))]))};
+write('whole-work-scope-progress-23.json',progress);files.push('whole-work-scope-progress-23.json');const dossier=read('dossier.json');
+for(const file of files){const b=readFileSync(dir+file);dossier.evidence=[...dossier.evidence.filter(e=>e.file!==file),{role:'whole_work_pierre_scope_reconciliation_offline',file,bytes:b.length,sha256:sha(b)}];}
+dossier.review.wholeWorkPierreScope={file:'whole-work-scope-progress-23.json',status:progress.status,summary:progress.summary,nextAction:progress.nextAction};
+if(!dossier.history.at(-1).reason.startsWith('Scope reconciliation23:'))dossier.history.push({version:dossier.history.at(-1).version+1,date:'2026-10-01',reason:'Scope reconciliation23: Read one full gemstone source/three current bands, all three inactive rock bands and the complete VII201 source with its already authored feminine-singular contextual bank. Broaden the same proper rock noun metadata to include an ordinary fragment, retain gem/rock meanings separately, and preserve inactive bad templates without reactivation. No new piece-only meaning, duplicated bank or mastery transfer. Next monsieur titles; unit213 reprendre remains held.'});
+write('dossier.json',dossier);console.log(JSON.stringify({history:dossier.history.at(-1).version,...progress.summary,nextAction:progress.nextAction}));

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:57:14.628Z",
+  "sense": {
+    "id": "sns_fr_voir_ascertain",
+    "lemmaId": "lem_voir",
+    "gloss": "to see; to check; to find out",
+    "definition": "Examiner ou vérifier quelque chose pour s’en assurer."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_6_8",
+      "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_1_3",
+      "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_voye_lem_voir_332d590f6c:sns_fr_voir_ascertain",
+      "surface": "voye",
+      "lemma": "voir",
+      "currentRevision": "rev_3f70cb0385348200d348f92c19576f31d1ddedecccf9ceeef057f68d09c5f3a7",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_62dbb9c208bdddb27128b1fa",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            230,
+            234
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Que je voye si cette chaussure me va, demande la jeune fille.",
+          "prompt": "Quel verbe ancien exprime une vérification souhaitée ?",
+          "choices": [
+            {
+              "text": "voye",
+              "correct": true
+            },
+            {
+              "text": "chaussure",
+              "correct": false
+            },
+            {
+              "text": "demande",
+              "correct": false
+            },
+            {
+              "text": "fille",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Laissez-moi faire le calcul pour que je voye si la somme est correcte.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "change",
+              "correct": false
+            },
+            {
+              "text": "check",
+              "correct": true
+            },
+            {
+              "text": "hide",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_voir_ascertain_cendrillon_voye_lem_voir_332d590f6c_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il faut que je _____ si ce résultat est exact, dit le personnage dans l’ancienne graphie.",
+          "choices": [
+            {
+              "text": "voir",
+              "correct": false
+            },
+            {
+              "text": "voye",
+              "correct": true
+            },
+            {
+              "text": "voyons",
+              "correct": false
+            },
+            {
+              "text": "voyez",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

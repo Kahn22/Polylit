@@ -1,119 +1,139 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T05:59:20.842Z",
+  "generatedAt": "2026-10-03T05:10:18.320Z",
   "sense": {
-    "id": "sns_parure_oiseau_bird_9f2b853e65",
-    "lemmaId": "lem_parure_oiseau_noun_b7fad63659",
-    "gloss": "birds",
-    "definition": "animaux vertébrés couverts de plumes"
+    "id": "sns_entendre_mean",
+    "lemmaId": "lem_entendre",
+    "gloss": "Entends is the first-person present of entendre in the sense mean or intend.",
+    "definition": "Entends is the first-person present of entendre in the sense mean or intend."
   },
   "changeType": "proposed sense edit only; no mutation or approval performed",
   "impact": {
     "activeIdentityCount": 1,
-    "occurrenceCount": 1,
+    "occurrenceCount": 3,
     "activeQuizCount": 3,
     "historicalQuizCount": 0,
     "affectedQuizIds": [
-      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_advanced",
-      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_early",
-      "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_intermediate"
+      "qiz_entends_mean_advanced",
+      "qiz_entends_mean_early",
+      "qiz_entends_mean_intermediate"
     ],
     "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
   },
   "identities": [
     {
-      "id": "srf_parure_oiseaux_oiseau_noun_fc62a7de82:sns_parure_oiseau_bird_9f2b853e65",
-      "surface": "oiseaux",
-      "lemma": "oiseau",
-      "currentRevision": "rev_2a2604c471d7efa6e380f3feef7f430da3d43757680f5a973e4e0bffefd44b5d",
+      "id": "srf_entends:sns_entendre_mean",
+      "surface": "entends",
+      "lemma": "entendre",
+      "currentRevision": "rev_b5b1ab20facabe8b7505009a4aeace3ed4cce7c9bcdbd1f6d1a82e1f6d5adf84",
       "approval": "approved",
       "occurrences": [
         {
-          "id": "occ_parure_2d5b6e226146fd5ad2031415",
-          "workId": "wrk_maupassant_la_parure",
-          "unitId": "unt_maupassant_parure_006",
-          "passage": "Quand elle s’asseyait, pour dîner, devant la table ronde couverte d’une nappe de trois jours, en face de son mari qui découvrait la soupière en déclarant d’un air enchanté : « Ah ! le bon pot-au-feu ! je ne sais rien de meilleur que cela… », elle songeait aux dîners fins, aux argenteries reluisantes, aux tapisseries peuplant les murailles de personnages anciens et d’oiseaux étranges au milieu d’une forêt de féerie ;",
+          "id": "occ_c95aed3572821f6b86dd4176",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_08",
+          "passage": "Notre Lièvre n’avait que quatre pas à faire ; j’entends de ceux qu’il fait lorsque près d’être atteint il s’éloigne des chiens, les renvoie aux calendes, et leur fait arpenter les landes.",
           "span": [
-            369,
-            376
+            48,
+            55
+          ]
+        },
+        {
+          "id": "occ_zola_b0b1f3a3a02f1178d2e94751",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_077",
+          "passage": "Le fameux dossier Picquart, dont il a été tant parlé, n’a jamais été que le dossier Billot, j’entends le dossier fait par un subordonné pour son ministre, le dossier qui doit exister encore au ministère de la guerre.",
+          "span": [
+            94,
+            101
+          ]
+        },
+        {
+          "id": "occ_zola_ccc436bbe9f523131a84b4d1",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_185",
+          "passage": "J’accuse le général de Pellieux et le commandant Ravary d’avoir fait une enquête scélérate, j’entends par là une enquête de la plus monstrueuse partialité, dont nous avons, dans le rapport du second, un impérissable monument de naïve audace.",
+          "span": [
+            94,
+            101
           ]
         }
       ],
       "quizzes": [
         {
-          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_advanced",
+          "id": "qiz_entends_mean_advanced",
           "active": true,
           "band": "levels_6_8",
           "approval": "approved",
-          "context": "Les oiseaux quittent leurs nids au lever du jour ; leurs plumes brillent lorsqu’ils traversent le jardin.",
-          "prompt": "Quel nom désigne les animaux couverts de plumes ?",
+          "context": "J’entends par liberté le droit de choisir, tandis que Paul parle d’indépendance.",
+          "prompt": "Quel mot signifie je veux dire ?",
           "choices": [
             {
-              "text": "jour",
-              "correct": false
-            },
-            {
-              "text": "jardin",
-              "correct": false
-            },
-            {
-              "text": "oiseaux",
+              "text": "entends",
               "correct": true
             },
             {
-              "text": "nids",
+              "text": "liberté",
+              "correct": false
+            },
+            {
+              "text": "choisir",
+              "correct": false
+            },
+            {
+              "text": "Paul",
               "correct": false
             }
           ]
         },
         {
-          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_early",
+          "id": "qiz_entends_mean_early",
           "active": true,
           "band": "levels_1_3",
           "approval": "approved",
-          "context": "Les oiseaux se posent sur les branches et commencent à chanter.",
+          "context": "J’entends par là une règle générale.",
           "prompt": "Meaning",
           "choices": [
             {
-              "text": "insects",
-              "correct": false
-            },
-            {
-              "text": "mammals",
-              "correct": false
-            },
-            {
-              "text": "reptiles",
-              "correct": false
-            },
-            {
-              "text": "birds",
+              "text": "mean",
               "correct": true
+            },
+            {
+              "text": "deny",
+              "correct": false
+            },
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "reject",
+              "correct": false
             }
           ]
         },
         {
-          "id": "qiz_parure_oiseaux_oiseau_bird_e7e07d323e_intermediate",
+          "id": "qiz_entends_mean_intermediate",
           "active": true,
           "band": "levels_4_5",
           "approval": "approved",
-          "context": "Ces _____ ont un bec, deux ailes et un corps couvert de plumes.",
+          "context": "Par ce mot, j’___ une idée très précise.",
           "choices": [
             {
-              "text": "insectes",
-              "correct": false
-            },
-            {
-              "text": "mammifères",
-              "correct": false
-            },
-            {
-              "text": "reptiles",
-              "correct": false
-            },
-            {
-              "text": "oiseaux",
+              "text": "entends",
               "correct": true
+            },
+            {
+              "text": "entend",
+              "correct": false
+            },
+            {
+              "text": "attends",
+              "correct": false
+            },
+            {
+              "text": "écoute",
+              "correct": false
             }
           ]
         }

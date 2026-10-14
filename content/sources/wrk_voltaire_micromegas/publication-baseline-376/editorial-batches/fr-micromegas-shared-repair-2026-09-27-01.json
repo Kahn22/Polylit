@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "id": "fr-micromegas-shared-repair-2026-09-27-01",
+  "language": "fr",
+  "masteryIdsChanged": false,
+  "progressTransfers": [],
+  "correctedSenses": 2,
+  "correctedHistoricalQuestionBands": 3,
+  "activeIdentityReapprovals": 3,
+  "activeQuizReapprovals": 9,
+  "historicalQuizProposals": 3,
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_cendrillon_s_ur_femme_ou_fille_ayant_le_meme_pere_et_la_meme_mere_que_la_personne_consideree_si_un_seul_des_parents_est_commun_c_est_une_demi_s_ur_722dee1466",
+      "before": {
+        "id": "sns_cendrillon_s_ur_femme_ou_fille_ayant_le_meme_pere_et_la_meme_mere_que_la_personne_consideree_si_un_seul_des_parents_est_commun_c_est_une_demi_s_ur_722dee1466",
+        "lemmaId": "lem_cendrillon_s_ur_noun_e4c9350ccf",
+        "gloss": "sisters",
+        "definition": "Filles ou femmes considérées comme membres d’une même fratrie ; le conte emploie ce mot pour les filles de la belle-mère de Cendrillon."
+      },
+      "after": {
+        "id": "sns_cendrillon_s_ur_femme_ou_fille_ayant_le_meme_pere_et_la_meme_mere_que_la_personne_consideree_si_un_seul_des_parents_est_commun_c_est_une_demi_s_ur_722dee1466",
+        "lemmaId": "lem_cendrillon_s_ur_noun_e4c9350ccf",
+        "gloss": "sister; sisters",
+        "definition": "Filles ou femmes considérées comme membres d’une même fratrie ; le conte emploie ce mot pour les filles de la belle-mère de Cendrillon."
+      },
+      "reason": "Adjust shared sense gloss to cover both singular and plural. Keep the two existing surfaces and all six authored questions; the singular Micromégas form reuses its existing identity after exact-revision review."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_early",
+      "before": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_early",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Le professeur emploie « Ciel » pour exprimer cette idée : Espace immense dans lequel se meuvent tous les astres..",
+        "correctAnswer": "sky",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "Ciel",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "sky",
+          "a window",
+          "a notebook",
+          "a garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_early",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Derham affirme voir le ciel avec sa lunette.",
+        "correctAnswer": "sky",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "ciel",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "sky",
+          "earth",
+          "sea",
+          "forest"
+        ]
+      },
+      "reason": "Replaced the three rejected dictionary-placeholder sky questions with the source-reviewed Micromégas contexts; retained their IDs, target identity, and three separate bands. The identity has no indexed published use until Micromégas import."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_intermediate",
+      "before": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_intermediate",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Le terme précis pour exprimer « Espace immense dans lequel se meuvent tous les astres. » est _____.",
+        "correctAnswer": "Ciel",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "Ciel",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_intermediate",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Les étoiles paraissent dans cet espace au-dessus de nous : le ___.",
+        "correctAnswer": "ciel",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "ciel",
+          "sol",
+          "lac",
+          "champ"
+        ]
+      },
+      "reason": "Replaced the three rejected dictionary-placeholder sky questions with the source-reviewed Micromégas contexts; retained their IDs, target identity, and three separate bands. The identity has no indexed published use until Micromégas import."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_advanced",
+      "before": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_advanced",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Dans cette situation, le mot « Ciel » exprime précisément ceci : Espace immense dans lequel se meuvent tous les astres.. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "correctAnswer": "Ciel",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « Espace immense dans lequel se meuvent tous les astres. » ?",
+        "choicesFrench": [
+          "Ciel",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_cendrillon_ciel_sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc_08b6339e35_advanced",
+        "surfaceFormId": "srf_cendrillon_ciel_lem_cendrillon_ciel_noun_9665aa025f_4434a4d7a6",
+        "senseId": "sns_cendrillon_ciel_espace_immense_dans_lequel_se_meuvent_tous_les_astres_bf02df63bc",
+        "contextFrench": "Le ciel est l’espace visible au-dessus de nous où apparaissent les astres. Le sol est sous nos pieds, le lac contient de l’eau et le champ est une surface de terre.",
+        "correctAnswer": "ciel",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne cet espace supérieur ?",
+        "choicesFrench": [
+          "ciel",
+          "sol",
+          "lac",
+          "champ"
+        ]
+      },
+      "reason": "Replaced the three rejected dictionary-placeholder sky questions with the source-reviewed Micromégas contexts; retained their IDs, target identity, and three separate bands. The identity has no indexed published use until Micromégas import."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_parure_oiseau_bird_9f2b853e65",
+      "before": {
+        "id": "sns_parure_oiseau_bird_9f2b853e65",
+        "lemmaId": "lem_parure_oiseau_noun_b7fad63659",
+        "gloss": "birds",
+        "definition": "animaux vertébrés couverts de plumes"
+      },
+      "after": {
+        "id": "sns_parure_oiseau_bird_9f2b853e65",
+        "lemmaId": "lem_parure_oiseau_noun_b7fad63659",
+        "gloss": "bird; birds",
+        "definition": "animaux vertébrés couverts de plumes"
+      },
+      "reason": "Adjust the shared gloss to cover the existing plural oiseaux and proposed singular oiseau. Preserve the old plural identity, one indexed use and its three grammatical questions; add a new singular surface with its own three source-reviewed bands at import."
+    }
+  ]
+}

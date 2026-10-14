@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-review-2026-09-25-24",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 7,
+  "approvals": 7,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "indexed occurrences and three questions for each unchanged identity after three semantic splits",
+  "changes": [
+    {
+      "subjectId": "srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "approve",
+      "rationale": "Across five passages, avez expresses having a duty or power, or acts as the auxiliary in « m’avez fait » and « avez conquis ». The shared avoir sense explicitly covers both functions, and the three questions correctly test vous avez with distinct possession contexts.",
+      "before": {
+        "id": "vocabulary:srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_7691155cad4c56cffce4ae5c477c5dd99cfa08577c2d3840e3e0b570cdff1ae5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed contexts: avez is present avoir, expressing possession/experience and functioning as auxiliary. The sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_avez_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_7691155cad4c56cffce4ae5c477c5dd99cfa08577c2d3840e3e0b570cdff1ae5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across five passages, avez expresses having a duty or power, or acts as the auxiliary in « m’avez fait » and « avez conquis ». The shared avoir sense explicitly covers both functions, and the three questions correctly test vous avez with distinct possession contexts.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.876Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "approve",
+      "rationale": "The five eu passages express having had evidence, trouble, difficult days or desire, or form « il n’y a eu ». The broad have/auxiliary sense covers the participle, and all three existing questions use the same past-participle form and had meaning.",
+      "before": {
+        "id": "vocabulary:srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_99d7c1fe393e35576a45e506b39a5c863d175d55b596f59cc6cf55fbddcb03a7",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Across contexts, eu is the past participle of avoir in perfect constructions, expressing had/experienced/obtained; auxiliary sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_eu_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_99d7c1fe393e35576a45e506b39a5c863d175d55b596f59cc6cf55fbddcb03a7",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The five eu passages express having had evidence, trouble, difficult days or desire, or form « il n’y a eu ». The broad have/auxiliary sense covers the participle, and all three existing questions use the same past-participle form and had meaning.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.878Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "approve",
+      "rationale": "The five nous avons spans include auxiliary uses with vu, voulu and fait, possession of a report, and « n’avons pour elle que tendresse ». The shared meaning includes both have and auxiliary avoir; all three questions use the correct first-person plural form.",
+      "before": {
+        "id": "vocabulary:srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_1c020ffb8631a5d5f65645da4a38016d552adb81c87acc93dff5658aa914d247",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed contexts: avons is present avoir as auxiliary (avons fait/vu) and in possessive/experiential uses; the sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_avons_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_1c020ffb8631a5d5f65645da4a38016d552adb81c87acc93dff5658aa914d247",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The five nous avons spans include auxiliary uses with vu, voulu and fait, possession of a report, and « n’avons pour elle que tendresse ». The shared meaning includes both have and auxiliary avoir; all three questions use the correct first-person plural form.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.879Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "approve",
+      "rationale": "The three subjunctive ait occurrences serve as the auxiliary in « ait pu », « ait jamais veuës », or form « ait lieu ». The existing questions accurately distinguish the subjunctive form ait in three grammatical contexts.",
+      "before": {
+        "id": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_946f42d36cbb862d6bf34862e52587496daa7676cb31c142442626862e33d469",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Ait is the subjunctive form of avoir, used as an auxiliary in the examples; the prepared possess/auxiliary sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_946f42d36cbb862d6bf34862e52587496daa7676cb31c142442626862e33d469",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The three subjunctive ait occurrences serve as the auxiliary in « ait pu », « ait jamais veuës », or form « ait lieu ». The existing questions accurately distinguish the subjunctive form ait in three grammatical contexts.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.880Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+      "outcome": "approve",
+      "rationale": "All four allait passages use the imperfect of aller to project an impending event: testimony, the sun shining, approaching misery, or speaking to Mme Forestier. The three questions test this was-going-to construction and its singular form.",
+      "before": {
+        "id": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_f641d2f144c9109b86315cde6788f21df56e1e7314d41f4bb68b18d7697d2065",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed contexts: allait + infinitive marks an action expected or about to happen, including speaking, depositing evidence, and the sun shining. The sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_f641d2f144c9109b86315cde6788f21df56e1e7314d41f4bb68b18d7697d2065",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "All four allait passages use the imperfect of aller to project an impending event: testimony, the sun shining, approaching misery, or speaking to Mme Forestier. The three questions test this was-going-to construction and its singular form.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.881Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+      "outcome": "approve",
+      "rationale": "The judges « allaient ... acquitter » and the friends « allaient tirer des alouettes » each describe a forthcoming action. The three questions correctly test the plural imperfect of the same prospective construction.",
+      "before": {
+        "id": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_df1e4d1500f1af7c8802a9110a7b11ff57b5bc23aad409702506fe24a0c7bca2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In les juges allaient naturellement acquitter, allaient marks an imminent or expected action (‘were going to acquit’); sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_df1e4d1500f1af7c8802a9110a7b11ff57b5bc23aad409702506fe24a0c7bca2",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The judges « allaient ... acquitter » and the friends « allaient tirer des alouettes » each describe a forthcoming action. The three questions correctly test the plural imperfect of the same prospective construction.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.881Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_en_en:sns_zola_en_doute",
+      "reviewId": "vocabulary:srf_zola_en_en:sns_zola_en_doute",
+      "outcome": "approve",
+      "rationale": "« ne mettaient pas en doute que le fameux bordereau fût de l’écriture d’Esterhazy » uses en within mettre en doute, to call into question. The three distinct questions all test that idiom rather than a gerund or an object pronoun.",
+      "before": {
+        "id": "vocabulary:srf_zola_en_en:sns_zola_en_doute",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_en_en:sns_zola_en_doute",
+        "subjectRevision": "rev_0772358e0f7b91a74aeb54fd09239db1e7f691f846a23f198b3d8e54a6a2fd6e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "En in ne mettaient pas en doute is part of a fixed construction; its function requires phrase-level explanation."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_en_en:sns_zola_en_doute",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_en_en:sns_zola_en_doute",
+        "subjectRevision": "rev_0772358e0f7b91a74aeb54fd09239db1e7f691f846a23f198b3d8e54a6a2fd6e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "« ne mettaient pas en doute que le fameux bordereau fût de l’écriture d’Esterhazy » uses en within mettre en doute, to call into question. The three distinct questions all test that idiom rather than a gerund or an object pronoun.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:08:22.882Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

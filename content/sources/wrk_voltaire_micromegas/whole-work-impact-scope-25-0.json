@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:18.899Z",
+  "sense": {
+    "id": "sns_fr_faire_part_share",
+    "lemmaId": "lem_faire",
+    "gloss": "to share; to inform (faire part)",
+    "definition": "Dans faire part de, partager quelque chose ou communiquer une information."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_faire_part_share_fit_levels_1_3",
+      "qiz_fr_faire_part_share_fit_levels_4_5",
+      "qiz_fr_faire_part_share_fit_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fit:sns_fr_faire_part_share",
+      "surface": "fit",
+      "lemma": "faire",
+      "currentRevision": "rev_5bd2a5d2f1fa85033a86494a69bdace103d098ce1247c6d40c1bcf1e242362df",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_4a69d402b04964c2ecc2e185",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_020",
+          "passage": "pourveu qu’il se trouvast des étoffes assez belles et des ouvriers assez habiles. Le Fils du Roi la mit à la place la plus honorable, et ensuite la prit pour la mener danser : elle dança avec tant de grace, qu’on l’admira encore davantage. On apporta une fort belle collation, dont le jeune Prince ne mangea point, tant il estoit occupé à la considerer. Elle alla s’asseoir auprés de ses sœurs, et leur fit mille honnestetez : elle leur fit part des oranges et des citrons que le Prince luy avoit donnez ;",
+          "span": [
+            437,
+            440
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_faire_part_share_fit_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle lui fit part de ses inquiétudes en lui racontant ce qui la préoccupait.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "shared",
+              "correct": true
+            },
+            {
+              "text": "concealed",
+              "correct": false
+            },
+            {
+              "text": "forgot",
+              "correct": false
+            },
+            {
+              "text": "denied",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_part_share_fit_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il nous _____ part de sa décision pour nous en informer.",
+          "choices": [
+            {
+              "text": "firent",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            },
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "fit",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_faire_part_share_fit_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle fit part de ses provisions à ses compagnons, leur en donnant une portion.",
+          "prompt": "Quel verbe entre dans l’expression signifiant partager les provisions ?",
+          "choices": [
+            {
+              "text": "compagnons",
+              "correct": false
+            },
+            {
+              "text": "portion",
+              "correct": false
+            },
+            {
+              "text": "fit",
+              "correct": true
+            },
+            {
+              "text": "provisions",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

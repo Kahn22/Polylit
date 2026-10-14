@@ -1,0 +1,3159 @@
+{
+  "version": 1,
+  "status": "global_and_earlier_lemma_inventory_individually_compared",
+  "items": [
+    {
+      "lemma": "retrouver",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_retrouver",
+          "headword": "retrouver",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_retrouver_encounter",
+              "lemmaId": "lem_zola_retrouver",
+              "gloss": "to meet again; encounter",
+              "definition": "rencontrer de nouveau une personne dans un autre lieu ou moment"
+            },
+            {
+              "id": "sns_zola_retrouver_rediscover",
+              "lemmaId": "lem_zola_retrouver",
+              "gloss": "to find again; recognize",
+              "definition": "reconnaître de nouveau une personne ou une trace déjà connue"
+            },
+            {
+              "id": "sns_parure_retrouver_revenir_en_contact_avec_quelqu_un_ou_quelque_chose_dont_on_avait_ete_separe_qu_on_avait_perdu_ou_qu_on_avait_oublie_27400fd933",
+              "lemmaId": "lem_zola_retrouver",
+              "gloss": "to find (again); to rediscover",
+              "definition": "Revenir en contact avec quelqu'un ou quelque chose dont on avait été séparé, qu'on avait perdu ou qu'on avait oublié."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "équipage",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-batch-07.json",
+          "fileSha256": "b3019185ca085ed49565286c1f71517ccbc357f781c32728f01d30fc0e5fa5b5",
+          "matches": [
+            {
+              "key": "equipages_travel_conveyances",
+              "form": "équipages",
+              "lemma": "équipage",
+              "partOfSpeech": "noun masculine plural",
+              "meaning": "means of transport; traveling conveyances",
+              "editorialNote": "The narrator contrasts human carriages with extraordinary celestial travel arrangements, not a ship’s crew. Historical vehicle and entourage senses: https://www.dictionnaire-academie.fr/article/A3E0977.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 1,
+                  "unit": 17,
+                  "start": 87,
+                  "end": 96,
+                  "text": "équipages"
+                }
+              ],
+              "status": "workwide_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Ces équipages transportent les voyageurs à travers le pays.",
+                  "question": "Meaning",
+                  "answer": "traveling conveyances",
+                  "choices": [
+                    "traveling conveyances",
+                    "ship crews",
+                    "maps",
+                    "cities"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Ces ___ permettent aux voyageurs de passer d’une planète à l’autre.",
+                  "question": "Complétez la phrase.",
+                  "answer": "équipages",
+                  "choices": [
+                    "équipages",
+                    "bagages",
+                    "paysages",
+                    "villages"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Les équipages emportent les voyageurs sur la route. Les bagages sont leurs valises ; les paysages défilent et les villages marquent les étapes.",
+                  "question": "Quel mot désigne ici les moyens de voyager ?",
+                  "answer": "équipages",
+                  "choices": [
+                    "équipages",
+                    "bagages",
+                    "paysages",
+                    "villages"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "equipages_travel_conveyances",
+              "form": "équipages",
+              "lemma": "équipage",
+              "meaning": "means of transport; traveling conveyances",
+              "partOfSpeech": "noun masculine plural",
+              "sourceOccurrencesSha256": "47ee4f3583b200d660068b99d09cdbe75cd82e0a919f187c073781f2c9927613",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "8c6568524c9ebb0b0d2c7beae129163ff2724e1386cbadebe2868f7894200c71",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_lemma_sense",
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "équipage:equipages_travel_conveyances",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-batch-02.json",
+          "fileSha256": "90845b90cdfd0a0887816e7045d513e2078835b1d2999f69f5ae29b03b808b72",
+          "matches": [
+            {
+              "key": "equipage_chapter_05_02",
+              "form": "équipage",
+              "lemma": "équipage",
+              "partOfSpeech": "noun masculine singular",
+              "meaning": "ship’s crew",
+              "sourceOccurrences": [
+                {
+                  "chapter": 5,
+                  "unit": 118,
+                  "start": 31,
+                  "end": 39,
+                  "text": "équipage"
+                }
+              ],
+              "editorialNote": "Chapter V source context: Il s’agit du personnel qui sert sur le navire. Individual editorial signoff remains pending.",
+              "status": "offline_contextual_question_draft_pending_editorial_review",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Les passagers et les gens de l’équipage, qui s’étaient crus enlevés par un ouragan, et qui se croyaient sur une espèce de rocher, se mettent tous en mouvement ; les matelots prennent des tonneaux de vin, les jettent sur la main de Micromégas, et se précipitent après.",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "ship’s crew",
+                  "choices": [
+                    "ship’s crew",
+                    "ship’s cargo",
+                    "ship’s hull",
+                    "storm"
+                  ],
+                  "targetText": "équipage"
+                },
+                {
+                  "band": "4-5",
+                  "context": "Les gens de l’___ sont sur le vaisseau.",
+                  "question": "Complétez la phrase.",
+                  "answer": "équipage",
+                  "choices": [
+                    "équipage",
+                    "océan",
+                    "horizon",
+                    "animal"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Il s’agit du personnel qui sert sur le navire.",
+                  "question": "Quel mot convient ?",
+                  "answer": "équipage",
+                  "choices": [
+                    "équipage",
+                    "océan",
+                    "horizon",
+                    "animal"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "equipage_chapter_05_02",
+              "form": "équipage",
+              "lemma": "équipage",
+              "meaning": "ship’s crew",
+              "batchFile": "chapter-05-batch-02.json",
+              "questionSha256": "33b9c603d8e0d7671112007d42cc1305f240228db8d2b3abe06aa697b9e168ec",
+              "sourceOccurrencesSha256": "40f5684db54b4788aa74fb8435e8e177b74cd5d9f59aa809d6bb00497465292f",
+              "sourceUseCount": 1,
+              "route": "new_sense_planned_earlier_lemma",
+              "dependsOn": "chapter-01-identity-plan.json:equipages_travel_conveyances",
+              "rationale": "A ship’s serving personnel differ from the earlier equipages, which name travel conveyances.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-batch-02.json",
+          "fileSha256": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe",
+          "matches": [
+            {
+              "form": "équipage",
+              "lemma": "équipage",
+              "partOfSpeech": "noun masculine singular",
+              "meaning": "ship’s crew",
+              "key": "équipage_chapter_06_02_139_66",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 139,
+                  "start": 66,
+                  "end": 74,
+                  "text": "équipage",
+                  "context": "La circonférence de l’entonnoir enveloppait le vaisseau et tout l’équipage."
+                },
+                {
+                  "chapter": 6,
+                  "unit": 148,
+                  "start": 63,
+                  "end": 71,
+                  "text": "équipage",
+                  "context": "Le Sirien tenait le nain sur ses genoux, et le vaisseau avec l’équipage sur un ongle ; il baissait la tête et parlait bas."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "La circonférence de l’entonnoir enveloppait le vaisseau et tout l’équipage.",
+                  "targetText": "équipage",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "ship’s crew",
+                  "choices": [
+                    "ship’s crew",
+                    "ocean",
+                    "horizon",
+                    "animal"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Le personnel qui travaille à bord du navire constitue l’___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "équipage",
+                  "choices": [
+                    "équipage",
+                    "océan",
+                    "horizon",
+                    "animal"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel nom désigne collectivement le personnel qui sert sur un navire ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "équipage",
+                  "choices": [
+                    "équipage",
+                    "océan",
+                    "horizon",
+                    "animal"
+                  ]
+                }
+              ],
+              "reviewNote": "Both contexts mean the ship’s personnel, matching the earlier planned crew sense, not Chapter I travel conveyances. The earlier middle clue gens de l’ was too weak; this same-identity revised bank makes personnel explicit. All choices are masculine singular and allow elided l’; no duplicate meaning is created."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "rajuster",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "proprement",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-04-batch-01.json",
+          "fileSha256": "3a4e0fd5814460e27460bd2d0670e0051322e3cdc161371256b3c8bfe55e28e7",
+          "matches": [
+            {
+              "key": "proprement_neatly",
+              "form": "proprement",
+              "lemma": "proprement",
+              "partOfSpeech": "adverb",
+              "meaning": "neatly; in a tidy manner",
+              "editorialNote": "Chapter IV source 83:120 shows proprement as neatly; in a tidy manner. Each authored contrast retains the same grammatical frame where relevant.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 4,
+                  "unit": 83,
+                  "start": 120,
+                  "end": 130,
+                  "text": "proprement"
+                }
+              ],
+              "status": "offline_new_contextual_meaning_and_three_bands_pending_identity_route",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "… que leurs gens leur apprêtèrent assez proprement.",
+                  "question": "Meaning",
+                  "answer": "neatly",
+                  "choices": [
+                    "neatly",
+                    "clumsily",
+                    "late",
+                    "angrily"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Le repas est préparé avec soin : il est apprêté ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "proprement",
+                  "choices": [
+                    "proprement",
+                    "grossièrement",
+                    "tardivement",
+                    "coléreusement"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Proprement indique le soin de la préparation; grossièrement indique la négligence, tardivement un retard et coléreusement de la colère.",
+                  "question": "Quel mot signifie neatly ?",
+                  "answer": "proprement",
+                  "choices": [
+                    "proprement",
+                    "grossièrement",
+                    "tardivement",
+                    "coléreusement"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "proprement_neatly",
+              "form": "proprement",
+              "lemma": "proprement",
+              "meaning": "neatly; in a tidy manner",
+              "batchFile": "chapter-04-batch-01.json",
+              "questionSha256": "ade9b9829f5b544bf94de7cb8a3819e4297abf225379b9f83d10f30c7801975b",
+              "sourceOccurrencesSha256": "e70db2e44f173d8f209e7027f3d98b01cc4862c6b0f3081f8fa4a3f9150b5e09",
+              "sourceUseCount": 1,
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "proprement:proprement_neatly",
+              "rationale": "No published French lemma for proprement; prepare a new neatly; in a tidy manner source sense and check later occurrences across the remaining chapters before learner import.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "quoique",
+      "publishedFrench": [
+        {
+          "id": "lem_fr_quoique_conjunction",
+          "headword": "quoique",
+          "partOfSpeech": "conjunction",
+          "senses": [
+            {
+              "id": "sns_fr_quoy_que_although",
+              "lemmaId": "lem_fr_quoique_conjunction",
+              "gloss": "although (historical quoy que)",
+              "definition": "Dans l’ancienne graphie séparée quoy que, premier élément de la conjonction concessive quoique."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-06-batch-02.json",
+          "fileSha256": "1c68745a15d82b8875897ce643a23d584e21d6ad81d26d3b7bcf2611bf4d6efe",
+          "matches": [
+            {
+              "form": "quoique",
+              "lemma": "quoique",
+              "partOfSpeech": "conjunction",
+              "meaning": "although",
+              "key": "quoique_chapter_06_02_142_23",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 142,
+                  "start": 23,
+                  "end": 30,
+                  "text": "quoique",
+                  "context": "Le nain en fit autant, quoique avec plus de difficulté."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Le nain en fit autant, quoique avec plus de difficulté.",
+                  "targetText": "quoique",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "although",
+                  "choices": [
+                    "although",
+                    "because",
+                    "before",
+                    "unless"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il réussit malgré la difficulté : il réussit, ___ ce soit plus difficile pour lui.",
+                  "question": "Complétez la phrase.",
+                  "answer": "quoique",
+                  "choices": [
+                    "quoique",
+                    "parce que",
+                    "avant que",
+                    "à moins que"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle conjonction exprime une concession, un fait admis malgré une difficulté ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "quoique",
+                  "choices": [
+                    "quoique",
+                    "parce que",
+                    "avant que",
+                    "à moins que"
+                  ]
+                }
+              ],
+              "reviewNote": "The joined spelling quoique expresses the same concession as the published historical quoy que sense. Add a spelling surface with a complete joined-form bank, not a historical-spelling-only meaning. The actual success contrasts with greater difficulty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "fâché",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "fâcher",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "infiniment",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-05-batch-04.json",
+          "fileSha256": "21740e46a1e3a1da1d90bb5abd1811f1234fdea9c61bc7aa56a0d4d3c0edf919",
+          "matches": [
+            {
+              "key": "infiniment_chapter_05_04_infiniment",
+              "form": "infiniment",
+              "lemma": "infiniment",
+              "partOfSpeech": "adverb",
+              "meaning": "infinitely; without limit",
+              "sourceOccurrences": [
+                {
+                  "chapter": 5,
+                  "unit": 124,
+                  "start": 244,
+                  "end": 254,
+                  "text": "infiniment",
+                  "route": "new_or_linked_contextual_meaning_pending_identity_review",
+                  "context": "lui et les siens ne seront jamais que des infiniment petits."
+                }
+              ],
+              "editorialNote": "Source context: infinitely small in the scale comparison. Question quality and cross-work identity remain pending final review.",
+              "status": "offline_contextual_question_draft_pending_editorial_review",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+                  "targetText": "infiniment",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "infinitely",
+                  "choices": [
+                    "infinitely",
+                    "slightly",
+                    "temporarily",
+                    "roughly"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "À l’échelle du géant, leur petitesse semble sans limite : ils sont ___ petits.",
+                  "question": "Complétez la phrase.",
+                  "answer": "infiniment",
+                  "choices": [
+                    "infiniment",
+                    "légèrement",
+                    "relativement",
+                    "assez"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "La petitesse dépasse toute limite imaginable.",
+                  "question": "Quel mot convient ?",
+                  "answer": "infiniment",
+                  "choices": [
+                    "infiniment",
+                    "légèrement",
+                    "relativement",
+                    "assez"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "infiniment_chapter_05_04_infiniment",
+              "form": "infiniment",
+              "lemma": "infiniment",
+              "meaning": "infinitely; without limit",
+              "batchFile": "chapter-05-batch-04.json",
+              "questionSha256": "6b141e6c90747508eba3591073d125d7fcdbd9dd4be0db631fd5de2f540ed2dd",
+              "sourceOccurrencesSha256": "7fc1fec072138b43aeca2429838acc359451209ba500b53c56e0f000d22d70e6",
+              "sourceUseCount": 1,
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "infiniment:infiniment_chapter_05_04_infiniment",
+              "rationale": "No published French lemma or earlier planned matching meaning was found. The exact source uses teach infinitely; without limit; propose this lemma and sense for complete-work reconciliation.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "avoir",
+      "publishedFrench": [
+        {
+          "id": "lem_avoir",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_avoir_beau_in_vain",
+              "lemmaId": "lem_avoir",
+              "gloss": "to do in vain (in avoir beau)",
+              "definition": "Avec beau et un infinitif, indique qu’une action ou une qualité ne suffit pas à produire le résultat attendu."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_du_pronom_elide_l_et_de_la_forme_verbale_aurait_297af83c4f",
+              "lemmaId": "lem_avoir",
+              "gloss": "would have ... him/her/it (object plus auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurait auxiliaire, devant un participe passé."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_as_86588e6d68",
+              "lemmaId": "lem_avoir",
+              "gloss": "what is wrong with you; what do you have",
+              "definition": "Réunion élidée de que et as ; dans qu’as-tu, demande ce qui affecte l’interlocuteur ou ce qu’il possède."
+            },
+            {
+              "id": "sns_cendrillon_avoir_ancienne_graphie_de_avaient_forme_du_verbe_avoir_28a804d6fd",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have (historical avoient)",
+              "definition": "Ancienne graphie d’avaient, forme de l’imparfait du verbe avoir dans son emploi lexical."
+            },
+            {
+              "id": "sns_fr_avoir_compound_auxiliary",
+              "lemmaId": "lem_avoir",
+              "gloss": "have (compound-tense auxiliary)",
+              "definition": "Auxiliaire employé avec un participe passé pour former un temps composé."
+            },
+            {
+              "id": "sns_avoir_primary",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have; auxiliary have",
+              "definition": "Posséder ou présenter quelque chose ; sert aussi d’auxiliaire pour former des temps composés."
+            },
+            {
+              "id": "sns_fr_n_ont_restrictive_auxiliary",
+              "lemmaId": "lem_avoir",
+              "gloss": "ne + have (auxiliary; restrictive ne…que)",
+              "definition": "Réunion de ne élidé et de ont, auxiliaire à la troisième personne du pluriel ; avec que, marque ici une restriction équivalant à seulement."
+            },
+            {
+              "id": "sns_cendrillon_avoir_ancienne_graphie_de_aurai_forme_future_du_verbe_avoir_94d3a5bc90",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have (historical future auray)",
+              "definition": "Ancienne graphie d’aurai, première personne du singulier au futur du verbe avoir."
+            },
+            {
+              "id": "sns_fr_avoir_existential",
+              "lemmaId": "lem_avoir",
+              "gloss": "there be (in il y a)",
+              "definition": "Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée."
+            },
+            {
+              "id": "sns_fr_avoir_air",
+              "lemmaId": "lem_avoir",
+              "gloss": "to look; to seem (avoir l’air)",
+              "definition": "Avec l’air, exprime l’apparence ou l’impression donnée."
+            },
+            {
+              "id": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have; to own; to possess; to get",
+              "definition": "Être en relation possessive, soit concrète ou abstraite, soit permanente ou occasionnelle, dont le possesseur est le sujet et le possédé est le complément d’objet direct."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_aurait_ee7425f24c",
+              "lemmaId": "lem_avoir",
+              "gloss": "what would ... have (in a compound-tense question)",
+              "definition": "Réunion de que interrogatif et aurait auxiliaire ; introduit une question sur une action envisagée au conditionnel passé."
+            },
+            {
+              "id": "sns_loup_agneau_avoir_reunit_le_pronom_elide_l_et_la_forme_conditionnelle_aurais_0e747c9e36",
+              "lemmaId": "lem_avoir",
+              "gloss": "it + would have (auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurais, auxiliaire du conditionnel passé ; le participe passé indique l’action."
+            }
+          ]
+        },
+        {
+          "id": "lem_parure_avoir_verb_fe55e40abc",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_parure_avoir_subjunctive_fd166d2fd9",
+              "lemmaId": "lem_parure_avoir_verb_fe55e40abc",
+              "gloss": "to have",
+              "definition": "Posséder ou disposer de quelque chose, concrètement ou abstraitement ; eût est une forme littéraire du subjonctif imparfait."
+            }
+          ]
+        },
+        {
+          "id": "lem_zola_avoir",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_avoir_possess_auxiliary",
+              "lemmaId": "lem_zola_avoir",
+              "gloss": "to have; auxiliary avoir",
+              "definition": "posséder ou servir d’auxiliaire"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-batch-14.json",
+          "fileSha256": "72a9998cfec85f14b73ed4691b302ee185a389738d67498e94ed0c016fb8b3c8",
+          "matches": [
+            {
+              "key": "ayons_have_subjunctive",
+              "form": "ayons",
+              "lemma": "avoir",
+              "partOfSpeech": "present subjunctive first person plural",
+              "meaning": "that we have",
+              "editorialNote": "L’un des plus cultivés que nous ayons uses subjunctive avoir after the superlative; it denotes belonging to the narrator’s known group, not a different lexical action.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 1,
+                  "unit": 9,
+                  "start": 56,
+                  "end": 61,
+                  "text": "ayons"
+                }
+              ],
+              "status": "workwide_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "C’est l’un des esprits les plus cultivés que nous ayons.",
+                  "question": "Meaning",
+                  "answer": "that we have",
+                  "choices": [
+                    "that we have",
+                    "that we hear",
+                    "that we forget",
+                    "that we draw"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Parmi tous les savants que nous possédons, c’est l’un des plus brillants que nous ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "ayons",
+                  "choices": [
+                    "ayons",
+                    "entendions",
+                    "dessinions",
+                    "oubliions"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Ayons est la forme de avoir dans que nous ayons : ce sont les savants de notre groupe. La forme entendions vient d’entendre, dessinions de dessiner et oubliions d’oublier.",
+                  "question": "Quelle forme signifie que nous avons ?",
+                  "answer": "ayons",
+                  "choices": [
+                    "ayons",
+                    "entendions",
+                    "dessinions",
+                    "oubliions"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-01-batch-21.json",
+          "fileSha256": "7c62f771aed167dacf6a74421ad5ba6e9666dc2b4e14790c9b2277c1d6cce049",
+          "matches": [
+            {
+              "key": "eut_received_order",
+              "form": "eut",
+              "lemma": "avoir",
+              "partOfSpeech": "past historic third singular in avoir ordre",
+              "meaning": "received; was given (an order)",
+              "editorialNote": "L’auteur eut ordre de ne paraître: a prohibition was issued to him. Existing possession/auxiliary avoir may be reusable only after contextual signoff; do not silently assign from spelling.",
+              "formCoverage": "contextual_sense_subset",
+              "sourceOccurrences": [
+                {
+                  "chapter": 1,
+                  "unit": 14,
+                  "start": 99,
+                  "end": 102,
+                  "text": "eut"
+                }
+              ],
+              "status": "workwide_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "L’auteur eut ordre de quitter la cour.",
+                  "question": "Meaning",
+                  "answer": "was given an order",
+                  "choices": [
+                    "was given an order",
+                    "gave an order",
+                    "ignored an order",
+                    "wrote an order"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "On lui donna cet ordre : il ___ ordre de partir.",
+                  "question": "Complétez la phrase.",
+                  "answer": "eut",
+                  "choices": [
+                    "eut",
+                    "donna",
+                    "oublia",
+                    "refusa"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Il eut ordre de partir signifie qu’on lui donna cet ordre. Il donna un ordre s’il commandait, l’oublia s’il ne s’en souvenait plus et le refusa s’il n’obéissait pas.",
+                  "question": "Quel verbe indique qu’il reçut l’ordre ?",
+                  "answer": "eut",
+                  "choices": [
+                    "eut",
+                    "donna",
+                    "oublia",
+                    "refusa"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "ayons_have_subjunctive",
+              "form": "ayons",
+              "lemma": "avoir",
+              "meaning": "that we have",
+              "partOfSpeech": "present subjunctive first person plural",
+              "sourceOccurrencesSha256": "834668d902fec400ae27d5db5d50c10782585a2f6e0f2e887b4a4a8309ce73fa",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "a535b489a252476b12c88481f5fc43a47627c7126d21c47202ee40f736693bf2",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "link_published_sense",
+              "route": "add_surface_to_published_sense",
+              "targetSenseId": "sns_avoir_primary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            },
+            {
+              "key": "eut_received_order",
+              "form": "eut",
+              "lemma": "avoir",
+              "meaning": "received; was given (an order)",
+              "partOfSpeech": "past historic third singular in avoir ordre",
+              "sourceOccurrencesSha256": "c15da85a7e7f4c7df62c6b3d268395622ef311b16bcd2177f0508093c32ef967",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "479e56f9c39537d417a6c9b85e5e371ade04f44825196b886e340e450acceb6f",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "reuse_ready",
+              "route": "reuse_exact_published_identity",
+              "targetIdentity": "srf_zola_eut_avoir:sns_zola_avoir_possess_auxiliary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-batch-01.json",
+          "fileSha256": "06d533ab322b9998fd173b0f632079d0cceb319a2b2c5aa94f1f52943e5fd425",
+          "matches": [
+            {
+              "key": "quai_what_have_i",
+              "form": "qu’ai",
+              "lemma": "avoir",
+              "partOfSpeech": "elided interrogative plus first-person verb",
+              "meaning": "what have I; what do I have",
+              "editorialNote": "The tokenizer keeps qu’ai as one orthographic token in Qu’ai-je à faire de vos brunes ? The question rejects the comparison: what have I to do with them? It is not a separate proper name.",
+              "formCoverage": "contextual_sense_subset",
+              "sourceOccurrences": [
+                {
+                  "chapter": 2,
+                  "unit": 30,
+                  "start": 385,
+                  "end": 390,
+                  "text": "qu’ai"
+                }
+              ],
+              "status": "chapter_two_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Qu’ai-je à faire de vos brunes ?",
+                  "question": "Meaning",
+                  "answer": "what have I to do with them",
+                  "choices": [
+                    "what have I to do with them",
+                    "where have I gone",
+                    "why have they come",
+                    "who have they seen"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il parle de son rapport actuel avec elles : « ___-je à faire de vos brunes maintenant ? »",
+                  "question": "Complétez la phrase.",
+                  "answer": "Qu’ai",
+                  "choices": [
+                    "Qu’ai",
+                    "Qu’aurai",
+                    "Qu’avais",
+                    "Qu’aurais"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "« Qu’ai-je à faire de vos brunes maintenant ? » interroge son rapport actuel. Qu’aurai-je pose une question future, Qu’avais-je évoque le passé et Qu’aurais-je une éventualité.",
+                  "question": "Quel début de question porte sur le présent ?",
+                  "answer": "Qu’ai",
+                  "choices": [
+                    "Qu’ai",
+                    "Qu’aurai",
+                    "Qu’avais",
+                    "Qu’aurais"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-batch-16.json",
+          "fileSha256": "8475d4e7beb4e5d36666f2de66f25d5aa0f0a7fd3f499623f774b0fbfe732caf",
+          "matches": [
+            {
+              "key": "aient_have_subjunctive",
+              "form": "aient",
+              "lemma": "avoir",
+              "partOfSpeech": "present subjunctive third plural",
+              "meaning": "have; possess",
+              "editorialNote": "Qui n’aient plus de désirs uses subjunctive avoir after a negative antecedent; the verb indicates possession of desires.",
+              "formCoverage": "contextual_sense_subset",
+              "sourceOccurrences": [
+                {
+                  "chapter": 2,
+                  "unit": 35,
+                  "start": 131,
+                  "end": 136,
+                  "text": "aient"
+                }
+              ],
+              "status": "chapter_two_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il n’en a vu aucun qui n’aient des désirs.",
+                  "question": "Meaning",
+                  "answer": "have",
+                  "choices": [
+                    "have",
+                    "see",
+                    "leave",
+                    "become"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il faut qu’ils ___ assez d’eau.",
+                  "question": "Complétez la phrase.",
+                  "answer": "aient",
+                  "choices": [
+                    "aient",
+                    "voient",
+                    "partent",
+                    "deviennent"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Qu’ils aient de l’eau signifie qu’ils en possèdent. Qu’ils voient exprime une perception, partent un départ et deviennent un changement.",
+                  "question": "Quel verbe indique la possession ?",
+                  "answer": "aient",
+                  "choices": [
+                    "aient",
+                    "voient",
+                    "partent",
+                    "deviennent"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "quai_what_have_i",
+              "form": "qu’ai",
+              "lemma": "avoir",
+              "meaning": "what have I; what do I have",
+              "partOfSpeech": "elided interrogative plus first-person verb",
+              "batchFile": "chapter-02-batch-01.json",
+              "sourceOccurrencesSha256": "2fa2d0c8ae3d8c6a1825204087325344e35c65d5f1f10e9fd99ddf6814a1b8ac",
+              "questionSha256": "c4a68f8df11a5e27eabc604a75d4e7b7bf3abab92d10b2f183006a11b51535fc",
+              "chapterTwoUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "The fused interrogative and first-person verb ask what relation the speaker has; no published avoir question teaches this token.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "aient_have_subjunctive",
+              "form": "aient",
+              "lemma": "avoir",
+              "meaning": "have; possess",
+              "partOfSpeech": "present subjunctive third plural",
+              "batchFile": "chapter-02-batch-16.json",
+              "sourceOccurrencesSha256": "3a6d74285b2162184567737a9fd3e4ac45f32783221210a148415d5a2d16eb74",
+              "questionSha256": "2d5654df066f268ef7505559c8631492c23dbfebc13ad65e7c61b42559e5ffc6",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_avoir_primary",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "The reviewed source sense have; possess fits published to have; auxiliary have; author the separate aient surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-batch-04.json",
+          "fileSha256": "d72f4688170c9f671670058a7a8caac29c4ef622dd92d34e3a367497fc039bf0",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "partOfSpeech": "past historic third plural auxiliary",
+              "meaning": "had; auxiliary in past anterior",
+              "editorialNote": "In chapter III 69:10, eurent means had; auxiliary in past anterior. The source excerpt and authored alternatives distinguish the target meaning.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 3,
+                  "unit": 69,
+                  "start": 10,
+                  "end": 16,
+                  "text": "eurent"
+                }
+              ],
+              "formCoverage": "chapter_three_contextual_sense_subset",
+              "status": "chapter_three_draft_question_review_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Quand ils eurent fait environ cent cinquante millions de lieues, ils …",
+                  "question": "Meaning",
+                  "answer": "had",
+                  "choices": [
+                    "had",
+                    "did",
+                    "never",
+                    "might"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans ce récit au passé simple, quand ils ___ fait le trajet, ils rencontrèrent des satellites.",
+                  "question": "Complétez la phrase.",
+                  "answer": "eurent",
+                  "choices": [
+                    "eurent",
+                    "avaient",
+                    "ont",
+                    "auront"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Ils eurent fait marque le passé antérieur, avant rencontrèrent au passé simple; avaient fait serait le plus-que-parfait, ont fait le passé composé et auront fait le futur antérieur.",
+                  "question": "Quel mot exprime had ?",
+                  "answer": "eurent",
+                  "choices": [
+                    "eurent",
+                    "avaient",
+                    "ont",
+                    "auront"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "meaning": "had; auxiliary in past anterior",
+              "batchFile": "chapter-03-batch-04.json",
+              "questionSha256": "bb079140f0368580af1e96259dd30c892f13c0f6cf678e3643dcf9dbce1a2842",
+              "sourceOccurrencesSha256": "493c8ac20410e1a073191abfb3b1a280166e9c215ab08b49a8f57291f569eb1f",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_zola_avoir",
+              "targetSenseId": "sns_zola_avoir_possess_auxiliary",
+              "rationale": "The source use had; auxiliary in past anterior matches published to have; auxiliary avoir; new eurent questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-batch-15.json",
+          "fileSha256": "9cb4b2e541602018e956bf3ad0addcdd196aa16551eef779580340722ab9c5ea",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "partOfSpeech": "verb passé simple third plural experience",
+              "meaning": "had; experienced",
+              "editorialNote": "In chapter IV 114:76, eurent means had; experienced. The questions contrast this contextual sense and preserve its source use.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 4,
+                  "unit": 114,
+                  "start": 76,
+                  "end": 82,
+                  "text": "eurent"
+                }
+              ],
+              "status": "offline_new_contextual_meaning_draft_pending_complete_work_import",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "… échoua aux côtes de Botnie, et qu’ils eurent bien de la peine à se sauver ; mais on ne sait jamais …",
+                  "question": "Meaning",
+                  "answer": "had difficulty",
+                  "choices": [
+                    "had difficulty",
+                    "removed difficulty",
+                    "forgot difficulty",
+                    "measured difficulty"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Ils ___ beaucoup de peine à se sauver.",
+                  "question": "Complétez la phrase.",
+                  "answer": "eurent",
+                  "choices": [
+                    "eurent",
+                    "ôtèrent",
+                    "oublièrent",
+                    "mesurèrent"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Eurent de la peine exprime l’expérience d’une difficulté; ôtèrent la retire, oublièrent perdent son souvenir et mesurèrent en évaluent la taille.",
+                  "question": "Quel mot signifie had ?",
+                  "answer": "eurent",
+                  "choices": [
+                    "eurent",
+                    "ôtèrent",
+                    "oublièrent",
+                    "mesurèrent"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-batch-16.json",
+          "fileSha256": "107823d8d952223ef439195e5fb52af1e2a6339d6871a17a9e36f2c54951696e",
+          "matches": [
+            {
+              "key": "a_existential",
+              "form": "a",
+              "lemma": "avoir",
+              "partOfSpeech": "verb present third singular existential",
+              "meaning": "there is; there are in il y a",
+              "editorialNote": "In chapter IV 97:46, a means there is; there are in il y a. The published exact-form question set teaches another construction or meaning; these three offline bands review the source context.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 4,
+                  "unit": 97,
+                  "start": 46,
+                  "end": 47,
+                  "text": "a"
+                },
+                {
+                  "chapter": 4,
+                  "unit": 98,
+                  "start": 16,
+                  "end": 17,
+                  "text": "a"
+                },
+                {
+                  "chapter": 4,
+                  "unit": 100,
+                  "start": 55,
+                  "end": 56,
+                  "text": "a"
+                },
+                {
+                  "chapter": 4,
+                  "unit": 112,
+                  "start": 55,
+                  "end": 56,
+                  "text": "a"
+                }
+              ],
+              "status": "offline_new_contextual_meaning_draft_from_published_candidate_pending_complete_work_import",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "… vérité, ce qui fait que je pense qu’il n’y a ici personne, c’est qu’il me paraît que des gens de …",
+                  "question": "Meaning",
+                  "answer": "there is",
+                  "choices": [
+                    "there is",
+                    "he owns",
+                    "he sees",
+                    "he travels"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans ce monde, ___ peut-être des êtres.",
+                  "question": "Complétez la phrase.",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "possède",
+                    "voit",
+                    "voyage"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "A dans il y a exprime l’existence; possède marque la propriété, voit la perception et voyage le déplacement.",
+                  "question": "Quel mot signifie there is ?",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "possède",
+                    "voit",
+                    "voyage"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "meaning": "had; experienced",
+              "batchFile": "chapter-04-batch-15.json",
+              "questionSha256": "10596a77815d70dd09150ee494b75273634e703b03ccb7aecaa365dceff2e310",
+              "sourceOccurrencesSha256": "f306542458744b1a2be9ba4201a2c57658960f7fb5e8432b333f803c19973ba5",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "Eurent de la peine expresses experienced difficulty; the earlier planned eurent is an auxiliary in eurent fait and has an already reviewed source occurrence.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "a_existential",
+              "form": "a",
+              "lemma": "avoir",
+              "meaning": "there is; there are in il y a",
+              "batchFile": "chapter-04-batch-16.json",
+              "questionSha256": "ff9fc00571882922738c64ffc1222a6113c6409a6509521589dbc1f3b9f7fac5",
+              "sourceOccurrencesSha256": "4c8a62740a143c78ae7cece2c18b8cd37b2ed8db428871b6ceec823be3e04dc2",
+              "sourceUseCount": 4,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_fr_avoir_existential",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "In the source, a means there is; there are in il y a; the chosen published sense (there be (in il y a)) teaches the same contextual action or attribute, with this new surface retaining its authored three question bands.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-held-batch-02.json",
+          "fileSha256": "74e95b0f4cde853f03eecb79247c3fe4c6e59cd265b42b055bf3a4c117845e0b",
+          "matches": [
+            {
+              "key": "avoir_chapter_05_held_01_123",
+              "form": "ait",
+              "lemma": "avoir",
+              "partOfSpeech": "verb present subjunctive existential",
+              "meaning": "there might be, in il y ait",
+              "sourceOccurrences": [
+                {
+                  "unit": 123,
+                  "start": 160,
+                  "end": 163,
+                  "text": "ait",
+                  "chapter": 5
+                }
+              ],
+              "status": "offline_contextual_question_draft_pending_editorial_review",
+              "editorialNote": "Il y ait is existential; the only stored ait questions teach possession, so review an appropriate context. This is an offline draft; final question and identity QA remain pending.",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Figurez-vous une substance qui pourrait tenir la terre dans sa main, et qui aurait des organes en proportion des nôtres ; et il se peut très-bien faire qu’il y ait un grand nombre de ces substances : or concevez, je vous prie, ce qu’elles penseraient de ces batailles qui font gagner au vainqueur un village pour le perdre ensuite.",
+                  "targetText": "ait",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "there might be",
+                  "choices": [
+                    "there might be",
+                    "someone owns",
+                    "someone had",
+                    "someone takes"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il se peut qu’il y ___ d’autres êtres.",
+                  "question": "Complétez la phrase.",
+                  "answer": "ait",
+                  "choices": [
+                    "ait",
+                    "soit",
+                    "fasse",
+                    "puisse"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "La construction exprime l’existence possible d’êtres inconnus.",
+                  "question": "Quel mot convient ?",
+                  "answer": "ait",
+                  "choices": [
+                    "ait",
+                    "soit",
+                    "fasse",
+                    "puisse"
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "avoir_chapter_05_held_01_131",
+              "form": "ai",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary verb present first singular",
+              "meaning": "have as an auxiliary in a compound past",
+              "sourceOccurrences": [
+                {
+                  "unit": 131,
+                  "start": 20,
+                  "end": 22,
+                  "text": "ai",
+                  "chapter": 5
+                }
+              ],
+              "status": "offline_contextual_question_draft_pending_editorial_review",
+              "editorialNote": "J’ai pris is an auxiliary in a compound tense; the published ai bands teach possession, so inspect auxiliary questions before sharing. This is an offline draft; final question and identity QA remain pending.",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "« Ah ! disait-il, j’ai pris la nature sur le fait. »",
+                  "targetText": "ai",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "have (past-tense auxiliary)",
+                  "choices": [
+                    "have (past-tense auxiliary)",
+                    "own",
+                    "need",
+                    "hold"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Je viens de l’observer : j’___ pris la nature sur le fait.",
+                  "question": "Complétez la phrase.",
+                  "answer": "ai",
+                  "choices": [
+                    "ai",
+                    "avais",
+                    "aurai",
+                    "aurais"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Dans « j’ai pris », ce mot forme le passé composé du verbe prendre.",
+                  "question": "Quel mot convient ?",
+                  "answer": "ai",
+                  "choices": [
+                    "ai",
+                    "avais",
+                    "aurai",
+                    "aurais"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "avoir_chapter_05_held_01_123",
+              "form": "ait",
+              "lemma": "avoir",
+              "meaning": "there might be, in il y ait",
+              "batchFile": "chapter-05-held-batch-02.json",
+              "questionSha256": "c3f8deab9f58cafda2d099c00b8b9ac898c8124de8ac64221d8fa35b05daa38d",
+              "sourceOccurrencesSha256": "1c56e6fd0de14c11042e3590c493331f1b2b98da145e81d995136415c1153837",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_avoir",
+              "targetSenseId": "sns_fr_avoir_existential",
+              "rationale": "The source meaning there might be, in il y ait fits the inspected definition Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "avoir_chapter_05_held_01_131",
+              "form": "ai",
+              "lemma": "avoir",
+              "meaning": "have as an auxiliary in a compound past",
+              "batchFile": "chapter-05-held-batch-02.json",
+              "questionSha256": "d97cd85da63cd97520a96d9b683b66aea651787181ea2392abcf061626ff2263",
+              "sourceOccurrencesSha256": "6e93b11a370dfec9cf279d673f551094f70f9c48ab7b37237fc5d74e1d9f9a09",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_avoir",
+              "targetSenseId": "sns_fr_avoir_compound_auxiliary",
+              "rationale": "The source meaning have as an auxiliary in a compound past fits the inspected definition Auxiliaire employé avec un participe passé pour former un temps composé.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-batch-01.json",
+          "fileSha256": "2b4cb8a20b235b1b9fcd1ee85d3a6d42b3f840ea411efd1305bdab99c465404e",
+          "matches": [
+            {
+              "form": "auraient",
+              "lemma": "avoir",
+              "partOfSpeech": "verb conditional plural",
+              "meaning": "would have",
+              "key": "auraient_chapter_06_134_182",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 134,
+                  "start": 182,
+                  "end": 190,
+                  "text": "auraient",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+                },
+                {
+                  "chapter": 6,
+                  "unit": 135,
+                  "start": 71,
+                  "end": 79,
+                  "text": "auraient",
+                  "context": "Pour parler, il faut penser, ou à peu près ; mais s’ils pensaient, ils auraient donc l’équivalent d’une âme ; or, attribuer l’équivalent d’une âme à cette espèce, cela lui paraissait absurde."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+                  "question": "What does the highlighted word mean here?",
+                  "targetText": "auraient",
+                  "answer": "would have",
+                  "choices": [
+                    "would have",
+                    "would lose",
+                    "would destroy",
+                    "would lack"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "S’ils pensaient, ils ___ une âme : ils en posséderaient l’équivalent.",
+                  "question": "Complétez la phrase.",
+                  "answer": "auraient",
+                  "choices": [
+                    "auraient",
+                    "perdraient",
+                    "détruiraient",
+                    "manqueraient"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel verbe au conditionnel signifie posséderaient ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "auraient",
+                  "choices": [
+                    "auraient",
+                    "perdraient",
+                    "détruiraient",
+                    "manqueraient"
+                  ]
+                }
+              ],
+              "reviewNote": "Both organs and an equivalent of a soul are things possessed; no compound auxiliary occurs after this conditional form."
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-batch-03.json",
+          "fileSha256": "c5a3c2c8ea8194ae6a2fefce7a95cb49817ff65da44a0e3c6272d0101c8cc13b",
+          "matches": [
+            {
+              "form": "a",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary present singular",
+              "meaning": "has; auxiliary forming a compound past",
+              "key": "a_chapter_06_03_150_135",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 150,
+                  "start": 135,
+                  "end": 136,
+                  "text": "a",
+                  "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables."
+                },
+                {
+                  "chapter": 6,
+                  "unit": 152,
+                  "start": 15,
+                  "end": 16,
+                  "text": "a",
+                  "context": "Si jamais il y a eu quelqu’un d’étonné, ce furent les gens qui entendirent ces paroles."
+                },
+                {
+                  "chapter": 6,
+                  "unit": 158,
+                  "start": 148,
+                  "end": 149,
+                  "text": "a",
+                  "context": "— Mille toises ! s’écria le nain ; juste Ciel ! d’où peut-il savoir ma hauteur ? mille toises ! il ne se trompe pas d’un pouce ; quoi ! cet atome m’a mesuré ! il est géomètre, il connaît ma grandeur ; et moi, qui ne le vois qu’à travers un microscope, je ne connais pas encore la sienne !"
+                },
+                {
+                  "chapter": 6,
+                  "unit": 166,
+                  "start": 42,
+                  "end": 43,
+                  "text": "a",
+                  "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué."
+                },
+                {
+                  "chapter": 6,
+                  "unit": 166,
+                  "start": 101,
+                  "end": 102,
+                  "text": "a",
+                  "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué."
+                },
+                {
+                  "chapter": 6,
+                  "unit": 166,
+                  "start": 132,
+                  "end": 133,
+                  "text": "a",
+                  "context": "Il lui conta, non pas tout ce que Virgile a dit de fabuleux sur les abeilles, mais ce que Swammerdam a découvert, et ce que Réaumur a disséqué."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "« Insectes invisibles, que la main du Créateur s’est plu à faire naître dans l’abîme de l’infiniment petit, je le remercie de ce qu’il a daigné me découvrir des secrets qui semblaient impénétrables.",
+                  "targetText": "a",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "has; auxiliary forming a compound past",
+                  "choices": [
+                    "has; auxiliary forming a compound past",
+                    "owns",
+                    "wants",
+                    "loses"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans « il ___ découvert un secret », ce mot sert d’auxiliaire au passé composé.",
+                  "question": "Complétez la phrase.",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "est",
+                    "veut",
+                    "perd"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel auxiliaire forme le passé composé de découvrir à la troisième personne du singulier ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "est",
+                    "veut",
+                    "perd"
+                  ]
+                }
+              ],
+              "reviewNote": "A precedes daigné, eu, mesuré, dit, découvert and disséqué. Even in il y a eu, a is the outer compound auxiliary while eu carries the existential lexical value. All global avoir senses were read. Link the explicit compound-auxiliary sense; the legacy a possession bank is preserved, never copied to this new surface/sense identity."
+            },
+            {
+              "form": "a",
+              "lemma": "avoir",
+              "partOfSpeech": "verb present singular existential",
+              "meaning": "there is; there are",
+              "key": "a_chapter_06_03_167_28",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 167,
+                  "start": 28,
+                  "end": 29,
+                  "text": "a",
+                  "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+                  "targetText": "a",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "there is; there are",
+                  "choices": [
+                    "there is; there are",
+                    "owns something",
+                    "wants something",
+                    "sees something"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "On constate l’existence d’animaux minuscules : il y ___ de tels animaux.",
+                  "question": "Complétez la phrase.",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "possède",
+                    "désire",
+                    "observe"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel verbe complète il y pour signaler une existence au présent ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "a",
+                  "choices": [
+                    "a",
+                    "possède",
+                    "désire",
+                    "observe"
+                  ]
+                }
+              ],
+              "reviewNote": "At 167 il y a introduces the existence of tiny animals. Global avoir plans already route the earlier a existential to sns_fr_avoir_existential; use that meaning. Its earlier Chapter IV middle context lacks il y, so author an intact construction here and record the old-bank repair dependency for final whole-work reconciliation, without silently editing it."
+            },
+            {
+              "form": "eu",
+              "lemma": "avoir",
+              "partOfSpeech": "past participle existential",
+              "meaning": "been; existed in there has been",
+              "key": "eu_chapter_06_03_152_17",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 152,
+                  "start": 17,
+                  "end": 19,
+                  "text": "eu",
+                  "context": "Si jamais il y a eu quelqu’un d’étonné, ce furent les gens qui entendirent ces paroles."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Si jamais il y a eu quelqu’un d’étonné, ce furent les gens qui entendirent ces paroles.",
+                  "targetText": "eu",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "been; existed in there has been",
+                  "choices": [
+                    "been; existed in there has been",
+                    "owned",
+                    "lost",
+                    "received"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Pour parler de l’existence passée d’une personne étonnée, on dit : il y a ___ quelqu’un d’étonné.",
+                  "question": "Complétez la phrase.",
+                  "answer": "eu",
+                  "choices": [
+                    "eu",
+                    "perdu",
+                    "reçu",
+                    "gardé"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel participe complète il y a pour dire qu’une personne a existé ou a été présente ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "eu",
+                  "choices": [
+                    "eu",
+                    "perdu",
+                    "reçu",
+                    "gardé"
+                  ]
+                }
+              ],
+              "reviewNote": "In il y a eu quelqu’un, a is the outer compound auxiliary and eu is the participle of existential avoir. The legacy eu bank tests possession or experiencing an idea, so it cannot answer the source existential role. Prepare the explicit existential identity on lem_avoir with its own bank; all source words in il y a ___ remain intact."
+            },
+            {
+              "form": "avaient",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary imperfect plural",
+              "meaning": "had; auxiliary in a compound past",
+              "key": "avaient_chapter_06_03_156_150",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 156,
+                  "start": 150,
+                  "end": 157,
+                  "text": "avaient",
+                  "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature.",
+                  "targetText": "avaient",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "had; auxiliary in a compound past",
+                  "choices": [
+                    "had; auxiliary in a compound past",
+                    "owned",
+                    "wanted",
+                    "lost"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans « ils ___ toujours été dans cet état », ce mot sert d’auxiliaire au plus-que-parfait.",
+                  "question": "Complétez la phrase.",
+                  "answer": "avaient",
+                  "choices": [
+                    "avaient",
+                    "étaient",
+                    "voulaient",
+                    "perdaient"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel auxiliaire forme le plus-que-parfait de être à la troisième personne du pluriel ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avaient",
+                  "choices": [
+                    "avaient",
+                    "étaient",
+                    "voulaient",
+                    "perdaient"
+                  ]
+                }
+              ],
+              "reviewNote": "Avaient été is the pluperfect of être, not the possession of an object. Global avoir compound auxiliaries and the old avaient possession bank were inspected. Link sns_fr_avoir_compound_auxiliary on lem_avoir and author the complete auxiliary context without overwriting or copying legacy possession progress."
+            },
+            {
+              "form": "avoir",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary infinitive compound past",
+              "meaning": "have; auxiliary forming a past infinitive",
+              "key": "avoir_chapter_06_03_156_96",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 156,
+                  "start": 96,
+                  "end": 101,
+                  "text": "avoir",
+                  "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il leur conta le voyage de Saturne, les mit au fait de ce qu’était M. Micromégas ; et après les avoir plaints d’être si petits, il leur demanda s’ils avaient toujours été dans ce misérable état si voisin de l’anéantissement, ce qu’ils faisaient dans un globe qui paraissait appartenir à des baleines, s’ils étaient heureux, s’ils multipliaient, s’ils avaient une âme, et cent autres questions de cette nature.",
+                  "targetText": "avoir",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "have; auxiliary forming a past infinitive",
+                  "choices": [
+                    "have; auxiliary forming a past infinitive",
+                    "own",
+                    "want",
+                    "lose"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans « après les ___ plaints », ce mot forme l’infinitif passé de plaindre.",
+                  "question": "Complétez la phrase.",
+                  "answer": "avoir",
+                  "choices": [
+                    "avoir",
+                    "être",
+                    "vouloir",
+                    "perdre"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel auxiliaire forme l’infinitif passé de plaindre dans après les avoir plaints ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avoir",
+                  "choices": [
+                    "avoir",
+                    "être",
+                    "vouloir",
+                    "perdre"
+                  ]
+                }
+              ],
+              "reviewNote": "Les avoir plaints has a direct object and the past infinitive avoir plus plaints: after having pitied them. Earlier Chapter V avoir auxiliary questions already target the published compound-auxiliary sense, but their source form was ai. Prepare the actual infinitive surface on that same sense; lexical avoir un esprit remains separate."
+            }
+          ]
+        },
+        {
+          "file": "chapter-07-batch-03.json",
+          "fileSha256": "d7c7d80cbd95ad4aca8c308fcb58394fed9c8ab4a031bc9926c3b6ca853fc5fd",
+          "matches": [
+            {
+              "form": "auraient",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary conditional plural compound past",
+              "meaning": "would have; auxiliary of a conditional past",
+              "key": "auraient_chapter_07_03_182_117",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 182,
+                  "start": 117,
+                  "end": 125,
+                  "text": "auraient",
+                  "context": "Sachez qu’au bout de dix ans, il ne reste jamais la centième partie de ces misérables ; sachez que, quand même ils n’auraient pas tiré l’épée, la faim, la fatigue, ou l’intempérance, les emportent presque tous."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Sachez qu’au bout de dix ans, il ne reste jamais la centième partie de ces misérables ; sachez que, quand même ils n’auraient pas tiré l’épée, la faim, la fatigue, ou l’intempérance, les emportent presque tous.",
+                  "targetText": "auraient",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "would have; auxiliary of a conditional past",
+                  "choices": [
+                    "would have; auxiliary of a conditional past",
+                    "would want",
+                    "would be able",
+                    "would have to"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Le mot recherché est l’auxiliaire avoir du conditionnel passé dans « ils n’___ pas tiré l’épée ».",
+                  "question": "Complétez la phrase.",
+                  "answer": "auraient",
+                  "choices": [
+                    "auraient",
+                    "voudraient",
+                    "pourraient",
+                    "devraient"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle forme d’avoir sert ici d’auxiliaire devant le participe tiré ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "auraient",
+                  "choices": [
+                    "auraient",
+                    "voudraient",
+                    "pourraient",
+                    "devraient"
+                  ]
+                }
+              ],
+              "reviewNote": "Quand même ils n’auraient pas tiré l’épée is a hypothetical completed action with avoir as compound auxiliary, not ownership of a weapon or voice organs. The earlier VI lexical auraient bank was read and excluded. Share the proper published compound-auxiliary sense already used by VI a/avaient/avoir, adding this conditional surface without a tense-only meaning. Middle alternatives are grammatical verb labels; the explicit auxiliary role selects auraient."
+            }
+          ]
+        },
+        {
+          "file": "chapter-07-batch-04.json",
+          "fileSha256": "0354c93c8e6d04994dc4322dde4bdaea1559f2675563da21ce497b5ed512b730",
+          "matches": [
+            {
+              "form": "avait",
+              "lemma": "avoir",
+              "partOfSpeech": "auxiliary imperfect singular compound past",
+              "meaning": "had; auxiliary forming a completed past",
+              "key": "avait_chapter_07_04_190_118",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 190,
+                  "start": 118,
+                  "end": 123,
+                  "text": "avait",
+                  "context": "Le petit nain de Saturne, étonné de leurs réponses, fut tenté de prendre pour des sorciers ces mêmes gens auxquels il avait refusé une âme un quart d’heure auparavant."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Le petit nain de Saturne, étonné de leurs réponses, fut tenté de prendre pour des sorciers ces mêmes gens auxquels il avait refusé une âme un quart d’heure auparavant.",
+                  "targetText": "avait",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "had; auxiliary forming a completed past",
+                  "choices": [
+                    "had; auxiliary forming a completed past",
+                    "wanted",
+                    "could",
+                    "had to"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Dans « il ___ refusé », le mot recherché est l’auxiliaire avoir du plus-que-parfait.",
+                  "question": "Complétez la phrase.",
+                  "answer": "avait",
+                  "choices": [
+                    "avait",
+                    "voulait",
+                    "pouvait",
+                    "devait"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle forme d’avoir sert d’auxiliaire devant un participe pour situer une action antérieure ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avait",
+                  "choices": [
+                    "avait",
+                    "voulait",
+                    "pouvait",
+                    "devait"
+                  ]
+                }
+              ],
+              "reviewNote": "Il avait refusé forms a completed earlier action, not possession. The published lexical avait bank and the global compound auxiliary’s full three-band bank were read. Add this imperfect singular surface on that existing proper avoir auxiliary meaning; tense does not create a fresh sense. Alternatives are viable verb labels in the metalinguistic prompt, and auxiliary function selects avait. The lexical possession in211 and existential il y avait in210 are routed separately."
+            },
+            {
+              "form": "avait",
+              "lemma": "avoir",
+              "partOfSpeech": "verb imperfect singular existential construction",
+              "meaning": "there was; existed in il y avait",
+              "key": "avait_chapter_07_04_210_10",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 210,
+                  "start": 10,
+                  "end": 15,
+                  "text": "avait",
+                  "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+                  "targetText": "avait",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "there was; existed in il y avait",
+                  "choices": [
+                    "there was; existed in il y avait",
+                    "there remained",
+                    "there passed",
+                    "there vanished"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "La tournure avec avoir qui indique ici l’existence d’un individu est « il y ___ un animalcule ».",
+                  "question": "Complétez la phrase.",
+                  "answer": "avait",
+                  "choices": [
+                    "avait",
+                    "restait",
+                    "passait",
+                    "disparaissait"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle forme d’avoir sert à exprimer qu’un individu se trouvait là ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avait",
+                  "choices": [
+                    "avait",
+                    "restait",
+                    "passait",
+                    "disparaissait"
+                  ]
+                }
+              ],
+              "reviewNote": "Il y avait là un petit animalcule presents the existence or presence of another philosopher. The global existential avoir meaning and its three questions were read, excluding lexical possession and compound auxiliary. Add the imperfect surface on the same proper avoir existential sense; retain the indispensable y component and earlier IV missing-y repair dependency before import. All four singular predicates accept il y and a following subject; existence differs from remaining, passing or disappearance."
+            }
+          ]
+        },
+        {
+          "file": "chapter-07-batch-05.json",
+          "fileSha256": "d13b78b814e2540950d148c7804e1bc826fec42be0b4ffa3878b6748e9d6aa2f",
+          "matches": [
+            {
+              "form": "aurais",
+              "lemma": "avoir",
+              "partOfSpeech": "verb conditional singular lexical possession",
+              "meaning": "would have; would possess a physical feature",
+              "key": "aurais_chapter_07_05_199_424",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 199,
+                  "start": 424,
+                  "end": 430,
+                  "text": "aurais",
+                  "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton.",
+                  "targetText": "aurais",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "would have; would possess a physical feature",
+                  "choices": [
+                    "would have; would possess a physical feature",
+                    "would want",
+                    "would lose",
+                    "would remove"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Si tu possédais cette caractéristique physique, tu l’___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "aurais",
+                  "choices": [
+                    "aurais",
+                    "attendrais",
+                    "enlèverais",
+                    "ôterais"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel verbe au conditionnel signifie posséderais ou présenterais une caractéristique physique ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "aurais",
+                  "choices": [
+                    "aurais",
+                    "attendrais",
+                    "enlèverais",
+                    "ôterais"
+                  ]
+                }
+              ],
+              "reviewNote": "Quand tu aurais de la barbe au menton gives lexical possession of a bodily feature, not a compound-tense auxiliary. The existing proper avoir lexical family was compared with the exact auxiliary aurais bank. Add this conditional surface on the same have/possess meaning, with no conditional-only sense. All four vowel-initial second-person predicates fit tu l’; having a growing beard differs from awaiting or removing it."
+            }
+          ]
+        },
+        {
+          "file": "chapter-07-batch-06.json",
+          "fileSha256": "9deaef10aaac098459906ba5db55b431d762abb0f39805628b2fc6d4d7155d24",
+          "matches": [
+            {
+              "form": "eut",
+              "lemma": "avoir",
+              "partOfSpeech": "verb past simple singular compound auxiliary",
+              "meaning": "had; auxiliary forming a completed past",
+              "key": "eut_chapter_07_06_206_66",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 206,
+                  "start": 66,
+                  "end": 69,
+                  "text": "eut",
+                  "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens."
+                },
+                {
+                  "chapter": 7,
+                  "unit": 215,
+                  "start": 139,
+                  "end": 142,
+                  "text": "eut",
+                  "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Un petit partisan de Locke était là tout auprès ; et quand on lui eut enfin adressé la parole : « Je ne sais pas, dit-il, comment je pense, mais je sais que je n’ai jamais pensé qu’à l’occasion de mes sens.",
+                  "targetText": "eut",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "had; auxiliary forming a completed past",
+                  "choices": [
+                    "had; auxiliary forming a completed past",
+                    "possessed a thing",
+                    "gave an order",
+                    "received an object"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "La forme passée simple de avoir qui sert d’auxiliaire devant ouvert est ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "eut",
+                  "choices": [
+                    "eut",
+                    "vit",
+                    "dit",
+                    "lut"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle forme de avoir sert d’auxiliaire dans il eut ouvert ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "eut",
+                  "choices": [
+                    "eut",
+                    "vit",
+                    "dit",
+                    "lut"
+                  ]
+                }
+              ],
+              "reviewNote": "Eut adressé and eut ouvert form completed past constructions, not possession, receiving an order or an independent lexical had. The exact mixed possession/auxiliary bank and earlier received-order bank were read alongside the proper global compound-auxiliary family and three banks. Add this surface on the same existing auxiliary sense without a past-anterior-only identity. The middle clue explicitly tests auxiliary function; the four autonymous past forms differ in lexical function. Preserve the shared auxiliary meaning and historical mastery."
+            },
+            {
+              "form": "aurait",
+              "lemma": "avoir",
+              "partOfSpeech": "verb conditional singular compound auxiliary",
+              "meaning": "would have; auxiliary of a hypothetical completed action",
+              "key": "aurait_chapter_07_06_209_92",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 7,
+                  "unit": 209,
+                  "start": 92,
+                  "end": 98,
+                  "text": "aurait",
+                  "context": "L’animal de Sirius sourit : il ne trouva pas celui-là le moins sage ; et le nain de Saturne aurait embrassé le sectateur de Locke sans l’extrême disproportion."
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "L’animal de Sirius sourit : il ne trouva pas celui-là le moins sage ; et le nain de Saturne aurait embrassé le sectateur de Locke sans l’extrême disproportion.",
+                  "targetText": "aurait",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "would have; auxiliary of a hypothetical completed action",
+                  "choices": [
+                    "would have; auxiliary of a hypothetical completed action",
+                    "would possess",
+                    "would receive",
+                    "would lose"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "La forme singulière de avoir qui sert d’auxiliaire dans « il aurait embrassé » est ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "aurait",
+                  "choices": [
+                    "aurait",
+                    "serait",
+                    "voudrait",
+                    "pourrait"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quelle forme sert d’auxiliaire du conditionnel passé dans il aurait embrassé ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "aurait",
+                  "choices": [
+                    "aurait",
+                    "serait",
+                    "voudrait",
+                    "pourrait"
+                  ]
+                }
+              ],
+              "reviewNote": "Aurait embrassé is a hypothetical completed-action auxiliary, not the exact published lexical conditional-possession bank. The full exact bank and global compound-auxiliary three bands were read, with earlier VII auraient compared. Add this surface on the same proper auxiliary meaning without a conditional-only identity. The metalinguistic middle clue selects auxiliary have from four singular conditional forms; be, want and can do not supply that function. The narrative does not say the embrace actually occurred."
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-held-context-review-03.json",
+          "fileSha256": "e9de5efa3a40540575903540be898cbc04d4ecf2c4a03ee3f1074cf7966dcc6c",
+          "matches": [
+            {
+              "key": "avez_compound_auxiliary_chapter_06",
+              "form": "avez",
+              "lemma": "avoir",
+              "partOfSpeech": "compound-tense auxiliary present second plural",
+              "meaning": "have, as a compound-tense auxiliary",
+              "target": "sns_fr_avoir_compound_auxiliary",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 136,
+                  "start": 28,
+                  "end": 32,
+                  "text": "avez",
+                  "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+                },
+                {
+                  "chapter": 6,
+                  "unit": 164,
+                  "start": 13,
+                  "end": 17,
+                  "text": "avez",
+                  "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+                  "targetText": "avez",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "have, as an auxiliary for a completed action",
+                  "choices": [
+                    "have, as an auxiliary for a completed action",
+                    "own a possession",
+                    "must perform an action",
+                    "can perform an action"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Racontez au passé composé ce que vous venez de faire : « Vous ___ observé ces êtres. »",
+                  "question": "Complétez la phrase.",
+                  "answer": "avez",
+                  "choices": [
+                    "avez",
+                    "aviez",
+                    "aurez",
+                    "auriez"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel auxiliaire au présent, adressé à vous, précède le participe passé dans « vous ... cru » pour raconter une action accomplie ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avez",
+                  "choices": [
+                    "avez",
+                    "aviez",
+                    "aurez",
+                    "auriez"
+                  ]
+                }
+              ],
+              "questionSha256": "e1f4e8e5f02d2ba5a2c2f5c8da0b5eacda3cc61611fa2655da6678a0dbde0c0d",
+              "sourceOccurrencesSha256": "daa72c6f657cfd5ec936fa22a04b15c37e90601dfa88c1f1206325ffd4fcfd3d",
+              "reviewNote": "Avez cru and qui avez donné are compound-tense auxiliary uses; the God vocative uses honorific second-plural vous agreement. The existing avez possession bank was inspected and remains unchanged. Attach this surface to the already distinct published avoir auxiliary sense, without copying possession mastery or inventing a tense-only meaning. All three complete questions test auxiliary function; the middle four options can each precede a past participle, and passé composé selects the present auxiliary.",
+              "status": "offline_contextual_three_band_review_recorded_unpublished"
+            },
+            {
+              "key": "qu_auraient_held_chapter_06_03",
+              "form": "qu’auraient",
+              "lemma": "avoir",
+              "partOfSpeech": "fused interrogative plus lexical verb conditional plural",
+              "meaning": "what would they have; what would be available to them",
+              "target": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 134,
+                  "start": 222,
+                  "end": 233,
+                  "text": "qu’auraient",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+                  "targetText": "qu’auraient",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "what would they have; what would be available to them",
+                  "choices": [
+                    "what would they have; what would be available to them",
+                    "what would they buy",
+                    "what would they lose",
+                    "what would they make"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il demande ce que ces êtres auraient à leur disposition : « ___-ils ? »",
+                  "question": "Complétez la phrase.",
+                  "answer": "qu’auraient",
+                  "choices": [
+                    "qu’auraient",
+                    "qu’achèteraient",
+                    "que perdraient",
+                    "que fabriqueraient"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel groupe interrogatif réunit que et avoir lexical au conditionnel pluriel pour demander de quoi ils disposeraient ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "qu’auraient",
+                  "choices": [
+                    "qu’auraient",
+                    "qu’achèteraient",
+                    "que perdraient",
+                    "que fabriqueraient"
+                  ]
+                }
+              ],
+              "questionSha256": "79c7e822149af3e366b2a9a94855da4a5433cebb7969579d325bf1f180282b0d",
+              "sourceOccurrencesSha256": "d44a67b6ac1edfc3a3607a097abc62e1d8b55172a9d7042ff1bd2845d2c98b05",
+              "reviewNote": "Qu’auraient-ils à dire asks what content the creatures would have available to say. The published qu’aurait bank is explicitly compound-tense auxiliary, qu’as asks about illness or possession, and the earlier qu’ai à faire de bank tests relationship; all were inspected and excluded as question banks. The global lexical avoir sense explicitly covers abstract as well as concrete possession, so this surface targets that existing sense under lem_avoir. The fused spelling does not create a tense-only sense or another lemma; que stays inside the exact token, and final import must not duplicate an interrogative component encounter. All middle prefixes form grammatical plural hypothetical questions, distinguished by have/buy/lose/make semantics. No earlier mastery is copied.",
+              "status": "offline_contextual_three_band_review_recorded_unpublished"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "orgueil",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "philosophie",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "écrire",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_ecrire",
+          "headword": "écrire",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_ecrire_write",
+              "lemmaId": "lem_zola_ecrire",
+              "gloss": "to write",
+              "definition": "tracer ou composer un texte"
+            },
+            {
+              "id": "sns_parure_ecrire_creer_une_representation_de_mots_a_l_aide_de_lettres_et_de_symboles_par_le_biais_d_un_media_32d2ad523f",
+              "lemmaId": "lem_zola_ecrire",
+              "gloss": "to write",
+              "definition": "Créer une représentation de mots à l’aide de lettres et de symboles, par le biais d’un média."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "menu",
+      "publishedFrench": [
+        {
+          "id": "lem_cendrillon_menu_adjective_96369decd9",
+          "headword": "menu",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_cendrillon_menu_qui_est_delie_qui_a_peu_de_volume_peu_de_grosseur_4b2e043faa",
+              "lemmaId": "lem_cendrillon_menu_adjective_96369decd9",
+              "gloss": "slim, small, fine",
+              "definition": "Qui est délié, qui a peu de volume, peu de grosseur."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "usage",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-batch-07.json",
+          "fileSha256": "b3019185ca085ed49565286c1f71517ccbc357f781c32728f01d30fc0e5fa5b5",
+          "matches": [
+            {
+              "key": "usages_customs",
+              "form": "usages",
+              "lemma": "usage",
+              "partOfSpeech": "noun masculine plural",
+              "meaning": "customs; habitual ways",
+              "editorialNote": "The narrator says humans imagine only what fits their own familiar practices, not technical uses of an object.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 1,
+                  "unit": 17,
+                  "start": 194,
+                  "end": 200,
+                  "text": "usages"
+                }
+              ],
+              "status": "workwide_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Les usages de ce pays étonnent les visiteurs.",
+                  "question": "Meaning",
+                  "answer": "customs",
+                  "choices": [
+                    "customs",
+                    "buildings",
+                    "rivers",
+                    "tickets"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Les habitudes transmises dans cette communauté sont ses ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "usages",
+                  "choices": [
+                    "usages",
+                    "bâtiments",
+                    "voyages",
+                    "outils"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Les usages sont les habitudes du pays. Ses bâtiments bordent les routes, ses outils servent au travail et ses voyages mènent ailleurs.",
+                  "question": "Quel mot nomme les pratiques habituelles ?",
+                  "answer": "usages",
+                  "choices": [
+                    "usages",
+                    "bâtiments",
+                    "outils",
+                    "voyages"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "usages_customs",
+              "form": "usages",
+              "lemma": "usage",
+              "meaning": "customs; habitual ways",
+              "partOfSpeech": "noun masculine plural",
+              "sourceOccurrencesSha256": "4498029729963ba6e9ba107c1131f687e8532ea3b1e782c6912cd403e260c8f3",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "150320834e2abb8967787aa2b327e2bd58c6f73284a616107485c314a713e473",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_lemma_sense",
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "usage:usages_customs",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "voir",
+      "publishedFrench": [
+        {
+          "id": "lem_voir",
+          "headword": "voir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_voir_perceive",
+              "lemmaId": "lem_voir",
+              "gloss": "to see",
+              "definition": "Percevoir par la vue, constater visuellement."
+            },
+            {
+              "id": "sns_voir_past",
+              "lemmaId": "lem_voir",
+              "gloss": "Here vit is the past historic of voir (saw), not the existing vivre identity.",
+              "definition": "Here vit is the past historic of voir (saw), not the existing vivre identity."
+            },
+            {
+              "id": "sns_parure_voir_percevoir_l_image_des_objets_par_l_organe_de_la_vue_42c820dd60",
+              "lemmaId": "lem_voir",
+              "gloss": "to see (visually)",
+              "definition": "Percevoir l’image des objets par l’organe de la vue."
+            },
+            {
+              "id": "sns_zola_voir_past_participle",
+              "lemmaId": "lem_voir",
+              "gloss": "seen",
+              "definition": "participe passé de voir, indiquant qu’une personne ou une chose a été observée"
+            },
+            {
+              "id": "sns_fr_voir_ascertain",
+              "lemmaId": "lem_voir",
+              "gloss": "to see; to check; to find out",
+              "definition": "Examiner ou vérifier quelque chose pour s’en assurer."
+            },
+            {
+              "id": "sns_zola_voir_observe",
+              "lemmaId": "lem_voir",
+              "gloss": "to see; observe",
+              "definition": "percevoir par la vue ou constater un fait"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-02-batch-07.json",
+          "fileSha256": "c45271c3fef9d1a6e9bfdfb8b7305688c9f85ead0b364303937c6fa2b19b7b98",
+          "matches": [
+            {
+              "key": "voyez_you_see",
+              "form": "voyez",
+              "lemma": "voir",
+              "partOfSpeech": "present indicative second plural",
+              "meaning": "you see; you understand",
+              "editorialNote": "Vous voyez bien que asks the listener to recognize a conclusion, not just perceive a visible object.",
+              "formCoverage": "contextual_sense_subset",
+              "sourceOccurrences": [
+                {
+                  "chapter": 2,
+                  "unit": 41,
+                  "start": 5,
+                  "end": 10,
+                  "text": "voyez"
+                }
+              ],
+              "status": "chapter_two_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Vous voyez bien ce que cela signifie.",
+                  "question": "Meaning",
+                  "answer": "you see",
+                  "choices": [
+                    "you see",
+                    "you forget",
+                    "you hide",
+                    "you deny"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Vous comprenez cette idée : vous la ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "voyez",
+                  "choices": [
+                    "voyez",
+                    "cachez",
+                    "oubliez",
+                    "refusez"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Vous voyez ici veut dire que vous comprenez l’idée. Vous la cachez si vous la dissimulez, l’oubliez si vous ne vous en souvenez plus et la refusez si vous la rejetez.",
+                  "question": "Quel verbe exprime cette compréhension ?",
+                  "answer": "voyez",
+                  "choices": [
+                    "voyez",
+                    "cachez",
+                    "oubliez",
+                    "refusez"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-batch-12.json",
+          "fileSha256": "18fd4d07bf269b655aa1143b144d7319779efc9d0144083d3bb88ad22b4dfe8d",
+          "matches": [
+            {
+              "key": "vois_i_see",
+              "form": "vois",
+              "lemma": "voir",
+              "partOfSpeech": "present indicative first singular",
+              "meaning": "I see; I observe",
+              "editorialNote": "Je vois partout des différences describes the speaker’s observation of nature.",
+              "formCoverage": "contextual_sense_subset",
+              "sourceOccurrences": [
+                {
+                  "chapter": 2,
+                  "unit": 53,
+                  "start": 33,
+                  "end": 37,
+                  "text": "vois"
+                }
+              ],
+              "status": "chapter_two_context_reviewed_question_signoff_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Je vois des différences partout.",
+                  "question": "Meaning",
+                  "answer": "I see",
+                  "choices": [
+                    "I see",
+                    "I hide",
+                    "I forget",
+                    "I deny"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Ces formes sont visibles : je les ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "vois",
+                  "choices": [
+                    "vois",
+                    "cache",
+                    "oublie",
+                    "nie"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Je les vois quand je les perçois avec les yeux. Je les cache en les dissimulant, les oublie si je n’y pense plus et les nie si je conteste leur existence.",
+                  "question": "Quel verbe exprime la perception ?",
+                  "answer": "vois",
+                  "choices": [
+                    "vois",
+                    "cache",
+                    "oublie",
+                    "nie"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "voyez_you_see",
+              "form": "voyez",
+              "lemma": "voir",
+              "meaning": "you see; you understand",
+              "partOfSpeech": "present indicative second plural",
+              "batchFile": "chapter-02-batch-07.json",
+              "sourceOccurrencesSha256": "7ad980c2e73c54e8abff0485170c4eea6bfd758710cad3a61627efee31904bec",
+              "questionSha256": "9650722a9467b481db4161dd12e5730b531651efb7cf253c8e8ae31727b52107",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_fr_voir_ascertain",
+              "targetLemmaId": "lem_voir",
+              "rationale": "The reviewed source sense you see; you understand fits published to see; to check; to find out; author the separate voyez surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "vois_i_see",
+              "form": "vois",
+              "lemma": "voir",
+              "meaning": "I see; I observe",
+              "partOfSpeech": "present indicative first singular",
+              "batchFile": "chapter-02-batch-12.json",
+              "sourceOccurrencesSha256": "3571975855217ee707074362d6bcde846f62395c586e93f46272dde626c6bdf2",
+              "questionSha256": "cef0ff1da0327fb8786d3e7738cd4caf1a035237739914901df13c184e8e1c69",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_zola_voir_observe",
+              "targetLemmaId": "lem_voir",
+              "rationale": "The reviewed source sense I see; I observe fits published to see; observe; author the separate vois surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-batch-07.json",
+          "fileSha256": "5baa56123718d66134eb80041ac630fbdddb6cd5ebb19275672c5bdeda47636e",
+          "matches": [
+            {
+              "key": "virent_saw",
+              "form": "virent",
+              "lemma": "voir",
+              "partOfSpeech": "verb past historic third plural",
+              "meaning": "saw; perceived visually",
+              "editorialNote": "In chapter III 74:197, virent means saw; perceived visually. The source excerpt and authored alternatives distinguish the target meaning.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 3,
+                  "unit": 74,
+                  "start": 197,
+                  "end": 203,
+                  "text": "virent"
+                }
+              ],
+              "formCoverage": "chapter_three_contextual_sense_subset",
+              "status": "chapter_three_draft_question_review_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "… est cinq fois plus petite que notre petit globe ; ils virent deux lunes qui servent à cette planète, et qui ont …",
+                  "question": "Meaning",
+                  "answer": "saw",
+                  "choices": [
+                    "saw",
+                    "hid",
+                    "heard",
+                    "forgot"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Deux lunes leur apparurent : ils les ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "virent",
+                  "choices": [
+                    "virent",
+                    "cachèrent",
+                    "entendirent",
+                    "oublièrent"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Ils virent les lunes avec les yeux; cachèrent en dissimulant, entendirent avec l’ouïe et oublièrent en perdant le souvenir.",
+                  "question": "Quel mot exprime saw ?",
+                  "answer": "virent",
+                  "choices": [
+                    "virent",
+                    "cachèrent",
+                    "entendirent",
+                    "oublièrent"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "virent_saw",
+              "form": "virent",
+              "lemma": "voir",
+              "meaning": "saw; perceived visually",
+              "batchFile": "chapter-03-batch-07.json",
+              "questionSha256": "b772f4b479ef97e2a3b6acb7f26995ecfcaf5a8ffd647d5dd0fbd49a5724b139",
+              "sourceOccurrencesSha256": "956c04ed6c15346cf7d3fa0a89ffcb6b0ca25a92bbb77fbeb4164b9303201c4f",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_voir",
+              "targetSenseId": "sns_fr_voir_perceive",
+              "rationale": "The source use saw; perceived visually matches published to see; new virent questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "effectivement",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "départ",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "science",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_science",
+          "headword": "science",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_zola_science_knowledge",
+              "lemmaId": "lem_zola_science",
+              "gloss": "science; systematic knowledge",
+              "definition": "ensemble des connaissances obtenues par l’étude et la recherche"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "douter",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-05-held-batch-02.json",
+          "fileSha256": "74e95b0f4cde853f03eecb79247c3fe4c6e59cd265b42b055bf3a4c117845e0b",
+          "matches": [
+            {
+              "key": "douter_chapter_05_held_01_124",
+              "form": "doute",
+              "lemma": "douter",
+              "partOfSpeech": "verb present first singular",
+              "meaning": "doubt; be uncertain",
+              "sourceOccurrences": [
+                {
+                  "unit": 124,
+                  "start": 6,
+                  "end": 11,
+                  "text": "doute",
+                  "chapter": 5
+                }
+              ],
+              "status": "offline_contextual_question_draft_pending_editorial_review",
+              "editorialNote": "Je ne doute pas uses nonreflexive doubter; available candidates are noun doubt, sans doute, or reflexive se douter. This is an offline draft; final question and identity QA remain pending.",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+                  "targetText": "doute",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "doubt",
+                  "choices": [
+                    "doubt",
+                    "know",
+                    "remember",
+                    "observe"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Je suis certain de cette réaction : je ne ___ pas que le capitaine réagisse ainsi.",
+                  "question": "Complétez la phrase.",
+                  "answer": "doute",
+                  "choices": [
+                    "doute",
+                    "crois",
+                    "pense",
+                    "suppose"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel verbe signifie avoir des incertitudes, dans la première personne « je ... » ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "doute",
+                  "choices": [
+                    "doute",
+                    "crois",
+                    "pense",
+                    "suppose"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "douter_chapter_05_held_01_124",
+              "form": "doute",
+              "lemma": "douter",
+              "meaning": "doubt; be uncertain",
+              "batchFile": "chapter-05-held-batch-02.json",
+              "questionSha256": "cc5dccc08546dae7b15f369b592eb5be2415d2428241904d5be5406dcf9627de",
+              "sourceOccurrencesSha256": "6e4eed6c66a5f0ee76657b3a5fe74bd209505c73ea3d0cbd1555bf1a989b8f22",
+              "sourceUseCount": 1,
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "douter:douter_chapter_05_held_01_124",
+              "rationale": "No published French lemma or earlier planned matching meaning was found. The exact source uses teach doubt; be uncertain; propose this lemma and sense for complete-work reconciliation.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-batch-04.json",
+          "fileSha256": "32836de00ec01d8a13aa8719e2cecc5d3e58d1a3800faebf3e8f26679561c662",
+          "matches": [
+            {
+              "form": "doutait",
+              "lemma": "douter",
+              "partOfSpeech": "verb imperfect singular",
+              "meaning": "doubted; was uncertain",
+              "key": "doutait_chapter_06_04_157_77",
+              "status": "offline_contextual_three_band_review_recorded_unpublished",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 157,
+                  "start": 77,
+                  "end": 84,
+                  "text": "doutait",
+                  "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Un raisonneur de la troupe, plus hardi que les autres, et choqué de ce qu’on doutait de son âme, observa l’interlocuteur avec des pinnules braquées sur un quart de cercle, fit deux stations, et à la troisième il parla ainsi : « Vous croyez donc, monsieur, parce que vous avez mille toises depuis la tête jusqu’aux pieds, que vous êtes un…",
+                  "targetText": "doutait",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "doubted; was uncertain",
+                  "choices": [
+                    "doubted; was uncertain",
+                    "was certain",
+                    "recalled",
+                    "proved"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il n’était pas convaincu de l’existence de son âme : il ___ de cette existence.",
+                  "question": "Complétez la phrase.",
+                  "answer": "doutait",
+                  "choices": [
+                    "doutait",
+                    "s’assurait",
+                    "se souvenait",
+                    "se réjouissait"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel verbe à l’imparfait signifie n’était pas certain de quelque chose ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "doutait",
+                  "choices": [
+                    "doutait",
+                    "s’assurait",
+                    "se souvenait",
+                    "se réjouissait"
+                  ]
+                }
+              ],
+              "reviewNote": "The giant questions the existence of a soul. The earlier douter uncertainty plan fits and is reused, not a newly invented past-tense sense. All four predicates take de in the unchanged construction; uncertainty rather than certainty, memory or joy selects doutait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "se douter",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_se_douter",
+          "headword": "se douter",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_se_douter_suspect",
+              "lemmaId": "lem_zola_se_douter",
+              "gloss": "to suspect; imagine",
+              "definition": "pressentir ou supposer l’existence de quelque chose"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "bon",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_bon",
+          "headword": "bon",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_fr_bon_fitting",
+              "lemmaId": "lem_zola_bon",
+              "gloss": "fitting; suitable in size",
+              "definition": "Qui convient par ses dimensions, notamment en parlant d’un vêtement ou d’une chaussure."
+            },
+            {
+              "id": "sns_zola_bon_good",
+              "lemmaId": "lem_zola_bon",
+              "gloss": "good",
+              "definition": "qui possède une qualité favorable"
+            },
+            {
+              "id": "sns_fr_bon_useful",
+              "lemmaId": "lem_zola_bon",
+              "gloss": "useful; worthwhile",
+              "definition": "Qui présente une utilité ; dans à quoi bon, interroge l’utilité d’une action."
+            },
+            {
+              "id": "sns_fr_bon_arbitrary_pleasure",
+              "lemmaId": "lem_zola_bon",
+              "gloss": "own; arbitrary (in bon plaisir)",
+              "definition": "Dans bon plaisir, qualifie une volonté personnelle qui s’exerce librement, parfois arbitrairement."
+            },
+            {
+              "id": "sns_fr_bon_better_best",
+              "lemmaId": "lem_zola_bon",
+              "gloss": "better; best",
+              "definition": "D’un degré de qualité supérieur, dans les formes meilleur, meilleure et leurs pluriels."
+            }
+          ]
+        },
+        {
+          "id": "lem_bon",
+          "headword": "bon",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_cendrillon_bon_qui_a_des_qualites_conformes_a_ce_que_l_on_attendait_a8ac37b640",
+              "lemmaId": "lem_bon",
+              "gloss": "good",
+              "definition": "Qui a des qualités conformes à ce que l’on attendait."
+            },
+            {
+              "id": "sns_bon_primary",
+              "lemmaId": "lem_bon",
+              "gloss": "good",
+              "definition": "good"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-03-batch-08.json",
+          "fileSha256": "083a5f9b3b7ad8680a05bea196830adca03cfe2b877cb217988274a26a95acd7",
+          "matches": [
+            {
+              "key": "bons_good",
+              "form": "bons",
+              "lemma": "bon",
+              "partOfSpeech": "adjective masculine plural",
+              "meaning": "good; capable",
+              "editorialNote": "In chapter III 76:4, bons means good; capable. The source excerpt and authored alternatives distinguish the target meaning.",
+              "sourceOccurrences": [
+                {
+                  "chapter": 3,
+                  "unit": 76,
+                  "start": 4,
+                  "end": 8,
+                  "text": "bons"
+                }
+              ],
+              "formCoverage": "chapter_three_contextual_sense_subset",
+              "status": "chapter_three_draft_question_review_pending",
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Ces bons philosophes-là savent combien il serait difficile que …",
+                  "question": "Meaning",
+                  "answer": "good",
+                  "choices": [
+                    "good",
+                    "bad",
+                    "ignorant",
+                    "cruel"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Ces philosophes raisonnent bien : ils sont ___.",
+                  "question": "Complétez la phrase.",
+                  "answer": "bons",
+                  "choices": [
+                    "bons",
+                    "mauvais",
+                    "ignorants",
+                    "cruels"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Ces bons philosophes jugent correctement; les mauvais jugent mal, les ignorants manquent de savoir et les cruels font souffrir.",
+                  "question": "Quel mot exprime good ?",
+                  "answer": "bons",
+                  "choices": [
+                    "bons",
+                    "mauvais",
+                    "ignorants",
+                    "cruels"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "bons_good",
+              "form": "bons",
+              "lemma": "bon",
+              "meaning": "good; capable",
+              "batchFile": "chapter-03-batch-08.json",
+              "questionSha256": "cce0400cb1c36801320ee1115d5ea03afe6bd801752ef4587f40508f845d85e8",
+              "sourceOccurrencesSha256": "20ccddcd1d6e3e9eb7ff67943eb345416a6342d56ec1c532729c2a79dca3101a",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_zola_bon",
+              "targetSenseId": "sns_zola_bon_good",
+              "rationale": "The source use good; capable matches published good; new bons questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "bonnes",
+      "publishedFrench": [],
+      "earlierPlans": []
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:19.419Z",
+  "sense": {
+    "id": "sns_prendre_primary",
+    "lemmaId": "lem_prendre",
+    "gloss": "catch; trick",
+    "definition": "To catch or deceive someone by means of a ruse"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 2,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_prendrait_advanced",
+      "qiz_prendrait_early",
+      "qiz_prendrait_intermediate",
+      "qiz_zola_prendre_prendre_trick_early",
+      "qiz_zola_prendre_prendre_trick_intermediate",
+      "qiz_zola_prendre_prendre_trick_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_prendrait:sns_prendre_primary",
+      "surface": "prendrait",
+      "lemma": "prendre",
+      "currentRevision": "rev_6a818f5060a1ec53c9697c8c9d40333abfcffb37e23297a194186b5d79a05472",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_a033136d4ea1db5e5f161f20",
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_11",
+          "passage": "Le Corbeau, honteux et confus, jura, mais un peu tard, qu’on ne l’y prendrait plus.",
+          "span": [
+            68,
+            77
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_prendrait_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il vérifie chaque promesse : il a juré qu’on ne l’y prendrait plus après cette tromperie.",
+          "prompt": "Quel verbe signifie ici tromper ou piéger quelqu’un ?",
+          "choices": [
+            {
+              "text": "vérifie",
+              "correct": false
+            },
+            {
+              "text": "promesse",
+              "correct": false
+            },
+            {
+              "text": "juré",
+              "correct": false
+            },
+            {
+              "text": "prendrait",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_prendrait_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Avec ce piège bien caché, on le prendrait facilement s’il revenait.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "would praise",
+              "correct": false
+            },
+            {
+              "text": "would catch",
+              "correct": true
+            },
+            {
+              "text": "would release",
+              "correct": false
+            },
+            {
+              "text": "would help",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_prendrait_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "S’il retombait dans ce piège, on le _____ de nouveau par la même ruse.",
+          "choices": [
+            {
+              "text": "prendrait",
+              "correct": true
+            },
+            {
+              "text": "libérerait",
+              "correct": false
+            },
+            {
+              "text": "aiderait",
+              "correct": false
+            },
+            {
+              "text": "féliciterait",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_prendre_prendre:sns_prendre_primary",
+      "surface": "prendre",
+      "lemma": "prendre",
+      "currentRevision": "rev_d85a8c91318df275e6cc01e5c3cfc1a6d4e2787bda02b462e81799fbf2eb1705",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_78a390c5ed8d1b6731656706",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_036",
+          "passage": "Je voudrais faire toucher du doigt comment l’erreur judiciaire a pu être possible, comment elle est née des machinations du commandant du Paty de Clam, comment le général Mercier, les généraux de Boisdeffre et Gonse ont pu s’y laisser prendre, engager peu à peu leur responsabilité dans cette erreur, qu’ils ont cru devoir, plus tard, imposer comme la vérité sainte, une vérité qui ne se discute même pas.",
+          "span": [
+            235,
+            242
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_prendre_prendre_trick_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ce mensonge ne suffira pas à prendre Nina au piège.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "protect",
+              "correct": false
+            },
+            {
+              "text": "trap",
+              "correct": true
+            },
+            {
+              "text": "warn",
+              "correct": false
+            },
+            {
+              "text": "help",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prendre_prendre_trick_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le personnage cherche à _____ son rival au piège avec une fausse promesse.",
+          "choices": [
+            {
+              "text": "prenait",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": true
+            },
+            {
+              "text": "prend",
+              "correct": false
+            },
+            {
+              "text": "prennent",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_prendre_prendre_trick_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Paul refuse de se laisser prendre à cette ruse ; il vérifie chaque détail avant de répondre.",
+          "prompt": "Quel infinitif indique qu’il pourrait être trompé par un stratagème ?",
+          "choices": [
+            {
+              "text": "détail",
+              "correct": false
+            },
+            {
+              "text": "répondre",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": true
+            },
+            {
+              "text": "ruse",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:06:20.641Z",
+  "sense": {
+    "id": "sns_zola_couvrir_conceal",
+    "lemmaId": "lem_zola_couvrir",
+    "gloss": "to cover up; protect",
+    "definition": "dissimuler une faute ou protéger une personne mise en cause"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 2,
+    "occurrenceCount": 3,
+    "activeQuizCount": 6,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_couvert_couvrir_conceal_early",
+      "qiz_zola_couvert_couvrir_conceal_intermediate",
+      "qiz_zola_couvert_couvrir_conceal_advanced",
+      "qiz_zola_couvrir_couvrir_conceal_advanced",
+      "qiz_zola_couvrir_couvrir_conceal_early",
+      "qiz_zola_couvrir_couvrir_conceal_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_couvert_couvrir:sns_zola_couvrir_conceal",
+      "surface": "couvert",
+      "lemma": "couvrir",
+      "currentRevision": "rev_f618b3264e94cc6bb65f471dc3717f4a056bfbe2e9161f74113a0be1b9ec49f4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_2ea9b9b127d22059ed93e51c",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_150",
+          "passage": "Aussi les bureaux, par tous les moyens imaginables, par des campagnes de presse, par des communications, par des influences, n’ont-ils couvert Esterhazy que pour perdre une seconde fois Dreyfus.",
+          "span": [
+            135,
+            142
+          ]
+        },
+        {
+          "id": "occ_zola_99a4a538f242dbc212125ded",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_188",
+          "passage": "J’accuse enfin le premier conseil de guerre d’avoir violé le droit, en condamnant un accusé sur une pièce restée secrète, et j’accuse le second conseil de guerre d’avoir couvert cette illégalité, par ordre, en commettant à son tour le crime juridique d’acquitter sciemment un coupable.",
+          "span": [
+            170,
+            177
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_couvert_couvrir_conceal_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le directeur a couvert la fraude de son ami en cachant les preuves.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "covered up",
+              "correct": true
+            },
+            {
+              "text": "exposed",
+              "correct": false
+            },
+            {
+              "text": "prevented",
+              "correct": false
+            },
+            {
+              "text": "denounced",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_couvert_couvrir_conceal_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "En dissimulant les preuves contre son collègue, le directeur l’a _____ pendant des mois.",
+          "choices": [
+            {
+              "text": "couvert",
+              "correct": true
+            },
+            {
+              "text": "dénoncé",
+              "correct": false
+            },
+            {
+              "text": "accusé",
+              "correct": false
+            },
+            {
+              "text": "trahi",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_couvert_couvrir_conceal_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le responsable a couvert son adjoint en cachant les factures qui révélaient le vol. Nina a retrouvé les documents, le juge a interrogé les témoins et Paul a ouvert le dossier.",
+          "prompt": "Quel mot indique que le responsable a protégé l’adjoint en dissimulant sa faute ?",
+          "choices": [
+            {
+              "text": "couvert",
+              "correct": true
+            },
+            {
+              "text": "retrouvé",
+              "correct": false
+            },
+            {
+              "text": "interrogé",
+              "correct": false
+            },
+            {
+              "text": "ouvert",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_couvrir_couvrir:sns_zola_couvrir_conceal",
+      "surface": "couvrir",
+      "lemma": "couvrir",
+      "currentRevision": "rev_df9f2598b59e7336a1166566830f55fb99a85e4f224def047addd1e68687be5a",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_da0872b13f83fbf858902649",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_187",
+          "passage": "J’accuse les bureaux de la guerre d’avoir mené dans la presse, particulièrement dans l’Eclair et dans l’Echo de Paris, une campagne abominable, pour égarer l’opinion et couvrir leur faute.",
+          "span": [
+            169,
+            176
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_couvrir_couvrir_conceal_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le comptable hésite à couvrir son supérieur en dissimulant les faux reçus. Léa examine les dossiers, Nina consulte les comptes et Paul contacte le juge.",
+          "prompt": "Quel verbe signifie protéger le supérieur en cachant sa fraude ?",
+          "choices": [
+            {
+              "text": "couvrir",
+              "correct": true
+            },
+            {
+              "text": "examine",
+              "correct": false
+            },
+            {
+              "text": "consulte",
+              "correct": false
+            },
+            {
+              "text": "contacte",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_couvrir_couvrir_conceal_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "L’avocat refuse de couvrir la fraude de son client en détruisant des documents.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "to cover up",
+              "correct": true
+            },
+            {
+              "text": "to reveal",
+              "correct": false
+            },
+            {
+              "text": "to prevent",
+              "correct": false
+            },
+            {
+              "text": "to investigate",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_couvrir_couvrir_conceal_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il ne veut pas _____ son ami en cachant les preuves de son vol.",
+          "choices": [
+            {
+              "text": "couvrir",
+              "correct": true
+            },
+            {
+              "text": "dénoncer",
+              "correct": false
+            },
+            {
+              "text": "accuser",
+              "correct": false
+            },
+            {
+              "text": "punir",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

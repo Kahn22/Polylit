@@ -1,0 +1,44 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {resolve} from 'node:path';
+const folder=resolve('content/sources/wrk_voltaire_micromegas'),read=n=>JSON.parse(readFileSync(resolve(folder,n)));
+const inventory=read('chapter-04-inventory.json'),unitPlan=read('unit-plan.json');
+// Exact contextual senses in first four thought units: form | lemma | POS | meaning | English options | French completion | French other options | upper-band contrast.
+const lines=`
+reposés|reposer|reflexive past participle masculine plural|rested; recovered from fatigue|rested/fled/argued/vanished|Après une pause pour reprendre leurs forces, ils s’étaient ___.|éloignés/disputés/égarés|Ils s’étaient reposés pour récupérer; éloignés s’ils étaient partis, disputés s’ils s’étaient querellés et égarés s’ils avaient perdu leur chemin.
+mangèrent|manger|verb past historic third plural|ate; consumed food|ate/planted/sold/measured|Ils prirent leur repas : ils ___.|plantèrent/vendirent/mesurèrent|Ils mangèrent leur déjeuner en le consommant; plantèrent en mettant en terre, vendirent en échangeant contre de l’argent et mesurèrent en évaluant sa taille.
+déjeuner|déjeuner|noun masculine singular|morning meal; breakfast in eighteenth-century usage|meal/weapon/ship/argument|Ils prennent un repas après leur repos : leur ___.|combat/voyage/discours|Le déjeuner est ici leur repas; le combat est une lutte, le voyage un déplacement et le discours une allocution.
+montagnes|montagne|noun feminine plural|mountains; high landforms|mountains/rivers/forests/islands|Ces très hauts reliefs sont des ___.|rivières/forêts/îles|Les montagnes s’élèvent en relief; les rivières coulent, les forêts couvrent le sol d’arbres et les îles sont entourées d’eau.
+apprêtèrent|apprêter|verb past historic third plural|prepared; made ready for a meal|prepared/hid/discarded/forgot|Leurs gens préparèrent le repas : ils l’___.|oublièrent/jetèrent/cachèrent|Ils apprêtèrent le déjeuner en le préparant; oublièrent s’ils n’y pensaient plus, jetèrent en s’en débarrassant et cachèrent en le dissimulant.
+proprement|proprement|adverb|neatly; in a tidy manner|neatly/clumsily/late/angrily|Le repas est préparé avec soin : il est apprêté ___.|grossièrement/tardivement/coléreusement|Proprement indique le soin de la préparation; grossièrement indique la négligence, tardivement un retard et coléreusement de la colère.
+nord|nord|noun masculine singular|north; cardinal direction|north/south/east/west|Ils partent vers le haut de la carte : vers le ___.|sud/est/ouest|Le nord est la direction vers le pôle Nord; le sud est opposé, l’est se trouve vers le lever du soleil et l’ouest vers son coucher.
+sud|sud|noun masculine singular|south; cardinal direction|south/north/east/west|Ils vont vers le pôle opposé au nord : vers le ___.|nord/est/ouest|Le sud est opposé au nord; le nord mène au pôle Nord, l’est au lever du soleil et l’ouest à son coucher.
+nain|nain|noun masculine singular|dwarf; much smaller companion|dwarf/giant/captain/king|Comparé au Sirien, ce voyageur beaucoup plus petit est le ___.|géant/capitaine/roi|Le nain paraît petit à côté du Sirien; le géant est très grand, le capitaine commande et le roi règne.
+haletant|haleter|present participle|panting; breathing hard|panting/sleeping/laughing/whispering|Après avoir couru pour suivre le géant, il avance en ___.|dormant/riant/chuchotant|Haletant décrit une respiration difficile; dormant signifie être endormi, riant exprime le rire et chuchotant une voix basse.
+enjambée|enjambée|noun feminine singular|stride; long step|stride/shoe/hand/wall|Un seul de ses grands pas est une ___.|chaussure/main/muraille|L’enjambée est un pas qui franchit une distance; la chaussure couvre le pied, la main saisit et la muraille fait obstacle.
+figurez|figurer|imperative second plural|imagine; picture in your mind|imagine/calculate/erase/forget|Imaginez un très petit chien qui le suit : ___-vous cette scène.|calculez/effacez/oubliez|Figurez-vous signifie imaginez la scène; calculez demande un nombre, effacez supprime une marque et oubliez perd le souvenir.
+permis|permettre|past participle|permitted; allowed|permitted/forbidden/forgotten/completed|Si cela est autorisé, il est ___ de comparer les deux.|défendu/oublié/achevé|Il est permis si cela est autorisé; défendu signifie interdit, oublié signifie sorti de la mémoire et achevé signifie terminé.
+chien|chien|noun masculine singular|dog; domestic canine|dog/cat/horse/bird|Ce petit animal de compagnie aboie : un ___.|chat/cheval/oiseau|Le chien aboie; le chat miaule, le cheval hennit et l’oiseau chante.
+manchon|manchon|noun masculine singular|muff; hand warmer worn around the hands|muff/hat/coat/pillow|Pour garder ses mains au chaud, il porte un ___.|chapeau/manteau/coussin|Le manchon garde les mains au chaud; le chapeau couvre la tête, le manteau couvre le corps et le coussin soutient la tête ou le dos.
+capitaine|capitaine|noun masculine singular|captain; military commander|captain/sailor/farmer/baker|Il commande les gardes du roi : c’est un ___.|marin/paysan/boulanger|Le capitaine commande une troupe; le marin navigue, le paysan cultive la terre et le boulanger fait du pain.
+fît|faire|verb imperfect subjunctive third singular|made; took steps in a hypothetical clause|took/waited/slept/fell|Il fallait qu’il ___ douze pas pour suivre l’autre.|attendît/dormît/tombât|Il fallait qu’il fît douze pas, c’est-à-dire qu’il les accomplît; attendît ferait une pause, dormît dormirait et tombât ferait une chute.
+suivait|suivre|verb imperfect third singular|was following; stayed behind while moving|was following/was fleeing/was hiding/was sleeping|Le plus petit avançait derrière lui : il le ___.|fuyait/cachait/évitait|Il le suivait en marchant derrière lui; fuyait s’il s’éloignait, cachait s’il le dissimulait et évitait s’il ne le rencontrait pas.
+suivrait|suivre|verb conditional third singular|would follow; move behind another|would follow/would avoid/would stop/would hide|Dans l’image, le chien irait derrière le capitaine : il le ___.|fuirait/éviterait/cacherait|Le chien le suivrait en allant derrière lui; le fuirait s’il partait loin de lui, l’éviterait s’il le contournait et le cacherait s’il le dissimulait.
+telles|tel|demonstrative adjective feminine plural|such; of this kind|such/none/earlier/tiny|Des comparaisons de ce genre sont de ___ comparaisons.|semblables/diverses/rares|De telles comparaisons sont de ce genre; de semblables seraient analogues, de diverses seraient variées et de rares comparaisons seraient peu nombreuses.
+`;
+const rows=lines.trim().split('\n').map(line=>{const [form,lemma,partOfSpeech,meaning,en,middle,fr,upper]=line.split('|');if(!upper)throw Error(line);return {form,lemma,partOfSpeech,meaning,en:en.split('/'),middle,fr:[form,...fr.split('/')],upper}});
+const seen=new Set(),items=rows.map(r=>{
+ const tokens=inventory.tokens.filter(t=>t.form===r.form&&!t.earlierDraft&&t.candidates.length===0);
+ if(!tokens.length)throw Error(`No source form ${r.form}`);
+ const sourceOccurrences=tokens.map(t=>({chapter:4,unit:t.unit,start:t.start,end:t.end,text:t.text}));
+ for(const o of sourceOccurrences){const key=`${o.unit}:${o.start}`;if(seen.has(key))throw Error(`Duplicated ${key}`);seen.add(key)}
+ const o=sourceOccurrences[0],unit=unitPlan.units[o.unit-1];let a=Math.max(0,o.start-45),b=Math.min(unit.text.length,o.end+55);
+ if(a>0)a=unit.text.indexOf(' ',a)+1;if(b<unit.text.length){const e=unit.text.lastIndexOf(' ',b);if(e>o.end)b=e}
+ const context=(a?'… ':'')+unit.text.slice(a,b)+(b<unit.text.length?' …':'');
+ const key=`${r.form.normalize('NFD').replace(/\p{M}/gu,'')}_${r.meaning.split(';')[0].toLowerCase().replace(/[^a-z0-9]+/giu,'_').slice(0,25)}`;
+ return {key,form:r.form,lemma:r.lemma,partOfSpeech:r.partOfSpeech,meaning:r.meaning,editorialNote:`Chapter IV source ${o.unit}:${o.start} shows ${r.form} as ${r.meaning}. Each authored contrast retains the same grammatical frame where relevant.`,sourceOccurrences,status:'offline_new_contextual_meaning_and_three_bands_pending_identity_route',questions:[{band:'1-3',context,question:'Meaning',answer:r.en[0],choices:r.en},{band:'4-5',context:r.middle,question:'Complétez la phrase.',answer:r.fr[0],choices:r.fr},{band:'6-8',context:r.upper,question:`Quel mot signifie ${r.meaning.split(';')[0]} ?`,answer:r.fr[0],choices:r.fr}]};
+});
+for(let index=0;index<2;index++){
+ const batch=items.slice(index*10,(index+1)*10),name=`chapter-04-batch-${String(index+1).padStart(2,'0')}.json`;
+ writeFileSync(resolve(folder,name),JSON.stringify({version:1,workId:inventory.workId,chapter:4,status:'offline_source_bound_new_meaning_drafts_pending_complete_work_import',sourceSha256:inventory.sourceSha256,unitPlanSha256:inventory.unitPlanSha256,items:batch},null,2)+'\n');
+ console.log(JSON.stringify({name,meanings:batch.length,uses:batch.reduce((n,i)=>n+i.sourceOccurrences.length,0)}));
+}

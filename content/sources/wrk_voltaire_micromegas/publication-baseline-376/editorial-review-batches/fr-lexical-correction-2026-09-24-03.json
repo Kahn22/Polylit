@@ -1,0 +1,681 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-24-03",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 3,
+  "reviewedIdentities": 19,
+  "approvals": 19,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "controlled correction of learner glosses and definitions followed by contextual re-review with stable identity IDs",
+  "changes": [
+    {
+      "subjectId": "srf_autre:sns_autre_adjective",
+      "reviewId": "vocabulary:srf_autre:sns_autre_adjective",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_autre:sns_autre_adjective",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_autre:sns_autre_adjective",
+        "subjectRevision": "rev_4234d9728527ba15e382db891ca262442ff7298366a3e9c18248be9669c22c57",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The 13 contexts include adjective uses, substantivized forms, and a source heading; another active autre lemma/sense exists in Zola. Resolve annotation/exclusion and part-of-speech plus lemma/sense reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_autre:sns_autre_adjective",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_autre:sns_autre_adjective",
+        "subjectRevision": "rev_852a993b9ba6d7f407101bf69306d74b3d4592f51176819bc773e1239251b69b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 13
+    },
+    {
+      "subjectId": "srf_courir:sns_courir_primary",
+      "reviewId": "vocabulary:srf_courir:sns_courir_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_courir:sns_courir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_courir:sns_courir_primary",
+        "subjectRevision": "rev_f611848f6ef99e709c3df37236041142fd66673b1ed455dd5f2b97aba43a275e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The running sense is clear in Rien ne sert de courir, but the record uses a circular definition and an unresolved duplicate courir lemma candidate exists. Reconcile exact lemma/sense reuse and rewrite the gloss before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_courir:sns_courir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_courir:sns_courir_primary",
+        "subjectRevision": "rev_257831f9d767d029691508df2a5ea2fe5621c06a75c8861b752320c59706eebe",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_grains:sns_grain_primary",
+      "reviewId": "vocabulary:srf_grains:sns_grain_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_grains:sns_grain_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_grains:sns_grain_primary",
+        "subjectRevision": "rev_82df36c3ec26f03c72c4e7f53f64f00abb09260dac6fd584c40cd8f6346f082d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole occurrence means medicinal grains/doses of hellebore, but the gloss “Grains is the plural noun grains” is circular and does not explain the measure/item. Rewrite the learner-facing gloss before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_grains:sns_grain_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_grains:sns_grain_primary",
+        "subjectRevision": "rev_99d9dc271ca935bbfab51076b4757d44962902508cef44e032dd6dc33f2d9e62",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_ainsi:sns_ainsi_primary",
+      "reviewId": "vocabulary:srf_ainsi:sns_ainsi_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_ainsi:sns_ainsi_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ainsi:sns_ainsi_primary",
+        "subjectRevision": "rev_b45e8b19a2efb6e6eea26c5edd1a8c46f0bd27cf3b31cb595141020f94c0a306",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Nine contexts include ainsi que and adverbial thus/in-that-way uses. The current self-referential definition does not distinguish these functions; refine or split the lexical analysis before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_ainsi:sns_ainsi_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ainsi:sns_ainsi_primary",
+        "subjectRevision": "rev_194ed89a59880fdfead0a85cd4e0eafa12ffba792dd32d6eba9b38958e1d8bbd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 9
+    },
+    {
+      "subjectId": "srf_affaire:sns_affaire_primary",
+      "reviewId": "vocabulary:srf_affaire:sns_affaire_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_affaire:sns_affaire_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_affaire:sns_affaire_primary",
+        "subjectRevision": "rev_3371ab650435602cc4da2ce5da74032a218fef463514f80aed8ca652272db3ab",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The contexts span “ce n’est pas l’affaire” and the construction “avoir affaire aux usuriers”; a second active affaire lemma also exists in Zola. Resolve lemma/sense reuse and replace the tautological current definition before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_affaire:sns_affaire_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_affaire:sns_affaire_primary",
+        "subjectRevision": "rev_b7a3435bab3f69439edd58576dfef522f1f748e258e1ada874719a695e15efc4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_juge:sns_juge_primary",
+      "reviewId": "vocabulary:srf_juge:sns_juge_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_juge:sns_juge_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_juge:sns_juge_primary",
+        "subjectRevision": "rev_93be7a8e13a48dc3aebca80f8e8d254362749d836a610cfc1d147925b0c4759c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole use is in the phrase “de quel juge l’on convint” (which judge they agreed on), while a same-lemma duplicate candidate remains unresolved. Reconcile reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_juge:sns_juge_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_juge:sns_juge_primary",
+        "subjectRevision": "rev_9b772dc84b9b48d38da0025acce5b8cbc7d6aaa33df4b55dd95c78ed807be5b9",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_convint:sns_convenir_primary",
+      "reviewId": "vocabulary:srf_convint:sns_convenir_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_convint:sns_convenir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_convint:sns_convenir_primary",
+        "subjectRevision": "rev_1fcab37773b805745c8aae48822c7043b6960b22e0767f63d4c8a4f29816b621",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The one occurrence means the two parties agreed on a judge, but the gloss/definition simply repeat “Convint is the past historic of convenir, agreed.” Rewrite it with a direct learner meaning and grammar note, then re-review."
+      },
+      "after": {
+        "id": "vocabulary:srf_convint:sns_convenir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_convint:sns_convenir_primary",
+        "subjectRevision": "rev_5313a720a98774031229d94d4761c6509b24d3e6c1a28d9d333aea3e83d51283",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_eloigne:sns_eloigner_primary",
+      "reviewId": "vocabulary:srf_eloigne:sns_eloigner_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_eloigne:sns_eloigner_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_eloigne:sns_eloigner_primary",
+        "subjectRevision": "rev_d22a7e0a97f08c6dc07dcd4c5d4ad2275a4f87ce9af0bdec96e4413485f4b91a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole context is the reflexive construction s’éloigner des chiens (“move away from the dogs”), whereas this record is assigned to non-reflexive éloigner. Clarify reflexive lemma/sense binding before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_eloigne:sns_eloigner_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_eloigne:sns_eloigner_primary",
+        "subjectRevision": "rev_513acb1258ac5396d97a1dbf0f52c3089fbd078deb947cdc0460112db0180590",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_dormir:sns_dormir_primary",
+      "reviewId": "vocabulary:srf_dormir:sns_dormir_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_dormir:sns_dormir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_dormir:sns_dormir_primary",
+        "subjectRevision": "rev_0566743526b69f6a61471c10aab2274b0b182f1232497867dfffd81275ebc8a0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Both infinitive occurrences mean “to sleep,” but an unresolved global dormir lemma candidate exists. Reconcile exact lemma/sense reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_dormir:sns_dormir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_dormir:sns_dormir_primary",
+        "subjectRevision": "rev_b63908457fba2c99d845bf0bb540df9f85132054266b2a2b3d2cf9c3c73a84e5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_evertue:sns_evertuer_primary",
+      "reviewId": "vocabulary:srf_evertue:sns_evertuer_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_evertue:sns_evertuer_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_evertue:sns_evertuer_primary",
+        "subjectRevision": "rev_55fbfd2b1c8190e9a4d74f7ca03f58ffc38b77f1ecf9c74f92459495d5ddb9a1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole occurrence is s’évertue, a reflexive verb form, but the lemma is stored as non-reflexive évertuer. Clarify the reflexive lemma and exact form before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_evertue:sns_evertuer_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_evertue:sns_evertuer_primary",
+        "subjectRevision": "rev_93896f1864c38eb6b9bd98b943820a91258aeb519239db3eeacdf308f3900a34",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_hate:sns_hater_primary",
+      "reviewId": "vocabulary:srf_hate:sns_hater_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_hate:sns_hater_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_hate:sns_hater_primary",
+        "subjectRevision": "rev_769ebcc7bf7b8fd569f871889f64c0205bb3c5d09ee75b5eff64e319dd6bf5e7",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole occurrence is reflexive se hâter, and an unresolved same-lemma candidate exists. Reconcile the reflexive identity and reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_hate:sns_hater_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_hate:sns_hater_primary",
+        "subjectRevision": "rev_271d5dfa1109920751530df6cdbeec66a4971067f739b70c5eff944eaf786659",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_gageure:sns_gageure_primary",
+      "reviewId": "vocabulary:srf_gageure:sns_gageure_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_gageure:sns_gageure_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_gageure:sns_gageure_primary",
+        "subjectRevision": "rev_1c8bbdb6dee2c255a7a521db0a8fbec3f84a78e2fdce3e963f78104f51d1e0b5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The two occurrences refer to the hare–tortoise wager, but the gloss and definition merely say “Gageure is the noun wager/challenge.” Rewrite as a direct learner-facing meaning before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_gageure:sns_gageure_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_gageure:sns_gageure_primary",
+        "subjectRevision": "rev_e59e3be18602acc2652327655c21765368a5b16fae5fe6d572687646064f2ebd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_croit:sns_croire_primary",
+      "reviewId": "vocabulary:srf_croit:sns_croire_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_croit:sns_croire_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_croit:sns_croire_primary",
+        "subjectRevision": "rev_92b26df051243ba1638906baf130f0e4901eb486d6e3fe84d473ca609a037437",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed use means “believes/thinks,” but the gloss and definition only restate the inflected form and the global croire lemma candidate is unresolved. Rewrite the learner-facing sense and reconcile reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_croit:sns_croire_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_croit:sns_croire_primary",
+        "subjectRevision": "rev_d27a7d075bdd3b508f161370a89c478c6ee8c5c64e43b9fcf8a6d145aa523612",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_amuse:sns_amuser_primary",
+      "reviewId": "vocabulary:srf_amuse:sns_amuser_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_amuse:sns_amuser_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_amuse:sns_amuser_primary",
+        "subjectRevision": "rev_0eee205bc51fe5c7cdce3323bd2d0c98f75c524b7c655e262ca0051037229b97",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole source occurrence is reflexive s’amuse à; its contextual sense is “have fun/occupy oneself,” not simply the transitive “amuse.” Check the reflexive construction/identity and replace the self-referential definition before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_amuse:sns_amuser_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_amuse:sns_amuser_primary",
+        "subjectRevision": "rev_c4ddfeeede685f4fabc67c080979b0057d993a6f790642620b2b195e0a839b26",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_bout:sns_bout_primary",
+      "reviewId": "vocabulary:srf_bout:sns_bout_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_bout:sns_bout_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_bout:sns_bout_primary",
+        "subjectRevision": "rev_13f49774c59241a762d6cc87bd5a3476a7963fe4a17e39d7bd3d7c3b6e8dd3e8",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The five contexts include physical end/limit and the idiom en venir à bout; another distinct fixed expression may own the latter meaning. Confirm expression annotation and occurrence-level sense before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_bout:sns_bout_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_bout:sns_bout_primary",
+        "subjectRevision": "rev_9225cf91e0182e44f6e495a13e7175039a3019cd1f7677d59f4889faaea67588",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_elans:sns_elan_primary",
+      "reviewId": "vocabulary:srf_elans:sns_elan_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_elans:sns_elan_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_elans:sns_elan_primary",
+        "subjectRevision": "rev_b7db122d1560ba5f1548cb1c2ea9a0f16e0352eec021513b49f85fe314a77885",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The plural form élans means leaps/bounds here, but the lemma is stored as “elan” without the required French accent and the gloss/definition merely paraphrase the form. Correct lemma spelling and rewrite the direct meaning before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_elans:sns_elan_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_elans:sns_elan_primary",
+        "subjectRevision": "rev_b6055398d80c3e1cb2475189a87e391c9ab70b78d8222a0fe91cbc4a585a9248",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_arriva:sns_arriver_primary",
+      "reviewId": "vocabulary:srf_arriva:sns_arriver_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_arriva:sns_arriver_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_arriva:sns_arriver_primary",
+        "subjectRevision": "rev_6918048fb2326023719151679a9d3171e9df26e166e630e24a0e7bbea228ead1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The six contexts include arrival at a place/time and the construction il arriva que (“it happened that”); the active arriver lemma has separate senses for these uses. Assign each occurrence to the correct sense and reconcile the duplicate lemma before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_arriva:sns_arriver_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_arriva:sns_arriver_primary",
+        "subjectRevision": "rev_e226177241e64baf3ad85bcd42de50d4909b4e81be19549af32d2164a1dbd6bf",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_bien:sns_bien_discourse",
+      "reviewId": "vocabulary:srf_bien:sns_bien_discourse",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_bien:sns_bien_discourse",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_bien:sns_bien_discourse",
+        "subjectRevision": "rev_1ca68b936d4785987a405d821fd2f4687afca0f50d044e92b6074acab8189516",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole Eh bien! occurrence is a discourse marker, but the current definition only describes it as not another sense and does not provide its discourse function; another active bien lemma has dedicated discourse senses. Reconcile the duplicate and rewrite the definition."
+      },
+      "after": {
+        "id": "vocabulary:srf_bien:sns_bien_discourse",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_bien:sns_bien_discourse",
+        "subjectRevision": "rev_a1f768c8d66e9c8dcd2cdf157b2abab1973aff694f0621dec4bfa7a62690bd21",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_cria:sns_crier_primary",
+      "reviewId": "vocabulary:srf_cria:sns_crier_primary",
+      "outcome": "approve",
+      "rationale": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+      "before": {
+        "id": "vocabulary:srf_cria:sns_crier_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cria:sns_crier_primary",
+        "subjectRevision": "rev_a289b9295b6094cf085dab9a09d6e7e0e937d8a875997b224a68daf29b65e3d1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The indexed use is the construction crier famine (“cry/complain of hunger”), and an unresolved global crier lemma candidate exists. Clarify the idiomatic use, occurrence assignment, and duplicate reuse before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_cria:sns_crier_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cria:sns_crier_primary",
+        "subjectRevision": "rev_15783cc95a79aa9d5244f1ce7dea19c5b1a9ee5987d3d635179fe8a274f608da",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Corrected the learner-facing gloss and definition to match every indexed context while preserving the existing lemma, sense, surface-form, occurrence, and learner mastery IDs.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

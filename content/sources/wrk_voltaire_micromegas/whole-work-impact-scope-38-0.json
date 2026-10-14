@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:56:35.642Z",
+  "sense": {
+    "id": "sns_fr_quoy_que_although",
+    "lemmaId": "lem_fr_quoique_conjunction",
+    "gloss": "although (historical quoy que)",
+    "definition": "Dans l’ancienne graphie séparée quoy que, premier élément de la conjonction concessive quoique."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_1_3",
+      "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_4_5",
+      "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_quoy_quoique_conjunction:sns_fr_quoy_que_although",
+      "surface": "quoy",
+      "lemma": "quoique",
+      "currentRevision": "rev_a45edf167906aaf63b8624112ccb6c0bf0a264a3d5145408f5e91b3c44396b3a",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_22b1e4f96a0dead4164a2e7b",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_005",
+          "passage": "la cadette, qui n’estoit pas si malhonneste que son aisnée, l’appeloit Cendrillon. Cependant Cendrillon, avec ses méchans habits, ne laissoit pas d’estre cent fois plus belle que ses sœurs, quoy que vestuës tres-magnifiquement.",
+          "span": [
+            190,
+            194
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle sourit, quoy que fatiguée par la route, selon ce vieux récit.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "before",
+              "correct": false
+            },
+            {
+              "text": "until",
+              "correct": false
+            },
+            {
+              "text": "although",
+              "correct": true
+            },
+            {
+              "text": "because",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le personnage reste calme, _____ que fort inquiet, dans cette graphie ancienne.",
+          "choices": [
+            {
+              "text": "quand",
+              "correct": false
+            },
+            {
+              "text": "quoy",
+              "correct": true
+            },
+            {
+              "text": "qui",
+              "correct": false
+            },
+            {
+              "text": "où",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_quoy_que_although_fr_quoy_quoique_conjunction_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il continue son chemin, quoy que la nuit soit déjà tombée.",
+          "prompt": "Quel mot, suivi de que, forme ici l’ancienne graphie de quoique ?",
+          "choices": [
+            {
+              "text": "quoy",
+              "correct": true
+            },
+            {
+              "text": "chemin",
+              "correct": false
+            },
+            {
+              "text": "nuit",
+              "correct": false
+            },
+            {
+              "text": "tombée",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

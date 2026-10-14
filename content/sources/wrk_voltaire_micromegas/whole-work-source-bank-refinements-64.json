@@ -1,0 +1,894 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-07-batch-05.json",
+      "key": "demandez_chapter_07_05_200_41",
+      "beforeQuestionSha256": "825e661044287365ccbdc8ca84656a3eac0a0c8d87227b72dd5d6c841c683154",
+      "after": {
+        "form": "demandez",
+        "lemma": "demander",
+        "partOfSpeech": "verb present second person plural asking a question",
+        "meaning": "ask; put a question to someone",
+        "key": "demandez_chapter_07_05_200_41",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 200,
+            "start": 41,
+            "end": 49,
+            "text": "demandez",
+            "context": "Mais qu’entends-tu par esprit ? — Que me demandez-vous là ? dit le raisonneur ; je n’en ai point d’idée ; on dit que ce n’est pas la matière. — Mais sais-tu au moins ce que c’est que la matière ? — Très-bien, lui répondit l’homme."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Mais qu’entends-tu par esprit ? — Que me demandez-vous là ? dit le raisonneur ; je n’en ai point d’idée ; on dit que ce n’est pas la matière. — Mais sais-tu au moins ce que c’est que la matière ? — Très-bien, lui répondit l’homme.",
+            "targetText": "demandez",
+            "question": "What does the highlighted word mean here?",
+            "answer": "ask; put a question to someone",
+            "choices": [
+              "ask; put a question to someone",
+              "tell",
+              "answer",
+              "explain"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie posez une question pour obtenir une réponse est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "demandez",
+            "choices": [
+              "demandez",
+              "répondez",
+              "racontez",
+              "expliquez"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe signifie posez une question à quelqu’un ?",
+            "question": "Quel mot convient ?",
+            "answer": "demandez",
+            "choices": [
+              "demandez",
+              "répondez",
+              "racontez",
+              "expliquez"
+            ]
+          }
+        ],
+        "reviewNote": "Que me demandez-vous là asks about the question just put to the Cartesian. The proper global question-asking meaning and all three stored banks were read; exclude asking for an object/requesting. All second-person plural predicates fit vous lui with an understood question or explanation: asking seeks the interlocutor’s answer, unlike answering, telling or explaining. Preserve the same asking meaning without a plural-only sense."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "2ab8deceebdecf30e249de42ac91daede3fe95c24720ff61fb6bdaa82b517372",
+          "afterSha256": "543de483e113fb5f30b24cbd446d6d52a780c13405b94fc640de49cebe91dc09",
+          "reason": "Remove missing-complement cues in the original cloze."
+        }
+      ],
+      "afterQuestionSha256": "8af663daaedc463ccc8c96e00aaff5ae77eab12195eef7fde8246f35d817e09d"
+    },
+    {
+      "file": "chapter-07-batch-01.json",
+      "key": "être_chapter_07_01_204_207",
+      "beforeQuestionSha256": "76ffabab31bc40b52c7a65c37772833bf1dc21cabd4896ac14f8ec5f2a8b3206",
+      "after": {
+        "form": "être",
+        "lemma": "être",
+        "partOfSpeech": "verb infinitive absolute existence",
+        "meaning": "exist; have existence",
+        "key": "être_chapter_07_01_204_207",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 204,
+            "start": 207,
+            "end": 211,
+            "text": "être",
+            "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius.",
+            "targetText": "être",
+            "question": "What does the highlighted word mean here?",
+            "answer": "exist; have existence",
+            "choices": [
+              "exist; have existence",
+              "become",
+              "remain in a place",
+              "disappear"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’infinitif qui, employé absolument, signifie exister est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "être",
+            "choices": [
+              "être",
+              "devenir",
+              "séjourner",
+              "disparaître"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel infinitif employé absolument signifie exister ?",
+            "question": "Quel mot convient ?",
+            "answer": "être",
+            "choices": [
+              "être",
+              "devenir",
+              "séjourner",
+              "disparaître"
+            ]
+          }
+        ],
+        "reviewNote": "Autant vaudrait ne pas être means not existing, rather than linking a subject to an attribute or being present somewhere. The global existential être sense was inspected, with its impersonal examples. This absolute bank shares existence; before activation impact-review the family to broaden the impersonal wording transparently without resetting unchanged existential mastery or inventing an infinitive-only sense."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "63dada324208b6bec588bb09290f7185a97de2607baf94e3aa73df32bc04b7d4",
+          "afterSha256": "21fe9934baf5634e63f50fa632fdf10f5d6fdff0ba5f36186ff86ff7930a596d",
+          "reason": "Quoted forms remove the missing complement of devenir."
+        }
+      ],
+      "afterQuestionSha256": "ce16d0c0c44c9cc1759b119c9e4a0a9168534d03c56401f97ce6629d32539c39"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "ami_chapter_07_06_205_12",
+      "beforeQuestionSha256": "aa12485f23ad750e43919633df4e1737fcb69201c2f09d85920b5b5a92fc25bc",
+      "after": {
+        "form": "ami",
+        "lemma": "ami",
+        "partOfSpeech": "noun masculine singular friend",
+        "meaning": "friend; a person linked to another by friendship",
+        "key": "ami_chapter_07_06_205_12",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 205,
+            "start": 12,
+            "end": 15,
+            "text": "ami",
+            "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »",
+            "targetText": "ami",
+            "question": "What does the highlighted word mean here?",
+            "answer": "friend; a familiar form of address",
+            "choices": [
+              "friend; a familiar form of address",
+              "enemy; a hostile opponent",
+              "stranger; an unknown person",
+              "adversary; a rival"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Pour s’adresser familièrement et avec bienveillance à cet interlocuteur, il l’appelle « mon ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "ami",
+            "choices": [
+              "ami",
+              "ennemi",
+              "inconnu",
+              "adversaire"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin sert ici d’adresse familière et bienveillante, sans prouver une amitié déjà établie ?",
+            "question": "Quel mot convient ?",
+            "answer": "ami",
+            "choices": [
+              "ami",
+              "ennemi",
+              "inconnu",
+              "adversaire"
+            ]
+          }
+        ],
+        "reviewNote": "Mon ami is a friendly form of address to the philosopher. The proper global ami friendship owner and all three amis banks were read, excluding the female-friend-only sense. Add the singular surface to the same friendship meaning; ami/ennemi/inconnu/adversaire are masculine singular nouns after mon. Contextual address does not establish an intimate historical relationship or create a separate vocative sense."
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "f95893972e0b33b26a37f55bd8d78cbe4e86f8bb39e9dffd4d9a6a7619ee7f58",
+          "afterSha256": "df4947afbd9d8714d7812505dfc2c4118aa494c26bb8688810b44547c776149d",
+          "reason": "The vocative does not assert an established reciprocal friendship."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "4b8e191c5d8eac638644db9dc83fb1045436531bdfcef6f4e66b33a2c1b6ab63",
+          "afterSha256": "c484892ef39efd0d6084dbdc39b8921be397c45c720957f857312b89325731c9",
+          "reason": "Use the source familiar address rather than a factual friendship claim."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "69787d4ac47e515e2825aaab83c45ba40b944c36c433b25c89b406228835ff5e",
+          "afterSha256": "77e0218940d26293ebf8325f6a7b45f0afbed82500a659f4c6c9a09b8a9f511e",
+          "reason": "Keep the address meaning explicit."
+        }
+      ],
+      "afterQuestionSha256": "9c2535731e6f09eb614aa5b271a790cb5b135158ab39ca04a142f016286fad24"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "carillonne_chapter_07_06_205_170",
+      "beforeQuestionSha256": "6aca62a198f37790063df12f67273cc29688e1a26bde51ef51016b4c13c68ec1",
+      "after": {
+        "form": "carillonne",
+        "lemma": "carillonner",
+        "partOfSpeech": "verb present singular chiming",
+        "meaning": "chimes; rings out a peal",
+        "key": "carillonne_chapter_07_06_205_170",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 205,
+            "start": 170,
+            "end": 180,
+            "text": "carillonne",
+            "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »"
+          },
+          {
+            "chapter": 7,
+            "unit": 205,
+            "start": 223,
+            "end": 233,
+            "text": "carillonne",
+            "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Et toi, mon ami, dit-il à un Leibnitzien qui était là, qu’est-ce que ton âme ? — C’est, répondit le Leibnitzien, une aiguille qui montre les heures pendant que mon corps carillonne ; ou bien, si vous voulez, c’est elle qui carillonne pendant que mon corps montre l’heure ; ou bien mon âme est le miroir de l’univers, et mon corps est la bordure du miroir : cela est clair. »",
+            "targetText": "carillonne",
+            "question": "What does the highlighted word mean here?",
+            "answer": "chimes; rings out a peal",
+            "choices": [
+              "chimes; rings out a peal",
+              "stays silent",
+              "moves its hands",
+              "stops running"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie fait entendre un carillon est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "carillonne",
+            "choices": [
+              "carillonne",
+              "se tait",
+              "avance",
+              "s’arrête"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe signifie fait entendre un carillon ?",
+            "question": "Quel mot convient ?",
+            "answer": "carillonne",
+            "choices": [
+              "carillonne",
+              "se tait",
+              "avance",
+              "s’arrête"
+            ]
+          }
+        ],
+        "reviewNote": "Both carillonne represent the clock’s audible chiming, attributed alternately to soul and body in the analogy. Académie9 records the intransitive bell/clock use separately from proclaiming a news item. Prepare proper French carillonner verb ownership. All four complete singular predicates fit elle; chiming differs from silence, movement or stopping. No soul-only or body-only new meaning is made."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "19db218ae7baced724d1f33f6faee241e704d5d496da0e8f0d07808363841583",
+          "afterSha256": "40395da6b0e7ac295558670c2e35a4ca98a9964a8c5f979710f2c895734f7ee7",
+          "reason": "The clock can advance while chiming; identify the lexical meaning."
+        }
+      ],
+      "afterQuestionSha256": "04bfcb10553b36e83ababf95e8e04fb1b5a594dcf03b844233f31f9f016c2ac5"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "révère_chapter_07_06_208_3",
+      "beforeQuestionSha256": "0614f7224d8c13a9e90ba81ed64ed4a97080693060fc0f65f7a2edb6ba73c8e6",
+      "after": {
+        "form": "révère",
+        "lemma": "révérer",
+        "partOfSpeech": "verb present singular reverence",
+        "meaning": "revere; regard with profound respect",
+        "key": "révère_chapter_07_06_208_3",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 208,
+            "start": 3,
+            "end": 9,
+            "text": "révère",
+            "context": "Je révère la puissance éternelle ; il ne m’appartient pas de la borner : je n’affirme rien ; je me contente de croire qu’il y a plus de choses possibles qu’on ne pense. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Je révère la puissance éternelle ; il ne m’appartient pas de la borner : je n’affirme rien ; je me contente de croire qu’il y a plus de choses possibles qu’on ne pense. »",
+            "targetText": "révère",
+            "question": "What does the highlighted word mean here?",
+            "answer": "revere; regard with profound respect",
+            "choices": [
+              "revere; regard with profound respect",
+              "despise",
+              "insult",
+              "ridicule"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le verbe qui signifie considère avec un profond respect est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "révère",
+            "choices": [
+              "révère",
+              "méprise",
+              "insulte",
+              "ridiculise"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe signifie considère avec un profond respect ?",
+            "question": "Quel mot convient ?",
+            "answer": "révère",
+            "choices": [
+              "révère",
+              "méprise",
+              "insulte",
+              "ridiculise"
+            ]
+          }
+        ],
+        "reviewNote": "Je révère la puissance éternelle expresses reverence for the deity’s power, not merely noticing it or reporting a fact. No proper earlier/global révérer verb was found. Every first-person singular predicate takes je la; profound respect contrasts with contempt, insult or ridicule. Preserve the general reverence meaning without a deity-only sense."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "27ec9746149964f7c0eacb13cf19c9e01683879a34e9c87644cc5303b853b403",
+          "afterSha256": "2adc46df08138ae6784587fa1d855a98ba2e73e63d9934e09fffba022de69266",
+          "reason": "Avoid the la/insulte elision cue."
+        }
+      ],
+      "afterQuestionSha256": "b2dc5aa211320456659c1f82838c85c93350ce66e3d4ce70a02105eafd294c96"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "contente_chapter_07_06_208_99",
+      "beforeQuestionSha256": "8d0889af539ee89fb4365675251d2575a64308b97a52191546325db167239e05",
+      "after": {
+        "form": "contente",
+        "lemma": "contenter",
+        "partOfSpeech": "verb present singular pronominal accepting a limit",
+        "meaning": "am content with; limit myself to without seeking more",
+        "key": "contente_chapter_07_06_208_99",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 208,
+            "start": 99,
+            "end": 107,
+            "text": "contente",
+            "context": "Je révère la puissance éternelle ; il ne m’appartient pas de la borner : je n’affirme rien ; je me contente de croire qu’il y a plus de choses possibles qu’on ne pense. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Je révère la puissance éternelle ; il ne m’appartient pas de la borner : je n’affirme rien ; je me contente de croire qu’il y a plus de choses possibles qu’on ne pense. »",
+            "targetText": "contente",
+            "question": "What does the highlighted word mean here?",
+            "answer": "am content with; limit myself to without seeking more",
+            "choices": [
+              "am content with; limit myself to without seeking more",
+              "regret",
+              "refrain from",
+              "hurry to"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Je m’en tiens à croire cela sans prétendre davantage : je me ___ de le croire.",
+            "question": "Complétez la phrase.",
+            "answer": "contente",
+            "choices": [
+              "contente",
+              "garde",
+              "retiens",
+              "dépêche"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel verbe, dans je me … de, signifie m’en tiens à cela sans prétendre davantage ?",
+            "question": "Quel mot convient ?",
+            "answer": "contente",
+            "choices": [
+              "contente",
+              "garde",
+              "retiens",
+              "dépêche"
+            ]
+          }
+        ],
+        "reviewNote": "Je me contente de croire is a pronominal contenter verb with an infinitive complement, not the feminine content adjective. Académie1762 records remaining with what one has done and doing no more. No global/earlier proper contenter owner exists. Prepare that verb meaning under proper French contenter. All four first-person pronominal predicates take de le croire; accepting a limit contrasts with avoidance, restraint or haste. Existing content adjective ownership and mastery remain separate."
+      },
+      "changes": [
+        {
+          "band": "6-8",
+          "beforeSha256": "8742b92804357a2a0d909a048dd842fb88ef530efa1a55d5b20b8654d1962872",
+          "afterSha256": "5cee58b87bdc0bb59f2531ff33e0a947fb7c922c6d241e44ed9b6c4f479c64d6",
+          "reason": "Correct the mismatched person in s’en tiens."
+        }
+      ],
+      "afterQuestionSha256": "67c26925b6eeffd9e15c7789a11ba5d6ffd18bf983f1b5686fe8c552b454bbd1"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "saint_chapter_07_06_210_205",
+      "beforeQuestionSha256": "dd327fa8c0574ecb6e4719bd46f67a40ed2aa49f378bdc96949e6dabc5cd4494",
+      "after": {
+        "form": "saint",
+        "lemma": "saint",
+        "partOfSpeech": "adjective masculine singular religious sanctity before a name",
+        "meaning": "saint; holy, as a religious qualification before a name",
+        "key": "saint_chapter_07_06_210_205",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 210,
+            "start": 205,
+            "end": 210,
+            "text": "saint",
+            "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+            "targetText": "saint",
+            "question": "What does the highlighted word mean here?",
+            "answer": "saint; holy, as a religious qualification before a name",
+            "choices": [
+              "saint; holy, as a religious qualification before a name",
+              "profane",
+              "impious",
+              "secular"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adjectif religieux signifiant sanctifié, placé ici devant Thomas, est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "saint",
+            "choices": [
+              "saint",
+              "profane",
+              "impie",
+              "laïc"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adjectif religieux qualifie une personne reconnue par l’Église pour sa vie exemplaire et honorée dans son culte ?",
+            "question": "Quel mot convient ?",
+            "answer": "saint",
+            "choices": [
+              "saint",
+              "profane",
+              "impie",
+              "laïc"
+            ]
+          }
+        ],
+        "reviewNote": "Saint before Thomas is a religious adjective qualifying the named person, rather than the name Thomas itself or a stand-alone saint noun. Académie9 lists named saints such as saint Pierre and saint Augustin in its adjective section; nominal saints have a separate section. No proper earlier/global saint owner exists. Prepare proper French saint adjective ownership and general religious-sanctity meaning, without a title-only or masculine-only sense. All four masculine singular adjectives are compatible with the metalinguistic clue, contrasting religious sanctity with profane, impious or secular status."
+      },
+      "changes": [
+        {
+          "band": "6-8",
+          "beforeSha256": "b6a5a95bba03b9b6792949b4b89db468ec0b174a1a44c86a394d35d3b6c76749",
+          "afterSha256": "702d449378c07013d34604042bd36075ec48266eb092058961e42f382b8efbac",
+          "reason": "Remove answer leakage through sainte."
+        }
+      ],
+      "afterQuestionSha256": "2f2f317c4bb11823df479abe7c12d2ceb23cac6c7158605a407a4e820db40015"
+    },
+    {
+      "file": "chapter-07-batch-06.json",
+      "key": "rire_chapter_07_06_211_90",
+      "beforeQuestionSha256": "dc3d40e24ee50ef5a2278b94f6a1833a97e411d33ade15b55f7cc74d0b7e5f6b",
+      "after": {
+        "form": "rire",
+        "lemma": "rire",
+        "partOfSpeech": "noun masculine singular laughter",
+        "meaning": "laughter; an audible expression of amusement",
+        "key": "rire_chapter_07_06_211_90",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 211,
+            "start": 90,
+            "end": 94,
+            "text": "rire",
+            "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien.",
+            "targetText": "rire",
+            "question": "What does the highlighted word mean here?",
+            "answer": "laughter; an audible expression of amusement",
+            "choices": [
+              "laughter; an audible expression of amusement",
+              "a sob",
+              "a cry",
+              "a sigh"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le nom masculin qui désigne la manifestation sonore de gaieté est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "rire",
+            "choices": [
+              "rire",
+              "sanglot",
+              "cri",
+              "soupir"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom masculin désigne la manifestation de gaieté produite en riant ?",
+            "question": "Quel mot convient ?",
+            "answer": "rire",
+            "choices": [
+              "rire",
+              "sanglot",
+              "cri",
+              "soupir"
+            ]
+          }
+        ],
+        "reviewNote": "Ce rire inextinguible is a masculine singular noun, not the exact published infinitive rire. The complete exact verb bank and global/earlier proper lemma inventory were read; only verb owners exist. Prepare proper French rire noun ownership, keeping the verb separate rather than attaching a noun to it. Rire/sanglot/cri/soupir are masculine singular nouns after ce. Gaiety distinguishes laughter from sobbing, crying out or sighing, and no deity-only meaning is made."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "4f435dd465812c614910393d32fb6c812d2b1ff0ebd8ad09eac16d02c49e803e",
+          "afterSha256": "685071e2f6c48ae693a71a4be308f9fb1f07e02142a9af2b210c5ae8d48080c1",
+          "reason": "A cry can also express joy; ask for the lexical meaning."
+        }
+      ],
+      "afterQuestionSha256": "322dc3602e7adfee8bd2d1609104eceda9d198ed6e5d4d7684290ce2ae14eea0"
+    },
+    {
+      "file": "chapter-07-batch-07.json",
+      "key": "écrit_chapter_07_07_214_58",
+      "beforeQuestionSha256": "ef2ba9d1f38d178147d955f4c7fa148c846f69a2f52e719569e3d67bb9ab708c",
+      "after": {
+        "form": "écrit",
+        "lemma": "écrire",
+        "partOfSpeech": "verb past participle masculine singular",
+        "meaning": "written; put into text",
+        "key": "écrit_chapter_07_07_214_58",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 214,
+            "start": 58,
+            "end": 63,
+            "text": "écrit",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+            "targetText": "écrit",
+            "question": "What does the highlighted word mean here?",
+            "answer": "written; put into text",
+            "choices": [
+              "written; put into text",
+              "erased",
+              "spoken",
+              "hidden"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le texte a été tracé avec des lettres sur la page : il est ___.",
+            "question": "Complétez la phrase.",
+            "answer": "écrit",
+            "choices": [
+              "écrit",
+              "effacé",
+              "prononcé",
+              "caché"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel participe signifie représenté avec des lettres sur un support ?",
+            "question": "Quel mot convient ?",
+            "answer": "écrit",
+            "choices": [
+              "écrit",
+              "effacé",
+              "prononcé",
+              "caché"
+            ]
+          }
+        ],
+        "reviewNote": "Écrit describes the promised book as a composed/traced text, modified by adverbial menu. It is a verbal participle under proper écrire, not the substantive un écrit. The broad write/compose family and both complete existing surface banks were read and compared with the other representation-of-words family. Share the generic écrire meaning with new surface questions; gender and participle status do not create a separate meaning."
+      },
+      "changes": [
+        {
+          "band": "6-8",
+          "beforeSha256": "ec5f17457b863a0c9cf25ac784af13c510e3f471c59f17943042394137d238b2",
+          "afterSha256": "2b15f5a43058cef3683a372f6172cc74f565070cdc18e36cfbfbc9fffe9c1a5a",
+          "reason": "Remove the answer écrit from the prompt."
+        }
+      ],
+      "afterQuestionSha256": "42ee9cbeb9df5bf2a5aed174748c1baee6cf10d3dc43ad7cf1f8ac589a9a0bb6"
+    },
+    {
+      "file": "chapter-07-batch-07.json",
+      "key": "usage_chapter_07_07_214_84",
+      "beforeQuestionSha256": "7863db7a1eb521a95c6647cf53dc84edc6f040b66b254c9684e9c57c05661008",
+      "after": {
+        "form": "usage",
+        "lemma": "usage",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "use; intended practical benefit",
+        "key": "usage_chapter_07_07_214_84",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 214,
+            "start": 84,
+            "end": 89,
+            "text": "usage",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+            "targetText": "usage",
+            "question": "What does the highlighted word mean here?",
+            "answer": "use; intended practical benefit",
+            "choices": [
+              "use; intended practical benefit",
+              "purchase",
+              "sale",
+              "storage"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’utilisation prévue de ce livre, destiné à leur servir, est son ___.",
+            "question": "Complétez la phrase.",
+            "answer": "usage",
+            "choices": [
+              "usage",
+              "achat",
+              "transport",
+              "stockage"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel nom signifie ici utilisation prévue au bénéfice de quelqu’un ?",
+            "question": "Quel mot convient ?",
+            "answer": "usage",
+            "choices": [
+              "usage",
+              "achat",
+              "vente",
+              "stockage"
+            ]
+          }
+        ],
+        "reviewNote": "Pour leur usage means the book is intended to serve its recipients, not a habitual social custom. The earlier plural usages/customs plan and all three bands were read. Share that proper French usage noun owner while preparing the distinct use/utilization meaning; singular number alone is not the reason for a new meaning. All four middle alternatives are masculine singular after leur and the serving-purpose clue selects usage over purchase, sale or storage."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "56ef8f1a1ddb31bdb7793b7d2c209cc30dc0940c74e201eade20c82a53a641d1",
+          "afterSha256": "bef6df2d7117eee83b59d8b3958ddef86cd03457b82ab1acd025e32cb43050bb",
+          "reason": "Replace feminine vente with masculine transport and specify utilization."
+        }
+      ],
+      "afterQuestionSha256": "864cc3c8045eab733d46c645af1b3d8d49eb6539171607ebd3e02fb428a344d7"
+    },
+    {
+      "file": "chapter-07-batch-07.json",
+      "key": "menu_chapter_07_07_214_69",
+      "beforeQuestionSha256": "3ca4883626a6f9a8630e3b1aaa7dd8c89e938d9728f810afd67679311a86a3b2",
+      "after": {
+        "form": "menu",
+        "lemma": "menu",
+        "partOfSpeech": "adverb",
+        "meaning": "small; in very small writing",
+        "key": "menu_chapter_07_07_214_69",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 214,
+            "start": 69,
+            "end": 73,
+            "text": "menu",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+            "targetText": "menu",
+            "question": "What does the highlighted word mean here?",
+            "answer": "small; in very small writing",
+            "choices": [
+              "small; in very small writing",
+              "large",
+              "quickly",
+              "slowly"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adverbe qui signifie en petits caractères, à propos de l’écriture, est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "menu",
+            "choices": [
+              "menu",
+              "gros",
+              "vite",
+              "lentement"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adverbe indique ici une écriture en lettres très petites ?",
+            "question": "Quel mot convient ?",
+            "answer": "menu",
+            "choices": [
+              "menu",
+              "gros",
+              "vite",
+              "lentement"
+            ]
+          }
+        ],
+        "reviewNote": "Écrit fort menu describes the small size of the writing, not a meal list or a slender noun referent. Académie7 explicitly places écrire menu under adverbial menu; Académie9 also labels this use adverbial. The complete existing menuë adjective bank was read. Prepare proper adverbial menu ownership and a fine/small manner meaning, comparing the adjacent adjective core without assigning this invariant adverb to the published adjective lemma. All four adverbs fit il écrit; only menu states tiny lettering."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "674f9004375cdcd4e618bda595659d8b1a2901d925f3f9d7d2bc08bcfa00eac0",
+          "afterSha256": "18e494c7dfdc2c7148c90a001778e620fec768eccff95fcf959ee821db80ab2f",
+          "reason": "Small letters can also be written quickly or slowly; identify the meaning."
+        }
+      ],
+      "afterQuestionSha256": "fbc3ac59b4477d922a01532013a189dac7473b20f886d2e89cde10883e6d0436"
+    },
+    {
+      "file": "chapter-07-batch-07.json",
+      "key": "effectivement_chapter_07_07_215_0",
+      "beforeQuestionSha256": "96dfaeb1b9cc4b6cf7986ccd5cb874368e1d9464c826b03a60475b67e90c93a6",
+      "after": {
+        "form": "effectivement",
+        "lemma": "effectivement",
+        "partOfSpeech": "adverb",
+        "meaning": "indeed; in fact; as stated",
+        "key": "effectivement_chapter_07_07_215_0",
+        "status": "offline_contextual_three_band_review_recorded_unpublished",
+        "sourceOccurrences": [
+          {
+            "chapter": 7,
+            "unit": 215,
+            "start": 0,
+            "end": 13,
+            "text": "Effectivement",
+            "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »"
+          }
+        ],
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Effectivement, il leur donna ce volume avant son départ : on le porta à Paris à l’Académie des sciences ; mais quand le vieux secrétaire l’eut ouvert, il ne vit rien qu’un livre tout blanc : « Ah ! dit-il, je m’en étais bien douté. »",
+            "targetText": "Effectivement",
+            "question": "What does the highlighted word mean here?",
+            "answer": "indeed; in fact; as stated",
+            "choices": [
+              "indeed; in fact; as stated",
+              "unfortunately",
+              "on the contrary",
+              "perhaps"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "L’adverbe qui confirme que la promesse a bien été réalisée est « ___ ».",
+            "question": "Complétez la phrase.",
+            "answer": "effectivement",
+            "choices": [
+              "effectivement",
+              "malheureusement",
+              "au contraire",
+              "peut-être"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Quel adverbe confirme ici la réalisation de ce qui vient d’être annoncé ?",
+            "question": "Quel mot convient ?",
+            "answer": "effectivement",
+            "choices": [
+              "effectivement",
+              "malheureusement",
+              "au contraire",
+              "peut-être"
+            ]
+          }
+        ],
+        "reviewNote": "Effectivement confirms that the promised volume was actually handed over. No French effectivement owner or earlier plan was found. Prepare the confirmation/in-fact adverb meaning, not the false-friend efficiently or a new event-specific sense. All four sentence adverbs fit the introductory position; confirmation contrasts with regret, reversal or uncertainty."
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "dcadbcaa1d624bac49f3f270468fa1f8ed5eb5a0e62d92f6381fd2d0ae8aa3d9",
+          "afterSha256": "cc02858072fc8a3604b5e184678c14e47d2939d4aa5bac19a030bcaad6df97e5",
+          "reason": "An event can also occur unfortunately; remove the compatible alternative."
+        }
+      ],
+      "afterQuestionSha256": "e1d28e99a349e933e05871c49845548336244e71178c77711bdcdb731a838b4f"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 12,
+    "refinedQuestionBands": 14
+  }
+}

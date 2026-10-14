@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:32.973Z",
+  "sense": {
+    "id": "sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427",
+    "lemmaId": "lem_faire",
+    "gloss": "will serve as",
+    "definition": "serviront à établir quelque chose, dans l’expression « faire foi »"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_early",
+      "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_advanced",
+      "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_lion_rat_feront_lem_faire_b1cfeaa31c:sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427",
+      "surface": "feront",
+      "lemma": "faire",
+      "currentRevision": "rev_2ff6eac4457ce31378fa40e35ebdf0390449c0e3b0e5dadd045fa1f828d484c2",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_lion_rat_04c13d5494786cf8065af827",
+          "workId": "wrk_lion_rat",
+          "unitId": "unt_lion_rat_03",
+          "passage": "De cette vérité deux fables feront foi, tant la chose en preuves abonde.",
+          "span": [
+            28,
+            34
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ces reçus feront foi du paiement devant le tribunal.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "will cast doubt",
+              "correct": false
+            },
+            {
+              "text": "will cause delay",
+              "correct": false
+            },
+            {
+              "text": "will create confusion",
+              "correct": false
+            },
+            {
+              "text": "will serve as proof",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les signatures feront foi de cet accord ; le notaire conservera les originaux dans son bureau.",
+          "prompt": "Quel verbe au futur indique que les signatures serviront à établir la réalité de l’accord ?",
+          "choices": [
+            {
+              "text": "conservera",
+              "correct": false
+            },
+            {
+              "text": "bureau",
+              "correct": false
+            },
+            {
+              "text": "feront",
+              "correct": true
+            },
+            {
+              "text": "accord",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_lion_rat_feront_sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427_3fcb3a5435_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces pièces _____ foi de votre inscription au concours.",
+          "choices": [
+            {
+              "text": "ferons",
+              "correct": false
+            },
+            {
+              "text": "feront",
+              "correct": true
+            },
+            {
+              "text": "fera",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

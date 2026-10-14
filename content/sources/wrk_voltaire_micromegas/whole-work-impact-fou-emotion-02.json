@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:37:31.194Z",
+  "sense": {
+    "id": "sns_fr_fou_emotion_intense",
+    "lemmaId": "lem_zola_fou",
+    "gloss": "wild with emotion",
+    "definition": "Emporté par une émotion si forte qu’elle semble faire perdre toute mesure."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_1_3",
+      "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_4_5",
+      "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_folle_fou_adjective:sns_fr_fou_emotion_intense",
+      "surface": "folle",
+      "lemma": "fou",
+      "currentRevision": "rev_a56f6b205665dfe271644732fa9e2eb56d789e5fd50a5e12212154aafc2c870c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_7b518fa215059e7af55a0d1d",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_056",
+          "passage": "Le jour de la fête arriva. Mme Loisel eut un succès. Elle était plus jolie que toutes, élégante, gracieuse, souriante et folle de joie. Tous les hommes la regardaient, demandaient son nom, cherchaient à être présentés. Tous les attachés du cabinet voulaient valser avec elle. Le ministre la remarqua.",
+          "span": [
+            121,
+            126
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Folle de joie, elle court annoncer sa victoire à ses amis.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "deeply disappointed",
+              "correct": false
+            },
+            {
+              "text": "completely indifferent",
+              "correct": false
+            },
+            {
+              "text": "wild with joy",
+              "correct": true
+            },
+            {
+              "text": "barely pleased",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Transportée par une joie sans limites, elle en est _____.",
+          "choices": [
+            {
+              "text": "dépourvue",
+              "correct": false
+            },
+            {
+              "text": "folle",
+              "correct": true
+            },
+            {
+              "text": "lasse",
+              "correct": false
+            },
+            {
+              "text": "privée",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_fou_emotion_intense_fr_folle_fou_adjective_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle est folle de bonheur et ne peut s’empêcher de rire et de chanter.",
+          "prompt": "Quel mot souligne l’intensité débordante de son émotion ?",
+          "choices": [
+            {
+              "text": "folle",
+              "correct": true
+            },
+            {
+              "text": "bonheur",
+              "correct": false
+            },
+            {
+              "text": "rire",
+              "correct": false
+            },
+            {
+              "text": "chanter",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,11 @@
+import {it,expect} from 'vitest';
+import {readFileSync} from 'node:fs';
+import {loadPublication} from '../dist/publication/repository.js';
+import {loadPublication as loadHistorical} from '../scripts/micromegas-publication-baseline.mjs';
+import {validateContentBundle} from '../dist/domain/validate.js';
+import {chapterHeading} from '../src/app/chapter-heading.js';
+import {checkRelease78} from '../scripts/check-micromegas-release-78.mjs';
+const folder='content/sources/wrk_voltaire_micromegas';
+it('includes Micromégas in the real release gate while historical replay retains the original eleven works',()=>{expect(checkRelease78(folder).summary.editorialIssues).toBe(0);expect(loadPublication().bundle.works).toHaveLength(12);expect(loadHistorical().bundle.works).toHaveLength(11);},30000);
+it('preserves all seven exact chapter headings and anchors in the live reading metadata',()=>{const p=loadPublication(),work=p.bundle.works.find(w=>w.id==='wrk_voltaire_micromegas'),plan=JSON.parse(readFileSync(`${folder}/unit-plan.json`));expect(work.chapters.map(c=>[c.label,c.title])).toEqual(plan.chapters.map(c=>[c.label,c.heading]));for(const c of work.chapters){expect(p.bundle.units.find(u=>u.id===c.firstUnitId).workId).toBe(work.id);expect(chapterHeading(work,c.firstUnitId)).toContain(c.label);}expect(chapterHeading({...work,chapters:[{ordinal:1,label:'I',title:'<script>',firstUnitId:'u'}]},'u')).toContain('&lt;script&gt;');const broken=structuredClone(p.bundle);broken.works.find(w=>w.id===work.id).chapters[1].firstUnitId=work.chapters[0].firstUnitId;expect(validateContentBundle(broken).diagnostics.some(d=>d.code==='chapter.anchor')).toBe(true);},30000);
+it('keeps every former shared learner identity record and archives inactive expression questions',()=>{const before=loadHistorical(),after=loadPublication();for(const k of ['lemmas','senses','surfaceForms']){const ids=new Set(after.bundle[k].map(x=>x.id));expect(before.bundle[k].every(x=>ids.has(x.id))).toBe(true);}const t=JSON.parse(readFileSync(`${folder}/whole-work-offline-transaction-72.json`));expect(t.wordReassignments).toHaveLength(16);expect(t.archivedExpressionBanks).toHaveLength(6);},30000);

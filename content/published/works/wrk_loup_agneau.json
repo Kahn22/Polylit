@@ -268,42 +268,6 @@
         "senseId": "sns_montrer_primary"
       },
       {
-        "id": "occ_loup_agneau_faafafb914856339b2ec7cd5",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_02",
-        "start": 22,
-        "end": 26,
-        "surfaceFormId": "srf_fr_tout_tout_adverb",
-        "senseId": "sns_fr_tout_intensifying"
-      },
-      {
-        "id": "occ_loup_agneau_423e70a68bdc062cb99f9914",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_02",
-        "start": 27,
-        "end": 28,
-        "surfaceFormId": "srf_fr_a_tout_heure_a",
-        "senseId": "sns_fr_a_tout_heure"
-      },
-      {
-        "id": "occ_loup_agneau_26b775ae837cd16154496f5c",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_02",
-        "start": 29,
-        "end": 31,
-        "surfaceFormId": "srf_l_elided",
-        "senseId": "sns_le_primary"
-      },
-      {
-        "id": "occ_loup_agneau_841fa14bda48968d72c53958",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_02",
-        "start": 31,
-        "end": 36,
-        "surfaceFormId": "srf_zola_heure_heure",
-        "senseId": "sns_zola_heure_hour"
-      },
-      {
         "id": "occ_loup_agneau_a60f9b78a9b2aca43940e01b",
         "workId": "wrk_loup_agneau",
         "unitId": "unt_loup_agneau_03",
@@ -1067,33 +1031,6 @@
         "end": 21,
         "surfaceFormId": "srf_parure_consequent_lem_parure_consequent_adjective_aa72cee56e_2e9de2a851",
         "senseId": "sns_fr_consequent_result_component"
-      },
-      {
-        "id": "occ_loup_agneau_902e08d918180aab3951c3e1",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_10",
-        "start": 23,
-        "end": 25,
-        "surfaceFormId": "srf_en",
-        "senseId": "sns_en_in"
-      },
-      {
-        "id": "occ_loup_agneau_271a24a9f10f5b9fce6e075f",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_10",
-        "start": 26,
-        "end": 32,
-        "surfaceFormId": "srf_loup_agneau_aucune_lem_zola_aucun_a841b3c202",
-        "senseId": "sns_loup_agneau_aucun_marque_l_absence_complete_dans_une_phrase_negative_e15229fe7f"
-      },
-      {
-        "id": "occ_loup_agneau_8aa0d7cd6b02e5df1cb1a3f0",
-        "workId": "wrk_loup_agneau",
-        "unitId": "unt_loup_agneau_10",
-        "start": 33,
-        "end": 38,
-        "surfaceFormId": "srf_zola_facon_d0ac5737ac65_facon",
-        "senseId": "sns_zola_facon_manner"
       },
       {
         "id": "occ_loup_agneau_6da874c6549db68a84231a30",
@@ -2045,15 +1982,6 @@
   },
   "expressionOccurrences": [
     {
-      "id": "exo_loup_agneau_tout_a_l_heure_56956d49b5_01",
-      "identityId": "exi_loup_agneau_tout_a_l_heure_56956d49b5",
-      "workId": "wrk_loup_agneau",
-      "unitId": "unt_loup_agneau_02",
-      "start": 22,
-      "end": 36,
-      "text": "tout à l’heure"
-    },
-    {
       "id": "exo_loup_agneau_a_jeun_3ba446c799_01",
       "identityId": "exi_loup_agneau_a_jeun_3ba446c799",
       "workId": "wrk_loup_agneau",
@@ -2097,17 +2025,28 @@
       "start": 0,
       "end": 26,
       "text": "Sans autre forme de procès"
+    },
+    {
+      "id": "exo_micromegas_f7955349b6de45f0",
+      "workId": "wrk_loup_agneau",
+      "unitId": "unt_loup_agneau_02",
+      "start": 22,
+      "end": 36,
+      "text": "tout à l’heure",
+      "surfaceId": "exs_micromegas_87fbcd7fb4589978",
+      "identityId": "exi_micromegas_964ab08dfbd8312c"
     }
   ],
   "editorialReviewFiles": [
     "content/review/wrk_loup_agneau.batch-01.json",
     "content/review/wrk_loup_agneau.manifest.json",
-    "content/review/wrk_loup_agneau.progress.json"
+    "content/review/wrk_loup_agneau.progress.json",
+    "content/sources/wrk_voltaire_micromegas/whole-work-final-acceptance-77.json"
   ],
   "textBinding": {
     "textRevision": "txt_5c90f8b4bfcec20d2ebda152b4ae15c2c8a18ea1e6e4432b90f6415951a77858",
     "structureRevision": "str_ce40fba39518185729117151bff611e10188422681d6fefce5114c477f0a56c3",
-    "annotationRevision": "ann_0ebdabb6129f9aebc8cf3ff3cd496646512637ef7f351dbfac64379501c79af3",
+    "annotationRevision": "ann_6250a902c1dd23722124c643608b9541280198dc8c9d854e385b01d898c6b904",
     "offsetUnit": "utf16",
     "separator": "\n",
     "units": [

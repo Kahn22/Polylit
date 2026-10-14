@@ -1,0 +1,71 @@
+POLYLIT NAVIGATION AUDIT — CHECKPOINT 378
+Date: 2026-10-03
+Baseline: checkpoint 377, twelve works (nine French, three Spanish).
+Scope: generated public pages, application routes, both reading modes, shelf
+controls, vocabulary/expression dialogs, prepared reviews, recovery links.
+
+FIXED
+1. Direct /fr/library/index.html and /es/library/index.html visits displayed
+   inert cards: entry and application routing now share the same path parser.
+2. Continue learning reset the section to zero. Learning positions now persist
+   per language/work; position-bearing hashes support reload and history.
+   Book View also records its part in the URL for history restoration.
+3. Text reviews started from the library always returned to Learning View.
+   Completed works could fall through to login. Reviews now return to their
+   origin; completed shelves remain completed.
+4. Previous section, library return, Book View, Choose language, and Mark
+   completed bypassed due-section review. App controls now offer review,
+   skip-to-the-requested-destination, and reread before leaving the section.
+   Shelf changes are deferred until the learner completes or skips review.
+5. Invalid/unavailable work routes fell through to login. Signed-in visitors
+   now recover to the selected library without encountering unseen content.
+6. Old root hash bookmarks were ignored by the standalone landing page.
+   Recognized legacy links now transfer to the selected language document,
+   preserving the work hash and repository prefix.
+7. Restored documents could retain a signed-out preview screen. The landing
+   script checks session state on entry/pageshow; restored app pages reload
+   browser-local shelf/progress state.
+8. Reader pagination could leave the viewport at the bottom of the next page.
+   New reading sections, Book View parts, and unanswered questions start at
+   the top. Answer feedback keeps focus on Continue.
+9. Dialog keyboard focus could escape into background navigation. Tab cycles
+   within the sheet; closing returns focus to its trigger. Escape closes menus.
+10. Book rendering lacked the stale-render guard used by Learning View. Both
+    views now reject superseded content renders.
+
+AUTOMATED COVERAGE
+- Production-built path helpers under / and /Polylit/; directory and index.html
+  URLs; generated document links and assets checked under both hosting layouts.
+- Preview entry, language pages, legacy bookmarks, sign-out session restoration.
+- French and Spanish startup with fetched/embedded version-4 wire content.
+- Both views of all twelve works, final-part/final-section boundaries, return
+  to library, and no unseen encounters during loading or Book View.
+- Continue/resume, reload, position-based history, malformed position values,
+  invalid work recovery, completed-work review returns.
+- Section review, answer/Continue, skip/reread, deferred completion, failed
+  Book View download/retry without double advancement, vocabulary identity
+  preservation and viewed-unit-only encounter behavior.
+- Existing word/expression, content delivery, editorial and integrity checks
+  remain part of the mandatory full checkpoint suite.
+
+BOUNDARIES AND REMAINING DEVICE CHECK
+The interaction suite executes the real app modules against generated content
+using DOM, storage, history and visibility ports. It is not a browser test.
+The available browser refused the local production URL (ERR_BLOCKED_BY_CLIENT);
+no Safari, Firefox, or real iPhone visual/gesture test was completed here.
+
+Before upload, run the preview locally on the Mac, and on iPhone if available:
+1. Preview learner account > French > Micromegas; repeat for Spanish.
+2. Learning View > next section > skip/reread; leave and Continue learning.
+3. Book View > next/previous parts > Learning View; reload and Back/Forward.
+4. Word/expression dialog: close, Escape, keyboard focus, background scroll.
+5. Card menu: outside tap must close it without opening the underlying control.
+6. Complete a text, review from Completed, end review; verify library return.
+7. Choose language, sign out, browser Back, direct index.html/bookmark links.
+8. Check narrow-screen overflow and quiz Continue placement.
+
+Browser Back/Forward and explicit Sign out remain escape routes: they do not
+force completion of a quiz and do not erase due obligations. App-controlled
+section departures provide the review/skip/reread choice. Preview credentials
+remain deliberately disabled; real account authentication is not connected.
+No repository push, hosting change, or deployment is performed by this audit.

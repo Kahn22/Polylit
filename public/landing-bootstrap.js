@@ -9,7 +9,25 @@
     var eyebrow = document.querySelector(".home-intro .eyebrow");
     if (eyebrow) eyebrow.textContent = localStorage.getItem(languageKey) === "es" ? "Spanish library" : "French library";
   } catch (_error) { /* Browser-local preview preferences are optional. */ }
-  if (preview && location.pathname === base.pathname) location.replace(new URL("languages/", base).href);
+  var relativePath = location.pathname.slice(base.pathname.length).replace(/index\.html$/, "");
+  if (preview && relativePath === "") location.replace(new URL("languages/", base).href);
+  // Old bookmarks used hash routes at the homepage. Transfer them to the
+  // independent document, preserving the work route and repository prefix.
+  if (relativePath === "" && /^#\/(?:languages|library|read\/|book\/)/.test(location.hash)) {
+    var language = "fr";
+    try { if (localStorage.getItem(languageKey) === "es") language = "es"; } catch (_error) {}
+    var destination = location.hash === "#/languages" ? "languages/" : language + "/library/";
+    var hash = /^#\/(read|book)\//.test(location.hash) ? location.hash : "";
+    location.replace(new URL(destination + hash, base).href);
+  }
+  function checkSession() {
+    if (!/^(?:languages|(?:fr|es)\/library)\/?$/.test(relativePath)) return;
+    try {
+      if (sessionStorage.getItem(sessionKey) !== "active") location.replace(base.href);
+    } catch (_error) { /* Main application also checks its preview session. */ }
+  }
+  checkSession();
+  window.addEventListener("pageshow", checkSession);
   document.addEventListener("click", function (event) {
     var target = event.target.closest && event.target.closest("[data-action]");
     if (!target) return;

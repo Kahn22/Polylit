@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-checkpoint-30-recovery-clear-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 17,
+  "approvals": 17,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "reconstructed contextual decisions from the documented post-checkpoint review, verified against active subjects and three question bands",
+  "changes": [
+    {
+      "subjectId": "srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+      "reviewId": "vocabulary:srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+      "outcome": "approve",
+      "rationale": "Accusé is the past participle of accuser in the indexed passage; its meaning and dependent questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+        "subjectRevision": "rev_9142587a25b3fdf05f8c245eae46a13c6eac8f30bd7786ec0c244dab4300fed6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In avoir accusé de troubler la France, accusé is the past participle of accuse, not a noun. The record’s noun identity is a part-of-speech mismatch; hold for correction."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_accuse_3f1850b80608_accuser:sns_zola_accuser_charge",
+        "subjectRevision": "rev_9142587a25b3fdf05f8c245eae46a13c6eac8f30bd7786ec0c244dab4300fed6",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Accusé is the past participle of accuser in the indexed passage; its meaning and dependent questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+      "reviewId": "vocabulary:srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+      "outcome": "approve",
+      "rationale": "Atteints expresses being afflicted or affected in the indexed passage, and its dependent questions distinguish that meaning.",
+      "before": {
+        "id": "vocabulary:srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+        "subjectRevision": "rev_066c84bbf11eeb26a3d216fdd58c2d00c61d3143966d35389813b42f06ab5839",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In atteints dans notre amour de la vérité et de la justice, atteints means affected/wounded; contextual sense fits. Unresolved same-lemma candidate remains (dup_46847cd8fe484f95192d5dcb8702021cc8a34a59a582f179c3cca69473888714)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_atteints_atteindre:sns_zola_atteindre_afflict",
+        "subjectRevision": "rev_066c84bbf11eeb26a3d216fdd58c2d00c61d3143966d35389813b42f06ab5839",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Atteints expresses being afflicted or affected in the indexed passage, and its dependent questions distinguish that meaning.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+      "reviewId": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+      "outcome": "approve",
+      "rationale": "Maison refers to an institution or establishment in the indexed passage; the stored meaning and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+        "subjectRevision": "rev_0c79e582cf9bce03b04b194f4d4dcbe4af9e3be8ea37d644576091877d91a604",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Dans la maison means in the house/building, the place being searched; noun sense fits. Unresolved same-lemma candidate remains (dup_64f4a8fcaeec6bd5cbe1cc9ec6f7a9249aaed3f36939d3fc71519ba886d6fae7)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+        "subjectRevision": "rev_0c79e582cf9bce03b04b194f4d4dcbe4af9e3be8ea37d644576091877d91a604",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Maison refers to an institution or establishment in the indexed passage; the stored meaning and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+      "outcome": "approve",
+      "rationale": "Crois means to believe in its indexed passage; the form and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_66940ac7492f30935cbcd83ae47665ef66d62eb32217a49fd04476e0c9131876",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In je crois bien, crois means believe/think; first-person present form fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_crois_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_crois_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_66940ac7492f30935cbcd83ae47665ef66d62eb32217a49fd04476e0c9131876",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Crois means to believe in its indexed passage; the form and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+      "outcome": "approve",
+      "rationale": "Croyait means believed or thought in its indexed passage; the form and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_ed61efaac64f48cfe824f5d476d2f57e39d4b5ede5c8240846761ad7f0947bea",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In ce qu’il croyait être l’intérêt militaire, croyait means believed/thought; the imperfect form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croyait_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croyait_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_ed61efaac64f48cfe824f5d476d2f57e39d4b5ede5c8240846761ad7f0947bea",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Croyait means believed or thought in its indexed passage; the form and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+      "outcome": "approve",
+      "rationale": "Croira means will believe in its indexed passage; the form and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_f33b8e3ec5ad0ca1574daf2e80c20e1dad51b225b0d7c2ca2214d1fca6cf98f2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In on ne croira jamais, croira means will believe; future form and sense fit. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croira_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croira_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_f33b8e3ec5ad0ca1574daf2e80c20e1dad51b225b0d7c2ca2214d1fca6cf98f2",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Croira means will believe in its indexed passage; the form and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+      "reviewId": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+      "outcome": "approve",
+      "rationale": "Croire means to believe in its indexed passage; the form and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_2a0af9aeb487a492d105868cd37713aea851af956e93ea0d7156d99d11cb6d98",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed infinitive contexts: croire means believe, including the speaker’s tentative belief and belief in truth; sense fits. Unresolved same-lemma candidate remains (dup_8e0da166b13c7fc50af9b03a23328b744eee14594d5c0d29c5d60d0d29e23663)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_croire_croire:sns_zola_croire_believe",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_croire_croire:sns_zola_croire_believe",
+        "subjectRevision": "rev_2a0af9aeb487a492d105868cd37713aea851af956e93ea0d7156d99d11cb6d98",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Croire means to believe in its indexed passage; the form and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+      "reviewId": "vocabulary:srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+      "outcome": "approve",
+      "rationale": "Arrivons expresses reaching the point discussed in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+        "subjectRevision": "rev_4b0a90a1dd59129c9e93007fc0ed1309de5b30fac55128743162eb8d2588e1e5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In nous arrivons à l’affaire Esterhazy, arrivons means come to/reach the next subject; context-specific gloss fits. Unresolved same-lemma candidate remains (dup_2f389bf85eae7e745c1feeccc41a6d0c7bb2601d66904acdef4059378be3a46d)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_arrivons_arriver:sns_zola_arriver_come_to",
+        "subjectRevision": "rev_4b0a90a1dd59129c9e93007fc0ed1309de5b30fac55128743162eb8d2588e1e5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Arrivons expresses reaching the point discussed in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+      "outcome": "approve",
+      "rationale": "Allais marks the near future in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_1c56a133aad56ecbb67fe572343301a6cfaa82b9902aca06726404d6b843c18d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In j’allais dire, the imperfect of aller marks what the speaker was about to say; the imminent-action sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_1c56a133aad56ecbb67fe572343301a6cfaa82b9902aca06726404d6b843c18d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Allais marks the near future in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+      "reviewId": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+      "outcome": "approve",
+      "rationale": "Mentent means tell falsehoods in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "subjectRevision": "rev_8190296ebc230f0e1dba4b959d45d0111bbdcecb5351abf624b3c033237f3bb4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Mentent means they lie/tell falsehoods; present plural verb sense fits. Unresolved same-lemma candidate remains (dup_9983c1993337ab6b6000312ee5b3cc9eb2244a4188f388215fd56b0499592602)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mentent_mentir:sns_zola_mentir_lie",
+        "subjectRevision": "rev_8190296ebc230f0e1dba4b959d45d0111bbdcecb5351abf624b3c033237f3bb4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mentent means tell falsehoods in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_montre_montrer:sns_zola_montrer_show",
+      "reviewId": "vocabulary:srf_zola_montre_montrer:sns_zola_montrer_show",
+      "outcome": "approve",
+      "rationale": "Montre means shows or demonstrates in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_montre_montrer:sns_zola_montrer_show",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_montre_montrer:sns_zola_montrer_show",
+        "subjectRevision": "rev_67107593d59ed2ea2302fe5377ea86f228e84ece4d10553c47006a3dcb7a8552",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Montre means shows/demonstrates; present form and verb sense fit. Unresolved same-lemma candidate remains (dup_1440aec55c88485138467d65f2e39f53e6f248aa734036897064ee2afc346a89)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_montre_montrer:sns_zola_montrer_show",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_montre_montrer:sns_zola_montrer_show",
+        "subjectRevision": "rev_67107593d59ed2ea2302fe5377ea86f228e84ece4d10553c47006a3dcb7a8552",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Montre means shows or demonstrates in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_montrent_montrer:sns_zola_montrer_show",
+      "reviewId": "vocabulary:srf_zola_montrent_montrer:sns_zola_montrer_show",
+      "outcome": "approve",
+      "rationale": "Montrent means show or demonstrate in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_montrent_montrer:sns_zola_montrer_show",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_montrent_montrer:sns_zola_montrer_show",
+        "subjectRevision": "rev_4dc1b16ef3a4f86db3aaf36b69b7e19b7839fa7c5894b49ff6d5c03390550cc0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Montrent means they show/demonstrate; present plural verb form fits. Unresolved same-lemma candidate remains (dup_1440aec55c88485138467d65f2e39f53e6f248aa734036897064ee2afc346a89)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_montrent_montrer:sns_zola_montrer_show",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_montrent_montrer:sns_zola_montrer_show",
+        "subjectRevision": "rev_4dc1b16ef3a4f86db3aaf36b69b7e19b7839fa7c5894b49ff6d5c03390550cc0",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Montrent means show or demonstrate in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+      "reviewId": "vocabulary:srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+      "outcome": "approve",
+      "rationale": "Arrivait means was arriving or happened in the indexed passage; the questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+        "subjectRevision": "rev_182c007e45fbe471c51b2cd09880beb282d738bf8420940cf5f4b0c629f6523a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In il arrivait tout frais, arrivait means arrived/came onto the scene newly; the sense fits. Unresolved same-lemma candidate remains (dup_2f389bf85eae7e745c1feeccc41a6d0c7bb2601d66904acdef4059378be3a46d)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_arrivait_arriver:sns_zola_arriver_reach",
+        "subjectRevision": "rev_182c007e45fbe471c51b2cd09880beb282d738bf8420940cf5f4b0c629f6523a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Arrivait means was arriving or happened in the indexed passage; the questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+      "reviewId": "vocabulary:srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+      "outcome": "approve",
+      "rationale": "Témoignages is a plural noun meaning testimonies or evidence; all indexed occurrences and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+        "subjectRevision": "rev_54495db4b7e7cbcba687417a6b2621ffda7cae11737f267ca9c5a05c0b6ab290",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Témoignages means witness statements or evidence in both passages; the plural noun sense fits. Unresolved same-lemma candidate remains (dup_f5a8a0353868b70d6330997e191d60908782cc4b8145a7088821698485bcdf17)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_temoignages_0331948ccb88_temoignage_71f87435fe14:sns_zola_temoignage_evidence",
+        "subjectRevision": "rev_54495db4b7e7cbcba687417a6b2621ffda7cae11737f267ca9c5a05c0b6ab290",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Témoignages is a plural noun meaning testimonies or evidence; all indexed occurrences and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_juges_juge:sns_zola_juge_magistrate",
+      "reviewId": "vocabulary:srf_zola_juges_juge:sns_zola_juge_magistrate",
+      "outcome": "approve",
+      "rationale": "Juges is a plural noun meaning judges; the indexed passages and number-matched questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_juges_juge:sns_zola_juge_magistrate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_juges_juge:sns_zola_juge_magistrate",
+        "subjectRevision": "rev_ab405e83bb3a966aecf0d9321d50768cba84338d5f3b352fc126695c5f75f727",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Juges refers to judges/magistrates in a trial; plural noun sense fits. Unresolved same-lemma candidate remains (dup_efc34eed9905d50df91a547fbd0b35fcd2400e705bafa373d2a61ad3883ae446)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_juges_juge:sns_zola_juge_magistrate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_juges_juge:sns_zola_juge_magistrate",
+        "subjectRevision": "rev_ab405e83bb3a966aecf0d9321d50768cba84338d5f3b352fc126695c5f75f727",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Juges is a plural noun meaning judges; the indexed passages and number-matched questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+      "reviewId": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+      "outcome": "approve",
+      "rationale": "Mettaient is part of mettre en doute, meaning to call into question; the indexed phrase and questions fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "subjectRevision": "rev_7948523cad13b590672823ab84270a9fe75978102a17fafcba2faf52b41b5483",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In ne mettaient pas en doute, mettre en doute means doubt/call into question; imperfect plural form and phrase sense fit. Unresolved same-lemma candidate remains (dup_8a73609530b5d454616f028b20dda9b18eac5af50fb240d7cc960c5de63f7ca1)."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mettaient_mettre:sns_zola_mettre_doubt",
+        "subjectRevision": "rev_7948523cad13b590672823ab84270a9fe75978102a17fafcba2faf52b41b5483",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Mettaient is part of mettre en doute, meaning to call into question; the indexed phrase and questions fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+      "reviewId": "vocabulary:srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+      "outcome": "approve",
+      "rationale": "Votre étoile is a metaphor for one’s fortune or destiny; the stored gloss and questions fit the indexed passage.",
+      "before": {
+        "id": "vocabulary:srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+        "subjectRevision": "rev_51be1115cca19b5871c4421ba3d3eebd12a670eeb8b8c10bbff2f0c4a9036610",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The context uses erreur du destin, meaning a mistake of fate; this does not contain étoile and does not support the star/destiny entry."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_etoile_e4729c715e44_etoile:sns_zola_etoile_destiny",
+        "subjectRevision": "rev_51be1115cca19b5871c4421ba3d3eebd12a670eeb8b8c10bbff2f0c4a9036610",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Votre étoile is a metaphor for one’s fortune or destiny; the stored gloss and questions fit the indexed passage.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 6,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "be6d2ea6f8f037b0c16b24ef201c339a711ecd8f571aac8bff9be80967ef69fc",
+  "status": "offline_earlier_hold_context_and_questions_reviewed_unpublished",
+  "originalReviewFile": "chapter-06-context-review-01.json",
+  "originalReviewSha256": "0c07284206f9b1377353f5022278df6556f857283ce2f4844fe9f197af94633b",
+  "summary": {
+    "resolvedHeldUses": 9,
+    "contextualProposals": 5,
+    "newQuestionBands": 15,
+    "reviewedRouteGroups": 5
+  },
+  "items": [
+    {
+      "key": "avez_compound_auxiliary_chapter_06",
+      "form": "avez",
+      "lemma": "avoir",
+      "partOfSpeech": "compound-tense auxiliary present second plural",
+      "meaning": "have, as a compound-tense auxiliary",
+      "target": "sns_fr_avoir_compound_auxiliary",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 28,
+          "end": 32,
+          "text": "avez",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+        },
+        {
+          "chapter": 6,
+          "unit": 164,
+          "start": 13,
+          "end": 17,
+          "text": "avez",
+          "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+          "targetText": "avez",
+          "question": "What does the highlighted word mean here?",
+          "answer": "have, as an auxiliary for a completed action",
+          "choices": [
+            "have, as an auxiliary for a completed action",
+            "own a possession",
+            "must perform an action",
+            "can perform an action"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Racontez au passé composé ce que vous venez de faire : « Vous ___ observé ces êtres. »",
+          "question": "Complétez la phrase.",
+          "answer": "avez",
+          "choices": [
+            "avez",
+            "aviez",
+            "aurez",
+            "auriez"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quel auxiliaire au présent, adressé à vous, précède le participe passé dans « vous ... cru » pour raconter une action accomplie ?",
+          "question": "Quel mot convient ?",
+          "answer": "avez",
+          "choices": [
+            "avez",
+            "aviez",
+            "aurez",
+            "auriez"
+          ]
+        }
+      ],
+      "questionSha256": "e1f4e8e5f02d2ba5a2c2f5c8da0b5eacda3cc61611fa2655da6678a0dbde0c0d",
+      "sourceOccurrencesSha256": "daa72c6f657cfd5ec936fa22a04b15c37e90601dfa88c1f1206325ffd4fcfd3d",
+      "reviewNote": "Avez cru and qui avez donné are compound-tense auxiliary uses; the God vocative uses honorific second-plural vous agreement. The existing avez possession bank was inspected and remains unchanged. Attach this surface to the already distinct published avoir auxiliary sense, without copying possession mastery or inventing a tense-only meaning. All three complete questions test auxiliary function; the middle four options can each precede a past participle, and passé composé selects the present auxiliary.",
+      "status": "offline_contextual_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "qu_auraient_held_chapter_06_03",
+      "form": "qu’auraient",
+      "lemma": "avoir",
+      "partOfSpeech": "fused interrogative plus lexical verb conditional plural",
+      "meaning": "what would they have; what would be available to them",
+      "target": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 134,
+          "start": 222,
+          "end": 233,
+          "text": "qu’auraient",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "qu’auraient",
+          "question": "What does the highlighted word mean here?",
+          "answer": "what would they have; what would be available to them",
+          "choices": [
+            "what would they have; what would be available to them",
+            "what would they buy",
+            "what would they lose",
+            "what would they make"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il demande ce que ces êtres auraient à leur disposition : « ___-ils ? »",
+          "question": "Complétez la phrase.",
+          "answer": "qu’auraient",
+          "choices": [
+            "qu’auraient",
+            "qu’achèteraient",
+            "que perdraient",
+            "que fabriqueraient"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quel groupe interrogatif réunit que et avoir lexical au conditionnel pluriel pour demander de quoi ils disposeraient ?",
+          "question": "Quel mot convient ?",
+          "answer": "qu’auraient",
+          "choices": [
+            "qu’auraient",
+            "qu’achèteraient",
+            "que perdraient",
+            "que fabriqueraient"
+          ]
+        }
+      ],
+      "questionSha256": "79c7e822149af3e366b2a9a94855da4a5433cebb7969579d325bf1f180282b0d",
+      "sourceOccurrencesSha256": "d44a67b6ac1edfc3a3607a097abc62e1d8b55172a9d7042ff1bd2845d2c98b05",
+      "reviewNote": "Qu’auraient-ils à dire asks what content the creatures would have available to say. The published qu’aurait bank is explicitly compound-tense auxiliary, qu’as asks about illness or possession, and the earlier qu’ai à faire de bank tests relationship; all were inspected and excluded as question banks. The global lexical avoir sense explicitly covers abstract as well as concrete possession, so this surface targets that existing sense under lem_avoir. The fused spelling does not create a tense-only sense or another lemma; que stays inside the exact token, and final import must not duplicate an interrogative component encounter. All middle prefixes form grammatical plural hypothetical questions, distinguished by have/buy/lose/make semantics. No earlier mastery is copied.",
+      "status": "offline_contextual_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "comment_held_chapter_06_03",
+      "form": "comment",
+      "lemma": "comment",
+      "partOfSpeech": "interrogative adverb",
+      "meaning": "how; in what way",
+      "target": "sns_zola_comment_how",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 134,
+          "start": 149,
+          "end": 156,
+          "text": "comment",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "comment",
+          "question": "What does the highlighted word mean here?",
+          "answer": "how; in what way",
+          "choices": [
+            "how; in what way",
+            "when",
+            "where",
+            "why"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il interroge la manière dont ces êtres pourraient parler : « ___ le pourraient-ils ? »",
+          "question": "Complétez la phrase.",
+          "answer": "comment",
+          "choices": [
+            "comment",
+            "quand",
+            "où",
+            "pourquoi"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quel adverbe interrogatif demande de quelle manière une action serait possible ?",
+          "question": "Quel mot convient ?",
+          "answer": "comment",
+          "choices": [
+            "comment",
+            "quand",
+            "où",
+            "pourquoi"
+          ]
+        }
+      ],
+      "questionSha256": "68e511c1d4a37459b1a4b0ccf167b3361e53048523585143fda2b4d2c6af25d7",
+      "sourceOccurrencesSha256": "486380a0865f1702a51fee9b5a3e88963fcbf9f726e4d8156b6516546354a897",
+      "reviewNote": "The dwarf asks how the tiny beings could have vocal organs. The existing how sense and all three published banks were inspected; their answer capitalization Comment does not match this source’s interior lowercase surface. Add a lowercase contextual bank on the same meaning, rather than inventing a case-only sense or mutating the earlier sentence-initial bank. All four middle question adverbs are grammatical, while manner rather than time, location or cause selects comment; final surface normalization must preserve existing how mastery.",
+      "status": "offline_contextual_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "en_held_chapter_06_03",
+      "form": "en",
+      "lemma": "en",
+      "partOfSpeech": "anaphoric pronoun passive-agent reference",
+      "meaning": "by them; referring back to the mites",
+      "target": "sns_fr_en_pronominal_reference",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 145,
+          "start": 207,
+          "end": 209,
+          "text": "en",
+          "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Vous croyez bien que le Sirien et son nain brûlaient d’impatience de lier conversation avec les atomes ; le nain craignait que sa voix de tonnerre, et surtout celle de Micromégas, n’assourdît les mites sans en être entendue.",
+          "targetText": "en",
+          "question": "What does the highlighted word mean here?",
+          "answer": "by them; referring back to the mites",
+          "choices": [
+            "by them; referring back to the mites",
+            "in that place",
+            "some of them",
+            "from that place"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Dans « sans en être entendue », les mites seraient celles qui entendent. Le pronom qui reprend cet agent est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en",
+          "choices": [
+            "en",
+            "elle",
+            "ils",
+            "on"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quel pronom du passage reprend les mites comme agent de être entendue, équivalant ici à d’elles ou par elles ?",
+          "question": "Quel mot convient ?",
+          "answer": "en",
+          "choices": [
+            "en",
+            "elle",
+            "ils",
+            "on"
+          ]
+        }
+      ],
+      "questionSha256": "115225bb16f3f9b6210a8f42b22231a17597b44ecea59f18a381bdf05773dc6e",
+      "sourceOccurrencesSha256": "a99cc6b314fb38810a3da0e8ca83a30371c7b1c863b7f5ef00e07dcd03664c4a",
+      "reviewNote": "Sans en être entendue means without the voice being heard by the mites. The proper published French en pronoun sense already reprises a de complement, independently of the preposition or gerund lemmas. OQLF supports en referring to a de complement including an animal/person, and supports de as a passive-participle complement introducer; the precise historical agent reading in this sentence is an explicit contextual inference from voix and mites, not a verbatim quotation from those pages. Add this contextual bank on the existing de-reference sense, without creating an agent-only duplicate or copying mastery from prepositional en. The middle question names the source pronoun so alternatives remain grammatical labels and the reference role selects en.",
+      "status": "offline_contextual_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "pour_held_chapter_06_03",
+      "form": "pour",
+      "lemma": "pour",
+      "partOfSpeech": "preposition relational analogy",
+      "meaning": "in relation to; relative to",
+      "target": "new:lem_pour",
+      "sourceOccurrences": [
+        {
+          "chapter": 6,
+          "unit": 167,
+          "start": 51,
+          "end": 55,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        {
+          "chapter": 6,
+          "unit": 167,
+          "start": 94,
+          "end": 98,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        {
+          "chapter": 6,
+          "unit": 167,
+          "start": 140,
+          "end": 144,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        },
+        {
+          "chapter": 6,
+          "unit": 167,
+          "start": 218,
+          "end": 222,
+          "text": "pour",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il lui apprit enfin qu’il y a des animaux qui sont pour les abeilles ce que les abeilles sont pour l’homme, ce que le Sirien lui-même était pour ces animaux si vastes dont il parlait, et ce que ces grands animaux sont pour d’autres substances devant lesquelles ils ne paraissent que comme des atomes.",
+          "targetText": "pour",
+          "question": "What does the highlighted word mean here?",
+          "answer": "in relation to; relative to",
+          "choices": [
+            "in relation to; relative to",
+            "against",
+            "without",
+            "in the home of"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ces êtres sont aux abeilles ce que les abeilles sont à l’homme : ils représentent ___ les abeilles ce que celles-ci représentent pour l’homme.",
+          "question": "Complétez la phrase.",
+          "answer": "pour",
+          "choices": [
+            "pour",
+            "contre",
+            "sans",
+            "chez"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle préposition met deux êtres en rapport dans une analogie de leurs tailles respectives ?",
+          "question": "Quel mot convient ?",
+          "answer": "pour",
+          "choices": [
+            "pour",
+            "contre",
+            "sans",
+            "chez"
+          ]
+        }
+      ],
+      "questionSha256": "58fbe292f0812c67748ddd50b8d762cdac81d5f0cd55189efb1b7b68886ba2d5",
+      "sourceOccurrencesSha256": "ff7b4b4fe68db3532e6cb322dd0044e0c0856b3733316df5b989036713f325df",
+      "reviewNote": "The four pour occurrences at unit 167 relate scales: small animals to bees, bees to humankind, the Sirian to vast animals, and those vast animals to still larger substances. The global published pour has only beneficiary/purpose questions and the earlier pour moi bank marks personal viewpoint; neither tests this relational analogy. Prepare relational correspondence under the existing French preposition lemma, without a new comparison-only lemma. All alternatives fit the grammatical prepositional slot; correspondence rather than opposition, absence or location selects pour. No published bank is changed; final reconciliation must compare this proposed relation sense with every other workwide pour context before import.",
+      "status": "offline_contextual_three_band_review_recorded_unpublished"
+    }
+  ],
+  "supersedesFile": "chapter-06-held-context-review-02.json",
+  "supersedesSha256": "08be786766725eb32a8414431c92cde3a172a86314a6f58cca3f41a2b6294361",
+  "additionalOriginalReviews": [
+    {
+      "file": "chapter-06-context-review-02.json",
+      "sha256": "208e8bee49a3b7693f86779c2d11d5a4c3db32e62a5462ba6f634a3462f65873"
+    }
+  ]
+}

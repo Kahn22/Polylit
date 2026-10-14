@@ -1,0 +1,992 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 9,
+    "reviewedQuestionBands": 27,
+    "newExpressionForms": 4,
+    "newQuestionBands": 12,
+    "reusedEarlierQuestionBands": 15
+  },
+  "items": [
+    {
+      "key": "d_ailleurs",
+      "surfacePattern": "d’ailleurs",
+      "meaning": "besides; moreover",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 183,
+          "start": 0,
+          "end": 10,
+          "text": "D’ailleurs"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 183,
+          "start": 0,
+          "end": 2,
+          "text": "D’",
+          "form": "d’"
+        },
+        {
+          "unit": 183,
+          "start": 2,
+          "end": 10,
+          "text": "ailleurs",
+          "form": "ailleurs"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+          "targetText": "d’ailleurs",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "besides; moreover",
+          "choices": [
+            "besides; moreover",
+            "yesterday",
+            "instead",
+            "perhaps"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il ajoute un argument : « ___, ces êtres auraient-ils une voix ? »",
+          "question": "Complétez la phrase.",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression ajoute une remarque ou un argument supplémentaire ?",
+          "question": "Quelle expression convient ?",
+          "answer": "D’ailleurs",
+          "choices": [
+            "D’ailleurs",
+            "Hier",
+            "À la place",
+            "Peut-être"
+          ]
+        }
+      ],
+      "questionSha256": "df3a8b6ac573e2a62b3806da7204e8df37528527acda1157c6f03f215559896a",
+      "identityTarget": "retain_published_meaning_full_span_import_reconciliation:srf_zola_ailleurs_ailleurs:sns_fr_ailleurs_besides_component",
+      "reviewNote": "The philosopher adds that the remote rulers, rather than the soldiers alone, deserve punishment. The VI full-span bank and its published component identity were inspected and reused unchanged. This is an additional argument, not spatial elsewhere; final import must retain the published meaning with no duplicate component mastery. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "d_ailleurs",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "du_tout",
+      "surfacePattern": "du tout",
+      "meaning": "at all; whatsoever",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 198,
+          "start": 252,
+          "end": 259,
+          "text": "du tout"
+        },
+        {
+          "chapter": 7,
+          "unit": 204,
+          "start": 7,
+          "end": 14,
+          "text": "du tout"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 198,
+          "start": 252,
+          "end": 254,
+          "text": "du",
+          "form": "du"
+        },
+        {
+          "unit": 198,
+          "start": 255,
+          "end": 259,
+          "text": "tout",
+          "form": "tout"
+        },
+        {
+          "unit": 204,
+          "start": 7,
+          "end": 9,
+          "text": "du",
+          "form": "du"
+        },
+        {
+          "unit": 204,
+          "start": 10,
+          "end": 14,
+          "text": "tout",
+          "form": "tout"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je n’entends pas trop bien le grec, dit le géant. — Ni moi non plus, dit la mite philosophique. — Pourquoi donc, reprit le Sirien, citez-vous un certain Aristote en grec ? — C’est, répliqua le savant, qu’il faut bien citer ce qu’on ne comprend point du tout dans la langue qu’on entend le moins. »",
+          "targetText": "du tout",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at all; whatsoever",
+          "choices": [
+            "at all; whatsoever",
+            "sometimes",
+            "probably",
+            "already"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il n’en comprend absolument rien : il ne le comprend pas ___.",
+          "question": "Complétez la phrase.",
+          "answer": "du tout",
+          "choices": [
+            "du tout",
+            "encore",
+            "entièrement",
+            "vraiment"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution renforce une négation en excluant toute quantité ou tout degré ?",
+          "question": "Quelle expression convient ?",
+          "answer": "du tout",
+          "choices": [
+            "du tout",
+            "encore",
+            "entièrement",
+            "vraiment"
+          ]
+        }
+      ],
+      "questionSha256": "f5ee15b11fd03d0da344b9a95d5944b6476d39bd4b28a73bc799473a7bc3178b",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Point du tout and rien du tout reinforce a complete negation, concerning understanding and action respectively. They are not the quantity pronoun tout standing for everything. All adverbs fit the negative completion while absolute exclusion alone selects du tout; each complete source span is retained to suppress duplicate component mastery. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "du_tout",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "je_vous_en_prie",
+      "surfacePattern": "je vous en prie",
+      "meaning": "please; I ask you politely",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 185,
+          "start": 140,
+          "end": 155,
+          "text": "je vous en prie"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 185,
+          "start": 140,
+          "end": 142,
+          "text": "je",
+          "form": "je"
+        },
+        {
+          "unit": 185,
+          "start": 143,
+          "end": 147,
+          "text": "vous",
+          "form": "vous"
+        },
+        {
+          "unit": 185,
+          "start": 148,
+          "end": 150,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 185,
+          "start": 151,
+          "end": 155,
+          "text": "prie",
+          "form": "prie"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Puisque vous êtes du petit nombre des sages, dit-il à ces messieurs, et qu’apparemment vous ne tuez personne pour de l’argent, dites-moi, je vous en prie, à quoi vous vous occupez. — Nous disséquons des mouches, dit le philosophe, nous mesurons des lignes, nous assemblons des nombres ; nous sommes d’accord sur deux ou trois points que nous entendons, et nous disputons sur deux ou trois mille que nous n’entendons pas. »",
+          "targetText": "je vous en prie",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "please; I ask you politely",
+          "choices": [
+            "please; I ask you politely",
+            "I forbid you",
+            "I blame you",
+            "I congratulate you"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il sollicite poliment une réponse : « Dites-moi, ___, à quoi vous vous occupez. »",
+          "question": "Complétez la phrase.",
+          "answer": "je vous en prie",
+          "choices": [
+            "je vous en prie",
+            "je vous l’interdis",
+            "je vous le reproche",
+            "je vous en félicite"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle formule exprime ici une demande polie ?",
+          "question": "Quelle expression convient ?",
+          "answer": "je vous en prie",
+          "choices": [
+            "je vous en prie",
+            "je vous l’interdis",
+            "je vous le reproche",
+            "je vous en félicite"
+          ]
+        }
+      ],
+      "questionSha256": "9fd2ca1c9922792af0fd65569424aa91fa0cdd0fee0b8e81fb7b8cac2db81f41",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Sirian politely requests an account of the sages’ activities. This source formula is an entreaty, not the response to thanks that identical words can express elsewhere. Each first-person clause fits the quotation; polite requesting rather than prohibition, reproach or congratulation selects it. Je/vous/en/prie components stay within this specific formula. Newly considered component forms in VII package02 reuse this exact full-span bank; all three earlier questions were re-read unchanged, and no new expression meaning or duplicated component mastery is created.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "je_vous_en_prie",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "au_bout_de",
+      "surfacePattern": "au bout de",
+      "meaning": "after; at the end of a period",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 182,
+          "start": 10,
+          "end": 20,
+          "text": "au bout de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 182,
+          "start": 10,
+          "end": 12,
+          "text": "au",
+          "form": "au"
+        },
+        {
+          "unit": 182,
+          "start": 13,
+          "end": 17,
+          "text": "bout",
+          "form": "bout"
+        },
+        {
+          "unit": 182,
+          "start": 18,
+          "end": 20,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils se revoient au bout de trois ans.",
+          "question": "Meaning",
+          "answer": "after three years",
+          "choices": [
+            "after three years",
+            "for three years",
+            "before three years",
+            "every three years"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils se sont quittés en 2020 et se sont revus en 2023, ___ trois ans.",
+          "question": "Complétez la phrase.",
+          "answer": "au bout de",
+          "choices": [
+            "au bout de",
+            "pendant",
+            "avant",
+            "tous les"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils se retrouvent au bout de trois ans. Ils écrivent pendant ces années ; avant leur séparation, ils vivaient ensemble, puis ils voyagent tous les étés.",
+          "question": "Quelle expression marque la fin de l’attente de trois ans ?",
+          "answer": "au bout de",
+          "choices": [
+            "au bout de",
+            "pendant",
+            "avant",
+            "tous les"
+          ]
+        }
+      ],
+      "questionSha256": "69262d680f477b187a1794c51ff95e817d5ee7a3774c713c4849b02b5f5f925a",
+      "identityTarget": "share_earlier_expression_meaning:chapter-01-expressions-01.json:au_bout_de",
+      "reviewNote": "The unit 182 ten-year period ends with few soldiers surviving. The complete Chapter I temporal au_bout_de bank and all three questions were read unchanged; duration rather than spatial endpoint selects this full phrase. Suppress its current au/bout components at import while preserving that earlier full-expression meaning.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-01-expressions-01.json",
+      "earlierKey": "au_bout_de",
+      "earlierFileSha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "de_169_192",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 182,
+              "start": 18,
+              "end": 20,
+              "text": "de",
+              "context": "Sachez qu’au bout de dix ans, il ne reste jamais la centième partie de ces misérables ; sachez que, quand même ils n’auraient pas tiré l’épée, la faim, la fatigue, ou l’intempérance, les emportent presque tous."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "au_moins",
+      "surfacePattern": "au moins",
+      "meaning": "at least; no less than",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 200,
+          "start": 157,
+          "end": 165,
+          "text": "au moins"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 200,
+          "start": 157,
+          "end": 159,
+          "text": "au",
+          "form": "au"
+        },
+        {
+          "unit": 200,
+          "start": 160,
+          "end": 165,
+          "text": "moins",
+          "form": "moins"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at least; no less than",
+          "choices": [
+            "at least; no less than",
+            "at most",
+            "exactly and only",
+            "less than"
+          ],
+          "targetText": "au moins"
+        },
+        {
+          "band": "4-5",
+          "context": "Deux pieds sont le minimum : il rehausserait les bonnets de deux pieds ___.",
+          "question": "Complétez la phrase.",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "à peine"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La hauteur serait de deux pieds ou davantage.",
+          "question": "Quelle expression convient ?",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "moins de"
+          ]
+        }
+      ],
+      "questionSha256": "742a8b062e8bc48ed5f586f30871af518342c1bfb69afd3536bef7f3c3d02351",
+      "identityTarget": "share_earlier_expression_meaning:chapter-05-expression-review.json:au_moins",
+      "reviewNote": "Au moins sets a minimal question about whether the speaker knows matter at all, rather than a maximum or merely chronological condition. The earlier V minimum phrase bank and its three questions were read unchanged; preserve its meaning and suppress the new au component on this complete source span.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-05-expression-review.json",
+      "earlierKey": "au_moins",
+      "earlierFileSha256": "ef51d2552a62210807d44fbe68bf2eb44508ab54f7588c8c68b8798885099fb3"
+    },
+    {
+      "key": "quand_meme",
+      "surfacePattern": "quand même",
+      "meaning": "even if; even supposing",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 182,
+          "start": 100,
+          "end": 110,
+          "text": "quand même"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 182,
+          "start": 100,
+          "end": 105,
+          "text": "quand",
+          "form": "quand"
+        },
+        {
+          "unit": 182,
+          "start": 106,
+          "end": 110,
+          "text": "même",
+          "form": "même"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Sachez qu’au bout de dix ans, il ne reste jamais la centième partie de ces misérables ; sachez que, quand même ils n’auraient pas tiré l’épée, la faim, la fatigue, ou l’intempérance, les emportent presque tous.",
+          "targetText": "quand même",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "even if; even supposing",
+          "choices": [
+            "even if; even supposing",
+            "when",
+            "because",
+            "provided that"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La locution qui pose une hypothèse concédée sans changer la conclusion est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "Quand même",
+          "choices": [
+            "Quand même",
+            "Parce que",
+            "À condition que",
+            "Après que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution introduit une hypothèse concessive qui ne changerait pas le résultat ?",
+          "question": "Quelle expression convient ?",
+          "answer": "Quand même",
+          "choices": [
+            "Quand même",
+            "Parce que",
+            "À condition que",
+            "Après que"
+          ]
+        }
+      ],
+      "questionSha256": "86efb3f8336fb6e23e86447fa15c1efffc990ddccb423df65e946525c5f8b907",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Quand même with conditional auraient introduces a concessive counterfactual hypothesis: even without combat, other causes would kill them. It is not literal temporal when or independent even. All four subordinate connectors fit a clause prompt as grammatical labels; concession regardless of the hypothesis differs from cause, condition or time. Prepare one full-span expression bank and suppress both components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished"
+    },
+    {
+      "key": "se_donner_la_peine",
+      "surfacePattern": "Ne vous en donnez pas la peine",
+      "meaning": "do not bother; do not take the trouble",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 181,
+          "start": 2,
+          "end": 32,
+          "text": "Ne vous en donnez pas la peine"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 181,
+          "start": 2,
+          "end": 4,
+          "text": "Ne",
+          "form": "ne"
+        },
+        {
+          "unit": 181,
+          "start": 5,
+          "end": 9,
+          "text": "vous",
+          "form": "vous"
+        },
+        {
+          "unit": 181,
+          "start": 10,
+          "end": 12,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 181,
+          "start": 13,
+          "end": 19,
+          "text": "donnez",
+          "form": "donnez"
+        },
+        {
+          "unit": 181,
+          "start": 20,
+          "end": 23,
+          "text": "pas",
+          "form": "pas"
+        },
+        {
+          "unit": 181,
+          "start": 24,
+          "end": 26,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 181,
+          "start": 27,
+          "end": 32,
+          "text": "peine",
+          "form": "peine"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine.",
+          "targetText": "Ne vous en donnez pas la peine",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "do not bother; do not take the trouble",
+          "choices": [
+            "do not bother; do not take the trouble",
+            "do not be sad",
+            "do not worry about an absence",
+            "do not impose a punishment"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour dire qu’il est inutile de faire cet effort, la phrase est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "Ne vous en donnez pas la peine",
+          "choices": [
+            "Ne vous en donnez pas la peine",
+            "Ne vous laissez pas abattre",
+            "Ne vous inquiétez pas pour lui",
+            "Ne lui infligez pas cette peine"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle phrase signifie ici ne faites pas cet effort ?",
+          "question": "Quelle expression convient ?",
+          "answer": "Ne vous en donnez pas la peine",
+          "choices": [
+            "Ne vous en donnez pas la peine",
+            "Ne vous laissez pas abattre",
+            "Ne vous inquiétez pas pour lui",
+            "Ne lui infligez pas cette peine"
+          ]
+        }
+      ],
+      "questionSha256": "2dea89fe2d1783406596c301dcb8d5c6945be001f7c748af5b08b0a0fb3151b5",
+      "identityTarget": "share_published_word_meaning:sns_fr_peine_effort",
+      "reviewNote": "The philosopher tells the giant not to make the effort to destroy humans, since they already bring about their own ruin. The full negative source phrase realizes se donner la peine, not literal giving, sorrow or punishment. Share the existing effort noun meaning through a proper complete-expression bridge before import; negation does not create a second canonical positive/negative meaning. All four full imperative alternatives fit a metalinguistic sentence prompt and the effort clue selects the target. Earlier-package ne/vous/en/pas component routes must be suppressed on this exact span, without altering their other uses or mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "vous_169_61",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 181,
+              "start": 5,
+              "end": 9,
+              "text": "vous",
+              "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "la_169_287",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 181,
+              "start": 24,
+              "end": 26,
+              "text": "la",
+              "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "en_171_131",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 181,
+              "start": 10,
+              "end": 12,
+              "text": "en",
+              "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-02.json",
+          "fileSha256": "56f7e88646d3702aac313670bb0e98eab56d4d21180e0e6c1c3de71192cd8b2c",
+          "key": "ne_177_114",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 181,
+              "start": 2,
+              "end": 4,
+              "text": "Ne",
+              "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-02.json",
+          "fileSha256": "56f7e88646d3702aac313670bb0e98eab56d4d21180e0e6c1c3de71192cd8b2c",
+          "key": "pas_176_9",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 181,
+              "start": 20,
+              "end": 23,
+              "text": "pas",
+              "context": "— Ne vous en donnez pas la peine, lui répondit-on ; ils travaillent assez à leur ruine."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "etre_la_peine",
+      "surfacePattern": "n’était donc pas la peine",
+      "meaning": "was therefore not worth the trouble",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 199,
+          "start": 277,
+          "end": 302,
+          "text": "n’était donc pas la peine"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 199,
+          "start": 277,
+          "end": 279,
+          "text": "n’",
+          "form": "n’"
+        },
+        {
+          "unit": 199,
+          "start": 279,
+          "end": 284,
+          "text": "était",
+          "form": "était"
+        },
+        {
+          "unit": 199,
+          "start": 285,
+          "end": 289,
+          "text": "donc",
+          "form": "donc"
+        },
+        {
+          "unit": 199,
+          "start": 290,
+          "end": 293,
+          "text": "pas",
+          "form": "pas"
+        },
+        {
+          "unit": 199,
+          "start": 294,
+          "end": 296,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 199,
+          "start": 297,
+          "end": 302,
+          "text": "peine",
+          "form": "peine"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton.",
+          "targetText": "n’était donc pas la peine",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "was therefore not worth the trouble",
+          "choices": [
+            "was therefore not worth the trouble",
+            "was therefore not sad",
+            "was therefore not certain",
+            "was therefore not the punishment"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour juger qu’un effort n’aurait aucune utilité, il dit que cela ___.",
+          "question": "Complétez la phrase.",
+          "answer": "n’était donc pas la peine",
+          "choices": [
+            "n’était donc pas la peine",
+            "n’était donc pas triste",
+            "n’était donc pas certain",
+            "n’était donc pas le châtiment"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle tournure juge ici qu’il ne valait pas la peine de faire cet effort ?",
+          "question": "Quelle expression convient ?",
+          "answer": "n’était donc pas la peine",
+          "choices": [
+            "n’était donc pas la peine",
+            "n’était donc pas triste",
+            "n’était donc pas certain",
+            "n’était donc pas le châtiment"
+          ]
+        }
+      ],
+      "questionSha256": "6c78a2c2fc579719233bf861592a47fd3b97f289683ee12c99b90c8fc6a73340",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The giant says the supposed prenatal knowledge was not worth the trouble if the soul becomes ignorant later. This is an evaluation of usefulness, not sorrow or a penal sentence; prepare the canonical être la peine/valoir la peine worth-the-trouble meaning with the negative occurrence recorded exactly. No negative-only fresh meaning or claim that prenatal knowledge actually exists is made. Every full predicate fits cela; useless effort selects the target. Suppress exact earlier component word routes before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "la_169_287",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 199,
+              "start": 294,
+              "end": 296,
+              "text": "la",
+              "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "n’_170_3",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 199,
+              "start": 277,
+              "end": 279,
+              "text": "n’",
+              "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-02.json",
+          "fileSha256": "56f7e88646d3702aac313670bb0e98eab56d4d21180e0e6c1c3de71192cd8b2c",
+          "key": "pas_176_9",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 199,
+              "start": 290,
+              "end": 293,
+              "text": "pas",
+              "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "le_bout_des_choses",
+      "surfacePattern": "le bout des choses",
+      "meaning": "the ultimate explanation; the final understanding",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 128,
+          "end": 146,
+          "text": "le bout des choses"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 214,
+          "start": 128,
+          "end": 130,
+          "text": "le",
+          "form": "le"
+        },
+        {
+          "unit": 214,
+          "start": 131,
+          "end": 135,
+          "text": "bout",
+          "form": "bout"
+        },
+        {
+          "unit": 214,
+          "start": 136,
+          "end": 139,
+          "text": "des",
+          "form": "des"
+        },
+        {
+          "unit": 214,
+          "start": 140,
+          "end": 146,
+          "text": "choses",
+          "form": "choses"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+          "targetText": "le bout des choses",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the ultimate explanation; the final understanding",
+          "choices": [
+            "the ultimate explanation; the final understanding",
+            "the edge of physical objects",
+            "a room’s middle",
+            "the passage of time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le livre promettrait de leur révéler l’explication ultime de la réalité : ils y verraient ___.",
+          "question": "Complétez la phrase.",
+          "answer": "le bout des choses",
+          "choices": [
+            "le bout des choses",
+            "le bord des objets",
+            "le milieu de la salle",
+            "le passage du temps"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression désigne ici l’explication ultime des choses ?",
+          "question": "Quelle expression convient ?",
+          "answer": "le bout des choses",
+          "choices": [
+            "le bout des choses",
+            "le bord des objets",
+            "le milieu de la salle",
+            "le passage du temps"
+          ]
+        }
+      ],
+      "questionSha256": "8bb9bd170e78960d5444493e649f4701387860ceacd9c95a76db2130e4c81bd8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The promised philosophy book would reveal final understanding of reality, while its eventual blankness makes that promise ironic. Le bout des choses denotes ultimate explanation, not a physical extremity. Prepare the complete phrase under a proper expression owner and compare its conceptual endpoint overlap with the broad published bout before import. All four masculine singular complete noun phrases fit verraient; knowledge rather than spatial edges, room location or elapsed time selects the target. Earlier des/choses word routes must be suppressed on this exact span before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "des_169_304",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 214,
+              "start": 136,
+              "end": 139,
+              "text": "des",
+              "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "le_170_22",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 214,
+              "start": 128,
+              "end": 130,
+              "text": "le",
+              "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:50:03.043Z",
+  "sense": {
+    "id": "sns_fr_pierre_gem",
+    "lemmaId": "lem_parure_pierre_noun_982db9015e",
+    "gloss": "gemstone",
+    "definition": "Pierre précieuse ou fine employée comme ornement, notamment dans un bijou."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_6_8",
+      "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_4_5",
+      "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569:sns_fr_pierre_gem",
+      "surface": "pierre",
+      "lemma": "pierre",
+      "currentRevision": "rev_80886e1488770695db34f2380c0e5bc27c1aaff92ba694f7aec535667c2133ea",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_5595c1cd4fb3b1238a43158e",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_036",
+          "passage": "— Cela m’ennuie de n’avoir pas un bijou, pas une pierre, rien à mettre sur moi. J’aurai l’air misère comme tout. J’aimerais presque mieux ne pas aller à cette soirée.",
+          "span": [
+            49,
+            55
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La pierre brille au milieu du pendentif ; le joaillier affirme que ce rubis est naturel.",
+          "prompt": "Quel mot désigne ici une gemme ?",
+          "choices": [
+            {
+              "text": "joaillier",
+              "correct": false
+            },
+            {
+              "text": "naturel",
+              "correct": false
+            },
+            {
+              "text": "pierre",
+              "correct": true
+            },
+            {
+              "text": "milieu",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Cette _____ précieuse est un saphir taillé destiné à une bague.",
+          "choices": [
+            {
+              "text": "chaîne",
+              "correct": false
+            },
+            {
+              "text": "perle",
+              "correct": false
+            },
+            {
+              "text": "plaque",
+              "correct": false
+            },
+            {
+              "text": "pierre",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_pierre_gem_parure_pierre_lem_parure_pierre_noun_982db9015e_e7b24be569_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le bijoutier sertit une pierre bleue au centre de la bague.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "gemstone",
+              "correct": true
+            },
+            {
+              "text": "piece of cloth",
+              "correct": false
+            },
+            {
+              "text": "metal chain",
+              "correct": false
+            },
+            {
+              "text": "flower",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

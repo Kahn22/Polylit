@@ -1,0 +1,45 @@
+"""Individually authored VII whole-span decisions; component words stay suppressed."""
+from pathlib import Path
+import json,hashlib,sys,re
+P=Path(__file__).resolve().parents[1]/'content/sources/wrk_voltaire_micromegas'
+read=lambda f:json.loads((P/f).read_text())
+h=lambda v:hashlib.sha256(json.dumps(v,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+digest=lambda f:hashlib.sha256((P/f).read_bytes()).hexdigest()
+write=lambda f,v:(P/f).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+packet=read('chapter-07-context-packet-05.json');limit=int(sys.argv[1])if len(sys.argv)>1 else 80
+units=read('unit-plan.json')['units'];tokens=read('chapter-07-inventory.json')['tokens']
+considered={(o['unit'],o['start'],o['end'])for i in packet['items'][:limit]for o in i['sourceOccurrences']}
+items=[]
+def spans(phrase,occ):
+ return [{'chapter':7,'unit':u,'start':m.start(),'end':m.end(),'text':m.group()}for u in occ for m in re.finditer(re.escape(phrase),units[u-1]['text'],re.I)]
+def components(uses):return [{k:t[k]for k in ['unit','start','end','text','form']}for t in tokens if any(t['unit']==o['unit']and t['start']>=o['start']and t['end']<=o['end']for o in uses)]
+def expr(key,phrase,occ,meaning,low,middle,options,advanced,note,target='new_expression_meaning',earlier=None):
+ uses=spans(phrase,occ);assert uses,(key,phrase);ct=components(uses)
+ if not any((t['unit'],t['start'],t['end'])in considered for t in ct):return
+ qs=[] if earlier else [{'band':'1-3','context':units[uses[0]['unit']-1]['text'],'targetText':uses[0]['text'],'question':'What does the highlighted phrase mean here?','answer':meaning,'choices':[meaning,*low]},{'band':'4-5','context':middle,'question':'Complétez la phrase.','answer':options[0],'choices':options},{'band':'6-8','context':advanced,'question':'Quelle expression convient ?','answer':options[0],'choices':options}]
+ if earlier:
+  file,oldkey=earlier;old=next(i for i in read(file)['items']if i['key']==oldkey);qs=old['questions'];target=old.get('identityTarget',f'share_earlier_expression_meaning:{file}:{oldkey}')
+ item=dict(key=key,surfacePattern=phrase,meaning=meaning,sourceOccurrences=uses,componentTokens=ct,questions=qs,questionSha256=h(qs),identityTarget=target,reviewNote=note,status='offline_full_span_three_band_review_recorded_unpublished')
+ if earlier:item.update(earlierFile=file,earlierKey=oldkey,earlierFileSha256=digest(file))
+ items.append(item)
+for oldfile in ['chapter-07-expression-review-01.json','chapter-07-expression-review-03.json','chapter-07-expression-review-04.json']:
+ for old in read(oldfile)['items']:
+  if old['key']in {i['key']for i in items}:continue
+  if any((t['unit'],t['start'],t['end'])in considered for t in old['componentTokens']):
+   item=dict(old);item.update(earlierFile=oldfile,earlierKey=old['key'],earlierFileSha256=digest(oldfile),reviewNote=old['reviewNote']+' Package05 re-read the complete earlier three-band bank unchanged for these exact phrase uses; preserve whole-expression mastery and suppress only exact components before import.');items.append(item)
+expr('adresser_la_parole','adressant la parole',[203],'addressing someone; beginning to speak to someone',['withholding speech','interrupting someone','turning away'],'Il commence à parler directement à son interlocuteur en lui ___.',['adressant la parole','refusant la parole','coupant la parole','tournant le dos'],'Quelle expression signifie ici commençant à parler à quelqu’un ?','Micromégas adressant la parole à un autre sage introduces speech directed to a specific listener. The VI parole spoken-word bank and the source context were read. Prepare the complete adresser la parole meaning and this participial surface under one planned expression owner; the later adressé variant shares that meaning without a tense-only sense. Every full participial phrase fits en lui; speaking to a person differs from denial, interruption or withdrawal. Preserve the other utterance uses while suppressing exact isolated component routes.','new_expression_meaning:adresser_la_parole')
+expr('adresser_la_parole_participe','adressé la parole',[206],'addressed someone; begun to speak to someone',['withheld speech','interrupted someone','turned away'],'Il a commencé à parler directement à cet interlocuteur : il lui a ___.',['adressé la parole','refusé la parole','coupé la parole','tourné le dos'],'Quelle expression signifie ici commencé à parler à quelqu’un ?','Quand on lui eut adressé la parole marks speech directed to the follower of Locke. This completed surface shares the same planned adresser la parole expression meaning as the current adressant variant, with explicit canonical owner reconciliation before import and no participle-only new sense. Every full participial phrase fits il lui a; speaking to the listener differs from withholding, interruption or turning away. Suppress exact earlier component routes while preserving other speech meanings.','share_same_package_expression_meaning:adresser_la_parole')
+expr('couper_la_parole','coupa la parole',[210],'interrupted; cut off others’ speech',['let others finish','gave an answer','remained silent'],'Il empêcha les autres de finir de parler : il leur ___.',['coupa la parole','laissa le temps','donna une réponse','accorda un délai'],'Quelle expression signifie interrompit quelqu’un pendant qu’il parlait ?','The animalcule coupa la parole à tous interrupts the philosophers rather than cutting a physical object. Prepare the full idiom under proper expression ownership, compared with existing couper and parole meanings before import. All four full past predicates fit il leur; preventing completion of speech rather than granting time, answering or granting a delay selects coupa la parole. Suppress only the exact component occurrences and preserve all other literal cutting or utterance mastery.')
+expr('se_laisser_aller_posture','se laissèrent aller',[211],'let their bodies lean; relaxed their bodily support',['kept their bodies upright','stood firmly','remained motionless'],'Ils ne soutinrent plus leurs corps en riant : ils ___.',['se laissèrent aller','se tinrent droits','se redressèrent','restèrent immobiles'],'Quelle expression signifie ici cessèrent de soutenir fermement leur corps ?','Se laissèrent aller l’un sur l’autre describes the two visitors physically leaning together under convulsive laughter. Académie1694 explicitly records laisser aller for not supporting one’s body or posture. Prepare this full postural construction rather than ordinary aller movement or a separate laughter-only meaning; retain the source’s emotional cause without narrowing the canonical scope to it. All four complete plural predicates fit ils; giving way physically differs from upright support, straightening or stillness. Exact earlier component suppression is required before import.')
+expr('autant_valoir','autant vaudrait',[204],'might as well; it would be just as good or preferable to',['it would be forbidden to','it would be impossible to','one would be forced to'],'À ce compte, il serait aussi bien de ne pas exister : ___ ne pas être.',['autant vaudrait','il serait interdit de','il serait impossible de','on serait obligé de'],'Quelle locution signifie il serait aussi bien ou préférable de ?','Autant vaudrait ne pas être is the rejoinder that one might as well not exist if one has no independent agency. Académie9 explicitly records autant vaut/vaudrait followed by an infinitive as a preference locution. Prepare the complete autant valoir construction, with no conditional-only canonical meaning, instead of isolated equal-quantity autant and material-worth valoir. All four complete phrases take ne pas être; equivalence/preference differs from prohibition, impossibility or obligation. Suppress only the exact component uses before import.')
+# Cross-package component disposition is an explicit import dependency, never silent duplicate encounters.
+for i in items:
+ deps=[]
+ for file in ['chapter-07-context-review-01.json','chapter-07-context-review-02.json','chapter-07-context-review-03.json','chapter-07-context-review-04.json']:
+  for row in read(file)['items']:
+   uses=[o for o in row['sourceOccurrences'] if any(t['unit']==o['unit'] and t['start']==o['start'] and t['end']==o['end'] for t in i['componentTokens'])]
+   if uses:deps.append({'file':file,'fileSha256':digest(file),'key':row['key'],'sourceOccurrences':uses,'action':'suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery'})
+ if deps:i['earlierComponentRoutes']=deps
+common={k:packet[k]for k in ['version','workId','chapter','sourceSha256','unitPlanSha256','inventorySha256']}
+write('chapter-07-expression-review-05.json',{**common,'status':'offline_full_span_review_unpublished','summary':{'reviewedExpressionForms':len(items),'reviewedQuestionBands':len(items)*3,'newExpressionForms':sum(not i.get('earlierFile')for i in items),'newQuestionBands':sum(3 for i in items if not i.get('earlierFile')),'reusedEarlierQuestionBands':sum(3 for i in items if i.get('earlierFile'))},'items':items})
+print(json.dumps({'limit':limit,'expressions':len(items),'bands':len(items)*3}))

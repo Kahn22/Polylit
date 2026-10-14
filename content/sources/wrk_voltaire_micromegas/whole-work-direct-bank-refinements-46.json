@@ -1,0 +1,979 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-01-batch-08.json",
+      "key": "nommee_called",
+      "beforeQuestionSha256": "002934251dd3cf4f844d2444ba7f7b3e093db67a10c44b649f3c13705017cc7f",
+      "after": {
+        "key": "nommee_called",
+        "form": "nommée",
+        "lemma": "nommer",
+        "partOfSpeech": "past participle feminine singular",
+        "meaning": "named; called",
+        "editorialNote": "Sirius is the star’s name, not a person appointed to office. Existing lem_cendrillon_nommer_verb_bde5204dd3 / sns_cendrillon_nommer_attribuer_imposer_un_nom_a_une_personne_une_chose_ou_une_collectivite_6380ea9273 appears reusable after final identity review.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 1,
+            "start": 57,
+            "end": 63,
+            "text": "nommée"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "L’étoile nommée Sirius brille dans le ciel.",
+            "question": "Meaning",
+            "answer": "called",
+            "choices": [
+              "called",
+              "hidden",
+              "dimmed",
+              "destroyed"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette étoile porte le nom de Sirius ; elle est donc ___ ainsi.",
+            "question": "Complétez la phrase.",
+            "answer": "nommée",
+            "choices": [
+              "nommée",
+              "cachée",
+              "éteinte",
+              "brisée"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’étoile nommée Sirius porte ce nom. Une étoile cachée reste hors de vue, une étoile éteinte ne brille plus, et une lampe brisée ne fonctionne plus.",
+            "question": "Quel adjectif indique le nom de l’étoile ?",
+            "answer": "nommée",
+            "choices": [
+              "nommée",
+              "cachée",
+              "éteinte",
+              "brisée"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "2040b1574f7eb8a299dc1ffd57ca68036f50307453d57c58adb8a209c1d4d7b4",
+          "afterSha256": "445f7848d7072b63f89ceb1e26ffa023bcab3c0f2371f1d2bce380188ddde5e8",
+          "reason": "All four participles accept ainsi; the naming meaning alone selects nommée."
+        }
+      ],
+      "afterQuestionSha256": "27f16cc815f933ad80d3490fd82e734026bbcbabb2d7a5a0e4a8602626e8756f"
+    },
+    {
+      "file": "chapter-01-batch-08.json",
+      "key": "connaitre_person",
+      "beforeQuestionSha256": "8a12d7ae43a17791ce06eab21c0ccc173187903fc5fd0762e60fea98bb060fc7",
+      "after": {
+        "key": "connaitre_person",
+        "form": "connaître",
+        "lemma": "connaître",
+        "partOfSpeech": "verb infinitive",
+        "meaning": "to know; be acquainted with a person",
+        "editorialNote": "The narrator says he came to know Micromégas on a trip; compare existing lem_zola_connaitre / sns_zola_connaitre_know and sns_cendrillon_connaitre_faire_ou_avoir_fait_l_experience_permettant_une_representation_mentale_de_quelque_chose_ou_quelqu_un_avoir_l_idee_la_notion_d_une_personne_ou_d_une_chose_832d4989ec.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 1,
+            "start": 145,
+            "end": 154,
+            "text": "connaître"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "J’ai eu l’honneur de connaître cette voyageuse.",
+            "question": "Meaning",
+            "answer": "get to know",
+            "choices": [
+              "get to know",
+              "forget",
+              "avoid",
+              "hire"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Je veux me familiariser avec cette personne et comprendre son caractère : je cherche à la ___.",
+            "question": "Complétez la phrase.",
+            "answer": "connaître",
+            "choices": [
+              "connaître",
+              "éviter",
+              "oublier",
+              "licencier"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Je veux connaître cette voyageuse et lui parler. Mon voisin veut l’éviter, son ancien ami risque de l’oublier et son employeur veut la licencier.",
+            "question": "Quel verbe signifie devenir familier avec elle ?",
+            "answer": "connaître",
+            "choices": [
+              "connaître",
+              "éviter",
+              "oublier",
+              "licencier"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "04a6a89a5ed65fb488e844c6180c3077f5f299ff9553da2bb6672346bc598c2c",
+          "afterSha256": "e4adadc0936417c067eb76aa274ef20af3317bed2020a4c5491f9360fdf59eb2",
+          "reason": "State the acquaintance meaning rather than an unspecified activity after several meetings."
+        }
+      ],
+      "afterQuestionSha256": "3e995ea68cceb18a7ead180a959cccacf6e30e991882e3c0d5d8434c2754df46"
+    },
+    {
+      "file": "chapter-01-batch-09.json",
+      "key": "appelait_was_named",
+      "beforeQuestionSha256": "6e167965b344fac9cdebadd53b00802724204d82524ea7fc9636337a0e5d521a",
+      "after": {
+        "key": "appelait_was_named",
+        "form": "appelait",
+        "lemma": "appeler",
+        "partOfSpeech": "pronominal verb imperfect third singular",
+        "meaning": "was called; bore the name",
+        "editorialNote": "The name Micromégas follows se; do not confuse this pronominal naming use with calling aloud.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 1,
+            "start": 224,
+            "end": 232,
+            "text": "appelait"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il s’appelait Micromégas.",
+            "question": "Meaning",
+            "answer": "was called",
+            "choices": [
+              "was called",
+              "was frightened",
+              "was hidden",
+              "was dismissed"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ce personnage portait le nom de Micromégas : il s’___ ainsi.",
+            "question": "Complétez la phrase.",
+            "answer": "appelait",
+            "choices": [
+              "appelait",
+              "éloignait",
+              "effaçait",
+              "étonnait"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le voyageur s’appelait Micromégas : c’était son nom. Son ami s’éloignait, le chat se cachait et l’enfant s’étonnait.",
+            "question": "Quel verbe indique le nom du voyageur ?",
+            "answer": "appelait",
+            "choices": [
+              "appelait",
+              "éloignait",
+              "cachait",
+              "étonnait"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "938fbbd0bd10fc9da202231e3e72b85de2ac354987827f358ac759c12a2050bb",
+          "afterSha256": "33842b4e61577ab4d6cf46eeca4c381da78b318362e9ccaca6a1920c4c36fde5",
+          "reason": "All four imperfect forms accept the unchanged s’ elision; cachait did not."
+        }
+      ],
+      "afterQuestionSha256": "9eb009f019d0a750d96cda3ffbd26032be3970f98eebe84a14bf952cd80498b6"
+    },
+    {
+      "file": "chapter-01-batch-08.json",
+      "key": "chacun_each",
+      "beforeQuestionSha256": "ad83056b4fe6440b8fc061d8e85320ed4de1707d9d6870c055241258ba33c77f",
+      "after": {
+        "key": "chacun_each",
+        "form": "chacun",
+        "lemma": "chacun",
+        "partOfSpeech": "indefinite pronoun masculine singular",
+        "meaning": "each one",
+        "editorialNote": "In « cinq pieds chacun », each individual measuring pace contains five feet; not all of them combined.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 2,
+            "start": 109,
+            "end": 115,
+            "text": "chacun"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils portent chacun un livre.",
+            "question": "Meaning",
+            "answer": "each one",
+            "choices": [
+              "each one",
+              "nobody",
+              "together",
+              "never"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les trois élèves reçoivent tous un livre, sans exception et individuellement : ___ reçoit le sien.",
+            "question": "Complétez la phrase.",
+            "answer": "chacun",
+            "choices": [
+              "chacun",
+              "l’un d’eux",
+              "un élève",
+              "quelqu’un"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les trois voyageurs ont chacun un billet : un billet par personne. Personne ne partage le sien ; ils entrent ensemble et ne reviennent jamais.",
+            "question": "Quel mot signifie un par personne ?",
+            "answer": "chacun",
+            "choices": [
+              "chacun",
+              "personne",
+              "ensemble",
+              "jamais"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "9305313b9eafcc917f4cb3d8e9a84b932aadccf779319fb158ded524933cb423",
+          "afterSha256": "6226e7d4a215d3c61ecfd702de9a48eafecea703255f15af5eaa7d0f512cd615",
+          "reason": "Explicit individual distribution distinguishes each one from a subset."
+        }
+      ],
+      "afterQuestionSha256": "228a7a0b1c6f4523d27d2806642cef7fc8459d8f211ff05872c6a217e1af3080"
+    },
+    {
+      "file": "chapter-01-batch-08.json",
+      "key": "trouveront_deduce",
+      "beforeQuestionSha256": "3aa4135dab0b028c62fdf91ee6953f11a93fb6b3c29d77cf2bf18754539103ba",
+      "after": {
+        "key": "trouveront_deduce",
+        "form": "trouveront",
+        "lemma": "trouver",
+        "partOfSpeech": "verb future third plural",
+        "meaning": "will determine; deduce by calculation",
+        "editorialNote": "Both uses concern geometers reaching a numerical conclusion. Existing trouver senses for discovering, judging and finding oneself require explicit comparison; no automatic reuse.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 3,
+            "start": 88,
+            "end": 98,
+            "text": "trouveront"
+          },
+          {
+            "chapter": 1,
+            "unit": 4,
+            "start": 4,
+            "end": 14,
+            "text": "trouveront"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Avec ces nombres, les géomètres trouveront la mesure.",
+            "question": "Meaning",
+            "answer": "will calculate",
+            "choices": [
+              "will calculate",
+              "will forget",
+              "will conceal",
+              "will erase"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Les résultats seront obtenus par déduction numérique : avec la formule, ils ___ la circonférence exacte du globe.",
+            "question": "Complétez la phrase.",
+            "answer": "trouveront",
+            "choices": [
+              "trouveront",
+              "oublieront",
+              "cacheront",
+              "effaceront"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Avec la formule, ils trouveront la mesure. Sans notes, certains oublieront les données ; d’autres cacheront leur calcul ou effaceront le tableau.",
+            "question": "Quel verbe indique le résultat obtenu par calcul ?",
+            "answer": "trouveront",
+            "choices": [
+              "trouveront",
+              "oublieront",
+              "cacheront",
+              "effaceront"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "a5ef65e1ad40212ca3a2357b8b5952f9436c8dfe8ff894067df91fedd0e18b0e",
+          "afterSha256": "2d1ef3775a46d4d13e5419a2d3cc1966f1abfe52c1acef19476a1398dffe71e8",
+          "reason": "Make calculation and obtaining the result explicit."
+        }
+      ],
+      "afterQuestionSha256": "17712fe0007920e37eab1f24c8894c1f2b700683aca2f6617a9c5471c315960b"
+    },
+    {
+      "file": "chapter-01-batch-08.json",
+      "key": "produit_origin",
+      "beforeQuestionSha256": "e32a674e0ea64939bf21540efef22506d3c38e2276dfc29b41402b668ceb3701",
+      "after": {
+        "key": "produit_origin",
+        "form": "produit",
+        "lemma": "produire",
+        "partOfSpeech": "past participle masculine singular",
+        "meaning": "gave rise to; brought into being",
+        "editorialNote": "The planet is the giant’s place of origin, figuratively described as having produced him. Existing lem_zola_produire / sns_zola_produire_present concerns presenting evidence, not this sense.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 4,
+            "start": 67,
+            "end": 74,
+            "text": "produit"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ce monde a produit le voyageur du récit.",
+            "question": "Meaning",
+            "answer": "gave rise to",
+            "choices": [
+              "gave rise to",
+              "welcomed",
+              "banished",
+              "ignored"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans ce récit, il est né sur cette planète : elle l’a ___, c’est-à-dire fait naître.",
+            "question": "Complétez la phrase.",
+            "answer": "produit",
+            "choices": [
+              "produit",
+              "accueilli",
+              "chassé",
+              "oublié"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Sa planète l’a produit : il y est né. Une autre planète l’a accueilli, puis une cour l’a chassé ; un passant l’a oublié.",
+            "question": "Quel mot indique ici son origine ?",
+            "answer": "produit",
+            "choices": [
+              "produit",
+              "accueilli",
+              "chassé",
+              "oublié"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "8cf94dad81d2943de156e1d8e77a63e0d69074443a587585af26d8ad3d548962",
+          "afterSha256": "791ce82ccb3716c5df81439bb94b8fdd633fca449ffe3667f0b32df157f63a16",
+          "reason": "Test origin by birth rather than an unspecified event on the natal planet."
+        }
+      ],
+      "afterQuestionSha256": "914e0628b81681e77ad80206a996fa5f43de7093371c286f19c8d50b5e6fd57d"
+    },
+    {
+      "file": "chapter-01-batch-11.json",
+      "key": "etant_being",
+      "beforeQuestionSha256": "6529c3cde4313b4f2791801e11bd7d95126b95719bddb74d9f1f0df8d5e7e499",
+      "after": {
+        "key": "etant_being",
+        "form": "étant",
+        "lemma": "être",
+        "partOfSpeech": "present participle",
+        "meaning": "being; since it or they were",
+        "editorialNote": "The three chapter I measures and one later negative participial clause describe an existing state or circumstance, not a new event.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 7,
+            "start": 28,
+            "end": 33,
+            "text": "étant"
+          },
+          {
+            "chapter": 1,
+            "unit": 8,
+            "start": 8,
+            "end": 13,
+            "text": "étant"
+          },
+          {
+            "chapter": 1,
+            "unit": 8,
+            "start": 62,
+            "end": 67,
+            "text": "étant"
+          },
+          {
+            "chapter": 4,
+            "unit": 91,
+            "start": 94,
+            "end": 99,
+            "text": "étant"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Son nez étant le tiers du visage, le calcul est facile.",
+            "question": "Meaning",
+            "answer": "being",
+            "choices": [
+              "being",
+              "becoming",
+              "forgetting",
+              "making"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette taille est donnée comme un fait établi, sans changement ni apparence : sa taille ___ de huit lieues, nous calculons sa ceinture.",
+            "question": "Complétez la phrase.",
+            "answer": "étant",
+            "choices": [
+              "étant",
+              "devenant",
+              "paraissant",
+              "changeant"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La taille étant connue, le calcul commence. La taille devenant différente signifierait un changement ; paraissant grande serait une impression et changeant indique une variation.",
+            "question": "Quel participe présente un état donné ?",
+            "answer": "étant",
+            "choices": [
+              "étant",
+              "devenant",
+              "paraissant",
+              "changeant"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "f19003607046abcea0e2cb32f500cc69ce33e7200e4245d47fd823ec76cfbfd1",
+          "afterSha256": "ba9a28861040bc025b527bfe4214a092ce9959b69ed41849aba427866aba2cb0",
+          "reason": "Distinguish an established state from change or appearance through meaning."
+        }
+      ],
+      "afterQuestionSha256": "2019b621456079aa84d94e95f26d4572c5ac8905168a8716b9ab044f4c7095a6"
+    },
+    {
+      "file": "chapter-01-batch-12.json",
+      "key": "conviendront_agree",
+      "beforeQuestionSha256": "58326b844b6ace4317b2656355fa427bf89f859c511e7a4a53988b8d625f5e3e",
+      "after": {
+        "key": "conviendront_agree",
+        "form": "conviendront",
+        "lemma": "convenir",
+        "partOfSpeech": "future indicative third person plural",
+        "meaning": "will agree; will acknowledge",
+        "editorialNote": "The sculptors and painters will agree that the giant’s belt has the calculated circumference; it is not the suitable/fitting sense of convenir.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 7,
+            "start": 104,
+            "end": 116,
+            "text": "conviendront"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Les peintres conviendront que le calcul est juste.",
+            "question": "Meaning",
+            "answer": "will agree",
+            "choices": [
+              "will agree",
+              "will forget",
+              "will deny",
+              "will hide"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ils reconnaîtront ensemble que la mesure est juste : ils en ___.",
+            "question": "Complétez la phrase.",
+            "answer": "conviendront",
+            "choices": [
+              "conviendront",
+              "douteront",
+              "parleront",
+              "discuteront"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ils conviendront que le résultat est exact : ils l’admettront. Ils en douteront s’ils ne sont pas sûrs, le rejetteront s’ils refusent, ou mentiront s’ils savent le contraire.",
+            "question": "Quel verbe indique qu’ils seront d’accord ?",
+            "answer": "conviendront",
+            "choices": [
+              "conviendront",
+              "douteront",
+              "rejetteront",
+              "mentiront"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "755c6cde92ac1f31d88cb167384bfbc9d809a90b99c200c74faa32fa57c7e1e0",
+          "afterSha256": "4e532eebfb658bc71ea22032704fd7166ce25afd1359457e32e5463dbd35d352",
+          "reason": "All four future plural verbs accept en; rejecting and lying had incompatible complements."
+        }
+      ],
+      "afterQuestionSha256": "18bef2c6c73c3f6c258bd7ea914c7a18a03d6ca455ba2a9d289b6d2d63746738"
+    },
+    {
+      "file": "chapter-01-batch-15.json",
+      "key": "devine_inferred",
+      "beforeQuestionSha256": "162011f34ad1163aaed63a247b02dbfc4108a6756b602773416c7c7fc7471ef2",
+      "after": {
+        "key": "devine_inferred",
+        "form": "deviné",
+        "lemma": "deviner",
+        "partOfSpeech": "past participle",
+        "meaning": "figured out; divined",
+        "editorialNote": "Pascal intuited thirty-two propositions and another thinker correctly inferred Earth’s flattened shape. Both cases mean reaching a conclusion by insight.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 10,
+            "start": 65,
+            "end": 71,
+            "text": "deviné"
+          },
+          {
+            "chapter": 3,
+            "unit": 67,
+            "start": 125,
+            "end": 131,
+            "text": "deviné"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il avait deviné la forme de la terre.",
+            "question": "Meaning",
+            "answer": "figured out",
+            "choices": [
+              "figured out",
+              "forgot",
+              "painted",
+              "hidden"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Avant toute preuve, il avait trouvé le résultat par intuition : il l’avait déjà ___.",
+            "question": "Complétez la phrase.",
+            "answer": "deviné",
+            "choices": [
+              "deviné",
+              "oublié",
+              "peint",
+              "caché"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le savant a deviné la réponse par intuition. Il l’a oubliée s’il ne s’en souvient plus, peinte s’il en a fait un tableau et cachée s’il l’a dissimulée.",
+            "question": "Quel participe désigne l’intuition juste ?",
+            "answer": "deviné",
+            "choices": [
+              "deviné",
+              "oublié",
+              "peint",
+              "caché"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "38a9c4c7c4bbb2bea0f06889b08fe0f4aee0b2d25383f171c3ec519512338e65",
+          "afterSha256": "446c25f11bd10b35077259bd1bc7a8b9ac01c3ab2055eed30adf2c5ededd2572",
+          "reason": "The prior vague sentence also allowed forgetting, painting or hiding the answer. The masculine résultat keeps all four participles in agreement."
+        }
+      ],
+      "afterQuestionSha256": "53205e808f545ec19c84443bd4a6c78de9398ad2b6b873ac76e50b8081036adc"
+    },
+    {
+      "file": "chapter-01-batch-15.json",
+      "key": "devint_became",
+      "beforeQuestionSha256": "09b5bf4f36efb223e866f06b7f81369a7ea0067c04c39b59751f82533a03d14b",
+      "after": {
+        "key": "devint_became",
+        "form": "devint",
+        "lemma": "devenir",
+        "partOfSpeech": "past historic third person singular",
+        "meaning": "became",
+        "editorialNote": "Pascal became a geometer, and later the conversation became interesting; both are changes of state, not mere movement.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 10,
+            "start": 120,
+            "end": 126,
+            "text": "devint"
+          },
+          {
+            "chapter": 6,
+            "unit": 168,
+            "start": 26,
+            "end": 32,
+            "text": "devint"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il devint géomètre après ses études.",
+            "question": "Meaning",
+            "answer": "became",
+            "choices": [
+              "became",
+              "forgot",
+              "met",
+              "avoided"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La conversation, d’abord ennuyeuse, changea réellement d’état et ___ intéressante.",
+            "question": "Complétez la phrase.",
+            "answer": "devint",
+            "choices": [
+              "devint",
+              "resta",
+              "parut",
+              "sembla"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La conversation devint intéressante : elle changea d’état. Si elle resta intéressante, rien ne changea ; si elle parut intéressante, ce fut une impression ; si elle cessa, elle s’arrêta.",
+            "question": "Quel verbe exprime ce changement ?",
+            "answer": "devint",
+            "choices": [
+              "devint",
+              "resta",
+              "parut",
+              "cessa"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "a28f55e4aaf0cc7babb58ea8dbb36a6a08811a739002d978a593f31f706bbe70",
+          "afterSha256": "5c71b4f3111f014e155f4d1928bc3f6ac18a64b125b5f3deea3e5445152f5555",
+          "reason": "All four past verbs accept the adjective; an actual change selects became."
+        }
+      ],
+      "afterQuestionSha256": "408a8fb792e3ad19fe834aa3566af503988568558035f73ea3a8281e630db8bb"
+    },
+    {
+      "file": "chapter-01-batch-12.json",
+      "key": "enfance_childhood",
+      "beforeQuestionSha256": "98ce5f8f8745d78dfcc991c745d918ce5b4ec12c919cfaebb4db33c3a3a8ea0f",
+      "after": {
+        "key": "enfance_childhood",
+        "form": "enfance",
+        "lemma": "enfance",
+        "partOfSpeech": "noun feminine singular",
+        "meaning": "childhood",
+        "editorialNote": "At about age 450 in the comic scale of Sirius he has just left childhood; this means the early stage of life.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 11,
+            "start": 51,
+            "end": 58,
+            "text": "enfance"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Au sortir de l’enfance, il commence ses études.",
+            "question": "Meaning",
+            "answer": "childhood",
+            "choices": [
+              "childhood",
+              "old age",
+              "winter",
+              "journey"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le nom de la période de sa vie où elle est encore une enfant est son ___.",
+            "question": "Complétez la phrase.",
+            "answer": "enfance",
+            "choices": [
+              "enfance",
+              "adolescence",
+              "expérience",
+              "existence"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’enfance est la première période de la vie humaine. L’hiver est une saison, le voyage un déplacement et le repos une pause.",
+            "question": "Quel nom désigne la période où l’on est enfant ?",
+            "answer": "enfance",
+            "choices": [
+              "enfance",
+              "hiver",
+              "voyage",
+              "repos"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "94985a35abaaec57579382a040340cdafbd806b5d5f729fe62e36f76f4f54388",
+          "afterSha256": "9ebfcb4545018ea135740a9f28d24854db0f9481cf3ff43ab2289bfe3e4df44d",
+          "reason": "Four feminine singular vowel-initial nouns accept son; only enfance names the stated period."
+        }
+      ],
+      "afterQuestionSha256": "2af88b1301c9236f183ca28ebc587223ab57acabb6285afbd7b2d7e26acf7817"
+    },
+    {
+      "file": "chapter-01-batch-02.json",
+      "key": "diamètre_width",
+      "beforeQuestionSha256": "2951b2ba24dce6a14fb323238656edfd24864e0de7aceac0d076d99f4aabbbad",
+      "after": {
+        "key": "diamètre_width",
+        "form": "diamètre",
+        "lemma": "diamètre",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "diameter",
+        "editorialNote": "The width of the giant’s insect or microscope is specified across its round section.",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 11,
+            "start": 132,
+            "end": 140,
+            "text": "diamètre"
+          },
+          {
+            "chapter": 4,
+            "unit": 106,
+            "start": 59,
+            "end": 67,
+            "text": "diamètre"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le diamètre de cette roue est de cinquante centimètres.",
+            "question": "Meaning",
+            "answer": "diameter",
+            "choices": [
+              "diameter",
+              "circumference",
+              "weight",
+              "height"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Le nom géométrique précis du segment passant par le centre du cercle d’un bord à l’autre est le ___.",
+            "question": "Complétez la phrase.",
+            "answer": "diamètre",
+            "choices": [
+              "diamètre",
+              "rayon",
+              "périmètre",
+              "arc"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Le diamètre traverse le centre du disque d’un bord à l’autre. Le rayon part du centre et s’arrête au bord ; le contour entoure le disque.",
+            "question": "Quel mot désigne ici la mesure d’un bord à l’autre en passant par le centre ?",
+            "answer": "diamètre",
+            "choices": [
+              "diamètre",
+              "rayon",
+              "contour",
+              "centre"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "2c66565d09086a7998f6b8bd2bef9a3ffcfec15b002bd4d87669348e9d68b844",
+          "afterSha256": "a4374c8038d57c039391be28c9179ae1cab4982ba0f9be9c9546b867d219ccb2",
+          "reason": "Remove the equally true generic segment answer; all four choices remain masculine singular nouns."
+        }
+      ],
+      "afterQuestionSha256": "a9861c0224fd94e1b9f9f587324635d56f43fbf150833ffca3921b5a3fa15813"
+    },
+    {
+      "file": "chapter-01-batch-24.json",
+      "key": "vers_approximately_age",
+      "beforeQuestionSha256": "7a604d36a678095d72d242f83f50ffcb8b58156ec5fb47c952b87531957919dc",
+      "after": {
+        "key": "vers_approximately_age",
+        "form": "vers",
+        "lemma": "vers",
+        "partOfSpeech": "preposition before an age",
+        "meaning": "around; approximately (an age)",
+        "editorialNote": "Vers les quatre cent cinquante ans estimates an age. The published same-form question bands all teach motion toward a place. The chapter I poetry noun has its own draft.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 11,
+            "start": 0,
+            "end": 4,
+            "text": "Vers"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il avait vers quatre cent cinquante ans.",
+            "question": "Meaning",
+            "answer": "around that age",
+            "choices": [
+              "around that age",
+              "toward a town",
+              "before birth",
+              "for four centuries"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il avait environ quatre cent cinquante ans : ___ cet âge, il commença ses études.",
+            "question": "Complétez la phrase.",
+            "answer": "vers",
+            "choices": [
+              "vers",
+              "après",
+              "avant",
+              "pendant"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il commença ses études vers quatre cent cinquante ans, c’est-à-dire à peu près à cet âge. Après indique un âge ultérieur, avant un âge antérieur et pendant une durée.",
+            "question": "Quelle préposition exprime cette approximation ?",
+            "answer": "vers",
+            "choices": [
+              "vers",
+              "après",
+              "avant",
+              "pendant"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "748980b3c21cbea48e5da46d0462975694f11c43f54efc8ca521f1d1f39ea68c",
+          "afterSha256": "dd5a76311f26a671e6f4f44176fa269f16a006d778341ca5cbee495fac244b04",
+          "reason": "Remove the malformed juxtaposition from the early question."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "580c288c2c67209e50c6c6575c6cd4b900df6fa4c6aeab78a76dc0105907e34c",
+          "afterSha256": "e3d7326cf5489b0ee0a50f6c0eee106627ca8166001096f0b703b398677245eb",
+          "reason": "Retain the approximation meaning in a complete natural sentence."
+        }
+      ],
+      "afterQuestionSha256": "bcc44f7522d500e928499d81a297443837947ebbcacb2c8fac29ee64783a1d3f"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 13,
+    "refinedQuestionBands": 14
+  },
+  "policy": "Exact draft revisions only; retain every original question and identity. This is editorial evidence, not work release approval."
+}

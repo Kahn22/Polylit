@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:48.279Z",
+  "sense": {
+    "id": "sns_parure_faire_designed_08ea27d8ce",
+    "lemmaId": "lem_faire",
+    "gloss": "made; designed",
+    "definition": "conçus ou adaptés pour un usage"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_faits_faire_designed_8456ddcf5c_advanced",
+      "qiz_parure_faits_faire_designed_8456ddcf5c_early",
+      "qiz_parure_faits_faire_designed_8456ddcf5c_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_faits_faire_verb_c2332cb000:sns_parure_faire_designed_08ea27d8ce",
+      "surface": "faits",
+      "lemma": "faire",
+      "currentRevision": "rev_8dbcaa471451f01f7b769e340d9534d5ffe46e329269b8279c87ec2159fb7879",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_f8cd01542a820fd28433c7e3",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_004",
+          "passage": "capitonnées avec des tentures orientales, éclairées par de hautes torchères de bronze, et aux deux grands valets en culotte courte qui dorment dans les larges fauteuils, assoupis par la chaleur lourde du calorifère. Elle songeait aux grands salons vêtus de soie ancienne, aux meubles fins portant des bibelots inestimables, et aux petits salons coquets, parfumés, faits pour la causerie de cinq heures avec les amis les plus intimes,",
+          "span": [
+            364,
+            369
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_faits_faire_designed_8456ddcf5c_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les gants sont faits pour protéger les mains du froid et de l’humidité.",
+          "prompt": "Quel mot, avec sont, indique que les gants sont conçus pour cet usage ?",
+          "choices": [
+            {
+              "text": "faits",
+              "correct": true
+            },
+            {
+              "text": "gants",
+              "correct": false
+            },
+            {
+              "text": "mains",
+              "correct": false
+            },
+            {
+              "text": "humidité",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_faits_faire_designed_8456ddcf5c_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ces outils sont faits pour travailler le cuir.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forgotten",
+              "correct": false
+            },
+            {
+              "text": "stolen",
+              "correct": false
+            },
+            {
+              "text": "hidden",
+              "correct": false
+            },
+            {
+              "text": "designed",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_faits_faire_designed_8456ddcf5c_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces sièges sont _____ pour de longs trajets.",
+          "choices": [
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "faits",
+              "correct": true
+            },
+            {
+              "text": "faite",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

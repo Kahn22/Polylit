@@ -34,20 +34,21 @@ export function prepareQuiz(quiz: LegacyQuiz, language: Language): PreparedQuiz 
   const candidates = "targetText" in quiz ? targetCandidates(quiz.contextFrench, quiz.targetText, language) : [];
   return {
     id: quiz.id, language, glossLanguage: "en",
-    subject: "expressionId" in quiz ? { kind: "expression", expressionId: quiz.expressionId } : { kind: "vocabulary", surfaceFormId: quiz.surfaceFormId, senseId: quiz.senseId },
+    subject: "expressionId" in quiz ? { kind: "expression", expressionId: quiz.expressionId, ...(quiz.surfaceId ? { surfaceId: quiz.surfaceId } : {}) } : { kind: "vocabulary", surfaceFormId: quiz.surfaceFormId, senseId: quiz.senseId },
     band: quiz.band, format: quiz.format, context: quiz.contextFrench,
     ...("targetText" in quiz ? { targetText: quiz.targetText } : {}),
     ...(candidates.length === 1 ? { targetRange: candidates[0]! } : {}),
+    ...("targetSegments" in quiz && quiz.targetSegments ? { targetSegments: quiz.targetSegments } : {}),
     ...("promptFrench" in quiz ? { prompt: quiz.promptFrench } : "prompt" in quiz ? { prompt: quiz.prompt } : {}),
     choices, correctChoiceId: choices.find(choice => choice.text === quiz.correctAnswer)!.id,
   };
 }
 /** Compatibility only; the authored source and browser both use PreparedQuiz. */
 export function legacyQuiz(quiz: PreparedQuiz): LegacyQuiz {
-  const identity = quiz.subject.kind === "expression" ? { id: quiz.id, expressionId: quiz.subject.expressionId } : { id: quiz.id, surfaceFormId: quiz.subject.surfaceFormId, senseId: quiz.subject.senseId };
+  const identity = quiz.subject.kind === "expression" ? { id: quiz.id, expressionId: quiz.subject.expressionId, ...(quiz.subject.surfaceId ? { surfaceId: quiz.subject.surfaceId } : {}) } : { id: quiz.id, surfaceFormId: quiz.subject.surfaceFormId, senseId: quiz.subject.senseId };
   const common = { ...identity, contextFrench: quiz.context, correctAnswer: correctChoice(quiz).text };
   const labels = quiz.choices.map(choice => choice.text);
-  if (quiz.band === "levels_1_3") return { ...common, band: quiz.band, format: "meaning_choice", targetText: quiz.targetText!, ...(quiz.subject.kind === "vocabulary" ? { prompt: "Meaning" as const } : {}), choicesEnglish: labels } as LegacyQuiz;
+  if (quiz.band === "levels_1_3") return { ...common, band: quiz.band, format: "meaning_choice", targetText: quiz.targetText!, ...(quiz.targetSegments ? { targetSegments: quiz.targetSegments } : {}), ...(quiz.subject.kind === "vocabulary" ? { prompt: "Meaning" as const } : {}), choicesEnglish: labels } as LegacyQuiz;
   if (quiz.band === "levels_4_5") return { ...common, band: quiz.band, format: "surface_completion", choicesFrench: labels };
   return { ...common, band: quiz.band, format: "target_identification", promptFrench: quiz.prompt!, choicesFrench: labels };
 }
@@ -64,7 +65,8 @@ export function quizStructureIssues(quiz: PreparedQuiz): string[] {
     const range = quiz.targetRange;
     if (!quiz.targetText) issues.push("target_missing");
     if (range && (!Number.isInteger(range.start) || !Number.isInteger(range.end) || range.start < 0 || range.end <= range.start || range.end > quiz.context.length || !targetCandidates(quiz.context, quiz.targetText ?? "", quiz.language).some(candidate => candidate.start === range.start && candidate.end === range.end))) issues.push("target_range_invalid");
-  } else if (quiz.targetRange) issues.push("unexpected_target_range");
+    if (quiz.targetSegments && (!range || quiz.subject.kind !== "expression" || quiz.targetSegments.some((segment, index) => !Number.isInteger(segment.start) || !Number.isInteger(segment.end) || segment.start < range.start || segment.end > range.end || segment.end <= segment.start || (index > 0 && segment.start < quiz.targetSegments![index - 1]!.end)))) issues.push("target_segments_invalid");
+  } else if (quiz.targetRange || quiz.targetSegments) issues.push("unexpected_target_range");
   return issues;
 }
 /** These are necessary gates, not a substitute for contextual editorial review. */

@@ -1,3 +1,4 @@
+import { decodeLibrary } from '../dist/delivery/library-wire.js';
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { libraryMarkup } from "../dist/presentation/library.js";
 
@@ -45,7 +46,7 @@ for (const language of ["fr", "es"]) {
   const embeddedLibrary = (await readFile(new URL(`content/library/${language}.json`, outputRoot), "utf8"))
     .trim()
     .replaceAll("<", "\\u003c");
-  const index = JSON.parse(embeddedLibrary);
+  const index = decodeLibrary(JSON.parse(embeddedLibrary));
   const navigation = `<nav class="topbar" aria-label="Main navigation"><span class="brand"><img class="brand-logo" src="${libraryLogo}" alt="Polylit"></span><div class="topbar-actions"><a class="language-switch" href="../../languages/" target="_self">Choose language</a><a class="text-button" href="../../" data-action="sign-out">Sign out</a></div></nav>`;
   const markup = libraryMarkup(index, {}, new Map(), new Map(), navigation);
   await writeRoute(`${language}/library`, "../../", markup,

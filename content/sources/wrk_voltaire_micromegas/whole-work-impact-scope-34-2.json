@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:45:22.850Z",
+  "sense": {
+    "id": "sns_zola_secret_adjective",
+    "lemmaId": "lem_zola_secret",
+    "gloss": "secret; concealed",
+    "definition": "qui est tenu caché et n’est pas destiné à être révélé"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 3,
+    "affectedQuizIds": [
+      "qiz_zola_secrete_d7b92c9a9103_secret_adjective_early",
+      "qiz_zola_secrete_d7b92c9a9103_secret_adjective_intermediate",
+      "qiz_zola_secrete_d7b92c9a9103_secret_adjective_advanced",
+      "qiz_zola_secret_secret_adjective_early",
+      "qiz_zola_secret_secret_adjective_intermediate",
+      "qiz_zola_secret_secret_adjective_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_secrete_d7b92c9a9103_secret:sns_zola_secret_adjective",
+      "surface": "secrète",
+      "lemma": "secret",
+      "currentRevision": "rev_80fd69f58cc033717e0f268046850dfe6a072c3c5c854decc6ad78c9a37d26d4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_a41388a2dd219ffc7a1566ce",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_188",
+          "passage": "J’accuse enfin le premier conseil de guerre d’avoir violé le droit, en condamnant un accusé sur une pièce restée secrète, et j’accuse le second conseil de guerre d’avoir couvert cette illégalité, par ordre, en commettant à son tour le crime juridique d’acquitter sciemment un coupable.",
+          "span": [
+            113,
+            120
+          ]
+        },
+        {
+          "id": "occ_zola_ce04d4e16c9bf85d057d578a",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_060",
+          "passage": "Et, dès lors, comme l’on comprend l’obstination désespérée avec laquelle, pour justifier la condamnation, on affirme aujourd’hui l’existence d’une pièce secrète, accablante, la pièce qu’on ne peut montrer, qui légitime tout, devant laquelle nous devons nous incliner, le bon dieu invisible et inconnaissable.",
+          "span": [
+            153,
+            160
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_secrete_d7b92c9a9103_secret_adjective_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Cette information secrète ne doit pas être révélée.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "well-known",
+              "correct": false
+            },
+            {
+              "text": "secret",
+              "correct": true
+            },
+            {
+              "text": "public",
+              "correct": false
+            },
+            {
+              "text": "obvious",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_secrete_d7b92c9a9103_secret_adjective_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Personne ne doit connaître cette décision : elle reste _____.",
+          "choices": [
+            {
+              "text": "secrets",
+              "correct": false
+            },
+            {
+              "text": "publique",
+              "correct": false
+            },
+            {
+              "text": "secrète",
+              "correct": true
+            },
+            {
+              "text": "secret",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_secrete_d7b92c9a9103_secret_adjective_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La lettre secrète est gardée dans un coffre ; seuls deux conseillers en connaissent le contenu.",
+          "prompt": "Quel adjectif indique qu’elle est tenue cachée ?",
+          "choices": [
+            {
+              "text": "coffre",
+              "correct": false
+            },
+            {
+              "text": "conseillers",
+              "correct": false
+            },
+            {
+              "text": "contenu",
+              "correct": false
+            },
+            {
+              "text": "secrète",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": [
+    {
+      "id": "qiz_zola_secret_secret_adjective_early",
+      "surfaceFormId": "srf_zola_secret_secret",
+      "band": "levels_1_3",
+      "context": "Le professeur emploie « secret » pour exprimer cette idée : qui est tenu caché et n’est pas destiné à être révélé.",
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "text": "secret; concealed",
+          "correct": true
+        },
+        {
+          "text": "public",
+          "correct": false
+        },
+        {
+          "text": "obvious",
+          "correct": false
+        },
+        {
+          "text": "official",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_secret_secret_adjective_intermediate",
+      "surfaceFormId": "srf_zola_secret_secret",
+      "band": "levels_4_5",
+      "context": "Pour exprimer l’idée « qui est tenu caché et n’est pas destiné à être révélé », le mot attendu est _____.",
+      "choices": [
+        {
+          "text": "secret",
+          "correct": true
+        },
+        {
+          "text": "public",
+          "correct": false
+        },
+        {
+          "text": "évident",
+          "correct": false
+        },
+        {
+          "text": "officiel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "qiz_zola_secret_secret_adjective_advanced",
+      "surfaceFormId": "srf_zola_secret_secret",
+      "band": "levels_6_8",
+      "context": "Dans cette situation, le mot « secret » exprime précisément ceci : qui est tenu caché et n’est pas destiné à être révélé. Nina consulte le rapport, tandis que Paul classe le dossier, tandis que Léa entre dans le bureau.",
+      "prompt": "Quel mot du contexte signifie « qui est tenu caché et n’est pas destiné à être révélé » ?",
+      "choices": [
+        {
+          "text": "secret",
+          "correct": true
+        },
+        {
+          "text": "rapport",
+          "correct": false
+        },
+        {
+          "text": "dossier",
+          "correct": false
+        },
+        {
+          "text": "bureau",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

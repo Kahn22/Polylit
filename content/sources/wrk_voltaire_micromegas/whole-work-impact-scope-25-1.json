@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:20.945Z",
+  "sense": {
+    "id": "sns_parure_faire_suited_d1865eadc1",
+    "lemmaId": "lem_faire",
+    "gloss": "made; suited",
+    "definition": "destinée ou particulièrement adaptée à une situation"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_faite_faire_suited_07d0bd287b_advanced",
+      "qiz_parure_faite_faire_suited_07d0bd287b_early",
+      "qiz_parure_faite_faire_suited_07d0bd287b_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_faite_faire:sns_parure_faire_suited_d1865eadc1",
+      "surface": "faite",
+      "lemma": "faire",
+      "currentRevision": "rev_7802b1f1659c00b95c6e733119843307aa46ae149973d3dd537b55203be38e5f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_3bcf7a1edf66b0d226fb900d",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_008",
+          "passage": "Elle n’avait pas de toilettes, pas de bijoux, rien. Et elle n’aimait que cela ; elle se sentait faite pour cela. Elle eût tant désiré plaire, être enviée, être séduisante et recherchée.",
+          "span": [
+            96,
+            101
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_faite_faire_suited_07d0bd287b_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La comédienne paraît faite pour ce rôle, qui correspond parfaitement à son talent.",
+          "prompt": "Quel mot indique qu’elle est particulièrement adaptée au rôle ?",
+          "choices": [
+            {
+              "text": "correspond",
+              "correct": false
+            },
+            {
+              "text": "talent",
+              "correct": false
+            },
+            {
+              "text": "faite",
+              "correct": true
+            },
+            {
+              "text": "comédienne",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_faite_faire_suited_07d0bd287b_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Avec sa patience, elle semble faite pour enseigner.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forbidden",
+              "correct": false
+            },
+            {
+              "text": "late",
+              "correct": false
+            },
+            {
+              "text": "suited",
+              "correct": true
+            },
+            {
+              "text": "paid",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_faite_faire_suited_07d0bd287b_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Cette salle est _____ pour accueillir de grands concerts.",
+          "choices": [
+            {
+              "text": "faire",
+              "correct": false
+            },
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "faite",
+              "correct": true
+            },
+            {
+              "text": "fait",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

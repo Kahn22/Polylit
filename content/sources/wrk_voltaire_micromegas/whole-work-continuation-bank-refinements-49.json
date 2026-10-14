@@ -1,0 +1,1295 @@
+{
+  "version": 1,
+  "status": "offline_exact_question_refinements_unapplied",
+  "items": [
+    {
+      "file": "chapter-01-batch-21.json",
+      "key": "quelque_concessive",
+      "beforeQuestionSha256": "2589d38c14a7e819a26bdc0f9610c2832a2537a2ba925e781f7e277bc3e653f9",
+      "after": {
+        "key": "quelque_concessive",
+        "form": "quelque",
+        "lemma": "quelque",
+        "partOfSpeech": "concessive adverb before adjective or noun",
+        "meaning": "however; no matter how",
+        "editorialNote": "Quelque accoutumé qu’il fût and later quelque système qu’ils fissent concede a condition without changing the result. Other workwide quelque uses mean some or an unspecified amount. Historical Académie: https://www.dictionnaire-academie.fr/article/A4Q0079",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 23,
+            "start": 0,
+            "end": 7,
+            "text": "Quelque"
+          },
+          {
+            "chapter": 6,
+            "unit": 154,
+            "start": 139,
+            "end": 146,
+            "text": "quelque"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Quelque accoutumé qu’il fût, il s’étonna.",
+            "question": "Meaning",
+            "answer": "however",
+            "choices": [
+              "however",
+              "because",
+              "once",
+              "therefore"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Dans « quelque accoutumé qu’il fût », l’élément ___ exprime une concession : son degré d’habitude ne change pas ce qui suit.",
+            "question": "Complétez la phrase.",
+            "answer": "quelque",
+            "choices": [
+              "quelque",
+              "puisque",
+              "lorsque",
+              "parce que"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La tournure quelque accoutumé qu’il fût exprime une concession : malgré son habitude, il s’étonna. Le mot puisque donne une cause, lorsque situe dans le temps et parce que donne une raison.",
+            "question": "Quel mot introduit la concession ?",
+            "answer": "quelque",
+            "choices": [
+              "quelque",
+              "puisque",
+              "lorsque",
+              "parce que"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "fed2e716ec9f129850885a0fc47c598c58d4653b98e3395444a3259fb361c9a7",
+          "afterSha256": "9b1cc1bdf5b2d9a7d16160cb6b3153cdc2836f6e64810fa0074872d82336cdea",
+          "reason": "Translate the highlighted degree-adverb alone, rather than adding the unhighlighted adjective to its English answer."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "30a689f810bac50e972b82977066b0f0bb4f81789034fc264955a31ba4c26b30",
+          "afterSha256": "51f20421d0a3887b0cbfdc5387e41420632526eb0f22ebfbd23f59086080df49",
+          "reason": "All choices fit as cited lexical labels. Remove the fixed syntax in which only quelque could grammatically precede accoutumé qu’il fût."
+        }
+      ],
+      "afterQuestionSha256": "dd582ff92f5a210ce1d5532abd475c79bd16c2d3df6b6078c3e9e2c4e12d8f18"
+    },
+    {
+      "file": "chapter-01-batch-20.json",
+      "key": "sages_wise_people",
+      "beforeQuestionSha256": "12e2eff21b3649d74e686c268c618b68824608f23cb2632eafdad459c0aec957",
+      "after": {
+        "key": "sages_wise_people",
+        "form": "sages",
+        "lemma": "sage",
+        "partOfSpeech": "substantive adjective masculine plural",
+        "meaning": "wise people",
+        "editorialNote": "Aux plus sages and later du petit nombre des sages both designate people of sound judgment, not merely a well-behaved child.",
+        "formCoverage": "complete_exact_form",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 23,
+            "start": 203,
+            "end": 208,
+            "text": "sages"
+          },
+          {
+            "chapter": 7,
+            "unit": 185,
+            "start": 40,
+            "end": 45,
+            "text": "sages"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Un sourire échappe quelquefois aux plus sages.",
+            "question": "Meaning",
+            "answer": "wisest people",
+            "choices": [
+              "wisest people",
+              "youngest people",
+              "wealthiest people",
+              "tallest people"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces hommes jugent avec sagesse et discernement : ce sont des ___.",
+            "question": "Complétez la phrase.",
+            "answer": "sages",
+            "choices": [
+              "sages",
+              "étudiants",
+              "vieillards",
+              "géants"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les sages font preuve de discernement. Les étudiants suivent des études, les vieillards sont très âgés et les géants ont une taille immense.",
+            "question": "Quel nom désigne ici les personnes qui jugent avec sagesse ?",
+            "answer": "sages",
+            "choices": [
+              "sages",
+              "étudiants",
+              "vieillards",
+              "géants"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "055bc2d383cdfc8e31d36db87dcdd7a063db24c5fe0e4aac964e367a4648bab6",
+          "afterSha256": "ef13e6f4ed15feba690730b27ea8f4ee350379730423aae8edd81da70313d892",
+          "reason": "Four masculine plural nouns name people; wisdom rather than age, size or enrollment selects the answer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "45250be28b146f23b879b84498330566cc72af49a823e4fd98ae02fab06ae1c8",
+          "afterSha256": "668005b65ca1899abc08ce1aa7ceed61c6e592566f0b9d89995dc081d5fa8a46",
+          "reason": "The noun meaning is consistent with the new proper head."
+        }
+      ],
+      "afterQuestionSha256": "6d70d93df2cf816767702192f71d401f28079dac45fe9917d4b303bedeeee57b"
+    },
+    {
+      "file": "chapter-01-batch-23.json",
+      "key": "satisfaction_pleasure",
+      "beforeQuestionSha256": "4674bc6eb46afc7c6d857e997bf1e5d36168c9012a2fd0029e636003301d5608",
+      "after": {
+        "key": "satisfaction_pleasure",
+        "form": "satisfaction",
+        "lemma": "satisfaction",
+        "partOfSpeech": "noun feminine singular",
+        "meaning": "pleasure; gratification",
+        "editorialNote": "Pour la satisfaction des lecteurs means to give readers pleasure or gratification. Later satisfaction of needs means fulfillment, a separate contextual subset.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 1,
+            "unit": 29,
+            "start": 28,
+            "end": 40,
+            "text": "satisfaction"
+          }
+        ],
+        "status": "workwide_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il éprouve de la satisfaction quand ses attentes sont comblées.",
+            "question": "Meaning",
+            "answer": "contentment",
+            "choices": [
+              "contentment",
+              "fear",
+              "boredom",
+              "confusion"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ses attentes sont comblées et il en ressent du contentement : une grande ___.",
+            "question": "Complétez la phrase.",
+            "answer": "satisfaction",
+            "choices": [
+              "satisfaction",
+              "crainte",
+              "fatigue",
+              "confusion"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "La satisfaction est le contentement éprouvé lorsque les attentes sont comblées. La crainte exprime la peur, la fatigue le besoin de repos et la confusion le manque de clarté.",
+            "question": "Quel nom désigne ce contentement ?",
+            "answer": "satisfaction",
+            "choices": [
+              "satisfaction",
+              "crainte",
+              "fatigue",
+              "confusion"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "1-3",
+          "beforeSha256": "e8b53b17d76f61d8991e746a5e54ad004ea0fdb944cf9c27bb0326927619ac70",
+          "afterSha256": "febff0dea2519d55ccf318d6955c9c3db79f29e29d39e04682895fb2a75a81e1",
+          "reason": "Explicit generic contentment covers both readers’ pleasure and satisfied needs."
+        },
+        {
+          "band": "4-5",
+          "beforeSha256": "85dd351b79f5ed6861401e745896e7a3eb7f1599dc81aa3b11e2553539cddc0b",
+          "afterSha256": "c6053f84a215ebc48be1de7c2627eb636791633d7f0dfd7e0cd7572a5342266f",
+          "reason": "Four feminine singular nouns; the stated contentment selects the answer."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "83403f08341a04ef1de22f1a8d4fd68e0d4332e888562682a54637d089dcf40a",
+          "afterSha256": "a53d7d840f636204146b5e2e75f34faad1d404a86c26e5a810b6be0daae3326f",
+          "reason": "One bank covers the explicitly shared declared meaning; retain the alternative bank."
+        }
+      ],
+      "afterQuestionSha256": "d2a4146aefa5c6ca0e4a9f7694ab5d89cc26530dac79fa7c531b39b1812f90d7"
+    },
+    {
+      "file": "chapter-02-batch-01.json",
+      "key": "blondes_fair_haired_women",
+      "beforeQuestionSha256": "f5881d51f7dfe53bc26e96dd12f14772810e1593c0cc140824994e2ec22cee93",
+      "after": {
+        "key": "blondes_fair_haired_women",
+        "form": "blondes",
+        "lemma": "blond",
+        "partOfSpeech": "noun feminine plural",
+        "meaning": "blonde women; women with fair hair",
+        "editorialNote": "Blondes contrasts with brunes as two hair-color descriptions of women; the comparison is deliberately interrupted.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 30,
+            "start": 338,
+            "end": 345,
+            "text": "blondes"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il parle d’une assemblée de blondes et de brunes.",
+            "question": "Meaning",
+            "answer": "fair-haired women",
+            "choices": [
+              "fair-haired women",
+              "dark-haired women",
+              "young men",
+              "old men"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces femmes ont les cheveux d’un jaune pâle ou doré : ce sont des ___.",
+            "question": "Complétez la phrase.",
+            "answer": "blondes",
+            "choices": [
+              "blondes",
+              "brunes",
+              "rousses",
+              "châtaines"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les blondes ont les cheveux d’un jaune pâle ou doré. Les brunes ont des cheveux foncés, les rousses des cheveux roux et les châtaines des cheveux châtain.",
+            "question": "Quel nom désigne les femmes aux cheveux jaunes à dorés ?",
+            "answer": "blondes",
+            "choices": [
+              "blondes",
+              "brunes",
+              "rousses",
+              "châtaines"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "00d3eccc39038d22f67fb1c93b5140e184d990dd664d02f5144ca4cadf5e55fd",
+          "afterSha256": "db14f23e709ceafe3bde5b46c82fdcb39f7a1c376558579f22845f94429695a3",
+          "reason": "Specify blonde coloration; the old light-hair description also allowed light chestnut or red hair. All choices are feminine plural substantive nouns."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "ed15e38f035bff01050c1d703821f40f88123c4ffb888ad16429bb191bfd4382",
+          "afterSha256": "8bd197edd25d3a4ee06d9b4843c6fba6473e6f47991a75a051d3e8b65e8de094",
+          "reason": "Use the same specific color distinction in the upper band."
+        }
+      ],
+      "afterQuestionSha256": "f2e35ee7ff8252b65eec2903bb5991e76fc2e5ee0a639c1fbf58250ca59a8e58"
+    },
+    {
+      "file": "chapter-02-batch-01.json",
+      "key": "brunes_dark_haired_women",
+      "beforeQuestionSha256": "9cf6267e07c247291a0025d41e20a010aca401a6012414cff6e92354e3eb1cd3",
+      "after": {
+        "key": "brunes_dark_haired_women",
+        "form": "brunes",
+        "lemma": "brun",
+        "partOfSpeech": "noun feminine plural",
+        "meaning": "brunette women; women with dark hair",
+        "editorialNote": "Brunes contrasts with blondes and recurs in the traveler’s reply about those women.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 30,
+            "start": 352,
+            "end": 358,
+            "text": "brunes"
+          },
+          {
+            "chapter": 2,
+            "unit": 30,
+            "start": 409,
+            "end": 415,
+            "text": "brunes"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il évoque des blondes et des brunes.",
+            "question": "Meaning",
+            "answer": "dark-haired women",
+            "choices": [
+              "dark-haired women",
+              "fair-haired women",
+              "boys",
+              "sailors"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces femmes ont les cheveux bruns très foncés, plutôt que blonds, roux ou châtain clair : ce sont des ___.",
+            "question": "Complétez la phrase.",
+            "answer": "brunes",
+            "choices": [
+              "brunes",
+              "blondes",
+              "rousses",
+              "châtaines"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les brunes ont ici les cheveux bruns très foncés. Les blondes ont des cheveux jaunes à dorés, les rousses des cheveux roux et les châtaines des cheveux châtain.",
+            "question": "Quel nom désigne ici les femmes aux cheveux bruns très foncés ?",
+            "answer": "brunes",
+            "choices": [
+              "brunes",
+              "blondes",
+              "rousses",
+              "châtaines"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "1e8602598adcf1eec9350481aa0b91e4dafc56c960dd427fffd66ffc0a8c3c4d",
+          "afterSha256": "e540e88b41dbabfc569caadc88f1f46ffd77677f7da1e17a8412d9d72f0c4989",
+          "reason": "Remove the unspecified dark shade that could also include chestnut hair."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "817c15b3c67d2c62ff6dda171cdf41dbfe7c401cf5b1940060ca91291f52db19",
+          "afterSha256": "be1f8e663a2458f03a5d4b0eda33e96cfc7d7ba903ce53918853fdc8f7f06738",
+          "reason": "The contextual dark-brown contrast is explicit."
+        }
+      ],
+      "afterQuestionSha256": "457e2ffe40419395d96576ee06c60aaa88708cc313be8d581b9f4ca3dd04576c"
+    },
+    {
+      "file": "chapter-02-batch-02.json",
+      "key": "instruise_teach",
+      "beforeQuestionSha256": "c896b7a1c65691b414d3196d258d94bdf29d5ffd638a6052437894e84d9a37fa",
+      "after": {
+        "key": "instruise_teach",
+        "form": "instruise",
+        "lemma": "instruire",
+        "partOfSpeech": "subjunctive third singular",
+        "meaning": "teach; instruct",
+        "editorialNote": "Je veux qu’on m’instruise contrasts meaningful teaching with flattering images.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 32,
+            "start": 160,
+            "end": 169,
+            "text": "instruise"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Je veux qu’on m’instruise au sujet du monde.",
+            "question": "Meaning",
+            "answer": "teach me",
+            "choices": [
+              "teach me",
+              "flatter me",
+              "ignore me",
+              "amuse me"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Il veut recevoir des connaissances : il souhaite qu’on l’___, sans simplement le divertir.",
+            "question": "Complétez la phrase.",
+            "answer": "instruise",
+            "choices": [
+              "instruise",
+              "ignore",
+              "amuse",
+              "abandonne"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Qu’on m’instruise veut dire qu’on m’enseigne. Qu’on m’ignore me laisse de côté, qu’on me flatte me complimente et qu’on m’amuse me divertit.",
+            "question": "Quel verbe exprime son désir d’apprendre ?",
+            "answer": "instruise",
+            "choices": [
+              "instruise",
+              "ignore",
+              "flatte",
+              "amuse"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "b5f61d2307b2c0e25025ef6f847973f0e70f48b496f283baef051c3271e8e431",
+          "afterSha256": "7530013038b7882db8c54a22be8f2045452bde8033fd911965f7f758a1bb65c6",
+          "reason": "All four verbs begin with a vowel and accept the unchanged l’; instruction alone satisfies the stated wish to learn."
+        }
+      ],
+      "afterQuestionSha256": "cb8f20976c41349dab0e7ec6eef7ff4fe74f2e85ef16c4906eea8861a0135554"
+    },
+    {
+      "file": "chapter-02-batch-04.json",
+      "key": "anneau_planetary_ring",
+      "beforeQuestionSha256": "ee5d7bd52befa87da2c4dab4e8e47c971007daf22e4b69936284e21eb668af90",
+      "after": {
+        "key": "anneau_planetary_ring",
+        "form": "anneau",
+        "lemma": "anneau",
+        "partOfSpeech": "noun masculine singular",
+        "meaning": "ring around a planet",
+        "editorialNote": "Notre anneau is the ring of Saturn, listed beside the planet’s moons.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 33,
+            "start": 102,
+            "end": 108,
+            "text": "anneau"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Saturne a un anneau autour de lui.",
+            "question": "Meaning",
+            "answer": "planetary ring",
+            "choices": [
+              "planetary ring",
+              "mountain",
+              "ocean",
+              "star"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette bande annulaire de particules tourne autour de la planète : un ___.",
+            "question": "Complétez la phrase.",
+            "answer": "anneau",
+            "choices": [
+              "anneau",
+              "nuage",
+              "océan",
+              "rocher"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "L’anneau forme une bande autour de la planète. Un océan est une vaste étendue d’eau, un soleil une étoile et un nuage une masse de vapeur visible.",
+            "question": "Quel nom désigne la bande qui entoure la planète ?",
+            "answer": "anneau",
+            "choices": [
+              "anneau",
+              "océan",
+              "soleil",
+              "nuage"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "6b0c9249e0a34488ceaef2236ee073e22dfd231d5b984fd869359a7b2057a1b7",
+          "afterSha256": "314d2dba1dc3a6c51066e24d98f1099b362a86e70ff2bf5080e1c93412bffa8a",
+          "reason": "The old surround-the-planet clue also allowed a cloud; the annular particle band selects ring. Four masculine singular nouns fit un."
+        }
+      ],
+      "afterQuestionSha256": "10a55d930c114c27daae6d793a00973581488f7622044f0c7ce7fe7d1ea8c5fc"
+    },
+    {
+      "file": "chapter-02-batch-04.json",
+      "key": "sommes_we_are",
+      "beforeQuestionSha256": "28f215b15d0a1be45286f7c6e1a5dd6a1fe7d60994728b72a18beac50e143977",
+      "after": {
+        "key": "sommes_we_are",
+        "form": "sommes",
+        "lemma": "être",
+        "partOfSpeech": "present indicative first plural",
+        "meaning": "we are",
+        "editorialNote": "Nous sommes trop bornés and nous sommes peu de chose both attribute a state to the speakers.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 33,
+            "start": 131,
+            "end": 137,
+            "text": "sommes"
+          },
+          {
+            "chapter": 2,
+            "unit": 34,
+            "start": 209,
+            "end": 215,
+            "text": "sommes"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Nous sommes trop bornés.",
+            "question": "Meaning",
+            "answer": "we are",
+            "choices": [
+              "we are",
+              "we have",
+              "we see",
+              "we seek"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette phrase donne notre identité : nous ___ des habitants de cette planète.",
+            "question": "Complétez la phrase.",
+            "answer": "sommes",
+            "choices": [
+              "sommes",
+              "accueillons",
+              "rencontrons",
+              "transportons"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Nous sommes attribue un état à notre groupe. Nous avons exprime une possession, nous voyons une perception et nous cherchons une recherche.",
+            "question": "Quel verbe attribue un état au groupe ?",
+            "answer": "sommes",
+            "choices": [
+              "sommes",
+              "avons",
+              "voyons",
+              "cherchons"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d9aa49414cac7dabef99a67fbb8d05b883ed8301b371fc38f3c36a4ead525da0",
+          "afterSha256": "b2486faf9497cf0ca80edb48d06c26c9697b0209d84838f961fc479a025a482d",
+          "reason": "All four verbs accept the same object or attribute noun phrase. Being inhabitants is distinguished from actions toward inhabitants by the explicit identity clue."
+        }
+      ],
+      "afterQuestionSha256": "fab2993d21576d0713244e4ad11b9bc9b2290bad1b814b76d4983594d5bd3d6c"
+    },
+    {
+      "file": "chapter-02-batch-04.json",
+      "key": "malgre_despite",
+      "beforeQuestionSha256": "8ac184a2b7972ff07d1868cf356bd849bed9cbf3b1d06715f66403dca7a4bf16",
+      "after": {
+        "key": "malgre_despite",
+        "form": "malgré",
+        "lemma": "malgré",
+        "partOfSpeech": "preposition",
+        "meaning": "despite; in spite of",
+        "editorialNote": "Despite curiosity and many senses, the speaker still feels confined and bored.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 33,
+            "start": 156,
+            "end": 162,
+            "text": "malgré"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Malgré leur curiosité, ils s’ennuient.",
+            "question": "Meaning",
+            "answer": "despite",
+            "choices": [
+              "despite",
+              "thanks to",
+              "before",
+              "under"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "La pluie devrait empêcher le départ, mais ils partent quand même, ___ la pluie.",
+            "question": "Complétez la phrase.",
+            "answer": "Malgré",
+            "choices": [
+              "Malgré",
+              "Grâce à",
+              "Avant",
+              "Sous"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Malgré la pluie, ils partent quand même. Grâce à introduirait une aide, avant indique le temps et sous situe une position.",
+            "question": "Quel mot indique que la pluie ne les empêche pas de partir ?",
+            "answer": "Malgré",
+            "choices": [
+              "Malgré",
+              "Grâce à",
+              "Avant",
+              "Sous"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "a0fb04394b6d621bdd4bf865941bd482adea90e9716a93852c474d255382be49",
+          "afterSha256": "1222a62e5f4448fb60cbaa7dd094672173211cbb3b6a18db797738dadd9e44af",
+          "reason": "Explicit obstacle and departure despite it remove plausible before/under alternatives."
+        }
+      ],
+      "afterQuestionSha256": "6549ecba9b70529250945384400455755deb8b0563dd5e8c82c00928ebe679cc"
+    },
+    {
+      "file": "chapter-02-batch-05.json",
+      "key": "mortels_mortal_beings",
+      "beforeQuestionSha256": "437ab59484f57ca2585c9f79348947aaeff014dc54ed3eaa73cdb5234f65f24f",
+      "after": {
+        "key": "mortels_mortal_beings",
+        "form": "mortels",
+        "lemma": "mortel",
+        "partOfSpeech": "noun masculine plural",
+        "meaning": "mortal beings",
+        "editorialNote": "Des mortels are living beings who can die, encountered during travel.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 35,
+            "start": 33,
+            "end": 40,
+            "text": "mortels"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il a vu des mortels sur d’autres mondes.",
+            "question": "Meaning",
+            "answer": "mortal beings",
+            "choices": [
+              "mortal beings",
+              "planets",
+              "mountains",
+              "stars"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Ces êtres vivants peuvent mourir : ce sont des ___.",
+            "question": "Complétez la phrase.",
+            "answer": "mortels",
+            "choices": [
+              "mortels",
+              "astres",
+              "nuages",
+              "minéraux"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Les mortels sont des êtres vivants qui peuvent mourir. Les astres sont des corps célestes, les nuages des masses de gouttelettes et les minéraux des matières inorganiques.",
+            "question": "Quel nom désigne les êtres vivants susceptibles de mourir ?",
+            "answer": "mortels",
+            "choices": [
+              "mortels",
+              "astres",
+              "nuages",
+              "minéraux"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "0d043a9a02bea89a5898e431b4610fbf34206454c6a229f51f2482b70d2b6593",
+          "afterSha256": "9d484e038dcd66bbc8f8d9b56cf6f779c9762a3a6b3c241e61c70c0f532dd966",
+          "reason": "Four masculine plural nouns; literal biological life and death select mortals, without adjective-only distractors."
+        },
+        {
+          "band": "6-8",
+          "beforeSha256": "d019e4fd17339a01d0c105c591a11d4045d431eb78404e64c1e58998a81e58ed",
+          "afterSha256": "977e100662096cb856e76ddce67e0e3edf30a2f4b22e35108a774a54996a4f74",
+          "reason": "Keep the substantive biological meaning across the bank."
+        }
+      ],
+      "afterQuestionSha256": "029188eb525a40942bf5eeb53f8611ac8496f20e663e41107b664d02782f51e6"
+    },
+    {
+      "file": "chapter-02-batch-16.json",
+      "key": "aient_have_subjunctive",
+      "beforeQuestionSha256": "2d5654df066f268ef7505559c8631492c23dbfebc13ad65e7c61b42559e5ffc6",
+      "after": {
+        "key": "aient_have_subjunctive",
+        "form": "aient",
+        "lemma": "avoir",
+        "partOfSpeech": "present subjunctive third plural",
+        "meaning": "have; possess",
+        "editorialNote": "Qui n’aient plus de désirs uses subjunctive avoir after a negative antecedent; the verb indicates possession of desires.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 35,
+            "start": 131,
+            "end": 136,
+            "text": "aient"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il n’en a vu aucun qui n’aient des désirs.",
+            "question": "Meaning",
+            "answer": "have",
+            "choices": [
+              "have",
+              "see",
+              "leave",
+              "become"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Pour pouvoir partir, ils doivent déjà posséder assez d’eau : il faut qu’ils en ___ assez.",
+            "question": "Complétez la phrase.",
+            "answer": "aient",
+            "choices": [
+              "aient",
+              "boivent",
+              "renversent",
+              "gaspillent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Qu’ils aient de l’eau signifie qu’ils en possèdent. Qu’ils voient exprime une perception, partent un départ et deviennent un changement.",
+            "question": "Quel verbe indique la possession ?",
+            "answer": "aient",
+            "choices": [
+              "aient",
+              "voient",
+              "partent",
+              "deviennent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "dee2c36a8851c25dc450f685aa2acb61b3342ce5cf2018c7889c4f53d3a18a74",
+          "afterSha256": "1dd680ea95d4b94f55f96a696d4c3348b73aa0954cacebd014540fd5e77de720",
+          "reason": "All four verbs accept en with a quantity; possession, rather than drinking, spilling or wasting, is explicitly required."
+        }
+      ],
+      "afterQuestionSha256": "c5413bc73ebb318bbd36b46b78c9acd3883d85c00c5078e1590ff6e961d12047"
+    },
+    {
+      "file": "chapter-02-batch-05.json",
+      "key": "arriverai_will_reach",
+      "beforeQuestionSha256": "4b0c27e3356726e0e153b0ae9141bd169fda2f499e73dc7c96746256ebde434c",
+      "after": {
+        "key": "arriverai_will_reach",
+        "form": "arriverai",
+        "lemma": "arriver",
+        "partOfSpeech": "future indicative first singular",
+        "meaning": "I will arrive; I will reach",
+        "editorialNote": "The traveler imagines reaching a hypothetical place lacking nothing.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 36,
+            "start": 2,
+            "end": 11,
+            "text": "arriverai"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "J’arriverai peut-être un jour dans ce pays.",
+            "question": "Meaning",
+            "answer": "I will arrive",
+            "choices": [
+              "I will arrive",
+              "I have left",
+              "I sleep",
+              "I forget"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Demain, j’atteindrai pour la première fois cette ville à la fin de mon trajet : j’y ___.",
+            "question": "Complétez la phrase.",
+            "answer": "arriverai",
+            "choices": [
+              "arriverai",
+              "habiterai",
+              "attendrai",
+              "étudierai"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "J’arriverai signifie que j’atteindrai le lieu plus tard. J’habiterai y vivrai, j’attendrai y patienterai et j’étudierai y apprendrai.",
+            "question": "Quel verbe exprime le fait d’atteindre la ville ?",
+            "answer": "arriverai",
+            "choices": [
+              "arriverai",
+              "habiterai",
+              "attendrai",
+              "étudierai"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "3bc6b80fab041e548f308162dc93417593bee156b0866f3d8432b384516f25c8",
+          "afterSha256": "214fa02301e0b06dd08715dcd82df6c9059bf2ad39252411075531d267ecfa9e",
+          "reason": "All choices accept j’ and y; reaching the destination, rather than an activity after arrival, selects the answer."
+        }
+      ],
+      "afterQuestionSha256": "d034374ed4a3fe1a6353f2488efd98b0ab5b04c66aabd86c58ae6dc010084d3d"
+    },
+    {
+      "file": "chapter-02-batch-06.json",
+      "key": "epuiserent_wore_themselves_out",
+      "beforeQuestionSha256": "cd4a9c199f2c97ea162ea487cad0d879dda695737f88cbd5b29ce0d958b9938e",
+      "after": {
+        "key": "epuiserent_wore_themselves_out",
+        "form": "épuisèrent",
+        "lemma": "épuiser",
+        "partOfSpeech": "past historic third plural reflexive",
+        "meaning": "exhausted themselves; wore themselves out",
+        "editorialNote": "S’épuisèrent en conjectures depicts the travelers spending their effort on speculation, figuratively tiring their minds.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 37,
+            "start": 28,
+            "end": 38,
+            "text": "épuisèrent"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Ils s’épuisèrent en conjectures.",
+            "question": "Meaning",
+            "answer": "wore themselves out",
+            "choices": [
+              "wore themselves out",
+              "fell asleep",
+              "agreed immediately",
+              "celebrated"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "À force de chercher sans résultat, ils furent à bout de forces : ils s’___.",
+            "question": "Complétez la phrase.",
+            "answer": "épuisèrent",
+            "choices": [
+              "épuisèrent",
+              "amusèrent",
+              "éloignèrent",
+              "émerveillèrent"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Ils s’épuisèrent à force de spéculer et furent à bout d’effort. D’autres s’amusèrent en prenant plaisir, se reposèrent pour reprendre des forces ou s’éloignèrent en partant.",
+            "question": "Quel verbe exprime l’effort qui les épuise ?",
+            "answer": "épuisèrent",
+            "choices": [
+              "épuisèrent",
+              "amusèrent",
+              "reposèrent",
+              "éloignèrent"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "9e5251948be95d445c6a11944006141dad16e94ebde19c8ad42f7a69075b61fb",
+          "afterSha256": "abe694fad9944b14d9ca23c500e81a0f1bc91e8af61861c961df65ad82ce0346",
+          "reason": "Every verb accepts s’; fix the invalid s’reposèrent distractor and state exhaustion explicitly."
+        }
+      ],
+      "afterQuestionSha256": "8c78044decd9ab97043e43cb051824327d4a13f545cf7f2baa6c203c5f82aee9"
+    },
+    {
+      "file": "chapter-02-batch-06.json",
+      "key": "repliqua_replied",
+      "beforeQuestionSha256": "680e648a34ab33b3ec7e4a02a3db4544b090f1c34b13dc5f92984ccd6dda6e0c",
+      "after": {
+        "key": "repliqua_replied",
+        "form": "répliqua",
+        "lemma": "répliquer",
+        "partOfSpeech": "past historic third singular",
+        "meaning": "replied; answered back",
+        "editorialNote": "Répliqua le petit homme introduces his spoken reply in the dialogue.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 38,
+            "start": 64,
+            "end": 72,
+            "text": "répliqua"
+          },
+          {
+            "chapter": 2,
+            "unit": 52,
+            "start": 15,
+            "end": 23,
+            "text": "répliqua"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Le petit homme répliqua à la question.",
+            "question": "Meaning",
+            "answer": "replied",
+            "choices": [
+              "replied",
+              "listened",
+              "departed",
+              "laughed"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Pour donner sa réponse à la question, il ___ immédiatement.",
+            "question": "Complétez la phrase.",
+            "answer": "répliqua",
+            "choices": [
+              "répliqua",
+              "écouta",
+              "partit",
+              "rit"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Il répliqua en donnant une réponse. Il écouta en prêtant attention, partit en s’éloignant et rit en exprimant son amusement.",
+            "question": "Quel verbe annonce sa réponse ?",
+            "answer": "répliqua",
+            "choices": [
+              "répliqua",
+              "écouta",
+              "partit",
+              "rit"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "d94e6bf0df12b9bccb0769f5fa23343533f49dd11aacda247ca4a93c0379c610",
+          "afterSha256": "8b50d775a9be3ba01a8724bb560dab3df3e8a956052bd95d9fe16331cf5897ae",
+          "reason": "The old immediately-after-question cue also allowed listening, departing or laughing."
+        }
+      ],
+      "afterQuestionSha256": "3d1575b11a999035bf58783b6b6958e7fe55df075ef6611257a7d4fe7b5b2c5e"
+    },
+    {
+      "file": "chapter-02-batch-16.json",
+      "key": "instruire_learn",
+      "beforeQuestionSha256": "8aa7d5e4d9c344e8d122675d999ceac70dff0098fa27c7786f4a042a2916c94b",
+      "after": {
+        "key": "instruire_learn",
+        "form": "instruire",
+        "lemma": "instruire",
+        "partOfSpeech": "reflexive infinitive in s’instruire",
+        "meaning": "learn; educate oneself",
+        "editorialNote": "À peine a-t-on commencé à s’instruire concerns the process of learning before death; the published legal investigation questions are a different sense.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 42,
+            "start": 28,
+            "end": 37,
+            "text": "instruire"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "On commence à s’instruire en lisant.",
+            "question": "Meaning",
+            "answer": "learn",
+            "choices": [
+              "learn",
+              "file a legal case",
+              "sleep",
+              "complain"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "En étudiant, elle cherche à s’___.",
+            "question": "Complétez la phrase.",
+            "answer": "instruire",
+            "choices": [
+              "instruire",
+              "endormir",
+              "égarer",
+              "énerver"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "S’instruire, c’est acquérir des connaissances. S’endormir, c’est entrer dans le sommeil, s’égarer c’est perdre sa route et se taire c’est ne pas parler.",
+            "question": "Quel verbe exprime l’apprentissage ?",
+            "answer": "instruire",
+            "choices": [
+              "instruire",
+              "endormir",
+              "égarer",
+              "taire"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "ec1ec3bb80d751b5db09ca342c19cc87dba76b1a2ccf6e070038e51279c84546",
+          "afterSha256": "c1ee8f6e9fa82ad9e92412586c696ced7a8ad113c45051553995b69d0705ea09",
+          "reason": "All choices accept s’; remove the invalid s’taire grammar cue."
+        }
+      ],
+      "afterQuestionSha256": "093764cbc94788f837a5924a9fcf370e95ce62b995272a7d3e3e38bc18a582d1"
+    },
+    {
+      "file": "chapter-02-batch-08.json",
+      "key": "etiez_were",
+      "beforeQuestionSha256": "aa55a53f6eb6a860ee89c7911ad2531241df1b21d3c3b4c9ad2c2af5d8c252f3",
+      "after": {
+        "key": "etiez_were",
+        "form": "étiez",
+        "lemma": "être",
+        "partOfSpeech": "imperfect indicative second plural",
+        "meaning": "you were",
+        "editorialNote": "Si vous n’étiez pas philosophe sets an unreal or hypothetical condition about the interlocutor.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 45,
+            "start": 38,
+            "end": 43,
+            "text": "étiez"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Si vous n’étiez pas philosophe…",
+            "question": "Meaning",
+            "answer": "you were",
+            "choices": [
+              "you were",
+              "you had",
+              "you saw",
+              "you wanted"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "À cette époque vous alliez encore à l’école : vous ___ un élève de cette classe.",
+            "question": "Complétez la phrase.",
+            "answer": "étiez",
+            "choices": [
+              "étiez",
+              "aviez",
+              "voyiez",
+              "vouliez"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Vous étiez décrit votre état dans le passé. Vous aviez exprime une possession, vous voyiez une perception et vous vouliez un désir.",
+            "question": "Quel verbe attribue un état passé ?",
+            "answer": "étiez",
+            "choices": [
+              "étiez",
+              "aviez",
+              "voyiez",
+              "vouliez"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "1f030878908f882c7e2c503d30a671b24157b76aa24c1188e4be29989e161330",
+          "afterSha256": "c186a01f7ef80b3bb302e23c12117077218b0126c9bd3edcdf488b81a87b0d34",
+          "reason": "All four past verbs accept un élève as attribute or object; the stated school membership selects the past state."
+        }
+      ],
+      "afterQuestionSha256": "6610f155bc2506140789835d896b2de5c49d4d58e1bec755e1e5fae8bc29498f"
+    },
+    {
+      "file": "chapter-02-batch-09.json",
+      "key": "affliger_distress",
+      "beforeQuestionSha256": "2042e2810d3d67feda3f562476195196f3b916675422ac4b34545a93ab0dc78b",
+      "after": {
+        "key": "affliger_distress",
+        "form": "affliger",
+        "lemma": "affliger",
+        "partOfSpeech": "infinitive",
+        "meaning": "to distress; to cause grief",
+        "editorialNote": "He worries that revealing the longer Sirian lifespan might sadden the Saturnian.",
+        "formCoverage": "contextual_sense_subset",
+        "sourceOccurrences": [
+          {
+            "chapter": 2,
+            "unit": 45,
+            "start": 82,
+            "end": 90,
+            "text": "affliger"
+          }
+        ],
+        "status": "chapter_two_context_reviewed_question_signoff_pending",
+        "questions": [
+          {
+            "band": "1-3",
+            "context": "Il ne veut pas affliger son ami.",
+            "question": "Meaning",
+            "answer": "distress",
+            "choices": [
+              "distress",
+              "comfort",
+              "amuse",
+              "praise"
+            ]
+          },
+          {
+            "band": "4-5",
+            "context": "Cette annonce va lui causer du chagrin : elle risque de l’___.",
+            "question": "Complétez la phrase.",
+            "answer": "affliger",
+            "choices": [
+              "affliger",
+              "apaiser",
+              "amuser",
+              "encourager"
+            ]
+          },
+          {
+            "band": "6-8",
+            "context": "Affliger une personne, c’est lui causer de la peine. Réconforter l’apaise, amuser la divertit et féliciter la complimente.",
+            "question": "Quel verbe signifie lui causer de la peine ?",
+            "answer": "affliger",
+            "choices": [
+              "affliger",
+              "réconforter",
+              "amuser",
+              "féliciter"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "band": "4-5",
+          "beforeSha256": "1081258c2cda0aba45f58585e50eca5351f394bacf0f07c17a4683e601f4251a",
+          "afterSha256": "649ab16b56b2ce7fe0aba80d32c9e68fd9edee5d0a81f2ff20e6a5691ae414f6",
+          "reason": "Every choice accepts l’; sorrow distinguishes distress from reassurance, amusement or encouragement."
+        }
+      ],
+      "afterQuestionSha256": "9a5c6df8c3e5d8d32ae7725e8fc2d0c77d99683db550ad37f042dbe0994d943d"
+    }
+  ],
+  "summary": {
+    "refinedBanks": 17,
+    "refinedQuestionBands": 24
+  },
+  "policy": "Exact-revision manual question changes only; preserve every source bank and old mastery."
+}

@@ -76,6 +76,174 @@
       "correctChoiceId": "choice_1"
     },
     {
+      "id": "exq_micromegas_4422a485730ee9f1",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_micromegas_0e63652323a3e2d5",
+        "surfaceId": "exs_micromegas_8aabd64f1140539b"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le pont fut emporté, de façon que le passage devint impossible.",
+      "targetText": "de façon que",
+      "targetRange": {
+        "start": 21,
+        "end": 33
+      },
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "with the result that"
+        },
+        {
+          "id": "choice_2",
+          "text": "because of"
+        },
+        {
+          "id": "choice_3",
+          "text": "although"
+        },
+        {
+          "id": "choice_4",
+          "text": "before"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "exq_micromegas_4abc943f1358334f",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_micromegas_eefe0bf14a0b3397",
+        "surfaceId": "exs_micromegas_31bdca06581cacf6"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La baleine nage sous la surface, sans être au fond : elle remue ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "entre deux eaux"
+        },
+        {
+          "id": "choice_2",
+          "text": "sur la plage"
+        },
+        {
+          "id": "choice_3",
+          "text": "dans les airs"
+        },
+        {
+          "id": "choice_4",
+          "text": "au fond de la mer"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "exq_micromegas_5c9fc317806fb4ce",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_micromegas_a3fd503c5fcf2752",
+        "surfaceId": "exs_micromegas_04f55fe2d33961a8"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les formulations « pas à beaucoup près », « presque autant », « tout à fait », « un peu plus tard ».",
+      "prompt": "Quelle locution souligne un très grand écart dans une comparaison négative ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "pas à beaucoup près"
+        },
+        {
+          "id": "choice_2",
+          "text": "presque autant"
+        },
+        {
+          "id": "choice_3",
+          "text": "tout à fait"
+        },
+        {
+          "id": "choice_4",
+          "text": "un peu plus tard"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "exq_micromegas_5db18068ab677390",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_micromegas_4cbade2a938345aa",
+        "surfaceId": "exs_micromegas_9272350fb84950ef"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les formulations « faisaient l’amour », « faisaient la paix », « faisaient la fête », « faisaient la guerre ».",
+      "prompt": "Quelle expression à l’imparfait évoque une union sexuelle ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "faisaient l’amour"
+        },
+        {
+          "id": "choice_2",
+          "text": "faisaient la paix"
+        },
+        {
+          "id": "choice_3",
+          "text": "faisaient la fête"
+        },
+        {
+          "id": "choice_4",
+          "text": "faisaient la guerre"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "exq_micromegas_f9d2a62bba4b7c88",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "expression",
+        "expressionId": "exi_micromegas_8194bc4566538626",
+        "surfaceId": "exs_micromegas_c4e486f8ef059baf"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les formulations « non plus », « pourtant », « à jamais », « tout de suite ».",
+      "prompt": "Quelle locution ajoute un élément à une négation ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "non plus"
+        },
+        {
+          "id": "choice_2",
+          "text": "pourtant"
+        },
+        {
+          "id": "choice_3",
+          "text": "à jamais"
+        },
+        {
+          "id": "choice_4",
+          "text": "tout de suite"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
       "id": "exq_parure_au_bout_d_14acdedfeb_advanced",
       "language": "fr",
       "glossLanguage": "en",
@@ -1752,7 +1920,7 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Cette actrice, je l’ai _____ pour la réalisatrice par erreur.",
+      "context": "Quel participe féminin singulier, employé avec pour, signifie considérée par erreur comme une autre personne : ___ ?",
       "choices": [
         {
           "id": "choice_1",
@@ -1760,15 +1928,15 @@
         },
         {
           "id": "choice_2",
-          "text": "pris"
+          "text": "laissée"
         },
         {
           "id": "choice_3",
-          "text": "prendre"
+          "text": "écartée"
         },
         {
           "id": "choice_4",
-          "text": "prenant"
+          "text": "protégée"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -2149,6 +2317,1562 @@
         {
           "id": "choice_7",
           "text": "calls"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_0b1291bc6bd33c36_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_747a01e4f465b154",
+        "senseId": "sns_etre_primary"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Nous sommes attribue un état à notre groupe. Nous avons exprime une possession, nous voyons une perception et nous cherchons une recherche.",
+      "prompt": "Quel verbe attribue un état au groupe ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "sommes"
+        },
+        {
+          "id": "choice_2",
+          "text": "avons"
+        },
+        {
+          "id": "choice_3",
+          "text": "voyons"
+        },
+        {
+          "id": "choice_4",
+          "text": "cherchons"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_0d345c23f4978edc_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_prit_lem_prendre_fb914794ca",
+        "senseId": "sns_micromegas_2a3a78dfddcd9284"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « prit », « passa », « manqua », « resta ».",
+      "prompt": "Quel verbe exprime ici qu’une envie vint aux visiteurs ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "prit"
+        },
+        {
+          "id": "choice_2",
+          "text": "passa"
+        },
+        {
+          "id": "choice_3",
+          "text": "manqua"
+        },
+        {
+          "id": "choice_4",
+          "text": "resta"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_169c2dc1c00f3d52_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_c368f3cc0c3aa082",
+        "senseId": "sns_zola_savoir_present"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle savait la réponse à toutes les questions.",
+      "targetText": "savait",
+      "targetRange": {
+        "start": 5,
+        "end": 11
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "knew; possessed knowledge of"
+        },
+        {
+          "id": "choice_2",
+          "text": "forgot"
+        },
+        {
+          "id": "choice_3",
+          "text": "ignored"
+        },
+        {
+          "id": "choice_4",
+          "text": "denied"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_1a526f7d528276e6_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_f615e13e20d4a10d",
+        "senseId": "sns_micromegas_d99bef750bd15ae8"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "… vous ne voyez pas avec vos petits yeux certaines étoiles de la cinquantième grandeur que j’aperçois …",
+      "targetText": "certaines",
+      "targetRange": {
+        "start": 41,
+        "end": 50
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "some"
+        },
+        {
+          "id": "choice_2",
+          "text": "all"
+        },
+        {
+          "id": "choice_3",
+          "text": "no"
+        },
+        {
+          "id": "choice_4",
+          "text": "one"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_1e06c1c543f53b58_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_mirent_mettre_verb",
+        "senseId": "sns_mettre_primary"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ils placèrent les petits outils dans leurs bouches : ils les y ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mirent"
+        },
+        {
+          "id": "choice_2",
+          "text": "retirèrent"
+        },
+        {
+          "id": "choice_3",
+          "text": "perdirent"
+        },
+        {
+          "id": "choice_4",
+          "text": "oublièrent"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_1ffe2648d11265db_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_04ac33de8c77b292",
+        "senseId": "sns_micromegas_0bf27003d808b1a6"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Les enfants ont enfilé leurs bonnets de laine avant de sortir.",
+      "targetText": "bonnets",
+      "targetRange": {
+        "start": 29,
+        "end": 36
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "caps; hats"
+        },
+        {
+          "id": "choice_2",
+          "text": "shoes"
+        },
+        {
+          "id": "choice_3",
+          "text": "gloves"
+        },
+        {
+          "id": "choice_4",
+          "text": "sticks"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_2001f2b5ba98fce2_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_2a8f3b94aa253d69",
+        "senseId": "sns_micromegas_c443b10ff11552f2"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "La comédienne lit un passage du roman à haute voix.",
+      "targetText": "passage",
+      "targetRange": {
+        "start": 21,
+        "end": 28
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "passage; an extract from a text"
+        },
+        {
+          "id": "choice_2",
+          "text": "an entire volume"
+        },
+        {
+          "id": "choice_3",
+          "text": "an entire work"
+        },
+        {
+          "id": "choice_4",
+          "text": "an entire treatise"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_26ad1a76b92fd3f0_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_ce4c50701c5b166f",
+        "senseId": "sns_micromegas_3f3d17a73ff324f1"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « leibnitzien », « cartésien », « péripatéticien », « stoïcien ».",
+      "prompt": "Quel nom masculin désigne un adepte de Leibniz ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "leibnitzien"
+        },
+        {
+          "id": "choice_2",
+          "text": "cartésien"
+        },
+        {
+          "id": "choice_3",
+          "text": "péripatéticien"
+        },
+        {
+          "id": "choice_4",
+          "text": "stoïcien"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_27dc9b24415ff682_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_10248cb540064096",
+        "senseId": "sns_micromegas_bc4d40fa975ab574"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "… dont ce globe est hérissé, et qui m’ont écorché les pieds ? (Il voulait parler des montagnes.)",
+      "targetText": "écorché",
+      "targetRange": {
+        "start": 42,
+        "end": 49
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "scraped the skin"
+        },
+        {
+          "id": "choice_2",
+          "text": "healed a wound"
+        },
+        {
+          "id": "choice_3",
+          "text": "washed clean"
+        },
+        {
+          "id": "choice_4",
+          "text": "lifted high"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_2a039bad7cd07f7d_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_e1f1e5eb8f4f86c3",
+        "senseId": "sns_zola_mystere_secrecy"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Les choses inexpliquées dont la raison échappe à l’esprit sont des ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "mystères"
+        },
+        {
+          "id": "choice_2",
+          "text": "calculs"
+        },
+        {
+          "id": "choice_3",
+          "text": "instruments"
+        },
+        {
+          "id": "choice_4",
+          "text": "voyages"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_2c4aa51d68be10a8_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_22fe680a74fbee23",
+        "senseId": "sns_micromegas_294da64d177690af"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Même là, on murmurait encore contre son sort.",
+      "targetText": "murmurait",
+      "targetRange": {
+        "start": 12,
+        "end": 21
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "grumbled"
+        },
+        {
+          "id": "choice_2",
+          "text": "celebrated"
+        },
+        {
+          "id": "choice_3",
+          "text": "agreed"
+        },
+        {
+          "id": "choice_4",
+          "text": "forgot"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_2dfd2a6f7570237b_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_5814da0fbadd51c9",
+        "senseId": "sns_micromegas_fe57214d3e6c6523"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Ses calculs additionnent les nombres. Ses dessins montrent les figures, ses récits racontent les voyages et ses poèmes jouent sur les sons.",
+      "prompt": "Quel mot désigne les opérations sur les nombres ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "calculs"
+        },
+        {
+          "id": "choice_2",
+          "text": "dessins"
+        },
+        {
+          "id": "choice_3",
+          "text": "récits"
+        },
+        {
+          "id": "choice_4",
+          "text": "poèmes"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_318257097cb76940_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_2738008ca55fb2a8",
+        "senseId": "sns_fr_voir_perceive"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Quel verbe au présent exprime la perception par les yeux, plutôt que la dissimulation, l’oubli ou la négation : ___ ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "voyez"
+        },
+        {
+          "id": "choice_2",
+          "text": "cachez"
+        },
+        {
+          "id": "choice_3",
+          "text": "oubliez"
+        },
+        {
+          "id": "choice_4",
+          "text": "niez"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_3624c3afce6d3256_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_1beb18b9aeb5adf9",
+        "senseId": "sns_micromegas_01ecd349505d435f"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le botaniste étudie la propagation de cette plante par ses graines.",
+      "targetText": "propagation",
+      "targetRange": {
+        "start": 23,
+        "end": 34
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "reproduction"
+        },
+        {
+          "id": "choice_2",
+          "text": "destruction"
+        },
+        {
+          "id": "choice_3",
+          "text": "silence"
+        },
+        {
+          "id": "choice_4",
+          "text": "flight"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_3641102c70943bd1_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_vivement_vivement_adverb_b28a4620f5",
+        "senseId": "sns_micromegas_3b3a9c304cd14d54"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le censeur le poursuivit vivement pour son livre.",
+      "targetText": "vivement",
+      "targetRange": {
+        "start": 25,
+        "end": 33
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vigorously"
+        },
+        {
+          "id": "choice_2",
+          "text": "gently"
+        },
+        {
+          "id": "choice_3",
+          "text": "slowly"
+        },
+        {
+          "id": "choice_4",
+          "text": "reluctantly"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_47e283c1ef73e477_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_634d7eae03d8b2c1",
+        "senseId": "sns_micromegas_81461beb87b40568"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ces terrains polaires ne sont pas mis en culture : ils sont ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "incultes"
+        },
+        {
+          "id": "choice_2",
+          "text": "cultivés"
+        },
+        {
+          "id": "choice_3",
+          "text": "habités"
+        },
+        {
+          "id": "choice_4",
+          "text": "inondés"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_4951bdfa48f956f5_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_0d1de6e088452820",
+        "senseId": "sns_zola_commencer_begin"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "… t’avoir résisté quinze cents ans, lorsque enfin je commençais à me rendre, quand j’ai à peine passé cent ans entre …",
+      "targetText": "commençais",
+      "targetRange": {
+        "start": 53,
+        "end": 63
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was beginning"
+        },
+        {
+          "id": "choice_2",
+          "text": "was ending"
+        },
+        {
+          "id": "choice_3",
+          "text": "was sleeping"
+        },
+        {
+          "id": "choice_4",
+          "text": "was forgetting"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_4b72c387050c16ff_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_a5237f06a4aa471b",
+        "senseId": "sns_micromegas_bb7dd412681ed671"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Il se vante de sa découverte en s’en attribuant fièrement le mérite. Il s’en étonne s’il est surpris, s’en méfie s’il en doute et s’en détourne s’il l’abandonne.",
+      "prompt": "Quel verbe exprime sa fierté affichée ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vante"
+        },
+        {
+          "id": "choice_2",
+          "text": "étonne"
+        },
+        {
+          "id": "choice_3",
+          "text": "méfie"
+        },
+        {
+          "id": "choice_4",
+          "text": "détourne"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_55b524bd0bfdfa39_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_3d20ba5e56b1b7ef",
+        "senseId": "sns_parure_descendre_aller_de_haut_en_bas_b2e5c69940"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « descendu », « monté », « resté », « accouru ».",
+      "prompt": "Quel participe signifie allé de haut en bas ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "descendu"
+        },
+        {
+          "id": "choice_2",
+          "text": "monté"
+        },
+        {
+          "id": "choice_3",
+          "text": "resté"
+        },
+        {
+          "id": "choice_4",
+          "text": "accouru"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_58349d820c4b80ae_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_a0596a72be3d9ef4",
+        "senseId": "sns_parure_embrasser_serrer_etreindre_avec_les_deux_bras_f152c9f041"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il l’aurait serré affectueusement dans ses bras : il l’aurait ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "embrassé"
+        },
+        {
+          "id": "choice_2",
+          "text": "repoussé"
+        },
+        {
+          "id": "choice_3",
+          "text": "insulté"
+        },
+        {
+          "id": "choice_4",
+          "text": "évité"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_5affc94999e99af0_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_8a0cf15202126fcc",
+        "senseId": "sns_loup_agneau_raison_argument_presente_comme_juste_ou_fonde_2637035b0d"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il reprend le motif déjà évoqué : c’est pour cette ___ même.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "raison-là"
+        },
+        {
+          "id": "choice_2",
+          "text": "planète"
+        },
+        {
+          "id": "choice_3",
+          "text": "personne"
+        },
+        {
+          "id": "choice_4",
+          "text": "distance"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_6aa401b138287684_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_24dba79330a60191",
+        "senseId": "sns_zola_besoin_need"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Nos besoins sont moins grands que nos désirs.",
+      "targetText": "besoins",
+      "targetRange": {
+        "start": 4,
+        "end": 11
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "needs"
+        },
+        {
+          "id": "choice_2",
+          "text": "dreams"
+        },
+        {
+          "id": "choice_3",
+          "text": "memories"
+        },
+        {
+          "id": "choice_4",
+          "text": "gifts"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_6d8e723797e08c65_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_b1ba24546e76e58f",
+        "senseId": "sns_parure_superbe_qui_est_tres_beau_ou_tres_bien_fait_qu_on_peut_admirer_33f5114852"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « superbes », « ordinaires », « laids », « insignifiants ».",
+      "prompt": "Quel adjectif pluriel signifie magnifiques ou dignes d’admiration ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "superbes"
+        },
+        {
+          "id": "choice_2",
+          "text": "ordinaires"
+        },
+        {
+          "id": "choice_3",
+          "text": "laids"
+        },
+        {
+          "id": "choice_4",
+          "text": "insignifiants"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_76497d4e0b870bb7_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_7bcb0cafcfd909d1",
+        "senseId": "sns_micromegas_24cdc0fef77d56d3"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il se déplaça à travers toute cette région : il la ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "parcourut"
+        },
+        {
+          "id": "choice_2",
+          "text": "regarda"
+        },
+        {
+          "id": "choice_3",
+          "text": "oublia"
+        },
+        {
+          "id": "choice_4",
+          "text": "dessina"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_7dea3f5ef47535e6_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_10b2d3e9087f3e1c",
+        "senseId": "sns_micromegas_cdde329aa9b7a955"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Devant ses contradicteurs, elle soutint que la décision était injuste.",
+      "targetText": "soutint",
+      "targetRange": {
+        "start": 32,
+        "end": 39
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "maintained; asserted and defended a claim"
+        },
+        {
+          "id": "choice_2",
+          "text": "denied"
+        },
+        {
+          "id": "choice_3",
+          "text": "forgot"
+        },
+        {
+          "id": "choice_4",
+          "text": "hid"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_7e4170e5acb38044_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_2d69b28f2a1e28f4",
+        "senseId": "sns_micromegas_dc136efec7fdedf0"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Les usages de ce pays étonnent les visiteurs.",
+      "targetText": "usages",
+      "targetRange": {
+        "start": 4,
+        "end": 10
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "customs"
+        },
+        {
+          "id": "choice_2",
+          "text": "buildings"
+        },
+        {
+          "id": "choice_3",
+          "text": "rivers"
+        },
+        {
+          "id": "choice_4",
+          "text": "tickets"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_8bc634f8ff999f0b_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_9e094009e4696ee1",
+        "senseId": "sns_micromegas_efdd0d19327046b6"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Pour que sa voix soit moins forte, il faut en ___ la puissance.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "diminuer"
+        },
+        {
+          "id": "choice_2",
+          "text": "augmenter"
+        },
+        {
+          "id": "choice_3",
+          "text": "conserver"
+        },
+        {
+          "id": "choice_4",
+          "text": "multiplier"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_909c1a08f6584804_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_232cc45ecf173f4e",
+        "senseId": "sns_micromegas_e051d4591dae8e07"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Son habileté inventive à fabriquer l’appareil montre une grande ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "industrie"
+        },
+        {
+          "id": "choice_2",
+          "text": "maladresse"
+        },
+        {
+          "id": "choice_3",
+          "text": "négligence"
+        },
+        {
+          "id": "choice_4",
+          "text": "paresse"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_9b6a2f1560c35f34_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_dca13695117c6417",
+        "senseId": "sns_leger_primary"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "L’adjectif féminin qui signifie de faible poids est « ___ ».",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "légère"
+        },
+        {
+          "id": "choice_2",
+          "text": "lourde"
+        },
+        {
+          "id": "choice_3",
+          "text": "dense"
+        },
+        {
+          "id": "choice_4",
+          "text": "massive"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_a3ffba2bfa1b8355_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_67c123932dcda10e",
+        "senseId": "sns_micromegas_d6fd80be1ead45f2"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le muphti ne s’embarrassa guère de la chanson.",
+      "targetText": "embarrassa",
+      "targetRange": {
+        "start": 15,
+        "end": 25
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "was bothered by"
+        },
+        {
+          "id": "choice_2",
+          "text": "sang"
+        },
+        {
+          "id": "choice_3",
+          "text": "rewrote"
+        },
+        {
+          "id": "choice_4",
+          "text": "published"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_abd758fe951a005d_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_ba82cbb8570bafbd",
+        "senseId": "sns_micromegas_7a196d94951c68d8"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "En voyant la terre humide, il jugea qu’il avait plu pendant la nuit.",
+      "targetText": "jugea",
+      "targetRange": {
+        "start": 30,
+        "end": 35
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "inferred; concluded"
+        },
+        {
+          "id": "choice_2",
+          "text": "ignored"
+        },
+        {
+          "id": "choice_3",
+          "text": "denied"
+        },
+        {
+          "id": "choice_4",
+          "text": "forgot"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_ad3552831071cf96_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_845087e5c0196a32",
+        "senseId": "sns_micromegas_9983fe909bb8f5e9"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « frémit », « rit », « bâilla », « dormit ».",
+      "prompt": "Quel verbe au passé simple signifie trembla sous l’effet d’une émotion ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "frémit"
+        },
+        {
+          "id": "choice_2",
+          "text": "rit"
+        },
+        {
+          "id": "choice_3",
+          "text": "bâilla"
+        },
+        {
+          "id": "choice_4",
+          "text": "dormit"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_b386e6d43a89e5dc_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_a1f37c13f6e9d525",
+        "senseId": "sns_micromegas_1385613d355bfcda"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « protection », « punition », « menace », « désertion ».",
+      "prompt": "Quel nom féminin désigne une aide qui met à l’abri d’un danger ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "protection"
+        },
+        {
+          "id": "choice_2",
+          "text": "punition"
+        },
+        {
+          "id": "choice_3",
+          "text": "menace"
+        },
+        {
+          "id": "choice_4",
+          "text": "désertion"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_c01b4bc96ff1b567_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_eussent_lem_avoir_f3e3d0b61c",
+        "senseId": "sns_avoir_primary"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il s’étonnait qu’ils possèdent tant de vanité : qu’ils ___ un tel orgueil.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "eussent"
+        },
+        {
+          "id": "choice_2",
+          "text": "perdissent"
+        },
+        {
+          "id": "choice_3",
+          "text": "redoutassent"
+        },
+        {
+          "id": "choice_4",
+          "text": "cachassent"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_c2e7257e3393bfae_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_5691a35953c55941",
+        "senseId": "sns_micromegas_33ec58b8b50cb335"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Ils poursuivent jusqu’à la ville : ils ___ plus loin.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "poussent"
+        },
+        {
+          "id": "choice_2",
+          "text": "reculent"
+        },
+        {
+          "id": "choice_3",
+          "text": "s’arrêtent"
+        },
+        {
+          "id": "choice_4",
+          "text": "dorment"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_c8d1e09021324e7f_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_f3d6ce5a2dc2da8d",
+        "senseId": "sns_croire_primary"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "En apercevant une ombre, il crut reconnaître son frère.",
+      "targetText": "crut",
+      "targetRange": {
+        "start": 28,
+        "end": 32
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "believed"
+        },
+        {
+          "id": "choice_2",
+          "text": "denied"
+        },
+        {
+          "id": "choice_3",
+          "text": "forgot"
+        },
+        {
+          "id": "choice_4",
+          "text": "proved"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_ccc02e00579252a6_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_1019d0aed8de906e",
+        "senseId": "sns_micromegas_9d91986f5c91342e"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « sienne », « mienne », « tienne », « nôtre ».",
+      "prompt": "Quel possessif féminin singulier reprend une chose attribuée à une troisième personne ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "sienne"
+        },
+        {
+          "id": "choice_2",
+          "text": "mienne"
+        },
+        {
+          "id": "choice_3",
+          "text": "tienne"
+        },
+        {
+          "id": "choice_4",
+          "text": "nôtre"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_d0d153f2888024a4_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_9d4c12b765cc7ef8",
+        "senseId": "sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Tes bras appartiennent à toi; ses à lui ou à elle, nos à nous et leurs à eux.",
+      "prompt": "Quel mot exprime your ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "tes"
+        },
+        {
+          "id": "choice_2",
+          "text": "ses"
+        },
+        {
+          "id": "choice_3",
+          "text": "nos"
+        },
+        {
+          "id": "choice_4",
+          "text": "leurs"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_d4170b2da4e5bd6c_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_pour",
+        "senseId": "sns_micromegas_7db27d04906ef85a"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « pour », « avec », « par », « devant ».",
+      "prompt": "Quelle préposition introduit ce pour quoi on prend quelqu’un ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "pour"
+        },
+        {
+          "id": "choice_2",
+          "text": "avec"
+        },
+        {
+          "id": "choice_3",
+          "text": "par"
+        },
+        {
+          "id": "choice_4",
+          "text": "devant"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_e2e89e79a449aa99_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_1fa4722b6da3157f",
+        "senseId": "sns_fr_ennuyer_reflexive_bored"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Sans activité qui l’intéresse, il finit par s’___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "ennuyer"
+        },
+        {
+          "id": "choice_2",
+          "text": "amuser"
+        },
+        {
+          "id": "choice_3",
+          "text": "émerveiller"
+        },
+        {
+          "id": "choice_4",
+          "text": "enthousiasmer"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_e69e352664dc73f1_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_762f3936a016b8d5",
+        "senseId": "sns_micromegas_720051990042a8c3"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Dans le ciel, la ___ développe une queue lumineuse à l’approche du Soleil.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "comète"
+        },
+        {
+          "id": "choice_2",
+          "text": "planète"
+        },
+        {
+          "id": "choice_3",
+          "text": "étoile"
+        },
+        {
+          "id": "choice_4",
+          "text": "lune"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_ed56b3007ab98935_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_e0c4bca89cfa3a05",
+        "senseId": "sns_micromegas_0c06c93b0b55130a"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "L’illustre vicaire Derham affirme l’avoir vu.",
+      "targetText": "illustre",
+      "targetRange": {
+        "start": 2,
+        "end": 10
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "distinguished"
+        },
+        {
+          "id": "choice_2",
+          "text": "unknown"
+        },
+        {
+          "id": "choice_3",
+          "text": "ordinary"
+        },
+        {
+          "id": "choice_4",
+          "text": "inexperienced"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_edfe4899593f40e8_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_46e0ca112bcc13ec",
+        "senseId": "sns_micromegas_5b5aa3d5543e2148"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « doigts », « bras », « pieds », « yeux ».",
+      "prompt": "Quel nom désigne les parties de la main qui saisissent ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "doigts"
+        },
+        {
+          "id": "choice_2",
+          "text": "bras"
+        },
+        {
+          "id": "choice_3",
+          "text": "pieds"
+        },
+        {
+          "id": "choice_4",
+          "text": "yeux"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_f61768623f4dc422_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_a376b1efc63c2173",
+        "senseId": "sns_micromegas_bc6bfc05b1fb29d8"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le lecteur compare les mots « ducat », « lingot », « bracelet », « chandelier ».",
+      "prompt": "Quel nom masculin désigne une ancienne pièce de monnaie, souvent en or ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "ducat"
+        },
+        {
+          "id": "choice_2",
+          "text": "lingot"
+        },
+        {
+          "id": "choice_3",
+          "text": "bracelet"
+        },
+        {
+          "id": "choice_4",
+          "text": "chandelier"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_micromegas_fe24e139bb1bea3e_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_micromegas_ecff6a1ed39a35b1",
+        "senseId": "sns_micromegas_008a82f547f1bc91"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "L’arpenteur choisit trois stations d’où il peut viser le clocher.",
+      "targetText": "stations",
+      "targetRange": {
+        "start": 26,
+        "end": 34
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "stations; positions occupied for taking observations"
+        },
+        {
+          "id": "choice_2",
+          "text": "equations"
+        },
+        {
+          "id": "choice_3",
+          "text": "dimensions"
+        },
+        {
+          "id": "choice_4",
+          "text": "graduations"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -2718,29 +4442,29 @@
       },
       "band": "levels_1_3",
       "format": "meaning_choice",
-      "context": "Le professeur emploie « livres » pour exprimer cette idée : Assemblage de feuilles manuscrites ou imprimées destinées à être lues..",
+      "context": "… de l’illustre archevêque de…, qui m’a laissé voir ses livres avec cette générosité et cette bonté qu’on ne saurait …",
       "targetText": "livres",
       "targetRange": {
-        "start": 24,
-        "end": 30
+        "start": 56,
+        "end": 62
       },
       "prompt": "Meaning",
       "choices": [
         {
           "id": "choice_1",
-          "text": "book"
+          "text": "books"
         },
         {
           "id": "choice_2",
-          "text": "a window"
+          "text": "accounting ledgers"
         },
         {
           "id": "choice_3",
-          "text": "a notebook"
+          "text": "paintings"
         },
         {
           "id": "choice_4",
-          "text": "a garden"
+          "text": "maps"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -3118,22 +4842,22 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Ce _____ bol contient beaucoup moins que le grand saladier.",
+      "context": "Ce bol tient dans la paume d’une main : ce _____ bol occupe très peu de place.",
       "choices": [
         {
           "id": "choice_1",
           "text": "petit"
         },
         {
-          "id": "choice_5",
-          "text": "petite"
+          "id": "choice_2",
+          "text": "grand"
         },
         {
-          "id": "choice_6",
-          "text": "petits"
+          "id": "choice_3",
+          "text": "vaste"
         },
         {
-          "id": "choice_7",
+          "id": "choice_4",
           "text": "immense"
         }
       ],
@@ -5552,23 +7276,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Paul et Nina _____ déjà la réponse.",
+      "context": "Quel verbe signifie possèdent cette connaissance, plutôt que l’ignorent, l’oublient ou la dissimulent : ___ ?",
       "choices": [
         {
           "id": "choice_1",
           "text": "savent"
         },
         {
-          "id": "choice_5",
-          "text": "sait"
+          "id": "choice_2",
+          "text": "ignorent"
         },
         {
-          "id": "choice_6",
-          "text": "sais"
+          "id": "choice_3",
+          "text": "oublient"
         },
         {
-          "id": "choice_7",
-          "text": "savoir"
+          "id": "choice_4",
+          "text": "cachent"
         }
       ],
       "correctChoiceId": "choice_1"
@@ -5783,23 +7507,23 @@
       },
       "band": "levels_4_5",
       "format": "surface_completion",
-      "context": "Paul est _____ à la maison pour nous aider.",
+      "context": "Paul nous a rejoints après son trajet ; il est _____ hier.",
       "choices": [
         {
           "id": "choice_1",
           "text": "venu"
         },
         {
-          "id": "choice_5",
-          "text": "venir"
+          "id": "choice_2",
+          "text": "parti"
         },
         {
-          "id": "choice_6",
-          "text": "vient"
+          "id": "choice_3",
+          "text": "resté"
         },
         {
-          "id": "choice_7",
-          "text": "viennent"
+          "id": "choice_4",
+          "text": "reparti"
         }
       ],
       "correctChoiceId": "choice_1"

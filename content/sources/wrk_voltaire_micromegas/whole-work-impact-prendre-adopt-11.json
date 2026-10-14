@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:10.688Z",
+  "sense": {
+    "id": "sns_fr_prendre_adopt_measure",
+    "lemmaId": "lem_prendre",
+    "gloss": "to take; to adopt",
+    "definition": "Adopter une décision, une disposition ou une mesure."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_prendre_adopt_measure_prendrait_levels_6_8",
+      "qiz_fr_prendre_adopt_measure_prendrait_levels_4_5",
+      "qiz_fr_prendre_adopt_measure_prendrait_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_prendrait:sns_fr_prendre_adopt_measure",
+      "surface": "prendrait",
+      "lemma": "prendre",
+      "currentRevision": "rev_b65901cd457b1fe8a60ee4602015fd25a07ef67a58f57ae55152d2f355aec029",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_05d17299338fbfc130f4e83b",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_042",
+          "passage": "Un traître aurait ouvert la frontière à l’ennemi, pour conduire l’empereur allemand jusqu’à Notre-Dame, qu’on ne prendrait pas des mesures de silence et de mystère plus étroites.",
+          "span": [
+            113,
+            122
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_prendre_adopt_measure_prendrait_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La municipalité prendrait une décision après avoir consulté les habitants.",
+          "prompt": "Quel verbe exprime l’adoption d’une décision ?",
+          "choices": [
+            {
+              "text": "consulté",
+              "correct": false
+            },
+            {
+              "text": "habitants",
+              "correct": false
+            },
+            {
+              "text": "prendrait",
+              "correct": true
+            },
+            {
+              "text": "municipalité",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_adopt_measure_prendrait_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Face au danger, il _____ des mesures de protection pour agir sans attendre.",
+          "choices": [
+            {
+              "text": "annulerait",
+              "correct": false
+            },
+            {
+              "text": "négligerait",
+              "correct": false
+            },
+            {
+              "text": "repousserait",
+              "correct": false
+            },
+            {
+              "text": "prendrait",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_adopt_measure_prendrait_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le directeur prendrait des mesures supplémentaires si le danger augmentait.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "would take",
+              "correct": true
+            },
+            {
+              "text": "would cancel",
+              "correct": false
+            },
+            {
+              "text": "would forget",
+              "correct": false
+            },
+            {
+              "text": "would oppose",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

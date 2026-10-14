@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "id": "fr-lexical-correction-2026-09-25-12",
+  "language": "fr",
+  "masteryIdsChanged": false,
+  "progressTransfers": [],
+  "reboundQuizApprovals": 12,
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_zola_surprendre_catch_unawares",
+      "before": {
+        "id": "sns_zola_surprendre_catch_unawares",
+        "lemmaId": "lem_zola_surprendre",
+        "gloss": "surprise; catch unawares",
+        "definition": "prendre quelqu’un au dépourvu ou découvrir quelqu’un dans une action secrète"
+      },
+      "after": {
+        "id": "sns_zola_surprendre_catch_unawares",
+        "lemmaId": "lem_zola_surprendre",
+        "gloss": "to discover unexpectedly; overhear",
+        "definition": "Découvrir, entendre ou saisir quelque chose à l’improviste, notamment un secret."
+      },
+      "reason": "Secrets qu’il ne fait pas bon d’avoir surpris means secrets discovered unexpectedly; replaced a theft scenario and three unrelated contexts with questions about discovering secrets."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_surpris_surprendre_catch_unawares_early",
+      "before": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_early",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "Le gardien a surpris le chat en train de voler du pain.",
+        "correctAnswer": "caught in the act",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "surpris",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "followed",
+          "caught in the act",
+          "fed",
+          "hid"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_early",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "Il est des secrets qu’il ne fait pas bon d’avoir surpris.",
+        "correctAnswer": "discovered unexpectedly",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "surpris",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "revealed publicly",
+          "discovered unexpectedly",
+          "forgotten",
+          "concealed"
+        ]
+      },
+      "reason": "A Zola-based sentence tests encountering a secret unexpectedly."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_surpris_surprendre_catch_unawares_advanced",
+      "before": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_advanced",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "Paul a surpris une conversation qu’il ne devait pas entendre en passant devant la porte.",
+        "correctAnswer": "surpris",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique une découverte inattendue de ce qui était caché ?",
+        "choicesFrench": [
+          "entendre",
+          "porte",
+          "surpris",
+          "conversation"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_advanced",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "On examinait les écritures ; il est des secrets qu’il ne fait pas bon d’avoir surpris.",
+        "correctAnswer": "surpris",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique que ces secrets ont été découverts à l’improviste ?",
+        "choicesFrench": [
+          "écritures",
+          "secrets",
+          "surpris",
+          "examinait"
+        ]
+      },
+      "reason": "The target is selected from a Zola-based context."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_surpris_surprendre_catch_unawares_intermediate",
+      "before": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_intermediate",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "Nina a _____ ses amis en train de préparer une fête secrète.",
+        "correctAnswer": "surpris",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "surpris",
+          "surprend",
+          "surprennent",
+          "surprendre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_surpris_surprendre_catch_unawares_intermediate",
+        "surfaceFormId": "srf_zola_surpris_surprendre",
+        "senseId": "sns_zola_surprendre_catch_unawares",
+        "contextFrench": "Il avait appris ces secrets par hasard et les avait gardés pour lui ; ce sont des secrets qu’il ne fait pas bon d’avoir _____.",
+        "correctAnswer": "surpris",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "surpris",
+          "dévoilés",
+          "écrits",
+          "oubliés"
+        ]
+      },
+      "reason": "Plural participle options fit the grammar; context selects unexpectedly discovered secrets."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_universelle_universel_general_intermediate",
+      "before": {
+        "id": "qiz_zola_universelle_universel_general_intermediate",
+        "surfaceFormId": "srf_zola_universelle_universel",
+        "senseId": "sns_zola_universel_general",
+        "contextFrench": "Cette règle vaut pour tous sans exception : sa portée est _____.",
+        "correctAnswer": "universelle",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "universel",
+          "universels",
+          "particulière",
+          "universelle"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_universelle_universel_general_intermediate",
+        "surfaceFormId": "srf_zola_universelle_universel",
+        "senseId": "sns_zola_universel_general",
+        "contextFrench": "Cette règle vaut pour tous sans exception : sa portée est _____.",
+        "correctAnswer": "universelle",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "locale",
+          "limitée",
+          "particulière",
+          "universelle"
+        ]
+      },
+      "reason": "Every unchanged feminine singular adjective fits the grammatical frame; only universal means applicable to all."
+    }
+  ]
+}

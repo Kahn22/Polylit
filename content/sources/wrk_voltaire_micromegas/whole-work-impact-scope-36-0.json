@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:50:41.663Z",
+  "sense": {
+    "id": "sns_zola_soleil_sun",
+    "lemmaId": "lem_zola_soleil",
+    "gloss": "sun",
+    "definition": "astre autour duquel tourne la Terre et qui donne la lumière"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_soleil_soleil_sun_early",
+      "qiz_zola_soleil_soleil_sun_advanced",
+      "qiz_zola_soleil_soleil_sun_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_soleil_soleil:sns_zola_soleil_sun",
+      "surface": "soleil",
+      "lemma": "soleil",
+      "currentRevision": "rev_6b6eb55a870a77dbd611b6a5e5c40bac0872551d238ce912bc9e132c136c57cf",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_c8433484d8f30435ca35ef5d",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_164",
+          "passage": "A quoi bon tout bouleverser, puisque bientôt le soleil allait luire ?",
+          "span": [
+            48,
+            54
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_soleil_soleil_sun_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le soleil se lève et éclaire les collines.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "sun",
+              "correct": true
+            },
+            {
+              "text": "moon",
+              "correct": false
+            },
+            {
+              "text": "cloud",
+              "correct": false
+            },
+            {
+              "text": "rainbow",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_soleil_soleil_sun_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le soleil disparaît derrière la montagne ; la vallée s’assombrit et les premières étoiles apparaissent.",
+          "prompt": "Quel nom désigne l’astre qui éclaire la Terre le jour ?",
+          "choices": [
+            {
+              "text": "montagne",
+              "correct": false
+            },
+            {
+              "text": "vallée",
+              "correct": false
+            },
+            {
+              "text": "étoiles",
+              "correct": false
+            },
+            {
+              "text": "soleil",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_soleil_soleil_sun_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "À midi, le _____ brille et projette une ombre courte derrière les arbres.",
+          "choices": [
+            {
+              "text": "soleil",
+              "correct": true
+            },
+            {
+              "text": "nuage",
+              "correct": false
+            },
+            {
+              "text": "brouillard",
+              "correct": false
+            },
+            {
+              "text": "vent",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

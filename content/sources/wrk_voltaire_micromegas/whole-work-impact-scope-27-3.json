@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:57:25.921Z",
+  "sense": {
+    "id": "sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb",
+    "lemmaId": "lem_faire",
+    "gloss": "held a prominent position",
+    "definition": "occupaient une place sociale remarquée"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_advanced",
+      "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_intermediate",
+      "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_faisoient_lem_faire_4312279501:sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb",
+      "surface": "faisoient",
+      "lemma": "faire",
+      "currentRevision": "rev_6c1080681d28689ea4f5f19d361a57d1c3061abab6cea3625fef5d0c028e6e00",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_c79cc009bb21ec755dc848b7",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_006",
+          "passage": "Il arriva que le fils du Roi donna un bal et qu’il en pria toutes les personnes de qualité : nos deux Damoiselles en furent aussi priées, car elles faisoient grande figure dans le pays. Les voilà bien aises et bien occupées à choisir les habits et les coëffures qui leur seïeroient le mieux ;",
+          "span": [
+            148,
+            157
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les notables faisoient grande figure à la cour, où chacun recherchait leur compagnie.",
+          "prompt": "Quel verbe ancien appartient à l’expression indiquant une position sociale remarquée ?",
+          "choices": [
+            {
+              "text": "cour",
+              "correct": false
+            },
+            {
+              "text": "compagnie",
+              "correct": false
+            },
+            {
+              "text": "faisoient",
+              "correct": true
+            },
+            {
+              "text": "notables",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces dames _____ grande figure dans le pays et jouissaient d’un grand prestige.",
+          "choices": [
+            {
+              "text": "faisoit",
+              "correct": false
+            },
+            {
+              "text": "faire",
+              "correct": false
+            },
+            {
+              "text": "faisant",
+              "correct": false
+            },
+            {
+              "text": "faisoient",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_faisoient_sns_cendrillon_faire_occupaient_une_place_sociale_remarquee_5ba87860bb_4f71de07a7_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ces familles faisoient grande figure dans la ville, où elles étaient très considérées.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "held a prominent position",
+              "correct": true
+            },
+            {
+              "text": "lived in hiding",
+              "correct": false
+            },
+            {
+              "text": "were ignored",
+              "correct": false
+            },
+            {
+              "text": "had no influence",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

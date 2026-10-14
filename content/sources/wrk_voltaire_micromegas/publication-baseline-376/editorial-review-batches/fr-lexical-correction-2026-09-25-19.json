@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-19",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "one indexed literary use and three rechecked question bands",
+  "changes": [
+    {
+      "subjectId": "srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+      "reviewId": "vocabulary:srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+      "outcome": "approve",
+      "rationale": "Zola says “en inconscient, je veux le croire”: he depicts an unwitting participant, not necessarily someone reckless. The early choice now tests lack of awareness; the completion and identification questions also test not grasping consequences. The historical nominal use and adjectival uses retain the same learner meaning.",
+      "before": {
+        "id": "vocabulary:srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+        "subjectRevision": "rev_ba3a1b5bd30bab2c304752bbed6bec9d62c339f6e2348ed690e6f544aee83ebc",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In en inconscient, inconscient is used in a compressed construction meaning unwittingly; its adjectival status and gloss need confirmation."
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_inconscient_inconscient:sns_zola_inconscient_unaware",
+        "subjectRevision": "rev_ba3a1b5bd30bab2c304752bbed6bec9d62c339f6e2348ed690e6f544aee83ebc",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Zola says “en inconscient, je veux le croire”: he depicts an unwitting participant, not necessarily someone reckless. The early choice now tests lack of awareness; the completion and identification questions also test not grasping consequences. The historical nominal use and adjectival uses retain the same learner meaning.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

@@ -8,4 +8,4 @@ export function quizBandForMasteryLevel(level: MasteryLevel): QuizBand {
 export function vocabularyIdentityKey(surfaceFormId: string, senseId: string): string {
   return `${surfaceFormId}:${senseId}`;
 }
-export function expressionMasteryKey(identityId: string): string { return `expression:${identityId}`; }
+export function expressionMasteryKey(identityId: string, surfaceId?: string): string { return surfaceId ? `expression:${surfaceId}:${identityId}` : `expression:${identityId}`; }

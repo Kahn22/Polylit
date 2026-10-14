@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:38:49.490Z",
+  "sense": {
+    "id": "sns_zola_savoir_present",
+    "lemmaId": "lem_savoir",
+    "gloss": "to know",
+    "definition": "Posséder une connaissance ou être informé de quelque chose."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 4,
+    "occurrenceCount": 7,
+    "activeQuizCount": 12,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_sachant_savoir_present_early",
+      "qiz_zola_sachant_savoir_present_advanced",
+      "qiz_zola_sachant_savoir_present_intermediate",
+      "qiz_zola_sait_savoir_present_early",
+      "qiz_zola_sait_savoir_present_advanced",
+      "qiz_zola_sait_savoir_present_intermediate",
+      "qiz_zola_savent_savoir_present_early",
+      "qiz_zola_savent_savoir_present_advanced",
+      "qiz_zola_savent_savoir_present_intermediate",
+      "qiz_zola_savons_savoir_present_intermediate",
+      "qiz_zola_savons_savoir_present_advanced",
+      "qiz_zola_savons_savoir_present_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_sachant_savoir:sns_zola_savoir_present",
+      "surface": "sachant",
+      "lemma": "savoir",
+      "currentRevision": "rev_c3675b0420ecf4cff85a2a48dc530cd0dafd03e72e049781091492db4027b5f9",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_7d2cda585089455318eb92af",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_153",
+          "passage": "Que de gens je connais qui, devant une guerre possible, tremblent d’angoisse, en sachant dans quelles mains est la défense nationale ! et quel nid de basses intrigues, de commérages et de dilapidations, est devenu cet asile sacré, où se décide le sort de la patrie !",
+          "span": [
+            81,
+            88
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_sachant_savoir_present_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Sachant que le magasin ferme tôt, elle part tout de suite.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "doubting",
+              "correct": false
+            },
+            {
+              "text": "knowing",
+              "correct": true
+            },
+            {
+              "text": "hoping",
+              "correct": false
+            },
+            {
+              "text": "forgetting",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_sachant_savoir_present_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Sachant où se trouve la clé, il peut ouvrir la porte sans chercher.",
+          "prompt": "Quel participe présent indique qu’il possède l’information nécessaire ?",
+          "choices": [
+            {
+              "text": "clé",
+              "correct": false
+            },
+            {
+              "text": "ouvrir",
+              "correct": false
+            },
+            {
+              "text": "porte",
+              "correct": false
+            },
+            {
+              "text": "Sachant",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_sachant_savoir_present_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "_____ que la route est coupée, il prend un autre chemin en connaissance de cause.",
+          "choices": [
+            {
+              "text": "Sachant",
+              "correct": true
+            },
+            {
+              "text": "Ignorant",
+              "correct": false
+            },
+            {
+              "text": "Oubliant",
+              "correct": false
+            },
+            {
+              "text": "Doutant",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_sait_savoir:sns_zola_savoir_present",
+      "surface": "sait",
+      "lemma": "savoir",
+      "currentRevision": "rev_0969dbe3178bac7a0398735098367f0edfec535011c9d4629bc578d754b8e9e8",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_86e6e23d734232d72f107534",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_111",
+          "passage": "Que serait-il arrivé si elle n’avait point perdu cette parure ? Qui sait ? qui sait ? Comme la vie est singulière, changeante ! Comme il faut peu de chose pour vous perdre ou vous sauver !",
+          "span": [
+            79,
+            83
+          ]
+        },
+        {
+          "id": "occ_parure_afe7ceed12a8bb449a18c858",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_111",
+          "passage": "Que serait-il arrivé si elle n’avait point perdu cette parure ? Qui sait ? qui sait ? Comme la vie est singulière, changeante ! Comme il faut peu de chose pour vous perdre ou vous sauver !",
+          "span": [
+            68,
+            72
+          ]
+        },
+        {
+          "id": "occ_zola_28f5ed3b22d1a3bfec3cefa6",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_052",
+          "passage": "Dreyfus sait plusieurs langues, crime ; on n’a trouvé chez lui aucun papier compromettant, crime ; il va parfois dans son pays d’origine, crime ; il est laborieux, il a le souci de tout savoir, crime ; il ne se trouble pas, crime ; il se trouble, crime.",
+          "span": [
+            8,
+            12
+          ]
+        },
+        {
+          "id": "occ_zola_7fc74c959e9861bf8e905cbb",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_098",
+          "passage": "A Paris, la vérité marchait, irrésistible, et l’on sait de quelle façon l’orage attendu éclata.",
+          "span": [
+            51,
+            55
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_sait_savoir_present_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nina sait où se trouve la clé.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "asks",
+              "correct": false
+            },
+            {
+              "text": "guesses",
+              "correct": false
+            },
+            {
+              "text": "knows",
+              "correct": true
+            },
+            {
+              "text": "forgets",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_sait_savoir_present_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le guide sait comment rejoindre le refuge ; il montre le chemin aux voyageurs.",
+          "prompt": "Quel verbe exprime une connaissance ?",
+          "choices": [
+            {
+              "text": "sait",
+              "correct": true
+            },
+            {
+              "text": "refuge",
+              "correct": false
+            },
+            {
+              "text": "chemin",
+              "correct": false
+            },
+            {
+              "text": "voyageurs",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_sait_savoir_present_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul _____ déjà la réponse.",
+          "choices": [
+            {
+              "text": "savons",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": false
+            },
+            {
+              "text": "sait",
+              "correct": true
+            },
+            {
+              "text": "sais",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_savent_savoir:sns_zola_savoir_present",
+      "surface": "savent",
+      "lemma": "savoir",
+      "currentRevision": "rev_06e99b012e35b7e9923ff9bb34f8bb70d7238ed2b900e118cd479cff04b6add0",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_a6855457fa4d9d35529d4c35",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_088",
+          "passage": "Comprenez-vous cela ! voici un an que le général Billot, que les généraux de Boisdeffre et Gonse savent que Dreyfus est innocent, et ils ont gardé pour eux cette effroyable chose.",
+          "span": [
+            97,
+            103
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_savent_savoir_present_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les voisins savent où se trouve la clé.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "know",
+              "correct": true
+            },
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "ask",
+              "correct": false
+            },
+            {
+              "text": "guess",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_savent_savoir_present_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Ces enfants savent où se trouve le village ; ils en indiquent la direction sur la carte.",
+          "prompt": "Quel verbe exprime une connaissance ?",
+          "choices": [
+            {
+              "text": "savent",
+              "correct": true
+            },
+            {
+              "text": "enfants",
+              "correct": false
+            },
+            {
+              "text": "village",
+              "correct": false
+            },
+            {
+              "text": "carte",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_savent_savoir_present_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Paul et Nina _____ déjà la réponse.",
+          "choices": [
+            {
+              "text": "savent",
+              "correct": true
+            },
+            {
+              "text": "sait",
+              "correct": false
+            },
+            {
+              "text": "sais",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srf_zola_savons_savoir:sns_zola_savoir_present",
+      "surface": "savons",
+      "lemma": "savoir",
+      "currentRevision": "rev_7a51222759a3c6863f54fd5f1fd736a6d42701008c7df2c6e0153e9a10e2939e",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_443761429e05ba6c9e874992",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_138",
+          "passage": "L’opinion préconçue qu’ils ont apportée sur leur siège est évidemment celle-ci : « Dreyfus a été condamné pour crime de trahison par un conseil de guerre ; il est donc coupable, et nous, conseil de guerre, nous ne pouvons le déclarer innocent ; or nous savons que reconnaître la culpabilité d’Esterhazy, ce serait proclamer l’innocence de Dreyfus.",
+          "span": [
+            253,
+            259
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_savons_savoir_present_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Nous _____ déjà la date du départ.",
+          "choices": [
+            {
+              "text": "savez",
+              "correct": false
+            },
+            {
+              "text": "sait",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": false
+            },
+            {
+              "text": "savons",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_savons_savoir_present_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Nous savons comment réparer la porte ; nous avons appris cette technique hier.",
+          "prompt": "Quel verbe exprime notre connaissance ?",
+          "choices": [
+            {
+              "text": "technique",
+              "correct": false
+            },
+            {
+              "text": "hier",
+              "correct": false
+            },
+            {
+              "text": "savons",
+              "correct": true
+            },
+            {
+              "text": "porte",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_savons_savoir_present_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nous savons où trouver les clés.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "guess",
+              "correct": false
+            },
+            {
+              "text": "know",
+              "correct": true
+            },
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "ask",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

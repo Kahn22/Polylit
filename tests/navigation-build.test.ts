@@ -23,13 +23,15 @@ describe("production navigation under root and GitHub Pages prefixes", () => {
     expect(chunk.code).not.toContain("base64,");
     let version = 0;
     for (const base of ["/", "/Polylit/"]) {
-      for (const route of ["", "index.html", "languages/", "fr/library/", "es/library/", "es/library/index.html", "fr/library"]) {
+      for (const route of ["", "index.html", "languages/", "languages/index.html", "fr/library/", "es/library/", "es/library/index.html", "fr/library"]) {
         vi.stubGlobal("location", { pathname: `${base}${route}` });
         // Execute the emitted JavaScript, not only the TypeScript source.
         const url = `data:text/javascript;base64,${Buffer.from(chunk.code).toString("base64")}#${version++}`;
         const navigation = await import(/* @vite-ignore */ url);
         expect(navigation.siteBase).toBe(base);
-        for (const destination of ["", "languages/", "fr/library/", "es/library/", "es/library/#/book/wrk_palma_camisa_margarita", "es/library/#/read/wrk_quiroga_almohadon_plumas"]) {
+        expect(navigation.languageFromPath()).toBe(route.startsWith("fr/") ? "fr" : route.startsWith("es/") ? "es" : undefined);
+        expect(navigation.isLanguageChoicePath()).toBe(route.startsWith("languages/"));
+        for (const destination of ["", "languages/", "languages/index.html", "fr/library/", "es/library/", "es/library/#/book/wrk_palma_camisa_margarita", "es/library/#/read/wrk_quiroga_almohadon_plumas"]) {
           expect(navigation.sitePath(destination)).toBe(`${base}${destination}`);
         }
       }

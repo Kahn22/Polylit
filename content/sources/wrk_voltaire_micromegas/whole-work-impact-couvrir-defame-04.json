@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:06:22.367Z",
+  "sense": {
+    "id": "sns_fr_couvrir_defame",
+    "lemmaId": "lem_zola_couvrir",
+    "gloss": "to smear (in couvrir de boue)",
+    "definition": "Accabler une personne de propos déshonorants, notamment dans couvrir de boue au sens figuré."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_6_8",
+      "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_4_5",
+      "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_couvrir_couvrir:sns_fr_couvrir_defame",
+      "surface": "couvrir",
+      "lemma": "couvrir",
+      "currentRevision": "rev_cbd8bd5074b5adeacf81fa0ba3716418e53b4587c915fa90804bda2d73063023",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_db15c8661b96e61557b08992",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_167",
+          "passage": "Ces scrupules l’honorent d’autant plus, que, pendant qu’il restait respectueux de la discipline, ses supérieurs le faisaient couvrir de boue, instruisaient eux-mêmes son procès, de la façon la plus inattendue et la plus outrageante.",
+          "span": [
+            125,
+            132
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle refuse de couvrir son rival de boue et de participer à cette campagne de calomnies.",
+          "prompt": "Quel infinitif entre dans l’expression figurée signifiant déshonorer par des attaques ?",
+          "choices": [
+            {
+              "text": "campagne",
+              "correct": false
+            },
+            {
+              "text": "calomnies",
+              "correct": false
+            },
+            {
+              "text": "couvrir",
+              "correct": true
+            },
+            {
+              "text": "rival",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ils veulent le _____ de boue par des accusations mensongères qui détruiront sa réputation.",
+          "choices": [
+            {
+              "text": "laver",
+              "correct": false
+            },
+            {
+              "text": "débarrasser",
+              "correct": false
+            },
+            {
+              "text": "préserver",
+              "correct": false
+            },
+            {
+              "text": "couvrir",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_couvrir_defame_zola_couvrir_couvrir_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ses adversaires cherchent à le couvrir de boue en répandant des calomnies.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "smear",
+              "correct": true
+            },
+            {
+              "text": "praise",
+              "correct": false
+            },
+            {
+              "text": "protect",
+              "correct": false
+            },
+            {
+              "text": "thank",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

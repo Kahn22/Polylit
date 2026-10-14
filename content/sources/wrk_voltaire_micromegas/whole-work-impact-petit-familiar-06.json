@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:12:56.723Z",
+  "sense": {
+    "id": "sns_fr_petit_familiar_diminutive",
+    "lemmaId": "lem_zola_petit",
+    "gloss": "little (familiar or disparaging qualifier)",
+    "definition": "Diminutif exprimant une manière familière ou dépréciative de parler d’une personne, sans mesurer sa taille."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_4_5",
+      "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_6_8",
+      "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_petites_petit:sns_fr_petit_familiar_diminutive",
+      "surface": "petites",
+      "lemma": "petit",
+      "currentRevision": "rev_abeb1db54d63e24c52648b8504958277420029f02e6c750d637afb2966126176",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_af0139f8db541361ba8487f4",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_062",
+          "passage": "Une pièce ridicule, oui, peut-être la pièce où il est question de petites femmes, et où il est parlé d’un certain D... qui devient trop exigeant, quelque mari sans doute trouvant qu’on ne lui payait pas sa femme assez cher.",
+          "span": [
+            66,
+            73
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il les rabaisse en disant : « Ces _____ sottes ! », avec le diminutif au féminin pluriel.",
+          "choices": [
+            {
+              "text": "petit",
+              "correct": false
+            },
+            {
+              "text": "petite",
+              "correct": false
+            },
+            {
+              "text": "petites",
+              "correct": true
+            },
+            {
+              "text": "petits",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il parle de ces petites dames sur un ton familier, sans rien dire de leurs dimensions physiques.",
+          "prompt": "Quel adjectif donne ici une nuance familière plutôt qu’une mesure de taille ?",
+          "choices": [
+            {
+              "text": "dimensions",
+              "correct": false
+            },
+            {
+              "text": "petites",
+              "correct": true
+            },
+            {
+              "text": "dames",
+              "correct": false
+            },
+            {
+              "text": "familier",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "« Ces petites prétentieuses ! » dit-il avec mépris, sans parler de leur taille.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "respected",
+              "correct": false
+            },
+            {
+              "text": "admired",
+              "correct": false
+            },
+            {
+              "text": "honoured",
+              "correct": false
+            },
+            {
+              "text": "little (disparaging)",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

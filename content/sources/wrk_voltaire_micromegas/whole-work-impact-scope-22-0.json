@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:42:24.318Z",
+  "sense": {
+    "id": "sns_bien_primary",
+    "lemmaId": "lem_bien",
+    "gloss": "indeed",
+    "definition": "An adverb adding emphasis to an assertion"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 4,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_bien_emphatic_intermediate",
+      "qiz_bien_emphatic_early",
+      "qiz_bien_emphatic_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_bien:sns_bien_primary",
+      "surface": "bien",
+      "lemma": "bien",
+      "currentRevision": "rev_983199ef2f0e3883fbfd28920d01d6abecd221417000b6becc8590849687182b",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_3cf05e9d44616aee13334ad9",
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_10",
+          "passage": "Cette leçon vaut bien un fromage, sans doute. »",
+          "span": [
+            17,
+            21
+          ]
+        },
+        {
+          "id": "occ_cendrillon_1e39e5821f1cccdb48b4978e",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_024",
+          "passage": "ne pourrois-je point la voir ? Helas ! Mademoiselle Javote, prestez-moi vostre habit jaune que vous mettez tous les jours : vraiment, dit mademoiselle Javotte, je suis de cet avis, prestez vostre habit à un vilain Cucendron comme cela, il faudroit que je fusse bien folle. Cendrillon s’attendoit bien à ce refus, et elle en fut bien aise, car elle auroit esté grandement embarrassée si sa sœur eut bien voulu luy prester son habit. Le lendemain, les deux sœurs furent au bal, et Cendrillon aussi,",
+          "span": [
+            296,
+            300
+          ]
+        },
+        {
+          "id": "occ_parure_1d6affad013ea34a0f7a11b9",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_124",
+          "passage": "— Tu te rappelles bien cette rivière de diamants que tu m’as prêtée pour aller à la fête du Ministère.",
+          "span": [
+            18,
+            22
+          ]
+        },
+        {
+          "id": "occ_parure_96b67020cea0dfad06bf26e0",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_131",
+          "passage": "— Oui. Tu ne t’en étais pas aperçue, hein ? Elles étaient bien pareilles.",
+          "span": [
+            58,
+            62
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_bien_emphatic_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "C’est _____ la même personne, je le confirme après vérification.",
+          "choices": [
+            {
+              "text": "peut-être",
+              "correct": false
+            },
+            {
+              "text": "rarement",
+              "correct": false
+            },
+            {
+              "text": "autrefois",
+              "correct": false
+            },
+            {
+              "text": "bien",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_bien_emphatic_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "C’est bien lui que j’ai vu : je le reconnais sans hésiter.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "indeed",
+              "correct": true
+            },
+            {
+              "text": "perhaps",
+              "correct": false
+            },
+            {
+              "text": "never",
+              "correct": false
+            },
+            {
+              "text": "hardly",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_bien_emphatic_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Tu te souviens bien de cette rencontre, j’en suis certain.",
+          "prompt": "Quel adverbe renforce ici l’affirmation du souvenir ?",
+          "choices": [
+            {
+              "text": "certain",
+              "correct": false
+            },
+            {
+              "text": "souviens",
+              "correct": false
+            },
+            {
+              "text": "bien",
+              "correct": true
+            },
+            {
+              "text": "rencontre",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

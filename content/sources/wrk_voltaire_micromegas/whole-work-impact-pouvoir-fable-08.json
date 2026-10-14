@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:36:09.825Z",
+  "sense": {
+    "id": "sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47",
+    "lemmaId": "lem_zola_pouvoir",
+    "gloss": "can; am able to",
+    "definition": "avoir la possibilité ou la capacité de faire quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_early",
+      "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_advanced",
+      "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_puis_pouvoir:sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47",
+      "surface": "puis",
+      "lemma": "pouvoir",
+      "currentRevision": "rev_9aecb21abe731ea97c4d3a574c9cacb77d232ac73f0257a411619dd83171fe96",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_loup_agneau_37dc67868a6d9977b37520e2",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_10",
+          "passage": "Et que par conséquent, en aucune façon, je ne puis troubler sa boisson.",
+          "span": [
+            46,
+            50
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Je puis vous aider à porter cette caisse.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "must",
+              "correct": false
+            },
+            {
+              "text": "dare to",
+              "correct": false
+            },
+            {
+              "text": "can",
+              "correct": true
+            },
+            {
+              "text": "want to",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Je puis réparer cette lampe, car je possède les outils nécessaires.",
+          "prompt": "Quel verbe exprime la capacité de la personne qui parle ?",
+          "choices": [
+            {
+              "text": "puis",
+              "correct": true
+            },
+            {
+              "text": "lampe",
+              "correct": false
+            },
+            {
+              "text": "possède",
+              "correct": false
+            },
+            {
+              "text": "outils",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_puis_sns_loup_agneau_pouvoir_avoir_la_possibilite_ou_la_capacite_de_faire_quelque_chose_66ce4e0a47_79623075ab_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Je _____ vous accompagner si vous le souhaitez.",
+          "choices": [
+            {
+              "text": "pouvons",
+              "correct": false
+            },
+            {
+              "text": "puis",
+              "correct": true
+            },
+            {
+              "text": "peux-tu",
+              "correct": false
+            },
+            {
+              "text": "peut",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

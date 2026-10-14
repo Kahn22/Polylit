@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapters": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "status": "source_bound_expression_triage_many_questions_and_identities_pending",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "summary": {
+    "candidates": 25,
+    "phraseUses": 36,
+    "previousExpressionKeys": 7
+  },
+  "items": [
+    {
+      "key": "d_abord",
+      "surfacePattern": "d’abord",
+      "decision": "link_published_locution_identity",
+      "editorialNote": "The established published first/at first identity is suitable where the movement or perception begins.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 85,
+          "start": 13,
+          "end": 20,
+          "text": "d’abord"
+        },
+        {
+          "chapter": 4,
+          "unit": 92,
+          "start": 58,
+          "end": 65,
+          "text": "d’abord"
+        },
+        {
+          "chapter": 4,
+          "unit": 107,
+          "start": 30,
+          "end": 37,
+          "text": "d’abord"
+        },
+        {
+          "chapter": 5,
+          "unit": 120,
+          "start": 280,
+          "end": 287,
+          "text": "d’abord"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-02-expressions.json",
+          "key": "d_abord",
+          "disposition": "reuse_published_locution_identity_no_extra_expression",
+          "fileSha256": "66572b8d7083ae55246464372ec336940b449dc229efc2abf562b711fd079d99",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "chapter-03-expressions.json",
+          "key": "d_abord",
+          "disposition": "reuse_published_locution_identity",
+          "fileSha256": "0d997aac5bddeff5d47eacb91d93eca70661a926e5468c15018857adb5e3d2c4",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "key": "a_peine",
+      "surfacePattern": "à peine",
+      "decision": "share_chapter_two_reviewed_expression",
+      "editorialNote": "The barely/no-sooner reading matches the reviewed chapter II temporal expression; check its precise clause relation at import.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 89,
+          "start": 47,
+          "end": 54,
+          "text": "à peine"
+        },
+        {
+          "chapter": 5,
+          "unit": 121,
+          "start": 27,
+          "end": 34,
+          "text": "à peine"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-02-expressions.json",
+          "key": "a_peine",
+          "disposition": "new_expression_three_question_bands",
+          "fileSha256": "66572b8d7083ae55246464372ec336940b449dc229efc2abf562b711fd079d99",
+          "questionsSha256": "e7168935f3e5d75872b5e9bba4647b28eb90f883fdd5852e1a0c00140063ecb9"
+        },
+        {
+          "file": "chapter-03-expressions.json",
+          "key": "a_peine",
+          "disposition": "link_existing_chapter_two_expression",
+          "fileSha256": "0d997aac5bddeff5d47eacb91d93eca70661a926e5468c15018857adb5e3d2c4",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "key": "a_peu_pres",
+      "surfacePattern": "à peu près",
+      "decision": "reuse_published_approximation_identity",
+      "editorialNote": "The magnitude is approximate, as in the earlier vocabulary decision.",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "unit": 122,
+          "start": 326,
+          "end": 336,
+          "text": "à peu près"
+        },
+        {
+          "chapter": 6,
+          "unit": 135,
+          "start": 32,
+          "end": 42,
+          "text": "à peu près"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-01-expressions-01.json",
+          "key": "a_peu_pres",
+          "disposition": "reuse_existing_vocabulary_identity_no_new_expression_mastery",
+          "fileSha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "key": "au_bout_de",
+      "surfacePattern": "au bout de",
+      "decision": "share_chapter_one_temporal_expression",
+      "editorialNote": "The ten-year duration matches the already reviewed temporal expression and differs from spatial at the tip.",
+      "occurrences": [
+        {
+          "chapter": 7,
+          "unit": 182,
+          "start": 10,
+          "end": 20,
+          "text": "au bout de"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-01-expressions-01.json",
+          "key": "au_bout_de",
+          "disposition": "split_spatial_compositional_temporal_expression_draft",
+          "fileSha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57",
+          "questionsSha256": "69262d680f477b187a1794c51ff95e817d5ee7a3774c713c4849b02b5f5f925a"
+        }
+      ]
+    },
+    {
+      "key": "faire_le_tour",
+      "surfacePattern": "fait le tour",
+      "decision": "share_chapter_one_travel_expression",
+      "editorialNote": "The travelers circumnavigate the Earth, the same action tested in the earlier expression.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 87,
+          "start": 51,
+          "end": 63,
+          "text": "fait le tour"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-01-expressions-01.json",
+          "key": "faire_le_tour",
+          "disposition": "new_expression_draft_question_signoff_pending",
+          "fileSha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57",
+          "questionsSha256": "e16391952c6051ce8c642839dadad9d0d67ef790e2b53d9d57b883568a752e72"
+        }
+      ]
+    },
+    {
+      "key": "sur_le_champ",
+      "surfacePattern": "sur-le-champ",
+      "decision": "single_orthographic_token",
+      "editorialNote": "Immediate action is one tokenizer token and requires vocabulary treatment.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 138,
+          "start": 362,
+          "end": 374,
+          "text": "sur-le-champ"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-01-expressions-01.json",
+          "key": "sur_le_champ",
+          "disposition": "single_orthographic_word_lexical_queue",
+          "fileSha256": "6e1516a8847f85935ba339ae4aae9c86689c9bb34c64449aca9ce2b8cbd8de57",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "key": "de_sorte_que",
+      "surfacePattern": "de sorte que",
+      "decision": "published_expression_candidate_review",
+      "editorialNote": "The consequence clause uses a previously published expression; inspect its full prior questions before reuse.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 140,
+          "start": 72,
+          "end": 84,
+          "text": "de sorte que"
+        }
+      ]
+    },
+    {
+      "key": "bon_sens",
+      "surfacePattern": "bon sens",
+      "decision": "published_judgment_identity_candidate",
+      "editorialNote": "Practical judgment rather than the sensory organ sense; check the earlier identity against both uses.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 97,
+          "start": 100,
+          "end": 108,
+          "text": "bon sens"
+        },
+        {
+          "chapter": 4,
+          "unit": 97,
+          "start": 212,
+          "end": 220,
+          "text": "bon sens"
+        },
+        {
+          "chapter": 6,
+          "unit": 144,
+          "start": 41,
+          "end": 49,
+          "text": "bon sens"
+        }
+      ],
+      "earlierDecisions": [
+        {
+          "file": "chapter-02-expressions.json",
+          "key": "bon_sens",
+          "disposition": "reuse_published_judgment_identity",
+          "fileSha256": "66572b8d7083ae55246464372ec336940b449dc229efc2abf562b711fd079d99",
+          "questionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "key": "de_quoi",
+      "surfacePattern": "de quoi",
+      "decision": "candidate_construction_review",
+      "editorialNote": "Possibility or available reason differs across de quoi coucher and de quoi je doute; inspect before merging.",
+      "occurrences": [
+        {
+          "chapter": 7,
+          "unit": 207,
+          "start": 65,
+          "end": 72,
+          "text": "de quoi"
+        },
+        {
+          "chapter": 7,
+          "unit": 207,
+          "start": 170,
+          "end": 177,
+          "text": "de quoi"
+        }
+      ]
+    },
+    {
+      "key": "faire_l_amour",
+      "surfacePattern": "faire l’amour",
+      "decision": "new_expression_or_separate_love_sense_pending",
+      "editorialNote": "Sexual intimacy cannot inherit the earlier bare noun love questions without a semantic decision.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 115,
+          "end": 128,
+          "text": "faire l’amour"
+        }
+      ]
+    },
+    {
+      "key": "de_nouveau",
+      "surfacePattern": "de nouveau",
+      "decision": "new_repetition_sense_pending",
+      "editorialNote": "Means again, not the reformed calendar adjective drafted in chapter III.",
+      "occurrences": [
+        {
+          "chapter": 7,
+          "unit": 199,
+          "start": 210,
+          "end": 220,
+          "text": "de nouveau"
+        }
+      ]
+    },
+    {
+      "key": "article_de_la_generation",
+      "surfacePattern": "l’article de la génération",
+      "decision": "new_topic_sense_pending",
+      "editorialNote": "Article means matter or topic, not the previously drafted printed article.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 133,
+          "start": 171,
+          "end": 197,
+          "text": "l’article de la génération"
+        }
+      ]
+    },
+    {
+      "key": "tout_a_l_heure",
+      "surfacePattern": "tout à l’heure",
+      "decision": "new_temporal_expression_pending",
+      "editorialNote": "Refers back to a little while earlier in this exchange.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 136,
+          "start": 37,
+          "end": 51,
+          "text": "tout à l’heure"
+        }
+      ]
+    },
+    {
+      "key": "a_la_verite",
+      "surfacePattern": "à la vérité",
+      "decision": "new_concessive_expression_pending",
+      "editorialNote": "Introduces a concession before contrasting the Earth with the Sun.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 87,
+          "start": 107,
+          "end": 118,
+          "text": "à la vérité"
+        }
+      ]
+    },
+    {
+      "key": "a_son_aise",
+      "surfacePattern": "à son aise",
+      "decision": "new_manner_expression_pending",
+      "editorialNote": "Turning comfortably as opposed to walking.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 87,
+          "start": 218,
+          "end": 228,
+          "text": "à son aise"
+        }
+      ]
+    },
+    {
+      "key": "dessous_des_cartes",
+      "surfacePattern": "le dessous des cartes",
+      "decision": "new_figurative_expression_pending",
+      "editorialNote": "Figurative hidden truth behind the newspapers’ story.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 114,
+          "start": 151,
+          "end": 172,
+          "text": "le dessous des cartes"
+        }
+      ]
+    },
+    {
+      "key": "sur_le_fait",
+      "surfacePattern": "sur le fait",
+      "decision": "new_caught_in_act_expression_pending",
+      "editorialNote": "The Saturnian claims direct proof of nature’s process.",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "unit": 131,
+          "start": 38,
+          "end": 49,
+          "text": "sur le fait"
+        }
+      ]
+    },
+    {
+      "key": "de_bonne_foi",
+      "surfacePattern": "de bonne foi",
+      "decision": "new_sincerity_expression_pending",
+      "editorialNote": "The philosopher concedes candidly that people are unhappy.",
+      "occurrences": [
+        {
+          "chapter": 7,
+          "unit": 171,
+          "start": 105,
+          "end": 117,
+          "text": "de bonne foi"
+        }
+      ]
+    },
+    {
+      "key": "peu_a_peu",
+      "surfacePattern": "Peu à peu",
+      "decision": "new_gradual_expression_pending",
+      "editorialNote": "The conversation gradually becomes interesting.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 168,
+          "start": 0,
+          "end": 9,
+          "text": "Peu à peu"
+        }
+      ]
+    },
+    {
+      "key": "de_haut_en_bas",
+      "surfacePattern": "de haut en bas",
+      "decision": "contextual_gaze_expression_pending",
+      "editorialNote": "The cleric looks the visitors up and down; later decide literal or contemptuous reading.",
+      "occurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 231,
+          "end": 245,
+          "text": "de haut en bas"
+        }
+      ]
+    },
+    {
+      "key": "a_la_fois",
+      "surfacePattern": "à la fois",
+      "decision": "new_simultaneity_expression_pending",
+      "editorialNote": "Several speakers or actions happen at the same time.",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "unit": 128,
+          "start": 38,
+          "end": 47,
+          "text": "à la fois"
+        },
+        {
+          "chapter": 7,
+          "unit": 188,
+          "start": 21,
+          "end": 30,
+          "text": "à la fois"
+        },
+        {
+          "chapter": 7,
+          "unit": 193,
+          "start": 31,
+          "end": 40,
+          "text": "à la fois"
+        }
+      ]
+    },
+    {
+      "key": "au_moins",
+      "surfacePattern": "au moins",
+      "decision": "published_minimum_expression_candidate",
+      "editorialNote": "At least a minimum amount or certainty, pending question comparison.",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "unit": 124,
+          "start": 121,
+          "end": 129,
+          "text": "au moins"
+        },
+        {
+          "chapter": 7,
+          "unit": 200,
+          "start": 157,
+          "end": 165,
+          "text": "au moins"
+        }
+      ]
+    },
+    {
+      "key": "avoir_beau",
+      "surfacePattern": "aura beau",
+      "decision": "new_futile_attempt_expression_pending",
+      "editorialNote": "The effort cannot change the stated result.",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "unit": 124,
+          "start": 181,
+          "end": 190,
+          "text": "aura beau"
+        }
+      ]
+    },
+    {
+      "key": "de_loin",
+      "surfacePattern": "de loin",
+      "decision": "compositional_distance",
+      "editorialNote": "Following at a distance is already supported by the distance adverb.",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "unit": 86,
+          "start": 162,
+          "end": 169,
+          "text": "de loin"
+        }
+      ]
+    },
+    {
+      "key": "peu_de_mots",
+      "surfacePattern": "en peu de mots",
+      "decision": "compositional_brevity",
+      "editorialNote": "Ordinary quantifier plus words denotes a brief account.",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "unit": 155,
+          "start": 83,
+          "end": 97,
+          "text": "en peu de mots"
+        }
+      ]
+    }
+  ]
+}

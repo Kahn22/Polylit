@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-review-2026-09-25-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "all eleven indexed pronoun occurrences and three dependent question bands reviewed",
+  "changes": [
+    {
+      "subjectId": "srf_en:sns_en_it",
+      "reviewId": "vocabulary:srf_en:sns_en_it",
+      "outcome": "approve",
+      "rationale": "All eleven indexed uses are the pronoun en referring back to a de-complement, source, or partitive object: « s’en saisit », « je n’en ai point », « en sont un témoignage », « pour l’en expulser », « il en disparaît », « s’en assurer », and « en tira une carte ». The sense definition covers these back-references, while the three questions correctly test of it or a partitive quantity. None is the preposition en or the gerund marker.",
+      "before": {
+        "id": "vocabulary:srf_en:sns_en_it",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_en:sns_en_it",
+        "subjectRevision": "rev_599c4678d1cbe3c3d3eb3d51075a07356d3d41ecfe20cee468b0c9a9011d2633",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "This 11-occurrence identity combines a preposition and pronoun in its part of speech while the sense only defines the pronoun replacing a de-complement. Confirm every use is pronominal and split/reclassify any prepositional occurrences before approval."
+      },
+      "after": {
+        "id": "vocabulary:srf_en:sns_en_it",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_en:sns_en_it",
+        "subjectRevision": "rev_599c4678d1cbe3c3d3eb3d51075a07356d3d41ecfe20cee468b0c9a9011d2633",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "All eleven indexed uses are the pronoun en referring back to a de-complement, source, or partitive object: « s’en saisit », « je n’en ai point », « en sont un témoignage », « pour l’en expulser », « il en disparaît », « s’en assurer », and « en tira une carte ». The sense definition covers these back-references, while the three questions correctly test of it or a partitive quantity. None is the preposition en or the gerund marker.",
+        "reviewedBy": "Codex offline contextual review",
+        "reviewedAt": "2026-09-25T16:18:45.093Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 11
+    }
+  ]
+}

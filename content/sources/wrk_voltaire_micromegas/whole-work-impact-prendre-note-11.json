@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:15.162Z",
+  "sense": {
+    "id": "sns_fr_prendre_note_record",
+    "lemmaId": "lem_prendre",
+    "gloss": "to note; to record",
+    "definition": "Noter ou relever une information pour la conserver."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_prendre_note_record_zola_pris_prendre_levels_4_5",
+      "qiz_fr_prendre_note_record_zola_pris_prendre_levels_6_8",
+      "qiz_fr_prendre_note_record_zola_pris_prendre_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_pris_prendre:sns_fr_prendre_note_record",
+      "surface": "pris",
+      "lemma": "prendre",
+      "currentRevision": "rev_8e20cc37ddc860223e849828f37642483b763b0844c5b6ea88f97a1118b7a225",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_758ad8d029ee35afd37b2089",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_077",
+          "passage": "— Oui. C’est probable. As-tu pris le numéro ?",
+          "span": [
+            29,
+            33
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_prendre_note_record_zola_pris_prendre_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle a _____ ses coordonnées par écrit afin de pouvoir le rappeler.",
+          "choices": [
+            {
+              "text": "pris",
+              "correct": true
+            },
+            {
+              "text": "effacé",
+              "correct": false
+            },
+            {
+              "text": "oublié",
+              "correct": false
+            },
+            {
+              "text": "perdu",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_note_record_zola_pris_prendre_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il a pris l’adresse sur un morceau de papier avant de quitter le bureau.",
+          "prompt": "Quel participe signifie ici noter une information ?",
+          "choices": [
+            {
+              "text": "adresse",
+              "correct": false
+            },
+            {
+              "text": "papier",
+              "correct": false
+            },
+            {
+              "text": "bureau",
+              "correct": false
+            },
+            {
+              "text": "pris",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_note_record_zola_pris_prendre_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "As-tu pris le numéro de la voiture en le notant sur ton carnet ?",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "invented",
+              "correct": false
+            },
+            {
+              "text": "noted",
+              "correct": true
+            },
+            {
+              "text": "erased",
+              "correct": false
+            },
+            {
+              "text": "forgotten",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

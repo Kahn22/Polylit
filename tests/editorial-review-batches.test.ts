@@ -17,6 +17,12 @@ describe('offline editorial review batches', () => {
     const corrections = readdirSync(correctionDirectory).filter(file => file.endsWith('.json')).map(file => JSON.parse(readFileSync(new URL(file, correctionDirectory), 'utf8')) as { mappings?: { from: string }[]; resolutions?: { to: string }[] }).filter(correction => correction.mappings && correction.resolutions);
     const retiredVocabularyReviewIds = new Set(corrections.flatMap(correction => correction.mappings!.map(mapping => `vocabulary:${mapping.from}`)).filter(id => !subjects.has(id)));
     const correctedVocabularyReviewIds = new Set(corrections.flatMap(correction => correction.resolutions!.map(resolution => `vocabulary:${resolution.to}`)));
+    const transaction = JSON.parse(readFileSync(new URL('../content/published/transaction-batches/fr-micromegas-78.json', import.meta.url), 'utf8'));
+    for (const id of transaction.inactiveSubjectIds) retiredVocabularyReviewIds.add(id);
+    for (const file of ['whole-work-final-acceptance-77.json', 'whole-work-acceptance-76.json']) {
+      const ledger = JSON.parse(readFileSync(new URL(`../content/sources/wrk_voltaire_micromegas/${file}`, import.meta.url), 'utf8'));
+      for (const d of ledger.decisions) correctedVocabularyReviewIds.add(`${d.kind}:${d.id}`);
+    }
     let reviewed = 0;
     let approvals = 0;
     let holds = 0;
@@ -63,7 +69,8 @@ describe('offline editorial review batches', () => {
     for (const reviewId of new Set(ledgerChanges.map(change => change.reviewId))) {
       if (currentLedgerChanges.some(change => change.reviewId === reviewId)) continue;
       expect(correctedVocabularyReviewIds.has(reviewId), reviewId).toBe(true);
-      const subject = subjects.get(reviewId)!;
+      const subject = subjects.get(reviewId);
+      if (!subject) { expect(retiredVocabularyReviewIds.has(reviewId)).toBe(true); continue; }
       expect(approvalIssues(reviews.get(reviewId), subject.value, subject.kind, subject.id, subject.language)).toEqual([]);
     }
     const outstanding = auditEditorialQuality(publication).filter(issue => issue.language === 'fr' && issue.kind === 'vocabulary');

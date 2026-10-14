@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 3,
+  "status": "offline_editorial_draft_unpublished",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "expectedIdentityCount": 2,
+  "items": [
+    {
+      "key": "trouverent_found_to_be",
+      "form": "trouvèrent",
+      "lemma": "trouver",
+      "partOfSpeech": "verb past historic third plural judgment",
+      "meaning": "found to be; judged",
+      "editorialNote": "In chapter III 67:82, trouvèrent means found to be; judged. The source excerpt and authored alternatives distinguish the target meaning.",
+      "sourceOccurrences": [
+        {
+          "chapter": 3,
+          "unit": 67,
+          "start": 82,
+          "end": 92,
+          "text": "trouvèrent"
+        },
+        {
+          "chapter": 3,
+          "unit": 77,
+          "start": 29,
+          "end": 39,
+          "text": "trouvèrent"
+        }
+      ],
+      "formCoverage": "chapter_three_contextual_sense_subset",
+      "status": "chapter_three_draft_question_review_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "… ; ils sautèrent d’abord sur l’anneau, qu’ils trouvèrent assez plat, comme l’a fort bien deviné un illustre …",
+          "question": "Meaning",
+          "answer": "judged",
+          "choices": [
+            "judged",
+            "located",
+            "forgot",
+            "ignored"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils ne changèrent pas la surface, mais la jugèrent plate : ils la ___ plate.",
+          "question": "Complétez la phrase.",
+          "answer": "trouvèrent",
+          "choices": [
+            "trouvèrent",
+            "rendirent",
+            "laissèrent",
+            "voulurent"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils la trouvèrent plate en portant un jugement; rendirent provoquerait un changement, laissèrent ne le modifierait pas et voulurent exprimerait un souhait.",
+          "question": "Quel mot exprime found to be ?",
+          "answer": "trouvèrent",
+          "choices": [
+            "trouvèrent",
+            "rendirent",
+            "laissèrent",
+            "voulurent"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "passait_was_passing_by",
+      "form": "passait",
+      "lemma": "passer",
+      "partOfSpeech": "verb imperfect third singular motion",
+      "meaning": "was passing by; moved nearby",
+      "editorialNote": "In chapter III 68:11, passait means was passing by; moved nearby. The source excerpt and authored alternatives distinguish the target meaning.",
+      "sourceOccurrences": [
+        {
+          "chapter": 3,
+          "unit": 68,
+          "start": 11,
+          "end": 18,
+          "text": "passait"
+        }
+      ],
+      "formCoverage": "chapter_three_contextual_sense_subset",
+      "status": "chapter_three_draft_question_review_pending",
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Une comète passait tout auprès de la dernière ; ils s’élancèrent sur elle …",
+          "question": "Meaning",
+          "answer": "passed nearby",
+          "choices": [
+            "passed nearby",
+            "happened",
+            "vanished",
+            "slept"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La comète se déplaçait près de la lune : elle y ___.",
+          "question": "Complétez la phrase.",
+          "answer": "passait",
+          "choices": [
+            "passait",
+            "demeurait",
+            "disparaissait",
+            "dormait"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Elle passait auprès de la lune en se déplaçant; demeurait si elle restait, disparaissait si elle s’effaçait et dormait si elle se reposait.",
+          "question": "Quel mot exprime was passing by ?",
+          "answer": "passait",
+          "choices": [
+            "passait",
+            "demeurait",
+            "disparaissait",
+            "dormait"
+          ]
+        }
+      ]
+    }
+  ]
+}

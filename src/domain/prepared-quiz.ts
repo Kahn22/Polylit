@@ -5,12 +5,13 @@ export interface PreparedQuiz {
   id: string;
   language: "fr" | "es";
   glossLanguage: "en";
-  subject: { kind: "vocabulary"; surfaceFormId: string; senseId: string } | { kind: "expression"; expressionId: string };
+  subject: { kind: "vocabulary"; surfaceFormId: string; senseId: string } | { kind: "expression"; expressionId: string; surfaceId?: string };
   band: "levels_1_3" | "levels_4_5" | "levels_6_8";
   format: "meaning_choice" | "surface_completion" | "target_identification";
   context: string;
   targetText?: string;
   targetRange?: TargetRange;
+  targetSegments?: TargetRange[];
   prompt?: string;
   choices: QuizChoice[];
   correctChoiceId: string;

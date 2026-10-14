@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { tokenizeFrench } from '../dist/ingestion/tokenize.js';
-import { loadPublication } from '../dist/publication/repository.js';
+import { loadPublication } from './micromegas-publication-baseline.mjs';
 
 // Exhaustive inventory. Catalogue matches and presence of old questions never
 // constitute a contextual identity or new-question approval.

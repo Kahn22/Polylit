@@ -1,0 +1,851 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-42",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 42,
+  "reviewedIdentities": 25,
+  "approvals": 20,
+  "holds": 5,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of lemma, part of speech, surface form, indexed contexts, sense and reuse candidates",
+  "changes": [
+    {
+      "subjectId": "srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+      "reviewId": "vocabulary:srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+      "outcome": "approve",
+      "rationale": "In the formal closing, veuillez agréer means please accept; the infinitive gloss fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+        "subjectRevision": "rev_fbccaee93498d7df797dec619c6563a5af191fa8186bcbbc70337da30c46b580",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_agreer_1437b669974b_agreer:sns_zola_agreer_accept",
+        "subjectRevision": "rev_fbccaee93498d7df797dec619c6563a5af191fa8186bcbbc70337da30c46b580",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In the formal closing, veuillez agréer means please accept; the infinitive gloss fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ah_ah:sns_zola_ah_emotion",
+      "reviewId": "vocabulary:srf_zola_ah_ah:sns_zola_ah_emotion",
+      "outcome": "approve",
+      "rationale": "Reviewed the exclamatory occurrences: ah expresses surprise, realization, indignation, or emphasis. The interjection identity is accurate.",
+      "before": {
+        "id": "vocabulary:srf_zola_ah_ah:sns_zola_ah_emotion",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ah_ah:sns_zola_ah_emotion",
+        "subjectRevision": "rev_bf4f316a2e74ecbb6d2b2ac9d65acb47bd1c67277a387e6e9bea4a12c2a1760c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ah_ah:sns_zola_ah_emotion",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ah_ah:sns_zola_ah_emotion",
+        "subjectRevision": "rev_bf4f316a2e74ecbb6d2b2ac9d65acb47bd1c67277a387e6e9bea4a12c2a1760c",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the exclamatory occurrences: ah expresses surprise, realization, indignation, or emphasis. The interjection identity is accurate.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "hold",
+      "rationale": "Reviewed indexed occurrences: ai is avoir in first-person singular present, used for possession and as a compound-tense auxiliary. The shared sense covers both. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3).",
+      "before": {
+        "id": "vocabulary:srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_768c23cd0994c08e52bdf5be73989f8bf32a192ec7e8fe31102236e91a36f00e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ai_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_768c23cd0994c08e52bdf5be73989f8bf32a192ec7e8fe31102236e91a36f00e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed indexed occurrences: ai is avoir in first-person singular present, used for possession and as a compound-tense auxiliary. The shared sense covers both. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "reviewedOccurrences": 19
+    },
+    {
+      "subjectId": "srf_zola_aiment_aimer:sns_zola_aimer_love",
+      "reviewId": "vocabulary:srf_zola_aiment_aimer:sns_zola_aimer_love",
+      "outcome": "approve",
+      "rationale": "In des femmes et des enfants qu’ils aiment, aiment means love; the verb and form fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_aiment_aimer:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_aiment_aimer:sns_zola_aimer_love",
+        "subjectRevision": "rev_b7b4f20c13c6f76f0e8f94e0c87f0eb51e0989bb70b6e1485b59717fbbdcfea9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_aiment_aimer:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_aiment_aimer:sns_zola_aimer_love",
+        "subjectRevision": "rev_b7b4f20c13c6f76f0e8f94e0c87f0eb51e0989bb70b6e1485b59717fbbdcfea9",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In des femmes et des enfants qu’ils aiment, aiment means love; the verb and form fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_aimions_aimer:sns_zola_aimer_love",
+      "reviewId": "vocabulary:srf_zola_aimions_aimer:sns_zola_aimer_love",
+      "outcome": "approve",
+      "rationale": "In on veut que nous l’aimions, the subjunctive form means that we love the army; sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_aimions_aimer:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_aimions_aimer:sns_zola_aimer_love",
+        "subjectRevision": "rev_8aadc7e9cba2da12b487c44a735877512f18f9b36e603a09765d89d1d38d9d48",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_aimions_aimer:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_aimions_aimer:sns_zola_aimer_love",
+        "subjectRevision": "rev_8aadc7e9cba2da12b487c44a735877512f18f9b36e603a09765d89d1d38d9d48",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In on veut que nous l’aimions, the subjunctive form means that we love the army; sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+      "reviewId": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+      "outcome": "hold",
+      "rationale": "Ait is the subjunctive form of avoir, used as an auxiliary in the examples; the prepared possess/auxiliary sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3).",
+      "before": {
+        "id": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_946f42d36cbb862d6bf34862e52587496daa7676cb31c142442626862e33d469",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ait_avoir:sns_zola_avoir_possess_auxiliary",
+        "subjectRevision": "rev_946f42d36cbb862d6bf34862e52587496daa7676cb31c142442626862e33d469",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Ait is the subjunctive form of avoir, used as an auxiliary in the examples; the prepared possess/auxiliary sense fits. Unresolved same-lemma candidate remains (dup_fbf0cb6e01683d610c4e70bd320a853ce1428f0369f7b81747ce2d2d53a89ee3)."
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+      "outcome": "hold",
+      "rationale": "In les juges allaient naturellement acquitter, allaient marks an imminent or expected action (‘were going to acquit’); sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0).",
+      "before": {
+        "id": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_df1e4d1500f1af7c8802a9110a7b11ff57b5bc23aad409702506fe24a0c7bca2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allaient_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_df1e4d1500f1af7c8802a9110a7b11ff57b5bc23aad409702506fe24a0c7bca2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In les juges allaient naturellement acquitter, allaient marks an imminent or expected action (‘were going to acquit’); sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+      "outcome": "hold",
+      "rationale": "In j’allais dire, the imperfect of aller marks what the speaker was about to say; the imminent-action sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0).",
+      "before": {
+        "id": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_1c56a133aad56ecbb67fe572343301a6cfaa82b9902aca06726404d6b843c18d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allais_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allais_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_1c56a133aad56ecbb67fe572343301a6cfaa82b9902aca06726404d6b843c18d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "In j’allais dire, the imperfect of aller marks what the speaker was about to say; the imminent-action sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+      "reviewId": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+      "outcome": "hold",
+      "rationale": "Reviewed contexts: allait + infinitive marks an action expected or about to happen, including speaking, depositing evidence, and the sun shining. The sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0).",
+      "before": {
+        "id": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_f641d2f144c9109b86315cde6788f21df56e1e7314d41f4bb68b18d7697d2065",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allait_aller:sns_zola_aller_imminent",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allait_aller:sns_zola_aller_imminent",
+        "subjectRevision": "rev_f641d2f144c9109b86315cde6788f21df56e1e7314d41f4bb68b18d7697d2065",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Reviewed contexts: allait + infinitive marks an action expected or about to happen, including speaking, depositing evidence, and the sun shining. The sense fits. Unresolved same-lemma candidate remains (dup_8c5d0887a368331c90c3d2bc554965125234fe5b851c441f92bb0194a8f632d0)."
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_zola_allemand_allemand:sns_zola_allemand_german",
+      "reviewId": "vocabulary:srf_zola_allemand_allemand:sns_zola_allemand_german",
+      "outcome": "approve",
+      "rationale": "In empereur allemand, allemand is the adjective ‘German’; form and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_allemand_allemand:sns_zola_allemand_german",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allemand_allemand:sns_zola_allemand_german",
+        "subjectRevision": "rev_cef55e65f9468ad0867ade49aa8e723c259042f76f0b429d1c3de418dc1ba3cb",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_allemand_allemand:sns_zola_allemand_german",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_allemand_allemand:sns_zola_allemand_german",
+        "subjectRevision": "rev_cef55e65f9468ad0867ade49aa8e723c259042f76f0b429d1c3de418dc1ba3cb",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In empereur allemand, allemand is the adjective ‘German’; form and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_alliance_alliance:sns_zola_alliance_union",
+      "reviewId": "vocabulary:srf_zola_alliance_alliance:sns_zola_alliance_union",
+      "outcome": "approve",
+      "rationale": "The Russian alliance with France is a union/partnership; the noun gloss fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_alliance_alliance:sns_zola_alliance_union",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_alliance_alliance:sns_zola_alliance_union",
+        "subjectRevision": "rev_3eb68775b0cfdb810d91d58244c596eff53f7378e0377942f3041727f2bc880a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_alliance_alliance:sns_zola_alliance_union",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_alliance_alliance:sns_zola_alliance_union",
+        "subjectRevision": "rev_3eb68775b0cfdb810d91d58244c596eff53f7378e0377942f3041727f2bc880a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The Russian alliance with France is a union/partnership; the noun gloss fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_alors_alors:sns_zola_alors_then",
+      "reviewId": "vocabulary:srf_zola_alors_alors:sns_zola_alors_then",
+      "outcome": "approve",
+      "rationale": "Reviewed contexts: alors means then/at that time and organizes the narrative sequence. The adverb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_alors_alors:sns_zola_alors_then",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_alors_alors:sns_zola_alors_then",
+        "subjectRevision": "rev_e92b7febc3a60321b543d5199fae58da7a2c9a50da07422accd1d9c4dfdbad86",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_alors_alors:sns_zola_alors_then",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_alors_alors:sns_zola_alors_then",
+        "subjectRevision": "rev_e92b7febc3a60321b543d5199fae58da7a2c9a50da07422accd1d9c4dfdbad86",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed contexts: alors means then/at that time and organizes the narrative sequence. The adverb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+      "reviewId": "vocabulary:srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+      "outcome": "approve",
+      "rationale": "In s’y amasse, amasser means accumulate/gather; the verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+        "subjectRevision": "rev_5b643bbebc5c7bcece5c946ed7c4b052d726721297fcaea8bf1d5b36e2423b87",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amasse_amasser:sns_zola_amasser_accumulate",
+        "subjectRevision": "rev_5b643bbebc5c7bcece5c946ed7c4b052d726721297fcaea8bf1d5b36e2423b87",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In s’y amasse, amasser means accumulate/gather; the verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+      "reviewId": "vocabulary:srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+      "outcome": "approve",
+      "rationale": "Reviewed both contexts: âme refers to the inner self or soul, including remorse and personal protest. The sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+        "subjectRevision": "rev_6af2f3d1c09ef8ec6b7e515d3c861eda52e91ba63d96e7a2a598b53a12b5ab1b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ame_0b45be1ce6f8_ame:sns_zola_ame_inner_self",
+        "subjectRevision": "rev_6af2f3d1c09ef8ec6b7e515d3c861eda52e91ba63d96e7a2a598b53a12b5ab1b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed both contexts: âme refers to the inner self or soul, including remorse and personal protest. The sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_amener_amener:sns_zola_amener_bring",
+      "reviewId": "vocabulary:srf_zola_amener_amener:sns_zola_amener_bring",
+      "outcome": "approve",
+      "rationale": "In l’amener à des aveux, amener means lead/bring someone to a result; the contextual verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_amener_amener:sns_zola_amener_bring",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amener_amener:sns_zola_amener_bring",
+        "subjectRevision": "rev_9f0326a040abe510077059ed8b46edf6e1695a565e30af3557a7bf21077608e6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_amener_amener:sns_zola_amener_bring",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amener_amener:sns_zola_amener_bring",
+        "subjectRevision": "rev_9f0326a040abe510077059ed8b46edf6e1695a565e30af3557a7bf21077608e6",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In l’amener à des aveux, amener means lead/bring someone to a result; the contextual verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+      "reviewId": "vocabulary:srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+      "outcome": "approve",
+      "rationale": "In ils ameutent la France, ameuter means stir up or rouse the public; the sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+        "subjectRevision": "rev_b809ebea8c0beccae85f2f04dcb21728d66d1707ccbb562b22017698940252fd",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ameutent_ameuter:sns_zola_ameuter_stir_up",
+        "subjectRevision": "rev_b809ebea8c0beccae85f2f04dcb21728d66d1707ccbb562b22017698940252fd",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In ils ameutent la France, ameuter means stir up or rouse the public; the sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_amicale_amical:sns_zola_amical_friendly",
+      "reviewId": "vocabulary:srf_zola_amicale_amical:sns_zola_amical_friendly",
+      "outcome": "approve",
+      "rationale": "A correspondance amicale is friendly correspondence; the adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_amicale_amical:sns_zola_amical_friendly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amicale_amical:sns_zola_amical_friendly",
+        "subjectRevision": "rev_d56450057ff3a7a7a1fca9ed80f9eb8080930ec737ddcc5e8a8c4392de835977",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_amicale_amical:sns_zola_amical_friendly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amicale_amical:sns_zola_amical_friendly",
+        "subjectRevision": "rev_d56450057ff3a7a7a1fca9ed80f9eb8080930ec737ddcc5e8a8c4392de835977",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "A correspondance amicale is friendly correspondence; the adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+      "reviewId": "vocabulary:srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+      "outcome": "approve",
+      "rationale": "The storm was piling up/gathering; amoncelait is the imperfect form and the contextual sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+        "subjectRevision": "rev_ce519bc724adedd7eb77229a31036ef0ee36ef897b1840deba700bb25f93f593",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_amoncelait_amonceler:sns_zola_amonceler_gather",
+        "subjectRevision": "rev_ce519bc724adedd7eb77229a31036ef0ee36ef897b1840deba700bb25f93f593",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The storm was piling up/gathering; amoncelait is the imperfect form and the contextual sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_an_an:sns_zola_an_year",
+      "reviewId": "vocabulary:srf_zola_an_an:sns_zola_an_year",
+      "outcome": "approve",
+      "rationale": "Reviewed both contexts: an means year, as in last year and one year since the event. The noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_an_an:sns_zola_an_year",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_an_an:sns_zola_an_year",
+        "subjectRevision": "rev_90c1dab993607df3ac69f9832a09579cd84f3a96de39359711b1daabccb7306d",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_an_an:sns_zola_an_year",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_an_an:sns_zola_an_year",
+        "subjectRevision": "rev_90c1dab993607df3ac69f9832a09579cd84f3a96de39359711b1daabccb7306d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed both contexts: an means year, as in last year and one year since the event. The noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+      "reviewId": "vocabulary:srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+      "outcome": "approve",
+      "rationale": "Reviewed occurrences: angoisse means anguish/anxiety in emotional suspense and fear; the noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+        "subjectRevision": "rev_e7d8dab42d4fb98d202d90477ac2e53a0d334995b6573777ff5832d563792a84",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_angoisse_angoisse:sns_zola_angoisse_anguish",
+        "subjectRevision": "rev_e7d8dab42d4fb98d202d90477ac2e53a0d334995b6573777ff5832d563792a84",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed occurrences: angoisse means anguish/anxiety in emotional suspense and fear; the noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 4
+    },
+    {
+      "subjectId": "srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+      "reviewId": "vocabulary:srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+      "outcome": "approve",
+      "rationale": "The letter is anonymous, lacking an identified author; the adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+        "subjectRevision": "rev_28e9da8448da1b786b3615e04023075df7f537649f85d49828f1e774ac980511",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_anonyme_anonyme:sns_zola_anonyme_unsigned",
+        "subjectRevision": "rev_28e9da8448da1b786b3615e04023075df7f537649f85d49828f1e774ac980511",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The letter is anonymous, lacking an identified author; the adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+      "reviewId": "vocabulary:srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+      "outcome": "approve",
+      "rationale": "The plural lettres are anonymous; the adjective form and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+        "subjectRevision": "rev_41fd3444b20a0669843cde847408a955e3388492ebfd8b232bf5e1bf81065a90",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_anonymes_anonyme:sns_zola_anonyme_unsigned",
+        "subjectRevision": "rev_41fd3444b20a0669843cde847408a955e3388492ebfd8b232bf5e1bf81065a90",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The plural lettres are anonymous; the adjective form and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_ans_an:sns_zola_an_year",
+      "reviewId": "vocabulary:srf_zola_ans_an:sns_zola_an_year",
+      "outcome": "approve",
+      "rationale": "Ans is the plural of an and means years in the indexed durations. The noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_ans_an:sns_zola_an_year",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ans_an:sns_zola_an_year",
+        "subjectRevision": "rev_eec46e9e002ce44f01fb817a69c482c81a9a4f68bf5d070ea634e6a410835c26",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_ans_an:sns_zola_an_year",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_ans_an:sns_zola_an_year",
+        "subjectRevision": "rev_eec46e9e002ce44f01fb817a69c482c81a9a4f68bf5d070ea634e6a410835c26",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Ans is the plural of an and means years in the indexed durations. The noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+      "reviewId": "vocabulary:srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+      "outcome": "approve",
+      "rationale": "In il était justement antisémite, antisémite means holding antisemitic views; the adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+        "subjectRevision": "rev_dc66616b735d8e0f03b3fd1774120bf58b21464e83e1d7532501a4429080d5e2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_antisemite_19bc52195bff_antisemite:sns_zola_antisemite",
+        "subjectRevision": "rev_dc66616b735d8e0f03b3fd1774120bf58b21464e83e1d7532501a4429080d5e2",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In il était justement antisémite, antisémite means holding antisemitic views; the adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+      "reviewId": "vocabulary:srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+      "outcome": "approve",
+      "rationale": "In derrière l’odieux antisémitisme, the noun names antisemitism; gloss and context fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+        "subjectRevision": "rev_36399c3061584ff0edd5f22b61cc04eca4f004d3e9d00864f38f66b1f6dfe349",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_antisemitisme_c68ac62b3c18_antisemitisme:sns_zola_antisemitisme",
+        "subjectRevision": "rev_36399c3061584ff0edd5f22b61cc04eca4f004d3e9d00864f38f66b1f6dfe349",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "In derrière l’odieux antisémitisme, the noun names antisemitism; gloss and context fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

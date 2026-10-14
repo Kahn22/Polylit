@@ -1,5 +1,5 @@
 import {createHash} from 'node:crypto';
-import {loadPublication} from '../dist/publication/repository.js';
+import {loadPublication} from './micromegas-publication-baseline.mjs';
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const publication=loadPublication();
 const surfaces=publication.bundle.surfaceForms;

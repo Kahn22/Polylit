@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-correction-2026-09-25-20",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "all 15 source contexts and six current/historical question bands",
+  "changes": [
+    {
+      "subjectId": "srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+      "reviewId": "vocabulary:srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+      "outcome": "approve",
+      "rationale": "All 15 indexed Cendrillon occurrences name the fairy godmother, including “sa Maraine, qui estoit Fée”. The learner gloss now states the meaning. All three active questions are valid; the three historical plural questions were rewritten with natural contexts and reviewed for answer and agreement. Maraines in the active moral remains separately assigned to its patron sense; no progress is transferred.",
+      "before": {
+        "id": "vocabulary:srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+        "subjectRevision": "rev_deb865d61b6f0b8d6508299e617d29f35d67ecf1f300fff44c3a92258c898ec9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "All contexts mean Cinderella’s fairy godmother/protective sponsor, while the gloss only labels an historical form and the definition is a highly specific baptismal role. Clarify the contextual godmother sense without changing the historical spelling."
+      },
+      "after": {
+        "id": "vocabulary:srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_cendrillon_maraine_lem_cendrillon_marraine_noun_f860f84050_8882d87194:sns_cendrillon_marraine_celle_qui_avec_le_parrain_presente_un_enfant_le_filleul_aux_fonts_baptismaux_mere_spirituelle_d_un_enfant_ou_assiste_l_enfant_de_maniere_analogue_dans_une_ceremonie_civile_ou_d_une_autre_religion_ou_conviction_cff058e91d",
+        "subjectRevision": "rev_2e23fd339b9a1a25cda4783295083760de17118ff98e58309e709dd91e682b2e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "All 15 indexed Cendrillon occurrences name the fairy godmother, including “sa Maraine, qui estoit Fée”. The learner gloss now states the meaning. All three active questions are valid; the three historical plural questions were rewritten with natural contexts and reviewed for answer and agreement. Maraines in the active moral remains separately assigned to its patron sense; no progress is transferred.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 15
+    }
+  ]
+}

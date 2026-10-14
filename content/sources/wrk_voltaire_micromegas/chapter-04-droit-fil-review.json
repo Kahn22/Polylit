@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 4,
+  "status": "source_bound_expression_review_unpublished_component_decisions_pending",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "a648e225ae507f0f95202167546d943b30db33e5f6ca5259d6518e44e7b242f5",
+  "items": [
+    {
+      "key": "de_droit_fil",
+      "surfacePattern": "de droit fil",
+      "meaning": "in a straight line; without veering",
+      "partOfSpeech": "adverbial locution",
+      "decision": "new_expression_three_question_bands_pending_complete_work_import",
+      "sourceOccurrences": [
+        {
+          "chapter": 4,
+          "unit": 95,
+          "start": 207,
+          "end": 219,
+          "text": "de droit fil"
+        }
+      ],
+      "componentTokenHolds": [
+        {
+          "chapter": 4,
+          "unit": 95,
+          "start": 207,
+          "end": 209,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "chapter": 4,
+          "unit": 95,
+          "start": 210,
+          "end": 215,
+          "text": "droit",
+          "form": "droit"
+        },
+        {
+          "chapter": 4,
+          "unit": 95,
+          "start": 216,
+          "end": 219,
+          "text": "fil",
+          "form": "fil"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "aucun ne va de droit fil",
+          "question": "What does “de droit fil” mean here?",
+          "answer": "in a straight line",
+          "choices": [
+            "in a straight line",
+            "very slowly",
+            "under water",
+            "in a circle"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le ruisseau ne suit pas une ligne droite : il ne va pas ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de droit fil",
+          "choices": [
+            "de droit fil",
+            "à reculons",
+            "en rond",
+            "à tâtons"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le nain voudrait que les ruisseaux suivent une trajectoire droite, sans biaiser.",
+          "question": "Quelle locution du passage décrit cette trajectoire ?",
+          "answer": "de droit fil",
+          "choices": [
+            "de droit fil",
+            "de fil en aiguille",
+            "à contre-courant",
+            "au hasard"
+          ]
+        }
+      ],
+      "reviewNote": "The stream does not travel in a straight line. The historical Académie entry for fil records aller de droit fil; the phrase is reviewed as one locution while de, droit and fil retain separate pending token dispositions.",
+      "reference": "https://www.dictionnaire-academie.fr/article/A2F0344"
+    }
+  ]
+}

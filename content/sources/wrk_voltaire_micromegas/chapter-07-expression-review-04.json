@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "chapter": 7,
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "inventorySha256": "f733ce1fc52d3206493f10d42c1a6905f1aa4e734d8440288a51c73b71d8e54a",
+  "status": "offline_full_span_review_unpublished",
+  "summary": {
+    "reviewedExpressionForms": 10,
+    "reviewedQuestionBands": 30,
+    "newExpressionForms": 2,
+    "newQuestionBands": 6,
+    "reusedEarlierQuestionBands": 24
+  },
+  "items": [
+    {
+      "key": "a_la_fois",
+      "surfacePattern": "à la fois",
+      "meaning": "at the same time; simultaneously",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 188,
+          "start": 21,
+          "end": 30,
+          "text": "à la fois"
+        },
+        {
+          "chapter": 7,
+          "unit": 193,
+          "start": 31,
+          "end": 40,
+          "text": "à la fois"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 188,
+          "start": 21,
+          "end": 22,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 188,
+          "start": 23,
+          "end": 25,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 188,
+          "start": 26,
+          "end": 30,
+          "text": "fois",
+          "form": "fois"
+        },
+        {
+          "unit": 193,
+          "start": 31,
+          "end": 32,
+          "text": "à",
+          "form": "à"
+        },
+        {
+          "unit": 193,
+          "start": 33,
+          "end": 35,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 193,
+          "start": 36,
+          "end": 40,
+          "text": "fois",
+          "form": "fois"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Je les vois, disaient-ils tous deux à la fois ; ne les voyez-vous pas qui portent des fardeaux, qui se baissent, qui se relèvent. »",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at the same time; simultaneously",
+          "choices": [
+            "at the same time; simultaneously",
+            "one after the other",
+            "once in the past",
+            "for the first time"
+          ],
+          "targetText": "à la fois"
+        },
+        {
+          "band": "4-5",
+          "context": "Leurs paroles sont simultanées : les deux voyageurs s’écrient ___ « Je les vois ! ».",
+          "question": "Complétez la phrase.",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "l’un après l’autre",
+            "plus tard"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Ils parlent simultanément, sans attendre leur tour.",
+          "question": "Quelle expression convient ?",
+          "answer": "à la fois",
+          "choices": [
+            "à la fois",
+            "tour à tour",
+            "plus tard",
+            "de temps en temps"
+          ]
+        }
+      ],
+      "questionSha256": "645f823ea7ceedac79f35d7983f581a2c58209fe78e8dca2102960e40ca8aa2e",
+      "identityTarget": "share_earlier_expression_meaning:chapter-05-expression-review.json:a_la_fois",
+      "reviewNote": "The philosophers answer and speak simultaneously. The Chapter V full-span bank was read in all three bands and reused unchanged; neither repeated occasions nor one-after-another applies. The new exhaustive VII spans suppress component à/la/fois identities without copying mastery. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "a_la_fois",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "d_accord",
+      "surfacePattern": "d’accord",
+      "meaning": "in agreement; agreed",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 185,
+          "start": 301,
+          "end": 309,
+          "text": "d’accord"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 185,
+          "start": 301,
+          "end": 303,
+          "text": "d’",
+          "form": "d’"
+        },
+        {
+          "unit": 185,
+          "start": 303,
+          "end": 309,
+          "text": "accord",
+          "form": "accord"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Puisque vous êtes du petit nombre des sages, dit-il à ces messieurs, et qu’apparemment vous ne tuez personne pour de l’argent, dites-moi, je vous en prie, à quoi vous vous occupez. — Nous disséquons des mouches, dit le philosophe, nous mesurons des lignes, nous assemblons des nombres ; nous sommes d’accord sur deux ou trois points que nous entendons, et nous disputons sur deux ou trois mille que nous n’entendons pas. »",
+          "targetText": "d’accord",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in agreement; agreed",
+          "choices": [
+            "in agreement; agreed",
+            "in conflict",
+            "in doubt",
+            "in a hurry"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils partagent la même opinion sur ces points : ils sont ___.",
+          "question": "Complétez la phrase.",
+          "answer": "d’accord",
+          "choices": [
+            "d’accord",
+            "en désaccord",
+            "dans le doute",
+            "dans l’urgence"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie que plusieurs personnes partagent une même opinion ?",
+          "question": "Quelle expression convient ?",
+          "answer": "d’accord",
+          "choices": [
+            "d’accord",
+            "en désaccord",
+            "dans le doute",
+            "dans l’urgence"
+          ]
+        }
+      ],
+      "questionSha256": "d69cfeb05aba714c7170566ccc3fe4d6f9e2adb79d8027d425804883e13c68b8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosophers agree on two or three understood points, contrasting their many disputes. The full agreeing predicate is prepared, excluding generic de and musical accord. Each alternative fits ils sont; shared opinion rather than disagreement, uncertainty or urgency selects agreement. Published d’accord component meanings require one canonical full-span route before import. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "d_accord",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "tout_haut",
+      "surfacePattern": "tout haut",
+      "meaning": "aloud; audibly",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 195,
+          "start": 28,
+          "end": 37,
+          "text": "tout haut"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 195,
+          "start": 28,
+          "end": 32,
+          "text": "tout",
+          "form": "tout"
+        },
+        {
+          "unit": 195,
+          "start": 33,
+          "end": 37,
+          "text": "haut",
+          "form": "haut"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Un vieux péripatéticien dit tout haut avec confiance : « L’âme est une entéléchie, et une raison par qui elle a la puissance d’être ce qu’elle est.",
+          "targetText": "tout haut",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "aloud; audibly",
+          "choices": [
+            "aloud; audibly",
+            "silently",
+            "in secret",
+            "inwardly"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il prononce les paroles de manière audible, plutôt que dans sa tête : il les dit ___.",
+          "question": "Complétez la phrase.",
+          "answer": "tout haut",
+          "choices": [
+            "tout haut",
+            "en silence",
+            "en secret",
+            "intérieurement"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie de manière audible, par opposition à intérieurement ?",
+          "question": "Quelle expression convient ?",
+          "answer": "tout haut",
+          "choices": [
+            "tout haut",
+            "en silence",
+            "en secret",
+            "intérieurement"
+          ]
+        }
+      ],
+      "questionSha256": "1f82b16a6c84484f681aa346399361e08a97d4ef7c82e1460a8ac1fe31b6e804",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The Peripatetic says the proposition aloud. Haut is not spatial elevation, and tout intensifies the established vocal expression. All four manner phrases fit les dit; audibility rather than silence, secrecy or an inward thought selects tout haut. Before import reconcile any existing haut loud meaning into one whole-span route rather than duplicate word and phrase encounters. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "tout_haut",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "en_dedans",
+      "surfacePattern": "en dedans",
+      "meaning": "inside; within",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 191,
+          "start": 128,
+          "end": 137,
+          "text": "en dedans"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 191,
+          "start": 128,
+          "end": 130,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 191,
+          "start": 131,
+          "end": 137,
+          "text": "dedans",
+          "form": "dedans"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Enfin Micromégas leur dit : « Puisque vous savez si bien ce qui est hors de vous, sans doute vous savez encore mieux ce qui est en dedans.",
+          "targetText": "en dedans",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "inside; within",
+          "choices": [
+            "inside; within",
+            "outside",
+            "above",
+            "nearby"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ils prétendent connaître leur être intérieur : ce qui est à l’intérieur se trouve ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en dedans",
+          "choices": [
+            "en dedans",
+            "en dehors",
+            "au-dessus",
+            "tout près"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution désigne l’intérieur, en opposition à l’extérieur ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en dedans",
+          "choices": [
+            "en dedans",
+            "en dehors",
+            "au-dessus",
+            "tout près"
+          ]
+        }
+      ],
+      "questionSha256": "07fbbb0b2c54d547a1bebb254bd2827abe1c5ecdeb4a0eb1d811685af07aff50",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The giant contrasts what is outside the philosophers with their interior soul and thinking. This figurative inward domain retains the inside/outside opposition; it does not mean bodily location alone. All four locative phrases fit se trouve. The whole locution is prepared so en is not incorrectly treated as a partitive pronoun. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "en_dedans",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "de_haut_en_bas",
+      "surfacePattern": "de haut en bas",
+      "meaning": "with contempt; looking down on someone",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 210,
+          "start": 231,
+          "end": 245,
+          "text": "de haut en bas"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 210,
+          "start": 231,
+          "end": 233,
+          "text": "de",
+          "form": "de"
+        },
+        {
+          "unit": 210,
+          "start": 234,
+          "end": 238,
+          "text": "haut",
+          "form": "haut"
+        },
+        {
+          "unit": 210,
+          "start": 239,
+          "end": 241,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 210,
+          "start": 242,
+          "end": 245,
+          "text": "bas",
+          "form": "bas"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Mais il y avait là, par malheur, un petit animalcule en bonnet carré qui coupa la parole à tous les animalcules philosophes ; il dit qu’il savait tout le secret, que tout cela se trouvait dans la Somme de saint Thomas ; il regarda de haut en bas les deux habitants célestes ; il leur soutint que leurs personnes, leurs mondes, leurs soleils, leurs étoiles, tout était fait uniquement pour l’homme.",
+          "targetText": "de haut en bas",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "with contempt; looking down on someone",
+          "choices": [
+            "with contempt; looking down on someone",
+            "with respect",
+            "with curiosity",
+            "with indifference"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Se croyant supérieur, il leur témoigne du mépris : il les regarde ___.",
+          "question": "Complétez la phrase.",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution, dans regarder quelqu’un, exprime ici un regard méprisant ?",
+          "question": "Quelle expression convient ?",
+          "answer": "de haut en bas",
+          "choices": [
+            "de haut en bas",
+            "avec respect",
+            "avec curiosité",
+            "avec indifférence"
+          ]
+        }
+      ],
+      "questionSha256": "d13614d4e5ea98497fd4888084c0fb1b5b8cb60c817d457d565934ca1e84c242",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Académie 1762 regarder explicitly gives regarder quelqu’un de haut en bas for showing contempt or disdain. The source’s tiny cleric claims universal knowledge and human primacy before giants; this contextual application is an editorial inference supported by the conventional idiom, rather than a mere vertical survey. The earlier unresolved gaze draft was inspected. All four adverbial phrases fit regarde; contempt rather than respect, curiosity or indifference selects the whole locution. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "de_haut_en_bas",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "en_nombre_rond",
+      "surfacePattern": "en nombre rond",
+      "meaning": "in round numbers; approximately",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 188,
+          "start": 142,
+          "end": 156,
+          "text": "en nombre rond"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 188,
+          "start": 142,
+          "end": 144,
+          "text": "en",
+          "form": "en"
+        },
+        {
+          "unit": 188,
+          "start": 145,
+          "end": 151,
+          "text": "nombre",
+          "form": "nombre"
+        },
+        {
+          "unit": 188,
+          "start": 152,
+          "end": 156,
+          "text": "rond",
+          "form": "rond"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ils répondirent tous à la fois : « Trente-deux degrés et demi. — Combien comptez-vous d’ici à la lune ? — Soixante demi-diamètres de la terre en nombre rond. — Combien pèse votre air ? »",
+          "targetText": "en nombre rond",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "in round numbers; approximately",
+          "choices": [
+            "in round numbers; approximately",
+            "exactly",
+            "without a number",
+            "in strict order"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La quantité est donnée sous une forme arrondie, non comme une mesure exacte : elle est exprimée ___.",
+          "question": "Complétez la phrase.",
+          "answer": "en nombre rond",
+          "choices": [
+            "en nombre rond",
+            "avec exactitude",
+            "sans aucun nombre",
+            "dans un ordre strict"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution indique une quantité exprimée par un nombre arrondi ?",
+          "question": "Quelle expression convient ?",
+          "answer": "en nombre rond",
+          "choices": [
+            "en nombre rond",
+            "avec exactitude",
+            "sans aucun nombre",
+            "dans un ordre strict"
+          ]
+        }
+      ],
+      "questionSha256": "32a06ae687da91d58fcf997c6d1dcff84fc98837070d0d3fd384a4c48037c0a4",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The philosophers give the lunar distance as a rounded quantity. The question tests rounding and does not endorse a modern astronomical measurement. Each manner phrase fits exprimée; round approximation rather than exactness, absence of a number or ordering selects the target. Nominal rond is not physical circularity here. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-01.json",
+      "earlierKey": "en_nombre_rond",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada"
+    },
+    {
+      "key": "au_moins",
+      "surfacePattern": "au moins",
+      "meaning": "at least; no less than",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 200,
+          "start": 157,
+          "end": 165,
+          "text": "au moins"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 200,
+          "start": 157,
+          "end": 159,
+          "text": "au",
+          "form": "au"
+        },
+        {
+          "unit": 200,
+          "start": 160,
+          "end": 165,
+          "text": "moins",
+          "form": "moins"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je ne doute pas que si quelque capitaine des grands grenadiers lit jamais cet ouvrage, il ne hausse de deux grands pieds au moins les bonnets de sa troupe ; mais je l’avertis qu’il aura beau faire, que lui et les siens ne seront jamais que des infiniment petits.",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "at least; no less than",
+          "choices": [
+            "at least; no less than",
+            "at most",
+            "exactly and only",
+            "less than"
+          ],
+          "targetText": "au moins"
+        },
+        {
+          "band": "4-5",
+          "context": "Deux pieds sont le minimum : il rehausserait les bonnets de deux pieds ___.",
+          "question": "Complétez la phrase.",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "à peine"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "La hauteur serait de deux pieds ou davantage.",
+          "question": "Quelle expression convient ?",
+          "answer": "au moins",
+          "choices": [
+            "au moins",
+            "au plus",
+            "tout juste",
+            "moins de"
+          ]
+        }
+      ],
+      "questionSha256": "742a8b062e8bc48ed5f586f30871af518342c1bfb69afd3536bef7f3c3d02351",
+      "identityTarget": "share_earlier_expression_meaning:chapter-05-expression-review.json:au_moins",
+      "reviewNote": "Au moins sets a minimal question about whether the speaker knows matter at all, rather than a maximum or merely chronological condition. The earlier V minimum phrase bank and its three questions were read unchanged; preserve its meaning and suppress the new au component on this complete source span. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierFile": "chapter-07-expression-review-03.json",
+      "earlierKey": "au_moins",
+      "earlierFileSha256": "3795dd663f5f62a4d9b80e87c98325576412e445ad4675e227d7543afb0b5dd0"
+    },
+    {
+      "key": "le_bout_des_choses",
+      "surfacePattern": "le bout des choses",
+      "meaning": "the ultimate explanation; the final understanding",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 214,
+          "start": 128,
+          "end": 146,
+          "text": "le bout des choses"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 214,
+          "start": 128,
+          "end": 130,
+          "text": "le",
+          "form": "le"
+        },
+        {
+          "unit": 214,
+          "start": 131,
+          "end": 135,
+          "text": "bout",
+          "form": "bout"
+        },
+        {
+          "unit": 214,
+          "start": 136,
+          "end": 139,
+          "text": "des",
+          "form": "des"
+        },
+        {
+          "unit": 214,
+          "start": 140,
+          "end": 146,
+          "text": "choses",
+          "form": "choses"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses.",
+          "targetText": "le bout des choses",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "the ultimate explanation; the final understanding",
+          "choices": [
+            "the ultimate explanation; the final understanding",
+            "the edge of physical objects",
+            "a room’s middle",
+            "the passage of time"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Le livre promettrait de leur révéler l’explication ultime de la réalité : ils y verraient ___.",
+          "question": "Complétez la phrase.",
+          "answer": "le bout des choses",
+          "choices": [
+            "le bout des choses",
+            "le bord des objets",
+            "le milieu de la salle",
+            "le passage du temps"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression désigne ici l’explication ultime des choses ?",
+          "question": "Quelle expression convient ?",
+          "answer": "le bout des choses",
+          "choices": [
+            "le bout des choses",
+            "le bord des objets",
+            "le milieu de la salle",
+            "le passage du temps"
+          ]
+        }
+      ],
+      "questionSha256": "8bb9bd170e78960d5444493e649f4701387860ceacd9c95a76db2130e4c81bd8",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "The promised philosophy book would reveal final understanding of reality, while its eventual blankness makes that promise ironic. Le bout des choses denotes ultimate explanation, not a physical extremity. Prepare the complete phrase under a proper expression owner and compare its conceptual endpoint overlap with the broad published bout before import. All four masculine singular complete noun phrases fit verraient; knowledge rather than spatial edges, room location or elapsed time selects the target. Earlier des/choses word routes must be suppressed on this exact span before import. Package04 re-read the complete earlier three-band bank unchanged for these exact phrase uses. Preserve the existing whole-expression meaning and suppress only its exact components before import.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "des_169_304",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 214,
+              "start": 136,
+              "end": 139,
+              "text": "des",
+              "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        },
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "le_170_22",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 214,
+              "start": 128,
+              "end": 130,
+              "text": "le",
+              "context": "Il leur promit de leur faire un beau livre de philosophie écrit fort menu pour leur usage, et que, dans ce livre, ils verraient le bout des choses."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ],
+      "earlierFile": "chapter-07-expression-review-03.json",
+      "earlierKey": "le_bout_des_choses",
+      "earlierFileSha256": "3795dd663f5f62a4d9b80e87c98325576412e445ad4675e227d7543afb0b5dd0"
+    },
+    {
+      "key": "prendre_la_parole",
+      "surfacePattern": "prit la parole",
+      "meaning": "took the floor; began speaking",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 199,
+          "start": 13,
+          "end": 27,
+          "text": "prit la parole"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 199,
+          "start": 13,
+          "end": 17,
+          "text": "prit",
+          "form": "prit"
+        },
+        {
+          "unit": 199,
+          "start": 18,
+          "end": 20,
+          "text": "la",
+          "form": "la"
+        },
+        {
+          "unit": 199,
+          "start": 21,
+          "end": 27,
+          "text": "parole",
+          "form": "parole"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton.",
+          "targetText": "prit la parole",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "took the floor; began speaking",
+          "choices": [
+            "took the floor; began speaking",
+            "picked up a physical object",
+            "fell silent",
+            "left the room"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Il commence à parler devant les autres : il ___.",
+          "question": "Complétez la phrase.",
+          "answer": "prit la parole",
+          "choices": [
+            "prit la parole",
+            "garda le silence",
+            "quitta la salle",
+            "ferma le livre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie commença à parler dans une discussion ?",
+          "question": "Quelle expression convient ?",
+          "answer": "prit la parole",
+          "choices": [
+            "prit la parole",
+            "garda le silence",
+            "quitta la salle",
+            "ferma le livre"
+          ]
+        }
+      ],
+      "questionSha256": "3564fa2789a64f88032309571f3f5ab2709a8e5b6f1c074f77d93bd3a823b334",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Le cartésien prit la parole introduces the next speaker in the philosophers’ exchange. Académie records prendre la parole as speaking or making a speech in an assembly. This is a complete idiom, not literal seizing, undertaking a commitment or resigning oneself. All four full past-tense predicates fit il; beginning speech rather than silence, departure or closing a book selects the phrase. Before import suppress the earlier isolated parole occurrence on this exact span and preserve all other speech-word mastery.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "la_169_287",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 199,
+              "start": 18,
+              "end": 20,
+              "text": "la",
+              "context": "Le cartésien prit la parole, et dit : « L’âme est un esprit pur qui a reçu dans le ventre de sa mère toutes les idées métaphysiques, et qui, en sortant de là, est obligée d’aller à l’école, et d’apprendre tout de nouveau ce qu’elle a si bien su, et qu’elle ne saura plus. — Ce n’était donc pas la peine, répondit l’animal de huit lieues, que ton âme fût si savante dans le ventre de ta mère, pour être si ignorante quand tu aurais de la barbe au menton."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    },
+    {
+      "key": "hors_de",
+      "surfacePattern": "hors de",
+      "meaning": "outside; external to",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 191,
+          "start": 68,
+          "end": 75,
+          "text": "hors de"
+        }
+      ],
+      "componentTokens": [
+        {
+          "unit": 191,
+          "start": 68,
+          "end": 72,
+          "text": "hors",
+          "form": "hors"
+        },
+        {
+          "unit": 191,
+          "start": 73,
+          "end": 75,
+          "text": "de",
+          "form": "de"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Enfin Micromégas leur dit : « Puisque vous savez si bien ce qui est hors de vous, sans doute vous savez encore mieux ce qui est en dedans.",
+          "targetText": "hors de",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "outside; external to",
+          "choices": [
+            "outside; external to",
+            "inside",
+            "above",
+            "under"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La locution qui situe une chose à l’extérieur de quelqu’un ou d’un espace est ___.",
+          "question": "Complétez la phrase.",
+          "answer": "hors de",
+          "choices": [
+            "hors de",
+            "à l’intérieur de",
+            "au-dessus de",
+            "au-dessous de"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution signifie en dehors de dans ce passage ?",
+          "question": "Quelle expression convient ?",
+          "answer": "hors de",
+          "choices": [
+            "hors de",
+            "à l’intérieur de",
+            "au-dessus de",
+            "au-dessous de"
+          ]
+        }
+      ],
+      "questionSha256": "d35cde2d6269aa652060f81e4348153f20d2da5df26f42c8559af6faf489e255",
+      "identityTarget": "new_expression_meaning",
+      "reviewNote": "Ce qui est hors de vous contrasts external objects with en dedans, the philosophers’ inner soul and ideas. This external-location construction has no matching global or earlier expression owner. All four prepositional labels accept the same complement; externality differs from interior, above or below. Prepare the complete hors de span rather than a separate de meaning, without creating a psychological-exterior-only sense.",
+      "status": "offline_full_span_three_band_review_recorded_unpublished",
+      "earlierComponentRoutes": [
+        {
+          "file": "chapter-07-context-review-01.json",
+          "fileSha256": "9694f01e3a18fe37571346a18cc52bccb35beb35e89815844c65da574c81e5be",
+          "key": "de_169_192",
+          "sourceOccurrences": [
+            {
+              "chapter": 7,
+              "unit": 191,
+              "start": 73,
+              "end": 75,
+              "text": "de",
+              "context": "Enfin Micromégas leur dit : « Puisque vous savez si bien ce qui est hors de vous, sans doute vous savez encore mieux ce qui est en dedans."
+            }
+          ],
+          "action": "suppress_exact_component_routes_at_whole_work_import_preserve_other_uses_and_mastery"
+        }
+      ]
+    }
+  ]
+}

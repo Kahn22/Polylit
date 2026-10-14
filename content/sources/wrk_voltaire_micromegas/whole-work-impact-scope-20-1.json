@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:29:17.232Z",
+  "sense": {
+    "id": "sns_zola_apprendre_learn",
+    "lemmaId": "lem_zola_apprendre",
+    "gloss": "to learn",
+    "definition": "venir à connaître une information"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_apprenons_apprendre_learn_advanced",
+      "qiz_zola_apprenons_apprendre_learn_early",
+      "qiz_zola_apprenons_apprendre_learn_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_apprenons_apprendre:sns_zola_apprendre_learn",
+      "surface": "apprenons",
+      "lemma": "apprendre",
+      "currentRevision": "rev_ade3895f5572eee69d66b89eb72fbaddb30c794f4bd8e1cc03741289e71ddac7",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_920dc55f2fa10099409c82fb",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_054",
+          "passage": "On nous avait parlé de quatorze chefs d’accusation : nous n’en trouvons qu’une seule en fin de compte, celle du bordereau ; et nous apprenons même que les experts n’étaient pas d’accord, qu’un d’eux, M. Gobert, a été bousculé militairement, parce qu’il se permettait de ne pas conclure dans le sens désiré.",
+          "span": [
+            132,
+            141
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_apprenons_apprendre_learn_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Par son message, nous apprenons que Nina arrivera demain ; nous ignorions jusqu’ici la date de sa visite.",
+          "prompt": "Quel verbe indique l’acquisition d’une information ?",
+          "choices": [
+            {
+              "text": "apprenons",
+              "correct": true
+            },
+            {
+              "text": "message",
+              "correct": false
+            },
+            {
+              "text": "demain",
+              "correct": false
+            },
+            {
+              "text": "visite",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_apprenons_apprendre_learn_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nous apprenons aujourd’hui que le musée fermera lundi.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "we learn",
+              "correct": true
+            },
+            {
+              "text": "we conceal",
+              "correct": false
+            },
+            {
+              "text": "we forget",
+              "correct": false
+            },
+            {
+              "text": "we deny",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_apprenons_apprendre_learn_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "En lisant le panneau, nous _____ que le magasin est fermé.",
+          "choices": [
+            {
+              "text": "apprenons",
+              "correct": true
+            },
+            {
+              "text": "oublions",
+              "correct": false
+            },
+            {
+              "text": "cachons",
+              "correct": false
+            },
+            {
+              "text": "nions",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

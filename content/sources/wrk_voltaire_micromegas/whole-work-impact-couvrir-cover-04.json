@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:02:32.247Z",
+  "sense": {
+    "id": "sns_parure_couvrir_cover_42fc6b6b2a",
+    "lemmaId": "lem_zola_couvrir",
+    "gloss": "covered",
+    "definition": "recouverte par quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_couverte_couvrir_cover_e110626ae3_early",
+      "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+      "qiz_parure_couverte_couvrir_cover_e110626ae3_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_couverte_couvrir_verb_739cacb308:sns_parure_couvrir_cover_42fc6b6b2a",
+      "surface": "couverte",
+      "lemma": "couvrir",
+      "currentRevision": "rev_ad42c439fee8d3fab3589310f38713e90722b6c68f071c47442d5c13ff91204b",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_2de7ed42aa46d46ab7ce3b98",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_006",
+          "passage": "Quand elle s’asseyait, pour dîner, devant la table ronde couverte d’une nappe de trois jours, en face de son mari qui découvrait la soupière en déclarant d’un air enchanté : « Ah ! le bon pot-au-feu ! je ne sais rien de meilleur que cela… », elle songeait aux dîners fins, aux argenteries reluisantes, aux tapisseries peuplant les murailles de personnages anciens et d’oiseaux étranges au milieu d’une forêt de féerie ;",
+          "span": [
+            57,
+            65
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "La route est couverte de neige.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "cleared",
+              "correct": false
+            },
+            {
+              "text": "deprived",
+              "correct": false
+            },
+            {
+              "text": "protected",
+              "correct": false
+            },
+            {
+              "text": "covered",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "La pelouse est _____ de feuilles mortes.",
+          "choices": [
+            {
+              "text": "couvrant",
+              "correct": false
+            },
+            {
+              "text": "couverte",
+              "correct": true
+            },
+            {
+              "text": "couvert",
+              "correct": false
+            },
+            {
+              "text": "couvrir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_couverte_couvrir_cover_e110626ae3_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La statue, couverte d’un drap, sera dévoilée au public demain matin.",
+          "prompt": "Quel mot indique que quelque chose recouvre la statue ?",
+          "choices": [
+            {
+              "text": "public",
+              "correct": false
+            },
+            {
+              "text": "demain",
+              "correct": false
+            },
+            {
+              "text": "couverte",
+              "correct": true
+            },
+            {
+              "text": "statue",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

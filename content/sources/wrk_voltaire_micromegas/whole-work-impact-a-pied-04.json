@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:07:24.126Z",
+  "sense": {
+    "id": "sns_fr_a_pied",
+    "lemmaId": "lem_fr_a_pied",
+    "gloss": "on foot",
+    "definition": "Indique un déplacement en marchant."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_a_pied_fr_a_pied_a_levels_6_8",
+      "qiz_fr_a_pied_fr_a_pied_a_levels_1_3",
+      "qiz_fr_a_pied_fr_a_pied_a_levels_4_5"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_a_pied_a:sns_fr_a_pied",
+      "surface": "à",
+      "lemma": "à pied",
+      "currentRevision": "rev_07204680cc50498c9f8823c864edb66f5863ce520b9ae17f3d5c118a94727b44",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_99c756fd9177b9f2aa4d54b0",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_081",
+          "passage": "— Je vais, dit-il, refaire tout le trajet que nous avons fait à pied, pour voir si je ne la retrouverai pas.",
+          "span": [
+            62,
+            63
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_a_pied_fr_a_pied_a_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Selon le narrateur, nous rentrons à pied après le bal.",
+          "prompt": "Quelle préposition figure dans la locution « à pied » ?",
+          "choices": [
+            {
+              "text": "rentrons",
+              "correct": false
+            },
+            {
+              "text": "après",
+              "correct": false
+            },
+            {
+              "text": "bal",
+              "correct": false
+            },
+            {
+              "text": "à",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_a_pied_fr_a_pied_a_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Nous rentrons à pied après le bal.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "beneath an object",
+              "correct": false
+            },
+            {
+              "text": "on foot",
+              "correct": true
+            },
+            {
+              "text": "towards a place",
+              "correct": false
+            },
+            {
+              "text": "by an agent",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_a_pied_fr_a_pied_a_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ils vont _____ pied vers la gare.",
+          "choices": [
+            {
+              "text": "à",
+              "correct": true
+            },
+            {
+              "text": "de",
+              "correct": false
+            },
+            {
+              "text": "par",
+              "correct": false
+            },
+            {
+              "text": "sans",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

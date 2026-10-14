@@ -25,6 +25,7 @@ export const WorkSchema = z.object({
   originCountryName: nonBlank.optional(),
   originCountryFlag: nonBlank.optional(),
   contentAdvisory: nonBlank.optional(),
+  chapters: z.array(z.object({ ordinal: z.number().int().positive(), label: nonBlank, title: nonBlank, firstUnitId: stableId("unt") })).optional(),
 });
 export const SourceSchema = z.object({
   workId: stableId("wrk"), canonicalText: nonBlank,

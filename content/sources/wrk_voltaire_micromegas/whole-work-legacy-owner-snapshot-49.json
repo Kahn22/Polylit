@@ -1,0 +1,1554 @@
+{
+  "version": 1,
+  "status": "unchanged_legacy_records_not_blanket_approval",
+  "policy": "Preserve every record, indexed passage and current/historical question in these retained owner families. The legal-defense reuse and separated quelque routes apply only to explicitly named candidate occurrences. Snapshot inclusion does not approve every old bank, merge duplicate meanings or change learner mastery.",
+  "lemmas": [
+    {
+      "id": "lem_zola_chez",
+      "headword": "chez",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "id": "lem_zola_quelque",
+      "headword": "quelque",
+      "partOfSpeech": "determiner"
+    },
+    {
+      "id": "lem_zola_defendre",
+      "headword": "défendre",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "lem_parure_vers_preposition_1fc55ee8aa",
+      "headword": "vers",
+      "partOfSpeech": "preposition"
+    },
+    {
+      "id": "lem_sage",
+      "headword": "sage",
+      "partOfSpeech": "adjective"
+    }
+  ],
+  "senses": [
+    {
+      "id": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "lemmaId": "lem_parure_vers_preposition_1fc55ee8aa",
+      "gloss": "toward; around",
+      "definition": "indique une direction ou une approximation de temps"
+    },
+    {
+      "id": "sns_sage_primary",
+      "lemmaId": "lem_sage",
+      "gloss": "Sage is the adjective wise/sensible.",
+      "definition": "Sage is the adjective wise/sensible."
+    },
+    {
+      "id": "sns_zola_quelque_indefinite",
+      "lemmaId": "lem_zola_quelque",
+      "gloss": "some; a certain",
+      "definition": "détermine un nom en indiquant une quantité ou une personne indéterminée"
+    },
+    {
+      "id": "sns_fr_defendre_protect",
+      "lemmaId": "lem_zola_defendre",
+      "gloss": "to defend; to protect",
+      "definition": "Protéger une personne, un bien ou un intérêt contre une atteinte."
+    },
+    {
+      "id": "sns_zola_defendre_protect",
+      "lemmaId": "lem_zola_defendre",
+      "gloss": "to defend; protect",
+      "definition": "protéger quelqu’un ou quelque chose contre une attaque ou une accusation"
+    },
+    {
+      "id": "sns_zola_chez_at_home",
+      "lemmaId": "lem_zola_chez",
+      "gloss": "at the home or premises of",
+      "definition": "dans la demeure ou les locaux de"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "srf_sage",
+      "lemmaId": "lem_sage",
+      "form": "sage",
+      "normalized": "sage"
+    },
+    {
+      "id": "srf_zola_quelques_quelque",
+      "lemmaId": "lem_zola_quelque",
+      "form": "quelques",
+      "normalized": "quelques"
+    },
+    {
+      "id": "srf_zola_defend_dbfa0fcf4789_defendre",
+      "lemmaId": "lem_zola_defendre",
+      "form": "défend",
+      "normalized": "défend"
+    },
+    {
+      "id": "srf_fr_defendant_defendre_verb",
+      "lemmaId": "lem_zola_defendre",
+      "form": "défendant",
+      "normalized": "défendant"
+    },
+    {
+      "id": "srf_zola_defendu_ad58a7b0a818_defendre",
+      "lemmaId": "lem_zola_defendre",
+      "form": "défendu",
+      "normalized": "défendu"
+    },
+    {
+      "id": "srf_zola_defendrait_876072f643db_defendre",
+      "lemmaId": "lem_zola_defendre",
+      "form": "défendrait",
+      "normalized": "défendrait"
+    },
+    {
+      "id": "srf_zola_defendre_4aa63f5a2119_defendre",
+      "lemmaId": "lem_zola_defendre",
+      "form": "défendre",
+      "normalized": "défendre"
+    },
+    {
+      "id": "srf_zola_chez_chez",
+      "lemmaId": "lem_zola_chez",
+      "form": "chez",
+      "normalized": "chez"
+    },
+    {
+      "id": "srf_zola_quelque_quelque",
+      "lemmaId": "lem_zola_quelque",
+      "form": "quelque",
+      "normalized": "quelque"
+    },
+    {
+      "id": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "lemmaId": "lem_parure_vers_preposition_1fc55ee8aa",
+      "form": "vers",
+      "normalized": "vers"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "qiz_zola_defendrait_876072f643db_defendre_protect_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendrait_876072f643db_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Si elle disposait des preuves, l’avocate défendrait son client au tribunal.",
+      "targetText": "défendrait",
+      "targetRange": {
+        "start": 41,
+        "end": 51
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "would defend"
+        },
+        {
+          "id": "choice_2",
+          "text": "would accuse"
+        },
+        {
+          "id": "choice_3",
+          "text": "would abandon"
+        },
+        {
+          "id": "choice_4",
+          "text": "would punish"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defend_dbfa0fcf4789_defendre_protect_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defend_dbfa0fcf4789_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Nina défend Luc devant le tribunal et présente des faits en sa faveur. Le juge écoute le témoin, Paul consulte le dossier et Léa prend des notes.",
+      "prompt": "Quel mot indique que Nina protège Luc contre une accusation ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défend"
+        },
+        {
+          "id": "choice_2",
+          "text": "écoute"
+        },
+        {
+          "id": "choice_3",
+          "text": "consulte"
+        },
+        {
+          "id": "choice_4",
+          "text": "prend"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_quelque_quelque_indefinite_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelque_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Quelque voyageur aura oublié ce sac ; personne ne sait encore à qui il appartient.",
+      "prompt": "Quel mot indique une personne non identifiée ?",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "Quelque"
+        },
+        {
+          "id": "choice_6",
+          "text": "voyageur"
+        },
+        {
+          "id": "choice_7",
+          "text": "sac"
+        },
+        {
+          "id": "choice_8",
+          "text": "personne"
+        }
+      ],
+      "correctChoiceId": "choice_5"
+    },
+    {
+      "id": "qiz_zola_quelque_quelque_indefinite_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelque_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il lui reste _____ espoir de réussir, même si ses chances sont faibles.",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "quelques"
+        },
+        {
+          "id": "choice_6",
+          "text": "quelles"
+        },
+        {
+          "id": "choice_7",
+          "text": "quels"
+        },
+        {
+          "id": "choice_1",
+          "text": "quelque"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_parure_vers_sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d_7d34f2b56e_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+        "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Le bateau se dirige vers le phare.",
+      "targetText": "vers",
+      "targetRange": {
+        "start": 20,
+        "end": 24
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "toward"
+        },
+        {
+          "id": "choice_6",
+          "text": "away from"
+        },
+        {
+          "id": "choice_7",
+          "text": "beneath"
+        },
+        {
+          "id": "choice_8",
+          "text": "behind"
+        }
+      ],
+      "correctChoiceId": "choice_5"
+    },
+    {
+      "id": "qiz_zola_quelque_quelque_indefinite_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelque_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Il attend encore quelque temps avant de répondre.",
+      "targetText": "quelque",
+      "targetRange": {
+        "start": 17,
+        "end": 24
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "all"
+        },
+        {
+          "id": "choice_3",
+          "text": "no"
+        },
+        {
+          "id": "choice_2",
+          "text": "each"
+        },
+        {
+          "id": "choice_6",
+          "text": "some"
+        }
+      ],
+      "correctChoiceId": "choice_6"
+    },
+    {
+      "id": "qiz_fr_defendre_protect_fr_defendant_defendre_verb_levels_4_5",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_defendant_defendre_verb",
+        "senseId": "sns_fr_defendre_protect"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "En _____ ses droits, elle cherche à les faire respecter.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défendent"
+        },
+        {
+          "id": "choice_2",
+          "text": "défendant"
+        },
+        {
+          "id": "choice_3",
+          "text": "défendre"
+        },
+        {
+          "id": "choice_4",
+          "text": "défend"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_zola_defendre_4aa63f5a2119_defendre_protect_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Léa promet de défendre son amie contre une accusation sans preuve.",
+      "targetText": "défendre",
+      "targetRange": {
+        "start": 14,
+        "end": 22
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "to defend"
+        },
+        {
+          "id": "choice_2",
+          "text": "to accuse"
+        },
+        {
+          "id": "choice_3",
+          "text": "to abandon"
+        },
+        {
+          "id": "choice_4",
+          "text": "to punish"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sage_wise_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_sage",
+        "senseId": "sns_sage_primary"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Écouter les deux témoins serait une décision ___.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "sage"
+        },
+        {
+          "id": "choice_2",
+          "text": "lourde"
+        },
+        {
+          "id": "choice_3",
+          "text": "bruyante"
+        },
+        {
+          "id": "choice_4",
+          "text": "étroite"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendrait_876072f643db_defendre_protect_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendrait_876072f643db_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Avec ce témoin, Nina _____ son ami face à cette accusation injuste.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défendrait"
+        },
+        {
+          "id": "choice_2",
+          "text": "accuserait"
+        },
+        {
+          "id": "choice_3",
+          "text": "abandonnerait"
+        },
+        {
+          "id": "choice_4",
+          "text": "punirait"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_quelques_quelque_indefinite_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelques_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Quelques visiteurs attendent devant le musée.",
+      "targetText": "quelques",
+      "targetRange": {
+        "start": 0,
+        "end": 8
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_4",
+          "text": "every"
+        },
+        {
+          "id": "choice_5",
+          "text": "none"
+        },
+        {
+          "id": "choice_6",
+          "text": "all"
+        },
+        {
+          "id": "choice_7",
+          "text": "a few"
+        }
+      ],
+      "correctChoiceId": "choice_7"
+    },
+    {
+      "id": "qiz_sage_wise_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_sage",
+        "senseId": "sns_sage_primary"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Un choix sage protège le village, tandis qu’un choix imprudent le menace.",
+      "prompt": "Quel mot qualifie le choix réfléchi ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "choix"
+        },
+        {
+          "id": "choice_2",
+          "text": "sage"
+        },
+        {
+          "id": "choice_3",
+          "text": "village"
+        },
+        {
+          "id": "choice_4",
+          "text": "imprudent"
+        }
+      ],
+      "correctChoiceId": "choice_2"
+    },
+    {
+      "id": "qiz_zola_defendu_ad58a7b0a818_defendre_protect_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendu_ad58a7b0a818_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Au procès, Paul a défendu sa sœur en montrant qu’elle était absente ce jour-là.",
+      "targetText": "défendu",
+      "targetRange": {
+        "start": 18,
+        "end": 25
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "defended"
+        },
+        {
+          "id": "choice_2",
+          "text": "accused"
+        },
+        {
+          "id": "choice_3",
+          "text": "abandoned"
+        },
+        {
+          "id": "choice_4",
+          "text": "punished"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendu_ad58a7b0a818_defendre_protect_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendu_ad58a7b0a818_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "L’avocate a défendu Nina en produisant une vidéo qui prouve son innocence. Le juge a lu le dossier, Paul a interrogé le témoin et Marc a fermé la salle.",
+      "prompt": "Quel mot indique que l’avocate a protégé Nina contre l’accusation ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défendu"
+        },
+        {
+          "id": "choice_2",
+          "text": "lu"
+        },
+        {
+          "id": "choice_3",
+          "text": "interrogé"
+        },
+        {
+          "id": "choice_4",
+          "text": "fermé"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_defendre_protect_fr_defendant_defendre_verb_levels_6_8",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_defendant_defendre_verb",
+        "senseId": "sns_fr_defendre_protect"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Il refuse cette dépense, défendant ainsi ses maigres économies.",
+      "prompt": "Quel participe exprime la protection de ses ressources ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défendant"
+        },
+        {
+          "id": "choice_2",
+          "text": "dépense"
+        },
+        {
+          "id": "choice_3",
+          "text": "économies"
+        },
+        {
+          "id": "choice_4",
+          "text": "refuse"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_quelques_quelque_indefinite_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelques_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Il reste _____ places, mais pas beaucoup.",
+      "choices": [
+        {
+          "id": "choice_2",
+          "text": "chaque"
+        },
+        {
+          "id": "choice_4",
+          "text": "tout"
+        },
+        {
+          "id": "choice_1",
+          "text": "quelques"
+        },
+        {
+          "id": "choice_5",
+          "text": "quelque"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_sage_wise_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_sage",
+        "senseId": "sns_sage_primary"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Son conseil est sage et prudent.",
+      "targetText": "sage",
+      "targetRange": {
+        "start": 16,
+        "end": 20
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "wise; sensible"
+        },
+        {
+          "id": "choice_2",
+          "text": "careless"
+        },
+        {
+          "id": "choice_3",
+          "text": "noisy"
+        },
+        {
+          "id": "choice_4",
+          "text": "rapid"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_parure_vers_sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d_7d34f2b56e_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+        "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Le chien court vers son maître qui l’appelle depuis le portail.",
+      "prompt": "Quel mot indique une direction ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "vers"
+        },
+        {
+          "id": "choice_5",
+          "text": "chien"
+        },
+        {
+          "id": "choice_6",
+          "text": "appelle"
+        },
+        {
+          "id": "choice_7",
+          "text": "portail"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defend_dbfa0fcf4789_defendre_protect_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defend_dbfa0fcf4789_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "L’avocate défend son client contre une accusation de vol.",
+      "targetText": "défend",
+      "targetRange": {
+        "start": 10,
+        "end": 16
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "defends"
+        },
+        {
+          "id": "choice_2",
+          "text": "accuses"
+        },
+        {
+          "id": "choice_3",
+          "text": "abandons"
+        },
+        {
+          "id": "choice_4",
+          "text": "punishes"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_fr_defendre_protect_fr_defendant_defendre_verb_levels_1_3",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_fr_defendant_defendre_verb",
+        "senseId": "sns_fr_defendre_protect"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Elle négocie fermement, défendant les intérêts de sa famille.",
+      "targetText": "défendant",
+      "targetRange": {
+        "start": 24,
+        "end": 33
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "hiding"
+        },
+        {
+          "id": "choice_2",
+          "text": "forgetting"
+        },
+        {
+          "id": "choice_3",
+          "text": "defending"
+        },
+        {
+          "id": "choice_4",
+          "text": "abandoning"
+        }
+      ],
+      "correctChoiceId": "choice_3"
+    },
+    {
+      "id": "qiz_zola_chez_chez_at_home_early",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_chez_chez",
+        "senseId": "sns_zola_chez_at_home"
+      },
+      "band": "levels_1_3",
+      "format": "meaning_choice",
+      "context": "Ce soir, nous dînerons chez notre tante dans son appartement.",
+      "targetText": "chez",
+      "targetRange": {
+        "start": 23,
+        "end": 27
+      },
+      "prompt": "Meaning",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "at the home of"
+        },
+        {
+          "id": "choice_2",
+          "text": "beneath"
+        },
+        {
+          "id": "choice_3",
+          "text": "despite"
+        },
+        {
+          "id": "choice_4",
+          "text": "across"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendu_ad58a7b0a818_defendre_protect_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendu_ad58a7b0a818_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Grâce au témoignage qui prouve son innocence, Léa a _____ son ami contre l’accusation.",
+      "choices": [
+        {
+          "id": "choice_3",
+          "text": "abandonné"
+        },
+        {
+          "id": "choice_4",
+          "text": "puni"
+        },
+        {
+          "id": "choice_1",
+          "text": "défendu"
+        },
+        {
+          "id": "choice_2",
+          "text": "accusé"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_chez_chez_at_home_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_chez_chez",
+        "senseId": "sns_zola_chez_at_home"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Nina passe la soirée chez sa grand-mère, dans sa maison près du parc. Paul reste au bureau, tandis que Léa se promène dans la rue.",
+      "prompt": "Quel mot indique que Nina se trouve au domicile de sa grand-mère ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "chez"
+        },
+        {
+          "id": "choice_2",
+          "text": "près"
+        },
+        {
+          "id": "choice_3",
+          "text": "dans"
+        },
+        {
+          "id": "choice_4",
+          "text": "tandis"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_chez_chez_at_home_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_chez_chez",
+        "senseId": "sns_zola_chez_at_home"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Luc rend visite à Marie et passe l’après-midi _____ elle.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "chez"
+        },
+        {
+          "id": "choice_2",
+          "text": "sous"
+        },
+        {
+          "id": "choice_3",
+          "text": "malgré"
+        },
+        {
+          "id": "choice_4",
+          "text": "entre"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_quelques_quelque_indefinite_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_quelques_quelque",
+        "senseId": "sns_zola_quelque_indefinite"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Nina apporte quelques biscuits pour le trajet ; elle n’en a pris qu’une petite quantité.",
+      "prompt": "Quel déterminant indique un petit nombre indéfini ?",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "trajet"
+        },
+        {
+          "id": "choice_6",
+          "text": "quantité"
+        },
+        {
+          "id": "choice_1",
+          "text": "quelques"
+        },
+        {
+          "id": "choice_7",
+          "text": "biscuits"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defend_dbfa0fcf4789_defendre_protect_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defend_dbfa0fcf4789_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "L’avocate _____ le prévenu en contestant les preuves présentées contre lui.",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défend"
+        },
+        {
+          "id": "choice_2",
+          "text": "accuse"
+        },
+        {
+          "id": "choice_3",
+          "text": "abandonne"
+        },
+        {
+          "id": "choice_4",
+          "text": "punit"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendre_4aa63f5a2119_defendre_protect_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "Paul veut protéger son frère contre une fausse accusation : il va le _____.",
+      "choices": [
+        {
+          "id": "choice_3",
+          "text": "abandonner"
+        },
+        {
+          "id": "choice_4",
+          "text": "punir"
+        },
+        {
+          "id": "choice_1",
+          "text": "défendre"
+        },
+        {
+          "id": "choice_2",
+          "text": "accuser"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendrait_876072f643db_defendre_protect_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendrait_876072f643db_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "Si le château était attaqué, la garnison défendrait ses murs pendant que les habitants évacueraient leurs maisons.",
+      "prompt": "Quel mot signifie protégerait contre une attaque ?",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "attaqué"
+        },
+        {
+          "id": "choice_6",
+          "text": "habitants"
+        },
+        {
+          "id": "choice_7",
+          "text": "évacueraient"
+        },
+        {
+          "id": "choice_1",
+          "text": "défendrait"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_zola_defendre_4aa63f5a2119_defendre_protect_advanced",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+        "senseId": "sns_zola_defendre_protect"
+      },
+      "band": "levels_6_8",
+      "format": "target_identification",
+      "context": "L’avocat veut défendre Marc en présentant un alibi vérifié. Nina prépare les documents, Paul ouvre la porte et Luc consulte le calendrier.",
+      "prompt": "Quel verbe indique que l’avocat cherche à protéger Marc contre l’accusation ?",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "défendre"
+        },
+        {
+          "id": "choice_2",
+          "text": "prépare"
+        },
+        {
+          "id": "choice_3",
+          "text": "ouvre"
+        },
+        {
+          "id": "choice_4",
+          "text": "consulte"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    },
+    {
+      "id": "qiz_parure_vers_sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d_7d34f2b56e_intermediate",
+      "language": "fr",
+      "glossLanguage": "en",
+      "subject": {
+        "kind": "vocabulary",
+        "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+        "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d"
+      },
+      "band": "levels_4_5",
+      "format": "surface_completion",
+      "context": "La flèche pointe _____ la sortie et nous en indique la direction.",
+      "choices": [
+        {
+          "id": "choice_5",
+          "text": "pendant"
+        },
+        {
+          "id": "choice_1",
+          "text": "vers"
+        },
+        {
+          "id": "choice_6",
+          "text": "malgré"
+        },
+        {
+          "id": "choice_7",
+          "text": "sans"
+        }
+      ],
+      "correctChoiceId": "choice_1"
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "occ_cigale_fourmi_50bdeca3f55ffe2643b155a4",
+      "workId": "wrk_cigale_fourmi",
+      "unitId": "unt_cigale_fourmi_04",
+      "start": 23,
+      "end": 27,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Elle alla crier famine chez la Fourmi sa voisine,"
+    },
+    {
+      "id": "occ_cigale_fourmi_b5b9873f77debb959ea9d790",
+      "workId": "wrk_cigale_fourmi",
+      "unitId": "unt_cigale_fourmi_05",
+      "start": 24,
+      "end": 31,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "La priant de lui prêter quelque grain pour subsister jusqu’à la saison nouvelle."
+    },
+    {
+      "id": "occ_b99ce9b7e395d56cb0be1ae8",
+      "workId": "wrk_lievre_tortue",
+      "unitId": "unt_lievre_04",
+      "surfaceFormId": "srf_sage",
+      "senseId": "sns_sage_primary",
+      "start": 20,
+      "end": 24,
+      "context": "— Sitôt ? Êtes-vous sage ? repartit l’animal léger."
+    },
+    {
+      "id": "occ_cd3cbe1f9c1908fe33e26e96",
+      "workId": "wrk_lievre_tortue",
+      "unitId": "unt_lievre_06",
+      "surfaceFormId": "srf_sage",
+      "senseId": "sns_sage_primary",
+      "start": 2,
+      "end": 6,
+      "context": "— Sage ou non, je parie encore. »"
+    },
+    {
+      "id": "occ_zola_0adc192121679c5c963fa746",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_022",
+      "start": 26,
+      "end": 33,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "Le bordereau était depuis quelque temps déjà entre les mains du colonel Sandherr, directeur du bureau des renseignements, mort depuis de paralysie générale."
+    },
+    {
+      "id": "occ_zola_165c9e15bc54bcd0d78c432b",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_062",
+      "start": 146,
+      "end": 153,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "Une pièce ridicule, oui, peut-être la pièce où il est question de petites femmes, et où il est parlé d’un certain D... qui devient trop exigeant, quelque mari sans doute trouvant qu’on ne lui payait pas sa femme assez cher."
+    },
+    {
+      "id": "occ_zola_17d71a64d109f99f5f3944fe",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_052",
+      "start": 54,
+      "end": 58,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Dreyfus sait plusieurs langues, crime ; on n’a trouvé chez lui aucun papier compromettant, crime ; il va parfois dans son pays d’origine, crime ; il est laborieux, il a le souci de tout savoir, crime ; il ne se trouble pas, crime ; il se trouble, crime."
+    },
+    {
+      "id": "occ_zola_37b98938879192328f4b861e",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_169",
+      "start": 275,
+      "end": 283,
+      "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "Et l’on a même vu, pour le lieutenant-colonel Picquart, cette chose ignoble : un tribunal français, après avoir laissé le rapporteur charger publiquement un témoin, l’accuser de toutes les fautes, a fait le huis clos, lorsque ce témoin a été introduit pour s’expliquer et se défendre."
+    },
+    {
+      "id": "occ_zola_3e908079d7ca8d27970561f3",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_181",
+      "start": 158,
+      "end": 165,
+      "surfaceFormId": "srf_zola_defendu_ad58a7b0a818_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "J’accuse le lieutenant-colonel du Paty de Clam d’avoir été l’ouvrier diabolique de l’erreur judiciaire, en inconscient, je veux le croire, et d’avoir ensuite défendu son œuvre néfaste, depuis trois ans, par les machinations les plus saugrenues et les plus coupables."
+    },
+    {
+      "id": "occ_zola_4f7eb3647edc14aa4fb29c9c",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_152",
+      "start": 58,
+      "end": 62,
+      "surfaceFormId": "srf_sage",
+      "senseId": "sns_sage_primary",
+      "context": "Où est-il, le ministère vraiment fort et d’un patriotisme sage, qui osera tout y refondre, et tout y renouveler ?"
+    },
+    {
+      "id": "occ_zola_5c6eba01c1ee74a7c53fbc35",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_110",
+      "start": 44,
+      "end": 50,
+      "surfaceFormId": "srf_zola_defend_dbfa0fcf4789_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "Au fond, c’est toujours l’état-major qui se défend, qui ne veut pas avouer son crime, dont l’abomination grandit d’heure en heure."
+    },
+    {
+      "id": "occ_zola_a21bcfd36609cfaab1174625",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_105",
+      "start": 77,
+      "end": 85,
+      "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "Son œuvre, la culpabilité de Dreyfus, était en péril, et il a voulu sûrement défendre son œuvre."
+    },
+    {
+      "id": "occ_zola_a554bb8e7978e4d807672d91",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_032",
+      "start": 9,
+      "end": 13,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Il court chez madame Dreyfus, la terrorise, lui dit que, si elle parle, son mari est perdu."
+    },
+    {
+      "id": "occ_zola_b28125b910e9d8a976feeb5e",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_155",
+      "start": 172,
+      "end": 180,
+      "surfaceFormId": "srf_zola_quelques_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "Ah ! tout ce qui s’est agité là de démence et de sottise, des imaginations folles, des pratiques de basse police, des mœurs d’inquisition et de tyrannie, le bon plaisir de quelques galonnés mettant leurs bottes sur la nation, lui rentrant dans la gorge son cri de vérité et de justice, sous le prétexte menteur et sacrilège de la raison d’Etat !"
+    },
+    {
+      "id": "occ_zola_bcb9352c8f8f9f25cb7cdce8",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_156",
+      "start": 90,
+      "end": 98,
+      "surfaceFormId": "srf_zola_defendre_4aa63f5a2119_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "Et c’est un crime encore que de s’être appuyé sur la presse immonde, que de s’être laissé défendre par toute la fripouille de Paris, de sorte que voilà la fripouille qui triomphe insolemment dans la défaite du droit et de la simple probité."
+    },
+    {
+      "id": "occ_zola_fda1953aeb468e07719992d4",
+      "workId": "wrk_zola_jaccuse",
+      "unitId": "unt_zola_jaccuse_144",
+      "start": 68,
+      "end": 78,
+      "surfaceFormId": "srf_zola_defendrait_876072f643db_defendre",
+      "senseId": "sns_zola_defendre_protect",
+      "context": "Ah ! certes, oui, l’armée qui se lèverait à la première menace, qui défendrait la terre française, elle est tout le peuple et nous n’avons pour elle que tendresse et respect."
+    },
+    {
+      "id": "occ_parure_a3637f8378a95a93271f03eb",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_011",
+      "start": 23,
+      "end": 30,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "— Tiens, dit-il, voici quelque chose pour toi."
+    },
+    {
+      "id": "occ_parure_a63c3371986a18c20083a39d",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_021",
+      "start": 125,
+      "end": 129,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Il se tut, stupéfait, éperdu, en voyant que sa femme pleurait. Deux grosses larmes descendaient lentement des coins des yeux vers les coins de la bouche ; il bégaya :"
+    },
+    {
+      "id": "occ_parure_1abd3a8b248d950c06db968b",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_024",
+      "start": 108,
+      "end": 115,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "— Rien. Seulement je n’ai pas de toilette et par conséquent je ne peux aller à cette fête. Donne ta carte à quelque collègue dont la femme sera mieux nippée que moi."
+    },
+    {
+      "id": "occ_parure_eb1cf04953e47ebcd41c9a53",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_026",
+      "start": 125,
+      "end": 132,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "— Voyons, Mathilde. Combien cela coûterait-il, une toilette convenable, qui pourrait te servir encore en d’autres occasions, quelque chose de très simple ?"
+    },
+    {
+      "id": "occ_parure_3c5da46737e01552ab211c74",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_027",
+      "start": 15,
+      "end": 23,
+      "surfaceFormId": "srf_zola_quelques_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "Elle réfléchit quelques secondes, établissant ses comptes et songeant aussi à la somme qu’elle pouvait demander sans s’attirer un refus immédiat et une exclamation effarée du commis économe."
+    },
+    {
+      "id": "occ_parure_f9f96a979c7a848d773ecd6a",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_030",
+      "start": 162,
+      "end": 170,
+      "surfaceFormId": "srf_zola_quelques_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "Il avait un peu pâli, car il réservait juste cette somme pour acheter un fusil et s’offrir des parties de chasse, l’été suivant, dans la plaine de Nanterre, avec quelques amis qui allaient tirer des alouettes, par là, le dimanche."
+    },
+    {
+      "id": "occ_parure_f7868110f0758f3523d4bcf9",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_045",
+      "start": 29,
+      "end": 33,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Le lendemain, elle se rendit chez son amie et lui conta sa détresse."
+    },
+    {
+      "id": "occ_parure_1b883a232c808dbe497aff6e",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_046",
+      "start": 19,
+      "end": 23,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Mme Forestier alla vers son armoire à glace, prit un large coffret, l’apporta, l’ouvrit, et dit à Mme Loisel :"
+    },
+    {
+      "id": "occ_parure_acd4d95df772db4d61f7beeb",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_058",
+      "start": 12,
+      "end": 16,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Elle partit vers quatre heures du matin. Son mari, depuis minuit, dormait dans un petit salon désert avec trois autres messieurs dont les femmes s’amusaient beaucoup."
+    },
+    {
+      "id": "occ_parure_328f9e5499d5f9dd3cb73ef4",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_063",
+      "start": 17,
+      "end": 21,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Ils descendaient vers la Seine, désespérés, grelottants. Enfin, ils trouvèrent sur le quai un de ces vieux coupés noctambules qu’on ne voit dans Paris que la nuit venue, comme s’ils eussent été honteux de leur misère pendant le jour."
+    },
+    {
+      "id": "occ_parure_7e9b68346f8e50e2a195676a",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_064",
+      "start": 81,
+      "end": 85,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Il les ramena jusqu’à leur porte, rue des Martyrs, et ils remontèrent tristement chez eux. C’était fini, pour elle. Et il songeait, lui, qu’il lui faudrait être au Ministère à dix heures."
+    },
+    {
+      "id": "occ_parure_bf7ff93d23261058d26daab4",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_068",
+      "start": 15,
+      "end": 19,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Elle se tourna vers lui, affolée :"
+    },
+    {
+      "id": "occ_parure_0c5faec98df8d6b858e24a4a",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_083",
+      "start": 16,
+      "end": 20,
+      "surfaceFormId": "srf_parure_vers_lem_parure_vers_preposition_1fc55ee8aa_96dd7d0a2f",
+      "senseId": "sns_parure_vers_indique_une_direction_ou_une_approximation_de_temps_1a64e1a49d",
+      "context": "Son mari rentra vers sept heures. Il n’avait rien trouvé."
+    },
+    {
+      "id": "occ_parure_b89fa1f1290814ecb254f526",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_092",
+      "start": 74,
+      "end": 78,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Ils prirent, le lendemain, la boîte qui l’avait renfermé, et se rendirent chez le joaillier, dont le nom se trouvait dedans. Il consulta ses livres :"
+    },
+    {
+      "id": "occ_parure_4ab49c7cbdc694277ee4c607",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_105",
+      "start": 156,
+      "end": 160,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "elle descendit à la rue, chaque matin, les ordures, et monta l’eau, s’arrêtant à chaque étage pour souffler. Et, vêtue comme une femme du peuple, elle alla chez le fruitier, chez l’épicier, chez le boucher, le panier au bras, marchandant, injuriée, défendant sou à sou son misérable argent."
+    },
+    {
+      "id": "occ_parure_387dd64a1f88106736e51cba",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_105",
+      "start": 174,
+      "end": 178,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "elle descendit à la rue, chaque matin, les ordures, et monta l’eau, s’arrêtant à chaque étage pour souffler. Et, vêtue comme une femme du peuple, elle alla chez le fruitier, chez l’épicier, chez le boucher, le panier au bras, marchandant, injuriée, défendant sou à sou son misérable argent."
+    },
+    {
+      "id": "occ_parure_ee0a015272a761cebe68c9db",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_105",
+      "start": 190,
+      "end": 194,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "elle descendit à la rue, chaque matin, les ordures, et monta l’eau, s’arrêtant à chaque étage pour souffler. Et, vêtue comme une femme du peuple, elle alla chez le fruitier, chez l’épicier, chez le boucher, le panier au bras, marchandant, injuriée, défendant sou à sou son misérable argent."
+    },
+    {
+      "id": "occ_parure_9bc9a7a5c11c8eccff1c6dd9",
+      "workId": "wrk_maupassant_la_parure",
+      "unitId": "unt_maupassant_parure_105",
+      "start": 249,
+      "end": 258,
+      "surfaceFormId": "srf_fr_defendant_defendre_verb",
+      "senseId": "sns_fr_defendre_protect",
+      "context": "elle descendit à la rue, chaque matin, les ordures, et monta l’eau, s’arrêtant à chaque étage pour souffler. Et, vêtue comme une femme du peuple, elle alla chez le fruitier, chez l’épicier, chez le boucher, le panier au bras, marchandant, injuriée, défendant sou à sou son misérable argent."
+    },
+    {
+      "id": "occ_cendrillon_83ab93cc92ded8d2dbc20e8c",
+      "workId": "wrk_perrault_cendrillon",
+      "unitId": "unt_perrault_cendrillon_014",
+      "start": 182,
+      "end": 189,
+      "surfaceFormId": "srf_zola_quelque_quelque",
+      "senseId": "sns_zola_quelque_indefinite",
+      "context": "ce qui fit un bel attelage de six chevaux d’un beau gris de souris pommelé : Comme elle estoit en peine de quoy elle ferait un Cocher, je vais voir, dit Cendrillon, s’il n’y a point quelque rat dans la ratiere ; nous en ferons un Cocher : Tu as raison, dit sa Maraine, va voir :"
+    },
+    {
+      "id": "occ_cendrillon_8a9492fe78bbe5b9f9fe1398",
+      "workId": "wrk_perrault_cendrillon",
+      "unitId": "unt_perrault_cendrillon_026",
+      "start": 110,
+      "end": 114,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "elle laissa tomber une de ses pantoufles de verre, que le Prince ramassa biensoigneusement. Cendrillon arriva chez elle, bien ésoufflée, sans carosse, sans laquais, et avec ses méchans habits, rien ne luy estant resté de toute sa magnificence, qu’une de ses petites pantoufles, la pareille de celle qu’elle avoit laissé tomber. On demanda aux Gardes de la porte du Palais s’ils n’avoient point veu sortir une Princesse ;"
+    },
+    {
+      "id": "occ_cendrillon_286c9a031b5ec73035d9a89d",
+      "workId": "wrk_perrault_cendrillon",
+      "unitId": "unt_perrault_cendrillon_029",
+      "start": 12,
+      "end": 16,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :"
+    },
+    {
+      "id": "occ_cendrillon_1286fbeb3546052097b57b89",
+      "workId": "wrk_perrault_cendrillon",
+      "unitId": "unt_perrault_cendrillon_031",
+      "start": 364,
+      "end": 368,
+      "surfaceFormId": "srf_zola_chez_chez",
+      "senseId": "sns_zola_chez_at_home",
+      "context": "Alors ses deux sœurs la reconnurent pour la belle personne qu’elles avoient veuë au Bal. Elles se jetterent à ses pieds pour luy demander pardon de tous les mauvais traittemens, qu’elles luy avoient fait souffrir. Cendrillon les releva et leur dit, en les embrassant, qu’elle leur pardonnoit de bon cœur, et qu’elle les prioit de l’aimer bien toûjours. On la mena chez le jeune Prince, parée comme elle estoit :"
+    }
+  ],
+  "summary": {
+    "heads": 5,
+    "senses": 6,
+    "surfaces": 10,
+    "currentAndHistoricalQuestions": 30,
+    "indexedOccurrences": 38
+  },
+  "sha256": "e46e138339388409644ec30fef7bab645b55b0ba4f31f9329505dd8b9dbbc222"
+}

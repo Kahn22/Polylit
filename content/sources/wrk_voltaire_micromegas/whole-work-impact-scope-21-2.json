@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:38:49.023Z",
+  "sense": {
+    "id": "sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab",
+    "lemmaId": "lem_savoir",
+    "gloss": "to know",
+    "definition": "Avoir connaissance d’un fait ou d’une information ; ancienne graphie de savoir."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_advanced",
+      "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_intermediate",
+      "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_scavoir_lem_savoir_15bfdf5d32:sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab",
+      "surface": "sçavoir",
+      "lemma": "savoir",
+      "currentRevision": "rev_e044980b85a3e157273af96db09e07a456853e29139cae379fb14a4c1ec46ce0",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_be6d3913784a117e29e022b2",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_023",
+          "passage": "il y est venu la plus belle Princesse, la plus belle qu’on puisse jamais voir ; elle nous a fait mille civilitez ; elle nous a donné des oranges et des citrons. Cendrillon ne se sentoit pas de joye : elle leur demanda le nom de cette Princesse ; mais elles luy répondirent qu’on ne la connoissoit pas, que le Fils du Roi en estoit fort en peine, et qu’il donneroit toutes choses au monde pour sçavoir qui elle estoit. Cendrillon sourit et leur dit, elle estoit donc bien belle ? Mon Dieu ! que vous estes heureuses,",
+          "span": [
+            393,
+            400
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Le prince souhaite sçavoir où demeure la visiteuse.",
+          "prompt": "Quel infinitif ancien exprime la connaissance recherchée ?",
+          "choices": [
+            {
+              "text": "sçavoir",
+              "correct": true
+            },
+            {
+              "text": "prince",
+              "correct": false
+            },
+            {
+              "text": "demeure",
+              "correct": false
+            },
+            {
+              "text": "visiteuse",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle cherche à _____ qui a envoyé cette lettre, pour connaître son identité.",
+          "choices": [
+            {
+              "text": "détruire",
+              "correct": false
+            },
+            {
+              "text": "sçavoir",
+              "correct": true
+            },
+            {
+              "text": "cacher",
+              "correct": false
+            },
+            {
+              "text": "oublier",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_scavoir_sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab_89ef1688d5_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il veut sçavoir son nom, qu’on ne lui a pas encore révélé.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "change",
+              "correct": false
+            },
+            {
+              "text": "know",
+              "correct": true
+            },
+            {
+              "text": "hide",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

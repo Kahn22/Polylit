@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:25:53.936Z",
+  "sense": {
+    "id": "sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa",
+    "lemmaId": "lem_venir",
+    "gloss": "whoever came",
+    "definition": "qui se présente ou arrive, dans l’expression « à tout venant »"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_intermediate",
+      "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_early",
+      "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cigale_fourmi_venant_lem_venir_73afc44cd1:sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa",
+      "surface": "venant",
+      "lemma": "venir",
+      "currentRevision": "rev_4b01f7456efea646428f1c92c4c59b4c7bc21bed1bd435ae2cb75592bfe26da4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cigale_fourmi_ff19e752f3ef663940d1a35a",
+          "workId": "wrk_cigale_fourmi",
+          "unitId": "unt_cigale_fourmi_09",
+          "passage": "— Nuit et jour à tout venant, je chantais, ne vous déplaise.",
+          "span": [
+            22,
+            28
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il offre son aide à tout _____, sans demander à connaître la personne.",
+          "choices": [
+            {
+              "text": "venant",
+              "correct": true
+            },
+            {
+              "text": "venir",
+              "correct": false
+            },
+            {
+              "text": "venu",
+              "correct": false
+            },
+            {
+              "text": "vient",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il raconte ses aventures à tout venant, même aux inconnus.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "someone sleeping",
+              "correct": false
+            },
+            {
+              "text": "someone hiding",
+              "correct": false
+            },
+            {
+              "text": "anyone who comes along",
+              "correct": true
+            },
+            {
+              "text": "someone departing",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cigale_fourmi_venant_sns_cigale_fourmi_venir_qui_se_presente_ou_arrive_dans_l_expression_a_tout_venant_d4b1012eaa_8e96d0133a_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle parle à tout venant sur la place ; chaque passant peut écouter son histoire et poser une question.",
+          "prompt": "Quel mot, après « tout », désigne quiconque se présente ?",
+          "choices": [
+            {
+              "text": "passant",
+              "correct": false
+            },
+            {
+              "text": "histoire",
+              "correct": false
+            },
+            {
+              "text": "venant",
+              "correct": true
+            },
+            {
+              "text": "place",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

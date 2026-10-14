@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:55:22.804Z",
+  "sense": {
+    "id": "sns_fr_prendre_commitment",
+    "lemmaId": "lem_prendre",
+    "gloss": "to undertake (a commitment)",
+    "definition": "S’engager à accomplir quelque chose, notamment dans prendre un engagement."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_6_8",
+      "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_4_5",
+      "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_prit_lem_prendre_fb914794ca:sns_fr_prendre_commitment",
+      "surface": "prit",
+      "lemma": "prendre",
+      "currentRevision": "rev_8cce7b4d71eaa173020e3ccc5733d42b3c8bd2b9a36c82b98a7343e8ce45c100",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_ad8939b517c35f43f2241b97",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_098",
+          "passage": "Il emprunta, demandant mille francs à l’un, cinq cents à l’autre, cinq louis par-ci, trois louis par-là. Il fit des billets, prit des engagements ruineux, eut affaire aux usuriers, à toutes les races de prêteurs. Il compromit toute la fin de son existence, risqua sa signature sans savoir même s’il pourrait y faire honneur, et, épouvanté par les angoisses de l’avenir, par la noire misère qui allait s’abattre sur lui, par la perspective de toutes les privations physiques et de toutes les tortures morales,",
+          "span": [
+            125,
+            129
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Il prit des engagements qu’il savait difficiles à tenir.",
+          "prompt": "Quel verbe exprime le fait de s’obliger à accomplir quelque chose ?",
+          "choices": [
+            {
+              "text": "engagements",
+              "correct": false
+            },
+            {
+              "text": "difficiles",
+              "correct": false
+            },
+            {
+              "text": "tenir",
+              "correct": false
+            },
+            {
+              "text": "prit",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle _____ l’engagement de revenir, en donnant sa parole.",
+          "choices": [
+            {
+              "text": "prit",
+              "correct": true
+            },
+            {
+              "text": "prirent",
+              "correct": false
+            },
+            {
+              "text": "prendre",
+              "correct": false
+            },
+            {
+              "text": "prenant",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_prendre_commitment_parure_prit_lem_prendre_fb914794ca_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il prit l’engagement de rembourser la somme avant l’été.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "cancelled",
+              "correct": false
+            },
+            {
+              "text": "undertook",
+              "correct": true
+            },
+            {
+              "text": "refused",
+              "correct": false
+            },
+            {
+              "text": "forgot",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

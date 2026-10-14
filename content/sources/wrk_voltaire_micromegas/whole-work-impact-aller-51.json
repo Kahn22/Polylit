@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-02T06:51:22.996Z",
+  "sense": {
+    "id": "sns_fr_aller_extent",
+    "lemmaId": "lem_zola_aller",
+    "gloss": "to go so far as",
+    "definition": "Dans aller jusqu’à, atteindre un degré ou une limite, parfois jugés excessifs."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_aller_extent_fr_va_aller_verb_levels_1_3",
+      "qiz_fr_aller_extent_fr_va_aller_verb_levels_4_5",
+      "qiz_fr_aller_extent_fr_va_aller_verb_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_va_aller_verb:sns_fr_aller_extent",
+      "surface": "va",
+      "lemma": "aller",
+      "currentRevision": "rev_b6639b8469f475a32b01e19d57c33a2b36760952d149aa1b1f6fa83a14107eed",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_82dcd566f97fb8cf700cf176",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_117",
+          "passage": "On va jusqu’à dire que c’est lui le faussaire, qu’il a fabriqué la carte-télégramme pour perdre Esterhazy.",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_aller_extent_fr_va_aller_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il va jusqu’à accuser son ami sans aucune preuve.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "refuses to",
+              "correct": false
+            },
+            {
+              "text": "forgets to",
+              "correct": false
+            },
+            {
+              "text": "stops before",
+              "correct": false
+            },
+            {
+              "text": "goes so far as",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_aller_extent_fr_va_aller_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Elle _____ jusqu’à nier ce que tous ont vu, tant elle veut défendre sa version.",
+          "choices": [
+            {
+              "text": "demeure",
+              "correct": false
+            },
+            {
+              "text": "attend",
+              "correct": false
+            },
+            {
+              "text": "va",
+              "correct": true
+            },
+            {
+              "text": "reste",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_aller_extent_fr_va_aller_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Son audace va jusqu’à contester publiquement la décision du chef.",
+          "prompt": "Quel verbe, avec jusqu’à, marque le degré atteint ?",
+          "choices": [
+            {
+              "text": "chef",
+              "correct": false
+            },
+            {
+              "text": "va",
+              "correct": true
+            },
+            {
+              "text": "audace",
+              "correct": false
+            },
+            {
+              "text": "décision",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

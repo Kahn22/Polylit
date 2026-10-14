@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:50:49.579Z",
+  "sense": {
+    "id": "sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee",
+    "lemmaId": "lem_monsieur",
+    "gloss": "mister, sir (a title or form of address for a man, used with or without the name in direct or third-person address)",
+    "definition": "Appellation permettant de s’adresser de façon polie à un homme (un client, un professeur, un passant, etc.)."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_early",
+      "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_advanced",
+      "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_messieurs_lem_monsieur_3a91e2dfec:sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee",
+      "surface": "messieurs",
+      "lemma": "monsieur",
+      "currentRevision": "rev_c48ac249087db9d3b3cff17e3ab53b5ec70606f246c31a04801af8db04b89985",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_cc69a49078d9c49018468ba8",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_058",
+          "passage": "Elle partit vers quatre heures du matin. Son mari, depuis minuit, dormait dans un petit salon désert avec trois autres messieurs dont les femmes s’amusaient beaucoup.",
+          "span": [
+            119,
+            128
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les messieurs retirent leur chapeau en entrant.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "ladies",
+              "correct": false
+            },
+            {
+              "text": "children",
+              "correct": false
+            },
+            {
+              "text": "girls",
+              "correct": false
+            },
+            {
+              "text": "gentlemen",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les messieurs attendent devant la salle pendant que les dames déposent leurs manteaux ; les enfants restent avec leurs parents.",
+          "prompt": "Quel nom désigne poliment les hommes adultes ?",
+          "choices": [
+            {
+              "text": "messieurs",
+              "correct": true
+            },
+            {
+              "text": "dames",
+              "correct": false
+            },
+            {
+              "text": "manteaux",
+              "correct": false
+            },
+            {
+              "text": "enfants",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_messieurs_sns_parure_monsieur_appellation_permettant_de_s_adresser_de_facon_polie_a_un_homme_un_client_un_professeur_un_passant_etc_217dc4c4ee_bb784210f1_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Pour saluer poliment ces hommes adultes sans préciser leur métier, elle dit : « Bonjour, _____ ».",
+          "choices": [
+            {
+              "text": "juges",
+              "correct": false
+            },
+            {
+              "text": "marchands",
+              "correct": false
+            },
+            {
+              "text": "messieurs",
+              "correct": true
+            },
+            {
+              "text": "soldats",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

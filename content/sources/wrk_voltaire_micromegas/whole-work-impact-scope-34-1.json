@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:45:22.815Z",
+  "sense": {
+    "id": "sns_fr_secret_incommunicado",
+    "lemmaId": "lem_fr_secret_noun",
+    "gloss": "incommunicado confinement",
+    "definition": "Isolement imposé à un détenu privé de communication avec l’extérieur, dans au secret."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_6_8",
+      "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_4_5",
+      "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_1_3"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_secret_secret_noun:sns_fr_secret_incommunicado",
+      "surface": "secret",
+      "lemma": "secret",
+      "currentRevision": "rev_9462d3b7639125ef3444b17601e7fff45267ffabd8ab96b97b156550d3cebf8f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_2d5af7474e3da35872ddb2ad",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_031",
+          "passage": "Le commandant du Paty de Clam arrête Dreyfus, le met au secret.",
+          "span": [
+            56,
+            62
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "On le garde au secret, sans courrier ni visite, et sa famille reste sans nouvelles.",
+          "prompt": "Quel nom désigne ici le régime d’isolement du détenu ?",
+          "choices": [
+            {
+              "text": "secret",
+              "correct": true
+            },
+            {
+              "text": "courrier",
+              "correct": false
+            },
+            {
+              "text": "visite",
+              "correct": false
+            },
+            {
+              "text": "famille",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le prisonnier est tenu au _____ : toute communication avec l’extérieur lui est interdite.",
+          "choices": [
+            {
+              "text": "régime",
+              "correct": false
+            },
+            {
+              "text": "secret",
+              "correct": true
+            },
+            {
+              "text": "repos",
+              "correct": false
+            },
+            {
+              "text": "travail",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_secret_incommunicado_fr_secret_secret_noun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le détenu est au secret et ne peut communiquer avec personne à l’extérieur.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "rest",
+              "correct": false
+            },
+            {
+              "text": "dinner",
+              "correct": false
+            },
+            {
+              "text": "incommunicado confinement",
+              "correct": true
+            },
+            {
+              "text": "work",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

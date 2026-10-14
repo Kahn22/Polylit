@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "status": "offline_petit_ownership_reconciliation_unapplied",
+  "summary": {
+    "reviewedPublishedIdentities": 6,
+    "reviewedPublishedUses": 14,
+    "reviewedPublishedWordBands": 18,
+    "reviewedHistoricalBands": 0,
+    "reviewedCandidateUnits": 42,
+    "reviewedCandidateTokens": 48,
+    "reviewedCandidateBanks": 3,
+    "reviewedCandidateBankUses": 4,
+    "reviewedCandidateBands": 9,
+    "preparedWordReplacementBands": 2,
+    "sharedSenseMetadataChanges": 2,
+    "plannedNounOwners": 1,
+    "plannedNounMeanings": 2,
+    "newWordBanks": 5,
+    "newWordBands": 15,
+    "newCompletePhraseBanks": 1,
+    "newCompletePhraseBands": 3,
+    "candidatePhraseSpans": 1,
+    "candidatePhraseComponentTokens": 2,
+    "exactPublishedReassignments": 3
+  },
+  "nextAction": {
+    "family": "aucun pronoun versus determiner",
+    "senseId": "sns_zola_aucun_none",
+    "form": "aucun",
+    "unit": 95,
+    "start": 195,
+    "end": 200,
+    "reason": "Review both current/historical determiner branches, then give standalone aucun a proper pronoun owner without a gender-only meaning. Continue venir, pouvoir and the remaining whole-work dependencies. All current corrections remain offline and unapplied."
+  },
+  "evidenceSha256": {
+    "whole-work-scope-plan-06.json": "51c1eddd13d6e758f2f12b224e997048a46e57e2cc63f6663d97b8564b6e74a5",
+    "whole-work-impact-petit-small-parure-06.json": "3b2bfd3d7b5f064ca7092d61decc32668ffd1e80d7a9a8ddf4921868f9cf1564",
+    "whole-work-impact-petit-familiar-06.json": "c950027d7c9b5d112c96fd0819d3f0b435f19122181c79ec0467ff23428265fb",
+    "whole-work-impact-petit-lowly-06.json": "0c28f28c2d889dd998b442e58b19ee741da8efab1f21defc2969dca5650c4f67",
+    "whole-work-impact-petit-small-zola-06.json": "1d0362d555b40c2836f84a190e34dbbaa9bb65aee7bce6130edfcd1f76542036"
+  }
+}

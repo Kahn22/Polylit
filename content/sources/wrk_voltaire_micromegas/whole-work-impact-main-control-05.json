@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:11:21.956Z",
+  "sense": {
+    "id": "sns_zola_main_control",
+    "lemmaId": "lem_zola_main",
+    "gloss": "control; charge",
+    "definition": "pouvoir de diriger ou de prendre personnellement en charge"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_main_main_control_intermediate",
+      "qiz_zola_main_main_control_advanced",
+      "qiz_zola_main_main_control_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_main_main:sns_zola_main_control",
+      "surface": "main",
+      "lemma": "main",
+      "currentRevision": "rev_1c14b44d11ccfb8c70d281809efaeaaba182894ad6176fb67a8f53368aaf9133",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_e27b3f0ef380783832ea1c5b",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_093",
+          "passage": "Ce fut, plus tard, le langage que M. Scheurer-Kestner tint également au général Billot, l’adjurant par patriotisme de prendre en main l’affaire, de ne pas la laisser s’aggraver, au point de devenir un désastre public.",
+          "span": [
+            129,
+            133
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_main_main_control_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il prend en _____ l’organisation et dirige lui-même les préparatifs.",
+          "choices": [
+            {
+              "text": "fuite",
+              "correct": false
+            },
+            {
+              "text": "peur",
+              "correct": false
+            },
+            {
+              "text": "panne",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_main_main_control_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La nouvelle responsable reprend en main le service, fixe les priorités et coordonne les équipes.",
+          "prompt": "Quel mot, avec reprend en, exprime la prise en charge ?",
+          "choices": [
+            {
+              "text": "priorités",
+              "correct": false
+            },
+            {
+              "text": "équipes",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            },
+            {
+              "text": "responsable",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_main_main_control_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "La directrice prend en main le projet et répartit les tâches.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "control",
+              "correct": true
+            },
+            {
+              "text": "delay",
+              "correct": false
+            },
+            {
+              "text": "doubt",
+              "correct": false
+            },
+            {
+              "text": "distance",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

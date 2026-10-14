@@ -11,7 +11,7 @@ export class ProgressIndex {
   #revision = -1;
   #validUntil = 0;
   constructor(readonly library: LibraryIndex) {
-    for (const [id, work] of Object.entries(library.works)) this.#members.set(id, new Set([...work.vocabularyTokens, ...work.expressionIdentityKeys.map(id => identityToken(`expression:${id}`))]));
+    for (const [id, work] of Object.entries(library.works)) this.#members.set(id, new Set([...work.vocabularyTokens, ...(work.expressionTokens ?? work.expressionIdentityKeys.map(id => identityToken(`expression:${id}`)))]));
   }
   refresh(state: VocabularyLearnerStateRecord, eligible: ReadonlySet<string>, revision: number, at: Date): void {
     if (this.#revision === revision && at.getTime() < this.#validUntil) return;

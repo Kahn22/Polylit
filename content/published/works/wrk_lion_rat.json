@@ -160,33 +160,6 @@
         "senseId": "sns_lion_rat_obliger_rendre_service_a_quelqu_un_et_lui_inspirer_de_la_reconnaissance_6eee18dab5"
       },
       {
-        "id": "occ_lion_rat_74224f75b1e05b7a79055ef4",
-        "workId": "wrk_lion_rat",
-        "unitId": "unt_lion_rat_01",
-        "start": 36,
-        "end": 40,
-        "surfaceFormId": "srf_tout",
-        "senseId": "sns_tout_primary"
-      },
-      {
-        "id": "occ_lion_rat_911df64865a0b012cdc92921",
-        "workId": "wrk_lion_rat",
-        "unitId": "unt_lion_rat_01",
-        "start": 41,
-        "end": 43,
-        "surfaceFormId": "srf_le",
-        "senseId": "sns_le_primary"
-      },
-      {
-        "id": "occ_lion_rat_56f191a60b8e38caf1965e14",
-        "workId": "wrk_lion_rat",
-        "unitId": "unt_lion_rat_01",
-        "start": 44,
-        "end": 49,
-        "surfaceFormId": "srf_zola_monde_monde",
-        "senseId": "sns_lion_rat_monde_ensemble_des_personnes_dans_l_expression_tout_le_monde_969cb6ca9f"
-      },
-      {
         "id": "occ_lion_rat_b3996cf613696acf736e7238",
         "workId": "wrk_lion_rat",
         "unitId": "unt_lion_rat_02",
@@ -255,8 +228,8 @@
         "unitId": "unt_lion_rat_02",
         "start": 30,
         "end": 35,
-        "surfaceFormId": "srf_parure_petit_petit_adjective_70013fa3c6",
-        "senseId": "sns_parure_petit_small_dfe627cb55"
+        "surfaceFormId": "srf_micromegas_c3a2206d84508c99",
+        "senseId": "sns_micromegas_6c0611b66b75e737"
       },
       {
         "id": "occ_lion_rat_9800eb0d944bb6e772dfaac5",
@@ -320,24 +293,6 @@
         "end": 27,
         "surfaceFormId": "srf_lion_rat_fables_lem_lion_rat_fable_noun_bbca160f90_2e14a7a2ac",
         "senseId": "sns_lion_rat_fable_ce_que_l_on_dit_ce_que_l_on_raconte_246c7ebc45"
-      },
-      {
-        "id": "occ_lion_rat_04c13d5494786cf8065af827",
-        "workId": "wrk_lion_rat",
-        "unitId": "unt_lion_rat_03",
-        "start": 28,
-        "end": 34,
-        "surfaceFormId": "srf_lion_rat_feront_lem_faire_b1cfeaa31c",
-        "senseId": "sns_lion_rat_faire_serviront_a_etablir_quelque_chose_dans_l_expression_faire_foi_0bfc11d427"
-      },
-      {
-        "id": "occ_lion_rat_ef733569d9ed7e3ce15683fa",
-        "workId": "wrk_lion_rat",
-        "unitId": "unt_lion_rat_03",
-        "start": 35,
-        "end": 38,
-        "surfaceFormId": "srf_cigale_fourmi_foi_lem_cigale_fourmi_foi_noun_bfbf2615e4_7850306a53",
-        "senseId": "sns_fr_foi_attestation"
       },
       {
         "id": "occ_lion_rat_aa376207d03c6abcfcd6f1b5",
@@ -1359,17 +1314,28 @@
       "start": 23,
       "end": 43,
       "text": "au sortir des forêts"
+    },
+    {
+      "id": "exo_micromegas_8236cbcfa6df7e01",
+      "workId": "wrk_lion_rat",
+      "unitId": "unt_lion_rat_03",
+      "start": 28,
+      "end": 38,
+      "text": "feront foi",
+      "surfaceId": "exs_micromegas_c55b537e2ef24be2",
+      "identityId": "exi_micromegas_7be7a65a7b50b965"
     }
   ],
   "editorialReviewFiles": [
     "content/review/wrk_lion_rat.batch-01.json",
     "content/review/wrk_lion_rat.manifest.json",
-    "content/review/wrk_lion_rat.progress.json"
+    "content/review/wrk_lion_rat.progress.json",
+    "content/sources/wrk_voltaire_micromegas/whole-work-final-acceptance-77.json"
   ],
   "textBinding": {
     "textRevision": "txt_a857e07276b9376a9dcfca13d4072d94bf1e2f29fdf1f49b6ac1f422288e4725",
     "structureRevision": "str_f78c080b925eafb383e798204034837c8b17408d6b9edb0f67677071d0c6476c",
-    "annotationRevision": "ann_19fd0659a4b344f6bad62e265890c9a768335372ee8e022af0fbb0f48fec1b39",
+    "annotationRevision": "ann_bf93f31bd151e10f7fed6df372cc469da21f3cc7a4d7aa9326c1648c269d442e",
     "offsetUnit": "utf16",
     "separator": "\n",
     "units": [

@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "id": "es-2026-09-19-03",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T16:38:36.571Z",
+  "policy": "polylit-editorial-v2",
+  "masteryIdsChanged": false,
+  "forms": [
+    "plumas",
+    "casa",
+    "puerta",
+    "noche",
+    "pasos"
+  ],
+  "reviewed": [
+    {
+      "identity": "srf_es_0643_plumas:sns_es_pluma_feather",
+      "form": "plumas",
+      "quizIds": [
+        "qiz_es_pluma_feather_levels_1_3",
+        "qiz_es_pluma_feather_levels_4_5",
+        "qiz_es_pluma_feather_levels_6_8"
+      ],
+      "agreement": "All feminine plural nouns",
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "identity": "srf_es_0120_casa:sns_es_0120_casa",
+      "form": "casa",
+      "quizIds": [
+        "qiz_es_0120_casa_early",
+        "qiz_es_0120_casa_intermediate",
+        "qiz_es_0120_casa_advanced"
+      ],
+      "agreement": "All feminine singular nouns",
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "identity": "srf_es_0668_puerta:sns_es_0668_puerta",
+      "form": "puerta",
+      "quizIds": [
+        "qiz_es_0668_puerta_early",
+        "qiz_es_0668_puerta_intermediate",
+        "qiz_es_0668_puerta_advanced"
+      ],
+      "agreement": "All feminine singular nouns",
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "identity": "srf_es_0561_noche:sns_es_0561_noche",
+      "form": "noche",
+      "quizIds": [
+        "qiz_es_0561_noche_early",
+        "qiz_es_0561_noche_intermediate",
+        "qiz_es_0561_noche_advanced"
+      ],
+      "agreement": "All feminine singular nouns",
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "identity": "srf_es_0615_pasos:sns_es_0615_pasos",
+      "form": "pasos",
+      "quizIds": [
+        "qiz_es_0615_pasos_early",
+        "qiz_es_0615_pasos_intermediate",
+        "qiz_es_0615_pasos_advanced"
+      ],
+      "agreement": "All masculine plural nouns",
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    }
+  ],
+  "blocked": [],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_1_3",
+      "before": {
+        "id": "qiz_es_pluma_feather_levels_1_3",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "Al romperse el cojín, salieron las plumas con las que estaba relleno.",
+        "correctAnswer": "feathers",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "plumas",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "feathers",
+          "pens",
+          "buttons",
+          "threads"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_1_3",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "El pájaro tiene plumas azules en las alas.",
+        "correctAnswer": "feathers",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "plumas",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "shells",
+          "hairs",
+          "feathers",
+          "scales"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_4_5",
+      "before": {
+        "id": "qiz_es_pluma_feather_levels_4_5",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "El ave sacudió las alas y dejó caer dos ___ de su plumaje.",
+        "correctAnswer": "plumas",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "plumas",
+          "hojas",
+          "escamas",
+          "semillas"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_4_5",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "Para el disfraz, pegó tres ___ de gallina en un sombrero.",
+        "correctAnswer": "plumas",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "flores",
+          "plumas",
+          "hojas",
+          "cintas"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_pluma_feather_levels_6_8",
+      "before": {
+        "id": "qiz_es_pluma_feather_levels_6_8",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "La costurera abrió la funda del cojín, retiró las plumas y arregló la costura con hilo nuevo.",
+        "correctAnswer": "plumas",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra nombra el relleno procedente del plumaje de aves?",
+        "choicesFrench": [
+          "plumas",
+          "funda",
+          "costura",
+          "hilo"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_pluma_feather_levels_6_8",
+        "surfaceFormId": "srf_es_0643_plumas",
+        "senseId": "sns_es_pluma_feather",
+        "contextFrench": "En el nido encontramos plumas, hojas y ramitas; junto al árbol había una piedra.",
+        "correctAnswer": "plumas",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra nombra lo que recubre el cuerpo de las aves?",
+        "choicesFrench": [
+          "hojas",
+          "ramitas",
+          "piedra",
+          "plumas"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0120_casa_intermediate",
+      "before": {
+        "id": "qiz_es_0120_casa_intermediate",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "contextFrench": "Compraron una ___ para vivir en ella con sus hijos.",
+        "correctAnswer": "casa",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "casa",
+          "maleta",
+          "mesa",
+          "camisa"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0120_casa_intermediate",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "contextFrench": "Compraron una ___ con tres dormitorios para vivir con sus hijos.",
+        "correctAnswer": "casa",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "calle",
+          "cocina",
+          "casa",
+          "puerta"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_early",
+      "before": {
+        "id": "qiz_es_0668_puerta_early",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Cerró la puerta con llave antes de salir.",
+        "correctAnswer": "door",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "puerta",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "door",
+          "roof",
+          "key",
+          "staircase"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_early",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Cerró la puerta con llave antes de salir.",
+        "correctAnswer": "door",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "puerta",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "key",
+          "staircase",
+          "roof",
+          "door"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_intermediate",
+      "before": {
+        "id": "qiz_es_0668_puerta_intermediate",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Giró el picaporte, abrió la ___ y pasó del pasillo a la habitación.",
+        "correctAnswer": "puerta",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "puerta",
+          "llave",
+          "pared",
+          "escalera"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_intermediate",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Giró el picaporte, abrió la ___ y pasó del pasillo a la habitación.",
+        "correctAnswer": "puerta",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "llave",
+          "puerta",
+          "pared",
+          "escalera"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_advanced",
+      "before": {
+        "id": "qiz_es_0668_puerta_advanced",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Junto a la puerta había una ventana; una escalera conducía al piso de arriba y una lámpara iluminaba la entrada.",
+        "correctAnswer": "puerta",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué elemento de la entrada se abre para pasar normalmente de fuera a dentro?",
+        "choicesFrench": [
+          "puerta",
+          "ventana",
+          "escalera",
+          "lámpara"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_advanced",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Junto a la puerta había una ventana; una escalera conducía al piso de arriba y una lámpara iluminaba la entrada.",
+        "correctAnswer": "puerta",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué elemento de la entrada se abre para pasar normalmente de fuera a dentro?",
+        "choicesFrench": [
+          "ventana",
+          "escalera",
+          "lámpara",
+          "puerta"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_early",
+      "before": {
+        "id": "qiz_es_0561_noche_early",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "Durante la noche, las estrellas brillaban sobre el pueblo.",
+        "correctAnswer": "night",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "noche",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "night",
+          "noon",
+          "morning",
+          "dawn"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_early",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "Durante la noche, las estrellas brillaban sobre el pueblo.",
+        "correctAnswer": "night",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "noche",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "night",
+          "dawn",
+          "noon",
+          "morning"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_intermediate",
+      "before": {
+        "id": "qiz_es_0561_noche_intermediate",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "El período de oscuridad entre la puesta y la salida del sol se llama ___.",
+        "correctAnswer": "noche",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "noche",
+          "tarde",
+          "mañana",
+          "madrugada"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_intermediate",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "A las 23:00, ya entrada la ___, salimos del restaurante y volvimos a casa.",
+        "correctAnswer": "noche",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "mañana",
+          "tarde",
+          "noche",
+          "madrugada"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_advanced",
+      "before": {
+        "id": "qiz_es_0561_noche_advanced",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "La noche fue fría, pero al amanecer salió el sol y la mañana resultó agradable.",
+        "correctAnswer": "noche",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra designa el período entre la puesta y la salida del sol?",
+        "choicesFrench": [
+          "noche",
+          "amanecer",
+          "sol",
+          "mañana"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_advanced",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "La noche fue fría, pero al amanecer salió el sol y la mañana resultó agradable.",
+        "correctAnswer": "noche",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra designa el período entre la puesta y la salida del sol?",
+        "choicesFrench": [
+          "amanecer",
+          "mañana",
+          "sol",
+          "noche"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_early",
+      "before": {
+        "id": "qiz_es_0615_pasos_early",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Oí sus pasos en el pasillo antes de que llamara a la puerta.",
+        "correctAnswer": "footsteps",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "pasos",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "footsteps",
+          "whispers",
+          "knocks",
+          "breaths"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_early",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Oí sus pasos en el pasillo antes de que llamara a la puerta.",
+        "correctAnswer": "footsteps",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "pasos",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "footsteps",
+          "knocks",
+          "breaths",
+          "whispers"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_intermediate",
+      "before": {
+        "id": "qiz_es_0615_pasos_intermediate",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Al caminar por la grava, sus ___ hacían crujir las piedras.",
+        "correctAnswer": "pasos",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "pasos",
+          "manos",
+          "ojos",
+          "sueños"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_intermediate",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Al caminar por la grava, sus ___ hacían crujir las piedras.",
+        "correctAnswer": "pasos",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "silbidos",
+          "pasos",
+          "gritos",
+          "suspiros"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_advanced",
+      "before": {
+        "id": "qiz_es_0615_pasos_advanced",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Sus pasos resonaban en la escalera, mientras sus llaves tintineaban y su voz llegaba hasta el patio.",
+        "correctAnswer": "pasos",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra se refiere a los movimientos de los pies al caminar, cuyo sonido se oye aquí?",
+        "choicesFrench": [
+          "pasos",
+          "llaves",
+          "voz",
+          "patio"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_advanced",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Sus pasos resonaban en la escalera, mientras sus llaves tintineaban y su voz llegaba hasta el patio.",
+        "correctAnswer": "pasos",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué palabra se refiere a los movimientos de los pies al caminar, cuyo sonido se oye aquí?",
+        "choicesFrench": [
+          "patio",
+          "pasos",
+          "llaves",
+          "voz"
+        ]
+      },
+      "reason": "Apply the exact user-approved three-band wording recorded in user-review-spanish-01.json. Each question and distractor read; preserve approved semantic and grammatical choices. Choice order may rotate without changing wording."
+    }
+  ]
+}

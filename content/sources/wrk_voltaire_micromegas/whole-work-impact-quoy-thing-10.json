@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:45:18.612Z",
+  "sense": {
+    "id": "sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341",
+    "lemmaId": "lem_quoi",
+    "gloss": "what",
+    "definition": "Quelle chose, dans la fonction d’objet."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_early",
+      "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_advanced",
+      "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_quoy_lem_quoi_76815f8ab0:sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341",
+      "surface": "quoy",
+      "lemma": "quoi",
+      "currentRevision": "rev_95d023e84223ea47ac3eb1343546f9546ec367cebd26f39c681cb8dbd2f2e2bd",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_1e719833f374d1cfb9740aa9",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_014",
+          "passage": "ce qui fit un bel attelage de six chevaux d’un beau gris de souris pommelé : Comme elle estoit en peine de quoy elle ferait un Cocher, je vais voir, dit Cendrillon, s’il n’y a point quelque rat dans la ratiere ; nous en ferons un Cocher : Tu as raison, dit sa Maraine, va voir :",
+          "span": [
+            107,
+            111
+          ]
+        },
+        {
+          "id": "occ_cendrillon_e293bfb1aa2a6397cf27a9e6",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_016",
+          "passage": "et qui s’y tenoient attachez, comme s’ils n’eussent fait autre chose de toute leur vie. La Fée dit alors à Cendrillon : Hé bien ? voilà de quoy aller au bal, n’es-tu pas bien aise ? Ouy, mais est-ce que j’irai comme cela, avec mes vilains habits : Sa maraine ne fit que la toucher avec sa baguette, et en même tems ses habits furent changez en des habits de drap d’or et d’argent, tout chamarrez de pierreries :",
+          "span": [
+            139,
+            143
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "De quoy parle-t-il ? demande le personnage de ce vieux récit.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "where",
+              "correct": false
+            },
+            {
+              "text": "when",
+              "correct": false
+            },
+            {
+              "text": "who",
+              "correct": false
+            },
+            {
+              "text": "what",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle trouve de quoy préparer le repas avec les provisions restantes.",
+          "prompt": "Quel pronom ancien correspond à quoi ?",
+          "choices": [
+            {
+              "text": "restantes",
+              "correct": false
+            },
+            {
+              "text": "quoy",
+              "correct": true
+            },
+            {
+              "text": "repas",
+              "correct": false
+            },
+            {
+              "text": "provisions",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cendrillon_quoy_sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341_53ce393e66_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Dans cette graphie ancienne, de _____ a-t-il besoin pour travailler ?",
+          "choices": [
+            {
+              "text": "où",
+              "correct": false
+            },
+            {
+              "text": "quand",
+              "correct": false
+            },
+            {
+              "text": "quoy",
+              "correct": true
+            },
+            {
+              "text": "qui",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

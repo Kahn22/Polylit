@@ -1,0 +1,35 @@
+"""Full-span expression decisions for the second VI contextual package."""
+from pathlib import Path
+import json,hashlib
+P=Path(__file__).resolve().parents[1]/'content/sources/wrk_voltaire_micromegas'
+read=lambda f:json.loads((P/f).read_text())
+h=lambda v:hashlib.sha256(json.dumps(v,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+digest=lambda f:hashlib.sha256((P/f).read_bytes()).hexdigest()
+def write(f,d):(P/f).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+units=read('unit-plan.json')['units'];tokens=read('chapter-06-inventory.json')['tokens'];base=read('chapter-06-context-review-03.json');packet=read('chapter-06-context-packet-03.json')
+considered={ (o['unit'],o['start'],o['end'])for row in [*base['items'],*base['holds']]for o in row['sourceOccurrences']}
+items=[]
+def expr(key,phrase,occ,meaning,low,middle,options,advanced,note,target='new_expression_meaning',nounAgreement=None):
+ uses=[]
+ for unit in occ:
+  text=units[unit-1]['text'];start=text.index(phrase);uses.append({'chapter':6,'unit':unit,'start':start,'end':start+len(phrase),'text':phrase})
+ component=[t for t in tokens if any(t['unit']==o['unit']and t['start']>=o['start']and t['end']<=o['end']for o in uses)]
+ if not any((t['unit'],t['start'],t['end'])in considered for t in component):return
+ qs=[{'band':'1-3','context':units[uses[0]['unit']-1]['text'],'targetText':phrase,'question':'What does the highlighted phrase mean here?','answer':meaning,'choices':[meaning,*low]},{'band':'4-5','context':middle,'question':'Complétez la phrase.','answer':options[0],'choices':options},{'band':'6-8','context':advanced,'question':'Quelle expression convient ?','answer':options[0],'choices':options}]
+ item={'key':key,'surfacePattern':phrase,'meaning':meaning,'sourceOccurrences':uses,'componentTokens':[{k:t[k]for k in ['unit','start','end','text','form']}for t in component],'questions':qs,'questionSha256':h(qs),'identityTarget':target,'reviewNote':note,'status':'offline_full_span_three_band_review_recorded_unpublished'}
+ if nounAgreement:item['middleNounAgreement']=nounAgreement
+ items.append(item)
+
+expr('s_est_plu_a','s’est plu à',[150],'took pleasure in; delighted in',['refused to','reluctantly accepted','restricted oneself to'],'Il a pris plaisir à créer ces êtres : il ___ les faire naître.',['s’est plu à','s’est refusé à','s’est résigné à','s’est borné à'],'Quelle construction au passé composé signifie a trouvé du plaisir à faire quelque chose ?','Académie 1762 explicitly records reciprocal plaire for taking pleasure in an activity. The Creator’s hand is personified; the source construction takes à plus infinitive. The existing pleasing-another-person meaning and heaven-forbid formula are different. All four whole predicates end with à and fit the same infinitive; pleasure rather than refusal, reluctant consent or limitation selects the target.','new_sense_existing_lemma:lem_parure_plaire_verb_2795ef7bb8')
+expr('l_infiniment_petit','l’infiniment petit',[150,164],'the infinitely small; the domain of extreme smallness',['the infinitely large','the visible world','the audible world'],'Le domaine des dimensions qui deviennent toujours plus petites est ___.',['l’infiniment petit','l’infiniment grand','le monde visible','le monde sonore'],'Quelle locution nominale désigne le domaine des dimensions infiniment petites ?','The article substantivizes the infinitude/smallness construction: the giant marvels at the domain of tiny beings. The earlier infiniment adverb and plural infinitely small creatures bank were read; neither is this singular abstract noun phrase. Both occurrences share one full-span meaning. All four alternatives are masculine singular noun phrases with their own unchanged articles and fit est; ever smaller dimensions alone select the target.',nounAgreement='masculine singular noun phrases; each complete choice retains its own article')
+expr('l_infiniment_grand','l’infiniment grand',[164],'the infinitely large; the domain of extreme largeness',['the infinitely small','the visible world','the audible world'],'Le domaine des dimensions qui deviennent toujours plus grandes est ___.',['l’infiniment grand','l’infiniment petit','le monde visible','le monde sonore'],'Quelle locution nominale désigne le domaine des dimensions infiniment grandes ?','The singular abstract noun phrase contrasts explicitly with l’infiniment petit and is not a plural group of large animals or an importance adjective. Author the counterpart full-span bank under a shared expression family relationship without transferring mastery between opposite senses. All four choices are masculine singular complete noun phrases and fit est; ever larger dimensions selects this phrase.',nounAgreement='masculine singular noun phrases; each complete choice retains its own article')
+expr('avaient_affaire','avaient affaire',[155],'were dealing with; had dealings with',['needed help from','owned','avoided'],'Ils étaient en relation avec ces espèces et leur parlaient : c’étaient les espèces auxquelles ils ___.',['avaient affaire','demandaient secours','appartenaient','échappaient'],'Quelle construction à l’imparfait signifie étaient en relation ou traitaient avec quelqu’un ?','Académie 1762 distinguishes avoir affaire à/avec as speaking or dealing with someone from avoir affaire de as needing someone. The nain explains which species the humans are dealing with. The global affaire and avoir banks were read, including the earlier need construction, which is excluded. All four predicates fit auxquelles ils; relation rather than asking aid, belonging or escape selects the full construction.')
+# Carry forward the exact whole mit au fait bank for the later-range au/fait components.
+oldfile='chapter-06-expression-review-02.json';old=next(i for i in read(oldfile)['items']if i['key']=='mit_au_fait')
+if any((t['unit'],t['start'],t['end'])in considered for t in old['componentTokens']):
+ item=dict(old);item.update(earlierFile=oldfile,earlierKey=old['key'],earlierFileSha256=digest(oldfile),reviewNote='The exact mit au fait three-band bank in package 02 was re-read for the additional au and noun fait components at 156:44 and 156:47. The full construction informs the humans; these two tokens cannot be reused as generic contraction mastery plus a faire participle. Retain the previously reviewed phrase identity and avoid duplicate word/phrase encounters during final import.');items.append(item)
+# Full-span items are authored as their components enter the reviewed range.
+common={k:packet[k]for k in ['version','workId','chapter','sourceSha256','unitPlanSha256','inventorySha256']}
+record={**common,'status':'offline_full_span_review_unpublished','summary':{'reviewedExpressionForms':len(items),'reviewedQuestionBands':len(items)*3,'newExpressionForms':sum(not i.get('earlierFile')for i in items),'newQuestionBands':sum(3 for i in items if not i.get('earlierFile')),'reusedEarlierQuestionBands':sum(3 for i in items if i.get('earlierFile'))},'items':items}
+write('chapter-06-expression-review-03.json',record)
+print(json.dumps(record['summary']))

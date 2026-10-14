@@ -1,0 +1,283 @@
+{
+  "version": 2,
+  "id": "fr-tour-lieu-split-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T15:38:39.176Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_tour_tour:sns_zola_tour_turn",
+      "to": "srf_zola_tour_tour:sns_fr_tour_stroll",
+      "occurrenceIds": [
+        "occ_parure_1026152b866014ca721da6d3"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "to": "srf_fr_lieu_au_lieu_de:sns_fr_au_lieu_de_instead",
+      "occurrenceIds": [
+        "occ_parure_b73bb190783193f01e8fd68b"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_tour_tour:sns_zola_tour_turn",
+      "to": "srf_zola_tour_tour:sns_zola_tour_turn",
+      "form": "tour",
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "from": "srf_zola_tour_tour:sns_zola_tour_turn",
+      "to": "srf_zola_tour_tour:sns_fr_tour_stroll",
+      "form": "tour",
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "from": "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "to": "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "form": "lieu",
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "from": "srf_zola_lieu_avoir_lieu:sns_zola_avoir_lieu_happen",
+      "to": "srf_fr_lieu_au_lieu_de:sns_fr_au_lieu_de_instead",
+      "form": "lieu",
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_fr_tour_stroll",
+      "before": null,
+      "after": {
+        "id": "sns_fr_tour_stroll",
+        "lemmaId": "lem_zola_tour",
+        "gloss": "walk; stroll",
+        "definition": "Promenade, notamment dans l’expression « faire un tour »."
+      },
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_1026152b866014ca721da6d3",
+      "before": {
+        "id": "occ_parure_1026152b866014ca721da6d3",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_112",
+        "start": 49,
+        "end": 53,
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_zola_tour_turn"
+      },
+      "after": {
+        "id": "occ_parure_1026152b866014ca721da6d3",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_112",
+        "start": 49,
+        "end": 53,
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_fr_tour_stroll"
+      },
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_1_3",
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_fr_tour_stroll",
+        "band": "levels_1_3",
+        "contextFrench": "Elle était allée faire un tour aux Champs-Élysées pour se délasser.",
+        "correctAnswer": "walk; stroll",
+        "format": "meaning_choice",
+        "targetText": "tour",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "argument",
+          "meal",
+          "purchase",
+          "walk; stroll"
+        ]
+      },
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_4_5",
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_fr_tour_stroll",
+        "band": "levels_4_5",
+        "contextFrench": "Elle était allée faire un _____ aux Champs-Élysées pour se délasser.",
+        "correctAnswer": "tour",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "repas",
+          "cadeau",
+          "tour",
+          "discours"
+        ]
+      },
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_tour_stroll_zola_tour_tour_levels_6_8",
+        "surfaceFormId": "srf_zola_tour_tour",
+        "senseId": "sns_fr_tour_stroll",
+        "band": "levels_6_8",
+        "contextFrench": "Un dimanche, elle était allée faire un tour aux Champs-Élysées pour se délasser des besognes de la semaine.",
+        "correctAnswer": "tour",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne ici une promenade ?",
+        "choicesFrench": [
+          "besognes",
+          "tour",
+          "dimanche",
+          "semaine"
+        ]
+      },
+      "reason": "In « faire un tour aux Champs-Élysées », tour means a walk. The other occurrence, « à son tour », retains the established turn sense."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_fr_au_lieu_de",
+      "before": null,
+      "after": {
+        "id": "lem_fr_au_lieu_de",
+        "headword": "au lieu de",
+        "partOfSpeech": "expression"
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_lieu_au_lieu_de",
+      "before": null,
+      "after": {
+        "id": "srf_fr_lieu_au_lieu_de",
+        "lemmaId": "lem_fr_au_lieu_de",
+        "form": "lieu",
+        "normalized": "lieu"
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_au_lieu_de_instead",
+      "before": null,
+      "after": {
+        "id": "sns_fr_au_lieu_de_instead",
+        "lemmaId": "lem_fr_au_lieu_de",
+        "gloss": "instead of",
+        "definition": "À la place de, dans l’expression « au lieu de »."
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_b73bb190783193f01e8fd68b",
+      "before": {
+        "id": "occ_parure_b73bb190783193f01e8fd68b",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_014",
+        "start": 3,
+        "end": 7,
+        "surfaceFormId": "srf_zola_lieu_avoir_lieu",
+        "senseId": "sns_zola_avoir_lieu_happen"
+      },
+      "after": {
+        "id": "occ_parure_b73bb190783193f01e8fd68b",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_014",
+        "start": 3,
+        "end": 7,
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead"
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_1_3",
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead",
+        "band": "levels_1_3",
+        "contextFrench": "Au lieu d’être ravie, elle jeta avec dépit l’invitation sur la table.",
+        "correctAnswer": "instead of",
+        "format": "meaning_choice",
+        "targetText": "lieu",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "at the moment of",
+          "instead of",
+          "because of",
+          "in spite of"
+        ]
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_4_5",
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead",
+        "band": "levels_4_5",
+        "contextFrench": "Au _____ d’être ravie, elle jeta avec dépit l’invitation sur la table.",
+        "correctAnswer": "lieu",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "lieu",
+          "moment",
+          "temps",
+          "point"
+        ]
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_au_lieu_de_instead_fr_lieu_au_lieu_de_levels_6_8",
+        "surfaceFormId": "srf_fr_lieu_au_lieu_de",
+        "senseId": "sns_fr_au_lieu_de_instead",
+        "band": "levels_6_8",
+        "contextFrench": "Au lieu d’être ravie, comme l’espérait son mari, elle jeta avec dépit l’invitation sur la table.",
+        "correctAnswer": "lieu",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient à l’expression signifiant « à la place de » ?",
+        "choicesFrench": [
+          "mari",
+          "invitation",
+          "table",
+          "lieu"
+        ]
+      },
+      "reason": "« Au lieu d’être ravie » expresses substitution, not an event taking place. The five occurrences of « avoir lieu » retain the established event sense."
+    }
+  ]
+}

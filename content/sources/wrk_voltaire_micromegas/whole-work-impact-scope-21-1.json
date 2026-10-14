@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:38:49.587Z",
+  "sense": {
+    "id": "sns_parure_savoir_know_784460e5e4",
+    "lemmaId": "lem_savoir",
+    "gloss": "know",
+    "definition": "possède une connaissance ou une certitude"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 5,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_parure_sais_savoir_know_621b03d6ce_intermediate",
+      "qiz_parure_sais_savoir_know_621b03d6ce_advanced",
+      "qiz_parure_sais_savoir_know_621b03d6ce_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_parure_sais_savoir_verb_8d4b24136b:sns_parure_savoir_know_784460e5e4",
+      "surface": "sais",
+      "lemma": "savoir",
+      "currentRevision": "rev_ac07b552c2ca5626502208c9ecd3af7f3a2b5b13aa96e6aec2fcbec967275384",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_loup_agneau_e8b79e0a6ed3339fea1478ee",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_12",
+          "passage": "Et je sais que de moi tu médis l’an passé.",
+          "span": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "occ_parure_2527cbba070d0188507728d5",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_118",
+          "passage": "— Mais… madame !… Je ne sais… Vous devez vous tromper.",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "id": "occ_parure_553447d331eff2b41826bf17",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_006",
+          "passage": "Quand elle s’asseyait, pour dîner, devant la table ronde couverte d’une nappe de trois jours, en face de son mari qui découvrait la soupière en déclarant d’un air enchanté : « Ah ! le bon pot-au-feu ! je ne sais rien de meilleur que cela… », elle songeait aux dîners fins, aux argenteries reluisantes, aux tapisseries peuplant les murailles de personnages anciens et d’oiseaux étranges au milieu d’une forêt de féerie ;",
+          "span": [
+            207,
+            211
+          ]
+        },
+        {
+          "id": "occ_parure_b583286e65e7231b8e894549",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_050",
+          "passage": "— Mais si. Cherche. Je ne sais pas ce qui peut te plaire.",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "id": "occ_parure_ef1e1c932dd6af07a4257e77",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_029",
+          "passage": "— Je ne sais pas au juste, mais il me semble qu’avec quatre cents francs je pourrais arriver.",
+          "span": [
+            8,
+            12
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_parure_sais_savoir_know_621b03d6ce_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Tu _____ déjà la réponse à cette question.",
+          "choices": [
+            {
+              "text": "sais",
+              "correct": true
+            },
+            {
+              "text": "sait",
+              "correct": false
+            },
+            {
+              "text": "savons",
+              "correct": false
+            },
+            {
+              "text": "savoir",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_sais_savoir_know_621b03d6ce_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Je sais la date du départ ; ma sœur cherche encore son billet et prépare sa valise.",
+          "prompt": "Quel verbe exprime une connaissance certaine ?",
+          "choices": [
+            {
+              "text": "sais",
+              "correct": true
+            },
+            {
+              "text": "départ",
+              "correct": false
+            },
+            {
+              "text": "cherche",
+              "correct": false
+            },
+            {
+              "text": "prépare",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_parure_sais_savoir_know_621b03d6ce_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Je sais où se trouve la gare.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "forget",
+              "correct": false
+            },
+            {
+              "text": "ask",
+              "correct": false
+            },
+            {
+              "text": "guess",
+              "correct": false
+            },
+            {
+              "text": "know",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

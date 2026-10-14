@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:34:47.504Z",
+  "sense": {
+    "id": "sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db",
+    "lemmaId": "lem_cigale_fourmi_voisin_noun_fb6e05fc05",
+    "gloss": "neighbor",
+    "definition": "personne qui habite ou se trouve à proximité"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_intermediate",
+      "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_advanced",
+      "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cigale_fourmi_voisine_lem_cigale_fourmi_voisin_noun_fb6e05fc05_730e1d9d02:sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db",
+      "surface": "voisine",
+      "lemma": "voisin",
+      "currentRevision": "rev_2f5c5a86dca211e3356654c7baefc89144223cd9c4a12fdb481a6085906918cc",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cigale_fourmi_e4d131a5d1b7271d0e38e74a",
+          "workId": "wrk_cigale_fourmi",
+          "unitId": "unt_cigale_fourmi_04",
+          "passage": "Elle alla crier famine chez la Fourmi sa voisine,",
+          "span": [
+            41,
+            48
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Je ne connais cette femme ni par mon travail ni par un voyage : elle habite à côté, c’est ma _____.",
+          "choices": [
+            {
+              "text": "patiente",
+              "correct": false
+            },
+            {
+              "text": "guide",
+              "correct": false
+            },
+            {
+              "text": "voisine",
+              "correct": true
+            },
+            {
+              "text": "cliente",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Notre voisine frappe à la porte pour nous rendre le courrier déposé par erreur dans sa boîte.",
+          "prompt": "Quel mot désigne la personne qui habite près de chez nous ?",
+          "choices": [
+            {
+              "text": "boîte",
+              "correct": false
+            },
+            {
+              "text": "voisine",
+              "correct": true
+            },
+            {
+              "text": "porte",
+              "correct": false
+            },
+            {
+              "text": "courrier",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_cigale_fourmi_voisine_sns_cigale_fourmi_voisin_personne_qui_habite_ou_se_trouve_a_proximite_693a3144db_69236e9f7e_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Ma voisine habite l’appartement juste à côté du mien.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "tourist",
+              "correct": false
+            },
+            {
+              "text": "neighbor",
+              "correct": true
+            },
+            {
+              "text": "customer",
+              "correct": false
+            },
+            {
+              "text": "patient",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

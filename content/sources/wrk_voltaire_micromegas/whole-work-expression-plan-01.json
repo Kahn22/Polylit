@@ -1,0 +1,819 @@
+{
+  "version": 1,
+  "workId": "wrk_voltaire_micromegas",
+  "sourceSha256": "b516bb1f8a040d3c0b8fedcfe6e92e5c99d12fd0b48e6c26e02c0ca8164d92e4",
+  "unitPlanSha256": "50ebe0ee02a53cb34b01a2f26dbcb114d52014cdee7da62fda65f9aae29376fc",
+  "status": "offline_individual_reconciliation_decisions_pending_complete_work_transaction",
+  "masteryPolicy": "Keep legacy records and unchanged meanings. Suppress only enumerated component spans. Corrected full-expression identities become encountered only on viewing their exact thought units; never copy, reset or bulk encounter learner progress.",
+  "items": [
+    {
+      "key": "sans_doute_certainty",
+      "headword": "sans doute",
+      "meaning": "without doubt; certainly",
+      "identityTarget": "exi_cendrillon_sans_doute_9d5b8f1836",
+      "publishedSnapshotSha256": "9fa7f905f76a159be1cf7d883e27524afeee1de48a99d72c3e52e7da43c9d87b",
+      "sourceOccurrences": [
+        {
+          "chapter": 1,
+          "unit": 17,
+          "start": 64,
+          "end": 74,
+          "text": "sans doute",
+          "context": "Ceux qui ne voyagent qu’en chaise de poste ou en berline seront sans doute étonnés des équipages de là-haut : car nous autres, sur notre petit tas de boue, nous ne concevons rien au delà de nos usages."
+        },
+        {
+          "chapter": 7,
+          "unit": 169,
+          "start": 117,
+          "end": 127,
+          "text": "sans doute",
+          "context": "« O atomes intelligents, dans qui l’Être éternel s’est plu à vous manifester son adresse et sa puissance, vous devez sans doute goûter des joies bien pures sur votre globe : car, ayant si peu de matière, et paraissant tout esprit, vous devez passer votre vie à aimer et à penser ; c’est la véritable vie des esprits."
+        },
+        {
+          "chapter": 7,
+          "unit": 170,
+          "start": 57,
+          "end": 67,
+          "text": "sans doute",
+          "context": "Je n’ai vu nulle part le vrai bonheur ; mais il est ici, sans doute. »"
+        },
+        {
+          "chapter": 7,
+          "unit": 191,
+          "start": 82,
+          "end": 92,
+          "text": "sans doute",
+          "context": "Enfin Micromégas leur dit : « Puisque vous savez si bien ce qui est hors de vous, sans doute vous savez encore mieux ce qui est en dedans."
+        },
+        {
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_10",
+          "start": 34,
+          "end": 44,
+          "text": "sans doute",
+          "context": "Cette leçon vaut bien un fromage, sans doute. »"
+        },
+        {
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_047",
+          "start": 6,
+          "end": 16,
+          "text": "sans doute",
+          "context": "C’est sans doute un grand avantage"
+        }
+      ],
+      "questions": [
+        {
+          "id": "exq_cendrillon_sans_doute_9d5b8f1836_early",
+          "expressionId": "exi_cendrillon_sans_doute_9d5b8f1836",
+          "contextFrench": "Dans ce conte ancien, c’est sans doute un grand avantage, affirme le narrateur avec certitude.",
+          "correctAnswer": "undoubtedly",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "sans doute",
+          "choicesEnglish": [
+            "undoubtedly",
+            "rarely",
+            "never",
+            "reluctantly"
+          ]
+        },
+        {
+          "id": "exq_cendrillon_sans_doute_9d5b8f1836_intermediate",
+          "expressionId": "exi_cendrillon_sans_doute_9d5b8f1836",
+          "contextFrench": "Le narrateur ancien l’affirme avec certitude : c’est _____ un grand avantage, sans aucune hésitation.",
+          "correctAnswer": "sans doute",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "peut-être",
+            "éventuellement",
+            "possiblement",
+            "sans doute"
+          ]
+        },
+        {
+          "id": "exq_cendrillon_sans_doute_9d5b8f1836_advanced",
+          "expressionId": "exi_cendrillon_sans_doute_9d5b8f1836",
+          "contextFrench": "C’est sans doute un précieux secours, affirme le narrateur du conte sans exprimer d’incertitude.",
+          "correctAnswer": "sans doute",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression a ici le sens ancien de certainement ?",
+          "choicesFrench": [
+            "du conte",
+            "affirme",
+            "sans doute",
+            "précieux"
+          ]
+        }
+      ],
+      "questionSha256": "f6c574a0faaed77948cdb737799ef1a5e79c104f4c099e5fa6f80e798e593539",
+      "reviewNote": "All four exact Voltaire uses express a confident assertion or expectation, including the Sirian’s ironic assumptions; the irony does not make the lexical assertion tentative. Académie1740 gives the contemporary adverbial certainty use, and Académie9 distinguishes that classical meaning from modern probability. Reuse the existing certainty expression and its three individually read banks. Replace the earlier I word-component routing on this exact span and resolve the six VII sans/doute component holds. Preserve the existing certainty expression mastery and do not copy component progress. Read the full affirmative Corbeau and Cendrillon uses: these express assurance too, never the uncertainty noun. Cendrillon already has the complete certainty occurrence; retain it rather than insert a duplicate."
+    },
+    {
+      "key": "sans_doute_probability",
+      "headword": "sans doute",
+      "meaning": "probably; very likely",
+      "existingSemanticBridge": "sns_fr_sans_doute_probably",
+      "identityTarget": "new_full_expression_identity_same_existing_probability_meaning",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_062",
+          "start": 159,
+          "end": 169,
+          "text": "sans doute",
+          "context": "Une pièce ridicule, oui, peut-être la pièce où il est question de petites femmes, et où il est parlé d’un certain D... qui devient trop exigeant, quelque mari sans doute trouvant qu’on ne lui payait pas sa femme assez cher."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_184",
+          "start": 101,
+          "end": 111,
+          "text": "sans doute",
+          "context": "J’accuse le général de Boisdeffre et le général Gonse de s’être rendus complices du même crime, l’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps qui fait des bureaux de la guerre l’arche sainte, inattaquable."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_083",
+          "start": 30,
+          "end": 40,
+          "text": "sans doute",
+          "context": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major, le général de Boisdeffre, le général Gonse, sans compter les sous-ordres."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "J’accuse le général de Boisdeffre et le général Gonse de s’être rendus complices du même crime, l’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps qui fait des bureaux de la guerre l’arche sainte, inattaquable.",
+          "targetText": "sans doute",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "probably; very likely",
+          "choices": [
+            "probably; very likely",
+            "never",
+            "in secret",
+            "by accident"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "La cause reste une supposition vraisemblable, et non une certitude : il a agi _____ par peur.",
+          "question": "Complétez la phrase.",
+          "answer": "sans doute",
+          "choices": [
+            "sans doute",
+            "sans aucun doute",
+            "en secret",
+            "par hasard"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression peut marquer une cause jugée probable, sans la présenter comme certaine ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans doute",
+          "choices": [
+            "sans doute",
+            "sans aucun doute",
+            "en secret",
+            "par hasard"
+          ]
+        }
+      ],
+      "questionSha256": "06362437a831f6898dc1d8bc55913076922c0c00003bc21233256db024a7be5a",
+      "reviewNote": "All three Zola uses explicitly conjecture about causes: possible spouse, clerical passion or fear of opinion. The existing probability sense and every stored band were read. That meaning belongs to the full adverbial expression rather than the uncertainty noun doute. Prepare a complete phrase bank sharing that semantic meaning, keep certainty separate, and explicitly suppress both word components on these exact spans at import. Preserve legacy probability-component records; no transfer into the corrected full-expression identity, whose encounter is limited to viewing the indexed thought unit."
+    },
+    {
+      "key": "sans_prix",
+      "headword": "sans prix",
+      "meaning": "priceless; of inestimable value",
+      "identityTarget": "new_full_expression_identity",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_037",
+          "start": 4,
+          "end": 13,
+          "text": "sans prix",
+          "context": "Est sans prix, et vaut mieux encor."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Est sans prix, et vaut mieux encor.",
+          "targetText": "sans prix",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "priceless; of inestimable value",
+          "choices": [
+            "priceless; of inestimable value",
+            "worthless",
+            "free of charge",
+            "cheap"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Cette qualité a une valeur inestimable : elle est _____.",
+          "question": "Complétez la phrase.",
+          "answer": "sans prix",
+          "choices": [
+            "sans prix",
+            "de peu de valeur",
+            "sans utilité",
+            "de qualité médiocre"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression présente une qualité comme trop précieuse pour en fixer la valeur ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans prix",
+          "choices": [
+            "sans prix",
+            "de peu de valeur",
+            "sans utilité",
+            "de qualité médiocre"
+          ]
+        }
+      ],
+      "questionSha256": "7472e9175f8813356511d36250de62bc38e638ae495f334a2b92188ef183f5c5",
+      "reviewNote": "Read the three source lines together: bonne grâce is of inestimable value, not free, unpriced merchandise or worthless. Académie1694 prix expressly supports the figurative high-value phrase. All four adjective phrases fit elle est. Prepare the whole phrase; suppress only these source components, preserve unrelated price and without records and legacy mastery."
+    },
+    {
+      "key": "sans_mentir",
+      "headword": "sans mentir",
+      "meaning": "truthfully; to tell the truth",
+      "identityTarget": "new_full_expression_identity",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_corbeau_renard",
+          "unitId": "unt_corbeau_06",
+          "start": 0,
+          "end": 11,
+          "text": "Sans mentir",
+          "context": "Sans mentir, si votre ramage se rapporte à votre plumage, vous êtes le Phénix des hôtes de ces bois. »"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Sans mentir, si votre ramage se rapporte à votre plumage, vous êtes le Phénix des hôtes de ces bois. »",
+          "targetText": "Sans mentir",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "truthfully; to tell the truth",
+          "choices": [
+            "truthfully; to tell the truth",
+            "by chance",
+            "reluctantly",
+            "as a precaution"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Pour affirmer qu’il dit la vérité, le renard déclare : « _____, votre plumage est splendide. »",
+          "question": "Complétez la phrase.",
+          "answer": "sans mentir",
+          "choices": [
+            "sans mentir",
+            "par hasard",
+            "à regret",
+            "par précaution"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression annonce que le locuteur prétend dire la vérité ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans mentir",
+          "choices": [
+            "sans mentir",
+            "par hasard",
+            "à regret",
+            "par précaution"
+          ]
+        }
+      ],
+      "questionSha256": "2e4580e02c173c84c6d743618465a14cfd12162838d8890e030240437338b8d4",
+      "reviewNote": "Read the full flattery passage: the fox presents his assertion as truthful; the story’s irony does not change the phrase’s claimed truth function. Académie9 sans lists this truth-telling expression. All four adverbial phrases fit the quotation. Prepare the full phrase, preserving literal absence constructions elsewhere and legacy component records."
+    },
+    {
+      "key": "sans_compter",
+      "headword": "sans compter",
+      "meaning": "not to mention; besides",
+      "identityTarget": "new_full_expression_identity",
+      "sourceOccurrences": [
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_083",
+          "start": 172,
+          "end": 184,
+          "text": "sans compter",
+          "context": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major, le général de Boisdeffre, le général Gonse, sans compter les sous-ordres."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major, le général de Boisdeffre, le général Gonse, sans compter les sous-ordres.",
+          "targetText": "sans compter",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "not to mention; besides",
+          "choices": [
+            "not to mention; besides",
+            "removing from the list",
+            "forgetting",
+            "keeping only"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Des subalternes s’ajoutent aux généraux déjà cités : il mentionne ceux-ci, _____ les sous-ordres.",
+          "question": "Complétez la phrase.",
+          "answer": "sans compter",
+          "choices": [
+            "sans compter",
+            "en retirant",
+            "en oubliant",
+            "en ne gardant que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression ajoute des personnes à celles qui ont déjà été énumérées ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans compter",
+          "choices": [
+            "sans compter",
+            "en retirant",
+            "en oubliant",
+            "en ne gardant que"
+          ]
+        }
+      ],
+      "questionSha256": "5c6ed0c385bc55b916fd3e7ba5939ef0a20522bd67574c3f4f67d46c04613980",
+      "reviewNote": "Read the complete Zola enumeration: the subordinate officers are additional implicated persons, not people omitted through forgetfulness. The complete construction retains the literal image of not including them in the preceding count; its discourse function adds them. Four complete introductory phrases fit les sous-ordres. Prepare the whole source phrase with no change to unrelated counting or without senses."
+    },
+    {
+      "key": "sans_que_shared",
+      "headword": "sans que",
+      "meaning": "without; without it being the case that",
+      "identityTarget": "prior:chapter-07-expression-review-01.json:sans_que",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 204,
+          "start": 159,
+          "end": 167,
+          "text": "sans que",
+          "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_025",
+          "start": 4,
+          "end": 12,
+          "text": "sans que",
+          "context": "Et, sans que je veuille refaire ici une histoire connue en partie, le commandant du Paty de Clam entre en scène, dès qu’un premier soupçon tombe sur Dreyfus."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_063",
+          "start": 75,
+          "end": 83,
+          "text": "sans que",
+          "context": "Mais une pièce intéressant la défense nationale, qu’on ne saurait produire sans que la guerre fût déclarée demain, non, non !"
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_051",
+          "start": 39,
+          "end": 47,
+          "text": "sans que",
+          "context": "Je défie les honnêtes gens de le lire, sans que leur cœur bondisse d’indignation et crie leur révolte, en pensant à l’expiation démesurée, là-bas, à l’île du Diable."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_114",
+          "start": 218,
+          "end": 226,
+          "text": "sans que",
+          "context": "Puis, c’est le général de Boisdeffre, c’est le général Gonse, c’est le général Billot lui-même, qui sont bien obligés de faire acquitter le commandant, puisqu’ils ne peuvent laisser reconnaître l’innocence de Dreyfus, sans que les bureaux de la guerre croulent sous le mépris public."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_149",
+          "start": 46,
+          "end": 54,
+          "text": "sans que",
+          "context": "Encore une fois, il ne peut revenir innocent, sans que tout l’état-major soit coupable."
+        },
+        {
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_064",
+          "start": 90,
+          "end": 98,
+          "text": "sans qu’",
+          "context": "C’est un mensonge ; et cela est d’autant plus odieux et cynique qu’ils mentent impunément sans qu’on puisse les en convaincre."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "« Rien du tout, répondit le philosophe malebranchiste ; c’est Dieu qui fait tout pour moi : je vois tout en lui, je fais tout en lui ; c’est lui qui fait tout sans que je m’en mêle. — Autant vaudrait ne pas être, reprit le sage de Sirius.",
+          "targetText": "sans que",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "without; without it being the case that",
+          "choices": [
+            "without; without it being the case that",
+            "although",
+            "because",
+            "so that"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "L’intervention n’a pas lieu : « Il fait tout ___ je m’en mêle. »",
+          "question": "Complétez la phrase.",
+          "answer": "sans que",
+          "choices": [
+            "sans que",
+            "bien que",
+            "avant que",
+            "afin que"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle locution conjonctive exprime l’absence d’une intervention ?",
+          "question": "Quelle expression convient ?",
+          "answer": "sans que",
+          "choices": [
+            "sans que",
+            "bien que",
+            "avant que",
+            "afin que"
+          ]
+        }
+      ],
+      "questionSha256": "cf63b126d10c69fa372c3b3a05f9b91862975704d6cb076341a1d2efce4d000d",
+      "reviewNote": "Read all six full Zola units and the exact Voltaire phrase and all three earlier bands. Sans que excludes the subordinate event; under the negative main clauses, the event is a necessary concomitant if the main assertion were to occur, not a fresh connective meaning. The elided sans qu’ remains a surface variant of canonical sans que. Replace the earlier middle cause distractor with avant que so every alternative governs the subjunctive independent of a syncretic mêle form. The clue explicitly excludes intervention. Preserve the earlier proposal as evidence and use this bank at whole-work import.",
+      "earlierFileSha256": "64c2ee0dd9fcb23baa118ac992e92c2798dec16fd09e4b7c78ea27bd4d0f8ada",
+      "earlierQuestionSha256": "81fc20cfe733d577e36399f6ca2cb91f502522147a1d23c1b0768b8e7cc29b4d"
+    },
+    {
+      "key": "sans_cesse",
+      "headword": "sans cesse",
+      "meaning": "constantly; without stopping",
+      "identityTarget": "exi_parure_sans_cesse",
+      "sourceOccurrences": [
+        {
+          "id": "exo_parure_sans_cesse_01",
+          "identityId": "exi_parure_sans_cesse",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_003",
+          "start": 15,
+          "end": 25,
+          "text": "sans cesse",
+          "context": "Elle souffrait sans cesse, se sentant née pour toutes les délicatesses et tous les luxes. Elle souffrait de la pauvreté de son logement, de la misère des murs, de l’usure des sièges, de la laideur des étoffes. Toutes ces choses, dont une autre femme de sa caste ne se serait même pas aperçue, la torturaient et l’indignaient. La vue de la petite Bretonne qui faisait son humble ménage éveillait en elle des regrets désolés et des rêves éperdus. Elle songeait aux antichambres muettes,"
+        },
+        {
+          "chapter": 2,
+          "unit": 34,
+          "start": 189,
+          "end": 199,
+          "text": "sans cesse",
+          "context": "— Je le crois bien, dit Micromégas ; car dans notre globe nous avons près de mille sens, et il nous reste encore je ne sais quel désir vague, je ne sais quelle inquiétude, qui nous avertit sans cesse que nous sommes peu de chose, et qu’il y a des êtres beaucoup plus parfaits."
+        }
+      ],
+      "questions": [
+        {
+          "id": "exq_parure_sans_cesse_advanced",
+          "expressionId": "exi_parure_sans_cesse",
+          "contextFrench": "La machine tourne sans cesse. Paul vérifie le cadran de temps en temps, Léa l’entend à peine et le technicien reviendra demain.",
+          "correctAnswer": "sans cesse",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression indique un fonctionnement sans interruption ?",
+          "choicesFrench": [
+            "demain",
+            "sans cesse",
+            "de temps en temps",
+            "à peine"
+          ]
+        },
+        {
+          "id": "exq_parure_sans_cesse_intermediate",
+          "expressionId": "exi_parure_sans_cesse",
+          "contextFrench": "La machine tourne _____ depuis l’aube : elle ne s’est pas arrêtée une seule seconde.",
+          "correctAnswer": "sans cesse",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "par moments",
+            "de temps en temps",
+            "sans cesse",
+            "par intermittence"
+          ]
+        },
+        {
+          "id": "exq_parure_sans_cesse_early",
+          "expressionId": "exi_parure_sans_cesse",
+          "contextFrench": "Nina travaille sans cesse depuis ce matin.",
+          "correctAnswer": "constantly; without stopping",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "sans cesse",
+          "choicesEnglish": [
+            "constantly; without stopping",
+            "occasionally",
+            "silently",
+            "tomorrow"
+          ]
+        }
+      ],
+      "questionSha256": "17f9be74d0684d1748d20f4d0c6531233b630470a20d631f09647c895ce0e8f9",
+      "reviewNote": "Read each complete source unit and all three current full-expression banks. Retain the existing complete expression meaning, questions, identity and mastery. Suppress only word occurrences contained in the enumerated complete phrase spans so those components do not receive independent quizzes for this idiomatic use.",
+      "publishedSnapshotSha256": "90ef632e1795502bae1560ed993e953b90a9e18d2e848ad3ff324bd1a6887e16"
+    },
+    {
+      "key": "sans_autre_forme_de_proces",
+      "headword": "sans autre forme de procès",
+      "meaning": "without further ado",
+      "identityTarget": "exi_loup_agneau_sans_autre_forme_de_proces_068600a92c",
+      "sourceOccurrences": [
+        {
+          "id": "exo_loup_agneau_sans_autre_forme_de_proces_068600a92c_01",
+          "identityId": "exi_loup_agneau_sans_autre_forme_de_proces_068600a92c",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_20",
+          "start": 0,
+          "end": 26,
+          "text": "Sans autre forme de procès",
+          "context": "Sans autre forme de procès."
+        }
+      ],
+      "questions": [
+        {
+          "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_early",
+          "expressionId": "exi_loup_agneau_sans_autre_forme_de_proces_068600a92c",
+          "contextFrench": "Il le renvoya sans autre forme de procès, sans même écouter ses explications.",
+          "correctAnswer": "without further ado",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "sans autre forme de procès",
+          "choicesEnglish": [
+            "with great care",
+            "after an investigation",
+            "without further ado",
+            "after a long discussion"
+          ]
+        },
+        {
+          "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_intermediate",
+          "expressionId": "exi_loup_agneau_sans_autre_forme_de_proces_068600a92c",
+          "contextFrench": "Sans discussion ni procédure supplémentaire, le maître le congédia _____.",
+          "correctAnswer": "sans autre forme de procès",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "après plusieurs audiences",
+            "sans autre forme de procès",
+            "après un long débat",
+            "au terme d’une enquête"
+          ]
+        },
+        {
+          "id": "exq_loup_agneau_sans_autre_forme_de_proces_068600a92c_advanced",
+          "expressionId": "exi_loup_agneau_sans_autre_forme_de_proces_068600a92c",
+          "contextFrench": "Sans autre forme de procès, il chassa l’intrus de la maison ; le voisin protesta à voix haute.",
+          "correctAnswer": "Sans autre forme de procès",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression souligne l’absence de discussion ou de formalités ?",
+          "choicesFrench": [
+            "Sans autre forme de procès",
+            "de la maison",
+            "le voisin",
+            "à voix haute"
+          ]
+        }
+      ],
+      "questionSha256": "615cf92a7bfa87d481acc815fc0c10f8452a22dee387c2373a1ec23ad4dcdc66",
+      "reviewNote": "Read each complete source unit and all three current full-expression banks. Retain the existing complete expression meaning, questions, identity and mastery. Suppress only word occurrences contained in the enumerated complete phrase spans so those components do not receive independent quizzes for this idiomatic use.",
+      "publishedSnapshotSha256": "022421e5840401b730accb785deb9908e7a18f8de2dd4581c6336e656d3566f1"
+    },
+    {
+      "key": "nuit_et_jour",
+      "headword": "nuit et jour",
+      "meaning": "night and day",
+      "identityTarget": "exi_cigale_fourmi_nuit_et_jour_16d3e2d0ed",
+      "sourceOccurrences": [
+        {
+          "id": "exo_cigale_fourmi_nuit_et_jour_16d3e2d0ed_01",
+          "identityId": "exi_cigale_fourmi_nuit_et_jour_16d3e2d0ed",
+          "workId": "wrk_cigale_fourmi",
+          "unitId": "unt_cigale_fourmi_09",
+          "start": 2,
+          "end": 14,
+          "text": "Nuit et jour",
+          "context": "— Nuit et jour à tout venant, je chantais, ne vous déplaise."
+        }
+      ],
+      "questions": [
+        {
+          "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_intermediate",
+          "expressionId": "exi_cigale_fourmi_nuit_et_jour_16d3e2d0ed",
+          "contextFrench": "Le phare fonctionne _____, pendant toutes les heures de la journée et de la nuit.",
+          "correctAnswer": "nuit et jour",
+          "band": "levels_4_5",
+          "format": "surface_completion",
+          "choicesFrench": [
+            "un matin par mois",
+            "nuit et jour",
+            "seulement à midi",
+            "une heure par semaine"
+          ]
+        },
+        {
+          "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_advanced",
+          "expressionId": "exi_cigale_fourmi_nuit_et_jour_16d3e2d0ed",
+          "contextFrench": "Les gardes veillent nuit et jour sur le palais ; chacun prend son tour avant de se reposer.",
+          "correctAnswer": "nuit et jour",
+          "band": "levels_6_8",
+          "format": "target_identification",
+          "promptFrench": "Quelle expression indique une surveillance continue ?",
+          "choicesFrench": [
+            "nuit et jour",
+            "sur le palais",
+            "son tour",
+            "avant de"
+          ]
+        },
+        {
+          "id": "exq_cigale_fourmi_nuit_et_jour_16d3e2d0ed_early",
+          "expressionId": "exi_cigale_fourmi_nuit_et_jour_16d3e2d0ed",
+          "contextFrench": "Les secours travaillent nuit et jour, sans interrompre leurs recherches.",
+          "correctAnswer": "night and day",
+          "band": "levels_1_3",
+          "format": "meaning_choice",
+          "targetText": "nuit et jour",
+          "choicesEnglish": [
+            "only at noon",
+            "every other evening",
+            "night and day",
+            "once a week"
+          ]
+        }
+      ],
+      "questionSha256": "f00356c7caac403be933d0a9610d5b7a9debed9b81ef13ca27e01abd3329a5bb",
+      "reviewNote": "Read each complete source unit and all three current full-expression banks. Retain the existing complete expression meaning, questions, identity and mastery. Suppress only word occurrences contained in the enumerated complete phrase spans so those components do not receive independent quizzes for this idiomatic use.",
+      "publishedSnapshotSha256": "3fa484c3bbf4a3e86dafe8bb3df8a92e2d16d15f12578ba0e3cb5100e1690aa0"
+    },
+    {
+      "key": "sans_y_rien_mettre_du_mien",
+      "headword": "sans y rien mettre du mien",
+      "meaning": "without adding anything of my own",
+      "identityTarget": "prior:chapter-04-final-expressions.json:sans_y_rien_mettre_du_mien",
+      "sourceOccurrences": [
+        {
+          "chapter": 4,
+          "unit": 115,
+          "start": 53,
+          "end": 79,
+          "text": "sans y rien mettre du mien",
+          "context": "Je vais raconter ingénument comme la chose se passa, sans y rien mettre du mien : ce qui n’est pas un petit effort pour un historien."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Je vais raconter ingénument comme la chose se passa, sans y rien mettre du mien : ce qui n’est pas un petit effort pour un historien.",
+          "question": "What does the phrase mean here?",
+          "answer": "without adding my own inventions",
+          "choices": [
+            "without adding my own inventions",
+            "without speaking aloud",
+            "without leaving home",
+            "without reading the news"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Je rapporterai seulement ce qui s’est passé, ___.",
+          "question": "Complétez la phrase.",
+          "answer": "sans y rien mettre du mien",
+          "choices": [
+            "sans y rien mettre du mien",
+            "sans rien voir de loin",
+            "sans sortir de chez moi",
+            "sans lire les gazettes"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Sans y rien mettre du mien promet de ne rien ajouter de personnel au récit; les autres expressions portent sur la vue, le déplacement et la lecture.",
+          "question": "Quelle locution signifie without adding anything of my own ?",
+          "answer": "sans y rien mettre du mien",
+          "choices": [
+            "sans y rien mettre du mien",
+            "sans rien voir de loin",
+            "sans sortir de chez moi",
+            "sans lire les gazettes"
+          ]
+        }
+      ],
+      "questionSha256": "d5e2210c76aa1aee45e2928e349916e80b075341ba1ed6bcb84b1dfc18d2419c",
+      "reviewNote": "Read the complete exact phrase and all three earlier banks again. The full expression owns the contextual meaning; suppress only the enumerated component tokens during whole-work import. Keep the earlier approved offline proposal unchanged as evidence, with its exact source and question fingerprints.",
+      "earlierFileSha256": "d654d5bb6ca50edf077ada1adc14e2d30318d3564e24a0172770e2db34a25991",
+      "earlierQuestionSha256": "d5e2210c76aa1aee45e2928e349916e80b075341ba1ed6bcb84b1dfc18d2419c"
+    },
+    {
+      "key": "aller_et_venir",
+      "headword": "allaient et venaient",
+      "meaning": "moved back and forth; oscillated",
+      "identityTarget": "prior:chapter-07-expression-review-06.json:aller_et_venir",
+      "sourceOccurrences": [
+        {
+          "chapter": 7,
+          "unit": 211,
+          "start": 186,
+          "end": 206,
+          "text": "allaient et venaient",
+          "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien."
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "À ce discours, nos deux voyageurs se laissèrent aller l’un sur l’autre en étouffant de ce rire inextinguible qui, selon Homère, est le partage des dieux : leurs épaules et leurs ventres allaient et venaient, et dans ces convulsions le vaisseau, que le Sirien avait sur son ongle, tomba dans une poche de la culotte du Saturnien.",
+          "targetText": "allaient et venaient",
+          "question": "What does the highlighted phrase mean here?",
+          "answer": "moved back and forth; oscillated",
+          "choices": [
+            "moved back and forth; oscillated",
+            "stayed motionless",
+            "suddenly froze",
+            "stopped moving"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Leurs corps oscillaient en un mouvement de va-et-vient : ils ___.",
+          "question": "Complétez la phrase.",
+          "answer": "allaient et venaient",
+          "choices": [
+            "allaient et venaient",
+            "restaient immobiles",
+            "s’immobilisaient soudain",
+            "cessaient de bouger"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Quelle expression signifie se déplaçaient dans un sens puis dans l’autre ?",
+          "question": "Quelle expression convient ?",
+          "answer": "allaient et venaient",
+          "choices": [
+            "allaient et venaient",
+            "restaient immobiles",
+            "s’immobilisaient soudain",
+            "cessaient de bouger"
+          ]
+        }
+      ],
+      "questionSha256": "4b3de3cffb8bd35be1356044b05a15fb921e30d180d245d511c06fe7b3473ec4",
+      "reviewNote": "Read the complete exact phrase and all three earlier banks again. The full expression owns the contextual meaning; suppress only the enumerated component tokens during whole-work import. Keep the earlier approved offline proposal unchanged as evidence, with its exact source and question fingerprints.",
+      "earlierFileSha256": "c95f070c31726bc6950a705549066bb2dd27f6244bac3656af6b33cff58a7f53",
+      "earlierQuestionSha256": "4b3de3cffb8bd35be1356044b05a15fb921e30d180d245d511c06fe7b3473ec4"
+    }
+  ],
+  "lexicalEvidence": [
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A3D1260",
+      "edition": "Académie1740",
+      "consulted": "2026-10-01",
+      "paraphrase": "The contemporary dictionary describes sans doute as an adverb of confident assurance."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9D3162",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "The phrase entry separates classical certainty, concessive acknowledgement and present-day probability."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A1P0448",
+      "edition": "Académie1694",
+      "consulted": "2026-10-01",
+      "paraphrase": "The expression sans prix denotes something of inestimable value, rather than an item lacking monetary value."
+    },
+    {
+      "url": "https://www.dictionnaire-academie.fr/article/A9S0380",
+      "edition": "Académie9",
+      "consulted": "2026-10-01",
+      "paraphrase": "Sans que excludes the subordinate action and governs the subjunctive; sans mentir presents the speaker’s words as truthful."
+    }
+  ]
+}

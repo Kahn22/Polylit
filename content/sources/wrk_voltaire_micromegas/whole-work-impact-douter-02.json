@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:33:43.343Z",
+  "sense": {
+    "id": "sns_zola_se_douter_suspect",
+    "lemmaId": "lem_zola_se_douter",
+    "gloss": "to suspect; imagine",
+    "definition": "pressentir ou supposer l’existence de quelque chose"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_doute_se_douter_suspect_intermediate",
+      "qiz_zola_doute_se_douter_suspect_advanced",
+      "qiz_zola_doute_se_douter_suspect_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_doute_se_douter:sns_zola_se_douter_suspect",
+      "surface": "doute",
+      "lemma": "se douter",
+      "currentRevision": "rev_5fb419060b6856168c2bdb12db826916dcda5bb086c2de82010cb72d36531430",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_0b8e561224d08e43022d934a",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_173",
+          "passage": "Je me doute bien que vous n’avez aucun pouvoir en cette affaire, que vous êtes le prisonnier de la Constitution et de votre entourage.",
+          "span": [
+            6,
+            11
+          ]
+        },
+        {
+          "id": "occ_zola_60ed05b0cadb6f9390ba5ecf",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_162",
+          "passage": "Je me doute de l’écroulement qui doit avoir lieu dans l’âme de M. Scheurer-Kestner et je crois bien qu’il finira par éprouver un remords, celui de n’avoir pas agi révolutionnairement, le jour de l’interpellation au Sénat, en lâchant tout le paquet, pour tout jeter à bas.",
+          "span": [
+            6,
+            11
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_doute_se_douter_suspect_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "En voyant les cadeaux cachés, Léa se _____ qu’une fête se prépare.",
+          "choices": [
+            {
+              "text": "doutes",
+              "correct": false
+            },
+            {
+              "text": "doutent",
+              "correct": false
+            },
+            {
+              "text": "douter",
+              "correct": false
+            },
+            {
+              "text": "doute",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doute_se_douter_suspect_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Marc se doute que ses amis organisent une fête parce qu’ils lui cachent leurs préparatifs. Nina ferme une boîte, Paul range les rubans et Léa prépare un gâteau.",
+          "prompt": "Quel mot indique que Marc pressent l’existence de la fête ?",
+          "choices": [
+            {
+              "text": "doute",
+              "correct": true
+            },
+            {
+              "text": "ferme",
+              "correct": false
+            },
+            {
+              "text": "range",
+              "correct": false
+            },
+            {
+              "text": "prépare",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_doute_se_douter_suspect_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Paul se doute que Nina prépare une surprise, car elle cache un paquet.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "suspects",
+              "correct": true
+            },
+            {
+              "text": "proves",
+              "correct": false
+            },
+            {
+              "text": "forgets",
+              "correct": false
+            },
+            {
+              "text": "denies",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

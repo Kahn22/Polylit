@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:12:57.863Z",
+  "sense": {
+    "id": "sns_zola_petit_lowly",
+    "lemmaId": "lem_zola_petit",
+    "gloss": "small; lowly",
+    "definition": "de condition modeste ou dépourvu de pouvoir social"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_petits_petit_lowly_advanced",
+      "qiz_zola_petits_petit_lowly_early",
+      "qiz_zola_petits_petit_lowly_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_petits_petit:sns_zola_petit_lowly",
+      "surface": "petits",
+      "lemma": "petit",
+      "currentRevision": "rev_740d504b939bc3bb4b0f24f8eda61817919b7a911a095f328526d7d56052bcd4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_1543b6e216397b2ed8cafb77",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_159",
+          "passage": "C’est un crime d’empoisonner les petits et les humbles, d’exaspérer les passions de réaction et d’intolérance, en s’abritant derrière l’odieux antisémitisme, dont la grande France libérale des droits de l’homme mourra, si elle n’en est pas guérie.",
+          "span": [
+            33,
+            39
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_petits_petit_lowly_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les petits réclament une voix face aux puissants qui décident pour eux.",
+          "prompt": "Quel mot substantivé désigne les personnes sans pouvoir social ?",
+          "choices": [
+            {
+              "text": "décident",
+              "correct": false
+            },
+            {
+              "text": "petits",
+              "correct": true
+            },
+            {
+              "text": "voix",
+              "correct": false
+            },
+            {
+              "text": "puissants",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_petits_petit_lowly_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Les petits ont peu de pouvoir face aux puissants qui prennent les décisions.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "the rulers",
+              "correct": false
+            },
+            {
+              "text": "the wealthy",
+              "correct": false
+            },
+            {
+              "text": "the leaders",
+              "correct": false
+            },
+            {
+              "text": "the powerless",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_petits_petit_lowly_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Dans ce conflit social, les _____ n’ont ni fortune ni influence, contrairement aux puissants.",
+          "choices": [
+            {
+              "text": "riches",
+              "correct": false
+            },
+            {
+              "text": "notables",
+              "correct": false
+            },
+            {
+              "text": "petits",
+              "correct": true
+            },
+            {
+              "text": "dirigeants",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

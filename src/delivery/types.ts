@@ -10,7 +10,7 @@ export interface LibraryIndex {
   language: Language;
   release: string;
   catalog: Pick<ContentBundle, "authors" | "collections" | "books" | "works">;
-  works: Record<string, { sectionCount: number; vocabularyTokens: string[]; expressionIdentityKeys: string[]; manifest: string }>;
+  works: Record<string, { sectionCount: number; vocabularyTokens: string[]; expressionIdentityKeys: string[]; expressionTokens?: string[]; manifest: string }>;
   quizzes: string;
 }
 export interface WorkManifest { version: 1; language: Language; workId: string; sections: string[]; bookPages: string[] }

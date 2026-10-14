@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "status": "offline_explicit_family_routes_unapplied",
+  "declarations": [
+    {
+      "declaration": "whole-work-family-owner-routes-51.json:nouvelles_reports",
+      "root": {
+        "kind": "planned_sense",
+        "declaration": "whole-work-family-owner-routes-51.json:nouvelles_reports",
+        "lemma": {
+          "kind": "published_lemma",
+          "lemmaId": "lem_parure_nouvelle_noun_2c5e3b64b5"
+        }
+      },
+      "form": "nouvelles",
+      "bank": {
+        "file": "chapter-02-batch-06.json",
+        "key": "nouvelles_reports",
+        "selector": "/items/0",
+        "questionSha256": "fbfca33a9011ce8154ddba3f27c39f0cb31f06b81b57400bc0fd8ca4fdc93f0e"
+      },
+      "evidence": {
+        "file": "chapter-02-batch-06.json",
+        "selector": "/items/0"
+      },
+      "reason": "Fresh news/reports meaning; keep the conflicting literary legacy metadata and all three old questions unchanged."
+    },
+    {
+      "declaration": "whole-work-family-owner-routes-51.json:ecria_exclaimed",
+      "root": {
+        "kind": "planned_sense",
+        "declaration": "whole-work-family-owner-routes-51.json:ecria_exclaimed",
+        "lemma": {
+          "kind": "published_lemma",
+          "lemmaId": "lem_parure_ecrier_verb_97ae4328ce"
+        }
+      },
+      "form": "s’écria",
+      "bank": {
+        "file": "chapter-03-batch-02.json",
+        "key": "s_ecria_exclaimed",
+        "selector": "/items/3",
+        "questionSha256": "403e76995e7d223213a7a9296753d50146302694aba5ed0e62d0dbbbbaa27d37"
+      },
+      "evidence": {
+        "file": "chapter-03-batch-02.json",
+        "selector": "/items/3"
+      },
+      "reason": "Fresh exclamation meaning; preserve the conflicting legacy metal-cleaning definition and its exclaim-gloss bank."
+    },
+    {
+      "declaration": "whole-work-family-owner-routes-51.json:derniere_final_in_sequence",
+      "root": {
+        "kind": "planned_sense",
+        "declaration": "whole-work-family-owner-routes-51.json:derniere_final_in_sequence",
+        "lemma": {
+          "kind": "published_lemma",
+          "lemmaId": "lem_zola_dernier"
+        }
+      },
+      "form": "dernière",
+      "bank": {
+        "file": "chapter-03-batch-04.json",
+        "key": "derniere_last",
+        "selector": "/items/3",
+        "questionSha256": "aa187bd7ce6e2a6c58744b5e41aa4ac2c9a424aeed6a8f3448a4b43ccf0fdf65"
+      },
+      "evidence": {
+        "file": "chapter-03-batch-04.json",
+        "selector": "/items/3"
+      },
+      "reason": "Final element of a spatial series rather than the already staged most-recent temporal meaning."
+    },
+    {
+      "declaration": "whole-work-family-owner-routes-51.json:espece_species",
+      "root": {
+        "kind": "planned_sense",
+        "declaration": "whole-work-family-owner-routes-51.json:espece_species",
+        "lemma": {
+          "kind": "planned_lemma",
+          "declaration": "chapter-02-identity-plan.json:espece_kind_of"
+        }
+      },
+      "form": "espece_species",
+      "bank": {
+        "file": "whole-work-family-owner-routes-51.json",
+        "key": "espece_species",
+        "selector": "/items/0",
+        "questionSha256": "c29130597ad569cb2e5bdbd4eff8b8fa6b6f018e7acb2851f96bab79fe4e661b"
+      },
+      "evidence": {
+        "file": "chapter-02-batch-10.json",
+        "selector": "/items/5"
+      },
+      "reason": "Biological human kind in units135 and173, explicitly separated from approximate comparisons in units48,118,138."
+    },
+    {
+      "declaration": "whole-work-family-owner-routes-51.json:blanc_blank",
+      "root": {
+        "kind": "planned_sense",
+        "declaration": "whole-work-family-owner-routes-51.json:blanc_blank",
+        "lemma": {
+          "kind": "planned_lemma",
+          "declaration": "whole-work-family-owner-routes-51.json:blanc_blank"
+        }
+      },
+      "form": "blanc_blank",
+      "bank": {
+        "file": "whole-work-family-owner-routes-51.json",
+        "key": "blanc_blank",
+        "selector": "/items/1",
+        "questionSha256": "0591d195a89b3a164badeb3eb67441ee9a4697eea4a831dd87b6e4c90f681847"
+      },
+      "evidence": {
+        "file": "chapter-02-batch-12.json",
+        "selector": "/items/6"
+      },
+      "reason": "The final book has no written or printed content; adjective blank is separate from the source color noun."
+    }
+  ],
+  "items": [
+    {
+      "key": "espece_species",
+      "form": "espèce",
+      "lemma": "espèce",
+      "partOfSpeech": "noun feminine singular",
+      "meaning": "biological species; human kind",
+      "sourceOccurrences": [
+        {
+          "unit": 135,
+          "start": 155,
+          "end": 161,
+          "text": "espèce"
+        },
+        {
+          "unit": 173,
+          "start": 94,
+          "end": 100,
+          "text": "espèce"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "L’espèce humaine rassemble tous les êtres humains.",
+          "answer": "species",
+          "choices": [
+            "species",
+            "planet",
+            "era",
+            "gallery"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Ce groupe d’êtres vivants partage des caractères communs : une ___.",
+          "answer": "espèce",
+          "choices": [
+            "espèce",
+            "planète",
+            "époque",
+            "galerie"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "L’espèce est une catégorie d’êtres vivants. La planète est un astre, l’époque une période et la galerie un lieu d’exposition.",
+          "answer": "espèce",
+          "choices": [
+            "espèce",
+            "planète",
+            "époque",
+            "galerie"
+          ],
+          "question": "Quel nom désigne ici la catégorie biologique ?"
+        }
+      ]
+    },
+    {
+      "key": "blanc_blank",
+      "form": "blanc",
+      "lemma": "blanc",
+      "partOfSpeech": "adjective masculine singular",
+      "meaning": "blank; unwritten",
+      "sourceOccurrences": [
+        {
+          "unit": 215,
+          "start": 183,
+          "end": 188,
+          "text": "blanc"
+        }
+      ],
+      "questions": [
+        {
+          "band": "1-3",
+          "context": "Ce livre reste blanc : aucune écriture ne figure sur ses pages.",
+          "answer": "blank",
+          "choices": [
+            "blank",
+            "filled with writing",
+            "annotated",
+            "illustrated"
+          ]
+        },
+        {
+          "band": "4-5",
+          "context": "Aucun mot ni aucune image n’y est écrit ou imprimé : ce livre est encore ___.",
+          "answer": "blanc",
+          "choices": [
+            "blanc",
+            "rédigé",
+            "annoté",
+            "illustré"
+          ]
+        },
+        {
+          "band": "6-8",
+          "context": "Le livre blanc ne porte ici aucune écriture ni impression. Le livre rédigé contient un texte, le livre annoté des notes et le livre illustré des images.",
+          "answer": "blanc",
+          "choices": [
+            "blanc",
+            "rédigé",
+            "annoté",
+            "illustré"
+          ],
+          "question": "Quel adjectif indique ici l’absence de tout contenu écrit ou imprimé ?"
+        }
+      ]
+    }
+  ],
+  "senseChanges": [
+    {
+      "before": {
+        "id": "sns_fr_aller_extent",
+        "lemmaId": "lem_zola_aller",
+        "gloss": "to go so far as",
+        "definition": "Dans aller jusqu’à, atteindre un degré ou une limite, parfois jugés excessifs."
+      },
+      "beforeSha256": "a553000ebb045d2608e4e2bb01d70d05adfea60ac0af14305b2612aa4bfb1713",
+      "after": {
+        "id": "sns_fr_aller_extent",
+        "lemmaId": "lem_zola_aller",
+        "gloss": "to go so far as",
+        "definition": "Atteindre ou dépasser un degré, une mesure ou une limite au figuré."
+      },
+      "afterSha256": "d8835ae93d9628e014f40e15cad17da02f3c826c0a6cd5451ac2038d2ba7f2f1",
+      "impactEvidence": {
+        "file": "whole-work-impact-aller-51.json",
+        "sha256": "8fb0154316b8f7cce228f3632f5077d30f65823f53fbc7021b1748c7e1ba7a32"
+      },
+      "reviewedQuestionIds": [
+        "qiz_fr_aller_extent_fr_va_aller_verb_levels_1_3",
+        "qiz_fr_aller_extent_fr_va_aller_verb_levels_4_5",
+        "qiz_fr_aller_extent_fr_va_aller_verb_levels_6_8"
+      ],
+      "preservedQuestionsSha256": "a2887d802d8dafa5a03deacafe32a9e9c7be4dcc3575a113d71166e1feb450b0",
+      "reviewedOccurrenceIds": [
+        "occ_zola_82dcd566f97fb8cf700cf176"
+      ],
+      "preservedOccurrencesSha256": "1fdf3bb84d635a5f465786d215ac1d1bb5e8072038235e85a8f388e3aa0c0dd8",
+      "masteryAction": "retain_all_existing_progress_records",
+      "action": "stage_same_sense_generic_definition_only_publication_unchanged",
+      "reason": "Full aller family reviewed. Figurative extension is not confined to jusqu’à. The three old extent questions and indexed use still test the same meaning."
+    },
+    {
+      "before": {
+        "id": "sns_zola_compter_count",
+        "lemmaId": "lem_zola_compter",
+        "gloss": "to count; not counting",
+        "definition": "énumérer ou considérer comme compris"
+      },
+      "beforeSha256": "c5f10f66b198fc000d8d879b0af7dc295c820e0c5759dda124eb9034e64c56da",
+      "after": {
+        "id": "sns_zola_compter_count",
+        "lemmaId": "lem_zola_compter",
+        "gloss": "to count; not counting",
+        "definition": "Déterminer un nombre ou une quantité par le calcul ; inclure un élément dans un total."
+      },
+      "afterSha256": "c6d112619b1846d326944a07879ad8971fa5aa803754c284d1b8c1faacadea5b",
+      "impactEvidence": {
+        "file": "whole-work-impact-compter-51.json",
+        "sha256": "459da021bafdc43faae36dbc3227971242660c4baad980552fa7e6570abb488f"
+      },
+      "reviewedQuestionIds": [
+        "qiz_zola_compter_compter_count_intermediate",
+        "qiz_zola_compter_compter_count_advanced",
+        "qiz_zola_compter_compter_count_early"
+      ],
+      "preservedQuestionsSha256": "b039af4859ccca07a1e1f1073b214f5a868bddb4a0d60c8a665ea0d224a99100",
+      "reviewedOccurrenceIds": [
+        "occ_zola_6427bf5f511962d1c6af5b68"
+      ],
+      "preservedOccurrencesSha256": "a72f9707a802d391b7e805623c7c4fed5d8302d0366bed60023bb420df846ac6",
+      "masteryAction": "retain_all_existing_progress_records",
+      "action": "stage_same_sense_generic_definition_only_publication_unchanged",
+      "reason": "All retained counting questions and indexed sans-compter passage reviewed. Counting units and reckoning angular/distance quantities share the quantitative meaning; no measurement-unit sense."
+    },
+    {
+      "before": {
+        "id": "sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d",
+        "lemmaId": "lem_parure_ton_determiner_ac210f7a26",
+        "gloss": "your",
+        "definition": "Déterminant possessif de la deuxième personne du singulier : devant un nom masculin singulier, ou féminin singulier commençant par une voyelle ou un h muet."
+      },
+      "beforeSha256": "c681e2a07abdb524632e811837ff614f097ba6775b909c5337bd5214591fefdf",
+      "after": {
+        "id": "sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d",
+        "lemmaId": "lem_parure_ton_determiner_ac210f7a26",
+        "gloss": "your",
+        "definition": "Déterminant possessif indiquant que ce qui est désigné appartient à la personne à laquelle on s’adresse au singulier."
+      },
+      "afterSha256": "e47777b699e05918dcd274a3efb30edae2f095202f4be3c517072f136950b98e",
+      "impactEvidence": {
+        "file": "whole-work-impact-ton-51.json",
+        "sha256": "4735affffdae2aac3578d94c68841b0c8438ccd361ecf2b452c227d2b79b3d19"
+      },
+      "reviewedQuestionIds": [
+        "qiz_parure_ton_sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d_bb6b695f62_advanced",
+        "qiz_parure_ton_sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d_bb6b695f62_early",
+        "qiz_parure_ton_sns_parure_ton_determinant_possessif_dont_le_possesseur_est_la_deuxieme_personne_du_singulier_et_le_possede_est_masculin_singulier_fbec62280d_bb6b695f62_intermediate"
+      ],
+      "preservedQuestionsSha256": "9de0f5cd29d49b66ea46cc52244405dda1638264cdad451571e6f34826fa6705",
+      "reviewedOccurrenceIds": [
+        "occ_loup_agneau_0fb908c96c21cd0ba2d66fd7",
+        "occ_parure_f4f171c89441cb4679fc25f4",
+        "occ_parure_4ccc98ab212f10a71c8a4961"
+      ],
+      "preservedOccurrencesSha256": "0f1f27c44e0daa4503a242e7e629b3fd2e06fd749e385e53379a0254c050ee1d",
+      "masteryAction": "retain_all_existing_progress_records",
+      "action": "stage_same_sense_generic_definition_only_publication_unchanged",
+      "reason": "All three retained questions and three indexed uses reviewed. Gender and number belong to surfaces; ton and tes express the same second-person-singular possession."
+    }
+  ],
+  "policy": "Exact source sense splits and retained proper heads. Same-meaning metadata changes are staged with impact evidence; publication, old banks and all mastery are unchanged."
+}

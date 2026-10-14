@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-triomphe-annotation-2026-09-25",
+  "date": "2026-09-25",
+  "language": "fr",
+  "subjectKind": "annotations",
+  "reviewedIdentities": 1,
+  "approvals": 1,
+  "holds": 0,
+  "progressTransfers": [],
+  "reviewMethod": "exact canonical and structural revision comparison after one occurrence reassignment",
+  "changes": [
+    {
+      "subjectId": "wrk_zola_jaccuse",
+      "reviewId": "annotations:wrk_zola_jaccuse",
+      "outcome": "approve",
+      "rationale": "The 199 ordered J’Accuse units still reconstruct identical canonical text and structure; the new triomphe verb assignment preserves its source span and is reflected in the annotation revision.",
+      "before": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_f4540f0879808a43aedd08b2517bd0466e3645dc744aee984c7b7445ba1f047d",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Rechecked all 199 ordered units after the recorded belle/mes occurrence mapping; canonical text and structure revisions are unchanged, and the updated annotation revision validates.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "after": {
+        "id": "annotations:wrk_zola_jaccuse",
+        "language": "fr",
+        "kind": "annotations",
+        "subjectId": "wrk_zola_jaccuse",
+        "subjectRevision": "rev_adcec7a68ed595cb2e680ea1b455ba45ba9b8f635f926a0202fc28738b5632e1",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "The 199 ordered J’Accuse units still reconstruct identical canonical text and structure; the new triomphe verb assignment preserves its source span and is reflected in the annotation revision.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-25T00:00:00.000Z",
+        "checks": [
+          "canonical_reconstruction",
+          "all_spans",
+          "exclusions_and_expressions"
+        ]
+      },
+      "reviewedOccurrences": 199
+    }
+  ]
+}

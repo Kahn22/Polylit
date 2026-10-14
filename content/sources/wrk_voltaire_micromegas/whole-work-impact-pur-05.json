@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:11:22.529Z",
+  "sense": {
+    "id": "sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2",
+    "lemmaId": "lem_loup_agneau_pur_adjective_b7992d5032",
+    "gloss": "pure; clear",
+    "definition": "qui n’est ni souillé ni mélangé, ici en parlant de l’eau"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_intermediate",
+      "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_advanced",
+      "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_loup_agneau_pure_lem_loup_agneau_pur_adjective_b7992d5032_d9cb7a8d54:sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2",
+      "surface": "pure",
+      "lemma": "pur",
+      "currentRevision": "rev_801473bba32142e18fb0e9f48bc227dc1e22b918ff0dd74d4aefca3a8ae0e96f",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_loup_agneau_b13f6c5082219bca7a8212ec",
+          "workId": "wrk_loup_agneau",
+          "unitId": "unt_loup_agneau_03",
+          "passage": "Un Agneau se désaltérait dans le courant d’une onde pure.",
+          "span": [
+            52,
+            56
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le laboratoire confirme que cette eau est _____ et sans aucun contaminant.",
+          "choices": [
+            {
+              "text": "pur",
+              "correct": false
+            },
+            {
+              "text": "purs",
+              "correct": false
+            },
+            {
+              "text": "polluée",
+              "correct": false
+            },
+            {
+              "text": "pure",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La source fournit une eau pure, que les habitants recueillent dans leurs bouteilles.",
+          "prompt": "Quel adjectif indique l’absence d’impuretés dans l’eau ?",
+          "choices": [
+            {
+              "text": "source",
+              "correct": false
+            },
+            {
+              "text": "habitants",
+              "correct": false
+            },
+            {
+              "text": "bouteilles",
+              "correct": false
+            },
+            {
+              "text": "pure",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_loup_agneau_pure_sns_loup_agneau_pur_qui_n_est_ni_souille_ni_melange_ici_en_parlant_de_l_eau_58fdd88fd2_e2ad27e8b9_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Cette eau est pure : elle ne contient aucune impureté.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "salty",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "correct": false
+            },
+            {
+              "text": "pure",
+              "correct": true
+            },
+            {
+              "text": "dirty",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

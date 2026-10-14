@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:49:28.373Z",
+  "sense": {
+    "id": "sns_fr_personne_nobody",
+    "lemmaId": "lem_fr_personne_pronoun",
+    "gloss": "nobody; anyone in a negative clause",
+    "definition": "Pronom qui, avec une négation, indique l’absence de toute personne."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_1_3",
+      "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_4_5",
+      "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_personne_personne_pronoun:sns_fr_personne_nobody",
+      "surface": "personne",
+      "lemma": "personne",
+      "currentRevision": "rev_1461e8831f5c0dd5ea1fa36a98f0c621b79eb6f7953c925cc06b037786731790",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_575e2bc59ac99a8c1486cfe3",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_027",
+          "passage": "ils dirent qu’ils n’avoient veu sortir personne, qu’une jeune fille fort mal vestuë, et qui avoit plus l’air d’une Paysanne que d’une Demoiselle. Quand les deux sœurs revinrent du Bal, Cendrillon leur demanda si elles s’estoient encore bien diverties, et si la belle Dame y avoit esté ; elles luy dirent que oüy, mais qu’elle s’étoit enfuye lorsque minuit avoit sonné, et si promptement qu’elle avoit laissé tomber une de ses petites pantoufles de verre, la plus jolie du monde ;",
+          "span": [
+            39,
+            47
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il n’y a personne dans la pièce : elle est entièrement vide.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "somebody",
+              "correct": false
+            },
+            {
+              "text": "several people",
+              "correct": false
+            },
+            {
+              "text": "nobody",
+              "correct": true
+            },
+            {
+              "text": "everybody",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Je n’ai vu _____ dans le couloir désert ; aucun être humain ne s’y trouvait.",
+          "choices": [
+            {
+              "text": "plusieurs",
+              "correct": false
+            },
+            {
+              "text": "personne",
+              "correct": true
+            },
+            {
+              "text": "quelqu’un",
+              "correct": false
+            },
+            {
+              "text": "chacun",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_personne_nobody_fr_personne_personne_pronoun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Elle appelle, mais personne ne répond : tous les habitants sont partis.",
+          "prompt": "Quel pronom indique qu’aucun être humain ne répond ?",
+          "choices": [
+            {
+              "text": "personne",
+              "correct": true
+            },
+            {
+              "text": "appelle",
+              "correct": false
+            },
+            {
+              "text": "habitants",
+              "correct": false
+            },
+            {
+              "text": "partis",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

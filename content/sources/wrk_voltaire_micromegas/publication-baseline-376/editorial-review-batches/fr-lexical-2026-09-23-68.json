@@ -1,0 +1,883 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-68",
+  "date": "2026-09-24",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 68,
+  "reviewedIdentities": 25,
+  "approvals": 24,
+  "holds": 1,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of lemma, part of speech, surface form, indexed contexts, sense and reuse candidates",
+  "changes": [
+    {
+      "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+      "reviewId": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+      "outcome": "hold",
+      "rationale": "Dans la maison means in the house/building, the place being searched; noun sense fits. Unresolved same-lemma candidate remains (dup_64f4a8fcaeec6bd5cbe1cc9ec6f7a9249aaed3f36939d3fc71519ba886d6fae7).",
+      "before": {
+        "id": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+        "subjectRevision": "rev_0c79e582cf9bce03b04b194f4d4dcbe4af9e3be8ea37d644576091877d91a604",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_maison_maison:sns_zola_maison_household",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maison_maison:sns_zola_maison_household",
+        "subjectRevision": "rev_0c79e582cf9bce03b04b194f4d4dcbe4af9e3be8ea37d644576091877d91a604",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Dans la maison means in the house/building, the place being searched; noun sense fits. Unresolved same-lemma candidate remains (dup_64f4a8fcaeec6bd5cbe1cc9ec6f7a9249aaed3f36939d3fc71519ba886d6fae7)."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_malade_malade:sns_zola_malade_sick",
+      "reviewId": "vocabulary:srf_zola_malade_malade:sns_zola_malade_sick",
+      "outcome": "approve",
+      "rationale": "La France est malade means France is sick/ill; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_malade_malade:sns_zola_malade_sick",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malade_malade:sns_zola_malade_sick",
+        "subjectRevision": "rev_aa27b21ce005d115396ec86858aa8af9765b0aa103acfc7e792e11b26ef4d960",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_malade_malade:sns_zola_malade_sick",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malade_malade:sns_zola_malade_sick",
+        "subjectRevision": "rev_aa27b21ce005d115396ec86858aa8af9765b0aa103acfc7e792e11b26ef4d960",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La France est malade means France is sick/ill; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_maladie_maladie:sns_zola_maladie_illness",
+      "reviewId": "vocabulary:srf_zola_maladie_maladie:sns_zola_maladie_illness",
+      "outcome": "approve",
+      "rationale": "Maladie de la vue et du jugement means illness/disease affecting sight and judgment; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_maladie_maladie:sns_zola_maladie_illness",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maladie_maladie:sns_zola_maladie_illness",
+        "subjectRevision": "rev_e21516e35548a5cd4158f13170a7dab6ebd4153d07860cc11869b42dbac130ff",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_maladie_maladie:sns_zola_maladie_illness",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_maladie_maladie:sns_zola_maladie_illness",
+        "subjectRevision": "rev_e21516e35548a5cd4158f13170a7dab6ebd4153d07860cc11869b42dbac130ff",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Maladie de la vue et du jugement means illness/disease affecting sight and judgment; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+      "reviewId": "vocabulary:srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+      "outcome": "approve",
+      "rationale": "Esprits de malfaisance sociale means forces of social harm/malevolence; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+        "subjectRevision": "rev_d8504e72d16442845e4594bd01e55351268f9378ef397e22bd892baa548afbd7",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malfaisance_malfaisance:sns_zola_malfaisance_harm",
+        "subjectRevision": "rev_d8504e72d16442845e4594bd01e55351268f9378ef397e22bd892baa548afbd7",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Esprits de malfaisance sociale means forces of social harm/malevolence; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+      "reviewId": "vocabulary:srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+      "outcome": "approve",
+      "rationale": "Malfaisante means harmful/malevolent; feminine adjective form fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+        "subjectRevision": "rev_e3e0a00ab47a288aa0a0fea1d18d08195bf0bf718c772e587eafed82b62d8e80",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malfaisante_malfaisant:sns_zola_malfaisant_harmful",
+        "subjectRevision": "rev_e3e0a00ab47a288aa0a0fea1d18d08195bf0bf718c772e587eafed82b62d8e80",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Malfaisante means harmful/malevolent; feminine adjective form fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+      "reviewId": "vocabulary:srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+      "outcome": "approve",
+      "rationale": "Across contexts malheureux means unfortunate/wretched, describing Dreyfus and a financially distressed family; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+        "subjectRevision": "rev_f14c32072b40765157f3769f7409862328fa71e46d8383f9dfebde6497b7cc35",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_malheureux_malheureux:sns_zola_malheureux_unfortunate",
+        "subjectRevision": "rev_f14c32072b40765157f3769f7409862328fa71e46d8383f9dfebde6497b7cc35",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts malheureux means unfortunate/wretched, describing Dreyfus and a financially distressed family; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+      "reviewId": "vocabulary:srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+      "outcome": "approve",
+      "rationale": "Double erreur manifeste means an obvious/evident error; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+        "subjectRevision": "rev_3e11875a36da32f62940839249f1e0cc545665255524bb9e3b286c2dab2248b4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_manifeste_manifeste:sns_zola_manifeste_obvious",
+        "subjectRevision": "rev_3e11875a36da32f62940839249f1e0cc545665255524bb9e3b286c2dab2248b4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Double erreur manifeste means an obvious/evident error; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_marchait_marcher:sns_zola_marcher_advance",
+      "reviewId": "vocabulary:srf_zola_marchait_marcher:sns_zola_marcher_advance",
+      "outcome": "approve",
+      "rationale": "La vérité marchait means truth was advancing/progressing; imperfect verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_marchait_marcher:sns_zola_marcher_advance",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marchait_marcher:sns_zola_marcher_advance",
+        "subjectRevision": "rev_339ba961e4bb80f4b597a32686ff5133ad8fc498b8933cdd34887e9bc37b98a2",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_marchait_marcher:sns_zola_marcher_advance",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marchait_marcher:sns_zola_marcher_advance",
+        "subjectRevision": "rev_339ba961e4bb80f4b597a32686ff5133ad8fc498b8933cdd34887e9bc37b98a2",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La vérité marchait means truth was advancing/progressing; imperfect verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_marche_marche_noun:sns_zola_marche_progress",
+      "reviewId": "vocabulary:srf_zola_marche_marche_noun:sns_zola_marche_progress",
+      "outcome": "approve",
+      "rationale": "La vérité est en marche means truth is in progress/under way; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_marche_marche_noun:sns_zola_marche_progress",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marche_marche_noun:sns_zola_marche_progress",
+        "subjectRevision": "rev_393170c53440cce706e980e8c8fdc3be2081e31055aab7d9d3c6e4e2fac6255a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_marche_marche_noun:sns_zola_marche_progress",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marche_marche_noun:sns_zola_marche_progress",
+        "subjectRevision": "rev_393170c53440cce706e980e8c8fdc3be2081e31055aab7d9d3c6e4e2fac6255a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La vérité est en marche means truth is in progress/under way; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mari_mari:sns_zola_mari_husband",
+      "reviewId": "vocabulary:srf_zola_mari_mari:sns_zola_mari_husband",
+      "outcome": "approve",
+      "rationale": "Across contexts mari refers to a husband, including Loisel and the Cinderella story; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mari_mari:sns_zola_mari_husband",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mari_mari:sns_zola_mari_husband",
+        "subjectRevision": "rev_39c79bd53f49ef86ad35229af446e9aa79dd50600cc90d25497042a3e92cddda",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mari_mari:sns_zola_mari_husband",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mari_mari:sns_zola_mari_husband",
+        "subjectRevision": "rev_39c79bd53f49ef86ad35229af446e9aa79dd50600cc90d25497042a3e92cddda",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts mari refers to a husband, including Loisel and the Cinderella story; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 13
+    },
+    {
+      "subjectId": "srf_zola_marquis_marquis:sns_zola_marquis_title",
+      "reviewId": "vocabulary:srf_zola_marquis_marquis:sns_zola_marquis_title",
+      "outcome": "approve",
+      "rationale": "Marquis de Morès is a noble title/name; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_marquis_marquis:sns_zola_marquis_title",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marquis_marquis:sns_zola_marquis_title",
+        "subjectRevision": "rev_8e7cfc1facc514fc5dd177a22610583d308e6ce6b0a0db6ddffaba89fff13e9a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_marquis_marquis:sns_zola_marquis_title",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_marquis_marquis:sns_zola_marquis_title",
+        "subjectRevision": "rev_8e7cfc1facc514fc5dd177a22610583d308e6ce6b0a0db6ddffaba89fff13e9a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Marquis de Morès is a noble title/name; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+      "reviewId": "vocabulary:srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+      "outcome": "approve",
+      "rationale": "L’autre masqué means the other one masked/concealed; participial form and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+        "subjectRevision": "rev_a20140a6774eb23c5a47eda17d77840fa24528fb843129e2c8c5b1367f08df3e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_masque_881d1f0779dd_masquer:sns_zola_masquer_conceal",
+        "subjectRevision": "rev_a20140a6774eb23c5a47eda17d77840fa24528fb843129e2c8c5b1367f08df3e",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "L’autre masqué means the other one masked/concealed; participial form and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+      "reviewId": "vocabulary:srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+      "outcome": "approve",
+      "rationale": "La mission l’aurait fait sûrement massacrer means it would likely have got him killed/slaughtered; verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+        "subjectRevision": "rev_6c145a419e909f0e3f23c4bba31fbc0fc6c9c1d952ef411eb4769c88f6258515",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_massacrer_massacrer:sns_zola_massacrer_kill",
+        "subjectRevision": "rev_6c145a419e909f0e3f23c4bba31fbc0fc6c9c1d952ef411eb4769c88f6258515",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La mission l’aurait fait sûrement massacrer means it would likely have got him killed/slaughtered; verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+      "reviewId": "vocabulary:srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+      "outcome": "approve",
+      "rationale": "Truth and justice are described as disregarded/ignored and obscured; feminine plural participle sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+        "subjectRevision": "rev_4bfba6d0eb6d5dcfd26770f02598565671e0f1781c34a1dcd731555a62c47c96",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meconnues_5180e7d49f8f_meconnaitre:sns_zola_meconnaitre_disregard",
+        "subjectRevision": "rev_4bfba6d0eb6d5dcfd26770f02598565671e0f1781c34a1dcd731555a62c47c96",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Truth and justice are described as disregarded/ignored and obscured; feminine plural participle sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+      "reviewId": "vocabulary:srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+      "outcome": "approve",
+      "rationale": "Examen médical means medical examination; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+        "subjectRevision": "rev_78c1b0097046a842b2b76d4531222e3648fba05ef131efcadeb3852ee7a20ba8",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_medical_9df7621f2a7a_medical:sns_zola_medical_medicine",
+        "subjectRevision": "rev_78c1b0097046a842b2b76d4531222e3648fba05ef131efcadeb3852ee7a20ba8",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Examen médical means medical examination; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+      "reviewId": "vocabulary:srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+      "outcome": "approve",
+      "rationale": "Médiocre describes poor/mediocre intelligence; adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+        "subjectRevision": "rev_89be312cda6e166233eeaca775cc24c9ed4db25ba6686f7e1566aae35078a26b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mediocre_f0826509ca36_mediocre:sns_zola_mediocre_poor",
+        "subjectRevision": "rev_89be312cda6e166233eeaca775cc24c9ed4db25ba6686f7e1566aae35078a26b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Médiocre describes poor/mediocre intelligence; adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+      "reviewId": "vocabulary:srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+      "outcome": "approve",
+      "rationale": "De même means likewise/similarly; fixed adverbial phrase sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+        "subjectRevision": "rev_0dd77a4a1fe25efc8dca39649359ed1ebabaaa8d17eb1db175f0e5e863fbb456",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_de_meme:sns_zola_de_meme_similarly",
+        "subjectRevision": "rev_0dd77a4a1fe25efc8dca39649359ed1ebabaaa8d17eb1db175f0e5e863fbb456",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "De même means likewise/similarly; fixed adverbial phrase sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+      "reviewId": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+      "outcome": "approve",
+      "rationale": "Across contexts même emphasizes the very thing or thing itself, as in the staff itself and honor itself; sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+        "subjectRevision": "rev_c78c7c22c468e9cdc1f22e94ea0271376457007742aa17c1067b1f09123ed2d4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_itself",
+        "subjectRevision": "rev_c78c7c22c468e9cdc1f22e94ea0271376457007742aa17c1067b1f09123ed2d4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts même emphasizes the very thing or thing itself, as in the staff itself and honor itself; sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+      "reviewId": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+      "outcome": "approve",
+      "rationale": "Du même crime means the same crime; adjective sense identical/same fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+        "subjectRevision": "rev_2f3050f17c7d8b0140c47fd79405d51f5b4965ecb71638b9c9bd7f71558e7c37",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_meme_25c826df8191_meme_adjective:sns_zola_meme_same",
+        "subjectRevision": "rev_2f3050f17c7d8b0140c47fd79405d51f5b4965ecb71638b9c9bd7f71558e7c37",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Du même crime means the same crime; adjective sense identical/same fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+      "reviewId": "vocabulary:srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+      "outcome": "approve",
+      "rationale": "Bureaux mêmes means the very offices themselves; plural emphatic form and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+        "subjectRevision": "rev_31aabc22cde7b7963b9643951bf33df66a2a0ba9b43b6b8323a20010695969d4",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_memes_339299fbaa85_meme_adjective:sns_zola_meme_itself",
+        "subjectRevision": "rev_31aabc22cde7b7963b9643951bf33df66a2a0ba9b43b6b8323a20010695969d4",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Bureaux mêmes means the very offices themselves; plural emphatic form and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_menace_menace:sns_zola_menace_threat",
+      "reviewId": "vocabulary:srf_zola_menace_menace:sns_zola_menace_threat",
+      "outcome": "approve",
+      "rationale": "Menace means threat/danger; noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_menace_menace:sns_zola_menace_threat",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menace_menace:sns_zola_menace_threat",
+        "subjectRevision": "rev_384977e823c1922a2626e563911cb3fd7b66ba5fd9dba224a464f6e1169a8469",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_menace_menace:sns_zola_menace_threat",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menace_menace:sns_zola_menace_threat",
+        "subjectRevision": "rev_384977e823c1922a2626e563911cb3fd7b66ba5fd9dba224a464f6e1169a8469",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Menace means threat/danger; noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+      "reviewId": "vocabulary:srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+      "outcome": "approve",
+      "rationale": "La gloire est menacée means glory is threatened/endangered; feminine participle and verb sense fit.",
+      "before": {
+        "id": "vocabulary:srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+        "subjectRevision": "rev_775a29416ccc1550dfaa5fc2478ed3f5e8ecd2556c85f4283fe0e57bba3cdca0",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menacee_870434abb14b_menacer:sns_zola_menacer_threaten",
+        "subjectRevision": "rev_775a29416ccc1550dfaa5fc2478ed3f5e8ecd2556c85f4283fe0e57bba3cdca0",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "La gloire est menacée means glory is threatened/endangered; feminine participle and verb sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+      "reviewId": "vocabulary:srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+      "outcome": "approve",
+      "rationale": "Le commandant les mène means he leads/conducts them; present verb sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+        "subjectRevision": "rev_d8b844522b9bca9bc022fab8cb39342558cad9c204a533caeed581f7ae7ba134",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mene_6fb91a3f8fdb_mener:sns_zola_mener_lead",
+        "subjectRevision": "rev_d8b844522b9bca9bc022fab8cb39342558cad9c204a533caeed581f7ae7ba134",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Le commandant les mène means he leads/conducts them; present verb sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+      "reviewId": "vocabulary:srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+      "outcome": "approve",
+      "rationale": "Across contexts mené means led/conducted events or a campaign; participle sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+        "subjectRevision": "rev_8b419c5ba5f84de5a124145d47bb9e58879a6b1179badd40b259adc96bd85edf",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_mene_b18fa2e83593_mener:sns_zola_mener_lead",
+        "subjectRevision": "rev_8b419c5ba5f84de5a124145d47bb9e58879a6b1179badd40b259adc96bd85edf",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Across contexts mené means led/conducted events or a campaign; participle sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 2
+    },
+    {
+      "subjectId": "srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+      "reviewId": "vocabulary:srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+      "outcome": "approve",
+      "rationale": "Les menées de ses ennemis means their schemes/secret maneuvers; plural noun sense fits.",
+      "before": {
+        "id": "vocabulary:srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+        "subjectRevision": "rev_1e888f2c430bb0158549d8e26d9b062fceaeba25f764ec1eed0067bb0a1c5801",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_zola_menees_b493ea31b667_menee_noun:sns_zola_menee_scheme",
+        "subjectRevision": "rev_1e888f2c430bb0158549d8e26d9b062fceaeba25f764ec1eed0067bb0a1c5801",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Les menées de ses ennemis means their schemes/secret maneuvers; plural noun sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-24T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

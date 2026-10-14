@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:50:49.600Z",
+  "sense": {
+    "id": "sns_fr_monsieur_title",
+    "lemmaId": "lem_monsieur",
+    "gloss": "Mr; sir",
+    "definition": "Titre de civilité masculin, couramment abrégé M. devant un nom."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_1_3",
+      "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_4_5",
+      "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_m_monsieur_noun:sns_fr_monsieur_title",
+      "surface": "M",
+      "lemma": "monsieur",
+      "currentRevision": "rev_0bec06567f40b1d2e8c26eab69d4151bd77372f869824bd817f08701955efdd4",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_parure_009ee1114c53c65d4be3a12d",
+          "workId": "wrk_maupassant_la_parure",
+          "unitId": "unt_maupassant_parure_013",
+          "passage": "« Le ministre de l’instruction publique et Mme Georges Ramponneau prient M. et Mme Loisel de leur faire l’honneur de venir passer la soirée à l’hôtel du ministère, le lundi 18 janvier. »",
+          "span": [
+            73,
+            74
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "M. Dupont vous attend dans son bureau.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "Dr",
+              "correct": false
+            },
+            {
+              "text": "Mr",
+              "correct": true
+            },
+            {
+              "text": "Mrs",
+              "correct": false
+            },
+            {
+              "text": "Miss",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "L’enveloppe est adressée à _____. Bernard, le père de Luc, avec le titre abrégé de monsieur.",
+          "choices": [
+            {
+              "text": "M",
+              "correct": true
+            },
+            {
+              "text": "Mme",
+              "correct": false
+            },
+            {
+              "text": "Mlle",
+              "correct": false
+            },
+            {
+              "text": "Dr",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_monsieur_title_fr_m_monsieur_noun_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "M. Durand signe la lettre destinée à sa voisine.",
+          "prompt": "Quelle abréviation représente le titre monsieur ?",
+          "choices": [
+            {
+              "text": "Durand",
+              "correct": false
+            },
+            {
+              "text": "lettre",
+              "correct": false
+            },
+            {
+              "text": "voisine",
+              "correct": false
+            },
+            {
+              "text": "M",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

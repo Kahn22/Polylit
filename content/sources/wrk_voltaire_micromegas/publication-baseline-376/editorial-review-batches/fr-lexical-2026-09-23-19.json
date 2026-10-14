@@ -1,0 +1,803 @@
+{
+  "version": 1,
+  "kind": "offline_editorial_review_batch",
+  "id": "fr-lexical-2026-09-23-19",
+  "date": "2026-09-23",
+  "language": "fr",
+  "subjectKind": "vocabulary",
+  "sequence": 19,
+  "reviewedIdentities": 25,
+  "approvals": 14,
+  "holds": 11,
+  "progressTransfers": [],
+  "reviewMethod": "individual contextual review of current lemma, part of speech, surface form, every indexed occurrence, sense, and same-lemma reuse candidates; only supported records approved",
+  "changes": [
+    {
+      "subjectId": "srf_n_elided:sns_ne_primary",
+      "reviewId": "vocabulary:srf_n_elided:sns_ne_primary",
+      "outcome": "hold",
+      "rationale": "The 77 elided ne occurrences include standard negation, ne…que (“only”), and other constructions. Verify the negative-particle sense and construction coverage across the set before approval.",
+      "before": {
+        "id": "vocabulary:srf_n_elided:sns_ne_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_n_elided:sns_ne_primary",
+        "subjectRevision": "rev_668673a8a18d2658baf3f9ab5e15487082c50f816e2f3579563e611eeea3fbea",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_n_elided:sns_ne_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_n_elided:sns_ne_primary",
+        "subjectRevision": "rev_a13b20c16d1f69d145e7c53e9021080abc29958221f3e736cea41913d8be359f",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The 77 elided ne occurrences include standard negation, ne…que (“only”), and other constructions. Verify the negative-particle sense and construction coverage across the set before approval."
+      },
+      "reviewedOccurrences": 77
+    },
+    {
+      "subjectId": "srf_ne:sns_ne_primary",
+      "reviewId": "vocabulary:srf_ne:sns_ne_primary",
+      "outcome": "hold",
+      "rationale": "The 105 occurrences include ne…pas, ne…que, and other negative constructions; the broad “not” gloss does not distinguish their meanings. Review/split the indexed uses before approval.",
+      "before": {
+        "id": "vocabulary:srf_ne:sns_ne_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ne:sns_ne_primary",
+        "subjectRevision": "rev_0ac32a98c3c5683dc0ac0abbe118c9560d1481c8afd4cca270a816e5d1588666",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_ne:sns_ne_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ne:sns_ne_primary",
+        "subjectRevision": "rev_a2bb08f8f5dd3f5871202eb16fee17d10445c3a1ed2f457be198d7ba4fa1871e",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The 105 occurrences include ne…pas, ne…que, and other negative constructions; the broad “not” gloss does not distinguish their meanings. Review/split the indexed uses before approval."
+      },
+      "reviewedOccurrences": 105
+    },
+    {
+      "subjectId": "srf_ni:sns_ni_primary",
+      "reviewId": "vocabulary:srf_ni:sns_ni_primary",
+      "outcome": "approve",
+      "rationale": "Reviewed all five occurrences: ni coordinates alternatives in negative constructions (“nor/neither”), including ni de quel juge and ni de race. The conjunction and sense fit.",
+      "before": {
+        "id": "vocabulary:srf_ni:sns_ni_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ni:sns_ni_primary",
+        "subjectRevision": "rev_722723efc32bfe471280ce5b9cd4a86d282777dfc838b7b589cfed55eb184040",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_ni:sns_ni_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ni:sns_ni_primary",
+        "subjectRevision": "rev_a563b3e8ef6be0679fa5f63b1e5b1aa4add34d5c05743ef2bd4c622e0f4817f5",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all five occurrences: ni coordinates alternatives in negative constructions (“nor/neither”), including ni de quel juge and ni de race. The conjunction and sense fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_notre:sns_notre_primary",
+      "reviewId": "vocabulary:srf_notre:sns_notre_primary",
+      "outcome": "hold",
+      "rationale": "Five plural possessive forms appear across fables and J’accuse, but an unresolved same-lemma candidate exists. Reconcile exact notre identity and reuse before approval.",
+      "before": {
+        "id": "vocabulary:srf_notre:sns_notre_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_notre:sns_notre_primary",
+        "subjectRevision": "rev_7b8a7f8f81e6513cc5ea857bca3512f3b21a09207beab4a17947e62ad59fb58b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_notre:sns_notre_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_notre:sns_notre_primary",
+        "subjectRevision": "rev_142de2f7aabe516cb94d747360032ac6e0d9360c8ec74036d5ac6f2b968b2eae",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Five plural possessive forms appear across fables and J’accuse, but an unresolved same-lemma candidate exists. Reconcile exact notre identity and reuse before approval."
+      },
+      "reviewedOccurrences": 5
+    },
+    {
+      "subjectId": "srf_odeur:sns_odeur_primary",
+      "reviewId": "vocabulary:srf_odeur:sns_odeur_primary",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the fox is attracted by the smell, l’odeur, of the cheese. Odeur means smell/scent, matching the context.",
+      "before": {
+        "id": "vocabulary:srf_odeur:sns_odeur_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_odeur:sns_odeur_primary",
+        "subjectRevision": "rev_21b66a22b25c865e0446e7149702bda321c20e8daf51ba2db36e4622484140c8",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_odeur:sns_odeur_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_odeur:sns_odeur_primary",
+        "subjectRevision": "rev_21b66a22b25c865e0446e7149702bda321c20e8daf51ba2db36e4622484140c8",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the fox is attracted by the smell, l’odeur, of the cheese. Odeur means smell/scent, matching the context.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_on:sns_on_primary",
+      "reviewId": "vocabulary:srf_on:sns_on_primary",
+      "outcome": "hold",
+      "rationale": "The 88 uses include generic people/one, impersonal constructions, and literary l’on. Verify the functional range against the single gloss and refine the grouping before approval.",
+      "before": {
+        "id": "vocabulary:srf_on:sns_on_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_on:sns_on_primary",
+        "subjectRevision": "rev_781bf75be17c9cb8344d81f33ab2c36a5705dced7f2aaba56b86a3d6104ee018",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_on:sns_on_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_on:sns_on_primary",
+        "subjectRevision": "rev_e611f00789f8c44b952aa30a4cafd340f03df94c10731d1f5c6fddd5f1eebfd3",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The 88 uses include generic people/one, impersonal constructions, and literary l’on. Verify the functional range against the single gloss and refine the grouping before approval."
+      },
+      "reviewedOccurrences": 88
+    },
+    {
+      "subjectId": "srf_ou:sns_ou_primary",
+      "reviewId": "vocabulary:srf_ou:sns_ou_primary",
+      "outcome": "approve",
+      "rationale": "Reviewed all eight occurrences: ou presents alternatives (“or”), including a choice between foods and contrasting possibilities. The conjunction sense is consistent.",
+      "before": {
+        "id": "vocabulary:srf_ou:sns_ou_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ou:sns_ou_primary",
+        "subjectRevision": "rev_890aae8d7b8a179f55098245f86856071e6e41357752dfb6011ec8a704036ae1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_ou:sns_ou_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ou:sns_ou_primary",
+        "subjectRevision": "rev_887bc80f1e48433ad98968505c3cf58ebfa7587b4808877ccaffe9b8c53306f6",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all eight occurrences: ou presents alternatives (“or”), including a choice between foods and contrasting possibilities. The conjunction sense is consistent.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 8
+    },
+    {
+      "subjectId": "srf_ou_accent:sns_ou_interrogative",
+      "reviewId": "vocabulary:srf_ou_accent:sns_ou_interrogative",
+      "outcome": "approve",
+      "rationale": "Reviewed the 19 occurrences: où marks locations or destination in direct/indirect questions and relative clauses, including d’où (“from where”). The accented locative adverb identity is correct.",
+      "before": {
+        "id": "vocabulary:srf_ou_accent:sns_ou_interrogative",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ou_accent:sns_ou_interrogative",
+        "subjectRevision": "rev_8ae935c87bca46d8ed6f8e09c33c83fee3a099c3c7c216d1684e338458cc0ec1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_ou_accent:sns_ou_interrogative",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ou_accent:sns_ou_interrogative",
+        "subjectRevision": "rev_0dc2018b3dca045e749820302483e164707802f012608314058eb675e7f1546b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the 19 occurrences: où marks locations or destination in direct/indirect questions and relative clauses, including d’où (“from where”). The accented locative adverb identity is correct.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 19
+    },
+    {
+      "subjectId": "srf_ouvre:sns_ouvrir_primary",
+      "reviewId": "vocabulary:srf_ouvre:sns_ouvrir_primary",
+      "outcome": "hold",
+      "rationale": "The sole occurrence means the fox opens its beak, but an unresolved same-lemma ouvrir candidate exists. Reconcile exact lemma/sense reuse before approval.",
+      "before": {
+        "id": "vocabulary:srf_ouvre:sns_ouvrir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ouvre:sns_ouvrir_primary",
+        "subjectRevision": "rev_8b5c47b62e602d8fbc0f08f1263e567a8e1121c68481dd5ad455b9463635b1d1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_ouvre:sns_ouvrir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_ouvre:sns_ouvrir_primary",
+        "subjectRevision": "rev_8b5c47b62e602d8fbc0f08f1263e567a8e1121c68481dd5ad455b9463635b1d1",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole occurrence means the fox opens its beak, but an unresolved same-lemma ouvrir candidate exists. Reconcile exact lemma/sense reuse before approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_par:sns_par_primary",
+      "reviewId": "vocabulary:srf_par:sns_par_primary",
+      "outcome": "hold",
+      "rationale": "The 42 occurrences use par for agent, means, cause, route, and other relations; “by; through” does not yet verify the full range. Review/split the preposition senses before approval.",
+      "before": {
+        "id": "vocabulary:srf_par:sns_par_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_par:sns_par_primary",
+        "subjectRevision": "rev_e56492b287be486ebb37364931f36c42c364ce53c4fae586e01542070677345c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_par:sns_par_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_par:sns_par_primary",
+        "subjectRevision": "rev_e56492b287be486ebb37364931f36c42c364ce53c4fae586e01542070677345c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The 42 occurrences use par for agent, means, cause, route, and other relations; “by; through” does not yet verify the full range. Review/split the preposition senses before approval."
+      },
+      "reviewedOccurrences": 42
+    },
+    {
+      "subjectId": "srf_parie:sns_parier_primary",
+      "reviewId": "vocabulary:srf_parie:sns_parier_primary",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole first-person statement je parie encore: parie means “I bet/wager” in the present tense. The form and sense fit the hare’s repeated wager.",
+      "before": {
+        "id": "vocabulary:srf_parie:sns_parier_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parie:sns_parier_primary",
+        "subjectRevision": "rev_030b36eb5d8a69c9c35ede58fa0423076c0bfdcb4815522ee86831aeb38afab9",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parie:sns_parier_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parie:sns_parier_primary",
+        "subjectRevision": "rev_44bed762fbb3909c79cfcb81aa3ba424f4aec773fa4696408fff928125045a51",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole first-person statement je parie encore: parie means “I bet/wager” in the present tense. The form and sense fit the hare’s repeated wager.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_partit:sns_partir_primary",
+      "reviewId": "vocabulary:srf_partit:sns_partir_primary",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the hare set off as the tortoise neared the finish. Partit is the past historic of partir, “set off/left.”",
+      "before": {
+        "id": "vocabulary:srf_partit:sns_partir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_partit:sns_partir_primary",
+        "subjectRevision": "rev_1453358e54b94d49f6a01544a954dc6c6b01f0571eeda2bf94b233c0fcd07263",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_partit:sns_partir_primary",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_partit:sns_partir_primary",
+        "subjectRevision": "rev_efef512b9195c28e48aa2e090a454823b81e71c898cdf396a28ed9e4c12fd570",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the hare set off as the tortoise neared the finish. Partit is the past historic of partir, “set off/left.”",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 3
+    },
+    {
+      "subjectId": "srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+      "reviewId": "vocabulary:srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+      "outcome": "hold",
+      "rationale": "The sole context refers to accumulated, compounding interest, but the gloss “accumulation (action of accumulating)” repeats the headword. Rewrite the direct learner meaning to describe the buildup/total before approval.",
+      "before": {
+        "id": "vocabulary:srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+        "subjectRevision": "rev_005c708535c3e8f5d9e3b587ae4ea84dac8e64dfef48aecc3c4e99eb691c6c4c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_accumulation_lem_parure_accumulation_noun_f9d38b0e37_c36e73efa0:sns_parure_accumulation_action_d_accumuler_en_parlant_des_choses_physiques_et_les_choses_morales_f762a5aa1e",
+        "subjectRevision": "rev_005c708535c3e8f5d9e3b587ae4ea84dac8e64dfef48aecc3c4e99eb691c6c4c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole context refers to accumulated, compounding interest, but the gloss “accumulation (action of accumulating)” repeats the headword. Rewrite the direct learner meaning to describe the buildup/total before approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+      "reviewId": "vocabulary:srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole plan to buy a rifle: acheter means to buy/purchase in exchange for money. The infinitive and definition fit.",
+      "before": {
+        "id": "vocabulary:srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+        "subjectRevision": "rev_55f003bbd4ac17e666af24d898c3ce36b0ea808df0154066fb6bceebbfe2bb01",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_acheter_lem_parure_acheter_verb_aee9a3f6e3_3580846889:sns_parure_acheter_acquerir_quelque_chose_en_l_echangeant_contre_sa_valeur_reelle_ou_supposee_en_devise_4f14798b40",
+        "subjectRevision": "rev_55f003bbd4ac17e666af24d898c3ce36b0ea808df0154066fb6bceebbfe2bb01",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole plan to buy a rifle: acheter means to buy/purchase in exchange for money. The infinitive and definition fit.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+      "reviewId": "vocabulary:srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+      "outcome": "hold",
+      "rationale": "The sole use praises the workmanship of a jewel, but the gloss only repeats admirable. Provide a clear learner translation such as “remarkable/excellent” before approval.",
+      "before": {
+        "id": "vocabulary:srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+        "subjectRevision": "rev_24582e9b55f0eac23d93331338b9f125f9b9b6dd305a3cf4d2c2228594ef7cd6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_admirable_lem_parure_admirable_adjective_8b1a5b0e69_8937d26654:sns_parure_admirable_qui_merite_ou_qui_attire_l_admiration_f93f1a1009",
+        "subjectRevision": "rev_24582e9b55f0eac23d93331338b9f125f9b9b6dd305a3cf4d2c2228594ef7cd6",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole use praises the workmanship of a jewel, but the gloss only repeats admirable. Provide a clear learner translation such as “remarkable/excellent” before approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+      "reviewId": "vocabulary:srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the plural admirations are the admiration Mathilde receives among the tributes and desires at the ball. The noun sense is accurate.",
+      "before": {
+        "id": "vocabulary:srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+        "subjectRevision": "rev_bb58cbbad9fcb46617699bea8ce7edcda26c37783c83edc72ffa12353511280c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_admirations_lem_parure_admiration_noun_378b7cb106_3395a36a6f:sns_parure_admiration_sentiment_fort_eprouve_a_l_egard_d_une_personne_ou_d_une_manifestation_humaine_ou_animale_que_l_on_considere_comme_dotee_de_qualites_exceptionnelles_5e914da123",
+        "subjectRevision": "rev_bb58cbbad9fcb46617699bea8ce7edcda26c37783c83edc72ffa12353511280c",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the plural admirations are the admiration Mathilde receives among the tributes and desires at the ball. The noun sense is accurate.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+      "reviewId": "vocabulary:srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the loss of the necklace is called an affreux désastre, a terrible/frightful disaster. The adjective sense fits.",
+      "before": {
+        "id": "vocabulary:srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+        "subjectRevision": "rev_a5f42c4038baf87eeff43b10496b234214c409a22f9fe88c8bc469412f17932c",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_affreux_lem_zola_affreux_aa90cafa69:sns_parure_affreux_qui_cause_ou_qui_est_propre_a_causer_de_la_frayeur_de_l_effroi_6403590d2d",
+        "subjectRevision": "rev_a5f42c4038baf87eeff43b10496b234214c409a22f9fe88c8bc469412f17932c",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the loss of the necklace is called an affreux désastre, a terrible/frightful disaster. The adjective sense fits.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+      "reviewId": "vocabulary:srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+      "outcome": "hold",
+      "rationale": "The sole use is the fixed construction afin de + infinitive (“in order to see herself”). Clarify the function-word versus expression-level assignment; the isolated gloss “to” is too underspecified for approval.",
+      "before": {
+        "id": "vocabulary:srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+        "subjectRevision": "rev_f71be82f49b7ea31f550ca215567041819c87f81913359f9efc8e6d99a3c67cd",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_afin_lem_parure_afin_conjunction_b701e9f39e_4421096d3c:sns_parure_afin_mot_invariable_ne_s_employant_que_dans_les_locutions_prepositive_afin_de_infinitif_ou_conjonctive_afin_que_verbe_au_subjonctif_permettant_d_indiquer_dans_les_constructions_le_s_but_s_poursuivi_s_f10f67aa8b",
+        "subjectRevision": "rev_f71be82f49b7ea31f550ca215567041819c87f81913359f9efc8e6d99a3c67cd",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The sole use is the fixed construction afin de + infinitive (“in order to see herself”). Clarify the function-word versus expression-level assignment; the isolated gloss “to” is too underspecified for approval."
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+      "reviewId": "vocabulary:srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole menu context: the diners imagine eating the wings of a grouse. Ailes is the plural of aile, “wings,” and the food context is literal.",
+      "before": {
+        "id": "vocabulary:srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+        "subjectRevision": "rev_be18be545caa02160557157217971a551e34bfee441c4b6022d521371d92b6ea",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_ailes_aile_noun_97ac7bdf7a:sns_parure_aile_wing_0ec83b20df",
+        "subjectRevision": "rev_be18be545caa02160557157217971a551e34bfee441c4b6022d521371d92b6ea",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole menu context: the diners imagine eating the wings of a grouse. Ailes is the plural of aile, “wings,” and the food context is literal.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+      "reviewId": "vocabulary:srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: Mathilde loved jewels and fine clothes and felt made for them. Aimait is the imperfect form of aimer, “love/like,” in a fitting sense.",
+      "before": {
+        "id": "vocabulary:srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+        "subjectRevision": "rev_bbad277d6970316ec67de391bcf4e74ba7d35b9ed1f958af55425836d2e64aab",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aimait_aimer_verb_f4bb8d7786:sns_zola_aimer_love",
+        "subjectRevision": "rev_bbad277d6970316ec67de391bcf4e74ba7d35b9ed1f958af55425836d2e64aab",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: Mathilde loved jewels and fine clothes and felt made for them. Aimait is the imperfect form of aimer, “love/like,” in a fitting sense.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+      "reviewId": "vocabulary:srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: the young woman had no means of being loved or married by a wealthy man. Aimée is the feminine past participle of aimer, “loved.”",
+      "before": {
+        "id": "vocabulary:srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+        "subjectRevision": "rev_0abbcd3093e4734e8e072065420f5754d1a8a1eb818b52f7e732d1fd1379cf8b",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aimee_aimer_verb_d75c137589:sns_zola_aimer_love",
+        "subjectRevision": "rev_0abbcd3093e4734e8e072065420f5754d1a8a1eb818b52f7e732d1fd1379cf8b",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: the young woman had no means of being loved or married by a wealthy man. Aimée is the feminine past participle of aimer, “loved.”",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+      "reviewId": "vocabulary:srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+      "outcome": "approve",
+      "rationale": "Reviewed all six uses: air appears in expressions describing a person’s look, manner, or apparent state (enchanté, glorieux, gêné, misère). The appearance/manner sense is consistent.",
+      "before": {
+        "id": "vocabulary:srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+        "subjectRevision": "rev_0b43ed1b162dabe733bffc57f524894aee77f23a293df01db7bc9e5b31d6975a",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_air_air_noun_d3a4bb71e4:sns_parure_air_appearance_86239d386f",
+        "subjectRevision": "rev_0b43ed1b162dabe733bffc57f524894aee77f23a293df01db7bc9e5b31d6975a",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed all six uses: air appears in expressions describing a person’s look, manner, or apparent state (enchanté, glorieux, gêné, misère). The appearance/manner sense is consistent.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 6
+    },
+    {
+      "subjectId": "srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+      "reviewId": "vocabulary:srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+      "outcome": "approve",
+      "rationale": "Reviewed the sole occurrence: repaying the debt was not easy for the couple, who had nothing. Aisé means easy/simple here, matching the definition.",
+      "before": {
+        "id": "vocabulary:srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+        "subjectRevision": "rev_1852283462b7f5fcdd577a0a93978cd8170bd6237fadce85cf58a28d0b57e006",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_aise_lem_parure_aise_adjective_871f17edb9_0cd246449f:sns_parure_aise_facile_a_faire_simple_sans_probleme_68214e7e55",
+        "subjectRevision": "rev_1852283462b7f5fcdd577a0a93978cd8170bd6237fadce85cf58a28d0b57e006",
+        "policy": "polylit-editorial-v2",
+        "status": "approved",
+        "reason": "Reviewed the sole occurrence: repaying the debt was not easy for the couple, who had nothing. Aisé means easy/simple here, matching the definition.",
+        "reviewedBy": "Codex",
+        "reviewedAt": "2026-09-23T00:00:00.000Z",
+        "checks": [
+          "lemma_and_part_of_speech",
+          "sense_in_every_occurrence",
+          "surface_form",
+          "existing_identity_reuse"
+        ]
+      },
+      "reviewedOccurrences": 1
+    },
+    {
+      "subjectId": "srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+      "reviewId": "vocabulary:srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+      "outcome": "hold",
+      "rationale": "The eleven occurrences cover several senses/constructions of aller, and an unresolved global same-lemma candidate exists. Reconcile reuse and review all occurrences before approval.",
+      "before": {
+        "id": "vocabulary:srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "subjectRevision": "rev_b6da9571ebad12c0b08aeb7ca5c1a95eed724638ec9763ddc1e73ee139c84f69",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_alla_lem_aller_d743ea83f3:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "subjectRevision": "rev_b6da9571ebad12c0b08aeb7ca5c1a95eed724638ec9763ddc1e73ee139c84f69",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The eleven occurrences cover several senses/constructions of aller, and an unresolved global same-lemma candidate exists. Reconcile reuse and review all occurrences before approval."
+      },
+      "reviewedOccurrences": 11
+    },
+    {
+      "subjectId": "srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+      "reviewId": "vocabulary:srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+      "outcome": "hold",
+      "rationale": "The plural past-historic form means the couple went from jeweler to jeweler, but an unresolved global same-lemma candidate exists. Reconcile exact lemma reuse before approval.",
+      "before": {
+        "id": "vocabulary:srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "subjectRevision": "rev_da4619b201aa61d320ce3719f386d63d2c684517bb4eb55955d5f6e56f1bfcb5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "Imported without a question-/identity-level approval bound to this exact revision"
+      },
+      "after": {
+        "id": "vocabulary:srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "language": "fr",
+        "kind": "vocabulary",
+        "subjectId": "srf_parure_allerent_lem_aller_d88a2ee3ae:sns_parure_aller_se_deplacer_jusqu_a_un_endroit_3680154133",
+        "subjectRevision": "rev_da4619b201aa61d320ce3719f386d63d2c684517bb4eb55955d5f6e56f1bfcb5",
+        "policy": "polylit-editorial-v2",
+        "status": "pending",
+        "reason": "The plural past-historic form means the couple went from jeweler to jeweler, but an unresolved global same-lemma candidate exists. Reconcile exact lemma reuse before approval."
+      },
+      "reviewedOccurrences": 1
+    }
+  ]
+}

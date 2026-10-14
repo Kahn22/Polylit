@@ -1,0 +1,1629 @@
+{
+  "version": 1,
+  "status": "global_and_earlier_lemma_inventory_individually_compared",
+  "items": [
+    {
+      "lemma": "ah",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_ah",
+          "headword": "ah",
+          "partOfSpeech": "interjection",
+          "senses": [
+            {
+              "id": "sns_zola_ah_emotion",
+              "lemmaId": "lem_zola_ah",
+              "gloss": "ah!",
+              "definition": "interjection exprimant une émotion vive"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "avec",
+      "publishedFrench": [
+        {
+          "id": "lem_avec",
+          "headword": "avec",
+          "partOfSpeech": "preposition",
+          "senses": [
+            {
+              "id": "sns_avec_primary",
+              "lemmaId": "lem_avec",
+              "gloss": "Avec is the preposition with.",
+              "definition": "Avec is the preposition with."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "concevoir",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "concevons_imagine",
+              "form": "concevons",
+              "lemma": "concevoir",
+              "meaning": "can imagine; can conceive",
+              "partOfSpeech": "present indicative first person plural",
+              "sourceOccurrencesSha256": "d26bfdfb222bb2cd700f97314dd2f28640ab1fc23822893867118fd926d3d8fc",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "86461ca9b400d57f0e92fec42861fe845480dc1a6b5ce01018d483c27c923c45",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_lemma_sense",
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "concevoir:concevons_imagine",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "concevoir_chapter_05_04_concevez",
+              "form": "concevez",
+              "lemma": "concevoir",
+              "meaning": "imagine; conceive",
+              "batchFile": "chapter-05-batch-04.json",
+              "questionSha256": "c7f13ff5670ad1878c7b581891551b6d542bf94d195b2844791a1e1b43098c67",
+              "sourceOccurrencesSha256": "cff53eacba39fee2f14e11f0f82c8342b3752332728a17a22121d27e0b0b3451",
+              "sourceUseCount": 1,
+              "route": "link_planned_earlier_sense",
+              "dependsOn": "chapter-01-identity-plan.json:concevons_imagine",
+              "rationale": "The source meaning imagine; conceive matches the reviewed earlier meaning can imagine; can conceive; morphology alone does not create a new sense.",
+              "questionReconciliation": "Reuse earlier three bands if the surface is identical; otherwise retain the reviewed new surface questions. Exact whole-work question selection remains an import dependency.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "forcené",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "prendre",
+      "publishedFrench": [
+        {
+          "id": "lem_prendre",
+          "headword": "prendre",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_prendre_adopt_measure",
+              "lemmaId": "lem_prendre",
+              "gloss": "to take; to adopt",
+              "definition": "Adopter une décision, une disposition ou une mesure."
+            },
+            {
+              "id": "sns_fr_prendre_son_parti_accept",
+              "lemmaId": "lem_prendre",
+              "gloss": "to accept; to resign oneself (prendre son parti)",
+              "definition": "Dans prendre son parti de, accepter une situation à laquelle on ne peut rien changer."
+            },
+            {
+              "id": "sns_fr_prendre_note_record",
+              "lemmaId": "lem_prendre",
+              "gloss": "to note; to record",
+              "definition": "Noter ou relever une information pour la conserver."
+            },
+            {
+              "id": "sns_fr_prendre_regard_as",
+              "lemmaId": "lem_prendre",
+              "gloss": "take for; regard as",
+              "definition": "Considérer une personne ou une chose comme étant autre chose, souvent par erreur, avec pour."
+            },
+            {
+              "id": "sns_prendre_primary",
+              "lemmaId": "lem_prendre",
+              "gloss": "catch; trick",
+              "definition": "To catch or deceive someone by means of a ruse"
+            },
+            {
+              "id": "sns_zola_prendre_acquire",
+              "lemmaId": "lem_prendre",
+              "gloss": "takes; gains",
+              "definition": "forme du présent de prendre, indiquant l’acquisition d’une force ou d’un état"
+            },
+            {
+              "id": "sns_fr_prendre_commitment",
+              "lemmaId": "lem_prendre",
+              "gloss": "to undertake (a commitment)",
+              "definition": "S’engager à accomplir quelque chose, notamment dans prendre un engagement."
+            },
+            {
+              "id": "sns_parure_prendre_saisir_mettre_en_sa_main_d76a9c8f6e",
+              "lemmaId": "lem_prendre",
+              "gloss": "to take",
+              "definition": "Saisir, mettre en sa main."
+            },
+            {
+              "id": "sns_lion_rat_prendre_capture_et_retenu_dans_un_piege_4e83de3fa3",
+              "lemmaId": "lem_prendre",
+              "gloss": "caught; trapped",
+              "definition": "capturé et retenu dans un piège"
+            },
+            {
+              "id": "sns_zola_prendre_charge",
+              "lemmaId": "lem_prendre",
+              "gloss": "take charge of; take up",
+              "definition": "s’occuper activement d’une affaire ou l’assumer"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "prendront_take_up",
+              "form": "prendront",
+              "lemma": "prendre",
+              "meaning": "will take up; will pick up",
+              "partOfSpeech": "verb future third plural",
+              "sourceOccurrencesSha256": "d909bd530e412be591de718b917d0de259346baa47ca2ffb3316341d8355c80d",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "8f003737e29eed94095d31b15cbd6c3c0c7d9af2ce9e6e9746c2a97a0e1063ca",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "link_published_sense",
+              "route": "add_surface_to_published_sense",
+              "targetSenseId": "sns_parure_prendre_saisir_mettre_en_sa_main_d76a9c8f6e",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "prennent_chapter_05_02",
+              "form": "prennent",
+              "lemma": "prendre",
+              "meaning": "take; pick up",
+              "batchFile": "chapter-05-batch-02.json",
+              "questionSha256": "d6caedf854a075db717a30776843266c03868608484809c78169d2ec50122eed",
+              "sourceOccurrencesSha256": "8da76d8986e361590a8447a22120163889f4f3ca54025df9e8212501b9d65b6a",
+              "sourceUseCount": 2,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_prendre",
+              "targetSenseId": "sns_parure_prendre_saisir_mettre_en_sa_main_d76a9c8f6e",
+              "rationale": "The source meaning take; pick up fits the inspected definition Saisir, mettre en sa main.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "prendre_chapter_05_held_01_122",
+              "form": "prenant",
+              "lemma": "prendre",
+              "meaning": "taking or measuring a size",
+              "batchFile": "chapter-05-held-batch-01.json",
+              "questionSha256": "c2f36e3062e392d8a9604a8c88a31e5639ea544049963b544e7190e788a61e77",
+              "sourceOccurrencesSha256": "a037f4481a492d9f2ff91fb078b16ef76387c10f9a733f37627b9ff19274c4f7",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_prendre",
+              "rationale": "The narrator takes the human height as a starting datum, rather than grasping a physical object or adopting an official measure.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "pris_caught_in_act",
+              "form": "pris",
+              "lemma": "prendre",
+              "meaning": "caught; surprised in the act",
+              "batchFile": "chapter-05-held-batch-03.json",
+              "questionSha256": "ac62f3665f3ce6e545573a899b7c8b7c00d87dab03a774ea7ce0f36a20c1003f",
+              "sourceOccurrencesSha256": "3b8c6bcccfce15537477feefce34e4b0ff692364f90e4ed40766bca8eace2e3a",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_prendre",
+              "rationale": "Taking nature sur le fait is catching or surprising it in action, distinct from literal capture, trickery, note-taking and grasping.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "coup",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_coup",
+          "headword": "coup",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_zola_coup_stroke",
+              "lemmaId": "lem_zola_coup",
+              "gloss": "stroke; blow",
+              "definition": "mouvement brusque qui frappe ou agit fortement"
+            },
+            {
+              "id": "sns_fr_coup_suddenness",
+              "lemmaId": "lem_zola_coup",
+              "gloss": "sudden moment",
+              "definition": "Moment unique et brusque, dans tout à coup ou tout d’un coup, qui signifient soudainement."
+            },
+            {
+              "id": "sns_fr_coup_clock_stroke",
+              "lemmaId": "lem_zola_coup",
+              "gloss": "clock stroke",
+              "definition": "Son bref produit par une cloche ou une horloge qui sonne."
+            },
+            {
+              "id": "sns_zola_coup_effect",
+              "lemmaId": "lem_zola_coup",
+              "gloss": "effect; force",
+              "definition": "effet ou autorité auxquels quelqu’un est soumis"
+            },
+            {
+              "id": "sns_zola_coup_sudden_event",
+              "lemmaId": "lem_zola_coup",
+              "gloss": "sudden event",
+              "definition": "événement qui survient brusquement"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "assassin",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "ridicule",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_ridicule",
+          "headword": "ridicule",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_zola_ridicule_absurd",
+              "lemmaId": "lem_zola_ridicule",
+              "gloss": "ridiculous; absurd",
+              "definition": "qui provoque le rire ou le mépris par son absurdité"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "travailler",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_travailler_verb_26bfe6b4b1",
+          "headword": "travailler",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_travailler_work",
+              "lemmaId": "lem_parure_travailler_verb_26bfe6b4b1",
+              "gloss": "to work",
+              "definition": "Exercer une activité productive ou consacrer des efforts à une tâche."
+            },
+            {
+              "id": "sns_parure_travailler_tourmenter_soumettre_a_une_gene_causer_de_la_peine_torturer_psychologiquement_314efd4a86",
+              "lemmaId": "lem_parure_travailler_verb_26bfe6b4b1",
+              "gloss": "to work",
+              "definition": "Tourmenter ; soumettre à une gêne ; causer de la peine ; torturer psychologiquement."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "travailler_chapter_05_04_travaillaient",
+              "form": "travaillaient",
+              "lemma": "travailler",
+              "meaning": "were engaged in an activity",
+              "batchFile": "chapter-05-batch-06.json",
+              "questionSha256": "f60ea02397c133c35fbc8de72b00321b4b927149ee238d87bab14d71f77c6c6d",
+              "sourceOccurrencesSha256": "460a3f6305a862c2c805f9e083cd5537400dc811e8df229527f8c0e8eb6a8e22",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_parure_travailler_verb_26bfe6b4b1",
+              "targetSenseId": "sns_fr_travailler_work",
+              "rationale": "The source meaning were engaged in an activity fits the inspected definition Exercer une activité productive ou consacrer des efforts à une tâche.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "ruine",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "savoir",
+      "publishedFrench": [
+        {
+          "id": "lem_savoir",
+          "headword": "savoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_savoir_present",
+              "lemmaId": "lem_savoir",
+              "gloss": "to know",
+              "definition": "Posséder une connaissance ou être informé de quelque chose."
+            },
+            {
+              "id": "sns_parure_savoir_know_784460e5e4",
+              "lemmaId": "lem_savoir",
+              "gloss": "know",
+              "definition": "possède une connaissance ou une certitude"
+            },
+            {
+              "id": "sns_cendrillon_savoir_ancienne_graphie_de_savoir_e65090ccab",
+              "lemmaId": "lem_savoir",
+              "gloss": "to know",
+              "definition": "Avoir connaissance d’un fait ou d’une information ; ancienne graphie de savoir."
+            },
+            {
+              "id": "sns_savoir_primary",
+              "lemmaId": "lem_savoir",
+              "gloss": "Savoir is the infinitive to know.",
+              "definition": "Savoir is the infinitive to know."
+            },
+            {
+              "id": "sns_zola_savoir_ability_conditional",
+              "lemmaId": "lem_savoir",
+              "gloss": "to know how; be able",
+              "definition": "dans ne saurait, indique l’impossibilité d’une action"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "savez_you_know",
+              "form": "savez",
+              "lemma": "savoir",
+              "meaning": "you know",
+              "partOfSpeech": "present indicative second plural",
+              "batchFile": "chapter-02-batch-09.json",
+              "sourceOccurrencesSha256": "88b1aea7a6ad81fb98a664ca877f77b12db9627806ab2d6966c38b85c367aa96",
+              "questionSha256": "29bdc998c6b2c84dd96e55c2ebec7dac0ace71e1f282b34c1ee9f634b7b29cde",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_zola_savoir_present",
+              "targetLemmaId": "lem_savoir",
+              "rationale": "The reviewed source sense you know fits published to know; author the separate savez surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "savaient_knew",
+              "form": "savaient",
+              "lemma": "savoir",
+              "meaning": "knew; had knowledge of",
+              "partOfSpeech": "imperfect indicative third plural",
+              "batchFile": "chapter-02-batch-15.json",
+              "sourceOccurrencesSha256": "6b0ef56a40ec288925682d1f72cfa755c615125dc66ed55f213da2e05b7ac991",
+              "questionSha256": "13b3e42a164943339f53f55729f982ad90eca1ff2646cc8925b224227ed4ade3",
+              "chapterTwoUseCount": 2,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_zola_savoir_present",
+              "targetLemmaId": "lem_savoir",
+              "rationale": "The reviewed source sense knew; had knowledge of fits published to know; author the separate savaient surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "centième",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "misérable",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_miserable_adjective_00129bb3df",
+          "headword": "misérable",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_fr_miserable_meagre",
+              "lemmaId": "lem_parure_miserable_adjective_00129bb3df",
+              "gloss": "meagre; paltry",
+              "definition": "Très faible, insuffisant ou d’une valeur dérisoire."
+            },
+            {
+              "id": "sns_parure_miserable_qui_est_reduit_a_la_misere_qui_inspire_la_pitie_d069b3e0e8",
+              "lemmaId": "lem_parure_miserable_adjective_00129bb3df",
+              "gloss": "destitute, impoverished",
+              "definition": "Qui est réduit à la misère ; qui inspire la pitié."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-06-identity-targets-04.json",
+          "fileSha256": "352834488c250bb17a99dc0095b10d8d4b6565d7785f755d24027905f62bd597",
+          "matches": [
+            {
+              "key": "misérable_chapter_06_04_156_179",
+              "form": "misérable",
+              "lemma": "misérable",
+              "meaning": "wretched; pitiable",
+              "target": "sns_parure_miserable_qui_est_reduit_a_la_misere_qui_inspire_la_pitie_d069b3e0e8",
+              "questionSha256": "7202772eff668265ac151b2f6e54b4707256209840be385bcfb726ff5c497e7d",
+              "sourceOccurrencesSha256": "adfbf792500473f5ea5945c7e3d28dcf06ea2f8653a8b9ce564817708cd541e4",
+              "reviewNote": "The dwarf pities the humans’ tiny condition close to nonexistence. The global family includes reduced-to-misery/pity as well as a meagre monetary-value sense. Pitiable condition uses the former; new questions avoid limiting the source to poverty or an inadequate salary.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "avoir",
+      "publishedFrench": [
+        {
+          "id": "lem_avoir",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_fr_avoir_beau_in_vain",
+              "lemmaId": "lem_avoir",
+              "gloss": "to do in vain (in avoir beau)",
+              "definition": "Avec beau et un infinitif, indique qu’une action ou une qualité ne suffit pas à produire le résultat attendu."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_du_pronom_elide_l_et_de_la_forme_verbale_aurait_297af83c4f",
+              "lemmaId": "lem_avoir",
+              "gloss": "would have ... him/her/it (object plus auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurait auxiliaire, devant un participe passé."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_as_86588e6d68",
+              "lemmaId": "lem_avoir",
+              "gloss": "what is wrong with you; what do you have",
+              "definition": "Réunion élidée de que et as ; dans qu’as-tu, demande ce qui affecte l’interlocuteur ou ce qu’il possède."
+            },
+            {
+              "id": "sns_cendrillon_avoir_ancienne_graphie_de_avaient_forme_du_verbe_avoir_28a804d6fd",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have (historical avoient)",
+              "definition": "Ancienne graphie d’avaient, forme de l’imparfait du verbe avoir dans son emploi lexical."
+            },
+            {
+              "id": "sns_fr_avoir_compound_auxiliary",
+              "lemmaId": "lem_avoir",
+              "gloss": "have (compound-tense auxiliary)",
+              "definition": "Auxiliaire employé avec un participe passé pour former un temps composé."
+            },
+            {
+              "id": "sns_avoir_primary",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have; auxiliary have",
+              "definition": "Posséder ou présenter quelque chose ; sert aussi d’auxiliaire pour former des temps composés."
+            },
+            {
+              "id": "sns_fr_n_ont_restrictive_auxiliary",
+              "lemmaId": "lem_avoir",
+              "gloss": "ne + have (auxiliary; restrictive ne…que)",
+              "definition": "Réunion de ne élidé et de ont, auxiliaire à la troisième personne du pluriel ; avec que, marque ici une restriction équivalant à seulement."
+            },
+            {
+              "id": "sns_cendrillon_avoir_ancienne_graphie_de_aurai_forme_future_du_verbe_avoir_94d3a5bc90",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have (historical future auray)",
+              "definition": "Ancienne graphie d’aurai, première personne du singulier au futur du verbe avoir."
+            },
+            {
+              "id": "sns_fr_avoir_existential",
+              "lemmaId": "lem_avoir",
+              "gloss": "there be (in il y a)",
+              "definition": "Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée."
+            },
+            {
+              "id": "sns_fr_avoir_air",
+              "lemmaId": "lem_avoir",
+              "gloss": "to look; to seem (avoir l’air)",
+              "definition": "Avec l’air, exprime l’apparence ou l’impression donnée."
+            },
+            {
+              "id": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+              "lemmaId": "lem_avoir",
+              "gloss": "to have; to own; to possess; to get",
+              "definition": "Être en relation possessive, soit concrète ou abstraite, soit permanente ou occasionnelle, dont le possesseur est le sujet et le possédé est le complément d’objet direct."
+            },
+            {
+              "id": "sns_parure_avoir_reunion_elidee_de_que_et_de_la_forme_verbale_aurait_ee7425f24c",
+              "lemmaId": "lem_avoir",
+              "gloss": "what would ... have (in a compound-tense question)",
+              "definition": "Réunion de que interrogatif et aurait auxiliaire ; introduit une question sur une action envisagée au conditionnel passé."
+            },
+            {
+              "id": "sns_loup_agneau_avoir_reunit_le_pronom_elide_l_et_la_forme_conditionnelle_aurais_0e747c9e36",
+              "lemmaId": "lem_avoir",
+              "gloss": "it + would have (auxiliary)",
+              "definition": "Réunion du pronom objet l’ et de aurais, auxiliaire du conditionnel passé ; le participe passé indique l’action."
+            }
+          ]
+        },
+        {
+          "id": "lem_parure_avoir_verb_fe55e40abc",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_parure_avoir_subjunctive_fd166d2fd9",
+              "lemmaId": "lem_parure_avoir_verb_fe55e40abc",
+              "gloss": "to have",
+              "definition": "Posséder ou disposer de quelque chose, concrètement ou abstraitement ; eût est une forme littéraire du subjonctif imparfait."
+            }
+          ]
+        },
+        {
+          "id": "lem_zola_avoir",
+          "headword": "avoir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_avoir_possess_auxiliary",
+              "lemmaId": "lem_zola_avoir",
+              "gloss": "to have; auxiliary avoir",
+              "definition": "posséder ou servir d’auxiliaire"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "ayons_have_subjunctive",
+              "form": "ayons",
+              "lemma": "avoir",
+              "meaning": "that we have",
+              "partOfSpeech": "present subjunctive first person plural",
+              "sourceOccurrencesSha256": "834668d902fec400ae27d5db5d50c10782585a2f6e0f2e887b4a4a8309ce73fa",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "a535b489a252476b12c88481f5fc43a47627c7126d21c47202ee40f736693bf2",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "link_published_sense",
+              "route": "add_surface_to_published_sense",
+              "targetSenseId": "sns_avoir_primary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            },
+            {
+              "key": "eut_received_order",
+              "form": "eut",
+              "lemma": "avoir",
+              "meaning": "received; was given (an order)",
+              "partOfSpeech": "past historic third singular in avoir ordre",
+              "sourceOccurrencesSha256": "c15da85a7e7f4c7df62c6b3d268395622ef311b16bcd2177f0508093c32ef967",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "479e56f9c39537d417a6c9b85e5e371ade04f44825196b886e340e450acceb6f",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "reuse_ready",
+              "route": "reuse_exact_published_identity",
+              "targetIdentity": "srf_zola_eut_avoir:sns_zola_avoir_possess_auxiliary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "quai_what_have_i",
+              "form": "qu’ai",
+              "lemma": "avoir",
+              "meaning": "what have I; what do I have",
+              "partOfSpeech": "elided interrogative plus first-person verb",
+              "batchFile": "chapter-02-batch-01.json",
+              "sourceOccurrencesSha256": "2fa2d0c8ae3d8c6a1825204087325344e35c65d5f1f10e9fd99ddf6814a1b8ac",
+              "questionSha256": "c4a68f8df11a5e27eabc604a75d4e7b7bf3abab92d10b2f183006a11b51535fc",
+              "chapterTwoUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "The fused interrogative and first-person verb ask what relation the speaker has; no published avoir question teaches this token.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            },
+            {
+              "key": "aient_have_subjunctive",
+              "form": "aient",
+              "lemma": "avoir",
+              "meaning": "have; possess",
+              "partOfSpeech": "present subjunctive third plural",
+              "batchFile": "chapter-02-batch-16.json",
+              "sourceOccurrencesSha256": "3a6d74285b2162184567737a9fd3e4ac45f32783221210a148415d5a2d16eb74",
+              "questionSha256": "2d5654df066f268ef7505559c8631492c23dbfebc13ad65e7c61b42559e5ffc6",
+              "chapterTwoUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_avoir_primary",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "The reviewed source sense have; possess fits published to have; auxiliary have; author the separate aient surface questions while sharing the sense.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-03-identity-plan.json",
+          "fileSha256": "9dcd2becc65a60cfc8cbd80df6e6d9aa98b7e3f6bfcee8118acc044dca5ddfdb",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "meaning": "had; auxiliary in past anterior",
+              "batchFile": "chapter-03-batch-04.json",
+              "questionSha256": "bb079140f0368580af1e96259dd30c892f13c0f6cf678e3643dcf9dbce1a2842",
+              "sourceOccurrencesSha256": "493c8ac20410e1a073191abfb3b1a280166e9c215ab08b49a8f57291f569eb1f",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_zola_avoir",
+              "targetSenseId": "sns_zola_avoir_possess_auxiliary",
+              "rationale": "The source use had; auxiliary in past anterior matches published to have; auxiliary avoir; new eurent questions remain separate from the existing surface questions.",
+              "status": "offline_chapter_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "eurent_had",
+              "form": "eurent",
+              "lemma": "avoir",
+              "meaning": "had; experienced",
+              "batchFile": "chapter-04-batch-15.json",
+              "questionSha256": "10596a77815d70dd09150ee494b75273634e703b03ccb7aecaa365dceff2e310",
+              "sourceOccurrencesSha256": "f306542458744b1a2be9ba4201a2c57658960f7fb5e8432b333f803c19973ba5",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "Eurent de la peine expresses experienced difficulty; the earlier planned eurent is an auxiliary in eurent fait and has an already reviewed source occurrence.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "a_existential",
+              "form": "a",
+              "lemma": "avoir",
+              "meaning": "there is; there are in il y a",
+              "batchFile": "chapter-04-batch-16.json",
+              "questionSha256": "ff9fc00571882922738c64ffc1222a6113c6409a6509521589dbc1f3b9f7fac5",
+              "sourceOccurrencesSha256": "4c8a62740a143c78ae7cece2c18b8cd37b2ed8db428871b6ceec823be3e04dc2",
+              "sourceUseCount": 4,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_fr_avoir_existential",
+              "targetLemmaId": "lem_avoir",
+              "rationale": "In the source, a means there is; there are in il y a; the chosen published sense (there be (in il y a)) teaches the same contextual action or attribute, with this new surface retaining its authored three question bands.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "avoir_chapter_05_held_01_123",
+              "form": "ait",
+              "lemma": "avoir",
+              "meaning": "there might be, in il y ait",
+              "batchFile": "chapter-05-held-batch-02.json",
+              "questionSha256": "c3f8deab9f58cafda2d099c00b8b9ac898c8124de8ac64221d8fa35b05daa38d",
+              "sourceOccurrencesSha256": "1c56e6fd0de14c11042e3590c493331f1b2b98da145e81d995136415c1153837",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_avoir",
+              "targetSenseId": "sns_fr_avoir_existential",
+              "rationale": "The source meaning there might be, in il y ait fits the inspected definition Dans il y a et ses formes conjuguées, indique une présence, une existence ou une durée écoulée.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "avoir_chapter_05_held_01_131",
+              "form": "ai",
+              "lemma": "avoir",
+              "meaning": "have as an auxiliary in a compound past",
+              "batchFile": "chapter-05-held-batch-02.json",
+              "questionSha256": "d97cd85da63cd97520a96d9b683b66aea651787181ea2392abcf061626ff2263",
+              "sourceOccurrencesSha256": "6e93b11a370dfec9cf279d673f551094f70f9c48ab7b37237fc5d74e1d9f9a09",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_avoir",
+              "targetSenseId": "sns_fr_avoir_compound_auxiliary",
+              "rationale": "The source meaning have as an auxiliary in a compound past fits the inspected definition Auxiliaire employé avec un participe passé pour former un temps composé.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-held-context-review-03.json",
+          "fileSha256": "e9de5efa3a40540575903540be898cbc04d4ecf2c4a03ee3f1074cf7966dcc6c",
+          "matches": [
+            {
+              "key": "avez_compound_auxiliary_chapter_06",
+              "form": "avez",
+              "lemma": "avoir",
+              "partOfSpeech": "compound-tense auxiliary present second plural",
+              "meaning": "have, as a compound-tense auxiliary",
+              "target": "sns_fr_avoir_compound_auxiliary",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 136,
+                  "start": 28,
+                  "end": 32,
+                  "text": "avez",
+                  "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?"
+                },
+                {
+                  "chapter": 6,
+                  "unit": 164,
+                  "start": 13,
+                  "end": 17,
+                  "text": "avez",
+                  "context": "O Dieu ! qui avez donné une intelligence à des substances qui paraissent si méprisables ; l’infiniment petit vous coûte aussi peu que l’infiniment grand ; et s’il est possible qu’il y ait des êtres plus petits que ceux-ci, ils peuvent encore avoir un esprit supérieur à ceux de ces superbes animaux que j’ai vus dans le ciel, dont le pied seul couvrirait le globe où je suis descendu. »"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "« Mais, dit le Sirien, vous avez cru tout à l’heure qu’ils faisaient l’amour ; est-ce que vous croyez qu’on puisse faire l’amour sans penser et sans proférer quelque parole, ou du moins sans se faire entendre ?",
+                  "targetText": "avez",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "have, as an auxiliary for a completed action",
+                  "choices": [
+                    "have, as an auxiliary for a completed action",
+                    "own a possession",
+                    "must perform an action",
+                    "can perform an action"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Racontez au passé composé ce que vous venez de faire : « Vous ___ observé ces êtres. »",
+                  "question": "Complétez la phrase.",
+                  "answer": "avez",
+                  "choices": [
+                    "avez",
+                    "aviez",
+                    "aurez",
+                    "auriez"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel auxiliaire au présent, adressé à vous, précède le participe passé dans « vous ... cru » pour raconter une action accomplie ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "avez",
+                  "choices": [
+                    "avez",
+                    "aviez",
+                    "aurez",
+                    "auriez"
+                  ]
+                }
+              ],
+              "questionSha256": "e1f4e8e5f02d2ba5a2c2f5c8da0b5eacda3cc61611fa2655da6678a0dbde0c0d",
+              "sourceOccurrencesSha256": "daa72c6f657cfd5ec936fa22a04b15c37e90601dfa88c1f1206325ffd4fcfd3d",
+              "reviewNote": "Avez cru and qui avez donné are compound-tense auxiliary uses; the God vocative uses honorific second-plural vous agreement. The existing avez possession bank was inspected and remains unchanged. Attach this surface to the already distinct published avoir auxiliary sense, without copying possession mastery or inventing a tense-only meaning. All three complete questions test auxiliary function; the middle four options can each precede a past participle, and passé composé selects the present auxiliary.",
+              "status": "offline_contextual_three_band_review_recorded_unpublished"
+            },
+            {
+              "key": "qu_auraient_held_chapter_06_03",
+              "form": "qu’auraient",
+              "lemma": "avoir",
+              "partOfSpeech": "fused interrogative plus lexical verb conditional plural",
+              "meaning": "what would they have; what would be available to them",
+              "target": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+              "sourceOccurrences": [
+                {
+                  "chapter": 6,
+                  "unit": 134,
+                  "start": 222,
+                  "end": 233,
+                  "text": "qu’auraient",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?"
+                }
+              ],
+              "questions": [
+                {
+                  "band": "1-3",
+                  "context": "Il avait le don des langues aussi bien que le Sirien ; il n’entendait point parler nos atomes, et il supposait qu’ils ne parlaient pas ; d’ailleurs, comment ces êtres imperceptibles auraient-ils les organes de la voix, et qu’auraient-ils à dire ?",
+                  "targetText": "qu’auraient",
+                  "question": "What does the highlighted word mean here?",
+                  "answer": "what would they have; what would be available to them",
+                  "choices": [
+                    "what would they have; what would be available to them",
+                    "what would they buy",
+                    "what would they lose",
+                    "what would they make"
+                  ]
+                },
+                {
+                  "band": "4-5",
+                  "context": "Il demande ce que ces êtres auraient à leur disposition : « ___-ils ? »",
+                  "question": "Complétez la phrase.",
+                  "answer": "qu’auraient",
+                  "choices": [
+                    "qu’auraient",
+                    "qu’achèteraient",
+                    "que perdraient",
+                    "que fabriqueraient"
+                  ]
+                },
+                {
+                  "band": "6-8",
+                  "context": "Quel groupe interrogatif réunit que et avoir lexical au conditionnel pluriel pour demander de quoi ils disposeraient ?",
+                  "question": "Quel mot convient ?",
+                  "answer": "qu’auraient",
+                  "choices": [
+                    "qu’auraient",
+                    "qu’achèteraient",
+                    "que perdraient",
+                    "que fabriqueraient"
+                  ]
+                }
+              ],
+              "questionSha256": "79c7e822149af3e366b2a9a94855da4a5433cebb7969579d325bf1f180282b0d",
+              "sourceOccurrencesSha256": "d44a67b6ac1edfc3a3607a097abc62e1d8b55172a9d7042ff1bd2845d2c98b05",
+              "reviewNote": "Qu’auraient-ils à dire asks what content the creatures would have available to say. The published qu’aurait bank is explicitly compound-tense auxiliary, qu’as asks about illness or possession, and the earlier qu’ai à faire de bank tests relationship; all were inspected and excluded as question banks. The global lexical avoir sense explicitly covers abstract as well as concrete possession, so this surface targets that existing sense under lem_avoir. The fused spelling does not create a tense-only sense or another lemma; que stays inside the exact token, and final import must not duplicate an interrogative component encounter. All middle prefixes form grammatical plural hypothetical questions, distinguished by have/buy/lose/make semantics. No earlier mastery is copied.",
+              "status": "offline_contextual_three_band_review_recorded_unpublished"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-identity-targets-01.json",
+          "fileSha256": "41558befcf8fc833793ab56e65241d3df9f920a46a58bea852c896e15ecd5b83",
+          "matches": [
+            {
+              "key": "auraient_chapter_06_134_182",
+              "form": "auraient",
+              "lemma": "avoir",
+              "meaning": "would have",
+              "target": "sns_avoir_primary",
+              "questionSha256": "cd7606874f3a2c24d3e32e415189f16187eb5daa71e4867b46356b4e6b419efb",
+              "sourceOccurrencesSha256": "70b6cbf6b9e27867f124a3dbf6ecaf14f38b200f9cde8891ee41550051ab8ab9",
+              "reviewNote": "Both organs and an equivalent of a soul are things possessed; no compound auxiliary occurs after this conditional form.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        },
+        {
+          "file": "chapter-06-identity-targets-03.json",
+          "fileSha256": "c768cc91557c60a860105b8c49ab1953141ea58e1806cbd2bae1ddfc350d85f8",
+          "matches": [
+            {
+              "key": "a_chapter_06_03_150_135",
+              "form": "a",
+              "lemma": "avoir",
+              "meaning": "has; auxiliary forming a compound past",
+              "target": "sns_fr_avoir_compound_auxiliary",
+              "questionSha256": "4aae0fbeb08002011185ee10599faef4b2c127cc1e47860fe91f67675136b8cc",
+              "sourceOccurrencesSha256": "f02f1dbe73bf3fd4e77e476cc3e8ebc6fd3381762ca28795af4056663b001681",
+              "reviewNote": "A precedes daigné, eu, mesuré, dit, découvert and disséqué. Even in il y a eu, a is the outer compound auxiliary while eu carries the existential lexical value. All global avoir senses were read. Link the explicit compound-auxiliary sense; the legacy a possession bank is preserved, never copied to this new surface/sense identity.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "a_chapter_06_03_167_28",
+              "form": "a",
+              "lemma": "avoir",
+              "meaning": "there is; there are",
+              "target": "sns_fr_avoir_existential",
+              "questionSha256": "39582a125808864d01ee10346aca11daef51d506314b85a39dc1dbaca97a5be5",
+              "sourceOccurrencesSha256": "bf594889a0c0307c2433495275e47b8f93b4e7981795df9f72c751022beae1b3",
+              "reviewNote": "At 167 il y a introduces the existence of tiny animals. Global avoir plans already route the earlier a existential to sns_fr_avoir_existential; use that meaning. Its earlier Chapter IV middle context lacks il y, so author an intact construction here and record the old-bank repair dependency for final whole-work reconciliation, without silently editing it.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "eu_chapter_06_03_152_17",
+              "form": "eu",
+              "lemma": "avoir",
+              "meaning": "been; existed in there has been",
+              "target": "sns_fr_avoir_existential",
+              "questionSha256": "d745d64152f829f1f346ef584ed314e6367ec8cfbde56c4fe2994eae239c6330",
+              "sourceOccurrencesSha256": "8802f28f3dd76a1fd1de16a146712108c006982e20d4e4d35c90481b7f4e84e5",
+              "reviewNote": "In il y a eu quelqu’un, a is the outer compound auxiliary and eu is the participle of existential avoir. The legacy eu bank tests possession or experiencing an idea, so it cannot answer the source existential role. Prepare the explicit existential identity on lem_avoir with its own bank; all source words in il y a ___ remain intact.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "avaient_chapter_06_03_156_150",
+              "form": "avaient",
+              "lemma": "avoir",
+              "meaning": "had; auxiliary in a compound past",
+              "target": "sns_fr_avoir_compound_auxiliary",
+              "questionSha256": "d6bbb6f4541f54a9d6fdcf29f2930a9b488d442077f0380dbf7c8b01ce35c198",
+              "sourceOccurrencesSha256": "f129d3bd5c27993dbacd12516362de47c272f49f413c31c6053dd343cbfeabd0",
+              "reviewNote": "Avaient été is the pluperfect of être, not the possession of an object. Global avoir compound auxiliaries and the old avaient possession bank were inspected. Link sns_fr_avoir_compound_auxiliary on lem_avoir and author the complete auxiliary context without overwriting or copying legacy possession progress.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            },
+            {
+              "key": "avoir_chapter_06_03_156_96",
+              "form": "avoir",
+              "lemma": "avoir",
+              "meaning": "have; auxiliary forming a past infinitive",
+              "target": "sns_fr_avoir_compound_auxiliary",
+              "questionSha256": "0c637bd17cdaa8f5d14dfbcc384f329749895acdba526f3666d4cb86d92e5ad6",
+              "sourceOccurrencesSha256": "d109a6335265966ab930583e81d12c655ba5e50c56615832bd7495571025cfca",
+              "reviewNote": "Les avoir plaints has a direct object and the past infinitive avoir plus plaints: after having pitied them. Earlier Chapter V avoir auxiliary questions already target the published compound-auxiliary sense, but their source form was ai. Prepare the actual infinitive surface on that same sense; lexical avoir un esprit remains separate.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "tirer",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_tirer_verb_fb5b9e5425",
+          "headword": "tirer",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_parure_tirer_mouvoir_vers_soi_amener_vers_soi_ou_apres_soi_bf49abb2c9",
+              "lemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "gloss": "to draw, drag, pull",
+              "definition": "Mouvoir vers soi, amener vers soi ou après soi."
+            },
+            {
+              "id": "sns_parure_tirer_take_out_7d8c060bf5",
+              "lemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "gloss": "took out; pulled",
+              "definition": "fit sortir quelque chose en le prenant"
+            },
+            {
+              "id": "sns_fr_tirer_shoot",
+              "lemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "gloss": "to shoot",
+              "definition": "Faire partir un projectile avec une arme, notamment en visant une cible ou un animal."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-02-identity-plan.json",
+          "fileSha256": "220cf32b3e95f25e0628cb2e430b4900f19ae3bea40e8c635918bec9c7205ffe",
+          "matches": [
+            {
+              "key": "tire_tends_toward_color",
+              "form": "tire",
+              "lemma": "tirer",
+              "meaning": "tends toward; has a tinge of",
+              "partOfSpeech": "present indicative third singular",
+              "batchFile": "chapter-02-batch-13.json",
+              "sourceOccurrencesSha256": "848b64a8bdbd3325f4591219ae4df63be6c86fa854940835b1be196548fd6f2b",
+              "questionSha256": "7874968ebdf2359bd5242b56ac8941d09a02e0e461af050cdddf5e968415ddd4",
+              "chapterTwoUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "rationale": "The solar color tends toward red; published drawing, taking out and shooting are different.",
+              "status": "offline_identity_route_pending_individual_question_QA_and_full_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "tire_drawn",
+              "form": "tiré",
+              "lemma": "tirer",
+              "meaning": "drawn; laid out with a straightedge",
+              "batchFile": "chapter-04-batch-10.json",
+              "questionSha256": "026246fa3ef61c5e0617b00b81c6831ae48e999eef7b1a89763eded55ddff201",
+              "sourceOccurrencesSha256": "4509be604507e778322ae50dd3f4200000357adf5a7266e77f4bf568d84b0e72",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "rationale": "The fixed au cordeau construction describes a regular layout with a cord; published tirer senses teach pulling toward oneself, removing something, or shooting.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            },
+            {
+              "key": "tirait_derived",
+              "form": "tirait",
+              "lemma": "tirer",
+              "meaning": "derived; drew from a source",
+              "batchFile": "chapter-04-batch-13.json",
+              "questionSha256": "90d349a6246bbee9180c9180b2a703b4bc373b8adee78ddbd625d5ce43ecf99d",
+              "sourceOccurrencesSha256": "4fceae3b17afc85e60825e55bfc0e85eb7948e921756859ebae551336ccf81fd",
+              "sourceUseCount": 1,
+              "route": "new_sense_existing_lemma",
+              "targetLemmaId": "lem_parure_tirer_verb_fb5b9e5425",
+              "rationale": "The source asks where an atom derives motion; published tirer questions concern drawing or pulling a physical object and shooting.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "épée",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "fatigue",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "intempérance",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "emporter",
+      "publishedFrench": [
+        {
+          "id": "lem_emporter",
+          "headword": "emporter",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_lion_rat_emporter_fit_disparaitre_ou_ceder_l_ensemble_de_l_ouvrage_6389013efe",
+              "lemmaId": "lem_emporter",
+              "gloss": "carried away; destroyed",
+              "definition": "fit disparaître ou céder l’ensemble de l’ouvrage"
+            },
+            {
+              "id": "sns_emporter_primary",
+              "lemmaId": "lem_emporter",
+              "gloss": "Emporter is the infinitive to carry away/win.",
+              "definition": "Emporter is the infinitive to carry away/win."
+            },
+            {
+              "id": "sns_fr_emporter_prevail",
+              "lemmaId": "lem_emporter",
+              "gloss": "to win; to prevail (in l’emporter)",
+              "definition": "Avec l’, obtenir la victoire ou avoir le dessus."
+            },
+            {
+              "id": "sns_loup_agneau_emporter_porter_hors_d_un_lieu_f86152d994",
+              "lemmaId": "lem_emporter",
+              "gloss": "to take",
+              "definition": "Porter hors d’un lieu."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "punir",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_punir",
+          "headword": "punir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_zola_punir_future",
+              "lemmaId": "lem_zola_punir",
+              "gloss": "will punish",
+              "definition": "forme du futur de punir"
+            },
+            {
+              "id": "sns_zola_punir_past",
+              "lemmaId": "lem_zola_punir",
+              "gloss": "punished",
+              "definition": "participe passé de punir, frappé d’une peine ou d’une conséquence"
+            },
+            {
+              "id": "sns_zola_punir_present",
+              "lemmaId": "lem_zola_punir",
+              "gloss": "punishes",
+              "definition": "forme du présent de punir"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "barbare",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "sédentaire",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "fond",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_fond",
+          "headword": "fond",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_zola_fond_core",
+              "lemmaId": "lem_zola_fond",
+              "gloss": "bottom; heart of the matter",
+              "definition": "partie la plus profonde ou essentielle d’une chose"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "cabinet",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_cabinet_noun_0c8424db30",
+          "headword": "cabinet",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_fr_cabinet_ministerial_staff",
+              "lemmaId": "lem_parure_cabinet_noun_0c8424db30",
+              "gloss": "ministerial staff",
+              "definition": "Ensemble des collaborateurs proches qui assistent un ministre ou un responsable politique."
+            },
+            {
+              "id": "sns_parure_cabinet_petite_piece_retiree_a9d212fea3",
+              "lemmaId": "lem_parure_cabinet_noun_0c8424db30",
+              "gloss": "a study",
+              "definition": "Petite pièce retirée."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "ordonner",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "digestion",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "massacre",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "million",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "millions_number",
+              "form": "millions",
+              "lemma": "million",
+              "meaning": "millions; groups of one million",
+              "partOfSpeech": "noun masculine plural",
+              "sourceOccurrencesSha256": "8de1c4f149da4d2be64c13f3da94f704ec6c630443ef33a9c91ecd4cb3fbb54a",
+              "workwideUseCount": 4,
+              "chapterOneUseCount": 1,
+              "questionSha256": "1701a6b6b40b69aaa05ff5ab80db55683f2dad135dc076404b3c91023321a3a2",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "new_lemma_sense",
+              "route": "new_lemma_and_sense",
+              "intendedSenseGroup": "million:millions_number",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "solennellement",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "émouvoir",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "race",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_race_noun_0aab185ee8",
+          "headword": "race",
+          "partOfSpeech": "noun",
+          "senses": [
+            {
+              "id": "sns_parure_race_lignee_ensemble_des_ascendants_et_des_descendants_d_une_meme_famille_7992f0794e",
+              "lemmaId": "lem_parure_race_noun_0aab185ee8",
+              "gloss": "race (classification)",
+              "definition": "Lignée ; ensemble des ascendants et des descendants d’une même famille."
+            },
+            {
+              "id": "sns_parure_race_lineage_833d0f26aa",
+              "lemmaId": "lem_parure_race_noun_0aab185ee8",
+              "gloss": "lineage; ancestry",
+              "definition": "Lignée familiale ou origine commune, dans un emploi ancien lié à la naissance et à la famille."
+            },
+            {
+              "id": "sns_fr_race_kind",
+              "lemmaId": "lem_parure_race_noun_0aab185ee8",
+              "gloss": "kinds; sorts",
+              "definition": "Catégories ou sortes de personnes ou de choses, dans un emploi figuré."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "découvrir",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_decouvrir_verb_85904ca65e",
+          "headword": "découvrir",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_parure_decouvrir_degarnir_de_ce_qui_couvrait_f9b6c4c02b",
+              "lemmaId": "lem_parure_decouvrir_verb_85904ca65e",
+              "gloss": "to discover",
+              "definition": "Dégarnir de ce qui couvrait."
+            },
+            {
+              "id": "sns_parure_decouvrir_uncover_d6b4bab416",
+              "lemmaId": "lem_parure_decouvrir_verb_85904ca65e",
+              "gloss": "uncovered; lifted the lid from",
+              "definition": "retirait ce qui couvrait un objet"
+            },
+            {
+              "id": "sns_fr_decouvrir_find",
+              "lemmaId": "lem_parure_decouvrir_verb_85904ca65e",
+              "gloss": "to discover; to find",
+              "definition": "Trouver ou apprendre ce qui était inconnu ou caché."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-06-identity-targets-03.json",
+          "fileSha256": "c768cc91557c60a860105b8c49ab1953141ea58e1806cbd2bae1ddfc350d85f8",
+          "matches": [
+            {
+              "key": "découvrir_chapter_06_03_150_147",
+              "form": "découvrir",
+              "lemma": "découvrir",
+              "meaning": "reveal; make known to someone",
+              "target": "new:lem_parure_decouvrir_verb_85904ca65e",
+              "questionSha256": "a373f403995083d07915b018b848cbb3aabe5244a3e5f6403acb21beec1d101f",
+              "sourceOccurrencesSha256": "80377b75d2df092d3a971b3f081966d239ad1711a51e6cda0bcce47930bb0f11",
+              "reviewNote": "Me découvrir des secrets makes information known to the giant. The global family’s uncover-material and find/learn-for-oneself senses do not express this recipient-directed disclosure. Académie 1762 révéler gives découvrir as disclose unknown secret knowledge. Prepare that meaning on the existing découvrir lemma and preserve discovery mastery.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "étonnant",
+      "publishedFrench": [
+        {
+          "id": "lem_parure_etonnant_adjective_1485a9181d",
+          "headword": "étonnant",
+          "partOfSpeech": "adjective",
+          "senses": [
+            {
+              "id": "sns_parure_etonnant_qui_etonne_qui_surprend_43032752e8",
+              "lemmaId": "lem_parure_etonnant_adjective_1485a9181d",
+              "gloss": "amazing; surprising; astonishing",
+              "definition": "Qui étonne, qui surprend."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "étonnant_chapter_05_04_etonnante",
+              "form": "étonnante",
+              "lemma": "étonnant",
+              "meaning": "astonishing; surprising",
+              "batchFile": "chapter-05-batch-05.json",
+              "questionSha256": "5046fab4a88306c000014574f8dac183a234e15d658b93acfe5112a0455bc073",
+              "sourceOccurrencesSha256": "20250fc5e00dbecb643b6efb5f45631a4ca6a5b9638466b87f28ad1f3b219fe6",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_parure_etonnant_adjective_1485a9181d",
+              "targetSenseId": "sns_parure_etonnant_qui_etonne_qui_surprend_43032752e8",
+              "rationale": "The source meaning astonishing; surprising fits the inspected definition Qui étonne, qui surprend.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "contraste",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "tuer",
+      "publishedFrench": [],
+      "earlierPlans": [
+        {
+          "file": "chapter-07-identity-targets-02.json",
+          "fileSha256": "1e6fa79bdc9b64262351aa19991b70643c0192538564817d7d435209663b42cd",
+          "matches": [
+            {
+              "key": "tuent_chapter_07_02_173_128",
+              "form": "tuent",
+              "lemma": "tuer",
+              "meaning": "kill; cause death",
+              "target": "new",
+              "questionSha256": "43d9ddd50d7b0e5a0f770f91e04d7c5416494efa15599c2221792a6b59f6c3a3",
+              "sourceOccurrencesSha256": "b5fa7d2893055aba5315d47de6e364bfdc4dbec7dd822b20cbe9bdbe8a837658",
+              "reviewNote": "Tuent states that the combatants kill one another’s opposing group. No global or earlier tuer lemma exists. Each plural predicate fits les; actual death rather than injury, rescue or frightening selects tuent. The source’s round numbers are kept as narrative claims rather than independently verified history.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "occuper",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "dire",
+      "publishedFrench": [
+        {
+          "id": "lem_dire",
+          "headword": "dire",
+          "partOfSpeech": "verb",
+          "senses": [
+            {
+              "id": "sns_dire_primary",
+              "lemmaId": "lem_dire",
+              "gloss": "to say; to tell",
+              "definition": "Exprimer ou communiquer quelque chose par des paroles."
+            },
+            {
+              "id": "sns_parure_dire_exprimer_par_la_parole_960c81d4dd",
+              "lemmaId": "lem_dire",
+              "gloss": "to say, to tell (to express through speech)",
+              "definition": "Exprimer par la parole."
+            },
+            {
+              "id": "sns_fr_dire_imply",
+              "lemmaId": "lem_dire",
+              "gloss": "to imply; to mean",
+              "definition": "Dans qui dit X dit Y, indique ce que X suppose ou entraîne."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-01-identity-plan.json",
+          "fileSha256": "e6aac8b66c6ec87601e7efb44ffe6d95e025392b4d1aa2e582bf20967d167d1e",
+          "matches": [
+            {
+              "key": "dis_say",
+              "form": "dis",
+              "lemma": "dire",
+              "meaning": "I say",
+              "partOfSpeech": "verb present first singular",
+              "sourceOccurrencesSha256": "c66e03dbbcafba851bcee6d1c8a1bd31b9d7044c35b3dfe502cda727654ec453",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "1d6fb6ebc8ab6644975f41935ec69ecd6d5d72ee9081cc2d04ed041057527431",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "reuse_ready",
+              "route": "reuse_exact_published_identity",
+              "targetIdentity": "srf_dis:sns_dire_primary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            },
+            {
+              "key": "dite_said",
+              "form": "dite",
+              "lemma": "dire",
+              "meaning": "said; mentioned",
+              "partOfSpeech": "past participle feminine singular",
+              "sourceOccurrencesSha256": "18563cb9c148906a685c32e553905ae6e1ccf585a5d7ead3bc7eee20f936fea2",
+              "workwideUseCount": 1,
+              "chapterOneUseCount": 1,
+              "questionSha256": "a6e4a425307d895508d36ca16db96d3b8ba4220346a2c94519a817fa1fd95291",
+              "questionBands": [
+                "1-3",
+                "4-5",
+                "6-8"
+              ],
+              "priorDecision": "link_published_sense",
+              "route": "add_surface_to_published_sense",
+              "targetSenseId": "sns_dire_primary",
+              "status": "offline_import_plan_pending_complete_work_signoff"
+            }
+          ]
+        },
+        {
+          "file": "chapter-04-identity-plan.json",
+          "fileSha256": "8b39cdf5a63e8c67329be53d7ca6b752216514e1ea3a585bf43f720c75cae3c8",
+          "matches": [
+            {
+              "key": "dites_say",
+              "form": "dites",
+              "lemma": "dire",
+              "meaning": "say; are saying",
+              "batchFile": "chapter-04-batch-10.json",
+              "questionSha256": "a9a7bea2c2b2e972631d20310fc5e2ef4129b3324f8bb9c0fd8c71a0dae8efbc",
+              "sourceOccurrencesSha256": "a392cae09bb536034fe4f91d7cf27dfedf33e21b2d777c3c28696f509fbfb001",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetSenseId": "sns_dire_primary",
+              "targetLemmaId": "lem_dire",
+              "rationale": "In the source, dites means say; are saying; the chosen published sense (to say; to tell) teaches the same contextual action or attribute, with this new surface retaining its authored three question bands.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        },
+        {
+          "file": "chapter-05-identity-plan.json",
+          "fileSha256": "e8e99ddbefa5a21478d5410823d8a31eea62b52505806752bc2a406221afb844",
+          "matches": [
+            {
+              "key": "dire_chapter_05_04_disaient",
+              "form": "disaient",
+              "lemma": "dire",
+              "meaning": "were saying",
+              "batchFile": "chapter-05-batch-05.json",
+              "questionSha256": "5d113c7de82a77bbf2ffeaeaad2d22811011576fb8033672100df04fc87a5865",
+              "sourceOccurrencesSha256": "0798aebc319d7c5b409be8177ab86af42bcf9b7c22fc61e8734271ec889d862b",
+              "sourceUseCount": 1,
+              "route": "link_published_sense",
+              "targetLemmaId": "lem_dire",
+              "targetSenseId": "sns_dire_primary",
+              "rationale": "The source meaning were saying fits the inspected definition Exprimer ou communiquer quelque chose par des paroles.; grammar changes the surface, not the shared meaning.",
+              "status": "offline_identity_route_pending_complete_work_import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "puisque",
+      "publishedFrench": [],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "puisqu’",
+      "publishedFrench": [
+        {
+          "id": "lem_zola_puisque",
+          "headword": "puisqu’",
+          "partOfSpeech": "conjunction",
+          "senses": [
+            {
+              "id": "sns_zola_puisque_since",
+              "lemmaId": "lem_zola_puisque",
+              "gloss": "since; as",
+              "definition": "introduit la cause considérée comme connue ou évidente"
+            }
+          ]
+        }
+      ],
+      "earlierPlans": []
+    },
+    {
+      "lemma": "quoi",
+      "publishedFrench": [
+        {
+          "id": "lem_quoi",
+          "headword": "quoi",
+          "partOfSpeech": "pronoun",
+          "senses": [
+            {
+              "id": "sns_cendrillon_quoi_quelle_chose_dans_la_fonction_d_objet_c87ce54341",
+              "lemmaId": "lem_quoi",
+              "gloss": "what",
+              "definition": "Quelle chose, dans la fonction d’objet."
+            },
+            {
+              "id": "sns_quoi_primary",
+              "lemmaId": "lem_quoi",
+              "gloss": "Quoi is the interrogative pronoun what in both occurrences.",
+              "definition": "Quoi is the interrogative pronoun what in both occurrences."
+            }
+          ]
+        }
+      ],
+      "earlierPlans": [
+        {
+          "file": "chapter-06-identity-targets-04.json",
+          "fileSha256": "352834488c250bb17a99dc0095b10d8d4b6565d7785f755d24027905f62bd597",
+          "matches": [
+            {
+              "key": "quoi_chapter_06_04_158_129",
+              "form": "quoi",
+              "lemma": "quoi",
+              "meaning": "what!; an exclamation of surprise",
+              "target": "new",
+              "questionSha256": "91577df9782f58767a329e8d77892c581f37b0c70930c7cda8f2716804320661",
+              "sourceOccurrencesSha256": "59c99e953a59a29e7d1dcfe5b9237d8c35978be8dd040dedbb08e846bc1c1e8c",
+              "reviewNote": "Quoi ! is an isolated incredulous exclamation before the assertion, not a question requesting an object. The only global quoi lemma is interrogative pronoun and all its banks ask for a thing. Prepare the exclamative function with explicit lexical-category reconciliation; do not silently attach a different lemma’s sense or transfer interrogative mastery.",
+              "status": "explicit_identity_target_pending_final_reconciliation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

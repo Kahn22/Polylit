@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T06:24:42.368Z",
+  "sense": {
+    "id": "sns_fr_reprendre_regain_form",
+    "lemmaId": "lem_parure_reprendre_verb_cbc44546b1",
+    "gloss": "to regain",
+    "definition": "Retrouver un état, une forme ou une propriété que l’on possédait auparavant."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_1_3",
+      "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_4_5",
+      "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816:sns_fr_reprendre_regain_form",
+      "surface": "reprendroient",
+      "lemma": "reprendre",
+      "currentRevision": "rev_7a2fd9c45972110f538b042eddd66d006968aecdf623615dde664611f3b5ccad",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_1da330585f621fdd555cb98c",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_017",
+          "passage": "elle luy donna ensuite une paire de pentoufles de verre, les plus jolies du monde. Quand elle fut ainsi parée, elle monta en carosse ; mais sa Maraine luy recommanda, sur toutes choses, de ne pas passer minuit, l’avertissant que, si elle demeuroit au bal un moment davantage, son carosse redeviendroit citroüille, ses chevaux des sourils, ses laquais des lezards, et que ses vieux habits reprendroient leur première forme. Elle promit à sa Maraine qu’elle ne manqueroit pas de sortir du bal avant minuit :",
+          "span": [
+            388,
+            401
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Après le charme, les objets reprendroient leur forme première.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "would regain",
+              "correct": true
+            },
+            {
+              "text": "would hide",
+              "correct": false
+            },
+            {
+              "text": "would describe",
+              "correct": false
+            },
+            {
+              "text": "would destroy",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Sans la magie, les habits _____ leur aspect d’autrefois, dit le conte ancien.",
+          "choices": [
+            {
+              "text": "reprendroit",
+              "correct": false
+            },
+            {
+              "text": "reprendre",
+              "correct": false
+            },
+            {
+              "text": "reprenant",
+              "correct": false
+            },
+            {
+              "text": "reprendroient",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_reprendre_regain_form_cendrillon_reprendroient_lem_parure_reprendre_verb_cbc44546b1_41f1f5d816_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les tissus reprendroient leur couleur initiale dès que le sort cesserait.",
+          "prompt": "Quel verbe ancien indique le retour à une propriété antérieure ?",
+          "choices": [
+            {
+              "text": "initiale",
+              "correct": false
+            },
+            {
+              "text": "sort",
+              "correct": false
+            },
+            {
+              "text": "reprendroient",
+              "correct": true
+            },
+            {
+              "text": "couleur",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

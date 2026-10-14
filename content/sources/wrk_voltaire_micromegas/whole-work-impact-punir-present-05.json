@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:12:58.011Z",
+  "sense": {
+    "id": "sns_zola_punir_present",
+    "lemmaId": "lem_zola_punir",
+    "gloss": "punishes",
+    "definition": "forme du présent de punir"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_punit_punir_present_advanced",
+      "qiz_zola_punit_punir_present_early",
+      "qiz_zola_punit_punir_present_intermediate"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_punit_punir:sns_zola_punir_present",
+      "surface": "punit",
+      "lemma": "punir",
+      "currentRevision": "rev_ab587018fa4ead056aa70740731a55828d811c879855290c81d3b23c55cbab8c",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_60acceb04eb76c6769150be5",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_189",
+          "passage": "En portant ces accusations, je n’ignore pas que je me mets sous le coup des articles 30 et 31 de la loi sur la presse du 29 juillet 1881, qui punit les délits de diffamation.",
+          "span": [
+            142,
+            147
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_punit_punir_present_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Cette loi punit la fraude par une amende ; le juge explique la sanction prévue.",
+          "prompt": "Quel verbe indique qu’une peine est imposée ?",
+          "choices": [
+            {
+              "text": "juge",
+              "correct": false
+            },
+            {
+              "text": "prévue",
+              "correct": false
+            },
+            {
+              "text": "punit",
+              "correct": true
+            },
+            {
+              "text": "fraude",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_punit_punir_present_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Le règlement punit la tricherie par une exclusion du concours.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "praises",
+              "correct": false
+            },
+            {
+              "text": "forgives",
+              "correct": false
+            },
+            {
+              "text": "punishes",
+              "correct": true
+            },
+            {
+              "text": "rewards",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_punit_punir_present_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Le directeur _____ les élèves qui enfreignent volontairement cette règle.",
+          "choices": [
+            {
+              "text": "punissent",
+              "correct": false
+            },
+            {
+              "text": "punir",
+              "correct": false
+            },
+            {
+              "text": "punit",
+              "correct": true
+            },
+            {
+              "text": "punis",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

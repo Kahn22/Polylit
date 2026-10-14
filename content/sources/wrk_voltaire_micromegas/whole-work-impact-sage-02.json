@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:37:27.760Z",
+  "sense": {
+    "id": "sns_sage_primary",
+    "lemmaId": "lem_sage",
+    "gloss": "Sage is the adjective wise/sensible.",
+    "definition": "Sage is the adjective wise/sensible."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 3,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_sage_wise_intermediate",
+      "qiz_sage_wise_advanced",
+      "qiz_sage_wise_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_sage:sns_sage_primary",
+      "surface": "sage",
+      "lemma": "sage",
+      "currentRevision": "rev_c2891cbbd8e53d95f135a3cf8f003ef3041a0e05ec04ec60b84ab7e98460f9c1",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_b99ce9b7e395d56cb0be1ae8",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_04",
+          "passage": "— Sitôt ? Êtes-vous sage ? repartit l’animal léger.",
+          "span": [
+            20,
+            24
+          ]
+        },
+        {
+          "id": "occ_cd3cbe1f9c1908fe33e26e96",
+          "workId": "wrk_lievre_tortue",
+          "unitId": "unt_lievre_06",
+          "passage": "— Sage ou non, je parie encore. »",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "occ_zola_4f7eb3647edc14aa4fb29c9c",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_152",
+          "passage": "Où est-il, le ministère vraiment fort et d’un patriotisme sage, qui osera tout y refondre, et tout y renouveler ?",
+          "span": [
+            58,
+            62
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_sage_wise_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Écouter les deux témoins serait une décision ___.",
+          "choices": [
+            {
+              "text": "sage",
+              "correct": true
+            },
+            {
+              "text": "lourde",
+              "correct": false
+            },
+            {
+              "text": "bruyante",
+              "correct": false
+            },
+            {
+              "text": "étroite",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_sage_wise_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Un choix sage protège le village, tandis qu’un choix imprudent le menace.",
+          "prompt": "Quel mot qualifie le choix réfléchi ?",
+          "choices": [
+            {
+              "text": "choix",
+              "correct": false
+            },
+            {
+              "text": "sage",
+              "correct": true
+            },
+            {
+              "text": "village",
+              "correct": false
+            },
+            {
+              "text": "imprudent",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_sage_wise_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Son conseil est sage et prudent.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "wise; sensible",
+              "correct": true
+            },
+            {
+              "text": "careless",
+              "correct": false
+            },
+            {
+              "text": "noisy",
+              "correct": false
+            },
+            {
+              "text": "rapid",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

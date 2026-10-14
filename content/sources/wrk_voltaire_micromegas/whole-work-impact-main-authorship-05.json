@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T05:11:22.482Z",
+  "sense": {
+    "id": "sns_zola_main_authorship",
+    "lemmaId": "lem_zola_main",
+    "gloss": "hand; authorship",
+    "definition": "manière d’écrire ou trace révélant l’auteur d’un acte"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_main_main_authorship_intermediate",
+      "qiz_zola_main_main_authorship_early",
+      "qiz_zola_main_main_authorship_advanced"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_main_main:sns_zola_main_authorship",
+      "surface": "main",
+      "lemma": "main",
+      "currentRevision": "rev_e2ee209bf8c569c8e20ecd6d7d0a038f98c6416bb69cc0536fe6098c94752ec2",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_636688889b92f839682f9b7b",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_113",
+          "passage": "Sa main se trahit aux moyens saugrenus.",
+          "span": [
+            3,
+            7
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_main_main_authorship_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Les lettres ne sont pas signées, mais leur écriture identique révèle la _____ du même auteur.",
+          "choices": [
+            {
+              "text": "taille",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            },
+            {
+              "text": "voix",
+              "correct": false
+            },
+            {
+              "text": "silhouette",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_main_main_authorship_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Dans ces dessins non signés, on reconnaît la main du même artiste.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "authorship",
+              "correct": true
+            },
+            {
+              "text": "price",
+              "correct": false
+            },
+            {
+              "text": "age",
+              "correct": false
+            },
+            {
+              "text": "location",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_main_main_authorship_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "La main du maître se reconnaît dans ce tableau : les couleurs et la manière de peindre les visages lui sont propres.",
+          "prompt": "Quel mot évoque l’auteur reconnaissable à son travail ?",
+          "choices": [
+            {
+              "text": "tableau",
+              "correct": false
+            },
+            {
+              "text": "couleurs",
+              "correct": false
+            },
+            {
+              "text": "visages",
+              "correct": false
+            },
+            {
+              "text": "main",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

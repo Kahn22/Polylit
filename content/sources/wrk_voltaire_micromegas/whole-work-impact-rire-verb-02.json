@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T04:37:45.954Z",
+  "sense": {
+    "id": "sns_fr_rire_laugh",
+    "lemmaId": "lem_cendrillon_rire_verb_b8ffecde49",
+    "gloss": "to laugh",
+    "definition": "Exprimer la gaieté ou l’amusement par le rire."
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 1,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_4_5",
+      "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_1_3",
+      "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_6_8"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_fr_riant_rire_verb:sns_fr_rire_laugh",
+      "surface": "riant",
+      "lemma": "rire",
+      "currentRevision": "rev_e8b97c21ed79fed335a45b839b22663c1009cdbed7355deeee0e4065c46e17d1",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_cendrillon_9c7573f430d1a01b4adb2071",
+          "workId": "wrk_perrault_cendrillon",
+          "unitId": "unt_perrault_cendrillon_029",
+          "passage": "on la porta chez les deux sœurs, qui firent tout leur possible pour faire entrer leur pied dans la pentoufle, mais elles ne purent en venir à bout. Cendrillon, qui les regardoit, et qui reconnut sa pentoufle, dit en riant, que je voye si elle ne me serait pas bonne : ses sœurs se mirent à rire et à se moquer d’elle. Le Gentilhomme qui faisoit l’assay de la pentoufle, ayant regardé attentivement Cendrillon, et la trouvant fort belle, dit que cela estoit juste, et qu’il avoit ordre de l’essayer à toutes les filles :",
+          "span": [
+            216,
+            221
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_4_5",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Il accueille cette plaisanterie en _____ de bon cœur.",
+          "choices": [
+            {
+              "text": "rit",
+              "correct": false
+            },
+            {
+              "text": "rirent",
+              "correct": false
+            },
+            {
+              "text": "riant",
+              "correct": true
+            },
+            {
+              "text": "rire",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_1_3",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Elle répondit en riant, amusée par la plaisanterie.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "crying",
+              "correct": false
+            },
+            {
+              "text": "yawning",
+              "correct": false
+            },
+            {
+              "text": "coughing",
+              "correct": false
+            },
+            {
+              "text": "laughing",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_fr_rire_laugh_fr_riant_rire_verb_levels_6_8",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "En riant, elle demanda à essayer la chaussure.",
+          "prompt": "Quel participe exprime une manifestation d’amusement ?",
+          "choices": [
+            {
+              "text": "chaussure",
+              "correct": false
+            },
+            {
+              "text": "riant",
+              "correct": true
+            },
+            {
+              "text": "demanda",
+              "correct": false
+            },
+            {
+              "text": "essayer",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-01T07:45:22.328Z",
+  "sense": {
+    "id": "sns_zola_secret_noun",
+    "lemmaId": "lem_zola_secret_noun",
+    "gloss": "secrets",
+    "definition": "informations tenues cachées et connues de peu de personnes"
+  },
+  "changeType": "proposed sense edit only; no mutation or approval performed",
+  "impact": {
+    "activeIdentityCount": 1,
+    "occurrenceCount": 2,
+    "activeQuizCount": 3,
+    "historicalQuizCount": 0,
+    "affectedQuizIds": [
+      "qiz_zola_secrets_secret_noun_intermediate",
+      "qiz_zola_secrets_secret_noun_advanced",
+      "qiz_zola_secrets_secret_noun_early"
+    ],
+    "note": "Editing this shared sense changes the exact revision of every listed identity and quiz target. Re-review their passages and answer choices before rebinding approvals. If a use has a distinct meaning, apply the documented fresh-on-view identity policy instead of relabeling its old mastery."
+  },
+  "identities": [
+    {
+      "id": "srf_zola_secrets_secret_noun:sns_zola_secret_noun",
+      "surface": "secrets",
+      "lemma": "secret",
+      "currentRevision": "rev_f39cd89f2cc1872cdd00e64ce5dc4edb099cf87812fe01046024896b71887eb5",
+      "approval": "approved",
+      "occurrences": [
+        {
+          "id": "occ_zola_1956ac243b8d2982d64486f0",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_034",
+          "passage": "Et l’instruction a été faite ainsi, comme dans une chronique du quinzième siècle, au milieu du mystère, avec une complication d’expédients farouches, tout cela basé sur une seule charge enfantine, ce bordereau imbécile, qui n’était pas seulement une trahison vulgaire, qui était aussi la plus impudente des escroqueries, car les fameux secrets livrés se trouvaient presque tous sans valeur.",
+          "span": [
+            336,
+            343
+          ]
+        },
+        {
+          "id": "occ_zola_5e0e4eb61b4e7d7482b0f21f",
+          "workId": "wrk_zola_jaccuse",
+          "unitId": "unt_zola_jaccuse_097",
+          "passage": "Seulement, il est des secrets qu’il ne fait pas bon d’avoir surpris.",
+          "span": [
+            22,
+            29
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "qiz_zola_secrets_secret_noun_intermediate",
+          "active": true,
+          "band": "levels_4_5",
+          "approval": "approved",
+          "context": "Ces informations doivent rester cachées : ne révèle pas nos _____ à qui que ce soit.",
+          "choices": [
+            {
+              "text": "outils",
+              "correct": false
+            },
+            {
+              "text": "bijoux",
+              "correct": false
+            },
+            {
+              "text": "bagages",
+              "correct": false
+            },
+            {
+              "text": "secrets",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_secrets_secret_noun_advanced",
+          "active": true,
+          "band": "levels_6_8",
+          "approval": "approved",
+          "context": "Les secrets du laboratoire sont enfermés dans un coffre auquel seules deux personnes ont accès.",
+          "prompt": "Quel mot désigne les informations gardées cachées ?",
+          "choices": [
+            {
+              "text": "personnes",
+              "correct": false
+            },
+            {
+              "text": "secrets",
+              "correct": true
+            },
+            {
+              "text": "laboratoire",
+              "correct": false
+            },
+            {
+              "text": "coffre",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": "qiz_zola_secrets_secret_noun_early",
+          "active": true,
+          "band": "levels_1_3",
+          "approval": "approved",
+          "context": "Il confie ses secrets à une amie qui promet de ne les révéler à personne.",
+          "prompt": "Meaning",
+          "choices": [
+            {
+              "text": "secrets",
+              "correct": true
+            },
+            {
+              "text": "announcements",
+              "correct": false
+            },
+            {
+              "text": "orders",
+              "correct": false
+            },
+            {
+              "text": "greetings",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "historicalDependentQuizzes": []
+}

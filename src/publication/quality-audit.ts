@@ -1,5 +1,5 @@
 import type { loadPublication } from "./repository.js";
-import { vocabularyIdentityKey } from "../domain/runtime.js";
+import { vocabularyIdentityKey, expressionMasteryKey } from "../domain/runtime.js";
 import { approvalIssues, pendingReview, type ReviewKind } from "./editorial.js";
 import { normalizeText, quizEditorialIssues } from "./quiz-authoring.js";
 import type { Language } from "./format.js";
@@ -23,10 +23,10 @@ export function editorialSubjects(publication: Publication): EditorialSubject[] 
   // Historical questions stay recoverable in source, but release checks cover
   // the same occurrence-referenced identities as delivery. Reusing one later
   // makes its exact-version approval mandatory again; it is never auto-approved.
-  const expressionIds = new Set(expressionCatalog.occurrences.map(item => item.identityId));
+  const expressionKeys = new Set(expressionCatalog.occurrences.map(item => expressionMasteryKey(item.identityId, item.surfaceId)));
   const subjects: EditorialSubject[] = [...publication.preparedQuizzes.values()].filter(quiz => quiz.subject.kind === "vocabulary"
     ? occurrences.has(vocabularyIdentityKey(quiz.subject.surfaceFormId, quiz.subject.senseId))
-    : expressionIds.has(quiz.subject.expressionId)).map(quiz => {
+    : expressionKeys.has(expressionMasteryKey(quiz.subject.expressionId, quiz.subject.surfaceId))).map(quiz => {
     const subject = quiz.subject;
     const target = subject.kind === "expression" ? expressionCatalog.identities.find(identity => identity.id === subject.expressionId) : { surface: surfaces.get(subject.surfaceFormId), sense: senses.get(subject.senseId), lemma: lemmas.get(surfaces.get(subject.surfaceFormId)!.lemmaId) };
     return { id: quiz.id, kind: "quiz", language: quiz.language, value: { quiz, target } };
@@ -55,7 +55,7 @@ export function auditEditorialQuality(publication: Publication): QualityIssue[] 
   const reviews = new Map(publication.reviews.map(review => [review.id, review]));
   const quizGroups = new Map<string, string[]>();
   for (const quiz of publication.preparedQuizzes.values()) {
-    const key = quiz.subject.kind === "expression" ? quiz.subject.expressionId : vocabularyIdentityKey(quiz.subject.surfaceFormId, quiz.subject.senseId);
+    const key = quiz.subject.kind === "expression" ? expressionMasteryKey(quiz.subject.expressionId, quiz.subject.surfaceId) : vocabularyIdentityKey(quiz.subject.surfaceFormId, quiz.subject.senseId);
     const group = quizGroups.get(key) ?? []; group.push(normalizeText(quiz.context, quiz.language)); quizGroups.set(key, group);
   }
   return editorialSubjects(publication).flatMap(subject => {
@@ -63,7 +63,7 @@ export function auditEditorialQuality(publication: Publication): QualityIssue[] 
     if (subject.kind === "quiz") {
       const quiz = publication.preparedQuizzes.get(subject.id)!;
       issues.push(...quizEditorialIssues(quiz));
-      const key = quiz.subject.kind === "expression" ? quiz.subject.expressionId : vocabularyIdentityKey(quiz.subject.surfaceFormId, quiz.subject.senseId);
+      const key = quiz.subject.kind === "expression" ? expressionMasteryKey(quiz.subject.expressionId, quiz.subject.surfaceId) : vocabularyIdentityKey(quiz.subject.surfaceFormId, quiz.subject.senseId);
       const contexts = quizGroups.get(key)!;
       if (contexts.length !== 3 || new Set(contexts).size !== 3) issues.push("three_distinct_contexts_required");
     }
