@@ -10,6 +10,8 @@ import zipfile
 
 CANDIDATE = "content/sources/wrk_voltaire_micromegas"
 TRACKED = (
+    ".gitattributes", "package.json", "package-lock.json", "README.md",
+    "tests/git-content-bytes.test.ts", "docs/CLEAN_CHECKOUT_AUDIT_379.txt",
     "src/app/main.ts", "src/app/entry.ts", "src/app/routes.ts", "src/app/paths.ts", "src/app/quiz-view.ts",
     "public/landing-bootstrap.js", "tests/app-startup.test.ts", "tests/app-interactions.test.ts",
     "tests/landing-navigation.test.ts", "tests/navigation-build.test.ts", "tests/routes.test.ts",

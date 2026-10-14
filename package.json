@@ -5,16 +5,17 @@
   "type": "module",
   "description": "A multilingual reading and vocabulary-learning studio for public-domain literature.",
   "scripts": {
+    "predev": "npm run content:build",
     "dev": "vite",
-    "build": "npm run build:domain && npm run build:delivery && npm run build:app && npm run check:performance",
+    "build": "npm run build:app && npm run check:performance",
     "build:domain": "tsc -p tsconfig.build.json",
-    "build:delivery": "node dist/cli/build-delivery.js",
+    "build:delivery": "npm run build:domain && node dist/cli/build-delivery.js",
     "build:local-review": "npm run build:domain && node dist/cli/build-delivery.js --local-review && vite build --outDir review-build && node scripts/create-route-pages.mjs --directory review-build && node scripts/check-performance.mjs --directory review-build",
-    "build:app": "vite build && node scripts/create-route-pages.mjs",
+    "build:app": "npm run build:delivery && vite build && node scripts/create-route-pages.mjs",
     "check": "npm run typecheck && npm run sources:check && python3 -m unittest discover -s tests -p 'test_checkpoint_integrity.py' && npm test",
     "check:performance": "node scripts/check-performance.mjs",
     "content:prepare": "npm run build:domain && node dist/cli/prepare-fixtures.js",
-    "content:build": "npm run build:domain && npm run build:delivery",
+    "content:build": "npm run build:delivery",
     "content:check": "npm run build:domain && node dist/cli/validate-publication.js",
     "publication:import": "npm run build:domain && node dist/cli/import-work.js",
     "publication:release-check": "npm run build:domain && node dist/cli/check-editorial-release.js",
@@ -28,7 +29,8 @@
     "audit:zola": "npm run build:domain && node dist/cli/audit-zola.js",
     "content:review:parure:01": "npm run build:domain && node scripts/prepare-maupassant-batch-01.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run --dir tests --maxWorkers 2",
+    "pretest": "npm run build:domain",
+    "test": "vitest run --dir tests --maxWorkers 2 --testTimeout 30000",
     "sources:check": "npm run build:domain && node scripts/check-text-sources.mjs",
     "source-corrections:apply": "npm run build:domain && node scripts/apply-source-corrections.mjs",
     "source-corrections:finalize": "npm run build:domain && node scripts/finalize-source-corrections.mjs",
@@ -134,7 +136,7 @@
     "editorial:review:fr:clear:10": "npm run build:domain && node scripts/review-french-clear-batch-10.mjs"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=22.12.0"
   },
   "dependencies": {
     "zod": "^4.1.5"

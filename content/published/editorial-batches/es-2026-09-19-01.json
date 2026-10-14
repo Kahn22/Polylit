@@ -1,0 +1,1332 @@
+{
+  "version": 1,
+  "id": "es-2026-09-19-01",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19",
+  "policy": "polylit-editorial-v2",
+  "masteryIdsChanged": false,
+  "forms": [
+    "casa",
+    "cama",
+    "almohadón",
+    "dormitorio",
+    "noche",
+    "paredes",
+    "puerta",
+    "pasos"
+  ],
+  "changes": [
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0120_casa",
+      "before": {
+        "id": "lem_es_0120_casa",
+        "headword": "casa",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0120_casa",
+        "headword": "casa",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0120_casa",
+      "before": {
+        "id": "sns_es_0120_casa",
+        "lemmaId": "lem_es_0120_casa",
+        "gloss": "house",
+        "definition": "house"
+      },
+      "after": {
+        "id": "sns_es_0120_casa",
+        "lemmaId": "lem_es_0120_casa",
+        "gloss": "house",
+        "definition": "Edificio o vivienda donde habitan personas."
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0120_casa",
+      "before": {
+        "id": "srf_es_0120_casa",
+        "lemmaId": "lem_es_0120_casa",
+        "form": "casa",
+        "normalized": "casa"
+      },
+      "after": {
+        "id": "srf_es_0120_casa",
+        "lemmaId": "lem_es_0120_casa",
+        "form": "casa",
+        "normalized": "casa",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0120_casa_early",
+      "before": {
+        "id": "qiz_es_0120_casa_early",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "contextFrench": "La forma estudiada es «casa».",
+        "correctAnswer": "house",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "casa",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "house",
+          "married",
+          "to marry her",
+          "almost"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0120_casa_early",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "La casa tiene dos dormitorios y un pequeño jardín.",
+        "targetText": "casa",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "house",
+          "room",
+          "street",
+          "roof"
+        ],
+        "correctAnswer": "house"
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0120_casa_intermediate",
+      "before": {
+        "id": "qiz_es_0120_casa_intermediate",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "casa",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "casa",
+          "casado",
+          "casados",
+          "casarla"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0120_casa_intermediate",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Compraron una ___ para vivir en ella con sus hijos.",
+        "choicesFrench": [
+          "casa",
+          "maleta",
+          "mesa",
+          "camisa"
+        ],
+        "correctAnswer": "casa"
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0120_casa_advanced",
+      "before": {
+        "id": "qiz_es_0120_casa_advanced",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "contextFrench": "Compara estas formas: casa, casado, casados, casarla.",
+        "correctAnswer": "casa",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «house»?",
+        "choicesFrench": [
+          "casa",
+          "casado",
+          "casados",
+          "casarla"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0120_casa_advanced",
+        "surfaceFormId": "srf_es_0120_casa",
+        "senseId": "sns_es_0120_casa",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "La casa está al final de la calle, junto a un jardín rodeado por un muro.",
+        "promptFrench": "¿Qué palabra nombra el edificio donde vive una familia?",
+        "choicesFrench": [
+          "casa",
+          "calle",
+          "jardín",
+          "muro"
+        ],
+        "correctAnswer": "casa"
+      },
+      "reason": "Checked all six occurrences in both works: each denotes a dwelling, including a casa de and the personified casa hostil. No sense split or identity change. Each distractor names a distinct object or place, and each context is independently authored."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0112_cama",
+      "before": {
+        "id": "lem_es_0112_cama",
+        "headword": "cama",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0112_cama",
+        "headword": "cama",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0112_cama",
+      "before": {
+        "id": "sns_es_0112_cama",
+        "lemmaId": "lem_es_0112_cama",
+        "gloss": "bed",
+        "definition": "bed"
+      },
+      "after": {
+        "id": "sns_es_0112_cama",
+        "lemmaId": "lem_es_0112_cama",
+        "gloss": "bed",
+        "definition": "Mueble preparado para acostarse, dormir o descansar."
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0112_cama",
+      "before": {
+        "id": "srf_es_0112_cama",
+        "lemmaId": "lem_es_0112_cama",
+        "form": "cama",
+        "normalized": "cama"
+      },
+      "after": {
+        "id": "srf_es_0112_cama",
+        "lemmaId": "lem_es_0112_cama",
+        "form": "cama",
+        "normalized": "cama",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0112_cama_early",
+      "before": {
+        "id": "qiz_es_0112_cama_early",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "contextFrench": "La forma estudiada es «cama».",
+        "correctAnswer": "bed",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "cama",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "bed",
+          "was walking",
+          "shirt",
+          "song"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0112_cama_early",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Antes de acostarse, puso una manta sobre la cama.",
+        "targetText": "cama",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "bed",
+          "blanket",
+          "cupboard",
+          "pillow"
+        ],
+        "correctAnswer": "bed"
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0112_cama_intermediate",
+      "before": {
+        "id": "qiz_es_0112_cama_intermediate",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "cama",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "cama",
+          "caminaba",
+          "camisa",
+          "canto"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0112_cama_intermediate",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Después de ponerse el pijama, se metió en la ___ para dormir.",
+        "choicesFrench": [
+          "cama",
+          "mesa",
+          "silla",
+          "alfombra"
+        ],
+        "correctAnswer": "cama"
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0112_cama_advanced",
+      "before": {
+        "id": "qiz_es_0112_cama_advanced",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "contextFrench": "Compara estas formas: cama, caminaba, camisa, canto.",
+        "correctAnswer": "cama",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «bed»?",
+        "choicesFrench": [
+          "cama",
+          "caminaba",
+          "camisa",
+          "canto"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0112_cama_advanced",
+        "surfaceFormId": "srf_es_0112_cama",
+        "senseId": "sns_es_0112_cama",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "En el dormitorio había una cama, una silla y una mesa junto a la ventana.",
+        "promptFrench": "¿Qué mueble está destinado a dormir acostado?",
+        "choicesFrench": [
+          "cama",
+          "silla",
+          "mesa",
+          "ventana"
+        ],
+        "correctAnswer": "cama"
+      },
+      "reason": "Checked all eight occurrences, including caído en cama: the bed sense is preserved within that construction. Alternatives do not satisfy the intended furniture definition or the natural meterse en la cama construction."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0037_almohadon",
+      "before": {
+        "id": "lem_es_0037_almohadon",
+        "headword": "almohadón",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0037_almohadon",
+        "headword": "almohadón",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0037_almohadon",
+      "before": {
+        "id": "sns_es_0037_almohadon",
+        "lemmaId": "lem_es_0037_almohadon",
+        "gloss": "pillow",
+        "definition": "pillow"
+      },
+      "after": {
+        "id": "sns_es_0037_almohadon",
+        "lemmaId": "lem_es_0037_almohadon",
+        "gloss": "pillow",
+        "definition": "Pieza de tela rellena de material blando que sirve de apoyo para la cabeza o el cuerpo."
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0037_almohadon",
+      "before": {
+        "id": "srf_es_0037_almohadon",
+        "lemmaId": "lem_es_0037_almohadon",
+        "form": "almohadón",
+        "normalized": "almohadón"
+      },
+      "after": {
+        "id": "srf_es_0037_almohadon",
+        "lemmaId": "lem_es_0037_almohadon",
+        "form": "almohadón",
+        "normalized": "almohadón",
+        "grammaticalFeatures": {
+          "gender": "masculine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0037_almohadon_early",
+      "before": {
+        "id": "qiz_es_0037_almohadon_early",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "contextFrench": "La forma estudiada es «almohadón».",
+        "correctAnswer": "pillow",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "almohadón",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "pillow",
+          "pillows",
+          "tall",
+          "haughty"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0037_almohadon_early",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Se acomodó un almohadón bajo la cabeza para leer en el sofá.",
+        "targetText": "almohadón",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "pillow",
+          "blanket",
+          "mattress",
+          "towel"
+        ],
+        "correctAnswer": "pillow"
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0037_almohadon_intermediate",
+      "before": {
+        "id": "qiz_es_0037_almohadon_intermediate",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "almohadón",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "almohadón",
+          "almohadones",
+          "alta",
+          "altas"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0037_almohadon_intermediate",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "La funda de tela estaba rellena de plumas y formaba un ___ mullido para apoyar la cabeza.",
+        "choicesFrench": [
+          "almohadón",
+          "armario",
+          "espejo",
+          "cajón"
+        ],
+        "correctAnswer": "almohadón"
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0037_almohadon_advanced",
+      "before": {
+        "id": "qiz_es_0037_almohadon_advanced",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "contextFrench": "Compara estas formas: almohadón, almohadones, alta, altas.",
+        "correctAnswer": "almohadón",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «pillow»?",
+        "choicesFrench": [
+          "almohadón",
+          "almohadones",
+          "alta",
+          "altas"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0037_almohadon_advanced",
+        "surfaceFormId": "srf_es_0037_almohadon",
+        "senseId": "sns_es_0037_almohadon",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Puso un almohadón sobre el sofá y dejó una manta doblada junto al sillón.",
+        "promptFrench": "¿Qué objeto pequeño, relleno y cubierto de tela colocó sobre el asiento?",
+        "choicesFrench": [
+          "almohadón",
+          "sofá",
+          "manta",
+          "sillón"
+        ],
+        "correctAnswer": "almohadón"
+      },
+      "reason": "Checked all four occurrences: a stuffed pillow in the bed. The advanced clue distinguishes the removable cushion from the upholstered seats and blanket. The correct surface retains its accent."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0251_dormitorio",
+      "before": {
+        "id": "lem_es_0251_dormitorio",
+        "headword": "dormitorio",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0251_dormitorio",
+        "headword": "dormitorio",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0251_dormitorio",
+      "before": {
+        "id": "sns_es_0251_dormitorio",
+        "lemmaId": "lem_es_0251_dormitorio",
+        "gloss": "bedroom",
+        "definition": "bedroom"
+      },
+      "after": {
+        "id": "sns_es_0251_dormitorio",
+        "lemmaId": "lem_es_0251_dormitorio",
+        "gloss": "bedroom",
+        "definition": "Habitación de una vivienda destinada principalmente a dormir."
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0251_dormitorio",
+      "before": {
+        "id": "srf_es_0251_dormitorio",
+        "lemmaId": "lem_es_0251_dormitorio",
+        "form": "dormitorio",
+        "normalized": "dormitorio"
+      },
+      "after": {
+        "id": "srf_es_0251_dormitorio",
+        "lemmaId": "lem_es_0251_dormitorio",
+        "form": "dormitorio",
+        "normalized": "dormitorio",
+        "grammaticalFeatures": {
+          "gender": "masculine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0251_dormitorio_early",
+      "before": {
+        "id": "qiz_es_0251_dormitorio_early",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "contextFrench": "La forma estudiada es «dormitorio».",
+        "correctAnswer": "bedroom",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "dormitorio",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "bedroom",
+          "two",
+          "dowry",
+          "doubt"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0251_dormitorio_early",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Los niños guardaron sus juguetes y se acostaron en el dormitorio.",
+        "targetText": "dormitorio",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "bedroom",
+          "dining room",
+          "courtyard",
+          "kitchen"
+        ],
+        "correctAnswer": "bedroom"
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0251_dormitorio_intermediate",
+      "before": {
+        "id": "qiz_es_0251_dormitorio_intermediate",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "dormitorio",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "dormitorio",
+          "dos",
+          "dote",
+          "duda"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0251_dormitorio_intermediate",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "La habitación donde duermo, con mi cama y mi armario, es mi ___.",
+        "choicesFrench": [
+          "dormitorio",
+          "comedor",
+          "pasillo",
+          "baño"
+        ],
+        "correctAnswer": "dormitorio"
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0251_dormitorio_advanced",
+      "before": {
+        "id": "qiz_es_0251_dormitorio_advanced",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "contextFrench": "Compara estas formas: dormitorio, dos, dote, duda.",
+        "correctAnswer": "dormitorio",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «bedroom»?",
+        "choicesFrench": [
+          "dormitorio",
+          "dos",
+          "dote",
+          "duda"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0251_dormitorio_advanced",
+        "surfaceFormId": "srf_es_0251_dormitorio",
+        "senseId": "sns_es_0251_dormitorio",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "El dormitorio está arriba; la cocina, el comedor y el baño están abajo.",
+        "promptFrench": "¿Qué habitación se utiliza principalmente para dormir?",
+        "choicesFrench": [
+          "dormitorio",
+          "cocina",
+          "comedor",
+          "baño"
+        ],
+        "correctAnswer": "dormitorio"
+      },
+      "reason": "Checked all four source occurrences: the sleeping room, contrasted explicitly with la sala. All alternatives are places with different primary functions."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0561_noche",
+      "before": {
+        "id": "lem_es_0561_noche",
+        "headword": "noche",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0561_noche",
+        "headword": "noche",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0561_noche",
+      "before": {
+        "id": "sns_es_0561_noche",
+        "lemmaId": "lem_es_0561_noche",
+        "gloss": "night",
+        "definition": "night"
+      },
+      "after": {
+        "id": "sns_es_0561_noche",
+        "lemmaId": "lem_es_0561_noche",
+        "gloss": "night",
+        "definition": "Período comprendido entre la puesta y la salida del sol."
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0561_noche",
+      "before": {
+        "id": "srf_es_0561_noche",
+        "lemmaId": "lem_es_0561_noche",
+        "form": "noche",
+        "normalized": "noche"
+      },
+      "after": {
+        "id": "srf_es_0561_noche",
+        "lemmaId": "lem_es_0561_noche",
+        "form": "noche",
+        "normalized": "noche",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_early",
+      "before": {
+        "id": "qiz_es_0561_noche_early",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "La forma estudiada es «noche».",
+        "correctAnswer": "night",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "noche",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "night",
+          "nights",
+          "us",
+          "notable"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_early",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Durante la noche, las estrellas brillaban sobre el pueblo.",
+        "targetText": "noche",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "night",
+          "noon",
+          "morning",
+          "dawn"
+        ],
+        "correctAnswer": "night"
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_intermediate",
+      "before": {
+        "id": "qiz_es_0561_noche_intermediate",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "noche",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "noche",
+          "noches",
+          "nos",
+          "notable"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_intermediate",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "El período de oscuridad entre la puesta y la salida del sol se llama ___.",
+        "choicesFrench": [
+          "noche",
+          "tarde",
+          "mañana",
+          "madrugada"
+        ],
+        "correctAnswer": "noche"
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0561_noche_advanced",
+      "before": {
+        "id": "qiz_es_0561_noche_advanced",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "contextFrench": "Compara estas formas: noche, noches, nos, notable.",
+        "correctAnswer": "noche",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «night»?",
+        "choicesFrench": [
+          "noche",
+          "noches",
+          "nos",
+          "notable"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0561_noche_advanced",
+        "surfaceFormId": "srf_es_0561_noche",
+        "senseId": "sns_es_0561_noche",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "La noche fue fría, pero al amanecer salió el sol y la mañana resultó agradable.",
+        "promptFrench": "¿Qué palabra designa el período entre la puesta y la salida del sol?",
+        "choicesFrench": [
+          "noche",
+          "amanecer",
+          "sol",
+          "mañana"
+        ],
+        "correctAnswer": "noche"
+      },
+      "reason": "Checked all five occurrences, including both tokens in Noche a noche and de noche. The completion defines the entire interval; madrugada is only a portion, not an equally correct answer. The separate plural noches is not merged or awarded mastery."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0606_paredes",
+      "before": {
+        "id": "lem_es_0606_paredes",
+        "headword": "paredes",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0606_paredes",
+        "headword": "pared",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0606_paredes",
+      "before": {
+        "id": "sns_es_0606_paredes",
+        "lemmaId": "lem_es_0606_paredes",
+        "gloss": "walls",
+        "definition": "walls"
+      },
+      "after": {
+        "id": "sns_es_0606_paredes",
+        "lemmaId": "lem_es_0606_paredes",
+        "gloss": "walls",
+        "definition": "Superficies verticales de una construcción que delimitan o separan espacios."
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0606_paredes",
+      "before": {
+        "id": "srf_es_0606_paredes",
+        "lemmaId": "lem_es_0606_paredes",
+        "form": "paredes",
+        "normalized": "paredes"
+      },
+      "after": {
+        "id": "srf_es_0606_paredes",
+        "lemmaId": "lem_es_0606_paredes",
+        "form": "paredes",
+        "normalized": "paredes",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "plural"
+        }
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0606_paredes_early",
+      "before": {
+        "id": "qiz_es_0606_paredes_early",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "contextFrench": "La forma estudiada es «paredes».",
+        "correctAnswer": "walls",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "paredes",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "walls",
+          "vine",
+          "part",
+          "particularly"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0606_paredes_early",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Pintaron las paredes de la habitación de color azul.",
+        "targetText": "paredes",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "walls",
+          "roofs",
+          "floors",
+          "windows"
+        ],
+        "correctAnswer": "walls"
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0606_paredes_intermediate",
+      "before": {
+        "id": "qiz_es_0606_paredes_intermediate",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "paredes",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "paredes",
+          "parra",
+          "parte",
+          "particularmente"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0606_paredes_intermediate",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "El techo está arriba y el suelo abajo; las superficies verticales que rodean la habitación son las ___.",
+        "choicesFrench": [
+          "paredes",
+          "ventanas",
+          "escaleras",
+          "puertas"
+        ],
+        "correctAnswer": "paredes"
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0606_paredes_advanced",
+      "before": {
+        "id": "qiz_es_0606_paredes_advanced",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "contextFrench": "Compara estas formas: paredes, parra, parte, particularmente.",
+        "correctAnswer": "paredes",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «walls»?",
+        "choicesFrench": [
+          "paredes",
+          "parra",
+          "parte",
+          "particularmente"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0606_paredes_advanced",
+        "surfaceFormId": "srf_es_0606_paredes",
+        "senseId": "sns_es_0606_paredes",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Las paredes sostenían el techo; en el suelo había una alfombra cerca de las ventanas.",
+        "promptFrench": "¿Qué palabra nombra las superficies verticales que delimitan la habitación?",
+        "choicesFrench": [
+          "paredes",
+          "techo",
+          "suelo",
+          "ventanas"
+        ],
+        "correctAnswer": "paredes"
+      },
+      "reason": "Checked the sole source occurrence altas paredes. Corrected the dictionary headword to singular pared while preserving the existing surface and sense IDs. Windows and doors are openings/elements in walls, not the enclosing surfaces as a whole."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0668_puerta",
+      "before": {
+        "id": "lem_es_0668_puerta",
+        "headword": "puerta",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0668_puerta",
+        "headword": "puerta",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0668_puerta",
+      "before": {
+        "id": "sns_es_0668_puerta",
+        "lemmaId": "lem_es_0668_puerta",
+        "gloss": "door",
+        "definition": "door"
+      },
+      "after": {
+        "id": "sns_es_0668_puerta",
+        "lemmaId": "lem_es_0668_puerta",
+        "gloss": "door",
+        "definition": "Elemento que se abre y se cierra para permitir o impedir el paso por la entrada de un recinto."
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0668_puerta",
+      "before": {
+        "id": "srf_es_0668_puerta",
+        "lemmaId": "lem_es_0668_puerta",
+        "form": "puerta",
+        "normalized": "puerta"
+      },
+      "after": {
+        "id": "srf_es_0668_puerta",
+        "lemmaId": "lem_es_0668_puerta",
+        "form": "puerta",
+        "normalized": "puerta",
+        "grammaticalFeatures": {
+          "gender": "feminine",
+          "number": "singular"
+        }
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_early",
+      "before": {
+        "id": "qiz_es_0668_puerta_early",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "La forma estudiada es «puerta».",
+        "correctAnswer": "door",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "puerta",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "door",
+          "well",
+          "set",
+          "they pressed"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_early",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Cerró la puerta con llave antes de salir.",
+        "targetText": "puerta",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "door",
+          "roof",
+          "key",
+          "staircase"
+        ],
+        "correctAnswer": "door"
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_intermediate",
+      "before": {
+        "id": "qiz_es_0668_puerta_intermediate",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "puerta",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "puerta",
+          "pues",
+          "puesta",
+          "pulsaban"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_intermediate",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Giró el picaporte, abrió la ___ y pasó del pasillo a la habitación.",
+        "choicesFrench": [
+          "puerta",
+          "llave",
+          "pared",
+          "escalera"
+        ],
+        "correctAnswer": "puerta"
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0668_puerta_advanced",
+      "before": {
+        "id": "qiz_es_0668_puerta_advanced",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "contextFrench": "Compara estas formas: puerta, pues, puesta, pulsaban.",
+        "correctAnswer": "puerta",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «door»?",
+        "choicesFrench": [
+          "puerta",
+          "pues",
+          "puesta",
+          "pulsaban"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0668_puerta_advanced",
+        "surfaceFormId": "srf_es_0668_puerta",
+        "senseId": "sns_es_0668_puerta",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Junto a la puerta había una ventana; una escalera conducía al piso de arriba y una lámpara iluminaba la entrada.",
+        "promptFrench": "¿Qué elemento de la entrada se abre para pasar normalmente de fuera a dentro?",
+        "choicesFrench": [
+          "puerta",
+          "ventana",
+          "escalera",
+          "lámpara"
+        ],
+        "correctAnswer": "puerta"
+      },
+      "reason": "Checked the source puerta de calle: the entrance door. The completion's picaporte and passage between rooms disambiguate the answer; the advanced clue specifies the normal entrance, not climbing through a window."
+    },
+    {
+      "kind": "lemmas",
+      "id": "lem_es_0615_pasos",
+      "before": {
+        "id": "lem_es_0615_pasos",
+        "headword": "pasos",
+        "partOfSpeech": "Spanish vocabulary"
+      },
+      "after": {
+        "id": "lem_es_0615_pasos",
+        "headword": "paso",
+        "partOfSpeech": "noun"
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_es_0615_pasos",
+      "before": {
+        "id": "sns_es_0615_pasos",
+        "lemmaId": "lem_es_0615_pasos",
+        "gloss": "steps",
+        "definition": "steps"
+      },
+      "after": {
+        "id": "sns_es_0615_pasos",
+        "lemmaId": "lem_es_0615_pasos",
+        "gloss": "steps",
+        "definition": "Movimientos sucesivos de los pies al caminar y el sonido que producen."
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_es_0615_pasos",
+      "before": {
+        "id": "srf_es_0615_pasos",
+        "lemmaId": "lem_es_0615_pasos",
+        "form": "pasos",
+        "normalized": "pasos"
+      },
+      "after": {
+        "id": "srf_es_0615_pasos",
+        "lemmaId": "lem_es_0615_pasos",
+        "form": "pasos",
+        "normalized": "pasos",
+        "grammaticalFeatures": {
+          "gender": "masculine",
+          "number": "plural"
+        }
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_early",
+      "before": {
+        "id": "qiz_es_0615_pasos_early",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "La forma estudiada es «pasos».",
+        "correctAnswer": "steps",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "pasos",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "steps",
+          "tantrum",
+          "paws",
+          "courtyard"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_early",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "contextFrench": "Oí sus pasos en el pasillo antes de que llamara a la puerta.",
+        "targetText": "pasos",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "footsteps",
+          "whispers",
+          "knocks",
+          "breaths"
+        ],
+        "correctAnswer": "footsteps"
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_intermediate",
+      "before": {
+        "id": "qiz_es_0615_pasos_intermediate",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Completa con la forma exacta: ___.",
+        "correctAnswer": "pasos",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "pasos",
+          "pataleta",
+          "patas",
+          "patio"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_intermediate",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "contextFrench": "Al caminar por la grava, sus ___ hacían crujir las piedras.",
+        "choicesFrench": [
+          "pasos",
+          "manos",
+          "ojos",
+          "sueños"
+        ],
+        "correctAnswer": "pasos"
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_0615_pasos_advanced",
+      "before": {
+        "id": "qiz_es_0615_pasos_advanced",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "contextFrench": "Compara estas formas: pasos, pataleta, patas, patio.",
+        "correctAnswer": "pasos",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué forma significa «steps»?",
+        "choicesFrench": [
+          "pasos",
+          "pataleta",
+          "patas",
+          "patio"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_0615_pasos_advanced",
+        "surfaceFormId": "srf_es_0615_pasos",
+        "senseId": "sns_es_0615_pasos",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "contextFrench": "Sus pasos resonaban en la escalera, mientras sus llaves tintineaban y su voz llegaba hasta el patio.",
+        "promptFrench": "¿Qué palabra se refiere a los movimientos de los pies al caminar, cuyo sonido se oye aquí?",
+        "choicesFrench": [
+          "pasos",
+          "llaves",
+          "voz",
+          "patio"
+        ],
+        "correctAnswer": "pasos"
+      },
+      "reason": "Checked all three occurrences: audible footsteps, including the sound muffled by a carpet. Normalized the lemma to paso without changing mastery IDs. Did not combine it with the separately stored paso in paso por esa funda, which requires a verb/sense correction review."
+    }
+  ]
+}

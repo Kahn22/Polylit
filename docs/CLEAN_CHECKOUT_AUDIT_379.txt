@@ -1,0 +1,75 @@
+POLYLIT CLEAN-CHECKOUT AUDIT — CHECKPOINT 379
+Date: 2026-10-14 UTC
+GitHub baseline: 0587553edb34b76daf2050723b0889a71f36c95e
+Scope: repeat failures caused by absent generated files, checkout transformations,
+packaging omissions, build ordering, and machine-local prerequisites.
+
+CONFIRMED FINDINGS AND CORRECTIONS
+1. Source validation imported dist modules before compilation. The user's latest
+   package.json change fixes this. That change is retained in this checkpoint.
+2. Git's existing '* text=auto' converted CRLF to LF in five evidence files.
+   Git object hashes prove these five differences are line-ending conversions
+   only. Three triggered 'Evidence changed' in run 38512328431; two more were
+   found by comparing all checkpoint files with the GitHub tree.
+   Restored the exact original bytes from verified checkpoint 378; added
+   .gitattributes rules preserving all content bytes and using LF for code.
+   No evidence checksums or editorial approvals were weakened or rewritten.
+3. Standalone npm test failed without dist. Added pretest compilation.
+4. Standalone build:delivery failed without dist. It now compiles first.
+   build:app now builds delivery content first; build and content:build share
+   that chain, avoiding repeated compilation in the normal production path.
+5. npm run dev previously launched without generating required library JSON.
+   Added predev to prepare validated delivery content before starting Vite.
+6. The checkpoint packager omitted .gitattributes. It now includes it and
+   freezes package/configuration inputs during checkpoint validation.
+7. The declared Node >=22 range admitted versions older than Vite supports.
+   Updated package/lockfile/README minimum to Node 22.12.0; CI remains Node 24.
+8. The first full fresh-clone test run exposed five-second timeouts in
+   content-heavy publication/expression/Micromegas integration tests. The npm
+   test command now allows 30 seconds per test. All assertions and the two-
+   worker limit are retained; failures are not ignored or marked as skipped.
+
+REPOSITORY COMPARISON
+All 4,109 checkpoint-378 archive entries were present in GitHub. Only the five
+line-ending changes above and the intended package.json repair differed.
+The additional GitHub files included .gitattributes, hosting metadata, and
+duplicate names such as 'package 2.json', 'index 2.html', and 'vite.config 2.ts'.
+Those duplicate files are outside the configured build/test entry points; they
+do not explain these failures. Cleanup is optional and was not performed.
+
+OTHER PREREQUISITES REVIEWED
+- npm ci installs locked dependencies; node_modules and generated content are
+  correctly excluded from Git. Do not commit dist to solve a build-order issue.
+- CI uses Node 24 and Ubuntu with Python 3 and Git. Local checking also needs
+  Python 3 and Git, in addition to the declared Node >=22.12.0 requirement.
+- check:performance is intentionally a post-build inspection command; its
+  inputs are created by build/build:local-review before CI invokes it.
+- Historical authoring utilities prepare-remaining-works.mjs and
+  prepare-curated-fables.mjs depend on /tmp/frs-kaikki-cache lexicon downloads.
+  They are not invoked by check, build, Pages deployment, or the learner app.
+  These one-off authoring utilities are not standalone clean-checkout commands.
+- Pages builds from a fresh checkout, so old generated output cannot be relied
+  upon. Raw npx vite bypasses npm's predev preparation; use npm run dev.
+- Saved checkpoint 378 predates the repairs. Use checkpoint 379 for subsequent
+  updates so copying an older package.json does not undo the fixes.
+
+VALIDATION METHOD
+The verified checkpoint was compared with GitHub's complete recursive tree.
+Cold standalone test/delivery failures were reproduced before editing.
+The corrected files are staged into a disposable Git repository and cloned
+into an empty directory. The full checkpoint command then performs npm run
+check, local-review build, editorial release gate, production build and ZIP
+integrity verification. Generated outputs are absent at the start.
+New regression tests check actual Git staging/checkout under autocrlf false,
+input and true, preserving all five restored evidence files byte-for-byte.
+Local execution uses Linux, Node 24.19.0 and npm 11.9.0; the observed GitHub
+runner uses Node 24.21.0 and npm 11.19.0. Dependencies use the same lockfile.
+The final reply reports the observed results; this file does not claim a new
+GitHub-hosted run has passed. The connector currently denies repository writes.
+
+FILES RESTORED WITHOUT CONTENT EDITS
+content/sources/wrk_palma_camisa_margarita/publication-history.html
+content/sources/wrk_samaniego_zorra_uvas/publication-history.html
+content/sources/wrk_samaniego_zorra_uvas/witness.html
+content/sources/wrk_zola_jaccuse/transcription.html
+content/sources/wrk_zola_jaccuse/witness-clean.txt

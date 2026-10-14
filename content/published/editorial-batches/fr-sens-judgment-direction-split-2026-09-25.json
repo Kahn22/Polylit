@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "id": "fr-sens-judgment-direction-split-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T15:43:18.268Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_sens_sens:sns_zola_sens_direction",
+      "to": "srf_zola_sens_sens:sns_fr_sens_judgment",
+      "occurrenceIds": [
+        "occ_cendrillon_987c1a0c6b227d97f009c90d"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_sens_sens:sns_zola_sens_direction",
+      "to": "srf_zola_sens_sens:sns_zola_sens_direction",
+      "form": "sens",
+      "reason": "« dans le sens désiré » describes the desired direction of the conclusion and retains the direction sense."
+    },
+    {
+      "from": "srf_zola_sens_sens:sns_zola_sens_direction",
+      "to": "srf_zola_sens_sens:sns_fr_sens_judgment",
+      "form": "sens",
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_fr_sens_judgment",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sens_judgment",
+        "lemmaId": "lem_zola_sens",
+        "gloss": "good sense; sound judgment",
+        "definition": "Faculté de juger raisonnablement, notamment dans « du bon sens »."
+      },
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_987c1a0c6b227d97f009c90d",
+      "before": {
+        "id": "occ_cendrillon_987c1a0c6b227d97f009c90d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_049",
+        "start": 24,
+        "end": 28,
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_zola_sens_direction"
+      },
+      "after": {
+        "id": "occ_cendrillon_987c1a0c6b227d97f009c90d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_049",
+        "start": 24,
+        "end": 28,
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment"
+      },
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_1_3",
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment",
+        "band": "levels_1_3",
+        "contextFrench": "De la naissance, du bon sens, et d’autres semblables talens.",
+        "correctAnswer": "good sense; sound judgment",
+        "format": "meaning_choice",
+        "targetText": "sens",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "physical direction",
+          "hearing",
+          "meaning of a word",
+          "good sense; sound judgment"
+        ]
+      },
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_4_5",
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment",
+        "band": "levels_4_5",
+        "contextFrench": "De la naissance, du bon _____, et d’autres semblables talens.",
+        "correctAnswer": "sens",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "esprit",
+          "talent",
+          "sens",
+          "courage"
+        ]
+      },
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sens_judgment_zola_sens_sens_levels_6_8",
+        "surfaceFormId": "srf_zola_sens_sens",
+        "senseId": "sns_fr_sens_judgment",
+        "band": "levels_6_8",
+        "contextFrench": "D’avoir de l’esprit, du courage, de la naissance, du bon sens, et d’autres semblables talens.",
+        "correctAnswer": "sens",
+        "format": "target_identification",
+        "promptFrench": "Quel nom désigne ici le jugement raisonnable ?",
+        "choicesFrench": [
+          "talens",
+          "sens",
+          "esprit",
+          "courage"
+        ]
+      },
+      "reason": "« du bon sens » in Cendrillon’s second moral means good judgment, not a physical or procedural direction."
+    }
+  ]
+}

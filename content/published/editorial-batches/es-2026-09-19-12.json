@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "es-2026-09-19-12",
+  "masteryIdsChanged": false,
+  "reviewed": [
+    {
+      "id": "qiz_es_villa_town_es_villa_villa_8c1841a5_levels_1_3",
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read.",
+      "beforeRevision": "rev_3c631b355ed9c6394fe36ced27d8f310b1bf811953c958a977a4387f152330c1"
+    },
+    {
+      "id": "qiz_es_flor_compliment_es_flores_flor_2c42be96_levels_6_8",
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read.",
+      "beforeRevision": "rev_f50841088ac8080d9629078db5a21730045813331238f68b9c1db2c350d741fd"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_villa_town_es_villa_villa_8c1841a5_levels_1_3",
+      "before": {
+        "id": "qiz_es_villa_town_es_villa_villa_8c1841a5_levels_1_3",
+        "surfaceFormId": "srf_es_villa_villa_8c1841a5",
+        "senseId": "sns_es_villa_town",
+        "contextFrench": "La villa tenía una plaza y un ayuntamiento.",
+        "correctAnswer": "town",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "villa",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "town",
+          "country house",
+          "bedroom",
+          "garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_villa_town_es_villa_villa_8c1841a5_levels_1_3",
+        "surfaceFormId": "srf_es_villa_villa_8c1841a5",
+        "senseId": "sns_es_villa_town",
+        "contextFrench": "La villa tenía una plaza y un ayuntamiento.",
+        "correctAnswer": "town",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "villa",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "town",
+          "mountain",
+          "bedroom",
+          "garden"
+        ]
+      },
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_es_flor_compliment_es_flores_flor_2c42be96_levels_6_8",
+      "before": {
+        "id": "qiz_es_flor_compliment_es_flores_flor_2c42be96_levels_6_8",
+        "surfaceFormId": "srf_es_flores_flor_2c42be96",
+        "senseId": "sns_es_flor_compliment",
+        "contextFrench": "Las flores que le echaba eran elogios a su inteligencia.",
+        "correctAnswer": "flores",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué nombre tiene aquí el sentido figurado de cumplidos?",
+        "choicesFrench": [
+          "flores",
+          "echaba",
+          "elogios",
+          "inteligencia"
+        ]
+      },
+      "after": {
+        "id": "qiz_es_flor_compliment_es_flores_flor_2c42be96_levels_6_8",
+        "surfaceFormId": "srf_es_flores_flor_2c42be96",
+        "senseId": "sns_es_flor_compliment",
+        "contextFrench": "Las flores que le echaba aquella tarde alababan su inteligencia.",
+        "correctAnswer": "flores",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "¿Qué nombre tiene aquí el sentido figurado de cumplidos?",
+        "choicesFrench": [
+          "flores",
+          "echaba",
+          "tarde",
+          "inteligencia"
+        ]
+      },
+      "reason": "Final ambiguity check: avoid a legitimate alternate sense as an English distractor and avoid a near-synonymous advanced option. All choices and context read."
+    }
+  ]
+}

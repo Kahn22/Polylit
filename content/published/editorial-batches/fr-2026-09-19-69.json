@@ -1,0 +1,249 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-69",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T15:56:37.757Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_petites_petit:sns_zola_petit_small",
+      "to": "srf_zola_petites_petit:sns_fr_petit_familiar_diminutive",
+      "occurrenceIds": [
+        "occ_zola_af0139f8db541361ba8487f4"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_petites_petit:sns_zola_petit_small",
+      "to": "srf_zola_petites_petit:sns_zola_petit_small",
+      "form": "petites",
+      "reason": "All source occurrences read. Retain physical smallness of carriages and slippers. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_petites_petit:sns_zola_petit_small",
+      "to": "srf_zola_petites_petit:sns_fr_petit_familiar_diminutive",
+      "form": "petites",
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_petites_petit_small_early",
+      "before": {
+        "id": "qiz_zola_petites_petit_small_early",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "contextFrench": "Le contexte pédagogique montre que « petites » renvoie à ceci : de faible dimension, importance ou âge.",
+        "correctAnswer": "small; little",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "petites",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "small; little",
+          "spotted",
+          "mint-scented",
+          "hexagonal"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_petites_petit_small_early",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "band": "levels_1_3",
+        "contextFrench": "Ces petites chaussures conviennent aux pieds d’un enfant.",
+        "correctAnswer": "small",
+        "format": "meaning_choice",
+        "targetText": "petites",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "small",
+          "large",
+          "heavy",
+          "new"
+        ]
+      },
+      "reason": "All source occurrences read. Retain physical smallness of carriages and slippers. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_petites_petit_small_intermediate",
+      "before": {
+        "id": "qiz_zola_petites_petit_small_intermediate",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "contextFrench": "Complétez avec le mot qui signifie « de faible dimension, importance ou âge » : _____.",
+        "correctAnswer": "petites",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "petites",
+          "tachetées",
+          "parfumées à la menthe",
+          "hexagonales"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_petites_petit_small_intermediate",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "band": "levels_4_5",
+        "contextFrench": "Ces boîtes sont _____ : elles tiennent toutes dans la paume de la main.",
+        "correctAnswer": "petites",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "grandes",
+          "immenses",
+          "gigantesques",
+          "petites"
+        ]
+      },
+      "reason": "All source occurrences read. Retain physical smallness of carriages and slippers. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_petites_petit_small_advanced",
+      "before": {
+        "id": "qiz_zola_petites_petit_small_advanced",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "contextFrench": "Dans cette situation, le mot « petites » exprime précisément ceci : de faible dimension, importance ou âge. Paul classe le dossier, tandis que Léa entre dans le bureau, tandis que Marc ouvre la fenêtre.",
+        "correctAnswer": "petites",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « de faible dimension, importance ou âge » ?",
+        "choicesFrench": [
+          "petites",
+          "dossier",
+          "bureau",
+          "fenêtre"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_petites_petit_small_advanced",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small",
+        "band": "levels_6_8",
+        "contextFrench": "Les petites fenêtres laissent entrer moins de lumière que les grandes baies.",
+        "correctAnswer": "petites",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif indique des dimensions réduites ?",
+        "choicesFrench": [
+          "lumière",
+          "baies",
+          "petites",
+          "fenêtres"
+        ]
+      },
+      "reason": "All source occurrences read. Retain physical smallness of carriages and slippers. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_petit_familiar_diminutive",
+      "before": null,
+      "after": {
+        "id": "sns_fr_petit_familiar_diminutive",
+        "lemmaId": "lem_zola_petit",
+        "gloss": "little (familiar or disparaging qualifier)",
+        "definition": "Diminutif exprimant une manière familière ou dépréciative de parler d’une personne, sans mesurer sa taille."
+      },
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_af0139f8db541361ba8487f4",
+      "before": {
+        "id": "occ_zola_af0139f8db541361ba8487f4",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_062",
+        "start": 66,
+        "end": 73,
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_zola_petit_small"
+      },
+      "after": {
+        "id": "occ_zola_af0139f8db541361ba8487f4",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_062",
+        "start": 66,
+        "end": 73,
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_fr_petit_familiar_diminutive"
+      },
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_1_3",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_fr_petit_familiar_diminutive",
+        "band": "levels_1_3",
+        "contextFrench": "« Ces petites prétentieuses ! » dit-il avec mépris, sans parler de leur taille.",
+        "correctAnswer": "little (disparaging)",
+        "format": "meaning_choice",
+        "targetText": "petites",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "respected",
+          "admired",
+          "honoured",
+          "little (disparaging)"
+        ]
+      },
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_4_5",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_fr_petit_familiar_diminutive",
+        "band": "levels_4_5",
+        "contextFrench": "Il les rabaisse en disant : « Ces _____ sottes ! », avec le diminutif au féminin pluriel.",
+        "correctAnswer": "petites",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "petit",
+          "petite",
+          "petites",
+          "petits"
+        ]
+      },
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_petit_familiar_diminutive_zola_petites_petit_levels_6_8",
+        "surfaceFormId": "srf_zola_petites_petit",
+        "senseId": "sns_fr_petit_familiar_diminutive",
+        "band": "levels_6_8",
+        "contextFrench": "Il parle de ces petites dames sur un ton familier, sans rien dire de leurs dimensions physiques.",
+        "correctAnswer": "petites",
+        "format": "target_identification",
+        "promptFrench": "Quel adjectif donne ici une nuance familière plutôt qu’une mesure de taille ?",
+        "choicesFrench": [
+          "dimensions",
+          "petites",
+          "dames",
+          "familier"
+        ]
+      },
+      "reason": "All source occurrences read. Source interpretation limited to nonliteral familiar/diminutive qualification in the gallant context of petites femmes. Do not infer occupation, age, physical height or precise sexual status. Lexicographic support for familiar and disparaging petit: https://fr.wiktionary.org/wiki/petit, senses 6–7, accessed 2026-09-19; source-specific application is contextual inference. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}

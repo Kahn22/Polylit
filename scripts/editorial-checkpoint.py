@@ -692,7 +692,7 @@ try:
                 continue
             if path.name.startswith('.env') or path.suffix in {'.pem', '.key', '.log'}:
                 continue
-            if relative.parts[0].startswith('.') and relative.parts[0] not in {'.github', '.gitignore', '.openai'}:
+            if relative.parts[0].startswith('.') and relative.parts[0] not in {'.github', '.gitignore', '.gitattributes', '.openai'}:
                 continue
             if relative.parts[0] == '.openai' and str(relative) != '.openai/hosting.json':
                 continue

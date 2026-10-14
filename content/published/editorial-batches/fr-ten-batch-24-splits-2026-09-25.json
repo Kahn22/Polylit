@@ -1,0 +1,424 @@
+{
+  "version": 2,
+  "id": "fr-ten-batch-24-splits-2026-09-25",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-25T16:07:22.240Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+      "to": "srf_zola_doute_doute_noun:sns_fr_sans_doute_probably",
+      "occurrenceIds": [
+        "occ_zola_08fc2bd3bcc72fe38ee8d4f0",
+        "occ_zola_cb070a368046b7a1edeced1a",
+        "occ_zola_fc4a4cac019748a7ff2a73e6"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_zola_mets_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mets_mettre:sns_fr_se_mettre_sous_le_coup_liability",
+      "occurrenceIds": [
+        "occ_zola_daaef0aaa304204fd32277a7"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_en_en:sns_zola_en_gerund",
+      "to": "srf_zola_en_en:sns_fr_en_repeated_progression",
+      "occurrenceIds": [
+        "occ_zola_ac01976d7c7f77e2e889be4c"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+      "to": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+      "form": "doute",
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "from": "srf_zola_doute_doute_noun:sns_zola_doute_uncertainty",
+      "to": "srf_zola_doute_doute_noun:sns_fr_sans_doute_probably",
+      "form": "doute",
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "from": "srf_zola_mets_mettre:sns_zola_mettre_place",
+      "to": "srf_zola_mets_mettre:sns_fr_se_mettre_sous_le_coup_liability",
+      "form": "mets",
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "from": "srf_zola_en_en:sns_zola_en_gerund",
+      "to": "srf_zola_en_en:sns_zola_en_gerund",
+      "form": "en",
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    },
+    {
+      "from": "srf_zola_en_en:sns_zola_en_gerund",
+      "to": "srf_zola_en_en:sns_fr_en_repeated_progression",
+      "form": "en",
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_fr_sans_doute_probably",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sans_doute_probably",
+        "lemmaId": "lem_zola_doute_noun",
+        "gloss": "probably; no doubt",
+        "definition": "Dans « sans doute », marque une forte probabilité ou une supposition."
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_08fc2bd3bcc72fe38ee8d4f0",
+      "before": {
+        "id": "occ_zola_08fc2bd3bcc72fe38ee8d4f0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_062",
+        "start": 164,
+        "end": 169,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_zola_doute_uncertainty"
+      },
+      "after": {
+        "id": "occ_zola_08fc2bd3bcc72fe38ee8d4f0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_062",
+        "start": 164,
+        "end": 169,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably"
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_cb070a368046b7a1edeced1a",
+      "before": {
+        "id": "occ_zola_cb070a368046b7a1edeced1a",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_184",
+        "start": 106,
+        "end": 111,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_zola_doute_uncertainty"
+      },
+      "after": {
+        "id": "occ_zola_cb070a368046b7a1edeced1a",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_184",
+        "start": 106,
+        "end": 111,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably"
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_fc4a4cac019748a7ff2a73e6",
+      "before": {
+        "id": "occ_zola_fc4a4cac019748a7ff2a73e6",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_083",
+        "start": 35,
+        "end": 40,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_zola_doute_uncertainty"
+      },
+      "after": {
+        "id": "occ_zola_fc4a4cac019748a7ff2a73e6",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_083",
+        "start": 35,
+        "end": 40,
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably"
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_1_3",
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably",
+        "band": "levels_1_3",
+        "contextFrench": "L’un sans doute par passion cléricale, l’autre peut-être par cet esprit de corps.",
+        "correctAnswer": "probably; no doubt",
+        "format": "meaning_choice",
+        "targetText": "doute",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "never",
+          "by accident",
+          "in secret",
+          "probably; no doubt"
+        ]
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_4_5",
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably",
+        "band": "levels_4_5",
+        "contextFrench": "L’un sans _____ par passion cléricale, l’autre peut-être par esprit de corps.",
+        "correctAnswer": "doute",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "risque",
+          "moyen",
+          "doute",
+          "preuve"
+        ]
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sans_doute_probably_zola_doute_doute_noun_levels_6_8",
+        "surfaceFormId": "srf_zola_doute_doute_noun",
+        "senseId": "sns_fr_sans_doute_probably",
+        "band": "levels_6_8",
+        "contextFrench": "Il n’osa pas, dans la terreur sans doute de l’opinion publique, certainement aussi dans la crainte de livrer tout l’état-major.",
+        "correctAnswer": "doute",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient à l’expression indiquant ici une supposition probable ?",
+        "choicesFrench": [
+          "crainte",
+          "doute",
+          "terreur",
+          "opinion"
+        ]
+      },
+      "reason": "The three « sans doute » spans signal a probable explanation. The remaining « mettre en doute » span expresses uncertainty about the bordereau and retains the noun doubt sense."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_se_mettre_sous_le_coup_liability",
+      "before": null,
+      "after": {
+        "id": "sns_fr_se_mettre_sous_le_coup_liability",
+        "lemmaId": "lem_zola_mettre",
+        "gloss": "to become subject to; expose oneself to",
+        "definition": "Dans « se mettre sous le coup de la loi », se placer en situation d’être poursuivi selon ces dispositions."
+      },
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_daaef0aaa304204fd32277a7",
+      "before": {
+        "id": "occ_zola_daaef0aaa304204fd32277a7",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_189",
+        "start": 54,
+        "end": 58,
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_zola_mettre_place"
+      },
+      "after": {
+        "id": "occ_zola_daaef0aaa304204fd32277a7",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_189",
+        "start": 54,
+        "end": 58,
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability"
+      },
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_1_3",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability",
+        "band": "levels_1_3",
+        "contextFrench": "En portant ces accusations, je me mets sous le coup des articles de la loi sur la presse.",
+        "correctAnswer": "become subject to legal provisions",
+        "format": "meaning_choice",
+        "targetText": "mets",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "forget",
+          "escape",
+          "become subject to legal provisions",
+          "place a physical object"
+        ]
+      },
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_4_5",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability",
+        "band": "levels_4_5",
+        "contextFrench": "En portant ces accusations, je me _____ sous le coup de la loi.",
+        "correctAnswer": "mets",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "repose",
+          "mets",
+          "tiens",
+          "cache"
+        ]
+      },
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_se_mettre_sous_le_coup_liability_zola_mets_mettre_levels_6_8",
+        "surfaceFormId": "srf_zola_mets_mettre",
+        "senseId": "sns_fr_se_mettre_sous_le_coup_liability",
+        "band": "levels_6_8",
+        "contextFrench": "En portant ces accusations, je n’ignore pas que je me mets sous le coup des articles 30 et 31 de la loi sur la presse.",
+        "correctAnswer": "mets",
+        "format": "target_identification",
+        "promptFrench": "Quel verbe exprime le fait de s’exposer à ces dispositions ?",
+        "choicesFrench": [
+          "mets",
+          "portant",
+          "ignore",
+          "articles"
+        ]
+      },
+      "reason": "« Je me mets sous le coup des articles 30 et 31 » means that Zola exposes himself to the cited legal provisions, rather than physically putting an object somewhere."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_en_repeated_progression",
+      "before": null,
+      "after": {
+        "id": "sns_fr_en_repeated_progression",
+        "lemmaId": "lem_zola_en",
+        "gloss": "to; progressively, in a repeated comparison",
+        "definition": "Dans « de plus loin en plus loin », marque le passage progressif d’un degré au suivant."
+      },
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_ac01976d7c7f77e2e889be4c",
+      "before": {
+        "id": "occ_zola_ac01976d7c7f77e2e889be4c",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_095",
+        "start": 83,
+        "end": 85,
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_zola_en_gerund"
+      },
+      "after": {
+        "id": "occ_zola_ac01976d7c7f77e2e889be4c",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_095",
+        "start": 83,
+        "end": 85,
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression"
+      },
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_1_3",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression",
+        "band": "levels_1_3",
+        "contextFrench": "On le déplaçait de plus loin en plus loin.",
+        "correctAnswer": "to progressively greater distance",
+        "format": "meaning_choice",
+        "targetText": "en",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "to progressively greater distance",
+          "while traveling",
+          "at once",
+          "back home"
+        ]
+      },
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_4_5",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression",
+        "band": "levels_4_5",
+        "contextFrench": "On l’éloigna de plus loin _____ plus loin.",
+        "correctAnswer": "en",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "de",
+          "sur",
+          "par",
+          "en"
+        ]
+      },
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_en_repeated_progression_zola_en_en_levels_6_8",
+        "surfaceFormId": "srf_zola_en_en",
+        "senseId": "sns_fr_en_repeated_progression",
+        "band": "levels_6_8",
+        "contextFrench": "On l’éloigna de plus loin en plus loin.",
+        "correctAnswer": "en",
+        "format": "target_identification",
+        "promptFrench": "Quel mot relie les deux degrés de distance dans cette progression ?",
+        "choicesFrench": [
+          "plus",
+          "loin",
+          "en",
+          "éloigna"
+        ]
+      },
+      "reason": "« de plus loin en plus loin » expresses progression toward increasing distance; the fourteen other en occurrences precede a present participle in a gerund construction."
+    }
+  ]
+}

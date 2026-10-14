@@ -12,18 +12,20 @@ The learner catalog contains Émile Zola’s complete *J’Accuse…!* divided i
 
 ## Requirements
 
-- Node.js 22 or newer
+- Node.js 22.12.0 or newer (Node 24 is used in GitHub Actions)
 - npm 10 or newer
+- Python 3 (checkpoint integrity checks)
+- Git (checkout byte-preservation tests)
 
 ## Run locally
 
 ```bash
-npm install
+npm ci
 npm run check
 npm run build:local-review
 ```
 
-`build:local-review` is an explicitly unpublished inspection build written to `review-build/`, separate from the deployment output. The normal `npm run build` and `npm run content:build` enforce editorial approval and currently stop before delivery writes because the review queue is incomplete. `npm run editorial:report` refreshes the review summary and duplicate-candidate report; `npm run publication:release-check` tests release eligibility without generating a site.
+`build:local-review` is an explicitly unpublished inspection build written to `review-build/`, separate from the deployment output. The normal `npm run build` and `npm run content:build` enforce editorial approval and stop before delivery writes if any required reviews are incomplete. `npm run editorial:report` refreshes the review summary and duplicate-candidate report; `npm run publication:release-check` tests release eligibility without generating a site.
 
 Start the browser interface with `npm run dev`. The public homepage contains the future account entry points and an explicit learner-preview button; it does not collect credentials. The learner home organizes texts into Available, Reading, and Completed shelves. A learner may mark any number of texts as Reading; only Reading texts can be opened in Learning View, while both Reading and Completed texts contribute questions to general and text-specific review. Moving a text back to Available preserves mastery and due timestamps but removes its unique items from active review. Marking a text Completed preserves both progress and continuing quiz eligibility; “Read again” restores learning access. Learning View groups indexed thought units into natural passages targeting about 120 words, while preserving canonical wording without English sentence translations. A vocabulary identity or expression becomes encountered only when the learner scrolls its specific thought unit into view; opening the work or preloading a later passage does not encounter unseen material. Vocabulary below mastery Level 4 is underlined in the reader, while vocabulary at Levels 4–8 it remains tappable without an underline. Selecting an occurrence opens its lemma, contextual sense, mastery level, and next review time. Leaving a passage starts a review of due identities in that passage; the learner can complete it, skip ahead with due state unchanged, or return to reread. Book View is available from the library and reader, displays roughly eight learning passages at a time in book typography, and never creates encounters, changes mastery, schedules reviews, underlines vocabulary, or presents quizzes.
 

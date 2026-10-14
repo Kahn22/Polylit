@@ -1,0 +1,2074 @@
+{
+  "version": 2,
+  "id": "fr-2026-09-19-39",
+  "policy": "polylit-editorial-v2",
+  "reviewedBy": "Codex offline contextual review",
+  "reviewedAt": "2026-09-19T14:21:52.155Z",
+  "masteryIdsChanged": true,
+  "progressPolicy": "preserve-history-fresh-on-view-v1",
+  "progressTransfers": [],
+  "mappings": [
+    {
+      "from": "srf_raison:sns_raison_primary",
+      "to": "srf_raison:sns_fr_raison_correctness",
+      "occurrenceIds": [
+        "occ_7f94f4d319d630c815b8dffe",
+        "occ_cendrillon_80900dd11133f002f5d11b05",
+        "occ_cendrillon_5c898c79d0ca8a006ac45c64"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_raison:sns_raison_primary",
+      "to": "srf_raison:sns_fr_raison_state_interest",
+      "occurrenceIds": [
+        "occ_zola_b74a7d23bc9116ef069bc663"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_fr_coup_suddenness",
+      "occurrenceIds": [
+        "occ_zola_7062b74b1f5dbd77c63ae5f0",
+        "occ_parure_6292222350bf6f0e11a9d3a6",
+        "occ_parure_0995eaa04e8b3f22354cb22a",
+        "occ_parure_7f46277d16450f28226dd24f"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_zola_coup_stroke",
+      "occurrenceIds": [
+        "occ_cendrillon_ef4646fb666de550a826ab87",
+        "occ_cendrillon_a7f9352d650186681b7702aa"
+      ],
+      "reusedExistingIdentity": true,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_fr_coup_clock_stroke",
+      "occurrenceIds": [
+        "occ_cendrillon_6aa5b7fd03118c51042f8ce5"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_sabre_sabre:sns_zola_sabre_sword",
+      "to": "srf_zola_sabre_sabre:sns_fr_sabre_military_power",
+      "occurrenceIds": [
+        "occ_zola_8cc7d645bdd85525d9ca86ca",
+        "occ_zola_96679e52c066f7c762993696",
+        "occ_zola_fac7f2b07b1abb6ac2b0d491"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_zola_reaction_5b956f16881d_reaction:sns_zola_reaction_response",
+      "to": "srf_zola_reaction_5b956f16881d_reaction:sns_fr_reaction_political",
+      "occurrenceIds": [
+        "occ_zola_bb06d8f004790622c855ec45"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a:sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53",
+      "to": "srf_fr_as_avoir_verb:sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+      "occurrenceIds": [
+        "occ_parure_df720b88b1f72ae5a9aa29b9",
+        "occ_parure_3bcffd6698f41ac27d241f9e",
+        "occ_cendrillon_129ac600de56407603e22512",
+        "occ_cendrillon_78d332354d6c71e7c61fdff4"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a:sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53",
+      "to": "srf_fr_as_avoir_verb:sns_fr_avoir_compound_auxiliary",
+      "occurrenceIds": [
+        "occ_parure_4192ee4a2015e6d7864ad7fa",
+        "occ_parure_742f58ffdcdd5917b0ad2004",
+        "occ_parure_982eab1776308d9e8063102e",
+        "occ_parure_d8b7662726fba68bb2aee5fa",
+        "occ_parure_b4c69172be6e0c1e91ee432c",
+        "occ_parure_f2c5fd128dca906716f8f71a"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7:sns_parure_prefecture_nom_de_plusieurs_charges_principales_dans_l_empire_romain_85d6282106",
+      "to": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7:sns_fr_prefecture_administration",
+      "occurrenceIds": [
+        "occ_parure_48d3651215cbd1a02aa9caf6"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "historical_only"
+    },
+    {
+      "from": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "to": "srf_fr_bonne_bon_adjective:sns_zola_bon_good",
+      "occurrenceIds": [
+        "occ_cendrillon_cd8a8c13a98397030c613c2d",
+        "occ_cendrillon_b543e7ae567606d8c534800a",
+        "occ_cendrillon_34b6281ed7f27443ebd45b10",
+        "occ_cendrillon_b04fc9a0deca76c1ae0afb46",
+        "occ_cendrillon_6e9354db93b4926e55e60291",
+        "occ_cendrillon_342ba707840bda55893ff80c",
+        "occ_cendrillon_c16b18dca60699aaeb471340"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    },
+    {
+      "from": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "to": "srf_fr_bonne_bon_adjective:sns_fr_bon_fitting",
+      "occurrenceIds": [
+        "occ_cendrillon_d67b8919fa320505af4a0115"
+      ],
+      "reusedExistingIdentity": false,
+      "previousIdentity": "retained"
+    }
+  ],
+  "resolutions": [
+    {
+      "from": "srf_raison:sns_raison_primary",
+      "to": "srf_raison:sns_fr_raison_correctness",
+      "form": "raison",
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_raison:sns_raison_primary",
+      "to": "srf_raison:sns_fr_raison_state_interest",
+      "form": "raison",
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_fr_coup_suddenness",
+      "form": "coup",
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_zola_coup_stroke",
+      "form": "coup",
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_coup_coup:sns_zola_coup_sudden_event",
+      "to": "srf_zola_coup_coup:sns_fr_coup_clock_stroke",
+      "form": "coup",
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_sabre_sabre:sns_zola_sabre_sword",
+      "to": "srf_zola_sabre_sabre:sns_fr_sabre_military_power",
+      "form": "sabre",
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_zola_reaction_5b956f16881d_reaction:sns_zola_reaction_response",
+      "to": "srf_zola_reaction_5b956f16881d_reaction:sns_fr_reaction_political",
+      "form": "réaction",
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a:sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53",
+      "to": "srf_fr_as_avoir_verb:sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+      "form": "as",
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a:sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53",
+      "to": "srf_fr_as_avoir_verb:sns_fr_avoir_compound_auxiliary",
+      "form": "as",
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7:sns_parure_prefecture_nom_de_plusieurs_charges_principales_dans_l_empire_romain_85d6282106",
+      "to": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7:sns_fr_prefecture_administration",
+      "form": "Préfecture",
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "to": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "form": "bonne",
+      "reason": "All source occurrences read. Retain the La Parure domestic-servant noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "to": "srf_fr_bonne_bon_adjective:sns_zola_bon_good",
+      "form": "bonne",
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "from": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b:sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+      "to": "srf_fr_bonne_bon_adjective:sns_fr_bon_fitting",
+      "form": "bonne",
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ],
+  "changes": [
+    {
+      "kind": "senses",
+      "id": "sns_fr_raison_correctness",
+      "before": null,
+      "after": {
+        "id": "sns_fr_raison_correctness",
+        "lemmaId": "lem_raison",
+        "gloss": "being right",
+        "definition": "Justesse d’un jugement ou d’une affirmation, notamment dans avoir raison."
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_7f94f4d319d630c815b8dffe",
+      "before": {
+        "id": "occ_7f94f4d319d630c815b8dffe",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_14",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_raison_primary",
+        "start": 42,
+        "end": 48
+      },
+      "after": {
+        "id": "occ_7f94f4d319d630c815b8dffe",
+        "workId": "wrk_lievre_tortue",
+        "unitId": "unt_lievre_14",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness",
+        "start": 42,
+        "end": 48
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_80900dd11133f002f5d11b05",
+      "before": {
+        "id": "occ_cendrillon_80900dd11133f002f5d11b05",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 205,
+        "end": 211,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_raison_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_80900dd11133f002f5d11b05",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 205,
+        "end": 211,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness"
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_5c898c79d0ca8a006ac45c64",
+      "before": {
+        "id": "occ_cendrillon_5c898c79d0ca8a006ac45c64",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 245,
+        "end": 251,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_raison_primary"
+      },
+      "after": {
+        "id": "occ_cendrillon_5c898c79d0ca8a006ac45c64",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 245,
+        "end": 251,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness"
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_correctness_raison_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_correctness_raison_levels_1_3",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness",
+        "band": "levels_1_3",
+        "contextFrench": "Tu as raison : le calcul confirme exactement ta réponse.",
+        "correctAnswer": "being right",
+        "format": "meaning_choice",
+        "targetText": "raison",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "being right",
+          "being afraid",
+          "being late",
+          "being hungry"
+        ]
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_correctness_raison_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_correctness_raison_levels_4_5",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness",
+        "band": "levels_4_5",
+        "contextFrench": "Son affirmation est exacte ; elle a _____.",
+        "correctAnswer": "raison",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "faim",
+          "peur",
+          "honte",
+          "raison"
+        ]
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_correctness_raison_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_correctness_raison_levels_6_8",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_correctness",
+        "band": "levels_6_8",
+        "contextFrench": "Il avait raison de prévoir la pluie : l’orage vient d’éclater.",
+        "correctAnswer": "raison",
+        "format": "target_identification",
+        "promptFrench": "Quel mot, avec avait, indique que son jugement était juste ?",
+        "choicesFrench": [
+          "pluie",
+          "orage",
+          "raison",
+          "prévoir"
+        ]
+      },
+      "reason": "All source occurrences read. Three source avoir raison uses express correctness, not causal reason. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_raison_state_interest",
+      "before": null,
+      "after": {
+        "id": "sns_fr_raison_state_interest",
+        "lemmaId": "lem_raison",
+        "gloss": "overriding state interest",
+        "definition": "Intérêt supérieur de l’État invoqué pour justifier une décision, dans raison d’État."
+      },
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_b74a7d23bc9116ef069bc663",
+      "before": {
+        "id": "occ_zola_b74a7d23bc9116ef069bc663",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_155",
+        "start": 330,
+        "end": 336,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_raison_primary"
+      },
+      "after": {
+        "id": "occ_zola_b74a7d23bc9116ef069bc663",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_155",
+        "start": 330,
+        "end": 336,
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_state_interest"
+      },
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_state_interest_raison_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_state_interest_raison_levels_1_3",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_state_interest",
+        "band": "levels_1_3",
+        "contextFrench": "Le ministre invoque la raison d’État pour justifier le secret de cette décision.",
+        "correctAnswer": "overriding state interest",
+        "format": "meaning_choice",
+        "targetText": "raison",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "private convenience",
+          "personal affection",
+          "religious belief",
+          "overriding state interest"
+        ]
+      },
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_state_interest_raison_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_state_interest_raison_levels_4_5",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_state_interest",
+        "band": "levels_4_5",
+        "contextFrench": "Il prétend agir au nom de la _____ d’État, faisant passer l’intérêt du pouvoir avant toute autre considération.",
+        "correctAnswer": "raison",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "joie",
+          "fatigue",
+          "raison",
+          "faim"
+        ]
+      },
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_raison_state_interest_raison_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_raison_state_interest_raison_levels_6_8",
+        "surfaceFormId": "srf_raison",
+        "senseId": "sns_fr_raison_state_interest",
+        "band": "levels_6_8",
+        "contextFrench": "La raison d’État sert ici d’argument pour imposer le silence malgré les objections des citoyens.",
+        "correctAnswer": "raison",
+        "format": "target_identification",
+        "promptFrench": "Quel mot fait partie de la locution désignant l’intérêt supérieur de l’État ?",
+        "choicesFrench": [
+          "citoyens",
+          "raison",
+          "argument",
+          "silence"
+        ]
+      },
+      "reason": "All source occurrences read. Zola raison d’État is a political justification, separate from correctness. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_coup_suddenness",
+      "before": null,
+      "after": {
+        "id": "sns_fr_coup_suddenness",
+        "lemmaId": "lem_zola_coup",
+        "gloss": "sudden moment",
+        "definition": "Moment unique et brusque, dans tout à coup ou tout d’un coup, qui signifient soudainement."
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_7062b74b1f5dbd77c63ae5f0",
+      "before": {
+        "id": "occ_zola_7062b74b1f5dbd77c63ae5f0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_102",
+        "start": 16,
+        "end": 20,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_zola_7062b74b1f5dbd77c63ae5f0",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_102",
+        "start": 16,
+        "end": 20,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness"
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_6292222350bf6f0e11a9d3a6",
+      "before": {
+        "id": "occ_parure_6292222350bf6f0e11a9d3a6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_051",
+        "start": 7,
+        "end": 11,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_parure_6292222350bf6f0e11a9d3a6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_051",
+        "start": 7,
+        "end": 11,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness"
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_0995eaa04e8b3f22354cb22a",
+      "before": {
+        "id": "occ_parure_0995eaa04e8b3f22354cb22a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_103",
+        "start": 94,
+        "end": 98,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_parure_0995eaa04e8b3f22354cb22a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_103",
+        "start": 94,
+        "end": 98,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness"
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_7f46277d16450f28226dd24f",
+      "before": {
+        "id": "occ_parure_7f46277d16450f28226dd24f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_112",
+        "start": 138,
+        "end": 142,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_parure_7f46277d16450f28226dd24f",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_112",
+        "start": 138,
+        "end": 142,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness"
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_1_3",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness",
+        "band": "levels_1_3",
+        "contextFrench": "Tout à coup, la lumière s’éteint et la pièce devient noire.",
+        "correctAnswer": "sudden moment",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "regular interval",
+          "planned appointment",
+          "sudden moment",
+          "long delay"
+        ]
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_4_5",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness",
+        "band": "levels_4_5",
+        "contextFrench": "La porte s’ouvre tout à _____, brusquement et sans avertissement.",
+        "correctAnswer": "coup",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "voyage",
+          "coup",
+          "repos",
+          "retard"
+        ]
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_suddenness_zola_coup_coup_levels_6_8",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_suddenness",
+        "band": "levels_6_8",
+        "contextFrench": "Tout d’un coup, un cri interrompt la conversation et les invités se retournent.",
+        "correctAnswer": "coup",
+        "format": "target_identification",
+        "promptFrench": "Quel mot appartient à l’expression qui signifie soudainement ?",
+        "choicesFrench": [
+          "coup",
+          "cri",
+          "conversation",
+          "invités"
+        ]
+      },
+      "reason": "All source occurrences read. The four suddenness expressions are not wand blows or clock strokes. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_ef4646fb666de550a826ab87",
+      "before": {
+        "id": "occ_cendrillon_ef4646fb666de550a826ab87",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 360,
+        "end": 364,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_cendrillon_ef4646fb666de550a826ab87",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_013",
+        "start": 360,
+        "end": 364,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke"
+      },
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_a7f9352d650186681b7702aa",
+      "before": {
+        "id": "occ_cendrillon_a7f9352d650186681b7702aa",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 345,
+        "end": 349,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_cendrillon_a7f9352d650186681b7702aa",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_030",
+        "start": 345,
+        "end": 349,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke"
+      },
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_coup_coup_stroke_early",
+      "before": {
+        "id": "qiz_zola_coup_coup_stroke_early",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "contextFrench": "Un coup de marteau fend la planche en deux.",
+        "correctAnswer": "blow",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "blow",
+          "whisper",
+          "rest",
+          "gift"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_coup_coup_stroke_early",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "band": "levels_1_3",
+        "contextFrench": "Il donne un coup de marteau sur le clou.",
+        "correctAnswer": "blow",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "pause",
+          "blow",
+          "glance",
+          "word"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_coup_coup_stroke_intermediate",
+      "before": {
+        "id": "qiz_zola_coup_coup_stroke_intermediate",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "contextFrench": "D’un seul _____ de marteau, Paul enfonce le clou dans le bois.",
+        "correctAnswer": "coup",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "coup",
+          "repos",
+          "cadeau",
+          "souhait"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_coup_coup_stroke_intermediate",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "band": "levels_4_5",
+        "contextFrench": "Un _____ de poing violent fend la planche.",
+        "correctAnswer": "coup",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "coup",
+          "regard",
+          "mot",
+          "souffle"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_coup_coup_stroke_advanced",
+      "before": {
+        "id": "qiz_zola_coup_coup_stroke_advanced",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "contextFrench": "Le coup de bâton frappe la porte et laisse une marque dans le bois. Nina regarde la poignée, Luc ramasse les outils et Paul apporte une lampe.",
+        "correctAnswer": "coup",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne le choc soudain du bâton contre la porte ?",
+        "choicesFrench": [
+          "coup",
+          "marque",
+          "poignée",
+          "outils"
+        ]
+      },
+      "after": {
+        "id": "qiz_zola_coup_coup_stroke_advanced",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_stroke",
+        "band": "levels_6_8",
+        "contextFrench": "Le forgeron porte un coup sur le métal, qui s’aplatit sous le marteau.",
+        "correctAnswer": "coup",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne un mouvement qui frappe ?",
+        "choicesFrench": [
+          "forgeron",
+          "métal",
+          "marteau",
+          "coup"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse physical stroke sense for both wand blows. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_coup_clock_stroke",
+      "before": null,
+      "after": {
+        "id": "sns_fr_coup_clock_stroke",
+        "lemmaId": "lem_zola_coup",
+        "gloss": "clock stroke",
+        "definition": "Son bref produit par une cloche ou une horloge qui sonne."
+      },
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_6aa5b7fd03118c51042f8ce5",
+      "before": {
+        "id": "occ_cendrillon_6aa5b7fd03118c51042f8ce5",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_025",
+        "start": 264,
+        "end": 268,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_zola_coup_sudden_event"
+      },
+      "after": {
+        "id": "occ_cendrillon_6aa5b7fd03118c51042f8ce5",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_025",
+        "start": 264,
+        "end": 268,
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke"
+      },
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_1_3",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke",
+        "band": "levels_1_3",
+        "contextFrench": "Au dernier coup de l’horloge, les invités se lèvent.",
+        "correctAnswer": "clock stroke",
+        "format": "meaning_choice",
+        "targetText": "coup",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "clock stroke",
+          "footstep",
+          "whisper",
+          "gust of wind"
+        ]
+      },
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_4_5",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke",
+        "band": "levels_4_5",
+        "contextFrench": "La pendule sonne midi ; chaque _____ résonne dans le couloir.",
+        "correctAnswer": "coup",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "pas",
+          "cri",
+          "mot",
+          "coup"
+        ]
+      },
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_coup_clock_stroke_zola_coup_coup_levels_6_8",
+        "surfaceFormId": "srf_zola_coup_coup",
+        "senseId": "sns_fr_coup_clock_stroke",
+        "band": "levels_6_8",
+        "contextFrench": "Un coup de cloche annonce l’heure, puis le village retrouve son silence.",
+        "correctAnswer": "coup",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne un son bref de la cloche ?",
+        "choicesFrench": [
+          "village",
+          "silence",
+          "coup",
+          "cloche"
+        ]
+      },
+      "reason": "All source occurrences read. The first stroke of midnight is audible clock strike, a separate sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_sabre_military_power",
+      "before": null,
+      "after": {
+        "id": "sns_fr_sabre_military_power",
+        "lemmaId": "lem_zola_sabre",
+        "gloss": "military power",
+        "definition": "Pouvoir ou domination de l’armée, représentés par son arme, dans un emploi figuré."
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_8cc7d645bdd85525d9ca86ca",
+      "before": {
+        "id": "occ_zola_8cc7d645bdd85525d9ca86ca",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_146",
+        "start": 13,
+        "end": 18,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_zola_sabre_sword"
+      },
+      "after": {
+        "id": "occ_zola_8cc7d645bdd85525d9ca86ca",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_146",
+        "start": 13,
+        "end": 18,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power"
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_96679e52c066f7c762993696",
+      "before": {
+        "id": "occ_zola_96679e52c066f7c762993696",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_160",
+        "start": 112,
+        "end": 117,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_zola_sabre_sword"
+      },
+      "after": {
+        "id": "occ_zola_96679e52c066f7c762993696",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_160",
+        "start": 112,
+        "end": 117,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power"
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_fac7f2b07b1abb6ac2b0d491",
+      "before": {
+        "id": "occ_zola_fac7f2b07b1abb6ac2b0d491",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_147",
+        "start": 35,
+        "end": 40,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_zola_sabre_sword"
+      },
+      "after": {
+        "id": "occ_zola_fac7f2b07b1abb6ac2b0d491",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_147",
+        "start": 35,
+        "end": 40,
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power"
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_1_3",
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power",
+        "band": "levels_1_3",
+        "contextFrench": "Le pays passe sous la domination du sabre après le coup d’État militaire.",
+        "correctAnswer": "military power",
+        "format": "meaning_choice",
+        "targetText": "sabre",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "public debate",
+          "trade",
+          "education",
+          "military power"
+        ]
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_4_5",
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power",
+        "band": "levels_4_5",
+        "contextFrench": "Dans cette dictature militaire, le _____ remplace le libre débat politique.",
+        "correctAnswer": "sabre",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "dialogue",
+          "scrutin",
+          "sabre",
+          "commerce"
+        ]
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_sabre_military_power_zola_sabre_sabre_levels_6_8",
+        "surfaceFormId": "srf_zola_sabre_sabre",
+        "senseId": "sns_fr_sabre_military_power",
+        "band": "levels_6_8",
+        "contextFrench": "Le sabre impose ses ordres au gouvernement civil ; les généraux décident désormais de tout.",
+        "correctAnswer": "sabre",
+        "format": "target_identification",
+        "promptFrench": "Quel mot symbolise ici le pouvoir militaire ?",
+        "choicesFrench": [
+          "désormais",
+          "sabre",
+          "ordres",
+          "gouvernement"
+        ]
+      },
+      "reason": "All source occurrences read. All three source rhetorical uses symbolize military power, including the handle-kissing image. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_reaction_political",
+      "before": null,
+      "after": {
+        "id": "sns_fr_reaction_political",
+        "lemmaId": "lem_zola_reaction",
+        "gloss": "political reaction",
+        "definition": "Opposition politique aux changements qui vise à conserver ou rétablir un ordre ancien."
+      },
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_zola_bb06d8f004790622c855ec45",
+      "before": {
+        "id": "occ_zola_bb06d8f004790622c855ec45",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_159",
+        "start": 84,
+        "end": 92,
+        "surfaceFormId": "srf_zola_reaction_5b956f16881d_reaction",
+        "senseId": "sns_zola_reaction_response"
+      },
+      "after": {
+        "id": "occ_zola_bb06d8f004790622c855ec45",
+        "workId": "wrk_zola_jaccuse",
+        "unitId": "unt_zola_jaccuse_159",
+        "start": 84,
+        "end": 92,
+        "surfaceFormId": "srf_zola_reaction_5b956f16881d_reaction",
+        "senseId": "sns_fr_reaction_political"
+      },
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_1_3",
+        "surfaceFormId": "srf_zola_reaction_5b956f16881d_reaction",
+        "senseId": "sns_fr_reaction_political",
+        "band": "levels_1_3",
+        "contextFrench": "Les partisans de la réaction veulent rétablir les anciens privilèges abolis par la réforme.",
+        "correctAnswer": "political reaction",
+        "format": "meaning_choice",
+        "targetText": "réaction",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "scientific innovation",
+          "public charity",
+          "political reaction",
+          "social tolerance"
+        ]
+      },
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_4_5",
+        "surfaceFormId": "srf_zola_reaction_5b956f16881d_reaction",
+        "senseId": "sns_fr_reaction_political",
+        "band": "levels_4_5",
+        "contextFrench": "Ce mouvement de _____ combat les réformes pour revenir à l’ordre ancien.",
+        "correctAnswer": "réaction",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "innovation",
+          "réaction",
+          "tolérance",
+          "solidarité"
+        ]
+      },
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_reaction_political_zola_reaction_5b956f16881d_reaction_levels_6_8",
+        "surfaceFormId": "srf_zola_reaction_5b956f16881d_reaction",
+        "senseId": "sns_fr_reaction_political",
+        "band": "levels_6_8",
+        "contextFrench": "La réaction rassemble ceux qui regrettent les anciennes institutions et refusent les transformations politiques.",
+        "correctAnswer": "réaction",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une opposition visant le retour à l’ordre ancien ?",
+        "choicesFrench": [
+          "réaction",
+          "institutions",
+          "transformations",
+          "politiques"
+        ]
+      },
+      "reason": "All source occurrences read. Source political reaction, not generic response to stimulus. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_as_avoir_verb",
+      "before": null,
+      "after": {
+        "id": "srf_fr_as_avoir_verb",
+        "lemmaId": "lem_avoir",
+        "form": "as",
+        "normalized": "as"
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_df720b88b1f72ae5a9aa29b9",
+      "before": {
+        "id": "occ_parure_df720b88b1f72ae5a9aa29b9",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_049",
+        "start": 7,
+        "end": 9,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_df720b88b1f72ae5a9aa29b9",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_049",
+        "start": 7,
+        "end": 9,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0"
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_3bcffd6698f41ac27d241f9e",
+      "before": {
+        "id": "occ_parure_3bcffd6698f41ac27d241f9e",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_067",
+        "start": 19,
+        "end": 21,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_3bcffd6698f41ac27d241f9e",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_067",
+        "start": 19,
+        "end": 21,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0"
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_129ac600de56407603e22512",
+      "before": {
+        "id": "occ_cendrillon_129ac600de56407603e22512",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 202,
+        "end": 204,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_cendrillon_129ac600de56407603e22512",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_009",
+        "start": 202,
+        "end": 204,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0"
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_78d332354d6c71e7c61fdff4",
+      "before": {
+        "id": "occ_cendrillon_78d332354d6c71e7c61fdff4",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 242,
+        "end": 244,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_cendrillon_78d332354d6c71e7c61fdff4",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_014",
+        "start": 242,
+        "end": 244,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0"
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_1_3",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+        "band": "levels_1_3",
+        "contextFrench": "Tu as une clé dans ta poche.",
+        "correctAnswer": "have",
+        "format": "meaning_choice",
+        "targetText": "as",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "lend",
+          "have",
+          "lose",
+          "hide"
+        ]
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_4_5",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+        "band": "levels_4_5",
+        "contextFrench": "Tu _____ assez de temps pour terminer ce travail.",
+        "correctAnswer": "as",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "as",
+          "a",
+          "ont",
+          "avoir"
+        ]
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0_fr_as_avoir_verb_levels_6_8",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_parure_avoir_etre_en_relation_possessive_soit_concrete_ou_abstraite_soit_permanente_ou_occasionnelle_dont_le_possesseur_est_le_sujet_et_le_possede_est_le_complement_d_objet_direct_787c8db8b0",
+        "band": "levels_6_8",
+        "contextFrench": "Tu as toutes les cartes nécessaires pour jouer avec nous.",
+        "correctAnswer": "as",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique une possession présente pour tu ?",
+        "choicesFrench": [
+          "cartes",
+          "jouer",
+          "nous",
+          "as"
+        ]
+      },
+      "reason": "All source occurrences read. Lexical avoir covers possession and abstract states in the four selected source spans, including avoir raison; separate auxiliaries. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_4192ee4a2015e6d7864ad7fa",
+      "before": {
+        "id": "occ_parure_4192ee4a2015e6d7864ad7fa",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_077",
+        "start": 23,
+        "end": 25,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_4192ee4a2015e6d7864ad7fa",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_077",
+        "start": 23,
+        "end": 25,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_742f58ffdcdd5917b0ad2004",
+      "before": {
+        "id": "occ_parure_742f58ffdcdd5917b0ad2004",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_078",
+        "start": 23,
+        "end": 25,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_742f58ffdcdd5917b0ad2004",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_078",
+        "start": 23,
+        "end": 25,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_982eab1776308d9e8063102e",
+      "before": {
+        "id": "occ_parure_982eab1776308d9e8063102e",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_087",
+        "start": 44,
+        "end": 46,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_982eab1776308d9e8063102e",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_087",
+        "start": 44,
+        "end": 46,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_d8b7662726fba68bb2aee5fa",
+      "before": {
+        "id": "occ_parure_d8b7662726fba68bb2aee5fa",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_124",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_d8b7662726fba68bb2aee5fa",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_124",
+        "start": 58,
+        "end": 60,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_b4c69172be6e0c1e91ee432c",
+      "before": {
+        "id": "occ_parure_b4c69172be6e0c1e91ee432c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_127",
+        "start": 28,
+        "end": 30,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_b4c69172be6e0c1e91ee432c",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_127",
+        "start": 28,
+        "end": 30,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_f2c5fd128dca906716f8f71a",
+      "before": {
+        "id": "occ_parure_f2c5fd128dca906716f8f71a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_130",
+        "start": 16,
+        "end": 18,
+        "surfaceFormId": "srf_parure_as_lem_parure_as_noun_0b83fb2fc9_1885b3fc8a",
+        "senseId": "sns_parure_as_carte_a_jouer_d_une_valeur_parfois_minimale_le_plus_souvent_maximale_7519babc53"
+      },
+      "after": {
+        "id": "occ_parure_f2c5fd128dca906716f8f71a",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_130",
+        "start": 16,
+        "end": 18,
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary"
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_1_3",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary",
+        "band": "levels_1_3",
+        "contextFrench": "Tu as terminé ton travail avant midi.",
+        "correctAnswer": "have",
+        "format": "meaning_choice",
+        "targetText": "as",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "have",
+          "will",
+          "must",
+          "can"
+        ]
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_4_5",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary",
+        "band": "levels_4_5",
+        "contextFrench": "Hier, tu _____ fermé la fenêtre avant de partir.",
+        "correctAnswer": "as",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "a",
+          "ont",
+          "avons",
+          "as"
+        ]
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_avoir_compound_auxiliary_fr_as_avoir_verb_levels_6_8",
+        "surfaceFormId": "srf_fr_as_avoir_verb",
+        "senseId": "sns_fr_avoir_compound_auxiliary",
+        "band": "levels_6_8",
+        "contextFrench": "Tu as retrouvé tes clés, alors nous pouvons enfin sortir.",
+        "correctAnswer": "as",
+        "format": "target_identification",
+        "promptFrench": "Quel mot sert d’auxiliaire pour former le passé composé avec retrouvé ?",
+        "choicesFrench": [
+          "pouvons",
+          "sortir",
+          "as",
+          "clés"
+        ]
+      },
+      "reason": "All source occurrences read. The six compound-tense uses require avoir auxiliary rather than card ace. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_prefecture_administration",
+      "before": null,
+      "after": {
+        "id": "sns_fr_prefecture_administration",
+        "lemmaId": "lem_parure_prefecture_noun_f00cda36dd",
+        "gloss": "prefectural administration",
+        "definition": "Administration et services placés sous l’autorité d’un préfet, ou bâtiment qui les abrite."
+      },
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_parure_48d3651215cbd1a02aa9caf6",
+      "before": {
+        "id": "occ_parure_48d3651215cbd1a02aa9caf6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_084",
+        "start": 18,
+        "end": 28,
+        "surfaceFormId": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7",
+        "senseId": "sns_parure_prefecture_nom_de_plusieurs_charges_principales_dans_l_empire_romain_85d6282106"
+      },
+      "after": {
+        "id": "occ_parure_48d3651215cbd1a02aa9caf6",
+        "workId": "wrk_maupassant_la_parure",
+        "unitId": "unt_maupassant_parure_084",
+        "start": 18,
+        "end": 28,
+        "surfaceFormId": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7",
+        "senseId": "sns_fr_prefecture_administration"
+      },
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_1_3",
+        "surfaceFormId": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7",
+        "senseId": "sns_fr_prefecture_administration",
+        "band": "levels_1_3",
+        "contextFrench": "La Préfecture reçoit le public dans le bâtiment où travaillent les services du préfet.",
+        "correctAnswer": "prefectural administration",
+        "format": "meaning_choice",
+        "targetText": "Préfecture",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "school",
+          "hospital",
+          "shop",
+          "prefectural administration"
+        ]
+      },
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_4_5",
+        "surfaceFormId": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7",
+        "senseId": "sns_fr_prefecture_administration",
+        "band": "levels_4_5",
+        "contextFrench": "Le préfet réunit ses services à la _____ pour organiser leur travail.",
+        "correctAnswer": "Préfecture",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "bibliothèque",
+          "caserne",
+          "Préfecture",
+          "boulangerie"
+        ]
+      },
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_prefecture_administration_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7_levels_6_8",
+        "surfaceFormId": "srf_parure_prefecture_lem_parure_prefecture_noun_f00cda36dd_06883038b7",
+        "senseId": "sns_fr_prefecture_administration",
+        "band": "levels_6_8",
+        "contextFrench": "La Préfecture de police accueille les visiteurs dans ses bureaux administratifs.",
+        "correctAnswer": "Préfecture",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne l’administration placée sous l’autorité d’un préfet ?",
+        "choicesFrench": [
+          "bureaux",
+          "Préfecture",
+          "police",
+          "visiteurs"
+        ]
+      },
+      "reason": "All source occurrences read. Modern institutional meaning in source, not ancient Roman office. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_early",
+      "before": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_early",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "contextFrench": "Le professeur emploie « bonne » pour exprimer cette idée : Servante dans une maison bourgeoise, dans un hôtel, etc., fille chargée de soigner un enfant..",
+        "correctAnswer": "maid",
+        "band": "levels_1_3",
+        "format": "meaning_choice",
+        "targetText": "bonne",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "maid",
+          "a window",
+          "a notebook",
+          "a garden"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_early",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "band": "levels_1_3",
+        "contextFrench": "La bonne fait le ménage et s’occupe de la maison de ses employeurs.",
+        "correctAnswer": "domestic servant",
+        "format": "meaning_choice",
+        "targetText": "bonne",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "teacher",
+          "shopkeeper",
+          "domestic servant",
+          "lawyer"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the La Parure domestic-servant noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_intermediate",
+      "before": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_intermediate",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "contextFrench": "Le terme précis pour exprimer « Servante dans une maison bourgeoise, dans un hôtel, etc., fille chargée de soigner un enfant. » est _____.",
+        "correctAnswer": "bonne",
+        "band": "levels_4_5",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "bonne",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_intermediate",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "band": "levels_4_5",
+        "contextFrench": "Ils emploient une _____ pour entretenir la maison et servir les repas.",
+        "correctAnswer": "bonne",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "couturière",
+          "bonne",
+          "avocate",
+          "institutrice"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the La Parure domestic-servant noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_advanced",
+      "before": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_advanced",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "contextFrench": "Dans cette situation, le mot « bonne » exprime précisément ceci : Servante dans une maison bourgeoise, dans un hôtel, etc., fille chargée de soigner un enfant.. Paul compare fenêtre, Léa note cahier et Marc choisit jardin.",
+        "correctAnswer": "bonne",
+        "band": "levels_6_8",
+        "format": "target_identification",
+        "promptFrench": "Quel mot du contexte signifie « Servante dans une maison bourgeoise, dans un hôtel, etc., fille chargée de soigner un enfant. » ?",
+        "choicesFrench": [
+          "bonne",
+          "fenêtre",
+          "cahier",
+          "jardin"
+        ]
+      },
+      "after": {
+        "id": "qiz_parure_bonne_sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8_e30b756231_advanced",
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8",
+        "band": "levels_6_8",
+        "contextFrench": "La bonne nettoie les chambres avant l’arrivée de ses patrons, puis prépare la table.",
+        "correctAnswer": "bonne",
+        "format": "target_identification",
+        "promptFrench": "Quel mot désigne une employée de maison ?",
+        "choicesFrench": [
+          "bonne",
+          "chambres",
+          "patrons",
+          "table"
+        ]
+      },
+      "reason": "All source occurrences read. Retain the La Parure domestic-servant noun. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "surfaceForms",
+      "id": "srf_fr_bonne_bon_adjective",
+      "before": null,
+      "after": {
+        "id": "srf_fr_bonne_bon_adjective",
+        "lemmaId": "lem_zola_bon",
+        "form": "bonne",
+        "normalized": "bonne"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_cd8a8c13a98397030c613c2d",
+      "before": {
+        "id": "occ_cendrillon_cd8a8c13a98397030c613c2d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 145,
+        "end": 150,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_cd8a8c13a98397030c613c2d",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 145,
+        "end": 150,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b543e7ae567606d8c534800a",
+      "before": {
+        "id": "occ_cendrillon_b543e7ae567606d8c534800a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 239,
+        "end": 244,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_b543e7ae567606d8c534800a",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_008",
+        "start": 239,
+        "end": 244,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_34b6281ed7f27443ebd45b10",
+      "before": {
+        "id": "occ_cendrillon_34b6281ed7f27443ebd45b10",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 17,
+        "end": 22,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_34b6281ed7f27443ebd45b10",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_010",
+        "start": 17,
+        "end": 22,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_b04fc9a0deca76c1ae0afb46",
+      "before": {
+        "id": "occ_cendrillon_b04fc9a0deca76c1ae0afb46",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_011",
+        "start": 351,
+        "end": 356,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_b04fc9a0deca76c1ae0afb46",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_011",
+        "start": 351,
+        "end": 356,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_6e9354db93b4926e55e60291",
+      "before": {
+        "id": "occ_cendrillon_6e9354db93b4926e55e60291",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 107,
+        "end": 112,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_6e9354db93b4926e55e60291",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_032",
+        "start": 107,
+        "end": 112,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_342ba707840bda55893ff80c",
+      "before": {
+        "id": "occ_cendrillon_342ba707840bda55893ff80c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_036",
+        "start": 20,
+        "end": 25,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_342ba707840bda55893ff80c",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_036",
+        "start": 20,
+        "end": 25,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_c16b18dca60699aaeb471340",
+      "before": {
+        "id": "occ_cendrillon_c16b18dca60699aaeb471340",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_044",
+        "start": 3,
+        "end": 8,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_c16b18dca60699aaeb471340",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_044",
+        "start": 3,
+        "end": 8,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good"
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_1_3",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good",
+        "band": "levels_1_3",
+        "contextFrench": "C’est une bonne cuisinière : tous ses plats sont réussis.",
+        "correctAnswer": "good",
+        "format": "meaning_choice",
+        "targetText": "bonne",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "young",
+          "good",
+          "poor",
+          "new"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_4_5",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good",
+        "band": "levels_4_5",
+        "contextFrench": "Sa _____ conduite lui vaut l’approbation de tous.",
+        "correctAnswer": "bonne",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "bonne",
+          "mauvaise",
+          "détestable",
+          "blâmable"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_zola_bon_good_fr_bonne_bon_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_zola_bon_good",
+        "band": "levels_6_8",
+        "contextFrench": "La voisine est bonne envers les enfants et les aide avec patience et générosité.",
+        "correctAnswer": "bonne",
+        "format": "target_identification",
+        "promptFrench": "Quel mot exprime une qualité favorable de la personne ?",
+        "choicesFrench": [
+          "voisine",
+          "patience",
+          "générosité",
+          "bonne"
+        ]
+      },
+      "reason": "All source occurrences read. Reuse positive-quality adjective for skilled, kind and pleasant source uses, including bonne grâce; retain noun and separate clothing fit. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "senses",
+      "id": "sns_fr_bon_fitting",
+      "before": null,
+      "after": {
+        "id": "sns_fr_bon_fitting",
+        "lemmaId": "lem_zola_bon",
+        "gloss": "fitting; suitable in size",
+        "definition": "Qui convient par ses dimensions, notamment en parlant d’un vêtement ou d’une chaussure."
+      },
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "occurrences",
+      "id": "occ_cendrillon_d67b8919fa320505af4a0115",
+      "before": {
+        "id": "occ_cendrillon_d67b8919fa320505af4a0115",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_029",
+        "start": 260,
+        "end": 265,
+        "surfaceFormId": "srf_parure_bonne_lem_parure_bonne_noun_c1ad2439e7_1be00e4a3b",
+        "senseId": "sns_parure_bonne_servante_dans_une_maison_bourgeoise_dans_un_hotel_etc_fille_chargee_de_soigner_un_enfant_79b004e1e8"
+      },
+      "after": {
+        "id": "occ_cendrillon_d67b8919fa320505af4a0115",
+        "workId": "wrk_perrault_cendrillon",
+        "unitId": "unt_perrault_cendrillon_029",
+        "start": 260,
+        "end": 265,
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_fr_bon_fitting"
+      },
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_1_3",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_1_3",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_fr_bon_fitting",
+        "band": "levels_1_3",
+        "contextFrench": "Cette chaussure est bonne pour ton pied : elle n’est ni trop grande ni trop petite.",
+        "correctAnswer": "the right size",
+        "format": "meaning_choice",
+        "targetText": "bonne",
+        "prompt": "Meaning",
+        "choicesEnglish": [
+          "the right size",
+          "new",
+          "expensive",
+          "soft"
+        ]
+      },
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_4_5",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_4_5",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_fr_bon_fitting",
+        "band": "levels_4_5",
+        "contextFrench": "Après l’essai, la taille est _____ : le vêtement s’ajuste exactement au corps.",
+        "correctAnswer": "bonne",
+        "format": "surface_completion",
+        "choicesFrench": [
+          "excessive",
+          "insuffisante",
+          "inadéquate",
+          "bonne"
+        ]
+      },
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    },
+    {
+      "kind": "quizItems",
+      "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_6_8",
+      "before": null,
+      "after": {
+        "id": "qiz_fr_bon_fitting_fr_bonne_bon_adjective_levels_6_8",
+        "surfaceFormId": "srf_fr_bonne_bon_adjective",
+        "senseId": "sns_fr_bon_fitting",
+        "band": "levels_6_8",
+        "contextFrench": "La robe lui est bonne maintenant ; aucune retouche n’est nécessaire pour l’ajuster.",
+        "correctAnswer": "bonne",
+        "format": "target_identification",
+        "promptFrench": "Quel mot indique que les dimensions conviennent ?",
+        "choicesFrench": [
+          "retouche",
+          "ajuster",
+          "bonne",
+          "robe"
+        ]
+      },
+      "reason": "All source occurrences read. The slipper fit is a distinct fitting/suitable-size sense. Preserve old identity and mastery; link current spans to the corrected meaning. Three independently authored contextual questions reviewed."
+    }
+  ]
+}
