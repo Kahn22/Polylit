@@ -1,7 +1,12 @@
 {
-  "label": "378-navigation-audit",
+  "label": "379-clean-checkout-audit",
   "handoff": "docs/EDITORIAL_HANDOFF.json",
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 114,
+      "sha256": "0a8f47a2ad012bd45e58d83924d66fc65645c37224dd4c9ec9282fb362bdf9c9"
+    },
     {
       "path": ".github/workflows/check.yml",
       "bytes": 494,
@@ -29,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15398,
-      "sha256": "96614a2f1b121b4555c6bfda6522dc4ebab54d76530c061214e6e7d9d9fe50e1"
+      "bytes": 15506,
+      "sha256": "f526ddeec69340384489906085c4f67d79288c66a9c46a96afbd13e3260d25b6"
     },
     {
       "path": "content/editorial/contextual-issues.json",
@@ -15698,6 +15703,11 @@
       "sha256": "5215cd22940e12669a1c3997f53516abf90f7651676bacef249e4449c31bd9b6"
     },
     {
+      "path": "docs/CLEAN_CHECKOUT_AUDIT_379.txt",
+      "bytes": 4878,
+      "sha256": "202a02cdda29d723e934ea7de72b4f9610f58b9dd5100f023953ca19ee03b0dd"
+    },
+    {
       "path": "docs/CONTENT_ROADMAP.md",
       "bytes": 5513,
       "sha256": "522ac6b372ea4bd3c91ee05fb6cdafd70488ec8a5127fcdcd5ddb899bbabe061"
@@ -15709,8 +15719,8 @@
     },
     {
       "path": "docs/EDITORIAL_HANDOFF.json",
-      "bytes": 120307,
-      "sha256": "621edfb14eb1b3d3f223acf46132bab38ffcc4d6e8907f030fe8d8b5eb334246"
+      "bytes": 120311,
+      "sha256": "afa5332717abb6f4d83d14ac1eca1dfe20a99878e1f4247bef16b5dfa3944787"
     },
     {
       "path": "docs/EDITORIAL_IMPACT.json",
@@ -15720,7 +15730,7 @@
     {
       "path": "docs/EDITORIAL_NEXT_PACKET.json",
       "bytes": 302,
-      "sha256": "36a14f00165e7aef233089c8d0755f7619856eb18481a6e77d07f845c6300748"
+      "sha256": "c23c35ad538126428e41e017eee893f5729782981203851b118dba55b2a0d6d3"
     },
     {
       "path": "docs/EDITORIAL_REVIEW_PLAN.md",
@@ -15824,13 +15834,13 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 53253,
-      "sha256": "8d5a2e63700d2522e94cf408c3b2cf9873e7e9e4f02ffdbce699be72e1b79a0a"
+      "bytes": 53258,
+      "sha256": "f7e47571f839a1079ff8373247ea3d04614628e83fe3bdfca4821bfa01a05f12"
     },
     {
       "path": "package.json",
-      "bytes": 13747,
-      "sha256": "c12a167a3b0b584c40cd71decd9cae39334e3b2167454b5dcc240ba4ecc2a1af"
+      "bytes": 13850,
+      "sha256": "153c12ae29265c84c3dec8d0c0b0bd626ab7de34dde90e45659434bd8afbd8b6"
     },
     {
       "path": "public/_headers",
@@ -16264,8 +16274,8 @@
     },
     {
       "path": "scripts/checkpoint_integrity.py",
-      "bytes": 335741,
-      "sha256": "43c22c03df6a98ff64d8e6f56dc01d9d328c83fba7a270c37e1a44461f3e7503"
+      "bytes": 335889,
+      "sha256": "ba59c0b52f679f07d47b90bdfa1951f5ae1d8855acf1321f1d7e8b3a8567b68e"
     },
     {
       "path": "scripts/compare-micromegas-pages.py",
@@ -16349,8 +16359,8 @@
     },
     {
       "path": "scripts/editorial-checkpoint.py",
-      "bytes": 68056,
-      "sha256": "bdf03460aafce2b151fd20e01551838bcde99fe6de17fedb0a2dba75ca05ddb1"
+      "bytes": 68074,
+      "sha256": "25f5a2e59b06e16ee5893655f278c43cd10c183c2add9fe189ab0fde050e5081"
     },
     {
       "path": "scripts/editorial-ci-report.mjs",
@@ -20281,6 +20291,11 @@
       "path": "tests/expression-surfaces.test.ts",
       "bytes": 7912,
       "sha256": "37b65669cc2091b8a4caf62da6e01d6256facb6226ae312fe4e789b40fe50c2d"
+    },
+    {
+      "path": "tests/git-content-bytes.test.ts",
+      "bytes": 2101,
+      "sha256": "137965c663b1fd47bdb724fb8e89bd2e3d800929068c4d91acd156a491c45c92"
     },
     {
       "path": "tests/helpers/prepared-quizzes.ts",

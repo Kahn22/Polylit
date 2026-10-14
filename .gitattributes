@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep authored code portable while preserving checksum-bound content bytes.
+* text=auto eol=lf
+/content/** -text
