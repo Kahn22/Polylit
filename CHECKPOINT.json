@@ -1,5 +1,5 @@
 {
-  "label": "379-clean-checkout-audit",
+  "label": "380-navigation-gate",
   "handoff": "docs/EDITORIAL_HANDOFF.json",
   "files": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 6245,
-      "sha256": "d9f2498ca055f816838a40507c61787cdb44dd2cc9e1d5d136d95c06af0496eb"
+      "bytes": 6957,
+      "sha256": "e5f4a9ceee28dbd79c71e90117b13a9fed6386fee9713466e76c3c397fe1114b"
     },
     {
       "path": "PUSH_TO_GITHUB.md",
@@ -15699,8 +15699,8 @@
     },
     {
       "path": "docs/CHECKPOINT_RECOVERY.md",
-      "bytes": 2567,
-      "sha256": "5215cd22940e12669a1c3997f53516abf90f7651676bacef249e4449c31bd9b6"
+      "bytes": 3477,
+      "sha256": "a818d0d7fe50964c6d0d390079ee188ec91334596a04dc9e0c651e69c3160f47"
     },
     {
       "path": "docs/CLEAN_CHECKOUT_AUDIT_379.txt",
@@ -15719,8 +15719,8 @@
     },
     {
       "path": "docs/EDITORIAL_HANDOFF.json",
-      "bytes": 120311,
-      "sha256": "afa5332717abb6f4d83d14ac1eca1dfe20a99878e1f4247bef16b5dfa3944787"
+      "bytes": 120498,
+      "sha256": "a534faa7ab7cb26a0b43eb344abc101b1e2b4f4a98164196c5dab119a219f767"
     },
     {
       "path": "docs/EDITORIAL_IMPACT.json",
@@ -15730,7 +15730,7 @@
     {
       "path": "docs/EDITORIAL_NEXT_PACKET.json",
       "bytes": 302,
-      "sha256": "c23c35ad538126428e41e017eee893f5729782981203851b118dba55b2a0d6d3"
+      "sha256": "a2f0151658c21dda163de8c66bdc15a23c507a2f09b91615eec5a322140c4639"
     },
     {
       "path": "docs/EDITORIAL_REVIEW_PLAN.md",
@@ -15839,8 +15839,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 13850,
-      "sha256": "153c12ae29265c84c3dec8d0c0b0bd626ab7de34dde90e45659434bd8afbd8b6"
+      "bytes": 14295,
+      "sha256": "5bef86e6ac1afb87fc1396be6918a8c4b7db6ce5cb2c22ec8a83626b787f3708"
     },
     {
       "path": "public/_headers",
@@ -16263,6 +16263,11 @@
       "sha256": "cd1b8146b4011f5b076c0c9a64ee098d038a7bc8bf265fc4fd13533af140ebf7"
     },
     {
+      "path": "scripts/check-navigation.py",
+      "bytes": 2821,
+      "sha256": "13f7c10dd7b6d90a100c015e72754003b80a30d17905dd780c9c121489e3b803"
+    },
+    {
       "path": "scripts/check-performance.mjs",
       "bytes": 6867,
       "sha256": "87a704af71d4dad152e0ffa6dff24b81d017b197e3a1efefad20bc96bb345c9b"
@@ -16274,8 +16279,8 @@
     },
     {
       "path": "scripts/checkpoint_integrity.py",
-      "bytes": 335889,
-      "sha256": "ba59c0b52f679f07d47b90bdfa1951f5ae1d8855acf1321f1d7e8b3a8567b68e"
+      "bytes": 335959,
+      "sha256": "a377cadc352873ed281ee78aa656a66e7ab0c856a7cd39a9722d2e9420b8c880"
     },
     {
       "path": "scripts/compare-micromegas-pages.py",
@@ -16359,8 +16364,8 @@
     },
     {
       "path": "scripts/editorial-checkpoint.py",
-      "bytes": 68074,
-      "sha256": "25f5a2e59b06e16ee5893655f278c43cd10c183c2add9fe189ab0fde050e5081"
+      "bytes": 68291,
+      "sha256": "747558fc3437596e918139fc8b06ced90a51e7810c26b44c97cdb9f254e4233c"
     },
     {
       "path": "scripts/editorial-ci-report.mjs",
@@ -20446,6 +20451,11 @@
       "path": "tests/micromegas-source-words-64.test.js",
       "bytes": 2329,
       "sha256": "0d01a38e2bf88ca58e0e7b6494cdf986532b090c500253ccc9bac1684565ef3c"
+    },
+    {
+      "path": "tests/navigation-assets.test.ts",
+      "bytes": 2328,
+      "sha256": "d5779eb455f23016cfae86495838db9b2a6483bc90a7f1897478f549847c457a"
     },
     {
       "path": "tests/navigation-build.test.ts",

@@ -27,3 +27,7 @@ Before treating a change as the new working baseline, run `npm run check` and `n
 ## Mandatory text provenance standard
 
 The user adopted `docs/TEXT_SOURCE_STANDARD.md` on 2026-09-21 for ALL existing and future texts in every language. Maintain a versioned dossier under `content/sources/<workId>/`, with edition identity, saved evidence, territorial rights basis, exact canonical checksum, transformations, review and history. Never claim source verification from a download or automated comparison alone. Preserve unresolved legacy provenance honestly. Run `npm run sources:check` after source/text changes. Keep this evidence out of learner downloads and keep source review separate from quiz approval. This requirement does not reinstate the relaxed Pages editorial gate.
+
+## Mandatory navigation checkpoint gate
+
+Every future checkpoint must pass `npm run test:navigation` and the generated-page navigation checks integrated into both build commands. Failures block ZIP creation. Cover login preview, language selection, both libraries, every work in Book and Learning View, review exits, reading positions, history, invalid routes, and signed-out restoration. Verify generated page links/assets under both `/` and `/Polylit/`. Keep these checks in the checkpoint handoff. Automated checks do not certify live-browser behavior: after a GitHub push, inspect Actions and smoke-test the deployed login/language/library/reader/review/sign-out flows before saying deployment is verified.

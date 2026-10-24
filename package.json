@@ -10,8 +10,8 @@
     "build": "npm run build:app && npm run check:performance",
     "build:domain": "tsc -p tsconfig.build.json",
     "build:delivery": "npm run build:domain && node dist/cli/build-delivery.js",
-    "build:local-review": "npm run build:domain && node dist/cli/build-delivery.js --local-review && vite build --outDir review-build && node scripts/create-route-pages.mjs --directory review-build && node scripts/check-performance.mjs --directory review-build",
-    "build:app": "npm run build:delivery && vite build && node scripts/create-route-pages.mjs",
+    "build:local-review": "npm run build:domain && node dist/cli/build-delivery.js --local-review && vite build --outDir review-build && node scripts/create-route-pages.mjs --directory review-build && node scripts/check-performance.mjs --directory review-build && npm run check:navigation -- --directory review-build",
+    "build:app": "npm run build:delivery && vite build && node scripts/create-route-pages.mjs && npm run check:navigation",
     "check": "npm run typecheck && npm run sources:check && python3 -m unittest discover -s tests -p 'test_checkpoint_integrity.py' && npm test",
     "check:performance": "node scripts/check-performance.mjs",
     "content:prepare": "npm run build:domain && node dist/cli/prepare-fixtures.js",
@@ -133,7 +133,9 @@
     "editorial:correct:fr:07": "npm run build:domain && node scripts/correct-french-vocabulary-batch-07.mjs",
     "editorial:correct:fr:08": "npm run build:domain && node scripts/correct-french-vocabulary-batch-08.mjs",
     "editorial:review:fr:clear:09": "npm run build:domain && node scripts/review-french-clear-batch-09.mjs",
-    "editorial:review:fr:clear:10": "npm run build:domain && node scripts/review-french-clear-batch-10.mjs"
+    "editorial:review:fr:clear:10": "npm run build:domain && node scripts/review-french-clear-batch-10.mjs",
+    "test:navigation": "npm test -- tests/routes.test.ts tests/navigation-build.test.ts tests/navigation-assets.test.ts tests/landing-navigation.test.ts tests/app-interactions.test.ts tests/app-startup.test.ts tests/app-state.test.ts tests/reading-visibility.test.ts tests/content-loader.test.ts",
+    "check:navigation": "python3 scripts/check-navigation.py"
   },
   "engines": {
     "node": ">=22.12.0"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkpoint": "Polylit-French-Editorial-379-clean-checkout-audit.zip",
+  "checkpoint": "Polylit-French-Editorial-380-navigation-gate.zip",
   "publicationReady": true,
   "blockedRecords": 0,
   "blockedByKind": {
@@ -2533,6 +2533,9 @@
   "validation": {
     "check": "passed",
     "sourceDossiers": "included in check",
+    "navigationTests": "passed",
+    "generatedNavigation": "passed for local review and every attempted production build",
+    "liveBrowserNavigation": "not checked by this offline command",
     "localReviewBuild": "passed",
     "editorialAudit": "passed",
     "productionBuild": "passed"
